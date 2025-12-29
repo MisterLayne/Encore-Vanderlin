@@ -5081,21 +5081,9 @@
 /area/indoors/town/garrison)
 "fkI" = (
 /obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-w"
-	},
-/obj/effect/decal/cobbleedge{
 	icon_state = "cobbleedge-sread"
 	},
-/obj/effect/decal/cobbleedge{
-	dir = 8;
-	pixel_y = 1
-	},
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-n"
-	},
-/turf/open/floor/blocks,
+/turf/open/floor/cobble,
 /area/under/town/basement)
 "fkK" = (
 /obj/effect/decal/cobbleedge{
@@ -10098,10 +10086,6 @@
 /obj/effect/decal/cobbleedge{
 	dir = 8;
 	pixel_y = 1
-	},
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-n"
 	},
 /turf/open/floor/blocks,
 /area/under/town/basement)
@@ -16990,11 +16974,7 @@
 /turf/open/floor/snow/patchy,
 /area/outdoors/town)
 "rmC" = (
-/obj/structure/door/weak/bolt{
-	dir = 4
-	},
-/obj/effect/mapping_helpers/access/keyset/manor/archive,
-/obj/effect/mapping_helpers/access/locker,
+/obj/structure/door/weak,
 /turf/open/floor/blocks,
 /area/under/town/basement)
 "rnK" = (
