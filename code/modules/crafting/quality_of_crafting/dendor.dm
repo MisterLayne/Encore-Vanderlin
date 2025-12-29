@@ -1,9 +1,9 @@
 /datum/repeatable_crafting_recipe/dendor
 	abstract_type = /datum/repeatable_crafting_recipe/dendor
-	category = "Dendor"
+	category = "Gani"
 
 /datum/repeatable_crafting_recipe/dendor/sacrifice_growing
-	name = "green sacrifice to Dendor (unique)"
+	name = "green sacrifice to Gani (unique)"
 	attacked_atom = /obj/structure/fluff/psycross/crafted/shrine/dendor_gote
 	starting_atom = /obj/item/natural/worms/grub_silk
 	requirements = list(/obj/item/natural/worms/grub_silk = 1,
@@ -13,7 +13,7 @@
 	crafting_sound = 'sound/foley/burning_sacrifice.ogg'
 
 /datum/repeatable_crafting_recipe/dendor/sacrifice_tending
-	name = "viridian sacrifice to Dendor (unique)"
+	name = "viridian sacrifice to Gani (unique)"
 	attacked_atom = /obj/structure/fluff/psycross/crafted/shrine/dendor_gote
 	starting_atom = /obj/item/alch/herb/euphorbia
 	requirements = list(/obj/item/alch/herb/euphorbia = 1,
@@ -23,7 +23,7 @@
 	crafting_sound = 'sound/foley/burning_sacrifice.ogg'
 
 /datum/repeatable_crafting_recipe/dendor/sacrifice_stinging
-	name = "yellow sacrifice to Dendor (unique)"
+	name = "yellow sacrifice to Gani (unique)"
 	attacked_atom = /obj/structure/fluff/psycross/crafted/shrine/dendor_saiga
 	starting_atom = /obj/item/reagent_containers/food/snacks/fish/eel
 	requirements = list(/obj/item/reagent_containers/food/snacks/fish/eel = 1,
@@ -33,7 +33,7 @@
 	crafting_sound = 'sound/foley/burning_sacrifice.ogg'
 
 /datum/repeatable_crafting_recipe/dendor/sacrifice_hiding
-	name = "citrine sacrifice to Dendor (unique)"
+	name = "citrine sacrifice to Gani (unique)"
 	attacked_atom = /obj/structure/fluff/psycross/crafted/shrine/dendor_saiga
 	starting_atom = /obj/item/alch/herb/calendula
 	requirements = list(/obj/item/alch/herb/calendula = 1,
@@ -43,7 +43,7 @@
 	crafting_sound = 'sound/foley/burning_sacrifice.ogg'
 
 /datum/repeatable_crafting_recipe/dendor/sacrifice_devouring
-	name = "red sacrifice to Dendor (unique)"
+	name = "red sacrifice to Gani (unique)"
 	attacked_atom = /obj/structure/fluff/psycross/crafted/shrine/dendor_volf
 	starting_atom = /obj/item/bait/bloody
 	requirements = list(/obj/item/bait/bloody = 2)
@@ -51,7 +51,7 @@
 	crafting_sound = 'sound/foley/burning_sacrifice.ogg'
 
 /datum/repeatable_crafting_recipe/dendor/sacrifice_falconing
-	name = "crimson sacrifice to Dendor (unique)"
+	name = "crimson sacrifice to Gani (unique)"
 	attacked_atom = /obj/structure/fluff/psycross/crafted/shrine/dendor_volf
 	starting_atom = /obj/item/reagent_containers/food/snacks/egg
 	requirements = list(/obj/item/reagent_containers/food/snacks/egg = 1,
@@ -60,7 +60,7 @@
 	crafting_sound = 'sound/foley/burning_sacrifice.ogg'
 
 /datum/repeatable_crafting_recipe/dendor/sacrifice_lording
-	name = "purple sacrifice to Dendor (unique)"
+	name = "purple sacrifice to Gani (unique)"
 	attacked_atom = /obj/structure/fluff/psycross/crafted/shrine/dendor_troll
 	starting_atom = /obj/item/alch/horn
 	requirements = list(/obj/item/alch/horn = 2)
@@ -68,7 +68,7 @@
 	crafting_sound = 'sound/foley/burning_sacrifice.ogg'
 
 /datum/repeatable_crafting_recipe/dendor/sacrifice_shaping
-	name = "indigo sacrifice to Dendor (unique)"
+	name = "indigo sacrifice to Gani (unique)"
 	attacked_atom = /obj/structure/fluff/psycross/crafted/shrine/dendor_troll
 	starting_atom = /obj/item/alch/sinew
 	requirements = list(/obj/item/alch/sinew = 2,

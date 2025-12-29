@@ -572,7 +572,7 @@ BCLASS_TWIST)
 		"Stripes"="stripes_decoration",\
 		"Red Castle"="castle_red_decoration",\
 		"White Castle"="castle_white_decoration",\
-		"Graggar"="graggar_decoration",\
+		"Archdevil"="graggar_decoration",\
 		"Efreet"="efreet_decoration",\
 		"Sun"="sun_decoration",\
 		"Peace"="peace_decoration",\
@@ -593,7 +593,7 @@ BCLASS_TWIST)
 		"Stripes"="stripes_houndecoration",\
 		"Red Castle"="castle_red_houndecoration",\
 		"White Castle"="castle_white_houndecoration",\
-		"Graggar"="graggar_houndecoration",\
+		"Archdevil"="graggar_houndecoration",\
 		"Efreet"="efreet_houndecoration",\
 		"Peace"="peace_houndecoration",\
 		"Sun"="sun_houndecoration",\
@@ -614,7 +614,7 @@ BCLASS_TWIST)
 		"Stripes"="stripes_bucket",\
 		"Red Castle"="castle_red_bucket",\
 		"White Castle"="castle_white_bucket",\
-		"Graggar"="graggar_bucket",\
+		"Archdevil"="graggar_bucket",\
 		"Efreet"="efreet_bucket",\
 		"Peace"="peace_bucket",\
 		"Sun"="sun_bucket",\
@@ -635,7 +635,7 @@ BCLASS_TWIST)
 		"Stripes"="stripes_gbucket",\
 		"Red Castle"="castle_red_gbucket",\
 		"White Castle"="castle_white_gbucket",\
-		"Graggar"="graggar_gbucket",\
+		"Archdevil"="graggar_gbucket",\
 		"Efreet"="efreet_gbucket",\
 		"Peace"="peace_gbucket",\
 		"Sun"="sun_gbucket",\
@@ -656,7 +656,7 @@ BCLASS_TWIST)
 		"Stripes"="stripes_bascinet",\
 		"Red Castle"="castle_red_bascinet",\
 		"White Castle"="castle_white_bascinet",\
-		"Graggar"="graggar_bascinet",\
+		"Archdevil"="graggar_bascinet",\
 		"Efreet"="efreet_bascinet",\
 		"Sun"="sun_bascinet",\
 		"Peace"="peace_bascinet",\

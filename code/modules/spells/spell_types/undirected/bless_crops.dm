@@ -23,8 +23,8 @@
 /datum/action/cooldown/spell/undirected/bless_crops/cast(atom/cast_on)
 	. = ..()
 	owner.visible_message(
-		span_greentext("[owner] blesses the crops with Dendor's Favour!"),
-		span_greentext("I bless the crops with Dendor's Favour!"),
+		span_greentext("[owner] blesses the crops with Gani's Favour!"),
+		span_greentext("I bless the crops with Gani's Favour!"),
 	)
 	var/amount_blessed = 0
 	for(var/obj/structure/soil/soil in view(4, owner))

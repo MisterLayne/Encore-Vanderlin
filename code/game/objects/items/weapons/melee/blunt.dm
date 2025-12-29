@@ -504,7 +504,7 @@
 /obj/item/weapon/mace/goden/steel
 	gripped_intents = list(/datum/intent/mace/smash/heavy) // It's a 2h flanged mace, not a goedendag.
 	name = "grand mace"
-	desc = "A cast polearm, rumored to be the weapon-design used by Psydon himself."
+	desc = "A cast polearm, rumored to be the weapon-design used by Angros himself."
 	icon_state = "polemace"
 	resistance_flags = FIRE_PROOF
 	melting_material = /datum/material/steel

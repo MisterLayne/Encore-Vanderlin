@@ -1,5 +1,5 @@
 /datum/action/cooldown/spell/projectile/eora_curse
-	name = "Eora's Curse"
+	name = "Pomette's Curse"
 	desc = ""
 	button_icon_state = "curse2"
 	sound = 'sound/magic/whiteflame.ogg'

@@ -18,7 +18,7 @@
 	can_have_apprentices = FALSE
 
 	//ALL races and ALL ages are intended
-	//a contrast to Noc gatekeeping knowledge, anyone is allowed to learn about Pestra's medicine and alchemy
+	//a contrast to Akan gatekeeping knowledge, anyone is allowed to learn about Erdl's medicine and alchemy
 	//think of it how IRL age doesn't matter that much when it comes to attending university
 	//you can have 20 year olds in the same group as 60 year olds
 	allowed_ages = ALL_AGES_LIST_CHILD

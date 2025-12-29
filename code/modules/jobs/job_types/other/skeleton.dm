@@ -179,7 +179,7 @@
 	H.recalculate_stats(FALSE)
 	H.grant_language(/datum/language/undead)
 	if(H.dna?.species)
-		H.dna.species.native_language = "Zizo Chant"
+		H.dna.species.native_language = "One Envy Chant"
 		H.dna.species.accent_language = H.dna.species.get_accent(H.dna.species.native_language)
 
 	H.verbs |= /mob/living/carbon/human/proc/praise

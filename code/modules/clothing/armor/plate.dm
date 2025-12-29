@@ -114,7 +114,7 @@
 	desc = "A halfplate decorated with a gold ornament on the chestplate and a fine silk corset. More for decoration then actual use."
 	icon_state = "halfplate_decorated_corset"
 
-//................ Zizo Armor ...............//
+//................ One Envy Armor ...............//
 
 /obj/item/clothing/armor/plate/full/zizo
 	name = "darksteel fullplate"
@@ -125,7 +125,7 @@
 	sleeved = 'icons/roguetown/clothing/special/onmob/evilarmor.dmi'
 	sellprice = 0 // Incredibly evil Zizoid armor, this should be burnt, nobody wants this
 
-//................ Matthios Armor ...............//
+//................ Deceivers Armor ...............//
 
 /obj/item/clothing/armor/plate/full/matthios
 	name = "gilded fullplate"
@@ -136,7 +136,7 @@
 	sleeved = 'icons/roguetown/clothing/special/onmob/evilarmor.dmi'
 	sellprice = 0 // See above comment
 
-//.............. Graggar Armor .................//
+//.............. Archdevil Armor .................//
 
 /obj/item/clothing/armor/plate/full/graggar
 	name = "vicious full-plate"
@@ -188,7 +188,7 @@
 
 /obj/item/clothing/armor/plate/fluted/ornate/ordinator
 	name = "inquisitorial ordinator's plate"
-	desc = "A relic that is said to have survived the early sieges of Grenzelhoft, refurbished and repurposed to slay the arch-enemy in the name of Psydon. <br> A fluted cuirass that has been reinforced with thick padding and an additional shoulder piece. You will endure."
+	desc = "A relic that is said to have survived the early sieges of Grenzelhoft, refurbished and repurposed to slay the arch-enemy in the name of Angros. <br> A fluted cuirass that has been reinforced with thick padding and an additional shoulder piece. You will endure."
 	icon_state = "ordinatorplate"
 
 

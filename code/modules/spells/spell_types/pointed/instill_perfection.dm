@@ -9,7 +9,7 @@
 	associated_skill = /datum/skill/magic/holy
 	required_items = list(/obj/item/clothing/neck/psycross/silver/eora)
 
-	invocation = "Eora, lend some of your divine beauty!"
+	invocation = "Pomette, lend some of your divine beauty!"
 	invocation_type = INVOCATION_SHOUT
 
 	charge_required = FALSE

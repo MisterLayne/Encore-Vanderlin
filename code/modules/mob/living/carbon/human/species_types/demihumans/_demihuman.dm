@@ -15,9 +15,9 @@
 	desc = "Hollowkin are short lived, widely diverse, and have an insatiable hatred for dark elves. \
 	This hate stems from their long standing political neighbor and rival, \
 	the Zizonic dark-elven kingdoms of Subterra. \
-	Dendor and Xylix stand as the 'patron-deities' of this species despite having no hand in their creation. \
+	Gani and Iliope stand as the 'patron-deities' of this species despite having no hand in their creation. \
 	Hollowkin view freedom to be of the upmost importance due to their dark-elven neighbors' tendencies toward slavery and their own history of subjugation. \
-	They also, often mistakenly, worship Dendor for the boon of their animalistic nature, perceiving him as the source of their traits, talents, and instinct. \
+	They also, often mistakenly, worship Gani for the boon of their animalistic nature, perceiving him as the source of their traits, talents, and instinct. \
 	\n\n\
 	Their true origin is much darker. Hollowkin are the product of dark-elven ingenuity and fleshcrafting. \
 	Their creation is a simple story of malice and greed- of sapient animal hybrid slave homunculi, \
@@ -27,7 +27,7 @@
 	declaring them but nothing more than animals or pets. \
 	Hollowkin react violently to dark-elven attempts at oppression, this leads to conflicts across the world of Psydonia. \
 	\n\n\
-	To the unaligned observer, hollowkin are often seen amongst bandit bands, working openly with Agents of Matthios, \
+	To the unaligned observer, hollowkin are often seen amongst bandit bands, working openly with Agents of Deceivers, \
 	conflating the idea of freedom between the two deities. There is, of course, the old wives' tales that circulate... \
 	how hollowkin lead to infestations of Werewolves. Hollowkin are often denied nobility from this rumour alone. \
 	Whether this is true or not is unknown to the common person, \

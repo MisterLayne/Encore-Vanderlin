@@ -1,5 +1,5 @@
 /datum/round_event_control/zizos_misandry
-	name = "Zizo's Misandry"
+	name = "One Envy's Misandry"
 	track = EVENT_TRACK_PERSONAL
 	typepath = /datum/round_event/zizos_misandry
 	weight = 10
@@ -50,7 +50,7 @@
 
 	bordered_message(chosen_one, list(
 		span_userdanger("YOU ARE ZIZO'S CHOSEN!"),
-		span_notice("Men are weak and must be dominated. Kick a male in the nuts to satisfy Zizo!"),
+		span_notice("Men are weak and must be dominated. Kick a male in the nuts to satisfy One Envy!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/zizo_omen.ogg', 100)
 

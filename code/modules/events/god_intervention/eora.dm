@@ -1,5 +1,5 @@
 /datum/round_event_control/eora_matchmaking
-	name = "Eora's Matchmaking"
+	name = "Pomette's Matchmaking"
 	track = EVENT_TRACK_INTERVENTION
 	typepath = /datum/round_event/eora_matchmaking
 	weight = 8
@@ -75,7 +75,7 @@
 
 		bordered_message(male, list(
 			span_userdanger("YOU ARE EORA'S LOVEBIRD!"),
-			span_rose("Eora's voice whispers in your heart - you feel an irresistible urge to finally get married..."),
+			span_rose("Pomette's voice whispers in your heart - you feel an irresistible urge to finally get married..."),
 			span_rose("You can choose anyone you fancy to fulfill this desire, but the name of [span_notice("[female.real_name]")], the [female.job] seems to get your heart racing for some reason..."),
 		))
 		male.playsound_local(male, 'sound/vo/female/gen/giggle (1).ogg', 100)
@@ -86,7 +86,7 @@
 
 		bordered_message(female, list(
 			span_userdanger("YOU ARE EORA'S LOVEBIRD!"),
-			span_rose("Eora's voice whispers in your heart - you feel an irresistible urge to finally get married..."),
+			span_rose("Pomette's voice whispers in your heart - you feel an irresistible urge to finally get married..."),
 			span_rose("You can choose anyone you fancy to fulfill this desire, but the name of [span_notice("[male.real_name]")], the [male.job] seems to get your heart racing for some reason..."),
 		))
 		female.playsound_local(female, 'sound/vo/female/gen/giggle (1).ogg', 100)

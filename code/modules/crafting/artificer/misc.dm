@@ -486,57 +486,57 @@
 	craftdiff = 3
 
 /datum/artificer_recipe/psycross/noc
-	name = "Noc Psycross"
+	name = "Akan Psycross"
 	required_item = /obj/item/ingot/silver
 	created_item = /obj/item/clothing/neck/psycross/silver/noc
 
 /datum/artificer_recipe/psycross/astrata
-	name = "Astrata Psycross"
+	name = "Visires Psycross"
 	required_item = /obj/item/ingot/silver
 	created_item = /obj/item/clothing/neck/psycross/silver/astrata
 
 /datum/artificer_recipe/psycross/dendor
-	name = "Dendor Psycross"
+	name = "Gani Psycross"
 	required_item = /obj/item/ingot/silver
 	created_item = /obj/item/clothing/neck/psycross/silver/dendor
 
 /datum/artificer_recipe/psycross/abyssor
-	name = "Abyssor Psycross"
+	name = "Mjallidhorn Psycross"
 	required_item = /obj/item/ingot/silver
 	created_item = /obj/item/clothing/neck/psycross/silver/abyssor
 
 /datum/artificer_recipe/psycross/necra
-	name = "Necra Psycross"
+	name = "Valdala Psycross"
 	required_item = /obj/item/ingot/silver
 	created_item = /obj/item/clothing/neck/psycross/silver/necra
 
 /datum/artificer_recipe/psycross/ravox
-	name = "Ravox Psycross"
+	name = "Al'Aqshir Psycross"
 	required_item = /obj/item/ingot/silver
 	created_item = /obj/item/clothing/neck/psycross/silver/ravox
 
 /datum/artificer_recipe/psycross/xylix
-	name = "Xylix Psycross"
+	name = "Iliope Psycross"
 	required_item = /obj/item/ingot/silver
 	created_item = /obj/item/clothing/neck/psycross/silver/xylix
 
 /datum/artificer_recipe/psycross/eora
-	name = "Eora Psycross"
+	name = "Pomette Psycross"
 	required_item = /obj/item/ingot/silver
 	created_item = /obj/item/clothing/neck/psycross/silver/eora
 
 /datum/artificer_recipe/psycross/pestra
-	name = "Pestra Psycross"
+	name = "Erdl Psycross"
 	required_item = /obj/item/ingot/silver
 	created_item = /obj/item/clothing/neck/psycross/silver/pestra
 
 /datum/artificer_recipe/psycross/malum_silver
-	name = "Malum Psycross"
+	name = "Goler Kanh Psycross"
 	required_item = /obj/item/ingot/silver
 	created_item = /obj/item/clothing/neck/psycross/silver/malum
 
 /datum/artificer_recipe/psycross/malum_steel
-	name = "Malum Steel Psycross"
+	name = "Goler Kanh Steel Psycross"
 	required_item = /obj/item/ingot/silver
 	created_item = /obj/item/clothing/neck/psycross/silver/malum/steel
 	additional_items = list(/obj/item/ingot/steel = 1)

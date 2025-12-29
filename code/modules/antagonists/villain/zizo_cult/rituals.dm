@@ -218,7 +218,7 @@ GLOBAL_LIST_INIT(ritualslist, build_zizo_rituals())
 			assassin_found = TRUE
 			var/obj/item/weapon/knife/dagger/steel/profane/dagger = locate() in HL.get_all_gear()
 			if(dagger)
-				to_chat(HL, "profane dagger whispers, <span class='danger'>\"The terrible Zizo has called for our aid. Hunt and strike down our common foe, [target.real_name]!\"</span>")
+				to_chat(HL, "profane dagger whispers, <span class='danger'>\"The terrible One Envy has called for our aid. Hunt and strike down our common foe, [target.real_name]!\"</span>")
 	if(!target || !assassin_found)
 		to_chat(user, span_warning("There has been no answer to your call to the Dark Sun. It seems his servants are far from here..."))
 		return

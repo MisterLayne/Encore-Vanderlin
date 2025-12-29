@@ -37,7 +37,7 @@
 		to_chat(user, span_notice("You cannot infuse life into the undead! The rot must be cured first."))
 		return FALSE
 	if(HAS_TRAIT(target, TRAIT_NECRA_CURSE))
-		to_chat(user, span_warning("Necra holds tight to this one."))
+		to_chat(user, span_warning("Valdala holds tight to this one."))
 		return FALSE
 	if(target.get_lux_tainted_status())
 		tainted_mob = TRUE
@@ -81,7 +81,7 @@
 	target.grab_ghost(force = TRUE) // even suicides
 	target.emote("breathgasp")
 	target.update_body()
-	target.visible_message(span_notice("[target] is dragged back from Necra's hold!"), span_green("I awake from the void."))
+	target.visible_message(span_notice("[target] is dragged back from Valdala's hold!"), span_green("I awake from the void."))
 	qdel(tool)
 	target.remove_status_effect(/datum/status_effect/debuff/lux_drained)
 	target.remove_status_effect(/datum/status_effect/debuff/flaw_lux_taken)

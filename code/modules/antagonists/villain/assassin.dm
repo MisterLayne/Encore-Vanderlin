@@ -39,7 +39,7 @@
 		owner.special_items["Profane Dagger"] = yea // Assigned assassins can get their special dagger from right clicking certain objects.
 		owner.special_items["Profane Razor"] = wah //the mistakes of coders past trickle down to me here, so shitty var names persist
 		owner.special_items["Lock Pick"] = gah
-		to_chat(owner.current, "<span class='danger'>I've blended in well up until this point, but it's time for the Hunted of Graggar to perish. I have tools hidden away in case I am captured or need to infiltrate a compound without weapons.</span>")
+		to_chat(owner.current, "<span class='danger'>I've blended in well up until this point, but it's time for the Hunted of Archdevil to perish. I have tools hidden away in case I am captured or need to infiltrate a compound without weapons.</span>")
 	return ..()
 
 /mob/living/carbon/human/proc/who_targets() // Verb for the assassin to remember their targets.
@@ -66,7 +66,7 @@
 		if(istype(I, /obj/item/weapon/knife/dagger/steel/profane))
 			for(var/mob/dead/observer/profane/A in I) // Each trapped soul is announced to the server
 				if(A)
-					to_chat(world, "The [A.name] has been stolen for Graggar by [owner.name].<span class='greentext'>DAMNATION!</span>")
+					to_chat(world, "The [A.name] has been stolen for Archdevil by [owner.name].<span class='greentext'>DAMNATION!</span>")
 					traitorwin = TRUE
 
 	if(!considered_alive(owner))

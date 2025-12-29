@@ -1,6 +1,6 @@
 /datum/job/advclass/pilgrim/rare/preacher
 	title = "Preacher"
-	tutorial = "A devout follower of Psydon, you came to this land with nothing more than \
+	tutorial = "A devout follower of Angros, you came to this land with nothing more than \
 	the clothes on your back and the faith in your heart. \n\
 	Sway these nonbelievers to the right path!"
 	allowed_races = RACES_PLAYER_GRENZ

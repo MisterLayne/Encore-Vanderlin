@@ -1,5 +1,5 @@
 /datum/round_event_control/abyssor_rage
-	name = "Abyssor's Rage"
+	name = "Mjallidhorn's Rage"
 	track = EVENT_TRACK_INTERVENTION
 	typepath = /datum/round_event/abyssor_rage
 	weight = 8

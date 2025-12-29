@@ -4,7 +4,7 @@
 
 	outfit = /datum/outfit/adventurer/briar
 	category_tags = list(CTAG_PILGRIM)
-	tutorial = "Stoic gardeners or flesh-eating predators, all can follow Dendor's path. <br>His Briars scorn civilized living, many embracing their animal nature, being fickle and temperamental."
+	tutorial = "Stoic gardeners or flesh-eating predators, all can follow Gani's path. <br>His Briars scorn civilized living, many embracing their animal nature, being fickle and temperamental."
 //	allowed_patrons = list(/datum/patron/divine/dendor)		this doesn't work so long its a subclass type. Besides its preferable to forceswitch as it does to make selection less clunky.
 	cmode_music = 'sound/music/cmode/garrison/CombatForestGarrison.ogg'
 	total_positions = 4	// to be lowered to 2? once testing is done
@@ -52,7 +52,7 @@
 		if(H.age == AGE_OLD)
 			H.adjust_skillrank(/datum/skill/magic/holy, 1, TRUE)
 
-		// the unique Dendor crafting recipes. Dendor shrines (pantheon cross) and alt cosmetic helmet
+		// the unique Gani crafting recipes. Gani shrines (pantheon cross) and alt cosmetic helmet
 		H.mind.teach_crafting_recipe(/datum/repeatable_crafting_recipe/dendor/shillelagh)
 		H.mind.teach_crafting_recipe(/datum/repeatable_crafting_recipe/dendor/forestdelight)
 		H.mind.teach_crafting_recipe(/datum/repeatable_crafting_recipe/dendor/visage)
@@ -72,15 +72,15 @@
 		devotion.grant_to(H)
 
 /datum/outfit/adventurer/briar
-	var/tutorial = "<br><br><font color='#44720e'><span class='bold'>You know well how to make a shrine to Dendor, wood, thorns, and the head of a favored animal.<br><br>Choose a path stinging, devouring or growing, and make your sacrifices...<br><br>Remember - Dendor will only grant special powers from Blessing the first time you do receive it, and only those mastering all his Miracles can unlock their full potential.  </span></font><br><br>"
+	var/tutorial = "<br><br><font color='#44720e'><span class='bold'>You know well how to make a shrine to Gani, wood, thorns, and the head of a favored animal.<br><br>Choose a path stinging, devouring or growing, and make your sacrifices...<br><br>Remember - Gani will only grant special powers from Blessing the first time you do receive it, and only those mastering all his Miracles can unlock their full potential.  </span></font><br><br>"
 
 /datum/outfit/adventurer/briar/post_equip(mob/living/carbon/human/H)
 	..()
 	to_chat(H, tutorial)
 
-/*	.................   Base Blessing of Dendor   ................... */
+/*	.................   Base Blessing of Gani   ................... */
 /obj/item/dendor_blessing
-	name = "blank blessing of Dendor"
+	name = "blank blessing of Gani"
 	icon = 'icons/roguetown/misc/magick.dmi'
 	icon_state = ""
 	plane = -1
@@ -111,7 +111,7 @@
 		var/paths = list(TRAIT_DENDOR_GROWING, TRAIT_DENDOR_STINGING, TRAIT_DENDOR_DEVOURING, TRAIT_DENDOR_LORDING)
 		for(var/T in paths)
 			if(HAS_TRAIT(user, T) && T != path_trait)
-				to_chat(user, span_warning("Dendor rejects my offering... I already follow another path."))
+				to_chat(user, span_warning("Gani rejects my offering... I already follow another path."))
 				icon_state = initial(icon_state)
 				return
 
@@ -121,7 +121,7 @@
 			return
 
 		if(gives_tier2 && HAS_TRAIT(user, TRAIT_BLESSED))
-			to_chat(user, span_info("Dendor has already blessed me once. Further miracles must be earned differently."))
+			to_chat(user, span_info("Gani has already blessed me once. Further miracles must be earned differently."))
 			icon_state = initial(icon_state)
 			return
 
@@ -138,7 +138,7 @@
 
 		qdel(src)
 	else
-		to_chat(user, span_warning("Dendor finds me unworthy of his blessings..."))
+		to_chat(user, span_warning("Gani finds me unworthy of his blessings..."))
 	return
 
 /obj/item/dendor_blessing/proc/check_blessing_requirements(mob/living/user)
@@ -150,9 +150,9 @@
 	user.emote("smile")
 	user.apply_status_effect(/datum/status_effect/buff/calm)
 
-/*	.................   Green Blessings of Dendor   ................... */
+/*	.................   Green Blessings of Gani   ................... */
 /obj/item/dendor_blessing/growing
-	name = "growing blessing of Dendor"
+	name = "growing blessing of Gani"
 	icon_state = "dendor_grow"
 	associated_shrine = /obj/structure/fluff/psycross/crafted/shrine/dendor_gote
 	path_trait = TRAIT_DENDOR_GROWING
@@ -168,7 +168,7 @@
 	user.apply_status_effect(/datum/status_effect/buff/calm)
 
 /obj/item/dendor_blessing/tending
-	name = "tending blessing of Dendor"
+	name = "tending blessing of Gani"
 	icon_state = "dendor_grow"
 	color = "#35ffc6"
 	associated_shrine = /obj/structure/fluff/psycross/crafted/shrine/dendor_gote
@@ -185,9 +185,9 @@
 	user.add_spell(/datum/action/cooldown/spell/conjure/garden_fae, source = user.cleric)
 	user.apply_status_effect(/datum/status_effect/buff/calm)
 
-/*	.................   Yellow Blessings of Dendor   ................... */
+/*	.................   Yellow Blessings of Gani   ................... */
 /obj/item/dendor_blessing/stinging
-	name = "stinging blessing of Dendor"
+	name = "stinging blessing of Gani"
 	icon_state = "dendor_sting"
 	associated_shrine = /obj/structure/fluff/psycross/crafted/shrine/dendor_saiga
 	path_trait = TRAIT_DENDOR_STINGING
@@ -204,7 +204,7 @@
 	user.apply_status_effect(/datum/status_effect/buff/calm)
 
 /obj/item/dendor_blessing/hiding
-	name = "hiding blessing of Dendor"
+	name = "hiding blessing of Gani"
 	icon_state = "dendor_sting"
 	color = "#e39c2b"
 	associated_shrine = /obj/structure/fluff/psycross/crafted/shrine/dendor_saiga
@@ -220,9 +220,9 @@
 	user.add_spell(/datum/action/cooldown/spell/undirected/jaunt/bush_jaunt, source = user.cleric)
 	user.apply_status_effect(/datum/status_effect/buff/calm)
 
-/*	.................  Red Blessings of Dendor   ................... */
+/*	.................  Red Blessings of Gani   ................... */
 /obj/item/dendor_blessing/devouring
-	name = "devouring blessing of Dendor"
+	name = "devouring blessing of Gani"
 	icon_state = "dendor_consume"
 	associated_shrine = /obj/structure/fluff/psycross/crafted/shrine/dendor_volf
 	path_trait = TRAIT_DENDOR_DEVOURING
@@ -230,7 +230,7 @@
 
 /obj/item/dendor_blessing/devouring/check_blessing_requirements(mob/living/user)
 	if(!user.get_spell(/datum/action/cooldown/spell/undirected/bless_crops))
-		to_chat(user, span_warning("My faith to Dendor is insufficient..."))
+		to_chat(user, span_warning("My faith to Gani is insufficient..."))
 		return FALSE
 	return ..()
 
@@ -258,7 +258,7 @@
 	to_chat(user, span_warning("Things that grow no longer interest me, the desire to hunt fills my heart!"))
 
 /obj/item/dendor_blessing/falconing
-	name = "falconing blessing of Dendor"
+	name = "falconing blessing of Gani"
 	icon_state = "dendor_consume"
 	color = "#d52bff"
 	associated_shrine = /obj/structure/fluff/psycross/crafted/shrine/dendor_volf
@@ -274,9 +274,9 @@
 	user.add_spell(/datum/action/cooldown/spell/projectile/falcon_disrupt, source = user.cleric)
 	user.apply_status_effect(/datum/status_effect/buff/calm)
 
-/*	.................  Purple Blessings of Dendor   ................... */
+/*	.................  Purple Blessings of Gani   ................... */
 /obj/item/dendor_blessing/lording
-	name = "lording blessing of Dendor"
+	name = "lording blessing of Gani"
 	icon_state = "dendor_lord"
 	associated_shrine = /obj/structure/fluff/psycross/crafted/shrine/dendor_troll
 	path_trait = TRAIT_DENDOR_LORDING
@@ -284,7 +284,7 @@
 
 /obj/item/dendor_blessing/lording/check_blessing_requirements(mob/living/user)
 	if(!user.get_spell(/datum/action/cooldown/spell/healing))
-		to_chat(user, span_warning("My faith to Dendor is insufficient..."))
+		to_chat(user, span_warning("My faith to Gani is insufficient..."))
 		return FALSE
 	return ..()
 
@@ -300,7 +300,7 @@
 	to_chat(user, span_warning("I no longer care for mending wounds, let the lords of the forest be known!"))
 
 /obj/item/dendor_blessing/shaping
-	name = "shaping blessing of Dendor"
+	name = "shaping blessing of Gani"
 	icon_state = "dendor_lord"
 	color = "#14b7ff"
 	associated_shrine = /obj/structure/fluff/psycross/crafted/shrine/dendor_troll
@@ -311,7 +311,7 @@
 /obj/item/dendor_blessing/shaping/give_blessing(mob/living/carbon/human/user)
 	playsound(get_turf(user), 'sound/vo/smokedrag.ogg', 100, TRUE)
 	playsound(get_turf(user), pick('sound/vo/mobs/troll/idle1.ogg','sound/vo/mobs/troll/idle2.ogg'), 50, TRUE)
-	to_chat(user, span_good("You grow taller and stronger, the might of Dendor surges through you."))
+	to_chat(user, span_good("You grow taller and stronger, the might of Gani surges through you."))
 	user.emote("smile")
 	user.add_spell(/datum/action/cooldown/spell/undirected/troll_shape, source = user.cleric)
 	user.apply_status_effect(/datum/status_effect/buff/calm)

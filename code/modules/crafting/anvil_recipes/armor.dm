@@ -76,7 +76,7 @@
 // BRONZE HELMET
 
 /datum/anvil_recipe/armor/bronze/helmet
-	name = "Abyssor Helmet (+Bronze Bar)"
+	name = "Mjallidhorn Helmet (+Bronze Bar)"
 	recipe_name = "an abyssor helmet"
 	req_bar = /obj/item/ingot/bronze
 	additional_items = list(/obj/item/ingot/bronze)
@@ -529,7 +529,7 @@
 	abstract_type = /datum/anvil_recipe/armor/steel/templar
 
 /datum/anvil_recipe/armor/steel/templar/helmet_noc
-	name = "Noc Helmet (+Silver Bar)"
+	name = "Akan Helmet (+Silver Bar)"
 	recipe_name = "a noc helmet"
 	created_item = /obj/item/clothing/head/helmet/heavy/necked/noc
 	additional_items = list(/obj/item/ingot/silver)
@@ -553,7 +553,7 @@
 	additional_items = list(/obj/item/ingot/iron)
 
 /datum/anvil_recipe/armor/steel/templar/helmet_dendor
-	name = "Dendor Helmet (+Small Log)"
+	name = "Gani Helmet (+Small Log)"
 	recipe_name = "a dendorian helmet"
 	created_item = /obj/item/clothing/head/helmet/heavy/necked/dendorhelm
 	additional_items = list(/obj/item/grown/log/tree/small)
@@ -565,19 +565,19 @@
 	additional_items = list(/obj/item/ingot/iron)
 
 /datum/anvil_recipe/armor/steel/templar/helmet_malum
-	name = "Malum Helmet (+Iron Bar)"
+	name = "Goler Kanh Helmet (+Iron Bar)"
 	recipe_name = "a malumite helmet"
 	created_item = /obj/item/clothing/head/helmet/heavy/necked/malumhelm
 	additional_items = list(/obj/item/ingot/iron)
 
 /datum/anvil_recipe/armor/steel/templar/helmet_ravox
-	name = "Ravox Helmet (+Iron Bar)"
+	name = "Al'Aqshir Helmet (+Iron Bar)"
 	recipe_name = "a ravoxian helmet"
 	created_item = /obj/item/clothing/head/helmet/heavy/necked/ravox
 	additional_items = list(/obj/item/ingot/iron)
 
 /datum/anvil_recipe/armor/steel/templar/helmet_xylix
-	name = "Xylix Helmet (+Iron Bar)"
+	name = "Iliope Helmet (+Iron Bar)"
 	recipe_name = "a xylixian helmet"
 	created_item = /obj/item/clothing/head/helmet/heavy/necked/xylix
 	additional_items = list(/obj/item/ingot/iron)

@@ -56,14 +56,14 @@
 
 /obj/item/clothing/shirt/robe/astrata
 	name = "sun robe"
-	desc = "The cloth of a follower of Astrata."
+	desc = "The cloth of a follower of Visires."
 	icon_state = "astratarobe"
 
 	sleeved = null
 
 /obj/item/clothing/shirt/robe/noc
 	name = "moon robe"
-	desc = "The cloth of a follower of Noc."
+	desc = "The cloth of a follower of Akan."
 	icon_state = "nocrobe"
 	sleeved = null
 
@@ -83,7 +83,7 @@
 
 /obj/item/clothing/shirt/robe/eora
 	name = "eoran robe"
-	desc = "Holy robes, intended for use by followers of Eora"
+	desc = "Holy robes, intended for use by followers of Pomette"
 	icon_state = "eorarobes"
 
 /obj/item/clothing/shirt/robe/eora/alt

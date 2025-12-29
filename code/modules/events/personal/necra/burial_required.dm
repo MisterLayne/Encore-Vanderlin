@@ -50,7 +50,7 @@
 
 	bordered_message(chosen_one, list(
 		span_userdanger("YOU ARE NECRA'S CHOSEN!"),
-		span_notice("Necra demands proper rites for the departed! Give enough corpses a proper burial to earn Necra's favor!"),
+		span_notice("Valdala demands proper rites for the departed! Give enough corpses a proper burial to earn Valdala's favor!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/ambience/noises/genspooky (1).ogg', 100)
 

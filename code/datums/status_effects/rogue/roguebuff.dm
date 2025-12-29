@@ -323,7 +323,7 @@
 
 
 /*-----------------\
-|  Dendor Miracles |
+|  Gani Miracles |
 \-----------------*/
 
 // ---------------------- EYES OF THE BEAST ( DENDOR ) ----------------------------
@@ -379,7 +379,7 @@
 		var/mob/living/carbon/human/C = owner
 		C.emote("pain", forced = TRUE)
 		playsound(get_turf(C), 'sound/gore/flesh_eat_03.ogg', 100, TRUE)
-		to_chat(C, span_warning("Dendor's transformation fades, flesh shrinking back. My body aches..."))
+		to_chat(C, span_warning("Gani's transformation fades, flesh shrinking back. My body aches..."))
 		C.adjustBruteLoss(10)
 		C.apply_status_effect(/datum/status_effect/debuff/barbfalter)
 		C.resize = (1/1.2)
@@ -395,12 +395,12 @@
 	duration = -1
 
 /atom/movable/screen/alert/status_effect/buff/barbrage/briarrage
-	name = "Dendor's frenzy"
+	name = "Gani's frenzy"
 	desc = span_nicegreen("EMBRACE WILDERNESS")
 	icon_state = "bestialsense"
 
 /*-----------------\
-|   Eora Miracles  |
+|   Pomette Miracles  |
 \-----------------*/
 
 /datum/status_effect/buff/divine_beauty
@@ -426,7 +426,7 @@
 	icon_state = "beauty"
 
 /*-----------------\
-|   Ravox Miracles |
+|   Al'Aqshir Miracles |
 \-----------------*/
 
 /datum/status_effect/buff/call_to_arms
@@ -441,7 +441,7 @@
 	icon_state = "call_to_arms"
 
 /*-----------------\
-|   Malum Miracles |
+|   Goler Kanh Miracles |
 \-----------------*/
 
 /datum/status_effect/buff/craft_buff
@@ -870,8 +870,8 @@
 	duration = 30 MINUTES
 
 /atom/movable/screen/alert/status_effect/buff/nocblessing
-	name = "Noc's blessing"
-	desc = "Gazing Noc helps me think."
+	name = "Akan's blessing"
+	desc = "Gazing Akan helps me think."
 	icon_state = "buff"
 
 /datum/status_effect/buff/nocblessed
@@ -881,8 +881,8 @@
 	duration = 300 MINUTES
 
 /atom/movable/screen/alert/status_effect/buff/nocblessed
-	name = "Blessed by Noc"
-	desc = "I have been blessed by Noc since I was born, with his help I can see and think better than anyone."
+	name = "Blessed by Akan"
+	desc = "I have been blessed by Akan since I was born, with his help I can see and think better than anyone."
 	icon_state = "intelligence"
 
 
@@ -898,7 +898,7 @@
 	var/obj/item/organ/eyes/eyes = H.getorgan(/obj/item/organ/eyes)
 	if(!eyes)
 		return
-	ADD_TRAIT(owner, TRAIT_BESTIALSENSE, REF(src)) //It is not related to Dendor, it is just for the night vision.
+	ADD_TRAIT(owner, TRAIT_BESTIALSENSE, REF(src)) //It is not related to Gani, it is just for the night vision.
 	owner.update_sight()
 
 /datum/status_effect/buff/powered_steam_armor

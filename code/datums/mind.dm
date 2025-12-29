@@ -511,7 +511,7 @@ GLOBAL_LIST_EMPTY(personal_objective_minds)
 			output += "<br>[carbon.real_name]"
 			if (carbon.job)
 				output += " - [carbon.job]"
-	output += "<br>Your creed is blood, your faith is steel. You will not rest until these souls are yours. Use the profane dagger to trap their souls for Graggar."
+	output += "<br>Your creed is blood, your faith is steel. You will not rest until these souls are yours. Use the profane dagger to trap their souls for Archdevil."
 
 	if(window)
 		recipient << browse(output,"window=memory")

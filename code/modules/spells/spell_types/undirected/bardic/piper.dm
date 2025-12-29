@@ -1,6 +1,6 @@
 /datum/action/cooldown/spell/undirected/song/pestilent_piedpiper
 	name = "Pestilent Pied Piper"
-	desc = "Play a dirge inspired by Pestra. Leaving the droning of insects in their ears! (-1 WIL -2 CON non-audience members)"
+	desc = "Play a dirge inspired by Erdl. Leaving the droning of insects in their ears! (-1 WIL -2 CON non-audience members)"
 	button_icon_state = "dirge_t2_base"
 	background_icon_state = "dirge_t2_base"
 	song_tier = 2

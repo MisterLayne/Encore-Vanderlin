@@ -146,7 +146,7 @@ GLOBAL_LIST_EMPTY(last_words)
 		if ("the bog", "bog", "dense bog", "latejoin cave")
 			locale = "a wretched, fetid bog"
 		if ("coast", "coastforest", "river")
-			locale = "somewhere betwixt Abyssor's realm and Dendor's bounty"
+			locale = "somewhere betwixt Mjallidhorn's realm and Gani's bounty"
 		if ("indoors", "shop", "physician", "outdoors", "roofs", "manor", "wizard's tower", "garrison","village garrison", "dungeon cell", "baths", "tavern", "basement")
 			locale = "the city of [SSmapping.config.map_name] and all its bustling souls"
 		if ("sewers")

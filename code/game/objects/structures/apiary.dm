@@ -905,7 +905,7 @@
 
 /obj/item/reagent_containers/food/snacks/spiderhoney/honey/poppy
 	name = "rouge honey"
-	desc = "A rich red honey, still used in traditional medicine and prized by the faithful of Pestra."
+	desc = "A rich red honey, still used in traditional medicine and prized by the faithful of Erdl."
 	icon_state = "honey_red"
 	volume = 20
 	tastes = list("numbing sweetness" = 1, "a flash of white" = 1)
@@ -920,7 +920,7 @@
 
 /obj/item/reagent_containers/food/snacks/spiderhoney/honey/luminescent
 	name = "moon honey"
-	desc = "Strange blue honey, softly glowing with all the promise and danger of Noc's starborne knowledge."
+	desc = "Strange blue honey, softly glowing with all the promise and danger of Akan's starborne knowledge."
 	icon_state = "honey_glowing"
 	volume = 20
 	tastes = list("complex sweetness" = 1, "sharp floral tones" = 1)

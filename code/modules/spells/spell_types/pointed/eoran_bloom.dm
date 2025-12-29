@@ -9,7 +9,7 @@
 	associated_skill = /datum/skill/magic/holy
 	required_items = list(/obj/item/clothing/neck/psycross/silver/eora)
 
-	invocation = "Be at peace with Eora."
+	invocation = "Be at peace with Pomette."
 	invocation_type = INVOCATION_SHOUT
 
 	cast_range = 3
@@ -33,20 +33,20 @@
 		if(!spawn_on.density)
 			new /obj/item/clothing/head/peaceflower(cast_on)
 		else
-			to_chat(owner, span_warning("The targeted location is blocked. The flowers of Eora refuse to bloom."))
+			to_chat(owner, span_warning("The targeted location is blocked. The flowers of Pomette refuse to bloom."))
 		return
 
 	if(to_pacify.get_item_by_slot(ITEM_SLOT_HEAD))
-		to_chat(owner, span_warning("The target's head is covered. The flowers of Eora need an open space to bloom."))
+		to_chat(owner, span_warning("The target's head is covered. The flowers of Pomette need an open space to bloom."))
 		return
 
 	var/obj/item/clothing/head/peaceflower/F = new(get_turf(to_pacify))
 	to_pacify.equip_to_slot_if_possible(F, ITEM_SLOT_HEAD, TRUE, TRUE)
-	to_chat(to_pacify, span_info("<b style='color:pink'>A flower of Eora blooms on my head, I feel at peace.</b>"))
+	to_chat(to_pacify, span_info("<b style='color:pink'>A flower of Pomette blooms on my head, I feel at peace.</b>"))
 
 /obj/item/clothing/head/peaceflower
 	name = "eoran bud"
-	desc = "A flower of gentle petals, associated with Eora or Necra. Usually adorned as a headdress or laid at graves as a symbol of love or peace."
+	desc = "A flower of gentle petals, associated with Pomette or Valdala. Usually adorned as a headdress or laid at graves as a symbol of love or peace."
 	icon = 'icons/roguetown/items/produce.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/head_items.dmi'
 	icon_state = "peaceflower"
@@ -98,7 +98,7 @@
 //Putting this here for now until we have a better place. Ook wants this to inject drugs eventually. I guess this is decent for now.
 /obj/item/clothing/head/corruptflower
 	name = "baothan bud"
-	desc = "A flower of dark petals and sharp thorns, associated with Baotha. It is said that these allow their wearer to better commune with their goddess."
+	desc = "A flower of dark petals and sharp thorns, associated with Hertannea. It is said that these allow their wearer to better commune with their goddess."
 	icon = 'icons/roguetown/items/produce.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/head_items.dmi'
 	icon_state = "corruptflower"

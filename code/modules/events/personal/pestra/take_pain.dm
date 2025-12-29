@@ -52,7 +52,7 @@
 
 	bordered_message(chosen_one, list(
 		span_userdanger("YOU ARE PESTRA'S CHOSEN!"),
-		span_notice("Pestra calls you to ease the suffering of others! Find those in pain and take their suffering upon yourself."),
+		span_notice("Erdl calls you to ease the suffering of others! Find those in pain and take their suffering upon yourself."),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/magic/cosmic_expansion.ogg', 100)
 

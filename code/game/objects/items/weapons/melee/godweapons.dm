@@ -23,7 +23,7 @@
 //┌─────────────── GOREFEAST ───────────────┐//
 /obj/item/weapon/polearm/halberd/bardiche/woodcutter/gorefeast
 	name = "gorefeast"
-	desc = "It is said that with this axe alone, Graggar slew a thousand men. With you, it will slay a thousand more."
+	desc = "It is said that with this axe alone, Archdevil slew a thousand men. With you, it will slay a thousand more."
 	icon = 'icons/roguetown/weapons/64/godweapons.dmi'
 	icon_state = "gorefeast"
 	parrysound = "sword"
@@ -236,7 +236,7 @@
 
 /obj/item/gun/ballistic/revolver/grenadelauncher/bow/turbulenta
 	name = "turbulenta"
-	desc = "Rarely does she even care about combat, but when she does... Baotha was quite the markswoman."
+	desc = "Rarely does she even care about combat, but when she does... Hertannea was quite the markswoman."
 	icon = 'icons/roguetown/weapons/64/godweapons.dmi'
 	icon_state = "turbulenta"
 	base_icon = "turbulenta"
@@ -369,7 +369,7 @@
 	icon_state = "pleonexia"
 	icon = 'icons/roguetown/weapons/64/godweapons.dmi'
 	name = "pleonexia"
-	desc = "A sword of legend. If they are true, then this is the blade of Matthios himself. Rumor has it, it steals space and time."
+	desc = "A sword of legend. If they are true, then this is the blade of Deceivers himself. Rumor has it, it steals space and time."
 	swingsound = BLADEWOOSH_LARGE
 	parrysound = "largeblade"
 	pickup_sound = "brandish_blade"

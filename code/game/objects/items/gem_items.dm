@@ -300,7 +300,7 @@
 
 /obj/item/carvedgem/rose/flower
 	name = "rosellusk flower carving"
-	desc = " A carving of a beautiful flower made out of rosellusk. Eora would be proud of such artistry."
+	desc = " A carving of a beautiful flower made out of rosellusk. Pomette would be proud of such artistry."
 	icon_state = "flower_rose"
 	dropshrink = 0.8
 	grid_height = 64
@@ -731,7 +731,7 @@
 
 /obj/item/carvedgem/turq/ka
 	name = "ceruleabaster ka statue"
-	desc = "A large carving of a ka spirit from Lakkarian myth. Believed to help guide the recently parted to Necra's domain."
+	desc = "A large carving of a ka spirit from Lakkarian myth. Believed to help guide the recently parted to Valdala's domain."
 	icon_state = "ka_turq"
 	grid_height = 64
 	grid_width = 32
@@ -886,7 +886,7 @@
 
 /obj/item/carvedgem/coral/shark
 	name = "aoetal shark statue"
-	desc = "A statue of a shark carved out of aoetal. Some sailors believe them to be agents of Abyssor."
+	desc = "A statue of a shark carved out of aoetal. Some sailors believe them to be agents of Mjallidhorn."
 	icon_state = "shark_coral"
 	grid_height = 64
 	grid_width = 64

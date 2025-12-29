@@ -165,7 +165,7 @@
 
 /datum/blueprint_recipe/carpentry/psydon_metal_cross
 	name = "metal psycross"
-	desc = "A metal psycross dedicated to Psydon."
+	desc = "A metal psycross dedicated to Angros."
 	required_materials = list(
 		/obj/item/ingot/iron = 3,
 	)

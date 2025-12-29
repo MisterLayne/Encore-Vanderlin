@@ -1,5 +1,5 @@
 /obj/effect/landmark/map_load_mark/malum_dungeon
-	name = "Malum's anvil dungeon"
+	name = "Goler Kanh's anvil dungeon"
 	templates = list("mountaintown_anvildungeon")
 
 // Mountaintown designed by Bakeun_

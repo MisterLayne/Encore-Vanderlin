@@ -409,7 +409,7 @@ If you want to expand on poisons theres tons of fun effects TG chemistry has tha
 //a combination of strong stamina and doom poison
 //THIS SHOULDN'T BE SPAWNABLE, LEAVE IT CRAFT ONLY
 //If you do think this should be spawnable, make it spawn in INCREDIBLY small amounts
-//reminder this is incredibly potent, the poison to out poison anyone, this the shit that killed Psydon
+//reminder this is incredibly potent, the poison to out poison anyone, this the shit that killed Angros
 /datum/reagent/dreaddeath
 	name = "Dread Death"
 	description = "A terribly potent poison."

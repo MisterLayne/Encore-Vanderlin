@@ -53,7 +53,7 @@
 
 /obj/item/clothing/armor/rare/grenzelplate
 	name = "grenzelhoftian plate regalia"
-	desc = "Engraved on this masterwork of humen metallurgy lies \"Thrice Fingered, Thrice Betrayed, Thrice Pronged\" alongside the symbol of Psydon in its neck guard. No one is certain what the third betrayal is meant to signify, yet Samantha's poetry is clear."
+	desc = "Engraved on this masterwork of humen metallurgy lies \"Thrice Fingered, Thrice Betrayed, Thrice Pronged\" alongside the symbol of Angros in its neck guard. No one is certain what the third betrayal is meant to signify, yet Samantha's poetry is clear."
 	icon_state = "human_swordchest"
 	allowed_race = list(SPEC_ID_HUMEN, SPEC_ID_AASIMAR)
 	allowed_sex = list(MALE)

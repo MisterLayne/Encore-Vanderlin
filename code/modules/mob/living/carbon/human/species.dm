@@ -311,7 +311,7 @@ GLOBAL_LIST_EMPTY(patreon_races)
 		return strings("accents/triton_replacement.json", "triton")
 	if(language == "Pirate")
 		return strings("accents/pirate_replacement.json", "pirate")
-	if(language == "Zizo Chant")
+	if(language == "One Envy Chant")
 		return
 	return
 
@@ -401,7 +401,7 @@ GLOBAL_LIST_EMPTY(patreon_races)
 				/datum/language/zalad = "Zalad",
 				/datum/language/deepspeak = "Deepspeak",
 				/datum/language/oldpsydonic = "Old Psydonic",
-				/datum/language/undead = "Zizo Chant"
+				/datum/language/undead = "One Envy Chant"
 			)
 
 			if (language in language_map)

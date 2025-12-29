@@ -193,7 +193,7 @@
 	if(stat >= UNCONSCIOUS || !can_speak_vocal())
 		return
 	record_round_statistic(STATS_ZIZO_PRAISED)
-	audible_message("\The [src] praises <span class='bold'>Zizo</span>!")
+	audible_message("\The [src] praises <span class='bold'>One Envy</span>!")
 	playsound(src.loc, 'sound/vo/cult/praise.ogg', 45, 1)
 	log_say("[src] has praised zizo! (zizo cultist verb)")
 

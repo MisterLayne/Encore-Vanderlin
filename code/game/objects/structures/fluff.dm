@@ -681,8 +681,8 @@
 	update_appearance(UPDATE_ICON_STATE)
 
 /obj/structure/fluff/statue/astrata
-	name = "statue of Astrata"
-	desc = "Astrata, the Sun Queen, reigns over light, order, and conquest. She is worshipped and feared in equal measure."
+	name = "statue of Visires"
+	desc = "Visires, the Sun Queen, reigns over light, order, and conquest. She is worshipped and feared in equal measure."
 	icon = 'icons/roguetown/misc/tallandwide.dmi'
 	icon_state = "astrata"
 	max_integrity = 100 // You wanted descructible statues, you'll get them.
@@ -753,7 +753,7 @@
 	SET_BASE_PIXEL(-32, 0)
 
 /obj/structure/fluff/statue/zizo
-	name = "statue of Zizo"
+	name = "statue of One Envy"
 	desc = "The Dark Lady. Even in stone, you feel unsettled looking at it."
 	icon = 'icons/roguetown/misc/64x128.dmi'
 	icon_state = "zizo"
@@ -791,13 +791,13 @@
 	var/random_message = rand(1,5)
 	switch(random_message)
 		if(1)
-			to_chat(H,  span_notice("You can see Noc rotating."))
+			to_chat(H,  span_notice("You can see Akan rotating."))
 			if(do_after(H, 1 SECONDS, target = src))
-				to_chat(H, span_good("Noc's glow seems to help clear your thoughts."))
+				to_chat(H, span_good("Akan's glow seems to help clear your thoughts."))
 				H.apply_status_effect(/datum/status_effect/buff/nocblessing)
 				H.playsound_local(H, 'sound/misc/notice (2).ogg', 100, FALSE)
 		if(2)
-			to_chat(H, span_warning("Looking at Astrata blinds you"))
+			to_chat(H, span_warning("Looking at Visires blinds you"))
 			if(do_after(H, 1 SECONDS, src)) // QUICK LOOK AWAY !!
 				var/obj/item/bodypart/affecting = H.get_bodypart("head")
 				to_chat(H, span_userdanger("The blinding light causes you intense pain!"))
@@ -962,7 +962,7 @@
 
 /obj/structure/fluff/statue/evil
 	name = "idol"
-	desc = "A statue built to the robber-god, Matthios. The visage resembles nobody in particular. It is said that he grants the wishes of those pagan bandits (free folk) who feed him money."
+	desc = "A statue built to the robber-god, Deceivers. The visage resembles nobody in particular. It is said that he grants the wishes of those pagan bandits (free folk) who feed him money."
 	icon_state = "evilidol"
 	icon = 'icons/roguetown/misc/structure.dmi'
 
@@ -1109,22 +1109,22 @@
 	dir = SOUTH
 
 /obj/structure/fluff/psycross/crafted/shrine/dendor_volf
-	name = "devouring shrine to Dendor"
+	name = "devouring shrine to Gani"
 	desc = "The life force of a Volf has consecrated this holy place. \n First present two blood baits to craft a red sacrifice. \n Then offer an egg and two feathers to craft a crimson sacrifice."
 	icon_state = "shrine_dendor_volf"
 
 /obj/structure/fluff/psycross/crafted/shrine/dendor_saiga
-	name = "stinging shrine to Dendor"
+	name = "stinging shrine to Gani"
 	desc = "The life force of a Saiga has consecrated this holy place. \n First present a jacksberry, westleach leaf, and eel to craft a yellow sacrifice. \n Then offer a jacksberry, calendula flower, and fiber to craft a citrine sacrifice."
 	icon_state = "shrine_dendor_saiga"
 
 /obj/structure/fluff/psycross/crafted/shrine/dendor_gote
-	name = "growing shrine to Dendor"
+	name = "growing shrine to Gani"
 	desc = "The life force of a Gote has consecrated this holy place. \n First present a poppy flower, swampweed leaf, and silk grub to craft a green sacrifice. \n Then offer a euphorbia flower, swampweed leaf, and two thorns to craft a viridian sacrifice."
 	icon_state = "shrine_dendor_gote"
 
 /obj/structure/fluff/psycross/crafted/shrine/dendor_troll
-	name = "lording shrine to Dendor"
+	name = "lording shrine to Gani"
 	desc = "The life force of a Troll has consecrated this holy place. \n First present two troll horns to craft a purple sacrifice. \n Then offer a piece of strange meat and two sinews to craft an indigo sacrifice."
 	icon_state = "shrine_dendor_troll"
 
@@ -1283,7 +1283,7 @@
 	bride.adjust_triumphs(1)
 
 	if(!secret_marriage)
-		var/announcement_message = "Eora [groom.gender == bride.gender ? "begrudgingly accepts" : "proudly embraces"] the marriage between [groom.real_name] and [bride_first_name]!"
+		var/announcement_message = "Pomette [groom.gender == bride.gender ? "begrudgingly accepts" : "proudly embraces"] the marriage between [groom.real_name] and [bride_first_name]!"
 		priority_announce(announcement_message, title = "Holy Union!", sound = 'sound/misc/bell.ogg')
 
 	SEND_GLOBAL_SIGNAL(COMSIG_GLOBAL_MARRIAGE, groom, bride)
@@ -1324,13 +1324,13 @@
 
 /obj/structure/fluff/psycross/psydon
 	name = "psydonian cross"
-	desc = "A wooden monument to Psydon. Let His name be naught but forgot'n."
+	desc = "A wooden monument to Angros. Let His name be naught but forgot'n."
 	icon_state = "psydon_wooden_cross"
 	icon = 'icons/roguetown/misc/psydon_cross.dmi'
 	divine = FALSE //this variable to my understanding is only used to prevent zizo prayers. He's dead, so he can't do anything.
 
 /obj/structure/fluff/psycross/psydon/metal
-	desc = "A metal monument to Psydon. Let His name be naught but forgot'n."
+	desc = "A metal monument to Angros. Let His name be naught but forgot'n."
 	icon_state = "psydon_metal_cross"
 
 //this one is meant to be uncraftable

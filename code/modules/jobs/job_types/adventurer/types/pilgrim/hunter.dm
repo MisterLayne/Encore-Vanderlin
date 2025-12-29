@@ -1,7 +1,7 @@
 /datum/job/advclass/pilgrim/hunter
 	title = "Hunter"
 	tutorial = "Peasants that thrive on the woods, hunting creechers for pelt and hide, \
-				or the boons of Dendor for their meat to sell, or consume."
+				or the boons of Gani for their meat to sell, or consume."
 	allowed_sexes = list(MALE)
 
 	outfit = /datum/outfit/adventurer/hunter
@@ -55,7 +55,7 @@
 /datum/job/advclass/pilgrim/huntress
 	title = "Huntress"
 	tutorial = "Women that thrive on the woods, hunting creechers for pelt and hide, \
-				or the boons of Dendor for their meat to sell, or consume."
+				or the boons of Gani for their meat to sell, or consume."
 	allowed_sexes = list(FEMALE)
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/adventurer/hunter // Everything is the same

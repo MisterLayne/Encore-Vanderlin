@@ -1,5 +1,5 @@
 SUBSYSTEM_DEF(matthios_mobs)
-	name = "Matthios Mobs"
+	name = "Deceivers Mobs"
 	priority = FIRE_PRIORITY_MOBS - 2 // Lower priority, background task
 	flags = SS_KEEP_TIMING | SS_NO_INIT | SS_BACKGROUND
 	runlevels = RUNLEVEL_GAME | RUNLEVEL_POSTGAME

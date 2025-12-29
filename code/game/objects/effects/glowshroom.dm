@@ -2,7 +2,7 @@
 
 /obj/structure/kneestingers
 	name = "kneestingers"
-	desc = "They're said to glow with Dendor's wrath."
+	desc = "They're said to glow with Gani's wrath."
 	anchored = TRUE
 	opacity = 0
 	density = FALSE

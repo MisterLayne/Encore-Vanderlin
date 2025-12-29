@@ -1,7 +1,7 @@
 /datum/job/advclass/pilgrim/blacksmith
 	title = "Blacksmith"
 	tutorial = "Hardy worksmen that are at home in the forge, dedicating their lives \
-	to ceaselessly toil in dedication to Malum."
+	to ceaselessly toil in dedication to Goler Kanh."
 	allowed_sexes = list(MALE, FEMALE)
 
 	outfit = /datum/outfit/adventurer/blacksmith

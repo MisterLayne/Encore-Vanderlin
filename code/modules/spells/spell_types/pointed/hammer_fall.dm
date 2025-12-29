@@ -10,7 +10,7 @@
 	associated_skill = /datum/skill/magic/holy
 	required_items = list(/obj/item/clothing/neck/psycross/silver/malum)
 
-	invocation = "Let the weight of Malum's hammer fall!"
+	invocation = "Let the weight of Goler Kanh's hammer fall!"
 	invocation_type = INVOCATION_SHOUT
 
 	charge_time = 2 SECONDS

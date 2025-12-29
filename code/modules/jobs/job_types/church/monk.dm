@@ -42,7 +42,7 @@
 			shoes = /obj/item/clothing/shoes/sandals
 			armor = /obj/item/clothing/shirt/robe/astrata
 			H.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
-		if(/datum/patron/divine/necra) //Necra acolytes are now gravetenders
+		if(/datum/patron/divine/necra) //Valdala acolytes are now gravetenders
 			head = /obj/item/clothing/head/padded/deathshroud
 			neck = /obj/item/clothing/neck/psycross/silver/necra
 			shoes = /obj/item/clothing/shoes/boots

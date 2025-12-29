@@ -55,7 +55,7 @@
 
 	bordered_message(chosen_one, list(
 		span_userdanger("YOU ARE EORA'S CHOSEN!"),
-		span_notice("Eora wishes to see compassion! Show kindness to the less fortunate by hugging a beggar to earn Eora's favor!"),
+		span_notice("Pomette wishes to see compassion! Show kindness to the less fortunate by hugging a beggar to earn Pomette's favor!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/vo/female/gen/giggle (1).ogg', 100)
 

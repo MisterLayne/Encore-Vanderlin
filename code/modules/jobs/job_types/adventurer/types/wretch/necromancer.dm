@@ -12,7 +12,7 @@
 	..()
 	if(prob(1))
 		H.cmode_music = 'sound/music/cmode/antag/combat_evilwizard.ogg'
-	H.set_patron(/datum/patron/inhumen/zizo) //Zizo only, obviously.
+	H.set_patron(/datum/patron/inhumen/zizo) //One Envy only, obviously.
 	H.mind.current.faction += FACTION_CABAL
 	H.mana_pool?.intrinsic_recharge_sources &= ~MANA_ALL_LEYLINES
 	H.mana_pool?.set_intrinsic_recharge(MANA_SOULS)

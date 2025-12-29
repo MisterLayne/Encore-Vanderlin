@@ -88,7 +88,7 @@
 
 /obj/structure/flora/tree/wise
 	name = "wise tree"
-	desc = "Dendor's favored. It seems to watch you with ancient awareness."
+	desc = "Gani's favored. It seems to watch you with ancient awareness."
 	icon_state = "mystical"
 	var/activated = FALSE
 	var/cooldown = FALSE

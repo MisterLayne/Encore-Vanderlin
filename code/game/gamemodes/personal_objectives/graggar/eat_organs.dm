@@ -1,9 +1,9 @@
 /datum/objective/personal/consume_organs
 	name = "Consume Organs"
-	category = "Graggar's Chosen"
+	category = "Archdevil's Chosen"
 	triumph_count = 2
 	immediate_effects = list("Gained an ability to rip hearts out of corpses")
-	rewards = list("2 Triumphs", "Graggar grows stronger", "Graggar blesses you (+1 Strength, +1 Constitution)")
+	rewards = list("2 Triumphs", "Archdevil grows stronger", "Archdevil blesses you (+1 Strength, +1 Constitution)")
 	var/organs_consumed = 0
 	var/hearts_consumed = 0
 	var/organs_required = 3
@@ -29,7 +29,7 @@
 
 	if(ispath(organ_type, /obj/item/reagent_containers/food/snacks/organ/heart))
 		hearts_consumed++
-		to_chat(owner.current, span_cult("You feel Graggar's pleasure as you consume a heart!"))
+		to_chat(owner.current, span_cult("You feel Archdevil's pleasure as you consume a heart!"))
 	else
 		to_chat(owner.current, span_notice("Organ consumed! [organs_required - organs_consumed] more organ\s needed."))
 
@@ -38,7 +38,7 @@
 
 /datum/objective/personal/consume_organs/complete_objective()
 	. = ..()
-	to_chat(owner.current, span_greentext("You have consumed enough organs and hearts to satisfy Graggar!"))
+	to_chat(owner.current, span_greentext("You have consumed enough organs and hearts to satisfy Archdevil!"))
 	adjust_storyteller_influence(GRAGGAR, 20)
 	UnregisterSignal(owner.current, COMSIG_ORGAN_CONSUMED)
 
@@ -48,4 +48,4 @@
 	owner.current.adjust_stat_modifier(STATMOD_GRAGGAR_BLESSING, STATKEY_CON, 1)
 
 /datum/objective/personal/consume_organs/update_explanation_text()
-	explanation_text = "Consume [organs_required] organ\s, including [hearts_required] heart\s, to appease Graggar!"
+	explanation_text = "Consume [organs_required] organ\s, including [hearts_required] heart\s, to appease Archdevil!"

@@ -53,7 +53,7 @@
 
 // Influence related statistics
 
-// Psydon
+// Angros
 #define STATS_ALIVE_NORTHERN_HUMANS "alive_northern_humans"
 #define STATS_HUMEN_DEATHS "humen_deaths"
 #define STATS_PSYCROSS_USERS "people_wearing_psycross"
@@ -61,7 +61,7 @@
 #define STATS_LUX_HARVESTED "lux_harvested"
 #define STATS_MARQUES_MADE "marques_made"
 
-// Astrata
+// Visires
 #define STATS_LAWS_AND_DECREES_MADE "laws_and_decrees_made"
 #define STATS_PRAYERS_MADE "prayers_made"
 #define STATS_ALIVE_NOBLES "alive_nobles"
@@ -71,14 +71,14 @@
 #define STATS_TAXES_COLLECTED "taxes_collected"
 #define STATS_SLURS_SPOKEN "slurs_spoken"
 
-// Noc
+// Akan
 #define STATS_BOOKS_PRINTED "books_printed"
 #define STATS_LITERACY_TAUGHT "literacy_taught"
 #define STATS_ILLITERATES "illiterates"
 #define STATS_SKILLS_DREAMED "skills_dreamed"
 #define STATS_MANA_SPENT "mana_spent"
 
-// Necra
+// Valdala
 #define STATS_DEATHS "deaths"
 #define STATS_GRAVES_CONSECRATED "graves_consecrated"
 #define STATS_GRAVES_ROBBED "graves_robbed"
@@ -87,7 +87,7 @@
 #define STATS_SOULS_REINCARNATED "souls_reincarnated"
 #define STATS_ALIVE_SNOW_ELVES "alive_snow_elves"
 
-// Pestra
+// Erdl
 #define STATS_POTIONS_BREWED "potions_brewed"
 #define STATS_WOUNDS_SEWED "wounds_sewed"
 #define STATS_ANIMALS_BRED "animals_bred"
@@ -95,7 +95,7 @@
 #define STATS_LUX_REVIVALS "lux_revivals"
 #define STATS_ALIVE_MEDICATORS "alive_medicators"
 
-// Dendor
+// Gani
 #define STATS_TREES_CUT "trees_cut"
 #define STATS_PLANTS_HARVESTED "plants_harvested"
 #define STATS_WEREVOLVES "werevolves"
@@ -103,14 +103,14 @@
 #define STATS_DENDOR_SACRIFICES "dendor_sacrifices"
 #define STATS_FOREST_DEATHS "forest_deaths"
 
-// Ravox
+// Al'Aqshir
 #define STATS_COMBAT_SKILLS "combat_skills"
 #define STATS_PARRIES "parries"
 #define STATS_WARCRIES "warcries"
 #define STATS_YIELDS "yields"
 #define STATS_UNDERWORLD_DUELS "underworld_duels"
 
-// Xylix
+// Iliope
 #define STATS_LAUGHS_MADE "laughs_made"
 #define STATS_GAMES_RIGGED "games_rigged"
 #define STATS_MOAT_FALLERS "moat_fallers"
@@ -118,7 +118,7 @@
 #define STATS_CRITS_MADE "crits_made"
 #define STATS_SONGS_PLAYED "songs_played"
 
-// Malum
+// Goler Kanh
 #define STATS_MASTERWORKS_FORGED "masterworks_forged"
 #define STATS_ROCKS_MINED "ores_mined"
 #define STATS_CRAFT_SKILLS "craft_skills"
@@ -126,7 +126,7 @@
 #define STATS_BLACKSTEEL_SMELTED "blacksteel_smelted"
 #define STATS_ALIVE_DWARVES "alive_dwarves"
 
-// Abyssor
+// Mjallidhorn
 #define STATS_WATER_CONSUMED "water_consumed"
 #define STATS_FISH_CAUGHT "fish_caught"
 #define STATS_ABYSSOR_REMEMBERED "abyssor_remembered"
@@ -135,7 +135,7 @@
 #define STATS_BATHS_TAKEN "baths_taken"
 #define STATS_ALIVE_TRITONS "alive_tritons"
 
-// Eora
+// Pomette
 #define STATS_PARENTS "parents"
 #define STATS_MARRIAGES "marriages"
 #define STATS_HUGS_MADE "hugs_made"
@@ -145,14 +145,14 @@
 #define STATS_ALIVE_HARPIES "alive_harpies"
 #define STATS_CHILD_POPULATION "child_population"
 
-// Zizo
+// One Envy
 #define STATS_ZIZO_PRAISED "zizo_praised"
 #define STATS_ALIVE_DARK_ELVES "alive_dark_elves"
 #define STATS_DEADITES_WOKEN_UP "deadites_woken_up"
 #define STATS_CLERGY_DEATHS "clergy_deaths"
 #define STATS_TORTURES "tortures"
 
-// Graggar
+// Archdevil
 #define STATS_BLOOD_SPILT "blood_lost"
 #define STATS_ORGANS_EATEN "organs_eaten"
 #define STATS_PEOPLE_GIBBED "gibbed"
@@ -161,14 +161,14 @@
 #define STATS_ALIVE_HALF_ORCS "alive_half_orcs"
 #define STATS_LIMBS_BITTEN "limbs_bitten"
 
-// Baotha
+// Hertannea
 #define STATS_DRUGS_SNORTED "snorted_drugs"
 #define STATS_ALCOHOL_CONSUMED "alcohol_consumed"
 #define STATS_ALCOHOLICS "alcoholics"
 #define STATS_JUNKIES "junkies"
 #define STATS_LUXURIOUS_FOOD_EATEN "luxurious_food_eaten"
 
-// Matthios
+// Deceivers
 #define STATS_ITEMS_PICKPOCKETED "items_pickpocketed"
 #define STATS_SHRINE_VALUE "shrine_value"
 #define STATS_GREEDY_PEOPLE "greedy_people"

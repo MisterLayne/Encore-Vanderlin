@@ -1,5 +1,5 @@
 /datum/round_event_control/matthios_fingers
-	name = "Matthios' Fingers"
+	name = "Deceivers' Fingers"
 	track = EVENT_TRACK_INTERVENTION
 	typepath = /datum/round_event/matthios_fingers
 	weight = 8

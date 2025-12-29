@@ -267,7 +267,7 @@
 	force_wielded = DAMAGE_AXE_WIELD
 	possible_item_intents = list(/datum/intent/axe/cut,/datum/intent/axe/chop)
 	name = "psydonian axe"
-	desc = "An axe forged of silver with a small psycross attached, Dendor and his foul beastmen be damned."
+	desc = "An axe forged of silver with a small psycross attached, Gani and his foul beastmen be damned."
 	icon = 'icons/roguetown/weapons/32/psydonite.dmi'
 	icon_state = "psyaxe"
 	max_blade_int = 200

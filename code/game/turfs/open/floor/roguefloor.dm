@@ -165,13 +165,13 @@
 
 /turf/open/floor/grass/red
 	name = "red grass"
-	desc = "Grass, ripe with Dendor's blood."
+	desc = "Grass, ripe with Gani's blood."
 	icon_state = "grass_red"
 	neighborlay = "grass_rededge"
 
 /turf/open/floor/grass/yel
 	name = "yellow grass"
-	desc = "Grass, blessed by Astrata's light."
+	desc = "Grass, blessed by Visires' light."
 	icon_state = "grass_yel"
 	neighborlay = "grass_yeledge"
 
@@ -380,7 +380,7 @@
 
 /turf/open/floor/underworld/space
 	name = "void"
-	desc = "The shifting blanket of Necra's realm."
+	desc = "The shifting blanket of Valdala's realm."
 	icon_state = "undervoid"
 	footstep = FOOTSTEP_SAND
 	barefootstep = FOOTSTEP_SOFT_BAREFOOT
@@ -390,12 +390,12 @@
 
 /turf/open/floor/underworld/space/sparkle_quiet
 	name = "void"
-	desc = "The shifting blanket of Necra's realm."
+	desc = "The shifting blanket of Valdala's realm."
 	icon_state = "undervoid2"
 
 /turf/open/floor/underworld/space/quiet
 	name = "void"
-	desc = "The shifting blanket of Necra's realm."
+	desc = "The shifting blanket of Valdala's realm."
 	icon_state = "undervoid3"
 
 /turf/open/floor/volcanic

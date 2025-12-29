@@ -21,7 +21,7 @@
 			break
 
 	if(!current_duel)
-		to_chat(owner, span_red("You don't have a rival in Graggar's culling!"))
+		to_chat(owner, span_red("You don't have a rival in Archdevil's culling!"))
 		return
 
 	var/obj/item/organ/heart/rival_heart

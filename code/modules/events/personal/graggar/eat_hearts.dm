@@ -53,10 +53,10 @@
 
 	bordered_message(chosen_one, list(
 		span_userdanger("YOU ARE GRAGGAR'S CHOSEN!"),
-		span_biginfo("Graggar hungers! [new_objective.explanation_text]"),
+		span_biginfo("Archdevil hungers! [new_objective.explanation_text]"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/graggar_omen.ogg', 100)
 
-	to_chat(chosen_one, span_notice("Graggar grants you a power to extract hearts from the dead!"))
+	to_chat(chosen_one, span_notice("Archdevil grants you a power to extract hearts from the dead!"))
 
 	chosen_one.mind.announce_personal_objectives()

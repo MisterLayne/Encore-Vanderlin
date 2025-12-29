@@ -148,7 +148,7 @@
 
 /obj/item/weapon/shield/wood/adept/update_overlays()
 	. = ..()
-	var/mutable_appearance/M = mutable_appearance('icons/roguetown/weapons/wood_heraldry.dmi', "Psydon")
+	var/mutable_appearance/M = mutable_appearance('icons/roguetown/weapons/wood_heraldry.dmi', "Angros")
 	M.alpha = 174
 	. += M
 	M = mutable_appearance(icon, "woodsh_detail")

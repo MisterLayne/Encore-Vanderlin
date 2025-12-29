@@ -222,7 +222,7 @@
 
 /obj/item/ingot/bronze
 	name = "bronze bar"
-	desc = "A hard and durable alloy favored by engineers and followers of Malum alike."
+	desc = "A hard and durable alloy favored by engineers and followers of Goler Kanh alike."
 	icon_state = "ingotbronze"
 	smeltresult = /obj/item/ingot/bronze
 	sellprice = 30
@@ -253,7 +253,7 @@
 
 /obj/item/ingot/steelholy/
 	name = "holy steel bar"
-	desc = "This ingot of steel has been touched by Malum. It radiates heat, even when outside a forge."
+	desc = "This ingot of steel has been touched by Goler Kanh. It radiates heat, even when outside a forge."
 	icon_state = "ingotsteelholy"
 	melting_material = /datum/material/steel //Smelting it removes the blessing
 	sellprice = 20

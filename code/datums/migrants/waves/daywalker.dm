@@ -58,7 +58,7 @@
 	ring = /obj/item/clothing/ring/silver
 
 /datum/migrant_wave/daywalker
-	name = "Astrata's Daywalker"
+	name = "Visires' Daywalker"
 	max_spawns = 1
 	shared_wave_type = /datum/migrant_wave/daywalker
 	weight = 3

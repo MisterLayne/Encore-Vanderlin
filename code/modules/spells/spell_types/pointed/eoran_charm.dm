@@ -37,8 +37,8 @@
 	invocation_type = INVOCATION_SHOUT
 
 /datum/action/cooldown/spell/charm/eoran/do_charm(mob/living/cast_on)
-	var/list/charms_public = list("<b style='color:pink'>[owner] is influenced by the beauty of Eora's follower.</b>", "<b style='color:pink'>[cast_on] stares mesmerized at [owner] and does not move.</b>")
-	var/list/charms_target = list("<b style='color:pink'>Your eyes cannot move away from [owner].</b>", "<b style='color:pink'>You are enchanted by the beauty of the follower of Eora.</b>")
+	var/list/charms_public = list("<b style='color:pink'>[owner] is influenced by the beauty of Pomette's follower.</b>", "<b style='color:pink'>[cast_on] stares mesmerized at [owner] and does not move.</b>")
+	var/list/charms_target = list("<b style='color:pink'>Your eyes cannot move away from [owner].</b>", "<b style='color:pink'>You are enchanted by the beauty of the follower of Pomette.</b>")
 	cast_on.visible_message(span_warning("[pick(charms_public)]"), span_warning("[pick(charms_target)]"))
 	cast_on.apply_status_effect(/datum/status_effect/eorapacify)
 	cast_on.apply_status_effect(/datum/status_effect/debuff/mesmerised, 8 SECONDS)

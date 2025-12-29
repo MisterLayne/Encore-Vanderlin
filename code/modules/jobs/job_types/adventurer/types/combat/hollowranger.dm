@@ -42,7 +42,7 @@
 	H.adjust_skillrank(/datum/skill/misc/climbing, 5, TRUE) // Same climbing as Thieves, but without lockpicking
 	H.adjust_skillrank(/datum/skill/misc/stealing, 4, TRUE) // Worse than a Thief, but still very possible to pickpocket
 	H.adjust_skillrank(/datum/skill/combat/bows, 3, TRUE)
-	H.adjust_skillrank(/datum/skill/craft/tanning, 2, TRUE) // Dendor asks us to use every part of the beast
+	H.adjust_skillrank(/datum/skill/craft/tanning, 2, TRUE) // Gani asks us to use every part of the beast
 	H.adjust_skillrank(/datum/skill/misc/sewing, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/medicine, 2, TRUE)
 	H.adjust_skillrank(/datum/skill/craft/cooking, 1, TRUE)
@@ -53,5 +53,5 @@
 	H.change_stat(STATKEY_PER, 1)
 	H.change_stat(STATKEY_SPD, 2) // Speedy out of necessity! Get the hell outta there
 
-	ADD_TRAIT(H, TRAIT_BESTIALSENSE, TRAIT_GENERIC) // Dendor influence in nature blesses them with the Eyes of the Zad
+	ADD_TRAIT(H, TRAIT_BESTIALSENSE, TRAIT_GENERIC) // Gani influence in nature blesses them with the Eyes of the Zad
 	H.update_sight()

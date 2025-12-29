@@ -14,7 +14,7 @@
 
 	status_effect = /datum/status_effect/wheel
 
-//Xylix Gambling
+//Iliope Gambling
 /datum/status_effect/wheel
 	id = "wheel"
 	status_type = STATUS_EFFECT_UNIQUE
@@ -35,5 +35,5 @@
 
 /atom/movable/screen/alert/status_effect/buff/wheel
 	name = "The Wheel"
-	desc = "Xylix has spun your fate. You feel disorientated as if you had been rotated.\n"
+	desc = "Iliope has spun your fate. You feel disorientated as if you had been rotated.\n"
 	icon_state = "acid"

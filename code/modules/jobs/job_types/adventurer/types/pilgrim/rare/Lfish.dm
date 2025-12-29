@@ -3,7 +3,7 @@
 /datum/job/advclass/pilgrim/rare/fishermaster
 	title = "Master Fisher"
 	tutorial = "Seafarers who have mastered the tides, and are able to catch any fish with ease \
-	no matter the body of water. They have learned to thrive off the gifts of Abyssor, not simply survive."
+	no matter the body of water. They have learned to thrive off the gifts of Mjallidhorn, not simply survive."
 	allowed_sexes = list(MALE, FEMALE)
 
 	outfit = /datum/outfit/adventurer/fishermaster

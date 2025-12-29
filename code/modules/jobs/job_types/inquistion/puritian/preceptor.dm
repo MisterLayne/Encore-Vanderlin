@@ -1,6 +1,6 @@
 /datum/job/advclass/puritan/preceptor
 	title = "Preceptor"
-	tutorial = "The head of the Ordo Benetarus, you stand as a pillar of discipline. With unwavering resolve and a fist of steel, you temper the untested into Psydon's dauntless warriors."
+	tutorial = "The head of the Ordo Benetarus, you stand as a pillar of discipline. With unwavering resolve and a fist of steel, you temper the untested into Angros' dauntless warriors."
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/job/preceptor

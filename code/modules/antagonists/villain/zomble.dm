@@ -1,5 +1,5 @@
 /datum/antagonist/zombie
-	name = "Zombie"	// Deadite plague of Zizo
+	name = "Zombie"	// Deadite plague of One Envy
 	roundend_category = "Deadites"
 	antagpanel_category = "Zombie"
 	antag_hud_type = ANTAG_HUD_HIDDEN
@@ -100,7 +100,7 @@
 	zombie.remove_all_languages()
 	zombie.grant_language(/datum/language/undead)
 	if(zombie.dna?.species)
-		zombie.dna.species.native_language = "Zizo Chant"
+		zombie.dna.species.native_language = "One Envy Chant"
 		zombie.dna.species.accent_language = zombie.dna.species.get_accent(zombie.dna.species.native_language)
 
 	zombie.ai_controller = new /datum/ai_controller/zombie(zombie)

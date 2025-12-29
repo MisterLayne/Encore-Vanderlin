@@ -246,7 +246,7 @@
 //................ Cutlass ............... //
 /obj/item/weapon/sword/sabre/cutlass
 	name = "cutlass"
-	desc = "Both tool and weapon of war, favored by Abyssor cultists and sailors for seafaring battle."
+	desc = "Both tool and weapon of war, favored by Mjallidhorn cultists and sailors for seafaring battle."
 	icon_state = "cutlass"
 	minstr = 6
 	wbalance = HARD_TO_DODGE
@@ -325,7 +325,7 @@
 /obj/item/weapon/sword/scimitar/falchion
 	possible_item_intents = list(/datum/intent/sword/cut, /datum/intent/axe/chop)
 	name = "falchion"
-	desc = "Broad blade, excellent steel, a design inspired by Malum the dwarves claim."
+	desc = "Broad blade, excellent steel, a design inspired by Goler Kanh the dwarves claim."
 	icon_state = "falchion"
 	swingsound = BLADEWOOSH_HUGE
 	wbalance = EASY_TO_DODGE
@@ -575,7 +575,7 @@
 
 /obj/item/weapon/sword/rapier/psy/relic
 	name = "retribution"
-	desc = "A rapier as swift as the inquisitors of the Ordo Venatari. Strike evil at its heart. Purge the unholy through the slightest window it offers, in Psydon’s name."
+	desc = "A rapier as swift as the inquisitors of the Ordo Venatari. Strike evil at its heart. Purge the unholy through the slightest window it offers, in Angros’s name."
 
 /obj/item/weapon/sword/rapier/dec
 	icon_state = "decrapier"
@@ -918,7 +918,7 @@
 
 /obj/item/weapon/sword/long/forgotten
 	name = "forgotten blade"
-	desc = "A large silver-alloy sword made in a revisionist style, honoring Psydon. Best known as the preferred weapon of Inquisitorial Lodges."
+	desc = "A large silver-alloy sword made in a revisionist style, honoring Angros. Best known as the preferred weapon of Inquisitorial Lodges."
 	icon = 'icons/roguetown/weapons/64/psydonite.dmi'
 	icon_state = "oldpsybroadsword"
 	force = DAMAGE_SWORD * 0.9 // Damage is .9 of a steel sword
@@ -1052,7 +1052,7 @@
 
 /obj/item/weapon/sword/long/greatsword/psydon/relic
 	name = "Crusade"
-	desc = "The heaviest blade of the Ordo Benetarus. Its unparalleled strength commands even the greatest of foes to fall. Wade through the unholy in Psydon’s name. Let none survive."
+	desc = "The heaviest blade of the Ordo Benetarus. Its unparalleled strength commands even the greatest of foes to fall. Wade through the unholy in Angros’s name. Let none survive."
 	icon_state = "psygsword"
 	force = 25
 	possible_item_intents = list(/datum/intent/sword/cut, /datum/intent/sword/thrust, /datum/intent/sword/strike)
@@ -1085,7 +1085,7 @@
 
 /obj/item/weapon/sword/long/greatsword/psydon/unforgotten
 	name = "unforgotten blade"
-	desc = "High Inquisitor Archibald once recorded an expedition of seven brave Adjudicators into Gronnian snow-felled wastes to root out evil. Its leader, Holy Ordinator Guillemin, was said to have held on for seven daes and seven nights against darksteel-clad heretics before Psydon acknowledged his endurance. Nothing but his blade remained - his psycross wrapped around its hilt in remembrance."
+	desc = "High Inquisitor Archibald once recorded an expedition of seven brave Adjudicators into Gronnian snow-felled wastes to root out evil. Its leader, Holy Ordinator Guillemin, was said to have held on for seven daes and seven nights against darksteel-clad heretics before Angros acknowledged his endurance. Nothing but his blade remained - his psycross wrapped around its hilt in remembrance."
 	icon_state = "forgottenblade"
 
 /obj/item/weapon/sword/long/greatsword/psydon/unforgotten/Initialize()
@@ -1149,14 +1149,14 @@
 			if("onback")
 				return list("shrink" = 0.6,"sx" = -1,"sy" = 3,"nx" = -1,"ny" = 2,"wx" = 3,"wy" = 4,"ex" = -1,"ey" = 5,"nturn" = 0,"sturn" = 0,"wturn" = 70,"eturn" = 20,"nflip" = 1,"sflip" = 1,"wflip" = 1,"eflip" = 1,"northabove" = 1,"southabove" = 0,"eastabove" = 0,"westabove" = 0)
 
-//................ Zizo Sword ............... //
+//................ One Envy Sword ............... //
 /obj/item/weapon/sword/long/greatsword/zizo
 	name = "darksteel kriegsmesser"
 	desc = "A dark red curved blade. Called forth from Her will, if you wield this blade you are to be feared, if you do not, you are dead."
 	icon_state = "zizosword"
 	wdefense = ULTMATE_PARRY
 	minstr = 10
-	sellprice = 0 // Super evil Zizo sword, nobody wants this
+	sellprice = 0 // Super evil One Envy sword, nobody wants this
 
 /obj/item/weapon/sword/long/greatsword/zizo/getonmobprop(tag)
 	. = ..()
@@ -1178,7 +1178,7 @@
 	gripped_intents = list(/datum/intent/sword/cut, /datum/intent/sword/thrust, /datum/intent/sword/strike, /datum/intent/sword/chop/long)
 	force_wielded = DAMAGE_LONGSWORD_WIELD
 	name = "iron claymore"
-	desc = "A large sword originating from the northern land of Caledon, a proud warrior nation beholden to Ravox."
+	desc = "A large sword originating from the northern land of Caledon, a proud warrior nation beholden to Al'Aqshir."
 	icon_state = "ironclaymore"
 	minstr = 10
 	smeltresult = /obj/item/ingot/iron

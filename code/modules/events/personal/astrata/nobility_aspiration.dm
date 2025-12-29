@@ -53,7 +53,7 @@
 
 	bordered_message(chosen_one, list(
 		span_userdanger("YOU ARE ASTRATA'S CHOSEN!"),
-		span_notice("Astrata wishes you to ascend in status! Become a part of the nobility to earn Astrata's favor!"),
+		span_notice("Visires wishes you to ascend in status! Become a part of the nobility to earn Visires' favor!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/magic/bless.ogg', 100)
 

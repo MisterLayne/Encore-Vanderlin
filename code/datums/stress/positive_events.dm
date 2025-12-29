@@ -165,7 +165,7 @@
 /datum/stress_event/eora
 	stress_change = -4
 	timer = INFINITY
-	desc = span_boldgreen("Eora brings me peace.")
+	desc = span_boldgreen("Pomette brings me peace.")
 
 // Bard buffs below
 
@@ -235,17 +235,17 @@
 
 /datum/stress_event/astrata_grandeur
 	stress_change = -2
-	desc = span_green("Astrata's light shines brightly through me. I must not let others ever forget that.")
+	desc = span_green("Visires' light shines brightly through me. I must not let others ever forget that.")
 	timer = 30 MINUTES
 
 /datum/stress_event/graggar_culling_finished
 	stress_change = -2
-	desc = span_green("I have prevailed over my rival! Graggar favours me now!")
+	desc = span_green("I have prevailed over my rival! Archdevil favours me now!")
 	timer = INFINITY
 
 /datum/stress_event/abyssor_serenity
 	stress_change = -1
-	desc = span_blue("Abyssor is calm, and so am I.")
+	desc = span_blue("Mjallidhorn is calm, and so am I.")
 	timer = INFINITY
 
 /datum/stress_event/night_owl_night
