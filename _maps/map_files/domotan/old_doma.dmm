@@ -2521,6 +2521,13 @@
 	},
 /turf/open/floor/wood,
 /area/indoors/town/manor)
+"cDC" = (
+/obj/structure/chair/stool,
+/obj/effect/decal/cleanable/dirt/cobweb{
+	dir = 4
+	},
+/turf/open/floor/cobble,
+/area/indoors/town/clinic_large/apothecary)
 "cDQ" = (
 /obj/structure/hotspring,
 /obj/effect/lily_petal,
@@ -2973,7 +2980,7 @@
 "dds" = (
 /obj/structure/window/stained/silver/alt,
 /turf/open/floor/churchmarble,
-/area/outdoors/town)
+/area/indoors/town/clinic_large/apothecary)
 "ddH" = (
 /obj/structure/fluff/clodpile,
 /obj/item/weapon/shovel,
@@ -3944,7 +3951,7 @@
 /obj/item/storage/backpack/satchel/surgbag/shit,
 /obj/item/storage/backpack/satchel/surgbag/shit,
 /turf/open/floor/churchbrick,
-/area/outdoors/town)
+/area/indoors/town/clinic_large/apothecary)
 "eeV" = (
 /obj/item/reagent_containers/glass/cup/silver,
 /obj/structure/table/wood{
@@ -6406,11 +6413,10 @@
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town/clinic_large/apothecary)
 "gFR" = (
-/obj/structure/door/stone{
-	name = "Feldsher Office"
-	},
-/turf/open/transparent/openspace,
-/area/outdoors/town/roofs)
+/obj/structure/meathook,
+/obj/item/reagent_containers/glass/bucket/wooden,
+/turf/open/floor/cobble,
+/area/indoors/town/clinic_large/apothecary)
 "gGa" = (
 /turf/open/floor/carpet,
 /area/indoors/town/clinic_large)
@@ -7268,6 +7274,9 @@
 	},
 /turf/open/floor/dirt/road,
 /area/indoors/town/garrison)
+"hzV" = (
+/turf/open/floor/cobble,
+/area/indoors/town/clinic_large/apothecary)
 "hAa" = (
 /obj/structure/rack/shelf/biggest,
 /obj/item/clothing/shirt/dress/gen/colored/random{
@@ -13768,6 +13777,12 @@
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/cobble,
 /area/outdoors/exposed)
+"nQK" = (
+/obj/structure/stairs{
+	dir = 1
+	},
+/turf/open/floor/cobble,
+/area/indoors/town/clinic_large/apothecary)
 "nQP" = (
 /obj/structure/fluff/railing/wood,
 /turf/open/floor/blocks,
@@ -15049,7 +15064,7 @@
 /obj/item/reagent_containers/glass/bottle/water,
 /obj/item/reagent_containers/glass/bottle/water,
 /turf/open/floor/churchbrick,
-/area/outdoors/town)
+/area/indoors/town/clinic_large/apothecary)
 "ppz" = (
 /obj/effect/decal/cobbleedge{
 	dir = 10;
@@ -16790,7 +16805,7 @@
 /obj/item/clothing/shirt/robe/phys,
 /obj/item/clothing/gloves/leather/phys,
 /turf/open/floor/churchbrick,
-/area/outdoors/town)
+/area/indoors/town/clinic_large/apothecary)
 "raG" = (
 /obj/structure/hotspring/border,
 /turf/open/floor/dirt,
@@ -18440,6 +18455,12 @@
 /mob/living/simple_animal/pet/giraffe,
 /turf/open/floor/tile,
 /area/indoors/town/dwarfin)
+"sFL" = (
+/obj/effect/decal/cobbleedge{
+	dir = 10
+	},
+/turf/open/floor/blocks/stonered/tiny,
+/area/indoors/town/clinic_large/apothecary)
 "sGC" = (
 /obj/structure/fluff/railing/wood{
 	dir = 4;
@@ -19170,8 +19191,11 @@
 /turf/open/floor/carpet/red,
 /area/indoors/town/manor)
 "trH" = (
-/obj/structure/chair/stool,
-/turf/open/floor/blocks/stonered,
+/obj/effect/decal/cobbleedge{
+	dir = 10;
+	icon_state = "cobbleedge-w"
+	},
+/turf/open/floor/blocks/stonered/tiny,
 /area/indoors/town/clinic_large/apothecary)
 "ttE" = (
 /obj/structure/fluff/railing/border,
@@ -20230,10 +20254,6 @@
 /turf/open/floor/dirt/road,
 /area/under/town/basement)
 "uCt" = (
-/obj/effect/decal/cobbleedge{
-	dir = 1;
-	icon_state = "borderfall"
-	},
 /obj/structure/fluff/railing/border{
 	dir = 8
 	},
@@ -21168,8 +21188,11 @@
 /turf/open/floor/herringbone,
 /area/indoors/town)
 "vxU" = (
-/turf/open/floor/churchbrick,
-/area/outdoors/town)
+/obj/structure/closet/crate/chest/neu_iron/corpse,
+/obj/effect/mapping_helpers/access/keyset/town/doctor,
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/cobble,
+/area/indoors/town/clinic_large/apothecary)
 "vyX" = (
 /obj/structure/fluff/railing/border,
 /obj/structure/fluff/railing/wood,
@@ -22123,6 +22146,11 @@
 /obj/structure/fluff/railing/border,
 /turf/open/floor/blocks/stonered/tiny,
 /area/indoors/shelter/town)
+"wwa" = (
+/obj/structure/table/optable,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/cobble,
+/area/indoors/town/clinic_large/apothecary)
 "wwJ" = (
 /obj/effect/decal/cobbleedge{
 	icon_state = "cobbleedge-sread"
@@ -23218,6 +23246,10 @@
 /obj/effect/decal/carpet/square,
 /turf/open/floor/church/purple,
 /area/indoors/town/church)
+"xxv" = (
+/obj/machinery/light/fueled/wallfire/candle/blue,
+/turf/open/floor/cobble,
+/area/indoors/town/clinic_large/apothecary)
 "xxT" = (
 /obj/structure/window/openclose{
 	dir = 8
@@ -23323,7 +23355,7 @@
 "xDn" = (
 /obj/machinery/light/fueled/wallfire/candle/blue/r,
 /turf/open/floor/churchbrick,
-/area/outdoors/town)
+/area/indoors/town/clinic_large/apothecary)
 "xDI" = (
 /obj/machinery/light/fueled/torchholder/l,
 /turf/open/floor/ruinedwood/turned,
@@ -31967,8 +31999,8 @@ mJg
 wtO
 mSJ
 cFF
+sTp
 pwD
-trH
 fIW
 vrC
 nIj
@@ -32099,8 +32131,8 @@ pYE
 eKK
 buR
 mJg
-otn
 vpC
+pwD
 mJg
 oOc
 dXP
@@ -32231,8 +32263,8 @@ pYE
 pYE
 pYE
 pYE
-pvT
 pYE
+pvT
 pYE
 oOc
 aCt
@@ -41334,7 +41366,7 @@ diL
 lBt
 aJX
 aJX
-aGS
+qLt
 dds
 dds
 qLt
@@ -41466,7 +41498,7 @@ kfC
 aJX
 aJX
 aJX
-aGS
+qLt
 raj
 raj
 qLt
@@ -41598,9 +41630,9 @@ kfC
 aJX
 aJX
 aJX
-aGS
+qLt
 eeg
-vxU
+mdW
 mdW
 otn
 otn
@@ -41730,7 +41762,7 @@ kfC
 aJX
 aJX
 aJX
-aGS
+qLt
 ppx
 xDn
 mdW
@@ -41861,10 +41893,10 @@ tKL
 kfC
 aJX
 aJX
-aJX
-aGS
-aGS
-aGS
+oOc
+oOc
+oOc
+qLt
 qLt
 oOc
 riU
@@ -41993,12 +42025,12 @@ vTA
 kfC
 aJX
 aJX
-aJX
-mTr
-mTr
-mTr
 oOc
-sTp
+gFR
+cDC
+qLt
+trH
+pwD
 pwD
 cGj
 otn
@@ -42125,12 +42157,12 @@ vTA
 kfC
 aJX
 aJX
-aJX
-mTr
-mTr
-mTr
 oOc
-pnO
+hzV
+hzV
+nQK
+pwD
+pwD
 pwD
 rFe
 otn
@@ -42257,12 +42289,12 @@ vTA
 kfC
 aJX
 aJX
-aJX
-mTr
-mTr
-mTr
 oOc
-dch
+xxv
+hzV
+nQK
+sFL
+pwD
 pwD
 wrI
 otn
@@ -42389,12 +42421,12 @@ vTA
 kfC
 aJX
 aJX
-aJX
-mTr
-mTr
+oOc
+wwa
+vxU
 oOc
 oOc
-pwD
+pnO
 pwD
 pwD
 pwD
@@ -42521,13 +42553,13 @@ vTA
 kfC
 aJX
 aJX
-aJX
-mTr
-mTr
+oOc
+oOc
+oOc
 oOc
 tdI
-jdj
-kpu
+dch
+pwD
 jrX
 otn
 hpU
@@ -42659,8 +42691,8 @@ aJX
 oOc
 vOd
 pwD
+pwD
 auQ
-otn
 otn
 bdY
 qLt
@@ -42789,10 +42821,10 @@ aJX
 aJX
 aJX
 oOc
-pEu
+kpu
+pwD
 pwD
 qwC
-otn
 otn
 lGm
 qLt
@@ -52288,7 +52320,7 @@ fNx
 gCF
 aNZ
 pMk
-gFR
+fNx
 fNx
 fNx
 jwV
@@ -52422,7 +52454,7 @@ aNZ
 pMk
 fNx
 fNx
-fNx
+dvc
 jwV
 iNR
 wcg
