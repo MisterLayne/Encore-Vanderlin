@@ -243,13 +243,13 @@ USEBLACKLIST
 # FORUMURL N/A
 
 ## Wiki address
-WIKIURL https://wiki.monkestation.com/en/vanderlin
+WIKIURL https://encore.miraheze.org/wiki/Main_Page
 
 ## Rules address
-RULESURL https://wiki.monkestation.com/en/vanderlin/rules
+RULESURL https://encore.miraheze.org/wiki/Rules
 
 ## Github address
-GITHUBURL https://github.com/Monkestation/Vanderlin
+GITHUBURL https://github.com/Encore-Server/Encore-Vanderlin
 
 ## Round specific stats address
 ## Link to round specific parsed logs; IE statbus. It is appended with the RoundID automatically by ticker/Reboot()
@@ -268,7 +268,7 @@ GITHUBURL https://github.com/Monkestation/Vanderlin
 # GITHUBREPOID 3234987
 
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins.
-BANAPPEALS https://discord.monkestation.com
+BANAPPEALS https://discord.gg/PcnpNHZf
 
 ## System command that invokes youtube-dl, used by Play Internet Sound.
 ## You can install youtube-dl with
