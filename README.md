@@ -1,12 +1,13 @@
-# VANDERLIN
+# ENCORE Roleplay
+This is a fork of Vanderlin code meant for the ENCORE Roleplay server.
 
 [![BYOND Build](https://github.com/Monkestation/Vanderlin/actions/workflows/ci_suite.yml/badge.svg)](https://github.com/Monkestation/Vanderlin/actions/workflows/ci_suite.yml)
 
 | Website                   | Link                                           |
 |---------------------------|------------------------------------------------|
-| Discord | [https://discord.monkestation.com](https://discord.monkestation.com) |
-| Code    | [https://github.com/Monkestation/Vanderlin](https://github.com/Monkestation/Vanderlin)    |
-| Wiki    | N/A |
+| Discord | [https://discord.gg/PcnpNHZf](https://discord.gg/PcnpNHZf) |
+| Code    | [https://github.com/Encore-Server/Encore-Vanderlin](https://github.com/Encore-Server/Encore-Vanderlin)    |
+| Wiki    | [https://encore.miraheze.org/wiki/Main_Page](https://encore.miraheze.org/wiki/Main_Page) |
 
 ## LICENSE
 Original Fork Originates from [commit c28b351807bad950d2b323ada048190844bbda32](https://github.com/tgstation/tgstation/commit/c28b351807bad950d2b323ada048190844bbda32).
