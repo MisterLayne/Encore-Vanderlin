@@ -63,7 +63,7 @@
 	aportalid = "z2-southwest1-out";
 	aallmig = "z2-southwest1"
 	},
-/turf/open/floor/grass,
+/turf/open/floor/grass/yel,
 /area/outdoors/bog)
 "aU" = (
 /obj/item/natural/stone{
@@ -95,7 +95,7 @@
 /area/under/cave)
 "bK" = (
 /obj/structure/flora/newtree,
-/turf/open/floor/grass,
+/turf/open/floor/grass/yel,
 /area/outdoors/woods/crossroads)
 "bV" = (
 /obj/structure/closet/crate/chest,
@@ -278,7 +278,7 @@
 /area/under/cave)
 "gM" = (
 /obj/structure/fluff/walldeco/goblet,
-/turf/open/floor/grass,
+/turf/open/floor/grass/yel,
 /area/outdoors/woods/whisperen)
 "gV" = (
 /turf/open/floor/dirt/road,
@@ -417,7 +417,7 @@
 /turf/open/floor/hexstone,
 /area/under/cave)
 "kp" = (
-/turf/open/floor/grass,
+/turf/open/floor/grass/yel,
 /area/outdoors/woods/heavenscoast)
 "kr" = (
 /obj/structure/flora/grass/water,
@@ -509,7 +509,7 @@
 /turf/open/floor/ruinedwood,
 /area/under/cave)
 "mT" = (
-/turf/open/floor/grass,
+/turf/open/floor/grass/yel,
 /area/outdoors/bog)
 "mY" = (
 /obj/effect/decal/cobbleedge,
@@ -803,7 +803,7 @@
 /turf/open/floor/sand,
 /area/outdoors/woods/heavenscoast)
 "sY" = (
-/turf/open/floor/grass,
+/turf/open/floor/grass/yel,
 /area/outdoors/woods/crossroads)
 "tb" = (
 /obj/item/natural/rock,
@@ -1145,7 +1145,7 @@
 /area/under/cave)
 "Aw" = (
 /obj/structure/flora/grass/swampweed,
-/turf/open/floor/grass,
+/turf/open/floor/grass/yel,
 /area/outdoors/woods/heavenscoast)
 "AC" = (
 /obj/effect/decal/cleanable/blood/tracks{
@@ -1235,7 +1235,7 @@
 /area/under/cavewet)
 "Cu" = (
 /obj/item/natural/rock,
-/turf/open/floor/grass,
+/turf/open/floor/grass/yel,
 /area/outdoors/bog)
 "CJ" = (
 /turf/open/floor/cobble,
@@ -1251,7 +1251,7 @@
 /area/under/cave)
 "CV" = (
 /obj/item/natural/rock,
-/turf/open/floor/grass,
+/turf/open/floor/grass/yel,
 /area/outdoors/woods/heavenscoast)
 "Dc" = (
 /obj/effect/decal/cleanable/blood/tracks{
@@ -1906,7 +1906,7 @@
 /area/indoors/shelter)
 "RX" = (
 /obj/structure/flora/newtree,
-/turf/open/floor/grass,
+/turf/open/floor/grass/yel,
 /area/outdoors/bog)
 "Sa" = (
 /obj/item/reagent_containers/powder/salt,
@@ -1948,7 +1948,7 @@
 /area/under/town/basement)
 "ST" = (
 /obj/structure/flora/newtree,
-/turf/open/floor/grass,
+/turf/open/floor/grass/yel,
 /area/outdoors/woods/whisperen)
 "SU" = (
 /obj/structure/fluff/clodpile,
@@ -2012,7 +2012,7 @@
 /turf/open/floor/dirt/road,
 /area/outdoors/bog)
 "Uu" = (
-/turf/open/floor/grass,
+/turf/open/floor/grass/yel,
 /area/outdoors/woods/whisperen)
 "Uw" = (
 /obj/item/natural/stone,
@@ -2109,7 +2109,7 @@
 /area/under/cave)
 "Xy" = (
 /obj/structure/flora/newtree,
-/turf/open/floor/grass,
+/turf/open/floor/grass/yel,
 /area/outdoors/woods/heavenscoast)
 "XC" = (
 /turf/closed/mineral/salt,
