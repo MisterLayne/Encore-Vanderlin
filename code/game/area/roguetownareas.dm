@@ -63,7 +63,7 @@
 /area/outdoors/mountains/deception
 	name = "deception"
 	icon_state = "deception"
-	first_time_text = "THE CANYON OF DECEPTION"
+	first_time_text = "Mount Miracle Foothills"
 	ambush_types = list(
 				/turf/open/floor/dirt)
 	ambush_mobs = list(
@@ -83,7 +83,7 @@
 	background_track = 'sound/music/area/decap.ogg'
 	background_track_dusk = null
 	background_track_night = null
-	first_time_text = "MALUMS ANVIL"
+	first_time_text = "Mount Miracle Cliffside"
 	custom_area_sound = 'sound/misc/stings/MalumSting.ogg'
 	ambush_times = list("night","dawn","dusk","day")
 
@@ -113,7 +113,7 @@
 
 /area/outdoors/rtfield/Initialize()
 	. = ..()
-	first_time_text = "[uppertext(SSmapping.config.map_name)] BASIN"
+	first_time_text = "Northern Etgard Coast"
 
 /area/outdoors/rtfield/safe
 	ambush_mobs = null
@@ -143,7 +143,7 @@
 				/mob/living/simple_animal/hostile/retaliate/troll/axe = 10,
 				/mob/living/carbon/human/species/goblin/npc/ambush = 45,
 				/mob/living/simple_animal/hostile/retaliate/mole = 25)
-	first_time_text = "THE MURDERWOOD"
+	first_time_text = "The County of Etgard"
 	custom_area_sound = 'sound/misc/stings/ForestSting.ogg'
 	converted_type = /area/indoors/shelter/woods
 
@@ -198,7 +198,7 @@
 				/mob/living/carbon/human/species/goblin/npc/ambush/sea = 50,
 				/mob/living/simple_animal/hostile/retaliate/troll/bog = 35)
 
-	first_time_text = "THE TERRORBOG"
+	first_time_text = "The Bog"
 	custom_area_sound = 'sound/misc/stings/BogSting.ogg'
 	converted_type = /area/indoors/shelter/bog
 
@@ -378,7 +378,7 @@
 
 /area/indoors/town/manor/Initialize()
 	. = ..()
-	first_time_text = "THE KEEP OF [uppertext(SSmapping.config.map_name)]"
+	first_time_text = "Etgard Keep"
 
 /area/indoors/town/manor/throne
 	name = "Throne Room"
@@ -603,7 +603,7 @@
 /area/indoors/town/tavern
 	name = "tavern"
 	icon_state = "tavern"
-	first_time_text = "The Drunken Saiga"
+	first_time_text = "Adventurer Guild"
 	droning_index = DRONING_INDOORS
 	droning_index_night = DRONING_INDOORS
 	background_track = "sound/blank.ogg"
@@ -630,7 +630,7 @@
 
 /area/indoors/town/church/chapel
 	icon_state = "chapel"
-	first_time_text = "THE HOUSE OF THE TEN"
+	first_time_text = "Temple of Aspects"
 
 /area/indoors/town/church/inquisition
 	name = "inquisition"
@@ -876,7 +876,7 @@
 	background_track = 'sound/music/area/underworlddrone.ogg'
 	background_track_dusk = null
 	background_track_night = null
-	first_time_text = "The Forest of Repentence"
+	first_time_text = "The Forever War"
 
 /area/underworld/Entered(atom/movable/movable, oldloc)
 	. = ..()
@@ -994,7 +994,7 @@
 /area/outdoors/bog/inhumen_camp
 	name = "lair (Inhumen)"
 	background_track = 'sound/music/area/decap.ogg'
-	first_time_text = "THE DEEP BOG"
+	first_time_text = "The Hidden"
 
 /area/indoors/lich
 	name = "lair (Lich)"
