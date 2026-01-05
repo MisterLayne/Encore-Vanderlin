@@ -52,7 +52,7 @@
 	var/armortype = pickweight(list("Warrior" = 4, "Splint" = 4, "HeavyG" = 4, "Hide" = 3, "Jacket" = 3, "Sailor" = 3, "Peon" = 3, "Ironplate" = 2, "Freak" = 3, "Psy" = 2, "Destitute" = 2, "Berserker" = 2, "Copper" = 1, "Noble" = 1, "BKnight" = 1)) // Armor / Armortype roll. It varies heavily. The more gimmicky / best stuff is generally the rarest
 	var/weapontype = pickweight(list("Axe" = 4, "BigAxe" = 3, "Mace" = 4, "Mage" = 1, "Shield" = 2, "BigMace" = 3, "Spear" = 3, "Messer" = 3, "LSword" = 3, "GSword" = 1, "Shovel" = 3, "Scythe" = 2, "Cutlass" = 3, "Falx" = 3, "Rapier" = 2, "Sword" = 4, "Sword2" = 3, "Flail" = 2, "Bow" = 1, "Fist" = 2, "Daggers" = 3, "MFlail" = 3, "Gun" = 1,)) // Weapon roll
 	var/randomjob = pickweight (list("Farmer" = 3, "Sailor" = 2, "Pickpocket" = 2, "Smith" = 2, "Fisher" = 3, "Doctor" = 2, "Steppes" = 2, "Smart" = 1, "Grappler" = 1, "Lumber" = 2, "Guard" = 2, "Bard" = 2, "Paranoiac" = 1, "Alch" = 2, "Torturer" = 1,)) // 'Job' roll, gives small skill benefits
-	var/randomperk = pickweight (list("Fat" = 3, "Normal" = 3, "Smartish" = 3, "Speedy" = 3, "Lucky" = 3, "Abyssor" = 2, "Packrat" = 2, "Strong" = 1, "Zizo" = 2, "Atheist" = 1, "Graggar" = 1, "Stupid" = 1, "Lockpicks" = 2, "Traps" = 2, "Ring" = 2, "Knives" = 2, "Heel" = 1, "Meek" = 2, "Invisible" = 2, "Zigs" = 2, "Ozium" = 2, "Bomb" = 1,)) // A random trait or a couple of items
+	var/randomperk = pickweight (list("Fat" = 3, "Normal" = 3, "Smartish" = 3, "Speedy" = 3, "Lucky" = 3, "Mjallidhorn" = 2, "Packrat" = 2, "Strong" = 1, "One Envy" = 2, "Atheist" = 1, "Archdevil" = 1, "Stupid" = 1, "Lockpicks" = 2, "Traps" = 2, "Ring" = 2, "Knives" = 2, "Heel" = 1, "Meek" = 2, "Invisible" = 2, "Zigs" = 2, "Ozium" = 2, "Bomb" = 1,)) // A random trait or a couple of items
 	var/randomtarot = pickweight (list("TFool" = 2, "TMagician" = 2, "THP" = 2, "TEmpress" = 2, "TEmperor" = 2, "THiero" = 2, "TLovers" = 2, "TChariot" = 2, "TStrength" = 2, "THermit" = 2, "JUSTICE" = 2, "THang" = 2, "TDeath" = 2, "TTemperance" = 2, "TDevil" = 2, "TTower" = 2, "TStar" = 2, "TMoon" = 2, "TSun" = 2, "TJudge" = 2, "TWorld" = 2,))
 	switch(armortype)
 		if("Warrior")
@@ -173,7 +173,7 @@
 				to_chat(H, "<span class='info'>I can speak Old Psydonic with ,m before my speech.</span>")
 			H.set_patron(/datum/patron/psydon, TRUE)
 			to_chat(H,span_info("\
-			The Ten are false gods, and I loathe those that worship the true corpse god, Necra. Psydon lives, my life for Psydon.")
+			The Ten are false gods, and I loathe those that worship the true corpse god, Valdala. Angros lives, my life for Angros.")
 			)
 		if("Hide")
 			shirt = /obj/item/clothing/shirt/undershirt/colored/uncolored
@@ -188,7 +188,7 @@
 			H.change_stat(STATKEY_SPD, 1)
 			H.change_stat(STATKEY_CON, 1)
 			to_chat(H,span_info("\
-			Dendor provides. The only armor I need are hides taken from the backs of his beasts.")
+			Gani provides. The only armor I need are hides taken from the backs of his beasts.")
 			)
 		if("Freak")
 			head = /obj/item/clothing/head/menacing
@@ -306,7 +306,7 @@
 			H.change_stat(STATKEY_SPD, -1) // big boy
 			H.cmode_music = 'sound/music/cmode/adventurer/CombatIntense.ogg'
 			to_chat(H,span_info("\
-			Only the strong can survive in the wilds, Dendor fears my axe.")
+			Only the strong can survive in the wilds, Gani fears my axe.")
 			)
 		if("Mace")
 			beltl = /obj/item/weapon/mace
@@ -375,7 +375,7 @@
 			H.change_stat(STATKEY_END, 1)
 			H.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
 			to_chat(H,span_info("\
-			I'm the lord of the harvest. I will shepherd the damned to Necra herself.")
+			I'm the lord of the harvest. I will shepherd the damned to Valdala herself.")
 			)
 		if("MFlail")
 			r_hand = /obj/item/weapon/flail/towner
@@ -467,7 +467,7 @@
 			)
 		if("Mage")
 			H.mana_pool?.set_intrinsic_recharge(MANA_ALL_LEYLINES)
-			if(!(H.patron == /datum/patron/divine/noc || /datum/patron/inhumen/zizo))	//Magicians must follow Noc or Zizo to have access to magic.
+			if(!(H.patron == /datum/patron/divine/noc || /datum/patron/inhumen/zizo))	//Magicians must follow Akan or One Envy to have access to magic.
 				H.set_patron(/datum/patron/divine/noc, TRUE)
 			r_hand = /obj/item/weapon/polearm/woodstaff
 			head = /obj/item/clothing/head/roguehood/colored/mage
@@ -552,7 +552,7 @@
 			H.adjust_skillrank(/datum/skill/misc/climbing, 1, TRUE)
 			H.change_stat(STATKEY_STR, -1)
 			to_chat(H,span_info("\
-			I've worked on ships defending their cargo. I am no stranger to Abyssor's wrath.")
+			I've worked on ships defending their cargo. I am no stranger to Mjallidhorn's wrath.")
 			)
 		if("Pickpocket")
 			H.adjust_skillrank(/datum/skill/misc/sneaking, 2, TRUE)
@@ -584,7 +584,7 @@
 			H.adjust_skillrank(/datum/skill/misc/swimming, 1, TRUE)
 			H.change_stat(STATKEY_PER, 2)
 			to_chat(H,span_info("\
-			Fish fear me. I've lived off Abyssor's bounty, both salt-and-freshwater.")
+			Fish fear me. I've lived off Mjallidhorn's bounty, both salt-and-freshwater.")
 			)
 		if("Doctor")
 			H.adjust_skillrank(/datum/skill/misc/sewing, 2, TRUE)
@@ -726,19 +726,19 @@
 			to_chat(H,span_info("\
 			YOU ARE UP AGAINST THE WALL, AND I AM THE FUCKING WALL!")
 			)
-		if("Zizo")
+		if("One Envy")
 			H.change_stat(STATKEY_INT, 1)
 			H.set_patron(/datum/patron/inhumen/zizo, TRUE)
 			to_chat(H,span_info("\
 			CHAOS REIGNS! HAIL ZIZO!")
 			)
-		if("Abyssor")
+		if("Mjallidhorn")
 			H.change_stat(STATKEY_END, 1)
 			H.set_patron(/datum/patron/divine/abyssor, TRUE)
 			to_chat(H,span_info("\
-			Abyssor swallows my soul, his wrath will never be quenched!")
+			Mjallidhorn swallows my soul, his wrath will never be quenched!")
 			)
-		if("Graggar")
+		if("Archdevil")
 			H.change_stat(STATKEY_END, 1)
 			H.change_stat(STATKEY_CON, 1)
 			H.set_patron(/datum/patron/inhumen/graggar, TRUE)

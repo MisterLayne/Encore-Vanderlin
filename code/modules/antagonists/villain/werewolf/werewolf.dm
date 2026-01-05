@@ -1,4 +1,4 @@
-// Once a blessing Dendor's champions, now a curse suffering endless hunger from Graggar's corruption.
+// Once a blessing Gani's champions, now a curse suffering endless hunger from Archdevil's corruption.
 
 /datum/antagonist/werewolf
 	name = "Werevolf"

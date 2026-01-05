@@ -1,6 +1,6 @@
 /datum/action/cooldown/spell/undirected/song/suffocating_seliloquy
 	name = "Suffocating Seliloquy"
-	desc = "Play a dirge inspired by Abyssor, slowly suffocating with its call."
+	desc = "Play a dirge inspired by Mjallidhorn, slowly suffocating with its call."
 	button_icon_state = "dirge_t3_base"
 	background_icon_state = "dirge_t3_base"
 	song_tier = 3

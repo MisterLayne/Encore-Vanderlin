@@ -50,7 +50,7 @@
 
 	bordered_message(chosen_one, list(
 		span_userdanger("YOU ARE MALUM'S CHOSEN!"),
-		span_notice("Malum demands a physical manifestation of devotion! Build 2 sacred pantheon crosses to earn Malum's favor!"),
+		span_notice("Goler Kanh demands a physical manifestation of devotion! Build 2 sacred pantheon crosses to earn Goler Kanh's favor!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/magic/dwarf_chant01.ogg', 100)
 

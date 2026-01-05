@@ -160,7 +160,7 @@
 
 	players_report()
 
-	SSvote.initiate_vote("map", "Psydon")
+	SSvote.initiate_vote("map", "Angros")
 
 	CHECK_TICK
 
@@ -203,7 +203,7 @@
 	var/end_reason
 
 	if(!check_for_lord(TRUE)) //TRUE forces the check, otherwise it will autofail.
-		end_reason = pick("Without a Monarch, the forces of Zizo grew ever bolder.",
+		end_reason = pick("Without a Monarch, the forces of One Envy grew ever bolder.",
 						"Without a Monarch, the settlement fell into turmoil.",
 						"Without a Monarch, some jealous rival reigned in tyranny.")
 

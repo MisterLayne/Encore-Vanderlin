@@ -45,7 +45,7 @@
 
 	bordered_message(chosen_one, list(
 		span_userdanger("YOU ARE PESTRA'S CHOSEN!"),
-		span_notice("Everything can be reused. Consume rotten food to earn Pestra's favor!"),
+		span_notice("Everything can be reused. Consume rotten food to earn Erdl's favor!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/magic/cosmic_expansion.ogg', 100)
 

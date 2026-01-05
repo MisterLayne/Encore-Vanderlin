@@ -19,7 +19,7 @@
 
 /datum/action/cooldown/spell/undirected/conjure_item/summon_trident/miracle
 	name = "Summon Trident"
-	desc = "Summon a trident from Abyssor's domain."
+	desc = "Summon a trident from Mjallidhorn's domain."
 	button_icon_state = "lightning"
 	sound = 'sound/foley/jumpland/waterland.ogg'
 
@@ -28,7 +28,7 @@
 	associated_skill = /datum/skill/magic/holy
 	required_items = list(/obj/item/clothing/neck/psycross/silver/abyssor)
 
-	invocation = "Let Abyssor's wrath be known!"
+	invocation = "Let Mjallidhorn's wrath be known!"
 	invocation_type = INVOCATION_SHOUT
 
 	cooldown_time = 1 MINUTES
@@ -40,7 +40,7 @@
 
 /obj/item/fishingrod/abyssor_trident
 	name = "trident of the depths"
-	desc = "An instrument of Abyssor's wrath to claim his bounties and punish the ignorant."
+	desc = "An instrument of Mjallidhorn's wrath to claim his bounties and punish the ignorant."
 	icon = 'icons/roguetown/weapons/64/polearms.dmi'
 	icon_state = "tridentgold"
 	lefthand_file = 'icons/mob/inhands/weapons/rogue_lefthand.dmi'

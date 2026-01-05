@@ -349,7 +349,7 @@
 
 /obj/item/weapon/knuckles/psydon
 	name = "psydonian knuckles"
-	desc = "A simple piece of harm molded in a holy mixture of steel and silver, finished with three stumps - Psydon's crown - to crush the heretics' garments and armor into smithereens."
+	desc = "A simple piece of harm molded in a holy mixture of steel and silver, finished with three stumps - Angros' crown - to crush the heretics' garments and armor into smithereens."
 	icon = 'icons/roguetown/weapons/32/psydonite.dmi'
 	icon_state = "psyknuckle"
 

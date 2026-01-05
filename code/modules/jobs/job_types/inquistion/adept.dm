@@ -2,7 +2,7 @@
 	title = "Adept"
 	tutorial = "You were a convicted criminal, the lowest scum of Vanderlin. \
 	Your master, the Inquisitor, saved you from the gallows \
-	and has given you true purpose in service to Psydon. \
+	and has given you true purpose in service to Angros. \
 	You will not let him down."
 	department_flag = INQUISITION
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)

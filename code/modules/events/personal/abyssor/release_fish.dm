@@ -51,7 +51,7 @@
 
 	bordered_message(chosen_one, list(
 		span_userdanger("YOU ARE ABYSSOR'S CHOSEN!"),
-		span_notice("Abyssor demands a small respite for the creatures of the deep! Release a demanded fish back to the water to please Abyssor!"),
+		span_notice("Mjallidhorn demands a small respite for the creatures of the deep! Release a demanded fish back to the water to please Mjallidhorn!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/items/bucket_transfer (2).ogg', 100)
 

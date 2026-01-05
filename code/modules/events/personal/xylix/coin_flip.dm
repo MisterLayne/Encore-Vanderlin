@@ -1,5 +1,5 @@
 /datum/round_event_control/xylix_gamble
-	name = "Xylix's Game"
+	name = "Iliope's Game"
 	track = EVENT_TRACK_PERSONAL
 	typepath = /datum/round_event/xylix_gamble
 	weight = 7
@@ -47,7 +47,7 @@
 
 	bordered_message(chosen_one, list(
 		span_userdanger("YOU ARE XYLIX'S CHOSEN!"),
-		span_notice("Xylix challenges you to a game! Simply flip a zenar and let fate decide your reward! Win the game, and Xylix's favor is yours. Lose, and your zenar is forfeit!"),
+		span_notice("Iliope challenges you to a game! Simply flip a zenar and let fate decide your reward! Win the game, and Iliope's favor is yours. Lose, and your zenar is forfeit!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/xylix_omen_male_female.ogg', 100)
 

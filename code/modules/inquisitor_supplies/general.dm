@@ -330,7 +330,7 @@
 		new /obj/item/clothing/head/inqarticles/blackbag(src)
 
 /datum/inqports/equipment/psydonhelms
-	name = "Helms of Psydon"
+	name = "Helms of Angros"
 	item_type = /obj/structure/closet/crate/chest/inqcrate/equipment/psydonhelms
 	marquescost = 12
 	maximum = 1

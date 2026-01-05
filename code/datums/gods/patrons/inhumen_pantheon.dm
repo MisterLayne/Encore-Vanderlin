@@ -91,7 +91,7 @@
 	)
 	storyteller = /datum/storyteller/baotha
 
-/// Maniac Patron - Their mind is broken by secrets of Zizo/Graggar combined. They quite possibly know the reality of what happens outside the planet. They may think this is all a game. They are clearly insane.
+/// Maniac Patron - Their mind is broken by secrets of One Envy/Archdevil combined. They quite possibly know the reality of what happens outside the planet. They may think this is all a game. They are clearly insane.
 /datum/patron/inhumen/graggar_zizo
 	name = "Graggazo"
 	domain = "Ascended God who slaughtered her kind in ascension, the Dark Sini-Star of Unnatural Beasts, Forbidden Magic, and Unbridled Hatred."
@@ -99,7 +99,7 @@
 	flaws = "Nothing, Everything, Nothing"
 	worshippers = "Broken Minds, Overshared Secrets, Space-Faring Species Like You, Misanthropes"
 	sins = "The Unseen, Secrets, Worthless Pigs"
-	boons = "You are drawn to the flavour of other followers of Zizo, and may see them when you consume without worry."
+	boons = "You are drawn to the flavour of other followers of One Envy, and may see them when you consume without worry."
 	added_traits = list(TRAIT_ORGAN_EATER, TRAIT_CABAL)
 	confess_lines = list(
 		"WHERE AM I!",

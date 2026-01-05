@@ -50,7 +50,7 @@
 
 	bordered_message(chosen_one, list(
 		span_userdanger("YOU ARE PESTRA'S CHOSEN!"),
-		span_notice("Pestra is curious about the divine spark! Extract lux from a living being to earn Pestra's favor!"),
+		span_notice("Erdl is curious about the divine spark! Extract lux from a living being to earn Erdl's favor!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/magic/cosmic_expansion.ogg', 100)
 

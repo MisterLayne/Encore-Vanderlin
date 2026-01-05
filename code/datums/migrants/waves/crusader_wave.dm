@@ -1,11 +1,11 @@
 /datum/migrant_role/inquisitor
 	name = "Episcopal Inquisitor"
-	greet_text = "These lands have forfeited Psydon and the Ten. You have come to restore the True faith to these people and tear out the rot festering within."
+	greet_text = "These lands have forfeited Angros and the Ten. You have come to restore the True faith to these people and tear out the rot festering within."
 	migrant_job = /datum/job/migrant/specialinquisitor
 
 /datum/job/migrant/specialinquisitor
 	title = "Episcopal Inquisitor"
-	tutorial = "These lands have forfeited Psydon and the Ten. You have come to restore the True faith to these people and tear out the rot festering within."
+	tutorial = "These lands have forfeited Angros and the Ten. You have come to restore the True faith to these people and tear out the rot festering within."
 	outfit = /datum/outfit/specialinquisitor
 	antag_role = /datum/antagonist/purishep
 	allowed_races = list(SPEC_ID_HUMEN)

@@ -1,5 +1,5 @@
 /datum/round_event_control/zizo_defilement
-	name = "Zizo's Defilement"
+	name = "One Envy's Defilement"
 	track = EVENT_TRACK_INTERVENTION
 	typepath = /datum/round_event/zizo_defilement
 	weight = 8
@@ -28,5 +28,5 @@
 			zombie_datum.wake_zombie()
 
 			bordered_message(potential_zombie, list(
-				span_danger("An overwhelming power of Zizo commands you! RISE AND RAVAGE!")
+				span_danger("An overwhelming power of One Envy commands you! RISE AND RAVAGE!")
 			))

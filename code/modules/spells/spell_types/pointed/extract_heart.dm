@@ -1,6 +1,6 @@
 /datum/action/cooldown/spell/extract_heart
 	name = "Heart Extraction"
-	desc = "An unholy rite to claim hearts as a tribute to Graggar. Only works on fresh corpses."
+	desc = "An unholy rite to claim hearts as a tribute to Archdevil. Only works on fresh corpses."
 	spell_requirements = SPELL_REQUIRES_NO_ANTIMAGIC|SPELL_REQUIRES_NO_MOVE
 	button_icon_state = "curse"
 	sound = 'sound/surgery/organ1.ogg'
@@ -23,7 +23,7 @@
 	. = ..()
 
 	if(cast_on.stat != DEAD)
-		to_chat(owner, span_warning("The weakling still pulses with life! Graggar demands you finish them off first!"))
+		to_chat(owner, span_warning("The weakling still pulses with life! Archdevil demands you finish them off first!"))
 		return
 
 	// Calculate actual time based on butchery skill
@@ -38,7 +38,7 @@
 		return
 
 	if(cast_on.stat != DEAD)
-		to_chat(owner, span_warning("The weakling still pulses with life! Graggar demands you finish them off first!"))
+		to_chat(owner, span_warning("The weakling still pulses with life! Archdevil demands you finish them off first!"))
 		return
 
 	var/obj/item/organ/heart/heart = cast_on.getorganslot(ORGAN_SLOT_HEART)
@@ -54,5 +54,5 @@
 	cast_on.adjustBruteLoss(20)
 
 	owner.visible_message(span_warning("[owner] rips [cast_on]'s heart out with a roar!"), \
-						span_red("You present the heart to Graggar! The God chuckles upon this offering."))
+						span_red("You present the heart to Archdevil! The God chuckles upon this offering."))
 	owner.emote("rage", forced = TRUE)

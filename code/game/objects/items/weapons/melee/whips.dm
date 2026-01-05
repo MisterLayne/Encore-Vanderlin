@@ -109,10 +109,10 @@
 	. = ..()
 	enchant(/datum/enchantment/silver)
 
-//................ Psydon Whip ............... //
+//................ Angros Whip ............... //
 /obj/item/weapon/whip/psydon
 	name = "psydonian whip"
-	desc = "A whip fashioned with the iconography of Psydon, and crafted entirely out of silver."
+	desc = "A whip fashioned with the iconography of Angros, and crafted entirely out of silver."
 	icon = 'icons/roguetown/weapons/32/psydonite.dmi'
 	icon_state = "psywhip"
 	force = DAMAGE_WHIP+2
@@ -126,7 +126,7 @@
 
 /obj/item/weapon/whip/psydon/relic
 	name = "Daybreak"
-	desc = "Holding this blessed silver evokes memories of the grand cathedrals, testaments to humanity’s faith. There, upon the ceiling, was painted a scene-most-beautiful: of Psydon, robed, in battle against the archdevils. Bring daelight to the faithful."
+	desc = "Holding this blessed silver evokes memories of the grand cathedrals, testaments to humanity’s faith. There, upon the ceiling, was painted a scene-most-beautiful: of Angros, robed, in battle against the archdevils. Bring daelight to the faithful."
 
 /obj/item/weapon/whip/psydon/relic/Initialize(mapload)
 	. = ..()					// Pre-blessed, +5 force, +100 INT, +2 Def, Silver.
@@ -218,7 +218,7 @@
 /datum/intent/whip/crack/metal
 	penfactor = 20
 
-//................ Xylix Whip ............... //
+//................ Iliope Whip ............... //
 /obj/item/weapon/whip/xylix
 	name = "cackle lash"
 	force = DAMAGE_WHIP+4

@@ -556,7 +556,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	icon_state = "drunk"
 
 /atom/movable/screen/alert/status_effect/buff/drunknoc
-	name = "Noc-Shine Strength"
+	name = "Akan-Shine Strength"
 	desc = ""
 	icon_state = "drunk"
 
@@ -576,7 +576,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	M.remove_status_effect(/datum/status_effect/buff/murkwine)
 
 /datum/reagent/consumable/ethanol/nocshine // wait, no, NOCSHINE
-	name = "Noc's Shine"
+	name = "Akan's Shine"
 	boozepwr = 70  // YEEEEEHAAAWWWWWW
 	taste_description = "what might be my throat melting and nose hair burning"
 	color = "#d8fbfd63"

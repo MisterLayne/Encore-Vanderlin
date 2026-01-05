@@ -1,7 +1,7 @@
 /datum/job/advclass/pilgrim/fisher
 	title = "Fisher"
 	tutorial = "Simple folk with an affinity for catching fish out of any body of water, \
-				they are decent cooks and swimmers, living off the gifts of Abyssor."
+				they are decent cooks and swimmers, living off the gifts of Mjallidhorn."
 	allowed_sexes = list(MALE, FEMALE)
 
 	outfit = /datum/outfit/adventurer/fisher

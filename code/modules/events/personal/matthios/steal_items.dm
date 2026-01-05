@@ -55,7 +55,7 @@
 
 	bordered_message(chosen_one, list(
 		span_userdanger("YOU ARE MATTHIOS' CHOSEN!"),
-		span_notice("Matthios demands you prove your cunning! Pickpocket fools to earn Matthios' favor!"),
+		span_notice("Deceivers demands you prove your cunning! Pickpocket fools to earn Deceivers' favor!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/matthios_omen.ogg', 100)
 

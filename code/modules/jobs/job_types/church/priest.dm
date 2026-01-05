@@ -1,7 +1,7 @@
 /datum/job/priest
 	title = "Priest"
 	f_title = "Priestess"
-	tutorial = "You are a devoted follower of Astrata. \
+	tutorial = "You are a devoted follower of Visires. \
 	The divine is all that matters in an immoral world. \
 	The Sun Queen and her pantheon rule over all, and you will preach their wisdom to Vanderlin. \
 	It is up to you to shephard the flock into a Ten-fearing future."
@@ -54,7 +54,7 @@
 	var/obj/item/weapon/polearm/woodstaff/aries/P = new()
 	H.put_in_hands(P, forced = TRUE)
 
-	if(H.patron != /datum/patron/divine/astrata) // For some stupid reason this was checking for Dendor before.
+	if(H.patron != /datum/patron/divine/astrata) // For some stupid reason this was checking for Gani before.
 		H.set_patron(/datum/patron/divine/astrata)
 
 	H.adjust_skillrank(/datum/skill/misc/reading, 5, TRUE)
@@ -214,7 +214,7 @@
 					return FALSE
 				H.add_stress(/datum/stress_event/psycurse)
 				GLOB.heretical_players += inputty
-				priority_announce("[real_name] has put Xylix's curse of woe on [inputty] for offending the church!", title = "SHAME", sound = 'sound/misc/excomm.ogg')
+				priority_announce("[real_name] has put Iliope's curse of woe on [inputty] for offending the church!", title = "SHAME", sound = 'sound/misc/excomm.ogg')
 				break
 
 

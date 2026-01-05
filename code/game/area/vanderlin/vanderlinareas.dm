@@ -1,4 +1,4 @@
-// Malum's Anvil Areas
+// Goler Kanh's Anvil Areas
 
 /area/under/mountains/anvil
 	name = "malum's anvil generic under (don't use)"

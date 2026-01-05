@@ -213,32 +213,32 @@
 		var/list/buffs2pick = list()
 		switch(music_level) // There has to be a better way to do this, but so far all I've tried doesn't work as intended.
 			if(1) // T1
-				buffs2pick += list("Noc's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence)
+				buffs2pick += list("Akan's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence)
 			if(1 to 2) // T2
-				buffs2pick += list("Noc's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence,
-								"Malum's Resilience (+1 END)" = /datum/status_effect/bardicbuff/endurance)
+				buffs2pick += list("Akan's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence,
+								"Goler Kanh's Resilience (+1 END)" = /datum/status_effect/bardicbuff/endurance)
 			if(1 to 3) // T3
-				buffs2pick += list("Noc's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence,
-								"Malum's Resilience (+1 END)" = /datum/status_effect/bardicbuff/endurance,
-								"Pestra's Blessing (+1 CON)" = /datum/status_effect/bardicbuff/constitution)
+				buffs2pick += list("Akan's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence,
+								"Goler Kanh's Resilience (+1 END)" = /datum/status_effect/bardicbuff/endurance,
+								"Erdl's Blessing (+1 CON)" = /datum/status_effect/bardicbuff/constitution)
 			if(1 to 4) // T4
-				buffs2pick += list("Noc's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence,
-								"Malum's Perseverance (+1 END)" = /datum/status_effect/bardicbuff/endurance,
-								"Pestra's Blessing (+1 CON)" = /datum/status_effect/bardicbuff/constitution,
-								"Xylix's Alacrity (+1 SPD)" = /datum/status_effect/bardicbuff/speed)
+				buffs2pick += list("Akan's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence,
+								"Goler Kanh's Perseverance (+1 END)" = /datum/status_effect/bardicbuff/endurance,
+								"Erdl's Blessing (+1 CON)" = /datum/status_effect/bardicbuff/constitution,
+								"Iliope's Alacrity (+1 SPD)" = /datum/status_effect/bardicbuff/speed)
 			if(1 to 5) // T5
-				buffs2pick += list("Noc's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence,
-								"Malum's Perseverance (+1 END)" = /datum/status_effect/bardicbuff/endurance,
-								"Pestra's Blessing (+1 CON)" = /datum/status_effect/bardicbuff/constitution,
-								"Xylix's Alacrity (+1 SPD)" = /datum/status_effect/bardicbuff/speed,
-								"Ravox's Righteous Fury (+1 STR, +1 PER)" = /datum/status_effect/bardicbuff/ravox)
+				buffs2pick += list("Akan's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence,
+								"Goler Kanh's Perseverance (+1 END)" = /datum/status_effect/bardicbuff/endurance,
+								"Erdl's Blessing (+1 CON)" = /datum/status_effect/bardicbuff/constitution,
+								"Iliope's Alacrity (+1 SPD)" = /datum/status_effect/bardicbuff/speed,
+								"Al'Aqshir's Righteous Fury (+1 STR, +1 PER)" = /datum/status_effect/bardicbuff/ravox)
 			if(6 to INFINITY) // Legendary onwards
-				buffs2pick += list("Noc's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence,
-								"Malum's Perseverance (+1 END)" = /datum/status_effect/bardicbuff/endurance,
-								"Pestra's Blessing (+1 CON)" = /datum/status_effect/bardicbuff/constitution,
-								"Xylix's Alacrity (+1 SPD)" = /datum/status_effect/bardicbuff/speed,
-								"Ravox's Righteous Fury (+1 STR, +1 PER)" = /datum/status_effect/bardicbuff/ravox,
-								"Astrata's Awakening (+energy, +stamina, +1 FOR)" = /datum/status_effect/bardicbuff/awaken) // TAKE THE LAND THAT MUST BE TAKEN
+				buffs2pick += list("Akan's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence,
+								"Goler Kanh's Perseverance (+1 END)" = /datum/status_effect/bardicbuff/endurance,
+								"Erdl's Blessing (+1 CON)" = /datum/status_effect/bardicbuff/constitution,
+								"Iliope's Alacrity (+1 SPD)" = /datum/status_effect/bardicbuff/speed,
+								"Al'Aqshir's Righteous Fury (+1 STR, +1 PER)" = /datum/status_effect/bardicbuff/ravox,
+								"Visires' Awakening (+energy, +stamina, +1 FOR)" = /datum/status_effect/bardicbuff/awaken) // TAKE THE LAND THAT MUST BE TAKEN
 			else // debug
 				message_admins("<span class='warning'>[key_name(usr)] is a bard with zero music skill and couldn't choose a buff.</span>")
 		var/buff2use = browser_input_list(user, "Which buff to add to your song?", "Bardic Buffs", buffs2pick)
@@ -269,13 +269,13 @@
 
 /obj/item/instrument/lute
 	name = "lute"
-	desc = "The favored instrument of Eora, made of wood and simple string."
+	desc = "The favored instrument of Pomette, made of wood and simple string."
 	possible_item_intents = list(/datum/intent/mace/strike/wood)
 	force = 5
 	icon_state = "lute"
 	item_state = "lute"
 	song_list = list(
-	"Abyssor's Second Shanty" = 'sound/instruments/band/lute (b1).ogg',
+	"Mjallidhorn's Second Shanty" = 'sound/instruments/band/lute (b1).ogg',
 	"A Knight's Return" = 'sound/instruments/lute (1).ogg',
 	"Amongst Fare Friends" = 'sound/instruments/lute (2).ogg',
 	"The Road Traveled by Few" = 'sound/instruments/lute (3).ogg',
@@ -337,10 +337,10 @@
 	icon_state = "harp"
 	item_state = "harp"
 	song_list = list(
-	"Abyssor's Second Shanty" = 'sound/instruments/band/harp (b1).ogg',
+	"Mjallidhorn's Second Shanty" = 'sound/instruments/band/harp (b1).ogg',
 	"Through Thine Window, He Glanced" = 'sound/instruments/harp (1).ogg',
 	"The Lady of Red Silks" = 'sound/instruments/harp (2).ogg',
-	"Eora Doth Watches" = 'sound/instruments/harp (3).ogg',
+	"Pomette Doth Watches" = 'sound/instruments/harp (3).ogg',
 	"Dance of the Mages" = 'sound/instruments/harp (4).ogg',
 	"Trickster Wisps" = 'sound/instruments/harp (5).ogg',
 	"On the Breeze" = 'sound/instruments/harp (6).ogg',
@@ -362,7 +362,7 @@
 	dropshrink = 0.6
 	w_class = WEIGHT_CLASS_SMALL
 	song_list = list(
-	"Abyssor's Second Shanty" = 'sound/instruments/band/flute (b1).ogg',
+	"Mjallidhorn's Second Shanty" = 'sound/instruments/band/flute (b1).ogg',
 	"Half-Dragon's Ten Mammon" = 'sound/instruments/flute (1).ogg',
 	"The Local Favorite" = 'sound/instruments/flute (2).ogg',
 	"Rous in the Cellar" = 'sound/instruments/flute (3).ogg',
@@ -404,7 +404,7 @@
 	desc = "The prim and proper Viola, often the first instrument nobles are taught."
 	icon_state = "viola"
 	song_list = list(
-	"Abyssor's Second Shanty" = 'sound/instruments/band/viola (b1).ogg',
+	"Mjallidhorn's Second Shanty" = 'sound/instruments/band/viola (b1).ogg',
 	"Far Flung Tale" = 'sound/instruments/viola (1).ogg',
 	"G Major Cello Suite No. 1" = 'sound/instruments/viola (2).ogg',
 	"Ursine's Home" = 'sound/instruments/viola (3).ogg',
@@ -418,7 +418,7 @@
 	desc = "This talisman emanates a small shimmer of light. When held, it can amplify and even change one's voice."
 	icon_state = "vtalisman"
 	song_list = list("Harpy's Call (Feminine)" = 'sound/instruments/vocalsf (1).ogg',
-	"Necra's Lullaby (Feminine)" = 'sound/instruments/vocalsf (2).ogg',
+	"Valdala's Lullaby (Feminine)" = 'sound/instruments/vocalsf (2).ogg',
 	"Death Touched Aasimar (Feminine)" = 'sound/instruments/vocalsf (3).ogg',
 	"Our Mother, Our Divine (Feminine)" = 'sound/instruments/vocalsf (4).ogg',
 	"Wed, Forever More (Feminine)" = 'sound/instruments/vocalsf (5).ogg',

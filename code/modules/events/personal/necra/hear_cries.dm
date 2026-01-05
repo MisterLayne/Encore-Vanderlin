@@ -51,7 +51,7 @@
 
 	bordered_message(chosen_one, list(
 		span_userdanger("YOU ARE NECRA'S CHOSEN!"),
-		span_notice("You must understand death better to be able to prepare for it. For that purpose, go to the church and listen to the whispers of the dead while wearing amulet of Necra."),
+		span_notice("You must understand death better to be able to prepare for it. For that purpose, go to the church and listen to the whispers of the dead while wearing amulet of Valdala."),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/ambience/noises/genspooky (1).ogg', 100)
 

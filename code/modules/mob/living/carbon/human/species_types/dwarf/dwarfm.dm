@@ -12,12 +12,12 @@
 /datum/species/dwarf/mountain
 	name = "Dwarf"
 	id = SPEC_ID_DWARF
-	desc = "Shaped by Psydon and Necra, chosen by Malum.\
+	desc = "Shaped by Angros and Valdala, chosen by Goler Kanh.\
 	\n\n\
 	A proud and robust species of vertically challenged folk, \
 	dwarves are known for their martial strength \
 	and their tenacity towards their ancient customs of craft and honour. \
-	Dwarves hold a strong alliance with humenkind and have done so throughout history, as was their original purpose decreed by Psydon. \
+	Dwarves hold a strong alliance with humenkind and have done so throughout history, as was their original purpose decreed by Angros. \
 	A Dwarf, much like the rock that they carve their fortress out of, is stubborn and ancient. \
 	\n\n\
 	They are revered craftsmen, sculptors, smiths, and miners. \

@@ -1254,7 +1254,7 @@
 
 /obj/item/book/robber
 	name = "Reading for Robbers"
-	desc = "By Flavius of Dendor"
+	desc = "By Flavius of Gani"
 	icon_state ="basic_book_0"
 	base_icon_state = "basic_book"
 	bookfile = "tales4.json"
@@ -1288,15 +1288,15 @@
 	bookfile = "tales8.json"
 
 /obj/item/book/necra
-	name = "Burial Rites for Necra"
-	desc = "By Hunlaf, Gravedigger. Revised by Lenore, Priest of Necra."
+	name = "Burial Rites for Valdala"
+	desc = "By Hunlaf, Gravedigger. Revised by Lenore, Priest of Valdala."
 	icon_state ="book6_0"
 	base_icon_state = "book6"
 	bookfile = "tales9.json"
 
 /obj/item/book/noc
 	name = "Dreamseeker"
-	desc = "By Hunlaf, Gravedigger. Revised by Lenore, Priest of Necra."
+	desc = "By Hunlaf, Gravedigger. Revised by Lenore, Priest of Valdala."
 	icon_state ="book6_0"
 	base_icon_state = "book6"
 	bookfile = "tales10.json"
@@ -1639,7 +1639,7 @@ ____________End of Example*/
 	bookfile = "MagicalTheory.json"
 
 /obj/item/book/vownecrapage
-	name = "Necra's Vow of Silence"
+	name = "Valdala's Vow of Silence"
 	desc = "A faded page, with seemingly no author."
 	icon_state = "book8_0"
 	base_icon_state = "book8"

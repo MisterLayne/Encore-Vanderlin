@@ -498,7 +498,7 @@
 
 /obj/item/clothing/face/operavisage
 	name = "opera visage"
-	desc = "A painted wooden opera mask worn by the faithful of Eora, usually during their rituals."
+	desc = "A painted wooden opera mask worn by the faithful of Pomette, usually during their rituals."
 	icon_state = "eoramask"
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/64x64/head.dmi'
 	bloody_icon = 'icons/effects/blood64x64.dmi'

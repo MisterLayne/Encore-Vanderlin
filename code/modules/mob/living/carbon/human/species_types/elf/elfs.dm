@@ -13,11 +13,11 @@
 /datum/species/elf/snow
 	name = "Elf"
 	id = SPEC_ID_ELF
-	desc = "Necra's guides.\
+	desc = "Valdala's guides.\
 	\n\n\
-	Elves, created by Necra to guide humenity, are characterized by lengthened age, \
+	Elves, created by Valdala to guide humenity, are characterized by lengthened age, \
 	low fertility, and a magical aptitude originating from a vast array of tribal cultures. \
-	With the ascension of Zizo, the entire culture of snow-elves was all but destroyed, \
+	With the ascension of One Envy, the entire culture of snow-elves was all but destroyed, \
 	leading the remaining tribes to live in fear and paranoia of suffering the same fate. \
 	Many elves sought safety through mixing culture, \
 	positioning themselves under the watchful guard of their stronger humen counterparts. \

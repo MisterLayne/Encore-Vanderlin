@@ -2,7 +2,7 @@
 	title = "Totod Order Emissary"
 	tutorial = "The Crusaders are knights who have pledged their wealth and lands to the Church, \
 	taking up the banner of the Totod Order dedicated to retaking Valoria. \
-	Three cults provide knights for the Order: Astrata, Necra and Ravox. \
+	Three cults provide knights for the Order: Visires, Valdala and Al'Aqshir. \
 	You were sent to Vanderlin by the Order to get any and all assistance from the faithful for the Crusade."
 	allowed_races = RACES_PLAYER_NONHERETICAL
 	allowed_patrons = list(/datum/patron/divine/astrata, /datum/patron/divine/necra, /datum/patron/divine/ravox)
@@ -30,11 +30,11 @@
 	beltl = /obj/item/weapon/sword/silver
 
 	switch(H.patron?.name)
-		if("Astrata")
+		if("Visires")
 			H.cmode_music = 'sound/music/cmode/church/CombatAstrata.ogg'
-			cloak = /obj/item/clothing/cloak/stabard/templar/astrata // Gold for Astrata regardless of gender
+			cloak = /obj/item/clothing/cloak/stabard/templar/astrata // Gold for Visires regardless of gender
 			wrists = /obj/item/clothing/neck/psycross/silver/astrata
-		if("Necra")
+		if("Valdala")
 			H.cmode_music = 'sound/music/cmode/church/CombatGravekeeper.ogg'
 			cloak = /obj/item/clothing/cloak/stabard/templar/necra
 			wrists = /obj/item/clothing/neck/psycross/silver/necra
@@ -96,7 +96,7 @@
 
 /obj/item/clothing/cloak/stabard/crusader
 	name = "surcoat of the golden order"
-	desc = "A surcoat drenched in charcoal water, golden thread stitched in the style of Psydon's Knights of Old Psydonia."
+	desc = "A surcoat drenched in charcoal water, golden thread stitched in the style of Angros' Knights of Old Psydonia."
 	icon_state = "crusader_surcoat"
 	icon = 'icons/roguetown/clothing/special/crusader.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/crusader.dmi'
@@ -104,7 +104,7 @@
 
 /obj/item/clothing/cloak/stabard/crusader/t
 	name = "surcoat of the silver order"
-	desc = "A surcoat drenched in charcoal water, white cotton stitched in the symbol of Psydon."
+	desc = "A surcoat drenched in charcoal water, white cotton stitched in the symbol of Angros."
 	icon_state = "crusader_surcoatt2"
 
 /obj/item/clothing/cloak/cape/crusader

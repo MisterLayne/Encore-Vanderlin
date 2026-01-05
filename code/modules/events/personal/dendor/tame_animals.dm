@@ -46,7 +46,7 @@
 
 	bordered_message(chosen_one, list(
 		span_userdanger("YOU ARE DENDOR'S CHOSEN!"),
-		span_notice("Dendor calls you to bond with the wild creatures! Tame an animal to earn Dendor's favor!"),
+		span_notice("Gani calls you to bond with the wild creatures! Tame an animal to earn Gani's favor!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/magic/barbroar.ogg', 100)
 

@@ -44,7 +44,7 @@
 	parent.elements += text_element
 	register_element(text_element)
 
-	add_line("Psydon's Awesome Epic Powers")
+	add_line("Angros' Awesome Epic Powers")
 	add_line("Type 'help' for available commands")
 
 /obj/abstract/visual_ui_element/scrollable/console_output/Click(location, control, params)

@@ -124,7 +124,7 @@
 		/datum/migrant_role/dark_itinerant_knight = 1,
 		/datum/migrant_role/dark_itinerant_squire = 1,
 	)
-	greet_text = "These lands have insulted once more Zizo, you are here to remind them of her prowess."
+	greet_text = "These lands have insulted once more One Envy, you are here to remind them of her prowess."
 
 /datum/migrant_wave/evil_knight_down
 	name = "The Unknightly journey"
@@ -134,4 +134,4 @@
 	roles = list(
 		/datum/migrant_role/dark_itinerant_knight = 1,
 	)
-	greet_text = "These lands have insulted once more Zizo, you are here to remind them of her prowess."
+	greet_text = "These lands have insulted once more One Envy, you are here to remind them of her prowess."

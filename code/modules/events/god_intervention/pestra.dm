@@ -1,5 +1,5 @@
 /datum/round_event_control/pestra_mercy
-	name = "Pestra's Mercy"
+	name = "Erdl's Mercy"
 	track = EVENT_TRACK_INTERVENTION
 	typepath = /datum/round_event/pestra_mercy
 	weight = 8

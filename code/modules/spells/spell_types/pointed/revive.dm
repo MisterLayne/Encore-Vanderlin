@@ -1,6 +1,6 @@
 /datum/action/cooldown/spell/revive
 	name = "Anastasis"
-	desc = "Return a soul from Necra's grasp with the light of Astrata."
+	desc = "Return a soul from Valdala's grasp with the light of Visires."
 	button_icon_state = "revive"
 	sound = 'sound/magic/revive.ogg'
 	charge_sound = 'sound/magic/holycharging.ogg'
@@ -50,7 +50,7 @@
 			return . | SPELL_CANCEL_CAST
 
 	if(HAS_TRAIT(cast_on, TRAIT_NECRA_CURSE))
-		to_chat(owner, span_warning("Necra holds tight to this one."))
+		to_chat(owner, span_warning("Valdala holds tight to this one."))
 		reset_spell_cooldown()
 		return . | SPELL_CANCEL_CAST
 
@@ -90,7 +90,7 @@
 			ghost.mind.transfer_to(cast_on, TRUE)
 		cast_on.grab_ghost(force = TRUE) // even suicides
 	if(!cast_on.revive(full_heal = FALSE))
-		to_chat(owner, span_warning("Astrata's light fails to revive [cast_on]!"))
+		to_chat(owner, span_warning("Visires' light fails to revive [cast_on]!"))
 		return
 	record_round_statistic(STATS_ASTRATA_REVIVALS)
 	cast_on.emote("breathgasp")

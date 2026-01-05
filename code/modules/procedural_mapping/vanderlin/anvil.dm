@@ -38,7 +38,7 @@
 						/obj/structure/wild_plant/nospread/mushroom/caveweep = 1,)
 	allowed_areas = list(/area/under/mountains/anvil/lower)
 
-/datum/mapGeneratorModule/grove // This area is not utilized in Malum's Anvil at all as of 10-13-2025
+/datum/mapGeneratorModule/grove // This area is not utilized in Goler Kanh's Anvil at all as of 10-13-2025
 	clusterCheckFlags = CLUSTER_CHECK_DIFFERENT_ATOMS
 	allowed_turfs = list(/turf/open/floor/dirt,/turf/open/floor/dirt/road, /turf/open/floor/grass)
 	spawnableAtoms = list(/obj/item/natural/stone = 3,

@@ -294,7 +294,7 @@
 /obj/item/weapon/knife/jile/iron
 	possible_item_intents = list(/datum/intent/dagger/cut, /datum/intent/dagger/thrust)
 	name = "iron jile"
-	desc = "A curved iron dagger of Lakkarian origin. Nobles of Sakhumeti were often buried with these daggers, but this practice has become less common ever since Zizo's ascension."
+	desc = "A curved iron dagger of Lakkarian origin. Nobles of Sakhumeti were often buried with these daggers, but this practice has become less common ever since One Envy's ascension."
 	icon = 'icons/roguetown/weapons/32/lakkari.dmi'
 	icon_state = "jile_iron"
 	melting_material = null
@@ -331,7 +331,7 @@
 
 /obj/item/weapon/knife/jile/steel
 	name = "steel jile"
-	desc = "A curved steel dagger of Lakkarian origin. Nobles of Sakhumeti were often buried with these daggers, but this practice has become less common ever since Zizo's ascension."
+	desc = "A curved steel dagger of Lakkarian origin. Nobles of Sakhumeti were often buried with these daggers, but this practice has become less common ever since One Envy's ascension."
 	icon = 'icons/roguetown/weapons/32/lakkari.dmi'
 	icon_state = "jile_steel"
 	possible_item_intents = list(/datum/intent/dagger/cut, /datum/intent/dagger/thrust)
@@ -445,7 +445,7 @@
 				"<span class='danger'>Save me...</span>",
 				"<span class='danger'>It's cold...</span>",
 				"<span class='danger'>Free us...please...</span>",
-				"<span class='danger'>Necra...deliver...us...</span>")
+				"<span class='danger'>Valdala...deliver...us...</span>")
 //			H.visible_message("profane dagger whispers, \"[message]\"")
 			to_chat(M, "profane dagger whispers, \"[message]\"")
 		else
@@ -551,7 +551,7 @@
 /obj/item/weapon/knife/dagger/steel/profane/proc/get_profane_ghost(mob/living/carbon/human/target, mob/user)
 	var/mob/dead/observer/chosen_ghost
 	var/mob/living/carbon/spirit/underworld_spirit = target.get_spirit() //Check if a soul has already gone to the underworld
-	if(underworld_spirit) // If they are in the underworld, pull them back to the real world and make them a normal ghost. Necra can't save you now!
+	if(underworld_spirit) // If they are in the underworld, pull them back to the real world and make them a normal ghost. Valdala can't save you now!
 		var/mob/dead/observer/ghost = underworld_spirit.ghostize()
 		chosen_ghost = ghost.get_ghost(TRUE,TRUE)
 	else //Otherwise, try to get a ghost from the real world
@@ -566,7 +566,7 @@
 /obj/item/weapon/knife/dagger/steel/profane/proc/release_profane_souls(mob/user) // For ways to release the souls trapped within a profane dagger, such as a Necrite burial rite. Returns the number of freed souls.
 	var/freed_souls = 0
 	for(var/mob/dead/observer/profane/A in src) // for every trapped soul in the dagger, whether they have left the game or not
-		to_chat(A, "<b>I have been freed from my vile prison, I await Necra's cold grasp. Salvation!</b>")
+		to_chat(A, "<b>I have been freed from my vile prison, I await Valdala's cold grasp. Salvation!</b>")
 		A.returntolobby() //Send the trapped soul back to the lobby
 		user.visible_message("<span class='warning'>The [A.name] flows out from the profane dagger, finally free of its grasp.</span>")
 		freed_souls += 1

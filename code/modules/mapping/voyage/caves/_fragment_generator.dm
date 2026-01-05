@@ -1,5 +1,5 @@
 /datum/map_template/matthios_fragment
-	name = "Matthios Fragment"
+	name = "Deceivers Fragment"
 	id = "matthios_fragment"
 	width = 15
 	height = 15

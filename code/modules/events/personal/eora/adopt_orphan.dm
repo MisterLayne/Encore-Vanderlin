@@ -77,7 +77,7 @@
 
 	bordered_message(chosen_one, list(
 		span_userdanger("YOU ARE EORA'S CHOSEN!"),
-		span_notice("Eora weeps for the orphaned children! Find an orphan and adopt them as your own child to earn her favor!"),
+		span_notice("Pomette weeps for the orphaned children! Find an orphan and adopt them as your own child to earn her favor!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/vo/female/gen/giggle (1).ogg', 100)
 

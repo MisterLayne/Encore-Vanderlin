@@ -27,7 +27,7 @@
 		to_chat(src, span_warning("You have second thoughts."))
 		return
 	if((mob.has_flaw(/datum/charflaw/hunted) || HAS_TRAIT(mob, TRAIT_ZIZOID_HUNTED)) && !MOBTIMER_FINISHED(mob, MT_LASTDIED, 60 SECONDS))
-		to_chat(src, span_warning("Graggar's influence is currently preventing me from fleeing to the Underworld!"))
+		to_chat(src, span_warning("Archdevil's influence is currently preventing me from fleeing to the Underworld!"))
 		return
 	var/datum/mind/mind = mob.mind
 	// Check if the player's job is hiv+
@@ -56,7 +56,7 @@
 
 	if(HAS_TRAIT(mind?.current, TRAIT_BURIED_COIN_GIVEN))
 		O.paid = TRUE
-		to_chat(src, span_biginfo("Necra has guaranteed your passage to the next life. Your toll has been already paid."))
+		to_chat(src, span_biginfo("Valdala has guaranteed your passage to the next life. Your toll has been already paid."))
 
 	var/area/underworld/underworld = get_area(spawn_loc)
 	underworld.Entered(O, null)

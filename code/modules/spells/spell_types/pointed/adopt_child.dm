@@ -43,7 +43,7 @@
 
 	owner.visible_message(
 		span_notice("[owner] begins a solemn adoption ritual."),
-		span_notice("You begin the adoption ritual with Eora's blessing...")
+		span_notice("You begin the adoption ritual with Pomette's blessing...")
 	)
 
 	if(!do_after(owner, 5 SECONDS, cast_on))
@@ -77,7 +77,7 @@
 			spouse_member = family.CreateFamilyMember(adopter.spouse_mob)
 		child_member.AddParent(spouse_member)
 
-	to_chat(owner, span_love("You have adopted [cast_on.real_name] as your child with Eora's blessing!"))
+	to_chat(owner, span_love("You have adopted [cast_on.real_name] as your child with Pomette's blessing!"))
 	to_chat(cast_on, span_love("You have been adopted by [owner.real_name]!"))
 
 	SEND_SIGNAL(owner, COMSIG_ORPHAN_ADOPTED, cast_on)

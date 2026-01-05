@@ -46,7 +46,7 @@
 
 	bordered_message(chosen_one, list(
 		span_userdanger("YOU ARE MALUM'S CHOSEN!"),
-		span_notice("Malum wants you to hone your craft! Improve your crafting skills to earn Malum's favor!"),
+		span_notice("Goler Kanh wants you to hone your craft! Improve your crafting skills to earn Goler Kanh's favor!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/magic/dwarf_chant01.ogg', 100)
 

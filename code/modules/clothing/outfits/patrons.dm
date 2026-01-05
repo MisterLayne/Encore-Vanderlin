@@ -28,7 +28,7 @@
 	alternate_worn_layer = TABARD_LAYER
 	boobed = FALSE
 	name = "tabard of malum"
-	desc = "Light blacks and greys, with a tinge of red, the everlasting fire of Malum's iron hammer as it strikes."
+	desc = "Light blacks and greys, with a tinge of red, the everlasting fire of Goler Kanh's iron hammer as it strikes."
 	icon_state = "malumtabard"
 
 /obj/item/clothing/cloak/templar/necran
@@ -134,7 +134,7 @@
 
 /obj/item/clothing/cloak/templar/eora
 	name = "eora tabard"
-	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Eora on it."
+	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Pomette on it."
 	icon_state = "tabard_eora"
 	alternate_worn_layer = TABARD_LAYER
 	body_parts_covered = CHEST|GROIN
@@ -148,7 +148,7 @@
 
 /obj/item/clothing/cloak/templar/pestra
 	name = "pestra tabard"
-	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Pestra on it."
+	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Erdl on it."
 	icon_state = "tabard_pestra"
 	alternate_worn_layer = TABARD_LAYER
 	body_parts_covered = CHEST|GROIN
@@ -162,7 +162,7 @@
 
 /obj/item/clothing/cloak/ravox
 	name = "ravox tabard"
-	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Ravox on it."
+	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Al'Aqshir on it."
 	icon_state = "tabard_ravox"
 	alternate_worn_layer = TABARD_LAYER
 	body_parts_covered = CHEST|GROIN
@@ -176,7 +176,7 @@
 
 /obj/item/clothing/cloak/templar/xylix
 	name = "xylix tabard"
-	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Xylix on it."
+	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Iliope on it."
 	icon_state = "tabard_xylix"
 	alternate_worn_layer = TABARD_LAYER
 	body_parts_covered = CHEST|GROIN
@@ -191,7 +191,7 @@
 
 /obj/item/clothing/head/veiled
 	name = "nurse's veil"
-	desc = "A chirurgeon's bonnet, veiled with petal-stuffed linen. The stitchwork is often donned by the likes of wandering plague doctors and clerics; especially, those who're beholden to Pestra and Psydon."
+	desc = "A chirurgeon's bonnet, veiled with petal-stuffed linen. The stitchwork is often donned by the likes of wandering plague doctors and clerics; especially, those who're beholden to Erdl and Angros."
 	icon_state = "veil"
 	item_state = "veil"
 	detail_tag = "_detail"
@@ -241,7 +241,7 @@
 
 /obj/item/clothing/head/helmet/heavy/astratahelm
 	name = "astrata helmet"
-	desc = "Headwear commonly worn by Templars in service to Astrata. The firstborn child's light will forever shine on within its crest."
+	desc = "Headwear commonly worn by Templars in service to Visires. The firstborn child's light will forever shine on within its crest."
 	icon_state = "astratanhelm"
 	item_state = "astratanhelm"
 	emote_environment = 3
@@ -252,7 +252,7 @@
 
 /obj/item/clothing/head/helmet/heavy/nochelm
 	name = "noc helmet"
-	desc = "Headwear commonly worn by Templars in service to Noc. Without the night there can be no day; without Noc there can be no light in the dark hours."
+	desc = "Headwear commonly worn by Templars in service to Akan. Without the night there can be no day; without Akan there can be no light in the dark hours."
 	icon_state = "nochelm"
 	item_state = "nochelm"
 	emote_environment = 3
@@ -264,7 +264,7 @@
 
 /obj/item/clothing/head/helmet/heavy/necrahelm
 	name = "necra helmet"
-	desc = "Headwear commonly worn by Templars in service to Necra. Let its skeletal features remind you of the only thing which is guaranteed in life: You will die."
+	desc = "Headwear commonly worn by Templars in service to Valdala. Let its skeletal features remind you of the only thing which is guaranteed in life: You will die."
 	icon_state = "necranhelm"
 	item_state = "necranhelm"
 	emote_environment = 3
@@ -275,7 +275,7 @@
 
 /obj/item/clothing/head/helmet/heavy/dendorhelm
 	name = "dendor helmet"
-	desc = "Headwear commonly worn by Templars in service to Dendor. Its protrusions almost resemble branches. Take root in the earth, and you will never be moved."
+	desc = "Headwear commonly worn by Templars in service to Gani. Its protrusions almost resemble branches. Take root in the earth, and you will never be moved."
 	icon_state = "dendorhelm"
 	item_state = "dendorhelm"
 	emote_environment = 3
@@ -286,7 +286,7 @@
 
 /obj/item/clothing/head/helmet/heavy/abyssorgreathelm
 	name = "abyssorite helmet"
-	desc = "A helmet commonly worn by Templars in service to Abyssor. It evokes imagery of the sea with a menacing crustacean visage."
+	desc = "A helmet commonly worn by Templars in service to Mjallidhorn. It evokes imagery of the sea with a menacing crustacean visage."
 	icon_state = "abyssorgreathelm"
 	item_state = "abyssorgreathelm"
 	emote_environment = 3
@@ -297,7 +297,7 @@
 
 /obj/item/clothing/head/helmet/heavy/ravoxhelm
 	name = "justice eagle"
-	desc = "Forged in reverence to Ravox, this helm bears the stylized visage of an eagle, symbol of unyielding judgment and divine vigilance. Its hollow eyes see not just foes, but the truth behind every deed."
+	desc = "Forged in reverence to Al'Aqshir, this helm bears the stylized visage of an eagle, symbol of unyielding judgment and divine vigilance. Its hollow eyes see not just foes, but the truth behind every deed."
 	icon_state = "ravoxhelmet"
 	item_state = "ravoxhelmet"
 	emote_environment = 3
@@ -354,6 +354,6 @@
 
 /obj/item/clothing/face/facemask/psydonmask
 	name = "psydonic mask"
-	desc = "A silver mask, forever locked in a rigor of uncontestable joy. The Order of Saint Xylix can't decide on whether it's meant to represent Psydon's 'mirthfulness,' 'theatricality,' or the unpredictable melding of both."
+	desc = "A silver mask, forever locked in a rigor of uncontestable joy. The Order of Saint Iliope can't decide on whether it's meant to represent Angros' 'mirthfulness,' 'theatricality,' or the unpredictable melding of both."
 	icon_state = "psydonmask"
 	item_state = "psydonmask"

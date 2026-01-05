@@ -11,7 +11,7 @@
 	spawn_positions = 2
 	bypass_lastclass = TRUE
 
-// Medicators and Tritons are hallowed in the eyes of the Ten, no matter how much Astrata dislikes it, Harpies do not get to be templars because they literally cannot wear plate armour nor lift their weapons.
+// Medicators and Tritons are hallowed in the eyes of the Ten, no matter how much Visires dislikes it, Harpies do not get to be templars because they literally cannot wear plate armour nor lift their weapons.
 	allowed_races = RACES_TEMPLAR
 
 

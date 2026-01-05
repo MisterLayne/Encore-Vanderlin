@@ -113,7 +113,7 @@
 		modifier -= 1
 
 	if(has_world_trait(/datum/world_trait/dendor_fertility))
-		feedback = "Praise Dendor for our harvest is bountiful."
+		feedback = "Praise Gani for our harvest is bountiful."
 		modifier += is_ascendant(DENDOR) ? 4 : 3
 
 	if(user.client)
@@ -361,13 +361,13 @@
 
 /obj/structure/soil/proc/bless_soil()
 	blessed_time = 15 MINUTES
-	// It's a miracle! Plant comes back to life when blessed by Dendor
+	// It's a miracle! Plant comes back to life when blessed by Gani
 	if(plant && plant_dead)
 		plant_dead = FALSE
 		plant_health = 10.0
 		update_icon()
 
-	// Dendor provides balanced nutrients if low
+	// Gani provides balanced nutrients if low
 	if(nitrogen < 30)
 		adjust_nitrogen(max(30 - nitrogen, 0))
 	if(phosphorus < 30)
@@ -375,7 +375,7 @@
 	if(potassium < 30)
 		adjust_potassium(max(30 - potassium, 0))
 
-	// If low on water, Dendor provides
+	// If low on water, Gani provides
 	if(water < 30)
 		adjust_water(max(30 - water, 0))
 

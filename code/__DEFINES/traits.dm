@@ -399,7 +399,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_POISONBITE				"Poison Bite"
 #define TRAIT_FORAGER					"Expert Forager"
 #define TRAIT_TINY 						"Tiny"
-#define TRAIT_DREAM_WATCHER				"Noc Blessed" //Unique Trait of the Dream Watcher Town Elder Class, they have a chance to know about antags or gods influences.
+#define TRAIT_DREAM_WATCHER				"Akan Blessed" //Unique Trait of the Dream Watcher Town Elder Class, they have a chance to know about antags or gods influences.
 #define TRAIT_HOLLOWBONES				"Hollow Bones"
 #define TRAIT_AMAZING_BACK				"Light Load"
 #define TRAIT_KITTEN_MOM				"Loved By Kittens"
@@ -422,9 +422,9 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_FANATICAL					"Fanatical" //Trait used for fanatical mobs who can bypass the excommunication(not the curses though.)
 
 // Divine patron trait bonuses:
-#define TRAIT_SOUL_EXAMINE				"Blessing of Necra"  //can check bodies to see if they have departed
-#define TRAIT_ROT_EATER					"Blessing of Pestra" //can eat rotten food
-#define TRAIT_KNEESTINGER_IMMUNITY		"Blessing of Dendor" //Can move through kneestingers.
+#define TRAIT_SOUL_EXAMINE				"Blessing of Valdala"  //can check bodies to see if they have departed
+#define TRAIT_ROT_EATER					"Blessing of Erdl" //can eat rotten food
+#define TRAIT_KNEESTINGER_IMMUNITY		"Blessing of Gani" //Can move through kneestingers.
 #define TRAIT_LEECHIMMUNE				"Unleechable" //leeches drain very little blood
 #define TRAIT_SHARPER_BLADES			"Sharper Blades" //Weapons lose less blade integrity
 #define TRAIT_BETTER_SLEEP				"Better Sleep" //Recover more energy (blue bar) when sleeping
@@ -437,10 +437,10 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_SILVER_BLESSED 			"Silver Blessed"
 
 // Inhumen patron trait bonuses:
-#define TRAIT_ORGAN_EATER				"Blessing of Graggar"//Can eat organs (duh.) and raw meat
-#define TRAIT_CRACKHEAD					"Blessing of Baotha" //No overdose on drugs.
-#define TRAIT_CABAL                     "Of the Cabal" //Zizo cultists recognize each other too
-#define TRAIT_MATTHIOS_EYES				"Eyes of Matthios" //Examine to see the most expensive item someone has
+#define TRAIT_ORGAN_EATER				"Blessing of Archdevil"//Can eat organs (duh.) and raw meat
+#define TRAIT_CRACKHEAD					"Blessing of Hertannea" //No overdose on drugs.
+#define TRAIT_CABAL                     "Of the Cabal" //One Envy cultists recognize each other too
+#define TRAIT_MATTHIOS_EYES				"Eyes of Deceivers" //Examine to see the most expensive item someone has
 #define INSPIRING_MUSICIAN 				"Inspiring Musician" // unlocks bardic inspiration stuff
 
 #define TRAIT_BASHDOORS "bashdoors"
@@ -487,18 +487,18 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 // PATRON CURSE TRAITS
 #define TRAIT_CURSE "Curse" //source
 #define TRAIT_ATHEISM_CURSE "Curse of Atheism"
-#define TRAIT_PSYDON_CURSE "Psydon's Curse"
-#define TRAIT_ASTRATA_CURSE "Astrata's Curse"
-#define TRAIT_NOC_CURSE "Noc's Curse"
-#define TRAIT_RAVOX_CURSE "Ravox's Curse"
-#define TRAIT_NECRA_CURSE "Necra's Curse"
-#define TRAIT_XYLIX_CURSE "Xylix's Curse"
-#define TRAIT_PESTRA_CURSE "Pestra's Curse"
-#define TRAIT_EORA_CURSE "Eora's Curse"
-#define TRAIT_ZIZO_CURSE "Zizo's Curse"
-#define TRAIT_GRAGGAR_CURSE "Graggar's Curse"
-#define TRAIT_MATTHIOS_CURSE "Matthios' Curse"
-#define TRAIT_BAOTHA_CURSE "Baotha's Curse"
+#define TRAIT_PSYDON_CURSE "Angros' Curse"
+#define TRAIT_ASTRATA_CURSE "Visires' Curse"
+#define TRAIT_NOC_CURSE "Akan's Curse"
+#define TRAIT_RAVOX_CURSE "Al'Aqshir's Curse"
+#define TRAIT_NECRA_CURSE "Valdala's Curse"
+#define TRAIT_XYLIX_CURSE "Iliope's Curse"
+#define TRAIT_PESTRA_CURSE "Erdl's Curse"
+#define TRAIT_EORA_CURSE "Pomette's Curse"
+#define TRAIT_ZIZO_CURSE "One Envy's Curse"
+#define TRAIT_GRAGGAR_CURSE "Archdevil's Curse"
+#define TRAIT_MATTHIOS_CURSE "Deceivers' Curse"
+#define TRAIT_BAOTHA_CURSE "Hertannea's Curse"
 
 #define TRAIT_I_AM_INVISIBLE_ON_A_BOAT "invisible_on_tram"
 ///Trait given by /datum/element/relay_attacker
@@ -596,7 +596,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_SHAKY_SPEECH "Shaky Speech"
 #define TRAIT_NEEDS_QUENCH "Needs Quenching"
 
-/// Dendor Path Traits
+/// Gani Path Traits
 #define TRAIT_DENDOR_GROWING "trait_dendor_growing"
 #define TRAIT_DENDOR_STINGING "trait_dendor_stinging"
 #define TRAIT_DENDOR_DEVOURING "trait_dendor_devouring"

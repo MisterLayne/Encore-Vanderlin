@@ -1094,7 +1094,7 @@
 	M.verbs |= /mob/living/carbon/human/proc/churchcurse
 	M.verbs |= /mob/living/carbon/human/proc/churchannouncement
 	removeomen(OMEN_NOPRIEST)
-	priority_announce("Astrata has anointed [M.real_name] as the new head of the Church of the Ten!", title = "Astrata Shines!", sound = 'sound/misc/bell.ogg')
+	priority_announce("Visires has anointed [M.real_name] as the new head of the Church of the Ten!", title = "Visires Shines!", sound = 'sound/misc/bell.ogg')
 
 /datum/admins/proc/fix_death_area()
 	set category = "GameMaster"

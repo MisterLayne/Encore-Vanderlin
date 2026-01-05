@@ -9,7 +9,7 @@
 	SSmapping.add_world_trait(/datum/world_trait/exotic_tastes, 0)
 
 	bordered_message(world, list(
-		span_reallybig("Baotha has blessed everyone with exotic tastes! Everyone's culinary desires will be randomized!"),
+		span_reallybig("Hertannea has blessed everyone with exotic tastes! Everyone's culinary desires will be randomized!"),
 	))
 
 	for(var/client/C in GLOB.clients)

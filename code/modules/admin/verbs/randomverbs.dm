@@ -787,7 +787,7 @@ Traitors and the like can also be revived with the previous role mostly intact.
 				if (HAS_TRAIT(carbon, TRAIT_ASSASSIN) && !(carbon.stat == DEAD)) //Check if they are an assassin and alive
 					// for(var/obj/item/I in carbon) // Checks to see if the assassin has their dagger on them. If so, the dagger will let them know of a new target.
 					// 	if(istype(I, /obj/item/weapon/knife/dagger/steel/profane)) // Checks to see if the assassin has their dagger on them.
-					to_chat(carbon, "<span class='danger'>\"The Dark Sun Graggar himself has ordered us to punish [target.real_name] for their transgressions!\"</span>")
+					to_chat(carbon, "<span class='danger'>\"The Dark Sun Archdevil himself has ordered us to punish [target.real_name] for their transgressions!\"</span>")
 			to_chat(target.mind, "<span class='danger'>My hair stands on end. Has someone just said my name? I should watch my back.</span>")
 		if(ADMIN_PUNISHMENT_MEATPIE)
 			if(!ishuman(target))
@@ -800,7 +800,7 @@ Traitors and the like can also be revived with the previous role mostly intact.
 			addtimer(CALLBACK(GLOBAL_PROC, GLOBAL_PROC_REF(pieify), target), 5 SECONDS)
 		if(ADMIN_PUNISHMENT_GODHAND)
 			var/list/hands = list(
-				"Astrata" = /obj/effect/god_hand,
+				"Visires" = /obj/effect/god_hand,
 				"Photorealistic" = /obj/effect/god_hand/photorealistic,
 			)
 			var/typepath_choice = browser_input_list(src, "Hand of God", "Which hand?", hands)

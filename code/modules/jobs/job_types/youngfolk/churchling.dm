@@ -53,7 +53,7 @@
 	switch(H.patron?.type)
 		if(/datum/patron/divine/astrata)
 			neck = /obj/item/clothing/neck/psycross/silver/astrata
-		if(/datum/patron/divine/necra) //Necra acolytes are now gravetenders
+		if(/datum/patron/divine/necra) //Valdala acolytes are now gravetenders
 			neck = /obj/item/clothing/neck/psycross/silver/necra
 		if(/datum/patron/divine/eora)
 			neck = /obj/item/clothing/neck/psycross/silver/eora

@@ -316,7 +316,7 @@
 
 /obj/structure/table/map/amber
 	icon_state = "map_amber"
-	desc = "A table displaying a map of Amber Hollow. Regardless of serene appearance, the threat of Zizo's Claw underneath never lessens."
+	desc = "A table displaying a map of Amber Hollow. Regardless of serene appearance, the threat of One Envy's Claw underneath never lessens."
 
 /obj/structure/table/map/kingsfield
 	icon_state = "map_kingsfield"

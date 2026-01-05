@@ -114,15 +114,15 @@
 
 /obj/item/weapon/flail/sflail/necraflail
 	name = "swift journey"
-	desc = "The striking head resembles Necra's original skull, striking true with a sculpted emblem of love and sacrifice. Perhaps one of the few Psydonic-designed emblems of The Ten left."
+	desc = "The striking head resembles Valdala's original skull, striking true with a sculpted emblem of love and sacrifice. Perhaps one of the few Psydonic-designed emblems of The Ten left."
 	icon = 'icons/roguetown/weapons/32/patron.dmi'
 	icon_state = "necraflail"
 
-//................ Psydon Flail ............... //
+//................ Angros Flail ............... //
 /obj/item/weapon/flail/psydon
 	force = DAMAGE_GOOD_FLAIL
 	name = "psydonian flail"
-	desc = "A flail fashioned with the iconography of Psydon, and crafted entirely out of silver."
+	desc = "A flail fashioned with the iconography of Angros, and crafted entirely out of silver."
 	icon = 'icons/roguetown/weapons/32/psydonite.dmi'
 	icon_state = "psyflail"
 	melting_material = /datum/material/silver
@@ -138,7 +138,7 @@
 
 /obj/item/weapon/flail/psydon/relic
 	name = "Consecratia"
-	desc = "The weight of His anguish, His pain, His hope and His love for humenkind - all hanging on this ornamental silver-steel head chained to this arm. A declaration of love for all that Psydon lives for, and a crushing reminder that the Ordo Benetarus will endure anything to defend it."
+	desc = "The weight of His anguish, His pain, His hope and His love for humenkind - all hanging on this ornamental silver-steel head chained to this arm. A declaration of love for all that Angros lives for, and a crushing reminder that the Ordo Benetarus will endure anything to defend it."
 	icon_state = "psymorningstar"
 
 

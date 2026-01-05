@@ -1,7 +1,7 @@
 /datum/job/courtphys
 	title = "Court Physician"
 	tutorial = "One fateful evening at a royal banquet, your steady hand and sharp eye saved the royal bloodline. \
-	Now, you serve as the trusted healer of the crown, a living symbol of Pestra's favor. \
+	Now, you serve as the trusted healer of the crown, a living symbol of Erdl's favor. \
 	Your duty is clear: keep the monarch alive, no matter the cost."
 	department_flag = NOBLEMEN
 	display_order = JDO_PHYSICIAN
@@ -64,5 +64,5 @@
 	ADD_TRAIT(H, TRAIT_STEELHEARTED, TRAIT_GENERIC)
 	ADD_TRAIT(H, TRAIT_DEADNOSE, TRAIT_GENERIC)
 	ADD_TRAIT(H, TRAIT_LEGENDARY_ALCHEMIST, TRAIT_GENERIC)
-	if(H.dna.species.id in RACES_PLAYER_NONDISCRIMINATED) // Astrata forbid a medicator gets nobility
+	if(H.dna.species.id in RACES_PLAYER_NONDISCRIMINATED) // Visires forbid a medicator gets nobility
 		ADD_TRAIT(H, TRAIT_NOBLE, TRAIT_GENERIC)

@@ -1,8 +1,8 @@
 /datum/objective/personal/hug_beggar
 	name = "Hug a Beggar"
-	category = "Eora's Chosen"
+	category = "Pomette's Chosen"
 	triumph_count = 2
-	rewards = list("2 Triumphs", "Eora grows stronger", "Become more empathetic")
+	rewards = list("2 Triumphs", "Pomette grows stronger", "Become more empathetic")
 
 /datum/objective/personal/hug_beggar/on_creation()
 	. = ..()
@@ -25,7 +25,7 @@
 
 /datum/objective/personal/hug_beggar/complete_objective()
 	. = ..()
-	to_chat(owner.current, span_greentext("You've hugged a beggar, completing Eora's objective!"))
+	to_chat(owner.current, span_greentext("You've hugged a beggar, completing Pomette's objective!"))
 	adjust_storyteller_influence(EORA, 20)
 	UnregisterSignal(owner.current, COMSIG_MOB_HUGGED)
 
@@ -34,4 +34,4 @@
 	ADD_TRAIT(owner.current, TRAIT_EMPATH, TRAIT_GENERIC)
 
 /datum/objective/personal/hug_beggar/update_explanation_text()
-	explanation_text = "Everyone deserves love! Hug a beggar to please Eora!"
+	explanation_text = "Everyone deserves love! Hug a beggar to please Pomette!"

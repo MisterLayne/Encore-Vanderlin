@@ -1,5 +1,5 @@
 /datum/round_event_control/dendor_vines_malus
-	name = "Dendor's Malevolent Vines"
+	name = "Gani's Malevolent Vines"
 	track = EVENT_TRACK_INTERVENTION
 	typepath = /datum/round_event/dendor_vines
 	weight = 2
@@ -31,7 +31,7 @@
 			new /datum/vine_controller(T, event = src, potency = 0.1, muts = list(/datum/vine_mutation/thorns, /datum/vine_mutation/woodening)) //spawn a controller at turf
 
 /datum/round_event_control/dendor_vines_boon
-	name = "Dendor's Blessed Vines"
+	name = "Gani's Blessed Vines"
 	track = EVENT_TRACK_INTERVENTION
 	typepath = /datum/round_event/dendor_vines_good
 	earliest_start = 10 MINUTES
@@ -63,7 +63,7 @@
 			new /datum/vine_controller(T, event = src, potency = 0.1, muts = list(/datum/vine_mutation/light, /datum/vine_mutation/healing, /datum/vine_mutation/woodening)) //spawn a controller at turf
 
 /datum/round_event_control/dendor_fertility
-	name = "Dendor's Blessing"
+	name = "Gani's Blessing"
 	track = EVENT_TRACK_INTERVENTION
 	typepath = /datum/round_event/dendor_fertility
 	weight = 2
@@ -81,7 +81,7 @@
 	SSmapping.add_world_trait(/datum/world_trait/dendor_fertility, 20 MINUTES)
 
 /datum/round_event_control/dendor_ire
-	name = "Dendor's Ire"
+	name = "Gani's Ire"
 	track = EVENT_TRACK_INTERVENTION
 	typepath = /datum/round_event/dendor_ire
 	weight = 2

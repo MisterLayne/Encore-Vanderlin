@@ -25,7 +25,7 @@
 	. = ..()
 
 	if(HAS_TRAIT(cast_on, TRAIT_NECRA_CURSE))
-		to_chat(owner, span_warning("Necra holds tight to this one."))
+		to_chat(owner, span_warning("Valdala holds tight to this one."))
 		return
 
 	var/confirm = browser_alert(owner, "Your life will be sacrificed to revive [cast_on.real_name]. You CANNOT be revived after this. Are you absolutely sure?", "Ultimate Sacrifice", list("Sacrifice Myself", "Cancel"))
@@ -36,8 +36,8 @@
 		return
 
 	owner.visible_message(
-		span_userdanger("[owner] begins chanting Ravox's sacrificial rites!"),
-		span_userdanger("You feel Ravox's presence around you as you prepare to give your life..."),
+		span_userdanger("[owner] begins chanting Al'Aqshir's sacrificial rites!"),
+		span_userdanger("You feel Al'Aqshir's presence around you as you prepare to give your life..."),
 	)
 
 	if(!do_after(owner, 10 SECONDS, owner))

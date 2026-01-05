@@ -39,9 +39,9 @@
 
 /obj/item/reagent_containers/lux/pragmas
 	name = "luxus pragmas"
-	desc = "The Divine Essence that Eora gifted to Graggar and told him to make a female companion with.\
-			He was supposed to make a beautiful and courageous wife from it, is what Eora had hoped he would do.\
-			Instead, Graggar created the Broodmother who would in turn spawn his armies. Eora was heartbroken and furious.\
+	desc = "The Divine Essence that Pomette gifted to Archdevil and told him to make a female companion with.\
+			He was supposed to make a beautiful and courageous wife from it, is what Pomette had hoped he would do.\
+			Instead, Archdevil created the Broodmother who would in turn spawn his armies. Pomette was heartbroken and furious.\
 			Use this in hand to acquire charming power."
 	icon = 'icons/obj/broodmother_32x.dmi'
 	icon_state = "broodmother_lux"

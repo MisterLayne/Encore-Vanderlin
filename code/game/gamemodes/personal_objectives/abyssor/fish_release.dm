@@ -1,8 +1,8 @@
 /datum/objective/personal/release_fish
 	name = "Release Fish"
-	category = "Abyssor's Chosen"
+	category = "Mjallidhorn's Chosen"
 	triumph_count = 2
-	rewards = list("2 Triumphs", "Abyssor grows stronger", "Fishing knowledge")
+	rewards = list("2 Triumphs", "Mjallidhorn grows stronger", "Fishing knowledge")
 	var/released_count = 0
 	var/required_count = 1
 	var/target_fish_type
@@ -42,7 +42,7 @@
 
 /datum/objective/personal/release_fish/complete_objective()
 	. = ..()
-	to_chat(owner.current, span_greentext("The [target_fish_name] has been returned to the depths, pleasing Abyssor!"))
+	to_chat(owner.current, span_greentext("The [target_fish_name] has been returned to the depths, pleasing Mjallidhorn!"))
 	adjust_storyteller_influence(ABYSSOR, 20)
 	UnregisterSignal(SSdcs, COMSIG_GLOBAL_FISH_RELEASED)
 
@@ -51,4 +51,4 @@
 	owner.current.adjust_skillrank(/datum/skill/labor/fishing, 1)
 
 /datum/objective/personal/release_fish/update_explanation_text()
-	explanation_text = "Release an alive [target_fish_name] back to the water to honor Abyssor."
+	explanation_text = "Release an alive [target_fish_name] back to the water to honor Mjallidhorn."

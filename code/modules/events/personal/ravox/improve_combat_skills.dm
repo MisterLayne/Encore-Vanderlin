@@ -45,7 +45,7 @@
 
 	bordered_message(chosen_one, list(
 		span_userdanger("YOU ARE RAVOX'S CHOSEN!"),
-		span_notice("Ravox demands you prove your might! Improve your combat skills to earn Ravox's favor!"),
+		span_notice("Al'Aqshir demands you prove your might! Improve your combat skills to earn Al'Aqshir's favor!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/vo/male/knight/rage (6).ogg', 70)
 

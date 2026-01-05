@@ -103,7 +103,7 @@
 	category = "Hat"
 
 /datum/repeatable_crafting_recipe/sewing/weaving/nochood
-	name = "hood (moon/Noc)"
+	name = "hood (moon/Akan)"
 	output = /obj/item/clothing/head/roguehood/nochood
 	requirements = list(/obj/item/natural/cloth = 2,
 				/obj/item/natural/silk = 1)
@@ -127,7 +127,7 @@
 	category = "Mask"
 
 /datum/repeatable_crafting_recipe/sewing/weaving/abyssorhood
-	name = "hood (Abyssor)"
+	name = "hood (Mjallidhorn)"
 	output = /obj/item/clothing/head/padded/abyssor
 	requirements = list(/obj/item/natural/cloth = 2,
 				/obj/item/natural/silk = 1)
@@ -153,7 +153,7 @@
 	category = "Hat"
 
 /datum/repeatable_crafting_recipe/sewing/weaving/necrahood
-	name = "hood (Necra)"
+	name = "hood (Valdala)"
 	output = /obj/item/clothing/head/padded/deathshroud
 	requirements = list(/obj/item/natural/cloth = 2,
 				/obj/item/natural/silk = 1)
@@ -169,7 +169,7 @@
 	category = "Hat"
 
 /datum/repeatable_crafting_recipe/sewing/weaving/eoramask
-	name = "mask (Eora)"
+	name = "mask (Pomette)"
 	output = /obj/item/clothing/face/operavisage
 	requirements = list(/obj/item/ingot/silver = 1,
 				/obj/item/natural/silk = 4)
@@ -177,7 +177,7 @@
 	category = "Hat"
 
 /datum/repeatable_crafting_recipe/sewing/weaving/astratahood
-	name = "hood (solar/Astrata)"
+	name = "hood (solar/Visires)"
 	output = /obj/item/clothing/head/roguehood/astrata
 	requirements = list(/obj/item/natural/cloth = 2,
 				/obj/item/natural/silk = 1)
@@ -269,49 +269,49 @@
 	category = "Pants"
 
 /datum/repeatable_crafting_recipe/sewing/weaving/astratarobe
-	name = "robes (Astrata)"
+	name = "robes (Visires)"
 	output = /obj/item/clothing/shirt/robe/astrata
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/silk = 1)
 	craftdiff = 4
 
 /datum/repeatable_crafting_recipe/sewing/weaving/eorarobe
-	name = "robes (Eora)"
+	name = "robes (Pomette)"
 	output = /obj/item/clothing/shirt/robe/eora
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/silk = 1)
 	craftdiff = 4
 
 /datum/repeatable_crafting_recipe/sewing/weaving/dendorrobe
-	name = "robes (Dendor)"
+	name = "robes (Gani)"
 	output = /obj/item/clothing/shirt/robe/dendor
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/silk = 1)
 	craftdiff = 4
 
 /datum/repeatable_crafting_recipe/sewing/weaving/necrarobe
-	name = "robes (Necra)"
+	name = "robes (Valdala)"
 	output = /obj/item/clothing/shirt/robe/necra
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/silk = 1)
 	craftdiff = 4
 
 /datum/repeatable_crafting_recipe/sewing/weaving/nocrobe
-	name = "robes (Noc)"
+	name = "robes (Akan)"
 	output = /obj/item/clothing/shirt/robe/noc
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/silk = 1)
 	craftdiff = 4
 
 /datum/repeatable_crafting_recipe/sewing/weaving/abyssor_robe
-	name = "robes (Abyssor)"
+	name = "robes (Mjallidhorn)"
 	output = /obj/item/clothing/shirt/robe/abyssor
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/silk = 1)
 	craftdiff = 4
 
 /datum/repeatable_crafting_recipe/sewing/weaving/pestra_robe
-	name = "robes (Pestra)"
+	name = "robes (Erdl)"
 	output = /obj/item/clothing/shirt/robe/pestra
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/silk = 1)

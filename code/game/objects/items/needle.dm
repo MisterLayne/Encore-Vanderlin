@@ -1,6 +1,6 @@
 /obj/item/needle
 	name = "needle"
-	desc = "A firm needle affixed with a simple thread, Pestra's most favored tool."
+	desc = "A firm needle affixed with a simple thread, Erdl's most favored tool."
 	icon_state = "needle"
 	icon = 'icons/roguetown/items/misc.dmi'
 	w_class = WEIGHT_CLASS_TINY

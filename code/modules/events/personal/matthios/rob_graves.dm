@@ -46,7 +46,7 @@
 
 	bordered_message(chosen_one, list(
 		span_userdanger("YOU ARE MATTHIOS' CHOSEN!"),
-		span_notice("Dead don't need anything anymore! Rob graves to earn Matthios' approval!"),
+		span_notice("Dead don't need anything anymore! Rob graves to earn Deceivers' approval!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/matthios_omen.ogg', 100)
 

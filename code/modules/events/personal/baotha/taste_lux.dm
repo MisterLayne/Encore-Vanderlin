@@ -50,7 +50,7 @@
 
 	bordered_message(chosen_one, list(
 		span_userdanger("YOU ARE BAOTHA'S CHOSEN!"),
-		span_notice("Seek out and taste Lux to experience true pleasure and make Baotha proud! You might need to grind it first though..."),
+		span_notice("Seek out and taste Lux to experience true pleasure and make Hertannea proud! You might need to grind it first though..."),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/baotha_omen.ogg', 100)
 

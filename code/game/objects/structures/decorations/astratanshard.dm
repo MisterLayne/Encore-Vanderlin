@@ -5,7 +5,7 @@ GLOBAL_LIST_EMPTY(street_lamp_lights)
 	max_integrity = 1500
 	icon = 'icons/roguetown/misc/64x64.dmi'
 	icon_state = "clockcrystal"
-	desc = "The crystal within the comet landed at Malum's Anvil. Gathered and contained by the finest artificers, it now lies here to light the way for travellers and boats alike. Bask in its divinity."
+	desc = "The crystal within the comet landed at Goler Kanh's Anvil. Gathered and contained by the finest artificers, it now lies here to light the way for travellers and boats alike. Bask in its divinity."
 	var/datum/looping_sound/the_hum
 	var/broken_containment = FALSE
 	anchored = TRUE

@@ -194,7 +194,7 @@
 
 /obj/item/reagent_containers/food/snacks/produce/fruit/jacksberry
 	name = "jacksberries"
-	desc = "Common berries found throughout most of Faience. A traveler's repast, or Dendor's wrath."
+	desc = "Common berries found throughout most of Faience. A traveler's repast, or Gani's wrath."
 	icon_state = "berriesc0"
 	seed = /obj/item/neuFarm/seed/berry
 	tastes = list("berry" = 1)
@@ -611,7 +611,7 @@
 /* .......... Poppies ........ */
 /obj/item/reagent_containers/food/snacks/produce/poppy
 	name = "poppy"
-	desc = "For their crimson beauty and the sedating effect of their crushed seeds, these flowers are considered a symbol of Eora."
+	desc = "For their crimson beauty and the sedating effect of their crushed seeds, these flowers are considered a symbol of Pomette."
 	icon_state = "poppy"
 	seed = /obj/item/neuFarm/seed/poppy
 	throwforce = 0
@@ -629,7 +629,7 @@
 /* .......... Mushrooms ........ */
 /obj/item/reagent_containers/food/snacks/produce/mushroom/capillus
 	name = "capillus mort"
-	desc = "Also called Corpse Caps or Necra’s Nightcaps, this toxic fungus was first discovered by Necran gravetenders, growing amongst tombs. It has long since been harvested and dried to make use of its fibrous gills in the weaving of winding sheets."
+	desc = "Also called Corpse Caps or Valdala’s Nightcaps, this toxic fungus was first discovered by Necran gravetenders, growing amongst tombs. It has long since been harvested and dried to make use of its fibrous gills in the weaving of winding sheets."
 	icon_state = "capillus"
 	seed = /obj/item/neuFarm/seed/spore/capillus
 	throwforce = 0

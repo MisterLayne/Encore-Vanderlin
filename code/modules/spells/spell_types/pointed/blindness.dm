@@ -35,6 +35,6 @@
 	associated_skill = /datum/skill/magic/holy
 	required_items = list(/obj/item/clothing/neck/psycross/silver/noc)
 
-	invocation = "Noc blinds thee of thy sins!"
+	invocation = "Akan blinds thee of thy sins!"
 	invocation_type = INVOCATION_SHOUT
 

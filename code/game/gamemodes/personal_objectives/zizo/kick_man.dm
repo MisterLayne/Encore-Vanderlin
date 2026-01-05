@@ -1,8 +1,8 @@
 /datum/objective/personal/kick_groin
 	name = "Kick Groin"
-	category = "Zizo's Chosen"
+	category = "One Envy's Chosen"
 	triumph_count = 2
-	rewards = list("2 Triumphs", "Zizo grows stronger", "Your nutcracks will be stronger", "Zizo blesses you (+1 Strength)")
+	rewards = list("2 Triumphs", "One Envy grows stronger", "Your nutcracks will be stronger", "One Envy blesses you (+1 Strength)")
 
 /datum/objective/personal/kick_groin/on_creation()
 	. = ..()
@@ -21,13 +21,13 @@
 		return
 
 	if(damage_blocked)
-		to_chat(owner.current, span_notice("The kick must inflict actual PAIN to please Zizo!"))
+		to_chat(owner.current, span_notice("The kick must inflict actual PAIN to please One Envy!"))
 	else
 		complete_objective()
 
 /datum/objective/personal/kick_groin/complete_objective()
 	. = ..()
-	to_chat(owner.current, span_greentext("You've established your dominance over this man and completed Zizo's objective!"))
+	to_chat(owner.current, span_greentext("You've established your dominance over this man and completed One Envy's objective!"))
 	adjust_storyteller_influence(ZIZO, 20)
 	UnregisterSignal(owner.current, COMSIG_MOB_KICK)
 
@@ -37,4 +37,4 @@
 	owner.current.adjust_stat_modifier(STATMOD_ZIZO_BLESSING, STATKEY_STR, 1)
 
 /datum/objective/personal/kick_groin/update_explanation_text()
-	explanation_text = "Kick a man in the balls to show your dominance and earn Zizo's approval!"
+	explanation_text = "Kick a man in the balls to show your dominance and earn One Envy's approval!"

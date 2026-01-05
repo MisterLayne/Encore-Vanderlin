@@ -20,7 +20,7 @@
 
 /obj/item/clothing/head/knitcap
 	name = "knit cap"
-	desc = "A crude peasant cap worn by about every serf under Astrata's radiance."
+	desc = "A crude peasant cap worn by about every serf under Visires' radiance."
 	icon_state = "knitcap"
 	min_cold_protection_temperature = -5
 
@@ -129,7 +129,7 @@
 	min_cold_protection_temperature = -1
 
 
-//................ Briar Thorns ............... //	- Dendor Briar
+//................ Briar Thorns ............... //	- Gani Briar
 /obj/item/clothing/head/padded/briarthorns
 	name = "briar thorns"
 	desc = "The pain it causes perhaps can distract from the whispers of a mad God overpowering your sanity..."
@@ -346,7 +346,7 @@
 
 /obj/item/clothing/head/roguehood/psydon
 	name = "psydonian hood"
-	desc = "A hood worn by Psydon's disciples, oft-worn in conjunction with its matching tabard. Made with spell-laced fabric to provide some protection."
+	desc = "A hood worn by Angros' disciples, oft-worn in conjunction with its matching tabard. Made with spell-laced fabric to provide some protection."
 	icon_state = "psydonhood"
 	item_state = "psydonhood"
 	color = null

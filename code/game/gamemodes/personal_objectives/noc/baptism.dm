@@ -1,8 +1,8 @@
 /datum/objective/personal/baptism
 	name = "Receive Baptism"
-	category = "Noc's Chosen"
+	category = "Akan's Chosen"
 	triumph_count = 3
-	rewards = list("3 Triumphs", "Noc grows stronger", "Noc blesses you (+1 Intelligence)")
+	rewards = list("3 Triumphs", "Akan grows stronger", "Akan blesses you (+1 Intelligence)")
 
 /datum/objective/personal/baptism/on_creation()
 	. = ..()
@@ -27,7 +27,7 @@
 
 /datum/objective/personal/baptism/complete_objective()
 	. = ..()
-	to_chat(owner.current, span_greentext("You have been baptized and completed Noc's objective!"))
+	to_chat(owner.current, span_greentext("You have been baptized and completed Akan's objective!"))
 	adjust_storyteller_influence(NOC, 20)
 	UnregisterSignal(owner.current, COMSIG_BAPTISM_RECEIVED)
 
@@ -36,4 +36,4 @@
 	owner.current.adjust_stat_modifier(STATMOD_NOC_BLESSING, STATKEY_INT, 1)
 
 /datum/objective/personal/baptism/update_explanation_text()
-	explanation_text = "Receive mana baptism in Noc's name to gain their favor!"
+	explanation_text = "Receive mana baptism in Akan's name to gain their favor!"
