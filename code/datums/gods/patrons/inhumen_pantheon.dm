@@ -19,20 +19,20 @@
 
 /* ----------------- */
 
-/datum/patron/inhumen/zizo
-	name = ZIZO
-	domain = "Ascended Goddess of Forbidden Magic, Domination, and Power"
-	desc = "Snow elf who slaughtered her kind in ascension, conquered and remade the Dark Elven empires in her name. She proves that any with will can achieve divinity... though at a cost."
+/datum/patron/inhumen/zizo // The One Envy considers those not of the Shirleigh dynasty to be beneath her notice, beyond carrying out occasional acts of capciciousness for her own amusement. She does not grant miracles to those not of Alyssandrine and Malryck's blood.
+	name = JEALOUS GOD
+	domain = "Domotan Island, and seemingly little else."
+	desc = "She whose name is unknown, she whose agenda is lost; the Jealous God embodies no elemental aspect, and serves neither the divine nor ilk of Hell. Her solemn devotees are the royal family of Etgard itself, the Shirleigh Dynasty and their constituents. They are the only divine to lay absolute claim over Domotan Island, and is thus praised only in hushed tones beyond the walls of Etgard Keep."
 	flaws = "Hubris, Superiority, Fury"
-	worshippers = "Dark Elves, Aspirants, Necromancers, Misandrists"
+	worshippers = "The Shirleigh Dynasty, the brainwashed and the desperate"
 	sins = "Pearl-clutching, Moralism, Wastefulness"
 	boons = "You may perform fleshcrafting. Access to roles with magic."
-	//added_traits = list(TRAIT_CABAL)	No need for this. They have fleshcrafting now.
+	added_traits = list(TRAIT_CABAL, TRAIT_SEEPRICES_SHITTY)
 	devotion_holder = /datum/devotion/inhumen/zizo
 	confess_lines = list(
-		"I FOLLOW THE PATH OF ZIZO!",
-		"LONG LIVE QUEEN ZIZO!",
-		"ZIZO SHOWED ME THE WAY!",
+		"SHE SEES! SHE LAUGHS!",
+		"SHE LAUGHS! SHE SEES!",
+		"SHE KNOWS! SHE KNOWS!",
 	)
 	storyteller = /datum/storyteller/zizo
 	added_verbs = list(

@@ -939,7 +939,7 @@
 	// Gani
 	data += god_ui_block("DENDOR", "#412938", "#66745c", /datum/storyteller/dendor, debug)
 
-	// Al'Aqshir
+	// Mordsol
 	data += god_ui_block("RAVOX", "#2c232d", "#710f0f", /datum/storyteller/ravox, debug)
 
 	// Pomette

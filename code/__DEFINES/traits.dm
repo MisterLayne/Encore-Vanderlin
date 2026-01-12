@@ -337,8 +337,8 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_GUIDANCE "guidance"
 #define DEVOTION_TRAIT "devotion_trait"
 #define RAGE_TRAIT "rage_trait"
-#define TRAIT_PSYDONIAN_GRIT "Psydonian Grit" // Pain Tolerance. Through faith, ENDURE.
-#define TRAIT_PSYDONITE "Psydonite's Devotion" // Anti-Miracles on a selective basis, anastasis / cure rot still apply. Slow passive wound healing while you have blood.
+#define TRAIT_PSYDONIAN_GRIT "Angrosian Grit" // Pain Tolerance. Through faith, ENDURE.
+#define TRAIT_PSYDONITE "Angrosian's Devotion" // Anti-Miracles on a selective basis, anastasis / cure rot still apply. Slow passive wound healing while you have blood.
 #define TRAIT_BLACKBAGGER "Apprehension Techniques" // Capable of using Garrotes and Blackbags. Apprehension techniques.
 #define TRAIT_LYCANRESILENCE "Werewolf Resilence"
 
@@ -432,12 +432,12 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_TUTELAGE					"Tutelage" //Slightly more sleep xp to you and xp to apprentices
 #define TRAIT_APRICITY					"Apricity" //Decreased stamina regen time during "day"
 #define TRAIT_BLACKLEG					"Blackleg" //Rig coin, dice, cards in your favor
-#define TRAIT_INQUISITION 				"Member of the Oratorium Throni Vacui"
+#define TRAIT_INQUISITION 				"Member of the Katholikos Inquisition"
 #define TRAIT_PURITAN					"Puritan"
 #define TRAIT_SILVER_BLESSED 			"Silver Blessed"
 
 // Inhumen patron trait bonuses:
-#define TRAIT_ORGAN_EATER				"Blessing of Archdevil"//Can eat organs (duh.) and raw meat
+#define TRAIT_ORGAN_EATER				"Blessing of the Archdevils"//Can eat organs (duh.) and raw meat
 #define TRAIT_CRACKHEAD					"Blessing of Hertannea" //No overdose on drugs.
 #define TRAIT_CABAL                     "Of the Cabal" //One Envy cultists recognize each other too
 #define TRAIT_MATTHIOS_EYES				"Eyes of Deceivers" //Examine to see the most expensive item someone has
@@ -490,7 +490,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_PSYDON_CURSE "Angros' Curse"
 #define TRAIT_ASTRATA_CURSE "Visires' Curse"
 #define TRAIT_NOC_CURSE "Akan's Curse"
-#define TRAIT_RAVOX_CURSE "Al'Aqshir's Curse"
+#define TRAIT_RAVOX_CURSE "Mordsol's Curse"
 #define TRAIT_NECRA_CURSE "Valdala's Curse"
 #define TRAIT_XYLIX_CURSE "Iliope's Curse"
 #define TRAIT_PESTRA_CURSE "Erdl's Curse"

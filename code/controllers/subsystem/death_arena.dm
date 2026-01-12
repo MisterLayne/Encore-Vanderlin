@@ -187,7 +187,7 @@ SUBSYSTEM_DEF(death_arena)
 
 
 /obj/structure/table/wood/fine/altar
-	name = "Al'Aqshir's sacrifical altar"
+	name = "Mordsol's sacrifical altar"
 	desc = "It awaits an offering of your triumphs"
 	icon = 'icons/roguetown/misc/structure.dmi'
 	icon_state = "ravox_altar"
@@ -201,8 +201,8 @@ SUBSYSTEM_DEF(death_arena)
 	SSdeath_arena.process_fight_end(item, user)
 
 /obj/structure/underworld/ravox
-	name = "Al'Aqshir"
-	desc = "Al'Aqshir, God of Warfare, Justice, and Bravery. He finds solace in his friendship with Valdala and his retreat to the Underworld. Upon your gaze, he gives you a respectful nod. Damn, he's cool.."
+	name = "Mordsol"
+	desc = "Mordsol, God of Warfare, Justice, and Bravery. He finds solace in his friendship with Valdala and his retreat to the Underworld. Upon your gaze, he gives you a respectful nod. Damn, he's cool.."
 	icon = 'icons/roguetown/underworld/ravox.dmi'
 	icon_state = "ravox"
 	layer = ABOVE_MOB_LAYER
@@ -215,7 +215,7 @@ SUBSYSTEM_DEF(death_arena)
 
 /obj/structure/underworld/necra
 	name = "Valdala"
-	desc = "The Undermaiden herself, in her true form. The most ancient of living gods. She observes your battles gleefully, gratitude in her eyes to be relieved from the arduousness of eternity. Her close friend and confidant, Al'Aqshir, sits by her side. The two must have worked hard to restructure the underworld like this. They seem pleased with their work."
+	desc = "The Undermaiden herself, in her true form. The most ancient of living gods. She observes your battles gleefully, gratitude in her eyes to be relieved from the arduousness of eternity. Her close friend and confidant, Mordsol, sits by her side. The two must have worked hard to restructure the underworld like this. They seem pleased with their work."
 	icon = 'icons/roguetown/underworld/necra.dmi'
 	icon_state = "necra"
 	layer = ABOVE_MOB_LAYER

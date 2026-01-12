@@ -151,7 +151,7 @@
 /// Returns the immersive flavor text based on both the target's patron and the specific blessing applied
 /// Falls back to generic patron text or a default generic divine message
 /// Returns the immersive flavor text based on both the target's patron and the specific blessing applied
-/// Fully extended for Mjallidhorn, Visires, Hertannea, Gani, Pomette, Archdevil, Goler Kanh, Deceivers, Valdala, Akan, Erdl, Al'Aqshir, Iliope, One Envy
+/// Fully extended for Mjallidhorn, Visires, Hertannea, Gani, Pomette, Archdevil, Goler Kanh, Deceivers, Valdala, Akan, Erdl, Mordsol, Iliope, One Envy
 /proc/get_patron_blessing_text(mob/living/carbon/human/M, blessing_path)
 	var/patron_type = M.patron?.type
 	if(!patron_type)
@@ -336,20 +336,20 @@
 			/datum/status_effect/buff/barbrage = "Erdl shrieks: \"Destruction is yet another form of change.\""
 		),
 
-		/// Al'Aqshir - Justice Incarnate
+		/// Mordsol - Justice Incarnate
 		/datum/patron/divine/ravox = list(
-			/datum/status_effect/buff/beastsense = "Al'Aqshir growls: \"Smell your enemy. Hunt them down with purpose.\"",
-			/datum/status_effect/buff/trollshape = "Al'Aqshir commands: \"Let might serve justice. Let strength carry duty.\"",
-			/datum/status_effect/buff/divine_beauty = "Al'Aqshir declares: \"Wear your glory well, warrior. Let honor shine brighter.\"",
-			/datum/status_effect/buff/call_to_arms = "Al'Aqshir bellows: \"To war! You've got this, kid.\"",
-			/datum/status_effect/buff/craft_buff = "Al'Aqshir nods: \"Forge victory with your hands. Let each blow ring true.\"",
-			/datum/status_effect/buff/foodbuff = "Al'Aqshir grunts: \"Eat. Even the strong must endure the march.\"",
-			/datum/status_effect/buff/clean_plus = "Al'Aqshir commands: \"Clean your blade. We should not revel in blood we spill.\"",
-			/datum/status_effect/buff/featherfall = "Al'Aqshir comments: \"Even the bold must fall with grace.\"",
-			/datum/status_effect/buff/darkvision = "Al'Aqshir growls: \"See the coward. Bring them to justice.\"",
-			/datum/status_effect/buff/haste = "Al'Aqshir barks: \"Swift feet carry righteous blades.\"",
-			/datum/status_effect/buff/calm = "Al'Aqshir grunts: \"Still your heart. The battle shall come.\"",
-			/datum/status_effect/buff/barbrage = "Al'Aqshir roars: \"BE FILLED WITH RIGHTEOUS ANGER!\""
+			/datum/status_effect/buff/beastsense = "Mordsol growls: \"Smell your enemy. Hunt them down with purpose.\"",
+			/datum/status_effect/buff/trollshape = "Mordsol commands: \"Let might serve justice. Let strength carry duty.\"",
+			/datum/status_effect/buff/divine_beauty = "Mordsol declares: \"Wear your glory well, warrior. Let honor shine brighter.\"",
+			/datum/status_effect/buff/call_to_arms = "Mordsol bellows: \"To war! You've got this, kid.\"",
+			/datum/status_effect/buff/craft_buff = "Mordsol nods: \"Forge victory with your hands. Let each blow ring true.\"",
+			/datum/status_effect/buff/foodbuff = "Mordsol grunts: \"Eat. Even the strong must endure the march.\"",
+			/datum/status_effect/buff/clean_plus = "Mordsol commands: \"Clean your blade. We should not revel in blood we spill.\"",
+			/datum/status_effect/buff/featherfall = "Mordsol comments: \"Even the bold must fall with grace.\"",
+			/datum/status_effect/buff/darkvision = "Mordsol growls: \"See the coward. Bring them to justice.\"",
+			/datum/status_effect/buff/haste = "Mordsol barks: \"Swift feet carry righteous blades.\"",
+			/datum/status_effect/buff/calm = "Mordsol grunts: \"Still your heart. The battle shall come.\"",
+			/datum/status_effect/buff/barbrage = "Mordsol roars: \"BE FILLED WITH RIGHTEOUS ANGER!\""
 		),
 
 		/// Iliope - The Trickster

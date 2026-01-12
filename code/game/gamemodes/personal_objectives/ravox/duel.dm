@@ -1,9 +1,9 @@
 /datum/objective/personal/ravox_duel
 	name = "Honor Duels"
-	category = "Al'Aqshir's Chosen"
+	category = "Mordsol's Chosen"
 	triumph_count = 3
 	immediate_effects = list("Gained an ability to challenge others")
-	rewards = list("3 Triumphs", "Al'Aqshir grows stronger", "Al'Aqshir blesses you (+1 Strength)")
+	rewards = list("3 Triumphs", "Mordsol grows stronger", "Mordsol blesses you (+1 Strength)")
 	var/duels_won = 0
 	var/duels_required = 1
 
@@ -21,7 +21,7 @@
 
 /datum/objective/personal/ravox_duel/complete_objective()
 	. = ..()
-	to_chat(owner.current, span_greentext("You have proven your worth in combat! Al'Aqshir is pleased!"))
+	to_chat(owner.current, span_greentext("You have proven your worth in combat! Mordsol is pleased!"))
 	adjust_storyteller_influence(RAVOX, 20)
 
 /datum/objective/personal/ravox_duel/reward_owner()

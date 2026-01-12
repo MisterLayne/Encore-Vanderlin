@@ -261,7 +261,7 @@
 				"Akan's magick is nothing to One Envy!", \
 				"Mjallidhorn is but a grain of salt!", \
 				"Erdl is the most foul of goddesses!", \
-				"Al'Aqshir's justice is flawed and dull!", \
+				"Mordsol's justice is flawed and dull!", \
 				"Rip the Sun Tyrant from the sky!", \
 				"Iliope is the tongue that must be severed off!", \
 				"Cast Goler Kanh into the fires of hell!", \

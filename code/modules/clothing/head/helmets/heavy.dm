@@ -275,7 +275,7 @@
 
 /obj/item/clothing/head/helmet/heavy/necked/ravox
 	name = "ravoxian helmet"
-	desc = "Headwear commonly worn by Templars in service to Al'Aqshir. It resembles a heavily-adorned visored sallet."
+	desc = "Headwear commonly worn by Templars in service to Mordsol. It resembles a heavily-adorned visored sallet."
 	icon_state = "ravoxhelm"
 	item_state = "ravoxhelm"
 	item_weight = 6 * IRON_MULTIPLIER

@@ -426,7 +426,7 @@
 	icon_state = "beauty"
 
 /*-----------------\
-|   Al'Aqshir Miracles |
+|   Mordsol Miracles |
 \-----------------*/
 
 /datum/status_effect/buff/call_to_arms

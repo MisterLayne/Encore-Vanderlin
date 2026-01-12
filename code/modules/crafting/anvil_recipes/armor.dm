@@ -571,7 +571,7 @@
 	additional_items = list(/obj/item/ingot/iron)
 
 /datum/anvil_recipe/armor/steel/templar/helmet_ravox
-	name = "Al'Aqshir Helmet (+Iron Bar)"
+	name = "Mordsol Helmet (+Iron Bar)"
 	recipe_name = "a ravoxian helmet"
 	created_item = /obj/item/clothing/head/helmet/heavy/necked/ravox
 	additional_items = list(/obj/item/ingot/iron)

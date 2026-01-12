@@ -511,7 +511,7 @@
 	created_item = /obj/item/clothing/neck/psycross/silver/necra
 
 /datum/artificer_recipe/psycross/ravox
-	name = "Al'Aqshir Psycross"
+	name = "Mordsol Psycross"
 	required_item = /obj/item/ingot/silver
 	created_item = /obj/item/clothing/neck/psycross/silver/ravox
 

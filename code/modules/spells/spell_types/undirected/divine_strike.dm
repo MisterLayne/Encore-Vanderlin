@@ -9,7 +9,7 @@
 	associated_skill = /datum/skill/magic/holy
 	required_items = list(/obj/item/clothing/neck/psycross/silver/ravox)
 
-	invocation = "Al'Aqshir deems your persistence worthy!"
+	invocation = "Mordsol deems your persistence worthy!"
 	invocation_type = INVOCATION_SHOUT
 
 	charge_required = FALSE
@@ -92,7 +92,7 @@
 		effectedstats[STATKEY_END] -= 1
 
 /atom/movable/screen/alert/status_effect/debuff/ravox_burden
-	name = "Al'Aqshir's Burden"
+	name = "Mordsol's Burden"
 	desc = "My arms and legs are restrained by divine chains!"
 	icon_state = "restrained"
 
