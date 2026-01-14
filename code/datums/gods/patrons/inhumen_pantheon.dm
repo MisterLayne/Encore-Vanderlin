@@ -20,7 +20,7 @@
 /* ----------------- */
 
 /datum/patron/inhumen/zizo // The One Envy considers those not of the Shirleigh dynasty to be beneath her notice, beyond carrying out occasional acts of capciciousness for her own amusement. She does not grant miracles to those not of Alyssandrine and Malryck's blood.
-	name = JEALOUS GOD
+	name = JEALOUS_GOD
 	domain = "Domotan Island, and seemingly little else."
 	desc = "She whose name is unknown, she whose agenda is lost; the Jealous God embodies no elemental aspect, and serves neither the divine nor ilk of Hell. Her solemn devotees are the royal family of Etgard itself, the Shirleigh Dynasty and their constituents. They are the only divine to lay absolute claim over Domotan Island, and is thus praised only in hushed tones beyond the walls of Etgard Keep."
 	flaws = "Hubris, Superiority, Fury"

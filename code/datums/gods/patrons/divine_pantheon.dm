@@ -3,16 +3,16 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	AKAN = 'sound/ambience/noises/mystical (4).ogg',
 	POMETTE = 'sound/vo/female/gen/giggle (1).ogg',
 	GANI = 'sound/magic/barbroar.ogg',
-	GOLER KANH = 'sound/magic/dwarf_chant01.ogg',
+	GOLER_KANH = 'sound/magic/dwarf_chant01.ogg',
 	ILIOPE = 'sound/misc/gods/xylix_omen_male_female.ogg',
 	VALDALA = 'sound/ambience/noises/genspooky (1).ogg',
 	MJALLIDHORN = 'sound/items/bucket_transfer (2).ogg',
 	MORDSOL = 'sound/vo/male/knight/rage (6).ogg',
 	ERDL = 'sound/magic/cosmic_expansion.ogg',
-	JEALOUS GOD = 'sound/misc/gods/zizo_omen.ogg',
+	JEALOUS_GOD = 'sound/misc/gods/zizo_omen.ogg',
 	ARCHDEVILS = 'sound/misc/gods/graggar_omen.ogg',
 	HERTANNEA = 'sound/misc/gods/baotha_omen.ogg',
-	DECEIVER GODS = 'sound/misc/gods/matthios_omen.ogg'
+	DECEIVER_GODS = 'sound/misc/gods/matthios_omen.ogg'
 ))
 
 /datum/patron/divine
@@ -190,7 +190,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/pestra
 
 /datum/patron/divine/malum
-	name = GOLER KANH
+	name = GOLER_KANH
 	domain = "Demi-deity of the Court of Earth; The Shaper, divine artifice."
 	desc = "A servant deity to Gani. The creator of technology, and he who first harnessed land and rock to serve mortal will."
 	flaws = "Obsessive, Exacting, Overbearing"
