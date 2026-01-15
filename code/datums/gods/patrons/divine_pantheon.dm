@@ -1,18 +1,18 @@
 GLOBAL_LIST_INIT(patron_sound_themes, list(
-	VISIRES = 'sound/magic/bless.ogg',
-	AKAN = 'sound/ambience/noises/mystical (4).ogg',
-	POMETTE = 'sound/vo/female/gen/giggle (1).ogg',
-	GANI = 'sound/magic/barbroar.ogg',
-	GOLER_KANH = 'sound/magic/dwarf_chant01.ogg',
-	ILIOPE = 'sound/misc/gods/xylix_omen_male_female.ogg',
-	VALDALA = 'sound/ambience/noises/genspooky (1).ogg',
-	MJALLIDHORN = 'sound/items/bucket_transfer (2).ogg',
-	MORDSOL = 'sound/vo/male/knight/rage (6).ogg',
-	ERDL = 'sound/magic/cosmic_expansion.ogg',
-	JEALOUS_GOD = 'sound/misc/gods/zizo_omen.ogg',
-	ARCHDEVILS = 'sound/misc/gods/graggar_omen.ogg',
-	HERTANNEA = 'sound/misc/gods/baotha_omen.ogg',
-	DECEIVER_GODS = 'sound/misc/gods/matthios_omen.ogg'
+	ASTRATA = 'sound/magic/bless.ogg',
+	NOC = 'sound/ambience/noises/mystical (4).ogg',
+	EORA = 'sound/vo/female/gen/giggle (1).ogg',
+	DENDOR = 'sound/magic/barbroar.ogg',
+	MALUM = 'sound/magic/dwarf_chant01.ogg',
+	XYLIX = 'sound/misc/gods/xylix_omen_male_female.ogg',
+	NECRA = 'sound/ambience/noises/genspooky (1).ogg',
+	ABYSSOR = 'sound/items/bucket_transfer (2).ogg',
+	RAVOX = 'sound/vo/male/knight/rage (6).ogg',
+	PESTRA = 'sound/magic/cosmic_expansion.ogg',
+	ZIZO = 'sound/misc/gods/zizo_omen.ogg',
+	GRAGGAR = 'sound/misc/gods/graggar_omen.ogg',
+	BAOTHA = 'sound/misc/gods/baotha_omen.ogg',
+	MATTTHIOS = 'sound/misc/gods/matthios_omen.ogg'
 ))
 
 /datum/patron/divine
