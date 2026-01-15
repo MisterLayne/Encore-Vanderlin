@@ -39,7 +39,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 /* ----------------- */
 
 /datum/patron/divine/astrata
-	name = VISIRES
+	name = ASTRATA
 	domain = "The Youthful; Aspect and sole remainder of the Court of Fire."
 	desc = "The youngest of the Elemental Gods. A once-mortal given host to the Aspect of Fire and made divine. The worship of Visires represents the plea for passion, life and the will to live; just as much it does the destruction, the hunger and the chaos that it may impose."
 	flaws = "Tyrannical, Ill-Tempered, Uncompromising"
@@ -57,7 +57,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/astrata
 
 /datum/patron/divine/noc
-	name = AKAN
+	name = NOC
 	domain = "The Elder; Aspect and ruler of the Court of Air. God of the sky and heavens."
 	desc = "Akan, the Elder embodies the fundamental element of air. They are an ancient spirit made divine as they would personify the very essence of the wistful, everlasting and free Aspect of the Sky."
 	flaws = "Cynical, Isolationist, Unfiltered Honesty"
@@ -75,7 +75,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/noc
 
 /datum/patron/divine/dendor
-	name = GANI
+	name = DENDOR
 	domain = "The Mother; Aspect and ruler of the Court of Earth. Goddess of the stone and soil."
 	desc = "Gani, the Mother, embodies the fundamental element of earth. They are an ancient spirit made divine as they would personify the very essence of the stern, immovable and protective Aspect of Stone. Gani is the world beneath the feet of all. She is the only God of the Four whose omnipresence extends beyond her domain."
 	flaws = "Madness, Rebelliousness, Disorderliness"
@@ -93,7 +93,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/dendor
 
 /datum/patron/divine/abyssor
-	name = MJALLIDHORN
+	name = ABYSSOR
 	domain = "The Warrior; Aspect and ruler of the Court of Frost."
 	desc = "Mjhallidhorn, the Warrior, embodies the fundamental element of ice. They are a once-mortal made divine as they would personify the very essence of the ruthless, brutal and materialistic Aspect of Frost. Mjallidhorn is an Elemental locked in battle in the far north against the hordes of Hell, perhaps forevermore."
 	flaws= "Reckless, Stubborn, Destructive"
@@ -111,7 +111,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/abyssor
 
 /datum/patron/divine/necra
-	name = VALDALA
+	name = NECRA
 	domain = "Demi-deity of the Court of Frost; The Valkyrie, shepherd of souls."
 	desc = "The Veiled Lady, once close partner to Angros. She created the Nine others from his corpse, guiding them from the Underworld."
 	flaws = "Unchanging, Apathetic, Easy to Bore"
@@ -129,7 +129,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/necra
 
 /datum/patron/divine/ravox
-	name = MORDSOL
+	name = RAVOX
 	domain = "Demi-deity of the Court of Frost; The Righteous, servant of honour and justice."
 	desc = "Mordsol, once Al'aqshir. Water, once fire. He is one of the oldest and has a storied past. Friend to Akan, servant to Angros, champion of Mjallidhorn; in modernity, Mordsol is part of the Court of Frost. He represents the pursuit of honourable combat and true justice, as opposed to blind obedience to codified, written mortal laws; and reminds the worshippers of Frost to never let their hearts truly freeze."
 	flaws = "Carelessness, Aggression, Pride"
@@ -147,7 +147,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/ravox
 
 /datum/patron/divine/xylix
-	name = ILIOPE
+	name = XYLIX
 	domain = "Demi-deity of the Court of Air; The Fool, comedy and tragedy."
 	desc = "A demi-deity of Akan's court, both famous and infamous for their sway over the forces of luck. Iliope is known for the inspiration of many a bards lyric. Speaks through their gift to man; the Tarot deck."
 	flaws = "Petulance, Deception, Gambling-Prone"
@@ -172,7 +172,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/ravox
 
 /datum/patron/divine/pestra
-	name = ERDL
+	name = PESTRA
 	domain = "Demi-deity of the Court of Air; The Thaumaturge, sculptor of flesh."
 	desc = "A mistake; Angros' intestines left behind. She slithered out, bringing forth the cycle of life and decay."
 	flaws = "Drunkenness, Crudeness, Irresponsibility"
@@ -190,7 +190,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/pestra
 
 /datum/patron/divine/malum
-	name = GOLER_KANH
+	name = MALUM
 	domain = "Demi-deity of the Court of Earth; The Shaper, divine artifice."
 	desc = "A servant deity to Gani. The creator of technology, and he who first harnessed land and rock to serve mortal will."
 	flaws = "Obsessive, Exacting, Overbearing"
@@ -208,7 +208,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/malum
 
 /datum/patron/divine/eora
-	name = POMETTE
+	name = EORA
 	domain = "Demi-deity of the Court of Earth; The Daughter, love transcendent."
 	desc = "Crafted from the heart of Angros, a spreader of love and beauty, and strengthener of bonds."
 	flaws= "Naivete, Impulsiveness, Bigotry"
