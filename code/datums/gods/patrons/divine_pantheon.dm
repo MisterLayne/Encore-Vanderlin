@@ -12,7 +12,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	ZIZO = 'sound/misc/gods/zizo_omen.ogg',
 	GRAGGAR = 'sound/misc/gods/graggar_omen.ogg',
 	BAOTHA = 'sound/misc/gods/baotha_omen.ogg',
-	MATTTHIOS = 'sound/misc/gods/matthios_omen.ogg'
+	MATTHIOS = 'sound/misc/gods/matthios_omen.ogg'
 ))
 
 /datum/patron/divine
