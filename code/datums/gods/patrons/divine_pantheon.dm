@@ -40,11 +40,12 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 
 /datum/patron/divine/astrata
 	name = ASTRATA
+	display_name = "Visires"
 	domain = "The Youthful; Aspect and sole remainder of the Court of Fire."
 	desc = "The youngest of the Elemental Gods. A once-mortal given host to the Aspect of Fire and made divine. The worship of Visires represents the plea for passion, life and the will to live; just as much it does the destruction, the hunger and the chaos that it may impose."
-	flaws = "Tyrannical, Ill-Tempered, Uncompromising"
-	worshippers = "Conquerors, the wrathful, the pupils of the Sun's science"
-	sins = "Betrayal, Sloth, Witchcraft"
+	flaws = "Tyrannical, ill-tempered, uncompromising."
+	worshippers = "Conquerors, the wrathful, the pupils of the Sun's science."
+	sins = "Charity, overt benevolence without gain, giving handouts."
 	boons = "Your stamina regeneration delay is lowered during daytime."
 	added_traits = list(TRAIT_APRICITY)
 	devotion_holder = /datum/devotion/divine/astrata
@@ -58,12 +59,13 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 
 /datum/patron/divine/noc
 	name = NOC
+	display_name = "Akan"
 	domain = "The Elder; Aspect and ruler of the Court of Air. God of the sky and heavens."
-	desc = "Akan, the Elder embodies the fundamental element of air. They are an ancient spirit made divine as they would personify the very essence of the wistful, everlasting and free Aspect of the Sky."
-	flaws = "Cynical, Isolationist, Unfiltered Honesty"
-	worshippers = "Nomads, scholars and the forever-free"
-	sins = "Suppressing Truth, Burning Books, Censorship"
-	boons = "You learn, dream, and teach apprentices slightly better. Access to roles with magic."
+	desc = "Akan, the Elder, embodies the fundamental element of air. They are an ancient spirit made divine as they would personify the very essence of the wistful, everlasting and free Aspect of the Sky."
+	flaws = "Fleeting, non-commital, unfiltered honesty."
+	worshippers = "Nomads, scholars and the forever-free."
+	sins = "Suppressing truth, burning books, willful ignorance."
+	boons = "You learn, dream, and teach apprentices slightly better. The veil of darkness parts easier for you under the light of the moon."
 	added_traits = list(TRAIT_NIGHT_OWL, TRAIT_TUTELAGE)
 	devotion_holder = /datum/devotion/divine/noc
 	confess_lines = list(
@@ -76,12 +78,13 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 
 /datum/patron/divine/dendor
 	name = DENDOR
+	display_name = "Gani"
 	domain = "The Mother; Aspect and ruler of the Court of Earth. Goddess of the stone and soil."
 	desc = "Gani, the Mother, embodies the fundamental element of earth. They are an ancient spirit made divine as they would personify the very essence of the stern, immovable and protective Aspect of Stone. Gani is the world beneath the feet of all. She is the only God of the Four whose omnipresence extends beyond her domain."
-	flaws = "Madness, Rebelliousness, Disorderliness"
-	worshippers = "All Earthly things, the farms, the huntsmen and matriarchs"
-	sins = "Deforestation, Overhunting, Disrespecting Nature"
-	boons = "You are immune to kneestingers."
+	flaws = "Overbearing, autophobic, anxiety-prone."
+	worshippers = "All Earthly things, the farms, the huntsmen and matriarchs."
+	sins = "Cruelty, isolationism, disrespect of nature."
+	boons = "You are immune to kneestingers. You instinctively understand when people are stressed, in pain, or hungry."
 	added_traits = list(TRAIT_KNEESTINGER_IMMUNITY, TRAIT_EMPATH)
 	devotion_holder = /datum/devotion/divine/dendor
 	confess_lines = list(
@@ -96,9 +99,9 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	name = ABYSSOR
 	domain = "The Warrior; Aspect and ruler of the Court of Frost."
 	desc = "Mjhallidhorn, the Warrior, embodies the fundamental element of ice. They are a once-mortal made divine as they would personify the very essence of the ruthless, brutal and materialistic Aspect of Frost. Mjallidhorn is an Elemental locked in battle in the far north against the hordes of Hell, perhaps forevermore."
-	flaws= "Reckless, Stubborn, Destructive"
+	flaws= "Reckless, stubborn, destructive."
 	worshippers = "Warriors, sellswords, the vengeful, sailors"
-	sins = "Fear, Hubris, Forgetfulness"
+	sins = "Cowardice, hesitation, Forgetfulness"
 	boons = "Leeches will drain very little of your blood."
 	added_traits = list(TRAIT_LEECHIMMUNE)
 	devotion_holder = /datum/devotion/divine/abyssor
@@ -132,7 +135,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	name = RAVOX
 	domain = "Demi-deity of the Court of Frost; The Righteous, servant of honour and justice."
 	desc = "Mordsol, once Al'aqshir. Water, once fire. He is one of the oldest and has a storied past. Friend to Akan, servant to Angros, champion of Mjallidhorn; in modernity, Mordsol is part of the Court of Frost. He represents the pursuit of honourable combat and true justice, as opposed to blind obedience to codified, written mortal laws; and reminds the worshippers of Frost to never let their hearts truly freeze."
-	flaws = "Carelessness, Aggression, Pride"
+	flaws = "Recalcitrant"
 	worshippers = "Warriors, Sellswords, Guardsmen"
 	sins = "Cowardice, Cruelty, Stagnation"
 	boons = "Your used weapons dull slower."
