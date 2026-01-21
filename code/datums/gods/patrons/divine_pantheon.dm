@@ -63,7 +63,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	domain = "The Elder; Aspect and ruler of the Court of Air. God of the sky and heavens."
 	desc = "Akan, the Elder, embodies the fundamental element of air. They are an ancient spirit made divine as they would personify the very essence of the wistful, everlasting and free Aspect of the Sky."
 	flaws = "Fleeting, non-commital, unfiltered honesty."
-	worshippers = "Nomads, scholars and the forever-free."
+	worshippers = "Nomads, scholars, sailors and the forever-free."
 	sins = "Suppressing truth, burning books, willful ignorance."
 	boons = "You learn, dream, and teach apprentices slightly better. The veil of darkness parts easier for you under the light of the moon."
 	added_traits = list(TRAIT_NIGHT_OWL, TRAIT_TUTELAGE)
@@ -97,13 +97,14 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 
 /datum/patron/divine/abyssor
 	name = ABYSSOR
+	display_name = "Mjallidhorn"
 	domain = "The Warrior; Aspect and ruler of the Court of Frost."
 	desc = "Mjhallidhorn, the Warrior, embodies the fundamental element of ice. They are a once-mortal made divine as they would personify the very essence of the ruthless, brutal and materialistic Aspect of Frost. Mjallidhorn is an Elemental locked in battle in the far north against the hordes of Hell, perhaps forevermore."
 	flaws= "Reckless, stubborn, destructive."
-	worshippers = "Warriors, sellswords, the vengeful, sailors"
-	sins = "Cowardice, hesitation, Forgetfulness"
-	boons = "Leeches will drain very little of your blood."
-	added_traits = list(TRAIT_LEECHIMMUNE)
+	worshippers = "Warriors, sellswords, the vengeful and sailors."
+	sins = "Cowardice, hesitation, passivity."
+	boons = "Your used weapons dull slower. Swimming is less tiring. You may sense the presence of a soul within a body."
+	added_traits = list(TRAIT_ABYSSOR_SWIM, TRAIT_SOUL_EXAMINE, TRAIT_SHARPER_BLADES)
 	devotion_holder = /datum/devotion/divine/abyssor
 	confess_lines = list(
 		"THE NORTH'S MADNESS!",
@@ -115,13 +116,14 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 
 /datum/patron/divine/necra
 	name = NECRA
+	display_name = "Valdala"
 	domain = "Demi-deity of the Court of Frost; The Valkyrie, shepherd of souls."
 	desc = "The Veiled Lady, once close partner to Angros. She created the Nine others from his corpse, guiding them from the Underworld."
-	flaws = "Unchanging, Apathetic, Easy to Bore"
-	worshippers = "Orderlies, Gravetenders, Mourners"
-	sins = "Heretical Magic, Untimely Death, Disturbance of Rest"
-	boons = "You may see the presence of a soul in a body."
-	added_traits = list(TRAIT_SOUL_EXAMINE)
+	flaws = ""
+	worshippers = "Orderlies, gravetenders, mourners"
+	sins = "Necromancy, disrespecting the dead, pre-meditated murder."
+	boons = "You may see the presence of a soul within a body. You become aware of when a person dies, though not where or how."
+	added_traits = list(TRAIT_SOUL_EXAMINE, TRAIT_DEATHSIGHT)
 	devotion_holder = /datum/devotion/divine/necra
 	confess_lines = list(
 		"ALL SOULS FIND THEIR WAY TO NECRA!",

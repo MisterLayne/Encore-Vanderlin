@@ -423,9 +423,10 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 
 // Divine patron trait bonuses:
 #define TRAIT_SOUL_EXAMINE				"Blessing of Valdala"  //can check bodies to see if they have departed
-#define TRAIT_ROT_EATER					"Blessing of Erdl" //can eat rotten food
+#define TRAIT_ROT_EATER					"Blessing of Decay" //can eat rotten food
 #define TRAIT_KNEESTINGER_IMMUNITY		"Blessing of Gani" //Can move through kneestingers.
-#define TRAIT_LEECHIMMUNE				"Unleechable" //leeches drain very little blood
+#define TRAIT_LEECHIMMUNE				"Blessing of Erdl" //leeches drain very little blood
+#define TRAIT_ABYSSOR_SWIM				"Blessing of the Norts" //less base fatigue drain when swimming
 #define TRAIT_SHARPER_BLADES			"Sharper Blades" //Weapons lose less blade integrity
 #define TRAIT_BETTER_SLEEP				"Better Sleep" //Recover more energy (blue bar) when sleeping
 #define TRAIT_EXTEROCEPTION				"Exteroception" //See others' hunger and thirst
