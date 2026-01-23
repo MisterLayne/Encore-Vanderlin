@@ -118,7 +118,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	name = NECRA
 	display_name = "Valdala"
 	domain = "Demi-deity of the Court of Frost; The Valkyrie, shepherd of souls."
-	desc = "The Veiled Lady, once close partner to Angros. She created the Nine others from his corpse, guiding them from the Underworld."
+	desc = "Valdala, a once-earth spirit and daughter of Gani, is a demi-deity of Mjallidhorn's court. Her eternal charge is the stewardship of souls after death, ferrying them to Heaven, or to the Forever War that Mjallidhorn fights in the north. She fights in the eternal battle against Hell alongside Mordsol for the Aspect of Frost, sewing her grief for mortals slain among them and reaping their doom with her scythe in hand. A force of grim terror against her foes, yet the souls in her care only know only her gentle heart and compassion."
 	flaws = ""
 	worshippers = "Orderlies, gravetenders, mourners"
 	sins = "Necromancy, disrespecting the dead, pre-meditated murder."
