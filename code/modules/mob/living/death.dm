@@ -130,7 +130,7 @@ GLOBAL_LIST_EMPTY(last_words)
 					if (HAS_TRAIT(player, TRAIT_CABAL) || istype(player.patron, /datum/patron/inhumen/zizo))
 						to_chat(player, span_warning("I feel the faint passage of disjointed life essence as it flees [locale]."))
 					else
-						to_chat(player, span_warning("Veiled whispers herald the Undermaiden's gaze in my mind's eye as it turns towards [locale] for but a brief, singular moment."))
+						to_chat(player, span_warning("Veiled whispers herald the Valkyrie's gaze in my mind's eye as it turns towards [locale] for but a brief, singular moment."))
 
 	return TRUE
 
@@ -152,6 +152,6 @@ GLOBAL_LIST_EMPTY(last_words)
 		if ("sewers")
 			locale = "somwhere under the city of [SSmapping.config.map_name] and all its bustling souls"
 		if ("church")
-			locale = "a hallowed place, sworn to the Ten" // special bit for the church since it's sacred ground
+			locale = "a hallowed place, sworn to the Aspects" // special bit for the church since it's sacred ground
 
 	return locale

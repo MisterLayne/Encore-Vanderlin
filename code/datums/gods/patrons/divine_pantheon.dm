@@ -100,11 +100,11 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	display_name = "Mjallidhorn"
 	domain = "The Warrior; Aspect and ruler of the Court of Frost."
 	desc = "Mjhallidhorn, the Warrior, embodies the fundamental element of ice. They are a once-mortal made divine as they would personify the very essence of the ruthless, brutal and materialistic Aspect of Frost. Mjallidhorn is an Elemental locked in battle in the far north against the hordes of Hell, perhaps forevermore."
-	flaws= "Reckless, stubborn, destructive."
+	flaws = "Reckless, stubborn, destructive."
 	worshippers = "Warriors, sellswords, the vengeful and sailors."
 	sins = "Cowardice, hesitation, passivity."
-	boons = "Your used weapons dull slower. Swimming is less tiring. You may sense the presence of a soul within a body."
-	added_traits = list(TRAIT_ABYSSOR_SWIM, TRAIT_SOUL_EXAMINE, TRAIT_SHARPER_BLADES)
+	boons = "Your used weapons dull slower. Swimming is less tiring. You may sense the presence of a soul within a body, and when a mortal meets their demise."
+	added_traits = list(TRAIT_ABYSSOR_SWIM, TRAIT_SOUL_EXAMINE, TRAIT_DEATHSIGHT, TRAIT_SHARPER_BLADES)
 	devotion_holder = /datum/devotion/divine/abyssor
 	confess_lines = list(
 		"THE NORTH'S MADNESS!",
@@ -118,46 +118,48 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	name = NECRA
 	display_name = "Valdala"
 	domain = "Demi-deity of the Court of Frost; The Valkyrie, shepherd of souls."
-	desc = "Valdala, a once-earth spirit and daughter of Gani, is a demi-deity of Mjallidhorn's court. Her eternal charge is the stewardship of souls after death, ferrying them to Heaven, or to the Forever War that Mjallidhorn fights in the north. She fights in the eternal battle against Hell alongside Mordsol for the Aspect of Frost, sewing her grief for mortals slain among them and reaping their doom with her scythe in hand. A force of grim terror against her foes, yet the souls in her care only know only her gentle heart and compassion."
-	flaws = ""
-	worshippers = "Orderlies, gravetenders, mourners"
+	desc = "Valdala, a once-earth spirit and daughter of Gani, now demi-deity of Mjallidhorn's court. Her eternal charge is the stewardship of souls after death; ferrying them to Heaven, or to the Forever War that Mjallidhorn fights in the north. She fights in the eternal battle against Hell alongside Mordsol for the Aspect of Frost, sewing her grief for mortals slain among her foes and reaping it as their doom. A force of grim terror against her foes, yet the souls in her care only know only her gentle heart and compassion."
+	flaws = "Melancholic, dismal, gloomy."
+	worshippers = "Orderlies, gravetenders, mourners and the bereaved."
 	sins = "Necromancy, disrespecting the dead, pre-meditated murder."
 	boons = "You may see the presence of a soul within a body. You become aware of when a person dies, though not where or how."
 	added_traits = list(TRAIT_SOUL_EXAMINE, TRAIT_DEATHSIGHT)
 	devotion_holder = /datum/devotion/divine/necra
 	confess_lines = list(
-		"ALL SOULS FIND THEIR WAY TO NECRA!",
-		"THE UNDERMAIDEN IS OUR FINAL REPOSE!",
-		"I FEAR NOT DEATH, THE VALKYRIE AWAITS ME!",
+		"ALL SOULS FIND THEIR WAY TO VALDALA!",
+		"VALDALA WILL REAP YOUR DOOM!",
+		"MY FLESH TO THE EARTH, MY SOUL TO THE VALKYRIE!",
 	)
 	storyteller = /datum/storyteller/necra
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/necra
 
 /datum/patron/divine/ravox
 	name = RAVOX
+	display_name = "Mordsol"
 	domain = "Demi-deity of the Court of Frost; The Righteous, servant of honour and justice."
-	desc = "Mordsol, once Al'aqshir. Water, once fire. He is one of the oldest and has a storied past. Friend to Akan, servant to Angros, champion of Mjallidhorn; in modernity, Mordsol is part of the Court of Frost. He represents the pursuit of honourable combat and true justice, as opposed to blind obedience to codified, written mortal laws; and reminds the worshippers of Frost to never let their hearts truly freeze."
-	flaws = "Recalcitrant"
-	worshippers = "Warriors, Sellswords, Guardsmen"
-	sins = "Cowardice, Cruelty, Stagnation"
-	boons = "Your used weapons dull slower."
-	added_traits = list(TRAIT_SHARPER_BLADES)
+	desc = "Mordsol, once Al'aqshir. Water, once fire. He is one of the oldest and has a storied past. Friend to Akan, servant to Angros, champion of Mjallidhorn; in modernity, Mordsol is part of the Court of Frost. He represents the pursuit of honourable combat, true justice, and what is truly right; as opposed to blind obedience to codified, written mortal laws; and reminds the worshippers of Frost to never let their hearts truly freeze."
+	flaws = "Stubborn, duty-bound, single-minded."
+	worshippers = "Honourbound warriors, freedom fighters, the noble-hearted and sailors."
+	sins = "Cowardice, injustice, tyranny."
+	boons = "Your weapons dull slower. Swimming is less tiring."
+	added_traits = list(TRAIT_SHARPER_BLADES, TRAIT_ABYSSOR_SWIM)
 	devotion_holder = /datum/devotion/divine/ravox
 	confess_lines = list(
-		"RAVOX IS JUSTICE!",
-		"THROUGH STRIFE, GRACE!",
-		"THE DRUMS OF WAR BEAT IN MY CHEST!",
+		"THE RIGHTEOUS WILL PREVAIL!",
+		"MORDSOL IS MY STRENGTH, AND MY MERCY!",
+		"THE EMBERS OF JUSTICE KEEP MY HEART THAWED!",
 	)
 	storyteller = /datum/storyteller/ravox
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/ravox
 
 /datum/patron/divine/xylix
 	name = XYLIX
+	display_name = "Iliope"
 	domain = "Demi-deity of the Court of Air; The Fool, comedy and tragedy."
 	desc = "A demi-deity of Akan's court, both famous and infamous for their sway over the forces of luck. Iliope is known for the inspiration of many a bards lyric. Speaks through their gift to man; the Tarot deck."
-	flaws = "Petulance, Deception, Gambling-Prone"
-	worshippers = "Cheats, Performers, The Hopeless"
-	sins = "Boredom, Predictability, Routine"
+	flaws = "Petulant, deceptive, gambling-prone."
+	worshippers = "Gamblers, bards, artists, and the silver-tongued."
+	sins = "Boredom, predictability, routine."
 	boons = "You can rig different forms of gambling in your favor."
 	added_traits = list(TRAIT_BLACKLEG)
 	devotion_holder = /datum/devotion/divine/xylix
@@ -178,6 +180,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 
 /datum/patron/divine/pestra
 	name = PESTRA
+	display_name = "Erdl"
 	domain = "Demi-deity of the Court of Air; The Thaumaturge, sculptor of flesh."
 	desc = "A mistake; Angros' intestines left behind. She slithered out, bringing forth the cycle of life and decay."
 	flaws = "Drunkenness, Crudeness, Irresponsibility"
@@ -196,11 +199,12 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 
 /datum/patron/divine/malum
 	name = MALUM
+	display_name = "Goler Kanh"
 	domain = "Demi-deity of the Court of Earth; The Shaper, divine artifice."
-	desc = "A servant deity to Gani. The creator of technology, and he who first harnessed land and rock to serve mortal will."
-	flaws = "Obsessive, Exacting, Overbearing"
-	worshippers = "Smiths, engineers and tinkerers"
-	sins = "Cheating, Shoddy Work, Suicide"
+	desc = "A demi-deity of Gani's court. The creator of technology, and he who first harnessed land and rock to serve mortal will."
+	flaws = "Obsessive, exacting, single-minded."
+	worshippers = "Smiths, engineers, tinkerers and craftsmen of all kinds."
+	sins = "Cheating, shoddy work, duplicity."
 	boons = "You recover more energy when sleeping."
 	added_traits = list(TRAIT_BETTER_SLEEP)
 	devotion_holder = /datum/devotion/divine/malum
