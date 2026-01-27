@@ -82,10 +82,10 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	domain = "The Mother; Aspect and ruler of the Court of Earth. Goddess of the stone and soil."
 	desc = "Gani, the Mother, embodies the fundamental element of earth. They are an ancient spirit made divine as they would personify the very essence of the stern, immovable and protective Aspect of Stone. Gani is the world beneath the feet of all. She is the only God of the Four whose omnipresence extends beyond her domain."
 	flaws = "Overbearing, autophobic, anxiety-prone."
-	worshippers = "All Earthly things, the farms, the huntsmen and matriarchs."
+	worshippers = "All Earthly things, the farms, the huntsmen, matriarchs and druids."
 	sins = "Cruelty, isolationism, disrespect of nature."
 	boons = "You are immune to kneestingers. You instinctively understand when people are stressed, in pain, or hungry."
-	added_traits = list(TRAIT_KNEESTINGER_IMMUNITY, TRAIT_EMPATH)
+	added_traits = list(TRAIT_KNEESTINGER_IMMUNITY, TRAIT_EMPATH, TRAIT_EXTEROCEPTION)
 	devotion_holder = /datum/devotion/divine/dendor
 	confess_lines = list(
 		"GOLDEN GREENING!",
@@ -205,8 +205,8 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	flaws = "Obsessive, exacting, single-minded."
 	worshippers = "Smiths, engineers, tinkerers and craftsmen of all kinds."
 	sins = "Cheating, shoddy work, duplicity."
-	boons = "You recover more energy when sleeping."
-	added_traits = list(TRAIT_BETTER_SLEEP)
+	boons = "You recover more energy when sleeping. You learn, dream, and teach apprentices slightly better."
+	added_traits = list(TRAIT_BETTER_SLEEP, TRAIT_TUTELAGE)
 	devotion_holder = /datum/devotion/divine/malum
 	confess_lines = list(
 		"IN MY HAND IS ALL MORTAL POWER!",
@@ -218,10 +218,11 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 
 /datum/patron/divine/eora
 	name = EORA
+	display_name = "Pomette"
 	domain = "Demi-deity of the Court of Earth; The Daughter, love transcendent."
-	desc = "Crafted from the heart of Angros, a spreader of love and beauty, and strengthener of bonds."
+	desc = "A demi-deity of Gani's court. An immaculately-conceived Daughter, crafted from a shard of the Mother's own divinity; Pomette's divine purity is thought to be absolute among the Pantheon. In her pure and naive"
 	flaws= "Naivete, Impulsiveness, Bigotry"
-	worshippers = "Mothers, Artists, Married Couples"
+	worshippers = "The truly benevolent, "
 	sins = "Sadism, Abandonment, Ruining Beauty"
 	boons = "You can understand others' needs better."
 	added_traits = list(TRAIT_KNEESTINGER_IMMUNITY, TRAIT_EMPATH, TRAIT_EXTEROCEPTION)
