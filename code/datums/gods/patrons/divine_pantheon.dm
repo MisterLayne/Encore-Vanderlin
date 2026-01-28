@@ -118,7 +118,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	name = NECRA
 	display_name = "Valdala"
 	domain = "Demi-deity of the Court of Frost; The Valkyrie, shepherd of souls."
-	desc = "Valdala, a once-earth spirit and daughter of Gani, now demi-deity of Mjallidhorn's court. Her eternal charge is the stewardship of souls after death; ferrying them to Heaven, or to the Forever War that Mjallidhorn fights in the north. She fights in the eternal battle against Hell alongside Mordsol for the Aspect of Frost, sewing her grief for mortals slain among her foes and reaping it as their doom. A force of grim terror against her foes, yet the souls in her care only know only her gentle heart and compassion."
+	desc = "Valdala, a once-earth spirit and daughter of Gani, now demi-deity of Mjallidhorn's court. Her eternal charge is the stewardship of souls after death; ferrying them to Heaven, or to the Forever War that Mjallidhorn fights in the north. She fights in the eternal battle against Hell alongside Mordsol for the Aspect of Frost, sewing her grief for mortals slain among her foes and reaping it as their doom."
 	flaws = "Melancholic, dismal, gloomy."
 	worshippers = "Orderlies, gravetenders, mourners and the bereaved."
 	sins = "Necromancy, disrespecting the dead, pre-meditated murder."
@@ -126,9 +126,9 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	added_traits = list(TRAIT_SOUL_EXAMINE, TRAIT_DEATHSIGHT)
 	devotion_holder = /datum/devotion/divine/necra
 	confess_lines = list(
-		"ALL SOULS FIND THEIR WAY TO VALDALA!",
-		"VALDALA WILL REAP YOUR DOOM!",
-		"MY FLESH TO THE EARTH, MY SOUL TO THE VALKYRIE!",
+		"VALDALA'S WINGS STAY ALL BURDENS!",
+		"THE LAST ANGEL'S WAIL HAUNTS US!",
+		"THE SISTERS OF FROST OBSESS UPON THE WICK OF OUR SOUL!",
 	)
 	storyteller = /datum/storyteller/necra
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/necra
@@ -220,11 +220,11 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	name = EORA
 	display_name = "Pomette"
 	domain = "Demi-deity of the Court of Earth; The Daughter, love transcendent."
-	desc = "A demi-deity of Gani's court. An immaculately-conceived Daughter, crafted from a shard of the Mother's own divinity; Pomette's divine purity is thought to be absolute among the Pantheon. In her pure and naive"
-	flaws= "Naivete, Impulsiveness, Bigotry"
-	worshippers = "The truly benevolent, "
-	sins = "Sadism, Abandonment, Ruining Beauty"
-	boons = "You can understand others' needs better."
+	desc = "A demi-deity of Gani's court. An immaculately-conceived Daughter, crafted from a shard of the Mother's own divinity; Pomette's divine purity is thought to be absolute among the Pantheon. The youngest of the Elementals, Pomette's love for all grants her the capacity to assume any form she wishes; and alongside her Mother, she taught the first Druids the art of shapeshifting. However, her naivety leads her to hold love for all things in creation, even the soulless and wicked. This fringe belief is only possible due to her being the child of Gani, and it brews worry in the rest of the Pantheon. All fundamentalist texts reinforce that the whole Pantheon - even the solitary Visires - owe Pomette protection due to such childish beliefs."
+	flaws= "Naivete, impulsiveness, underestimation of danger."
+	worshippers = "The truly benevolent, friends and lovers, parents and grandparents, and druids."
+	sins = "Cruelty, abandonment, bigotry."
+	boons = "You can understand the needs of others better. You're immune to the shock of kneestingers."
 	added_traits = list(TRAIT_KNEESTINGER_IMMUNITY, TRAIT_EMPATH, TRAIT_EXTEROCEPTION)
 	devotion_holder = /datum/devotion/divine/eora
 	confess_lines = list(

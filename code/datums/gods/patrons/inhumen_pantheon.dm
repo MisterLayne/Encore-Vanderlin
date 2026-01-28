@@ -21,13 +21,14 @@
 
 /datum/patron/inhumen/zizo // The One Envy considers those not of the Shirleigh dynasty to be beneath her notice, beyond carrying out occasional acts of capciciousness for her own amusement. She does not grant miracles to those not of Alyssandrine and Malryck's blood.
 	name = ZIZO
+	display_name = "The Jealous God"
 	domain = "Domotan Island, and seemingly little else."
 	desc = "She whose name is unknown, she whose agenda is lost; the Jealous God embodies no elemental aspect, and serves neither the divine nor ilk of Hell. Her solemn devotees are the royal family of Etgard itself, the Shirleigh Dynasty and their constituents. They are the only divine to lay absolute claim over Domotan Island, and is thus praised only in hushed tones beyond the walls of Etgard Keep."
-	flaws = "Hubris, Superiority, Fury"
+	flaws = "Unknown."
 	worshippers = "The Shirleigh Dynasty, the brainwashed and the desperate"
-	sins = "Pearl-clutching, Moralism, Wastefulness"
-	boons = "You may perform fleshcrafting. Access to roles with magic."
-	added_traits = list(TRAIT_CABAL)
+	sins = "Unknown."
+	boons = "You can recognise other worshippers at a glance. For the Shirleighs; access to innate and sinister miracles, and the awareness of when and where a mortal meets their demise, but not how. For all else; nothing."
+	added_traits = list(TRAIT_CABAL_CHUD)
 	devotion_holder = /datum/devotion/inhumen/zizo
 	confess_lines = list(
 		"SHE SEES! SHE LAUGHS!",
@@ -42,23 +43,25 @@
 
 /datum/patron/inhumen/graggar
 	name = GRAGGAR
-	domain = "Ascended God, the Dark Sini-Star of Unnatural Beasts, Unsated Consumption, and Unbridled Hatred"
-	desc = "Became the first orc upon ascension through his habit of consuming the bodies of those he conquered. His forces continue to ravage the lands in his name. Through him, one may achieve true strength."
-	flaws = "Rage, Hatred, Bloodthirst"
-	worshippers = "Greenskins, The Revenge-Driven, Sadists, Misogynists"
-	sins = "Compassion, Frailty, Servility"
-	boons = "You are drawn to the flavour of raw flesh and organs, and may consume without worry."
-	added_traits = list(TRAIT_ORGAN_EATER)
+	display_name = "The Archdevils"
+	domain = "All heretical anti-deities subservient to Hell."
+	desc = "The Archdevils of Hell, despite their hand in bringing the world to its knees, attract worshippers for any number of reasons - for vengeance, for power, from indoctrination, or from those who yet quake in terror from the threat it poses - but such belief is a poisoned chalice, for Hell's power corrupts all it touches. You may worship the Archdevils directly, or worship a Deceiver God who has been corrupted by Hell's power; but whatever the case, you seek the disruption of the Elemental balance and the downfall of the Aspects."
+	flaws = "Rage, hatred, bloodthirst."
+	worshippers = "The vengeful, the power-hungry, the indoctrinated, the fearful."
+	sins = "Compassion, frailty, servility."
+	boons = "You are drawn to the flavour of raw flesh and organs, and rotten food, and may consume without worry. You can recognise other Archdevil worshippers at a glance, as well as servants of other Hell-corrupted deities."
+	added_traits = list(TRAIT_ROT_EATER, TRAIT_ORGAN_EATER, TRAIT_ARCHDEVILS, TRAIT_CORRUPTED)
 	devotion_holder = /datum/devotion/inhumen/graggar
 	confess_lines = list(
-		"GRAGGAR IS THE BEAST I WORSHIP!",
-		"GRAGGAR WILL RAVAGE YOU!",
-		"GRAGGAR BRINGS UNHOLY DESTRUCTION!"
+		"CLAW AT THE SOIL! BREAK THE FIRMAMENT!",
+		"RELEASE THE OLD ONES! RETURN THEIR CROWN!",
+		"WHAT ONCE WAS WILL BECOME NOW, AGAIN!",
 	)
 	storyteller = /datum/storyteller/graggar
 
 /datum/patron/inhumen/matthios
 	name = MATTHIOS
+	display_name = "The Deceiver Gods"
 	domain = "God of Thievery, Ill-Gotten Gains, and Highwaymen"
 	desc = "Legendary humen bandit whose name was attributed to countless great thefts. It is because of his legacy that nobles clutch their coin purses to their chests in town."
 	flaws = "Pride, Greed, Orneriness"

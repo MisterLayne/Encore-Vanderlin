@@ -338,7 +338,6 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define DEVOTION_TRAIT "devotion_trait"
 #define RAGE_TRAIT "rage_trait"
 #define TRAIT_PSYDONIAN_GRIT "Angrosian Grit" // Pain Tolerance. Through faith, ENDURE.
-#define TRAIT_PSYDONITE "Angrosian's Devotion" // Anti-Miracles on a selective basis, anastasis / cure rot still apply. Slow passive wound healing while you have blood.
 #define TRAIT_BLACKBAGGER "Apprehension Techniques" // Capable of using Garrotes and Blackbags. Apprehension techniques.
 #define TRAIT_LYCANRESILENCE "Werewolf Resilence"
 
@@ -433,14 +432,21 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_TUTELAGE					"Tutelage" //Slightly more sleep xp to you and xp to apprentices
 #define TRAIT_APRICITY					"Apricity" //Decreased stamina regen time during "day"
 #define TRAIT_BLACKLEG					"Blackleg" //Rig coin, dice, cards in your favor
+#define TRAIT_SALVATIONIST				"Salvationist's Grief" //Prayers about a dead god manifest differently or something
 #define TRAIT_INQUISITION 				"Member of the Katholikos Inquisition"
 #define TRAIT_PURITAN					"Puritan"
 #define TRAIT_SILVER_BLESSED 			"Silver Blessed"
 
 // Inhumen patron trait bonuses:
+#define TRAIT_ARCHDEVILS				"Cult of the Archdevils" //Archdevil worshippers recognize each other
 #define TRAIT_ORGAN_EATER				"Blessing of the Archdevils"//Can eat organs (duh.) and raw meat
+#define TRAIT_HERTANNEA					"Cult of Hertannea" //Hertannea worshippers recognize each other
 #define TRAIT_CRACKHEAD					"Blessing of Hertannea" //No overdose on drugs.
-#define TRAIT_CABAL                     "Of the Cabal" //One Envy cultists recognize each other too
+#define TRAIT_ABSOLUTIONIST				"Cult of Madness" //Absolutionist Angros worshippers recognize each other
+#define TRAIT_PSYDONITE					"Absolutionist's Devotion" // Anti-Miracles on a selective basis, anastasis / cure rot still apply. Slow passive wound healing while you have blood.
+#define TRAIT_CORRUPTED					"Tainted" //All worshippers of Hell's pawns recognise each other.
+#define TRAIT_CABAL                     "Blood of the One Envy" //Shirleighs recognize each other, and their non-royal believers
+#define TRAIT_CABAL_CHUD				"Cult of the Jealous God" //One Envy cultists recognize each other too
 #define TRAIT_MATTHIOS_EYES				"Eyes of Deceivers" //Examine to see the most expensive item someone has
 #define INSPIRING_MUSICIAN 				"Inspiring Musician" // unlocks bardic inspiration stuff
 
