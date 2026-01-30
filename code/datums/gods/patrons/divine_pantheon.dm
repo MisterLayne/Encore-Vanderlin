@@ -123,7 +123,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	worshippers = "Orderlies, gravetenders, mourners and the bereaved."
 	sins = "Necromancy, disrespecting the dead, pre-meditated murder."
 	boons = "You may see the presence of a soul within a body. You become aware of when a person dies, though not where or how."
-	added_traits = list(TRAIT_SOUL_EXAMINE, TRAIT_DEATHSIGHT)
+	added_traits = list(TRAIT_SOUL_EXAMINE)
 	devotion_holder = /datum/devotion/divine/necra
 	confess_lines = list(
 		"VALDALA'S WINGS STAY ALL BURDENS!",

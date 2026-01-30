@@ -19,7 +19,7 @@
 
 /* ----------------- */
 
-/datum/patron/inhumen/zizo // The One Envy considers those not of the Shirleigh dynasty to be beneath her notice, beyond carrying out occasional acts of capciciousness for her own amusement. She does not grant miracles to those not of Alyssandrine and Malryck's blood.
+/datum/patron/inhumen/zizo // The One Envy considers non-royals chuds and doesn't give them magic or abilities
 	name = ZIZO
 	display_name = "The Jealous God"
 	domain = "Domotan Island, and seemingly little else."
@@ -49,7 +49,7 @@
 	flaws = "Rage, hatred, bloodthirst."
 	worshippers = "The vengeful, the power-hungry, the indoctrinated, the fearful."
 	sins = "Compassion, frailty, servility."
-	boons = "You are drawn to the flavour of raw flesh and organs, and rotten food, and may consume without worry. You can recognise other Archdevil worshippers at a glance, as well as servants of other Hell-corrupted deities."
+	boons = "You are drawn to the flavour of raw flesh, organs, and rotten food, and may consume without worry. You can recognise other Archdevil worshippers at a glance, as well as servants of other Hell-corrupted deities."
 	added_traits = list(TRAIT_ROT_EATER, TRAIT_ORGAN_EATER, TRAIT_ARCHDEVILS, TRAIT_CORRUPTED)
 	devotion_holder = /datum/devotion/inhumen/graggar
 	confess_lines = list(
@@ -62,35 +62,36 @@
 /datum/patron/inhumen/matthios
 	name = MATTHIOS
 	display_name = "The Deceiver Gods"
-	domain = "God of Thievery, Ill-Gotten Gains, and Highwaymen"
-	desc = "Legendary humen bandit whose name was attributed to countless great thefts. It is because of his legacy that nobles clutch their coin purses to their chests in town."
-	flaws = "Pride, Greed, Orneriness"
-	worshippers = "Outlaws, Noble-Haters, Downtrodden Peasantry"
-	sins = "Clumsiness, Stupidity, Humility"
+	domain = "Secret sects hidden within the Divine Courts."
+	desc = "The praise of divines other than those subservient to the Four Elementals is heresy, even if those stragglers seek not to disrupt the balance; the mere worship gives power to Heavenly figures, after all. Which God that is remains up to you."
+	flaws = "Specific to the divine in question."
+	worshippers = "The desperate, the drunk, the disillusioned and the depraved."
+	sins = "Specific to the divine in question."
 	boons = "You can see the most expensive item someone is carrying."
 	added_traits = list(TRAIT_MATTHIOS_EYES)
 	devotion_holder = /datum/devotion/inhumen/matthios
 	confess_lines = list(
-		"MATTHIOS STEALS FROM THE WORTHLESS!",
-		"MATTHIOS IS JUSTICE FOR THE COMMON MAN!",
-		"MATTHIOS IS MY LORD, I SHALL BE HIS MARTYR!",
+		"THE DECEIVERS FLEE! SEE THEIR LIES!",
+		"A PANTHEON EXISTS BEYOND YOUR OWN!",
+		"DIVINES WITHOUT NUMBER ARE BEYOND THE STARS!",
 	)
 	storyteller = /datum/storyteller/matthios
 
 /datum/patron/inhumen/baotha
 	name = BAOTHA
-	domain = "Goddess of Drugs, Self-Preservation, and Remorseless Joy"	//Bright-dyed hair falls within 'remorseless joy.' Joy for one's self at expense of the setting. Same for her music taste.
-	desc = "Ascended, formerly disgraced tiefling queen, notorious for having a mind elsewhere. Drove her kingdom into the ground through her demands and addictions. The first tiefling noble, last tiefling noble, and sole reason there are no more tiefling nobles. As she preaches to her followers, 'Joy at all costs!'"
-	flaws = "Manipulation, Self-Destruction, Willingness to Sacrifice Others"
-	worshippers = "Addicts, Hedonists, Pink-Haired Harlots"
-	sins = "Sobriety, Self-Sacrifice, Faltering Willpower"
-	boons = "You will never overdose on drugs."
-	added_traits = list(TRAIT_CRACKHEAD)
+	display_name = "Hertannea"
+	domain = "A corrupted deity, hiding within the shadows from the wrath of the Aspect of Fire; the Faerie Devil, Visires' Loathed, euphoric release of inhibitions."
+	desc = "A once-mortal Drow, Visires' most intimate companion in their youth, Hertannea is a goddess scorned and exiled for her betrayal of the nascent Aspect of Fire at the moment of her ascension. Lurking beneath the twisting spires of Palasi Necra, she represents the lowest of depravity; the proliferation of the most potent narcotic substances, the alteration of the mind, defilement of purity and self, all in the pursuit of the most hedonistic desires. She provides an escape to the downtrodden, ensnaring them in her corrupt and addictive web before they realise they've become trapped. Though not an Archdevil herself, Hertannea was afflicted by the corruption of Hell when she was still mortal, and to this day she still acts upon the will of Hell and its accursed bounty."
+	flaws = "Manipulation, self-Destruction, willingness to sacrifice others."
+	worshippers = "Addicts, hedonists, the downtrodden, the heartbroken and those seeking escape."
+	sins = "Sobriety, self-Sacrifice, faltering willpower."
+	boons = "You will never overdose on drugs. You can recognise other Hertannea worshippers at a glance, as well as servants of other Hell-corrupted deities."
+	added_traits = list(TRAIT_CRACKHEAD, TRAIT_CORRUPTED)
 	devotion_holder = /datum/devotion/inhumen/baotha
 	confess_lines = list(
-		"LIVE, LAUGH, LOVE! IN BAOTHA'S NAME!",
-		"JOY AT ALL COSTS! BAOTHA'S TEACHINGS REIGN!",
-		"BAOTHA'S WHISPERS CALM MY MIND!",
+		"LIVE, LAUGH, LOVE! IN THE FAERIE DEVIL'S NAME!",
+		"JOY AT ALL COSTS! HERTANNEA'S TEACHINGS REIGN!",
+		"THE WHISPERS BELOW CALM MY MIND!",
 	)
 	storyteller = /datum/storyteller/baotha
 

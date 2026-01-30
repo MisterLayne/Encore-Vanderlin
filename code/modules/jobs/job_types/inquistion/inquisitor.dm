@@ -1,5 +1,5 @@
 /datum/job/inquisitor
-	title = "Herr Prafekt"
+	title = "Inquisitor"
 	department_flag = INQUISITION
 	faction = "Station"
 	total_positions = 1
@@ -48,15 +48,15 @@
 	spawned.hud_used?.shutdown_bloodpool()
 	spawned.hud_used?.initialize_bloodpool()
 	spawned.hud_used?.bloodpool.set_fill_color("#dcdddb")
-	spawned.hud_used?.bloodpool?.name = "Angros' Grace: [spawned.bloodpool]"
+	spawned.hud_used?.bloodpool?.name = "All-Aspect's Grace: [spawned.bloodpool]"
 	spawned.hud_used?.bloodpool?.desc = "Devotion: [spawned.bloodpool]/[spawned.maxbloodpool]"
 	spawned.maxbloodpool = 1000
 
 	var/prev_real_name = spawned.real_name
 	var/prev_name = spawned.name
-	var/honorary = "Herr Prafekt"
+	var/honorary = "Inquisitor"
 	if(spawned.pronouns == SHE_HER)
-		honorary = "Frau Prafekt"
+		honorary = "Inquisitrix"
 	spawned.real_name = "[honorary] [prev_real_name]"
 	spawned.name = "[honorary] [prev_name]"
 
@@ -169,7 +169,7 @@
 		addtimer(TRAIT_CALLBACK_REMOVE(H, TRAIT_RECENTLY_TORTURED, TRAIT_GENERIC), 30 SECONDS)
 
 		var/static/list/faith_lines = list(
-			"DO YOU DENY PSYDON AND THE TEN?",
+			"DO YOU DENY THE ELEMENTALS?",
 			"WHO IS YOUR GOD?",
 			"ARE YOU FAITHFUL?",
 			"TO WHICH SHEPHERD DO YOU FLOCK TO?",
@@ -320,7 +320,7 @@
 						held_confession.bad_type = "AN OUTLAW OF THE THIEF-LORD"
 						held_confession.antag = initial(antag_type:name)
 					if(/datum/patron/inhumen/matthios)
-						held_confession.bad_type = "A FOLLOWER OF THE THIEF-LORD"
+						held_confession.bad_type = "A FOLLOWER OF THE DECEIVERS"
 						held_confession.antag = "worshiper of " + initial(antag_type:name)
 					if(/datum/antagonist/maniac)
 						held_confession.bad_type = "A MANIAC DELUDED BY MADNESS"
@@ -329,13 +329,13 @@
 						held_confession.bad_type = "A DEATH CULTIST"
 						held_confession.antag = initial(antag_type:name)
 					if(/datum/antagonist/zizocultist)
-						held_confession.bad_type = "A SERVANT OF THE FORBIDDEN ONE"
+						held_confession.bad_type = "A SERVANT OF THE ONE ENVY"
 						held_confession.antag = initial(antag_type:name)
 					if(/datum/antagonist/zizocultist/leader)
-						held_confession.bad_type = "A SERVANT OF THE FORBIDDEN ONE"
+						held_confession.bad_type = "A SERVANT OF THE ONE ENVY"
 						held_confession.antag = initial(antag_type:name)
 					if(/datum/patron/inhumen/zizo)
-						held_confession.bad_type = "A FOLLOWER OF THE FORBIDDEN ONE"
+						held_confession.bad_type = "A FOLLOWER OF THE ONE ENVY"
 						held_confession.antag = "worshiper of " + initial(antag_type:name)
 					if(/datum/antagonist/werewolf)
 						var/datum/antagonist/werewolf/werewolf_antag = mind.has_antag_datum(/datum/antagonist/werewolf, TRUE)
@@ -359,7 +359,7 @@
 						held_confession.bad_type = "AN UNDERLING OF THE BLOOD-LORD"
 						held_confession.antag = initial(antag_type:name)
 					if(/datum/patron/inhumen/graggar)
-						held_confession.bad_type = "A FOLLOWER OF THE DARK SUN"
+						held_confession.bad_type = "A FOLLOWER OF THE ARCHDEVILS"
 						held_confession.antag = "worshiper of " + initial(antag_type:name)
 					if(/datum/patron/godless/godless)
 						held_confession.bad_type = "A DAMNED ANTI-THEIST"
@@ -376,11 +376,11 @@
 					if(/datum/patron/godless/naivety)
 						held_confession.bad_type = "A IGNORANT FOOL"
 						held_confession.antag = "worshiper of nothing"
-					if(/datum/patron/godless/rashan)
-						held_confession.bad_type = "A FOLLOWER OF A FALSE GOD"
-						held_confession.antag = "worshiper of the false god, Rashan-Kahl"
 					if(/datum/patron/inhumen/baotha)
-						held_confession.bad_type = "A FOLLOWER OF THE REMORSELESS RUINER"
+						held_confession.bad_type = "A FOLLOWER OF THE FAERIE DEVIL"
+						held_confession.antag = "worshiper of " + initial(antag_type:name)
+					if(/datum/patron/psydon/extremist)
+						held_confession.bad_type = "A RADICAL WHO SEEKS THE RETURN OF ANGROS"
 						held_confession.antag = "worshiper of " + initial(antag_type:name)
 					else
 						return
