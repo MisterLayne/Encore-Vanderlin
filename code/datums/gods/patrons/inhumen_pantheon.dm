@@ -97,14 +97,14 @@
 
 /// Maniac Patron - Their mind is broken by secrets of One Envy/Archdevil combined. They quite possibly know the reality of what happens outside the planet. They may think this is all a game. They are clearly insane.
 /datum/patron/inhumen/graggar_zizo
-	name = "Graggazo"
-	domain = "Ascended God who slaughtered her kind in ascension, the Dark Sini-Star of Unnatural Beasts, Forbidden Magic, and Unbridled Hatred."
-	desc = "Became the first snow orc upon ascension through his habit of consuming the bodies of those he conquered. His forces continue to ravage the lands in her name. He proves that any with will can achieve divinity... though at a cost. MAKE THIS MAKE SENSE. MY MIND! MY MIND!!"
-	flaws = "Nothing, Everything, Nothing"
-	worshippers = "Broken Minds, Overshared Secrets, Space-Faring Species Like You, Misanthropes"
-	sins = "The Unseen, Secrets, Worthless Pigs"
-	boons = "You are drawn to the flavour of other followers of One Envy, and may see them when you consume without worry."
-	added_traits = list(TRAIT_ORGAN_EATER, TRAIT_CABAL)
+	name = "The Lost Gods"
+	domain = "Forever lost deities of the old world whose meddling has somehow endured far longer than civilization's memory."
+	desc = "Empowered entities of divinity and unholy nature alike may, with enough effort and systemic erasure, simply cease to exist in the world altogether in the past, present and future- this option represents a disciple of one such unknowable idol. They toil in shadows in opposition to both elementalist and heretic alike, seeking knowledge through the ephemeral Sages to rekindle their lost history. They may be carryovers from cultures sundered in the Big Burn, or perhaps simply enamored by visions of lost grandeur you seek in a constant trance."
+	flaws = "Nothing, Everything, Nothing."
+	worshippers = "Lunatics, the lost and the outsiders."
+	sins = "The New World and its theology as a whole."
+	boons = "Secrets of the past reveal themselves in manic and insane ways."
+	added_traits = list(TRAIT_SCHIZO_FLAW)
 	confess_lines = list(
 		"WHERE AM I!",
 		"NONE OF THIS IS REAL!",

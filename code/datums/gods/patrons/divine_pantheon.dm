@@ -234,3 +234,21 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	)
 	storyteller = /datum/storyteller/eora
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/eora
+
+/datum/patron/divine/undivided
+	name = "The All-Aspect"
+	domain = "The balance of all four Elemental Aspects."
+	desc = "The balance between the Elementals is always adhered to, but the worshippers most keen to maintain the balance are those of the Katholikos. Worship of the All-Aspect is common both among the most fervent and true believers of the Katholikos and the Inquisition; but also among communities who generalise their worship to the entire Pantheon, rather than to any particular patron."
+	flaws = "The wide and varied flaws of all the Pantheon."
+	worshippers = "Fanatics, generalists, Katholikos clergy, the Inquisition."
+	sins = "The wide and varied sins of all the Pantheon."
+	boons = "Your stamina regeneration delay is lowered during daytime."
+	added_traits = list(TRAIT_APRICITY)
+	devotion_holder = /datum/devotion/divine/undivided
+	confess_lines = list(
+		"THE BALANCE COMMANDS!",
+		"THE ASPECTS PREVAIL!",
+		"THE CYCLE IS MAINTAINED!",
+	)
+	storyteller = null
+	associated_psycross = /obj/item/clothing/neck/psycross/silver/undivided

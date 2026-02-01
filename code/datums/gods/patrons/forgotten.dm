@@ -9,6 +9,7 @@
 	boons = "Your enduring faith grants you more tolerance to pain."
 	added_traits = list(TRAIT_PSYDONIAN_GRIT)
 	associated_faith = /datum/faith/psydon
+	devotion_holder = /datum/devotion/divine/angros
 	confess_lines = list(
 		"I'M ASH UPON THE WIND!",
 		"THE MAD MUST STAY DREAMING!",
@@ -34,6 +35,7 @@
 	sins = "False prophets, worship of the Elemental Pantheon, Angrosian Salvationism"
 	boons = "Your bitter determination towards your own faith in your dead God lends you an enhanced resistance to pain, and your wounds will slowly regenerate as long as your body is not bled dry. The beneficial miracles of the betrayer Elemental Pantheon will not benefit you, however."
 	added_traits = list(TRAIT_PSYDONIAN_GRIT, TRAIT_PSYDONITE, TRAIT_CORRUPTED)
+	devotion_holder = /datum/devotion/inhumen/angros
 	confess_lines = list(
 		"CAST DOWN THE PRETENDER! THE FIRE RISES!",
 		"THE MAD MUST RISE AGAIN!",
