@@ -1,7 +1,7 @@
 
 /obj/structure/fake_machine/scomm
-	name = "SCOM"
-	desc = ""
+	name = "farcrier telephone"
+	desc = "A miracle of magical technique which can broadcast a voice far and wide, so long as you stand close enough to it."
 	icon = 'icons/roguetown/misc/machines.dmi'
 	icon_state = "scomm1"
 	density = FALSE

@@ -38,8 +38,8 @@
 	. = ..()
 
 /obj/structure/fake_machine/steward
-	name = "MASTER OF NERVES"
-	desc = ""
+	name = "prime stockhead"
+	desc = "A machine used by the Treasury to accurately account for its contents, and requisition pre-ordained materials from far away."
 	icon = 'icons/roguetown/misc/machines.dmi'
 	icon_state = "steward_machine"
 	density = TRUE
@@ -58,7 +58,7 @@
 /obj/structure/fake_machine/steward/attackby(obj/item/I, mob/user, params)
 	if(istype(I, /obj/item/coin))
 		record_round_statistic(STATS_MAMMONS_DEPOSITED, I.get_real_price())
-		SStreasury.give_money_treasury(I.get_real_price(), "NERVE MASTER deposit")
+		SStreasury.give_money_treasury(I.get_real_price(), "BANKHEAD deposit")
 		qdel(I)
 		playsound(src, 'sound/misc/coininsert.ogg', 100, FALSE, -1)
 		return

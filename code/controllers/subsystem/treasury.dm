@@ -199,18 +199,18 @@ SUBSYSTEM_DEF(treasury)
 	if (amt > 0)
 		// Player received money
 		if(source)
-			send_ooc_note("<b>MEISTER:</b> Your account has received [amt] mammon. ([source])", name = target_name)
+			send_ooc_note("<b>BANKHEAD:</b> Your account has received [amt] mammon. ([source])", name = target_name)
 			log_to_steward("+[amt] from treasury to [target_name] ([source])")
 		else
-			send_ooc_note("<b>MEISTER:</b> Your account has received [amt] mammon.", name = target_name)
+			send_ooc_note("<b>BANKHEAD:</b> Your account has received [amt] mammon.", name = target_name)
 			log_to_steward("+[amt] from treasury to [target_name]")
 	else if (amt < 0)
 		// Player was fined
 		if(source)
-			send_ooc_note("<b>MEISTER:</b> Your account was fined [abs(amt)] mammon. ([source])", name = target_name)
+			send_ooc_note("<b>BANKHEAD:</b> Your account was fined [abs(amt)] mammon. ([source])", name = target_name)
 			log_to_steward("[abs(amt)] was fined from [target_name] ([source])")
 		else
-			send_ooc_note("<b>MEISTER:</b> Your account was fined [abs(amt)] mammon.", name = target_name)
+			send_ooc_note("<b>BANKHEAD:</b> Your account was fined [abs(amt)] mammon.", name = target_name)
 			log_to_steward("[abs(amt)] was fined from [target_name]")
 
 	return TRUE
@@ -268,10 +268,10 @@ SUBSYSTEM_DEF(treasury)
 	for(var/X in bank_accounts)
 		if(X == target)
 			if(bank_accounts[X] < amt)  // Check if the withdrawal amount exceeds the player's account balance
-				send_ooc_note("<b>MEISTER:</b> Error: Insufficient funds in the account to complete the withdrawal.", name = target_name)
+				send_ooc_note("<b>BANKHEAD:</b> Error: Insufficient funds in the account to complete the withdrawal.", name = target_name)
 				return  // Return without processing the transaction
 			if(treasury_value < amt)  // Check if the amount exceeds the treasury balance
-				send_ooc_note("<b>MEISTER:</b> Error: Insufficient funds in the treasury to complete the transaction.", name = target_name)
+				send_ooc_note("<b>BANKHEAD:</b> Error: Insufficient funds in the treasury to complete the transaction.", name = target_name)
 				return  // Return early if the treasury balance is insufficient
 			bank_accounts[X] -= amt
 			treasury_value -= amt

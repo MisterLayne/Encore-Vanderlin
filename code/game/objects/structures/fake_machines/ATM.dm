@@ -1,6 +1,6 @@
 /obj/structure/fake_machine/atm
-	name = "MEISTER"
-	desc = "Stores and withdraws currency for accounts managed by the Kingdom."
+	name = "bankhead machina"
+	desc = "A woefully expensive Truetech machine used by nobles around the Goblet. A sliver of fractured air inside gives this object life, and its steam-powered guts work tirelessly to accurately and fairly serve as the face of your trusty bankers."
 	icon = 'icons/roguetown/misc/machines.dmi'
 	icon_state = "atm"
 	density = FALSE
@@ -61,10 +61,10 @@
 		record_round_statistic(STATS_MAMMONS_WITHDRAWN, coin_amt * mod)
 		budget2change(coin_amt*mod, user, selection)
 	else
-		to_chat(user, "<span class='warning'>The machine bites my finger.</span>")
+		to_chat(user, "<span class='warning'>The machine surveys my face, storing it in recognition.</span>")
 		icon_state = "atm-b"
 		H.flash_fullscreen("redflash3")
-		playsound(H, 'sound/combat/hits/bladed/genstab (1).ogg', 100, FALSE, -1)
+		playsound(H, 'sound/misc/beep.ogg', 100, FALSE, -1)
 		SStreasury.create_bank_account(H)
 		if(H.mind)
 			var/datum/job/target_job = SSjob.GetJob(H.mind.assigned_role)
@@ -106,4 +106,4 @@
 
 /obj/structure/fake_machine/atm/examine(mob/user)
 	. += ..()
-	. += span_info("The current tax rate on deposits is [SStreasury.tax_value * 100] percent. Kingdom nobles exempt.")
+	. += span_info("The current tax rate on deposits is [SStreasury.tax_value * 100] percent. Etgard nobles exempt.")
