@@ -446,9 +446,6 @@
 /area/under/town/basement)
 "lC" = (
 /obj/effect/decal/remains/human,
-/obj/structure/fluff/walldeco/innsign{
-	pixel_x = 32
-	},
 /turf/open/floor/churchrough,
 /area/under/cave)
 "lE" = (
@@ -1140,10 +1137,6 @@
 "Ae" = (
 /turf/closed/wall/mineral/pipe,
 /area/under/town/basement)
-"Aj" = (
-/obj/effect/decal/remains/cow,
-/turf/open/floor/dirt/road,
-/area/under/cave)
 "As" = (
 /turf/open/floor/dirt,
 /area/under/cave)
@@ -1231,9 +1224,6 @@
 /area/under/town/basement)
 "Cn" = (
 /obj/structure/closet/crate/coffin/vampire,
-/obj/structure/fluff/walldeco/innsign{
-	pixel_y = 32
-	},
 /turf/open/floor/church,
 /area/under/cave)
 "Cp" = (
@@ -1536,10 +1526,6 @@
 "IH" = (
 /obj/structure/roguerock,
 /turf/open/floor/cobble,
-/area/under/town/basement)
-"IO" = (
-/obj/structure/fluff/walldeco/innsign,
-/turf/closed/wall/mineral/stone,
 /area/under/town/basement)
 "IT" = (
 /obj/item/natural/rock/salt,
@@ -51999,7 +51985,7 @@ na
 na
 zE
 Ux
-Aj
+Rk
 Rk
 As
 As
@@ -52957,7 +52943,7 @@ Ci
 es
 UC
 UC
-IO
+UC
 UC
 UC
 CJ
@@ -53978,7 +53964,7 @@ UC
 UC
 UC
 UC
-IO
+UC
 UC
 UC
 Ci
@@ -55013,7 +54999,7 @@ UC
 UC
 UC
 UC
-IO
+UC
 UC
 UC
 Ci

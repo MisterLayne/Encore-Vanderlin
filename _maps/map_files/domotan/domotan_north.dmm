@@ -96,14 +96,14 @@
 /turf/open/floor/cobble,
 /area/under/cave)
 "aR" = (
-/turf/closed/mineral/random,
+/turf/closed/mineral,
 /area/under/cavewet)
 "aS" = (
 /obj/item/grown/log/tree/stick,
 /turf/open/floor/twig,
 /area/indoors/shelter)
 "aV" = (
-/turf/closed/mineral/random,
+/turf/closed/mineral,
 /area/under/cave)
 "aX" = (
 /obj/structure/fluff/railing/border,
@@ -2267,7 +2267,7 @@
 /turf/open/floor/ruinedwood,
 /area/indoors/shelter)
 "PP" = (
-/turf/closed/mineral/random,
+/turf/closed/mineral,
 /area/outdoors/rtfield)
 "PS" = (
 /turf/open/water/cleanshallow,
@@ -2344,7 +2344,7 @@
 /turf/open/floor/tile/checkeralt,
 /area/indoors/shelter)
 "Sl" = (
-/turf/closed/mineral/random,
+/turf/closed/mineral,
 /area/outdoors/beach/tutorial)
 "Sn" = (
 /obj/structure/fluff/railing/wood,
