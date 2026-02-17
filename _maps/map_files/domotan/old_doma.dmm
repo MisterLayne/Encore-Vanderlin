@@ -16400,6 +16400,10 @@
 	},
 /turf/open/floor/blocks/stonered,
 /area/indoors/shelter/town)
+"qGS" = (
+/obj/machinery/artificer_table,
+/turf/open/floor/metal/alt,
+/area/indoors/town/dwarfin)
 "qHD" = (
 /obj/structure/fluff/railing/wood,
 /obj/structure/fluff/railing/wood{
@@ -37990,7 +37994,7 @@ dDt
 hPx
 vpd
 xqG
-pdi
+qGS
 bDd
 pdi
 hPx
