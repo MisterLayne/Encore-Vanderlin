@@ -26,6 +26,16 @@
 	},
 /turf/open/floor/blocks,
 /area/indoors/lostkeep)
+"as" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/crate/chest/crate,
+/turf/open/floor/ruinedwood/alt,
+/area/outdoors/lighthouse)
 "at" = (
 /obj/structure/fluff/railing/wood{
 	dir = 1;
@@ -145,7 +155,7 @@
 	dir = 8;
 	pixel_x = -8
 	},
-/turf/open/floor/woodturned/nosmooth,
+/turf/open/floor/ruinedwood/turned,
 /area/outdoors/woods/west)
 "bp" = (
 /obj/item/coin/silver/pile,
@@ -291,7 +301,7 @@
 	layer = 2.8;
 	pixel_x = 8
 	},
-/turf/open/floor/woodturned/nosmooth,
+/turf/open/floor/ruinedwood/turned,
 /area/outdoors/woods/west)
 "cP" = (
 /obj/structure/chair/wood,
@@ -933,7 +943,7 @@
 /obj/structure/fluff/traveltile{
 	aportalid = "dead_drop_1"
 	},
-/turf/open/water/ocean/deep,
+/turf/open/water/river,
 /area/outdoors/woods/west/crags)
 "iD" = (
 /turf/open/floor/tile,
@@ -1300,6 +1310,15 @@
 /obj/item/reagent_containers/glass/bucket/wooden,
 /turf/open/floor/sand,
 /area/outdoors/woods/west/crags)
+"lp" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/obj/effect/landmark/stall,
+/turf/open/floor/ruinedwood/darker,
+/area/outdoors/lighthouse)
 "lt" = (
 /obj/structure/stairs/stone{
 	dir = 1
@@ -2011,6 +2030,15 @@
 	},
 /turf/open/transparent/openspace,
 /area/outdoors/woods/west)
+"rK" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/obj/structure/closet/crate/chest/neu,
+/turf/open/floor/ruinedwood/darker,
+/area/outdoors/lighthouse)
 "rM" = (
 /obj/structure/closet/crate/chest/wicker,
 /obj/item/reagent_containers/food/snacks/saltfish,
@@ -2105,6 +2133,9 @@
 /obj/machinery/light/fueled/lanternpost,
 /turf/open/floor/grass/yel,
 /area/outdoors/woods/berkleigh)
+"sw" = (
+/turf/open/water/river,
+/area/outdoors/woods/west/crags)
 "sy" = (
 /turf/open/floor/naturalstone,
 /area/outdoors/lostkeep)
@@ -3286,7 +3317,7 @@
 /area/indoors/lostkeep)
 "CR" = (
 /obj/structure/fluff/railing/wood,
-/turf/open/floor/wood/nosmooth,
+/turf/open/floor/ruinedwood/darker,
 /area/outdoors/woods/west)
 "CT" = (
 /obj/structure/flora/grass/thorn_bush,
@@ -3739,7 +3770,7 @@
 /turf/open/floor/cobble/mossy,
 /area/outdoors/woods/west)
 "FM" = (
-/turf/open/floor/wood/nosmooth,
+/turf/open/floor/ruinedwood/darker,
 /area/outdoors/woods/west)
 "FN" = (
 /obj/structure/fluff/railing/border{
@@ -4603,6 +4634,7 @@
 	pixel_y = 7
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/closet/crate/chest/neu,
 /turf/open/floor/ruinedwood/darker,
 /area/outdoors/lighthouse)
 "MM" = (
@@ -5085,6 +5117,16 @@
 /obj/structure/fluff/railing/wood,
 /turf/open/floor/blocks,
 /area/outdoors/woods/berkleigh)
+"Qr" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/landmark/stall,
+/turf/open/floor/ruinedwood/alt,
+/area/outdoors/lighthouse)
 "Qs" = (
 /turf/open/water/swamp,
 /area/outdoors/woods/west/lonelyeerie)
@@ -49950,7 +49992,7 @@ xr
 xr
 Va
 iC
-sE
+sw
 xr
 xr
 xr
@@ -55803,7 +55845,7 @@ by
 by
 by
 by
-iM
+Qr
 oU
 UG
 Ul
@@ -56317,7 +56359,7 @@ by
 by
 by
 by
-WK
+lp
 Pa
 UG
 Ul
@@ -56831,7 +56873,7 @@ by
 by
 by
 by
-iM
+Qr
 UD
 UG
 Ul
@@ -57088,7 +57130,7 @@ by
 by
 by
 by
-iM
+as
 UD
 UG
 Ul
@@ -57345,7 +57387,7 @@ by
 by
 by
 by
-WK
+rK
 mg
 qP
 yg
