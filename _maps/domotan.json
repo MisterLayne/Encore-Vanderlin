@@ -6,9 +6,10 @@
 	"monarch_title": "Prince Regent",
 	"monarch_title_f": "Princess Regent",
 	"traits": [
-		{"Up": true, "Turf Weather Effects": true, "Leylines": true},
+		{"Up": true, "Turf Weather Effects": false, "Leylines": true},
 		{"Up": true, "Down": true, "Turf Weather Effects": true, "Leylines": true},
 		{"Up": true, "Down": true, "Turf Weather Effects": true, "Leylines": true},
+		{"Up": true, "Down": true, "Turf Weather Effects": true},
 		{"Up": true, "Down": true, "Turf Weather Effects": true},
 		{"Down": true, "Turf Weather Effects": true}
 	],

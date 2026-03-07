@@ -16,7 +16,6 @@
 							/obj/structure/flora/grass/bush_meagre = 13,
 							/obj/structure/flora/grass/pyroclasticflowers = 1,
 							/obj/structure/flora/grass = 50,
-							/obj/structure/flora/grass/maneater = 1,
 							/obj/item/natural/stone = 8,
 							/obj/item/natural/rock = 7,
 							/obj/item/grown/log/tree/stick = 3,

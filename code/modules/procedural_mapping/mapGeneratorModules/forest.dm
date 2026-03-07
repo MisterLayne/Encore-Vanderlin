@@ -70,7 +70,6 @@
 		/obj/item/natural/stone = 3,
 		/obj/item/natural/rock = 2,
 		/obj/structure/flora/grass/pyroclasticflowers = 1,
-		/obj/structure/flora/grass/maneater = 0.3,
 		/obj/structure/essence_node = 0.1,
 		/obj/structure/flora/grass/maneater/real = 0.1,
 		/obj/item/restraints/legcuffs/beartrap/armed/camouflage = 0.1,

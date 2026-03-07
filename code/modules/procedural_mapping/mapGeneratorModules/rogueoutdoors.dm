@@ -18,7 +18,6 @@
 							/obj/structure/flora/grass/bush_meagre = 13,
 							/obj/structure/flora/grass/herb/random = 1,
 							/obj/structure/flora/grass = 50,
-							/obj/structure/flora/grass/maneater = 1,
 							/obj/structure/flora/grass/pyroclasticflowers = 1,
 							/obj/item/natural/stone = 8,
 							/obj/item/natural/rock = 7,
@@ -48,7 +47,6 @@
 	allowed_turfs = list(/turf/open/floor/grass)
 	excluded_turfs = list(/turf/open/floor/dirt/road)
 	spawnableAtoms = list(/obj/structure/flora/grass = 20,
-						/obj/structure/flora/grass/maneater = 1,
 							/obj/item/natural/stone = 7,
 							/obj/item/grown/log/tree/stick = 3)
 	allowed_areas = list(/area/outdoors/town,/area/outdoors/rtfield)
