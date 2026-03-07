@@ -103,7 +103,7 @@
 #define STATS_DENDOR_SACRIFICES "dendor_sacrifices"
 #define STATS_FOREST_DEATHS "forest_deaths"
 
-// Al'Aqshir
+// Mordsol
 #define STATS_COMBAT_SKILLS "combat_skills"
 #define STATS_PARRIES "parries"
 #define STATS_WARCRIES "warcries"

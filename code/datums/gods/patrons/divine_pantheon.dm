@@ -40,168 +40,177 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 
 /datum/patron/divine/astrata
 	name = ASTRATA
-	domain = "Goddess of Order, the Sun Queen"
-	desc = "Crafted from the head of Angros, twin of Akan. She gifted mankind the Sun, protecting Psydonia from all forces which may seek it harm: from both outside and within."
-	flaws = "Tyrannical, Ill-Tempered, Uncompromising"
-	worshippers = "Nobles, Zealots, Commoners"
-	sins = "Betrayal, Sloth, Witchcraft"
+	display_name = "Visires"
+	domain = "The Youthful; Aspect and sole remainder of the Court of Fire."
+	desc = "The youngest of the Elemental Gods. A once-mortal given host to the Aspect of Fire and made divine. The worship of Visires represents the plea for passion, life and the will to live; just as much it does the destruction, the hunger and the chaos that it may impose."
+	flaws = "Tyrannical, ill-tempered, uncompromising."
+	worshippers = "Conquerors, the wrathful, the pupils of the Sun's science."
+	sins = "Charity, overt benevolence without gain, giving handouts."
 	boons = "Your stamina regeneration delay is lowered during daytime."
 	added_traits = list(TRAIT_APRICITY)
 	devotion_holder = /datum/devotion/divine/astrata
 	confess_lines = list(
-		"ASTRATA IS MY LIGHT!",
-		"ASTRATA BRINGS LAW!",
-		"I SERVE THE GLORY OF THE SUN!",
+		"VISIRES SUNDERS!",
+		"THE ASPECT OF FIRE HUNGERS!",
+		"I SERVE THE STARS!",
 	)
 	storyteller = /datum/storyteller/astrata
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/astrata
 
 /datum/patron/divine/noc
 	name = NOC
-	domain = "God of Knowledge, the Moon Prince"
-	desc = "Crafted from the helmet of Angros, twin of Visires. He gifted mankind divine wisdom."
-	flaws = "Cynical, Isolationist, Unfiltered Honesty"
-	worshippers = "Magic Practitioners, Scholars, Scribes"
-	sins = "Suppressing Truth, Burning Books, Censorship"
-	boons = "You learn, dream, and teach apprentices slightly better. Access to roles with magic."
-	added_traits = list(TRAIT_TUTELAGE)
+	display_name = "Akan"
+	domain = "The Elder; Aspect and ruler of the Court of Air. God of the sky and heavens."
+	desc = "Akan, the Elder, embodies the fundamental element of air. They are an ancient spirit made divine as they would personify the very essence of the wistful, everlasting and free Aspect of the Sky."
+	flaws = "Fleeting, non-commital, unfiltered honesty."
+	worshippers = "Nomads, scholars, sailors and the forever-free."
+	sins = "Suppressing truth, burning books, willful ignorance."
+	boons = "You learn, dream, and teach apprentices slightly better. The veil of darkness parts easier for you under the light of the moon."
+	added_traits = list(TRAIT_NIGHT_OWL, TRAIT_TUTELAGE)
 	devotion_holder = /datum/devotion/divine/noc
 	confess_lines = list(
-		"NOC IS NIGHT!",
-		"NOC SEES THE TRUTH!",
-		"I SEEK THE MYSTERIES OF THE MOON!",
+		"AKAN HEARS, BUT DOES NOT SEE!",
+		"I SEE WHAT THE BLIND MAN SEES!",
+		"A CLOUD 'BOUT THE ERRANT SOUL!",
 	)
 	storyteller = /datum/storyteller/noc
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/noc
 
 /datum/patron/divine/dendor
 	name = DENDOR
-	domain = "God of Nature and Beasts"
-	desc = "Crafted from the bones of Angros as the embodiment of the natural world. Driven mad with time."
-	flaws = "Madness, Rebelliousness, Disorderliness"
-	worshippers = "Druids, Beasts, Madmen"
-	sins = "Deforestation, Overhunting, Disrespecting Nature"
-	boons = "You are immune to kneestingers."
-	added_traits = list(TRAIT_KNEESTINGER_IMMUNITY)
+	display_name = "Gani"
+	domain = "The Mother; Aspect and ruler of the Court of Earth. Goddess of the stone and soil."
+	desc = "Gani, the Mother, embodies the fundamental element of earth. They are an ancient spirit made divine as they would personify the very essence of the stern, immovable and protective Aspect of Stone. Gani is the world beneath the feet of all. She is the only God of the Four whose omnipresence extends beyond her domain."
+	flaws = "Overbearing, autophobic, anxiety-prone."
+	worshippers = "All Earthly things, the farms, the huntsmen, matriarchs and druids."
+	sins = "Cruelty, isolationism, disrespect of nature."
+	boons = "You are immune to kneestingers. You instinctively understand when people are stressed, in pain, or hungry."
+	added_traits = list(TRAIT_KNEESTINGER_IMMUNITY, TRAIT_EMPATH, TRAIT_EXTEROCEPTION)
 	devotion_holder = /datum/devotion/divine/dendor
 	confess_lines = list(
-		"DENDOR PROVIDES!",
-		"THE TREEFATHER BRINGS BOUNTY!",
-		"I ANSWER THE CALL OF THE WILD!",
+		"GOLDEN GREENING!",
+		"WE SPROUT ANEW!",
+		"BY LEAF AND LIMB!",
 	)
 	storyteller = /datum/storyteller/dendor
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/dendor
 
 /datum/patron/divine/abyssor
 	name = ABYSSOR
-	domain = "God of Seas and Storms"
-	desc = "Crafted from the blood of Angros as sovereign of the waters. Enraged by ignorance of Him from followers of The Ten."
-	flaws= "Reckless, Stubborn, Destructive"
-	worshippers = "Sailors of the Sea and Sky, Horrid Sea-Creachers, Fog Islanders"
-	sins = "Fear, Hubris, Forgetfulness"
-	boons = "Leeches will drain very little of your blood."
-	added_traits = list(TRAIT_LEECHIMMUNE)
+	display_name = "Mjallidhorn"
+	domain = "The Warrior; Aspect and ruler of the Court of Frost."
+	desc = "Mjhallidhorn, the Warrior, embodies the fundamental element of ice. They are a once-mortal made divine as they would personify the very essence of the ruthless, brutal and materialistic Aspect of Frost. Mjallidhorn is an Elemental locked in battle in the far north against the hordes of Hell, perhaps forevermore."
+	flaws = "Reckless, stubborn, destructive."
+	worshippers = "Warriors, sellswords, the vengeful and sailors."
+	sins = "Cowardice, hesitation, passivity."
+	boons = "Your used weapons dull slower. Swimming is less tiring. You may sense the presence of a soul within a body, and when a mortal meets their demise."
+	added_traits = list(TRAIT_ABYSSOR_SWIM, TRAIT_SOUL_EXAMINE, TRAIT_SHARPER_BLADES)
 	devotion_holder = /datum/devotion/divine/abyssor
 	confess_lines = list(
-		"ABYSSOR COMMANDS THE WAVES!",
-		"THE OCEAN'S FURY IS ABYSSOR'S WILL!",
-		"I AM DRAWN BY THE PULL OF THE TIDE!",
+		"THE NORTH'S MADNESS!",
+		"BLOOD IN THE FIRMAMENT! BLOOD IN ALL THINGS!",
+		"I FEAR NOT DEATH, THE FOREVER WAR AWAITS ME!",
 	)
 	storyteller = /datum/storyteller/abyssor
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/abyssor
 
 /datum/patron/divine/necra
 	name = NECRA
-	domain = "Mother Goddess of Death and Time"
-	desc = "The Veiled Lady, once close partner to Angros. She created the Nine others from his corpse, guiding them from the Underworld."
-	flaws = "Unchanging, Apathetic, Easy to Bore"
-	worshippers = "Orderlies, Gravetenders, Mourners"
-	sins = "Heretical Magic, Untimely Death, Disturbance of Rest"
-	boons = "You may see the presence of a soul in a body."
+	display_name = "Valdala"
+	domain = "Demi-deity of the Court of Frost; The Valkyrie, shepherd of souls."
+	desc = "Valdala, a once-earth spirit and daughter of Gani, now demi-deity of Mjallidhorn's court. Her eternal charge is the stewardship of souls after death; ferrying them to Heaven, or to the Forever War that Mjallidhorn fights in the north. She fights in the eternal battle against Hell alongside Mordsol for the Aspect of Frost, sewing her grief for mortals slain among her foes and reaping it as their doom."
+	flaws = "Melancholic, dismal, gloomy."
+	worshippers = "Orderlies, gravetenders, mourners and the bereaved."
+	sins = "Necromancy, disrespecting the dead, pre-meditated murder."
+	boons = "You may see the presence of a soul within a body. You become aware of when a person dies, though not where or how."
 	added_traits = list(TRAIT_SOUL_EXAMINE)
 	devotion_holder = /datum/devotion/divine/necra
 	confess_lines = list(
-		"ALL SOULS FIND THEIR WAY TO NECRA!",
-		"THE UNDERMAIDEN IS OUR FINAL REPOSE!",
-		"I FEAR NOT DEATH, MY LADY AWAITS ME!",
+		"VALDALA'S WINGS STAY ALL BURDENS!",
+		"THE LAST ANGEL'S WAIL HAUNTS US!",
+		"THE SISTERS OF FROST OBSESS UPON THE WICK OF OUR SOUL!",
 	)
 	storyteller = /datum/storyteller/necra
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/necra
 
 /datum/patron/divine/ravox
 	name = RAVOX
-	domain = "God of Warfare, Justice, and Bravery"
-	desc = "Crafted from the blade of Angros, a champion of all who seek righteousness for themselves and others."
-	flaws = "Carelessness, Aggression, Pride"
-	worshippers = "Warriors, Sellswords, Guardsmen"
-	sins = "Cowardice, Cruelty, Stagnation"
-	boons = "Your used weapons dull slower."
-	added_traits = list(TRAIT_SHARPER_BLADES)
+	display_name = "Mordsol"
+	domain = "Demi-deity of the Court of Frost; The Righteous, servant of honour and justice."
+	desc = "Mordsol, once Al'aqshir. Water, once fire. He is one of the oldest and has a storied past. Friend to Akan, servant to Angros, champion of Mjallidhorn; in modernity, Mordsol is part of the Court of Frost. He represents the pursuit of honourable combat, true justice, and what is truly right; as opposed to blind obedience to codified, written mortal laws; and reminds the worshippers of Frost to never let their hearts truly freeze."
+	flaws = "Stubborn, duty-bound, single-minded."
+	worshippers = "Honourbound warriors, freedom fighters, the noble-hearted and sailors."
+	sins = "Cowardice, injustice, tyranny."
+	boons = "Your weapons dull slower. Swimming is less tiring."
+	added_traits = list(TRAIT_SHARPER_BLADES, TRAIT_ABYSSOR_SWIM)
 	devotion_holder = /datum/devotion/divine/ravox
 	confess_lines = list(
-		"RAVOX IS JUSTICE!",
-		"THROUGH STRIFE, GRACE!",
-		"THE DRUMS OF WAR BEAT IN MY CHEST!",
+		"THE RIGHTEOUS WILL PREVAIL!",
+		"MORDSOL IS MY STRENGTH, AND MY MERCY!",
+		"THE EMBERS OF JUSTICE KEEP MY HEART THAWED!",
 	)
 	storyteller = /datum/storyteller/ravox
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/ravox
 
 /datum/patron/divine/xylix
 	name = XYLIX
-	domain = "Deity of Trickery, Freedom, and Inspiration"
-	desc = "Crafted from the silver tongue of Angros. Iliope is a force of change and deceit, yet allows little known of their gender let alone presence."
-	flaws = "Petulance, Deception, Gambling-Prone"
-	worshippers = "Cheats, Performers, The Hopeless"
-	sins = "Boredom, Predictability, Routine"
+	display_name = "Iliope"
+	domain = "Demi-deity of the Court of Air; The Fool, comedy and tragedy."
+	desc = "A demi-deity of Akan's court, both famous and infamous for their sway over the forces of luck. Iliope is known for the inspiration of many a bards lyric. Speaks through their gift to man; the Tarot deck."
+	flaws = "Petulant, deceptive, gambling-prone."
+	worshippers = "Gamblers, bards, artists, and the silver-tongued."
+	sins = "Boredom, predictability, routine."
 	boons = "You can rig different forms of gambling in your favor."
 	added_traits = list(TRAIT_BLACKLEG)
 	devotion_holder = /datum/devotion/divine/xylix
 	confess_lines = list(
-		"ASTRATA IS MY LIGHT!",
-		"NOC IS NIGHT!",
-		"DENDOR PROVIDES!",
-		"ABYSSOR COMMANDS THE WAVES!",
-		"RAVOX IS JUSTICE!",
-		"ALL SOULS FIND THEIR WAY TO NECRA!",
-		"HAHAHAHA! AHAHAHA! HAHAHAHA!", //the only xylix-related confession
-		"PESTRA SOOTHES ALL ILLS!",
-		"MALUM IS MY FORGE!",
-		"EORA BRINGS US TOGETHER!",
+		"VISIRES IS MY LIGHT!",
+		"AKAN FLIES FREE AND TOO FAR FROM ME!",
+		"GANI PROVIDES!",
+		"MJALLIDHORN IS MY TERROR!",
+		"MORDSOL IS JUSTICE!",
+		"ALL SOULS FIND THEIR WAY TO VALDALA!",
+		"HAHAHAHA! AHAHAHA! HAHAHAHA!", //the only iliope-related confession
+		"ERDL SOOTHES ALL ILLS!",
+		"GOLER KANH IS MY MUSE!",
+		"POMETTE BRINGS US TOGETHER!",
 	)
 	storyteller = /datum/storyteller/xylix
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/ravox
 
 /datum/patron/divine/pestra
 	name = PESTRA
-	domain = "Goddess of Disease, Alchemy, and Medicine"
-	desc = "A mistake; Angros' intestines left behind. She slithered out, bringing forth the cycle of life and decay."
-	flaws = "Drunkenness, Crudeness, Irresponsibility"
-	worshippers = "The Ill and Infirm, Alchemists, Physicians"
-	sins = "´Curing´ Abnormalities, Refusing to Help Unfortunates, Groveling"
-	boons = "You may consume rotten food without being sick."
-	added_traits = list(TRAIT_ROT_EATER)
+	display_name = "Erdl"
+	domain = "Demi-deity of the Court of Air; The Bloodfather, sculptor of flesh."
+	desc = "A demi-deity of Akan's court, Erdl embodies utter devotion to the progression of the academic understanding of medicine; all to one end - to create a fix-all elixir against death itself. Where the Court of Frost handles the inevitability of death, Erdl seeks to eliminate it entire through the perfection of flesh. His teachings have created the finest physicians in the Goblet, though many more would-be disciples of His teachings find themselves falling short of the exacting standards and the utter devotion to the craft that He demands. Though many of his doctors are known to toe the line of ethical boundaries, the Bloodfather is absolute that every act must be done for a reason and for the greater good; to pervert the art of medicine into mere butchery or cruelty is a sin."
+	flaws = "Obsessive, fervent, thanatophobic."
+	worshippers = "The ill and infirm, alchemists, physicians and healers."
+	sins = "Idleness, sadism, abandonment of the ill and infirm, reducing medicine to butchery."
+	boons = "Leeches will not seek your blood."
+	added_traits = list(TRAIT_LEECHIMMUNE)
 	devotion_holder = /datum/devotion/divine/pestra
 	confess_lines = list(
-		"PESTRA SOOTHES ALL ILLS!",
-		"DECAY IS A CONTINUATION OF LIFE!",
-		"MY AFFLICTION IS MY TESTAMENT!",
+		"THE BLOODFATHER SEEKS PERFECTION!",
+		"THE ESCAPE OF DEATH LIES IN THE MASTERING OF FLESH!",
+		"I SEEK THE ICHOR OF LIFE!",
 	)
 	storyteller = /datum/storyteller/pestra
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/pestra
 
 /datum/patron/divine/malum
 	name = MALUM
-	domain = "God of Toil, Innovation, and Creation"
-	desc = "Crafted from the hands of Angros. He would later use his own to construct wondrous inventions."
-	flaws = "Obsessive, Exacting, Overbearing"
-	worshippers = "Smiths, Miners, Sculptors"
-	sins = "Cheating, Shoddy Work, Suicide"
-	boons = "You recover more energy when sleeping."
-	added_traits = list(TRAIT_BETTER_SLEEP)
+	display_name = "Goler Kanh"
+	domain = "Demi-deity of the Court of Earth; The Shaper, divine artifice."
+	desc = "A demi-deity of Gani's court. The creator of technology, and he who first harnessed land and rock to serve mortal will."
+	flaws = "Obsessive, exacting, single-minded."
+	worshippers = "Smiths, engineers, tinkerers and craftsmen of all kinds."
+	sins = "Cheating, shoddy work, duplicity."
+	boons = "You recover more energy when sleeping. You learn, dream, and teach apprentices slightly better."
+	added_traits = list(TRAIT_BETTER_SLEEP, TRAIT_TUTELAGE)
 	devotion_holder = /datum/devotion/divine/malum
 	confess_lines = list(
-		"MALUM IS MY FORGE!",
-		"TRUE VALUE IS IN THE TOIL!",
+		"IN MY HAND IS ALL MORTAL POWER!",
+		"WITH GANI'S EDGE I STRIKE!",
 		"I AM AN INSTRUMENT OF CREATION!",
 	)
 	storyteller = /datum/storyteller/malum
@@ -209,18 +218,37 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 
 /datum/patron/divine/eora
 	name = EORA
-	domain = "Goddess of Love, Family, and Art"
-	desc = "Crafted from the heart of Angros, a spreader of love and beauty, and strengthener of bonds."
-	flaws= "Naivete, Impulsiveness, Bigotry"
-	worshippers = "Mothers, Artists, Married Couples"
-	sins = "Sadism, Abandonment, Ruining Beauty"
-	boons = "You can understand others' needs better."
-	added_traits = list(TRAIT_EXTEROCEPTION)
+	display_name = "Pomette"
+	domain = "Demi-deity of the Court of Earth; The Daughter, love transcendent."
+	desc = "A demi-deity of Gani's court. An immaculately-conceived Daughter, crafted from a shard of the Mother's own divinity; Pomette's divine purity is thought to be absolute among the Pantheon. The youngest of the Elementals, Pomette's love for all grants her the capacity to assume any form she wishes; and alongside her Mother, she taught the first Druids the art of shapeshifting. However, her naivety leads her to hold love for all things in creation, even the soulless and wicked. This fringe belief is only possible due to her being the child of Gani, and it brews worry in the rest of the Pantheon. All fundamentalist texts reinforce that the whole Pantheon - even the solitary Visires - owe Pomette protection due to such childish beliefs."
+	flaws= "Naivete, impulsiveness, underestimation of danger."
+	worshippers = "The truly benevolent, friends and lovers, parents and grandparents, and druids."
+	sins = "Cruelty, abandonment, bigotry."
+	boons = "You can understand the needs of others better. You're immune to the shock of kneestingers."
+	added_traits = list(TRAIT_KNEESTINGER_IMMUNITY, TRAIT_EMPATH, TRAIT_EXTEROCEPTION)
 	devotion_holder = /datum/devotion/divine/eora
 	confess_lines = list(
-		"EORA BRINGS US TOGETHER!",
+		"POMETTE BRINGS US TOGETHER!",
 		"HER BEAUTY IS EVEN IN THIS TORMENT!",
 		"I LOVE YOU, EVEN AS YOU TRESPASS AGAINST ME!",
 	)
 	storyteller = /datum/storyteller/eora
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/eora
+
+/datum/patron/divine/undivided
+	name = "The All-Aspect"
+	domain = "The balance of all four Elemental Aspects."
+	desc = "The balance between the Elementals is always adhered to, but the worshippers most keen to maintain the balance are those of the Katholikos. Worship of the All-Aspect is common both among the most fervent and true believers of the Katholikos and the Inquisition; but also among communities who generalise their worship to the entire Pantheon, rather than to any particular patron."
+	flaws = "The wide and varied flaws of all the Pantheon."
+	worshippers = "Fanatics, generalists, Katholikos clergy, the Inquisition."
+	sins = "The wide and varied sins of all the Pantheon."
+	boons = "Your stamina regeneration delay is lowered during daytime."
+	added_traits = list(TRAIT_APRICITY)
+	devotion_holder = /datum/devotion/divine/undivided
+	confess_lines = list(
+		"THE BALANCE COMMANDS!",
+		"THE ASPECTS PREVAIL!",
+		"THE CYCLE IS MAINTAINED!",
+	)
+	storyteller = null
+	associated_psycross = /obj/item/clothing/neck/psycross/silver/undivided

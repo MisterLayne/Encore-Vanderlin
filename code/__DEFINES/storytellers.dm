@@ -3,7 +3,7 @@
 
 #define TAG_ASTRATA "Visires"
 #define TAG_NOC "Akan"
-#define TAG_RAVOX "Al'Aqshir"
+#define TAG_RAVOX "Mordsol"
 #define TAG_ABYSSOR "Mjallidhorn"
 #define TAG_XYLIX "Iliope"
 #define TAG_NECRA "Valdala"
@@ -31,7 +31,7 @@
 /// Tag reserved for combat logic (unused by gods)
 #define TAG_COMBAT "Combat"
 
-/// Tag used for raid events, associated with Al'Aqshir
+/// Tag used for raid events, associated with Mordsol
 #define TAG_RAID "Raid"
 
 /// Tag representing trade interactions, used by Mjallidhorn and Deceivers
@@ -201,7 +201,7 @@
 // Divine pantheon
 #define ASTRATA "Visires"
 #define NOC "Akan"
-#define RAVOX "Al'Aqshir"
+#define RAVOX "Mordsol"
 #define ABYSSOR "Mjallidhorn"
 #define XYLIX "Iliope"
 #define NECRA "Valdala"

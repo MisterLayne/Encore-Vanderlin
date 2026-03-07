@@ -50,7 +50,7 @@
 
 	bordered_message(chosen_one, list(
 		span_userdanger("YOU ARE RAVOX'S CHOSEN!"),
-		span_notice("There is an honor in sacrifice. You have been granted a power by Al'Aqshir to sacrifice your own life to revive another. Beware, as you won't be able to be revived ever again. Use it only as a last resort to see a truly heinous injustice undone."),
+		span_notice("There is an honor in sacrifice. You have been granted a power by Mordsol to sacrifice your own life to revive another. Beware, as you won't be able to be revived ever again. Use it only as a last resort to see a truly heinous injustice undone."),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/vo/male/knight/rage (6).ogg', 70)
 

@@ -81,7 +81,7 @@
 	trait = TRAIT_NOC_CURSE
 
 /datum/curse/ravox
-	name = "Al'Aqshir's Curse"
+	name = "Mordsol's Curse"
 	description = "Violence disgusts me. I struggle to bring myself to wield any kind of weapon."
 	trait = TRAIT_RAVOX_CURSE
 

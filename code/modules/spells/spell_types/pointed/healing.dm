@@ -52,8 +52,8 @@
 			return
 		if((cast_on.real_name in GLOB.excommunicated_players) && !HAS_TRAIT(cast_on, TRAIT_FANATICAL))
 			cast_on.visible_message(
-				span_warning("The angry Ten the flesh of [cast_on]! a foolish blasphemer and heretic!"),
-				span_notice("I am despised by the Ten, rejected, and they remind me just how unlovable I am with a wave of pain!"),
+				span_warning("The angry Elementals burn the flesh of [cast_on]! A foolish blasphemer and heretic!"),
+				span_notice("I am despised by the Elementals, rejected, and they remind me of my crimes with a wave of pain!"),
 			)
 			cast_on.emote("scream")
 			return
@@ -64,11 +64,11 @@
 	if(isliving(owner))
 		var/mob/living/living_owner = owner
 		switch(living_owner.patron?.type)
-			if(/datum/patron/psydon)
-				cast_on.visible_message(span_info("A strange stirring feeling pours from [cast_on]!"), span_notice("Sentimental thoughts drive away my pains!"))
+			if(/datum/patron/divine/undivided)
+				cast_on.visible_message(span_info("A strange stirring feeling pours from [cast_on]!"), span_notice("Purest faith brings balance to my humours!"))
 
 			if(/datum/patron/divine/astrata)
-				cast_on.visible_message(span_info("A wreath of gentle light passes over [cast_on]!"), span_notice("I'm bathed in holy light!"))
+				cast_on.visible_message(span_info("A wreath of fierce sunlight passes over [cast_on]!"), span_notice("I'm bathed in blazing sunlight!"))
 				// during the day, heal 10 more (basic as fuck)
 				if(GLOB.tod == "day")
 					conditional_buff = TRUE
@@ -91,7 +91,7 @@
 					conditional_buff = TRUE
 
 			if(/datum/patron/divine/abyssor)
-				cast_on.visible_message(span_info("A mist of salt-scented vapour settles on [cast_on]!"), span_notice("I'm invigorated by healing vapours!"))
+				cast_on.visible_message(span_info("The implacable power of the tides fortifies [cast_on]!"), span_notice("I'm invigorated by healing waters!"))
 				// if our owner or cast_on is standing in water, heal a flat amount extra
 				if(istype(get_turf(cast_on), /turf/open/water) || istype(get_turf(owner), /turf/open/water))
 					conditional_buff = TRUE
@@ -106,7 +106,7 @@
 				conditional_buff = TRUE
 
 			if(/datum/patron/divine/necra)
-				cast_on.visible_message(span_info("A sense of quiet respite radiates from [cast_on]!"), span_notice("I feel the Undermaiden's gaze turn from me for now!"))
+				cast_on.visible_message(span_info("A sense of quiet resolve radiates from [cast_on]!"), span_notice("I feel the Valkyrie's gaze turn from me for now!"))
 				if(iscarbon(cast_on))
 					var/mob/living/carbon/C = cast_on
 					// if the cast_on is "close to death" (at or below 25% health)
@@ -120,6 +120,7 @@
 				if(prob(50))
 					conditional_buff = TRUE
 					situational_bonus = rand(1, 25)
+
 			if(/datum/patron/divine/pestra)
 				cast_on.visible_message(span_info("An aura of clinical care encompasses [cast_on]!"), span_notice("I'm sewn back together by sacred medicine!"))
 				// pestra always heals a little more toxin damage and restores a bit more blood
@@ -144,8 +145,18 @@
 					conditional_buff = TRUE
 					situational_bonus = 25
 
+			if(/datum/patron/psydon)
+				// Angros is dying, it's faith in him that sustains the worldflame - there's little left to sustain us, so no conditional heal bonus.
+				cast_on.visible_message(span_info("Flickering, dying embers swirl around [cast_on]!"), span_notice("The solemn respite of the sundered God soothes me!"))
+
 			if(/datum/patron/inhumen/zizo)
-				cast_on.visible_message(span_info("Vital energies are sapped towards [cast_on]!"), span_notice("The life around me pales as I am restored!"))
+				cast_on.visible_message(span_info("A foreign light burns impossibly bright around [cast_on]!"), span_notice("Light empowers my body, making quick work of my wounds. I hear the voice of a divine being which is far too close to me."))
+				if (HAS_TRAIT(target, TRAIT_CABAL))
+					conditional_buff = TRUE
+					situational_bonus = 2.5
+
+			if(/datum/patron/inhumen/graggar)
+				cast_on.visible_message(span_info("Vital energies are sapped towards [cast_on]! The very Earth cries out!"), span_notice("The life around me pales as I am restored!"))
 				// set up a ritual pile of bones (or just cast near a stack of bones whatever) around us for massive bonuses, cap at 50 for 75 healing total (wowie)
 				situational_bonus = 0
 				for(var/obj/item/alch/bone/O in oview(5, owner))
@@ -153,19 +164,10 @@
 				if(situational_bonus > 0)
 					conditional_buff = TRUE
 
-			if(/datum/patron/inhumen/graggar)
-				cast_on.visible_message(span_info("Foul fumes billow outward as [cast_on] is restored!"), span_notice("A noxious scent burns my nostrils, but I feel better!"))
-				// if you've got lingering toxin damage, you get healed more, but your bonus healing doesn't affect toxin
-				var/toxloss = cast_on.getToxLoss()
-				if(toxloss >= 10)
-					conditional_buff = TRUE
-					situational_bonus = 25
-					cast_on.adjustToxLoss(situational_bonus) // remember we do a global toxloss adjust down below so this is okay
-
 			if(/datum/patron/inhumen/matthios)
-				cast_on.visible_message(span_info("A shadowed hand passes [cast_on] a small, stolen vial... its contents glimmer faintly before sinking into their veins..."), span_notice("A quick swig and the ache fades..."))
-				// COMRADES! WE MUST BAND TOGETHER! Or Outlaw.
-				if(HAS_TRAIT(cast_on, TRAIT_BANDITCAMP) || (cast_on.real_name in GLOB.outlawed_players))
+				cast_on.visible_message(span_info("Unfamiliar shadowy tendrils crawl forth and embrace [cast_on], mending their wounds."), span_notice("A hidden being of great power is stitching me shut!"))
+				message_admins("A hidden Deceiver God has shown favor to [cast_on]! The One of Envy stirs.")
+				if(HAS_TRAIT(cast_on, TRAIT_MATTHIOS_EYES) || (cast_on.real_name in GLOB.outlawed_players))
 					conditional_buff = TRUE
 					situational_bonus = 25
 
@@ -185,6 +187,13 @@
 						conditional_buff = TRUE
 						situational_bonus = 25
 						break
+
+			if(/datum/patron/psydon/extremist)
+				// Heretical Angros worshippers suppliment the weakened power of their god with Hell's magic, so they get a bonus heal on fellow Absolutionists.
+				cast_on.visible_message(span_info("Stubbornly burning shadowy embers blaze about [cast_on]!"), span_notice("The defiant fury of a dying and dark flame sears my wounds shut!"))
+				if (HAS_TRAIT(target, TRAIT_PSYDONITE))
+					conditional_buff = TRUE
+					situational_bonus = 2.5
 
 			else
 				if(istype(living_owner.patron, /datum/patron/godless))

@@ -331,6 +331,8 @@
 				var/drained = max(15 - (user.get_skill_level(/datum/skill/misc/swimming) * 5), 1)
 //				drained += (user.checkwornweight()*2)
 				drained += user.get_encumbrance() * 50
+				if(HAS_TRAIT(user, TRAIT_ABYSSOR_SWIM))
+					drained -=5
 				if(!user.adjust_stamina(drained))
 					user.Immobilize(30)
 					addtimer(CALLBACK(user, TYPE_PROC_REF(/mob/living, Knockdown), 30), 10)

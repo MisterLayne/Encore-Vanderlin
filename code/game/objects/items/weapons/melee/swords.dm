@@ -1178,7 +1178,7 @@
 	gripped_intents = list(/datum/intent/sword/cut, /datum/intent/sword/thrust, /datum/intent/sword/strike, /datum/intent/sword/chop/long)
 	force_wielded = DAMAGE_LONGSWORD_WIELD
 	name = "iron claymore"
-	desc = "A large sword originating from the northern land of Caledon, a proud warrior nation beholden to Al'Aqshir."
+	desc = "A large sword originating from the northern land of Caledon, a proud warrior nation beholden to Mordsol."
 	icon_state = "ironclaymore"
 	minstr = 10
 	smeltresult = /obj/item/ingot/iron

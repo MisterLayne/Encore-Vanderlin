@@ -70,7 +70,7 @@
 	storyteller_name = ABYSSOR
 
 /datum/triumph_buy/storyteller_influence_bonus/ravox
-	name = "Al'Aqshir's Influence"
+	name = "Mordsol's Influence"
 	triumph_buy_id = TRIUMPH_BUY_RAVOX_INFLUENCE
 	storyteller_name = RAVOX
 

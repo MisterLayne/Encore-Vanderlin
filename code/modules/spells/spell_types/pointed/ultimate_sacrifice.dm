@@ -36,8 +36,8 @@
 		return
 
 	owner.visible_message(
-		span_userdanger("[owner] begins chanting Al'Aqshir's sacrificial rites!"),
-		span_userdanger("You feel Al'Aqshir's presence around you as you prepare to give your life..."),
+		span_userdanger("[owner] begins chanting Mordsol's sacrificial rites!"),
+		span_userdanger("You feel Mordsol's presence around you as you prepare to give your life..."),
 	)
 
 	if(!do_after(owner, 10 SECONDS, owner))

@@ -55,7 +55,7 @@
 	resistance_flags = FIRE_PROOF
 
 /obj/item/clothing/neck/psycross/silver/ravox
-	name = "amulet of Al'Aqshir"
+	name = "amulet of Mordsol"
 	desc = "Struggle. Challenge. And rise to struggle again. That is the sword of he who yet lives to fight again."
 	icon_state = "ravox"
 	resistance_flags = FIRE_PROOF

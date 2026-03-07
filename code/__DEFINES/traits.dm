@@ -337,8 +337,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_GUIDANCE "guidance"
 #define DEVOTION_TRAIT "devotion_trait"
 #define RAGE_TRAIT "rage_trait"
-#define TRAIT_PSYDONIAN_GRIT "Psydonian Grit" // Pain Tolerance. Through faith, ENDURE.
-#define TRAIT_PSYDONITE "Psydonite's Devotion" // Anti-Miracles on a selective basis, anastasis / cure rot still apply. Slow passive wound healing while you have blood.
+#define TRAIT_PSYDONIAN_GRIT "Angrosian Grit" // Pain Tolerance. Through faith, ENDURE.
 #define TRAIT_BLACKBAGGER "Apprehension Techniques" // Capable of using Garrotes and Blackbags. Apprehension techniques.
 #define TRAIT_LYCANRESILENCE "Werewolf Resilence"
 
@@ -423,23 +422,31 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 
 // Divine patron trait bonuses:
 #define TRAIT_SOUL_EXAMINE				"Blessing of Valdala"  //can check bodies to see if they have departed
-#define TRAIT_ROT_EATER					"Blessing of Erdl" //can eat rotten food
+#define TRAIT_ROT_EATER					"Blessing of Decay" //can eat rotten food
 #define TRAIT_KNEESTINGER_IMMUNITY		"Blessing of Gani" //Can move through kneestingers.
-#define TRAIT_LEECHIMMUNE				"Unleechable" //leeches drain very little blood
+#define TRAIT_LEECHIMMUNE				"Blessing of Erdl" //leeches drain very little blood
+#define TRAIT_ABYSSOR_SWIM				"Blessing of the Nortics" //less base fatigue drain when swimming
 #define TRAIT_SHARPER_BLADES			"Sharper Blades" //Weapons lose less blade integrity
 #define TRAIT_BETTER_SLEEP				"Better Sleep" //Recover more energy (blue bar) when sleeping
 #define TRAIT_EXTEROCEPTION				"Exteroception" //See others' hunger and thirst
 #define TRAIT_TUTELAGE					"Tutelage" //Slightly more sleep xp to you and xp to apprentices
 #define TRAIT_APRICITY					"Apricity" //Decreased stamina regen time during "day"
 #define TRAIT_BLACKLEG					"Blackleg" //Rig coin, dice, cards in your favor
-#define TRAIT_INQUISITION 				"Member of the Oratorium Throni Vacui"
+#define TRAIT_SALVATIONIST				"Salvationist's Grief" //Prayers about a dead god manifest differently or something
+#define TRAIT_INQUISITION 				"Member of the Katholikos Inquisition"
 #define TRAIT_PURITAN					"Puritan"
 #define TRAIT_SILVER_BLESSED 			"Silver Blessed"
 
 // Inhumen patron trait bonuses:
-#define TRAIT_ORGAN_EATER				"Blessing of Archdevil"//Can eat organs (duh.) and raw meat
+#define TRAIT_ARCHDEVILS				"Cult of the Archdevils" //Archdevil worshippers recognize each other
+#define TRAIT_ORGAN_EATER				"Blessing of the Archdevils"//Can eat organs (duh.) and raw meat
+#define TRAIT_HERTANNEA					"Cult of Hertannea" //Hertannea worshippers recognize each other
 #define TRAIT_CRACKHEAD					"Blessing of Hertannea" //No overdose on drugs.
-#define TRAIT_CABAL                     "Of the Cabal" //One Envy cultists recognize each other too
+#define TRAIT_ABSOLUTIONIST				"Cult of Madness" //Absolutionist Angros worshippers recognize each other
+#define TRAIT_PSYDONITE					"Absolutionist's Devotion" // Anti-Miracles on a selective basis, anastasis / cure rot still apply. Slow passive wound healing while you have blood.
+#define TRAIT_CORRUPTED					"Tainted" //All worshippers of Hell's pawns recognise each other.
+#define TRAIT_CABAL                     "Blood of the One Envy" //Shirleighs recognize each other, and their non-royal believers
+#define TRAIT_CABAL_CHUD				"Cult of the Jealous God" //One Envy cultists recognize each other too
 #define TRAIT_MATTHIOS_EYES				"Eyes of Deceivers" //Examine to see the most expensive item someone has
 #define INSPIRING_MUSICIAN 				"Inspiring Musician" // unlocks bardic inspiration stuff
 
@@ -490,7 +497,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_PSYDON_CURSE "Angros' Curse"
 #define TRAIT_ASTRATA_CURSE "Visires' Curse"
 #define TRAIT_NOC_CURSE "Akan's Curse"
-#define TRAIT_RAVOX_CURSE "Al'Aqshir's Curse"
+#define TRAIT_RAVOX_CURSE "Mordsol's Curse"
 #define TRAIT_NECRA_CURSE "Valdala's Curse"
 #define TRAIT_XYLIX_CURSE "Iliope's Curse"
 #define TRAIT_PESTRA_CURSE "Erdl's Curse"

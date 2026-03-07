@@ -1,5 +1,5 @@
 /datum/round_event_control/ravox_resolve
-	name = "Al'Aqshir's Resolve"
+	name = "Mordsol's Resolve"
 	track = EVENT_TRACK_INTERVENTION
 	typepath = /datum/round_event/ravox_resolve
 	weight = 8
@@ -17,7 +17,7 @@
 	. = ..()
 	if(!.)
 		return FALSE
-	if(GLOB.patron_follower_counts["Al'Aqshir"] < 3)
+	if(GLOB.patron_follower_counts["Mordsol"] < 3)
 		return FALSE
 
 /datum/round_event/ravox_resolve/start()
@@ -53,6 +53,6 @@
 		weakest.adjust_stat_modifier(STATMOD_RAVOX_RESOLVE, STATKEY_LCK, 2)
 
 	bordered_message(weakest, list(
-		span_green("You may be weak compared to your fellow warriors of justice, but still you persevere. Al'Aqshir honors those who fight even when victory seems impossible. May his gift of strength help you overcome the odds.")
+		span_green("You may be weak compared to your fellow warriors of justice, but still you persevere. Mordsol honors those who fight even when victory seems impossible. May his gift of strength help you overcome the odds.")
 	))
 	weakest.playsound_local(weakest, 'sound/vo/male/knight/rage (6).ogg', 70)

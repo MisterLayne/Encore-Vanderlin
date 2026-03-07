@@ -1,6 +1,6 @@
 /datum/action/cooldown/spell/revive
 	name = "Anastasis"
-	desc = "Return a soul from Valdala's grasp with the light of Visires."
+	desc = "Petition the Elementals to return the soul of the deceased, or to utterly unmake one tainted by the curse of undeath."
 	button_icon_state = "revive"
 	sound = 'sound/magic/revive.ogg'
 	charge_sound = 'sound/magic/holycharging.ogg'
@@ -90,7 +90,7 @@
 			ghost.mind.transfer_to(cast_on, TRUE)
 		cast_on.grab_ghost(force = TRUE) // even suicides
 	if(!cast_on.revive(full_heal = FALSE))
-		to_chat(owner, span_warning("Visires' light fails to revive [cast_on]!"))
+		to_chat(owner, span_warning("Divine light fails to revive [cast_on]!"))
 		return
 	record_round_statistic(STATS_ASTRATA_REVIVALS)
 	cast_on.emote("breathgasp")

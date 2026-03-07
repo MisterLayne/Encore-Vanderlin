@@ -67,7 +67,7 @@
 
 /datum/storyteller/ravox
 	name = RAVOX
-	desc = "Al'Aqshir will cause raids to happen naturally instead of only when people are dying a lot."
+	desc = "Mordsol will cause raids to happen naturally instead of only when people are dying a lot."
 	welcome_text = "The drums of war grow louder."
 	weight = 4
 	always_votable = TRUE
