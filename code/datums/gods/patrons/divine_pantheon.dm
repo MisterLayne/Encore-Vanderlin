@@ -104,7 +104,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	worshippers = "Warriors, sellswords, the vengeful and sailors."
 	sins = "Cowardice, hesitation, passivity."
 	boons = "Your used weapons dull slower. Swimming is less tiring. You may sense the presence of a soul within a body, and when a mortal meets their demise."
-	added_traits = list(TRAIT_ABYSSOR_SWIM, TRAIT_SOUL_EXAMINE, TRAIT_DEATHSIGHT, TRAIT_SHARPER_BLADES)
+	added_traits = list(TRAIT_ABYSSOR_SWIM, TRAIT_SOUL_EXAMINE, TRAIT_SHARPER_BLADES)
 	devotion_holder = /datum/devotion/divine/abyssor
 	confess_lines = list(
 		"THE NORTH'S MADNESS!",
@@ -181,18 +181,18 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 /datum/patron/divine/pestra
 	name = PESTRA
 	display_name = "Erdl"
-	domain = "Demi-deity of the Court of Air; The Thaumaturge, sculptor of flesh."
-	desc = "A mistake; Angros' intestines left behind. She slithered out, bringing forth the cycle of life and decay."
-	flaws = "Drunkenness, Crudeness, Irresponsibility"
-	worshippers = "The Ill and Infirm, Alchemists, Physicians"
-	sins = "´Curing´ Abnormalities, Refusing to Help Unfortunates, Groveling"
-	boons = "You may consume rotten food without being sick."
+	domain = "Demi-deity of the Court of Air; The Bloodfather, sculptor of flesh."
+	desc = "A demi-deity of Akan's court, Erdl embodies utter devotion to the progression of the academic understanding of medicine; all to one end - to create a fix-all elixir against death itself. Where the Court of Frost handles the inevitability of death, Erdl seeks to eliminate it entire through the perfection of flesh. His teachings have created the finest physicians in the Goblet, though many more would-be disciples of His teachings find themselves falling short of the exacting standards and the utter devotion to the craft that He demands. Though many of his doctors are known to toe the line of ethical boundaries, the Bloodfather is absolute that every act must be done for a reason and for the greater good; to pervert the art of medicine into mere butchery or cruelty is a sin."
+	flaws = "Obsessive, fervent, thanatophobic."
+	worshippers = "The ill and infirm, alchemists, physicians and healers."
+	sins = "Idleness, sadism, abandonment of the ill and infirm, reducing medicine to butchery."
+	boons = "Leeches will not seek your blood."
 	added_traits = list(TRAIT_LEECHIMMUNE)
 	devotion_holder = /datum/devotion/divine/pestra
 	confess_lines = list(
-		"ERDL SOOTHES ALL ILLS!",
-		"DECAY IS A CONTINUATION OF LIFE!",
-		"MY AFFLICTION IS MY TESTAMENT!",
+		"THE BLOODFATHER SEEKS PERFECTION!",
+		"THE ESCAPE OF DEATH LIES IN THE MASTERING OF FLESH!",
+		"I SEEK THE ICHOR OF LIFE!",
 	)
 	storyteller = /datum/storyteller/pestra
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/pestra

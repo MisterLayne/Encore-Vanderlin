@@ -91,7 +91,7 @@
 					conditional_buff = TRUE
 
 			if(/datum/patron/divine/abyssor)
-				cast_on.visible_message(span_info("The implacable power of the tides settles on [cast_on]!"), span_notice("I'm invigorated by healing waters!"))
+				cast_on.visible_message(span_info("The implacable power of the tides fortifies [cast_on]!"), span_notice("I'm invigorated by healing waters!"))
 				// if our owner or cast_on is standing in water, heal a flat amount extra
 				if(istype(get_turf(cast_on), /turf/open/water) || istype(get_turf(owner), /turf/open/water))
 					conditional_buff = TRUE
@@ -190,7 +190,7 @@
 
 			if(/datum/patron/psydon/extremist)
 				// Heretical Angros worshippers suppliment the weakened power of their god with Hell's magic, so they get a bonus heal on fellow Absolutionists.
-				cast_on.visible_message(span_info("Stubbornly burning yet shadowy embers blaze about [cast_on]!"), span_notice("The defiant fury of a dying and dark flame sears my wounds shut!"))
+				cast_on.visible_message(span_info("Stubbornly burning shadowy embers blaze about [cast_on]!"), span_notice("The defiant fury of a dying and dark flame sears my wounds shut!"))
 				if (HAS_TRAIT(target, TRAIT_PSYDONITE))
 					conditional_buff = TRUE
 					situational_bonus = 2.5
