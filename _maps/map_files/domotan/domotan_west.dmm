@@ -4473,9 +4473,6 @@
 /turf/open/floor/sand,
 /area/outdoors/woods/west/crags)
 "Ls" = (
-/obj/structure/table/church{
-	icon_state = "churchtable_end"
-	},
 /obj/item/candle/yellow{
 	pixel_y = 10
 	},
