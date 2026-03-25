@@ -1150,16 +1150,14 @@
 "mV" = (
 /obj/structure/winch{
 	dir = 1;
-	gid = "secultongate_north";
 	pixel_x = -3;
 	redstone_id = "secultongate_north"
 	},
 /turf/open/floor/cobblerock,
 /area/under/necropolis)
 "nj" = (
-/obj/effect/decal/cobbleedge{
-	dir = 1;
-	icon_state = "borderfall"
+/obj/effect/decal/borderfall{
+	dir = 1
 	},
 /obj/structure/fluff/walldeco/church/line,
 /turf/open/floor/church/purple,
@@ -1554,7 +1552,7 @@
 /area/under/necropolis)
 "sp" = (
 /obj/structure/fluff/railing/wood,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/indoors/hellwatch)
 "sr" = (
 /obj/structure/stairs/stone/church{
@@ -1735,7 +1733,7 @@
 /turf/open/floor/grass/yel,
 /area/outdoors/seculton)
 "uy" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/indoors/hellwatch)
 "uB" = (
 /obj/structure/flora/ausbushes/leafybush,
@@ -1828,7 +1826,7 @@
 /turf/open/floor/twig/platform,
 /area/indoors/shelter/mountains/decap)
 "vH" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/mountains)
 "vP" = (
 /obj/structure/table/wood{
@@ -2109,7 +2107,7 @@
 /area/indoors/hellwatch)
 "zT" = (
 /obj/machinery/light/fueled/torchholder/l,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/hellwatch)
 "Ad" = (
 /obj/structure/stairs{
@@ -2242,7 +2240,7 @@
 /area/under/necropolis)
 "Cb" = (
 /obj/machinery/light/fueled/torchholder/r,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/indoors/hellwatch)
 "Cl" = (
 /turf/open/floor/grass/yel,
@@ -2281,9 +2279,8 @@
 /turf/closed/mineral/bedrock,
 /area/indoors/shelter/mountains)
 "CO" = (
-/obj/effect/decal/cobbleedge{
-	dir = 1;
-	icon_state = "borderfall"
+/obj/effect/decal/borderfall{
+	dir = 1
 	},
 /obj/machinery/light/fueled/firebowl/church,
 /obj/structure/fluff/walldeco/church/line,
@@ -2371,7 +2368,7 @@
 /turf/open/floor/dirt/road,
 /area/outdoors/mountains)
 "DY" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/indoors)
 "Eb" = (
 /obj/structure/fluff/walldeco/customflag{
@@ -2708,7 +2705,7 @@
 /turf/open/floor/church/purple,
 /area/indoors/hellwatch)
 "HI" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/seculton)
 "HK" = (
 /turf/open/floor/naturalstone,
@@ -3232,7 +3229,7 @@
 /area/indoors/hellwatch)
 "Np" = (
 /obj/machinery/light/fueled/torchholder/c,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/seculton)
 "Nq" = (
 /obj/structure/table/wood{
@@ -3256,7 +3253,7 @@
 /obj/structure/fluff/railing/wood{
 	dir = 8
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/indoors/hellwatch)
 "NA" = (
 /obj/item/clothing/head/helmet/leather/minershelm,
@@ -3441,7 +3438,7 @@
 /area/indoors/shelter/mountains/decap)
 "PQ" = (
 /obj/machinery/light/fueled/torchholder/r,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/hellwatch)
 "PR" = (
 /obj/structure/rack,
@@ -3901,7 +3898,7 @@
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/hellwatch)
 "UN" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/hellwatch)
 "UQ" = (
 /obj/machinery/light/fueled/oven/south,
@@ -4021,7 +4018,6 @@
 /area/outdoors/seculton)
 "Wx" = (
 /obj/structure/gate/bars{
-	gid = "secultongate_north";
 	redstone_id = "secultongate_north"
 	},
 /turf/open/floor/cobble,

@@ -198,9 +198,8 @@
 /turf/open/floor/hexstone,
 /area/under/town/basement)
 "eF" = (
-/obj/effect/decal/cobbleedge{
-	dir = 1;
-	icon_state = "borderfall"
+/obj/effect/decal/borderfall{
+	dir = 1
 	},
 /obj/structure/chair/bench/church/smallbench,
 /turf/open/floor/sand,
@@ -432,9 +431,8 @@
 /turf/open/floor/dirt,
 /area/under/town/basement)
 "lh" = (
-/obj/effect/decal/cobbleedge{
-	dir = 1;
-	icon_state = "borderfall"
+/obj/effect/decal/borderfall{
+	dir = 1
 	},
 /turf/open/floor/sand,
 /area/outdoors/woods/crossroads)
@@ -804,9 +802,8 @@
 /turf/open/floor/dirt/road,
 /area/outdoors)
 "th" = (
-/obj/effect/decal/cobbleedge{
-	dir = 1;
-	icon_state = "borderfall"
+/obj/effect/decal/borderfall{
+	dir = 1
 	},
 /turf/open/floor/grass/yel,
 /area/outdoors/bog)
@@ -1416,7 +1413,7 @@
 /turf/open/floor/ruinedwood,
 /area/under/cave)
 "GV" = (
-/obj/structure/fluff/clodpile,
+/obj/structure/fluff/clodpile/dirt,
 /turf/open/floor/cobble,
 /area/under/town/basement)
 "Ha" = (
@@ -1508,9 +1505,8 @@
 /turf/open/floor/naturalstone,
 /area/under/cave)
 "Iy" = (
-/obj/effect/decal/cobbleedge{
-	dir = 1;
-	icon_state = "borderfall"
+/obj/effect/decal/borderfall{
+	dir = 1
 	},
 /turf/open/floor/dirt/road,
 /area/outdoors/woods/crossroads)
@@ -1991,7 +1987,7 @@
 /turf/open/floor/grass/yel,
 /area/outdoors/woods/crossroads)
 "SU" = (
-/obj/structure/fluff/clodpile,
+/obj/structure/fluff/clodpile/dirt,
 /turf/open/floor/hexstone,
 /area/under/town/basement)
 "SY" = (
@@ -2066,9 +2062,8 @@
 /turf/open/water/ocean,
 /area/outdoors/woods/crossroads)
 "UO" = (
-/obj/effect/decal/cobbleedge{
-	dir = 1;
-	icon_state = "borderfall"
+/obj/effect/decal/borderfall{
+	dir = 1
 	},
 /turf/open/floor/grass/yel,
 /area/outdoors/woods/crossroads)
@@ -2137,9 +2132,8 @@
 /turf/open/floor/naturalstone,
 /area/under/town/basement)
 "Xk" = (
-/obj/effect/decal/cobbleedge{
-	dir = 1;
-	icon_state = "borderfall"
+/obj/effect/decal/borderfall{
+	dir = 1
 	},
 /turf/open/floor/dirt/road,
 /area/outdoors/bog)

@@ -186,7 +186,7 @@
 /turf/open/floor/metal,
 /area/indoors/lostkeep)
 "by" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/woods/west)
 "bD" = (
 /obj/effect/decal/cleanable/blood/old,
@@ -355,7 +355,7 @@
 /turf/open/floor/cobble/mossy,
 /area/under/cave/oldfort)
 "di" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "dp" = (
 /obj/structure/flora/grass/water,
@@ -581,7 +581,7 @@
 	pixel_x = -24;
 	pixel_y = -24
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "fp" = (
 /turf/open/floor/dirt/road,
@@ -653,7 +653,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 4
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/indoors/lostkeep)
 "fN" = (
 /obj/structure/fluff/railing/border{
@@ -662,7 +662,7 @@
 /obj/structure/industrial_lift/tram{
 	icon_state = "wooden_floor"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "fP" = (
 /obj/effect/decal/cobbleedge,
@@ -677,7 +677,7 @@
 /turf/open/floor/concrete,
 /area/under/cave/lostkeep)
 "fX" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/woods/west/lonelyeerie)
 "fY" = (
 /obj/item/natural/stone,
@@ -824,7 +824,7 @@
 /obj/structure/industrial_lift/tram{
 	icon_state = "wooden_floor"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "hu" = (
 /obj/item/flashlight/flare/torch/lantern/bronzelamptern,
@@ -846,7 +846,7 @@
 	dir = 4;
 	icon_state = "border"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/woods/west)
 "hI" = (
 /obj/structure/fluff/railing/wood{
@@ -873,7 +873,7 @@
 /turf/open/floor/blocks,
 /area/under/cave/oldfort)
 "hS" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/lighthouse)
 "hU" = (
 /obj/effect/decal/cleanable/blood,
@@ -899,7 +899,7 @@
 /turf/open/floor/blocks,
 /area/indoors/shelter/woods)
 "ib" = (
-/obj/item/natural/dirtclod,
+/obj/item/natural/clod/dirt,
 /turf/open/floor/dirt,
 /area/under/cave/oldfort)
 "ie" = (
@@ -1026,7 +1026,7 @@
 /area/indoors/lostkeep)
 "jc" = (
 /obj/structure/fluff/railing/wood,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/woods/west/crags)
 "jd" = (
 /turf/open/floor/cobble/mossy,
@@ -1063,11 +1063,11 @@
 /obj/structure/industrial_lift/tram{
 	icon_state = "wooden_floor"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "jr" = (
 /obj/effect/decal/cleanable/blood,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/oldfort)
 "js" = (
 /obj/machinery/light/fueled/torchholder/c,
@@ -1082,7 +1082,7 @@
 /area/under/cave/lostkeep)
 "jw" = (
 /obj/structure/fluff/railing/wood,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/woods/west)
 "jx" = (
 /obj/structure/flora/grass/thorn_bush,
@@ -1121,7 +1121,7 @@
 /turf/open/floor/blocks,
 /area/indoors/shelter/woods)
 "jL" = (
-/obj/item/natural/dirtclod,
+/obj/item/natural/clod/dirt,
 /obj/structure/fluff/railing/border,
 /turf/open/floor/cobble/mossy,
 /area/under/cave/oldfort)
@@ -1289,10 +1289,6 @@
 "le" = (
 /turf/closed/wall/mineral/stone,
 /area/indoors/lostkeep)
-"li" = (
-/obj/item/weapon/spear,
-/turf/open/floor/dirt,
-/area/under/cave/oldfort)
 "lj" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/fluff/walldeco/painting{
@@ -1394,7 +1390,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 4
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/woods/west)
 "lV" = (
 /obj/structure/fluff/railing/wood{
@@ -1456,14 +1452,14 @@
 	pixel_x = 24;
 	pixel_y = -24
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "mz" = (
 /obj/structure/fluff/railing/border{
 	icon_state = "border";
 	dir = 10
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/lighthouse)
 "mE" = (
 /obj/structure/flora/grass/water,
@@ -1520,7 +1516,7 @@
 	pixel_x = -24;
 	pixel_y = 24
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "no" = (
 /obj/item/natural/rock,
@@ -1534,15 +1530,12 @@
 /obj/structure/fluff/railing/border{
 	dir = 8
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/lighthouse)
 "ns" = (
 /obj/structure/table/wood{
 	dir = 4;
 	icon_state = "largetable"
-	},
-/obj/item/storage/bag/tray{
-	pixel_x = -9
 	},
 /turf/open/floor/carpet/royalblack,
 /area/under/cave/oldfort)
@@ -1772,8 +1765,7 @@
 /turf/open/floor/churchbrick,
 /area/under/cave/oldfort)
 "pC" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "borderfall";
+/obj/effect/decal/borderfall{
 	dir = 1
 	},
 /turf/open/floor/blocks,
@@ -1910,14 +1902,14 @@
 	icon_state = "border";
 	dir = 10
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/woods/west)
 "qO" = (
 /obj/effect/landmark/tram/queued_path{
 	next_path_id = "cargo_pre_enter";
 	platform_code = "point_4"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "qP" = (
 /turf/open/floor/ruinedwood/alt,
@@ -1965,7 +1957,7 @@
 	icon_state = "wooden_floor"
 	},
 /obj/structure/fluff/railing/border,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "rf" = (
 /obj/structure/bars/passage/shutter{
@@ -1979,7 +1971,6 @@
 /area/outdoors/woods/berkleigh)
 "rj" = (
 /obj/structure/gate{
-	gid = "minotaurgate";
 	name = "The Throne";
 	redstone_id = "minotaurgate"
 	},
@@ -2005,11 +1996,6 @@
 "rA" = (
 /turf/closed/wall/mineral/pipe,
 /area/indoors/lostkeep)
-"rB" = (
-/obj/item/weapon/spear,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/blocks,
-/area/outdoors/oldfort)
 "rC" = (
 /turf/closed/wall/mineral/tent{
 	dir = 8
@@ -2028,7 +2014,7 @@
 	dir = 1;
 	icon_state = "border"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/woods/west)
 "rK" = (
 /obj/structure/fluff/railing/wood{
@@ -2235,7 +2221,7 @@
 /obj/effect/landmark/tram/queued_path/cargo_map_exit{
 	next_path_id = "cargo_return_1"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "tu" = (
 /obj/machinery/light/fueled/torchholder/l,
@@ -2401,7 +2387,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 9
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/woods/west)
 "vi" = (
 /obj/structure/bars{
@@ -2413,7 +2399,7 @@
 /turf/open/floor/concrete,
 /area/under/cave/oldtown)
 "vl" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/under/cavewet)
 "vm" = (
 /obj/effect/decal/cleanable/blood,
@@ -2435,7 +2421,7 @@
 /obj/structure/industrial_lift/tram{
 	icon_state = "wooden_floor"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "vv" = (
 /obj/structure/flora/grass/swampweed,
@@ -2503,7 +2489,7 @@
 	next_path_id = "cargo_map_enter";
 	platform_code = "cargo_return_2"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "vY" = (
 /obj/machinery/light/fueled/lanternpost,
@@ -2604,7 +2590,7 @@
 /obj/structure/industrial_lift/tram{
 	icon_state = "wooden_floor"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "wI" = (
 /obj/item/natural/bundle/stick,
@@ -2650,7 +2636,7 @@
 /turf/open/floor/cobble,
 /area/outdoors/woods/west)
 "xj" = (
-/obj/item/natural/dirtclod,
+/obj/item/natural/clod/dirt,
 /turf/open/floor/concrete,
 /area/under/cave/lostkeep)
 "xm" = (
@@ -2662,7 +2648,7 @@
 /turf/open/floor/hexstone,
 /area/indoors/lostkeep)
 "xr" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/woods/west/crags)
 "xu" = (
 /obj/structure/flora/grass/water/reeds,
@@ -2683,10 +2669,6 @@
 /obj/structure/table/church/m,
 /turf/open/floor/dirt/road,
 /area/outdoors/woods/west)
-"xJ" = (
-/obj/item/weapon/spear,
-/turf/open/floor/blocks,
-/area/under/cave/oldfort)
 "xK" = (
 /obj/structure/fluff/railing/border{
 	icon_state = "border";
@@ -2709,14 +2691,14 @@
 	pixel_x = 24;
 	pixel_y = 24
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "xO" = (
 /obj/structure/fluff/railing/border,
 /obj/structure/fluff/railing/border{
 	dir = 8
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/lighthouse)
 "xR" = (
 /obj/structure/bars,
@@ -2789,7 +2771,7 @@
 /turf/open/water/ocean/deep,
 /area/outdoors/oldfort)
 "yy" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/indoors/shelter/woods)
 "yC" = (
 /obj/item/natural/stone,
@@ -2825,10 +2807,6 @@
 /obj/structure/bars/pipe,
 /turf/open/floor/concrete,
 /area/indoors/lostkeep)
-"yW" = (
-/obj/item/weapon/spear,
-/turf/open/floor/cobble/mossy,
-/area/under/cave/oldfort)
 "yX" = (
 /obj/structure/window,
 /turf/open/floor/twig,
@@ -2941,7 +2919,7 @@
 /area/under/cave/lostkeep)
 "zP" = (
 /obj/structure/fluff/railing/wood,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/woods/berkleigh)
 "zQ" = (
 /turf/open/floor/metal,
@@ -3090,7 +3068,7 @@
 	icon_state = "border";
 	dir = 8
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/woods/west)
 "BB" = (
 /obj/structure/flora/grass/bush,
@@ -3146,7 +3124,7 @@
 	pixel_x = -24;
 	pixel_y = -24
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "BR" = (
 /obj/structure/fluff/railing/border{
@@ -3160,7 +3138,7 @@
 /area/outdoors/lighthouse)
 "BS" = (
 /obj/effect/landmark/tram/queued_path/cargo_stop,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "BU" = (
 /turf/open/floor/blocks,
@@ -3170,7 +3148,7 @@
 /turf/open/floor/blocks,
 /area/outdoors/woods/west)
 "BY" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/indoors/lighthouse)
 "Ca" = (
 /turf/open/water/swamp,
@@ -3215,7 +3193,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 6
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "Co" = (
 /obj/effect/decal/cobbleedge,
@@ -3267,7 +3245,7 @@
 	dir = 1;
 	icon_state = "border"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/lighthouse)
 "CB" = (
 /turf/closed/wall/mineral/wooddark,
@@ -3299,13 +3277,11 @@
 /turf/open/floor/sand,
 /area/outdoors/beach)
 "CM" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "borderfall";
+/obj/effect/decal/borderfall{
 	dir = 1
 	},
 /obj/structure/winch{
 	dir = 1;
-	gid = "minotaurgate";
 	pixel_x = -7;
 	redstone_id = "minotaurgate"
 	},
@@ -3325,8 +3301,7 @@
 /area/outdoors/woods/west/crescent)
 "CY" = (
 /obj/structure/gate/preopen{
-	redstone_id = "oldkeepgate";
-	gid = "oldkeepgate"
+	redstone_id = "oldkeepgate"
 	},
 /turf/open/floor/cobble,
 /area/indoors/lostkeep)
@@ -3410,14 +3385,14 @@
 /obj/structure/industrial_lift/tram{
 	icon_state = "wooden_floor"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "Dl" = (
 /obj/structure/fluff/railing/wood,
 /obj/structure/fluff/railing/border{
 	dir = 8
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/woods/west)
 "Dn" = (
 /obj/structure/flora/grass/water/reeds,
@@ -3430,10 +3405,6 @@
 	},
 /turf/open/floor/concrete,
 /area/under/cave/oldtown)
-"Ds" = (
-/obj/item/weapon/spear,
-/turf/open/floor/cobble/mossy,
-/area/outdoors/oldfort)
 "Dt" = (
 /turf/closed/mineral/bedrock,
 /area/indoors/lostkeep)
@@ -3453,7 +3424,7 @@
 /obj/structure/industrial_lift/tram{
 	icon_state = "wooden_floor"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "Dz" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -3626,7 +3597,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 6
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/lighthouse)
 "EZ" = (
 /obj/structure/industrial_lift/tram{
@@ -3635,7 +3606,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 8
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "Fa" = (
 /obj/structure/fluff/railing/wood{
@@ -3659,7 +3630,7 @@
 /obj/structure/industrial_lift/tram{
 	icon_state = "vertw"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "Fh" = (
 /obj/item/clothing/head/helmet/bascinet,
@@ -3683,7 +3654,7 @@
 	icon_state = "wooden_floor"
 	},
 /obj/machinery/light/fueledstreet/midlamp,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "Fp" = (
 /obj/item/needle/thorn,
@@ -3744,7 +3715,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 6
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/woods/west)
 "FC" = (
 /obj/structure/fluff/railing/border{
@@ -3838,9 +3809,8 @@
 /turf/open/floor/blocks,
 /area/under/cave/oldfort)
 "Gt" = (
-/obj/effect/decal/cobbleedge{
-	dir = 1;
-	icon_state = "borderfall"
+/obj/effect/decal/borderfall{
+	dir = 1
 	},
 /obj/structure/rack/shelf/biggest,
 /obj/item/reagent_containers/glass/cup/wooden{
@@ -3873,7 +3843,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 8
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/woods/west)
 "Gy" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -3933,7 +3903,7 @@
 /obj/effect/landmark/tram/queued_path/cargo_pre_enter{
 	next_path_id = "cargo_stop"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "GX" = (
 /obj/structure/closet/crate/chest/wicker,
@@ -3951,7 +3921,7 @@
 /obj/structure/industrial_lift/tram{
 	icon_state = "vertw"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "He" = (
 /obj/effect/decal/cobbleedge{
@@ -3985,14 +3955,14 @@
 /obj/structure/industrial_lift/tram{
 	icon_state = "vertw"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "Hm" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/open/floor/grass/yel,
 /area/outdoors/woods/west)
 "Hp" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/woods/berkleigh)
 "Hr" = (
 /obj/structure/flora/ausbushes/ywflowers,
@@ -4017,7 +3987,7 @@
 /turf/closed,
 /area)
 "HF" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/under/cave/oldfort)
 "HH" = (
 /obj/structure/rack{
@@ -4078,7 +4048,7 @@
 /turf/open/floor/naturalstone,
 /area/under/cave/oldtown)
 "Id" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/oldfort)
 "Ie" = (
 /turf/open/floor/ruinedwood/turned,
@@ -4105,7 +4075,7 @@
 /turf/open/floor/cobble,
 /area/outdoors/woods/west)
 "Im" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/indoors/lostkeep)
 "Io" = (
 /obj/structure/fluff/railing/wood{
@@ -4122,7 +4092,7 @@
 /obj/effect/landmark/tram/queued_path/cargo_exit{
 	next_path_id = "cargo_map_exit"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "Iq" = (
 /obj/item/natural/fibers,
@@ -4135,7 +4105,7 @@
 /obj/structure/fluff/walldeco/customflag{
 	pixel_y = 32
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/woods/west)
 "Iy" = (
 /turf/closed/mineral,
@@ -4224,7 +4194,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 4
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/lighthouse)
 "IW" = (
 /mob/living/simple_animal/hostile/skeleton/bow,
@@ -4284,7 +4254,7 @@
 /area/under/cave/oldfort)
 "JK" = (
 /obj/machinery/light/fueled/torchholder/r,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/indoors/lighthouse)
 "JL" = (
 /obj/structure/fluff/railing/border{
@@ -4307,7 +4277,7 @@
 /area/under/cave/oldfort)
 "JY" = (
 /obj/item/natural/stone,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/oldfort)
 "Ka" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -4405,7 +4375,7 @@
 /obj/structure/industrial_lift/tram{
 	icon_state = "wooden_floor"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "KP" = (
 /obj/structure/chair/stool,
@@ -4427,7 +4397,7 @@
 /area/indoors/lostkeep)
 "KX" = (
 /obj/structure/fluff/railing/border,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/lighthouse)
 "KZ" = (
 /turf/open/water/ocean,
@@ -4466,7 +4436,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 5
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/lighthouse)
 "Lq" = (
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -4504,7 +4474,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 5
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/woods/west)
 "LG" = (
 /obj/structure/fluff/railing/border,
@@ -4581,7 +4551,7 @@
 	pixel_x = 24;
 	pixel_y = -24
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "Mm" = (
 /obj/item/restraints/legcuffs/beartrap/armed/camouflage,
@@ -4724,7 +4694,7 @@
 /obj/structure/industrial_lift/tram{
 	icon_state = "vertw"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "Nt" = (
 /obj/item/bedsheet/cloth,
@@ -4832,7 +4802,7 @@
 /obj/structure/fluff/walldeco/customflag{
 	pixel_y = 25
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/woods/berkleigh)
 "OC" = (
 /obj/structure/fluff/railing/border{
@@ -4846,16 +4816,11 @@
 	pixel_x = 24;
 	pixel_y = 24
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "OD" = (
 /turf/open/floor/grass/yel,
 /area/outdoors/woods/west)
-"OE" = (
-/obj/item/weapon/spear,
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/blocks,
-/area/under/cave/oldfort)
 "OF" = (
 /obj/structure/flora/grass/thorn_bush,
 /turf/open/floor/dirt,
@@ -4937,7 +4902,7 @@
 	pixel_x = -24;
 	pixel_y = 24
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "Pc" = (
 /obj/structure/fluff/railing/border{
@@ -5039,7 +5004,7 @@
 	pixel_x = -24;
 	pixel_y = 24
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "PT" = (
 /obj/structure/closet/crate/chest/neu,
@@ -5071,7 +5036,7 @@
 	dir = 1;
 	icon_state = "border"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/woods/west)
 "Qc" = (
 /obj/structure/fluff/railing/wood{
@@ -5093,7 +5058,7 @@
 /obj/structure/fluff/walldeco/customflag{
 	pixel_y = 32
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/woods/west)
 "Qj" = (
 /obj/effect/decal/remains/wolf,
@@ -5233,7 +5198,7 @@
 /turf/open/floor/ruinedwood,
 /area/indoors/oldtown)
 "Rw" = (
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/oldtown)
 "Rx" = (
 /obj/structure/flora/grass/water/reeds,
@@ -5254,7 +5219,7 @@
 /obj/structure/industrial_lift/tram{
 	icon_state = "wooden_floor"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "RL" = (
 /obj/effect/decal/cleanable/blood/old,
@@ -5284,7 +5249,7 @@
 /area/outdoors/oldfort)
 "RS" = (
 /obj/structure/fluff/railing/border,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/woods/west)
 "RT" = (
 /obj/machinery/light/fueled/torchholder/r,
@@ -5305,7 +5270,7 @@
 /area/indoors/lostkeep)
 "Sd" = (
 /obj/item/natural/fibers,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/indoors/lostkeep)
 "Sg" = (
 /obj/effect/spawner/trap,
@@ -5324,11 +5289,6 @@
 "So" = (
 /turf/closed/mineral/bedrock,
 /area/under/cavewet)
-"Sp" = (
-/obj/effect/decal/cleanable/blood,
-/obj/item/weapon/spear,
-/turf/open/floor/blocks,
-/area/under/cave/oldfort)
 "Sv" = (
 /turf/open/floor/church,
 /area/indoors/lostkeep)
@@ -5560,7 +5520,7 @@
 	pixel_x = 24;
 	pixel_y = 24
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "TX" = (
 /turf/open/floor/church,
@@ -5671,7 +5631,7 @@
 	next_path_id = "point_4";
 	platform_code = "point_1"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "UZ" = (
 /obj/effect/decal/cobbleedge{
@@ -5710,7 +5670,7 @@
 	next_path_id = "cargo_return_2";
 	platform_code = "cargo_return_1"
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "Vz" = (
 /obj/structure/stairs/stone,
@@ -5799,8 +5759,7 @@
 /turf/open/floor/blocks/green,
 /area/indoors/lostkeep)
 "Wx" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "borderfall";
+/obj/effect/decal/borderfall{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt/dust,
@@ -5820,7 +5779,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 4
 	},
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/lighthouse)
 "WD" = (
 /obj/structure/handcart,
@@ -5860,7 +5819,7 @@
 /turf/open/floor/ruinedwood/darker,
 /area/outdoors/lighthouse)
 "WL" = (
-/obj/item/natural/dirtclod,
+/obj/item/natural/clod/dirt,
 /turf/open/floor/dirt/road,
 /area/outdoors/lostkeep)
 "WM" = (
@@ -5886,7 +5845,6 @@
 "WR" = (
 /obj/structure/winch{
 	dir = 1;
-	gid = "minotaurgate";
 	pixel_x = -7;
 	redstone_id = "minotaurgate"
 	},
@@ -5933,7 +5891,7 @@
 /turf/closed/wall/mineral/pipe,
 /area/under/cave/lostkeep)
 "XH" = (
-/obj/structure/fluff/clodpile,
+/obj/structure/fluff/clodpile/dirt,
 /turf/open/floor/blocks/stonered/tiny,
 /area/outdoors/lostkeep)
 "XL" = (
@@ -5950,7 +5908,7 @@
 /area/indoors/lighthouse)
 "XN" = (
 /obj/structure/industrial_lift/tram,
-/turf/open/transparent/openspace,
+/turf/open/openspace,
 /area/outdoors/river)
 "XQ" = (
 /obj/effect/decal/cleanable/blood/tracks,
@@ -14850,7 +14808,7 @@ rx
 tT
 Eu
 rx
-yW
+rx
 EK
 rx
 rx
@@ -15870,7 +15828,7 @@ EV
 EV
 EV
 xC
-rB
+RQ
 RQ
 KA
 JM
@@ -16139,7 +16097,7 @@ Sz
 Sz
 zy
 wD
-li
+wD
 XY
 Fh
 wD
@@ -16649,7 +16607,7 @@ rx
 Th
 rx
 qq
-Sp
+ks
 wD
 GE
 wD
@@ -18456,7 +18414,7 @@ qq
 KD
 KA
 sm
-xJ
+qq
 KA
 kl
 rx
@@ -18695,7 +18653,7 @@ Ln
 FN
 xC
 qF
-Ds
+tc
 KA
 rx
 qq
@@ -20504,7 +20462,7 @@ mb
 hW
 hW
 lR
-OE
+hW
 hW
 qq
 KA

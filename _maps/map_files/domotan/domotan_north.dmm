@@ -64,12 +64,10 @@
 	icon_state = "passage1";
 	redstone_id = "tutorial_gates_north"
 	},
-/turf/open/floor/cobble,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble)
 "aH" = (
 /obj/machinery/light/fueled/torchholder/l,
-/turf/open/floor/grass/cold,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/grass/cold)
 "aJ" = (
 /obj/item/reagent_containers/food/snacks/saltfish{
 	icon_state = "carpdried"
@@ -115,11 +113,9 @@
 /area/indoors/shelter)
 "aZ" = (
 /obj/structure/train/carriage/not_train/far_travel,
-/turf/open/floor/metal,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/metal)
 "bd" = (
-/turf/open/floor/grass/cold,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/grass/cold)
 "be" = (
 /turf/open/floor/dirt,
 /area/under/cave)
@@ -129,8 +125,7 @@
 /area/indoors/town)
 "bl" = (
 /obj/structure/plough,
-/turf/open/floor/dirt/road,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/dirt/road)
 "bo" = (
 /obj/structure/rack/shelf/big{
 	pixel_y = 0
@@ -173,8 +168,7 @@
 /obj/item/weapon/mace/spiked,
 /obj/structure/rack,
 /obj/item/weapon/flail,
-/turf/open/floor/grass/red,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/grass/red)
 "ca" = (
 /obj/item/cooking/pan,
 /turf/open/floor/concrete,
@@ -228,8 +222,7 @@
 	pixel_x = 8;
 	pixel_y = 10
 	},
-/turf/open/floor/blocks,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/blocks)
 "cj" = (
 /turf/open/floor/twig/platform,
 /area/outdoors/beach)
@@ -240,11 +233,10 @@
 "cV" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/open/floor/snow,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "cZ" = (
 /obj/structure/flora/grass,
-/turf/open/floor/snow,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/snow)
 "db" = (
 /obj/structure/closet/dirthole/grave,
 /turf/open/floor/dirt,
@@ -282,10 +274,10 @@
 	dir = 8
 	},
 /turf/open/floor/dirt/road,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "dq" = (
 /turf/open/water/ocean/deep,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "dv" = (
 /obj/structure/rack/shelf/biggest,
 /turf/open/floor/twig,
@@ -328,16 +320,14 @@
 /obj/effect/decal/cobbleedge{
 	icon_state = "cobbleedge-sread"
 	},
-/turf/open/floor/cobble/mossy,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble/mossy)
 "dX" = (
 /obj/machinery/light/fueled/torchholder/r,
 /turf/open/floor/twig,
 /area/indoors/shelter)
 "ec" = (
 /obj/machinery/light/fueled/torchholder/r,
-/turf/open/floor/dirt,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/dirt)
 "eg" = (
 /mob/living/simple_animal/pet/cat/black{
 	name = "Mortimer"
@@ -346,16 +336,14 @@
 /area/outdoors/town)
 "ej" = (
 /obj/structure/flora/grass/water,
-/turf/open/water/ocean/deep,
-/area/outdoors/beach/tutorial)
+/turf/open/water/ocean/deep)
 "en" = (
 /obj/structure/lever/wall{
 	dir = 8;
 	pixel_x = -2;
 	redstone_id = "tutorial_gates_south"
 	},
-/turf/open/floor/cobble,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble)
 "es" = (
 /obj/structure/table/wood{
 	icon_state = "tablewood1"
@@ -364,11 +352,9 @@
 /area/indoors)
 "et" = (
 /obj/structure/composter/halffull,
-/turf/open/floor/dirt,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/dirt)
 "ew" = (
-/turf/open/water/ocean/deep,
-/area/outdoors/beach/tutorial)
+/turf/open/water/ocean/deep)
 "eG" = (
 /obj/structure/table/wood{
 	icon_state = "longtable";
@@ -397,21 +383,20 @@
 /obj/item/weapon/thresher{
 	pixel_x = -6
 	},
-/turf/open/floor/dirt/road,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/dirt/road)
 "eO" = (
 /obj/machinery/light/fueled/lanternpost/fixed{
 	pixel_x = -2
 	},
 /turf/open/floor/snow,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "eS" = (
 /obj/structure/closet/crate/chest/wicker,
 /turf/open/floor/snow,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "eU" = (
 /turf/open/floor/snow/patchy,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "fb" = (
 /obj/item/reagent_containers/food/snacks/crow,
 /turf/open/floor/sand,
@@ -441,12 +426,10 @@
 	icon_state = "largetable"
 	},
 /obj/machinery/light/fueled/torchholder/r,
-/turf/open/floor/dirt,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/dirt)
 "fB" = (
 /obj/item/weapon/pick/stone,
-/turf/open/floor/dirt,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/dirt)
 "fF" = (
 /obj/item/natural/rock/salt,
 /turf/open/floor/naturalstone,
@@ -460,7 +443,7 @@
 	dir = 4
 	},
 /turf/open/floor/snow,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "fT" = (
 /turf/closed/wall/mineral/wooddark,
 /area/outdoors/town)
@@ -468,12 +451,10 @@
 /obj/effect/decal/cobbleedge{
 	icon_state = "cobbleedge-sread"
 	},
-/turf/open/floor/dirt,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/dirt)
 "fW" = (
 /mob/living/simple_animal/hostile/retaliate/cow,
-/turf/open/floor/grass/cold,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/grass/cold)
 "fX" = (
 /turf/closed/wall/mineral/stone,
 /area/indoors/shelter)
@@ -483,8 +464,7 @@
 	dir = 10;
 	icon_state = "cobbleedge-w"
 	},
-/turf/open/floor/cobble/mossy,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble/mossy)
 "ge" = (
 /obj/item/clothing/gloves/chain/iron,
 /obj/item/flashlight/flare/torch/lantern,
@@ -493,11 +473,10 @@
 /obj/item/clothing/head/helmet/bascinet,
 /obj/item/clothing/head/helmet/kettle,
 /obj/item/clothing/head/helmet,
-/turf/open/floor/cobble,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble)
 "gi" = (
 /turf/closed/wall/mineral/stone/moss,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "gk" = (
 /obj/item/bedsheet/pelt,
 /turf/open/floor/ruinedwood,
@@ -505,12 +484,11 @@
 "gm" = (
 /obj/structure/closet/crate/chest/old_crate,
 /obj/item/rope,
-/turf/open/floor/cobble,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble)
 "go" = (
 /obj/structure/flora/ausbushes/genericbush,
 /turf/open/floor/snow,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "gp" = (
 /turf/open/floor/churchmarble,
 /area/indoors/town/church)
@@ -528,17 +506,16 @@
 /obj/item/ingot/iron,
 /obj/item/ingot/iron,
 /obj/item/ingot/iron,
-/turf/open/floor/cobble,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble)
 "gH" = (
 /turf/closed/mineral/random/med,
 /area/under/cavewet)
 "gJ" = (
 /turf/open/floor/cobble,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "gN" = (
 /turf/open/water/ocean,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "hh" = (
 /turf/open/floor/ruinedwood,
 /area/outdoors/woods)
@@ -559,8 +536,7 @@
 /obj/structure/handcart{
 	dir = 8
 	},
-/turf/open/floor/snow,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/snow)
 "ie" = (
 /obj/structure/closet/crate/chest/neu,
 /obj/item/ingot/iron,
@@ -580,8 +556,7 @@
 /obj/effect/decal/cobbleedge{
 	icon_state = "cobbleedge-n"
 	},
-/turf/open/floor/cobble/mossy,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble/mossy)
 "iF" = (
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town)
@@ -594,7 +569,7 @@
 "iU" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/open/floor/grass/cold,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "je" = (
 /turf/open/water/ocean/deep,
 /area/under/cave)
@@ -645,17 +620,17 @@
 "jI" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/snow,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "jM" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8
 	},
 /turf/open/floor/ruinedwood/turned,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "jT" = (
 /obj/structure/flora/grass,
 /turf/open/floor/dirt/road,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "jU" = (
 /obj/structure/closet/crate/chest/wicker{
 	opened = 1
@@ -664,10 +639,10 @@
 /area/outdoors/beach)
 "jW" = (
 /turf/open/floor/grass/cold,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "jX" = (
 /turf/open/floor/blocks/stonered/tiny,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "jZ" = (
 /obj/structure/lever/wall{
 	dir = 8;
@@ -678,8 +653,7 @@
 	dir = 10;
 	icon_state = "cobbleedge-e"
 	},
-/turf/open/floor/dirt,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/dirt)
 "kb" = (
 /obj/structure/flora/grass/bush_meagre,
 /obj/structure/fluff/walldeco/church/line{
@@ -694,7 +668,7 @@
 	aallmig = "z1-northeast1"
 	},
 /turf/open/floor/snow,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "km" = (
 /turf/open/water/ocean,
 /area/outdoors/woods)
@@ -705,15 +679,13 @@
 	aallmig = "z2-northeast1"
 	},
 /turf/open/floor/naturalstone,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "ku" = (
 /obj/machinery/light/fueled/torchholder/l,
-/turf/open/floor/snow,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/snow)
 "kC" = (
 /obj/structure/closet/crate/chest/wicker,
-/turf/open/floor/cobble,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble)
 "kI" = (
 /mob/living/simple_animal/hostile/retaliate/bigrat,
 /turf/open/floor/naturalstone,
@@ -721,14 +693,13 @@
 "kL" = (
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/dirt/road,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "kN" = (
 /turf/open/floor/cobble/mossy,
 /area/outdoors/woods)
 "kO" = (
 /obj/structure/flora/grass/swampweed,
-/turf/open/floor/snow,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/snow)
 "lc" = (
 /obj/structure/table/wood{
 	icon_state = "tablewood1"
@@ -738,7 +709,7 @@
 "ls" = (
 /obj/structure/fluff/railing/wood,
 /turf/open/floor/ruinedwood,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "lu" = (
 /turf/open/floor/dirt/road,
 /area/under/cave)
@@ -749,12 +720,10 @@
 /area/outdoors/beach)
 "lx" = (
 /mob/living/simple_animal/hostile/retaliate/chicken,
-/turf/open/floor/snow,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/snow)
 "lB" = (
 /obj/structure/flora/grass/water/reeds,
-/turf/open/water/ocean,
-/area/outdoors/beach/tutorial)
+/turf/open/water/ocean)
 "lI" = (
 /turf/open/water/cleanshallow,
 /area/outdoors/woods)
@@ -776,11 +745,10 @@
 "lW" = (
 /obj/machinery/light/fueled/torchholder/r,
 /turf/open/floor/snow,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "lY" = (
 /obj/machinery/light/fueled/torchholder/l,
-/turf/open/floor/blocks/green,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/blocks/green)
 "mo" = (
 /obj/structure/fluff/railing/wood,
 /turf/open/water/ocean,
@@ -788,11 +756,11 @@
 "mp" = (
 /obj/structure/flora/grass,
 /turf/open/floor/grass/cold,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "mB" = (
 /obj/structure/flora/grass/water,
 /turf/open/water/cleanshallow,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "mG" = (
 /turf/open/floor/wood/nosmooth,
 /area/indoors/town)
@@ -832,8 +800,7 @@
 	icon_state = "largetable";
 	dir = 10
 	},
-/turf/open/floor/dirt,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/dirt)
 "mN" = (
 /obj/structure/fluff/railing/border{
 	dir = 4
@@ -842,23 +809,21 @@
 /area/outdoors/beach)
 "mY" = (
 /turf/open/water/marsh,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "ng" = (
 /turf/open/floor/cobble/mossy,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "nh" = (
-/turf/open/floor/blocks/stonered,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/blocks/stonered)
 "nj" = (
 /obj/structure/flora/grass/water,
 /turf/open/water/ocean,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "no" = (
 /obj/structure/handcart{
 	dir = 4
 	},
-/turf/open/floor/snow,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/snow)
 "nq" = (
 /turf/open/floor/dirt/road,
 /area/indoors/town)
@@ -880,8 +845,7 @@
 /obj/item/clothing/cloak/apron/cook{
 	name = "barber's apron"
 	},
-/turf/open/floor/blocks/green,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/blocks/green)
 "nS" = (
 /obj/structure/chair/stool,
 /turf/open/floor/ruinedwood,
@@ -892,7 +856,7 @@
 	pixel_y = 10
 	},
 /turf/open/floor/dirt/road,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "nY" = (
 /obj/item/weapon/shovel,
 /obj/item/weapon/shovel,
@@ -909,8 +873,7 @@
 /obj/item/weapon/shovel/small{
 	pixel_x = -7
 	},
-/turf/open/floor/dirt/road,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/dirt/road)
 "nZ" = (
 /obj/item/bait/sweet,
 /obj/item/bait/sweet,
@@ -924,18 +887,14 @@
 /area/indoors/town)
 "ob" = (
 /obj/item/weapon/mace/goden/steel,
-/obj/item/weapon/spear,
-/obj/item/weapon/spear,
-/turf/open/floor/cobble,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble)
 "oc" = (
 /obj/structure/fluff/railing/wood,
 /turf/open/floor/ruinedwood,
 /area/outdoors/woods)
 "oh" = (
 /obj/item/natural/rock,
-/turf/open/floor/grass/cold,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/grass/cold)
 "os" = (
 /obj/structure/table/wood{
 	dir = 1;
@@ -952,7 +911,7 @@
 "oB" = (
 /obj/machinery/light/fueled/lanternpost/fixed,
 /turf/open/floor/snow,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "oF" = (
 /obj/structure/fluff/railing/border{
 	dir = 8
@@ -987,7 +946,7 @@
 /area/outdoors/beach)
 "oT" = (
 /turf/open/floor/ruinedwood,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "oV" = (
 /turf/open/floor/ruinedwood,
 /area/indoors/shelter)
@@ -995,8 +954,7 @@
 /obj/effect/decal/cobbleedge{
 	icon_state = "cobbleedge-n"
 	},
-/turf/open/floor/snow,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/snow)
 "pi" = (
 /obj/structure/fluff/traveltile{
 	aallmig = "z1-northsouth4";
@@ -1017,17 +975,15 @@
 	dir = 10;
 	icon_state = "cobbleedge-w"
 	},
-/turf/open/floor/cobble/mossy,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble/mossy)
 "po" = (
 /obj/structure/fluff/signage{
 	name = "CROSSROADS - SOUTH"
 	},
 /turf/open/floor/snow,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "pu" = (
-/turf/open/water/ocean,
-/area/outdoors/beach/tutorial)
+/turf/open/water/ocean)
 "pE" = (
 /turf/open/floor/cobble/mossy,
 /area/under/cave)
@@ -1044,7 +1000,7 @@
 	aportalid = "z2-northsouth1-in"
 	},
 /turf/open/floor/dirt/road,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "pS" = (
 /obj/structure/closet/crate/chest/crate,
 /turf/open/floor/naturalstone,
@@ -1056,7 +1012,7 @@
 "pZ" = (
 /obj/structure/fluff/railing/wood,
 /turf/open/floor/dirt/road,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "qm" = (
 /obj/structure/chair/stool,
 /turf/open/floor/cobble,
@@ -1133,8 +1089,7 @@
 /area/indoors/town)
 "rb" = (
 /obj/structure/flora/grass/water,
-/turf/open/water/ocean,
-/area/outdoors/beach/tutorial)
+/turf/open/water/ocean)
 "re" = (
 /obj/machinery/light/fueled/firebowl/standing,
 /turf/open/floor/grass/yel,
@@ -1149,7 +1104,7 @@
 /turf/open/floor/dirt/road,
 /area/outdoors/beach)
 "rt" = (
-/obj/structure/fluff/clodpile,
+/obj/structure/fluff/clodpile/dirt,
 /turf/open/floor/grass/yel,
 /area/outdoors/town)
 "rx" = (
@@ -1183,12 +1138,11 @@
 /obj/item/reagent_containers/glass/mortar,
 /obj/item/pestle,
 /obj/item/pestle,
-/turf/open/floor/blocks/green,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/blocks/green)
 "sg" = (
 /obj/structure/flora/grass/water/reeds,
 /turf/open/water/cleanshallow,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "sp" = (
 /obj/structure/fluff/railing/border,
 /turf/open/floor/twig,
@@ -1198,11 +1152,9 @@
 	pixel_x = -6;
 	pixel_y = 15
 	},
-/turf/open/floor/cobble/mossy,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble/mossy)
 "sv" = (
-/turf/open/floor/blocks/green,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/blocks/green)
 "sw" = (
 /obj/machinery/light/fueled/firebowl/standing,
 /turf/open/floor/dirt/road,
@@ -1218,8 +1170,7 @@
 "sK" = (
 /obj/structure/closet/crate/chest/old_crate,
 /obj/item/fishingrod,
-/turf/open/floor/cobble,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble)
 "sQ" = (
 /obj/item/bedsheet/double_pelt,
 /turf/open/floor/twig,
@@ -1233,8 +1184,7 @@
 	pixel_x = -6;
 	pixel_y = 15
 	},
-/turf/open/floor/snow,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/snow)
 "ta" = (
 /obj/structure/roguetent,
 /turf/open/floor/naturalstone,
@@ -1248,7 +1198,7 @@
 /area/indoors)
 "tq" = (
 /turf/closed/mineral/bedrock,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "tr" = (
 /obj/structure/bars/cemetery,
 /turf/open/water/ocean/deep,
@@ -1295,7 +1245,7 @@
 "uS" = (
 /obj/structure/flora/grass/pyroclasticflowers,
 /turf/open/floor/dirt/road,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "uX" = (
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/cobblerock,
@@ -1311,7 +1261,7 @@
 	aportalid = "z2-northsouth3-in"
 	},
 /turf/open/floor/cobble/mossy,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "ve" = (
 /obj/structure/door/stone,
 /obj/effect/mapping_helpers/access/keyset/church/grave,
@@ -1327,7 +1277,7 @@
 	dir = 4
 	},
 /turf/open/floor/ruinedwood/turned,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "vx" = (
 /obj/machinery/light/fueled/torchholder/r{
 	dir = 4
@@ -1349,7 +1299,7 @@
 "vB" = (
 /obj/structure/table/church/m,
 /turf/open/floor/dirt/road,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "vE" = (
 /obj/structure/flora/grass/water,
 /obj/structure/flora/grass/water,
@@ -1363,12 +1313,11 @@
 /turf/open/floor/dirt,
 /area/under/cave)
 "vL" = (
-/turf/open/floor/dirt,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/dirt)
 "vW" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/grass/cold,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "vY" = (
 /obj/structure/fluff/traveltile{
 	aallmig = "z1-graveyard";
@@ -1389,8 +1338,7 @@
 /obj/item/bait/sweet,
 /obj/item/bait/sweet,
 /obj/machinery/light/fueled/torchholder/c,
-/turf/open/floor/cobble,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble)
 "wg" = (
 /obj/structure/table/wood{
 	dir = 1;
@@ -1420,8 +1368,7 @@
 /area/indoors)
 "wx" = (
 /obj/item/weapon/hammer,
-/turf/open/floor/cobble,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble)
 "wB" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/naturalstone,
@@ -1429,10 +1376,9 @@
 "wE" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/dirt/road,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "wF" = (
-/turf/closed/mineral/random/med,
-/area/outdoors/beach/tutorial)
+/turf/closed/mineral/random/med)
 "wG" = (
 /obj/structure/flora/grass/water/reeds,
 /turf/open/water/ocean/deep,
@@ -1469,8 +1415,7 @@
 /obj/item/reagent_containers/powder/flour,
 /obj/item/reagent_containers/powder/flour,
 /obj/item/reagent_containers/powder/flour,
-/turf/open/floor/cobble,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble)
 "xR" = (
 /obj/item/natural/stone,
 /obj/machinery/light/fueled/torchholder/l,
@@ -1509,7 +1454,7 @@
 "yn" = (
 /obj/structure/flora/newtree,
 /turf/open/floor/grass/cold,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "ys" = (
 /obj/structure/flora/grass/bush,
 /turf/open/floor/dirt,
@@ -1527,7 +1472,7 @@
 "yA" = (
 /obj/structure/chair/bench,
 /turf/open/floor/snow,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "yK" = (
 /obj/structure/table/church{
 	icon_state = "churchtable_end"
@@ -1547,7 +1492,7 @@
 "yW" = (
 /obj/structure/flora/ausbushes/palebush,
 /turf/open/floor/snow,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "yZ" = (
 /obj/structure/bed/shit{
 	name = "makeshift bed"
@@ -1555,19 +1500,16 @@
 /turf/open/floor/naturalstone,
 /area/under/cave)
 "ze" = (
-/turf/closed/wall/mineral/stone,
-/area/outdoors/beach/tutorial)
+/turf/closed/wall/mineral/stone)
 "zl" = (
 /turf/closed/mineral,
 /area/indoors/town/church)
 "zp" = (
 /obj/item/natural/rock,
-/turf/open/floor/dirt,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/dirt)
 "zq" = (
 /obj/machinery/light/fueled/torchholder/r,
-/turf/open/floor/snow,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/snow)
 "zw" = (
 /obj/structure/flora/grass/water/reeds,
 /turf/open/water/ocean,
@@ -1579,7 +1521,7 @@
 /area/indoors/town)
 "At" = (
 /turf/open/water/cleanshallow,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "Av" = (
 /obj/structure/flora/grass/bush_meagre,
 /turf/open/floor/grass/yel,
@@ -1598,8 +1540,7 @@
 /area/indoors)
 "AK" = (
 /obj/machinery/anvil,
-/turf/open/floor/cobble,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble)
 "AL" = (
 /obj/item/kitchen/rollingpin,
 /obj/machinery/light/fueled/torchholder/c,
@@ -1646,12 +1587,11 @@
 /turf/open/floor/ruinedwood,
 /area/indoors/shelter)
 "Ce" = (
-/turf/open/floor/ruinedwood/turned,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/ruinedwood/turned)
 "Ci" = (
 /obj/structure/flora/newtree,
 /turf/open/floor/snow,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "Cj" = (
 /obj/structure/flora/grass/water,
 /turf/open/water/ocean,
@@ -1661,12 +1601,11 @@
 	icon_state = "stairs";
 	dir = 1
 	},
-/turf/open/floor/cobble,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble)
 "Cq" = (
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/grass/cold,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "Cs" = (
 /obj/item/natural/rock,
 /turf/open/floor/naturalstone,
@@ -1674,15 +1613,15 @@
 "Ct" = (
 /obj/structure/flora/ausbushes/palebush,
 /turf/open/floor/dirt/road,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "Cw" = (
 /obj/structure/flora/grass/water,
 /turf/open/water/ocean/deep,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "CA" = (
 /obj/machinery/light/fueled/torchholder/r,
 /turf/open/floor/dirt/road,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "CF" = (
 /obj/structure/flora/grass/water,
 /obj/structure/flora/grass/water/reeds,
@@ -1690,12 +1629,10 @@
 /area/outdoors/beach)
 "CG" = (
 /obj/structure/rack/shelf/biggest,
-/turf/open/floor/blocks/stonered/tiny,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/blocks/stonered/tiny)
 "CL" = (
 /obj/item/reagent_containers/glass/bucket/wooden,
-/turf/open/floor/cobble,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble)
 "CN" = (
 /mob/living/simple_animal/hostile/skeleton/spear,
 /turf/open/floor/twig,
@@ -1706,7 +1643,7 @@
 "Dp" = (
 /obj/structure/flora/grass/pyroclasticflowers,
 /turf/open/floor/snow,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "Ds" = (
 /obj/item/natural/rock/coal,
 /turf/open/floor/naturalstone,
@@ -1760,8 +1697,7 @@
 /turf/open/floor/dirt/road,
 /area/outdoors/woods)
 "Eg" = (
-/turf/open/floor/snow,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/snow)
 "Ep" = (
 /turf/closed,
 /area/indoors)
@@ -1771,7 +1707,7 @@
 "Et" = (
 /obj/structure/flora/rock/jungle,
 /turf/open/floor/grass/cold,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "EJ" = (
 /obj/machinery/light/fueled/torchholder/l,
 /turf/open/floor/naturalstone,
@@ -1779,7 +1715,7 @@
 "EZ" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/snow,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "Fb" = (
 /obj/effect/decal/cobbleedge{
 	dir = 10;
@@ -1801,7 +1737,7 @@
 	aportalid = "z1-townsouth2-out"
 	},
 /turf/open/floor/dirt/road,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "Fk" = (
 /obj/structure/fluff/railing/border{
 	dir = 5
@@ -1826,8 +1762,7 @@
 /area/under/cave)
 "FB" = (
 /obj/machinery/light/fueled/torchholder/c,
-/turf/open/floor/snow,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/snow)
 "FI" = (
 /turf/open/floor/sand,
 /area/outdoors/woods)
@@ -1850,8 +1785,7 @@
 	pixel_y = 25;
 	pixel_x = 17
 	},
-/turf/open/floor/snow,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/snow)
 "Gc" = (
 /obj/structure/roguetent,
 /turf/open/floor/twig/platform,
@@ -1887,8 +1821,7 @@
 /area/indoors/town/church)
 "GC" = (
 /obj/structure/roguerock,
-/turf/open/floor/snow,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/snow)
 "GF" = (
 /obj/structure/flora/grass/water,
 /obj/structure/flora/grass/water/reeds,
@@ -1912,20 +1845,19 @@
 "Hj" = (
 /obj/structure/fluff/railing/wood,
 /turf/open/water/ocean,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "Hw" = (
 /turf/open/floor/cobblerock,
 /area/outdoors/woods)
 "Hz" = (
 /turf/open/floor/snow,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "HC" = (
 /obj/effect/decal/cobbleedge{
 	dir = 10;
 	icon_state = "cobbleedge-w"
 	},
-/turf/open/floor/snow,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/snow)
 "HJ" = (
 /turf/open/floor/twig,
 /area/indoors/shelter)
@@ -1935,7 +1867,7 @@
 	aportalid = "z1-townsouth1-out"
 	},
 /turf/open/floor/dirt/road,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "HW" = (
 /turf/closed/wall/mineral/wooddark,
 /area/indoors/shelter)
@@ -1976,8 +1908,7 @@
 /turf/open/floor/sand,
 /area/outdoors/beach)
 "IQ" = (
-/turf/open/floor/cobble,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble)
 "IS" = (
 /obj/structure/fluff/railing/border{
 	dir = 4
@@ -1986,15 +1917,14 @@
 /area/under/cave)
 "IW" = (
 /obj/structure/fluff/statue/tdummy,
-/turf/open/floor/dirt/road,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/dirt/road)
 "IX" = (
 /obj/structure/fluff/railing/wood,
 /turf/open/floor/snow,
 /area/outdoors/woods)
 "IY" = (
 /turf/open/floor/naturalstone,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "Ja" = (
 /obj/machinery/light/fueled/firebowl/standing/blue,
 /turf/open/floor/churchrough,
@@ -2004,8 +1934,7 @@
 /turf/open/floor/dirt,
 /area/under/cave)
 "Jl" = (
-/turf/open/floor/cobble/mossy,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble/mossy)
 "Jn" = (
 /obj/item/reagent_containers/glass/bucket/wooden,
 /turf/open/floor/twig,
@@ -2023,15 +1952,14 @@
 /area/indoors/town)
 "Jy" = (
 /obj/machinery/light/fueled/torchholder/l,
-/turf/open/floor/cobble,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble)
 "JC" = (
 /obj/structure/fluff/statue/small{
 	desc = "A statue of a dryad, a manifestation of an elemental spirit of Earth. This one possesses a featureless face, evoking the anonymity of the goddess Gani.";
 	name = "dryad statue"
 	},
 /turf/open/floor/snow,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "JE" = (
 /obj/structure/rack/shelf/big{
 	icon_state = "shelf_biggest";
@@ -2064,8 +1992,7 @@
 /area/under/cave)
 "JW" = (
 /obj/item/weapon/tongs,
-/turf/open/floor/cobble,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble)
 "JX" = (
 /obj/structure/bed/shit{
 	name = "makeshift bed"
@@ -2074,34 +2001,31 @@
 /area/under/cave)
 "Ke" = (
 /obj/structure/fluff/statue/knightalt/r,
-/turf/open/floor/snow,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/snow)
 "Kr" = (
 /turf/open/floor/dirt,
 /area/outdoors/woods)
 "Kw" = (
 /obj/structure/well,
 /turf/open/floor/dirt/road,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "Kx" = (
 /obj/structure/chair/stool,
 /turf/open/floor/cobblerock,
 /area/indoors/shelter)
 "KA" = (
 /obj/structure/fluff/statue/knightalt,
-/turf/open/floor/snow,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/snow)
 "KB" = (
 /obj/structure/well,
-/turf/open/floor/cobble/mossy,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble/mossy)
 "KF" = (
 /obj/structure/flora/grass,
 /turf/open/floor/dirt,
 /area/outdoors/town)
 "KG" = (
 /turf/open/floor/dirt,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "KP" = (
 /obj/structure/closet/crate/chest/crate,
 /turf/open/floor/twig,
@@ -2115,15 +2039,14 @@
 "LB" = (
 /obj/structure/flora/grass/water,
 /turf/open/water/marsh,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "LH" = (
 /obj/item/gun/ballistic/revolver/grenadelauncher/crossbow,
 /obj/item/gun/ballistic/revolver/grenadelauncher/crossbow,
 /obj/item/gun/ballistic/revolver/grenadelauncher/crossbow,
 /obj/item/gun/ballistic/revolver/grenadelauncher/bow,
 /obj/item/gun/ballistic/revolver/grenadelauncher/bow,
-/turf/open/floor/cobble,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble)
 "LP" = (
 /obj/structure/table/wood{
 	dir = 8;
@@ -2232,8 +2155,7 @@
 	pixel_x = -2;
 	redstone_id = "tutorial_gates_north"
 	},
-/turf/open/floor/snow,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/snow)
 "ME" = (
 /turf/closed/mineral/bedrock,
 /area/outdoors/woods)
@@ -2284,8 +2206,7 @@
 	},
 /obj/item/needle,
 /obj/item/needle,
-/turf/open/floor/blocks/stonered/tiny,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/blocks/stonered/tiny)
 "MQ" = (
 /obj/machinery/light/fueled/firebowl/standing/blue,
 /obj/structure/fluff/walldeco/church/line{
@@ -2306,7 +2227,7 @@
 	name = "OLD DOMA - NORTH"
 	},
 /turf/open/floor/snow,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "Nh" = (
 /obj/structure/table/church{
 	icon_state = "churchtable_end"
@@ -2315,7 +2236,7 @@
 	pixel_y = 10
 	},
 /turf/open/floor/dirt/road,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "Nl" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/sand,
@@ -2327,11 +2248,10 @@
 	aallmig = "z1-northsouth2"
 	},
 /turf/open/floor/sand,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "Nr" = (
 /obj/structure/flora/grass,
-/turf/open/floor/grass/cold,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/grass/cold)
 "Ns" = (
 /obj/item/natural/stone,
 /obj/item/natural/stone,
@@ -2353,11 +2273,10 @@
 /obj/effect/decal/cobbleedge{
 	icon_state = "cobbleedge-sread"
 	},
-/turf/open/floor/cobble,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble)
 "NU" = (
 /turf/closed/wall/mineral/stone,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "NZ" = (
 /obj/structure/fluff/railing/wood,
 /turf/open/water/ocean/deep,
@@ -2369,7 +2288,7 @@
 	aportalid = "z2-northsouth2-in"
 	},
 /turf/open/floor/dirt/road,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "Oh" = (
 /obj/structure/fluff/railing/border{
 	icon_state = "border";
@@ -2389,7 +2308,7 @@
 	dir = 4
 	},
 /turf/open/floor/dirt/road,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "OD" = (
 /obj/structure/fluff/railing/border{
 	dir = 1;
@@ -2424,8 +2343,7 @@
 	pixel_x = 17
 	},
 /obj/structure/rack/shelf/big,
-/turf/open/floor/cobble,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble)
 "ON" = (
 /obj/structure/table/wood{
 	icon_state = "tablewood1"
@@ -2448,16 +2366,15 @@
 	pixel_y = 6
 	},
 /turf/open/floor/snow,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "OX" = (
 /turf/open/floor/dirt/road,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "OZ" = (
 /obj/structure/chair/bench{
 	pixel_y = 16
 	},
-/turf/open/floor/cobble,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble)
 "PM" = (
 /obj/structure/bed/shit{
 	name = "makeshift bed"
@@ -2466,10 +2383,9 @@
 /area/indoors/shelter)
 "PP" = (
 /turf/closed/mineral,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "PS" = (
-/turf/open/water/cleanshallow,
-/area/outdoors/beach/tutorial)
+/turf/open/water/cleanshallow)
 "PT" = (
 /turf/open/water/ocean/deep,
 /area/under/cavewet)
@@ -2493,15 +2409,13 @@
 /turf/open/floor/dirt,
 /area/under/cave)
 "QD" = (
-/turf/open/floor/dirt/road,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/dirt/road)
 "QF" = (
 /obj/structure/ladder,
-/turf/open/floor/wood/nosmooth,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/wood/nosmooth)
 "QS" = (
 /turf/open/floor/sand,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "QT" = (
 /obj/machinery/light/fueled/firebowl/standing,
 /turf/open/floor/dirt,
@@ -2518,8 +2432,7 @@
 /turf/open/water/ocean/deep,
 /area/outdoors/beach)
 "Rd" = (
-/turf/closed/mineral/bedrock,
-/area/outdoors/beach/tutorial)
+/turf/closed/mineral/bedrock)
 "Rs" = (
 /obj/structure/table/wood{
 	icon_state = "longtable"
@@ -2543,11 +2456,11 @@
 "RM" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass/cold,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "RO" = (
 /obj/structure/flora/ausbushes/genericbush,
 /turf/open/floor/dirt/road,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "RQ" = (
 /obj/structure/fluff/millstone,
 /turf/open/floor/tile/checkeralt,
@@ -2559,10 +2472,9 @@
 	pixel_y = 6
 	},
 /turf/open/floor/dirt/road,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "Sl" = (
-/turf/closed/mineral,
-/area/outdoors/beach/tutorial)
+/turf/closed/mineral)
 "Sn" = (
 /obj/structure/fluff/railing/wood,
 /turf/open/water/ocean,
@@ -2573,14 +2485,12 @@
 /obj/item/flashlight/flare/torch/lantern,
 /obj/item/flashlight/flare/torch/lantern,
 /obj/structure/rack/shelf/biggest,
-/turf/open/floor/blocks/stonered,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/blocks/stonered)
 "Su" = (
 /obj/effect/landmark/events/testportal{
 	aportalloc = "tutorial"
 	},
-/turf/open/floor/cobble,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble)
 "Sy" = (
 /obj/structure/closet/crate/chest,
 /obj/item/reagent_containers/food/snacks/butter,
@@ -2594,15 +2504,13 @@
 /turf/open/floor/cobble/mossy,
 /area/indoors/shelter)
 "SF" = (
-/turf/closed/wall/mineral/wooddark,
-/area/outdoors/beach/tutorial)
+/turf/closed/wall/mineral/wooddark)
 "SI" = (
 /obj/structure/flora/grass/water,
 /turf/open/water/ocean/deep,
 /area/outdoors/beach)
 "SJ" = (
-/turf/open/floor/grass/red,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/grass/red)
 "SR" = (
 /turf/open/floor/dirt,
 /area/under/cavewet)
@@ -2622,8 +2530,7 @@
 /turf/open/floor/twig,
 /area/outdoors/beach)
 "Tt" = (
-/turf/open/floor/blocks/stonered/tiny,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/blocks/stonered/tiny)
 "Ty" = (
 /turf/closed/mineral/random/med,
 /area/under/cave)
@@ -2667,8 +2574,7 @@
 /area/under/cave)
 "TU" = (
 /obj/item/natural/rock,
-/turf/open/floor/snow,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/snow)
 "TZ" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/twig,
@@ -2682,8 +2588,7 @@
 	icon_state = "passage1";
 	redstone_id = "tutorial_gates_south"
 	},
-/turf/open/floor/cobble,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble)
 "Uh" = (
 /obj/structure/fluff/railing/border{
 	dir = 8
@@ -2715,13 +2620,12 @@
 	dir = 10;
 	icon_state = "cobbleedge-w"
 	},
-/turf/open/floor/dirt,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/dirt)
 "Va" = (
 /obj/structure/flora/grass/water,
 /obj/structure/flora/grass/water/reeds,
 /turf/open/water/ocean/deep,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "Vb" = (
 /obj/structure/flora/grass/water,
 /obj/structure/flora/grass/water,
@@ -2809,7 +2713,7 @@
 	pixel_x = 17
 	},
 /turf/open/floor/snow,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "WW" = (
 /turf/open/floor/cobble,
 /area/indoors/town)
@@ -2826,11 +2730,11 @@
 "Xg" = (
 /obj/structure/flora/grass/water/reeds,
 /turf/open/water/ocean,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "Xo" = (
 /obj/structure/flora/grass,
 /turf/open/floor/snow,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "Xt" = (
 /obj/item/bin/water,
 /turf/open/floor/snow,
@@ -2844,7 +2748,7 @@
 /turf/closed/mineral/bedrock,
 /area/indoors)
 "XA" = (
-/obj/structure/fluff/clodpile,
+/obj/structure/fluff/clodpile/dirt,
 /turf/open/floor/snow,
 /area/outdoors/town)
 "XF" = (
@@ -2858,7 +2762,7 @@
 	aportalid = "z2-townsouth1-out"
 	},
 /turf/open/floor/dirt/road,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "XO" = (
 /obj/structure/table/wood{
 	dir = 5;
@@ -2885,15 +2789,13 @@
 	pixel_y = -3
 	},
 /obj/item/natural/feather,
-/turf/open/floor/blocks/green,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/blocks/green)
 "XS" = (
 /turf/closed/mineral/bedrock,
 /area/under/cave)
 "XU" = (
 /obj/structure/flora/ausbushes/reedbush,
-/turf/open/floor/snow,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/snow)
 "Yi" = (
 /obj/machinery/light/fueled/torchholder/r,
 /turf/open/floor/naturalstone,
@@ -2909,23 +2811,19 @@
 /area/indoors/shelter)
 "YB" = (
 /obj/structure/chair/stool,
-/turf/open/floor/blocks/green,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/blocks/green)
 "YC" = (
 /obj/item/weapon/shield/wood,
 /obj/item/weapon/shield/wood,
 /obj/structure/rack,
-/turf/open/floor/cobble,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble)
 "YD" = (
 /obj/structure/closet/crate/chest/crate,
 /obj/item/fishingrod,
-/turf/open/floor/snow,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/snow)
 "YE" = (
 /obj/structure/flora/grass/water,
-/turf/open/water/cleanshallow,
-/area/outdoors/beach/tutorial)
+/turf/open/water/cleanshallow)
 "YG" = (
 /obj/structure/flora/grass/water/reeds,
 /turf/open/floor/naturalstone,
@@ -2933,7 +2831,7 @@
 "YP" = (
 /obj/structure/fluff/railing/wood,
 /turf/open/floor/snow,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "YQ" = (
 /obj/machinery/light/fueled/lanternpost/fixed{
 	dir = 1;
@@ -2962,18 +2860,15 @@
 /obj/item/reagent_containers/powder/ozium,
 /obj/item/reagent_containers/powder/ozium,
 /obj/item/reagent_containers/powder/ozium,
-/turf/open/floor/blocks/green,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/blocks/green)
 "Zc" = (
-/turf/open/floor/wood/nosmooth,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/wood/nosmooth)
 "Zf" = (
 /obj/effect/decal/cobbleedge{
 	icon_state = "cobbleedge-sread"
 	},
 /obj/structure/rack,
-/turf/open/floor/cobble,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble)
 "Zl" = (
 /obj/structure/rack,
 /obj/item/weapon/sword/short,
@@ -2984,8 +2879,7 @@
 /obj/item/weapon/sword/gladius,
 /obj/item/weapon/sword/silver,
 /obj/item/weapon/sword/sabre,
-/turf/open/floor/cobble,
-/area/outdoors/beach/tutorial)
+/turf/open/floor/cobble)
 "Zo" = (
 /turf/open/floor/ruinedwood,
 /area/outdoors/beach)
@@ -2996,21 +2890,21 @@
 	aportalid = "z1-northsouth1-out"
 	},
 /turf/open/floor/sand,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "Zs" = (
 /obj/structure/flora/grass/water/reeds,
 /turf/open/water/ocean/deep,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "ZG" = (
 /obj/structure/fluff/signage{
 	name = "COUNTY OF ETGARD - SOUTH"
 	},
 /turf/open/floor/snow,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "ZH" = (
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/snow,
-/area/outdoors/rtfield)
+/area/outdoors/basin/safe)
 "ZW" = (
 /obj/structure/fluff/railing/border{
 	icon_state = "border";
