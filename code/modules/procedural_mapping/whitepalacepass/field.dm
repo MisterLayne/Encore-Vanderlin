@@ -35,8 +35,8 @@
 	spawnableTurfs = list(/turf/open/floor/snow/rough = 10,
 							/turf/open/floor/snow/patchy = 10,
 							/turf/open/floor/grass/cold = 5)
-	allowed_areas = list(/area/outdoors/rtfield,
-							/area/outdoors/rtfield/safe)
+	allowed_areas = list(/area/outdoors/basin,
+							/area/outdoors/basin/safe)
 
 /datum/mapGeneratorModule/wppsnow/grass
 	clusterCheckFlags = CLUSTER_CHECK_NONE
@@ -45,8 +45,8 @@
 	excluded_turfs = list()
 	spawnableAtoms = list(/obj/structure/flora/grass/tundra = 5)
 	spawnableTurfs = list()
-	allowed_areas = list(/area/outdoors/rtfield,
-							/area/outdoors/rtfield/safe,
+	allowed_areas = list(/area/outdoors/basin,
+							/area/outdoors/basin/safe,
 							/area/outdoors/town)
 
 /datum/mapGeneratorModule/wppsnow/grass/patchy
@@ -70,16 +70,16 @@
 							/obj/structure/closet/dirthole/closed/loot=0.75,
 							/obj/item/restraints/legcuffs/beartrap/armed/camouflage=0.5)
 	spawnableTurfs = list(/turf/open/floor/dirt/road=5)
-	allowed_areas = list(/area/outdoors/rtfield,
-							/area/outdoors/rtfield/safe)
+	allowed_areas = list(/area/outdoors/basin,
+							/area/outdoors/basin/safe)
 
 /datum/mapGeneratorModule/wppdirt/grass
 	clusterCheckFlags = CLUSTER_CHECK_NONE
 	allowed_turfs = list(/turf/open/floor/dirt)
 	excluded_turfs = list(/turf/open/floor/dirt/road)
 	spawnableAtoms = list(/obj/structure/flora/grass/tundra = 10)
-	allowed_areas = list(/area/outdoors/rtfield,
-							/area/outdoors/rtfield/safe,
+	allowed_areas = list(/area/outdoors/basin,
+							/area/outdoors/basin/safe,
 							/area/outdoors/town)
 
 /datum/mapGeneratorModule/wppdirt/road
@@ -90,8 +90,8 @@
 							/obj/item/natural/stone = 4,
 							/obj/item/natural/rock = 1,
 							/obj/item/grown/log/tree/stick = 4)
-	allowed_areas = list(/area/outdoors/rtfield,
-							/area/outdoors/rtfield/safe,
+	allowed_areas = list(/area/outdoors/basin,
+							/area/outdoors/basin/safe,
 							/area/outdoors/town)
 
 /datum/mapGeneratorModule/wppgrass
@@ -110,8 +110,8 @@
 							/obj/item/natural/rock = 2,
 							/obj/item/grown/log/tree/stick = 8)
 	spawnableTurfs = list()
-	allowed_areas = list(/area/outdoors/rtfield,
-							/area/outdoors/rtfield/safe)
+	allowed_areas = list(/area/outdoors/basin,
+							/area/outdoors/basin/safe)
 
 /datum/mapGeneratorModule/wppgrass/grass
 	clusterCheckFlags = CLUSTER_CHECK_NONE
@@ -119,6 +119,6 @@
 	excluded_turfs = list()
 	spawnableAtoms = list(/obj/structure/flora/grass/tundra = 50)
 	spawnableTurfs = list()
-	allowed_areas = list(/area/outdoors/rtfield,
-							/area/outdoors/rtfield/safe,
+	allowed_areas = list(/area/outdoors/basin,
+							/area/outdoors/basin/safe,
 							/area/outdoors/town)
