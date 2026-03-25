@@ -14,14 +14,12 @@
 	spawnableAtoms = list(/obj/structure/flora/tree = 1,
 							/obj/structure/flora/grass/bush_meagre = 12,
 							/obj/structure/flora/grass/pyroclasticflowers = 1,
-							/obj/structure/flora/grass/maneater = 0,
 							/obj/structure/flora/grass = 23,
 							/obj/structure/chair/bench/ancientlog = 20,
 							/obj/item/natural/rock = 30,
 							/obj/item/natural/stone = 30,
 							/obj/structure/flora/grass/swampweed = 30,
 							/obj/item/grown/log/tree/stick = 4,
-							/obj/structure/flora/grass/maneater/real = 1,
 							/obj/item/restraints/legcuffs/beartrap/armed/camouflage = 0)
 	spawnableTurfs = list(/turf/open/water/swamp = 5,
 	                     /turf/open/floor/dirt = 80)

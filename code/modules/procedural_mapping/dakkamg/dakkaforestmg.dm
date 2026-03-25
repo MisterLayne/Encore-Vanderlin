@@ -48,8 +48,6 @@
 	spawnableAtoms = list(/obj/structure/flora/tree = 0,
 							/obj/structure/flora/grass/bush_meagre = 6,
 							/obj/structure/flora/grass = 120,
-							/obj/structure/flora/grass/maneater = 0,
-							/obj/structure/flora/grass/maneater/real = 0,
 							/obj/item/restraints/legcuffs/beartrap/armed/camouflage = 0,
 							/obj/item/natural/stone = 6,
 							/obj/item/natural/rock = 5,

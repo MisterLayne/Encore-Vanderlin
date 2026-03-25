@@ -409,43 +409,43 @@ GLOBAL_LIST_INIT(badomens, list())
 	GLOB.badomens -= input
 
 /datum/round_event_control/proc/badomen(eventreason)
-	var/used = "One Envy."
-	var/title = "Bad Omen"
+	var/used = "Her gaze stirs!"
+	var/title = "Worldthread Severed"
 	var/sound = 'sound/misc/evilevent.ogg'
 	switch(eventreason)
 		if(OMEN_ROUNDSTART)
 			used = pick( \
-				"One Envy.", \
-				"Unholy invocations channel the will of Her.", \
-				"Forbidden rituals cause echoes through the plane.", \
-				"Whispers of the Dark Lady in the shadows.", \
-				"The servants of One Envy undermine the Ten.", \
+				"Her gaze stirs!", \
+				"The bodies of Man shudder in foreboding anticipation. Evil has taken root in the world again.", \
+				"A terrible cloud engulfs the land, one of dreadful eminence.", \
+				"The One Envy turns her gaze upon you!", \
+				"The Worldflame flares in the distant horizon. Nefarious deeds injure Gaia again.", \
 				"Her influence becomes more tangible...", \
 				"A foul curse temporarily takes the land.", \
-				"The dead churn and dig at their graves.", \
+				"The dead churn and dig at their graves. Scratching rattles the ground beneath us all, as if urging for release again.", \
 			)
 			title = pick( \
-				"One Envy Sneers", \
-				"The Dark Lady Watches", \
-				"One Envy's Attention", \
-				"She Peers", \
-				"One Envy Smirks", \
+				"The One Envy Stirs", \
+				"Gani Weeps", \
+				"The Jealous God Peers", \
+				"The Mount Groans", \
+				"A Dark Cloud Rises", \
 			)
 			sound = 'sound/misc/gods/zizo_omen.ogg'
 		if(OMEN_NOLORD)
-			used = "The Monarch is dead! We need a new ruler."
+			used = "The Regent is dead! We need a new ruler."
 		if(OMEN_NOPRIEST)
 			used = "The High Priest is dead!"
 		if(OMEN_NOBLEDEATH)
 			used = "A Noble has perished."
 		if(OMEN_SUNSTEAL)
-			used = "The Sun, she is wounded!"
+			used = "The Worldflame is smothered, and the Star is dark!"
 		if(OMEN_SKELETONSIEGE)
-			used = "Unwelcome visitors!"
+			used = "The Old War's banners fly in the distance!"
 		if("ascend")
-			used = "One Envy will rise once again."
+			used = "The sins of old are uprooted to live again."
 		if("psycross")
-			used = "You have angered the gods!"
+			used = "A thousand voices roar from the firmament! You have angered the Gods!"
 	if(!eventreason)
 		return
 	if(!used || !title || !sound)

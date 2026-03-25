@@ -15,7 +15,6 @@
 	spawnableAtoms = list(/obj/structure/flora/tree = 1,
 							/obj/structure/flora/grass/bush_meagre = 7,
 							/obj/structure/flora/grass/bush_meagre/bog = 4,
-							/obj/structure/flora/grass/maneater = 1,
 							/obj/structure/flora/grass/herb/random = 20,
 							/obj/structure/flora/grass = 23,
 							/obj/structure/chair/bench/ancientlog = 20,
