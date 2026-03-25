@@ -330,7 +330,7 @@
 				var/drained = max(15 - (GET_MOB_SKILL_VALUE_OLD(user, /datum/attribute/skill/misc/swimming) * 5), 1)
 //				drained += (user.checkwornweight()*2)
 				drained += user.get_encumbrance() * 50
-				if(HAS_TRAIT(user, TRAIT_ABYSSOR_SWIM))
+				if(HAS_TRAIT(user, TRAIT_GOOD_SWIM))
 					drained -=5
 				if(!user.adjust_stamina(drained))
 					user.Immobilize(30)
