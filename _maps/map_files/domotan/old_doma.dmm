@@ -159,7 +159,7 @@
 /turf/open/openspace,
 /area/outdoors/town/roofs)
 "afs" = (
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/under/cavewet)
 "afw" = (
 /obj/structure/closet/crate/chest,
@@ -499,7 +499,7 @@
 /area/outdoors/town/roofs)
 "atW" = (
 /obj/structure/flora/grass/water,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/town)
 "aum" = (
 /obj/structure/window,
@@ -1400,9 +1400,6 @@
 /area/indoors/town/keep)
 "bdz" = (
 /obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/obj/effect/decal/cobbleedge{
 	dir = 1
 	},
 /turf/open/floor/tile/bath,
@@ -1676,9 +1673,6 @@
 /turf/open/floor/grass/yel,
 /area/outdoors/exposed)
 "bpq" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
 /obj/structure/rack,
 /turf/open/floor/blocks,
 /area/indoors/town/garrison)
@@ -2177,7 +2171,7 @@
 	pixel_x = -1;
 	pixel_y = 6
 	},
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/town)
 "bMm" = (
 /turf/open/floor/churchrough,
@@ -2463,9 +2457,6 @@
 /turf/open/floor/ruinedwood/darker,
 /area/outdoors/town/roofs)
 "bWq" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
 /obj/structure/fluff/railing/border,
 /obj/structure/fluff/railing/wood,
 /turf/open/floor/blocks/bluestone,
@@ -2697,12 +2688,6 @@
 /obj/structure/window/openclose,
 /turf/open/floor/cobble,
 /area/indoors/town)
-"cgc" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/turf/closed/wall/mineral/stone,
-/area/indoors/town)
 "cgd" = (
 /turf/open/water/river,
 /area/under/cavewet)
@@ -2832,7 +2817,7 @@
 /area/indoors/town/garrison)
 "ciB" = (
 /obj/structure/flora/starfish,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/town)
 "cjs" = (
 /obj/structure/table/wood/reinforced_alter,
@@ -3142,7 +3127,7 @@
 /area/outdoors/exposed)
 "cvf" = (
 /obj/structure/door/window,
-/turf/open/floor/twig,
+/turf/open/floor/wood,
 /area/indoors/town)
 "cvi" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -3153,7 +3138,7 @@
 /area/outdoors/town)
 "cvD" = (
 /obj/structure/flora/grass,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/town)
 "cws" = (
 /obj/effect/decal/cobbleedge{
@@ -3213,9 +3198,6 @@
 /area/indoors/town/bath)
 "cxZ" = (
 /obj/structure/closet/crate/chest,
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
 /turf/open/floor/blocks,
 /area/indoors/town/garrison)
 "cyC" = (
@@ -3264,9 +3246,6 @@
 	icon_state = "longtable"
 	},
 /obj/machinery/light/fueled/torchholder/l,
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
 /turf/open/floor/blocks,
 /area/indoors/town/garrison)
 "cAW" = (
@@ -4085,7 +4064,7 @@
 /turf/open/floor/dirt,
 /area/under/town/basement)
 "diq" = (
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/beach)
 "diL" = (
 /obj/machinery/light/fueled/torchholder/r,
@@ -4150,20 +4129,6 @@
 "dls" = (
 /turf/closed/mineral/bedrock,
 /area/outdoors/town/roofs)
-"dmd" = (
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-e"
-	},
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-w"
-	},
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/turf/open/floor/cobble,
-/area/indoors/town/garrison)
 "dmt" = (
 /obj/structure/well,
 /obj/machinery/light/fueled/torchholder/hotspring{
@@ -4203,7 +4168,7 @@
 /area/outdoors/town)
 "doE" = (
 /obj/structure/flora/shells,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/town)
 "dpo" = (
 /obj/structure/bookcase/random/thesis,
@@ -4573,13 +4538,6 @@
 	},
 /turf/open/floor/ruinedwood/chevron,
 /area/indoors/town/steward)
-"dBB" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/ruinedwood,
-/area/indoors/town/keep)
 "dBM" = (
 /obj/structure/bed/wool,
 /turf/open/floor/ruinedwood/darker,
@@ -4834,7 +4792,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 8
 	},
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/under/cavewet)
 "dLV" = (
 /obj/structure/chair/bench/couchablack,
@@ -5171,9 +5129,6 @@
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/soilsons)
 "ebm" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
 /obj/structure/fermentation_keg/random/water,
 /turf/open/floor/ruinedwood/platform,
 /area/indoors/town/tavern)
@@ -5709,9 +5664,6 @@
 	dir = 10;
 	icon_state = "cobbleedge-e"
 	},
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
 /turf/open/floor/ruinedwood/platform,
 /area/indoors/town/tavern)
 "ewF" = (
@@ -5906,7 +5858,7 @@
 /area/indoors/shelter/town)
 "eEH" = (
 /obj/machinery/light/fueled/torchholder/l,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/under/cavewet)
 "eER" = (
 /obj/structure/fluff/railing/wood{
@@ -5939,9 +5891,6 @@
 /obj/effect/decal/cobbleedge{
 	dir = 10;
 	icon_state = "cobbleedge-n"
-	},
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
 	},
 /turf/open/floor/blocks,
 /area/indoors/town/garrison)
@@ -6637,17 +6586,6 @@
 	},
 /turf/open/floor/snow,
 /area/outdoors/exposed)
-"ffD" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/obj/structure/fluff/railing/wood{
-	dir = 4;
-	layer = 2.8;
-	pixel_x = 8
-	},
-/turf/open/floor/snow,
-/area/outdoors/town)
 "ffK" = (
 /obj/structure/fluff/railing/border{
 	dir = 1;
@@ -6660,15 +6598,6 @@
 /obj/structure/ladder,
 /turf/open/floor/blocks/stonered/tiny,
 /area/indoors/town/garrison)
-"fgt" = (
-/obj/structure/fluff/railing/border{
-	dir = 9
-	},
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/turf/open/floor/cobble,
-/area/under/town/basement)
 "fgx" = (
 /obj/structure/stairs/stone,
 /obj/machinery/light/fueledstreet/blue/wall{
@@ -6691,9 +6620,6 @@
 /obj/item/weapon/mace/spiked,
 /obj/item/weapon/flail,
 /obj/item/weapon/flail,
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
 /obj/effect/decal/cobbleedge{
 	dir = 10;
 	icon_state = "cobbleedge-w"
@@ -6725,15 +6651,6 @@
 	},
 /turf/open/openspace,
 /area/outdoors/town)
-"fiH" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/obj/effect/decal/cobbleedge{
-	dir = 9
-	},
-/turf/open/floor/blocks,
-/area/indoors/town/garrison)
 "fiN" = (
 /obj/structure/window/stained/yellow,
 /turf/open/floor/churchrough,
@@ -6755,12 +6672,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/blocks/stonered,
 /area/indoors/town/garrison)
-"fkI" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/turf/open/floor/cobble,
-/area/under/town/basement)
 "fkK" = (
 /obj/effect/decal/cobbleedge{
 	dir = 5
@@ -6788,7 +6699,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 8
 	},
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/town)
 "flu" = (
 /obj/structure/table/wood{
@@ -7515,7 +7426,7 @@
 /turf/open/floor/cobblerock,
 /area/outdoors/town)
 "fNa" = (
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/indoors/shelter/town)
 "fNx" = (
 /turf/open/openspace,
@@ -7568,16 +7479,6 @@
 	pixel_y = 16
 	},
 /turf/open/floor/cobble,
-/area/outdoors/exposed)
-"fQO" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-e"
-	},
-/turf/open/floor/blocks,
 /area/outdoors/exposed)
 "fQP" = (
 /obj/structure/fluff/railing/border{
@@ -7850,9 +7751,6 @@
 /obj/item/rope/chain,
 /obj/item/rope/chain,
 /obj/machinery/light/fueled/torchholder/r,
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
 /turf/open/floor/blocks,
 /area/indoors/town/garrison)
 "gbK" = (
@@ -7948,12 +7846,6 @@
 /obj/structure/stairs,
 /turf/open/floor/ruinedwood/darker,
 /area/outdoors/beach)
-"ged" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/turf/open/floor/ruinedwood/turned,
-/area/outdoors/exposed)
 "gfg" = (
 /obj/structure/stairs/stone{
 	dir = 8
@@ -8769,12 +8661,6 @@
 	},
 /turf/open/floor/carpet/red,
 /area/indoors/town/steward)
-"gSg" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/turf/open/floor/blocks,
-/area/indoors/town/garrison)
 "gSy" = (
 /obj/effect/decal/cobbleedge{
 	dir = 6
@@ -8867,16 +8753,6 @@
 	},
 /turf/open/floor/dirt/road,
 /area/outdoors/town)
-"gXc" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-w"
-	},
-/turf/open/floor/blocks,
-/area/indoors/town/garrison)
 "gXg" = (
 /obj/effect/mapping_helpers/access/keyset/town/tower,
 /obj/effect/mapping_helpers/access/locker,
@@ -8890,9 +8766,6 @@
 /turf/open/floor/cobble,
 /area/outdoors/exposed)
 "gXB" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
 /obj/effect/decal/cobbleedge{
 	dir = 10;
 	icon_state = "cobbleedge-w"
@@ -9069,9 +8942,6 @@
 /obj/effect/decal/cobbleedge{
 	dir = 10;
 	icon_state = "cobbleedge-e"
-	},
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
 	},
 /turf/open/floor/blocks,
 /area/indoors/town/garrison)
@@ -9448,15 +9318,6 @@
 	},
 /turf/open/floor/blocks/stonered,
 /area/indoors/town/clinic_large/apothecary)
-"hqb" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/obj/structure/fluff/railing/border{
-	dir = 5
-	},
-/turf/open/floor/blocks/stonered,
-/area/indoors/shelter/town)
 "hqc" = (
 /obj/structure/flora/hotspring_rocks,
 /turf/open/floor/dirt,
@@ -9500,16 +9361,6 @@
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass/yel,
 /area/outdoors/exposed)
-"hrT" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/obj/structure/fluff/railing/border{
-	dir = 1;
-	icon_state = "border"
-	},
-/turf/open/floor/blocks/stonered,
-/area/indoors/shelter/town)
 "hsd" = (
 /obj/structure/table/wood{
 	icon_state = "longtable_mid"
@@ -9588,7 +9439,7 @@
 /area/indoors/town/keep/magician)
 "huV" = (
 /obj/structure/flora/ausbushes/reedbush,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/town)
 "hvg" = (
 /obj/effect/decal/cobbleedge{
@@ -9671,7 +9522,7 @@
 /area/indoors/town/garrison)
 "hxe" = (
 /obj/structure/fluff/railing/wood,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/under/town/basement)
 "hxq" = (
 /obj/item/clothing/shoes/sandals,
@@ -10081,9 +9932,6 @@
 /obj/effect/decal/cobbleedge{
 	dir = 10;
 	icon_state = "cobbleedge-e"
-	},
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/blocks,
@@ -10675,9 +10523,6 @@
 /area/under/town/sewer)
 "ijK" = (
 /obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/obj/effect/decal/cobbleedge{
 	dir = 9
 	},
 /turf/open/floor/ruinedwood,
@@ -10748,9 +10593,6 @@
 /turf/open/floor/metal/alt,
 /area/indoors/town/shop)
 "imz" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
 /obj/effect/decal/cobbleedge{
 	dir = 4
 	},
@@ -10949,9 +10791,6 @@
 /obj/effect/decal/cobbleedge{
 	dir = 10;
 	icon_state = "cobbleedge-e"
-	},
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
 	},
 /turf/open/floor/cobblerock,
 /area/outdoors/exposed)
@@ -11163,17 +11002,6 @@
 /obj/machinery/light/fueled/torchholder/r,
 /turf/open/openspace,
 /area/indoors/town/tavern)
-"iDS" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-e"
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/blocks,
-/area/outdoors/exposed)
 "iDV" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/glass/cup/wooden{
@@ -11780,15 +11608,6 @@
 /obj/machinery/light/fueled/torchholder/l,
 /turf/open/floor/churchrough,
 /area/outdoors/town)
-"iZK" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/obj/effect/decal/cobbleedge{
-	dir = 4
-	},
-/turf/open/floor/blocks,
-/area/indoors/town/garrison)
 "iZP" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/cobble,
@@ -12192,9 +12011,6 @@
 	dir = 9
 	},
 /obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/obj/effect/decal/cobbleedge{
 	dir = 10;
 	icon_state = "cobbleedge-n"
 	},
@@ -12243,16 +12059,6 @@
 /obj/item/natural/bundle/stick,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/church)
-"jqN" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-e"
-	},
-/turf/open/floor/blocks,
-/area/indoors/town/garrison)
 "jrX" = (
 /obj/structure/ladder,
 /turf/open/floor/blocks/stonered,
@@ -12319,12 +12125,6 @@
 	},
 /turf/open/floor/carpet/lord/right,
 /area/indoors/town/keep)
-"jvc" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/turf/open/floor/tile,
-/area/under/town/basement)
 "jvi" = (
 /obj/structure/fluff/railing/border{
 	dir = 8
@@ -12407,7 +12207,7 @@
 /area/indoors/town/shop)
 "jzE" = (
 /obj/structure/flora/grass,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/indoors/shelter/town)
 "jzM" = (
 /obj/structure/fluff/telescope,
@@ -12510,9 +12310,6 @@
 /obj/effect/decal/cobbleedge{
 	dir = 10;
 	icon_state = "cobbleedge-w"
-	},
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
 	},
 /obj/structure/fluff/railing/border{
 	dir = 8
@@ -13557,15 +13354,6 @@
 	},
 /turf/open/floor/cobble,
 /area/outdoors/exposed)
-"koj" = (
-/obj/structure/fluff/railing/border{
-	dir = 5
-	},
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/turf/open/floor/cobble,
-/area/under/town/basement)
 "kol" = (
 /obj/effect/decal/carpet,
 /turf/open/floor/church/purple,
@@ -13576,12 +13364,6 @@
 	},
 /turf/open/floor/churchmarble,
 /area/indoors/town/church)
-"koQ" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/turf/open/floor/tile/bath,
-/area/indoors/town/keep)
 "koS" = (
 /obj/structure/fluff/railing/border{
 	icon_state = "border";
@@ -13921,9 +13703,6 @@
 /area/indoors/town/church)
 "kAJ" = (
 /obj/machinery/light/fueled/torchholder/r,
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
 /turf/open/floor/cobblerock,
 /area/outdoors/exposed)
 "kBk" = (
@@ -14389,16 +14168,6 @@
 	},
 /turf/open/floor/ruinedwood/spiralfade,
 /area/indoors/town/shop)
-"kZc" = (
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-n"
-	},
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/turf/open/floor/blocks,
-/area/indoors/town/garrison)
 "kZu" = (
 /obj/structure/flora/ausbushes/lavendergrass,
 /turf/open/floor/grass/cold,
@@ -14422,7 +14191,7 @@
 /area/outdoors/town)
 "law" = (
 /obj/machinery/light/fueled/lanternpost/fixed,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/town)
 "laR" = (
 /obj/effect/decal/cobbleedge{
@@ -14679,16 +14448,6 @@
 	},
 /turf/open/openspace,
 /area/outdoors/town/roofs)
-"llS" = (
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-w"
-	},
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/turf/open/floor/blocks,
-/area/indoors/town/garrison)
 "llZ" = (
 /obj/structure/fluff/railing/border{
 	dir = 4
@@ -14955,19 +14714,6 @@
 /obj/machinery/light/fueled/torchholder/l,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town)
-"lxD" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-e"
-	},
-/obj/effect/decal/cobbleedge{
-	dir = 4
-	},
-/turf/open/floor/blocks,
-/area/indoors/town/garrison)
 "lyi" = (
 /obj/structure/bars,
 /turf/open/water/ocean,
@@ -15888,7 +15634,7 @@
 /turf/open/floor/tile/diamond/blue,
 /area/indoors/town/shop)
 "mcK" = (
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/under/town/basement)
 "mcN" = (
 /turf/closed/wall/mineral/decostone{
@@ -16536,9 +16282,6 @@
 /area/indoors/town/steward)
 "mvH" = (
 /obj/machinery/light/fueled/torchholder/l,
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
 /turf/open/floor/ruinedwood,
 /area/outdoors/exposed)
 "mvU" = (
@@ -16603,7 +16346,7 @@
 /area/indoors/town/church)
 "myk" = (
 /obj/structure/stairs,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/town)
 "myC" = (
 /obj/machinery/essence/test_tube,
@@ -16849,17 +16592,6 @@
 /obj/machinery/light/fueled/smelter,
 /turf/open/floor/herringbone,
 /area/indoors/town/smithy)
-"mHH" = (
-/obj/structure/fluff/railing/wood{
-	dir = 4;
-	layer = 2.8;
-	pixel_x = 8
-	},
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/turf/open/floor/ruinedwood,
-/area/outdoors/exposed)
 "mHU" = (
 /obj/structure/rousman_hole,
 /turf/open/floor/dirt,
@@ -17122,7 +16854,7 @@
 /area/outdoors/exposed)
 "mQj" = (
 /obj/item/natural/rock,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/under/cavewet)
 "mQo" = (
 /obj/structure/stairs{
@@ -17311,7 +17043,7 @@
 	dir = 10;
 	icon_state = "cobbleedge-e"
 	},
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/under/town/basement)
 "mYU" = (
 /turf/open/floor/churchmarble,
@@ -17837,12 +17569,6 @@
 /obj/machinery/light/fueled/torchholder/l,
 /turf/open/openspace,
 /area/under/town/basement)
-"nvt" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/turf/open/floor/ruinedwood,
-/area/indoors/town/keep)
 "nvu" = (
 /obj/item/weapon/thresher,
 /turf/open/floor/dirt,
@@ -17978,9 +17704,6 @@
 /obj/effect/decal/cobbleedge{
 	dir = 10;
 	icon_state = "cobbleedge-e"
-	},
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
 	},
 /turf/closed/wall/mineral/stone,
 /area/indoors/town)
@@ -18252,9 +17975,9 @@
 	pixel_y = -15
 	},
 /obj/effect/landmark/start/priest,
-/obj/structure/fluff/psycross/copper{
+/obj/structure/fluff/psycross/psydon/metal{
 	density = 0;
-	pixel_y = 24
+	pixel_y = 20
 	},
 /turf/open/floor/church,
 /area/indoors/town/church)
@@ -18274,9 +17997,6 @@
 /obj/item/reagent_containers/glass/bucket/wooden{
 	pixel_x = -18;
 	pixel_y = 5
-	},
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
 	},
 /turf/open/floor/tile,
 /area/under/town/basement)
@@ -18651,20 +18371,6 @@
 "odU" = (
 /turf/open/openspace,
 /area/indoors/soilsons)
-"oeh" = (
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-n"
-	},
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-w"
-	},
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/turf/open/floor/blocks,
-/area/indoors/town/garrison)
 "oeo" = (
 /obj/structure/bed,
 /obj/effect/landmark/start/templar{
@@ -18852,9 +18558,6 @@
 /obj/item/reagent_containers/food/snacks/cheese,
 /obj/item/reagent_containers/food/snacks/cheese,
 /obj/item/reagent_containers/food/snacks/cheese,
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
 /obj/effect/decal/cobbleedge{
 	dir = 10;
 	icon_state = "cobbleedge-w"
@@ -19324,9 +19027,6 @@
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/shelter/town)
 "oBK" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
 /obj/machinery/light/fueled/wallfire/candle/r,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/ruinedwood,
@@ -19397,7 +19097,7 @@
 	dir = 1;
 	icon_state = "stonestairs"
 	},
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/under/town/basement)
 "oDT" = (
 /obj/structure/fermentation_keg/random,
@@ -19427,12 +19127,6 @@
 	},
 /turf/open/floor/metal/barograte,
 /area/outdoors/town)
-"oEB" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/turf/open/floor/naturalstone,
-/area/under/town/basement)
 "oEI" = (
 /obj/structure/bed/shit,
 /obj/machinery/light/fueled/wallfire/candle/l,
@@ -19539,9 +19233,6 @@
 /area/indoors/town/shop)
 "oHP" = (
 /obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/obj/effect/decal/cobbleedge{
 	dir = 10;
 	icon_state = "cobbleedge-e"
 	},
@@ -19565,9 +19256,6 @@
 /obj/effect/decal/cobbleedge{
 	dir = 10;
 	icon_state = "cobbleedge-e"
-	},
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
 	},
 /obj/machinery/light/fueled/torchholder/r{
 	dir = 4
@@ -19674,16 +19362,6 @@
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/grass/yel,
 /area/indoors/shelter/town)
-"oOK" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-n"
-	},
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/blocks,
-/area/indoors/town/garrison)
 "oPd" = (
 /turf/open/floor/dirt/road,
 /area/under/town/basement)
@@ -19813,6 +19491,10 @@
 	},
 /turf/open/floor/naturalstone,
 /area/under/cavewet)
+"oVP" = (
+/obj/machinery/light/fueled/torchholder/r,
+/turf/open/floor/wood,
+/area/indoors/town)
 "oWd" = (
 /obj/structure/bars,
 /obj/effect/decal/cobbleedge{
@@ -20060,6 +19742,10 @@
 /obj/item/bedsheet/pelt,
 /turf/open/floor/blocks,
 /area/under/town/sewer)
+"pfz" = (
+/obj/machinery/light/fueled/torchholder/l,
+/turf/open/floor/wood,
+/area/indoors/town)
 "pfS" = (
 /obj/machinery/light/fueled/torchholder/l,
 /turf/open/floor/churchrough,
@@ -20350,9 +20036,6 @@
 /obj/machinery/light/fueled/torchholder/r,
 /obj/structure/table/wood{
 	icon_state = "longtable"
-	},
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
 	},
 /turf/open/floor/cobble,
 /area/indoors/town/garrison)
@@ -20654,9 +20337,6 @@
 /turf/open/floor/churchrough/purple,
 /area/indoors/town/church)
 "pBH" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
 /obj/effect/decal/cobbleedge{
 	dir = 9
 	},
@@ -21140,15 +20820,6 @@
 "pVr" = (
 /turf/open/floor/cobblerock,
 /area/outdoors/town)
-"pVO" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-n"
-	},
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/turf/open/floor/blocks,
-/area/indoors/town/garrison)
 "pVP" = (
 /obj/structure/flora/ausbushes/sunnybush,
 /turf/open/floor/grass/cold,
@@ -21353,16 +21024,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/blocks/newstone/alt,
 /area/under/town/basement)
-"qcA" = (
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-w"
-	},
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/turf/open/floor/blocks,
-/area/outdoors/exposed)
 "qdd" = (
 /turf/closed/wall/mineral/craftstone,
 /area/under/town/basement)
@@ -21409,7 +21070,7 @@
 /area/indoors/town/garrison)
 "qgl" = (
 /obj/structure/flora/driftwood,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/town)
 "qgo" = (
 /obj/structure/bars,
@@ -21534,9 +21195,6 @@
 "qky" = (
 /obj/structure/fluff/railing/border{
 	dir = 9
-	},
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
 	},
 /turf/open/floor/cobblerock,
 /area/outdoors/exposed)
@@ -22263,7 +21921,7 @@
 /area/indoors/town/keep)
 "qKj" = (
 /obj/structure/flora/ausbushes/sparsegrass,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/town)
 "qKl" = (
 /obj/structure/chair/bench/couchablack/r,
@@ -22859,6 +22517,9 @@
 	},
 /turf/open/water/ocean/deep,
 /area/indoors/town/keep/magician)
+"rmh" = (
+/turf/open/floor/wood,
+/area/indoors/town)
 "rmw" = (
 /obj/structure/bookcase/random/archive,
 /obj/machinery/light/fueledstreet/blue/wall,
@@ -23399,16 +23060,6 @@
 /obj/machinery/light/fueled/smelter,
 /turf/open/floor/blocks/platform,
 /area/indoors/town/smithy)
-"rJH" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-w"
-	},
-/turf/open/floor/blocks,
-/area/outdoors/exposed)
 "rJO" = (
 /obj/structure/fluff/railing/border{
 	dir = 4
@@ -23492,9 +23143,6 @@
 	dir = 10;
 	icon_state = "cobbleedge-w"
 	},
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
 /obj/structure/table/wood{
 	dir = 1;
 	icon_state = "longtable"
@@ -23506,9 +23154,6 @@
 /turf/open/floor/ruinedwood,
 /area/outdoors/exposed)
 "rNF" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
 /obj/machinery/light/fueled/lanternpost/fixed{
 	pixel_x = -2;
 	pixel_y = 5
@@ -24304,9 +23949,6 @@
 "sve" = (
 /obj/machinery/light/fueled/wallfire/candle/r,
 /obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/obj/effect/decal/cobbleedge{
 	dir = 8;
 	pixel_y = 1
 	},
@@ -24655,9 +24297,6 @@
 	},
 /obj/effect/decal/cobbleedge{
 	icon_state = "cobbleedge-n"
-	},
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
 	},
 /turf/open/floor/blocks/green,
 /area/under/town/basement)
@@ -25135,16 +24774,6 @@
 "tdj" = (
 /turf/open/floor/blocks/stonered,
 /area/indoors/town/keep/magician)
-"tdB" = (
-/obj/effect/decal/cobbleedge{
-	dir = 8;
-	pixel_y = 1
-	},
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/turf/open/floor/ruinedwood,
-/area/outdoors/exposed)
 "tdI" = (
 /obj/structure/closet/crate/crafted_closet,
 /obj/item/natural/cloth,
@@ -25240,7 +24869,7 @@
 /area/outdoors/town)
 "teX" = (
 /obj/structure/fluff/railing/wood,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/under/cavewet)
 "tfL" = (
 /obj/structure/fluff/walldeco/vinez,
@@ -25454,9 +25083,6 @@
 /turf/open/floor/grass/yel,
 /area/outdoors/town)
 "tlA" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
 /obj/structure/chair/stool,
 /turf/open/floor/blocks,
 /area/indoors/town/garrison)
@@ -25764,9 +25390,6 @@
 /turf/open/floor/ruinedwood,
 /area/indoors/town/keep)
 "tBK" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
 /obj/effect/decal/cobbleedge{
 	dir = 5
 	},
@@ -26217,7 +25840,7 @@
 /area/indoors/town/garrison)
 "tSS" = (
 /obj/effect/landmark/events/animal_migration_point,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/town)
 "tTf" = (
 /obj/structure/flora/grass,
@@ -26704,20 +26327,6 @@
 /obj/structure/closet/crate/chest/crate,
 /turf/open/floor/wood/nosmooth,
 /area/indoors/soilsons)
-"unA" = (
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-n"
-	},
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-e"
-	},
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/turf/open/floor/blocks,
-/area/indoors/town/garrison)
 "uox" = (
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town/clinic_large/apothecary)
@@ -26847,9 +26456,6 @@
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town/shop)
 "utz" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
 /obj/structure/fluff/railing/border,
 /obj/structure/fluff/railing/wood,
 /obj/machinery/light/fueled/torchholder/l,
@@ -27121,12 +26727,6 @@
 	},
 /turf/open/floor/ruinedwood/turned/darker,
 /area/outdoors/town)
-"uDB" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/turf/open/floor/ruinedwood,
-/area/outdoors/exposed)
 "uDG" = (
 /turf/closed/wall/mineral/stone,
 /area/outdoors/town/roofs)
@@ -27585,13 +27185,6 @@
 /obj/item/reagent_containers/powder/salt,
 /turf/open/floor/cobble,
 /area/indoors/town/keep)
-"uTc" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/blocks,
-/area/outdoors/exposed)
 "uTA" = (
 /obj/machinery/light/fueledstreet/blue/wall{
 	dir = 4
@@ -28438,7 +28031,7 @@
 "vDA" = (
 /obj/structure/flora/grass,
 /obj/structure/flora/ausbushes/reedbush,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/indoors/shelter/town)
 "vDI" = (
 /obj/structure/well,
@@ -28844,12 +28437,6 @@
 "vSk" = (
 /turf/closed/wall/mineral/pipe,
 /area/indoors/town/keep/archivist)
-"vSl" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/turf/open/floor/grass/yel,
-/area/outdoors/exposed)
 "vSA" = (
 /obj/structure/stairs/stone{
 	dir = 1;
@@ -28976,13 +28563,6 @@
 	},
 /turf/open/floor/ruinedwood/chevron,
 /area/indoors/town/shop)
-"vVQ" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/blocks,
-/area/indoors/town/garrison)
 "vVU" = (
 /obj/effect/decal/cobbleedge{
 	dir = 10;
@@ -29405,13 +28985,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/tile/brownbrick,
 /area/indoors/town)
-"wog" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/obj/structure/rack,
-/turf/open/floor/cobble,
-/area/indoors/town/garrison)
 "woh" = (
 /obj/structure/fluff/railing/wood,
 /obj/structure/fluff/railing/wood{
@@ -29458,7 +29031,7 @@
 /area/indoors/town/keep/magician)
 "wpy" = (
 /obj/item/natural/stone,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/under/cavewet)
 "wpC" = (
 /obj/structure/flora/hotspring_rocks/small,
@@ -29545,17 +29118,6 @@
 	},
 /turf/open/floor/ruinedwood/alt,
 /area/outdoors/town)
-"wsJ" = (
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-w"
-	},
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/blocks,
-/area/outdoors/exposed)
 "wsK" = (
 /obj/structure/fluff/railing/wood{
 	dir = 1
@@ -29640,12 +29202,6 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/cobble,
 /area/indoors/town/clinic_large/apothecary)
-"wwJ" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/turf/open/floor/ruinedwood/platform,
-/area/indoors/town/tavern)
 "wwT" = (
 /obj/machinery/light/fueled/wallfire/candle/l,
 /turf/open/floor/tile/checkeralt,
@@ -29743,9 +29299,6 @@
 /turf/open/floor/blocks/newstone/alt,
 /area/outdoors/exposed)
 "wAl" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
 /obj/effect/decal/cobbleedge{
 	dir = 1
 	},
@@ -29865,7 +29418,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 4
 	},
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/under/cavewet)
 "wFL" = (
 /turf/open/floor/cobble/alt,
@@ -30043,7 +29596,7 @@
 /turf/open/openspace,
 /area/outdoors/beach)
 "wLm" = (
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/town)
 "wLU" = (
 /obj/structure/fluff/railing/border{
@@ -30418,13 +29971,6 @@
 "wWx" = (
 /turf/open/water/ocean/deep,
 /area/indoors/town/keep/magician)
-"wXe" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
-/obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/cobblerock,
-/area/outdoors/exposed)
 "wXi" = (
 /obj/structure/stairs/stone{
 	dir = 8
@@ -30881,7 +30427,7 @@
 /area/under/town/basement)
 "xpp" = (
 /obj/structure/flora/grass/herb/euphorbia,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/town)
 "xpC" = (
 /obj/effect/decal/cobbleedge{
@@ -31205,7 +30751,7 @@
 /turf/open/floor/ruinedwood/turned,
 /area/outdoors/town)
 "xEr" = (
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/indoors/town/keep/magician)
 "xEs" = (
 /obj/item/natural/cloth,
@@ -31291,9 +30837,6 @@
 /turf/open/floor/cobble,
 /area/outdoors/town)
 "xHd" = (
-/obj/effect/decal/cobbleedge{
-	icon_state = "cobbleedge-sread"
-	},
 /obj/effect/decal/cobbleedge{
 	dir = 10;
 	icon_state = "cobbleedge-e"
@@ -45913,7 +45456,7 @@ xYj
 xYj
 dwC
 dwC
-bBv
+afs
 teX
 uFO
 uFO
@@ -46177,7 +45720,7 @@ jdz
 jdz
 afs
 afs
-bBv
+afs
 afs
 afs
 afs
@@ -46308,8 +45851,8 @@ iCf
 iCf
 jdz
 afs
-bBv
-bBv
+afs
+afs
 afs
 afs
 afs
@@ -46433,7 +45976,7 @@ uIF
 mPe
 mPe
 hDy
-oEB
+qBw
 sEO
 rCt
 iCf
@@ -46565,7 +46108,7 @@ ijv
 mPe
 mPe
 jms
-oEB
+qBw
 rCt
 rCt
 orX
@@ -46917,7 +46460,7 @@ bFv
 rjo
 kxz
 rjo
-hqb
+cQY
 pJI
 rCt
 rAO
@@ -47049,7 +46592,7 @@ oRC
 gtQ
 gtQ
 gtQ
-hrT
+vFt
 ptt
 rCt
 rCt
@@ -53768,8 +53311,8 @@ uOb
 oSe
 oSe
 daq
-gaA
-bmw
+pfz
+rmh
 pKD
 fvA
 daq
@@ -53900,8 +53443,8 @@ uOb
 oSe
 oSe
 daq
-bmw
-bmw
+rmh
+rmh
 pKD
 xGl
 qXm
@@ -54032,8 +53575,8 @@ yiQ
 oSe
 oSe
 daq
-bmw
-bmw
+rmh
+rmh
 pKD
 pKD
 qXm
@@ -54164,10 +53707,10 @@ oSe
 oSe
 oSe
 cvf
-bmw
-bmw
-bmw
-bmw
+rmh
+rmh
+rmh
+rmh
 qXm
 lCt
 aJX
@@ -54296,10 +53839,10 @@ oSe
 oSe
 oSe
 cvf
-bmw
-bmw
-bmw
-boc
+rmh
+rmh
+rmh
+oVP
 daq
 lCt
 aJX
@@ -55154,7 +54697,7 @@ aJX
 qEy
 nnF
 nJL
-gXc
+kFJ
 qEy
 qEy
 qEy
@@ -55163,12 +54706,12 @@ qEy
 jqJ
 jxQ
 uAQ
-tdB
+uAQ
 qCJ
 wSd
 qEy
 iZR
-cgc
+kfC
 kfC
 kfC
 kfC
@@ -55287,7 +54830,7 @@ bQS
 nnF
 ihS
 iaN
-lxD
+gdt
 nnF
 nnF
 nnF
@@ -55427,7 +54970,7 @@ miA
 rPY
 dDe
 dDe
-fQO
+okh
 nqL
 ivK
 qEy
@@ -55558,7 +55101,7 @@ vrH
 miA
 aJl
 bsB
-uTc
+dDe
 nPx
 heP
 xqA
@@ -55679,7 +55222,7 @@ aJX
 aJX
 aJX
 qWy
-uDB
+hmL
 qEy
 nnF
 miA
@@ -55690,7 +55233,7 @@ xcr
 miA
 nPx
 bsB
-uTc
+dDe
 nPx
 nPx
 lXp
@@ -55823,10 +55366,10 @@ upw
 hQH
 jaq
 osy
-qcA
+gXE
 nPx
 jYW
-wsJ
+jYW
 nPx
 skm
 kfC
@@ -55965,7 +55508,7 @@ okh
 osy
 dDe
 dDe
-rJH
+gXE
 gXx
 qEy
 qEy
@@ -56075,7 +55618,7 @@ aJX
 aJX
 qWy
 oXw
-uDB
+hmL
 oQe
 ppz
 rph
@@ -56089,7 +55632,7 @@ gQy
 rAY
 dOy
 osy
-iDS
+hKB
 hQH
 kKV
 nPx
@@ -56097,7 +55640,7 @@ hQH
 bsB
 dDe
 qZs
-uTc
+dDe
 hQH
 qEy
 uvo
@@ -56229,7 +55772,7 @@ sEO
 sEO
 sEO
 sEO
-uTc
+dDe
 hQH
 qEy
 uvo
@@ -56393,7 +55936,7 @@ pGI
 vNu
 xYt
 qsB
-wwJ
+vOp
 flA
 eZf
 eZf
@@ -56751,7 +56294,7 @@ sEO
 mKZ
 rXm
 vht
-jvc
+qBa
 eWp
 ijv
 ijv
@@ -57132,7 +56675,7 @@ vpf
 vpf
 kUm
 wCE
-fgt
+fcX
 miA
 bAN
 apG
@@ -57264,7 +56807,7 @@ vpf
 vpf
 glm
 mus
-koj
+uDY
 miA
 dJT
 apG
@@ -57528,7 +57071,7 @@ vpf
 iCf
 bZh
 hAV
-fkI
+rCt
 miA
 miA
 apG
@@ -57812,7 +57355,7 @@ sEO
 sEO
 sOk
 lwh
-wXe
+suJ
 hQH
 mmG
 mcU
@@ -57878,7 +57421,7 @@ pVr
 xAa
 jGi
 swt
-ffD
+swt
 xHb
 hfO
 wNY
@@ -58716,7 +58259,7 @@ qWy
 hmL
 oxC
 iqB
-ged
+qbk
 uDH
 wbW
 apG
@@ -59120,7 +58663,7 @@ miA
 miA
 sqj
 odI
-dmd
+mOU
 vpt
 tym
 bZh
@@ -59248,7 +58791,7 @@ miA
 miA
 miA
 ixg
-iZK
+adD
 njZ
 bmT
 vpt
@@ -59373,7 +58916,7 @@ aJX
 aJX
 aJX
 qWy
-uDB
+hmL
 yfd
 nnF
 kFJ
@@ -59384,12 +58927,12 @@ bpq
 xPg
 hVw
 vpt
-jqN
+iaN
 nnF
 ndO
 vpt
 pIO
-gSg
+vpt
 nnF
 nnF
 bmT
@@ -59512,7 +59055,7 @@ bZY
 vpt
 vpt
 vpt
-gSg
+vpt
 vIB
 rdd
 tlA
@@ -59522,7 +59065,7 @@ nnF
 bZY
 sQI
 vpt
-gXc
+kFJ
 nnF
 ndO
 iaN
@@ -59637,7 +59180,7 @@ aJX
 aJX
 aJX
 fTD
-uDB
+hmL
 bQS
 jgo
 rXC
@@ -59907,7 +59450,7 @@ pBP
 bZY
 xlT
 vpt
-gSg
+vpt
 iQt
 qEy
 lSK
@@ -59916,9 +59459,9 @@ vnE
 nnF
 djd
 tDS
-gSg
+vpt
 djd
-pVO
+tDS
 nnF
 djd
 mww
@@ -60039,12 +59582,12 @@ nnF
 vpt
 vpt
 vpt
-gSg
+vpt
 mgG
 hDX
 eMG
 kFJ
-llS
+kFJ
 nnF
 nnF
 tDS
@@ -60179,7 +59722,7 @@ iaN
 vpt
 qqG
 vpt
-gSg
+vpt
 nnF
 pte
 nnF
@@ -60302,9 +59845,9 @@ hDX
 nnF
 vpt
 sEz
-gSg
+vpt
 nnF
-wog
+mgG
 oHZ
 oHZ
 tNA
@@ -60434,7 +59977,7 @@ hDX
 nnF
 vpt
 aqJ
-gSg
+vpt
 nnF
 mff
 oHZ
@@ -60585,7 +60128,7 @@ aak
 iLm
 hcu
 nnF
-unA
+ndO
 qEy
 bQS
 qEy
@@ -60699,7 +60242,7 @@ hpf
 vpt
 iaN
 xBf
-jqN
+iaN
 nLH
 iLm
 bBx
@@ -61089,7 +60632,7 @@ aJX
 aJX
 aJX
 qWy
-mHH
+mVG
 yfd
 tDS
 qEy
@@ -61097,7 +60640,7 @@ tkC
 tkC
 biM
 iyi
-fiH
+oLz
 fIa
 sjl
 aJX
@@ -61112,7 +60655,7 @@ aJX
 qWy
 xPS
 qEy
-kZc
+bZY
 qEy
 aJX
 aJX
@@ -61244,7 +60787,7 @@ aJX
 qWy
 xPS
 qEy
-unA
+ndO
 bQS
 aJX
 aJX
@@ -61625,7 +61168,7 @@ nnF
 nnF
 yfd
 nnF
-oeh
+bmT
 oQh
 lFl
 aJX
@@ -61752,7 +61295,7 @@ aJX
 bQS
 nnF
 bmT
-llS
+kFJ
 qEy
 qEy
 qEy
@@ -67311,7 +66854,7 @@ ylK
 miA
 ktt
 kVZ
-nvt
+kVZ
 rGH
 rsB
 bYe
@@ -67443,7 +66986,7 @@ ido
 miA
 mWI
 tBN
-dBB
+tBN
 vHG
 bNI
 sTT
@@ -67587,7 +67130,7 @@ jhH
 qEy
 jhJ
 owt
-vVQ
+mlL
 mbX
 iwN
 alJ
@@ -67719,7 +67262,7 @@ eDp
 qEy
 mgG
 mbX
-oOK
+oqJ
 mbX
 nnF
 nnF
@@ -69303,7 +68846,7 @@ gQy
 qEy
 opl
 edk
-gSg
+vpt
 nnF
 mbX
 taQ
@@ -70212,7 +69755,7 @@ roX
 nLF
 wNI
 ezQ
-vSl
+wNI
 eRT
 gmO
 wNI
@@ -80094,7 +79637,7 @@ pul
 miA
 fcl
 fcl
-koQ
+fcl
 miA
 miA
 miA
@@ -80226,7 +79769,7 @@ miA
 miA
 miA
 dVe
-koQ
+fcl
 oJH
 oJH
 miA
@@ -80358,7 +79901,7 @@ fNx
 fNx
 miA
 cdt
-koQ
+fcl
 oJH
 rDm
 miA

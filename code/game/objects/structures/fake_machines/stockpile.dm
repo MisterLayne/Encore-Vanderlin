@@ -106,7 +106,7 @@
 					if(sound == TRUE)
 						playsound(src, 'sound/misc/hiss.ogg', 100, FALSE, -1)
 					if(!SStreasury.give_money_account(amt, H, "+[amt] from [R.name] bounty") && message == TRUE)
-						say("No account found. Submit your fingers to a Meister for inspection.")
+						say("No account found. Submit your fingers to a Bankhead for inspection.")
 					record_round_statistic(STATS_STOCKPILE_EXPANSES, amt)
 					return amt
 			continue
@@ -139,7 +139,7 @@
 					playsound(src, 'sound/misc/disposalflush.ogg', 100, FALSE, -1)
 			if(amt)
 				if(!SStreasury.give_money_account(amt, H, "+[amt] from [R.name] bounty") && message == TRUE)
-					say("No account found. Submit your fingers to a Meister for inspection.")
+					say("No account found. Submit your fingers to a Bankhead for inspection.")
 				record_round_statistic(STATS_STOCKPILE_EXPANSES, amt)
 			return amt
 
@@ -171,7 +171,7 @@
 		if(user in SStreasury.bank_accounts)
 			say("Bulk sold for [total_value] mammon...")
 		else
-			say("No account found. Submit your fingers to a Meister for inspection.")
+			say("No account found. Submit your fingers to a Bankhead for inspection.")
 
 /datum/withdraw_tab
 	var/stockpile_index = -1

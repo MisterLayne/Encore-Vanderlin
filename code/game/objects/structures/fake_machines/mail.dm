@@ -1,8 +1,8 @@
 GLOBAL_LIST_EMPTY(letters_sent)
 
 /obj/structure/fake_machine/mail
-	name = "HERMES"
-	desc = "Carrier zads have fallen severely out of fashion ever since the advent of this hydropneumatic mail system."
+	name = "speaking machina"
+	desc = "A Truetech machine of pipes and cleverly-placed aqueducts which ferry your mail to any one of its labelled constituents."
 	icon = 'icons/roguetown/misc/machines.dmi'
 	icon_state = "mail"
 	density = FALSE
@@ -71,7 +71,7 @@ GLOBAL_LIST_EMPTY(letters_sent)
 	. += span_info("Load a coin inside, then right click to send a letter.")
 	. += span_info("Left click with a paper to send a prewritten letter for free.")
 	if(HAS_TRAIT(user, TRAIT_INQUISITION))
-		. += span_info("<br>The Oratorium's reliquary can be accessed via a secret compartment fitted within the HERMES. Load a Marque to access it.")
+		. += span_info("<br>The Oratorium's reliquary can be accessed via a secret compartment fitted within the speaking machina. Load a Marque to access it.")
 
 		. += span_info("You can send arrival slips, accusation slips, fully loaded INDEXERs or confessions here.")
 		. += span_info("Properly sign them. Include an INDEXER where needed. Stamp them for two additional Marques.")
@@ -724,7 +724,7 @@ GLOBAL_LIST_EMPTY(letters_sent)
 		else
 			dat += "#[X.ournum] [capitalize(get_area_name(X))]<br>"
 
-	var/datum/browser/popup = new(user, "hermes_directory", "<center>HERMES DIRECTORY</center>", 387, 420)
+	var/datum/browser/popup = new(user, "hermes_directory", "<center>MAIL DIRECTORY</center>", 387, 420)
 	popup.set_content(dat)
 	popup.open(FALSE)
 

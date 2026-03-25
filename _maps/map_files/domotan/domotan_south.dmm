@@ -35,7 +35,7 @@
 /area/indoors/shelter)
 "aD" = (
 /obj/structure/flora/grass/swampweed,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/woods/heavenscoast)
 "aI" = (
 /obj/effect/decal/cobbleedge,
@@ -202,7 +202,7 @@
 	dir = 1
 	},
 /obj/structure/chair/bench/church/smallbench,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/woods/crossroads)
 "eL" = (
 /obj/structure/rack,
@@ -215,11 +215,11 @@
 /turf/open/floor/hexstone,
 /area/under/cave)
 "eS" = (
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/woods/heavenscoast)
 "eU" = (
 /obj/structure/closet/crate/chest/crate,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/woods/heavenscoast)
 "eX" = (
 /turf/closed/wall/mineral/craftstone,
@@ -352,11 +352,11 @@
 /turf/open/floor/naturalstone,
 /area/under/town/basement)
 "iV" = (
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors)
 "iX" = (
 /obj/item/bin/water,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/woods/heavenscoast)
 "iZ" = (
 /obj/effect/decal/cleanable/blood/tracks{
@@ -403,7 +403,7 @@
 	aportalid = "z2-southeast2-in";
 	aallmig = "z2-southeast2"
 	},
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/woods/heavenscoast)
 "kl" = (
 /obj/structure/bars/cemetery,
@@ -414,7 +414,7 @@
 /area/outdoors/woods/heavenscoast)
 "kr" = (
 /obj/structure/flora/grass/water,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/woods/heavenscoast)
 "ky" = (
 /mob/living/simple_animal/hostile/skeleton/bow,
@@ -434,7 +434,7 @@
 /obj/effect/decal/borderfall{
 	dir = 1
 	},
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/woods/crossroads)
 "lv" = (
 /obj/item/paper,
@@ -518,7 +518,7 @@
 /area/under/cavewet)
 "ne" = (
 /obj/item/reagent_containers/glass/bucket/wooden,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/woods/heavenscoast)
 "ns" = (
 /turf/open/floor/wood,
@@ -689,7 +689,7 @@
 	layer = 4.05;
 	density = 0
 	},
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/woods/crossroads)
 "rp" = (
 /obj/structure/flora/grass/water,
@@ -792,7 +792,7 @@
 	aportalid = "z1-southwest1-out";
 	aallmig = "z1-southwest1"
 	},
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/woods/heavenscoast)
 "sY" = (
 /turf/open/floor/grass/yel,
@@ -828,7 +828,7 @@
 /area/under/cave)
 "tw" = (
 /obj/structure/flora/grass/water/reeds,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/woods/heavenscoast)
 "tB" = (
 /obj/effect/decal/cleanable/blood/tracks{
@@ -1129,7 +1129,7 @@
 /obj/structure/closet/crate/chest/crate,
 /obj/item/weapon/shovel/small,
 /obj/item/weapon/shovel/small,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/woods/heavenscoast)
 "Ae" = (
 /turf/closed/wall/mineral/pipe,
@@ -1258,7 +1258,7 @@
 /turf/open/floor/woodturned,
 /area/under/cave)
 "Dh" = (
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/woods/crossroads)
 "Dm" = (
 /obj/structure/flora/grass/water/reeds,
@@ -1375,7 +1375,7 @@
 /obj/structure/lever{
 	redstone_id = "bandit_gate"
 	},
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors)
 "FC" = (
 /obj/structure/fluff/traveltile{
@@ -1404,7 +1404,7 @@
 	pixel_y = -10;
 	density = 0
 	},
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/woods/crossroads)
 "GU" = (
 /obj/effect/decal/cobbleedge{
@@ -1530,7 +1530,7 @@
 "Jh" = (
 /obj/structure/closet/crate/chest/crate,
 /obj/item/rope,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/woods/heavenscoast)
 "Js" = (
 /obj/item/natural/rock/salt,
@@ -1584,7 +1584,7 @@
 /area/under/town/basement)
 "KM" = (
 /obj/item/rope,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/woods/heavenscoast)
 "KT" = (
 /turf/closed/mineral/random/med,
@@ -1687,7 +1687,7 @@
 /area/indoors/shelter)
 "Ng" = (
 /obj/effect/landmark/events/animal_migration_point,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/woods/crossroads)
 "Nk" = (
 /obj/item/natural/stone{
@@ -1719,7 +1719,7 @@
 /turf/open/floor/dirt,
 /area/under/cavewet)
 "Oc" = (
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/woods/whisperen)
 "Oe" = (
 /obj/effect/decal/cleanable/blood/tracks{
@@ -1753,7 +1753,7 @@
 /area/outdoors)
 "OB" = (
 /obj/effect/landmark/events/animal_migration_point,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/woods/heavenscoast)
 "OI" = (
 /obj/item/natural/stone,
@@ -1967,7 +1967,7 @@
 /obj/structure/bars/passage{
 	redstone_id = "bandit_gate"
 	},
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors)
 "SF" = (
 /obj/item/natural/rock,
@@ -2202,7 +2202,7 @@
 /area/indoors/shelter)
 "YK" = (
 /obj/item/natural/rock,
-/turf/open/floor/sand,
+/turf/open/floor/sand/sandstone,
 /area/outdoors/woods/heavenscoast)
 "YR" = (
 /turf/open/floor/dirt,
