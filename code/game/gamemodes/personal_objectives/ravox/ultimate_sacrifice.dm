@@ -1,9 +1,9 @@
 /datum/objective/personal/ultimate_sacrifice
 	name = "Ultimate Sacrifice"
-	category = "Al'Aqshir's Chosen"
+	category = "Mordsol's Chosen"
 	triumph_count = 3
 	immediate_effects = list("Gained an ability to give up your life to save another")
-	rewards = list("3 Triumphs", "Al'Aqshir grows stronger", "Honorable Death")
+	rewards = list("3 Triumphs", "Mordsol grows stronger", "Honorable Death")
 
 /datum/objective/personal/ultimate_sacrifice/on_creation()
 	. = ..()
@@ -16,4 +16,4 @@
 	adjust_storyteller_influence(RAVOX, 20)
 
 /datum/objective/personal/ultimate_sacrifice/update_explanation_text()
-	explanation_text = "Make the highest sacrifice by giving your own life to save truly innocent and worthy soul in the name of Al'Aqshir."
+	explanation_text = "Make the highest sacrifice by giving your own life to save truly innocent and worthy soul in the name of Mordsol."

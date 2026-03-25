@@ -33,7 +33,7 @@
 							/turf/open/floor/dirt = 5)
 	allowed_areas = list(/area/outdoors/woods,
 							/area/outdoors/woods_safe,
-							/area/outdoors/rtfield)
+							/area/outdoors/basin/safe)
 
 /datum/mapGeneratorModule/domotanforestturfs/dirt
 	clusterCheckFlags = CLUSTER_CHECK_NONE
@@ -57,8 +57,6 @@
 							/obj/structure/flora/grass/herb/random = 3,
 							/obj/structure/essence_node = 0.1,
 							/obj/structure/flora/grass/pyroclasticflowers = 1,
-							/obj/structure/flora/grass/maneater = 1,
-							/obj/structure/flora/grass/maneater/real = 0.1,
 							/obj/structure/chair/bench/ancientlog = 0.25,
 							/obj/item/restraints/legcuffs/beartrap/armed/camouflage = 0.1,
 							/obj/item/natural/stone = 2,
@@ -66,7 +64,7 @@
 							/obj/item/grown/log/tree/stick = 6)
 	allowed_areas = list(/area/outdoors/woods,
 							/area/outdoors/woods_safe,
-							/area/outdoors/rtfield)
+							/area/outdoors/basin/safe)
 
 /datum/mapGeneratorModule/domotanforestsnow/grass
 	clusterCheckFlags = CLUSTER_CHECK_NONE
@@ -88,7 +86,6 @@
 							/obj/structure/flora/grass/bush/wall/tall/tundra = 0.25,
 							/obj/structure/flora/grass/herb/random = 7,
 							/obj/structure/essence_node = 0.1,
-							/obj/structure/flora/grass/maneater = 1,
 							/obj/structure/flora/grass/pyroclasticflowers = 1,
 							/obj/structure/chair/bench/ancientlog = 5,
 							/obj/item/restraints/legcuffs/beartrap/armed/camouflage = 0.1,
@@ -97,7 +94,7 @@
 							/obj/item/grown/log/tree/stick = 8)
 	allowed_areas = list(/area/outdoors/woods,
 							/area/outdoors/woods_safe,
-							/area/outdoors/rtfield)
+							/area/outdoors/basin/safe)
 
 /datum/mapGeneratorModule/domotanforestgrass/grass
 	clusterCheckFlags = CLUSTER_CHECK_NONE
@@ -113,14 +110,13 @@
 							/obj/structure/flora/grass = 80,
 							/obj/structure/essence_node = 0.1,
 							/obj/structure/flora/grass/herb/random = 1,
-							/obj/structure/flora/grass/maneater = 1,
 							/obj/structure/flora/grass/pyroclasticflowers = 1,
 							/obj/item/natural/stone = 8,
 							/obj/item/natural/rock = 2,
 							/obj/item/grown/log/tree/stick = 8)
 	allowed_areas = list(/area/outdoors/woods,
 							/area/outdoors/woods_safe,
-							/area/outdoors/rtfield)
+							/area/outdoors/basin/safe)
 
 /datum/mapGeneratorModule/domotanforestdirt
 	clusterCheckFlags = CLUSTER_CHECK_SAME_ATOMS
@@ -132,7 +128,6 @@
 							/obj/structure/flora/grass/bush_meagre/tundra = 14,
 							/obj/structure/flora/grass/bush/wall/tall/tundra = 0.25,
 							/obj/structure/flora/grass/herb/random = 1,
-							/obj/structure/flora/grass/maneater = 1,
 							/obj/structure/flora/grass/pyroclasticflowers = 1,
 							/obj/item/natural/stone = 8,
 							/obj/item/natural/rock = 4,
@@ -141,7 +136,7 @@
 							/obj/item/restraints/legcuffs/beartrap/armed/camouflage=0.5)
 	allowed_areas = list(/area/outdoors/woods,
 							/area/outdoors/woods_safe,
-							/area/outdoors/rtfield)
+							/area/outdoors/basin/safe)
 
 /datum/mapGeneratorModule/domotanforestdirt/grass
 	clusterCheckFlags = CLUSTER_CHECK_NONE
@@ -169,4 +164,4 @@
 	allowed_areas = list(/area/outdoors/woods,
 							/area/outdoors/woods_safe,
 							/area/under/cave,
-							/area/outdoors/rtfield)
+							/area/outdoors/basin/safe)

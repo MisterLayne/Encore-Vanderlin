@@ -53,10 +53,17 @@
 
 /datum/mapGeneratorModule/domotancave/wet
 	clusterCheckFlags = CLUSTER_CHECK_NONE
-	allowed_turfs = list(/turf/open/water/cleanshallow)
+	allowed_turfs = list(/turf/open/water/cleanshallow, /turf/open/floor/naturalstone, /turf/open/floor/dirt, /turf/open/floor/sand)
 	excluded_turfs = list()
 	spawnableAtoms = list(/obj/structure/kneestingers = 3,
 							/obj/structure/flora/grass/water = 4,
-							/obj/structure/flora/grass/water/reeds = 8)
+							/obj/structure/flora/grass/mushroom = 8,
+							/obj/structure/flora/shroom_tree = 8,
+							/obj/structure/flora/grass/water/reeds = 8,
+							/obj/structure/wild_plant/nospread/mushroom/waddle = 4,
+							/obj/structure/wild_plant/nospread/mushroom/merkel = 4,
+							/obj/structure/wild_plant/nospread/mushroom/caveweep = 4,
+							/obj/structure/wild_plant/nospread/mushroom/capillus = 4,
+							/obj/structure/wild_plant/nospread/mushroom/borowiki = 4)
 	spawnableTurfs = list()
 	allowed_areas = list(/area/under/cavewet)

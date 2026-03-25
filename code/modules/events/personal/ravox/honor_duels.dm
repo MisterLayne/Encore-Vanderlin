@@ -46,7 +46,7 @@
 
 	bordered_message(chosen_one, list(
 		span_userdanger("YOU ARE RAVOX'S CHOSEN!"),
-		span_notice("Al'Aqshir wants you to challenge others to honor duels! Win [new_objective.duels_required] duel\s to prove your worth! Duels end when a fighter yields or is knocked unconscious."),
+		span_notice("Mordsol wants you to challenge others to honor duels! Win [new_objective.duels_required] duel\s to prove your worth! Duels end when a fighter yields or is knocked unconscious."),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/vo/male/knight/rage (6).ogg', 70)
 

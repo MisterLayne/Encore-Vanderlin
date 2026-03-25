@@ -162,7 +162,7 @@
 
 /obj/item/clothing/cloak/ravox
 	name = "ravox tabard"
-	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Al'Aqshir on it."
+	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Mordsol on it."
 	icon_state = "tabard_ravox"
 	alternate_worn_layer = TABARD_LAYER
 	body_parts_covered = CHEST|GROIN
@@ -297,7 +297,7 @@
 
 /obj/item/clothing/head/helmet/heavy/ravoxhelm
 	name = "justice eagle"
-	desc = "Forged in reverence to Al'Aqshir, this helm bears the stylized visage of an eagle, symbol of unyielding judgment and divine vigilance. Its hollow eyes see not just foes, but the truth behind every deed."
+	desc = "Forged in reverence to Mordsol, this helm bears the stylized visage of an eagle, symbol of unyielding judgment and divine vigilance. Its hollow eyes see not just foes, but the truth behind every deed."
 	icon_state = "ravoxhelmet"
 	item_state = "ravoxhelmet"
 	emote_environment = 3
@@ -328,7 +328,7 @@
 		detail_tag = "_detail"
 		user.visible_message(span_warning("[user] adds [W] to [src]."))
 		user.transferItemToLoc(W, src, FALSE, FALSE)
-		update_icon()
+		update_appearance(UPDATE_OVERLAYS)
 		if(loc == user && ishuman(user))
 			var/mob/living/carbon/H = user
 			H.update_inv_head()

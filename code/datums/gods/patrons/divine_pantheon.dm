@@ -4,7 +4,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	EORA = 'sound/vo/female/gen/giggle (1).ogg',
 	DENDOR = 'sound/magic/barbroar.ogg',
 	MALUM = 'sound/magic/dwarf_chant01.ogg',
-	XYLIX = 'sound/misc/gods/xylix_omen_male_female.ogg',
+	XYLIX = 'sound/misc/gods/xylix_omen.ogg',
 	NECRA = 'sound/ambience/noises/genspooky (1).ogg',
 	ABYSSOR = 'sound/items/bucket_transfer (2).ogg',
 	RAVOX = 'sound/vo/male/knight/rage (6).ogg',
@@ -16,8 +16,9 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 ))
 
 /datum/patron/divine
-	name = null
+	abstract_type = /datum/patron/divine
 	associated_faith = /datum/faith/divine_pantheon
+	profane_words = list("zizo", "cock", "dick", "fuck", "shit", "pussy", "cuck", "cunt", "asshole")
 	var/associated_psycross = /obj/item/clothing/neck/psycross
 
 /datum/patron/divine/can_pray(mob/living/carbon/human/follower)
@@ -37,11 +38,28 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	return FALSE
 
 /* ----------------- */
+/datum/patron/divine/centrist
+	name = DIVINE_CENTRIST
+	domain = "Unity and Conflict. Denizens of the Eternal Plane."
+	desc = "Worshipping The Ten equally. Worship in such a manner is tolerated, but greatly disapproved of. The Ten rarely give their blessings to those who do not give single-minded adoration to a single diety."
+	flaws = "Discordant, Unyielding, Uninterested."
+	worshippers = "The Meek and The Indecisive"
+	sins = "Temptation, Ignorance, Denial"
+	boons = "The Ten pull for your devotion."
+	added_traits = list(TRAIT_DIVINE_CENTRIST)
+	devotion_holder = /datum/devotion/divine/centrist
+	confess_lines = list(
+		"THE TEN GUIDE US!",
+		"THE TEN PROTECT US!",
+		"I SERVE THE DIVINE TEN!",
+	)
+	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine
+
 
 /datum/patron/divine/astrata
 	name = ASTRATA
 	domain = "Goddess of Order, the Sun Queen"
-	desc = "Crafted from the head of Angros, twin of Akan. She gifted mankind the Sun, protecting Psydonia from all forces which may seek it harm: from both outside and within."
+	desc = "Crafted from the head of Psydon, twin of Noc. She gifted mankind the Sun, protecting Psydonia from all forces which may seek it harm: from both outside and within."
 	flaws = "Tyrannical, Ill-Tempered, Uncompromising"
 	worshippers = "Nobles, Zealots, Commoners"
 	sins = "Betrayal, Sloth, Witchcraft"
@@ -54,12 +72,12 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 		"I SERVE THE GLORY OF THE SUN!",
 	)
 	storyteller = /datum/storyteller/astrata
-	associated_psycross = /obj/item/clothing/neck/psycross/silver/astrata
+	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/astrata
 
 /datum/patron/divine/noc
 	name = NOC
 	domain = "God of Knowledge, the Moon Prince"
-	desc = "Crafted from the helmet of Angros, twin of Visires. He gifted mankind divine wisdom."
+	desc = "Crafted from the helmet of Psydon, twin of Astrata. He gifted mankind divine wisdom."
 	flaws = "Cynical, Isolationist, Unfiltered Honesty"
 	worshippers = "Magic Practitioners, Scholars, Scribes"
 	sins = "Suppressing Truth, Burning Books, Censorship"
@@ -72,12 +90,12 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 		"I SEEK THE MYSTERIES OF THE MOON!",
 	)
 	storyteller = /datum/storyteller/noc
-	associated_psycross = /obj/item/clothing/neck/psycross/silver/noc
+	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/noc
 
 /datum/patron/divine/dendor
 	name = DENDOR
 	domain = "God of Nature and Beasts"
-	desc = "Crafted from the bones of Angros as the embodiment of the natural world. Driven mad with time."
+	desc = "Crafted from the bones of Psydon as the embodiment of the natural world. Driven mad with time."
 	flaws = "Madness, Rebelliousness, Disorderliness"
 	worshippers = "Druids, Beasts, Madmen"
 	sins = "Deforestation, Overhunting, Disrespecting Nature"
@@ -90,12 +108,12 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 		"I ANSWER THE CALL OF THE WILD!",
 	)
 	storyteller = /datum/storyteller/dendor
-	associated_psycross = /obj/item/clothing/neck/psycross/silver/dendor
+	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/dendor
 
 /datum/patron/divine/abyssor
 	name = ABYSSOR
 	domain = "God of Seas and Storms"
-	desc = "Crafted from the blood of Angros as sovereign of the waters. Enraged by ignorance of Him from followers of The Ten."
+	desc = "Crafted from the blood of Psydon as sovereign of the waters. Enraged by ignorance of Him from followers of The Ten."
 	flaws= "Reckless, Stubborn, Destructive"
 	worshippers = "Sailors of the Sea and Sky, Horrid Sea-Creachers, Fog Islanders"
 	sins = "Fear, Hubris, Forgetfulness"
@@ -108,12 +126,12 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 		"I AM DRAWN BY THE PULL OF THE TIDE!",
 	)
 	storyteller = /datum/storyteller/abyssor
-	associated_psycross = /obj/item/clothing/neck/psycross/silver/abyssor
+	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/abyssor
 
 /datum/patron/divine/necra
 	name = NECRA
 	domain = "Mother Goddess of Death and Time"
-	desc = "The Veiled Lady, once close partner to Angros. She created the Nine others from his corpse, guiding them from the Underworld."
+	desc = "The Veiled Lady, once close partner to Psydon. She created the Nine others from his corpse, guiding them from the Underworld."
 	flaws = "Unchanging, Apathetic, Easy to Bore"
 	worshippers = "Orderlies, Gravetenders, Mourners"
 	sins = "Heretical Magic, Untimely Death, Disturbance of Rest"
@@ -126,12 +144,12 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 		"I FEAR NOT DEATH, MY LADY AWAITS ME!",
 	)
 	storyteller = /datum/storyteller/necra
-	associated_psycross = /obj/item/clothing/neck/psycross/silver/necra
+	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/necra
 
 /datum/patron/divine/ravox
 	name = RAVOX
 	domain = "God of Warfare, Justice, and Bravery"
-	desc = "Crafted from the blade of Angros, a champion of all who seek righteousness for themselves and others."
+	desc = "Crafted from the blade of Psydon, a champion of all who seek righteousness for themselves and others."
 	flaws = "Carelessness, Aggression, Pride"
 	worshippers = "Warriors, Sellswords, Guardsmen"
 	sins = "Cowardice, Cruelty, Stagnation"
@@ -144,12 +162,12 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 		"THE DRUMS OF WAR BEAT IN MY CHEST!",
 	)
 	storyteller = /datum/storyteller/ravox
-	associated_psycross = /obj/item/clothing/neck/psycross/silver/ravox
+	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/ravox
 
 /datum/patron/divine/xylix
 	name = XYLIX
 	domain = "Deity of Trickery, Freedom, and Inspiration"
-	desc = "Crafted from the silver tongue of Angros. Iliope is a force of change and deceit, yet allows little known of their gender let alone presence."
+	desc = "Crafted from the silver tongue of Psydon. Xylix is a force of change and deceit, yet allows little known of their gender let alone presence."
 	flaws = "Petulance, Deception, Gambling-Prone"
 	worshippers = "Cheats, Performers, The Hopeless"
 	sins = "Boredom, Predictability, Routine"
@@ -169,12 +187,12 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 		"EORA BRINGS US TOGETHER!",
 	)
 	storyteller = /datum/storyteller/xylix
-	associated_psycross = /obj/item/clothing/neck/psycross/silver/ravox
+	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/xylix
 
 /datum/patron/divine/pestra
 	name = PESTRA
 	domain = "Goddess of Disease, Alchemy, and Medicine"
-	desc = "A mistake; Angros' intestines left behind. She slithered out, bringing forth the cycle of life and decay."
+	desc = "A mistake; Psydon's intestines left behind. She slithered out, bringing forth the cycle of life and decay."
 	flaws = "Drunkenness, Crudeness, Irresponsibility"
 	worshippers = "The Ill and Infirm, Alchemists, Physicians"
 	sins = "´Curing´ Abnormalities, Refusing to Help Unfortunates, Groveling"
@@ -187,12 +205,20 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 		"MY AFFLICTION IS MY TESTAMENT!",
 	)
 	storyteller = /datum/storyteller/pestra
-	associated_psycross = /obj/item/clothing/neck/psycross/silver/pestra
+	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/pestra
+
+/datum/patron/divine/pestra/preference_accessible(datum/preferences/prefs)
+	. = ..()
+	if(!.)
+		return
+
+	// These guys believe in a wurm, not pestra. They won't accept pestra as not being a giant acid wurm.
+	return prefs.pref_species.id != SPEC_ID_DWARF_SUBTERRAN
 
 /datum/patron/divine/malum
 	name = MALUM
 	domain = "God of Toil, Innovation, and Creation"
-	desc = "Crafted from the hands of Angros. He would later use his own to construct wondrous inventions."
+	desc = "Crafted from the hands of Psydon. He would later use his own to construct wondrous inventions."
 	flaws = "Obsessive, Exacting, Overbearing"
 	worshippers = "Smiths, Miners, Sculptors"
 	sins = "Cheating, Shoddy Work, Suicide"
@@ -205,12 +231,12 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 		"I AM AN INSTRUMENT OF CREATION!",
 	)
 	storyteller = /datum/storyteller/malum
-	associated_psycross = /obj/item/clothing/neck/psycross/silver/malum
+	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/malum
 
 /datum/patron/divine/eora
 	name = EORA
 	domain = "Goddess of Love, Family, and Art"
-	desc = "Crafted from the heart of Angros, a spreader of love and beauty, and strengthener of bonds."
+	desc = "Crafted from the heart of Psydon, a spreader of love and beauty, and strengthener of bonds."
 	flaws= "Naivete, Impulsiveness, Bigotry"
 	worshippers = "Mothers, Artists, Married Couples"
 	sins = "Sadism, Abandonment, Ruining Beauty"
@@ -223,4 +249,4 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 		"I LOVE YOU, EVEN AS YOU TRESPASS AGAINST ME!",
 	)
 	storyteller = /datum/storyteller/eora
-	associated_psycross = /obj/item/clothing/neck/psycross/silver/eora
+	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/eora

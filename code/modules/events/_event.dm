@@ -58,6 +58,26 @@
 	/// List of storytellers that will pick only their dedicated and general events in some cases, like when they are ascendant
 	var/list/dedicated_storytellers
 
+/datum/round_event_control/New()
+	if(config && !wizardevent) // Magic is unaffected by configs
+		earliest_start = CEILING(earliest_start * CONFIG_GET(number/events_min_time_mul), 1)
+		min_players = CEILING(min_players * CONFIG_GET(number/events_min_players_mul), 1)
+
+/datum/round_event_control/Topic(href, href_list)
+	..()
+
+	if(!check_rights(NONE))
+		return
+
+	if(href_list["cancel"])
+		if(!triggering)
+			to_chat(usr, "<span class='admin'>I am too late to cancel that event</span>")
+			return
+		triggering = FALSE
+		message_admins("[key_name_admin(usr)] cancelled event [name].")
+		log_admin_private("[key_name(usr)] cancelled event [name].")
+		SSblackbox.record_feedback("tally", "event_admin_cancelled", 1, typepath)
+
 /datum/round_event_control/proc/valid_for_map()
 	return TRUE
 
@@ -91,11 +111,6 @@
 				string += ", "
 			string += "Too Many Villians"
 	return string
-
-/datum/round_event_control/New()
-	if(config && !wizardevent) // Magic is unaffected by configs
-		earliest_start = CEILING(earliest_start * CONFIG_GET(number/events_min_time_mul), 1)
-		min_players = CEILING(min_players * CONFIG_GET(number/events_min_players_mul), 1)
 
 /datum/round_event_control/wizard
 	wizardevent = TRUE
@@ -161,21 +176,6 @@
 	triggering = FALSE
 
 	return EVENT_READY
-
-/datum/round_event_control/Topic(href, href_list)
-	..()
-
-	if(!check_rights(NONE))
-		return
-
-	if(href_list["cancel"])
-		if(!triggering)
-			to_chat(usr, "<span class='admin'>I am too late to cancel that event</span>")
-			return
-		triggering = FALSE
-		message_admins("[key_name_admin(usr)] cancelled event [name].")
-		log_admin_private("[key_name(usr)] cancelled event [name].")
-		SSblackbox.record_feedback("tally", "event_admin_cancelled", 1, typepath)
 
 /datum/round_event_control/proc/runEvent(random = FALSE, admin_forced = TRUE)
 	var/datum/round_event/round_event = new typepath(TRUE, src)
@@ -409,43 +409,43 @@ GLOBAL_LIST_INIT(badomens, list())
 	GLOB.badomens -= input
 
 /datum/round_event_control/proc/badomen(eventreason)
-	var/used = "One Envy."
-	var/title = "Bad Omen"
+	var/used = "Her gaze stirs!"
+	var/title = "Worldthread Severed"
 	var/sound = 'sound/misc/evilevent.ogg'
 	switch(eventreason)
 		if(OMEN_ROUNDSTART)
 			used = pick( \
-				"One Envy.", \
-				"Unholy invocations channel the will of Her.", \
-				"Forbidden rituals cause echoes through the plane.", \
-				"Whispers of the Dark Lady in the shadows.", \
-				"The servants of One Envy undermine the Ten.", \
+				"Her gaze stirs!", \
+				"The bodies of Man shudder in foreboding anticipation. Evil has taken root in the world again.", \
+				"A terrible cloud engulfs the land, one of dreadful eminence.", \
+				"The One Envy turns her gaze upon you!", \
+				"The Worldflame flares in the distant horizon. Nefarious deeds injure Gaia again.", \
 				"Her influence becomes more tangible...", \
 				"A foul curse temporarily takes the land.", \
-				"The dead churn and dig at their graves.", \
+				"The dead churn and dig at their graves. Scratching rattles the ground beneath us all, as if urging for release again.", \
 			)
 			title = pick( \
-				"One Envy Sneers", \
-				"The Dark Lady Watches", \
-				"One Envy's Attention", \
-				"She Peers", \
-				"One Envy Smirks", \
+				"The One Envy Stirs", \
+				"Gani Weeps", \
+				"The Jealous God Peers", \
+				"The Mount Groans", \
+				"A Dark Cloud Rises", \
 			)
 			sound = 'sound/misc/gods/zizo_omen.ogg'
 		if(OMEN_NOLORD)
-			used = "The Monarch is dead! We need a new ruler."
+			used = "The Regent is dead! We need a new ruler."
 		if(OMEN_NOPRIEST)
 			used = "The High Priest is dead!"
 		if(OMEN_NOBLEDEATH)
 			used = "A Noble has perished."
 		if(OMEN_SUNSTEAL)
-			used = "The Sun, she is wounded!"
+			used = "The Worldflame is smothered, and the Star is dark!"
 		if(OMEN_SKELETONSIEGE)
-			used = "Unwelcome visitors!"
+			used = "The Old War's banners fly in the distance!"
 		if("ascend")
-			used = "One Envy will rise once again."
+			used = "The sins of old are uprooted to live again."
 		if("psycross")
-			used = "You have angered the gods!"
+			used = "A thousand voices roar from the firmament! You have angered the Gods!"
 	if(!eventreason)
 		return
 	if(!used || !title || !sound)
