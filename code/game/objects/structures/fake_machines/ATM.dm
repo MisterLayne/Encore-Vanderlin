@@ -10,19 +10,19 @@
 /obj/structure/fake_machine/atm/attack_hand(mob/user)
 	if(!ishuman(user))
 		return
-	var/mob/living/carbon/human/user_mob = user
+	var/mob/living/carbon/human/H = user
 
 	if(HAS_TRAIT(user, TRAIT_MATTHIOS_CURSE) && prob(33))
-		to_chat(user_mob, "<span class='warning'>The idea repulses me!</span>")
-		user_mob.cursed_freak_out()
+		to_chat(H, "<span class='warning'>The idea repulses me!</span>")
+		H.cursed_freak_out()
 		return
 
-	if(user_mob.real_name in GLOB.outlawed_players)
+	if(user.real_name in GLOB.outlawed_players)
 		say("OUTLAW DETECTED! REFUSING SERVICE!")
 		return
 
-	if(user_mob in SStreasury.bank_accounts)
-		var/amt = SStreasury.bank_accounts[user_mob]
+	if(H in SStreasury.bank_accounts)
+		var/amt = SStreasury.bank_accounts[H]
 		if(!amt)
 			say("Your balance is nothing.")
 			return
@@ -35,39 +35,32 @@
 		if(amt >= 5)
 			choicez += "SILVER"
 		if(amt > 1) choicez += "BRONZE"
-		var/selection = input(user_mob, "Make a Selection", src) as null|anything in choicez
+		var/selection = input(user, "Make a Selection", src) as null|anything in choicez
 		if(!selection)
 			return
-		amt = SStreasury.bank_accounts[user_mob]
+		amt = SStreasury.bank_accounts[H]
 		var/mod = 1
 		if(selection == "GOLD")
 			mod = 10
 		if(selection == "SILVER")
 			mod = 5
 		if(selection == "BRONZE") mod = 1
-		var/coin_amt = input(user_mob, "There is [SStreasury.treasury_value] mammon in the treasury. You may withdraw [amt/mod] [selection] COINS from your account.", src) as null|num
+		var/coin_amt = input(user, "There is [SStreasury.treasury_value] mammon in the treasury. You may withdraw [amt/mod] [selection] COINS from your account.", src) as null|num
 		coin_amt = round(coin_amt)
 		if(coin_amt < 1)
 			return
-		amt = SStreasury.bank_accounts[user_mob]
-		if(!Adjacent(user_mob))
+		amt = SStreasury.bank_accounts[H]
+		if(!Adjacent(user))
 			return
 		if((coin_amt*mod) > amt)
 			playsound(src, 'sound/misc/machineno.ogg', 100, FALSE, -1)
 			return
-		if(!SStreasury.withdraw_money_account(coin_amt*mod, user_mob))
+		if(!SStreasury.withdraw_money_account(coin_amt*mod, H))
 			playsound(src, 'sound/misc/machineno.ogg', 100, FALSE, -1)
 			return
 		record_round_statistic(STATS_MAMMONS_WITHDRAWN, coin_amt * mod)
-		budget2change(coin_amt*mod, user_mob, selection)
+		budget2change(coin_amt*mod, user, selection)
 	else
-		to_chat(user_mob, "<span class='warning'>The machine bites my finger.</span>")
-		icon_state = "atm-b"
-		user_mob.flash_fullscreen("redflash3")
-		playsound(user_mob, 'sound/combat/hits/bladed/genstab (1).ogg', 100, FALSE, -1)
-		SStreasury.create_bank_account(user_mob)
-		if(user_mob.mind)
-			var/datum/job/target_job = SSjob.GetJob(user_mob.mind.assigned_role)
 		to_chat(user, "<span class='warning'>The machine surveys my face, storing it in recognition.</span>")
 		icon_state = "atm-b"
 		H.flash_fullscreen("redflash3")
@@ -76,12 +69,12 @@
 		if(H.mind)
 			var/datum/job/target_job = SSjob.GetJob(H.mind.assigned_role)
 			if(target_job && target_job.noble_income)
-				SStreasury.noble_incomes[user_mob] = target_job.noble_income
+				SStreasury.noble_incomes[H] = target_job.noble_income
 		spawn(5)
 			say("New account created.")
 			playsound(src, 'sound/misc/machinetalk.ogg', 100, FALSE, -1)
 
-/obj/structure/fake_machine/atm/attackby(obj/item/P, mob/user, list/modifiers)
+/obj/structure/fake_machine/atm/attackby(obj/item/P, mob/user, params)
 	if(ishuman(user))
 		if(istype(P, /obj/item/coin/inqcoin))
 			return
