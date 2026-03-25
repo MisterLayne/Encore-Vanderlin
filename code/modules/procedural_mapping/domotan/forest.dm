@@ -33,7 +33,7 @@
 							/turf/open/floor/dirt = 5)
 	allowed_areas = list(/area/outdoors/woods,
 							/area/outdoors/woods_safe,
-							/area/outdoors/rtfield)
+							/area/outdoors/basin/safe)
 
 /datum/mapGeneratorModule/domotanforestturfs/dirt
 	clusterCheckFlags = CLUSTER_CHECK_NONE
@@ -64,7 +64,7 @@
 							/obj/item/grown/log/tree/stick = 6)
 	allowed_areas = list(/area/outdoors/woods,
 							/area/outdoors/woods_safe,
-							/area/outdoors/rtfield)
+							/area/outdoors/basin/safe)
 
 /datum/mapGeneratorModule/domotanforestsnow/grass
 	clusterCheckFlags = CLUSTER_CHECK_NONE
@@ -94,7 +94,7 @@
 							/obj/item/grown/log/tree/stick = 8)
 	allowed_areas = list(/area/outdoors/woods,
 							/area/outdoors/woods_safe,
-							/area/outdoors/rtfield)
+							/area/outdoors/basin/safe)
 
 /datum/mapGeneratorModule/domotanforestgrass/grass
 	clusterCheckFlags = CLUSTER_CHECK_NONE
@@ -116,7 +116,7 @@
 							/obj/item/grown/log/tree/stick = 8)
 	allowed_areas = list(/area/outdoors/woods,
 							/area/outdoors/woods_safe,
-							/area/outdoors/rtfield)
+							/area/outdoors/basin/safe)
 
 /datum/mapGeneratorModule/domotanforestdirt
 	clusterCheckFlags = CLUSTER_CHECK_SAME_ATOMS
@@ -136,7 +136,7 @@
 							/obj/item/restraints/legcuffs/beartrap/armed/camouflage=0.5)
 	allowed_areas = list(/area/outdoors/woods,
 							/area/outdoors/woods_safe,
-							/area/outdoors/rtfield)
+							/area/outdoors/basin/safe)
 
 /datum/mapGeneratorModule/domotanforestdirt/grass
 	clusterCheckFlags = CLUSTER_CHECK_NONE
@@ -164,4 +164,4 @@
 	allowed_areas = list(/area/outdoors/woods,
 							/area/outdoors/woods_safe,
 							/area/under/cave,
-							/area/outdoors/rtfield)
+							/area/outdoors/basin/safe)

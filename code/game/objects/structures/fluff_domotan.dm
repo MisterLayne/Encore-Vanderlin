@@ -1,0 +1,116 @@
+/obj/structure/fluff/statue/zizo
+	name = "statue of the One Envy"
+	desc = "Burning eyes of amber pierce through you; they see what is truly you, more than one's mind can possibly know itself. You dare not stir its gaze."
+	icon = 'icons/roguetown/misc/32x64.dmi'
+	icon_state = "off"
+	max_integrity = 500
+	deconstructible = FALSE
+	density = TRUE
+	blade_dulling = DULLING_BASH
+
+/obj/structure/fluff/statue/zizo/Initialize()
+	. = ..()
+	set_light(1, 1, 1, l_color = COLOR_ORANGE)
+
+/obj/structure/fluff/statue/hand_of_fate
+	name = "Mighty Hand of Fate"
+	desc = "Exuberance and untold luxury survives a mythos long since erased from the annals of beastkind's history. Yet Her glorious facsimile lives on, stronger still in this lonesome, isolated place. Her home. Her love. Her final gift. Fate errs at the unrelenting hand of its master!"
+	icon = 'icons/roguetown/misc/64x96.dmi'
+	icon_state = "hand"
+	max_integrity = 10000
+	deconstructible = FALSE
+	density = TRUE
+	blade_dulling = DULLING_BASH
+	bound_width = 64
+
+/obj/structure/fluff/statue/hand_of_fate/Initialize()
+	. = ..()
+	set_light(1, 1, 1, l_color = COLOR_ORANGE)
+
+/obj/structure/fluff/statue/droid
+	name = "Kraf Dol"
+	desc = "A peculiar machina of unknown make, firmly embedded in the wall and gleaming out with tiny lifeless ocular holes. It hums with a mysterious energy."
+	icon = 'icons/roguetown/misc/droids.dmi'
+	icon_state = "kraf_on"
+	max_integrity = 100
+	deconstructible = FALSE
+	density = FALSE
+	blade_dulling = DULLING_BASH
+
+/obj/structure/fluff/statue/droid/Initialize()
+	. = ..()
+	set_light(1, 1, 1, l_color = COLOR_BLUE_LIGHT)
+
+/obj/structure/fluff/statue/droid/attackby(obj/item/P, mob/user, params)
+	say("Shzzt! Krrf, krrchst zaak! Mana barrier intact. Sea pressure nominal. Shhhtz.")
+	return
+
+/obj/structure/fluff/hanging_banners
+	name = "hanging pennant flags"
+	desc = "Free-flying little banners in the standard decorum of the Shirleighs, blue as sky and white as the stars it hides."
+	icon = 'icons/roguetown/misc/flags.dmi'
+	icon_state = "banners_doma"
+	max_integrity = 20
+	layer = 9
+	deconstructible = FALSE
+	density = FALSE
+	blade_dulling = DULLING_BASH
+
+/obj/structure/fluff/hanging_banners/church
+	name = "elementalist pennant flags"
+	desc = "Free-flying little banners in the standard decorum of the Elemental pantheon. It represents an order of Fire, Ice, Earth and Air."
+	icon_state = "banners_church"
+
+/obj/structure/fluff/flag
+	name = "Shirleigh flag"
+	desc = "A proud flag full of wind in the standard decorum of the Shirleighs, blue as sky and white as the stars it hides."
+	icon = 'icons/roguetown/misc/96x96.dmi'
+	icon_state = "flag_doma"
+	max_integrity = 300
+	layer = 9
+	deconstructible = FALSE
+	density = TRUE
+	blade_dulling = DULLING_BASH
+	SET_BASE_PIXEL(-32, 0)
+
+//Elemental crystal for the church
+//destroying it causes a huge explosion
+/obj/structure/fluff/psycross/hugecrystal
+	name = "Linked Elemental Shard"
+	desc = "A towering, glamorous and lively crystal. A priceless treasure and fixture of worship for disciples of the Elementals, and said to be but a tiny fraction of Heaven brought to Gaia."
+	icon_state = "free"
+	icon = 'icons/roguetown/misc/64x96.dmi'
+	break_sound = 'sound/combat/hits/onglass/glassbreak (2).ogg'
+	attacked_sound = list('sound/combat/hits/onglass/glassbreak (1).ogg','sound/combat/hits/onglass/glassbreak (3).ogg')
+	layer = ABOVE_MOB_LAYER
+	max_integrity = 600
+	deconstructible = FALSE
+	SET_BASE_PIXEL(-16, 0)
+
+/obj/structure/fluff/psycross/hugecrystal/Initialize()
+	. = ..()
+	set_light(1, 1, 1, l_color = COLOR_BLUE_LIGHT)
+
+/obj/structure/fluff/psycross/hugecrystal/Destroy()
+	addomen("psycross")
+	STOP_PROCESSING(SSfastprocess, src)
+	var/turf/T = get_turf(src)
+	explosion(T, devastation_range = 2, heavy_impact_range = 3, light_impact_range = 7, flash_range = 9, flame_range = 7, smoke = TRUE, soundin = 'sound/misc/explode/incendiary (2).ogg')
+	qdel(src)
+	return ..()
+
+//safe omenless and explosionless alternatives
+/obj/structure/fluff/psycross/hugecrystal/safe
+	name = "Restrained Elemental Shard"
+	desc = "A towering, shimmering crystal. It appears to be restrained with some odd advanced mechanism, hindering its power from being channeled."
+	icon_state = "caged"
+
+/obj/structure/fluff/psycross/hugecrystal/safe/Destroy()
+	STOP_PROCESSING(SSfastprocess, src)
+	qdel(src)
+	return ..()
+
+/obj/structure/fluff/psycross/hugecrystal/safe/dead
+	name = "Lifeless Elemental Shard"
+	desc = "A towering, shimmering crystal. It appears to be devoid of energy and shows no sign of power within."
+	icon_state = "dead"
