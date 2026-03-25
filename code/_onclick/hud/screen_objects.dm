@@ -148,8 +148,7 @@
 		var/mob/M = usr
 		for(var/datum/recipe as anything in M.mind?.learned_recipes)
 			book.types |= recipe.type
-		book.generate_categories()
-		usr << browse(book.generate_html(usr),"window=recipe;size=800x810")
+		book.ui_interact(usr)
 		return
 	if(world.time < lastclick + 3 SECONDS)
 		return
@@ -1723,7 +1722,7 @@
 		hud_used.rmb_intent.collapse_intents()
 
 /atom/movable/screen/time
-	name = "The One Star"
+	name = "Astrata"
 	icon = 'icons/time.dmi'
 	icon_state = "day"
 
@@ -1733,14 +1732,14 @@
 
 /atom/movable/screen/time/update_name()
 	switch(GLOB.tod)
-		if("day")
-			name = "Day"
-		if("dusk")
-			name = "Dusk"
-		if("night")
-			name = "Night"
-		if("dawn")
-			name = "Dawn"
+		if(DAY)
+			name = "Astrata"
+		if(DUSK)
+			name = "Astrata - Dusk"
+		if(NIGHT)
+			name = "Noc"
+		if(DAWN)
+			name = "Astrata - Dawn"
 	return ..()
 
 /atom/movable/screen/time/update_overlays()
