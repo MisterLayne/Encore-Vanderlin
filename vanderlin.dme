@@ -1592,6 +1592,7 @@
 #include "code\game\area\wilderness.dm"
 #include "code\game\area\domotan\east.dm"
 #include "code\game\area\domotan\necropolis.dm"
+#include "code\game\area\domotan\north.dm"
 #include "code\game\area\domotan\south.dm"
 #include "code\game\area\domotan\west.dm"
 #include "code\game\atom\atom_defense.dm"

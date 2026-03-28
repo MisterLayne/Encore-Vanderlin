@@ -36,7 +36,7 @@
 /obj/structure/fluff/traveltile
 	name = "travel"
 	icon_state = "travel"
-	icon = 'icons/turf/floors.dmi'
+	icon = 'icons/turf/travel.dmi'
 	density = FALSE
 	anchored = TRUE
 	layer = ABOVE_OPEN_TURF_LAYER
@@ -78,7 +78,7 @@
 /obj/structure/fluff/traveltile/proc/hide_if_needed()
 	if(required_trait)
 		invisibility = INVISIBILITY_OBSERVER
-		var/image/I = image(icon = 'icons/turf/floors.dmi', icon_state = "travel", layer = ABOVE_OPEN_TURF_LAYER, loc = src)
+		var/image/I = image(icon = 'icons/turf/travel.dmi', icon_state = "travel", layer = ABOVE_OPEN_TURF_LAYER, loc = src)
 		add_alt_appearance(/datum/atom_hud/alternate_appearance/basic/traveltile, required_trait, I)
 
 /obj/structure/fluff/traveltile/proc/get_other_end_turf(return_travel = FALSE)

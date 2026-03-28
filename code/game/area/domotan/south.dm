@@ -19,6 +19,7 @@
 	first_time_text = "Heavenscoast"
 	custom_area_sound = 'sound/misc/stings/RosewoodSting.ogg'
 	converted_type = /area/indoors/shelter/woods
+	threat_region = THREAT_REGION_COAST
 
 /area/outdoors/woods/crossroads
 	name = "County of Crossroads"
@@ -39,6 +40,7 @@
 				/mob/living/carbon/human/species/goblin/npc/ambush = 45)
 	first_time_text = "Crossroads"
 	custom_area_sound = 'sound/misc/stings/generic.ogg'
+	threat_region = THREAT_REGION_BASIN
 
 /area/outdoors/woods/whisperen
 	name = "Wey Whisperen"
@@ -57,3 +59,4 @@
 	ambush_mobs = null
 	first_time_text = "Wey Whisperen Hamlet"
 	custom_area_sound = 'sound/misc/stings/RosewoodSting.ogg'
+	threat_region = THREAT_REGION_COAST
