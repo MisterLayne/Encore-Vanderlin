@@ -2429,7 +2429,7 @@
 "Gk" = (
 /obj/effect/landmark/latejoin,
 /turf/open/floor/metal/barograte,
-/area/latejoin_area)
+/area/empty_space)
 "Gl" = (
 /obj/structure/composter/halffull,
 /turf/open/floor/snow,
