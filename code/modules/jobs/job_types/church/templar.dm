@@ -15,7 +15,7 @@
 		/datum/attribute/skill/misc/sewing = 20
 	)
 
-/datum/attribute_holder/sheet/job/templar/patron/astrata
+/datum/attribute_holder/sheet/job/templar/patron/visires
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/swords = 40
 	)
@@ -123,8 +123,8 @@
 /datum/job/templar/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 	switch(spawned.patron?.type)
-		if(/datum/patron/divine/astrata)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/astrata)
+		if(/datum/patron/divine/visires)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/visires)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAstrata.ogg'
 		if(/datum/patron/divine/noc)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/noc)
@@ -210,11 +210,11 @@
 /datum/outfit/templar/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
 	. = ..()
 	switch(equipped_human.patron?.type)
-		if(/datum/patron/divine/astrata)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/astrata
-			head = /obj/item/clothing/head/helmet/heavy/necked/astrata
-			cloak = /obj/item/clothing/cloak/stabard/templar/astrata
-			backr = /obj/item/weapon/sword/long/exe/astrata
+		if(/datum/patron/divine/visires)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/visires
+			head = /obj/item/clothing/head/helmet/heavy/necked/visires
+			cloak = /obj/item/clothing/cloak/stabard/templar/visires
+			backr = /obj/item/weapon/sword/long/exe/visires
 		if(/datum/patron/divine/noc)
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/noc
 			head = /obj/item/clothing/head/helmet/heavy/necked/noc

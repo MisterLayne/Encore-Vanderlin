@@ -7,7 +7,7 @@
 	visible_on_active_menu = TRUE
 	manual_activation = TRUE
 	var/list/patron_curse_map = list(
-		/datum/patron/divine/astrata = /datum/curse/astrata,
+		/datum/patron/divine/visires = /datum/curse/visires,
 		/datum/patron/divine/ravox = /datum/curse/ravox,
 		/datum/patron/divine/necra = /datum/curse/necra,
 		/datum/patron/divine/xylix = /datum/curse/xylix,

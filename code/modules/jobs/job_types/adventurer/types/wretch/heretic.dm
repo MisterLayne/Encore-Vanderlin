@@ -38,7 +38,7 @@
 	. = ..()
 
 	switch(spawned.patron?.type)
-		if(/datum/patron/divine/astrata)
+		if(/datum/patron/divine/visires)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/swords, 40)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAstrata.ogg'
 		if(/datum/patron/divine/noc)
@@ -141,11 +141,11 @@
 	. = ..()
 
 	switch(equipped_human.patron?.type)
-		if(/datum/patron/divine/astrata)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/astrata
-			head = /obj/item/clothing/head/helmet/heavy/necked/astrata
-			cloak = /obj/item/clothing/cloak/stabard/templar/astrata
-			backr = /obj/item/weapon/sword/long/exe/astrata
+		if(/datum/patron/divine/visires)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/visires
+			head = /obj/item/clothing/head/helmet/heavy/necked/visires
+			cloak = /obj/item/clothing/cloak/stabard/templar/visires
+			backr = /obj/item/weapon/sword/long/exe/visires
 		if(/datum/patron/divine/noc)
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/noc
 			head = /obj/item/clothing/head/helmet/heavy/necked/noc

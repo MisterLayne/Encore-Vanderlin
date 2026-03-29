@@ -79,7 +79,7 @@
 	triumph_buy_id = TRIUMPH_BUY_NOC_INFLUENCE_REDUCTION
 	storyteller_name = NOC
 
-/datum/triumph_buy/storyteller_influence_reduction/astrata
+/datum/triumph_buy/storyteller_influence_reduction/visires
 	name = "Visires' Influence Reduction"
-	triumph_buy_id = TRIUMPH_BUY_ASTRATA_INFLUENCE_REDUCTION
-	storyteller_name = ASTRATA
+	triumph_buy_id = TRIUMPH_BUY_VISIRES_INFLUENCE_REDUCTION
+	storyteller_name = VISIRES

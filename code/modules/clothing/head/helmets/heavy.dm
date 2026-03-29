@@ -206,8 +206,8 @@
 
 //............... Temple heavy helmets ......................//
 //............... Visires Helmet ............... //
-/obj/item/clothing/head/helmet/heavy/necked/astrata
-	name = "astrata helmet"
+/obj/item/clothing/head/helmet/heavy/necked/visires
+	name = "visires helmet"
 	desc = "A great helmet decorated with a golden sigil of the solar order and a maille neck cover. The dependable companion of many holy warriors of Visires."
 	icon_state = "astratahelm"
 	item_weight = 6 * GOLD_MULITPLIER

@@ -2414,7 +2414,7 @@ GLOBAL_LIST_EMPTY(roundstart_species)
 /datum/species/proc/CanIgniteMob(mob/living/carbon/human/H)
 	if(H.status_flags & GODMODE)
 		return FALSE
-	if(H.divine_fire_stacks > 0) // tieflings can't say no to astrata
+	if(H.divine_fire_stacks > 0) // tieflings can't say no to visires
 		return TRUE
 	if(HAS_TRAIT(H, TRAIT_NOFIRE))
 		return FALSE

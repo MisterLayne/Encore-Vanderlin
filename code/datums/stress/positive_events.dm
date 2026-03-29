@@ -233,7 +233,7 @@
 	desc = span_green("It's always good to see an old friend's face.")
 	timer = 2 MINUTES
 
-/datum/stress_event/astrata_grandeur
+/datum/stress_event/visires_grandeur
 	stress_change = -2
 	desc = span_green("Visires' light shines brightly through me. I must not let others ever forget that.")
 	timer = 30 MINUTES

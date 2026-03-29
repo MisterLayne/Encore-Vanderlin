@@ -45,10 +45,10 @@
 /datum/job/priest
 	title = "Priest"
 	f_title = "Priestess"
-	tutorial = "You are a devoted follower of Astrata. \
+	tutorial = "You are a devoted leader of the Katholikos. \
 	The divine is all that matters in an immoral world. \
-	The Sun Queen and her pantheon rule over all, and you will preach their wisdom to Vanderlin. \
-	It is up to you to shepherd the flock into a Ten-fearing future."
+	The Elementals and their pantheon rule over all, and you will preach their wisdom to this land. \
+	It is up to you to shepherd the flock into a righteous future."
 	department_flag = CHURCHMEN
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_PRIEST
@@ -60,7 +60,7 @@
 	cmode_music = 'sound/music/cmode/church/CombatAstrata.ogg'
 	allowed_races = RACES_PLAYER_NONDISCRIMINATED
 	blacklisted_species = list(SPEC_ID_HALFLING)
-	allowed_patrons = list(/datum/patron/divine/astrata)
+	allowed_patrons = list(/datum/patron/divine/visires)
 
 	outfit = /datum/outfit/priest
 	spells = list(
@@ -97,7 +97,7 @@
 
 /datum/outfit/priest
 	name = "Priest"
-	neck = /obj/item/clothing/neck/psycross/silver/divine/astrata
+	neck = /obj/item/clothing/neck/psycross/silver/divine/visires
 	head = /obj/item/clothing/head/priestmask
 	shirt = /obj/item/clothing/shirt/undershirt/priest
 	pants = /obj/item/clothing/pants/tights/colored/black

@@ -64,7 +64,7 @@
 					cast_on.IgniteMob()
 					return
 		if(HEALING_DIVINE)
-			if(HAS_TRAIT(cast_on, TRAIT_ASTRATA_CURSE))
+			if(HAS_TRAIT(cast_on, TRAIT_VISIRES_CURSE))
 				cast_on.visible_message(span_danger("[cast_on] recoils in pain!"), span_userdanger("Divine healing shuns me!"))
 				cast_on.cursed_freak_out()
 				return
@@ -92,7 +92,7 @@
 			if(/datum/patron/psydon, /datum/patron/psydon/extremist)
 				cast_on.visible_message(span_info("A strange stirring feeling pours from [cast_on]!"), span_notice("Sentimental thoughts drive away my pains!"))
 
-			if(/datum/patron/divine/astrata)
+			if(/datum/patron/divine/visires)
 				cast_on.visible_message(span_info("A wreath of gentle light passes over [cast_on]!"), span_notice("I'm bathed in holy light!"))
 				// during the day, heal 10 more (basic as fuck)
 				if(GLOB.tod == DAY)

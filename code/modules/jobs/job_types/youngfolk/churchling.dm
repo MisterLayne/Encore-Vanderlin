@@ -68,8 +68,8 @@
 		shirt = /obj/item/clothing/shirt/undershirt
 
 	switch(equipped_human.patron?.type)
-		if(/datum/patron/divine/astrata)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/astrata
+		if(/datum/patron/divine/visires)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/visires
 		if(/datum/patron/divine/necra)
 			neck = /obj/item/clothing/neck/psycross/silver/divine/necra
 		if(/datum/patron/divine/eora)

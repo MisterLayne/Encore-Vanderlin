@@ -701,9 +701,9 @@
 		qdel(carving_block)
 	update_appearance(UPDATE_ICON_STATE)
 
-/obj/structure/fluff/statue/astrata
-	name = "statue of Astrata"
-	desc = "Astrata, the Sun Queen, reigns over light, order, and conquest. She is worshipped and feared in equal measure."
+/obj/structure/fluff/statue/visires
+	name = "statue of Visires"
+	desc = "Visires, the Sun Queen, reigns over light, order, and conquest. She is worshipped and feared in equal measure."
 	icon = 'icons/roguetown/misc/tallandwide.dmi'
 	icon_state = "astrata"
 	max_integrity = 100 // You wanted descructible statues, you'll get them.
@@ -712,7 +712,7 @@
 	blade_dulling = DULLING_BASH
 	SET_BASE_PIXEL(-16, 0)
 
-/obj/structure/fluff/statue/astrata/bling
+/obj/structure/fluff/statue/visires/bling
 	icon_state = "astrata_bling"
 
 /obj/structure/fluff/statue/knight/r
@@ -838,7 +838,7 @@
 				H.apply_status_effect(/datum/status_effect/buff/nocblessing)
 				H.playsound_local(H, 'sound/misc/notice (2).ogg', 100, FALSE)
 		if(2)
-			to_chat(H, span_warning("Looking at Astrata blinds you"))
+			to_chat(H, span_warning("Looking at the sun blinds you"))
 			if(do_after(H, 1 SECONDS, src)) // QUICK LOOK AWAY !!
 				var/obj/item/bodypart/affecting = H.get_bodypart("head")
 				to_chat(H, span_userdanger("The blinding light causes you intense pain!"))
@@ -862,7 +862,7 @@
 
 /obj/structure/fluff/globe
 	name = "globe"
-	desc = "A model representing the known world of Psydonia."
+	desc = "A model representing the known world of Gaia."
 	icon = 'icons/roguetown/misc/structure.dmi'
 	icon_state = "globe"
 	density = TRUE
@@ -876,19 +876,15 @@
 	var/mob/living/carbon/human/H = user
 	var/random_message = pick(
 	"You spin the globe!",
-	"You land on Rockhill!",
-	"You land on Vanderlin!",
-	"You land on Heartfelt!",
-	"You land on Zaladin!",
-	"You land on Grenzelhoft!",
-	"You land on Valoria!",
-	"You land on Rosewood!",
-	"You land on Wintermare!",
-	"You land on Deshret!",
-	"You land on Kingsfield",
-	"You land on Amber Hollow!",
-	"You land on the lands of Z!",
-	"You land on the Fog Islands!")
+	"You land on Geramor!",
+	"You land on Aelonda!",
+	"You land on Nortmidst!",
+	"You land on Old Kui!",
+	"You land on the Sultanate!",
+	"You land on the Far Wild!",
+	"You land on the Sea of Life!",
+	"You land on Cudao!",
+	"You land on the Hellgates!")
 	to_chat(H, "<span class='notice'>[random_message]</span>")
 
 /obj/structure/fluff/statue/femalestatue/Initialize()
@@ -1003,7 +999,7 @@
 
 /obj/structure/fluff/statue/evil
 	name = "idol"
-	desc = "A statue built to the robber-god, Matthios. The visage resembles nobody in particular. It is said that he grants the wishes of those pagan bandits (free folk) who feed him money."
+	desc = "A statue built to some unknowable Deceiver God. The visage resembles nobody in particular. It is said that these grant the wishes of those free folk who feed them money."
 	icon_state = "evilidol"
 	icon = 'icons/roguetown/misc/structure.dmi'
 
@@ -1012,7 +1008,7 @@
 		var/datum/antagonist/bandit/B = user.mind.has_antag_datum(/datum/antagonist/bandit)
 		if(B)
 			if(B.tri_amt >= 8)
-				to_chat(user, span_warning("The idol had collected enough tribute from you."))
+				to_chat(user, span_warning("The idol has collected enough tribute from you."))
 				return
 			if(istype(W, /obj/item/reagent_containers/lux))
 				B.contrib += 120
@@ -1073,8 +1069,8 @@
 		playsound(src,'sound/items/matidol2.ogg', 50, TRUE)
 
 /obj/structure/fluff/psycross
-	name = "pantheon cross"
-	desc = "A towering monument to the Ten. Marriages are performed under its shadow."
+	name = "elementalist cross"
+	desc = "A towering monument to the Elementals. Marriages are performed under its shadow."
 	icon_state = "psycross"
 	icon = 'icons/roguetown/misc/tallstructure.dmi'
 	break_sound = 'sound/combat/hits/onwood/destroyfurniture.ogg'
@@ -1131,15 +1127,15 @@
 	break_sound = null
 	attacked_sound = list("sound/combat/hits/onmetal/metalimpact (1).ogg", "sound/combat/hits/onmetal/metalimpact (2).ogg")
 
-/obj/structure/fluff/psycross/astrata
-	name = "astratan cross"
+/obj/structure/fluff/psycross/visires
+	name = "ember effigy"
 	icon_state = "astratancross"
-	desc = "A towering monument to Astrata. Those who stand beneath it feel the warmth of her light."
+	desc = "A towering monument to Visires. A particular warmth surrounds it, and it never seems to fully obscure itself under shadow."
 	break_sound = null
 	attacked_sound = list("sound/combat/hits/onmetal/metalimpact (1).ogg", "sound/combat/hits/onmetal/metalimpact (2).ogg")
 
-/obj/structure/fluff/psycross/astrata/gold
-	name = "astratan cross"
+/obj/structure/fluff/psycross/visires/gold
+	name = "golden ember effigy"
 	icon_state = "astratancross_g"
 	break_sound = null
 	attacked_sound = list("sound/combat/hits/onmetal/metalimpact (1).ogg", "sound/combat/hits/onmetal/metalimpact (2).ogg")

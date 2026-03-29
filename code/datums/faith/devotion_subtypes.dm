@@ -10,10 +10,10 @@
 		CLERIC_T3 = /datum/action/cooldown/spell/status/divine_shield,
 	)
 	viable_tasks = list(
-		/datum/devotion_task/astrata_purge,
+		/datum/devotion_task/visires_purge,
 	)
 
-/datum/devotion/divine/astrata
+/datum/devotion/divine/visires
 	miracles = list(
 		CLERIC_T0 = /datum/action/cooldown/spell/healing,
 		CLERIC_T1 = /datum/action/cooldown/spell/sacred_flame,
@@ -21,7 +21,7 @@
 		CLERIC_T3 = /datum/action/cooldown/spell/revive,
 	)
 	viable_tasks = list(
-		/datum/devotion_task/astrata_purge,
+		/datum/devotion_task/visires_purge,
 	)
 	traits = list(TRAIT_DIVINE_SERVANT)
 
@@ -76,7 +76,7 @@
 	)
 	viable_tasks = list(
 		/datum/devotion_task/necra_bury,
-		/datum/devotion_task/astrata_purge,
+		/datum/devotion_task/visires_purge,
 	)
 	traits = list(TRAIT_DIVINE_SERVANT, TRAIT_DEATHSIGHT)
 

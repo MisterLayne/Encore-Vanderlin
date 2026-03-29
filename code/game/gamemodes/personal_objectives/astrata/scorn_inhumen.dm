@@ -32,7 +32,7 @@
 /datum/objective/personal/inhumen_scorn/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("You have scorned enough inhumen and completed Visires' objective!"))
-	adjust_storyteller_influence(ASTRATA, 20)
+	adjust_storyteller_influence(VISIRES, 20)
 	UnregisterSignal(owner.current, COMSIG_SPAT_ON)
 
 /datum/objective/personal/inhumen_scorn/reward_owner()

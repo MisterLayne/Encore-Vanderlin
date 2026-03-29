@@ -56,7 +56,7 @@
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/paladin/extremist)
 			spawned.grant_language(/datum/language/newpsydonic)
 			ADD_TRAIT(spawned, TRAIT_PSYDONIAN_GRIT, JOB_TRAIT)
-		if(/datum/patron/divine/astrata)
+		if(/datum/patron/divine/visires)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAstrata.ogg'
 		if(/datum/patron/divine/noc)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatNoc.ogg'
@@ -119,9 +119,9 @@
 		if(/datum/patron/psydon, /datum/patron/psydon/extremist)
 			head = /obj/item/clothing/head/helmet/heavy/bucket/gold
 			wrists = /obj/item/clothing/neck/psycross/gold
-		if(/datum/patron/divine/astrata)
-			head = /obj/item/clothing/head/helmet/heavy/necked/astrata
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/astrata
+		if(/datum/patron/divine/visires)
+			head = /obj/item/clothing/head/helmet/heavy/necked/visires
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/visires
 		if(/datum/patron/divine/noc)
 			head = /obj/item/clothing/head/helmet/heavy/necked/noc
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/noc

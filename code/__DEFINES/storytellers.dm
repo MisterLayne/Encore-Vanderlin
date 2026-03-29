@@ -1,20 +1,20 @@
 /// Could be bitflags, but that would require a good amount of translations, which eh, either way works for me
 /// When the event is combat oriented (spawning monsters, inherently hostile antags)
 
-#define TAG_ASTRATA "Astrata"
-#define TAG_NOC "Noc"
-#define TAG_RAVOX "Ravox"
-#define TAG_ABYSSOR "Abyssor"
-#define TAG_XYLIX "Xylix"
-#define TAG_NECRA "Necra"
-#define TAG_PESTRA "Pestra"
-#define TAG_MALUM "Malum"
-#define TAG_EORA "Eora"
-#define TAG_DENDOR "Dendor"
-#define TAG_ZIZO "Zizo"
-#define TAG_BAOTHA "Baotha"
-#define TAG_GRAGGAR "Graggar"
-#define TAG_MATTHIOS "Matthios"
+#define TAG_VISIRES "Visires"
+#define TAG_NOC "Akan"
+#define TAG_RAVOX "Mordsol"
+#define TAG_ABYSSOR "Mjallidhorn"
+#define TAG_XYLIX "Iliope"
+#define TAG_NECRA "Valdala"
+#define TAG_PESTRA "Erdl"
+#define TAG_MALUM "Goler Kanh"
+#define TAG_EORA "Pomette"
+#define TAG_DENDOR "Gani"
+#define TAG_ZIZO "The One Envy"
+#define TAG_BAOTHA "Hertannea"
+#define TAG_GRAGGAR "The Archdevils"
+#define TAG_MATTHIOS "The Deceivers"
 
 /// Base tag for god-related logic and identification
 #define TAG_GOD "God"
@@ -178,7 +178,7 @@
 
 /// Divine pantheon storytellers
 #define DIVINE_STORYTELLERS list( \
-	/datum/storyteller/astrata, \
+	/datum/storyteller/visires, \
 	/datum/storyteller/noc, \
 	/datum/storyteller/ravox, \
 	/datum/storyteller/abyssor, \
@@ -202,23 +202,23 @@
 #define STORYTELLERS_ALL (DIVINE_STORYTELLERS + INHUMEN_STORYTELLERS)
 
 // Divine pantheon
-#define ASTRATA "Astrata"
-#define NOC "Noc"
-#define RAVOX "Ravox"
-#define ABYSSOR "Abyssor"
-#define XYLIX "Xylix"
-#define NECRA "Necra"
-#define PESTRA "Pestra"
-#define MALUM "Malum"
-#define EORA "Eora"
-#define DENDOR "Dendor"
-#define DIVINE_CENTRIST "Enlightened Centrism"
+#define VISIRES "Visires"
+#define NOC "Akan"
+#define RAVOX "Mordsol"
+#define ABYSSOR "Mjallidhorn"
+#define XYLIX "Iliope"
+#define NECRA "Valdala"
+#define PESTRA "Erdl"
+#define MALUM "Goler Kanh"
+#define EORA "Pomette"
+#define DENDOR "Gani"
+#define DIVINE_CENTRIST "Elementalist"
 
 // Inhumen pantheon
-#define ZIZO "Zizo"
-#define BAOTHA "Baotha"
-#define GRAGGAR "Graggar"
-#define MATTHIOS "Matthios"
+#define ZIZO "One Envy"
+#define BAOTHA "Hertannea"
+#define GRAGGAR "Archdevils"
+#define MATTHIOS "Deceivers"
 
 // Devotion Classes
 #define DEVOTION_CLASS_PRIEST "Priest"

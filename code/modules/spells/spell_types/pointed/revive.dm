@@ -1,6 +1,6 @@
 /datum/action/cooldown/spell/revive
 	name = "Anastasis"
-	desc = "Return a soul from Necra's grasp with the light of Astrata."
+	desc = "Return a soul from death's grasp with the light of Visires."
 	button_icon_state = "revive"
 	sound = 'sound/magic/revive.ogg'
 	charge_sound = 'sound/magic/holycharging.ogg'
@@ -9,7 +9,7 @@
 	spell_type = SPELL_MIRACLE
 	antimagic_flags = MAGIC_RESISTANCE_HOLY
 	associated_skill = /datum/attribute/skill/magic/holy
-	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/astrata)
+	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/visires)
 
 	charge_time = 5 SECONDS
 	charge_slowdown = 0.7
@@ -50,7 +50,7 @@
 			return . | SPELL_CANCEL_CAST
 
 	if(HAS_TRAIT(cast_on, TRAIT_NECRA_CURSE))
-		to_chat(owner, span_warning("Necra holds tight to this one."))
+		to_chat(owner, span_warning("Valdala holds tight to this one."))
 		reset_spell_cooldown()
 		return . | SPELL_CANCEL_CAST
 
@@ -83,12 +83,12 @@
 		cast_on.visible_message(span_warning("Holy light engulfs [cast_on], but they remain limp..."))
 		return
 	if(!cast_on.revive())
-		to_chat(owner, span_warning("Astrata's light fails to revive [cast_on]!"))
+		to_chat(owner, span_warning("Visires's light fails to revive [cast_on]!"))
 		return
 	if(cast_on.health > HALFWAYCRITDEATH)
 		cast_on.adjustOxyLoss(cast_on.health - HALFWAYCRITDEATH)
 	cast_on.grab_ghost(force = TRUE, grab_spirit = TRUE) // even suicides
-	record_round_statistic(STATS_ASTRATA_REVIVALS)
+	record_round_statistic(STATS_VISIRES_REVIVALS)
 	cast_on.emote("breathgasp")
 	cast_on.adjust_jitter(100 SECONDS)
 	cast_on.visible_message(span_notice("[cast_on] is revived by holy light!"), span_green("I awake from the void."))

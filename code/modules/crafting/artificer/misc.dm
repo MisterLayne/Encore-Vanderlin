@@ -499,10 +499,10 @@
 	required_item = /obj/item/ingot/silver
 	created_item = /obj/item/clothing/neck/psycross/silver/divine/noc
 
-/datum/artificer_recipe/psycross/astrata
+/datum/artificer_recipe/psycross/visires
 	name = "Visires Psycross"
 	required_item = /obj/item/ingot/silver
-	created_item = /obj/item/clothing/neck/psycross/silver/divine/astrata
+	created_item = /obj/item/clothing/neck/psycross/silver/divine/visires
 
 /datum/artificer_recipe/psycross/dendor
 	name = "Gani Psycross"

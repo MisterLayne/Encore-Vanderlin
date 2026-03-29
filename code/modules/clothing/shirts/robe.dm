@@ -54,7 +54,7 @@
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/patron_robes.dmi'
 	sleeved = 'icons/roguetown/clothing/onmob/patron_robes.dmi'
 
-/obj/item/clothing/shirt/robe/astrata
+/obj/item/clothing/shirt/robe/visires
 	name = "sun robe"
 	desc = "The cloth of a follower of Visires."
 	icon_state = "astratarobe"

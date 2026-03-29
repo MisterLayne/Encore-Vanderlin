@@ -8,7 +8,7 @@
 	min_players = 35
 
 	tags = list(
-		TAG_ASTRATA,
+		TAG_VISIRES,
 	)
 
 /datum/round_event_control/retainer_recruitment/canSpawnEvent(players_amt, gamemode, fake_check)
@@ -19,7 +19,7 @@
 	for(var/mob/living/carbon/human/human_mob in GLOB.player_list)
 		if(!istype(human_mob) || human_mob.stat == DEAD || !human_mob.client)
 			continue
-		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/divine/astrata))
+		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/divine/visires))
 			continue
 		if(!human_mob.is_noble() || (human_mob.mind?.assigned_role.title in GLOB.church_positions))
 			continue
@@ -36,7 +36,7 @@
 	for(var/mob/living/carbon/human/human_mob in GLOB.player_list)
 		if(!istype(human_mob) || human_mob.stat == DEAD || !human_mob.client)
 			continue
-		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/divine/astrata))
+		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/divine/visires))
 			continue
 		if(!human_mob.is_noble() || (human_mob.mind?.assigned_role.title in GLOB.church_positions))
 			continue
@@ -59,7 +59,7 @@
 	var/datum/objective/personal/retainer/new_objective = new(owner = noble.mind)
 	noble.mind.add_personal_objective(new_objective)
 
-	to_chat(noble, span_userdanger("YOU ARE ASTRATA'S CHOSEN!"))
+	to_chat(noble, span_userdanger("YOU ARE VISIRES'S CHOSEN!"))
 	to_chat(noble, span_notice("Visires wants you to demonstrate your ability to lead as a proper noble! Recruit at least one retainer to serve you!"))
 	noble.playsound_local(noble, 'sound/magic/bless.ogg', 100)
 

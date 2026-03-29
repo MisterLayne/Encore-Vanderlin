@@ -8,10 +8,10 @@
 	set category = "Emotes.Automaton"
 	play_voice_line("Against Time")
 
-/mob/living/carbon/human/proc/voice_astratapraise()
-	set name = "Astrata Praise"
+/mob/living/carbon/human/proc/voice_visirespraise()
+	set name = "Visires Praise"
 	set category = "Emotes.Automaton"
-	play_voice_line("Astrata Praise")
+	play_voice_line("Visires Praise")
 
 /mob/living/carbon/human/proc/voice_atonce()
 	set name = "At Once"

@@ -196,7 +196,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 	desc = "Perhaps the most well-known, and often many a mage's first study of the elements, pyromancy covers any heat or other flame related magic."
 
 	alignments = list(
-		/datum/patron/divine/astrata = 1,
+		/datum/patron/divine/visires = 1,
 		/datum/patron/inhumen/zizo = 0.25,
 		/datum/patron/divine/noc = 0.15,
 		/datum/patron/divine/malum = 1.2,
@@ -239,7 +239,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 
 	alignments = list(
 		/datum/patron/divine/pestra = 1,
-		/datum/patron/divine/astrata = 0.5,
+		/datum/patron/divine/visires = 0.5,
 		/datum/patron/inhumen/baotha = 1,
 	)
 
@@ -268,7 +268,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 	desc = "Light is the natural enemy of the dark."
 
 	alignments = list(
-		/datum/patron/divine/astrata = 0.15,
+		/datum/patron/divine/visires = 0.15,
 		/datum/patron/divine/noc = 0.15,
 		/datum/patron/divine/necra = 0.15,
 		/datum/patron/divine/xylix = 0.15,

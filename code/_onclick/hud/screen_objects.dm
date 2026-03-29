@@ -1722,7 +1722,7 @@
 		hud_used.rmb_intent.collapse_intents()
 
 /atom/movable/screen/time
-	name = "Astrata"
+	name = "Visires"
 	icon = 'icons/time.dmi'
 	icon_state = "day"
 
@@ -1733,13 +1733,13 @@
 /atom/movable/screen/time/update_name()
 	switch(GLOB.tod)
 		if(DAY)
-			name = "Astrata"
+			name = "Daytime"
 		if(DUSK)
-			name = "Astrata - Dusk"
+			name = "Dusk"
 		if(NIGHT)
-			name = "Noc"
+			name = "Night"
 		if(DAWN)
-			name = "Astrata - Dawn"
+			name = "Dawn"
 	return ..()
 
 /atom/movable/screen/time/update_overlays()

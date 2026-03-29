@@ -56,7 +56,7 @@
 	var/ident_string = "[follower.key]/([follower.real_name]) (follower of [patron_name])"
 	var/bigger = FALSE
 	if((follower.job == "Priest") || (follower.job == "Priestess"))
-		ident_string += "[SPAN_GOD_ASTRATA("(PRIEST)")]"
+		ident_string += "[SPAN_GOD_VISIRES("(PRIEST)")]"
 		bigger = TRUE
 	if(follower.has_quirk(/datum/quirk/vice/godfearing))
 		ident_string += "[SPAN_GOD_GENERIC("(GODFEARING)")]"

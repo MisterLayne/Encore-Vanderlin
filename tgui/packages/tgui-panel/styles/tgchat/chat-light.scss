@@ -1204,13 +1204,13 @@ $border-width-px: $border-width * 1px;
 }
 
 /* ##### ASTRATA ##### */
-.god_astrata {
+.god_visires {
   color: hsl(52, 70%, 65%);
   font-weight: bold;
-  animation: astrata_flicker 1s infinite;
+  animation: visires_flicker 1s infinite;
 }
 
-@keyframes astrata_flicker {
+@keyframes visires_flicker {
 	25% {
 		color: hsl(52, 70%, 65%);
 	}

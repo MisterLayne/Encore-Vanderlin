@@ -897,17 +897,17 @@
 	craftdiff = 3
 	category = "Cloak"
 
-/datum/repeatable_crafting_recipe/sewing/astratatemplar
+/datum/repeatable_crafting_recipe/sewing/visirestemplar
 	name = "solar surcoat"
-	output = /obj/item/clothing/cloak/stabard/templar/astrata
+	output = /obj/item/clothing/cloak/stabard/templar/visires
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3
 	category = "Cloak"
 
-/datum/repeatable_crafting_recipe/sewing/astratatemplar/alt
+/datum/repeatable_crafting_recipe/sewing/visirestemplar/alt
 	name = "solar surcoat (alt)"
-	output =  /obj/item/clothing/cloak/stabard/templar/astrata/alt
+	output =  /obj/item/clothing/cloak/stabard/templar/visires/alt
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3
@@ -1457,9 +1457,9 @@
 	category = "Mask"
 
 // Templar Tabards
-/datum/repeatable_crafting_recipe/sewing/astratan_tabard
-	name = "astratan tabard"
-	output = /obj/item/clothing/cloak/templar/astratan
+/datum/repeatable_crafting_recipe/sewing/visires_tabard
+	name = "visires tabard"
+	output = /obj/item/clothing/cloak/templar/visires
 	requirements = list(
 		/obj/item/natural/cloth = 2,
 		/obj/item/natural/fibers = 1
@@ -1790,9 +1790,9 @@
 	name = "psydonite caparison"
 	output =/obj/item/caparison/psy
 
-/datum/repeatable_crafting_recipe/sewing/caparison/astrata
-	name = "astratan caparison"
-	output =/obj/item/caparison/astrata
+/datum/repeatable_crafting_recipe/sewing/caparison/visires
+	name = "visires caparison"
+	output =/obj/item/caparison/visires
 
 /datum/repeatable_crafting_recipe/sewing/caparison/eora
 	name = "eoran caparison"

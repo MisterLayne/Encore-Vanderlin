@@ -121,7 +121,7 @@
 
 	spawned.virginity = TRUE
 	switch(spawned.patron?.type)
-		if(/datum/patron/divine/astrata)
+		if(/datum/patron/divine/visires)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
 		if(/datum/patron/divine/necra)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatGravekeeper.ogg'
@@ -203,12 +203,12 @@
 /datum/outfit/monk/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
 	. = ..()
 	switch(equipped_human.patron?.type)
-		if(/datum/patron/divine/astrata)
-			head = /obj/item/clothing/head/roguehood/astrata
-			neck = /obj/item/clothing/neck/psycross/silver/divine/astrata
+		if(/datum/patron/divine/visires)
+			head = /obj/item/clothing/head/roguehood/visires
+			neck = /obj/item/clothing/neck/psycross/silver/divine/visires
 			wrists = /obj/item/clothing/wrists/wrappings
 			shoes = /obj/item/clothing/shoes/sandals
-			armor = /obj/item/clothing/shirt/robe/astrata
+			armor = /obj/item/clothing/shirt/robe/visires
 		if(/datum/patron/divine/necra)
 			head = /obj/item/clothing/head/padded/deathshroud
 			neck = /obj/item/clothing/neck/psycross/silver/divine/necra

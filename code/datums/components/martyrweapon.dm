@@ -162,7 +162,7 @@
 	RegisterSignal(bound_user, COMSIG_PARENT_QDELETING, PROC_REF(bound_deleted))
 
 	if(bound_user)
-		to_chat(bound_user, SPAN_GOD_ASTRATA("The weapon binds to you."))
+		to_chat(bound_user, SPAN_GOD_VISIRES("The weapon binds to you."))
 
 /datum/component/martyr_weapon/proc/bound_deleted()
 	SIGNAL_HANDLER

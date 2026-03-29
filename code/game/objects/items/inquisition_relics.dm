@@ -145,7 +145,7 @@
 	var/ticks_to_apply = 10
 
 	var/list/patron_lines = list(
-		/datum/patron/divine/astrata = list("'HER LIGHT HAS LEFT ME! WHERE AM I?!'", "'SHATTER THIS CONTRAPTION, SO I MAY FEEL HER WARMTH ONE LAST TIME!'", "'I am royal.. Why did they do this to me...?'"),
+		/datum/patron/divine/visires = list("'HER LIGHT HAS LEFT ME! WHERE AM I?!'", "'SHATTER THIS CONTRAPTION, SO I MAY FEEL HER WARMTH ONE LAST TIME!'", "'I am royal.. Why did they do this to me...?'"),
 		/datum/patron/divine/noc = list("'Colder than moonlight...'", "'No wisdom can reach me here...'", "'Please help me, I miss the stars...'"),
 		/datum/patron/divine/necra = list("'They snatched me from her grasp, for eternal torment...'", "'Valdala! Please! I am so tired! Release me!'", "'I am lost, lost in a sea of stolen ends.'"),
 		/datum/patron/divine/abyssor = list("'I cannot feel the coast's breeze...'", "'We churn tighter here than schooling fish...'", "'Free me, please, so I may return to the sea...'"),

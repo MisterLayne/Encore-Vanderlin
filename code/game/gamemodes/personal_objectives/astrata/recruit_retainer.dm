@@ -29,11 +29,11 @@
 /datum/objective/personal/retainer/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("You have recruited a retainer and completed Visires' objective!"))
-	adjust_storyteller_influence(ASTRATA, 20)
+	adjust_storyteller_influence(VISIRES, 20)
 
 /datum/objective/personal/retainer/reward_owner()
 	. = ..()
-	owner.current.adjust_stat_modifier(STATMOD_ASTRATA_BLESSING, list(STAT_FORTUNE = 1))
+	owner.current.adjust_stat_modifier(STATMOD_VISIRES_BLESSING, list(STAT_FORTUNE = 1))
 
 /datum/objective/personal/retainer/update_explanation_text()
 	explanation_text = "Recruit at least one retainer to serve you and to demonstrate your ability to lead to Visires."

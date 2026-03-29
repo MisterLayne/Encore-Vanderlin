@@ -159,7 +159,7 @@
 
 	/// Specific god -> specific blessing mapping
 	var/static/list/blessing_flavor = list(
-		/// Mjallidhorn – The Sunken God
+		/// Mjallidhorn
 		/datum/patron/divine/abyssor = list(
 			/datum/status_effect/buff/beastsense = "Mjallidhorn whispers: \"The sea calls yer senses forth. Smell tha salt, taste tha fear.\"",
 			/datum/status_effect/buff/trollshape = "Mjallidhorn groans: \"The abyss grants form... and hungers fer more.\"",
@@ -175,24 +175,23 @@
 			/datum/status_effect/buff/barbrage = "Mjallidhorn bellows: \"Like the fockin' storm tide, break 'em'! Break tha bastards! Makin' mah blood boil!\""
 		),
 
-		/// (Repeat this block, tailored for each god)
-		/// Visires - The Sun Queen
-		/datum/patron/divine/astrata = list(
-			/datum/status_effect/buff/beastsense = "Visires commandeth: \"LET THY SIGHT BE CLEARED. THE LIGHT REVEALETH ALL.\"",
-			/datum/status_effect/buff/trollshape = "Visires proclaimeth: \"BECOME THE HAMMER OF MINE WILL. STRIKE WITH PURPOSE.\"",
-			/datum/status_effect/buff/divine_beauty = "Visires speaketh: \"RADIATE THY DUTY. LET NONE AVERT THEIR GAZE.\"",
-			/datum/status_effect/buff/call_to_arms = "Visires belloweth: \"RISE, O RIGHTEOUS ONE. MARCH TO GLORY IN MINE NAME.\"",
-			/datum/status_effect/buff/craft_buff = "Visires declareth: \"LET THINE HANDS BUILD THAT WHICH SHALL ENDURE.\"",
-			/datum/status_effect/buff/foodbuff = "Visires blesseth: \"FEAST AND GROW STRONG BENEATH MINE EVER-WATCHFUL GAZE.\"",
-			/datum/status_effect/buff/clean_plus = "Visires proclaims: \"THE LIGHT CLEANSETH ALL. DIRT SHALL NOT ENDURE.\"",
-			/datum/status_effect/buff/featherfall = "Visires commandeth: \"ASCEND, FOR THOU ART WORTHY OF HEIGHT.\"",
-			/datum/status_effect/buff/darkvision = "Visires scoffeth: \"SHADOWS ARE FOR THE FAINT. THOU NEEDST THEM NOT.\"",
-			/datum/status_effect/buff/haste = "Visires ordereth: \"SWIFT BE THY FEET. DUTY BROOKETH NO DELAY.\"",
-			/datum/status_effect/buff/calm = "Visires whispereth: \"BE STILL. THE SUN KEEPETH THEE SAFE.\"",
-			/datum/status_effect/buff/barbrage = "Visires declareth: \"LET THY RIGHTEOUS FURY BURN AS MINE SUN DOES.\""
+		/// Visires
+		/datum/patron/divine/visires = list(
+			/datum/status_effect/buff/beastsense = "Visires commandeth: \"The senses are wrong to refuse. Take more of the world into your presence.\"",
+			/datum/status_effect/buff/trollshape = "Visires proclaimeth: \"Burn. Crush. Rend. May this feast never end.\"",
+			/datum/status_effect/buff/divine_beauty = "Visires speaketh: \"The blessing of mine Holiest visage veils you.\"",
+			/datum/status_effect/buff/call_to_arms = "Visires belloweth: \"To arms! May your banner burn to its last cinder!\"",
+			/datum/status_effect/buff/craft_buff = "Visires declareth: \"With unerring fervor, your hammer will strike certain.\"",
+			/datum/status_effect/buff/foodbuff = "Visires blesseth: \"Hunger more, childe of mine! Tear from the firmament! Devour it all!\"",
+			/datum/status_effect/buff/clean_plus = "Visires proclaims: \"In my eternal flame, cast asunder the filth!\"",
+			/datum/status_effect/buff/featherfall = "Visires commandeth: \"Be free! Beat the very sky into submission 'neath your wings!\"",
+			/datum/status_effect/buff/darkvision = "Visires murmurs: \"In the dark there rests only pain. You needn't suffer it any longer.\"",
+			/datum/status_effect/buff/haste = "Visires ordereth: \"Be free! The firmament will spring and coil upon your step!\"",
+			/datum/status_effect/buff/calm = "Visires bemoans: \"Be calm, pathetic whelp!\"",
+			/datum/status_effect/buff/barbrage = "Visires declareth: \"In this heat, blood runs easy! Burn 'til it flows from the billowing clouds!\""
 		),
 
-		/// Hertannea - The Tiefling Queen
+		/// Hertannea
 		/datum/patron/inhumen/baotha = list(
 			/datum/status_effect/buff/beastsense = "Hertannea shrieks: \"See it! Smell it! Rip it apart! Or hug it! Both are valid!\"",
 			/datum/status_effect/buff/trollshape = "Hertannea howls: \"Perfect. You’re gonna cause SUCH a scene!\"",
@@ -208,7 +207,7 @@
 			/datum/status_effect/buff/barbrage = "Hertannea squeals: \"BREAK SOMETHING BEAUTIFUL! Be someone beautiful. It’s therapeutic!\""
 		),
 
-		/// Gani - The Treefather
+		/// Gani
 		/datum/patron/divine/dendor = list(
 			/datum/status_effect/buff/beastsense = "Gani growls: \"Beasts... hunting? Yes, of course.\"",
 			/datum/status_effect/buff/trollshape = "Gani mutters: \"Ah. I do recall making one of these, right?\"",
@@ -224,7 +223,7 @@
 			/datum/status_effect/buff/barbrage = "Gani growls: \"GRRR! It's dancing time!\""
 		),
 
-		/// Pomette - The Heart of Angros
+		/// Pomette
 		/datum/patron/divine/eora = list(
 			/datum/status_effect/buff/beastsense = "Pomette whispers: \"Even the beasts know love's call.\"",
 			/datum/status_effect/buff/trollshape = "Pomette coos: \"Strong arms, tender heart.\"",
@@ -240,7 +239,7 @@
 			/datum/status_effect/buff/barbrage = "Pomette whispers: \"Love rages too. Protect what’s yours.\""
 		),
 
-		/// Archdevil - The Warborn Beast
+		/// Archdevil
 		/datum/patron/inhumen/graggar = list(
 			/datum/status_effect/buff/beastsense = "Archdevil growls: \"Sniff it. Smell the fear, thu fool.\"",
 			/datum/status_effect/buff/trollshape = "Archdevil roars: \"Meat swells. Thu strong. Thu crush now.\"",
@@ -256,7 +255,7 @@
 			/datum/status_effect/buff/barbrage = "Archdevil roars: \"RAAAGH! Smash 'em flat!\""
 		),
 
-		/// Goler Kanh - The Iron Lord
+		/// Goler Kanh
 		/datum/patron/divine/malum = list(
 			/datum/status_effect/buff/beastsense = "Goler Kanh grunts: \"Even beasts know CRAFT. So should you.\"",
 			/datum/status_effect/buff/trollshape = "Goler Kanh states: \"Strong arms make stronger tools.\"",
@@ -272,7 +271,7 @@
 			/datum/status_effect/buff/barbrage = "Goler Kanh snarls: \"Unleash it. Strike like the hammer.\""
 		),
 
-		/// Deceivers - The Bandit God
+		/// Deceivers
 		/datum/patron/inhumen/matthios = list(
 			/datum/status_effect/buff/beastsense = "Deceivers laughs: \"Sniff it out, lad. Something worth stealing.\"",
 			/datum/status_effect/buff/trollshape = "Deceivers grins: \"Ugly sells well in some towns, friend.\"",
@@ -288,7 +287,7 @@
 			/datum/status_effect/buff/barbrage = "Deceivers yells: \"Break stuff. Blame someone else!\""
 		),
 
-		/// Valdala - The Undermaiden
+		/// Valdala
 		/datum/patron/divine/necra = list(
 			/datum/status_effect/buff/beastsense = "Valdala murmurs: \"The grave knows your scent... and waits.\"",
 			/datum/status_effect/buff/trollshape = "Valdala hums: \"Mass returns to earth. Let the soil remember you.\"",
@@ -304,7 +303,7 @@
 			/datum/status_effect/buff/barbrage = "Valdala intones: \"Rage, if thy must. The dead are silent, but not still.\""
 		),
 
-		/// Akan - The Moon Prince
+		/// Akan
 		/datum/patron/divine/noc = list(
 			/datum/status_effect/buff/beastsense = "Akan pondereth: \"The nite sees what the day fears.\"",
 			/datum/status_effect/buff/trollshape = "Akan museth: \"Moonlight swells thy shape...\"",
@@ -320,7 +319,7 @@
 			/datum/status_effect/buff/barbrage = "Akan commandeth: \"Feel the power of strengthened magick flow through thyself.\""
 		),
 
-		/// Erdl - The Mistake
+		/// Erdl
 		/datum/patron/divine/pestra = list(
 			/datum/status_effect/buff/beastsense = "Erdl bemuses: \"Sniff it. Identify its substance— not that cycles of rot would harm you.\"",
 			/datum/status_effect/buff/trollshape = "Erdl wheezes: \"Thick skin, bad breath. You’re a fascinating specimen.\"",
@@ -336,7 +335,7 @@
 			/datum/status_effect/buff/barbrage = "Erdl shrieks: \"Destruction is yet another form of change.\""
 		),
 
-		/// Mordsol - Justice Incarnate
+		/// Mordsol
 		/datum/patron/divine/ravox = list(
 			/datum/status_effect/buff/beastsense = "Mordsol growls: \"Smell your enemy. Hunt them down with purpose.\"",
 			/datum/status_effect/buff/trollshape = "Mordsol commands: \"Let might serve justice. Let strength carry duty.\"",
@@ -352,7 +351,7 @@
 			/datum/status_effect/buff/barbrage = "Mordsol roars: \"BE FILLED WITH RIGHTEOUS ANGER!\""
 		),
 
-		/// Iliope - The Trickster
+		/// Iliope
 		/datum/patron/divine/xylix = list(
 			/datum/status_effect/buff/beastsense = "Iliope laughs: \"Sniff sniff! What's behind that tree? Chaos, I hope!\"",
 			/datum/status_effect/buff/trollshape = "Iliope grins: \"Big, dumb, and hilarious. Perfect.\"",
@@ -368,7 +367,7 @@
 			/datum/status_effect/buff/barbrage = "Iliope roars: \"Break it! Then break it twice!\""
 		),
 
-		/// One Envy - The Ascended Goddess
+		/// One Envy
 		/datum/patron/inhumen/zizo = list(
 			/datum/status_effect/buff/beastsense = "One Envy hisses: \"They crawl. They beg. They are prey, inferior. Hunt them.\"",
 			/datum/status_effect/buff/trollshape = "One Envy croons: \"This form? Power. Strength. Craft your flesh. This is my gift.\"",

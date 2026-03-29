@@ -73,7 +73,7 @@
 
 	if(spawned.patron)
 		switch(spawned.patron.type)
-			if(/datum/patron/divine/astrata)
+			if(/datum/patron/divine/visires)
 				spawned.cmode_music = 'sound/music/cmode/church/CombatAstrata.ogg'
 			if(/datum/patron/divine/dendor)
 				spawned.cmode_music = 'sound/music/cmode/church/CombatDendor.ogg'
@@ -179,9 +179,9 @@
 
 	if(equipped_human.patron)
 		switch(equipped_human.patron.type)
-			if(/datum/patron/divine/astrata)
-				wrists = /obj/item/clothing/neck/psycross/silver/divine/astrata
-				cloak = /obj/item/clothing/cloak/stabard/templar/astrata
+			if(/datum/patron/divine/visires)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/visires
+				cloak = /obj/item/clothing/cloak/stabard/templar/visires
 			if(/datum/patron/divine/dendor)
 				wrists = /obj/item/clothing/neck/psycross/silver/divine/dendor
 				cloak = /obj/item/clothing/cloak/stabard/templar/dendor

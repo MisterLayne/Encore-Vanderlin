@@ -159,7 +159,7 @@
 #define SPAN_GOD_FIRST_FEEL(str) ("<span style='display:block; font-size:130%'>" + str + "</span>")
 
 #define SPAN_GOD_GENERIC(str) ("<span class='god_generic'>" + str + "</span>")
-#define SPAN_GOD_ASTRATA(str) ("<span class='god_astrata'>" + str + "</span>")
+#define SPAN_GOD_VISIRES(str) ("<span class='god_visires'>" + str + "</span>")
 #define SPAN_GOD_NOC(str) ("<span class='god_noc'>" + str + "</span>")
 #define SPAN_GOD_ABYSSOR(str) ("<span class='god_abyssor'>" + str + "</span>")
 #define SPAN_GOD_DENDOR(str) ("<span class='god_dendor'>" + str + "</span>")

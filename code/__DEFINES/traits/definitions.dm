@@ -474,7 +474,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_CURSE "Curse" //source
 #define TRAIT_ATHEISM_CURSE "Curse of Atheism"
 #define TRAIT_PSYDON_CURSE "Psydon's Curse"
-#define TRAIT_ASTRATA_CURSE "Astrata's Curse"
+#define TRAIT_VISIRES_CURSE "Visires's Curse"
 #define TRAIT_NOC_CURSE "Noc's Curse"
 #define TRAIT_RAVOX_CURSE "Ravox's Curse"
 #define TRAIT_NECRA_CURSE "Necra's Curse"

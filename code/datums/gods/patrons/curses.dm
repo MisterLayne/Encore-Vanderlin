@@ -70,10 +70,10 @@
 //////////////////////
 ///   TEN CURSES   ///
 //////////////////////
-/datum/curse/astrata
+/datum/curse/visires
 	name = "Visires' Curse"
-	description = "I am forsaken by the Sun. Healing miracles have no effect on me."
-	trait = TRAIT_ASTRATA_CURSE
+	description = "I am forsaken by the fire within! Healing miracles have no effect on me."
+	trait = TRAIT_VISIRES_CURSE
 
 /datum/curse/noc
 	name = "Akan's Curse"

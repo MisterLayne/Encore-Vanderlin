@@ -46,9 +46,9 @@
 	icon_state = "undivided"
 	resistance_flags = FIRE_PROOF
 
-/obj/item/clothing/neck/psycross/silver/divine/astrata
-	name = "amulet of Astrata"
-	desc = "Blessed be everything the light of the sun touches, for it is protected by Her grace."
+/obj/item/clothing/neck/psycross/silver/divine/visires
+	name = "amulet of Visires"
+	desc = "Forever pursuant to a life never fulfilled. One always hungers for more in the end."
 	icon_state = "astrata"
 
 /obj/item/clothing/neck/psycross/silver/divine/noc

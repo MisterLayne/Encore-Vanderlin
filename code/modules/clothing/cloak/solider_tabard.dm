@@ -141,14 +141,14 @@
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/templar.dmi'
 	sleeved = 'icons/roguetown/clothing/special/onmob/templar.dmi'
 
-/obj/item/clothing/cloak/stabard/templar/astrata
+/obj/item/clothing/cloak/stabard/templar/visires
 	name = "surcoat of the solar order"
-	icon_state = "tabard_astrata"
-	item_state = "tabard_astrata"
+	icon_state = "tabard_visires"
+	item_state = "tabard_visires"
 
-/obj/item/clothing/cloak/stabard/templar/astrata/alt
-	icon_state = "tabard_astrata_alt"
-	item_state = "tabard_astrata_alt"
+/obj/item/clothing/cloak/stabard/templar/visires/alt
+	icon_state = "tabard_visires_alt"
+	item_state = "tabard_visires_alt"
 
 /obj/item/clothing/cloak/stabard/templar/necra
 	name = "surcoat of the necran order"

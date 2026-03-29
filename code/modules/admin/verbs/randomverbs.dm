@@ -90,8 +90,8 @@
 /proc/get_god_atmosphere_message(chosen_god)
 	var/atmosphere_message
 	switch(chosen_god)
-		if("Astrata")
-			atmosphere_message = SPAN_GOD_ASTRATA("Your body feels warm… it’s as if the sun itself were beaming against your skull… amidst this sensation, the voice of a woman, authoritative, radiant, demanding absolute attention, brands itself in your head.")
+		if("Visires")
+			atmosphere_message = SPAN_GOD_VISIRES("Your body is filled with a sizzling heat. In this overpowering sensation, a moment of clarity hits you. In that silence, your attention is drawn singularly to a raspy, feminine voice that speaks from within you. It burns powerfully with every word She speaks.")
 		if("Noc")
 			atmosphere_message = SPAN_GOD_NOC("Symbols dance in the corner of your vision. For a moment, you are enlightened.. Your mind is imprinted with runes. You are able to decipher the voice of a man. Formal, contemplative, perhaps a little haughty even.")
 		if("Abyssor")

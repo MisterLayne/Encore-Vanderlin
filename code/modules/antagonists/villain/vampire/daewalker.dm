@@ -40,13 +40,13 @@
 	confess_lines = list(
 		"BLOODSUCKERS GAVE ME MY POWERS, I MAKE THEM REGRET IT!!",
 		"MOTHERFUCKER, ARE YOU OUTTA YOUR DAMN MIND?!!",
-		"YOU'RE A THRALL OF THRONLEER!!",
+		"YOU'RE A THRALL!!",
 	)
 	isgoodguy = TRUE
 	chooses_name = FALSE
 	ascended = 4
 	outfit = /datum/outfit/daewalker
-	patron = /datum/patron/divine/astrata
+	patron = /datum/patron/divine/visires
 	innate_traits = list(
 		TRAIT_SILVER_BLESSED,
 		TRAIT_HARDDISMEMBER,
@@ -61,8 +61,8 @@
 		TRAIT_NOPAINSTUN
 	)
 	antag_memory = "It's open season on all bloodsuckers. Nothing else matters.\n\
-		Avoid the Oratorium Throni Vacui. They know naught who they serve. Attack them as a last resort.\n\
-		Serve Astrata's will or suffer it."
+		Avoid the church. They know naught who they serve. Attack them as a last resort.\n\
+		Visires has made all vampires your prey. Sate this bottomless hunger."
 	antag_flags = FLAG_FAKE_ANTAG
 	clan_selected = TRUE
 	default_clan = /datum/clan/daewalker
@@ -132,24 +132,16 @@
 	if(HAS_TRAIT(user, TRAIT_INQUISITION))
 		examine_list += span_boldred("TRAITOR! His capture has been ordered by the highest authority!")
 	else if(user.mind?.has_antag_datum(/datum/antagonist/werewolf))
-		examine_list += span_boldred("The bloodsucker of Astrata...")
+		examine_list += span_boldred("Visires' scorn embodied, a bloodsucker!")
 	else if(is_priest_job(user.mind?.assigned_role))
-		examine_list += SPAN_GOD_ASTRATA("The servant of our Sun Queen!")
-	else if(istype(user.culture, /datum/culture/universal/grenzelhoft))
-		examine_list += span_boldred("The nitebeast of Grenz! He's here!")
-	else if(user.mind?.has_antag_datum(/datum/antagonist/maniac))
-		examine_list += span_green("The legally distinct vampire hunter!")
-
+		examine_list += SPAN_GOD_VISIRES("A monstrous chosen of Visires!")
 
 /datum/antagonist/vampire/lord/daewalker/greet()
 	to_chat(owner.current, span_silver( \
-	"You were the most promising Sacrestant in all of the Oratorium. Your dedication led to a steady rise through the ranks until your induction to the Sanctae Cruoris. \
-	Still, you rose further until you were to begin your training as a Ritter to House Thronleer, the highest noble house in all of Grenzelhoft. \
-	It was at this point you were witness to something you should not have seen - the true faces of Thronleer, and consequently, Grenzelhoft. \
-	Psydon was a marionette, and these were the puppeteers. \
-	\n\n\
-	To not throw your potential away, you were sired as spawn. Still, you resisted, and so a display was made - the burning of a heretic by daelight. \
-	You awaited your death upon the false cross. As daelight broke at noon, you glimpsed her blinding face. In that moment, she offered you an accord - to redeem your vile blood: \
+	"The touch of the Elementals was overbearing in your upbringing. In your misfortune, you became a vile thing, twisted by design. \
+	You would once wade in the blinding presence of Visires. Emerging from Her engulfing fire anew, you were left to burn. Your fire only grew. \
+	The balance is meaningless, for you hold Her unfettered power. Her hunger, Her greed, and Her tireless ambition. You have become a vampiric beast... \
+	Yet, now, the pouring heat of the Sun scarcely phases you. \
 	\n\n\
 	Walk the dae, so they may remember to fear it."))
 	to_chat(owner.current, span_danger(antag_memory))
@@ -160,7 +152,7 @@
 
 /datum/outfit/daewalker
 	mask = /obj/item/clothing/face/spectacles/sglasses/daewalker
-	neck = /obj/item/clothing/neck/psycross/silver/divine/astrata
+	neck = /obj/item/clothing/neck/psycross/silver/divine/visires
 	armor = /obj/item/clothing/armor/medium/scale/inqcoat/armored/daewalker
 	shirt = /obj/item/clothing/armor/gambeson/heavy/inq/daewalker
 	pants = /obj/item/clothing/pants/trou/beltpants/daewalker
@@ -185,9 +177,9 @@
 // The Sword
 
 /obj/item/weapon/sword/long/daewalker
-	name = "\proper the Daewalker's blade"
+	name = "\proper the Decider"
 	icon_state = "churchsword"
-	desc = "A blade blessed with Pysdon's blood, now a tool of Astrata's Daewalker. It's open season on all suckheads."
+	desc = "A searing blade wrought of divine design, now a tool of Visires' fiery wrath. A bane to all the daemonic things that lurk in the dark."
 	force_wielded = DAMAGE_GREATSWORD_WIELD
 	wdefense = ULTMATE_PARRY
 	max_blade_int = 50000

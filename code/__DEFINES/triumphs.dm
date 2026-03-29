@@ -16,7 +16,7 @@
 // Storyteller category and its buys
 #define TRIUMPH_CAT_STORYTELLER "STORYTELLER"
 
-#define TRIUMPH_BUY_ASTRATA_INFLUENCE "astrata_influence"
+#define TRIUMPH_BUY_VISIRES_INFLUENCE "visires_influence"
 #define TRIUMPH_BUY_NOC_INFLUENCE "noc_influence"
 #define TRIUMPH_BUY_RAVOX_INFLUENCE "ravox_influence"
 #define TRIUMPH_BUY_ABYSSOR_INFLUENCE "abyssor_influence"
@@ -44,7 +44,7 @@
 #define TRIUMPH_BUY_ABYSSOR_INFLUENCE_REDUCTION "abyssor_influence_reduction"
 #define TRIUMPH_BUY_RAVOX_INFLUENCE_REDUCTION "ravox_influence_reduction"
 #define TRIUMPH_BUY_NOC_INFLUENCE_REDUCTION "noc_influence_reduction"
-#define TRIUMPH_BUY_ASTRATA_INFLUENCE_REDUCTION "astrata_influence_reduction"
+#define TRIUMPH_BUY_VISIRES_INFLUENCE_REDUCTION "visires_influence_reduction"
 
 // Misc category and its buys
 #define TRIUMPH_CAT_MISC "MISC"

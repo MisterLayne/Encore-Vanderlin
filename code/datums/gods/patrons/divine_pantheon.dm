@@ -1,5 +1,5 @@
 GLOBAL_LIST_INIT(patron_sound_themes, list(
-	ASTRATA = 'sound/magic/bless.ogg',
+	VISIRES = 'sound/magic/bless.ogg',
 	NOC = 'sound/ambience/noises/mystical (4).ogg',
 	EORA = 'sound/vo/female/gen/giggle (1).ogg',
 	DENDOR = 'sound/magic/barbroar.ogg',
@@ -56,28 +56,28 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine
 
 
-/datum/patron/divine/astrata
-	name = ASTRATA
-	domain = "Goddess of Order, the Sun Queen"
-	desc = "Crafted from the head of Psydon, twin of Noc. She gifted mankind the Sun, protecting Psydonia from all forces which may seek it harm: from both outside and within."
+/datum/patron/divine/visires
+	name = VISIRES
+	domain = "The Goddess of Fire and Wrath"
+	desc = "The youngest of the Elemental Gods. A once-mortal given host to the Aspect of Fire and made divine. The worship of Visires represents the plea for passion, life and the will to live; just as much it does the destruction, the hunger and the chaos that it may impose."
 	flaws = "Tyrannical, Ill-Tempered, Uncompromising"
-	worshippers = "Nobles, Zealots, Commoners"
+	worshippers = "Conquerors, the wrathful, the pupils of the Sun's science"
 	sins = "Betrayal, Sloth, Witchcraft"
 	boons = "Your stamina regeneration delay is lowered during daytime."
 	added_traits = list(TRAIT_APRICITY)
-	devotion_holder = /datum/devotion/divine/astrata
+	devotion_holder = /datum/devotion/divine/visires
 	confess_lines = list(
-		"ASTRATA IS MY LIGHT!",
-		"ASTRATA BRINGS LAW!",
-		"I SERVE THE GLORY OF THE SUN!",
+		"VISIRES SUNDERS!",
+		"THE ASPECT OF FIRE HUNGERS!",
+		"I SERVE THE STARS!",
 	)
-	storyteller = /datum/storyteller/astrata
-	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/astrata
+	storyteller = /datum/storyteller/visires
+	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/visires
 
 /datum/patron/divine/noc
 	name = NOC
 	domain = "God of Knowledge, the Moon Prince"
-	desc = "Crafted from the helmet of Psydon, twin of Astrata. He gifted mankind divine wisdom."
+	desc = "Crafted from the helmet of Psydon, twin of Visires. He gifted mankind divine wisdom."
 	flaws = "Cynical, Isolationist, Unfiltered Honesty"
 	worshippers = "Magic Practitioners, Scholars, Scribes"
 	sins = "Suppressing Truth, Burning Books, Censorship"

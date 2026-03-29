@@ -67,7 +67,7 @@
 #define STATS_ALIVE_NOBLES "alive_nobles"
 #define STATS_NOBLE_DEATHS "noble_deaths"
 #define STATS_PEOPLE_SMITTEN "smited"
-#define STATS_ASTRATA_REVIVALS "astrata_revivals"
+#define STATS_VISIRES_REVIVALS "visires_revivals"
 #define STATS_TAXES_COLLECTED "taxes_collected"
 #define STATS_SLURS_SPOKEN "slurs_spoken"
 
@@ -199,7 +199,7 @@ GLOBAL_LIST_INIT(vanderlin_round_stats, list(
 	STATS_LAUGHS_MADE = 0,
 	STATS_GRAVES_CONSECRATED = 0,
 	STATS_POTIONS_BREWED = 0,
-	STATS_ASTRATA_REVIVALS = 0,
+	STATS_VISIRES_REVIVALS = 0,
 	STATS_PLANTS_HARVESTED = 0,
 	STATS_LAWS_AND_DECREES_MADE = 0,
 	STATS_ALIVE_NOBLES = 0,

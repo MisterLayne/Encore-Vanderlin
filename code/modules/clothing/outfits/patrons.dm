@@ -14,12 +14,12 @@
 			STR.remove_from_storage(I, get_turf(src))
 
 
-/obj/item/clothing/cloak/templar/astratan
+/obj/item/clothing/cloak/templar/visires
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/cloaks.dmi'
 	alternate_worn_layer = TABARD_LAYER
 	boobed = FALSE
-	name = "astratan tabard"
-	desc = "The washed out golds of an astratan crusader adorn these fine robes."
+	name = "visires tabard"
+	desc = "The washed out golds of an visires crusader adorn these fine robes."
 	icon_state = "astratatabard"
 	resistance_flags = FIRE_PROOF
 
@@ -242,11 +242,11 @@
 	. = ..()
 	AddComponent(/datum/component/item_equipped_movement_rustle, SFX_JINGLE_BELLS, 2)
 
-/obj/item/clothing/head/helmet/heavy/astratahelm
-	name = "astrata helmet"
-	desc = "Headwear commonly worn by Templars in service to Visires. The firstborn child's light will forever shine on within its crest."
-	icon_state = "astratanhelm"
-	item_state = "astratanhelm"
+/obj/item/clothing/head/helmet/heavy/visireshelm
+	name = "visires helmet"
+	desc = "Headwear commonly worn by Templars in service to Visires. The Fire Queen's light will forever shine on within its crest."
+	icon_state = "astratahelm"
+	item_state = "visireshelm"
 	emote_environment = 3
 	flags_inv = HIDEEARS|HIDEFACE|HIDEHAIR
 	block2add = FOV_BEHIND

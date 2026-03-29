@@ -265,14 +265,14 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/desert_window, 32)
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/desert_window/open, 32)
 
-/obj/structure/flora/astrata
-	name = "astrata"
+/obj/structure/flora/visires
+	name = "visires"
 	icon_state = "astrata1"
 	icon = 'icons/delver/desert_objects.dmi'
 	resistance_flags = FIRE_PROOF
 	density = TRUE
 
-/obj/structure/flora/astrata/Initialize()
+/obj/structure/flora/visires/Initialize()
 	. = ..()
 	icon_state = "astrata[rand(1,3)]"
 

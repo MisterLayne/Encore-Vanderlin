@@ -1,5 +1,5 @@
-/datum/storyteller/astrata
-	name = ASTRATA
+/datum/storyteller/visires
+	name = VISIRES
 	desc = "Visires will provide a balanced and varied experience. Consider this the default experience."
 	weight = 6
 	always_votable = TRUE
@@ -7,7 +7,7 @@
 	color_theme = "#FFD700"
 
 	tag_multipliers = list(
-		TAG_ASTRATA = 3,
+		TAG_VISIRES = 3,
 	)
 
 	influence_sets = list(
@@ -22,7 +22,7 @@
 			STATS_PEOPLE_SMITTEN = list("name" = "People smitten:", "points" = 6, "capacity" = 40),
 		),
 		"Set 4" = list(
-			STATS_ASTRATA_REVIVALS = list("name" = "Holy revivals:", "points" = 6.25, "capacity" = 75),
+			STATS_VISIRES_REVIVALS = list("name" = "Holy revivals:", "points" = 6.25, "capacity" = 75),
 			STATS_PRAYERS_MADE = list("name" = "Prayers made:", "points" = 1.375, "capacity" = 65),
 		),
 		"Set 5" = list(

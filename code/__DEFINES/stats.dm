@@ -26,7 +26,7 @@
 #define STATMOD_RITUAL "Ritual"
 
 // Patrons
-#define STATMOD_ASTRATA_BLESSING "astrata_blessing"
+#define STATMOD_VISIRES_BLESSING "visires_blessing"
 #define STATMOD_ABYSSOR_BLESSING "abyssor_blessing"
 #define STATMOD_NOC_BLESSING "noc_blessing"
 #define STATMOD_MALUM_BLESSING "malum_blessing"

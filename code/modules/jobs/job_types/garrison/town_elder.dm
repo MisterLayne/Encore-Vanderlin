@@ -376,7 +376,7 @@
 
 	spawned.virginity = TRUE
 	switch(spawned.patron?.type)
-		if(/datum/patron/divine/astrata)
+		if(/datum/patron/divine/visires)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
 		if(/datum/patron/divine/necra)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatGravekeeper.ogg'
@@ -465,8 +465,8 @@
 /datum/outfit/town_elder/hearth_acolyte/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
 	. = ..()
 	switch(equipped_human.patron?.type)
-		if(/datum/patron/divine/astrata)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/astrata
+		if(/datum/patron/divine/visires)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/visires
 		if(/datum/patron/divine/necra)
 			neck = /obj/item/clothing/neck/psycross/silver/divine/necra
 		if(/datum/patron/divine/eora)

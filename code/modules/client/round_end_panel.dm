@@ -130,7 +130,7 @@
 	data += "<div style='display: table-cell; width: 50%; vertical-align: top; border-left: 1px solid #444; padding: 0 10px;'>"
 	data += "<font color='#9b6937'><span class='bold'>Total Deaths:</span></font> [GLOB.vanderlin_round_stats[STATS_DEATHS]]<br>"
 	data += "<font color='#6b5ba1'><span class='bold'>Noble Deaths:</span></font> [GLOB.vanderlin_round_stats[STATS_NOBLE_DEATHS]]<br>"
-	data += "<font color='#e6b327'><span class='bold'>Holy Revivals:</span></font> [GLOB.vanderlin_round_stats[STATS_ASTRATA_REVIVALS]]<br>"
+	data += "<font color='#e6b327'><span class='bold'>Holy Revivals:</span></font> [GLOB.vanderlin_round_stats[STATS_VISIRES_REVIVALS]]<br>"
 	data += "<font color='#2dc5bd'><span class='bold'>Lux Revivals:</span></font> [GLOB.vanderlin_round_stats[STATS_LUX_REVIVALS]]<br>"
 	data += "<font color='#7cc05c'><span class='bold'>Wounds sewed:</span></font> [GLOB.vanderlin_round_stats[STATS_WOUNDS_SEWED]]<br>"
 	data += "<font color='#825b1c'><span class='bold'>Moat Fallers:</span></font> [GLOB.vanderlin_round_stats[STATS_MOAT_FALLERS]]<br>"
@@ -933,8 +933,8 @@
 	data += "<div style='width: 91.5%; margin: 0 auto 40px;'>"
 	data += "<div style='display: grid; grid-template-columns: repeat(5, 1fr); gap: 20px; margin-bottom: 30px;'>"
 
-	// Astrata
-	data += god_ui_block("ASTRATA", "#e7a962", "#642705", /datum/storyteller/astrata, debug)
+	// Visires
+	data += god_ui_block("VISIRES", "#e7a962", "#642705", /datum/storyteller/visires, debug)
 
 	// Dendor
 	data += god_ui_block("DENDOR", "#412938", "#66745c", /datum/storyteller/dendor, debug)

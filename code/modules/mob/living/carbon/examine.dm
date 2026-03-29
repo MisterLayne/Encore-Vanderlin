@@ -187,7 +187,7 @@
 			. += span_purple("A fellow seeker of Her ascension.")
 		// Centrist
 		if(HAS_TRAIT(user, TRAIT_DIVINE_SERVANT) && (HAS_TRAIT(src, TRAIT_DIVINE_CENTRIST) && !HAS_TRAIT(src, TRAIT_DIVINE_SERVANT)))
-			. += SPAN_GOD_ASTRATA("An 'Enlightened Centrist'. Shame!")
+			. += SPAN_GOD_VISIRES("An 'Enlightened Centrist'. Shame!")
 
 		// The disgusing inquistion section
 		var/they_pur = HAS_TRAIT(user, TRAIT_PURITAN)

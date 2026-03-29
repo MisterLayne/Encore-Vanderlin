@@ -28,12 +28,12 @@
 /datum/objective/personal/nobility/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("You have earned nobility and completed Visires' objective!"))
-	adjust_storyteller_influence(ASTRATA, 20)
+	adjust_storyteller_influence(VISIRES, 20)
 	UnregisterSignal(owner.current, SIGNAL_ADDTRAIT(TRAIT_NOBLE_POWER))
 
 /datum/objective/personal/nobility/reward_owner()
 	. = ..()
-	owner.current.adjust_stat_modifier(STATMOD_ASTRATA_BLESSING, list(STAT_FORTUNE = 1))
+	owner.current.adjust_stat_modifier(STATMOD_VISIRES_BLESSING, list(STAT_FORTUNE = 1))
 
 /datum/objective/personal/nobility/update_explanation_text()
 	explanation_text = "Become part of the nobility by any means to gain Visires' approval!"

@@ -245,24 +245,24 @@
 	skillcraft = /datum/attribute/skill/craft/crafting
 	craftdiff = 3
 
-/datum/blueprint_recipe/structure/astrata_cross
-	name = "astrata cross"
-	desc = "A metal psycross dedicated to Astrata."
+/datum/blueprint_recipe/structure/visires_cross
+	name = "visires cross"
+	desc = "A metal psycross dedicated to Visires."
 	required_materials = list(
 		/obj/item/ingot/iron = 3,
 	)
-	result_type = /obj/structure/fluff/psycross/astrata
+	result_type = /obj/structure/fluff/psycross/visires
 	construct_tool = /obj/item/weapon/hammer
 	skillcraft = /datum/attribute/skill/craft/crafting
 	craftdiff = 3
 
-/datum/blueprint_recipe/structure/astrata_cross_gold
-	name = "golden astrata cross"
-	desc = "A golden psycross dedicated to Astrata."
+/datum/blueprint_recipe/structure/visires_cross_gold
+	name = "golden visires cross"
+	desc = "A golden psycross dedicated to Visires."
 	required_materials = list(
 		/obj/item/ingot/gold = 3,
 	)
-	result_type = /obj/structure/fluff/psycross/astrata/gold
+	result_type = /obj/structure/fluff/psycross/visires/gold
 	construct_tool = /obj/item/weapon/hammer
 	skillcraft = /datum/attribute/skill/craft/crafting
 	craftdiff = 3

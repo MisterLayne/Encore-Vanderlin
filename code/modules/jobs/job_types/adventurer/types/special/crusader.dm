@@ -22,10 +22,10 @@
 	title = "Totod Order Emissary"
 	tutorial = "The Crusaders are knights who have pledged their wealth and lands to the church, \
 	taking up the banner of the Totod Order dedicated to retaking the Barrows against the forces of Zizo. \
-	Three cults provide knights for the Order: Astrata, Necra and Ravox. \
+	Three cults provide knights for the Order: Visires, Necra and Ravox. \
 	You were sent to Vanderlin by the Order to get any and all assistance from the faithful for the Crusade."
 	allowed_races = RACES_PLAYER_NONHERETICAL
-	allowed_patrons = list(/datum/patron/divine/astrata, /datum/patron/divine/necra, /datum/patron/divine/ravox)
+	allowed_patrons = list(/datum/patron/divine/visires, /datum/patron/divine/necra, /datum/patron/divine/ravox)
 	outfit = /datum/outfit/adventurer/crusader
 	category_tags = list(CTAG_ADVENTURER)
 	total_positions = 1
@@ -44,7 +44,7 @@
 /datum/job/advclass/pilgrim/rare/crusader/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 	switch(spawned.patron?.type)
-		if(/datum/patron/divine/astrata)
+		if(/datum/patron/divine/visires)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAstrata.ogg'
 		if(/datum/patron/divine/necra)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatGravekeeper.ogg'
@@ -80,9 +80,9 @@
 /datum/outfit/adventurer/crusader/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
 	. = ..()
 	switch(equipped_human.patron?.type)
-		if(/datum/patron/divine/astrata)
-			cloak = /obj/item/clothing/cloak/stabard/templar/astrata
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/astrata
+		if(/datum/patron/divine/visires)
+			cloak = /obj/item/clothing/cloak/stabard/templar/visires
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/visires
 		if(/datum/patron/divine/necra)
 			cloak = /obj/item/clothing/cloak/stabard/templar/necra
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/necra

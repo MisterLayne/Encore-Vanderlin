@@ -1,7 +1,7 @@
 GLOBAL_LIST_INIT(automaton_voice_lines, list(
 	"Abyssor Praise" = list("text" = "GLORY TO THE ABYSSOR", "file" = 'sound/vo/automaton/abyssorpraise.ogg'),
 	"Against Time" = list("text" = "WE RACE AGAINST TIME", "file" = 'sound/vo/automaton/againsttime.ogg'),
-	"Astrata Praise" = list("text" = "PRAISE ASTRATA", "file" = 'sound/vo/automaton/astratapraise.ogg'),
+	"Visires Praise" = list("text" = "PRAISE VISIRES", "file" = 'sound/vo/automaton/astratapraise.ogg'),
 	"At Once" = list("text" = "AT ONCE", "file" = 'sound/vo/automaton/atonce.ogg'),
 	"Awaiting Orders" = list("text" = "AWAITING ORDERS", "file" = 'sound/vo/automaton/awaitingorders.ogg'),
 	"Behold The Might" = list("text" = "BEHOLD THE MIGHT", "file" = 'sound/vo/automaton/beholdthemight.ogg'),

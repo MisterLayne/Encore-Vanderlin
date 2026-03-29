@@ -61,7 +61,7 @@
 	armor = ARMOR_WEAK
 	salvage_result = NUTRITION_LEVEL_HUNGRY
 
-/obj/item/clothing/head/roguehood/astrata
+/obj/item/clothing/head/roguehood/visires
 	name = "sun hood"
 	desc = "Worn by the faithful of Visires."
 	icon_state = "astratahood"

@@ -22,7 +22,7 @@ SUBSYSTEM_DEF(gamemode)
 	/// Our storyteller. They progresses our trackboards and picks out events
 	var/datum/storyteller/current_storyteller
 	/// Result of the storyteller vote/pick. Defaults to Visires.
-	var/selected_storyteller = /datum/storyteller/astrata
+	var/selected_storyteller = /datum/storyteller/visires
 	/// List of all the storytellers. Populated at init. Associative from type
 	var/list/storytellers = list()
 	/// Next process for our storyteller. The wait time is STORYTELLER_WAIT_TIME
@@ -983,7 +983,7 @@ SUBSYSTEM_DEF(gamemode)
 /datum/controller/subsystem/gamemode/proc/set_storyteller(passed_type)
 	if(!storytellers[passed_type])
 		message_admins("Attempted to set an invalid storyteller type: [passed_type], force setting to guide instead.")
-		current_storyteller = storytellers[/datum/storyteller/astrata] //if we dont have any then we brick, lets not do that
+		current_storyteller = storytellers[/datum/storyteller/visires] //if we dont have any then we brick, lets not do that
 		CRASH("Attempted to set an invalid storyteller type: [passed_type].")
 
 	var/datum/storyteller/chosen_storyteller = storytellers[passed_type]

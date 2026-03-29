@@ -2,4 +2,4 @@
 	name = "\improper Divine Pantheon"
 	desc = "The most accepted religion around Faience. \
 		May Valdala and her children protect us from the four!"
-	godhead = /datum/patron/divine/astrata
+	godhead = /datum/patron/divine/visires

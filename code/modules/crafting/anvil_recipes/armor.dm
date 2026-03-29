@@ -546,10 +546,10 @@
 	created_item = /obj/item/clothing/head/helmet/heavy/bucket/gold
 	additional_items = list(/obj/item/ingot/gold)
 
-/datum/anvil_recipe/armor/steel/templar/helmet_astrata
+/datum/anvil_recipe/armor/steel/templar/helmet_visires
 	name = "Astratan Helmet (+Gold Bar)"
-	recipe_name = "an astratan helmet"
-	created_item = /obj/item/clothing/head/helmet/heavy/necked/astrata
+	recipe_name = "an visires helmet"
+	created_item = /obj/item/clothing/head/helmet/heavy/necked/visires
 	additional_items = list(/obj/item/ingot/gold)
 
 /datum/anvil_recipe/armor/steel/templar/helmet_necra
@@ -1305,10 +1305,10 @@
 	created_item = /obj/item/clothing/head/helmet/heavy/xylixhelm
 	craftdiff = 3
 
-/datum/anvil_recipe/armor/astratahelm
-	name = "astrata helmet"
+/datum/anvil_recipe/armor/visireshelm
+	name = "visires helmet"
 	req_bar = /obj/item/ingot/steel
-	created_item = /obj/item/clothing/head/helmet/heavy/astratahelm
+	created_item = /obj/item/clothing/head/helmet/heavy/visireshelm
 	craftdiff = 3
 
 /datum/anvil_recipe/armor/nochelm

@@ -94,8 +94,8 @@
 	caparison_state = "psy_caparison"
 	female_caparison_state = "psy_caparison-f"
 
-/obj/item/caparison/astrata
-	name = "astratan caparison"
+/obj/item/caparison/visires
+	name = "visires caparison"
 	desc = "A decorative piece of cloth meant to be used as a saddle decoration. It's adorned with Astratan crosses. This one fits on a Saiga."
 	caparison_state = "astra_caparison"
 	female_caparison_state = "astra_caparison-f"
@@ -129,4 +129,4 @@
 	valid_animal_types = list(/mob/living/simple_animal/hostile/retaliate/honse)
 	color = COLOR_WHITE
 	detail_types = list("Quad" = "quad")
-	symbol_types = list("Psycross" = "psycross", "Astrata" = "astrata")
+	symbol_types = list("Psycross" = "psycross", "Visires" = "visires")
