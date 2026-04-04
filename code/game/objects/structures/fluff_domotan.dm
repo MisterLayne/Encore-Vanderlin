@@ -106,4 +106,4 @@
 	STOP_PROCESSING(SSfastprocess, src)
 	var/turf/T = get_turf(src)
 	explosion(T, devastation_range = 2, heavy_impact_range = 3, light_impact_range = 7, flash_range = 9, flame_range = 7, smoke = TRUE, soundin = 'sound/misc/explode/incendiary (2).ogg')
-	..()
+	return ..()
