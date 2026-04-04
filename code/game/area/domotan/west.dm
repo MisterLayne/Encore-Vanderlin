@@ -16,18 +16,21 @@
 				/mob/living/carbon/human/species/goblin/npc/ambush/sea = 50,
 				/mob/living/simple_animal/hostile/retaliate/troll/bog = 35)
 	first_time_text = "THE WEEPING WOOD"
+	threat_region = THREAT_REGION_OUTER_GROVE
 
 /area/outdoors/woods/west/thornbed
 	name = "thornbed"
 	ambush_mobs = list(
 				/mob/living/simple_animal/hostile/retaliate/troll/bog = 45)
 	first_time_text = "THORNBED"
+	threat_region = THREAT_REGION_TERRORBOG
 
 /area/outdoors/woods/west/crescent
 	name = "crescent"
 	ambush_mobs = list(
 				/mob/living/carbon/human/species/goblin/npc/ambush/sea = 35)
 	first_time_text = "CRESCENT OF REBIRTH"
+
 /area/outdoors/woods/west/crags
 	name = "crags"
 	ambush_mobs = list(

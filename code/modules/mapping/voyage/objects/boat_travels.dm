@@ -3,7 +3,7 @@ GLOBAL_LIST_EMPTY(boat_landmarks)
 	name = "boat transfer point"
 	desc = "Stand here to transfer between ship and island."
 	icon_state = "travel"
-	icon = 'icons/turf/floors.dmi'
+	icon = 'icons/turf/travel.dmi'
 	invisibility = 0
 
 	var/turf/destination = null

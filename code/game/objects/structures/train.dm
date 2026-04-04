@@ -110,5 +110,5 @@
 /obj/structure/train/carriage/not_train/far_travel//Surely there is a better way to do this
 	name = "far travel"
 	desc = "Your means of departing this mess, simply drag your sprite onto this to exit the round!"
-	icon_state = "grey"
-	icon = 'icons/turf/floors.dmi'
+	icon_state = "exit"
+	icon = 'icons/turf/travel.dmi'

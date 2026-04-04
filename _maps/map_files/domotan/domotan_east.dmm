@@ -105,7 +105,8 @@
 "aO" = (
 /obj/structure/fluff/traveltile{
 	aportalgoesto = "z2-southeast2-in";
-	aportalid = "z2-southeast2-out"
+	aportalid = "z2-southeast2-out";
+	dir = 8
 	},
 /turf/open/floor/dirt/road,
 /area/outdoors/mountains)
@@ -1739,13 +1740,6 @@
 /obj/structure/flora/ausbushes/leafybush,
 /turf/open/floor/dirt/road,
 /area/outdoors/seculton)
-"uE" = (
-/obj/structure/fluff/traveltile{
-	aportalgoesto = "z2-southeast2-in";
-	aportalid = "z2-southeast2-out"
-	},
-/turf/open/floor/dirt/road,
-/area/outdoors/mountains/decap)
 "uH" = (
 /obj/structure/chair/wood/alt,
 /obj/structure/carpet/green,
@@ -2407,9 +2401,10 @@
 "ES" = (
 /obj/structure/fluff/traveltile{
 	aportalgoesto = "z2-southeast2-in";
-	aportalid = "z2-southeast2-out"
+	aportalid = "z2-southeast2-out";
+	dir = 8
 	},
-/turf/open/floor/grass/cold,
+/turf/open/floor/dirt/road,
 /area/outdoors/mountains/decap)
 "Fb" = (
 /obj/structure/closet/crate/chest/wicker,
@@ -2481,18 +2476,6 @@
 /obj/structure/flora/ausbushes,
 /turf/open/floor/grass/yel,
 /area/outdoors/hellwatch)
-"FV" = (
-/obj/structure/fluff/traveltile{
-	aportalgoesto = "z2-southeast1-out";
-	aportalid = "z2-southeast1-in";
-	aallmig = "z2-southeast1"
-	},
-/obj/structure/fluff/walldeco/church/line{
-	dir = 8;
-	icon_state = "churchslate"
-	},
-/turf/open/floor/churchrough,
-/area/indoors/seculton)
 "FW" = (
 /obj/structure/closet/crate/coffin,
 /turf/open/floor/churchrough,
@@ -3072,14 +3055,6 @@
 /obj/structure/fake_machine/scomm/l,
 /turf/open/floor/ruinedwood/turned/darker,
 /area/indoors/hellwatch)
-"Me" = (
-/obj/structure/fluff/traveltile{
-	aportalgoesto = "z2-southeast1-out";
-	aportalid = "z2-southeast1-in";
-	aallmig = "z2-southeast1"
-	},
-/turf/open/floor/churchrough,
-/area/indoors/seculton)
 "Mg" = (
 /obj/structure/window,
 /obj/structure/barricade/wooden,
@@ -3263,7 +3238,8 @@
 /obj/structure/fluff/traveltile{
 	aportalgoesto = "z1-hellwatch1-in";
 	aportalid = "z1-hellwatch1-out";
-	aallmig = "z1-hellwatch1"
+	aallmig = "z1-hellwatch1";
+	dir = 8
 	},
 /turf/open/floor/cobblerock,
 /area/outdoors/mountains/decap)
@@ -4099,10 +4075,11 @@
 /obj/structure/fluff/traveltile{
 	aportalgoesto = "z2-southeast1-out";
 	aportalid = "z2-southeast1-in";
-	aallmig = "z2-southeast1"
+	aallmig = "z2-southeast1";
+	dir = 1
 	},
 /obj/structure/fluff/walldeco/church/line{
-	dir = 4;
+	dir = 8;
 	icon_state = "churchslate"
 	},
 /turf/open/floor/churchrough,
@@ -201415,8 +201392,8 @@ MY
 MY
 Xe
 Xe
-uE
-uE
+ES
+ES
 ES
 Xe
 Xe
@@ -214754,7 +214731,7 @@ eH
 eH
 kt
 ow
-FV
+Xv
 xy
 xH
 kt
@@ -215011,7 +214988,7 @@ eH
 eH
 kt
 Mq
-Me
+Xv
 iz
 xH
 kt
@@ -215268,7 +215245,7 @@ eH
 eH
 kt
 Mq
-Me
+Xv
 iz
 Hx
 xH
@@ -215525,7 +215502,7 @@ eH
 eH
 kt
 Mq
-Me
+Xv
 iz
 xH
 xH

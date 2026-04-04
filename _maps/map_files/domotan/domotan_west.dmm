@@ -116,6 +116,10 @@
 	},
 /turf/open/floor/cobble/mossy,
 /area/outdoors/lostkeep)
+"aU" = (
+/obj/structure/door/stone,
+/turf/open/floor/cobble/mossy,
+/area/under/cave/oldfort)
 "aV" = (
 /obj/item/storage/bag,
 /turf/open/floor/carpet/royalblack,
@@ -444,6 +448,10 @@
 "es" = (
 /turf/closed/mineral,
 /area/outdoors/woods/berkleigh)
+"ev" = (
+/obj/structure/door/viewport,
+/turf/open/floor/blocks,
+/area/under/cave/oldfort)
 "ew" = (
 /obj/item/weapon/shield/wood,
 /turf/open/floor/cobble/mossy,
@@ -545,6 +553,9 @@
 /area/indoors/lighthouse)
 "eY" = (
 /obj/item/reagent_containers/food/snacks/meat/salami,
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
 /turf/open/floor/blocks,
 /area/under/cave/oldfort)
 "eZ" = (
@@ -1129,6 +1140,10 @@
 /obj/structure/spider/stickyweb,
 /turf/open/floor/cobble/mossy,
 /area/under/cave/oldtown)
+"jN" = (
+/obj/structure/door,
+/turf/open/floor/cobble,
+/area/under/cave/oldfort)
 "jT" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/lavendergrass,
@@ -1250,6 +1265,12 @@
 "kK" = (
 /turf/open/floor/dirt/road,
 /area/outdoors/lostkeep)
+"kL" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/blocks,
+/area/under/cave/oldfort)
 "kM" = (
 /obj/structure/table/wood{
 	dir = 10;
@@ -1459,6 +1480,9 @@
 	icon_state = "border";
 	dir = 10
 	},
+/obj/structure/fluff/railing/border{
+	dir = 9
+	},
 /turf/open/openspace,
 /area/outdoors/lighthouse)
 "mE" = (
@@ -1479,6 +1503,12 @@
 /mob/living/carbon/human/species/goblin/npc/sea,
 /turf/open/floor/dirt/road,
 /area/outdoors/woods/west/crags)
+"mO" = (
+/obj/structure/door/viewport{
+	dir = 1
+	},
+/turf/open/floor/blocks,
+/area/under/cave/oldfort)
 "na" = (
 /obj/structure/fluff/railing/border,
 /turf/open/floor/twig,
@@ -1497,9 +1527,10 @@
 "ng" = (
 /obj/structure/fluff/traveltile{
 	aportalgoesto = "z2-southwest1-out";
-	aportalid = "z2-southwest1-in"
+	aportalid = "z2-southwest1-in";
+	dir = 4
 	},
-/turf/open/floor/grass/yel,
+/turf/open/floor/dirt/road,
 /area/under/cavewet)
 "nl" = (
 /obj/structure/fluff/railing/border{
@@ -1672,21 +1703,6 @@
 "oO" = (
 /turf/closed/wall/mineral/stone,
 /area/indoors/lighthouse)
-"oP" = (
-/obj/structure/fluff/railing/border{
-	dir = 8
-	},
-/obj/structure/fluff/railing/border{
-	dir = 1;
-	icon_state = "border"
-	},
-/obj/structure/fluff/traveltile{
-	aportalid = "west_arrivals_out";
-	name = "western docks entry";
-	aportalgoesto = "west_arrivals_deadend"
-	},
-/turf/open/floor/ruinedwood,
-/area/outdoors/lighthouse)
 "oR" = (
 /turf/open/floor/cobble/mossy,
 /area/outdoors/woods/west)
@@ -1719,13 +1735,6 @@
 "pd" = (
 /turf/open/floor/cobblerock,
 /area/indoors/lighthouse)
-"pg" = (
-/obj/structure/fluff/traveltile{
-	aportalgoesto = "z2-southwest1-out";
-	aportalid = "z2-southwest1-in"
-	},
-/turf/open/floor/dirt/road,
-/area/under/cavewet)
 "pm" = (
 /obj/structure/spider/stickyweb,
 /mob/living/simple_animal/hostile/skeleton/bow,
@@ -1864,13 +1873,6 @@
 /turf/open/floor/dirt,
 /area/under/cave/oldtown)
 "qD" = (
-/obj/structure/fluff/railing/border{
-	dir = 1;
-	icon_state = "border"
-	},
-/obj/structure/fluff/railing/border{
-	dir = 4
-	},
 /obj/structure/fluff/traveltile{
 	aportalid = "west_arrivals_out";
 	name = "western docks entry";
@@ -1993,6 +1995,12 @@
 "rx" = (
 /turf/open/floor/cobble/mossy,
 /area/under/cave/oldfort)
+"rz" = (
+/obj/structure/door/weak/bolt{
+	dir = 8
+	},
+/turf/open/floor/dirt/road,
+/area/indoors/oldtown)
 "rA" = (
 /turf/closed/wall/mineral/pipe,
 /area/indoors/lostkeep)
@@ -2152,11 +2160,9 @@
 /turf/open/floor/metal,
 /area/indoors/lostkeep)
 "sO" = (
-/obj/structure/stairs/stone{
-	dir = 1
-	},
-/turf/open/floor/churchbrick,
-/area/indoors/lostkeep)
+/obj/structure/door,
+/turf/open/floor/blocks,
+/area/under/cave/oldfort)
 "sQ" = (
 /turf/open/water/ocean/deep,
 /area/outdoors/woods/west)
@@ -2427,6 +2433,9 @@
 /obj/structure/flora/grass/swampweed,
 /turf/open/water/swamp,
 /area/outdoors/woods/west/lonelyeerie)
+"vw" = (
+/turf/closed/wall/mineral/decowood,
+/area/indoors/shelter/woods)
 "vx" = (
 /obj/structure/window,
 /turf/open/floor/ruinedwood,
@@ -2462,6 +2471,11 @@
 /obj/structure/flora/newtree,
 /turf/open/water/ocean,
 /area/outdoors/woods/west/crescent)
+"vK" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/door,
+/turf/open/floor/cobble/mossy,
+/area/under/cave/oldfort)
 "vN" = (
 /turf/open/floor/dirt,
 /area/outdoors/woods/west/lonelyeerie)
@@ -2669,6 +2683,9 @@
 /obj/structure/table/church/m,
 /turf/open/floor/dirt/road,
 /area/outdoors/woods/west)
+"xJ" = (
+/turf/closed/wall/mineral/wood,
+/area/indoors/shelter/woods)
 "xK" = (
 /obj/structure/fluff/railing/border{
 	icon_state = "border";
@@ -3127,14 +3144,12 @@
 /turf/open/openspace,
 /area/outdoors/river)
 "BR" = (
+/obj/structure/fluff/railing/border,
 /obj/structure/fluff/railing/border{
 	dir = 1;
 	icon_state = "border"
 	},
-/obj/structure/fluff/railing/border{
-	dir = 4
-	},
-/turf/open/floor/ruinedwood,
+/turf/open/openspace,
 /area/outdoors/lighthouse)
 "BS" = (
 /obj/effect/landmark/tram/queued_path/cargo_stop,
@@ -3552,9 +3567,10 @@
 "EE" = (
 /obj/structure/fluff/traveltile{
 	aportalgoesto = "z1-northwest1-out";
-	aportalid = "z1-northwest1-in"
+	aportalid = "z1-northwest1-in";
+	dir = 4
 	},
-/turf/open/floor/snow,
+/turf/open/floor/dirt,
 /area/outdoors/woods/west)
 "EG" = (
 /obj/structure/flora/ausbushes/brflowers,
@@ -3989,6 +4005,10 @@
 "HF" = (
 /turf/open/openspace,
 /area/under/cave/oldfort)
+"HG" = (
+/obj/structure/door/stone,
+/turf/open/floor/blocks,
+/area/under/cave/oldfort)
 "HH" = (
 /obj/structure/rack{
 	pixel_y = 13
@@ -4027,6 +4047,13 @@
 /obj/structure/fluff/statue/knightalt,
 /turf/open/floor/blocks,
 /area/outdoors/lighthouse)
+"HW" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/blocks,
+/area/under/cave/oldfort)
 "HX" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8
@@ -4252,6 +4279,10 @@
 /obj/structure/bars,
 /turf/open/water/ocean/deep,
 /area/under/cave/oldfort)
+"JI" = (
+/obj/structure/door/weak,
+/turf/open/floor/blocks,
+/area/under/cave/oldfort)
 "JK" = (
 /obj/machinery/light/fueled/torchholder/r,
 /turf/open/openspace,
@@ -4335,8 +4366,7 @@
 /turf/open/floor/wood/nosmooth,
 /area/under/cave/oldfort)
 "Ky" = (
-/obj/structure/fluff/railing/border,
-/obj/structure/fluff/railing/border{
+/obj/structure/train/carriage/not_train/far_travel{
 	dir = 4
 	},
 /turf/open/floor/ruinedwood,
@@ -4621,7 +4651,8 @@
 "MW" = (
 /obj/structure/fluff/traveltile{
 	aportalgoesto = "z1-southwest1-out";
-	aportalid = "z1-southwest1-in"
+	aportalid = "z1-southwest1-in";
+	dir = 4
 	},
 /turf/open/floor/sand,
 /area/outdoors/woods/west)
@@ -4698,6 +4729,7 @@
 /area/outdoors/river)
 "Nt" = (
 /obj/item/bedsheet/cloth,
+/obj/structure/bed,
 /turf/open/floor/blocks,
 /area/under/cave/oldfort)
 "Nw" = (
@@ -4850,6 +4882,7 @@
 /area/outdoors/woods/berkleigh)
 "OP" = (
 /obj/item/bedsheet/cloth,
+/obj/structure/bed,
 /turf/open/floor/dirt,
 /area/under/cave/oldfort)
 "OR" = (
@@ -5559,6 +5592,13 @@
 	},
 /turf/open/floor/cobble/mossy,
 /area/outdoors/woods/west)
+"Ur" = (
+/obj/structure/fluff/railing/wood,
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/blocks,
+/area/under/cave/oldfort)
 "Us" = (
 /turf/closed/wall/mineral/wooddark,
 /area/under/cavewet)
@@ -5687,6 +5727,10 @@
 "VF" = (
 /turf/open/water/ocean/deep,
 /area/outdoors/woods/west/lonelyeerie)
+"VG" = (
+/obj/structure/door,
+/turf/open/floor/wood/nosmooth,
+/area/under/cave/oldfort)
 "VH" = (
 /obj/structure/window/stained/yellow,
 /turf/open/floor/blocks/green,
@@ -5709,6 +5753,10 @@
 "VQ" = (
 /turf/open/floor/twig,
 /area/indoors/oldtown)
+"VZ" = (
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/wood/nosmooth,
+/area/under/cave/oldfort)
 "Wc" = (
 /obj/structure/flora/grass/water/reeds,
 /turf/open/floor/sand,
@@ -6005,7 +6053,7 @@
 /turf/closed/wall/mineral/stone/moss,
 /area/under/cave/oldtown)
 "YA" = (
-/obj/item/coin/silver/pile,
+/obj/structure/door/weak,
 /turf/open/floor/cobble/mossy,
 /area/under/cave/oldfort)
 "YK" = (
@@ -6025,6 +6073,10 @@
 	},
 /turf/open/floor/hexstone,
 /area/indoors/lostkeep)
+"YT" = (
+/obj/structure/door,
+/turf/open/floor/cobble/mossy,
+/area/under/cave/oldfort)
 "YV" = (
 /obj/structure/flora/grass/thorn_bush,
 /turf/open/water/swamp,
@@ -6037,6 +6089,10 @@
 "YY" = (
 /turf/open/water/swamp/deep,
 /area/outdoors/woods/west/lonelyeerie)
+"YZ" = (
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/blocks,
+/area/under/cave/oldfort)
 "Za" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8
@@ -14291,13 +14347,13 @@ qF
 qF
 tc
 ew
-rx
+YA
 Xc
 rx
 Xc
 rx
 Xc
-rx
+aU
 tc
 RQ
 RQ
@@ -14551,13 +14607,13 @@ KA
 KA
 KA
 KA
-rx
+aU
 KA
 KA
 KA
 KA
 KA
-qq
+HG
 KA
 kq
 KA
@@ -15317,8 +15373,8 @@ xC
 RQ
 qF
 KA
-qq
-rx
+KA
+YT
 KA
 KA
 KA
@@ -16601,7 +16657,7 @@ xC
 sI
 pm
 ti
-rx
+YT
 rx
 rx
 Th
@@ -17381,7 +17437,7 @@ qq
 KA
 Eu
 xS
-FW
+vK
 Rr
 hU
 KA
@@ -17635,7 +17691,7 @@ qq
 KA
 aO
 qq
-qq
+sO
 qq
 FW
 KA
@@ -18669,7 +18725,7 @@ qq
 KA
 KD
 ye
-qq
+sO
 sm
 qq
 KA
@@ -18911,7 +18967,7 @@ sQ
 xC
 tc
 tc
-qq
+JI
 Xc
 qq
 KA
@@ -19186,7 +19242,7 @@ KA
 KA
 PB
 rx
-qq
+sO
 lR
 FW
 ek
@@ -20208,7 +20264,7 @@ qq
 Gs
 zb
 qq
-qq
+sO
 rx
 KD
 qq
@@ -34538,9 +34594,9 @@ Ap
 Ap
 Ap
 CB
-CB
-CB
-CB
+vw
+vw
+vw
 CB
 CB
 Xn
@@ -35565,7 +35621,7 @@ es
 Ll
 Ap
 Ll
-CB
+vw
 HD
 SF
 rv
@@ -35822,12 +35878,12 @@ es
 bF
 Ap
 Ap
-CB
+vw
 SL
 gG
 rv
 rv
-CB
+vw
 Ll
 Ap
 Ll
@@ -36079,12 +36135,12 @@ es
 Ll
 Vi
 Ap
-CB
+vw
 UN
 oA
 rv
 rv
-CB
+vw
 Ll
 Ap
 bF
@@ -36336,12 +36392,12 @@ es
 es
 Md
 Ap
-CB
+vw
 be
 rv
 rv
 rv
-CB
+vw
 kb
 Ap
 Ll
@@ -36593,7 +36649,7 @@ TI
 TI
 Ap
 Ap
-CB
+vw
 Dg
 rv
 rv
@@ -36850,7 +36906,7 @@ iN
 eP
 Ap
 Ap
-CB
+vw
 aM
 rv
 rv
@@ -37108,8 +37164,8 @@ TI
 Ll
 Ap
 CB
-CB
-CB
+vw
+vw
 aP
 CB
 CB
@@ -38128,10 +38184,10 @@ jT
 Ll
 Ll
 CB
-CB
-CB
-CB
-CB
+vw
+vw
+vw
+vw
 CB
 bF
 Ll
@@ -38384,12 +38440,12 @@ KQ
 KQ
 bF
 kb
-CB
+xJ
 yd
 wF
 rv
 Db
-CB
+xJ
 BB
 SY
 Ap
@@ -38641,7 +38697,7 @@ KQ
 KQ
 Ll
 Ll
-CB
+xJ
 rv
 rv
 rv
@@ -38898,12 +38954,12 @@ KQ
 KQ
 Hi
 Ll
-CB
+xJ
 SC
 rv
 rv
 rv
-CB
+xJ
 Vi
 Ll
 Ap
@@ -39155,12 +39211,12 @@ KQ
 Hi
 Hi
 Ll
-CB
+xJ
 Fc
 Df
 Jl
 Kh
-CB
+xJ
 Ll
 bF
 Ap
@@ -39413,10 +39469,10 @@ Hi
 Ll
 Ll
 CB
-CB
-CB
-CB
-CB
+vw
+vw
+vw
+vw
 CB
 Ll
 Ap
@@ -43084,8 +43140,8 @@ Jd
 KS
 Jd
 Jd
-sO
-cf
+le
+XD
 eR
 eR
 eR
@@ -43341,8 +43397,8 @@ Oj
 XQ
 Jd
 Jd
-sO
-cf
+le
+XD
 eR
 eR
 eR
@@ -45864,9 +45920,9 @@ KQ
 KQ
 KQ
 ng
-pg
-pg
-pg
+ng
+ng
+ng
 ng
 KQ
 KQ
@@ -54644,7 +54700,7 @@ Ql
 ek
 zT
 kj
-kj
+VG
 kj
 kj
 kj
@@ -54913,7 +54969,7 @@ kj
 kj
 kj
 Qk
-kj
+VZ
 Gx
 vf
 by
@@ -55170,7 +55226,7 @@ Sj
 Sj
 Sj
 kj
-kj
+VZ
 by
 by
 by
@@ -55427,7 +55483,7 @@ sV
 uy
 Sj
 bD
-kj
+VZ
 by
 by
 by
@@ -55684,7 +55740,7 @@ SO
 KA
 Sj
 kj
-kj
+VZ
 by
 by
 by
@@ -55941,7 +55997,7 @@ zE
 yI
 Sj
 kj
-kj
+VZ
 by
 by
 by
@@ -56198,7 +56254,7 @@ vD
 Sj
 aV
 kj
-kj
+VZ
 by
 by
 by
@@ -56455,7 +56511,7 @@ zu
 dN
 dN
 kj
-kj
+VZ
 by
 by
 by
@@ -57220,7 +57276,7 @@ Ac
 qq
 qq
 qq
-kj
+VG
 kj
 kj
 kj
@@ -57597,8 +57653,8 @@ by
 by
 by
 by
-by
-by
+FB
+lT
 iM
 UD
 Kn
@@ -57854,8 +57910,8 @@ by
 by
 by
 by
-by
-oP
+RS
+qD
 TT
 Xe
 GL
@@ -57984,7 +58040,7 @@ Ay
 hJ
 eE
 Ay
-XS
+ev
 Hb
 PH
 Hb
@@ -58111,7 +58167,7 @@ by
 by
 by
 by
-by
+RS
 qD
 yi
 yi
@@ -58368,13 +58424,13 @@ by
 by
 by
 by
-by
-by
-by
-by
-BR
+qL
+Gx
+vf
+RS
 Ky
-KX
+Ky
+BR
 aq
 aq
 aq
@@ -58497,7 +58553,7 @@ pn
 ga
 fR
 fR
-qq
+mO
 qq
 UV
 HF
@@ -58628,9 +58684,9 @@ by
 by
 by
 by
-by
-by
-by
+qL
+Gx
+Gx
 mz
 nr
 nr
@@ -58754,7 +58810,7 @@ hJ
 Ay
 Ao
 Ao
-XS
+mO
 qq
 UV
 HF
@@ -58765,10 +58821,10 @@ qq
 hQ
 qq
 Hb
+jN
 Hb
 Hb
-Hb
-qq
+YZ
 by
 by
 by
@@ -59025,7 +59081,7 @@ Hb
 KA
 Sg
 qq
-qq
+YZ
 lT
 Lz
 by
@@ -59282,7 +59338,7 @@ Hb
 KA
 Hb
 hW
-qq
+YZ
 BW
 rJ
 by
@@ -59527,7 +59583,7 @@ Hb
 Hb
 bI
 Dz
-Hb
+jN
 Pf
 Pf
 Pf
@@ -59539,7 +59595,7 @@ Hb
 KA
 Hb
 hQ
-qq
+YZ
 Gx
 vf
 by
@@ -59796,7 +59852,7 @@ KA
 KA
 Hb
 JX
-qq
+YZ
 lT
 Lz
 by
@@ -60045,7 +60101,7 @@ KA
 Pf
 IN
 Pf
-qq
+sO
 qq
 XS
 qq
@@ -60053,7 +60109,7 @@ qq
 qq
 hW
 qq
-qq
+YZ
 BW
 rJ
 by
@@ -60310,7 +60366,7 @@ hW
 hW
 hW
 qq
-qq
+YZ
 Gx
 vf
 by
@@ -60561,13 +60617,13 @@ QV
 QV
 KA
 eY
-hW
-qq
-qq
-qq
-qq
-qq
-qq
+HW
+kL
+kL
+kL
+kL
+kL
+Ur
 by
 by
 by
@@ -72121,7 +72177,7 @@ dW
 yt
 Hy
 dW
-Lb
+rz
 Hy
 bQ
 bQ
@@ -74374,10 +74430,10 @@ Hp
 Hp
 Hp
 CB
-CB
-CB
-CB
-CB
+xJ
+vw
+vw
+xJ
 CB
 Di
 Hp
@@ -74889,10 +74945,10 @@ Hp
 Hp
 jA
 EQ
-CB
+xJ
 tr
 vp
-CB
+xJ
 nc
 Hp
 Ll
@@ -75146,10 +75202,10 @@ Hp
 Hp
 jA
 EQ
-CB
-CB
-CB
-CB
+xJ
+vw
+vw
+xJ
 nc
 Hp
 Ll
@@ -75660,10 +75716,10 @@ Hp
 Hp
 jA
 EQ
-CB
+xJ
 tr
 vp
-CB
+xJ
 nc
 Hp
 Hp
@@ -75917,10 +75973,10 @@ Hp
 Hp
 jA
 EQ
-CB
-CB
-CB
-CB
+xJ
+vw
+vw
+xJ
 nc
 Hp
 Hp
@@ -76944,10 +77000,10 @@ TI
 Hp
 Hp
 CB
-CB
-CB
-CB
-CB
+xJ
+vw
+vw
+xJ
 CB
 Di
 Hp
