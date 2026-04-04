@@ -1,4 +1,4 @@
-/obj/structure/fluff/statue/zizo
+/obj/structure/fluff/statue/one_envy
 	name = "statue of the One Envy"
 	desc = "Burning eyes of amber pierce through you; they see what is truly you, more than one's mind can possibly know itself. You dare not stir its gaze."
 	icon = 'icons/roguetown/misc/32x64.dmi'
@@ -8,7 +8,7 @@
 	density = TRUE
 	blade_dulling = DULLING_BASH
 
-/obj/structure/fluff/statue/zizo/Initialize()
+/obj/structure/fluff/statue/one_envy/Initialize()
 	. = ..()
 	set_light(1, 1, 1, l_color = COLOR_ORANGE)
 
@@ -107,3 +107,22 @@
 	var/turf/T = get_turf(src)
 	explosion(T, devastation_range = 2, heavy_impact_range = 3, light_impact_range = 7, flash_range = 9, flame_range = 7, smoke = TRUE, soundin = 'sound/misc/explode/incendiary (2).ogg')
 	return ..()
+
+/obj/structure/fluff/railing/tall/retaining
+	name = "wooden retaining wall"
+	desc = "A sturdy earthen reinforcement of wooden planks."
+	icon = 'icons/roguetown/misc/retainingwall.dmi'
+	icon_state = "wall"
+	pass_throwing = TRUE
+	SET_BASE_PIXEL(0, 0)
+	max_integrity = 400
+
+/obj/structure/fluff/railing/tall/retaining/Initialize()
+	. = ..()
+	layer = ABOVE_MOB_LAYER + 0.01//should cover the water edge effects
+
+/obj/structure/fluff/railing/tall/retaining/stone
+	name = "stone retaining wall"
+	desc = "A strong ledge of aged, downtrodden stones."
+	icon_state = "wallstone"
+	max_integrity = 800
