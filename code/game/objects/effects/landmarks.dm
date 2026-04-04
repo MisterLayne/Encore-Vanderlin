@@ -499,7 +499,8 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 
 /obj/effect/landmark/latejoin
 	name = "JoinLate"
-	icon_state = "arrow_blue"
+	icon_state = "latejoin"
+	icon = 'icons/turf/travel.dmi'
 
 /obj/effect/landmark/latejoin/Initialize(mapload)
 	..()

@@ -178,12 +178,13 @@
 	converted_type = /area/indoors/shelter/woods
 
 /area/outdoors/beach
-	name = "sophia's cry"
+	name = "coast"
 	icon_state = "beach"
 	droning_index = DRONING_LAKE
 	background_track = 'sound/music/area/townstreets.ogg'
 	background_track_dusk = 'sound/music/area/septimus.ogg'
 	background_track_night = 'sound/music/area/sleeping.ogg'
+	first_time_text = "Coast of Domotan Island"
 
 	ambush_mobs = list(
 		/mob/living/carbon/human/species/goblin/npc/ambush/sea = 20,
@@ -356,7 +357,7 @@
 	background_track = 'sound/music/area/underworlddrone.ogg'
 	background_track_dusk = null
 	background_track_night = null
-	first_time_text = "The Forest of Repentence"
+	first_time_text = "The Forever War"
 
 /area/underworld/Entered(atom/movable/movable, oldloc)
 	. = ..()
