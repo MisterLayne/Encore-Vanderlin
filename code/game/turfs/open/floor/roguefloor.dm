@@ -396,7 +396,7 @@
 
 /turf/open/floor/underworld/space
 	name = "void"
-	desc = "The shifting blanket of Necra's realm."
+	desc = "Space in its truest form. You can almost reach out and touch the stars like this."
 	icon_state = "undervoid"
 	footstep = FOOTSTEP_SAND
 	barefootstep = FOOTSTEP_SOFT_BAREFOOT
@@ -405,13 +405,9 @@
 	slowdown = 50
 
 /turf/open/floor/underworld/space/sparkle_quiet
-	name = "void"
-	desc = "The shifting blanket of Necra's realm."
 	icon_state = "undervoid2"
 
 /turf/open/floor/underworld/space/quiet
-	name = "void"
-	desc = "The shifting blanket of Necra's realm."
 	icon_state = "undervoid3"
 
 /turf/open/floor/volcanic
