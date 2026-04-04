@@ -73,12 +73,10 @@
 	blade_dulling = DULLING_BASH
 	SET_BASE_PIXEL(-32, 0)
 
-//Elemental crystal for the church
-//destroying it causes a huge explosion
 /obj/structure/fluff/psycross/hugecrystal
-	name = "Linked Elemental Shard"
-	desc = "A towering, glamorous and lively crystal. A priceless treasure and fixture of worship for disciples of the Elementals, and said to be but a tiny fraction of Heaven brought to Gaia."
-	icon_state = "free"
+	name = "Restrained Elemental Shard"
+	desc = "A towering, shimmering crystal. It appears to be restrained with some odd advanced mechanism, hindering its power from being channeled."
+	icon_state = "caged"
 	icon = 'icons/roguetown/misc/64x96.dmi'
 	break_sound = 'sound/combat/hits/onglass/glassbreak (2).ogg'
 	attacked_sound = list('sound/combat/hits/onglass/glassbreak (1).ogg','sound/combat/hits/onglass/glassbreak (3).ogg')
@@ -91,26 +89,21 @@
 	. = ..()
 	set_light(1, 1, 1, l_color = COLOR_BLUE_LIGHT)
 
-/obj/structure/fluff/psycross/hugecrystal/Destroy()
+/obj/structure/fluff/psycross/hugecrystal/dead
+	name = "Lifeless Elemental Shard"
+	desc = "A towering, shimmering crystal. It appears to be devoid of energy and shows no sign of power within."
+	icon_state = "dead"
+
+//Elemental crystal for the church
+//destroying it causes a huge explosion and an omen
+/obj/structure/fluff/psycross/hugecrystal/unsafe
+	name = "Linked Elemental Shard"
+	desc = "A towering, glamorous and lively crystal. A priceless treasure and fixture of worship for disciples of the Elementals, and said to be but a tiny fraction of Heaven brought to Gaia."
+	icon_state = "free"
+
+/obj/structure/fluff/psycross/hugecrystal/unsafe/Destroy()
 	addomen("psycross")
 	STOP_PROCESSING(SSfastprocess, src)
 	var/turf/T = get_turf(src)
 	explosion(T, devastation_range = 2, heavy_impact_range = 3, light_impact_range = 7, flash_range = 9, flame_range = 7, smoke = TRUE, soundin = 'sound/misc/explode/incendiary (2).ogg')
-	qdel(src)
-	return ..()
-
-//safe omenless and explosionless alternatives
-/obj/structure/fluff/psycross/hugecrystal/safe
-	name = "Restrained Elemental Shard"
-	desc = "A towering, shimmering crystal. It appears to be restrained with some odd advanced mechanism, hindering its power from being channeled."
-	icon_state = "caged"
-
-/obj/structure/fluff/psycross/hugecrystal/safe/Destroy()
-	STOP_PROCESSING(SSfastprocess, src)
-	qdel(src)
-	return ..()
-
-/obj/structure/fluff/psycross/hugecrystal/safe/dead
-	name = "Lifeless Elemental Shard"
-	desc = "A towering, shimmering crystal. It appears to be devoid of energy and shows no sign of power within."
-	icon_state = "dead"
+	..()
