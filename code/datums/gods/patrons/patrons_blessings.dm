@@ -208,20 +208,20 @@
 		),
 
 		/// Gani
-		/datum/patron/divine/gani = list(
-			/datum/status_effect/buff/beastsense = "Gani growls: \"Beasts... hunting? Yes, of course.\"",
-			/datum/status_effect/buff/trollshape = "Gani mutters: \"Ah. I do recall making one of these, right?\"",
-			/datum/status_effect/buff/divine_beauty = "Gani sighs: \"Bloom... Blooming and pollen.\"",
-			/datum/status_effect/buff/call_to_arms = "Gani grumbles: \"Huh? Fighting..? Defend your forest.\"",
-			/datum/status_effect/buff/craft_buff = "Gani states: \"Making something..? Don't hurt the trees, hm?\"",
-			/datum/status_effect/buff/foodbuff = "Gani grunts: \"Eat. Eating good.\"",
-			/datum/status_effect/buff/clean_plus = "Gani rasps: \"You wipe the rot... but it returns.\"",
-			/datum/status_effect/buff/featherfall = "Gani chuckles: \"Fallin' leaves. Yah! You're like that. Heh.\"",
-			/datum/status_effect/buff/darkvision = "Gani growls: \"See the dark roots..\"",
-			/datum/status_effect/buff/haste = "Gani grumbles: \"Run fast. The wolves do.\"",
-			/datum/status_effect/buff/calm = "Gani breathes: \"Wind flows. Calming?\"",
-			/datum/status_effect/buff/barbrage = "Gani growls: \"GRRR! It's dancing time!\""
-		),
+        /datum/patron/divine/gani = list(
+            /datum/status_effect/buff/beastsense = "Gani whispers: \"All things of the wild are interconnected; see them, my child.\"",
+            /datum/status_effect/buff/trollshape = "Gani whispers: \"Let the power of the wilds shape your form, my child.\"",
+            /datum/status_effect/buff/divine_beauty = "Gani whispers: \"Bloom with verdant beauty, my child.\"",
+            /datum/status_effect/buff/call_to_arms = "Gani proclaims: \"Strike with mercy, strike with precision! The errant stem must be cut at the root.\"",
+            /datum/status_effect/buff/craft_buff = "Gani whispers: \"Show me what you can create, my child.\"",
+            /datum/status_effect/buff/foodbuff = "Gani whispers: \"Eat up, my dear.\"",
+            /datum/status_effect/buff/clean_plus = "Gani rasps: \"Always more cleaning to do, my child.\"",
+            /datum/status_effect/buff/featherfall = "Gani chuckles: \"Jump, my child. Do not fear, Mother has you.\"",
+            /datum/status_effect/buff/darkvision = "Gani whispers: \"See all that the trees and roots do.\"",
+            /datum/status_effect/buff/haste = "Gani encourages: \"Run as the wolves do, my child!\"",
+            /datum/status_effect/buff/calm = "Gani whispers: \"Be calm, my child. Mother will keep you safe.\"",
+            /datum/status_effect/buff/barbrage = "Gani proclaims: \"Feel a Mother's rage!\""
+        ),
 
 		/// Pomette
 		/datum/patron/divine/eora = list(
