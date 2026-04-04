@@ -1,4 +1,4 @@
-/obj/structure/fluff/statue/zizo
+/obj/structure/fluff/statue/one_envy
 	name = "statue of the One Envy"
 	desc = "Burning eyes of amber pierce through you; they see what is truly you, more than one's mind can possibly know itself. You dare not stir its gaze."
 	icon = 'icons/roguetown/misc/32x64.dmi'
@@ -8,7 +8,7 @@
 	density = TRUE
 	blade_dulling = DULLING_BASH
 
-/obj/structure/fluff/statue/zizo/Initialize()
+/obj/structure/fluff/statue/one_envy/Initialize()
 	. = ..()
 	set_light(1, 1, 1, l_color = COLOR_ORANGE)
 
@@ -114,3 +114,11 @@
 	name = "Lifeless Elemental Shard"
 	desc = "A towering, shimmering crystal. It appears to be devoid of energy and shows no sign of power within."
 	icon_state = "dead"
+
+/obj/structure/fluff/railing/tall/retaining
+	name = "wooden retaining wall"
+	desc = "A sturdy earthen reinforcement of wooden planks."
+	icon = 'icons/roguetown/misc/retainingwall.dmi'
+	icon_state = "wall"
+	pass_throwing = TRUE
+	SET_BASE_PIXEL(0, 0)
