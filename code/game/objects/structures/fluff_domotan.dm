@@ -122,3 +122,14 @@
 	icon_state = "wall"
 	pass_throwing = TRUE
 	SET_BASE_PIXEL(0, 0)
+	max_integrity = 400
+
+/obj/structure/fluff/railing/tall/retaining/Initialize()
+	. = ..()
+	layer = ABOVE_MOB_LAYER + 0.01//should cover the water edge effects
+
+/obj/structure/fluff/railing/tall/retaining/stone
+	name = "stone retaining wall"
+	desc = "A strong ledge of aged, downtrodden stones."
+	icon_state = "wallstone"
+	max_integrity = 800
