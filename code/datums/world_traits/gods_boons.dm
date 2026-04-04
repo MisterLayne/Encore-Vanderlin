@@ -1,8 +1,8 @@
-/datum/world_trait/dendor_fertility
+/datum/world_trait/gani_fertility
 	name = "Gani's Blessing"
 	desc = "Increases the fertility of crops, making them grow faster and heartier."
 
-/datum/world_trait/dendor_drought
+/datum/world_trait/gani_drought
 	name = "Gani's Ire"
 	desc = "Decreases the fertility of crops, making them grow slower."
 

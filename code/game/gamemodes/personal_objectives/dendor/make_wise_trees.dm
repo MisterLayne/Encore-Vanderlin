@@ -32,12 +32,12 @@
 /datum/objective/personal/wise_trees/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("You have created enough wise trees to satisfy Gani!"))
-	adjust_storyteller_influence(DENDOR, 20)
+	adjust_storyteller_influence(GANI, 20)
 	UnregisterSignal(owner.current, COMSIG_TREE_TRANSFORMED)
 
 /datum/objective/personal/wise_trees/reward_owner()
 	. = ..()
-	owner.current.adjust_stat_modifier(STATMOD_DENDOR_BLESSING, list(STAT_FORTUNE = 1))
+	owner.current.adjust_stat_modifier(STATMOD_GANI_BLESSING, list(STAT_FORTUNE = 1))
 
 /datum/objective/personal/wise_trees/update_explanation_text()
 	explanation_text = "Transform [trees_required] common trees into guardian wise trees using Gani's blessing."

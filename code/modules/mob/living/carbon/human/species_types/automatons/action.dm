@@ -13,7 +13,7 @@ GLOBAL_LIST_INIT(automaton_voice_lines, list(
 	"Crown's Decree" = list("text" = "BY THE CROWN'S DECREE", "file" = 'sound/vo/automaton/crownsdecree.ogg'),
 	"Damage Received" = list("text" = "DAMAGE RECEIVED", "file" = 'sound/vo/automaton/damagereceived.ogg'),
 	"Death Comes" = list("text" = "DEATH COMES", "file" = 'sound/vo/automaton/deathcomes.ogg'),
-	"Dendor Praise" = list("text" = "DENDOR BE PRAISED", "file" = 'sound/vo/automaton/dendorpraise.ogg'),
+	"Gani Praise" = list("text" = "GANI BE PRAISED", "file" = 'sound/vo/automaton/dendorpraise.ogg'),
 	"Destroying" = list("text" = "DESTROYING", "file" = 'sound/vo/automaton/destroying.ogg'),
 	"Dreamless Pause" = list("text" = "ENTERING DREAMLESS PAUSE", "file" = 'sound/vo/automaton/dreamlesspause.ogg'),
 	//"Elf Detected" = list("text" = "ELF DETECTED", "file" = 'sound/vo/automaton/elfdetected.ogg'),

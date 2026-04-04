@@ -208,7 +208,7 @@
 		),
 
 		/// Gani
-		/datum/patron/divine/dendor = list(
+		/datum/patron/divine/gani = list(
 			/datum/status_effect/buff/beastsense = "Gani growls: \"Beasts... hunting? Yes, of course.\"",
 			/datum/status_effect/buff/trollshape = "Gani mutters: \"Ah. I do recall making one of these, right?\"",
 			/datum/status_effect/buff/divine_beauty = "Gani sighs: \"Bloom... Blooming and pollen.\"",

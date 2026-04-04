@@ -31,7 +31,7 @@
 #define STATMOD_NOC_BLESSING "noc_blessing"
 #define STATMOD_MALUM_BLESSING "malum_blessing"
 #define STATMOD_PESTRA_BLESSING "pestra_blessing"
-#define STATMOD_DENDOR_BLESSING "dendor_blessing"
+#define STATMOD_GANI_BLESSING "gani_blessing"
 #define STATMOD_EORA_BLESSING "eora_blessing"
 #define STATMOD_RAVOX_BLESSING "ravox_blessing"
 #define STATMOD_XYLIX_BLESSING "xylix_blessing"

@@ -1,19 +1,19 @@
 
-/datum/round_event_control/dendor_trees
+/datum/round_event_control/gani_trees
 	name = "Wise Trees Propagation"
 	track = EVENT_TRACK_PERSONAL
-	typepath = /datum/round_event/dendor_trees
+	typepath = /datum/round_event/gani_trees
 	weight = 7
 	earliest_start = 10 MINUTES
 	max_occurrences = 1
 	min_players = 25
 
 	tags = list(
-		TAG_DENDOR,
+		TAG_GANI,
 		TAG_NATURE,
 	)
 
-/datum/round_event_control/dendor_trees/canSpawnEvent(players_amt, gamemode, fake_check)
+/datum/round_event_control/gani_trees/canSpawnEvent(players_amt, gamemode, fake_check)
 	. = ..()
 	if(!.)
 		return FALSE
@@ -21,7 +21,7 @@
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(!istype(H) || H.stat == DEAD || !H.client)
 			continue
-		if(!H.patron || !istype(H.patron, /datum/patron/divine/dendor))
+		if(!H.patron || !istype(H.patron, /datum/patron/divine/gani))
 			continue
 		if(H.get_spell(/datum/action/cooldown/spell/transfrom_tree))
 			continue
@@ -29,13 +29,13 @@
 
 	return FALSE
 
-/datum/round_event/dendor_trees/start()
+/datum/round_event/gani_trees/start()
 	var/list/valid_targets = list()
 
 	for(var/mob/living/carbon/human/human_mob in GLOB.player_list)
 		if(!istype(human_mob) || human_mob.stat == DEAD || !human_mob.client)
 			continue
-		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/divine/dendor))
+		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/divine/gani))
 			continue
 		if(human_mob.get_spell(/datum/action/cooldown/spell/transfrom_tree))
 			continue
@@ -52,7 +52,7 @@
 	chosen_one.add_spell(/datum/action/cooldown/spell/transfrom_tree)
 
 	bordered_message(chosen_one, list(
-		span_userdanger("YOU ARE DENDOR'S CHOSEN!"),
+		span_userdanger("YOU ARE GANI'S CHOSEN!"),
 		span_biginfo("Gani wants you to choose suitable trees, which are to become guardians of the forest! [new_objective.explanation_text]"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/ambience/noises/genspooky (1).ogg', 100)

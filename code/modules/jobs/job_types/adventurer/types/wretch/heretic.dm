@@ -45,7 +45,7 @@
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/swords, 40)
 			ADD_TRAIT(spawned, TRAIT_DUALWIELDER, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatNoc.ogg'
-		if(/datum/patron/divine/dendor)
+		if(/datum/patron/divine/gani)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/polearms, 40)
 			spawned.cmode_music = 'sound/music/cmode/garrison/CombatForestGarrison.ogg'
 		if(/datum/patron/divine/necra)
@@ -151,11 +151,11 @@
 			head = /obj/item/clothing/head/helmet/heavy/necked/noc
 			cloak = /obj/item/clothing/cloak/stabard/templar/noc
 			beltl = /obj/item/weapon/sword/sabre/noc
-		if(/datum/patron/divine/dendor)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/dendor
-			head = /obj/item/clothing/head/helmet/heavy/necked/dendorhelm
-			cloak = /obj/item/clothing/cloak/stabard/templar/dendor
-			backr = /obj/item/weapon/polearm/halberd/bardiche/dendor
+		if(/datum/patron/divine/gani)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/gani
+			head = /obj/item/clothing/head/helmet/heavy/necked/ganihelm
+			cloak = /obj/item/clothing/cloak/stabard/templar/gani
+			backr = /obj/item/weapon/polearm/halberd/bardiche/gani
 		if(/datum/patron/divine/necra)
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/necra
 			head = /obj/item/clothing/head/helmet/heavy/necked/necra

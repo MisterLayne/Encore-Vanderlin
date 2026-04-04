@@ -68,10 +68,10 @@
 	set category = "Emotes.Automaton"
 	play_voice_line("Death Comes")
 
-/mob/living/carbon/human/proc/voice_dendorpraise()
-	set name = "Dendor Praise"
+/mob/living/carbon/human/proc/voice_ganipraise()
+	set name = "Gani Praise"
 	set category = "Emotes.Automaton"
-	play_voice_line("Dendor Praise")
+	play_voice_line("Gani Praise")
 
 /mob/living/carbon/human/proc/voice_destroying()
 	set name = "Destroying"

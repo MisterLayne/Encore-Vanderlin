@@ -346,8 +346,8 @@
 		)
 	)
 
-/datum/storyteller/dendor
-	name = DENDOR
+/datum/storyteller/gani
+	name = GANI
 	desc = "Gani likes to send nature-themed events."
 	welcome_text = "The wilds whisper your name."
 	weight = 4
@@ -355,7 +355,7 @@
 	color_theme = "#664422"
 
 	tag_multipliers = list(
-		TAG_DENDOR = 3,
+		TAG_GANI = 3,
 		TAG_NATURE = 1.75,
 	)
 
@@ -381,7 +381,7 @@
 			STATS_FOREST_DEATHS = list("name" = "Forest deaths:", "points" = 6, "capacity" = 80),
 		),
 		"Set 4" = list(
-			STATS_DENDOR_SACRIFICES = list("name" = "Sacrifices to Gani:", "points" = 12.5, "capacity" = 75),
+			STATS_GANI_SACRIFICES = list("name" = "Sacrifices to Gani:", "points" = 12.5, "capacity" = 75),
 		),
 		"Set 5" = list(
 			STATS_ANIMALS_TAMED = list("name" = "Animals tamed:", "points" = 4.5, "capacity" = 60),

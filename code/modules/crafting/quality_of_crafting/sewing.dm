@@ -945,9 +945,9 @@
 	craftdiff = 3
 	category = "Cloak"
 
-/datum/repeatable_crafting_recipe/sewing/dendortemplar
-	name = "dendorian surcoat"
-	output = /obj/item/clothing/cloak/stabard/templar/dendor
+/datum/repeatable_crafting_recipe/sewing/ganitemplar
+	name = "earthen surcoat"
+	output = /obj/item/clothing/cloak/stabard/templar/gani
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3

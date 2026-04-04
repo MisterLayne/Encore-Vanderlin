@@ -1,13 +1,13 @@
 /datum/action/cooldown/spell/undirected/beast_sense
 	name = "Beastial Senses"
-	desc = "Grants the Dendorite a keen sense of smell and excellent vision, to better hunt with."
+	desc = "Grants the Earthlings a keen sense of smell and excellent vision, to better hunt with."
 	button_icon_state = "bestialsense"
 	sound = 'sound/vo/smokedrag.ogg'
 
 	spell_type = SPELL_MIRACLE
 	antimagic_flags = MAGIC_RESISTANCE_HOLY
 	associated_skill = /datum/attribute/skill/magic/holy
-	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/dendor)
+	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/gani)
 	attunements = list(
 		/datum/attunement/earth = 0.5,
 	)

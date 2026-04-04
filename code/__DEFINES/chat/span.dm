@@ -162,7 +162,7 @@
 #define SPAN_GOD_VISIRES(str) ("<span class='god_visires'>" + str + "</span>")
 #define SPAN_GOD_NOC(str) ("<span class='god_noc'>" + str + "</span>")
 #define SPAN_GOD_ABYSSOR(str) ("<span class='god_abyssor'>" + str + "</span>")
-#define SPAN_GOD_DENDOR(str) ("<span class='god_dendor'>" + str + "</span>")
+#define SPAN_GOD_GANI(str) ("<span class='god_gani'>" + str + "</span>")
 #define SPAN_GOD_RAVOX(str) ("<span class='god_ravox'>" + str + "</span>")
 #define SPAN_GOD_MALUM(str) ("<span class='god_malum'>" + str + "</span>")
 #define SPAN_GOD_EORA(str) ("<span class='god_eora'>" + str + "</span>")

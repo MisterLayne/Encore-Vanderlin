@@ -29,7 +29,7 @@
 /datum/objective/personal/tame_animal/complete_objective(mob/living/simple_animal/animal)
 	. = ..()
 	to_chat(owner.current, span_greentext("You have tamed [animal], fulfilling Gani's will!"))
-	adjust_storyteller_influence(DENDOR, 20)
+	adjust_storyteller_influence(GANI, 20)
 	UnregisterSignal(owner.current, COMSIG_ANIMAL_TAMED)
 
 /datum/objective/personal/tame_animal/reward_owner()

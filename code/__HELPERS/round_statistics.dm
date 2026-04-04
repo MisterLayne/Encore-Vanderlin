@@ -100,7 +100,7 @@
 #define STATS_PLANTS_HARVESTED "plants_harvested"
 #define STATS_WEREVOLVES "werevolves"
 #define STATS_ANIMALS_TAMED "animals_tamed"
-#define STATS_DENDOR_SACRIFICES "dendor_sacrifices"
+#define STATS_GANI_SACRIFICES "gani_sacrifices"
 #define STATS_FOREST_DEATHS "forest_deaths"
 
 // Mordsol
@@ -214,7 +214,7 @@ GLOBAL_LIST_INIT(vanderlin_round_stats, list(
 	STATS_SOULS_REINCARNATED = 0,
 	STATS_ANIMALS_BRED = 0,
 	STATS_WEREVOLVES = 0,
-	STATS_DENDOR_SACRIFICES = 0,
+	STATS_GANI_SACRIFICES = 0,
 	STATS_COMBAT_SKILLS = 0,
 	STATS_PARRIES = 0,
 	STATS_WARCRIES = 0,

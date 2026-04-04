@@ -140,7 +140,7 @@
 			spawned.change_stat(STAT_SPEED, 1)
 			spawned.change_stat(STAT_CONSTITUTION, 1)
 			to_chat(spawned,span_info("\
-			Dendor provides. The only armor I need are hides taken from the backs of his beasts.")
+			Gani provides. The only armor I need are hides taken from the backs of his beasts.")
 			)
 		if("Freak")
 			ADD_TRAIT(spawned, TRAIT_CRITICAL_RESISTANCE, TRAIT_GENERIC)
@@ -223,7 +223,7 @@
 			spawned.change_stat(STAT_SPEED, -1) // big boy
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatIntense.ogg'
 			to_chat(spawned,span_info("\
-			Only the strong can survive in the wilds, Dendor fears my axe.")
+			Only the strong can survive in the wilds, Gani fears my axe.")
 			)
 		if("Mace")
 			spawned.adjust_skillrank(/datum/attribute/skill/combat/axesmaces, 3, TRUE)

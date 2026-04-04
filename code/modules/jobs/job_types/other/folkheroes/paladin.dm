@@ -60,7 +60,7 @@
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAstrata.ogg'
 		if(/datum/patron/divine/noc)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatNoc.ogg'
-		if(/datum/patron/divine/dendor)
+		if(/datum/patron/divine/gani)
 			spawned.cmode_music = 'sound/music/cmode/garrison/CombatForestGarrison2.ogg'
 		if(/datum/patron/divine/abyssor)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAbyssor.ogg'
@@ -125,9 +125,9 @@
 		if(/datum/patron/divine/noc)
 			head = /obj/item/clothing/head/helmet/heavy/necked/noc
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/noc
-		if(/datum/patron/divine/dendor)
-			head = /obj/item/clothing/head/helmet/heavy/necked/dendorhelm
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/dendor
+		if(/datum/patron/divine/gani)
+			head = /obj/item/clothing/head/helmet/heavy/necked/ganihelm
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/gani
 		if(/datum/patron/divine/abyssor)
 			head = /obj/item/clothing/head/helmet/heavy/necked/abyssor
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/abyssor

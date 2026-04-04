@@ -566,7 +566,7 @@
 /obj/item/reagent_containers/food/snacks/produce/fruit/pompkaun
 	name = "pompkaun"
 	seed = /obj/item/neuFarm/seed/pompkaun
-	desc = "This fruit is equal parts Dendorite and Pestran, carved in offering to the former, and collected by followers of the latter after the offerings rot."
+	desc = "This fruit is really spooky." //very creative
 	icon_state = "pompkaun"
 	bitesize = 3
 	slices_num = 2

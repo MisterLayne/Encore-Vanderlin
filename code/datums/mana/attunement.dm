@@ -228,7 +228,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 	alignments = list(
 		/datum/patron/divine/abyssor = 2,
 		/datum/patron/divine/pestra = 0.5,
-		/datum/patron/divine/dendor = 0.5,
+		/datum/patron/divine/gani = 0.5,
 		/datum/patron/inhumen/zizo = 1,
 		/datum/patron/inhumen/graggar = 2,
 	)
@@ -258,7 +258,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 	desc = "The very ground you stand on, a raging earthquake, or a paved road, earth is all encompassing."
 
 	alignments = list(
-		/datum/patron/divine/dendor = 1.2,
+		/datum/patron/divine/gani = 1.2,
 		/datum/patron/divine/malum = 0.5,
 		/datum/patron/divine/ravox = 1,
 	)

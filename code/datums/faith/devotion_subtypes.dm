@@ -39,7 +39,7 @@
 	)
 	traits = list(TRAIT_DIVINE_SERVANT)
 
-/datum/devotion/divine/dendor
+/datum/devotion/divine/gani
 	miracles = list(
 		CLERIC_T0 = /datum/action/cooldown/spell/healing,
 		CLERIC_T1 = /datum/action/cooldown/spell/undirected/bless_crops,
@@ -48,9 +48,9 @@
 
 	)
 	viable_tasks = list(
-		/datum/devotion_task/dendor_tend,
-		/datum/devotion_task/dendor_harvest,
-		/datum/devotion_task/dendor_bless,
+		/datum/devotion_task/gani_tend,
+		/datum/devotion_task/gani_harvest,
+		/datum/devotion_task/gani_bless,
 	)
 	traits = list(TRAIT_DIVINE_SERVANT)
 

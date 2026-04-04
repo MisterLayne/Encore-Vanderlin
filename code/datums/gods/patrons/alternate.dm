@@ -26,7 +26,7 @@
 	desc = "In the cold reaches of Ossland, they worship the four aspects of the Great Hunt: \
 	Graggar as The Hunter, revered for the relation between predator and prey; \
 	Necra as The Skull, revered for the death that awaits every living being; \
-	Dendor as The Woods, revered for the wilds they live in and the beasts they hunt; \
+	Gani as The Woods, revered for the wilds they live in and the beasts they hunt; \
 	Abyssor as The Traveler, revered for the safe passage of travelers and the unflinching weather that scours the north."
 	boons = "None. You have not proven worthy, yet."
 	domain = "The Hunt, Travelers, Nature"

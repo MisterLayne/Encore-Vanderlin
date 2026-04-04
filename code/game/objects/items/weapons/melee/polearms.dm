@@ -450,7 +450,7 @@
 	desc = "A grand axe of northern design, renowned for easily chopping off limbs clean with brutal strength."
 	icon_state = "ancient_bardiche"
 
-/obj/item/weapon/polearm/halberd/bardiche/dendor
+/obj/item/weapon/polearm/halberd/bardiche/gani
 	name = "summer scythe"
 	desc = "Summer's verdancy runs through the head of this scythe. All the more to sow."
 	icon = 'icons/roguetown/weapons/64/patron.dmi'

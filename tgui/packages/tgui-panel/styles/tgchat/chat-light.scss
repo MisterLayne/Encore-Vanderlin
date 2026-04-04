@@ -1282,14 +1282,14 @@ $border-width-px: $border-width * 1px;
 }
 /* ##### END ##### */
 
-/* ##### DENDOR ##### */
-.god_dendor {
+/* ##### GANI ##### */
+.god_gani {
   color: hsl(85, 20%, 44%);
   font-weight: bold;
-  animation: dendor_flicker 1s infinite;
+  animation: gani_flicker 1s infinite;
 }
 
-@keyframes dendor_flicker {
+@keyframes gani_flicker {
 	25% {
 		color: hsl(85, 20%, 44%);
 	}

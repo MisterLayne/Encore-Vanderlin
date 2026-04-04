@@ -48,7 +48,7 @@
 		/datum/attribute/skill/craft/alchemy = 10
 	)
 
-/datum/attribute_holder/sheet/job/acolyte/patron/dendor
+/datum/attribute_holder/sheet/job/acolyte/patron/gani
 	raw_attribute_list = list(
 		/datum/attribute/skill/labor/farming = 20,
 		/datum/attribute/skill/labor/taming = 10
@@ -166,8 +166,8 @@
 		if(/datum/patron/divine/pestra)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/pestra)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
-		if(/datum/patron/divine/dendor)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/dendor)
+		if(/datum/patron/divine/gani)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/gani)
 			ADD_TRAIT(spawned, TRAIT_SEEDKNOW, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatDendor.ogg'
 		if(/datum/patron/divine/abyssor)
@@ -237,11 +237,11 @@
 			shoes = /obj/item/clothing/shoes/sandals
 			armor = /obj/item/clothing/shirt/robe/pestra
 			backpack_contents += /obj/item/needle/blessed
-		if(/datum/patron/divine/dendor)
+		if(/datum/patron/divine/gani)
 			head = /obj/item/clothing/head/padded/briarthorns
-			neck = /obj/item/clothing/neck/psycross/silver/divine/dendor
+			neck = /obj/item/clothing/neck/psycross/silver/divine/gani
 			shoes = /obj/item/clothing/shoes/sandals
-			armor = /obj/item/clothing/shirt/robe/dendor
+			armor = /obj/item/clothing/shirt/robe/gani
 		if(/datum/patron/divine/abyssor)
 			head = /obj/item/clothing/head/padded/abyssor
 			neck = /obj/item/clothing/neck/psycross/silver/divine/abyssor

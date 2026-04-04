@@ -8,7 +8,7 @@
 	min_players = 20
 
 	tags = list(
-		TAG_DENDOR,
+		TAG_GANI,
 		TAG_NATURE,
 		TAG_BLOOD,
 	)
@@ -21,7 +21,7 @@
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(!istype(H) || H.stat == DEAD || !H.client)
 			continue
-		if(!H.patron || !istype(H.patron, /datum/patron/divine/dendor))
+		if(!H.patron || !istype(H.patron, /datum/patron/divine/gani))
 			continue
 		return TRUE
 
@@ -33,7 +33,7 @@
 	for(var/mob/living/carbon/human/human_mob in GLOB.player_list)
 		if(!istype(human_mob) || human_mob.stat == DEAD || !human_mob.client)
 			continue
-		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/divine/dendor))
+		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/divine/gani))
 			continue
 		valid_targets += human_mob
 
@@ -46,7 +46,7 @@
 	chosen_one.mind.add_personal_objective(new_objective)
 
 	bordered_message(chosen_one, list(
-		span_userdanger("YOU ARE DENDOR'S CHOSEN!"),
+		span_userdanger("YOU ARE GANI'S CHOSEN!"),
 		span_notice("Predators must hunt the weak and old, clearing the way for a new generation. Such is nature. Butcher animals to enforce this order!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/magic/barbroar.ogg', 100)

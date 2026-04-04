@@ -290,9 +290,9 @@
 				/obj/item/natural/silk = 1)
 	craftdiff = 4
 
-/datum/repeatable_crafting_recipe/sewing/weaving/dendorrobe
+/datum/repeatable_crafting_recipe/sewing/weaving/ganirobe
 	name = "robes (Gani)"
-	output = /obj/item/clothing/shirt/robe/dendor
+	output = /obj/item/clothing/shirt/robe/gani
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/silk = 1)
 	craftdiff = 4

@@ -276,8 +276,8 @@
 	melting_material = /datum/material/steel
 	melt_amount = 150
 
-/obj/item/clothing/head/helmet/heavy/dendorhelm
-	name = "dendor helmet"
+/obj/item/clothing/head/helmet/heavy/ganihelm
+	name = "earthen helmet"
 	desc = "Headwear commonly worn by Templars in service to Gani. Its protrusions almost resemble branches. Take root in the earth, and you will never be moved."
 	icon_state = "dendorhelm"
 	item_state = "dendorhelm"

@@ -936,8 +936,8 @@
 	// Visires
 	data += god_ui_block("VISIRES", "#e7a962", "#642705", /datum/storyteller/visires, debug)
 
-	// Dendor
-	data += god_ui_block("DENDOR", "#412938", "#66745c", /datum/storyteller/dendor, debug)
+	// Gani
+	data += god_ui_block("GANI", "#412938", "#66745c", /datum/storyteller/gani, debug)
 
 	// Ravox
 	data += god_ui_block("RAVOX", "#2c232d", "#710f0f", /datum/storyteller/ravox, debug)

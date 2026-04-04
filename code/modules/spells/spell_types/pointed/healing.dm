@@ -104,7 +104,7 @@
 				if(GLOB.tod == NIGHT)
 					conditional_buff = TRUE
 
-			if(/datum/patron/divine/dendor)
+			if(/datum/patron/divine/gani)
 				cast_on.visible_message(span_info("A rush of primal energy spirals about [cast_on]!"), span_notice("I'm infused with primal energies!"))
 				var/static/list/natural_stuff = typecacheof(list(/obj/structure/flora/grass, /obj/structure/chair/bench/ancientlog, /obj/structure/flora))
 				situational_bonus = 0

@@ -1158,23 +1158,23 @@
 	density = TRUE
 	dir = SOUTH
 
-/obj/structure/fluff/psycross/crafted/shrine/dendor_volf
-	name = "devouring shrine to Dendor"
+/obj/structure/fluff/psycross/crafted/shrine/gani_volf
+	name = "devouring shrine to Gani"
 	desc = "The life force of a Volf has consecrated this holy place. \n First present two blood baits to craft a red sacrifice. \n Then offer an egg and two feathers to craft a crimson sacrifice."
 	icon_state = "shrine_dendor_volf"
 
-/obj/structure/fluff/psycross/crafted/shrine/dendor_saiga
-	name = "stinging shrine to Dendor"
+/obj/structure/fluff/psycross/crafted/shrine/gani_saiga
+	name = "stinging shrine to Gani"
 	desc = "The life force of a Saiga has consecrated this holy place. \n First present a jacksberry, westleach leaf, and eel to craft a yellow sacrifice. \n Then offer a jacksberry, calendula flower, and fiber to craft a citrine sacrifice."
 	icon_state = "shrine_dendor_saiga"
 
-/obj/structure/fluff/psycross/crafted/shrine/dendor_gote
-	name = "growing shrine to Dendor"
+/obj/structure/fluff/psycross/crafted/shrine/gani_gote
+	name = "growing shrine to Gani"
 	desc = "The life force of a Gote has consecrated this holy place. \n First present a poppy flower, swampweed leaf, and silk grub to craft a green sacrifice. \n Then offer a euphorbia flower, swampweed leaf, and two thorns to craft a viridian sacrifice."
 	icon_state = "shrine_dendor_gote"
 
-/obj/structure/fluff/psycross/crafted/shrine/dendor_troll
-	name = "lording shrine to Dendor"
+/obj/structure/fluff/psycross/crafted/shrine/gani_troll
+	name = "lording shrine to Gani"
 	desc = "The life force of a Troll has consecrated this holy place. \n First present two troll horns to craft a purple sacrifice. \n Then offer a piece of strange meat and two sinews to craft an indigo sacrifice."
 	icon_state = "shrine_dendor_troll"
 

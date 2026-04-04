@@ -4747,12 +4747,6 @@
 	},
 /turf/open/floor/cobble,
 /area/indoors)
-"Cy" = (
-/obj/structure/mannequin/male,
-/obj/item/clothing/shirt/robe/dendor,
-/obj/item/clothing/head/padded/briarthorns,
-/turf/open/floor/wood,
-/area/indoors)
 "Cz" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/churchbrick,
@@ -5687,8 +5681,6 @@
 "IW" = (
 /obj/item/clothing/neck/mercator,
 /obj/item/clothing/neck/shalal,
-/obj/item/clothing/neck/psycross/silver/divine/astrata,
-/obj/item/clothing/neck/psycross/silver/divine/dendor,
 /obj/item/clothing/neck/psycross/silver/divine/eora,
 /obj/item/clothing/neck/psycross/gold,
 /obj/item/clothing/neck/psycross/silver/divine/necra,
@@ -6025,12 +6017,6 @@
 /obj/machinery/light/fueled/wallfire/candle/skull/r,
 /turf/open/floor/churchbrick,
 /area/overlord_lair)
-"Ln" = (
-/obj/structure/mannequin/male,
-/obj/item/clothing/shirt/robe/astrata,
-/obj/item/clothing/head/roguehood/astrata,
-/turf/open/floor/wood,
-/area/indoors)
 "Lo" = (
 /obj/item/clothing/head/helmet/leather/inquisitor,
 /obj/structure/mannequin/male,
@@ -15041,8 +15027,8 @@ QR
 sJ
 Mr
 wO
-Cy
-Ln
+WO
+wG
 wG
 ba
 aw

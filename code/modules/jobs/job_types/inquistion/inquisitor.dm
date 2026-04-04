@@ -344,13 +344,13 @@
 						var/datum/antagonist/werewolf/werewolf_antag = mind.has_antag_datum(/datum/antagonist/werewolf, TRUE)
 						if(werewolf_antag.transformed)
 							return
-						held_confession.bad_type = "A BEARER OF DENDOR'S CURSE"
+						held_confession.bad_type = "A BEARER OF GANI'S CURSE"
 						held_confession.antag = initial(antag_type:name)
 					if(/datum/antagonist/werewolf/lesser)
 						var/datum/antagonist/werewolf/werewolf_antag = mind.has_antag_datum(/datum/antagonist/werewolf, TRUE)
 						if(werewolf_antag.transformed)
 							return
-						held_confession.bad_type = "A BEARER OF DENDOR'S CURSE"
+						held_confession.bad_type = "A BEARER OF GANI'S CURSE"
 						held_confession.antag = initial(antag_type:name)
 					if(/datum/antagonist/vampire)
 						held_confession.bad_type = "A SCION OF KAINE"

@@ -76,7 +76,7 @@
 	allowed_race = SPECIES_BASE_BODY
 	sleeved = null
 
-/obj/item/clothing/shirt/robe/dendor
+/obj/item/clothing/shirt/robe/gani
 	name = "briar robe"
 	desc = "Nature nurtures us and we, in turn, will nurture it back in the end."
 	icon_state = "dendorrobe"

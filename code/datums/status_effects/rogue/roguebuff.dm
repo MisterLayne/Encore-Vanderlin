@@ -324,10 +324,10 @@
 
 
 /*-----------------\
-|  Dendor Miracles |
+|  Gani Miracles |
 \-----------------*/
 
-// ---------------------- EYES OF THE BEAST ( DENDOR ) ----------------------------
+// ---------------------- EYES OF THE BEAST ( GANI ) ----------------------------
 /datum/status_effect/buff/beastsense
 	id = "beastsense"
 	alert_type = /atom/movable/screen/alert/status_effect/buff/beastsense
@@ -354,7 +354,7 @@
 	REMOVE_TRAIT(owner, TRAIT_BESTIALSENSE, REF(src))
 	owner.update_sight()
 
-// ---------------------- TROLL SHAPE ( DENDOR ) ----------------------------
+// ---------------------- TROLL SHAPE ( GANI ) ----------------------------
 /datum/status_effect/buff/trollshape
 	id = "trollshape"
 	alert_type = /atom/movable/screen/alert/status_effect/buff/trollshape
@@ -363,7 +363,7 @@
 
 /atom/movable/screen/alert/status_effect/buff/trollshape
 	name = "Troll Shape"
-	desc = span_nicegreen("I AM STRONG! DENDOR'S ENEMIES WILL DIE!")
+	desc = span_nicegreen("I AM STRONG! GANI'S ENEMIES WILL DIE!")
 	icon_state = "trollshape"
 /datum/status_effect/buff/trollshape/on_apply()
 	. = ..()
@@ -380,7 +380,7 @@
 		var/mob/living/carbon/human/C = owner
 		C.emote("pain", forced = TRUE)
 		playsound(C, 'sound/gore/flesh_eat_03.ogg', 100, TRUE)
-		to_chat(C, span_warning("Dendor's transformation fades, flesh shrinking back. My body aches..."))
+		to_chat(C, span_warning("Gani's transformation fades, flesh shrinking back. My body aches..."))
 		C.adjustBruteLoss(10)
 		C.apply_status_effect(/datum/status_effect/debuff/barbfalter)
 		C.resize = (1/1.2)
@@ -388,7 +388,7 @@
 		C.RemoveElement(/datum/element/footstep, FOOTSTEP_MOB_HEAVY, 1, -2)
 		C.AddElement(/datum/element/footstep, C.footstep_type, 1, -6)
 
-// ---------------------- BRIAR'S RAGE ( DENDOR ) ----------------------------
+// ---------------------- BRIAR'S RAGE ( GANI ) ----------------------------
 /datum/status_effect/buff/barbrage/briarrage //barbarian rage but it's permanent and exclusive to the briar
 	id = "briarrage"
 	alert_type = /atom/movable/screen/alert/status_effect/buff/barbrage/briarrage
@@ -396,7 +396,7 @@
 	duration = -1
 
 /atom/movable/screen/alert/status_effect/buff/barbrage/briarrage
-	name = "Dendor's frenzy"
+	name = "Gani's frenzy"
 	desc = span_nicegreen("EMBRACE WILDERNESS")
 	icon_state = "bestialsense"
 
@@ -922,7 +922,7 @@
 	var/obj/item/organ/eyes/eyes = H.getorgan(/obj/item/organ/eyes)
 	if(!eyes)
 		return
-	ADD_TRAIT(owner, TRAIT_BESTIALSENSE, REF(src)) //It is not related to Dendor, it is just for the night vision.
+	ADD_TRAIT(owner, TRAIT_BESTIALSENSE, REF(src)) //It is not related to Gani, it is just for the night vision.
 	owner.update_sight()
 
 /datum/status_effect/buff/powered_steam_armor

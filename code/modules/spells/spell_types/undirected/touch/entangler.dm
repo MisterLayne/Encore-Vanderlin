@@ -6,7 +6,7 @@
 
 	spell_type = SPELL_MIRACLE
 	associated_skill = /datum/attribute/skill/magic/holy
-	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/dendor)
+	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/gani)
 	attunements = list(
 		/datum/attunement/earth = 0.5,
 	)

@@ -34,10 +34,10 @@
 	triumph_buy_id = TRIUMPH_BUY_ZIZO_INFLUENCE
 	storyteller_name = ZIZO
 
-/datum/triumph_buy/storyteller_influence_bonus/dendor
+/datum/triumph_buy/storyteller_influence_bonus/gani
 	name = "Gani's Influence"
-	triumph_buy_id = TRIUMPH_BUY_DENDOR_INFLUENCE
-	storyteller_name = DENDOR
+	triumph_buy_id = TRIUMPH_BUY_GANI_INFLUENCE
+	storyteller_name = GANI
 
 /datum/triumph_buy/storyteller_influence_bonus/eora
 	name = "Pomette's Influence"

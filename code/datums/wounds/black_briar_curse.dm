@@ -88,7 +88,7 @@
 	var/mob/living/carbon/C = affected
 	if(NOBLOOD in C.dna?.species?.species_traits)
 		return FALSE
-	if(is_species(C, /datum/species/werewolf) || C.mind?.has_antag_datum(/datum/antagonist/werewolf)) // Dendor protects
+	if(is_species(C, /datum/species/werewolf) || C.mind?.has_antag_datum(/datum/antagonist/werewolf)) // Gani protects
 		return FALSE
 	if(C.mind?.has_antag_datum(/datum/antagonist/vampire) || C.mind?.has_antag_datum(/datum/antagonist/zombie)) // weird/gross blood = cant live in it
 		return FALSE
@@ -180,7 +180,7 @@
 				else if(infection_percent >= BBC_STAGE_MID && prob(50))
 					owner.emote("agony")
 				bodypart_owner.lingering_pain += 5
-		if(/datum/patron/divine/dendor, /datum/patron/divine/pestra)
+		if(/datum/patron/divine/gani, /datum/patron/divine/pestra)
 			var/infection_min = 0
 			var/list/stages = list(BBC_STAGE_MID, BBC_STAGE_LATE, 1)
 			for(var/i = length(stages), i > 0, i--)

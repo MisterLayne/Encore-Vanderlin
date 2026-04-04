@@ -232,8 +232,8 @@
 	item_weight = 6 * IRON_MULTIPLIER
 
 //............... Gani Helmet ............... //	This one seems a bit out of place
-/obj/item/clothing/head/helmet/heavy/necked/dendorhelm
-	name = "dendor helmet"
+/obj/item/clothing/head/helmet/heavy/necked/ganihelm
+	name = "earthen helmet"
 	desc = "A great helmet with twisted metalwork that imitates the twisting of bark, or the horns of a beast."
 	icon_state = "dendorhelm"
 	prevent_crits = ALL_EXCEPT_BLUNT

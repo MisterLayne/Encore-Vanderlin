@@ -95,7 +95,7 @@
 	var/cooldown = FALSE
 	var/retaliation_messages = list(
 		"LEAVE FOREST ALONE!",
-		"DENDOR PROTECTS!",
+		"GANI PROTECTS!",
 		"NATURE'S WRATH!",
 		"BEGONE, INTERLOPER!",
 		"BEGONE, DESTROYER!",
@@ -103,8 +103,8 @@
 		"NATURE SHALL RECLAIM THE LAND!",
 		"LEAVE US BE!",
 		"YOU HAVE DESTROYED ENOUGH!",
-		"DENDOR SMITES THE INTERLOPERS!",
-		"DENDOR SMITES THE DESTROYERS!",
+		"GANI SMITES THE INTERLOPERS!",
+		"GANI SMITES THE DESTROYERS!",
 	)
 
 /obj/structure/flora/tree/wise/Initialize()

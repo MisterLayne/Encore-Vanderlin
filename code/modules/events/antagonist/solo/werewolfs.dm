@@ -1,7 +1,7 @@
 /datum/round_event_control/antagonist/solo/werewolf
 	name = "Verevolfs"
 	tags = list(
-		TAG_DENDOR,
+		TAG_GANI,
 		TAG_GRAGGAR,
 		TAG_COMBAT,
 		TAG_HAUNTED,

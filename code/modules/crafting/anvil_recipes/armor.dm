@@ -558,10 +558,10 @@
 	created_item = /obj/item/clothing/head/helmet/heavy/necked/necra
 	additional_items = list(/obj/item/ingot/iron)
 
-/datum/anvil_recipe/armor/steel/templar/helmet_dendor
+/datum/anvil_recipe/armor/steel/templar/helmet_gani
 	name = "Gani Helmet (+Small Log)"
-	recipe_name = "a dendorian helmet"
-	created_item = /obj/item/clothing/head/helmet/heavy/necked/dendorhelm
+	recipe_name = "an earthen helmet"
+	created_item = /obj/item/clothing/head/helmet/heavy/necked/ganihelm
 	additional_items = list(/obj/item/grown/log/tree/small)
 
 /datum/anvil_recipe/armor/steel/templar/helmet_pestra
@@ -1323,10 +1323,10 @@
 	created_item = /obj/item/clothing/head/helmet/heavy/necrahelm
 	craftdiff = 3
 
-/datum/anvil_recipe/armor/dendorhelm
-	name = "dendor helmet"
+/datum/anvil_recipe/armor/ganihelm
+	name = "earthen helmet"
 	req_bar = /obj/item/ingot/steel
-	created_item = /obj/item/clothing/head/helmet/heavy/dendorhelm
+	created_item = /obj/item/clothing/head/helmet/heavy/ganihelm
 	craftdiff = 3
 
 /datum/anvil_recipe/armor/abyssorgreathelm

@@ -112,9 +112,9 @@
 		feedback = "I harvest the produce, ruining a little."
 		modifier -= 1
 
-	if(has_world_trait(/datum/world_trait/dendor_fertility))
+	if(has_world_trait(/datum/world_trait/gani_fertility))
 		feedback = "Praise Gani for our harvest is bountiful."
-		modifier += is_ascendant(DENDOR) ? 4 : 3
+		modifier += is_ascendant(GANI) ? 4 : 3
 
 	if(user.client)
 		record_featured_stat(FEATURED_STATS_FARMERS, user)
@@ -622,8 +622,8 @@
 		conditions_quality += 0.15
 	if(blessed_time > 0)
 		conditions_quality += 0.2
-	if(has_world_trait(/datum/world_trait/dendor_fertility))
-		conditions_quality += is_ascendant(DENDOR) ? 0.4 : 0.2
+	if(has_world_trait(/datum/world_trait/gani_fertility))
+		conditions_quality += is_ascendant(GANI) ? 0.4 : 0.2
 
 	var/npk_balance_quality = calculate_npk_quality_modifier()
 	conditions_quality *= npk_balance_quality
@@ -871,14 +871,14 @@
 	if(pollination_time > 0)
 		growth_multiplier *= 1.75
 		nutriment_eat_multiplier *= 0.6
-	if(has_world_trait(/datum/world_trait/dendor_fertility))
-		growth_multiplier *= is_ascendant(DENDOR) ? 2.5 : 2.0
-		nutriment_eat_multiplier *= is_ascendant(DENDOR) ? 0.3 : 0.4
+	if(has_world_trait(/datum/world_trait/gani_fertility))
+		growth_multiplier *= is_ascendant(GANI) ? 2.5 : 2.0
+		nutriment_eat_multiplier *= is_ascendant(GANI) ? 0.3 : 0.4
 	if(has_world_trait(/datum/world_trait/fertility))
 		growth_multiplier *= 1.5
-	if(has_world_trait(/datum/world_trait/dendor_drought))
-		growth_multiplier *= is_ascendant(DENDOR) ? 0.3 : 0.4
-		nutriment_eat_multiplier *= is_ascendant(DENDOR) ? 2.5 : 2
+	if(has_world_trait(/datum/world_trait/gani_drought))
+		growth_multiplier *= is_ascendant(GANI) ? 0.3 : 0.4
+		nutriment_eat_multiplier *= is_ascendant(GANI) ? 2.5 : 2
 
 	// Weed interference
 	if(weeds >= MAX_PLANT_WEEDS * 0.3)

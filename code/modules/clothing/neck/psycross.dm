@@ -56,8 +56,8 @@
 	desc = "Diligence, study, pursuit of truth and wisdom. Let nothing deter you from it."
 	icon_state = "noc"
 
-/obj/item/clothing/neck/psycross/silver/divine/dendor
-	name = "amulet of Dendor"
+/obj/item/clothing/neck/psycross/silver/divine/gani
+	name = "amulet of Gani"
 	desc = "Nature is a body of which we are but its entrails."
 	icon_state = "dendor"
 

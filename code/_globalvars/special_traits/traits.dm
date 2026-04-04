@@ -919,11 +919,11 @@
 
 /datum/special_trait/bestial
 	name = "Bestial"
-	greet_text = span_notice("I am blessed by Dendor I feel closer to beasts than men, I can whisper in their tongue.")
+	greet_text = span_notice("I am blessed by Gani I feel closer to beasts than men, I can whisper in their tongue.")
 	weight = 50
-	req_text = "Worship Dendor and be an acolyte"
+	req_text = "Worship Gani and be an acolyte"
 	allowed_jobs = list(/datum/job/monk)
-	allowed_patrons = list(/datum/patron/divine/dendor)
+	allowed_patrons = list(/datum/patron/divine/gani)
 
 /datum/special_trait/bestial/on_apply(mob/living/carbon/human/character, silent)
 	character.grant_language(/datum/language/beast)

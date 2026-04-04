@@ -249,11 +249,11 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_IMPERCEPTIBLE "imperceptible"
 /// Reduced turf slowdown
 #define TRAIT_LONGSTRIDER "longstrider"
-/// Dendor Path Traits
-#define TRAIT_DENDOR_GROWING "trait_dendor_growing"
-#define TRAIT_DENDOR_STINGING "trait_dendor_stinging"
-#define TRAIT_DENDOR_DEVOURING "trait_dendor_devouring"
-#define TRAIT_DENDOR_LORDING "trait_dendor_lording"
+/// Gani Path Traits
+#define TRAIT_GANI_GROWING "trait_gani_growing"
+#define TRAIT_GANI_STINGING "trait_gani_stinging"
+#define TRAIT_GANI_DEVOURING "trait_gani_devouring"
+#define TRAIT_GANI_LORDING "trait_gani_lording"
 /// trait that makes you bounce when speaking
 #define TRAIT_SHAKY_SPEECH "Shaky Speech"
 /// Allows for offhand weapon usage
@@ -444,7 +444,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 // Divine patron trait bonuses:
 #define TRAIT_SOUL_EXAMINE "Blessing of Necra"  //can check bodies to see if they have departed
 #define TRAIT_ROT_EATER "Blessing of Pestra" //can eat rotten food
-#define TRAIT_KNEESTINGER_IMMUNITY "Blessing of Dendor" //Can move through kneestingers.
+#define TRAIT_KNEESTINGER_IMMUNITY "Blessing of Gani" //Can move through kneestingers.
 #define TRAIT_LEECHIMMUNE "Unleechable" //leeches drain very little blood
 #define TRAIT_SHARPER_BLADES "Sharper Blades" //Weapons lose less blade integrity
 #define TRAIT_BETTER_SLEEP "Better Sleep" //Recover more energy (blue bar) when sleeping

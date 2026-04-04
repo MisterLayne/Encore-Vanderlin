@@ -2,7 +2,7 @@
 
 /obj/structure/kneestingers
 	name = "kneestingers"
-	desc = "They're said to glow with Dendor's wrath."
+	desc = "They're said to glow with Gani's wrath."
 	icon = 'icons/roguetown/misc/foliage.dmi'
 	icon_state = "glowshroom1" //replaced in New
 	layer = ABOVE_NORMAL_TURF_LAYER
@@ -61,7 +61,7 @@
 	if(isliving(user) && W && user.z == z)
 		if(W.flags_1 & CONDUCT_1)
 			var/mob/living/L = user
-			if(L.electrocute_act(30, src)) // The kneestingers will let you pass if you worship dendor, but they won't take your stupid ass hitting them.
+			if(L.electrocute_act(30, src)) // The kneestingers will let you pass if you worship gani, but they won't take your stupid ass hitting them.
 				L.emote("painscream")
 				L.consider_ambush(always = TRUE)
 				if(L.throwing)

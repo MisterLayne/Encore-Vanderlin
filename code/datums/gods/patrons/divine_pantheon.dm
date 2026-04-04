@@ -2,7 +2,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	VISIRES = 'sound/magic/bless.ogg',
 	NOC = 'sound/ambience/noises/mystical (4).ogg',
 	EORA = 'sound/vo/female/gen/giggle (1).ogg',
-	DENDOR = 'sound/magic/barbroar.ogg',
+	GANI = 'sound/magic/barbroar.ogg',
 	MALUM = 'sound/magic/dwarf_chant01.ogg',
 	XYLIX = 'sound/misc/gods/xylix_omen.ogg',
 	NECRA = 'sound/ambience/noises/genspooky (1).ogg',
@@ -92,8 +92,8 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	storyteller = /datum/storyteller/noc
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/noc
 
-/datum/patron/divine/dendor
-	name = DENDOR
+/datum/patron/divine/gani
+	name = GANI
 	domain = "God of Nature and Beasts"
 	desc = "Crafted from the bones of Psydon as the embodiment of the natural world. Driven mad with time."
 	flaws = "Madness, Rebelliousness, Disorderliness"
@@ -101,14 +101,14 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	sins = "Deforestation, Overhunting, Disrespecting Nature"
 	boons = "You are immune to kneestingers."
 	added_traits = list(TRAIT_KNEESTINGER_IMMUNITY)
-	devotion_holder = /datum/devotion/divine/dendor
+	devotion_holder = /datum/devotion/divine/gani
 	confess_lines = list(
-		"DENDOR PROVIDES!",
+		"GANI PROVIDES!",
 		"THE TREEFATHER BRINGS BOUNTY!",
 		"I ANSWER THE CALL OF THE WILD!",
 	)
-	storyteller = /datum/storyteller/dendor
-	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/dendor
+	storyteller = /datum/storyteller/gani
+	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/gani
 
 /datum/patron/divine/abyssor
 	name = ABYSSOR
@@ -177,7 +177,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	confess_lines = list(
 		"ASTRATA IS MY LIGHT!",
 		"NOC IS NIGHT!",
-		"DENDOR PROVIDES!",
+		"GANI PROVIDES!",
 		"ABYSSOR COMMANDS THE WAVES!",
 		"RAVOX IS JUSTICE!",
 		"ALL SOULS FIND THEIR WAY TO NECRA!",

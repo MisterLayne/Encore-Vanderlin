@@ -10,7 +10,7 @@
 	spell_type = SPELL_MIRACLE
 	antimagic_flags = MAGIC_RESISTANCE_HOLY
 	associated_skill = /datum/attribute/skill/magic/holy
-	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/dendor)
+	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/gani)
 	attunements = list(
 		/datum/attunement/earth = 1,
 	)
@@ -46,13 +46,13 @@
 	if(. & SPELL_CANCEL_CAST)
 		return
 	var/mob/living/simple_animal/hostile/retaliate/SP = cast_on
-	if(!SP.dendor_taming_chance || !SP.ai_controller || (SP.mob_biotypes & MOB_UNDEAD))
+	if(!SP.gani_taming_chance || !SP.ai_controller || (SP.mob_biotypes & MOB_UNDEAD))
 		reset_spell_cooldown()
 		return . | SPELL_CANCEL_CAST
 
 /datum/action/cooldown/spell/beast_tame/cast(mob/living/simple_animal/hostile/retaliate/cast_on)
 	. = ..()
-	if(!prob(cast_on.dendor_taming_chance))
+	if(!prob(cast_on.gani_taming_chance))
 		to_chat(owner, span_warning("\The [cast_on] resists your soothing!"))
 		return
 
@@ -70,11 +70,11 @@
 	cast_on.pet_passive = TRUE
 	cast_on.tamed(owner)
 
-	if(HAS_TRAIT(owner, TRAIT_DENDOR_GROWING))
+	if(HAS_TRAIT(owner, TRAIT_GANI_GROWING))
 		ADD_TRAIT(cast_on, TRAIT_ENTANGLER_IMMUNITY, MAGIC_TRAIT)
-	if(HAS_TRAIT(owner, TRAIT_DENDOR_STINGING))
+	if(HAS_TRAIT(owner, TRAIT_GANI_STINGING))
 		ADD_TRAIT(cast_on, TRAIT_KNEESTINGER_IMMUNITY, MAGIC_TRAIT)
-	if(HAS_TRAIT(owner, TRAIT_DENDOR_DEVOURING))
+	if(HAS_TRAIT(owner, TRAIT_GANI_DEVOURING))
 		ADD_TRAIT(cast_on, TRAIT_CRITICAL_RESISTANCE, MAGIC_TRAIT)
-	if(HAS_TRAIT(owner, TRAIT_DENDOR_LORDING))
+	if(HAS_TRAIT(owner, TRAIT_GANI_LORDING))
 		ADD_TRAIT(cast_on, TRAIT_CRITICAL_RESISTANCE, MAGIC_TRAIT)

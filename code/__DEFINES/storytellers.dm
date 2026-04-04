@@ -10,7 +10,7 @@
 #define TAG_PESTRA "Erdl"
 #define TAG_MALUM "Goler Kanh"
 #define TAG_EORA "Pomette"
-#define TAG_DENDOR "Gani"
+#define TAG_GANI "Gani"
 #define TAG_ZIZO "The One Envy"
 #define TAG_BAOTHA "Hertannea"
 #define TAG_GRAGGAR "The Archdevils"
@@ -49,7 +49,7 @@
 /// Tag for alchemy-related actions or systems, belonging to Pestra
 #define TAG_ALCHEMY "Alchemy"
 
-/// Tag for nature-related events, tied to Pestra and Dendor
+/// Tag for nature-related events, tied to Pestra and Gani
 #define TAG_NATURE "Nature"
 
 /// Tag representing work-related actions or influence, used by Malum
@@ -187,7 +187,7 @@
 	/datum/storyteller/pestra, \
 	/datum/storyteller/malum, \
 	/datum/storyteller/eora, \
-	/datum/storyteller/dendor, \
+	/datum/storyteller/gani, \
 )
 
 /// Inhumen pantheon storytellers
@@ -211,7 +211,7 @@
 #define PESTRA "Erdl"
 #define MALUM "Goler Kanh"
 #define EORA "Pomette"
-#define DENDOR "Gani"
+#define GANI "Gani"
 #define DIVINE_CENTRIST "Elementalist"
 
 // Inhumen pantheon

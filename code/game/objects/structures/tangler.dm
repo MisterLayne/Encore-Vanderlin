@@ -158,7 +158,7 @@
 		return FALSE
 	if(obj_broken)
 		return FALSE
-	if(!HAS_TRAIT(L, TRAIT_DENDOR_GROWING))
+	if(!HAS_TRAIT(L, TRAIT_GANI_GROWING))
 		return FALSE
 
 	var/message2recognize = SANITIZE_HEAR_MESSAGE(raw_message)

@@ -78,9 +78,9 @@
 		feedback = "I harvest the produce well."
 		modifier += 1
 
-	if(has_world_trait(/datum/world_trait/dendor_fertility))
+	if(has_world_trait(/datum/world_trait/gani_fertility))
 		feedback = "Praise Gani for our harvest is bountiful."
-		modifier += is_ascendant(DENDOR) ? 4 : 3
+		modifier += is_ascendant(GANI) ? 4 : 3
 
 	if(user.client)
 		record_featured_stat(FEATURED_STATS_FARMERS, user)

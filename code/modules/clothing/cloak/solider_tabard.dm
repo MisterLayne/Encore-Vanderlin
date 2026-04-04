@@ -143,12 +143,12 @@
 
 /obj/item/clothing/cloak/stabard/templar/visires
 	name = "surcoat of the solar order"
-	icon_state = "tabard_visires"
-	item_state = "tabard_visires"
+	icon_state = "tabard_astrata"
+	item_state = "tabard_astrata"
 
 /obj/item/clothing/cloak/stabard/templar/visires/alt
-	icon_state = "tabard_visires_alt"
-	item_state = "tabard_visires_alt"
+	icon_state = "tabard_astrata_alt"
+	item_state = "tabard_astrata_alt"
 
 /obj/item/clothing/cloak/stabard/templar/necra
 	name = "surcoat of the necran order"
@@ -159,7 +159,7 @@
 	icon_state = "tabard_necra_alt"
 	item_state = "tabard_necra_alt"
 
-/obj/item/clothing/cloak/stabard/templar/dendor
+/obj/item/clothing/cloak/stabard/templar/gani
 	name = "surcoat of the dendorian order"
 	icon_state = "tabard_dendor"
 	item_state = "tabard_dendor"
