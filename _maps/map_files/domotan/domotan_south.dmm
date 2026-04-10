@@ -226,7 +226,7 @@
 /area/outdoors/woods/crossroads)
 "eY" = (
 /obj/structure/flora/grass/water,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/crossroads)
 "fl" = (
 /obj/structure/fluff/statue/gargoyle/moss,
@@ -385,7 +385,7 @@
 /area/outdoors/woods/heavenscoast)
 "jK" = (
 /obj/structure/statue/bone/skull,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/heavenscoast)
 "jL" = (
 /obj/effect/decal/cobbleedge{
@@ -693,7 +693,7 @@
 /area/outdoors/woods/crossroads)
 "rp" = (
 /obj/structure/flora/grass/water,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/heavenscoast)
 "ru" = (
 /turf/open/floor/dirt/road,
@@ -717,7 +717,7 @@
 "rD" = (
 /obj/structure/flora/grass/water/reeds,
 /obj/structure/flora/grass/water,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/heavenscoast)
 "rE" = (
 /obj/structure/rack,
@@ -934,7 +934,7 @@
 /turf/open/floor/ruinedwood,
 /area/outdoors/woods/heavenscoast)
 "vL" = (
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/heavenscoast)
 "vN" = (
 /obj/effect/decal/cleanable/blood/old,
@@ -943,7 +943,7 @@
 "vO" = (
 /obj/structure/flora/grass/water/reeds,
 /obj/structure/flora/grass/water/reeds,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/heavenscoast)
 "wa" = (
 /obj/structure/table/wood{
@@ -1013,7 +1013,7 @@
 /area/outdoors)
 "xf" = (
 /obj/structure/statue/bone/rib,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/heavenscoast)
 "xz" = (
 /obj/structure/fluff/railing/wood{
@@ -1068,7 +1068,7 @@
 /turf/open/floor/ruinedwood,
 /area/under/cave)
 "yW" = (
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/crossroads)
 "zq" = (
 /turf/open/floor/blocks,
@@ -1262,7 +1262,7 @@
 /area/outdoors/woods/crossroads)
 "Dm" = (
 /obj/structure/flora/grass/water/reeds,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/crossroads)
 "Dp" = (
 /obj/structure/stairs{
@@ -1282,7 +1282,7 @@
 "DM" = (
 /obj/structure/flora/grass/water/reeds,
 /obj/structure/flora/grass/water,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/crossroads)
 "DS" = (
 /obj/effect/decal/cleanable/blood/tracks{
@@ -1316,7 +1316,7 @@
 /turf/open/water/swamp/deep,
 /area/outdoors/bog)
 "EF" = (
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors)
 "EH" = (
 /turf/closed/mineral,
@@ -1448,7 +1448,7 @@
 	aportalgoesto = "z1-northsouth4-out";
 	aportalid = "z1-northsouth4-in"
 	},
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/under/cavewet)
 "HD" = (
 /obj/structure/fluff/traveltile{
@@ -1538,7 +1538,7 @@
 /area/under/cave)
 "JH" = (
 /obj/structure/fluff/railing/wood,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/crossroads)
 "JS" = (
 /obj/structure/handcart{
@@ -1640,14 +1640,14 @@
 /turf/open/floor/naturalstone,
 /area/indoors/shelter)
 "LM" = (
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/under/cavewet)
 "LS" = (
 /turf/open/water/marsh,
 /area/outdoors/woods/crossroads)
 "Mm" = (
 /obj/structure/flora/grass/water/reeds,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/heavenscoast)
 "Mq" = (
 /obj/structure/closet/crate/coffin,
@@ -1961,7 +1961,7 @@
 "Sz" = (
 /obj/structure/flora/grass/water,
 /obj/structure/flora/grass/water,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/heavenscoast)
 "SD" = (
 /obj/structure/bars/passage{
@@ -2220,7 +2220,7 @@
 "Zb" = (
 /obj/structure/flora/grass/water,
 /obj/structure/flora/grass/water/reeds,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/heavenscoast)
 "Zn" = (
 /obj/item/grown/log/tree,

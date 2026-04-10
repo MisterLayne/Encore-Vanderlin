@@ -17,7 +17,7 @@
 	)
 
 /datum/job/absolver
-	title = "Absolver"
+	title = JOB_ABSOLVER
 	department_flag = INQUISITION
 	faction = "Station"
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
@@ -34,6 +34,8 @@
 	give_bank_account = 15
 	cmode_music = 'sound/music/cmode/church/CombatInquisitor.ogg'
 	antag_role = /datum/antagonist/purishep
+
+	job_bitflag = BITFLAG_CHURCH
 
 	mind_traits = list(
 		TRAIT_KNOW_INQUISITION_DOORS
@@ -90,7 +92,7 @@
 	species.accent_language = species.get_accent(species.native_language)
 
 /datum/outfit/absolver
-	name = "Absolver"
+	name = JOB_ABSOLVER
 	wrists = /obj/item/clothing/wrists/bracers/psythorns
 	gloves = /obj/item/clothing/gloves/leather/otavan/inqgloves
 	beltr = /obj/item/flashlight/flare/torch/lantern/psycenser

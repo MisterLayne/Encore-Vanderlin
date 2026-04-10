@@ -6,7 +6,7 @@
 "ak" = (
 /obj/structure/flora/grass/water/reeds,
 /obj/structure/flora/grass/water,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west/crags)
 "an" = (
 /obj/structure/fluff/railing/wood,
@@ -63,7 +63,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 5
 	},
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west)
 "aM" = (
 /obj/item/reagent_containers/powder/salt,
@@ -141,7 +141,7 @@
 /turf/open/floor/twig,
 /area/indoors/shelter/woods)
 "bg" = (
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west/crescent)
 "bk" = (
 /obj/structure/fluff/statue/gargoyle/moss{
@@ -364,7 +364,7 @@
 "dp" = (
 /obj/structure/flora/grass/water,
 /obj/structure/flora/grass/water/reeds,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west/crags)
 "dq" = (
 /turf/open/floor/cobblerock,
@@ -525,12 +525,12 @@
 /area/under/cave/lostkeep)
 "eS" = (
 /obj/structure/flora/grass/water,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west/lonelyeerie)
 "eT" = (
 /obj/structure/flora/grass/water/reeds,
 /obj/structure/flora/grass/water,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/beach)
 "eX" = (
 /obj/item/flint,
@@ -753,7 +753,7 @@
 	dir = 1;
 	icon_state = "border"
 	},
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west)
 "gG" = (
 /obj/structure/table/wood{
@@ -876,7 +876,7 @@
 /area/under/cave/oldfort)
 "hO" = (
 /obj/structure/flora/grass/water,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west)
 "hQ" = (
 /obj/effect/decal/cleanable/blood/old,
@@ -923,7 +923,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 6
 	},
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west)
 "ih" = (
 /mob/living/simple_animal/hostile/skeleton/guard,
@@ -962,7 +962,7 @@
 "iG" = (
 /obj/structure/flora/grass/water,
 /obj/structure/flora/grass/water/reeds,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west)
 "iI" = (
 /obj/structure/table/vtable/v2,
@@ -1224,7 +1224,7 @@
 /turf/open/floor/blocks,
 /area/outdoors/oldfort)
 "kA" = (
-/turf/open/water/cleanshallow,
+/turf/open/water/clean,
 /area/outdoors/woods/berkleigh)
 "kC" = (
 /obj/item/flint{
@@ -1429,7 +1429,7 @@
 /area/indoors/shelter/woods)
 "mb" = (
 /obj/structure/spider/stickyweb,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/under/cave/oldfort)
 "mc" = (
 /obj/item/weapon/shovel,
@@ -1682,7 +1682,7 @@
 /obj/structure/flora/grass/water/reeds,
 /obj/structure/flora/grass/water/reeds,
 /obj/structure/flora/grass/water,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west)
 "oD" = (
 /obj/structure/fluff/traveltile{
@@ -1810,7 +1810,7 @@
 /turf/open/floor/cobble/mossy,
 /area/outdoors/lostkeep)
 "pM" = (
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/beach)
 "pQ" = (
 /obj/structure/fluff/walldeco/chains,
@@ -1857,7 +1857,7 @@
 /area/outdoors/woods/west/thornbed)
 "qs" = (
 /obj/structure/flora/grass/water/reeds,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west/thornbed)
 "qv" = (
 /obj/structure/bars/pipe,
@@ -1969,7 +1969,7 @@
 /area/indoors/lighthouse)
 "ri" = (
 /obj/structure/flora/ausbushes/reedbush,
-/turf/open/water/cleanshallow,
+/turf/open/water/clean,
 /area/outdoors/woods/berkleigh)
 "rj" = (
 /obj/structure/gate{
@@ -2147,7 +2147,7 @@
 /turf/open/floor/concrete,
 /area/indoors/lostkeep)
 "sE" = (
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west/crags)
 "sI" = (
 /turf/closed/wall/mineral/stonebrick,
@@ -2164,7 +2164,7 @@
 /turf/open/floor/blocks,
 /area/under/cave/oldfort)
 "sQ" = (
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west)
 "sR" = (
 /obj/effect/decal/cleanable/blood/splatter,
@@ -2352,7 +2352,7 @@
 	dir = 8
 	},
 /obj/structure/flora/grass/water,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/under/cave/oldfort)
 "uJ" = (
 /turf/open/floor/blocks,
@@ -2552,7 +2552,7 @@
 "wn" = (
 /obj/structure/flora/grass/water/reeds,
 /obj/structure/flora/grass/water,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west/lonelyeerie)
 "wo" = (
 /obj/structure/stairs/stone{
@@ -2677,7 +2677,7 @@
 /turf/open/floor/sand,
 /area/outdoors/woods/west/crescent)
 "xC" = (
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/oldfort)
 "xH" = (
 /obj/structure/table/church/m,
@@ -2748,7 +2748,7 @@
 /area/under/cave/oldfort)
 "yf" = (
 /obj/structure/flora/grass/water,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west/crags)
 "yg" = (
 /obj/structure/fluff/railing/wood,
@@ -2785,7 +2785,7 @@
 /area/outdoors/woods/west/crags)
 "yx" = (
 /obj/structure/flora/grass/water/reeds,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/oldfort)
 "yy" = (
 /turf/open/openspace,
@@ -2796,7 +2796,7 @@
 /area/under/cave/lostkeep)
 "yF" = (
 /obj/structure/flora/grass/water/reeds,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west/crags)
 "yI" = (
 /obj/structure/table/wood{
@@ -2811,7 +2811,7 @@
 "yN" = (
 /obj/structure/flora/grass/water,
 /obj/structure/flora/grass/water,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west)
 "yO" = (
 /obj/structure/handcart{
@@ -2950,7 +2950,7 @@
 /area/outdoors/lighthouse)
 "zW" = (
 /obj/structure/flora/grass/water,
-/turf/open/water/cleanshallow,
+/turf/open/water/clean,
 /area/outdoors/woods/berkleigh)
 "zX" = (
 /obj/structure/flora/newtree,
@@ -2995,7 +2995,7 @@
 	icon_state = "border";
 	dir = 10
 	},
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west)
 "Aw" = (
 /obj/item/weapon/shield/tower{
@@ -3064,7 +3064,7 @@
 /area/under/cave/oldtown)
 "Bf" = (
 /obj/structure/flora/grass/water,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/under/cave/oldfort)
 "Bh" = (
 /obj/structure/flora/grass/water/reeds,
@@ -3175,7 +3175,7 @@
 /area/outdoors/woods/west/crags)
 "Ce" = (
 /obj/structure/flora/grass/water/reeds,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west)
 "Cf" = (
 /obj/structure/fluff/railing/border{
@@ -3303,7 +3303,7 @@
 /turf/open/floor/blocks,
 /area/under/cave/oldfort)
 "CP" = (
-/obj/item/gun/ballistic/revolver/grenadelauncher/crossbow,
+/obj/item/gun/ballistic/bow/cross,
 /turf/open/floor/churchbrick,
 /area/indoors/lostkeep)
 "CR" = (
@@ -3547,7 +3547,7 @@
 "Ep" = (
 /obj/structure/flora/grass/water/reeds,
 /obj/structure/flora/grass/water,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west/crescent)
 "Eu" = (
 /obj/structure/spider/stickyweb,
@@ -3603,11 +3603,11 @@
 /area/under/cave/oldtown)
 "EU" = (
 /obj/structure/flora/grass/water,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west/crescent)
 "EV" = (
 /obj/structure/flora/grass/water,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/oldfort)
 "EW" = (
 /obj/structure/fluff/railing/border{
@@ -3763,7 +3763,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 9
 	},
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west)
 "FR" = (
 /obj/structure/fluff/railing/border{
@@ -3907,7 +3907,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 4
 	},
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west)
 "GV" = (
 /obj/structure/fluff/railing/wood{
@@ -3994,7 +3994,7 @@
 /area/indoors/oldtown)
 "HA" = (
 /obj/structure/flora/grass/water/reeds,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/beach)
 "HD" = (
 /turf/open/floor/cobble,
@@ -4092,7 +4092,7 @@
 "Ih" = (
 /obj/structure/spider/stickyweb,
 /obj/structure/bars,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/under/cave/oldfort)
 "Ij" = (
 /obj/item/natural/stone,
@@ -4277,7 +4277,7 @@
 /area/outdoors/lighthouse)
 "JG" = (
 /obj/structure/bars,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/under/cave/oldfort)
 "JI" = (
 /obj/structure/door/weak,
@@ -4381,7 +4381,7 @@
 /turf/open/lava/acid,
 /area/under/cave/lostkeep)
 "KD" = (
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/under/cave/oldfort)
 "KF" = (
 /obj/structure/bars{
@@ -4460,7 +4460,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 8
 	},
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west)
 "Lo" = (
 /obj/structure/fluff/railing/border{
@@ -4498,7 +4498,7 @@
 /area/under/cave/lostkeep)
 "Lx" = (
 /obj/structure/flora/grass/water,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/beach)
 "Lz" = (
 /obj/structure/fluff/railing/border{
@@ -4671,7 +4671,7 @@
 /turf/open/floor/cobble,
 /area/indoors/shelter/woods)
 "Nd" = (
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/under/cave/lighthouse)
 "Nf" = (
 /obj/structure/fluff/railing/border{
@@ -4809,7 +4809,7 @@
 /obj/structure/bars/grille{
 	density = 1
 	},
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/under/cave/oldfort)
 "Ot" = (
 /obj/structure/fluff/railing/border{
@@ -4875,7 +4875,7 @@
 /area/under/cave/oldtown)
 "ON" = (
 /obj/structure/flora/grass/water/reeds,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west/lonelyeerie)
 "OO" = (
 /turf/open/floor/ruinedwood,
@@ -4941,7 +4941,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 8
 	},
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/under/cave/oldfort)
 "Pf" = (
 /turf/open/floor/wood,
@@ -5085,7 +5085,7 @@
 /turf/open/floor/tile/bath,
 /area/under/cave/oldtown)
 "Qe" = (
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/under/cavewet)
 "Qg" = (
 /obj/structure/fluff/walldeco/customflag{
@@ -5178,7 +5178,7 @@
 /area/under/cave/oldfort)
 "Ra" = (
 /obj/structure/flora/grass/water/reeds,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west/crescent)
 "Rb" = (
 /obj/item/natural/rock/silver,
@@ -5201,7 +5201,7 @@
 /area/indoors/lostkeep)
 "Rj" = (
 /obj/structure/flora/newtree,
-/turf/open/water/cleanshallow,
+/turf/open/water/clean,
 /area/outdoors/woods/berkleigh)
 "Rn" = (
 /obj/structure/bars,
@@ -5240,7 +5240,7 @@
 "RA" = (
 /obj/structure/flora/grass/water/reeds,
 /obj/structure/flora/grass/water,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west)
 "RJ" = (
 /obj/effect/decal/cobbleedge{
@@ -5310,7 +5310,7 @@
 /turf/open/floor/cobble,
 /area/under/cave/oldfort)
 "Sh" = (
-/turf/open/water/cleanshallow,
+/turf/open/water/clean,
 /area/outdoors/woods/west)
 "Sj" = (
 /turf/open/floor/carpet/royalblack,
@@ -5406,7 +5406,7 @@
 /area/under/cave/oldtown)
 "SU" = (
 /obj/structure/fluff/railing/border,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west)
 "SX" = (
 /turf/closed/wall/mineral/stone/moss,
@@ -5725,7 +5725,7 @@
 /turf/open/floor/tile/bath,
 /area/under/cave/oldtown)
 "VF" = (
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west/lonelyeerie)
 "VG" = (
 /obj/structure/door,
@@ -5845,7 +5845,7 @@
 /turf/open/floor/ruinedwood,
 /area/outdoors/woods/berkleigh)
 "WF" = (
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/woods/west/thornbed)
 "WH" = (
 /obj/structure/bars/pipe{

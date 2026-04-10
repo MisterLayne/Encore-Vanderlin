@@ -53,7 +53,7 @@
 
 /datum/mapGeneratorModule/domotancave/wet
 	clusterCheckFlags = CLUSTER_CHECK_NONE
-	allowed_turfs = list(/turf/open/water/cleanshallow, /turf/open/floor/naturalstone, /turf/open/floor/dirt, /turf/open/floor/sand)
+	allowed_turfs = list(/turf/open/water, /turf/open/floor/naturalstone, /turf/open/floor/dirt, /turf/open/floor/sand)
 	excluded_turfs = list()
 	spawnableAtoms = list(/obj/structure/kneestingers = 3,
 							/obj/structure/flora/grass/water = 4,

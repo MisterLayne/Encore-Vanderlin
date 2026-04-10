@@ -25,7 +25,7 @@
 /area/under/cave)
 "aj" = (
 /obj/structure/rack,
-/obj/item/gun/ballistic/revolver/grenadelauncher/bow,
+/obj/item/gun/ballistic/bow,
 /obj/item/ammo_holder/quiver/arrows,
 /obj/machinery/light/fueled/torchholder/r,
 /turf/open/floor/church,
@@ -96,7 +96,7 @@
 /area/outdoors/seculton)
 "aJ" = (
 /obj/structure/spider/stickyweb,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/under/necropolis)
 "aL" = (
 /obj/structure/mirror,
@@ -198,7 +198,7 @@
 /turf/open/floor/cobblerock,
 /area/outdoors/mountains/decap)
 "cp" = (
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/beach)
 "cr" = (
 /obj/structure/table/wood,
@@ -956,7 +956,7 @@
 /area/outdoors/mountains/decap)
 "li" = (
 /obj/structure/rack,
-/obj/item/gun/ballistic/revolver/grenadelauncher/bow,
+/obj/item/gun/ballistic/bow,
 /turf/open/floor/sandstone,
 /area/indoors/hellwatch)
 "lk" = (
@@ -991,7 +991,7 @@
 /turf/open/floor/churchrough,
 /area/outdoors/seculton)
 "lv" = (
-/turf/open/water/cleanshallow,
+/turf/open/water/clean,
 /area/outdoors/hellwatch)
 "lx" = (
 /turf/open/floor/cobble/alt,
@@ -1118,7 +1118,7 @@
 /area/indoors/hellwatch)
 "mz" = (
 /obj/structure/rack,
-/obj/item/gun/ballistic/revolver/grenadelauncher/bow,
+/obj/item/gun/ballistic/bow,
 /obj/item/ammo_holder/quiver/arrows,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/hellwatch)
@@ -1140,7 +1140,7 @@
 /obj/structure/bars/grille,
 /obj/structure/bars,
 /obj/structure/spider/stickyweb,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/under/necropolis)
 "mT" = (
 /obj/structure/fluff/walldeco/sparrowflag{
@@ -1279,7 +1279,7 @@
 /area/indoors/hellwatch)
 "po" = (
 /obj/structure/roguerock,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/under/necropolis)
 "pt" = (
 /turf/open/floor/naturalstone,
@@ -2300,7 +2300,7 @@
 "CZ" = (
 /obj/structure/bars/grille,
 /obj/structure/bars,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/under/necropolis)
 "Di" = (
 /turf/closed/mineral,
@@ -2572,7 +2572,7 @@
 	pixel_y = 8
 	},
 /obj/structure/bars/grille,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/under/necropolis)
 "Gv" = (
 /obj/structure/fluff/walldeco/church/line,
@@ -2867,7 +2867,7 @@
 /area/indoors/hellwatch)
 "JP" = (
 /obj/structure/rack,
-/obj/item/gun/ballistic/revolver/grenadelauncher/bow,
+/obj/item/gun/ballistic/bow,
 /obj/item/ammo_holder/quiver/arrows,
 /turf/open/floor/sandstone,
 /area/indoors/hellwatch)
@@ -3093,7 +3093,7 @@
 /area/outdoors/seculton)
 "Mt" = (
 /obj/structure/rack,
-/obj/item/gun/ballistic/revolver/grenadelauncher/bow,
+/obj/item/gun/ballistic/bow,
 /obj/item/ammo_holder/quiver/arrows,
 /turf/open/floor/church,
 /area/indoors/hellwatch)
@@ -3128,7 +3128,7 @@
 /turf/open/floor/metal,
 /area/indoors/hellwatch)
 "MG" = (
-/turf/open/water/cleanshallow/dirt,
+/turf/open/water/clean/dirt,
 /area/outdoors/seculton)
 "MH" = (
 /obj/structure/flora/ausbushes/brflowers,
@@ -3306,11 +3306,11 @@
 /obj/structure/bars/pipe{
 	pixel_y = 8
 	},
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/under/necropolis)
 "OC" = (
 /obj/structure/bars/grille,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/under/necropolis)
 "OG" = (
 /turf/open/floor/ruinedwood/chevron,
@@ -3329,7 +3329,7 @@
 /turf/open/floor/church,
 /area/indoors/hellwatch)
 "OK" = (
-/turf/open/water/cleanshallow,
+/turf/open/water/clean,
 /area/indoors/hellwatch)
 "ON" = (
 /obj/structure/carpet/green,
@@ -3403,7 +3403,7 @@
 /turf/open/floor/naturalstone,
 /area/outdoors/mountains)
 "PG" = (
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/mountains/decap)
 "PH" = (
 /obj/structure/table/wood{
@@ -3625,7 +3625,7 @@
 /turf/open/floor/grass/yel,
 /area/outdoors/seculton)
 "Sb" = (
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/under/necropolis)
 "Sc" = (
 /obj/machinery/light/fueled/torchholder/r,
@@ -3638,11 +3638,11 @@
 "Si" = (
 /obj/structure/flora/grass,
 /obj/machinery/light/fueled/torchholder/l,
-/turf/open/water/cleanshallow,
+/turf/open/water/clean,
 /area/outdoors/hellwatch)
 "Sj" = (
 /obj/structure/flora/grass,
-/turf/open/water/cleanshallow,
+/turf/open/water/clean,
 /area/outdoors/hellwatch)
 "Ss" = (
 /obj/structure/chair/stool/bar,
@@ -3737,7 +3737,7 @@
 /turf/open/floor/ruinedwood/darker,
 /area/outdoors/hellwatch)
 "Tn" = (
-/turf/open/water/cleanshallow,
+/turf/open/water/clean,
 /area/outdoors/mountains)
 "To" = (
 /turf/open/floor/cobble/alt,
