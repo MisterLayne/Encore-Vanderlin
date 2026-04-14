@@ -2286,7 +2286,8 @@
 /turf/open/floor/snow,
 /area/outdoors/woods/tutorial)
 "Ep" = (
-/turf/closed)
+/turf/closed/basic,
+/area)
 "Eq" = (
 /turf/open/floor/grass/yel,
 /area/outdoors/town)

@@ -565,7 +565,7 @@
 	endTurfX = 255;
 	endTurfY = 255
 	},
-/turf/closed,
+/turf/closed/basic,
 /area/indoors)
 "oF" = (
 /obj/item/grown/log/tree/small{
@@ -1568,7 +1568,7 @@
 /turf/closed/wall/mineral/wooddark,
 /area/indoors/shelter)
 "Kz" = (
-/turf/closed,
+/turf/closed/basic,
 /area/indoors)
 "KA" = (
 /obj/structure/table/wood{

@@ -4000,7 +4000,7 @@
 /turf/open/floor/cobble,
 /area/indoors/shelter/woods)
 "HE" = (
-/turf/closed,
+/turf/closed/basic,
 /area)
 "HF" = (
 /turf/open/openspace,
