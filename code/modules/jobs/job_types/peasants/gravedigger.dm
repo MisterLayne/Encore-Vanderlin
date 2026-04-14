@@ -18,11 +18,11 @@
 	)
 
 /datum/job/undertaker
-	title = "Gravetender"
-	tutorial = "As a servant of Valdala, you embody the sanctity of her domain, \
+	title = JOB_GRAVETENDER
+	tutorial = "As a servant of Necra, you embody the sanctity of her domain, \
 	ensuring the dead rest peacefully within the earth. \
 	You are the bane of grave robbers and necromancers, \
-	and your holy magic brings undead back into Valdala's embrace: \
+	and your holy magic brings undead back into Necra's embrace: \
 	the only rightful place for lost souls."
 	department_flag = CHURCHMEN
 	display_order = JDO_GRAVETENDER
@@ -64,7 +64,7 @@
 		devotion.grant_to(spawned)
 
 /datum/outfit/undertaker
-	name = "Gravetender"
+	name = JOB_GRAVETENDER
 	head = /obj/item/clothing/head/padded/deathshroud
 	neck = /obj/item/clothing/neck/psycross/silver/divine/necra
 	pants = /obj/item/clothing/pants/trou/leather/mourning

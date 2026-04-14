@@ -739,12 +739,6 @@
 	},
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/shop)
-"aBR" = (
-/obj/structure/bed/wool,
-/obj/item/bedsheet/wool,
-/obj/effect/landmark/start/nightman,
-/turf/open/floor/ruinedwood/spiral,
-/area/indoors/town/clinic_large/apothecary)
 "aBW" = (
 /obj/structure/fluff/railing/border{
 	dir = 9
@@ -1254,7 +1248,7 @@
 /turf/closed/wall/mineral/wooddark/horizontal,
 /area/outdoors/town)
 "aWZ" = (
-/turf/open/water/cleanshallow,
+/turf/open/water/clean,
 /area/indoors/town/cell)
 "aXA" = (
 /obj/structure/fluff/railing/wood{
@@ -1811,7 +1805,7 @@
 "buV" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/flora/grass/water,
-/turf/open/water/cleanshallow,
+/turf/open/water/clean,
 /area/outdoors/town)
 "bvv" = (
 /obj/structure/fluff/nest,
@@ -2559,7 +2553,7 @@
 	pixel_x = 7;
 	pixel_y = -8
 	},
-/turf/open/water/cleanshallow,
+/turf/open/water/clean,
 /area/indoors/town)
 "bZh" = (
 /turf/closed/wall/mineral/stone,
@@ -3389,7 +3383,7 @@
 /turf/open/floor/herringbone,
 /area/indoors/town/smithy)
 "cED" = (
-/turf/open/water/cleanshallow/dirt,
+/turf/open/water/clean/dirt,
 /area/outdoors/town)
 "cEF" = (
 /obj/machinery/light/fueled/torchholder/l,
@@ -3500,7 +3494,7 @@
 /obj/machinery/light/fueledstreet/blue/wall{
 	dir = 1
 	},
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/indoors/town/keep/magician)
 "cGS" = (
 /turf/closed/wall/mineral/stone/moss,
@@ -4872,7 +4866,7 @@
 /turf/open/floor/ruinedwood/alt,
 /area/outdoors/town)
 "dLk" = (
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/beach)
 "dLp" = (
 /obj/machinery/light/fueledstreet/orange/wall{
@@ -5428,7 +5422,7 @@
 /area/outdoors/town)
 "eiw" = (
 /obj/structure/flora/grass/water,
-/turf/open/water/cleanshallow,
+/turf/open/water/clean,
 /area/outdoors/town)
 "eiC" = (
 /obj/structure/window/openclose,
@@ -6155,7 +6149,7 @@
 /area/outdoors/beach)
 "eJw" = (
 /obj/structure/flora/grass/water,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/indoors/town/keep/magician)
 "eJD" = (
 /obj/structure/bridge_stakes{
@@ -8148,7 +8142,7 @@
 /area/outdoors/town)
 "gmK" = (
 /obj/structure/flora/grass/water/reeds,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/beach)
 "gmL" = (
 /obj/structure/table/wood,
@@ -8291,7 +8285,7 @@
 /turf/open/floor/blocks/stonered,
 /area/outdoors/town)
 "gtQ" = (
-/turf/open/water/cleanshallow,
+/turf/open/water/clean,
 /area/indoors/shelter/town)
 "gtS" = (
 /obj/structure/stairs/stone{
@@ -8456,7 +8450,7 @@
 /area/indoors/town/keep/archivist)
 "gBK" = (
 /obj/structure/rack,
-/obj/item/gun/ballistic/revolver/grenadelauncher/bow,
+/obj/item/gun/ballistic/bow,
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/cobble,
 /area/indoors/town/garrison)
@@ -9351,7 +9345,7 @@
 	pixel_x = -7;
 	pixel_y = -3
 	},
-/turf/open/water/cleanshallow,
+/turf/open/water/clean,
 /area/indoors/town/clinic_large)
 "hmG" = (
 /obj/structure/fluff/railing/wood,
@@ -10275,7 +10269,7 @@
 /turf/open/floor/dirt/road,
 /area/indoors/town/garrison)
 "hRL" = (
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/under/cavewet)
 "hRQ" = (
 /turf/open/floor/cobble,
@@ -11930,9 +11924,9 @@
 	dir = 10;
 	icon_state = "cobbleedge-w"
 	},
-/obj/item/gun/ballistic/revolver/grenadelauncher/bow,
-/obj/item/gun/ballistic/revolver/grenadelauncher/bow,
-/obj/item/gun/ballistic/revolver/grenadelauncher/bow,
+/obj/item/gun/ballistic/bow,
+/obj/item/gun/ballistic/bow,
+/obj/item/gun/ballistic/bow,
 /turf/open/floor/blocks,
 /area/indoors/town/garrison)
 "jgA" = (
@@ -11958,7 +11952,7 @@
 /area/outdoors/exposed)
 "jhJ" = (
 /obj/structure/rack,
-/obj/item/gun/ballistic/revolver/grenadelauncher/bow,
+/obj/item/gun/ballistic/bow,
 /turf/open/floor/cobble,
 /area/indoors/town/garrison)
 "jhN" = (
@@ -12659,7 +12653,7 @@
 /area/outdoors/beach/boat)
 "jJZ" = (
 /obj/structure/activator,
-/obj/item/gun/ballistic/revolver/grenadelauncher/crossbow,
+/obj/item/gun/ballistic/bow/cross,
 /obj/item/ammo_holder/quiver/bolts,
 /obj/machinery/light/fueled/torchholder/l,
 /turf/open/floor/blocks/stonered,
@@ -14627,7 +14621,7 @@
 /turf/open/floor/blocks/green,
 /area/indoors/town)
 "ljx" = (
-/turf/open/water/cleanshallow,
+/turf/open/water/clean,
 /area/outdoors/town)
 "ljV" = (
 /obj/structure/fluff/walldeco/church/line,
@@ -16997,7 +16991,7 @@
 /area/under/town/basement)
 "mLE" = (
 /obj/structure/flora/grass/water,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/beach)
 "mLV" = (
 /obj/effect/mapping_helpers/access/locker,
@@ -17959,7 +17953,7 @@
 /area/outdoors/town)
 "nzS" = (
 /obj/structure/flora/grass/water/reeds,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/under/cavewet)
 "nAo" = (
 /obj/structure/water_pipe,
@@ -18050,7 +18044,7 @@
 /area/under/cavewet)
 "nCO" = (
 /obj/structure/rack,
-/obj/item/gun/ballistic/revolver/grenadelauncher/crossbow,
+/obj/item/gun/ballistic/bow/cross,
 /turf/open/floor/churchmarble,
 /area/indoors/town/church)
 "nDj" = (
@@ -18587,9 +18581,9 @@
 /area/indoors/town/keep/magician)
 "nYD" = (
 /obj/structure/rack,
-/obj/item/gun/ballistic/revolver/grenadelauncher/crossbow,
-/obj/item/gun/ballistic/revolver/grenadelauncher/crossbow,
-/obj/item/gun/ballistic/revolver/grenadelauncher/crossbow,
+/obj/item/gun/ballistic/bow/cross,
+/obj/item/gun/ballistic/bow/cross,
+/obj/item/gun/ballistic/bow/cross,
 /turf/open/floor/blocks,
 /area/indoors/town/garrison)
 "nYQ" = (
@@ -21602,7 +21596,7 @@
 /obj/machinery/light/fueledstreet/blue/wall{
 	dir = 4
 	},
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/indoors/town/keep/magician)
 "qla" = (
 /turf/open/openspace,
@@ -22886,7 +22880,7 @@
 /obj/structure/fluff/statue/gargoyle/moss/candles{
 	pixel_y = 26
 	},
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/indoors/town/keep/magician)
 "rmh" = (
 /turf/open/floor/wood,
@@ -23129,7 +23123,7 @@
 "rxm" = (
 /obj/structure/flora/grass/water,
 /obj/structure/flora/grass/water/reeds,
-/turf/open/water/cleanshallow,
+/turf/open/water/clean,
 /area/outdoors/town)
 "rxA" = (
 /obj/structure/table/wood{
@@ -26495,7 +26489,7 @@
 "ubQ" = (
 /obj/structure/flora/grass/water,
 /obj/structure/flora/grass/water,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/outdoors/beach)
 "ucE" = (
 /obj/machinery/light/fueledstreet/orange,
@@ -27217,7 +27211,7 @@
 /obj/machinery/light/fueledstreet/blue/wall{
 	dir = 8
 	},
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/indoors/town/keep/magician)
 "uEZ" = (
 /mob/living/simple_animal/hostile/retaliate/trufflepig/male,
@@ -27508,7 +27502,7 @@
 /area/outdoors/town)
 "uPp" = (
 /obj/structure/flora/grass/water/reeds,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/indoors/town/keep/magician)
 "uPI" = (
 /obj/effect/mapping_helpers/access/keyset/manor/general,
@@ -29379,7 +29373,7 @@
 /area/outdoors/beach)
 "wlF" = (
 /obj/structure/rack,
-/obj/item/gun/ballistic/revolver/grenadelauncher/bow,
+/obj/item/gun/ballistic/bow,
 /turf/open/floor/sandstone,
 /area/indoors/town)
 "wlN" = (
@@ -30478,7 +30472,7 @@
 /turf/open/floor/cobble,
 /area/indoors/town/tavern)
 "wWx" = (
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/indoors/town/keep/magician)
 "wXi" = (
 /obj/structure/stairs/stone{
@@ -30638,7 +30632,6 @@
 /area/indoors/town/keep)
 "xcH" = (
 /obj/structure/bed/wool,
-/obj/effect/landmark/start/nightman,
 /obj/item/bedsheet/wool,
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town/clinic_large/apothecary)
@@ -31441,7 +31434,7 @@
 /area/indoors/town/shop)
 "xLu" = (
 /obj/structure/flora/grass/water,
-/turf/open/water/ocean/deep,
+/turf/open/water/ocean/abyss,
 /area/under/cavewet)
 "xLZ" = (
 /obj/structure/door/iron/bars{
@@ -72035,7 +72028,7 @@ bKt
 bKt
 fFe
 vRt
-aBR
+xcH
 uox
 uox
 gFA

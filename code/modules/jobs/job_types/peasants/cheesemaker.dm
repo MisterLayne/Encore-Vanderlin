@@ -14,8 +14,8 @@
 	)
 
 /datum/job/cheesemaker
-	title = "Cheesemaker"
-	tutorial = "Some say Gani brings bountiful harvests - this much is true, but rot brings forth life. \
+	title = JOB_CHEESEMAKER
+	tutorial = "Some say Dendor brings bountiful harvests - this much is true, but rot brings forth life. \
 	From life brings decay, and from decay brings life. Like your father before you, you let milk rot into cheese. \
 	This is your duty, this is your call."
 	department_flag = PEASANTS
@@ -37,7 +37,7 @@
 	traits = list()
 
 /datum/outfit/cheesemaker
-	name = "Cheesemaker"
+	name = JOB_CHEESEMAKER
 	belt = /obj/item/storage/belt/leather
 	pants = /obj/item/clothing/pants/tights/colored/random
 	shirt = /obj/item/clothing/shirt/shortshirt/colored/random

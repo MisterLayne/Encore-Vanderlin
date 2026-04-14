@@ -189,12 +189,13 @@
 	plane = GAME_PLANE_UPPER
 	obj_flags = CAN_BE_HIT | BLOCK_Z_OUT_DOWN
 	attacked_sound = list("sound/combat/hits/onmetal/metalimpact (1).ogg", "sound/combat/hits/onmetal/metalimpact (2).ogg")
+	var/run_wclass_check = TRUE
 
 /obj/structure/bars/CanAllowThrough(atom/movable/mover, turf/target)
 	if(isobserver(mover))
 		return TRUE
 	. = ..()
-	if(. && density && mover.throwing && isitem(mover))
+	if(run_wclass_check && . && density && mover.throwing && isitem(mover))
 		var/obj/item/I = mover
 		var/chance = 100 - (I.w_class-1) * 30
 		if(isliving(I.throwing.thrower))
@@ -204,6 +205,7 @@
 
 /obj/structure/bars/bent
 	icon_state = "barsbent"
+	run_wclass_check = FALSE
 
 /obj/structure/bars/chainlink
 	icon_state = "chainlink"
@@ -806,7 +808,7 @@
 
 /obj/structure/fluff/statue/zizo/Initialize()
 	. = ..()
-	set_light(1, 1, l_color = COLOR_PURPLE)
+	set_light(1, 1, 1, l_color = COLOR_PURPLE)
 
 /obj/structure/fluff/statue/musician/OnCrafted(dirin, mob/user)
 	. = ..()
@@ -1053,7 +1055,7 @@
 			if(GET_MOB_SKILL_VALUE_OLD(user, /datum/attribute/skill/combat/polearms) > 2)
 				I = new /obj/item/weapon/polearm/spear/billhook(user.loc)
 			else if(GET_MOB_SKILL_VALUE_OLD(user, /datum/attribute/skill/combat/bows) > 2)
-				I = new /obj/item/gun/ballistic/revolver/grenadelauncher/bow/long(user.loc)
+				I = new /obj/item/gun/ballistic/bow/long(user.loc)
 			else if(GET_MOB_SKILL_VALUE_OLD(user, /datum/attribute/skill/combat/swords) > 2)
 				I = new /obj/item/weapon/sword/long(user.loc)
 			else
@@ -1203,7 +1205,7 @@
 		return
 	if(!divine)
 		return
-	if(!HAS_TRAIT(user, TRAIT_DIVINE_CENTRIST) || (HAS_TRAIT(user, TRAIT_DIVINE_SERVANT) && !(user.job == "Churchling")))
+	if(!HAS_TRAIT(user, TRAIT_DIVINE_CENTRIST) || (HAS_TRAIT(user, TRAIT_DIVINE_SERVANT) && !(user.job == JOB_CHURCHLING)))
 		return
 	if(user?.patron.type != /datum/patron/divine/centrist)
 		return
