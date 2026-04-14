@@ -2418,7 +2418,8 @@
 /area/indoors/town/church)
 "Gk" = (
 /obj/effect/landmark/latejoin,
-/turf/open/floor/metal/barograte)
+/turf/open/floor/metal/barograte,
+/area/latejoin_area)
 "Gl" = (
 /obj/structure/composter/halffull,
 /turf/open/floor/snow,
