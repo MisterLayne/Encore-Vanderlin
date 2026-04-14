@@ -1,6 +1,6 @@
 /datum/job/archivist
-	title = "Archivist"
-	tutorial = "A well-traveled and well-learned seeker of wisdom, the Archivist bears the mark of Akan's influence.\
+	title = JOB_ARCHIVIST
+	tutorial = "A well-traveled and well-learned seeker of wisdom, the Archivist bears the mark of Noc's influence.\
 	Tasked with recording the court's events and educating the ungrateful whelps the monarch calls heirs.\
 	Your work may go unappreciated now, but one dae historians will sing of your dedication and insight."
 	department_flag = NOBLEMEN
