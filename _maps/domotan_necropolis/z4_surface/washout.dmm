@@ -5,11 +5,39 @@
 "b" = (
 /turf/open/openspace,
 /area/indoors/cave)
+"c" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/natural/rock,
+/turf/open/floor/tile/bath,
+/area/indoors/cave)
+"d" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/natural/rock,
+/turf/open/floor/tile/bath,
+/area/indoors/cave)
+"f" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/flora/pillar,
+/turf/open/floor/tile/bath,
+/area/indoors/cave)
 "g" = (
 /turf/closed/mineral,
 /area/indoors/cave)
+"i" = (
+/obj/structure/flora/pillar,
+/turf/open/floor/churchbrick,
+/area/indoors/cave)
 "j" = (
 /turf/open/water/river,
+/area/indoors/cave)
+"k" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/tile/bath,
+/area/indoors/cave)
+"l" = (
+/obj/structure/chair/bench,
+/turf/open/floor/tile/bath,
 /area/indoors/cave)
 "n" = (
 /turf/open/water/river{
@@ -21,13 +49,97 @@
 	dir = 8
 	},
 /area/indoors/cave)
+"p" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/tile/bath,
+/area/indoors/cave)
+"s" = (
+/obj/structure/flora/pillar,
+/turf/open/floor/tile/bath,
+/area/indoors/cave)
+"t" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/mineral,
+/area/indoors/cave)
+"u" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/chair/chair3,
+/turf/open/floor/churchbrick,
+/area/indoors/cave)
+"v" = (
+/obj/structure/chair/bench/church/smallbench/stone,
+/turf/open/floor/churchbrick,
+/area/indoors/cave)
+"x" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/flora/pillar,
+/turf/open/floor/tile/bath,
+/area/indoors/cave)
+"y" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/bench,
+/turf/open/floor/tile/bath,
+/area/indoors/cave)
+"z" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/churchbrick,
+/area/indoors/cave)
+"B" = (
+/obj/item/natural/rock,
+/turf/open/floor/churchbrick,
+/area/indoors/cave)
+"G" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/churchbrick,
+/area/indoors/cave)
+"H" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/natural/rock,
+/turf/open/floor/churchbrick,
+/area/indoors/cave)
+"M" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/flora/pillar,
+/turf/open/floor/churchbrick,
+/area/indoors/cave)
 "O" = (
+/turf/open/floor/tile/bath,
+/area/indoors/cave)
+"P" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/tile/bath,
 /area/indoors/cave)
 "R" = (
 /turf/open/water/river{
 	dir = 4
 	},
+/area/indoors/cave)
+"T" = (
+/obj/item/chair/chair3,
+/turf/open/floor/churchbrick,
+/area/indoors/cave)
+"U" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair/bench/church/smallbench/stone,
+/turf/open/floor/churchbrick,
+/area/indoors/cave)
+"V" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/natural/rock,
+/turf/open/floor/churchbrick,
+/area/indoors/cave)
+"Y" = (
+/obj/item/natural/rock,
+/turf/open/floor/tile/bath,
 /area/indoors/cave)
 
 (1,1,1) = {"
@@ -78,20 +190,20 @@ O
 a
 a
 a
-a
-a
-a
-O
+G
+G
+G
+k
 g
 "}
 (3,1,1) = {"
 g
-O
-O
-a
-a
-a
-a
+P
+y
+G
+G
+G
+G
 a
 a
 O
@@ -103,10 +215,10 @@ R
 n
 n
 a
+G
+G
 a
-a
-a
-a
+i
 a
 O
 g
@@ -114,25 +226,25 @@ g
 (4,1,1) = {"
 g
 O
+k
+G
+G
+G
+z
+M
+G
 O
-a
-a
-a
-a
-a
-a
-O
-O
+k
 j
 R
 R
 R
 n
 n
-a
-a
-a
-a
+G
+V
+z
+G
 a
 a
 O
@@ -141,14 +253,14 @@ g
 (5,1,1) = {"
 g
 O
-a
-a
-a
-a
-a
-a
-a
-a
+G
+H
+z
+z
+z
+G
+z
+G
 O
 j
 R
@@ -156,9 +268,9 @@ R
 R
 n
 O
-a
-a
-a
+G
+z
+G
 a
 a
 a
@@ -168,41 +280,41 @@ g
 (6,1,1) = {"
 g
 O
+z
 a
-a
-a
-a
-a
-a
-a
-a
+G
+G
+B
+B
+G
+G
 O
 j
 R
 R
 R
 n
-O
+l
+G
+M
 a
 a
-a
-a
-a
-a
+B
+G
 O
 g
 "}
 (7,1,1) = {"
 g
 O
+z
 a
+G
+z
+G
 a
-a
-a
-a
-a
-a
-a
+G
+G
 O
 j
 R
@@ -210,26 +322,26 @@ R
 R
 n
 O
+G
+G
 a
+T
 a
-a
-a
-a
-a
+G
 O
 g
 "}
 (8,1,1) = {"
 g
 O
-O
+x
+G
 a
+z
+z
 a
-a
-a
-a
-a
-O
+G
+k
 O
 j
 R
@@ -238,10 +350,10 @@ R
 n
 n
 a
+B
 a
-a
-a
-a
+G
+G
 a
 O
 g
@@ -252,11 +364,11 @@ O
 O
 a
 a
-a
-a
-a
-a
-O
+G
+z
+v
+z
+P
 j
 j
 R
@@ -280,9 +392,9 @@ R
 O
 a
 a
-a
-a
-O
+z
+z
+P
 O
 O
 j
@@ -307,9 +419,9 @@ R
 O
 O
 R
-O
-O
-O
+P
+P
+P
 O
 j
 R
@@ -465,13 +577,13 @@ o
 (17,1,1) = {"
 g
 O
-a
+G
 a
 a
 O
 o
 O
-a
+B
 a
 a
 O
@@ -484,7 +596,7 @@ o
 o
 o
 a
-a
+B
 o
 o
 o
@@ -492,21 +604,21 @@ o
 (18,1,1) = {"
 g
 O
-O
+P
 a
+H
+G
+k
+G
+G
 a
-a
-O
-a
-a
-a
-O
+k
 O
 j
 o
 o
 n
-O
+k
 O
 O
 a
@@ -518,24 +630,24 @@ g
 "}
 (19,1,1) = {"
 g
+d
+P
 O
+G
+G
+z
+z
+z
 O
-O
-a
-a
-a
-a
-a
-O
-O
+k
 O
 j
 o
 o
 n
-O
-O
-a
+P
+P
+B
 a
 a
 a
@@ -545,15 +657,15 @@ g
 "}
 (20,1,1) = {"
 g
-O
-O
-O
-O
-a
-a
-a
-O
-O
+k
+p
+f
+k
+G
+z
+z
+P
+s
 O
 j
 j
@@ -561,27 +673,27 @@ o
 o
 n
 O
-a
+G
 a
 a
 a
 a
 O
-O
+s
 g
 "}
 (21,1,1) = {"
 g
 O
+p
+k
+P
+G
+G
+G
+z
 O
-O
-O
-a
-a
-a
-a
-O
-O
+k
 j
 j
 o
@@ -589,33 +701,33 @@ o
 n
 n
 O
+u
 a
-a
-a
-a
+G
+B
 O
 O
 g
 "}
 (22,1,1) = {"
-g
+t
 O
-O
+k
 a
+U
+G
+k
+H
+G
 a
-a
-O
-a
-a
-a
-O
+k
 O
 j
 o
 o
 n
-O
-O
+k
+k
 O
 a
 a
@@ -627,14 +739,14 @@ g
 (23,1,1) = {"
 g
 O
-a
-a
-a
+G
+G
+G
 O
 O
 O
 a
-a
+G
 a
 O
 j
@@ -642,12 +754,12 @@ o
 o
 n
 n
-O
-O
-O
+k
+c
+k
 a
 a
-O
+Y
 O
 g
 "}
@@ -658,22 +770,22 @@ O
 a
 O
 O
-O
-O
-O
-a
+Y
+k
+k
+G
 O
 O
 j
 o
 o
 n
-O
-O
-O
-O
-O
-a
+k
+k
+k
+f
+P
+G
 O
 O
 g

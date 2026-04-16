@@ -15,7 +15,9 @@
 /turf/open/openspace,
 /area/indoors/cave)
 "g" = (
-/mob/living/carbon/human/species/goblin/npc/ambush/cave,
+/mob/living/carbon/human/species/goblin/npc/ambush/cave{
+	name = "Sophie"
+	},
 /turf/open/floor/naturalstone,
 /area/indoors/cave)
 "h" = (
