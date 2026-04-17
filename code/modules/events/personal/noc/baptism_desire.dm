@@ -23,7 +23,7 @@
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(!istype(H) || H.stat == DEAD || !H.client)
 			continue
-		if(!H.patron || !istype(H.patron, /datum/patron/divine/noc))
+		if(!H.patron || !istype(H.patron, /datum/patron/divine/akan))
 			continue
 		if(!H.is_noble())
 			continue
@@ -40,7 +40,7 @@
 	for(var/mob/living/carbon/human/human_mob in GLOB.player_list)
 		if(!istype(human_mob) || human_mob.stat == DEAD || !human_mob.client)
 			continue
-		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/divine/noc))
+		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/divine/akan))
 			continue
 		if(!human_mob.is_noble())
 			continue
@@ -56,7 +56,7 @@
 	chosen_one.mind.add_personal_objective(new_objective)
 
 	bordered_message(chosen_one, list(
-		span_userdanger("YOU ARE NOC'S CHOSEN!"),
+		span_userdanger("YOU ARE AKAN'S CHOSEN!"),
 		span_notice("Akan demands that you learn the ways of the arcyne! Seek baptism in the mana fountain to earn Akan's favor!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/ambience/noises/mystical (4).ogg', 100)

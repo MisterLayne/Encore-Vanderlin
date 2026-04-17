@@ -72,8 +72,8 @@
 			neck = /obj/item/clothing/neck/psycross/silver/divine/necra
 		if(/datum/patron/divine/eora)
 			neck = /obj/item/clothing/neck/psycross/silver/divine/eora
-		if(/datum/patron/divine/noc)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/noc
+		if(/datum/patron/divine/akan)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/akan
 		if(/datum/patron/divine/pestra)
 			neck = /obj/item/clothing/neck/psycross/silver/divine/pestra
 		if(/datum/patron/divine/gani)

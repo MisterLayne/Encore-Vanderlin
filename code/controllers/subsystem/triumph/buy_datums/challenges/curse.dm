@@ -22,7 +22,7 @@
 /datum/triumph_buy/random_curse/on_after_spawn(mob/living/carbon/human/H)
 	. = ..()
 
-	var/list/available_curses = (TEN_CURSES + INHUMEN_CURSES) - list(/datum/curse/noc, /datum/curse/graggar, /datum/curse/zizo)
+	var/list/available_curses = (TEN_CURSES + INHUMEN_CURSES) - list(/datum/curse/akan, /datum/curse/graggar, /datum/curse/zizo)
 
 	if(H.patron && patron_curse_map[H.patron.type])
 		var/datum/curse/patron_curse = patron_curse_map[H.patron.type]

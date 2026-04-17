@@ -955,7 +955,7 @@
 
 /datum/repeatable_crafting_recipe/sewing/noctemplar
 	name = "lunar surcoat"
-	output = /obj/item/clothing/cloak/stabard/templar/noc
+	output = /obj/item/clothing/cloak/stabard/templar/akan
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3
@@ -963,7 +963,7 @@
 
 /datum/repeatable_crafting_recipe/sewing/noctemplar/alt
 	name = "lunar surcoat (alt)"
-	output = /obj/item/clothing/cloak/stabard/templar/noc/alt
+	output = /obj/item/clothing/cloak/stabard/templar/akan/alt
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3

@@ -20,7 +20,7 @@
 		/datum/attribute/skill/combat/swords = 40
 	)
 
-/datum/attribute_holder/sheet/job/templar/patron/noc
+/datum/attribute_holder/sheet/job/templar/patron/akan
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/swords = 40,
 		/datum/attribute/skill/labor/mathematics = 20
@@ -139,8 +139,8 @@
 		if(/datum/patron/divine/visires)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/visires)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAstrata.ogg'
-		if(/datum/patron/divine/noc)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/noc)
+		if(/datum/patron/divine/akan)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/akan)
 			ADD_TRAIT(spawned, TRAIT_DUALWIELDER, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatNoc.ogg'
 		if(/datum/patron/divine/gani)
@@ -219,11 +219,11 @@
 			head = /obj/item/clothing/head/helmet/heavy/necked/visires
 			cloak = /obj/item/clothing/cloak/stabard/templar/visires
 			backr = /obj/item/weapon/sword/long/exe/visires
-		if(/datum/patron/divine/noc)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/noc
-			head = /obj/item/clothing/head/helmet/heavy/necked/noc
-			cloak = /obj/item/clothing/cloak/stabard/templar/noc
-			beltl = /obj/item/weapon/sword/sabre/noc
+		if(/datum/patron/divine/akan)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/akan
+			head = /obj/item/clothing/head/helmet/heavy/necked/akan
+			cloak = /obj/item/clothing/cloak/stabard/templar/akan
+			beltl = /obj/item/weapon/sword/sabre/akan
 		if(/datum/patron/divine/gani)
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/gani
 			head = /obj/item/clothing/head/helmet/heavy/necked/ganihelm

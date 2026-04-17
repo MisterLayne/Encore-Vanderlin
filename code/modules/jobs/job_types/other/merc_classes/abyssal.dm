@@ -65,7 +65,7 @@
 		spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/abyssal/boy)
 
 		if(!istype(spawned.patron, /datum/patron/inhumen/zizo))
-			spawned.set_patron(/datum/patron/divine/noc)
+			spawned.set_patron(/datum/patron/divine/akan)
 	spawned.merctype = 10
 
 /datum/outfit/mercenary/abyssal

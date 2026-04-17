@@ -164,12 +164,12 @@
 	icon_state = "tabard_dendor"
 	item_state = "tabard_dendor"
 
-/obj/item/clothing/cloak/stabard/templar/noc
+/obj/item/clothing/cloak/stabard/templar/akan
 	name = "surcoat of the lunar order"
 	icon_state = "tabard_noc"
 	item_state = "tabard_noc"
 
-/obj/item/clothing/cloak/stabard/templar/noc/alt
+/obj/item/clothing/cloak/stabard/templar/akan/alt
 	icon_state = "tabard_noc_alt"
 	item_state = "tabard_noc_alt"
 

@@ -196,20 +196,20 @@
 //............... Temple heavy helmets ......................//
 //............... Visires Helmet ............... //
 /obj/item/clothing/head/helmet/heavy/necked/visires
-	name = "visires helmet"
-	desc = "A great helmet decorated with a golden sigil of the solar order and a maille neck cover. The dependable companion of many holy warriors of Visires."
+	name = "flame helm"
+	desc = "A great helmet decorated with a golden sigil of the blazing order and a maille neck cover. The dependable companion of many of Visires' devout."
 	icon_state = "astratahelm"
 	item_weight = 5.5 KILOGRAMS
 
 //............... Akan Helmet ............... //
-/obj/item/clothing/head/helmet/heavy/necked/noc
-	name = "noc helmet"
+/obj/item/clothing/head/helmet/heavy/necked/akan
+	name = "air helm"
 	desc = "A sleek and rounded heavy helmet with a maille neck cover. Its unique craft is said to allow holy warriors of Akan additional insight before battle."
 	icon_state = "nochelm"
 	item_weight = 6 KILOGRAMS
 	flags_inv = HIDEEARS
 
-/obj/item/clothing/head/helmet/heavy/necked/noc/Initialize(mapload)
+/obj/item/clothing/head/helmet/heavy/necked/akan/Initialize(mapload)
 	. = ..()
 	enchant(/datum/enchantment/silver)
 

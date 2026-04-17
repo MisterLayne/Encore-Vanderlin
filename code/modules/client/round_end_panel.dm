@@ -952,8 +952,8 @@
 
 	data += "<div style='display: grid; grid-template-columns: repeat(5, 1fr); gap: 20px;'>"
 
-	// Noc
-	data += god_ui_block("NOC", "#4e72a1", "#282137", /datum/storyteller/noc, debug)
+	// Akan
+	data += god_ui_block("AKAN", "#4e72a1", "#282137", /datum/storyteller/akan, debug)
 
 	// Abyssor
 	data += god_ui_block("ABYSSOR", "#50090f", "#bbace0", /datum/storyteller/abyssor, debug)

@@ -392,7 +392,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_BLOODDRINKER "Blood Drinker" // Can drink blood without vomiting
 #define TRAIT_FORAGER "Expert Forager"
 #define TRAIT_TINY "Tiny"
-#define TRAIT_DREAM_WATCHER	"Noc Blessed" //Unique Trait of the Dream Watcher Town Elder Class, they have a chance to know about antags or gods influences.
+#define TRAIT_DREAM_WATCHER	"Akan Blessed" //Unique Trait of the Dream Watcher Town Elder Class, they have a chance to know about antags or gods influences.
 #define TRAIT_HOLLOWBONES "Hollow Bones"
 #define TRAIT_AMAZING_BACK "Light Load"
 #define TRAIT_KITTEN_MOM "Loved By Kittens"
@@ -482,7 +482,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_ATHEISM_CURSE "Curse of Atheism"
 #define TRAIT_PSYDON_CURSE "Psydon's Curse"
 #define TRAIT_VISIRES_CURSE "Visires's Curse"
-#define TRAIT_NOC_CURSE "Noc's Curse"
+#define TRAIT_NOC_CURSE "Akan's Curse"
 #define TRAIT_RAVOX_CURSE "Ravox's Curse"
 #define TRAIT_NECRA_CURSE "Necra's Curse"
 #define TRAIT_XYLIX_CURSE "Xylix's Curse"

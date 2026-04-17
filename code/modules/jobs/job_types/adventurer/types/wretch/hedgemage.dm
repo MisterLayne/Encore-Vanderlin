@@ -35,7 +35,7 @@
 	cmode_music = 'sound/music/cmode/antag/CombatRogueMage.ogg'
 	total_positions = 2
 
-	allowed_patrons = list(/datum/patron/divine/noc, /datum/patron/inhumen/zizo)
+	allowed_patrons = list(/datum/patron/divine/akan, /datum/patron/inhumen/zizo)
 	blacklisted_species = list(SPEC_ID_HALFLING)
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/hedgemage

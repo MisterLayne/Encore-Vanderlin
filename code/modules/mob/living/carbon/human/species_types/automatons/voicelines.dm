@@ -244,9 +244,9 @@
 	play_voice_line("No")
 
 /mob/living/carbon/human/proc/voice_nocpraise()
-	set name = "Noc Praise"
+	set name = "Akan Praise"
 	set category = "Emotes.Automaton"
-	play_voice_line("Noc Praise")
+	play_voice_line("Akan Praise")
 
 /mob/living/carbon/human/proc/voice_nowomenallowed()
 	set name = "No Women Allowed"

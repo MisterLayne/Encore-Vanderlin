@@ -296,8 +296,8 @@
 |		 	 	|
 \---------------*/
 
-// ---------------------- DIVINE KNOWLEDGE ( NOC ) ----------------------------
-/datum/status_effect/buff/noc
+// ---------------------- DIVINE KNOWLEDGE ( AKAN ) ----------------------------
+/datum/status_effect/buff/akan
 	id = "nocbuff"
 	alert_type = /atom/movable/screen/alert/status_effect/buff/nocbuff
 	effectedstats = list(STAT_INTELLIGENCE = 3)
@@ -895,8 +895,8 @@
 	duration = 30 MINUTES
 
 /atom/movable/screen/alert/status_effect/buff/nocblessing
-	name = "Noc's blessing"
-	desc = "Gazing Noc helps me think."
+	name = "Akan's blessing"
+	desc = "Gazing Akan helps me think."
 	icon_state = "buff"
 
 /datum/status_effect/buff/nocblessed
@@ -906,8 +906,8 @@
 	duration = -1
 
 /atom/movable/screen/alert/status_effect/buff/nocblessed
-	name = "Blessed by Noc"
-	desc = "I have been blessed by Noc since I was born, with his help I can see and think better than anyone."
+	name = "Blessed by Akan"
+	desc = "I have been blessed by Akan since I was born, with his help I can see and think better than anyone."
 	icon_state = "intelligence"
 
 

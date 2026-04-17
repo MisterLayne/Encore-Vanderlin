@@ -252,7 +252,7 @@
 	melt_amount = 150
 
 /obj/item/clothing/head/helmet/heavy/nochelm
-	name = "noc helmet"
+	name = "air helmet"
 	desc = "Headwear commonly worn by Templars in service to Akan. Without the night there can be no day; without Akan there can be no light in the dark hours."
 	icon_state = "nochelm"
 	item_state = "nochelm"

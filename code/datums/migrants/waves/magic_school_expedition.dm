@@ -27,7 +27,7 @@
 	allowed_ages = list(AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	allowed_races = RACES_PLAYER_NONEXOTIC
 	blacklisted_species = list(SPEC_ID_HALFLING)
-	allowed_patrons = list(/datum/patron/divine/noc)
+	allowed_patrons = list(/datum/patron/divine/akan)
 	exp_types_granted  = list(EXP_TYPE_MAGICK)
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/magic_teacher
@@ -89,7 +89,7 @@
 	outfit = /datum/outfit/magic_student
 	allowed_ages = list(AGE_CHILD)
 	allowed_races = RACES_PLAYER_NONEXOTIC
-	allowed_patrons = list(/datum/patron/divine/noc)
+	allowed_patrons = list(/datum/patron/divine/akan)
 	exp_types_granted  = list(EXP_TYPE_MAGICK)
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/magic_student

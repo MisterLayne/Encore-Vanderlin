@@ -48,7 +48,7 @@ GLOBAL_LIST_INIT(automaton_voice_lines, list(
 	"My Soul Is Caged" = list("text" = "MY SOUL IS CAGED", "file" = 'sound/vo/automaton/mysouliscaged.ogg'),
 	"Necra Praise" = list("text" = "NECRA BE PRAISED", "file" = 'sound/vo/automaton/necrapraise.ogg'),
 	"No" = list("text" = "NO", "file" = 'sound/vo/automaton/No.ogg'),
-	"Noc Praise" = list("text" = "NOC BE PRAISED", "file" = 'sound/vo/automaton/nocpraise.ogg'),
+	"Akan Praise" = list("text" = "AKAN BE PRAISED", "file" = 'sound/vo/automaton/nocpraise.ogg'),
 	//"No Women Allowed" = list("text" = "NO WOMEN ALLOWED", "file" = 'sound/vo/automaton/nowomenallowed.ogg'),
 	//"Obnoxiously Long Scream" = list("text" = "AAAAAAAAAAAAAAAAAAHHHHH", "file" = 'sound/vo/automaton/obnoxiouslylongscream.ogg'),
 	//"Oh Shit Soldier Grenade" = list("text" = "OH SHIT SOLDIER GRENADE OORAH", "file" = 'sound/vo/automaton/OHSHITSOLDIERGRENADEOORAH.ogg'),

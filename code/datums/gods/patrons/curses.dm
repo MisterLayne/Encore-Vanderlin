@@ -75,7 +75,7 @@
 	description = "I am forsaken by the fire within! Healing miracles have no effect on me."
 	trait = TRAIT_VISIRES_CURSE
 
-/datum/curse/noc
+/datum/curse/akan
 	name = "Akan's Curse"
 	description = "Magical knowledge is now beyond my grasp."
 	trait = TRAIT_NOC_CURSE

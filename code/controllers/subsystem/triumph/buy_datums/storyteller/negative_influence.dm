@@ -74,10 +74,10 @@
 	triumph_buy_id = TRIUMPH_BUY_RAVOX_INFLUENCE_REDUCTION
 	storyteller_name = RAVOX
 
-/datum/triumph_buy/storyteller_influence_reduction/noc
+/datum/triumph_buy/storyteller_influence_reduction/akan
 	name = "Akan's Influence Reduction"
 	triumph_buy_id = TRIUMPH_BUY_NOC_INFLUENCE_REDUCTION
-	storyteller_name = NOC
+	storyteller_name = AKAN
 
 /datum/triumph_buy/storyteller_influence_reduction/visires
 	name = "Visires' Influence Reduction"

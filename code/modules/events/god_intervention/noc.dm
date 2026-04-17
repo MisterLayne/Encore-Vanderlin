@@ -7,7 +7,7 @@
 	max_occurrences = 2
 	min_players = 15
 	todreq = list(DUSK, NIGHT, DAWN)
-	dedicated_storytellers = list(/datum/storyteller/noc)
+	dedicated_storytellers = list(/datum/storyteller/akan)
 	allowed_storytellers = DIVINE_STORYTELLERS
 
 	tags = list(

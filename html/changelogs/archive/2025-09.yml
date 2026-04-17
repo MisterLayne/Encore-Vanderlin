@@ -438,7 +438,7 @@
   - bugfix: Steamknight being skilled if they picked saber, they are not expert.
   - bugfix: Steamknight still being expert on crossbow.
   - bugfix: Tieflings, Hollow-kin and medicators being able to play noble as prisoner.
-  - bugfix: Magician Apprentices are properly locked to Noc and Zizo.
+  - bugfix: Magician Apprentices are properly locked to Akan and Zizo.
 2025-09-29:
   wgtjunior743:
   - bugfix: Sallet beings unforgeable.

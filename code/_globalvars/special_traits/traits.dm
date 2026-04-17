@@ -87,8 +87,8 @@
 	name = "Magic apprentice"
 	greet_text = span_notice("I have learned basic arcyne but my skills are far from good.")
 	weight = 25
-	req_text = "Have Noc or Zizo as your Patron"
-	allowed_patrons = list(/datum/patron/divine/noc, /datum/patron/inhumen/zizo)
+	req_text = "Have Akan or Zizo as your Patron"
+	allowed_patrons = list(/datum/patron/divine/akan, /datum/patron/inhumen/zizo)
 
 /datum/special_trait/latentmagic/on_apply(mob/living/carbon/human/character, silent)
 	character.attributes?.add_attribute_modifier(/datum/attribute_modifier/latentmagic, TRUE)
@@ -112,7 +112,7 @@
 
 /datum/special_trait/night_owl
 	name = "Night Owl"
-	greet_text = span_notice("I've always preferred Noc over his other half.")
+	greet_text = span_notice("I've always preferred Akan over his other half.")
 	weight = 100
 
 /datum/special_trait/night_owl/on_apply(mob/living/carbon/human/character, silent)
@@ -182,7 +182,7 @@
 
 /datum/special_trait/darkmagic
 	name = "Practitioner of forbidden magic"
-	greet_text = span_notice("Noc's path is weak, I have seen the light and practiced magic these fools call forbidden.")
+	greet_text = span_notice("Akan's path is weak, I have seen the light and practiced magic these fools call forbidden.")
 	weight = 25
 	req_text = "Worship zizo and roll court magician or magician apprentice."
 	allowed_patrons = list(/datum/patron/inhumen/zizo)
@@ -833,8 +833,8 @@
 	greet_text = span_notice("Physique, Endurance, Constitution. \
 	The trinity of what builds a great leader and an even greater kingdom... \
 	or whatever those nimrods were yapping about! <b>I cast FIREBALL!!!</b>")
-	req_text = "Monarch, worship Noc or Zizo"
-	allowed_patrons = list(/datum/patron/divine/noc, /datum/patron/inhumen/zizo)
+	req_text = "Monarch, worship Akan or Zizo"
+	allowed_patrons = list(/datum/patron/divine/akan, /datum/patron/inhumen/zizo)
 	allowed_jobs = list(/datum/job/lord)
 	weight = 25 //Should be fine.
 

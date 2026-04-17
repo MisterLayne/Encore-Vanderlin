@@ -431,7 +431,7 @@
 
 /obj/item/reagent_containers/food/snacks/bread/bookbread
 	name = "bookbread"
-	desc = "On the days when Noc's reign lengthens to its apex, all proper Ten fearing folk huddle by their warm hearths, exchanging both books and pastries such as this."
+	desc = "On the days when Akan's reign lengthens to its apex, all proper Ten fearing folk huddle by their warm hearths, exchanging both books and pastries such as this."
 	icon_state = "bookbread"
 	base_icon_state = "bookbread"
 	dropshrink = 0.8

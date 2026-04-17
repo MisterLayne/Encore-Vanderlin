@@ -2226,7 +2226,6 @@
 /area/indoors/lich)
 "ln" = (
 /obj/structure/mannequin/male,
-/obj/item/clothing/shirt/robe/noc,
 /obj/item/clothing/head/padded/deathface,
 /turf/open/floor/wood,
 /area)
@@ -3122,7 +3121,6 @@
 /obj/item/clothing/neck/psycross/silver/divine/eora,
 /obj/item/clothing/neck/psycross/gold,
 /obj/item/clothing/neck/psycross/silver/divine/necra,
-/obj/item/clothing/neck/psycross/silver/divine/noc,
 /obj/item/clothing/neck/psycross/silver/divine/ravox,
 /turf/open/floor/wood,
 /area/indoors)

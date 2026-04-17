@@ -352,8 +352,8 @@
 			)
 		if("Mage")
 			spawned.mana_pool?.set_intrinsic_recharge(MANA_ALL_LEYLINES)
-			if(!(spawned.patron == /datum/patron/divine/noc || /datum/patron/inhumen/zizo))	//Magicians must follow Noc or Zizo to have access to magic.
-				spawned.set_patron(/datum/patron/divine/noc, TRUE)
+			if(!(spawned.patron == /datum/patron/divine/akan || /datum/patron/inhumen/zizo))	//Magicians must follow Akan or Zizo to have access to magic.
+				spawned.set_patron(/datum/patron/divine/akan, TRUE)
 			spawned.adjust_skillrank(/datum/attribute/skill/combat/polearms, 2, TRUE)
 			spawned.adjust_skillrank(/datum/attribute/skill/misc/medicine, 1, TRUE)
 			spawned.adjust_skillrank(/datum/attribute/skill/craft/alchemy, 2, TRUE)

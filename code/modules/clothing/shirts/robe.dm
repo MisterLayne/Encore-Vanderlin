@@ -61,7 +61,7 @@
 
 	sleeved = null
 
-/obj/item/clothing/shirt/robe/noc
+/obj/item/clothing/shirt/robe/akan
 	name = "moon robe"
 	desc = "The cloth of a follower of Akan."
 	icon_state = "nocrobe"

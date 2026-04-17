@@ -88,7 +88,7 @@
 			if(/datum/patron/divine/ravox)
 				spawned.cmode_music = 'sound/music/cmode/church/CombatRavox.ogg'
 				spawned.adjust_skill_level(/datum/attribute/skill/combat/unarmed, 10)
-			if(/datum/patron/divine/noc)
+			if(/datum/patron/divine/akan)
 				spawned.cmode_music = 'sound/music/cmode/church/CombatNoc.ogg'
 			if(/datum/patron/divine/pestra)
 				spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
@@ -197,9 +197,9 @@
 			if(/datum/patron/divine/ravox)
 				wrists = /obj/item/clothing/neck/psycross/silver/divine/ravox
 				cloak = /obj/item/clothing/cloak/stabard/templar/ravox
-			if(/datum/patron/divine/noc)
-				wrists = /obj/item/clothing/neck/psycross/silver/divine/noc
-				cloak = /obj/item/clothing/cloak/stabard/templar/noc
+			if(/datum/patron/divine/akan)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/akan
+				cloak = /obj/item/clothing/cloak/stabard/templar/akan
 			if(/datum/patron/divine/pestra)
 				wrists = /obj/item/clothing/neck/psycross/silver/divine/pestra
 				cloak = /obj/item/clothing/cloak/stabard/templar/pestra

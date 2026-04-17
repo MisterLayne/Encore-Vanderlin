@@ -269,7 +269,7 @@
 	possible_item_intents = list(SWORD_CUT, SHORT_THRUST)
 	item_weight = 850 GRAMS
 
-/obj/item/weapon/sword/sabre/noc
+/obj/item/weapon/sword/sabre/akan
 	name = "moonlight khopesh"
 	icon = 'icons/roguetown/weapons/32/patron.dmi'
 	icon_state = "nockhopesh"
@@ -278,7 +278,7 @@
 	max_integrity = INTEGRITY_STRONGEST * 0.8
 	item_weight = 950 GRAMS
 
-/obj/item/weapon/sword/sabre/noc/Initialize(mapload)
+/obj/item/weapon/sword/sabre/akan/Initialize(mapload)
 	. = ..()
 	enchant(/datum/enchantment/silver)
 

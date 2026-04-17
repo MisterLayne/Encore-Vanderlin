@@ -274,24 +274,24 @@
 	UnregisterSignal(wearer, COMSIG_MOB_UNEQUIPPED_ITEM)
 	wearer.remove_status_effect(/datum/status_effect/buff/calm)
 
-/obj/item/clothing/ring/silver/noc
-	name = "ring of noc"
+/obj/item/clothing/ring/silver/akan
+	name = "ring of akan"
 	desc = "Old ring, inscribed with arcyne words. Just being near it imbues you with otherworldly knowledge."
 	icon_state = "ring_sapphire"
 
-/obj/item/clothing/ring/silver/noc/equipped(mob/living/user, slot)
+/obj/item/clothing/ring/silver/akan/equipped(mob/living/user, slot)
 	. = ..()
 	if(user.mind)
 		if (slot & ITEM_SLOT_RING && istype(user))
 			RegisterSignal(user, COMSIG_MOB_UNEQUIPPED_ITEM, PROC_REF(item_removed))
-			user.apply_status_effect(/datum/status_effect/buff/noc)
+			user.apply_status_effect(/datum/status_effect/buff/akan)
 
-/obj/item/clothing/ring/silver/noc/proc/item_removed(mob/living/carbon/wearer, obj/item/dropped_item)
+/obj/item/clothing/ring/silver/akan/proc/item_removed(mob/living/carbon/wearer, obj/item/dropped_item)
 	SIGNAL_HANDLER
 	if(dropped_item != src)
 		return
 	UnregisterSignal(wearer, COMSIG_MOB_UNEQUIPPED_ITEM)
-	wearer.remove_status_effect(/datum/status_effect/buff/noc)
+	wearer.remove_status_effect(/datum/status_effect/buff/akan)
 
 /obj/item/clothing/ring/dragon_ring
 	name = "dragon ring"

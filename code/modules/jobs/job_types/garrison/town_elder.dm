@@ -304,7 +304,7 @@
 		/datum/attribute/skill/misc/music = 20
 	)
 
-/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/noc
+/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/akan
 	raw_attribute_list = list(
 		/datum/attribute/skill/labor/mathematics = 20
 	)
@@ -388,7 +388,7 @@
 			spawned.virginity = FALSE
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/eora)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatEora.ogg'
-		if(/datum/patron/divine/noc)
+		if(/datum/patron/divine/akan)
 			spawned.adjust_skill_level(/datum/attribute/skill/labor/mathematics, 20)
 			var/language = pickweight(list("Dwarvish" = 1, "Elvish" = 1, "Hellspeak" = 1, "Zaladin" = 1, "Orcish" = 1,))
 			switch(language)
@@ -472,8 +472,8 @@
 			neck = /obj/item/clothing/neck/psycross/silver/divine/necra
 		if(/datum/patron/divine/eora)
 			neck = /obj/item/clothing/neck/psycross/silver/divine/eora
-		if(/datum/patron/divine/noc)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/noc
+		if(/datum/patron/divine/akan)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/akan
 		if(/datum/patron/divine/pestra)
 			neck = /obj/item/clothing/neck/psycross/silver/divine/pestra
 			backpack_contents += /obj/item/needle/blessed

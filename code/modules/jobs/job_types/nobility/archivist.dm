@@ -1,6 +1,6 @@
 /datum/job/archivist
 	title = JOB_ARCHIVIST
-	tutorial = "A well-traveled and well-learned seeker of wisdom, the Archivist bears the mark of Noc's influence.\
+	tutorial = "A well-traveled and well-learned seeker of wisdom, the Archivist bears the mark of Akan's influence.\
 	Tasked with recording the court's events and educating the ungrateful whelps the monarch calls heirs.\
 	Your work may go unappreciated now, but one dae historians will sing of your dedication and insight."
 	department_flag = NOBLEMEN
@@ -19,7 +19,7 @@
 	give_bank_account = 100
 
 	job_bitflag = BITFLAG_ROYALTY
-	allowed_patrons = list(/datum/patron/divine/noc)
+	allowed_patrons = list(/datum/patron/divine/akan)
 
 	exp_type = list(EXP_TYPE_LIVING)
 	exp_types_granted = list(EXP_TYPE_MAGICK, EXP_TYPE_NOBLE)
@@ -107,7 +107,7 @@
 	beltl = /obj/item/storage/keyring/archivist
 	beltr = /obj/item/book/granter/spellbook/expert
 	backl = /obj/item/storage/backpack/satchel
-	neck = /obj/item/clothing/neck/psycross/silver/divine/noc
+	neck = /obj/item/clothing/neck/psycross/silver/divine/akan
 	backpack_contents = list(
 		/obj/item/textbook = 1,
 		/obj/item/natural/feather = 1
@@ -156,9 +156,9 @@
 		/datum/attribute/skill/labor/mathematics = 40
 	)
 
-/datum/job/advclass/archivist/dreamwatcher //Not a Magician nor an Acolyte, but something more, blessed by Noc since they were born, being capable of Visions and Feelings through dreams, they can feel the highest god influence or and get a hint about any of the active antags.
+/datum/job/advclass/archivist/dreamwatcher //Not a Magician nor an Acolyte, but something more, blessed by Akan since they were born, being capable of Visions and Feelings through dreams, they can feel the highest god influence or and get a hint about any of the active antags.
 	title = "Dreamwatcher"
-	tutorial = "Your dreams have always been vivid, filled with colors, voices, and shadows that seemed to watch. As a child, you feared them. As an adult, you began to listen. The Church speaks of Noc as the keeper of magic, but to you, he is something deeper: a silent guide whose truths are not written in scripture, but in sleep. Over time, you learned to echo those truths in your own way, through murmured lullabies, whispered verses, and songs shaped from silence."
+	tutorial = "Your dreams have always been vivid, filled with colors, voices, and shadows that seemed to watch. As a child, you feared them. As an adult, you began to listen. The Church speaks of Akan as the keeper of magic, but to you, he is something deeper: a silent guide whose truths are not written in scripture, but in sleep. Over time, you learned to echo those truths in your own way, through murmured lullabies, whispered verses, and songs shaped from silence."
 	outfit = /datum/outfit/archivist/dreamwatcher
 	category_tags = list(CTAG_ARCHIVIST)
 
@@ -181,7 +181,7 @@
 	belt = /obj/item/storage/belt/leather/plaquesilver
 	beltr = /obj/item/storage/keyring/archivist
 	wrists = /obj/item/clothing/wrists/nocwrappings
-	neck = /obj/item/clothing/neck/psycross/silver/divine/noc
+	neck = /obj/item/clothing/neck/psycross/silver/divine/akan
 	backl = /obj/item/storage/backpack/satchel
 	backpack_contents = list(
 		/obj/item/storage/belt/pouch/coins/poor = 1,

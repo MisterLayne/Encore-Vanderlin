@@ -40562,9 +40562,9 @@
 /area/indoors/town/tavern)
 "sLH" = (
 /obj/structure/closet/crate/crafted_closet,
-/obj/item/clothing/shirt/robe/noc,
-/obj/item/clothing/shirt/robe/noc,
-/obj/item/clothing/shirt/robe/noc,
+/obj/item/clothing/shirt/robe/akan,
+/obj/item/clothing/shirt/robe/akan,
+/obj/item/clothing/shirt/robe/akan,
 /obj/item/clothing/head/roguehood/nochood,
 /obj/item/clothing/head/roguehood/nochood,
 /obj/item/clothing/head/roguehood/nochood,
@@ -40574,9 +40574,9 @@
 /obj/structure/fluff/walldeco/church/line{
 	dir = 4
 	},
-/obj/item/clothing/neck/psycross/silver/divine/noc,
-/obj/item/clothing/neck/psycross/silver/divine/noc,
-/obj/item/clothing/neck/psycross/silver/divine/noc,
+/obj/item/clothing/neck/psycross/silver/divine/akan,
+/obj/item/clothing/neck/psycross/silver/divine/akan,
+/obj/item/clothing/neck/psycross/silver/divine/akan,
 /turf/open/floor/churchmarble,
 /area/indoors/town/church)
 "sLQ" = (

@@ -22,7 +22,7 @@
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(!istype(H) || H.stat == DEAD || !H.client)
 			continue
-		if(!H.patron || !istype(H.patron, /datum/patron/divine/noc))
+		if(!H.patron || !istype(H.patron, /datum/patron/divine/akan))
 			continue
 		if(length(H.return_apprentices()) >= H.return_max_apprentices())
 			continue
@@ -46,7 +46,7 @@
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(!istype(H) || H.stat == DEAD || !H.client)
 			continue
-		if(!H.patron || !istype(H.patron, /datum/patron/divine/noc))
+		if(!H.patron || !istype(H.patron, /datum/patron/divine/akan))
 			continue
 		if(length(H.return_apprentices()) >= H.return_max_apprentices())
 			continue
@@ -65,7 +65,7 @@
 	var/datum/objective/personal/get_apprentice/new_objective = new(owner = chosen_one.mind)
 	chosen_one.mind.add_personal_objective(new_objective)
 
-	to_chat(chosen_one, span_userdanger("YOU ARE NOC'S CHOSEN!"))
+	to_chat(chosen_one, span_userdanger("YOU ARE AKAN'S CHOSEN!"))
 	to_chat(chosen_one, span_notice("Akan wishes for you to pass your knowledge! Seek a suitable child or downtrodden and make them your new apprentice! (RMB on a target with an empty hand)"))
 	chosen_one.playsound_local(chosen_one, 'sound/ambience/noises/mystical (4).ogg', 100)
 

@@ -200,7 +200,7 @@
 /obj/item/clothing/face/facemask/steel/confessor/lensed/examine(mob/user)
 	. = ..()
 	if(HAS_TRAIT(user, TRAIT_INQUISITION))
-		. += span_info("This mask contains noc-shades, which provide the user with short-range dark-vision when activated.")
+		. += span_info("This mask contains night-shades, which provide the user with short-range dark-vision when activated.")
 		. += span_warning("Use the Middle Mouse Button on the glasses, with your jump, bite, etc.. intents OFF to (de)activate nightvision.")
 
 /obj/item/clothing/face/facemask/steel/confessor/lensed/equipped(mob/user, slot)

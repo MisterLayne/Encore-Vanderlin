@@ -31,8 +31,8 @@
 		)
 	)
 
-/datum/storyteller/noc
-	name = NOC
+/datum/storyteller/akan
+	name = AKAN
 	desc = "Akan will try to send more magical events."
 	welcome_text = "The veil between realms shimmers in your presence."
 	weight = 4

@@ -37,7 +37,7 @@
 		/datum/attribute/skill/misc/music = 20
 	)
 
-/datum/attribute_holder/sheet/job/acolyte/patron/noc
+/datum/attribute_holder/sheet/job/acolyte/patron/akan
 	raw_attribute_list = list(
 		/datum/attribute/skill/labor/mathematics = 20
 	)
@@ -133,8 +133,8 @@
 			spawned.virginity = FALSE
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/eora)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatEora.ogg'
-		if(/datum/patron/divine/noc)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/noc)
+		if(/datum/patron/divine/akan)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/akan)
 			var/language = pickweight(list("Dwarvish" = 1, "Elvish" = 1, "Hellspeak" = 1, "Zaladin" = 1, "Orcish" = 1,))
 			switch(language)
 				if("Dwarvish")
@@ -225,12 +225,12 @@
 			neck = /obj/item/clothing/neck/psycross/silver/divine/eora
 			shoes = /obj/item/clothing/shoes/sandals
 			armor = /obj/item/clothing/shirt/robe/eora
-		if(/datum/patron/divine/noc)
+		if(/datum/patron/divine/akan)
 			head = /obj/item/clothing/head/roguehood/nochood
-			neck = /obj/item/clothing/neck/psycross/silver/divine/noc
+			neck = /obj/item/clothing/neck/psycross/silver/divine/akan
 			wrists = /obj/item/clothing/wrists/nocwrappings
 			shoes = /obj/item/clothing/shoes/sandals
-			armor = /obj/item/clothing/shirt/robe/noc
+			armor = /obj/item/clothing/shirt/robe/akan
 		if(/datum/patron/divine/pestra)
 			head = /obj/item/clothing/head/padded/pestra
 			neck = /obj/item/clothing/neck/psycross/silver/divine/pestra

@@ -1,6 +1,6 @@
 GLOBAL_LIST_INIT(patron_sound_themes, list(
 	VISIRES = 'sound/magic/bless.ogg',
-	NOC = 'sound/ambience/noises/mystical (4).ogg',
+	AKAN = 'sound/ambience/noises/mystical (4).ogg',
 	EORA = 'sound/vo/female/gen/giggle (1).ogg',
 	GANI = 'sound/magic/barbroar.ogg',
 	MALUM = 'sound/magic/dwarf_chant01.ogg',
@@ -74,8 +74,8 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	storyteller = /datum/storyteller/visires
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/visires
 
-/datum/patron/divine/noc
-	name = NOC
+/datum/patron/divine/akan
+	name = AKAN
 	domain = "God of Knowledge, the Moon Prince"
 	desc = "Crafted from the helmet of Psydon, twin of Visires. He gifted mankind divine wisdom."
 	flaws = "Cynical, Isolationist, Unfiltered Honesty"
@@ -83,14 +83,14 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	sins = "Suppressing Truth, Burning Books, Censorship"
 	boons = "You learn, dream, and teach apprentices slightly better. Access to roles with magic."
 	added_traits = list(TRAIT_TUTELAGE)
-	devotion_holder = /datum/devotion/divine/noc
+	devotion_holder = /datum/devotion/divine/akan
 	confess_lines = list(
-		"NOC IS NIGHT!",
-		"NOC SEES THE TRUTH!",
+		"AKAN IS NIGHT!",
+		"AKAN SEES THE TRUTH!",
 		"I SEEK THE MYSTERIES OF THE MOON!",
 	)
-	storyteller = /datum/storyteller/noc
-	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/noc
+	storyteller = /datum/storyteller/akan
+	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/akan
 
 /datum/patron/divine/gani
 	name = GANI
@@ -176,7 +176,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	devotion_holder = /datum/devotion/divine/xylix
 	confess_lines = list(
 		"ASTRATA IS MY LIGHT!",
-		"NOC IS NIGHT!",
+		"AKAN IS NIGHT!",
 		"GANI PROVIDES!",
 		"ABYSSOR COMMANDS THE WAVES!",
 		"RAVOX IS JUSTICE!",

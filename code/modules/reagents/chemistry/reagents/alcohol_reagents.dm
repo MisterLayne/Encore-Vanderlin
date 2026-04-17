@@ -553,7 +553,7 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	duration = 2 MINUTES
 
 /datum/status_effect/buff/nocshine
-	id = "Noc-Shine Strength"
+	id = "Akan-Shine Strength"
 	alert_type = /atom/movable/screen/alert/status_effect/buff/drunknoc
 	effectedstats = list(STAT_STRENGTH = 1, STAT_ENDURANCE = 1)
 	duration = 2 MINUTES

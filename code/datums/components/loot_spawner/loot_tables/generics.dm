@@ -90,7 +90,7 @@
 			/obj/item/clothing/ring/gold/protection = 10,
 			/obj/item/clothing/ring/gold/ravox = 6,
 			/obj/item/clothing/ring/silver/calm = 20,
-			/obj/item/clothing/ring/silver/noc = 6,
+			/obj/item/clothing/ring/silver/akan = 6,
 			/obj/item/clothing/head/crown/circlet/vision = 3,
 			/obj/item/clothing/head/crown/circlet/sleepless = 3,
 			/obj/item/clothing/head/crown/circlet/stink = 5,

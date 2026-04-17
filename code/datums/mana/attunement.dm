@@ -198,7 +198,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 	alignments = list(
 		/datum/patron/divine/visires = 1,
 		/datum/patron/inhumen/zizo = 0.25,
-		/datum/patron/divine/noc = 0.15,
+		/datum/patron/divine/akan = 0.15,
 		/datum/patron/divine/malum = 1.2,
 	)
 
@@ -207,7 +207,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 	desc = "Sibling and eternal rival of Pyromancy, Cryomancy centers on the manipulation of the cold, far beyond just water."
 
 	alignments = list(
-		/datum/patron/divine/noc = 1,
+		/datum/patron/divine/akan = 1,
 		/datum/patron/inhumen/zizo = 0.4,
 	)
 
@@ -216,7 +216,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 	desc = "An element typically associated with weather, sometimes with divinity, and often technology."
 
 	alignments = list(
-		/datum/patron/divine/noc = 0.25,
+		/datum/patron/divine/akan = 0.25,
 		/datum/patron/inhumen/zizo = 0.15,
 		/datum/patron/divine/abyssor = 0.5,
 	)
@@ -269,7 +269,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 
 	alignments = list(
 		/datum/patron/divine/visires = 0.15,
-		/datum/patron/divine/noc = 0.15,
+		/datum/patron/divine/akan = 0.15,
 		/datum/patron/divine/necra = 0.15,
 		/datum/patron/divine/xylix = 0.15,
 		/datum/patron/divine/eora = 0.15,
@@ -310,7 +310,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 	desc = ""
 
 	alignments = list(
-		/datum/patron/divine/noc = 2,
+		/datum/patron/divine/akan = 2,
 		/datum/patron/inhumen/zizo = 1.2,
 	)
 

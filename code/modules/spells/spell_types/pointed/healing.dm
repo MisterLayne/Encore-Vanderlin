@@ -100,7 +100,7 @@
 				if(GLOB.tod == DAY)
 					conditional_buff = TRUE
 
-			if(/datum/patron/divine/noc)
+			if(/datum/patron/divine/akan)
 				cast_on.visible_message(span_info("A shroud of soft moonlight falls upon [cast_on]!"), span_notice("I'm shrouded in gentle moonlight!"))
 				// during the night, heal 10 more (i wish this was more interesting but they're twins so whatever)
 				if(GLOB.tod == NIGHT)

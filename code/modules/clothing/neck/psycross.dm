@@ -87,8 +87,8 @@
 	desc = "Forever pursuant to a life never fulfilled. One always hungers for more in the end."
 	icon_state = "astrata"
 
-/obj/item/clothing/neck/psycross/silver/divine/noc
-	name = "amulet of Noc"
+/obj/item/clothing/neck/psycross/silver/divine/akan
+	name = "amulet of Akan"
 	desc = "Diligence, study, pursuit of truth and wisdom. Let nothing deter you from it."
 	icon_state = "noc"
 

@@ -306,7 +306,7 @@
 
 /datum/repeatable_crafting_recipe/sewing/weaving/nocrobe
 	name = "robes (Akan)"
-	output = /obj/item/clothing/shirt/robe/noc
+	output = /obj/item/clothing/shirt/robe/akan
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/silk = 1)
 	craftdiff = 4

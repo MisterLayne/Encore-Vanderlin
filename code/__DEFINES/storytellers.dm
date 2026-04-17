@@ -25,7 +25,7 @@
 /// Tag reserved for curse mechanics (unused by gods)
 #define TAG_CURSE "Curse"
 
-/// Tag associated with hauntings, used by Noc and Necra
+/// Tag associated with hauntings, used by Akan and Necra
 #define TAG_HAUNTED "Haunted"
 
 /// Tag reserved for combat logic (unused by gods)
@@ -58,7 +58,7 @@
 /// Tag for water-related actions or effects, used by Abyssor
 #define TAG_WATER "Water"
 
-/// Tag representing magical influence or events, used by Noc and Zizo
+/// Tag representing magical influence or events, used by Akan and Zizo
 #define TAG_MAGICAL "Magical"
 
 /// Tag denoting battle-related effects, associated with Graggar
@@ -183,7 +183,7 @@
 /// Divine pantheon storytellers
 #define DIVINE_STORYTELLERS list( \
 	/datum/storyteller/visires, \
-	/datum/storyteller/noc, \
+	/datum/storyteller/akan, \
 	/datum/storyteller/ravox, \
 	/datum/storyteller/abyssor, \
 	/datum/storyteller/xylix, \
@@ -207,7 +207,7 @@
 
 // Divine pantheon
 #define VISIRES "Visires"
-#define NOC "Akan"
+#define AKAN "Akan"
 #define RAVOX "Mordsol"
 #define ABYSSOR "Mjallidhorn"
 #define XYLIX "Iliope"

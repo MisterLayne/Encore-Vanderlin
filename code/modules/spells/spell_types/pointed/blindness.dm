@@ -28,13 +28,13 @@
 	cast_on.visible_message(span_warning("[owner] points at [cast_on]'s eyes!"), span_warning("My eyes are covered in darkness!"))
 
 /datum/action/cooldown/spell/blindness/miracle
-	name = "Noc's Blindness"
+	name = "Akan's Blindness"
 	charge_sound = 'sound/magic/holycharging.ogg'
 
 	spell_type = SPELL_MIRACLE
 	antimagic_flags = MAGIC_RESISTANCE_HOLY
 	associated_skill = /datum/attribute/skill/magic/holy
-	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/noc)
+	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/akan)
 
 	invocation = "Akan blinds thee of thy sins!"
 	invocation_type = INVOCATION_SHOUT

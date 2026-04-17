@@ -58,7 +58,7 @@
 			ADD_TRAIT(spawned, TRAIT_PSYDONIAN_GRIT, JOB_TRAIT)
 		if(/datum/patron/divine/visires)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAstrata.ogg'
-		if(/datum/patron/divine/noc)
+		if(/datum/patron/divine/akan)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatNoc.ogg'
 		if(/datum/patron/divine/gani)
 			spawned.cmode_music = 'sound/music/cmode/garrison/CombatForestGarrison2.ogg'
@@ -122,9 +122,9 @@
 		if(/datum/patron/divine/visires)
 			head = /obj/item/clothing/head/helmet/heavy/necked/visires
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/visires
-		if(/datum/patron/divine/noc)
-			head = /obj/item/clothing/head/helmet/heavy/necked/noc
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/noc
+		if(/datum/patron/divine/akan)
+			head = /obj/item/clothing/head/helmet/heavy/necked/akan
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/akan
 		if(/datum/patron/divine/gani)
 			head = /obj/item/clothing/head/helmet/heavy/necked/ganihelm
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/gani

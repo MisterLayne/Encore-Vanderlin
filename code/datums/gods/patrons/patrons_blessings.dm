@@ -16,7 +16,7 @@
 	switch(category)
 		if("Divine")
 			blessing_path = input("Choose Divine Blessing") as null|anything in list( \
-				/datum/status_effect/buff/noc, \
+				/datum/status_effect/buff/akan, \
 				/datum/status_effect/buff/ravox, \
 				/datum/status_effect/buff/beastsense, \
 				/datum/status_effect/buff/trollshape, \
@@ -304,7 +304,7 @@
 		),
 
 		/// Akan
-		/datum/patron/divine/noc = list(
+		/datum/patron/divine/akan = list(
 			/datum/status_effect/buff/beastsense = "Akan pondereth: \"The nite sees what the day fears.\"",
 			/datum/status_effect/buff/trollshape = "Akan museth: \"Moonlight swells thy shape...\"",
 			/datum/status_effect/buff/divine_beauty = "Akan murmureth: \"A fabulous dress fixes anyone. For now, have this.\"",

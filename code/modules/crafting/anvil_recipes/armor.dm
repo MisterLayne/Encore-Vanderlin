@@ -535,9 +535,9 @@
 	abstract_type = /datum/anvil_recipe/armor/steel/templar
 
 /datum/anvil_recipe/armor/steel/templar/helmet_noc
-	name = "Akan Helmet (+Silver Bar)"
-	recipe_name = "a noc helmet"
-	created_item = /obj/item/clothing/head/helmet/heavy/necked/noc
+	name = "Akanite Helmet (+Silver Bar)"
+	recipe_name = "an akan helmet"
+	created_item = /obj/item/clothing/head/helmet/heavy/necked/akan
 	additional_items = list(/obj/item/ingot/silver)
 
 /datum/anvil_recipe/armor/steel/templar/gold_helmet
@@ -1312,7 +1312,7 @@
 	craftdiff = 3
 
 /datum/anvil_recipe/armor/nochelm
-	name = "noc helmet"
+	name = "akan helmet"
 	req_bar = /obj/item/ingot/steel
 	created_item = /obj/item/clothing/head/helmet/heavy/nochelm
 	craftdiff = 3

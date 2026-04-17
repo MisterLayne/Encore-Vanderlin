@@ -1280,7 +1280,7 @@
 	base_icon_state = "book6"
 	bookfile = "tales9.json"
 
-/obj/item/book/noc
+/obj/item/book/akan
 	name = "Dreamseeker"
 	desc = "By Hunlaf, Gravedigger. Revised by Lenore, Priest of Valdala."
 	icon_state ="book6_0"
@@ -1544,7 +1544,7 @@
 			select_icon = newicon
 			icon_state = "paperwrite"
 			to_chat(user, "<span class='notice'>You have successfully authored and titled the manuscript.</span>")
-			var/complete = tgui_alert(user, "Is the manuscript finished?", "WORDS OF NOC", DEFAULT_INPUT_CHOICES)
+			var/complete = tgui_alert(user, "Is the manuscript finished?", "WORDS OF AKAN", DEFAULT_INPUT_CHOICES)
 			SEND_SIGNAL(user, COMSIG_BOOK_WRITTEN)
 			if(complete == CHOICE_YES && compiled_pages)
 				written = TRUE

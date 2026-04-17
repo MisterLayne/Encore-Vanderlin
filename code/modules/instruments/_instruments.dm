@@ -212,27 +212,27 @@
 		var/list/buffs2pick = list()
 		switch(music_level) // There has to be a better way to do this, but so far all I've tried doesn't work as intended.
 			if(1) // T1
-				buffs2pick += list("Noc's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence)
+				buffs2pick += list("Akan's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence)
 			if(1 to 2) // T2
-				buffs2pick += list("Noc's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence,
+				buffs2pick += list("Akan's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence,
 								"Malum's Resilience (+1 END)" = /datum/status_effect/bardicbuff/endurance)
 			if(1 to 3) // T3
-				buffs2pick += list("Noc's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence,
+				buffs2pick += list("Akan's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence,
 								"Malum's Resilience (+1 END)" = /datum/status_effect/bardicbuff/endurance,
 								"Pestra's Blessing (+1 CON)" = /datum/status_effect/bardicbuff/constitution)
 			if(1 to 4) // T4
-				buffs2pick += list("Noc's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence,
+				buffs2pick += list("Akan's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence,
 								"Malum's Perseverance (+1 END)" = /datum/status_effect/bardicbuff/endurance,
 								"Pestra's Blessing (+1 CON)" = /datum/status_effect/bardicbuff/constitution,
 								"Xylix's Alacrity (+1 SPD)" = /datum/status_effect/bardicbuff/speed)
 			if(1 to 5) // T5
-				buffs2pick += list("Noc's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence,
+				buffs2pick += list("Akan's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence,
 								"Malum's Perseverance (+1 END)" = /datum/status_effect/bardicbuff/endurance,
 								"Pestra's Blessing (+1 CON)" = /datum/status_effect/bardicbuff/constitution,
 								"Xylix's Alacrity (+1 SPD)" = /datum/status_effect/bardicbuff/speed,
 								"Ravox's Righteous Fury (+1 STR, +1 PER)" = /datum/status_effect/bardicbuff/ravox)
 			if(6 to INFINITY) // Legendary onwards
-				buffs2pick += list("Noc's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence,
+				buffs2pick += list("Akan's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence,
 								"Malum's Perseverance (+1 END)" = /datum/status_effect/bardicbuff/endurance,
 								"Pestra's Blessing (+1 CON)" = /datum/status_effect/bardicbuff/constitution,
 								"Xylix's Alacrity (+1 SPD)" = /datum/status_effect/bardicbuff/speed,

@@ -29,7 +29,7 @@
   - balance: Made all mage summons give the same amount of resources for their tier.
       For instance a sprite now drops 6 fairy dust, the same way an imp drops 6 Infernal
       ashes.
-  - bugfix: Noc's Eye warded summoning matrices no longer get bricked if you try to
+  - bugfix: Akan's Eye warded summoning matrices no longer get bricked if you try to
       summon something alone.
   flleeppyy:
   - code_imp: add new CI linter to check for unescaped brackets

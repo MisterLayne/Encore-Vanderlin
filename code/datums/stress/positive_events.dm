@@ -423,7 +423,7 @@
 /datum/stress_event/black_briar_noc
 	timer = 5 MINUTES
 	stress_change = -5
-	desc = span_briar("I stare at Noc, and He stares back...")
+	desc = span_briar("I stare at Akan, and He stares back...")
 
 /datum/stress_event/xylix_laughed
 	timer = 10 MINUTES
