@@ -239,11 +239,6 @@
 /obj/item/restraints/legcuffs/beartrap/armed/camouflage,
 /turf/open/floor/dirt,
 /area/under/tomb/wilds)
-"xg" = (
-/obj/structure/fluff/statue/astrata,
-/obj/structure/trap/fire,
-/turf/open/floor/blocks/stonered,
-/area/under/tomb/indoors/church)
 "xp" = (
 /obj/effect/spawner/map_spawner/loot/rare,
 /turf/open/floor/cobble,
@@ -1345,7 +1340,7 @@ Xc
 KO
 ER
 of
-xg
+of
 Ol
 bQ
 Pv

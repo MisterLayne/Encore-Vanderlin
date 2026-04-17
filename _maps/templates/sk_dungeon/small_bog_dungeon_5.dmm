@@ -294,10 +294,6 @@
 	},
 /turf/open/floor/dirt,
 /area/outdoors/bog)
-"zA" = (
-/obj/structure/fluff/psycross/crafted/shrine/dendor_volf,
-/turf/open/floor/twig,
-/area/outdoors/bog)
 "zN" = (
 /obj/structure/table/wood/plain,
 /obj/item/reagent_containers/glass/cup/wooden,
@@ -1704,7 +1700,7 @@ gJ
 Ei
 gJ
 gJ
-zA
+gJ
 pF
 fV
 KF
