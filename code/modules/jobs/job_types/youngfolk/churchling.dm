@@ -80,8 +80,8 @@
 			neck = /obj/item/clothing/neck/psycross/silver/divine/pestra
 		if(/datum/patron/divine/gani)
 			neck = /obj/item/clothing/neck/psycross/silver/divine/gani
-		if(/datum/patron/divine/abyssor)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/abyssor
+		if(/datum/patron/divine/mjallidhorn)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
 		if(/datum/patron/divine/ravox)
 			neck = /obj/item/clothing/neck/psycross/silver/divine/ravox
 		if(/datum/patron/divine/xylix)

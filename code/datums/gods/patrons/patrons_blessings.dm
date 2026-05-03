@@ -160,7 +160,7 @@
 	/// Specific god -> specific blessing mapping
 	var/static/list/blessing_flavor = list(
 		/// Mjallidhorn
-		/datum/patron/divine/abyssor = list(
+		/datum/patron/divine/mjallidhorn = list(
 			/datum/status_effect/buff/beastsense = "Mjallidhorn whispers: \"The sea calls yer senses forth. Smell tha salt, taste tha fear.\"",
 			/datum/status_effect/buff/trollshape = "Mjallidhorn groans: \"The abyss grants form... and hungers fer more.\"",
 			/datum/status_effect/buff/divine_beauty = "Mjallidhorn rumbles: \"Even beauty drowns. But fer now, ye rise.\"",

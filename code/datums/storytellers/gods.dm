@@ -42,7 +42,7 @@
 	color_theme = "#F0F0F0"
 
 	tag_multipliers = list(
-		TAG_NOC = 3,
+		TAG_AKAN = 3,
 		TAG_MAGICAL = 1.75,
 		TAG_HAUNTED = 1.5,
 	)
@@ -109,8 +109,8 @@
 		)
 	)
 
-/datum/storyteller/abyssor
-	name = ABYSSOR
+/datum/storyteller/mjallidhorn
+	name = MJALLIDHORN
 	desc = "Mjallidhorn likes to send water and trade-related events."
 	welcome_text = "The tides of fate shift in your favor."
 	weight = 4
@@ -118,7 +118,7 @@
 	color_theme = "#3366CC"
 
 	tag_multipliers = list(
-		TAG_ABYSSOR = 3,
+		TAG_MJALLIDHORN = 3,
 		TAG_WATER = 1.75,
 		TAG_TRADE = 1.5,
 	)
@@ -131,7 +131,7 @@
 			STATS_WATER_CONSUMED = list("name" = "Water consumed:", "points" = 0.014, "capacity" = 90),
 		),
 		"Set 3" = list(
-			STATS_ABYSSOR_REMEMBERED = list("name" = "Mjallidhorn remembered:", "points" = 1.1, "capacity" = 50),
+			STATS_MJALLIDHORN_REMEMBERED = list("name" = "Mjallidhorn remembered:", "points" = 1.1, "capacity" = 50),
 			STATS_ALIVE_TRITONS = list("name" = "Number of tritons:", "points" = 8, "capacity" = 70),
 		),
 		"Set 4" = list(

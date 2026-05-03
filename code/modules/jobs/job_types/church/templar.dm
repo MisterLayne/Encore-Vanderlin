@@ -52,7 +52,7 @@
 		/datum/attribute/skill/combat/axesmaces = 40
 	)
 
-/datum/attribute_holder/sheet/job/templar/patron/abyssor
+/datum/attribute_holder/sheet/job/templar/patron/mjallidhorn
 	raw_attribute_list = list(
 		/datum/attribute/skill/labor/fishing = 20
 	)
@@ -72,12 +72,12 @@
 		/datum/attribute/skill/combat/unarmed = 20
 	)
 
-/datum/attribute_holder/sheet/job/templar/patron/abyssor/spear
+/datum/attribute_holder/sheet/job/templar/patron/mjallidhorn/spear
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/polearms = 40
 	)
 
-/datum/attribute_holder/sheet/job/templar/patron/abyssor/katars
+/datum/attribute_holder/sheet/job/templar/patron/mjallidhorn/katars
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/unarmed = 20
 	)
@@ -177,21 +177,21 @@
 		if(/datum/patron/divine/malum)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/malum)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatOutlander2.ogg'
-		if(/datum/patron/divine/abyssor)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/abyssor)
+		if(/datum/patron/divine/mjallidhorn)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/mjallidhorn)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAbyssor.ogg'
 			var/static/list/selectable = list(
-				"DepthSeeker (Spear)" = /obj/item/weapon/polearm/spear/abyssor,
-				"Barotrauma (Katars)" = /obj/item/weapon/katar/abyssor,
+				"DepthSeeker (Spear)" = /obj/item/weapon/polearm/spear/mjallidhorn,
+				"Barotrauma (Katars)" = /obj/item/weapon/katar/mjallidhorn,
 			)
 			var/choice = spawned.select_equippable(player_client, selectable, message = "Choose Your Specialisation", title = "TEMPLAR")
 			if(!choice)
 				return
 			switch(choice)
 				if("DepthSeeker (Spear)")
-					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/abyssor/spear)
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/mjallidhorn/spear)
 				if("Barotrauma (Katars)")
-					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/abyssor/katars)
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/mjallidhorn/katars)
 		if(/datum/patron/divine/xylix)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/xylix)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatXylix.ogg'
@@ -255,11 +255,11 @@
 			head = /obj/item/clothing/head/helmet/heavy/necked/malumhelm
 			cloak = /obj/item/clothing/cloak/stabard/templar/malum
 			backr = /obj/item/weapon/hammer/sledgehammer/war/malum
-		if(/datum/patron/divine/abyssor)
-			head = /obj/item/clothing/head/helmet/heavy/necked/abyssor
-			armor = /obj/item/clothing/armor/brigandine/abyssor
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/abyssor
-			cloak = /obj/item/clothing/cloak/stabard/templar/abyssor
+		if(/datum/patron/divine/mjallidhorn)
+			head = /obj/item/clothing/head/helmet/heavy/necked/mjallidhorn
+			armor = /obj/item/clothing/armor/brigandine/mjallidhorn
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
+			cloak = /obj/item/clothing/cloak/stabard/templar/mjallidhorn
 		if(/datum/patron/divine/xylix)
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/xylix
 			head = /obj/item/clothing/head/helmet/heavy/necked/xylix

@@ -251,7 +251,7 @@
 	melting_material = /datum/material/steel
 	melt_amount = 150
 
-/obj/item/clothing/head/helmet/heavy/nochelm
+/obj/item/clothing/head/helmet/heavy/akanhelm
 	name = "air helmet"
 	desc = "Headwear commonly worn by Templars in service to Akan. Without the night there can be no day; without Akan there can be no light in the dark hours."
 	icon_state = "nochelm"
@@ -285,8 +285,8 @@
 	melting_material = /datum/material/steel
 	melt_amount = 150
 
-/obj/item/clothing/head/helmet/heavy/abyssorgreathelm
-	name = "abyssorite helmet"
+/obj/item/clothing/head/helmet/heavy/mjallidhorngreathelm
+	name = "mjallidhornite helmet"
 	desc = "A helmet commonly worn by Templars in service to Mjallidhorn. It evokes imagery of the sea with a menacing crustacean visage."
 	icon_state = "abyssorgreathelm"
 	item_state = "abyssorgreathelm"

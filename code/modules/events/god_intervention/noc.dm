@@ -11,7 +11,7 @@
 	allowed_storytellers = DIVINE_STORYTELLERS
 
 	tags = list(
-		TAG_NOC,
+		TAG_AKAN,
 	)
 
 /datum/round_event/noc_wisdom/start()

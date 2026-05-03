@@ -147,8 +147,8 @@
 	if(client)
 		last_words = message
 		record_featured_stat(FEATURED_STATS_SPEAKERS, src)
-		if(findtext(message, "abyssor"))
-			record_round_statistic(STATS_ABYSSOR_REMEMBERED)
+		if(findtext(message, "mjallidhorn"))
+			record_round_statistic(STATS_MJALLIDHORN_REMEMBERED)
 		INVOKE_ASYNC(src, PROC_REF(check_slur), message)
 
 	spans |= speech_span

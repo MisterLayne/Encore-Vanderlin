@@ -130,7 +130,7 @@
 // Mjallidhorn
 #define STATS_WATER_CONSUMED "water_consumed"
 #define STATS_FISH_CAUGHT "fish_caught"
-#define STATS_ABYSSOR_REMEMBERED "abyssor_remembered"
+#define STATS_MJALLIDHORN_REMEMBERED "mjallidhorn_remembered"
 #define STATS_LEECHES_EMBEDDED "leeches_embedded"
 #define STATS_PEOPLE_DROWNED "people_drowned"
 #define STATS_BATHS_TAKEN "baths_taken"
@@ -226,7 +226,7 @@ GLOBAL_LIST_INIT(vanderlin_round_stats, list(
 	STATS_CRUEL_PRANKS = 0,
 	STATS_ROCKS_MINED = 0,
 	STATS_CRAFT_SKILLS = 0,
-	STATS_ABYSSOR_REMEMBERED = 0,
+	STATS_MJALLIDHORN_REMEMBERED = 0,
 	STATS_LEECHES_EMBEDDED = 0,
 	STATS_MARRIAGES = 0,
 	STATS_HUGS_MADE = 0,

@@ -6,7 +6,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	MALUM = 'sound/magic/dwarf_chant01.ogg',
 	XYLIX = 'sound/misc/gods/xylix_omen.ogg',
 	NECRA = 'sound/ambience/noises/genspooky (1).ogg',
-	ABYSSOR = 'sound/items/bucket_transfer (2).ogg',
+	MJALLIDHORN = 'sound/items/bucket_transfer (2).ogg',
 	RAVOX = 'sound/vo/male/knight/rage (6).ogg',
 	PESTRA = 'sound/magic/cosmic_expansion.ogg',
 	ZIZO = 'sound/misc/gods/zizo_omen.ogg',
@@ -76,18 +76,18 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 
 /datum/patron/divine/akan
 	name = AKAN
-	domain = "God of Knowledge, the Moon Prince"
-	desc = "Crafted from the helmet of Psydon, twin of Visires. He gifted mankind divine wisdom."
+	domain = "God of Air, the Sky and Heaven"
+	desc = "Akan, the Elder, embodies the fundamental element of air. They are an ancient spirit made divine as they would personify the very essence of the wistful, everlasting and free Aspect of the Sky."
 	flaws = "Cynical, Isolationist, Unfiltered Honesty"
-	worshippers = "Magic Practitioners, Scholars, Scribes"
+	worshippers = "Nomads, scholars and the forever-free"
 	sins = "Suppressing Truth, Burning Books, Censorship"
 	boons = "You learn, dream, and teach apprentices slightly better. Access to roles with magic."
 	added_traits = list(TRAIT_TUTELAGE)
 	devotion_holder = /datum/devotion/divine/akan
 	confess_lines = list(
-		"AKAN IS NIGHT!",
-		"AKAN SEES THE TRUTH!",
-		"I SEEK THE MYSTERIES OF THE MOON!",
+		"AKAN HEARS, BUT DOES NOT SEE!",
+		"I SEE WHAT THE BLIND MAN SEES!",
+		"A CLOUD 'BOUT THE ERRANT SOUL!",
 	)
 	storyteller = /datum/storyteller/akan
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/akan
@@ -103,15 +103,15 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	added_traits = list(TRAIT_KNEESTINGER_IMMUNITY)
 	devotion_holder = /datum/devotion/divine/gani
 	confess_lines = list(
-		"GANI PROVIDES!",
-		"THE TREEFATHER BRINGS BOUNTY!",
-		"I ANSWER THE CALL OF THE WILD!",
+		"GOLDEN GREENING!",
+		"WE SPROUT ANEW!",
+		"BY LEAF AND LIMB!",
 	)
 	storyteller = /datum/storyteller/gani
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/gani
 
-/datum/patron/divine/abyssor
-	name = ABYSSOR
+/datum/patron/divine/mjallidhorn
+	name = MJALLIDHORN
 	domain = "God of Seas and Storms"
 	desc = "Crafted from the blood of Psydon as sovereign of the waters. Enraged by ignorance of Him from followers of The Ten."
 	flaws= "Reckless, Stubborn, Destructive"
@@ -119,14 +119,14 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	sins = "Fear, Hubris, Forgetfulness"
 	boons = "Leeches will drain very little of your blood."
 	added_traits = list(TRAIT_LEECHIMMUNE)
-	devotion_holder = /datum/devotion/divine/abyssor
+	devotion_holder = /datum/devotion/divine/mjallidhorn
 	confess_lines = list(
-		"ABYSSOR COMMANDS THE WAVES!",
-		"THE OCEAN'S FURY IS ABYSSOR'S WILL!",
-		"I AM DRAWN BY THE PULL OF THE TIDE!",
+		"THE NORTH'S MADNESS!",
+		"BLOOD IN THE FIRMAMENT! BLOOD IN ALL THINGS!",
+		"I FEAR NOT DEATH, THE FOREVER WAR AWAITS ME!",
 	)
-	storyteller = /datum/storyteller/abyssor
-	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/abyssor
+	storyteller = /datum/storyteller/mjallidhorn
+	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
 
 /datum/patron/divine/necra
 	name = NECRA
@@ -175,16 +175,11 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	added_traits = list(TRAIT_BLACKLEG)
 	devotion_holder = /datum/devotion/divine/xylix
 	confess_lines = list(
-		"ASTRATA IS MY LIGHT!",
-		"AKAN IS NIGHT!",
+		"VISIRES IS MY LIGHT!",
+		"AKAN FLIES FREE AND TOO FAR FROM ME!",
 		"GANI PROVIDES!",
-		"ABYSSOR COMMANDS THE WAVES!",
-		"RAVOX IS JUSTICE!",
-		"ALL SOULS FIND THEIR WAY TO NECRA!",
-		"HAHAHAHA! AHAHAHA! HAHAHAHA!", //the only xylix-related confession
-		"PESTRA SOOTHES ALL ILLS!",
-		"MALUM IS MY FORGE!",
-		"EORA BRINGS US TOGETHER!",
+		"GOLER KANH IS MY MUSE!",
+		"MJALLIDHORN IS MY TERROR!",
 	)
 	storyteller = /datum/storyteller/xylix
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/xylix

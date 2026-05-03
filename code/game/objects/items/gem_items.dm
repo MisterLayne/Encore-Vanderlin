@@ -893,7 +893,7 @@
 
 /obj/item/carvedgem/coral/shark
 	name = "aoetal shark statue"
-	desc = "A statue of a shark carved out of aoetal. Some sailors believe them to be agents of Abyssor."
+	desc = "A statue of a shark carved out of aoetal. Some sailors believe them to be agents of Mjallidhorn."
 	icon_state = "shark_coral"
 	grid_height = 64
 	grid_width = 64

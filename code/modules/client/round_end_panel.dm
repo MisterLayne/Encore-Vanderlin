@@ -955,8 +955,8 @@
 	// Akan
 	data += god_ui_block("AKAN", "#4e72a1", "#282137", /datum/storyteller/akan, debug)
 
-	// Abyssor
-	data += god_ui_block("ABYSSOR", "#50090f", "#bbace0", /datum/storyteller/abyssor, debug)
+	// Mjallidhorn
+	data += god_ui_block("MJALLIDHORN", "#50090f", "#bbace0", /datum/storyteller/mjallidhorn, debug)
 
 	// Malum
 	data += god_ui_block("MALUM", "#3d4139", "#955454", /datum/storyteller/malum, debug)

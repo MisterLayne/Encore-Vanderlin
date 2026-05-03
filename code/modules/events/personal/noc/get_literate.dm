@@ -8,7 +8,7 @@
 	min_players = 30
 
 	tags = list(
-		TAG_NOC,
+		TAG_AKAN,
 	)
 
 /datum/round_event_control/noc_literacy/canSpawnEvent(players_amt, gamemode, fake_check)

@@ -64,10 +64,10 @@
 	triumph_buy_id = TRIUMPH_BUY_XYLIX_INFLUENCE_REDUCTION
 	storyteller_name = XYLIX
 
-/datum/triumph_buy/storyteller_influence_reduction/abyssor
+/datum/triumph_buy/storyteller_influence_reduction/mjallidhorn
 	name = "Mjallidhorn's Influence Reduction"
-	triumph_buy_id = TRIUMPH_BUY_ABYSSOR_INFLUENCE_REDUCTION
-	storyteller_name = ABYSSOR
+	triumph_buy_id = TRIUMPH_BUY_MJALLIDHORN_INFLUENCE_REDUCTION
+	storyteller_name = MJALLIDHORN
 
 /datum/triumph_buy/storyteller_influence_reduction/ravox
 	name = "Mordsol's Influence Reduction"

@@ -54,7 +54,7 @@
 		/datum/attribute/skill/labor/taming = 10
 	)
 
-/datum/attribute_holder/sheet/job/acolyte/patron/abyssor
+/datum/attribute_holder/sheet/job/acolyte/patron/mjallidhorn
 	raw_attribute_list = list(
 		/datum/attribute/skill/labor/fishing = 20,
 		/datum/attribute/skill/misc/swimming = 20
@@ -170,8 +170,8 @@
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/gani)
 			ADD_TRAIT(spawned, TRAIT_SEEDKNOW, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatDendor.ogg'
-		if(/datum/patron/divine/abyssor)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/abyssor)
+		if(/datum/patron/divine/mjallidhorn)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/mjallidhorn)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAbyssor.ogg'
 		if(/datum/patron/divine/ravox)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/ravox)
@@ -242,11 +242,11 @@
 			neck = /obj/item/clothing/neck/psycross/silver/divine/gani
 			shoes = /obj/item/clothing/shoes/sandals
 			armor = /obj/item/clothing/shirt/robe/gani
-		if(/datum/patron/divine/abyssor)
-			head = /obj/item/clothing/head/padded/abyssor
-			neck = /obj/item/clothing/neck/psycross/silver/divine/abyssor
+		if(/datum/patron/divine/mjallidhorn)
+			head = /obj/item/clothing/head/padded/mjallidhorn
+			neck = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
 			shoes = /obj/item/clothing/shoes/boots
-			armor = /obj/item/clothing/shirt/robe/abyssor
+			armor = /obj/item/clothing/shirt/robe/mjallidhorn
 		if(/datum/patron/divine/ravox)
 			head = /obj/item/clothing/head/helmet/leather/headscarf
 			neck = /obj/item/clothing/neck/psycross/silver/divine/ravox

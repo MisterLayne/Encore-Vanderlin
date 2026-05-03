@@ -60,7 +60,7 @@
 	recipe_name = "an abyssal robe"
 	req_bar = /obj/item/ingot/bronze
 	additional_items = list(/obj/item/ingot/bronze, /obj/item/natural/cloth)
-	created_item = /obj/item/clothing/armor/brigandine/abyssor
+	created_item = /obj/item/clothing/armor/brigandine/mjallidhorn
 	craftdiff = 3
 
 // BRONZE NECK ARMOR
@@ -77,10 +77,10 @@
 
 /datum/anvil_recipe/armor/bronze/helmet
 	name = "Mjallidhorn Helmet (+Bronze Bar)"
-	recipe_name = "an abyssor helmet"
+	recipe_name = "an mjallidhorn helmet"
 	req_bar = /obj/item/ingot/bronze
 	additional_items = list(/obj/item/ingot/bronze)
-	created_item = /obj/item/clothing/head/helmet/heavy/necked/abyssor
+	created_item = /obj/item/clothing/head/helmet/heavy/necked/mjallidhorn
 	craftdiff = 3
 
 //////////////////////////////////////////////////////////////////////////////////////////////
@@ -1311,10 +1311,10 @@
 	created_item = /obj/item/clothing/head/helmet/heavy/visireshelm
 	craftdiff = 3
 
-/datum/anvil_recipe/armor/nochelm
+/datum/anvil_recipe/armor/akanhelm
 	name = "akan helmet"
 	req_bar = /obj/item/ingot/steel
-	created_item = /obj/item/clothing/head/helmet/heavy/nochelm
+	created_item = /obj/item/clothing/head/helmet/heavy/akanhelm
 	craftdiff = 3
 
 /datum/anvil_recipe/armor/necrahelm
@@ -1329,10 +1329,10 @@
 	created_item = /obj/item/clothing/head/helmet/heavy/ganihelm
 	craftdiff = 3
 
-/datum/anvil_recipe/armor/abyssorgreathelm
-	name = "abyssorite helmet"
+/datum/anvil_recipe/armor/mjallidhorngreathelm
+	name = "mjallidhornite helmet"
 	req_bar = /obj/item/ingot/steel
-	created_item = /obj/item/clothing/head/helmet/heavy/abyssorgreathelm
+	created_item = /obj/item/clothing/head/helmet/heavy/mjallidhorngreathelm
 	craftdiff = 3
 
 /datum/anvil_recipe/armor/ravoxhelm

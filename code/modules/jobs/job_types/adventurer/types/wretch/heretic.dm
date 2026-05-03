@@ -67,7 +67,7 @@
 		if(/datum/patron/divine/malum)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/axesmaces, 40)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatOutlander2.ogg'
-		if(/datum/patron/divine/abyssor)
+		if(/datum/patron/divine/mjallidhorn)
 			spawned.adjust_skill_level(/datum/attribute/skill/labor/fishing, 10)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/polearms, 40)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAbyssor.ogg'
@@ -180,12 +180,12 @@
 			head = /obj/item/clothing/head/helmet/heavy/necked/malumhelm
 			cloak = /obj/item/clothing/cloak/stabard/templar/malum
 			backr = /obj/item/weapon/hammer/sledgehammer/war/malum
-		if(/datum/patron/divine/abyssor)
-			head = /obj/item/clothing/head/helmet/heavy/necked/abyssor
-			armor = /obj/item/clothing/armor/brigandine/abyssor
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/abyssor
-			cloak = /obj/item/clothing/cloak/stabard/templar/abyssor
-			backr = /obj/item/weapon/polearm/spear/abyssor
+		if(/datum/patron/divine/mjallidhorn)
+			head = /obj/item/clothing/head/helmet/heavy/necked/mjallidhorn
+			armor = /obj/item/clothing/armor/brigandine/mjallidhorn
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
+			cloak = /obj/item/clothing/cloak/stabard/templar/mjallidhorn
+			backr = /obj/item/weapon/polearm/spear/mjallidhorn
 		if(/datum/patron/divine/xylix)
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/xylix
 			head = /obj/item/clothing/head/helmet/heavy/necked/xylix

@@ -285,7 +285,7 @@
 //................ Cutlass ............... //
 /obj/item/weapon/sword/sabre/cutlass
 	name = "cutlass"
-	desc = "Both tool and weapon of war, favored by Abyssor cultists and sailors for seafaring battle."
+	desc = "Both tool and weapon of war, favored by Mjallidhorn cultists and sailors for seafaring battle."
 	icon_state = "cutlass"
 	force = DAMAGE_SWORD + 2
 	wdefense = GREAT_PARRY

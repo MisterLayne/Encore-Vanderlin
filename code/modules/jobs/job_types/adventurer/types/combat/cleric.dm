@@ -92,7 +92,7 @@
 				spawned.cmode_music = 'sound/music/cmode/church/CombatNoc.ogg'
 			if(/datum/patron/divine/pestra)
 				spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
-			if(/datum/patron/divine/abyssor)
+			if(/datum/patron/divine/mjallidhorn)
 				spawned.cmode_music = 'sound/music/cmode/church/CombatAbyssor.ogg'
 				spawned.adjust_skill_level(/datum/attribute/skill/labor/fishing, 20)
 			if(/datum/patron/divine/malum)
@@ -203,9 +203,9 @@
 			if(/datum/patron/divine/pestra)
 				wrists = /obj/item/clothing/neck/psycross/silver/divine/pestra
 				cloak = /obj/item/clothing/cloak/stabard/templar/pestra
-			if(/datum/patron/divine/abyssor)
-				wrists = /obj/item/clothing/neck/psycross/silver/divine/abyssor
-				cloak = /obj/item/clothing/cloak/stabard/templar/abyssor
+			if(/datum/patron/divine/mjallidhorn)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
+				cloak = /obj/item/clothing/cloak/stabard/templar/mjallidhorn
 				beltl = /obj/item/fishingrod
 			if(/datum/patron/divine/malum)
 				wrists = /obj/item/clothing/neck/psycross/silver/divine/malum

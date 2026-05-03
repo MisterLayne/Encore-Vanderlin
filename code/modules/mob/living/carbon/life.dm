@@ -211,7 +211,7 @@
 	var/react_volume = 2
 	var/react_type = TOUCH
 	var/is_laying = (body_position == LYING_DOWN)
-	var/drown_damage = has_world_trait(/datum/world_trait/abyssor_rage) ? (is_ascendant(ABYSSOR) ? 15 : 10) : 5
+	var/drown_damage = has_world_trait(/datum/world_trait/mjallidhorn_rage) ? (is_ascendant(MJALLIDHORN) ? 15 : 10) : 5
 	if(!is_laying)
 		if(W.water_height < WATER_HEIGHT_SHALLOW)
 			return

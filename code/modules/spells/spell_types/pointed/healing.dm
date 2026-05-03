@@ -117,7 +117,7 @@
 				if(situational_bonus > 0)
 					conditional_buff = TRUE
 
-			if(/datum/patron/divine/abyssor)
+			if(/datum/patron/divine/mjallidhorn)
 				cast_on.visible_message(span_info("A mist of salt-scented vapour settles on [cast_on]!"), span_notice("I'm invigorated by healing vapours!"))
 				// if our owner or cast_on is standing in water, heal a flat amount extra
 				if(istype(get_turf(cast_on), /turf/open/water) || istype(get_turf(owner), /turf/open/water))

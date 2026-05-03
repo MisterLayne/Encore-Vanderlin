@@ -8,7 +8,7 @@
 	min_players = 35
 
 	tags = list(
-		TAG_NOC,
+		TAG_AKAN,
 		TAG_MAGICAL,
 	)
 

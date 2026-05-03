@@ -44,7 +44,7 @@
 	flags_inv = HIDEEARS|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
 	item_weight = 250 GRAMS
 
-/obj/item/clothing/head/padded/abyssor
+/obj/item/clothing/head/padded/mjallidhorn
 	name = "sea hood"
 	desc = "A green hood worn by the faithful of Mjallidhorn."
 	icon_state = "abysshood"

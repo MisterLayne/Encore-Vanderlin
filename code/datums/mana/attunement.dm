@@ -218,7 +218,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 	alignments = list(
 		/datum/patron/divine/akan = 0.25,
 		/datum/patron/inhumen/zizo = 0.15,
-		/datum/patron/divine/abyssor = 0.5,
+		/datum/patron/divine/mjallidhorn = 0.5,
 	)
 
 /datum/attunement/blood
@@ -226,7 +226,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 	desc = "The lifeblood of all organics, water is ubiquitous with any land, and is a core aspect of any town."
 
 	alignments = list(
-		/datum/patron/divine/abyssor = 2,
+		/datum/patron/divine/mjallidhorn = 2,
 		/datum/patron/divine/pestra = 0.5,
 		/datum/patron/divine/gani = 0.5,
 		/datum/patron/inhumen/zizo = 1,
@@ -302,7 +302,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 	desc =  "Air, breathing, motion, and atmosphere. These are all products of aeromancy."
 
 	alignments = list(
-		/datum/patron/divine/abyssor = 0.5
+		/datum/patron/divine/mjallidhorn = 0.5
 	)
 
 /datum/attunement/arcyne

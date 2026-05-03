@@ -51,7 +51,7 @@
 	desc = "'The world above, of knifetoothed plants and rotting carrion. From jungle to desert, even the stones are nature. Heed its call with the respect it commands, or succumb to madness.'  </br>  </br>The Volfskinned Man embodies the virtue of nature and temperance; to live in harmony with the world and its spirits. Pluck a jackberry, plant a seed - Slay a beast, see no part wasted. Yet, temperance must be shown; to take from the world without respect-nor-exchange is to curse the homeland with misfortune. Yet, to completely embrace the world's primality is to lose your humanity - and worse, to become the very beast you hunt."
 	icon_state = "gronndendor"
 
-/obj/item/clothing/neck/psycross/gronn/abyssor
+/obj/item/clothing/neck/psycross/gronn/mjallidhorn
 	name = "carved talisman" //hadal talisman
 	desc = "'The chaos below, of coldblack pressure and crushing weight. Be the current. Control the waves. Reign your sails and hold fast against the storm, or be washed away onto an odyssey with no end.'  </br>  </br>The Spiraling Kraken is no virtue, but a presence; the homeland's nautical warden, who's tentacled presence is as unpredictable as the oceans it lords over. To embrace the uncertainty of lyfe is to be rewarded with fortune and mercy when it is most needed. Do not embrace such futility, however, lest you are swept away with all the others into the abyss."
 	icon_state = "gronnabyssor"
@@ -97,8 +97,8 @@
 	desc = "Nature is a body of which we are but its entrails."
 	icon_state = "dendor"
 
-/obj/item/clothing/neck/psycross/silver/divine/abyssor
-	name = "amulet of Abyssor"
+/obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
+	name = "amulet of Mjallidhorn"
 	desc = "Oceanshaper and guardian of the seas, make them remember his name."
 	icon_state = "abyssor"
 

@@ -142,9 +142,9 @@
 				return list("shrink" = 0.6,"sx" = 5,"sy" = -3,"nx" = -5,"ny" = -2,"wx" = -5,"wy" = -1,"ex" = 3,"ey" = -2,"northabove" = 0,"southabove" = 1,"eastabove" = 1,"westabove" = 0,"nturn" = 7,"sturn" = -7,"wturn" = 16,"eturn" = -22,"nflip" = 8,"sflip" = 0,"wflip" = 8,"eflip" = 0)
 
 
-/obj/item/weapon/polearm/spear/abyssor
+/obj/item/weapon/polearm/spear/mjallidhorn
 	name = "depthseeker"
-	desc = "An instrument of Abyssor's wrath to punish the ignorant."
+	desc = "An instrument of Mjallidhorn's wrath to punish the ignorant."
 	icon = 'icons/roguetown/weapons/64/patron.dmi'
 	icon_state = "gsspear"
 	force = DAMAGE_SPEARPLUS + 2

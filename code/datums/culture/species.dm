@@ -196,7 +196,7 @@
 
 /datum/culture/species/triton/abyssal
 	name = "Abyssal colonies"
-	description = "Nearly entirely unknown to humens. Those deepest in the darkest depths hear Abyssor's demands for worship, and another voice whispering beneath."
+	description = "Nearly entirely unknown to humens. Those deepest in the darkest depths hear Mjallidhorn's demands for worship, and another voice whispering beneath."
 
 /datum/culture/species/triton/shallows
 	name = "Shallow colonies"

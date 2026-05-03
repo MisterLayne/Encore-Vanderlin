@@ -485,7 +485,7 @@
 
 /obj/item/weapon/polearm/spear/grandmaster
 	name = "divine trident"
-	desc = "The Trident of Saint Altierre. A holy spear forged of silver in the form of a holy weapon of Abyssor, said to represent her unfathomable Rage against the inhumen gods."
+	desc = "The Trident of Saint Altierre. A holy spear forged of silver in the form of a holy weapon of Mjallidhorn, said to represent her unfathomable Rage against the inhumen gods."
 	icon = 'icons/roguetown/weapons/64/godweapons.dmi'
 	icon_state = "martyrtrident"
 	item_weight = 2.5 KILOGRAMS

@@ -54,7 +54,7 @@
 	)
 	traits = list(TRAIT_DIVINE_SERVANT)
 
-/datum/devotion/divine/abyssor
+/datum/devotion/divine/mjallidhorn
 	miracles = list(
 		CLERIC_T0 = list(/datum/action/cooldown/spell/healing, /datum/action/cooldown/spell/undirected/conjure_item/summon_leech),
 		CLERIC_T1 = /datum/action/cooldown/spell/projectile/swordfish,
@@ -62,8 +62,8 @@
 		CLERIC_T3 = /datum/action/cooldown/spell/ocean_embrace,
 	)
 	viable_tasks = list(
-		/datum/devotion_task/abyssor_sail,
-		/datum/devotion_task/abyssor_fish,
+		/datum/devotion_task/mjallidhorn_sail,
+		/datum/devotion_task/mjallidhorn_fish,
 	)
 	traits = list(TRAIT_DIVINE_SERVANT)
 

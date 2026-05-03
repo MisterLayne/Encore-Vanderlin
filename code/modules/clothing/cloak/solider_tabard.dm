@@ -173,12 +173,12 @@
 	icon_state = "tabard_noc_alt"
 	item_state = "tabard_noc_alt"
 
-/obj/item/clothing/cloak/stabard/templar/abyssor
+/obj/item/clothing/cloak/stabard/templar/mjallidhorn
 	name = "surcoat of the abyssal order"
 	icon_state = "tabard_abyssor"
 	item_state = "tabard_abyssor"
 
-/obj/item/clothing/cloak/stabard/templar/abyssor/alt
+/obj/item/clothing/cloak/stabard/templar/mjallidhorn/alt
 	name = "surcoat of the abyssal order"
 	icon_state = "tabard_abyssor_alt"
 	item_state = "tabard_abyssor_alt"

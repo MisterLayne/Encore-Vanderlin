@@ -8,7 +8,7 @@
 	min_players = 25
 
 	tags = list(
-		TAG_ABYSSOR,
+		TAG_MJALLIDHORN,
 		TAG_WATER,
 		TAG_NATURE,
 	)
@@ -21,7 +21,7 @@
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(!istype(H) || H.stat == DEAD || !H.client)
 			continue
-		if(!H.patron || !istype(H.patron, /datum/patron/divine/abyssor))
+		if(!H.patron || !istype(H.patron, /datum/patron/divine/mjallidhorn))
 			continue
 		return TRUE
 
@@ -33,7 +33,7 @@
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(!istype(H) || H.stat == DEAD || !H.client)
 			continue
-		if(!H.patron || !istype(H.patron, /datum/patron/divine/abyssor))
+		if(!H.patron || !istype(H.patron, /datum/patron/divine/mjallidhorn))
 			continue
 		valid_targets += H
 
@@ -49,7 +49,7 @@
 	chosen_one.add_spell(/datum/action/cooldown/spell/undirected/create_abyssoid)
 
 	bordered_message(chosen_one, list(
-		span_userdanger("YOU ARE ABYSSOR'S CHOSEN!"),
+		span_userdanger("YOU ARE MJALLIDHORN'S CHOSEN!"),
 		span_blue("Mjallidhorn wants everyone to remember him! Create an army of holy abyssoid leeches and distribute them among the ingrates!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/items/bucket_transfer (2).ogg', 100)

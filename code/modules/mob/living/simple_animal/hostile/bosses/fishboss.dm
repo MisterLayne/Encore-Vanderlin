@@ -32,7 +32,7 @@
 	base_fortune = 14
 	projectiletype = /obj/projectile/bullet/reusable/deepone
 	projectilesound = 'sound/combat/wooshes/punch/punchwoosh (1).ogg'
-	patron = /datum/patron/divine/abyssor
+	patron = /datum/patron/divine/mjallidhorn
 
 
 	stat_attack = SOFT_CRIT

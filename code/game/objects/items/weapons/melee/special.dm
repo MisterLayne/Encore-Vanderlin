@@ -377,7 +377,7 @@
 	. = ..()						//+3 force, +50 int, +1 def, make silver
 	AddComponent(/datum/component/psyblessed, FALSE, 3, FALSE, 50, 1, TRUE)
 
-/obj/item/weapon/katar/abyssor
+/obj/item/weapon/katar/mjallidhorn
 	name = "barotrauma"
 	desc = "A gift from a creature of the sea. The claw is sharpened to a wicked edge."
 	icon = 'icons/roguetown/weapons/32/patron.dmi'

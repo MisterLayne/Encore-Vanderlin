@@ -1,15 +1,15 @@
 /datum/action/cooldown/spell/undirected/conjure_item/summon_leech
 	name = "Summon Leech"
-	desc = "Summon a leech from Abyssor's domain."
+	desc = "Summon a leech from Mjallidhorn's domain."
 	button_icon_state = "curse2"
 	sound = 'sound/foley/jumpland/waterland.ogg'
 
 	spell_type = SPELL_MIRACLE
 	antimagic_flags = MAGIC_RESISTANCE_HOLY
 	associated_skill = /datum/attribute/skill/magic/holy
-	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/abyssor)
+	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/mjallidhorn)
 
-	invocation = "Abyssor bless me with one of your servants!"
+	invocation = "Mjallidhorn bless me with one of your servants!"
 	invocation_type = INVOCATION_WHISPER
 
 	cooldown_time = 1 MINUTES

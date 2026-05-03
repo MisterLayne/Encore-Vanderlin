@@ -42,7 +42,7 @@
 /datum/objective/personal/release_fish/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("The [target_fish_name] has been returned to the depths, pleasing Mjallidhorn!"))
-	adjust_storyteller_influence(ABYSSOR, 20)
+	adjust_storyteller_influence(MJALLIDHORN, 20)
 	UnregisterSignal(SSdcs, COMSIG_GLOBAL_FISH_RELEASED)
 
 /datum/objective/personal/release_fish/reward_owner()

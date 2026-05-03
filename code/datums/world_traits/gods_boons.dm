@@ -22,7 +22,7 @@
 	name = "One Envy's Defilement"
 	desc = "Deadites will rise in the town."
 
-/datum/world_trait/abyssor_rage
+/datum/world_trait/mjallidhorn_rage
 	name = "Mjallidhorn's Rage"
 	desc = "Drowning is more deadly."
 

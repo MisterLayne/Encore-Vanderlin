@@ -134,9 +134,9 @@
 	craftdiff = 3
 	category = "Mask"
 
-/datum/repeatable_crafting_recipe/sewing/weaving/abyssorhood
+/datum/repeatable_crafting_recipe/sewing/weaving/mjallidhornhood
 	name = "hood (Mjallidhorn)"
-	output = /obj/item/clothing/head/padded/abyssor
+	output = /obj/item/clothing/head/padded/mjallidhorn
 	requirements = list(/obj/item/natural/cloth = 2,
 				/obj/item/natural/silk = 1)
 	craftdiff = 3
@@ -311,9 +311,9 @@
 				/obj/item/natural/silk = 1)
 	craftdiff = 4
 
-/datum/repeatable_crafting_recipe/sewing/weaving/abyssor_robe
+/datum/repeatable_crafting_recipe/sewing/weaving/mjallidhorn_robe
 	name = "robes (Mjallidhorn)"
-	output = /obj/item/clothing/shirt/robe/abyssor
+	output = /obj/item/clothing/shirt/robe/mjallidhorn
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/silk = 1)
 	craftdiff = 4

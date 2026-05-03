@@ -106,7 +106,7 @@
 
 /obj/item/clothing/head/helmet/heavy/zizo
 	name = "darksteel frog helmet"
-	desc = "A darksteel frog helmet. This one has an adjustable visor. Called forth from the edge of what should be known. In Her name."
+	desc = PLACEHOLDER_PATRON_REBRANDING
 	adjustable = CAN_CADJUST
 	icon_state = "zizofrogmouth"
 	icon = 'icons/roguetown/clothing/special/evilarmor.dmi'
@@ -155,11 +155,7 @@
 
 /obj/item/clothing/head/helmet/heavy/baotha
 	name = "willful helmet"
-	desc = "Baothan knights are an antithesis : the tiefling queen preaches self preservation at the cost of even family or friend. Choosing to embark on a quest to knightlyhood means facing peril at the forefront. \
-	Indeed, many are the upstarts who understood the folly of their journey, and either turned back to the warmth of ozium and wine or died in the process. \
-	The original wearer of this helmet is no such pushover : they do not have the might of Archdevil nor the magick of One Envy, and instead rely on their wits and grit to proclaim their unicity in the face of this cold, uncaring world. \
-	It is rumoured that Hertannea offers this baroque piece in person, as a reward for the knight's unflinching will in the face of sheer terror, minute after minute, hour after hour. \
-	Fashioned in steel and petals, it has no viewport, the wearer instead having their senses heightened to preternatural levels." // yes, this is a long item description, but it's the only piece of armour unique to Hertannea.
+	desc = PLACEHOLDER_PATRON_REBRANDING
 	icon_state = "baothahelm"
 	icon = 'icons/roguetown/clothing/special/baothanknight.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/evilarmor64x64.dmi'
@@ -197,14 +193,14 @@
 //............... Visires Helmet ............... //
 /obj/item/clothing/head/helmet/heavy/necked/visires
 	name = "flame helm"
-	desc = "A great helmet decorated with a golden sigil of the blazing order and a maille neck cover. The dependable companion of many of Visires' devout."
+	desc = PLACEHOLDER_PATRON_REBRANDING
 	icon_state = "astratahelm"
 	item_weight = 5.5 KILOGRAMS
 
 //............... Akan Helmet ............... //
 /obj/item/clothing/head/helmet/heavy/necked/akan
 	name = "air helm"
-	desc = "A sleek and rounded heavy helmet with a maille neck cover. Its unique craft is said to allow holy warriors of Akan additional insight before battle."
+	desc = PLACEHOLDER_PATRON_REBRANDING
 	icon_state = "nochelm"
 	item_weight = 6 KILOGRAMS
 	flags_inv = HIDEEARS
@@ -273,8 +269,8 @@
 	AddComponent(/datum/component/item_equipped_movement_rustle, custom_sounds = list(SFX_JINGLE_BELLS))
 
 //................ Mjallidhorn Helmet ............. //
-/obj/item/clothing/head/helmet/heavy/necked/abyssor
-	name = "abyssor helmet"
+/obj/item/clothing/head/helmet/heavy/necked/mjallidhorn
+	name = "mjallidhorn helmet"
 	desc = "A great helmet crafted from bronze. The visor is slitted and ridged, evoking the gills of a great sea-beast."
 	icon_state = "abyssorhelm"
 	item_state = "abyssorhelm"

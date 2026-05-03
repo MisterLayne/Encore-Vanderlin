@@ -243,7 +243,7 @@
 	desc = span_green("I have prevailed over my rival! Archdevil favours me now!")
 	timer = INFINITY
 
-/datum/stress_event/abyssor_serenity
+/datum/stress_event/mjallidhorn_serenity
 	stress_change = -1
 	desc = span_blue("Mjallidhorn is calm, and so am I.")
 	timer = INFINITY

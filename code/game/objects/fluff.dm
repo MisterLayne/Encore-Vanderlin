@@ -10,7 +10,7 @@
 	. = ..()
 
 /obj/structure/flora/ocean_plants
-	name = "abyssor plants"
+	name = "abyssal plants"
 	desc = ""
 	icon = 'icons/delver/abyss_objects.dmi'
 	icon_state = "clutter1"

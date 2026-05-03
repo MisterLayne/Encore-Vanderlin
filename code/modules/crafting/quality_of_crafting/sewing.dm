@@ -978,17 +978,17 @@
 	category = "Cloak"
 
 
-/datum/repeatable_crafting_recipe/sewing/abyssortemplar
+/datum/repeatable_crafting_recipe/sewing/mjallidhorntemplar
 	name = "abyssal surcoat"
-	output = /obj/item/clothing/cloak/stabard/templar/abyssor
+	output = /obj/item/clothing/cloak/stabard/templar/mjallidhorn
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3
 	category = "Cloak"
 
-/datum/repeatable_crafting_recipe/sewing/abyssortemplar/alt
+/datum/repeatable_crafting_recipe/sewing/mjallidhorntemplar/alt
 	name = "abyssal surcoat(alt)"
-	output = /obj/item/clothing/cloak/stabard/templar/abyssor/alt
+	output = /obj/item/clothing/cloak/stabard/templar/mjallidhorn/alt
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3

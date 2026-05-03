@@ -1266,7 +1266,7 @@
 	base_icon_state = "book8"
 	bookfile = "tales7.json"
 
-/obj/item/book/abyssor
+/obj/item/book/mjallidhorn
 	name = "A Tale of Those Who Live At Sea"
 	desc = "By Bellum Aegir"
 	icon_state ="book2_0"

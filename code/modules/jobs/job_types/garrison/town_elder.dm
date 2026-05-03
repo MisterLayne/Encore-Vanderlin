@@ -321,7 +321,7 @@
 		/datum/attribute/skill/labor/taming = 10
 	)
 
-/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/abyssor
+/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/mjallidhorn
 	raw_attribute_list = list(
 		/datum/attribute/skill/labor/fishing = 20,
 		/datum/attribute/skill/misc/swimming = 20
@@ -425,8 +425,8 @@
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/gani)
 			ADD_TRAIT(spawned, TRAIT_SEEDKNOW, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatDendor.ogg'
-		if(/datum/patron/divine/abyssor)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/abyssor)
+		if(/datum/patron/divine/mjallidhorn)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/mjallidhorn)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAbyssor.ogg'
 		if(/datum/patron/divine/ravox)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/ravox)
@@ -479,8 +479,8 @@
 			backpack_contents += /obj/item/needle/blessed
 		if(/datum/patron/divine/gani)
 			neck = /obj/item/clothing/neck/psycross/silver/divine/gani
-		if(/datum/patron/divine/abyssor)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/abyssor
+		if(/datum/patron/divine/mjallidhorn)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
 		if(/datum/patron/divine/ravox)
 			neck = /obj/item/clothing/neck/psycross/silver/divine/ravox
 		if(/datum/patron/divine/xylix)

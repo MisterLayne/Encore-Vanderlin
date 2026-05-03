@@ -22,7 +22,7 @@
 
 /datum/job/advclass/combat/swashbuckler
 	title = "Swashbuckler"
-	tutorial = "Woe the Sea King! You awake, dazed from a true festivity of revelry and feasting. The last thing you remember? Your mateys dumping you over the side of the boat as a joke. Now on some Gods-forsaken rock, Abyssor will present you with booty and fun, no doubt."
+	tutorial = "Woe the Sea King! You awake, dazed from a true festivity of revelry and feasting. The last thing you remember? Your mateys dumping you over the side of the boat as a joke. Now on some Gods-forsaken rock, Mjallidhorn will present you with booty and fun, no doubt."
 	allowed_races = list(\
 		SPEC_ID_HUMEN,\
 		SPEC_ID_ELF,\
@@ -33,7 +33,7 @@
 		SPEC_ID_RAKSHARI,\
 		SPEC_ID_TRITON,\
 	)
-	allowed_patrons = list(/datum/patron/divine/abyssor)
+	allowed_patrons = list(/datum/patron/divine/mjallidhorn)
 	outfit = /datum/outfit/folkhero/swashbuckler
 	total_positions = 1
 	category_tags = list(CTAG_FOLKHEROES)
@@ -59,7 +59,7 @@
 	beltl = /obj/item/weapon/sword/sabre/cutlass
 	beltr = /obj/item/weapon/knife/dagger
 	shoes = /obj/item/clothing/shoes/boots
-	neck = /obj/item/clothing/neck/psycross/silver/divine/abyssor
+	neck = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
 
 /datum/outfit/folkhero/swashbuckler/pre_equip(mob/living/carbon/human/H, visuals_only)
 	. = ..()

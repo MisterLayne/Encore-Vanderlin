@@ -2,9 +2,9 @@
 /// When the event is combat oriented (spawning monsters, inherently hostile antags)
 
 #define TAG_VISIRES "Visires"
-#define TAG_NOC "Akan"
+#define TAG_AKAN "Akan"
 #define TAG_RAVOX "Mordsol"
-#define TAG_ABYSSOR "Mjallidhorn"
+#define TAG_MJALLIDHORN "Mjallidhorn"
 #define TAG_XYLIX "Iliope"
 #define TAG_NECRA "Valdala"
 #define TAG_PESTRA "Erdl"
@@ -34,7 +34,7 @@
 /// Tag used for raid events, associated with Ravox
 #define TAG_RAID "Raid"
 
-/// Tag representing trade interactions, used by Abyssor and Matthios
+/// Tag representing trade interactions, used by Mjallidhorn and Matthios
 #define TAG_TRADE "Trade"
 
 /// Tag denoting widespread effects, utilized by Eora
@@ -55,7 +55,7 @@
 /// Tag representing work-related actions or influence, used by Malum
 #define TAG_WORK "Work"
 
-/// Tag for water-related actions or effects, used by Abyssor
+/// Tag for water-related actions or effects, used by Mjallidhorn
 #define TAG_WATER "Water"
 
 /// Tag representing magical influence or events, used by Akan and Zizo
@@ -185,7 +185,7 @@
 	/datum/storyteller/visires, \
 	/datum/storyteller/akan, \
 	/datum/storyteller/ravox, \
-	/datum/storyteller/abyssor, \
+	/datum/storyteller/mjallidhorn, \
 	/datum/storyteller/xylix, \
 	/datum/storyteller/necra, \
 	/datum/storyteller/pestra, \
@@ -209,7 +209,7 @@
 #define VISIRES "Visires"
 #define AKAN "Akan"
 #define RAVOX "Mordsol"
-#define ABYSSOR "Mjallidhorn"
+#define MJALLIDHORN "Mjallidhorn"
 #define XYLIX "Iliope"
 #define NECRA "Valdala"
 #define PESTRA "Erdl"
