@@ -115,7 +115,7 @@
 	)
 	traits = list(TRAIT_DIVINE_SERVANT)
 
-/datum/devotion/divine/malum
+/datum/devotion/divine/golerkanh
 	miracles = list(
 		CLERIC_T0 = /datum/action/cooldown/spell/healing,
 		CLERIC_T1 = /datum/action/cooldown/spell/status/vigorous_craft,
@@ -123,9 +123,9 @@
 		CLERIC_T3 = /datum/action/cooldown/spell/heat_metal,
 	)
 	viable_tasks = list(
-		/datum/devotion_task/malum_craft,
-		/datum/devotion_task/malum_smelt,
-		/datum/devotion_task/malum_forge,
+		/datum/devotion_task/golerkanh_craft,
+		/datum/devotion_task/golerkanh_smelt,
+		/datum/devotion_task/golerkanh_forge,
 	)
 	traits = list(TRAIT_DIVINE_SERVANT)
 

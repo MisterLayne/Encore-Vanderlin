@@ -143,7 +143,7 @@ GLOBAL_LIST_EMPTY(last_words)
 	var/area_of_death = lowertext(get_area_name(src))
 	var/locale = "a locale wreathed in enigmatic fog"
 	switch (area_of_death) // we're deliberately obtuse with this.
-		if ("mountains", "mt decapitation", "malum's anvil forest", "malum's anvil under lower caves", "malum's anvil cave building", "malum's anvil lower dungeon", "malum's anvil surface building", "malum's anvil hidden grove", "malum's anvil peak")
+		if ("mountains", "mt decapitation", "goler kanh's pedestal forest", "goler kanh's pedestal under lower caves", "goler kanh's pedestal cave building", "goler kanh's pedestal lower dungeon", "goler kanh's pedestal surface building", "goler kanh's pedestal hidden grove", "goler kanh's pedestal peak")
 			locale = "a twisted tangle of dense rocks and rivers of lava"
 		if ("wilderness", "azure basin")
 			locale = "somewhere in the wilds"

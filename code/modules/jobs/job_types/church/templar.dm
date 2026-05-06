@@ -47,7 +47,7 @@
 		/datum/attribute/skill/combat/swords = 40
 	)
 
-/datum/attribute_holder/sheet/job/templar/patron/malum
+/datum/attribute_holder/sheet/job/templar/patron/golerkanh
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/axesmaces = 40
 	)
@@ -174,8 +174,8 @@
 		if(/datum/patron/divine/ravox)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/ravox)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatRavox.ogg'
-		if(/datum/patron/divine/malum)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/malum)
+		if(/datum/patron/divine/golerkanh)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/golerkanh)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatOutlander2.ogg'
 		if(/datum/patron/divine/mjallidhorn)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/mjallidhorn)
@@ -250,11 +250,11 @@
 			head = /obj/item/clothing/head/helmet/heavy/necked/ravox
 			cloak = /obj/item/clothing/cloak/stabard/templar/ravox
 			backr = /obj/item/weapon/sword/long/ravox
-		if(/datum/patron/divine/malum)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/malum
-			head = /obj/item/clothing/head/helmet/heavy/necked/malumhelm
-			cloak = /obj/item/clothing/cloak/stabard/templar/malum
-			backr = /obj/item/weapon/hammer/sledgehammer/war/malum
+		if(/datum/patron/divine/golerkanh)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/golerkanh
+			head = /obj/item/clothing/head/helmet/heavy/necked/golerkanhhelm
+			cloak = /obj/item/clothing/cloak/stabard/templar/golerkanh
+			backr = /obj/item/weapon/hammer/sledgehammer/war/golerkanh
 		if(/datum/patron/divine/mjallidhorn)
 			head = /obj/item/clothing/head/helmet/heavy/necked/mjallidhorn
 			armor = /obj/item/clothing/armor/brigandine/mjallidhorn

@@ -242,8 +242,8 @@
 	item_weight = 4.5 KILOGRAMS
 
 //................ Goler Kanh Helmet ............. //
-/obj/item/clothing/head/helmet/heavy/necked/malumhelm
-	name = "malumite helmet"
+/obj/item/clothing/head/helmet/heavy/necked/golerkanhhelm
+	name = "kanhite helmet"
 	desc = "A great helmet of sturdy dark steel. Its chiseled countenance reminds the viewer of Goler Kanh's stern gaze."
 	icon_state = "malumhelm"
 	item_state = "malumhelm"

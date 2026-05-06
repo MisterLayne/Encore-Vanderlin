@@ -184,8 +184,8 @@
 	item_state = "tabard_abyssor_alt"
 
 
-/obj/item/clothing/cloak/stabard/templar/malum
-	name = "surcoat of the malumite order"
+/obj/item/clothing/cloak/stabard/templar/golerkanh
+	name = "surcoat of the kanhite order"
 	icon_state = "tabard_malum"
 	item_state = "tabard_malum"
 

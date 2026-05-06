@@ -29,12 +29,12 @@
 /datum/objective/personal/energy_expenditure/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("You've spent enough energy working to satisfy Goler Kanh!"))
-	adjust_storyteller_influence(MALUM, 20)
+	adjust_storyteller_influence(GOLERKANH, 20)
 	UnregisterSignal(owner.current, COMSIG_MOB_ENERGY_SPENT)
 
 /datum/objective/personal/energy_expenditure/reward_owner()
 	. = ..()
-	owner.current.adjust_stat_modifier(STATMOD_MALUM_BLESSING, list(STAT_ENDURANCE = 1))
+	owner.current.adjust_stat_modifier(STATMOD_GOLERKANH_BLESSING, list(STAT_ENDURANCE = 1))
 
 /datum/objective/personal/energy_expenditure/update_explanation_text()
 	explanation_text = "Don't be a slacker! Spend at least [energy_required] energy working to satisfy Goler Kanh."

@@ -73,7 +73,7 @@
 			spawned.cmode_music = 'sound/music/cmode/church/CombatXylix.ogg'
 		if(/datum/patron/divine/erdl)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
-		if(/datum/patron/divine/malum)
+		if(/datum/patron/divine/golerkanh)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatOutlander2.ogg'
 		if(/datum/patron/divine/pomette)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatEora.ogg'
@@ -143,9 +143,9 @@
 		if(/datum/patron/divine/erdl)
 			head = /obj/item/clothing/head/helmet/heavy/necked/erdlhelm
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/erdl
-		if(/datum/patron/divine/malum)
-			head = /obj/item/clothing/head/helmet/heavy/necked/malumhelm
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/malum
+		if(/datum/patron/divine/golerkanh)
+			head = /obj/item/clothing/head/helmet/heavy/necked/golerkanhhelm
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/golerkanh
 		if(/datum/patron/divine/pomette)
 			head = /obj/item/clothing/head/helmet/sallet/pomettic
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/pomette

@@ -539,15 +539,15 @@
 	required_item = /obj/item/ingot/silver
 	created_item = /obj/item/clothing/neck/psycross/silver/divine/erdl
 
-/datum/artificer_recipe/psycross/malum_silver
+/datum/artificer_recipe/psycross/golerkanh_silver
 	name = "Goler Kanh Psycross"
 	required_item = /obj/item/ingot/silver
-	created_item = /obj/item/clothing/neck/psycross/silver/divine/malum
+	created_item = /obj/item/clothing/neck/psycross/silver/divine/golerkanh
 
-/datum/artificer_recipe/psycross/malum_steel
+/datum/artificer_recipe/psycross/golerkanh_steel
 	name = "Goler Kanh Steel Psycross"
 	required_item = /obj/item/ingot/silver
-	created_item = /obj/item/clothing/neck/psycross/silver/divine/malum/steel
+	created_item = /obj/item/clothing/neck/psycross/silver/divine/golerkanh/steel
 	additional_items = list(/obj/item/ingot/steel = 1)
 	craftdiff = 3
 

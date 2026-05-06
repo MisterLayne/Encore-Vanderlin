@@ -1,7 +1,7 @@
 // Goler Kanh's Anvil Areas
 
 /area/under/mountains/anvil
-	name = "malum's anvil generic under (don't use)"
+	name = "goler kanh's pedestal generic under (don't use)"
 	icon_state = "rogue"
 	droning_index = DRONING_MOUNTAIN
 	ambient_index = AMBIENCE_GENERIC
@@ -13,9 +13,9 @@
 	plane = INDOOR_PLANE
 
 /area/under/mountains/anvil/lower
-	name = "malum's anvil under lower caves"
+	name = "goler kanh's pedestal under lower caves"
 	icon_state = "lowercavemalum"
-	first_time_text = "MALUM'S ANVIL"
+	first_time_text = "GOLER KANH'S PEDESTAL"
 	ambush_types = list(
 				/turf/open/floor/dirt,
 				/turf/open/floor/cobblerock)
@@ -27,7 +27,7 @@
 				/mob/living/simple_animal/hostile/retaliate/troll/cave = 10)
 
 /area/under/mountains/anvil/upper
-	name = "malum's anvil under upper caves"
+	name = "goler kanh's pedestal under upper caves"
 	icon_state = "uppercavemalum"
 	ambush_types = list(
 				/turf/open/floor/naturalstone)
@@ -38,28 +38,28 @@
 				/mob/living/simple_animal/hostile/retaliate/troll/cave = 5)
 
 /area/under/mountains/anvil/lower/building
-	name = "malum's anvil cave building"
+	name = "goler kanh's pedestal cave building"
 	icon_state = "cavebuildingmalum"
 	first_time_text = null
 	ambush_types = null
 	ambush_mobs = null
 
 /area/under/mountains/anvil/dungeon
-	name = "malum's anvil upper dungeon"
+	name = "goler kanh's pedestal upper dungeon"
 	icon_state = "dungeonupper"
 
 /area/under/mountains/anvil/dungeon/can_craft_here()
 	return FALSE
 
 /area/under/mountains/anvil/dungeon/lower
-	name = "malum's anvil lower dungeon"
+	name = "goler kanh's pedestal lower dungeon"
 	icon_state = "dungeonlower"
 
 /area/under/mountains/anvil/dungeon/lower/can_craft_here()
 	return FALSE
 
 /area/outdoors/mountains/anvil
-	name = "malum's anvil generic outdoors (don't use)"
+	name = "goler kanh's pedestal generic outdoors (don't use)"
 	icon_state = "rogue"
 	outdoors = TRUE
 	droning_index = DRONING_TOWN_DAY
@@ -72,22 +72,22 @@
 	converted_type = /area/indoors/shelter
 
 /area/outdoors/mountains/anvil/peak
-	name = "malum's anvil peak"
+	name = "goler kanh's pedestal peak"
 	icon_state = "anvilpeakmalum"
 	background_track = 'sound/music/area/decap.ogg'
 	background_track_dusk = null
 	background_track_night = null
-	first_time_text = "THE PEAK OF MALUM'S ANVIL"
+	first_time_text = "THE PEAK OF GOLER KANH'S PEDESTAL"
 
 /area/outdoors/mountains/anvil/snowy
-	name = "malum's anvil snow"
+	name = "goler kanh's pedestal snow"
 	icon_state = "snowypeakmalum"
 	background_track = 'sound/music/area/decap.ogg'
 	background_track_dusk = null
 	background_track_night = null
 
 /area/outdoors/mountains/anvil/snowyforest
-	name = "malum's anvil forest"
+	name = "goler kanh's pedestal forest"
 	icon_state = "snowyforestmalum"
 	background_track = 'sound/music/area/decap.ogg'
 	background_track_dusk = null
@@ -102,7 +102,7 @@
 				/mob/living/carbon/human/species/orc/ambush = 20)
 
 /area/outdoors/mountains/anvil/castle
-	name = "malum's anvil castle"
+	name = "goler kanh's pedestal castle"
 	icon_state = "castlemalum"
 	background_track = 'sound/music/area/decap.ogg'
 	background_track_dusk = null
@@ -115,7 +115,7 @@
 				/mob/living/carbon/human/species/orc/ambush = 20)
 
 /area/outdoors/mountains/anvil/grove
-	name = "malum's anvil hidden grove"
+	name = "goler kanh's pedestal hidden grove"
 	icon_state = "grovemalum"
 	ambush_types = list(
 				/turf/open/floor/dirt,
@@ -124,11 +124,11 @@
 				/mob/living/simple_animal/hostile/retaliate/wolf = 10)
 
 /area/outdoors/mountains/anvil/lavaexposed
-	name = "malum's anvil exposed lava" // Mostly exists so lava exposed to the sky will act like it is
+	name = "goler kanh's pedestal exposed lava" // Mostly exists so lava exposed to the sky will act like it is
 	icon_state = "exposedlavamalum"
 
 /area/indoors/mountains/anvil
-	name = "malum's anvil generic indoors (don't use)"
+	name = "goler kanh's pedestal generic indoors (don't use)"
 	icon_state = "indoors"
 	droning_index = DRONING_INDOORS
 	ambient_index = AMBIENCE_GENERIC
@@ -139,7 +139,7 @@
 	converted_type = /area/outdoors/mountains/anvil/snowy
 
 /area/indoors/mountains/anvil/keep
-	name = "malum's anvil dwarven keep"
+	name = "goler kanh's pedestal dwarven keep"
 	icon_state = "keepmalum"
 	first_time_text = "THE BROKEN ANVIL"
 	background_track = 'sound/music/area/decap.ogg'
@@ -148,7 +148,7 @@
 	custom_area_sound = 'sound/misc/stings/MalumSting.ogg'
 
 /area/indoors/mountains/anvil/upperkeep
-	name = "malum's anvil upper dwarven keep"
+	name = "goler kanh's pedestal upper dwarven keep"
 	icon_state = "upperkeepmalum"
 	first_time_text = "THE RUSTED HAMMER"
 	background_track = 'sound/music/area/decap.ogg'
@@ -161,5 +161,5 @@
 	icon_state = null
 
 /area/indoors/mountains/anvil/surface/building
-	name = "malum's anvil surface building"
+	name = "goler kanh's pedestal surface building"
 	icon_state = "surfacebuildingmalum"

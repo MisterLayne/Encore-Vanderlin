@@ -570,10 +570,10 @@
 	created_item = /obj/item/clothing/head/helmet/heavy/necked/erdlhelm
 	additional_items = list(/obj/item/ingot/iron)
 
-/datum/anvil_recipe/armor/steel/templar/helmet_malum
+/datum/anvil_recipe/armor/steel/templar/helmet_golerkanh
 	name = "Goler Kanh Helmet (+Iron Bar)"
-	recipe_name = "a malumite helmet"
-	created_item = /obj/item/clothing/head/helmet/heavy/necked/malumhelm
+	recipe_name = "a kanhite helmet"
+	created_item = /obj/item/clothing/head/helmet/heavy/necked/golerkanhhelm
 	additional_items = list(/obj/item/ingot/iron)
 
 /datum/anvil_recipe/armor/steel/templar/helmet_ravox

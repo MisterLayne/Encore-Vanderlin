@@ -8,7 +8,7 @@
 	spell_type = SPELL_MIRACLE
 	antimagic_flags = MAGIC_RESISTANCE_HOLY
 	associated_skill = /datum/attribute/skill/magic/holy
-	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/malum)
+	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/golerkanh)
 
 	invocation = "Let the weight of Goler Kanh's hammer fall!"
 	invocation_type = INVOCATION_SHOUT

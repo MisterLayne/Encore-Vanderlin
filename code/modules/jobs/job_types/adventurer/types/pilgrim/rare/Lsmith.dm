@@ -78,7 +78,7 @@
 	attribute_sheet_old = /datum/attribute_holder/sheet/job/pilgrim/masterblacksmith/old
 
 	traits = list(
-		TRAIT_MALUMFIRE
+		TRAIT_GOLERKANHFIRE
 	)
 
 /datum/outfit/pilgrim/masterblacksmith

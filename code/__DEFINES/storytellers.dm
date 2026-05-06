@@ -8,7 +8,7 @@
 #define TAG_ILIOPE "Iliope"
 #define TAG_NECRA "Valdala"
 #define TAG_ERDL "Erdl"
-#define TAG_MALUM "Goler Kanh"
+#define TAG_GOLERKANH "Goler Kanh"
 #define TAG_POMETTE "Pomette"
 #define TAG_GANI "Gani"
 #define TAG_ZIZO "The One Envy"
@@ -52,7 +52,7 @@
 /// Tag for nature-related events, tied to Erdl and Gani
 #define TAG_NATURE "Nature"
 
-/// Tag representing work-related actions or influence, used by Malum
+/// Tag representing work-related actions or influence, used by Goler Kanh
 #define TAG_WORK "Work"
 
 /// Tag for water-related actions or effects, used by Mjallidhorn
@@ -189,7 +189,7 @@
 	/datum/storyteller/iliope, \
 	/datum/storyteller/necra, \
 	/datum/storyteller/erdl, \
-	/datum/storyteller/malum, \
+	/datum/storyteller/golerkanh, \
 	/datum/storyteller/pomette, \
 	/datum/storyteller/gani, \
 )
@@ -213,7 +213,7 @@
 #define ILIOPE "Iliope"
 #define NECRA "Valdala"
 #define ERDL "Erdl"
-#define MALUM "Goler Kanh"
+#define GOLERKANH "Goler Kanh"
 #define POMETTE "Pomette"
 #define GANI "Gani"
 #define DIVINE_CENTRIST "Elementalist"

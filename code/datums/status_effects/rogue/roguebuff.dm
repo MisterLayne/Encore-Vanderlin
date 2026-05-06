@@ -442,11 +442,11 @@
 	icon_state = "call_to_arms"
 
 /*-----------------\
-|   Malum Miracles |
+|   Goler Kanh Miracles |
 \-----------------*/
 
 /datum/status_effect/buff/craft_buff
-	id = "crafting_buff_malum"
+	id = "crafting_buff_golerkanh"
 	alert_type = /atom/movable/screen/alert/status_effect/buff/craft_buff
 	duration = 2.5 MINUTES
 	effectedstats = list(STAT_INTELLIGENCE = 2)
@@ -454,7 +454,7 @@
 /atom/movable/screen/alert/status_effect/buff/craft_buff
 	name = "Exquisite Craftsmanship"
 	desc = span_notice("I am inspired to create!")
-	icon_state = "malum_buff"
+	icon_state = "golerkanh_buff"
 
 /*-----------------\
 |   Hunt Miracles |

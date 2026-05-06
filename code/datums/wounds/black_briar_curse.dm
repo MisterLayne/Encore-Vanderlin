@@ -170,10 +170,10 @@
 	var/heal_percent = round(heal_amount * 0.01 / 3, 0.005)
 	var/old_infection_percent = 0
 	switch(caster.patron?.type)
-		if(/datum/patron/divine/malum)
+		if(/datum/patron/divine/golerkanh)
 			infection_percent = min(1, infection_percent + heal_percent)
 			if(can_examine)
-				owner.visible_message(span_danger("The briar gets worse!"), span_briar("I feel thorns digging into me!")) //don't heal as malum, he likes this shit
+				owner.visible_message(span_danger("The briar gets worse!"), span_briar("I feel thorns digging into me!")) //don't heal as goler kanh, he likes this shit
 			if(!HAS_TRAIT(owner, TRAIT_NOPAIN))
 				if(infection_percent >= BBC_STAGE_LATE && prob(30))
 					owner.emote("firescream")

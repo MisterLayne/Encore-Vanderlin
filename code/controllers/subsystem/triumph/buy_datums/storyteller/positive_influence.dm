@@ -44,10 +44,10 @@
 	triumph_buy_id = TRIUMPH_BUY_POMETTE_INFLUENCE
 	storyteller_name = POMETTE
 
-/datum/triumph_buy/storyteller_influence_bonus/malum
+/datum/triumph_buy/storyteller_influence_bonus/golerkanh
 	name = "Goler Kanh's Influence"
-	triumph_buy_id = TRIUMPH_BUY_MALUM_INFLUENCE
-	storyteller_name = MALUM
+	triumph_buy_id = TRIUMPH_BUY_GOLERKANH_INFLUENCE
+	storyteller_name = GOLERKANH
 
 /datum/triumph_buy/storyteller_influence_bonus/erdl
 	name = "Erdl's Influence"

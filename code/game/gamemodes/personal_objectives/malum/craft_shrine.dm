@@ -40,7 +40,7 @@
 /datum/objective/personal/craft_shrine/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("You have built all the required sacred crosses, completing Goler Kanh's objective!"))
-	adjust_storyteller_influence(MALUM, 20)
+	adjust_storyteller_influence(GOLERKANH, 20)
 	UnregisterSignal(owner.current, COMSIG_ITEM_CRAFTED)
 
 /datum/objective/personal/craft_shrine/reward_owner()

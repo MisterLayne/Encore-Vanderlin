@@ -29,7 +29,7 @@
 #define STATMOD_VISIRES_BLESSING "visires_blessing"
 #define STATMOD_MJALLIDHORN_BLESSING "mjallidhorn_blessing"
 #define STATMOD_NOC_BLESSING "noc_blessing"
-#define STATMOD_MALUM_BLESSING "malum_blessing"
+#define STATMOD_GOLERKANH_BLESSING "golerkanh_blessing"
 #define STATMOD_ERDL_BLESSING "erdl_blessing"
 #define STATMOD_GANI_BLESSING "gani_blessing"
 #define STATMOD_POMETTE_BLESSING "pomette_blessing"

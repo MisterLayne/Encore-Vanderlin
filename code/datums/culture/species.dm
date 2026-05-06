@@ -272,7 +272,7 @@
 
 /datum/culture/species/dwarf/aurum
 	name = "Aurum clan"
-	description = "Known to humens for their faith in Malum and their endless toil in brewing alcohol. Prone to bar fights. Their beers are the best in the land."
+	description = "Known to humens for their faith in Goler Kanh and their endless toil in brewing alcohol. Prone to bar fights. Their beers are the best in the land."
 
 /datum/culture/species/dwarf/platinum
 	name = "Platinum clan"

@@ -23,11 +23,11 @@
 	icon_state = "astratatabard"
 	resistance_flags = FIRE_PROOF
 
-/obj/item/clothing/cloak/templar/malumite
+/obj/item/clothing/cloak/templar/golerkanh
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/cloaks.dmi'
 	alternate_worn_layer = TABARD_LAYER
 	boobed = FALSE
-	name = "tabard of malum"
+	name = "tabard of goler kanh"
 	desc = "Light blacks and greys, with a tinge of red, the everlasting fire of Goler Kanh's iron hammer as it strikes."
 	icon_state = "malumtabard"
 

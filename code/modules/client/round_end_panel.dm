@@ -958,8 +958,8 @@
 	// Mjallidhorn
 	data += god_ui_block("MJALLIDHORN", "#50090f", "#bbace0", /datum/storyteller/mjallidhorn, debug)
 
-	// Malum
-	data += god_ui_block("MALUM", "#3d4139", "#955454", /datum/storyteller/malum, debug)
+	// Goler Kanh
+	data += god_ui_block("GOLERKANH", "#3d4139", "#955454", /datum/storyteller/golerkanh, debug)
 
 	// Iliope
 	data += god_ui_block("ILIOPE", "#7e632c", "#f6feff", /datum/storyteller/iliope, debug)

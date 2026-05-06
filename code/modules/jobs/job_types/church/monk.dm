@@ -76,7 +76,7 @@
 		/datum/attribute/skill/misc/music = 30
 	)
 
-/datum/attribute_holder/sheet/job/acolyte/patron/malum
+/datum/attribute_holder/sheet/job/acolyte/patron/golerkanh
 	raw_attribute_list = list(
 		/datum/attribute/skill/craft/blacksmithing = 20,
 		/datum/attribute/skill/craft/smelting = 20,
@@ -179,9 +179,9 @@
 		if(/datum/patron/divine/iliope)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/iliope)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatXylix.ogg'
-		if(/datum/patron/divine/malum)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/malum)
-			ADD_TRAIT(spawned, TRAIT_MALUMFIRE, TRAIT_GENERIC)
+		if(/datum/patron/divine/golerkanh)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/golerkanh)
+			ADD_TRAIT(spawned, TRAIT_GOLERKANHFIRE, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
 
 	var/holder = spawned.patron?.devotion_holder
@@ -259,9 +259,9 @@
 			neck = /obj/item/clothing/neck/psycross/silver/divine/iliope
 			shoes = /obj/item/clothing/shoes/boots
 			armor = /obj/item/clothing/shirt/robe/colored/purple
-		if(/datum/patron/divine/malum)
+		if(/datum/patron/divine/golerkanh)
 			head = /obj/item/clothing/head/headband/colored/red
-			neck = /obj/item/clothing/neck/psycross/silver/divine/malum
+			neck = /obj/item/clothing/neck/psycross/silver/divine/golerkanh
 			shoes = /obj/item/clothing/shoes/boots
 			armor = /obj/item/clothing/shirt/robe/colored/red
 			backl = /obj/item/weapon/polearm/woodstaff/quarterstaff

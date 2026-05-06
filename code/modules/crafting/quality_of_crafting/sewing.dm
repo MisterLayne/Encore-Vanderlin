@@ -994,9 +994,9 @@
 	craftdiff = 3
 	category = "Cloak"
 
-/datum/repeatable_crafting_recipe/sewing/malumtemplar
-	name = "malumite surcoat"
-	output = /obj/item/clothing/cloak/stabard/templar/malum
+/datum/repeatable_crafting_recipe/sewing/golerkanhtemplar
+	name = "kanhite surcoat"
+	output = /obj/item/clothing/cloak/stabard/templar/golerkanh
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3
@@ -1467,9 +1467,9 @@
 	craftdiff = 1
 	category = "Tabard"
 
-/datum/repeatable_crafting_recipe/sewing/malumite_tabard
-	name = "tabard of malum"
-	output = /obj/item/clothing/cloak/templar/malumite
+/datum/repeatable_crafting_recipe/sewing/kanhite_tabard
+	name = "tabard of goler kanh"
+	output = /obj/item/clothing/cloak/templar/golerkanh
 	requirements = list(
 		/obj/item/natural/cloth = 2,
 		/obj/item/natural/fibers = 1

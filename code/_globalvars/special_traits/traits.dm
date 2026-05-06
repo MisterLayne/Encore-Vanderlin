@@ -432,14 +432,14 @@
 
 /datum/special_trait/burdened
 	name = "The Burdened One"
-	greet_text = span_notice("You are a true instrument of creation, the most blessed of Malum, nothing will stop your toil, be it sleep or fatigue.")
+	greet_text = span_notice("You are a true instrument of creation, the most blessed of Goler Kanh, nothing will stop your toil, be it sleep or fatigue.")
 	weight = 10
-	allowed_patrons = list(/datum/patron/divine/malum)
-	req_text = "Worship Malum, must be a carpenter, elder, smith, artificer or miner."
+	allowed_patrons = list(/datum/patron/divine/golerkanh)
+	req_text = "Worship Goler Kanh, must be a carpenter, elder, smith, artificer or miner."
 	allowed_jobs = list(/datum/job/carpenter, /datum/job/blacksmith, /datum/job/artificer, /datum/job/bapprentice, /datum/job/miner, /datum/job/town_elder) // no combat roles
 
 /datum/special_trait/burdened/on_apply(mob/living/carbon/human/character, silent)
-	ADD_TRAIT(character, TRAIT_MALUMFIRE, "[type]")
+	ADD_TRAIT(character, TRAIT_GOLERKANHFIRE, "[type]")
 	ADD_TRAIT(character, TRAIT_NOSLEEP, "[type]") // can't learn any new skills
 	ADD_TRAIT(character, TRAIT_NOENERGY, "[type]")
 	character.attributes?.add_sheet(/datum/attribute_holder/sheet/job/burdened_one)

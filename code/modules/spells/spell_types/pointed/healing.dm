@@ -155,7 +155,7 @@
 				cast_on.adjustToxLoss(-situational_bonus)
 				situational_blood += BLOOD_VOLUME_SURVIVE/2
 
-			if(/datum/patron/divine/malum)
+			if(/datum/patron/divine/golerkanh)
 				cast_on.visible_message(span_info("A tempering heat is discharged out of [cast_on]!"), span_notice("I feel the heat of a forge soothing my pains!"))
 				situational_bonus = 0
 				for(var/obj/machinery/light/fueled/O in oview(5, owner))

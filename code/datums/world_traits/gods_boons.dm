@@ -26,7 +26,7 @@
 	name = "Mjallidhorn's Rage"
 	desc = "Drowning is more deadly."
 
-/datum/world_trait/malum_diligence
+/datum/world_trait/golerkanh_diligence
 	name = "Goler Kanh's Diligence"
 	desc = "Mined rocks have additional yields."
 

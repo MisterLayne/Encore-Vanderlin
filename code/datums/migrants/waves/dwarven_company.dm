@@ -41,7 +41,7 @@
 	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/captain
 
 	traits = list(
-		TRAIT_MALUMFIRE,
+		TRAIT_GOLERKANHFIRE,
 		TRAIT_HEAVYARMOR,
 		TRAIT_MEDIUMARMOR,
 	)
@@ -118,7 +118,7 @@
 	attribute_sheet_old = /datum/attribute_holder/sheet/job/migrant/weaponsmith/old
 
 	traits = list(
-		TRAIT_MALUMFIRE,
+		TRAIT_GOLERKANHFIRE,
 		TRAIT_MEDIUMARMOR,
 	)
 
@@ -206,7 +206,7 @@
 	attribute_sheet_old = /datum/attribute_holder/sheet/job/migrant/armorsmith/old
 
 	traits = list(
-		TRAIT_MALUMFIRE,
+		TRAIT_GOLERKANHFIRE,
 		TRAIT_MEDIUMARMOR,
 	)
 

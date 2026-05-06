@@ -3,7 +3,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	AKAN = 'sound/ambience/noises/mystical (4).ogg',
 	POMETTE = 'sound/vo/female/gen/giggle (1).ogg',
 	GANI = 'sound/magic/barbroar.ogg',
-	MALUM = 'sound/magic/dwarf_chant01.ogg',
+	GOLERKANH = 'sound/magic/dwarf_chant01.ogg',
 	ILIOPE = 'sound/misc/gods/xylix_omen.ogg',
 	NECRA = 'sound/ambience/noises/genspooky (1).ogg',
 	MJALLIDHORN = 'sound/items/bucket_transfer (2).ogg',
@@ -210,8 +210,8 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	// These guys believe in a wurm, not erdl. They won't accept erdl as not being a giant acid wurm.
 	return prefs.pref_species.id != SPEC_ID_DWARF_SUBTERRAN
 
-/datum/patron/divine/malum
-	name = MALUM
+/datum/patron/divine/golerkanh
+	name = GOLERKANH
 	domain = "God of Toil, Innovation, and Creation"
 	desc = "Crafted from the hands of Psydon. He would later use his own to construct wondrous inventions."
 	flaws = "Obsessive, Exacting, Overbearing"
@@ -219,14 +219,14 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	sins = "Cheating, Shoddy Work, Suicide"
 	boons = "You recover more energy when sleeping."
 	added_traits = list(TRAIT_BETTER_SLEEP)
-	devotion_holder = /datum/devotion/divine/malum
+	devotion_holder = /datum/devotion/divine/golerkanh
 	confess_lines = list(
-		"MALUM IS MY FORGE!",
+		"GOLERKANH IS MY FORGE!",
 		"TRUE VALUE IS IN THE TOIL!",
 		"I AM AN INSTRUMENT OF CREATION!",
 	)
-	storyteller = /datum/storyteller/malum
-	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/malum
+	storyteller = /datum/storyteller/golerkanh
+	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/golerkanh
 
 /datum/patron/divine/pomette
 	name = POMETTE

@@ -500,7 +500,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_KNOW_ROUS_DOORS "know_rous_doors" //Event purposes.
 
 // JOB RELATED TRAITS
-#define TRAIT_MALUMFIRE "Professional Smith"
+#define TRAIT_GOLERKANHFIRE "Professional Smith"
 #define TRAIT_CRATEMOVER "Crate Mover"
 #define TRAIT_OLDPARTY "Old Party"
 #define TRAIT_EARGRAB "Ear Grab"

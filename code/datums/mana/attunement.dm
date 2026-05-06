@@ -199,7 +199,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 		/datum/patron/divine/visires = 1,
 		/datum/patron/inhumen/zizo = 0.25,
 		/datum/patron/divine/akan = 0.15,
-		/datum/patron/divine/malum = 1.2,
+		/datum/patron/divine/golerkanh = 1.2,
 	)
 
 /datum/attunement/ice
@@ -259,7 +259,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 
 	alignments = list(
 		/datum/patron/divine/gani = 1.2,
-		/datum/patron/divine/malum = 0.5,
+		/datum/patron/divine/golerkanh = 0.5,
 		/datum/patron/divine/ravox = 1,
 	)
 

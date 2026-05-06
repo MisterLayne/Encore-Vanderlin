@@ -248,7 +248,7 @@
 	traits = list(
 		TRAIT_DEADNOSE,
 		TRAIT_SEEDKNOW,
-		TRAIT_MALUMFIRE
+		TRAIT_GOLERKANHFIRE
 	)
 
 /datum/outfit/town_elder/master_of_crafts_and_labor
@@ -343,7 +343,7 @@
 		/datum/attribute/skill/misc/music = 30
 	)
 
-/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/malum
+/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/golerkanh
 	raw_attribute_list = list(
 		/datum/attribute/skill/craft/blacksmithing = 20,
 		/datum/attribute/skill/craft/smelting = 20,
@@ -434,9 +434,9 @@
 		if(/datum/patron/divine/iliope)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/iliope)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatXylix.ogg'
-		if(/datum/patron/divine/malum)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/malum)
-			ADD_TRAIT(spawned, TRAIT_MALUMFIRE, TRAIT_GENERIC)
+		if(/datum/patron/divine/golerkanh)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/golerkanh)
+			ADD_TRAIT(spawned, TRAIT_GOLERKANHFIRE, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
 
 	if(spawned.age == AGE_OLD)
@@ -485,8 +485,8 @@
 			neck = /obj/item/clothing/neck/psycross/silver/divine/ravox
 		if(/datum/patron/divine/iliope)
 			neck = /obj/item/clothing/neck/psycross/silver/divine/iliope
-		if(/datum/patron/divine/malum)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/malum
+		if(/datum/patron/divine/golerkanh)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/golerkanh
 			backpack_contents += /obj/item/weapon/hammer/iron
 		else
 			neck = /obj/item/clothing/neck/psycross/silver

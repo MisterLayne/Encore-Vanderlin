@@ -68,7 +68,7 @@
 	attribute_sheet_old = /datum/attribute_holder/sheet/job/pilgrim/blacksmith/old
 
 	traits = list(
-		TRAIT_MALUMFIRE
+		TRAIT_GOLERKANHFIRE
 	)
 
 /datum/job/advclass/pilgrim/blacksmith/after_spawn(mob/living/carbon/human/spawned, client/player_client)

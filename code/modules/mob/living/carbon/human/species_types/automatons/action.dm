@@ -42,7 +42,7 @@ GLOBAL_LIST_INIT(automaton_voice_lines, list(
 	"I Will Comply" = list("text" = "I WILL COMPLY", "file" = 'sound/vo/automaton/iwillcomply.ogg'),
 	"Jester Detected" = list("text" = "JESTER DETECTED", "file" = 'sound/vo/automaton/jesterdetected.ogg'),
 	"Kill" = list("text" = "KILL", "file" = 'sound/vo/automaton/kill.ogg'),
-	"Malum Praise" = list("text" = "MALUM BE PRAISED", "file" = 'sound/vo/automaton/malumpraise.ogg'),
+	"Malum Praise" = list("text" = "GOLERKANH BE PRAISED", "file" = 'sound/vo/automaton/malumpraise.ogg'),
 	"Moving To Location" = list("text" = "MOVING TO LOCATION", "file" = 'sound/vo/automaton/movingtolocation.ogg'),
 	"My Liege" = list("text" = "MY LIEGE", "file" = 'sound/vo/automaton/myliege.ogg'),
 	"My Soul Is Caged" = list("text" = "MY SOUL IS CAGED", "file" = 'sound/vo/automaton/mysouliscaged.ogg'),

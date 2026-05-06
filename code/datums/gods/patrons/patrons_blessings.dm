@@ -256,7 +256,7 @@
 		),
 
 		/// Goler Kanh
-		/datum/patron/divine/malum = list(
+		/datum/patron/divine/golerkanh = list(
 			/datum/status_effect/buff/beastsense = "Goler Kanh grunts: \"Even beasts know CRAFT. So should you.\"",
 			/datum/status_effect/buff/trollshape = "Goler Kanh states: \"Strong arms make stronger tools.\"",
 			/datum/status_effect/buff/divine_beauty = "Goler Kanh hammers: \"Beauty fades. STEEL remains.\"",

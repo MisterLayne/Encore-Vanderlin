@@ -155,14 +155,14 @@
 	icon_state = "erdl"
 	resistance_flags = FIRE_PROOF
 
-/obj/item/clothing/neck/psycross/silver/divine/malum
-	name = "amulet of Malum"
+/obj/item/clothing/neck/psycross/silver/divine/golerkanh
+	name = "amulet of Goler Kanh"
 	desc = "Blessed be our works, made in His name."
 	icon_state = "malum"
 	resistance_flags = FIRE_PROOF
 
-/obj/item/clothing/neck/psycross/silver/divine/malum/steel
-	name = "amulet of Malum"
+/obj/item/clothing/neck/psycross/silver/divine/golerkanh/steel
+	name = "amulet of Goler Kanh"
 	desc = "Let the tools that guide thee be thy hands."
 	icon_state = "malum_alt"
 	resistance_flags = FIRE_PROOF

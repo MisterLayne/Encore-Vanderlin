@@ -155,7 +155,7 @@
 		/datum/patron/divine/pomette  =list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/divine/gani =list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/divine/iliope  =list(PLACEHOLDER_PATRON_REBRANDING),
-		/datum/patron/divine/malum =list(PLACEHOLDER_PATRON_REBRANDING),
+		/datum/patron/divine/golerkanh =list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/inhumen/matthios  =list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/inhumen/zizo = list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/inhumen/graggar =list(PLACEHOLDER_PATRON_REBRANDING),

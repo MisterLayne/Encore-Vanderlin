@@ -1338,14 +1338,14 @@ $border-width-px: $border-width * 1px;
 }
 /* ##### END ##### */
 
-/* ##### MALUM ##### */
-.god_malum {
+/* ##### GOLERKANH ##### */
+.god_golerkanh {
   color: hsl(29, 58%, 59%);
   font-weight: bold;
-  animation: malum_flicker 1s infinite;
+  animation: golerkanh_flicker 1s infinite;
 }
 
-@keyframes malum_flicker {
+@keyframes golerkanh_flicker {
 	25% {
 		color: hsl(29, 58%, 59%);
 	}

@@ -382,7 +382,7 @@
 
 /obj/item/weapon/sword/scimitar/falchion
 	name = "falchion"
-	desc = "Broad blade, excellent steel, a design inspired by Malum the dwarves claim."
+	desc = "Broad blade, excellent steel, a design inspired by Goler Kanh the dwarves claim."
 	icon_state = "falchion"
 	wbalance = EASY_TO_DODGE
 	possible_item_intents = list(SWORD_CUT, AXE_CHOP)

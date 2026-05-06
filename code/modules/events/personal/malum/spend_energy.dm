@@ -8,7 +8,7 @@
 	min_players = 15
 
 	tags = list(
-		TAG_MALUM,
+		TAG_GOLERKANH,
 		TAG_WORK,
 	)
 
@@ -20,7 +20,7 @@
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(!istype(H) || H.stat == DEAD || !H.client)
 			continue
-		if(!H.patron || !istype(H.patron, /datum/patron/divine/malum))
+		if(!H.patron || !istype(H.patron, /datum/patron/divine/golerkanh))
 			continue
 		return TRUE
 
@@ -32,7 +32,7 @@
 	for(var/mob/living/carbon/human/human_mob in GLOB.player_list)
 		if(!istype(human_mob) || human_mob.stat == DEAD || !human_mob.client)
 			continue
-		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/divine/malum))
+		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/divine/golerkanh))
 			continue
 		valid_targets += human_mob
 
@@ -45,7 +45,7 @@
 	chosen_one.mind.add_personal_objective(new_objective)
 
 	bordered_message(chosen_one, list(
-		span_userdanger("YOU ARE MALUM'S CHOSEN!"),
+		span_userdanger("YOU ARE GOLERKANH'S CHOSEN!"),
 		span_notice("There is an honor in hard toil! Spend enough energy working to earn Goler Kanh's approval!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/magic/dwarf_chant01.ogg', 100)

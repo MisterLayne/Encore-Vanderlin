@@ -269,14 +269,14 @@
 		)
 	)
 
-/datum/storyteller/malum
-	name = MALUM
+/datum/storyteller/golerkanh
+	name = GOLERKANH
 	desc = "Goler Kanh believes in hard work, intervening more often than others."
 	welcome_text = "Toil and perseverance shall shape your destiny."
 	color_theme = "#D4A56C"
 
 	tag_multipliers = list(
-		TAG_MALUM = 3,
+		TAG_GOLERKANH = 3,
 		TAG_WORK = 1.75,
 	)
 
