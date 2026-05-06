@@ -40,18 +40,18 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 /* ----------------- */
 /datum/patron/divine/centrist
 	name = DIVINE_CENTRIST
-	domain = "Unity and Conflict. Denizens of the Eternal Plane."
-	desc = "Worshipping The Ten equally. Worship in such a manner is tolerated, but greatly disapproved of. The Ten rarely give their blessings to those who do not give single-minded adoration to a single diety."
-	flaws = "Discordant, Unyielding, Uninterested."
-	worshippers = "The Meek and The Indecisive"
-	sins = "Temptation, Ignorance, Denial"
-	boons = "The Ten pull for your devotion."
+	desc = PLACEHOLDER_PATRON_REBRANDING
+	domain = PLACEHOLDER_PATRON_REBRANDING
+	flaws = PLACEHOLDER_PATRON_REBRANDING
+	worshippers = PLACEHOLDER_PATRON_REBRANDING
+	sins = PLACEHOLDER_PATRON_REBRANDING
+	boons = PLACEHOLDER_PATRON_REBRANDING
 	added_traits = list(TRAIT_DIVINE_CENTRIST)
 	devotion_holder = /datum/devotion/divine/centrist
 	confess_lines = list(
-		"THE TEN GUIDE US!",
-		"THE TEN PROTECT US!",
-		"I SERVE THE DIVINE TEN!",
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
 	)
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine
 
@@ -130,74 +130,72 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 
 /datum/patron/divine/valdala
 	name = VALDALA
-	domain = "Mother Goddess of Death and Time"
-	desc = "The Veiled Lady, once close partner to Angros. She created the Nine others from his corpse, guiding them from the Underworld."
-	flaws = "Unchanging, Apathetic, Easy to Bore"
-	worshippers = "Orderlies, Gravetenders, Mourners"
-	sins = "Heretical Magic, Untimely Death, Disturbance of Rest"
-	boons = "You may see the presence of a soul in a body."
+	desc = PLACEHOLDER_PATRON_REBRANDING
+	domain = PLACEHOLDER_PATRON_REBRANDING
+	flaws = PLACEHOLDER_PATRON_REBRANDING
+	worshippers = PLACEHOLDER_PATRON_REBRANDING
+	sins = PLACEHOLDER_PATRON_REBRANDING
+	boons = PLACEHOLDER_PATRON_REBRANDING
 	added_traits = list(TRAIT_SOUL_EXAMINE)
 	devotion_holder = /datum/devotion/divine/valdala
 	confess_lines = list(
-		"ALL SOULS FIND THEIR WAY TO VALDALA!",
-		"THE UNDERMAIDEN IS OUR FINAL REPOSE!",
-		"I FEAR NOT DEATH, MY LADY AWAITS ME!",
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
 	)
 	storyteller = /datum/storyteller/valdala
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/valdala
 
 /datum/patron/divine/mordsol
 	name = MORDSOL
-	domain = "God of Warfare, Justice, and Bravery"
-	desc = "Crafted from the blade of Angros, a champion of all who seek righteousness for themselves and others."
-	flaws = "Carelessness, Aggression, Pride"
-	worshippers = "Warriors, Sellswords, Guardsmen"
-	sins = "Cowardice, Cruelty, Stagnation"
-	boons = "Your used weapons dull slower."
+	desc = PLACEHOLDER_PATRON_REBRANDING
+	domain = PLACEHOLDER_PATRON_REBRANDING
+	flaws = PLACEHOLDER_PATRON_REBRANDING
+	worshippers = PLACEHOLDER_PATRON_REBRANDING
+	sins = PLACEHOLDER_PATRON_REBRANDING
+	boons = PLACEHOLDER_PATRON_REBRANDING
 	added_traits = list(TRAIT_SHARPER_BLADES)
 	devotion_holder = /datum/devotion/divine/mordsol
 	confess_lines = list(
-		"MORDSOL IS JUSTICE!",
-		"THROUGH STRIFE, GRACE!",
-		"THE DRUMS OF WAR BEAT IN MY CHEST!",
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
 	)
 	storyteller = /datum/storyteller/mordsol
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/mordsol
 
 /datum/patron/divine/iliope
 	name = ILIOPE
-	domain = "Deity of Trickery, Freedom, and Inspiration"
-	desc = "Crafted from the silver tongue of Angros. Iliope is a force of change and deceit, yet allows little known of their gender let alone presence."
-	flaws = "Petulance, Deception, Gambling-Prone"
-	worshippers = "Cheats, Performers, The Hopeless"
-	sins = "Boredom, Predictability, Routine"
-	boons = "You can rig different forms of gambling in your favor."
+	desc = PLACEHOLDER_PATRON_REBRANDING
+	domain = PLACEHOLDER_PATRON_REBRANDING
+	flaws = PLACEHOLDER_PATRON_REBRANDING
+	worshippers = PLACEHOLDER_PATRON_REBRANDING
+	sins = PLACEHOLDER_PATRON_REBRANDING
+	boons = PLACEHOLDER_PATRON_REBRANDING
 	added_traits = list(TRAIT_BLACKLEG)
 	devotion_holder = /datum/devotion/divine/iliope
 	confess_lines = list(
-		"VISIRES IS MY LIGHT!",
-		"AKAN FLIES FREE AND TOO FAR FROM ME!",
-		"GANI PROVIDES!",
-		"GOLER KANH IS MY MUSE!",
-		"MJALLIDHORN IS MY TERROR!",
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
 	)
 	storyteller = /datum/storyteller/iliope
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/iliope
 
 /datum/patron/divine/erdl
 	name = ERDL
-	domain = "Goddess of Disease, Alchemy, and Medicine"
-	desc = "A mistake; Angros's intestines left behind. She slithered out, bringing forth the cycle of life and decay."
-	flaws = "Drunkenness, Crudeness, Irresponsibility"
-	worshippers = "The Ill and Infirm, Alchemists, Physicians"
-	sins = "´Curing´ Abnormalities, Refusing to Help Unfortunates, Groveling"
-	boons = "You may consume rotten food without being sick."
+	desc = PLACEHOLDER_PATRON_REBRANDING
+	domain = PLACEHOLDER_PATRON_REBRANDING
+	flaws = PLACEHOLDER_PATRON_REBRANDING
+	worshippers = PLACEHOLDER_PATRON_REBRANDING
+	sins = PLACEHOLDER_PATRON_REBRANDING
+	boons = PLACEHOLDER_PATRON_REBRANDING
 	added_traits = list(TRAIT_ROT_EATER)
 	devotion_holder = /datum/devotion/divine/erdl
 	confess_lines = list(
-		"ERDL SOOTHES ALL ILLS!",
-		"DECAY IS A CONTINUATION OF LIFE!",
-		"MY AFFLICTION IS MY TESTAMENT!",
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
 	)
 	storyteller = /datum/storyteller/erdl
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/erdl
@@ -212,36 +210,36 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 
 /datum/patron/divine/golerkanh
 	name = GOLERKANH
-	domain = "God of Toil, Innovation, and Creation"
-	desc = "Crafted from the hands of Angros. He would later use his own to construct wondrous inventions."
-	flaws = "Obsessive, Exacting, Overbearing"
-	worshippers = "Smiths, Miners, Sculptors"
-	sins = "Cheating, Shoddy Work, Suicide"
-	boons = "You recover more energy when sleeping."
+	desc = PLACEHOLDER_PATRON_REBRANDING
+	domain = PLACEHOLDER_PATRON_REBRANDING
+	flaws = PLACEHOLDER_PATRON_REBRANDING
+	worshippers = PLACEHOLDER_PATRON_REBRANDING
+	sins = PLACEHOLDER_PATRON_REBRANDING
+	boons = PLACEHOLDER_PATRON_REBRANDING
 	added_traits = list(TRAIT_BETTER_SLEEP)
 	devotion_holder = /datum/devotion/divine/golerkanh
 	confess_lines = list(
-		"GOLERKANH IS MY FORGE!",
-		"TRUE VALUE IS IN THE TOIL!",
-		"I AM AN INSTRUMENT OF CREATION!",
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
 	)
 	storyteller = /datum/storyteller/golerkanh
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/golerkanh
 
 /datum/patron/divine/pomette
 	name = POMETTE
-	domain = "Goddess of Love, Family, and Art"
-	desc = "Crafted from the heart of Angros, a spreader of love and beauty, and strengthener of bonds."
-	flaws= "Naivete, Impulsiveness, Bigotry"
-	worshippers = "Mothers, Artists, Married Couples"
-	sins = "Sadism, Abandonment, Ruining Beauty"
-	boons = "You can understand others' needs better."
+	desc = PLACEHOLDER_PATRON_REBRANDING
+	domain = PLACEHOLDER_PATRON_REBRANDING
+	flaws = PLACEHOLDER_PATRON_REBRANDING
+	worshippers = PLACEHOLDER_PATRON_REBRANDING
+	sins = PLACEHOLDER_PATRON_REBRANDING
+	boons = PLACEHOLDER_PATRON_REBRANDING
 	added_traits = list(TRAIT_EXTEROCEPTION)
 	devotion_holder = /datum/devotion/divine/pomette
 	confess_lines = list(
-		"POMETTE BRINGS US TOGETHER!",
-		"HER BEAUTY IS EVEN IN THIS TORMENT!",
-		"I LOVE YOU, EVEN AS YOU TRESPASS AGAINST ME!",
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
 	)
 	storyteller = /datum/storyteller/pomette
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/pomette

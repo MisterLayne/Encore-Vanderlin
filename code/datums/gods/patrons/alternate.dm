@@ -3,6 +3,7 @@
 	associated_faith = /datum/faith/alternate
 
 //no idea what any of this is but it all needs swapped out anyway so placeholder time
+//Wurm can become Nidhogg perhaps, given the relation to dwarves
 /datum/patron/alternate/wurm
 	name = "The Wurm"
 	desc = PLACEHOLDER_PATRON_REBRANDING
@@ -21,6 +22,8 @@
 
 	allowed_races = list(SPEC_ID_DWARF_SUBTERRAN)
 
+//round and round we goooooo
+//Honestly this patron is so cool I don't actually intend to overwrite or remove it at all.
 /datum/patron/alternate/great_hunt
 	name = "The Great Hunt"
 	display_name = "The Great Hunt (Unproven)"

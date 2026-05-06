@@ -103,7 +103,7 @@ GLOBAL_LIST_INIT(traits_by_type, list(
 		"Blessing of Valdala" = TRAIT_SOUL_EXAMINE,
 		"Blessing of The Hunt" = TRAIT_MANEATER_IMMUNITY,
 		"Vinewalker" = TRAIT_ENTANGLER_IMMUNITY,
-		"Enlightened Centrist" = TRAIT_DIVINE_CENTRIST,
+		"Enlightened Elementalist" = TRAIT_DIVINE_CENTRIST,
 		"Divine Servant" = TRAIT_DIVINE_SERVANT,
 		"Divine Convert" = TRAIT_DIVINE_CONVERT,
 		"Golden Blood" = TRAIT_SEEPRICES,

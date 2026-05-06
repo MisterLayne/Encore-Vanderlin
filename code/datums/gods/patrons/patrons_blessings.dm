@@ -193,18 +193,18 @@
 
 		/// Hertannea
 		/datum/patron/inhumen/hertannea = list(
-			/datum/status_effect/buff/beastsense = "Hertannea shrieks: \"See it! Smell it! Rip it apart! Or hug it! Both are valid!\"",
-			/datum/status_effect/buff/trollshape = "Hertannea howls: \"Perfect. You’re gonna cause SUCH a scene!\"",
-			/datum/status_effect/buff/divine_beauty = "Hertannea swoons: \"Beauty fit for a queen. I'd know.\"",
-			/datum/status_effect/buff/call_to_arms = "Hertannea cackles: \"Ready to finally have some FUN?\"",
-			/datum/status_effect/buff/craft_buff = "Hertannea snorts: \"Glue it wrong? Regardless of if it works, it’s ART!\"",
-			/datum/status_effect/buff/foodbuff = "Hertannea hoots: \"Eat it, snort it! What could go wrong?\"",
-			/datum/status_effect/buff/clean_plus = "Hertannea coughs: \"CLEAN? Hah! Let’s see how long it lasts, little neat freak. Have some fuuun!\"",
-			/datum/status_effect/buff/featherfall = "Hertannea sings: \"Don't wanna live in fear and loathing; I wanna feel like I am floating.\"",
-			/datum/status_effect/buff/darkvision = "Hertannea giggles: \"Oooo, secrets! Don’t blink or you’ll miss the eyes!\"",
-			/datum/status_effect/buff/haste = "Hertannea screams: \"Dance like nobody cares! They don't! But I do. You're beautiful, darling. Beautiful.\"",
-			/datum/status_effect/buff/calm = "Hertannea reassures: \"Sink into the serenity of mindlessness. I'm here for you, when no-one else is.\"",
-			/datum/status_effect/buff/barbrage = "Hertannea squeals: \"BREAK SOMETHING BEAUTIFUL! Be someone beautiful. It’s therapeutic!\""
+			/datum/status_effect/buff/beastsense = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/trollshape = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/divine_beauty = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/call_to_arms = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/craft_buff = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/foodbuff = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/clean_plus = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/featherfall = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/darkvision = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/haste = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/calm = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/barbrage = PLACEHOLDER_PATRON_REBRANDING
 		),
 
 		/// Gani
@@ -225,162 +225,162 @@
 
 		/// Pomette
 		/datum/patron/divine/pomette = list(
-			/datum/status_effect/buff/beastsense = "Pomette whispers: \"Even the beasts know love's call.\"",
-			/datum/status_effect/buff/trollshape = "Pomette coos: \"Strong arms, tender heart.\"",
-			/datum/status_effect/buff/divine_beauty = "Pomette smiles: \"You shine, beloved. All gaze upon you with wonder.\"",
-			/datum/status_effect/buff/call_to_arms = "Pomette urges: \"Fight for love. For them.\"",
-			/datum/status_effect/buff/craft_buff = "Pomette hums: \"Hands that build with love make wonders eternal.\"",
-			/datum/status_effect/buff/foodbuff = "Pomette sings: \"Eat well, my sweet. Love fuels you.\"",
-			/datum/status_effect/buff/clean_plus = "Pomette beams: \"I wash away your hurts, my dear.\"",
-			/datum/status_effect/buff/featherfall = "Pomette hums: \"Softly now. I hold you.\"",
-			/datum/status_effect/buff/darkvision = "Pomette comforts: \"See even where light fears to go.\"",
-			/datum/status_effect/buff/haste = "Pomette nudges: \"Hurry, beloved. They wait for you.\"",
-			/datum/status_effect/buff/calm = "Pomette soothes: \"Hush... Breathe... You are safe.\"",
-			/datum/status_effect/buff/barbrage = "Pomette whispers: \"Love rages too. Protect what’s yours.\""
+			/datum/status_effect/buff/beastsense = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/trollshape = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/divine_beauty = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/call_to_arms = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/craft_buff = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/foodbuff = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/clean_plus = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/featherfall = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/darkvision = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/haste = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/calm = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/barbrage = PLACEHOLDER_PATRON_REBRANDING
 		),
 
 		/// Archdevil
 		/datum/patron/inhumen/archdevils = list(
-			/datum/status_effect/buff/beastsense = "Archdevil growls: \"Sniff it. Smell the fear, thu fool.\"",
-			/datum/status_effect/buff/trollshape = "Archdevil roars: \"Meat swells. Thu strong. Thu crush now.\"",
-			/datum/status_effect/buff/divine_beauty = "Archdevil spits: \"Pah! Pretty? WASTE! Git bloody, thu fole!\"",
-			/datum/status_effect/buff/call_to_arms = "Archdevil bellows: \"Raise swerd. Kill 'em fast. Or die, weakling!\"",
-			/datum/status_effect/buff/craft_buff = "Archdevil smirks: \"Build? HA! Smash it till 'tis strong!\"",
-			/datum/status_effect/buff/foodbuff = "Archdevil snorts: \"Meat good. Git strong.\"",
-			/datum/status_effect/buff/clean_plus = "Archdevil spits: \"Clean? Bah. Mud good fer ya.\"",
-			/datum/status_effect/buff/featherfall = "Archdevil snorts: \"Pah! Drop faster next time.\"",
-			/datum/status_effect/buff/darkvision = "Archdevil huffs: \"See 'em hidin'. Then kill 'em.\"",
-			/datum/status_effect/buff/haste = "Archdevil yells: \"Fast now! Get killin'!\"",
-			/datum/status_effect/buff/calm = "Archdevil grumbles: \"Pff. Calm’s fer weaklings.\"",
-			/datum/status_effect/buff/barbrage = "Archdevil roars: \"RAAAGH! Smash 'em flat!\""
+			/datum/status_effect/buff/beastsense = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/trollshape = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/divine_beauty = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/call_to_arms = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/craft_buff = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/foodbuff = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/clean_plus = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/featherfall = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/darkvision = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/haste = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/calm = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/barbrage = PLACEHOLDER_PATRON_REBRANDING
 		),
 
 		/// Goler Kanh
 		/datum/patron/divine/golerkanh = list(
-			/datum/status_effect/buff/beastsense = "Goler Kanh grunts: \"Even beasts know CRAFT. So should you.\"",
-			/datum/status_effect/buff/trollshape = "Goler Kanh states: \"Strong arms make stronger tools.\"",
-			/datum/status_effect/buff/divine_beauty = "Goler Kanh hammers: \"Beauty fades. STEEL remains.\"",
-			/datum/status_effect/buff/call_to_arms = "Goler Kanh intones: \"Hammer strikes. Blood flows. This is labor's price.\"",
-			/datum/status_effect/buff/craft_buff = "Goler Kanh orders: \"Work HARDER. Or break.\"",
-			/datum/status_effect/buff/foodbuff = "Goler Kanh grunts: \"Eat. FUEL the forge within.\"",
-			/datum/status_effect/buff/clean_plus = "Goler Kanh nods: \"Clean steel, good steel.\"",
-			/datum/status_effect/buff/featherfall = "Goler Kanh mutters: \"Floatin’s for feathers... not IRON.\"",
-			/datum/status_effect/buff/darkvision = "Goler Kanh growls: \"See what lurks. Strike it down.\"",
-			/datum/status_effect/buff/haste = "Goler Kanh commands: \"Faster. The FORGE waits not.\"",
-			/datum/status_effect/buff/calm = "Goler Kanh states: \"Temper your rage. FORGE it right.\"",
-			/datum/status_effect/buff/barbrage = "Goler Kanh snarls: \"Unleash it. Strike like the hammer.\""
+			/datum/status_effect/buff/beastsense = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/trollshape = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/divine_beauty = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/call_to_arms = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/craft_buff = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/foodbuff = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/clean_plus = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/featherfall = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/darkvision = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/haste = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/calm = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/barbrage = PLACEHOLDER_PATRON_REBRANDING
 		),
 
 		/// Deceivers
 		/datum/patron/inhumen/deceivers = list(
-			/datum/status_effect/buff/beastsense = "Deceivers laughs: \"Sniff it out, lad. Something worth stealing.\"",
-			/datum/status_effect/buff/trollshape = "Deceivers grins: \"Ugly sells well in some towns, friend.\"",
-			/datum/status_effect/buff/divine_beauty = "Deceivers smirks: \"Pretty coin, pretty face... both stolen easy.\"",
-			/datum/status_effect/buff/call_to_arms = "Deceivers shouts: \"Fight dirty. Win rich.\"",
-			/datum/status_effect/buff/craft_buff = "Deceivers shrugs: \"Build fast. Sell faster.\"",
-			/datum/status_effect/buff/foodbuff = "Deceivers grins: \"Eat now... pay later.\"",
-			/datum/status_effect/buff/clean_plus = "Deceivers cackles: \"Cleaned up nice... for a mark.\"",
-			/datum/status_effect/buff/featherfall = "Deceivers chuckles: \"Fall soft... means you live to steal again.\"",
-			/datum/status_effect/buff/darkvision = "Deceivers winks: \"See the dark? Hide better.\"",
-			/datum/status_effect/buff/haste = "Deceivers shouts: \"Quick hands win riches.\"",
-			/datum/status_effect/buff/calm = "Deceivers smirks: \"Calm? Nah, means they don’t see you comin'.\"",
-			/datum/status_effect/buff/barbrage = "Deceivers yells: \"Break stuff. Blame someone else!\""
+			/datum/status_effect/buff/beastsense = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/trollshape = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/divine_beauty = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/call_to_arms = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/craft_buff = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/foodbuff = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/clean_plus = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/featherfall = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/darkvision = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/haste = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/calm = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/barbrage = PLACEHOLDER_PATRON_REBRANDING
 		),
 
 		/// Valdala
 		/datum/patron/divine/valdala = list(
-			/datum/status_effect/buff/beastsense = "Valdala murmurs: \"The grave knows your scent... and waits.\"",
-			/datum/status_effect/buff/trollshape = "Valdala hums: \"Mass returns to earth. Let the soil remember you.\"",
-			/datum/status_effect/buff/divine_beauty = "Valdala whispers: \"Even beauty rots. But for now... wear it.\"",
-			/datum/status_effect/buff/call_to_arms = "Valdala states: \"Raise thy blade. All paths end the same.\"",
-			/datum/status_effect/buff/craft_buff = "Valdala sighs: \"All things break. Make them, even so.\"",
-			/datum/status_effect/buff/foodbuff = "Valdala croons: \"Feast whilst thou breathe. The hunger ends soon.\"",
-			/datum/status_effect/buff/clean_plus = "Valdala sighs: \"Thou mayest wash flesh... but not its fate.\"",
-			/datum/status_effect/buff/featherfall = "Valdala hums: \"Fall gently. The earth shall catch thee.\"",
-			/datum/status_effect/buff/darkvision = "Valdala whispers: \"The dark is not empty. It welcomes.\"",
-			/datum/status_effect/buff/haste = "Valdala murmurs: \"Quickly now. Time thins beneath thy feet.\"",
-			/datum/status_effect/buff/calm = "Valdala soothes: \"Rest... the silence shall come for all.\"",
-			/datum/status_effect/buff/barbrage = "Valdala intones: \"Rage, if thy must. The dead are silent, but not still.\""
+			/datum/status_effect/buff/beastsense = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/trollshape = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/divine_beauty = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/call_to_arms = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/craft_buff = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/foodbuff = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/clean_plus = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/featherfall = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/darkvision = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/haste = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/calm = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/barbrage = PLACEHOLDER_PATRON_REBRANDING
 		),
 
 		/// Akan
 		/datum/patron/divine/akan = list(
-			/datum/status_effect/buff/beastsense = "Akan pondereth: \"The nite sees what the day fears.\"",
-			/datum/status_effect/buff/trollshape = "Akan museth: \"Moonlight swells thy shape...\"",
-			/datum/status_effect/buff/divine_beauty = "Akan murmureth: \"A fabulous dress fixes anyone. For now, have this.\"",
-			/datum/status_effect/buff/call_to_arms = "Akan fadeth: \"There lies enemies of discovery. Remove them.\"",
-			/datum/status_effect/buff/craft_buff = "Akan breatheth: \"Build in secret. None must know.\"",
-			/datum/status_effect/buff/foodbuff = "Akan museth: \"A shrewd mind requires healthy appetite.\"",
-			/datum/status_effect/buff/clean_plus = "Akan museth: \"Moonlight cleans better than the sun ever may.\"",
-			/datum/status_effect/buff/featherfall = "Akan whispereth: \"Float, like silver strands through the wind.\"",
-			/datum/status_effect/buff/darkvision = "Akan offereth: \"See through the nite.\"",
-			/datum/status_effect/buff/haste = "Akan murmureth: \"Move as quickly as the pages turn.\"",
-			/datum/status_effect/buff/calm = "Akan sootheth: \"Calm thyself... think of gotes leaping over the moon.\"",
-			/datum/status_effect/buff/barbrage = "Akan commandeth: \"Feel the power of strengthened magick flow through thyself.\""
+			/datum/status_effect/buff/beastsense = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/trollshape = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/divine_beauty = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/call_to_arms = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/craft_buff = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/foodbuff = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/clean_plus = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/featherfall = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/darkvision = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/haste = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/calm = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/barbrage = PLACEHOLDER_PATRON_REBRANDING
 		),
 
 		/// Erdl
 		/datum/patron/divine/erdl = list(
-			/datum/status_effect/buff/beastsense = "Erdl bemuses: \"Sniff it. Identify its substance— not that cycles of rot would harm you.\"",
-			/datum/status_effect/buff/trollshape = "Erdl wheezes: \"Thick skin, bad breath. You’re a fascinating specimen.\"",
-			/datum/status_effect/buff/divine_beauty = "Erdl muses: \"Unblemished... Curious. Beauty often masks the most virulent flaws.\"",
-			/datum/status_effect/buff/call_to_arms = "Erdl howls: \"Some bones must be broken before one may mend them.\"",
-			/datum/status_effect/buff/craft_buff = "Erdl giggles: \"Change is divine. One compound into another— chaos with purpose.\"",
-			/datum/status_effect/buff/foodbuff = "Erdl comments: \"Be nourished. Spoilage is just misunderstood fermentation.\"",
-			/datum/status_effect/buff/clean_plus = "Erdl scoffs: \"Cleanliness? Temporary at best. Let’s see how long it lasts.\"",
-			/datum/status_effect/buff/featherfall = "Erdl hiccups: \"You sink through water but fall through air. What if we reversed this?\"",
-			/datum/status_effect/buff/darkvision = "Erdl lectures: \"Germs are not limited by darkness.\"",
-			/datum/status_effect/buff/haste = "Erdl snaps: \"Faster now! Spores don’t wait to bloom.\"",
-			/datum/status_effect/buff/calm = "Erdl whispers: \"Stillness... Let the fever sleep awhile.\"",
-			/datum/status_effect/buff/barbrage = "Erdl shrieks: \"Destruction is yet another form of change.\""
+			/datum/status_effect/buff/beastsense = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/trollshape = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/divine_beauty = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/call_to_arms = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/craft_buff = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/foodbuff = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/clean_plus = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/featherfall = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/darkvision = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/haste = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/calm = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/barbrage = PLACEHOLDER_PATRON_REBRANDING
 		),
 
 		/// Mordsol
 		/datum/patron/divine/mordsol = list(
-			/datum/status_effect/buff/beastsense = "Mordsol growls: \"Smell your enemy. Hunt them down with purpose.\"",
-			/datum/status_effect/buff/trollshape = "Mordsol commands: \"Let might serve justice. Let strength carry duty.\"",
-			/datum/status_effect/buff/divine_beauty = "Mordsol declares: \"Wear your glory well, warrior. Let honor shine brighter.\"",
-			/datum/status_effect/buff/call_to_arms = "Mordsol bellows: \"To war! You've got this, kid.\"",
-			/datum/status_effect/buff/craft_buff = "Mordsol nods: \"Forge victory with your hands. Let each blow ring true.\"",
-			/datum/status_effect/buff/foodbuff = "Mordsol grunts: \"Eat. Even the strong must endure the march.\"",
-			/datum/status_effect/buff/clean_plus = "Mordsol commands: \"Clean your blade. We should not revel in blood we spill.\"",
-			/datum/status_effect/buff/featherfall = "Mordsol comments: \"Even the bold must fall with grace.\"",
-			/datum/status_effect/buff/darkvision = "Mordsol growls: \"See the coward. Bring them to justice.\"",
-			/datum/status_effect/buff/haste = "Mordsol barks: \"Swift feet carry righteous blades.\"",
-			/datum/status_effect/buff/calm = "Mordsol grunts: \"Still your heart. The battle shall come.\"",
-			/datum/status_effect/buff/barbrage = "Mordsol roars: \"BE FILLED WITH RIGHTEOUS ANGER!\""
+			/datum/status_effect/buff/beastsense = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/trollshape = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/divine_beauty = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/call_to_arms = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/craft_buff = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/foodbuff = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/clean_plus = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/featherfall = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/darkvision = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/haste = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/calm = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/barbrage = PLACEHOLDER_PATRON_REBRANDING
 		),
 
 		/// Iliope
 		/datum/patron/divine/iliope = list(
-			/datum/status_effect/buff/beastsense = "Iliope laughs: \"Sniff sniff! What's behind that tree? Chaos, I hope!\"",
-			/datum/status_effect/buff/trollshape = "Iliope grins: \"Big, dumb, and hilarious. Perfect.\"",
-			/datum/status_effect/buff/divine_beauty = "Iliope cackles: \"Shiny! Pretty! Now trip over it!\"",
-			/datum/status_effect/buff/call_to_arms = "Iliope shouts: \"Time for a fun fight. Maybe you'll win. Maybe not!\"",
-			/datum/status_effect/buff/craft_buff = "Iliope winks: \"Stack it wrong. Bet it still works!\"",
-			/datum/status_effect/buff/foodbuff = "Iliope giggles: \"Eat that. Could be poison!\"",
-			/datum/status_effect/buff/clean_plus = "Iliope chuckles: \"Clean now. Mess later.\"",
-			/datum/status_effect/buff/featherfall = "Iliope howls: \"Whee! Hope ya bounce!\"",
-			/datum/status_effect/buff/darkvision = "Iliope snickers: \"Ooo... spooky. Boo!\"",
-			/datum/status_effect/buff/haste = "Iliope screams: \"FAST! Trip 'em!\"",
-			/datum/status_effect/buff/calm = "Iliope hums: \"Calm... until it ain’t.\"",
-			/datum/status_effect/buff/barbrage = "Iliope roars: \"Break it! Then break it twice!\""
+			/datum/status_effect/buff/beastsense = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/trollshape = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/divine_beauty = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/call_to_arms = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/craft_buff = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/foodbuff = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/clean_plus = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/featherfall = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/darkvision = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/haste = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/calm = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/barbrage = PLACEHOLDER_PATRON_REBRANDING
 		),
 
 		/// One Envy
 		/datum/patron/inhumen/zizo = list(
-			/datum/status_effect/buff/beastsense = "One Envy hisses: \"They crawl. They beg. They are prey, inferior. Hunt them.\"",
-			/datum/status_effect/buff/trollshape = "One Envy croons: \"This form? Power. Strength. Craft your flesh. This is my gift.\"",
-			/datum/status_effect/buff/divine_beauty = "One Envy sneers: \"They shall kneel before this visage. And they shall weep.\"",
-			/datum/status_effect/buff/call_to_arms = "One Envy commands: \"Fight. Break them. Show the strength and cunning of your queen.\"",
-			/datum/status_effect/buff/craft_buff = "One Envy states: \"Strong. Flexible Show the craft is worthy. Weave flesh like linen.\"",
-			/datum/status_effect/buff/foodbuff = "One Envy smirks: \"Eat. Power grows.\"",
-			/datum/status_effect/buff/clean_plus = "One Envy sneers: \"Clean. Now you are worthy of gaze.\"",
-			/datum/status_effect/buff/featherfall = "One Envy hisses: \"Float above them. They are beneath us.\"",
-			/datum/status_effect/buff/darkvision = "One Envy purrs: \"See what they hide. See all.\"",
-			/datum/status_effect/buff/haste = "One Envy commands: \"Move. Do not stumble. Do not fail me.\"",
-			/datum/status_effect/buff/calm = "One Envy whispers: \"Calm now. Wait for your opportunity to strike.\"",
-			/datum/status_effect/buff/barbrage = "One Envy roars: \"Rend them. Show this strength!\""
+			/datum/status_effect/buff/beastsense = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/trollshape = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/divine_beauty = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/call_to_arms = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/craft_buff = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/foodbuff = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/clean_plus = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/featherfall = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/darkvision = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/haste = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/calm = PLACEHOLDER_PATRON_REBRANDING,
+			/datum/status_effect/buff/barbrage = PLACEHOLDER_PATRON_REBRANDING
 		)
 	)
 

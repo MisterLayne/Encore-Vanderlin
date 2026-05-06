@@ -511,8 +511,7 @@ GLOBAL_LIST_EMPTY(letters_sent)
 		switch(subject?.patron.type)
 			if(/datum/patron/inhumen/deceivers, /datum/patron/inhumen/zizo, /datum/patron/inhumen/archdevils,
 			   /datum/patron/inhumen/hertannea, /datum/patron/godless/godless, /datum/patron/godless/autotheist,
-			   /datum/patron/godless/defiant, /datum/patron/godless/dystheist, /datum/patron/godless/rashan,
-			   /datum/patron/godless/galadros)
+			   /datum/patron/godless/defiant, /datum/patron/godless/dystheist)
 				is_correct = TRUE
 
 	// Check excommunication

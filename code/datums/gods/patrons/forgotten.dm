@@ -1,19 +1,19 @@
 /datum/patron/angros
 	name = "Angros"
-	display_name = "Orthodox Angrosian"
-	domain = "God of Humenity, Dreams and Creation"
-	desc = "Deceased, slain by Valdala in His final moments. She ripped His body apart to create The Ten... we must put Him back together again. Angros lives on, He will return."
-	flaws = "Grudge-Holding, Judgemental, Self-Sacrificing"
-	worshippers = "Grenzelhoftians, Inquisitors, Heroes"
-	sins = "Apostasy, Demon Worship, Betraying thy Father"
-	boons = "None. His power is divided."
+	display_name = "Absolutionist Angrosian"
+	desc = PLACEHOLDER_PATRON_REBRANDING
+	domain = PLACEHOLDER_PATRON_REBRANDING
+	flaws = PLACEHOLDER_PATRON_REBRANDING
+	worshippers = PLACEHOLDER_PATRON_REBRANDING
+	sins = PLACEHOLDER_PATRON_REBRANDING
+	boons = PLACEHOLDER_PATRON_REBRANDING
 
 	associated_faith = /datum/faith/angros
 
 	confess_lines = list(
-		"THERE IS ONLY ONE TRUE GOD!",
-		"THE SUCCESSORS HALT HIS RETURN!",
-		"ANGROS WILL RETURN!",
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
 	)
 
 /datum/patron/angros/can_pray(mob/living/carbon/human/follower)
@@ -23,19 +23,19 @@
 		)
 		return TRUE
 
-	to_chat(follower, span_danger("I can not talk to Him... I need His cross!"))
+	to_chat(follower, span_danger("I can not talk to Him... I need His idol!"))
 	return FALSE
 
 /datum/patron/angros/extremist
-	display_name = "Extremist Angrosian"
-	desc = "The Ten are conmen, false prophets, and heathens. The acts of the Tennite church are all tricks to beguile the mind and dissuade you from following the true path of Angros. My actions prove my faith and His strength. Angros lives, and you cannot convince me otherwise."
-	flaws = "Stubborn, Fanatical, Spiteful"
-	worshippers = "Fanatics, Misinformed Fools"
-	sins = "Blasphemy, False Prophets, Trickery"
+	display_name = "Salvationist Angrosian"
+	desc = PLACEHOLDER_PATRON_REBRANDING
+	flaws = PLACEHOLDER_PATRON_REBRANDING
+	worshippers = PLACEHOLDER_PATRON_REBRANDING
+	sins = PLACEHOLDER_PATRON_REBRANDING
 	confess_lines = list(
-		"THERE IS ONLY ONE GOD!",
-		"YOUR FALSE TEN ARE LIES!",
-		"ANGROS LIVES!",
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
 	)
 
 

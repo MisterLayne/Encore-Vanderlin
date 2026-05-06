@@ -185,9 +185,9 @@
 		// Cabal
 		if(HAS_TRAIT(user, TRAIT_CABAL) && (istype(patron, /datum/patron/inhumen/zizo) || HAS_TRAIT(src, TRAIT_CABAL)))
 			. += span_purple("A fellow seeker of Her ascension.")
-		// Centrist
+		// Elementalist
 		if(HAS_TRAIT(user, TRAIT_DIVINE_SERVANT) && (HAS_TRAIT(src, TRAIT_DIVINE_CENTRIST) && !HAS_TRAIT(src, TRAIT_DIVINE_SERVANT)))
-			. += SPAN_GOD_VISIRES("An 'Enlightened Centrist'. Shame!")
+			. += SPAN_GOD_VISIRES("An elementalist. A warrior of the balance itself...")
 
 		// The disgusing inquistion section
 		if(HAS_MIND_TRAIT(user, TRAIT_INQUISITION) && (real_name in GLOB.inquis_suspect_players))
