@@ -969,9 +969,9 @@
 	craftdiff = 3
 	category = "Cloak"
 
-/datum/repeatable_crafting_recipe/sewing/ravoxtemplar
-	name = "ravox surcoat (alt)"
-	output = /obj/item/clothing/cloak/stabard/templar/ravox
+/datum/repeatable_crafting_recipe/sewing/mordsoltemplar
+	name = "mordsol surcoat (alt)"
+	output = /obj/item/clothing/cloak/stabard/templar/mordsol
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3
@@ -1548,9 +1548,9 @@
 	craftdiff = 1
 	category = "Tabard"
 
-/datum/repeatable_crafting_recipe/sewing/ravox_tabard
-	name = "ravox tabard"
-	output = /obj/item/clothing/cloak/ravox
+/datum/repeatable_crafting_recipe/sewing/mordsol_tabard
+	name = "mordsol tabard"
+	output = /obj/item/clothing/cloak/mordsol
 	requirements = list(
 		/obj/item/natural/cloth = 2,
 		/obj/item/natural/fibers = 1

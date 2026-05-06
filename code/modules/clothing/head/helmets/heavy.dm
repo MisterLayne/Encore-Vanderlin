@@ -249,8 +249,8 @@
 	item_state = "malumhelm"
 	item_weight = 4.5 KILOGRAMS
 
-/obj/item/clothing/head/helmet/heavy/necked/ravox
-	name = "ravoxian helmet"
+/obj/item/clothing/head/helmet/heavy/necked/mordsol
+	name = "mordsolian helmet"
 	desc = "Headwear commonly worn by Templars in service to Mordsol. It resembles a heavily-adorned visored sallet."
 	icon_state = "ravoxhelm"
 	item_state = "ravoxhelm"

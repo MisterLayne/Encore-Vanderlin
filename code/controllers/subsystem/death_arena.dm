@@ -200,7 +200,7 @@ SUBSYSTEM_DEF(death_arena)
 	record_round_statistic(STATS_UNDERWORLD_DUELS)
 	SSdeath_arena.process_fight_end(item, user)
 
-/obj/structure/underworld/ravox
+/obj/structure/underworld/mordsol
 	name = "Mordsol"
 	desc = "Mordsol, God of Warfare, Justice, and Bravery. He finds solace in his friendship with Valdala and his retreat to the Underworld. Upon your gaze, he gives you a respectful nod. Damn, he's cool.."
 	icon = 'icons/roguetown/underworld/ravox.dmi'

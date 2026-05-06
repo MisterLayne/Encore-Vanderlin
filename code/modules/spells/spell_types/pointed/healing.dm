@@ -125,7 +125,7 @@
 					situational_bonus = 15
 				situational_blood += BLOOD_VOLUME_SURVIVE/2
 
-			if(/datum/patron/divine/ravox)
+			if(/datum/patron/divine/mordsol)
 				cast_on.visible_message(span_info("An air of righteous defiance rises near [cast_on]!"), span_notice("I'm filled with an urge to fight on!"))
 				situational_bonus = 0
 				// the bloodier the area around our cast_on is, the more we heal

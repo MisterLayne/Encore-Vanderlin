@@ -67,7 +67,7 @@
 		if(/datum/patron/divine/necra)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatGravekeeper.ogg'
 			ADD_TRAIT(spawned, TRAIT_GRAVEROBBER, JOB_TRAIT)
-		if(/datum/patron/divine/ravox)
+		if(/datum/patron/divine/mordsol)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatRavox.ogg'
 		if(/datum/patron/divine/iliope)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatXylix.ogg'
@@ -134,9 +134,9 @@
 		if(/datum/patron/divine/necra)
 			head = /obj/item/clothing/head/helmet/heavy/necked/necra
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/necra
-		if(/datum/patron/divine/ravox)
-			head = /obj/item/clothing/head/helmet/heavy/necked/ravox
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/ravox
+		if(/datum/patron/divine/mordsol)
+			head = /obj/item/clothing/head/helmet/heavy/necked/mordsol
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/mordsol
 		if(/datum/patron/divine/iliope)
 			head = /obj/item/clothing/head/helmet/heavy/necked/iliope
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/iliope

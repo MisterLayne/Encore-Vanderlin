@@ -3120,7 +3120,7 @@
 /obj/item/clothing/neck/shalal,
 /obj/item/clothing/neck/psycross/gold,
 /obj/item/clothing/neck/psycross/silver/divine/necra,
-/obj/item/clothing/neck/psycross/silver/divine/ravox,
+/obj/item/clothing/neck/psycross/silver/divine/mordsol,
 /turf/open/floor/wood,
 /area/indoors)
 "ri" = (
@@ -4618,9 +4618,9 @@
 /obj/item/clothing/ring/gold/guild_mercator,
 /obj/item/clothing/ring/gold/guild_mercator,
 /obj/item/clothing/ring/gold/guild_mercator,
-/obj/item/clothing/ring/gold/ravox,
-/obj/item/clothing/ring/gold/ravox,
-/obj/item/clothing/ring/gold/ravox,
+/obj/item/clothing/ring/gold/mordsol,
+/obj/item/clothing/ring/gold/mordsol,
+/obj/item/clothing/ring/gold/mordsol,
 /obj/item/clothing/ring/silver,
 /obj/item/clothing/ring/silver,
 /obj/item/clothing/ring/silver,

@@ -260,7 +260,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 	alignments = list(
 		/datum/patron/divine/gani = 1.2,
 		/datum/patron/divine/golerkanh = 0.5,
-		/datum/patron/divine/ravox = 1,
+		/datum/patron/divine/mordsol = 1,
 	)
 
 /datum/attunement/light
@@ -273,7 +273,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 		/datum/patron/divine/necra = 0.15,
 		/datum/patron/divine/iliope = 0.15,
 		/datum/patron/divine/pomette = 0.15,
-		/datum/patron/divine/ravox = 0.15,
+		/datum/patron/divine/mordsol = 0.15,
 	)
 
 /datum/attunement/dark

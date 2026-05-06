@@ -13,7 +13,7 @@
 
 /datum/objective/personal/ultimate_sacrifice/complete_objective()
 	. = ..()
-	adjust_storyteller_influence(RAVOX, 20)
+	adjust_storyteller_influence(MORDSOL, 20)
 
 /datum/objective/personal/ultimate_sacrifice/update_explanation_text()
 	explanation_text = "Make the highest sacrifice by giving your own life to save truly innocent and worthy soul in the name of Mordsol."

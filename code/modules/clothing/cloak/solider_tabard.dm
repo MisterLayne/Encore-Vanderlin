@@ -199,8 +199,8 @@
 	icon_state = "tabard_pestra"
 	item_state = "tabard_pestra"
 
-/obj/item/clothing/cloak/stabard/templar/ravox
-	name = "surcoat of the ravoxian order"
+/obj/item/clothing/cloak/stabard/templar/mordsol
+	name = "surcoat of the mordsolian order"
 	icon_state = "tabard_ravox"
 	item_state = "tabard_ravox"
 

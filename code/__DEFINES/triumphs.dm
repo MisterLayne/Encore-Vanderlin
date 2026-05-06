@@ -18,7 +18,7 @@
 
 #define TRIUMPH_BUY_VISIRES_INFLUENCE "visires_influence"
 #define TRIUMPH_BUY_NOC_INFLUENCE "noc_influence"
-#define TRIUMPH_BUY_RAVOX_INFLUENCE "ravox_influence"
+#define TRIUMPH_BUY_MORDSOL_INFLUENCE "mordsol_influence"
 #define TRIUMPH_BUY_MJALLIDHORN_INFLUENCE "mjallidhorn_influence"
 #define TRIUMPH_BUY_ILIOPE_INFLUENCE "iliope_influence"
 #define TRIUMPH_BUY_NECRA_INFLUENCE "necra_influence"
@@ -42,7 +42,7 @@
 #define TRIUMPH_BUY_NECRA_INFLUENCE_REDUCTION "necra_influence_reduction"
 #define TRIUMPH_BUY_ILIOPE_INFLUENCE_REDUCTION "iliope_influence_reduction"
 #define TRIUMPH_BUY_MJALLIDHORN_INFLUENCE_REDUCTION "mjallidhorn_influence_reduction"
-#define TRIUMPH_BUY_RAVOX_INFLUENCE_REDUCTION "ravox_influence_reduction"
+#define TRIUMPH_BUY_MORDSOL_INFLUENCE_REDUCTION "mordsol_influence_reduction"
 #define TRIUMPH_BUY_NOC_INFLUENCE_REDUCTION "noc_influence_reduction"
 #define TRIUMPH_BUY_VISIRES_INFLUENCE_REDUCTION "visires_influence_reduction"
 

@@ -327,7 +327,7 @@
 		/datum/attribute/skill/misc/swimming = 20
 	)
 
-/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/ravox
+/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/mordsol
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/polearms = 10
 	)
@@ -428,8 +428,8 @@
 		if(/datum/patron/divine/mjallidhorn)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/mjallidhorn)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAbyssor.ogg'
-		if(/datum/patron/divine/ravox)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/ravox)
+		if(/datum/patron/divine/mordsol)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/mordsol)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatRavox.ogg'
 		if(/datum/patron/divine/iliope)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/iliope)
@@ -481,8 +481,8 @@
 			neck = /obj/item/clothing/neck/psycross/silver/divine/gani
 		if(/datum/patron/divine/mjallidhorn)
 			neck = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
-		if(/datum/patron/divine/ravox)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/ravox
+		if(/datum/patron/divine/mordsol)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/mordsol
 		if(/datum/patron/divine/iliope)
 			neck = /obj/item/clothing/neck/psycross/silver/divine/iliope
 		if(/datum/patron/divine/golerkanh)

@@ -42,7 +42,7 @@
 		/datum/attribute/skill/craft/alchemy = 20
 	)
 
-/datum/attribute_holder/sheet/job/templar/patron/ravox
+/datum/attribute_holder/sheet/job/templar/patron/mordsol
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/swords = 40
 	)
@@ -171,8 +171,8 @@
 					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/pomette/rapier)
 				if("Close Caress (Knuckles)")
 					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/pomette/knuckles)
-		if(/datum/patron/divine/ravox)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/ravox)
+		if(/datum/patron/divine/mordsol)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/mordsol)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatRavox.ogg'
 		if(/datum/patron/divine/golerkanh)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/golerkanh)
@@ -245,11 +245,11 @@
 			head = /obj/item/clothing/head/helmet/sallet/pomettic
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/pomette
 			cloak = /obj/item/clothing/cloak/stabard/templar/pomette
-		if(/datum/patron/divine/ravox)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/ravox
-			head = /obj/item/clothing/head/helmet/heavy/necked/ravox
-			cloak = /obj/item/clothing/cloak/stabard/templar/ravox
-			backr = /obj/item/weapon/sword/long/ravox
+		if(/datum/patron/divine/mordsol)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/mordsol
+			head = /obj/item/clothing/head/helmet/heavy/necked/mordsol
+			cloak = /obj/item/clothing/cloak/stabard/templar/mordsol
+			backr = /obj/item/weapon/sword/long/mordsol
 		if(/datum/patron/divine/golerkanh)
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/golerkanh
 			head = /obj/item/clothing/head/helmet/heavy/necked/golerkanhhelm

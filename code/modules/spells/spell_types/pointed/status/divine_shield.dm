@@ -77,8 +77,8 @@
 	owner.heal_overall_damage(damage, damage)//Currently the closest option I have, I can't find a way to relay damage but also not take the damage.
 
 	if(COOLDOWN_FINISHED(src, message_cooldown))
-		to_chat(protector_mob, SPAN_GOD_RAVOX("Your divine shield reflects damage to you from [owner.real_name]."))
-		to_chat(owner, SPAN_GOD_RAVOX("Your divine shield reflects damage from you to [protector_mob.real_name]."))
+		to_chat(protector_mob, SPAN_GOD_MORDSOL("Your divine shield reflects damage to you from [owner.real_name]."))
+		to_chat(owner, SPAN_GOD_MORDSOL("Your divine shield reflects damage from you to [protector_mob.real_name]."))
 		COOLDOWN_START(src, message_cooldown, 5 SECONDS)
 
 /atom/movable/screen/alert/status_effect/buff/divine_shield

@@ -7,7 +7,7 @@
 	spell_type = SPELL_MIRACLE
 	antimagic_flags = MAGIC_RESISTANCE_HOLY
 	associated_skill = /datum/attribute/skill/magic/holy
-	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/ravox)
+	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/mordsol)
 
 	invocation = "Mordsol deems your persistence worthy!"
 	invocation_type = INVOCATION_SHOUT
@@ -64,7 +64,7 @@
 	if(!isliving(target))
 		return
 	var/mob/living/living_target = target
-	living_target.apply_status_effect(/datum/status_effect/debuff/ravox_burden)
+	living_target.apply_status_effect(/datum/status_effect/debuff/mordsol_burden)
 	living_target.visible_message(span_warning("The strike from [user]'s weapon causes [living_target] to go stiff!"), vision_distance = COMBAT_MESSAGE_RANGE)
 	qdel(src)
 
@@ -75,23 +75,23 @@
 		return
 	if(!istype(M.used_intent, INTENT_HARM))
 		return
-	H.apply_status_effect(/datum/status_effect/debuff/ravox_burden)
+	H.apply_status_effect(/datum/status_effect/debuff/mordsol_burden)
 	H.visible_message(span_warning("The strike from [M]'s fist causes [H] to go stiff!"), vision_distance = COMBAT_MESSAGE_RANGE)
 	qdel(src)
 
-/datum/status_effect/debuff/ravox_burden
-	id = "ravox_burden"
-	alert_type = /atom/movable/screen/alert/status_effect/debuff/ravox_burden
+/datum/status_effect/debuff/mordsol_burden
+	id = "mordsol_burden"
+	alert_type = /atom/movable/screen/alert/status_effect/debuff/mordsol_burden
 	effectedstats = list(STAT_SPEED = -2, STAT_ENDURANCE = -3)
 	duration = 12 SECONDS
 
-/datum/status_effect/debuff/ravox_burden/on_creation(mob/living/new_owner, ...)
+/datum/status_effect/debuff/mordsol_burden/on_creation(mob/living/new_owner, ...)
 	. = ..()
 	if(owner.mob_biotypes & MOB_UNDEAD)
 		effectedstats[STAT_SPEED] -= 1
 		effectedstats[STAT_ENDURANCE] -= 1
 
-/atom/movable/screen/alert/status_effect/debuff/ravox_burden
+/atom/movable/screen/alert/status_effect/debuff/mordsol_burden
 	name = "Mordsol's Burden"
 	desc = "My arms and legs are restrained by divine chains!"
 	icon_state = "restrained"

@@ -150,7 +150,7 @@
 		/datum/patron/divine/akan = list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/divine/necra = list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/divine/mjallidhorn = list(PLACEHOLDER_PATRON_REBRANDING),
-		/datum/patron/divine/ravox = list(PLACEHOLDER_PATRON_REBRANDING),
+		/datum/patron/divine/mordsol = list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/divine/erdl = list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/divine/pomette  =list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/divine/gani =list(PLACEHOLDER_PATRON_REBRANDING),

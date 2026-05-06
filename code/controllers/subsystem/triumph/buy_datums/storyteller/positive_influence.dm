@@ -69,10 +69,10 @@
 	triumph_buy_id = TRIUMPH_BUY_MJALLIDHORN_INFLUENCE
 	storyteller_name = MJALLIDHORN
 
-/datum/triumph_buy/storyteller_influence_bonus/ravox
+/datum/triumph_buy/storyteller_influence_bonus/mordsol
 	name = "Mordsol's Influence"
-	triumph_buy_id = TRIUMPH_BUY_RAVOX_INFLUENCE
-	storyteller_name = RAVOX
+	triumph_buy_id = TRIUMPH_BUY_MORDSOL_INFLUENCE
+	storyteller_name = MORDSOL
 
 /datum/triumph_buy/storyteller_influence_bonus/akan
 	name = "Akan's Influence"

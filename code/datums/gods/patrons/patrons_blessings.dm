@@ -17,7 +17,7 @@
 		if("Divine")
 			blessing_path = input("Choose Divine Blessing") as null|anything in list( \
 				/datum/status_effect/buff/akan, \
-				/datum/status_effect/buff/ravox, \
+				/datum/status_effect/buff/mordsol, \
 				/datum/status_effect/buff/beastsense, \
 				/datum/status_effect/buff/trollshape, \
 				/datum/status_effect/buff/divine_beauty, \
@@ -336,7 +336,7 @@
 		),
 
 		/// Mordsol
-		/datum/patron/divine/ravox = list(
+		/datum/patron/divine/mordsol = list(
 			/datum/status_effect/buff/beastsense = "Mordsol growls: \"Smell your enemy. Hunt them down with purpose.\"",
 			/datum/status_effect/buff/trollshape = "Mordsol commands: \"Let might serve justice. Let strength carry duty.\"",
 			/datum/status_effect/buff/divine_beauty = "Mordsol declares: \"Wear your glory well, warrior. Let honor shine brighter.\"",

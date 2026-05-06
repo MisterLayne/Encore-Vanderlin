@@ -236,24 +236,24 @@
 	REMOVE_TRAIT(wearer, TRAIT_ANTIMAGIC,"[REF(src)]")
 	REMOVE_TRAIT(wearer, TRAIT_SHOCKIMMUNE,"[REF(src)]")
 
-/obj/item/clothing/ring/gold/ravox
-	name = "ring of ravox"
+/obj/item/clothing/ring/gold/mordsol
+	name = "ring of mordsol"
 	desc = "Old ring, inscribed with arcyne words. Just being near it imbues you with otherworldly strength."
 	icon_state = "ring_ravox"
 
-/obj/item/clothing/ring/gold/ravox/equipped(mob/living/user, slot)
+/obj/item/clothing/ring/gold/mordsol/equipped(mob/living/user, slot)
 	. = ..()
 	if(user.mind)
 		if((slot & ITEM_SLOT_RING) && istype(user))
 			RegisterSignal(user, COMSIG_MOB_UNEQUIPPED_ITEM, PROC_REF(item_removed))
-			user.apply_status_effect(/datum/status_effect/buff/ravox)
+			user.apply_status_effect(/datum/status_effect/buff/mordsol)
 
-/obj/item/clothing/ring/gold/ravox/proc/item_removed(mob/living/carbon/wearer, obj/item/dropped_item)
+/obj/item/clothing/ring/gold/mordsol/proc/item_removed(mob/living/carbon/wearer, obj/item/dropped_item)
 	SIGNAL_HANDLER
 	if(dropped_item != src)
 		return
 	UnregisterSignal(wearer, COMSIG_MOB_UNEQUIPPED_ITEM)
-	wearer.remove_status_effect(/datum/status_effect/buff/ravox)
+	wearer.remove_status_effect(/datum/status_effect/buff/mordsol)
 
 /obj/item/clothing/ring/silver/calm
 	name = "soothing ring"

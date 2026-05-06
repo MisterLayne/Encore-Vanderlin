@@ -1,33 +1,33 @@
-/datum/round_event_control/ravox_resolve
-	name = "Ravox's Resolve"
+/datum/round_event_control/mordsol_resolve
+	name = "Mordsol's Resolve"
 	track = EVENT_TRACK_INTERVENTION
-	typepath = /datum/round_event/ravox_resolve
+	typepath = /datum/round_event/mordsol_resolve
 	weight = 8
 	earliest_start = 15 MINUTES
 	max_occurrences = 1
 	min_players = 30
-	dedicated_storytellers = list(/datum/storyteller/ravox)
+	dedicated_storytellers = list(/datum/storyteller/mordsol)
 	allowed_storytellers = DIVINE_STORYTELLERS
 
 	tags = list(
-		TAG_RAVOX,
+		TAG_MORDSOL,
 	)
 
-/datum/round_event_control/ravox_resolve/canSpawnEvent(players_amt, gamemode, fake_check)
+/datum/round_event_control/mordsol_resolve/canSpawnEvent(players_amt, gamemode, fake_check)
 	. = ..()
 	if(!.)
 		return FALSE
-	if(GLOB.patron_follower_counts[/datum/patron/divine/ravox::name] < 3)
+	if(GLOB.patron_follower_counts[/datum/patron/divine/mordsol::name] < 3)
 		return FALSE
 
-/datum/round_event/ravox_resolve/start()
+/datum/round_event/mordsol_resolve/start()
 	var/mob/living/carbon/human/weakest
 	var/weakest_stat
 	for(var/mob/living/carbon/human/human_mob in GLOB.player_list)
 		if(!istype(human_mob) || human_mob.stat == DEAD || !human_mob.client)
 			continue
 
-		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/divine/ravox))
+		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/divine/mordsol))
 			continue
 
 		if(!weakest)
@@ -43,13 +43,13 @@
 	if(!weakest)
 		return
 
-	weakest.adjust_stat_modifier(STATMOD_RAVOX_RESOLVE, list(
+	weakest.adjust_stat_modifier(STATMOD_MORDSOL_RESOLVE, list(
 		STAT_STRENGTH = 2,
 		STAT_ENDURANCE = 2,
 		STAT_CONSTITUTION =2,
 	))
-	if(is_ascendant(RAVOX))
-		weakest.adjust_stat_modifier(STATMOD_RAVOX_RESOLVE, list(
+	if(is_ascendant(MORDSOL))
+		weakest.adjust_stat_modifier(STATMOD_MORDSOL_RESOLVE, list(
 			STAT_PERCEPTION = 2,
 			STAT_INTELLIGENCE = 2,
 			STAT_SPEED = 2,
@@ -57,6 +57,6 @@
 		))
 
 	bordered_message(weakest, list(
-		span_green("You may be weak compared to your fellow warriors of justice, but still you persevere. Ravox honors those who fight even when victory seems impossible. May his gift of strength help you overcome the odds.")
+		span_green("You may be weak compared to your fellow warriors of justice, but still you persevere. Mordsol honors those who fight even when victory seems impossible. May his gift of strength help you overcome the odds.")
 	))
 	weakest.playsound_local(weakest, 'sound/vo/male/knight/rage (6).ogg', 70)

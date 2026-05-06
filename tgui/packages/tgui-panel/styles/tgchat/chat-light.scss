@@ -1312,14 +1312,14 @@ $border-width-px: $border-width * 1px;
 }
 /* ##### END ##### */
 
-/* ##### RAVOX ##### */
-.god_ravox {
+/* ##### MORDSOL ##### */
+.god_mordsol {
   color: hsl(8, 27%, 37%);
   font-weight: bold;
-  animation: ravox_flicker 1s infinite;
+  animation: mordsol_flicker 1s infinite;
 }
 
-@keyframes ravox_flicker {
+@keyframes mordsol_flicker {
 	25% {
 		color: hsl(8, 27%, 37%);
 	}

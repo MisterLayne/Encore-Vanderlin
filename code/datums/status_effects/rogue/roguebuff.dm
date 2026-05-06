@@ -310,14 +310,14 @@
 
 
 
-// ---------------------- DIVINE POWER ( RAVOX ) ----------------------------
-/datum/status_effect/buff/ravox
-	id = "ravoxbuff"
-	alert_type = /atom/movable/screen/alert/status_effect/buff/ravoxbuff
+// ---------------------- DIVINE POWER ( MORDSOL ) ----------------------------
+/datum/status_effect/buff/mordsol
+	id = "mordsolbuff"
+	alert_type = /atom/movable/screen/alert/status_effect/buff/mordsolbuff
 	effectedstats = list(STAT_CONSTITUTION = 1, STAT_ENDURANCE = 1, STAT_STRENGTH = 1)
 	duration = 240 MINUTES
 
-/atom/movable/screen/alert/status_effect/buff/ravoxbuff
+/atom/movable/screen/alert/status_effect/buff/mordsolbuff
 	name = "Divine Power"
 	desc = span_nicegreen("Divine power flows through me.")
 	icon_state = "ravox"
@@ -427,7 +427,7 @@
 	icon_state = "beauty"
 
 /*-----------------\
-|   Ravox Miracles |
+|   Mordsol Miracles |
 \-----------------*/
 
 /datum/status_effect/buff/call_to_arms
@@ -703,13 +703,13 @@
 	name = "Inspiring"
 
 // TIER 5 - MASTER
-/datum/status_effect/bardicbuff/ravox
+/datum/status_effect/bardicbuff/mordsol
 	name = "Empowering (+1 STR, +1 PER)"
 	id = "bardbuff_str"
 	effectedstats = list(STAT_STRENGTH = 1, STAT_PERCEPTION = 1)
-	alert_type = /atom/movable/screen/alert/status_effect/bardbuff/ravox
+	alert_type = /atom/movable/screen/alert/status_effect/bardbuff/mordsol
 
-/atom/movable/screen/alert/status_effect/bardbuff/ravox
+/atom/movable/screen/alert/status_effect/bardbuff/mordsol
 	name = "Empowering"
 
 // TIER 6 - LEGENDARY

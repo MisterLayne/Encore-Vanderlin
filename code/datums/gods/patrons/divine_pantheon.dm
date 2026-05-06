@@ -7,7 +7,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	ILIOPE = 'sound/misc/gods/xylix_omen.ogg',
 	NECRA = 'sound/ambience/noises/genspooky (1).ogg',
 	MJALLIDHORN = 'sound/items/bucket_transfer (2).ogg',
-	RAVOX = 'sound/vo/male/knight/rage (6).ogg',
+	MORDSOL = 'sound/vo/male/knight/rage (6).ogg',
 	ERDL = 'sound/magic/cosmic_expansion.ogg',
 	ZIZO = 'sound/misc/gods/zizo_omen.ogg',
 	GRAGGAR = 'sound/misc/gods/graggar_omen.ogg',
@@ -146,8 +146,8 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	storyteller = /datum/storyteller/necra
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/necra
 
-/datum/patron/divine/ravox
-	name = RAVOX
+/datum/patron/divine/mordsol
+	name = MORDSOL
 	domain = "God of Warfare, Justice, and Bravery"
 	desc = "Crafted from the blade of Psydon, a champion of all who seek righteousness for themselves and others."
 	flaws = "Carelessness, Aggression, Pride"
@@ -155,14 +155,14 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	sins = "Cowardice, Cruelty, Stagnation"
 	boons = "Your used weapons dull slower."
 	added_traits = list(TRAIT_SHARPER_BLADES)
-	devotion_holder = /datum/devotion/divine/ravox
+	devotion_holder = /datum/devotion/divine/mordsol
 	confess_lines = list(
-		"RAVOX IS JUSTICE!",
+		"MORDSOL IS JUSTICE!",
 		"THROUGH STRIFE, GRACE!",
 		"THE DRUMS OF WAR BEAT IN MY CHEST!",
 	)
-	storyteller = /datum/storyteller/ravox
-	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/ravox
+	storyteller = /datum/storyteller/mordsol
+	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/mordsol
 
 /datum/patron/divine/iliope
 	name = ILIOPE

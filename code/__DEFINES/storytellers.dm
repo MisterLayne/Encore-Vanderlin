@@ -3,7 +3,7 @@
 
 #define TAG_VISIRES "Visires"
 #define TAG_AKAN "Akan"
-#define TAG_RAVOX "Mordsol"
+#define TAG_MORDSOL "Mordsol"
 #define TAG_MJALLIDHORN "Mjallidhorn"
 #define TAG_ILIOPE "Iliope"
 #define TAG_NECRA "Valdala"
@@ -31,7 +31,7 @@
 /// Tag reserved for combat logic (unused by gods)
 #define TAG_COMBAT "Combat"
 
-/// Tag used for raid events, associated with Ravox
+/// Tag used for raid events, associated with Mordsol
 #define TAG_RAID "Raid"
 
 /// Tag representing trade interactions, used by Mjallidhorn and Matthios
@@ -184,7 +184,7 @@
 #define DIVINE_STORYTELLERS list( \
 	/datum/storyteller/visires, \
 	/datum/storyteller/akan, \
-	/datum/storyteller/ravox, \
+	/datum/storyteller/mordsol, \
 	/datum/storyteller/mjallidhorn, \
 	/datum/storyteller/iliope, \
 	/datum/storyteller/necra, \
@@ -208,7 +208,7 @@
 // Divine pantheon
 #define VISIRES "Visires"
 #define AKAN "Akan"
-#define RAVOX "Mordsol"
+#define MORDSOL "Mordsol"
 #define MJALLIDHORN "Mjallidhorn"
 #define ILIOPE "Iliope"
 #define NECRA "Valdala"

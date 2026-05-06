@@ -995,9 +995,9 @@
 	. = ..()
 	enchant(/datum/enchantment/silver)
 
-/obj/item/weapon/sword/long/ravox
+/obj/item/weapon/sword/long/mordsol
 	name = "duel settler"
-	desc = "The tenets of Ravoxian duels are inscribed upon the blade of this sword."
+	desc = "The tenets of Mordsolian duels are inscribed upon the blade of this sword."
 	icon = 'icons/roguetown/weapons/64/patron.dmi'
 	icon_state = "ravoxflamberge"
 	force = DAMAGE_SWORD + 2
@@ -1247,7 +1247,7 @@
 
 /obj/item/weapon/sword/long/greatsword/claymore/iron
 	name = "iron claymore"
-	desc = "A large sword originating from the north, commonly used by Ravoxians."
+	desc = "A large sword originating from the north, commonly used by Mordsolians."
 	icon_state = "ironclaymore"
 	force_wielded = DAMAGE_LONGSWORD_WIELD
 	max_blade_int = 200
@@ -1294,8 +1294,8 @@
 
 
 /obj/item/weapon/sword/long/greatsword/claymore/gold //Uncraftable
-	name = "ravoxian claymore"
-	desc = "A huge sword constructed out of Steel and Gold, wielded by certain Templars of the Ravoxian Order."
+	name = "mordsolian claymore"
+	desc = "A huge sword constructed out of Steel and Gold, wielded by certain Templars of the Mordsolian Order."
 	icon_state = "gsclaymore"
 	max_blade_int = INTEGRITY_STRONG + 50
 	sellprice = 200

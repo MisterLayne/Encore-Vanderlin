@@ -230,13 +230,13 @@
 								"Goler Kanh's Perseverance (+1 END)" = /datum/status_effect/bardicbuff/endurance,
 								"Erdl's Blessing (+1 CON)" = /datum/status_effect/bardicbuff/constitution,
 								"Iliope's Alacrity (+1 SPD)" = /datum/status_effect/bardicbuff/speed,
-								"Ravox's Righteous Fury (+1 STR, +1 PER)" = /datum/status_effect/bardicbuff/ravox)
+								"Mordsol's Righteous Fury (+1 STR, +1 PER)" = /datum/status_effect/bardicbuff/mordsol)
 			if(6 to INFINITY) // Legendary onwards
 				buffs2pick += list("Akan's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence,
 								"Goler Kanh's Perseverance (+1 END)" = /datum/status_effect/bardicbuff/endurance,
 								"Erdl's Blessing (+1 CON)" = /datum/status_effect/bardicbuff/constitution,
 								"Iliope's Alacrity (+1 SPD)" = /datum/status_effect/bardicbuff/speed,
-								"Ravox's Righteous Fury (+1 STR, +1 PER)" = /datum/status_effect/bardicbuff/ravox,
+								"Mordsol's Righteous Fury (+1 STR, +1 PER)" = /datum/status_effect/bardicbuff/mordsol,
 								"Visires's Awakening (+energy, +stamina, +1 FOR)" = /datum/status_effect/bardicbuff/awaken) // TAKE THE LAND THAT MUST BE TAKEN
 			else // debug
 				message_admins("<span class='warning'>[key_name(usr)] is a bard with zero music skill and couldn't choose a buff.</span>")

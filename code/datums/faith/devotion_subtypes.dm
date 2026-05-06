@@ -80,7 +80,7 @@
 	)
 	traits = list(TRAIT_DIVINE_SERVANT, TRAIT_DEATHSIGHT)
 
-/datum/devotion/divine/ravox
+/datum/devotion/divine/mordsol
 	miracles = list(
 		CLERIC_T0 = /datum/action/cooldown/spell/healing,
 		CLERIC_T1 = /datum/action/cooldown/spell/undirected/call_to_arms,

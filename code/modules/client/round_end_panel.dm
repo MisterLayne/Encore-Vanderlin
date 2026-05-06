@@ -939,8 +939,8 @@
 	// Gani
 	data += god_ui_block("GANI", "#412938", "#66745c", /datum/storyteller/gani, debug)
 
-	// Ravox
-	data += god_ui_block("RAVOX", "#2c232d", "#710f0f", /datum/storyteller/ravox, debug)
+	// Mordsol
+	data += god_ui_block("MORDSOL", "#2c232d", "#710f0f", /datum/storyteller/mordsol, debug)
 
 	// Pomette
 	data += god_ui_block("POMETTE", "#a95063", "#e7c3da", /datum/storyteller/pomette, debug)

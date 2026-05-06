@@ -6,7 +6,7 @@
 	/// Areas in which activation is allowed
 	var/list/allowed_areas = list(/area/indoors/town/church/chapel)
 	/// Patrons which are allowed to hold
-	var/list/allowed_patrons = list(/datum/patron/divine/ravox)
+	var/list/allowed_patrons = list(/datum/patron/divine/mordsol)
 	/// Jobs which are allowed to hold
 	var/list/allowed_jobs = list(/datum/job/gmtemplar)
 

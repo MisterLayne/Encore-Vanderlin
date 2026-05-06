@@ -107,8 +107,8 @@
 	desc = "Where, grave, thy victory? I triumph still while the Veiled Lady abides by me."
 	icon_state = "necra"
 
-/obj/item/clothing/neck/psycross/silver/divine/ravox
-	name = "amulet of Ravox"
+/obj/item/clothing/neck/psycross/silver/divine/mordsol
+	name = "amulet of Mordsol"
 	desc = "Struggle. Challenge. And rise to struggle again. That is the sword of he who yet lives to fight again."
 	icon_state = "ravox"
 

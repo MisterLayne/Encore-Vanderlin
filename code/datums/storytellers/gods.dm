@@ -66,8 +66,8 @@
 		)
 	)
 
-/datum/storyteller/ravox
-	name = RAVOX
+/datum/storyteller/mordsol
+	name = MORDSOL
 	desc = "Mordsol will cause raids to happen naturally instead of only when people are dying a lot."
 	welcome_text = "The drums of war grow louder."
 	weight = 4
@@ -76,7 +76,7 @@
 	guarantees_roundstart_roleset = TRUE
 
 	tag_multipliers = list(
-		TAG_RAVOX = 3,
+		TAG_MORDSOL = 3,
 		TAG_COMBAT = 1.75,
 		TAG_RAID = 1.5,
 	)

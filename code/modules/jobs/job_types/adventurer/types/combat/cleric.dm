@@ -85,7 +85,7 @@
 				spawned.cmode_music = 'sound/music/cmode/church/CombatEora.ogg'
 				spawned.virginity = FALSE
 				ADD_TRAIT(spawned, TRAIT_BEAUTIFUL, TRAIT_GENERIC)
-			if(/datum/patron/divine/ravox)
+			if(/datum/patron/divine/mordsol)
 				spawned.cmode_music = 'sound/music/cmode/church/CombatRavox.ogg'
 				spawned.adjust_skill_level(/datum/attribute/skill/combat/unarmed, 10)
 			if(/datum/patron/divine/akan)
@@ -194,9 +194,9 @@
 			if(/datum/patron/divine/pomette)
 				wrists = /obj/item/clothing/neck/psycross/silver/divine/pomette
 				cloak = /obj/item/clothing/cloak/stabard/templar/pomette
-			if(/datum/patron/divine/ravox)
-				wrists = /obj/item/clothing/neck/psycross/silver/divine/ravox
-				cloak = /obj/item/clothing/cloak/stabard/templar/ravox
+			if(/datum/patron/divine/mordsol)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/mordsol
+				cloak = /obj/item/clothing/cloak/stabard/templar/mordsol
 			if(/datum/patron/divine/akan)
 				wrists = /obj/item/clothing/neck/psycross/silver/divine/akan
 				cloak = /obj/item/clothing/cloak/stabard/templar/akan

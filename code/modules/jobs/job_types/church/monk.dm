@@ -60,7 +60,7 @@
 		/datum/attribute/skill/misc/swimming = 20
 	)
 
-/datum/attribute_holder/sheet/job/acolyte/patron/ravox
+/datum/attribute_holder/sheet/job/acolyte/patron/mordsol
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/polearms = 10
 	)
@@ -173,8 +173,8 @@
 		if(/datum/patron/divine/mjallidhorn)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/mjallidhorn)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAbyssor.ogg'
-		if(/datum/patron/divine/ravox)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/ravox)
+		if(/datum/patron/divine/mordsol)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/mordsol)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatRavox.ogg'
 		if(/datum/patron/divine/iliope)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/iliope)
@@ -247,13 +247,13 @@
 			neck = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
 			shoes = /obj/item/clothing/shoes/boots
 			armor = /obj/item/clothing/shirt/robe/mjallidhorn
-		if(/datum/patron/divine/ravox)
+		if(/datum/patron/divine/mordsol)
 			head = /obj/item/clothing/head/helmet/leather/headscarf
-			neck = /obj/item/clothing/neck/psycross/silver/divine/ravox
+			neck = /obj/item/clothing/neck/psycross/silver/divine/mordsol
 			shoes = /obj/item/clothing/shoes/boots
 			shirt = /obj/item/clothing/armor/gambeson/light
 			armor = /obj/item/clothing/armor/leather
-			cloak = /obj/item/clothing/cloak/stabard/templar/ravox
+			cloak = /obj/item/clothing/cloak/stabard/templar/mordsol
 		if(/datum/patron/divine/iliope)
 			head = /obj/item/clothing/head/roguehood/colored/random
 			neck = /obj/item/clothing/neck/psycross/silver/divine/iliope

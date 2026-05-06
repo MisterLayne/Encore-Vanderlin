@@ -61,7 +61,7 @@
 			ADD_TRAIT(spawned, TRAIT_BEAUTIFUL, TRAIT_GENERIC)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/swords, 40)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatEora.ogg'
-		if(/datum/patron/divine/ravox)
+		if(/datum/patron/divine/mordsol)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/swords, 40)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatRavox.ogg'
 		if(/datum/patron/divine/golerkanh)
@@ -170,11 +170,11 @@
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/pomette
 			cloak = /obj/item/clothing/cloak/stabard/templar/pomette
 			beltr = /obj/item/weapon/sword/rapier/pomette
-		if(/datum/patron/divine/ravox)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/ravox
-			head = /obj/item/clothing/head/helmet/heavy/necked/ravox
-			cloak = /obj/item/clothing/cloak/stabard/templar/ravox
-			backr = /obj/item/weapon/sword/long/ravox
+		if(/datum/patron/divine/mordsol)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/mordsol
+			head = /obj/item/clothing/head/helmet/heavy/necked/mordsol
+			cloak = /obj/item/clothing/cloak/stabard/templar/mordsol
+			backr = /obj/item/weapon/sword/long/mordsol
 		if(/datum/patron/divine/golerkanh)
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/golerkanh
 			head = /obj/item/clothing/head/helmet/heavy/necked/golerkanhhelm

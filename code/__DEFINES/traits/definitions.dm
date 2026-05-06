@@ -483,7 +483,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_PSYDON_CURSE "Psydon's Curse"
 #define TRAIT_VISIRES_CURSE "Visires's Curse"
 #define TRAIT_NOC_CURSE "Akan's Curse"
-#define TRAIT_RAVOX_CURSE "Ravox's Curse"
+#define TRAIT_MORDSOL_CURSE "Mordsol's Curse"
 #define TRAIT_NECRA_CURSE "Necra's Curse"
 #define TRAIT_ILIOPE_CURSE "Iliope's Curse"
 #define TRAIT_ERDL_CURSE "Erdl's Curse"

@@ -80,10 +80,10 @@
 	description = "Magical knowledge is now beyond my grasp."
 	trait = TRAIT_NOC_CURSE
 
-/datum/curse/ravox
+/datum/curse/mordsol
 	name = "Mordsol's Curse"
 	description = "Violence disgusts me. I struggle to bring myself to wield any kind of weapon."
-	trait = TRAIT_RAVOX_CURSE
+	trait = TRAIT_MORDSOL_CURSE
 
 /datum/curse/necra
 	name = "Valdala's Curse"

@@ -158,8 +158,8 @@
 	slot_flags = ITEM_SLOT_ARMOR|ITEM_SLOT_CLOAK
 	flags_inv = HIDEBOOB
 
-/obj/item/clothing/cloak/ravox
-	name = "ravox tabard"
+/obj/item/clothing/cloak/mordsol
+	name = "mordsol tabard"
 	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Mordsol on it."
 	icon_state = "tabard_ravox"
 	alternate_worn_layer = TABARD_LAYER
@@ -296,7 +296,7 @@
 	melting_material = /datum/material/steel
 	melt_amount = 150
 
-/obj/item/clothing/head/helmet/heavy/ravoxhelm
+/obj/item/clothing/head/helmet/heavy/mordsolhelm
 	name = "justice eagle"
 	desc = "Forged in reverence to Mordsol, this helm bears the stylized visage of an eagle, symbol of unyielding judgment and divine vigilance. Its hollow eyes see not just foes, but the truth behind every deed."
 	icon_state = "ravoxhelmet"
@@ -307,7 +307,7 @@
 	melting_material = /datum/material/steel
 	melt_amount = 150
 
-/obj/item/clothing/head/helmet/heavy/ravoxhelm/attackby(obj/item/W, mob/living/user, params)
+/obj/item/clothing/head/helmet/heavy/mordsolhelm/attackby(obj/item/W, mob/living/user, params)
 	..()
 	var/list/colorlist = list(
 		"PURPLE"="#865c9c",

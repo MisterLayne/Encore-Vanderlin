@@ -8,7 +8,7 @@
 	min_players = 35
 
 	tags = list(
-		TAG_RAVOX,
+		TAG_MORDSOL,
 		TAG_MEDICAL,
 	)
 
@@ -20,7 +20,7 @@
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(!istype(H) || H.stat == DEAD || !H.client)
 			continue
-		if(!H.patron || !istype(H.patron, /datum/patron/divine/ravox))
+		if(!H.patron || !istype(H.patron, /datum/patron/divine/mordsol))
 			continue
 		if(H.age == AGE_CHILD)
 			continue
@@ -34,7 +34,7 @@
 	for(var/mob/living/carbon/human/human_mob in GLOB.player_list)
 		if(!istype(human_mob) || human_mob.stat == DEAD || !human_mob.client)
 			continue
-		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/divine/ravox))
+		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/divine/mordsol))
 			continue
 		if(human_mob.age == AGE_CHILD)
 			continue
@@ -49,7 +49,7 @@
 	chosen_one.mind.add_personal_objective(new_objective)
 
 	bordered_message(chosen_one, list(
-		span_userdanger("YOU ARE RAVOX'S CHOSEN!"),
+		span_userdanger("YOU ARE MORDSOL'S CHOSEN!"),
 		span_notice("There is an honor in sacrifice. You have been granted a power by Mordsol to sacrifice your own life to revive another. Beware, as you won't be able to be revived ever again. Use it only as a last resort to see a truly heinous injustice undone."),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/vo/male/knight/rage (6).ogg', 70)

@@ -33,7 +33,7 @@
 #define STATMOD_ERDL_BLESSING "erdl_blessing"
 #define STATMOD_GANI_BLESSING "gani_blessing"
 #define STATMOD_POMETTE_BLESSING "pomette_blessing"
-#define STATMOD_RAVOX_BLESSING "ravox_blessing"
+#define STATMOD_MORDSOL_BLESSING "mordsol_blessing"
 #define STATMOD_ILIOPE_BLESSING "iliope_blessing"
 
 #define STATMOD_GRAGGAR_BLESSING "graggar_blessing"
@@ -43,7 +43,7 @@
 
 // Events
 #define STATMOD_ILIOPE_FORTUNE "iliope_fortune"
-#define STATMOD_RAVOX_RESOLVE "ravox_resolve"
+#define STATMOD_MORDSOL_RESOLVE "mordsol_resolve"
 #define STATMOD_GRAGGAR_CULLING "graggar_culling"
 #define STATMOD_POMETTE_MARRIAGE "pomette_marriage"
 

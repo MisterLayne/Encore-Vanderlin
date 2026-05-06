@@ -576,10 +576,10 @@
 	created_item = /obj/item/clothing/head/helmet/heavy/necked/golerkanhhelm
 	additional_items = list(/obj/item/ingot/iron)
 
-/datum/anvil_recipe/armor/steel/templar/helmet_ravox
+/datum/anvil_recipe/armor/steel/templar/helmet_mordsol
 	name = "Mordsol Helmet (+Iron Bar)"
-	recipe_name = "a ravoxian helmet"
-	created_item = /obj/item/clothing/head/helmet/heavy/necked/ravox
+	recipe_name = "a mordsolian helmet"
+	created_item = /obj/item/clothing/head/helmet/heavy/necked/mordsol
 	additional_items = list(/obj/item/ingot/iron)
 
 /datum/anvil_recipe/armor/steel/templar/helmet_iliope
@@ -1335,10 +1335,10 @@
 	created_item = /obj/item/clothing/head/helmet/heavy/mjallidhorngreathelm
 	craftdiff = 3
 
-/datum/anvil_recipe/armor/ravoxhelm
+/datum/anvil_recipe/armor/mordsolhelm
 	name = "justice eagle"
 	req_bar = /obj/item/ingot/steel
-	created_item = /obj/item/clothing/head/helmet/heavy/ravoxhelm
+	created_item = /obj/item/clothing/head/helmet/heavy/mordsolhelm
 	craftdiff = 3
 
 /datum/anvil_recipe/armor/volfplate

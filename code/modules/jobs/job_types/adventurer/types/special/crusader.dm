@@ -22,10 +22,10 @@
 	title = "Totod Order Emissary"
 	tutorial = "The Crusaders are knights who have pledged their wealth and lands to the church, \
 	taking up the banner of the Totod Order dedicated to retaking the Barrows against the forces of Zizo. \
-	Three cults provide knights for the Order: Visires, Necra and Ravox. \
+	Three cults provide knights for the Order: Visires, Necra and Mordsol. \
 	You were sent to Vanderlin by the Order to get any and all assistance from the faithful for the Crusade."
 	allowed_races = RACES_PLAYER_NONHERETICAL
-	allowed_patrons = list(/datum/patron/divine/visires, /datum/patron/divine/necra, /datum/patron/divine/ravox)
+	allowed_patrons = list(/datum/patron/divine/visires, /datum/patron/divine/necra, /datum/patron/divine/mordsol)
 	outfit = /datum/outfit/adventurer/crusader
 	category_tags = list(CTAG_ADVENTURER)
 	total_positions = 1
@@ -87,8 +87,8 @@
 			cloak = /obj/item/clothing/cloak/stabard/templar/necra
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/necra
 		else
-			cloak = /obj/item/clothing/cloak/stabard/templar/ravox
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/ravox
+			cloak = /obj/item/clothing/cloak/stabard/templar/mordsol
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/mordsol
 
 	if(equipped_human.gender == FEMALE)
 		head = /obj/item/clothing/head/helmet/heavy/crusader/t
