@@ -150,12 +150,12 @@
 	icon_state = "tabard_astrata_alt"
 	item_state = "tabard_astrata_alt"
 
-/obj/item/clothing/cloak/stabard/templar/necra
-	name = "surcoat of the necran order"
+/obj/item/clothing/cloak/stabard/templar/valdala
+	name = "surcoat of the valdalan order"
 	icon_state = "tabard_necra"
 	item_state = "tabard_necra"
 
-/obj/item/clothing/cloak/stabard/templar/necra/alt
+/obj/item/clothing/cloak/stabard/templar/valdala/alt
 	icon_state = "tabard_necra_alt"
 	item_state = "tabard_necra_alt"
 

@@ -288,7 +288,7 @@
 		),
 
 		/// Valdala
-		/datum/patron/divine/necra = list(
+		/datum/patron/divine/valdala = list(
 			/datum/status_effect/buff/beastsense = "Valdala murmurs: \"The grave knows your scent... and waits.\"",
 			/datum/status_effect/buff/trollshape = "Valdala hums: \"Mass returns to earth. Let the soil remember you.\"",
 			/datum/status_effect/buff/divine_beauty = "Valdala whispers: \"Even beauty rots. But for now... wear it.\"",

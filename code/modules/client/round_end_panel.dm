@@ -945,8 +945,8 @@
 	// Pomette
 	data += god_ui_block("POMETTE", "#a95063", "#e7c3da", /datum/storyteller/pomette, debug)
 
-	// Necra
-	data += god_ui_block("NECRA", "#2a2459", "#4c82a8", /datum/storyteller/necra, debug)
+	// Valdala
+	data += god_ui_block("VALDALA", "#2a2459", "#4c82a8", /datum/storyteller/valdala, debug)
 
 	data += "</div>"
 

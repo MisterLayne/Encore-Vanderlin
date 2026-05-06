@@ -77,7 +77,7 @@
 				spawned.cmode_music = 'sound/music/cmode/church/CombatAstrata.ogg'
 			if(/datum/patron/divine/gani)
 				spawned.cmode_music = 'sound/music/cmode/church/CombatDendor.ogg'
-			if(/datum/patron/divine/necra)
+			if(/datum/patron/divine/valdala)
 				spawned.cmode_music = 'sound/music/cmode/church/CombatGravekeeper.ogg'
 				ADD_TRAIT(spawned, TRAIT_DEADNOSE, TRAIT_GENERIC)
 				ADD_TRAIT(spawned, TRAIT_GRAVEROBBER, TRAIT_GENERIC)
@@ -187,9 +187,9 @@
 			if(/datum/patron/divine/gani)
 				wrists = /obj/item/clothing/neck/psycross/silver/divine/gani
 				cloak = /obj/item/clothing/cloak/stabard/templar/gani
-			if(/datum/patron/divine/necra)
-				wrists = /obj/item/clothing/neck/psycross/silver/divine/necra
-				cloak = /obj/item/clothing/cloak/stabard/templar/necra
+			if(/datum/patron/divine/valdala)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/valdala
+				cloak = /obj/item/clothing/cloak/stabard/templar/valdala
 				beltr = /obj/item/weapon/shovel/small
 			if(/datum/patron/divine/pomette)
 				wrists = /obj/item/clothing/neck/psycross/silver/divine/pomette

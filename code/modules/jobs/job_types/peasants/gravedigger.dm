@@ -19,10 +19,10 @@
 
 /datum/job/undertaker
 	title = JOB_GRAVETENDER
-	tutorial = "As a servant of Necra, you embody the sanctity of her domain, \
+	tutorial = "As a servant of Valdala, you embody the sanctity of her domain, \
 	ensuring the dead rest peacefully within the earth. \
 	You are the bane of grave robbers and necromancers, \
-	and your holy magic brings undead back into Necra's embrace: \
+	and your holy magic brings undead back into Valdala's embrace: \
 	the only rightful place for lost souls."
 	department_flag = CHURCHMEN
 	display_order = JDO_GRAVETENDER
@@ -33,7 +33,7 @@
 	bypass_lastclass = TRUE
 
 	allowed_races = RACES_PLAYER_NONHERETICAL
-	allowed_patrons = list(/datum/patron/divine/necra)
+	allowed_patrons = list(/datum/patron/divine/valdala)
 
 	outfit = /datum/outfit/undertaker
 	give_bank_account = TRUE
@@ -66,9 +66,9 @@
 /datum/outfit/undertaker
 	name = JOB_GRAVETENDER
 	head = /obj/item/clothing/head/padded/deathshroud
-	neck = /obj/item/clothing/neck/psycross/silver/divine/necra
+	neck = /obj/item/clothing/neck/psycross/silver/divine/valdala
 	pants = /obj/item/clothing/pants/trou/leather/mourning
-	armor = /obj/item/clothing/shirt/robe/necra
+	armor = /obj/item/clothing/shirt/robe/valdala
 	shoes = /obj/item/clothing/shoes/boots
 	belt = /obj/item/storage/belt/leather
 	beltl = /obj/item/storage/keyring/gravetender
@@ -79,4 +79,4 @@
 /datum/outfit/undertaker/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
 	. = ..()
 	if(equipped_human.age == AGE_OLD)
-		l_hand = /obj/item/weapon/mace/cane/necran
+		l_hand = /obj/item/weapon/mace/cane/valdalan

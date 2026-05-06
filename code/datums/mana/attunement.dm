@@ -248,7 +248,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 	desc = "The energy that fuels the end of effectively all living matter."
 
 	alignments = list(
-		/datum/patron/divine/necra = 0.5,
+		/datum/patron/divine/valdala = 0.5,
 		/datum/patron/inhumen/zizo = 0.5,
 	)
 
@@ -270,7 +270,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 	alignments = list(
 		/datum/patron/divine/visires = 0.15,
 		/datum/patron/divine/akan = 0.15,
-		/datum/patron/divine/necra = 0.15,
+		/datum/patron/divine/valdala = 0.15,
 		/datum/patron/divine/iliope = 0.15,
 		/datum/patron/divine/pomette = 0.15,
 		/datum/patron/divine/mordsol = 0.15,
@@ -292,7 +292,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 	desc = "A unique and nigh-impossible element to master by all but those with either endless lifespans, or non-Euclidean existence. Measured by all civilizations, and the defining aspect of countless realms and systems."
 
 	alignments = list(
-		/datum/patron/divine/necra = 1,
+		/datum/patron/divine/valdala = 1,
 		/datum/patron/divine/pomette = 0.6,
 		/datum/patron/inhumen/matthios = 0.75,
 	)

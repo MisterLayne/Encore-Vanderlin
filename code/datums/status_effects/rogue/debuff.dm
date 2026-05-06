@@ -600,7 +600,7 @@
 
 /atom/movable/screen/alert/status_effect/debuff/cursed
 	name = "Cursed"
-	desc = "Necra has punished me by my blasphemous deeds with terribly bad luck."
+	desc = "Valdala has punished me by my blasphemous deeds with terribly bad luck."
 	icon_state = "debuff"
 
 /datum/status_effect/debuff/black_briar1

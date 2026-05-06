@@ -64,7 +64,7 @@
 			spawned.cmode_music = 'sound/music/cmode/garrison/CombatForestGarrison2.ogg'
 		if(/datum/patron/divine/mjallidhorn)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAbyssor.ogg'
-		if(/datum/patron/divine/necra)
+		if(/datum/patron/divine/valdala)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatGravekeeper.ogg'
 			ADD_TRAIT(spawned, TRAIT_GRAVEROBBER, JOB_TRAIT)
 		if(/datum/patron/divine/mordsol)
@@ -131,9 +131,9 @@
 		if(/datum/patron/divine/mjallidhorn)
 			head = /obj/item/clothing/head/helmet/heavy/necked/mjallidhorn
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
-		if(/datum/patron/divine/necra)
-			head = /obj/item/clothing/head/helmet/heavy/necked/necra
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/necra
+		if(/datum/patron/divine/valdala)
+			head = /obj/item/clothing/head/helmet/heavy/necked/valdala
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/valdala
 		if(/datum/patron/divine/mordsol)
 			head = /obj/item/clothing/head/helmet/heavy/necked/mordsol
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/mordsol

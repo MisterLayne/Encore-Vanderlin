@@ -57,7 +57,7 @@
 
 	if(HAS_TRAIT(mind?.current, TRAIT_BURIED_COIN_GIVEN))
 		live_spirit.paid = TRUE
-		to_chat(client, span_biginfo("Necra has guaranteed your passage to the next life. Your toll has been already paid."))
+		to_chat(client, span_biginfo("Valdala has guaranteed your passage to the next life. Your toll has been already paid."))
 
 	var/area/underworld/underworld = get_area(spawn_loc)
 

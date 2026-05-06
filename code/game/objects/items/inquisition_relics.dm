@@ -148,7 +148,7 @@
 	var/list/patron_lines = list(
 		/datum/patron/divine/visires = list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/divine/akan = list(PLACEHOLDER_PATRON_REBRANDING),
-		/datum/patron/divine/necra = list(PLACEHOLDER_PATRON_REBRANDING),
+		/datum/patron/divine/valdala = list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/divine/mjallidhorn = list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/divine/mordsol = list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/divine/erdl = list(PLACEHOLDER_PATRON_REBRANDING),

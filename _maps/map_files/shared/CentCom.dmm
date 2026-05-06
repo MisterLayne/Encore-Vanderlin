@@ -3119,7 +3119,7 @@
 /obj/item/clothing/neck/mercator,
 /obj/item/clothing/neck/shalal,
 /obj/item/clothing/neck/psycross/gold,
-/obj/item/clothing/neck/psycross/silver/divine/necra,
+/obj/item/clothing/neck/psycross/silver/divine/valdala,
 /obj/item/clothing/neck/psycross/silver/divine/mordsol,
 /turf/open/floor/wood,
 /area/indoors)
@@ -5290,7 +5290,7 @@
 /area/indoors)
 "Ge" = (
 /obj/structure/mannequin/male,
-/obj/item/clothing/shirt/robe/necra,
+/obj/item/clothing/shirt/robe/valdala,
 /turf/open/floor/wood,
 /area/indoors)
 "Gg" = (
@@ -7886,8 +7886,8 @@
 /area/indoors/bandit_lair)
 "Xg" = (
 /obj/structure/mannequin/male,
-/obj/item/clothing/shirt/robe/necra,
-/obj/item/clothing/head/helmet/heavy/necked/necra,
+/obj/item/clothing/shirt/robe/valdala,
+/obj/item/clothing/head/helmet/heavy/necked/valdala,
 /turf/open/floor/wood,
 /area)
 "Xi" = (

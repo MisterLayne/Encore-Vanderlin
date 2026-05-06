@@ -58,7 +58,7 @@
 				record_round_statistic(STATS_DEADITES_KILLED)
 
 	if(!gibbed)
-		if(!has_world_trait(/datum/world_trait/necra_requiem))
+		if(!has_world_trait(/datum/world_trait/valdala_requiem))
 			if(!is_in_roguetown(src) || has_world_trait(/datum/world_trait/zizo_defilement))
 				zombie_check()
 

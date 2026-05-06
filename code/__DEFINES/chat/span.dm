@@ -168,7 +168,7 @@
 #define SPAN_GOD_POMETTE(str) ("<span class='god_pomette'>" + str + "</span>")
 #define SPAN_GOD_ILIOPE(str) ("<span class='god_iliope'>" + str + "</span>")
 #define SPAN_GOD_ERDL(str) ("<span class='god_erdl'>" + str + "</span>")
-#define SPAN_GOD_NECRA(str) ("<span class='god_necra'>" + str + "</span>")
+#define SPAN_GOD_VALDALA(str) ("<span class='god_valdala'>" + str + "</span>")
 #define SPAN_GOD_MATTHIOS(str) ("<span class='god_matthios'>" + str + "</span>")
 #define SPAN_GOD_HERTANNEA(str) ("<span class='god_hertannea'>" + str + "</span>")
 #define SPAN_GOD_GRAGGAR(str) ("<span class='god_graggar'>" + str + "</span>")

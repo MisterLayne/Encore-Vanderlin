@@ -9,7 +9,7 @@
 	var/list/patron_curse_map = list(
 		/datum/patron/divine/visires = /datum/curse/visires,
 		/datum/patron/divine/mordsol = /datum/curse/mordsol,
-		/datum/patron/divine/necra = /datum/curse/necra,
+		/datum/patron/divine/valdala = /datum/curse/valdala,
 		/datum/patron/divine/iliope = /datum/curse/iliope,
 		/datum/patron/divine/erdl = /datum/curse/erdl,
 		/datum/patron/divine/pomette = /datum/curse/pomette,

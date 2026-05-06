@@ -70,8 +70,8 @@
 	switch(equipped_human.patron?.type)
 		if(/datum/patron/divine/visires)
 			neck = /obj/item/clothing/neck/psycross/silver/divine/visires
-		if(/datum/patron/divine/necra)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/necra
+		if(/datum/patron/divine/valdala)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/valdala
 		if(/datum/patron/divine/pomette)
 			neck = /obj/item/clothing/neck/psycross/silver/divine/pomette
 		if(/datum/patron/divine/akan)

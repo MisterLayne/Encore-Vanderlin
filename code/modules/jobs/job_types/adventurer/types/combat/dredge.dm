@@ -130,7 +130,7 @@
 			if(!istype(spawned.patron, /datum/patron/psydon)) // don't overwrite extremist psydon
 				spawned.set_patron(/datum/patron/psydon, TRUE)
 			to_chat(spawned,span_info("\
-			The Ten are false gods, and I loathe those that worship the true corpse god, Necra. Psydon lives, my life for Psydon.")
+			The Ten are false gods, and I loathe those that worship the true corpse god, Valdala. Psydon lives, my life for Psydon.")
 			)
 		if("Hide")
 			spawned.adjust_skillrank(/datum/attribute/skill/misc/swimming, 1, TRUE)
@@ -276,7 +276,7 @@
 			spawned.change_stat(STAT_ENDURANCE, 1)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
 			to_chat(spawned,span_info("\
-			I'm the lord of the harvest. I will shepherd the damned to Necra herself.")
+			I'm the lord of the harvest. I will shepherd the damned to Valdala herself.")
 			)
 		if("MFlail")
 			spawned.adjust_skillrank(/datum/attribute/skill/combat/whipsflails, 3, TRUE)

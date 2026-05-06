@@ -54,10 +54,10 @@
 	triumph_buy_id = TRIUMPH_BUY_ERDL_INFLUENCE
 	storyteller_name = ERDL
 
-/datum/triumph_buy/storyteller_influence_bonus/necra
+/datum/triumph_buy/storyteller_influence_bonus/valdala
 	name = "Valdala's Influence"
-	triumph_buy_id = TRIUMPH_BUY_NECRA_INFLUENCE
-	storyteller_name = NECRA
+	triumph_buy_id = TRIUMPH_BUY_VALDALA_INFLUENCE
+	storyteller_name = VALDALA
 
 /datum/triumph_buy/storyteller_influence_bonus/iliope
 	name = "Iliope's Influence"

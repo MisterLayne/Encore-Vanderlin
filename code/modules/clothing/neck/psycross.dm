@@ -102,8 +102,8 @@
 	desc = "Oceanshaper and guardian of the seas, make them remember his name."
 	icon_state = "abyssor"
 
-/obj/item/clothing/neck/psycross/silver/divine/necra
-	name = "amulet of Necra"
+/obj/item/clothing/neck/psycross/silver/divine/valdala
+	name = "amulet of Valdala"
 	desc = "Where, grave, thy victory? I triumph still while the Veiled Lady abides by me."
 	icon_state = "necra"
 

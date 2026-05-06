@@ -22,10 +22,10 @@
 	title = "Totod Order Emissary"
 	tutorial = "The Crusaders are knights who have pledged their wealth and lands to the church, \
 	taking up the banner of the Totod Order dedicated to retaking the Barrows against the forces of Zizo. \
-	Three cults provide knights for the Order: Visires, Necra and Mordsol. \
+	Three cults provide knights for the Order: Visires, Valdala and Mordsol. \
 	You were sent to Vanderlin by the Order to get any and all assistance from the faithful for the Crusade."
 	allowed_races = RACES_PLAYER_NONHERETICAL
-	allowed_patrons = list(/datum/patron/divine/visires, /datum/patron/divine/necra, /datum/patron/divine/mordsol)
+	allowed_patrons = list(/datum/patron/divine/visires, /datum/patron/divine/valdala, /datum/patron/divine/mordsol)
 	outfit = /datum/outfit/adventurer/crusader
 	category_tags = list(CTAG_ADVENTURER)
 	total_positions = 1
@@ -46,7 +46,7 @@
 	switch(spawned.patron?.type)
 		if(/datum/patron/divine/visires)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAstrata.ogg'
-		if(/datum/patron/divine/necra)
+		if(/datum/patron/divine/valdala)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatGravekeeper.ogg'
 		else
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatIntense.ogg'
@@ -83,9 +83,9 @@
 		if(/datum/patron/divine/visires)
 			cloak = /obj/item/clothing/cloak/stabard/templar/visires
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/visires
-		if(/datum/patron/divine/necra)
-			cloak = /obj/item/clothing/cloak/stabard/templar/necra
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/necra
+		if(/datum/patron/divine/valdala)
+			cloak = /obj/item/clothing/cloak/stabard/templar/valdala
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/valdala
 		else
 			cloak = /obj/item/clothing/cloak/stabard/templar/mordsol
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/mordsol

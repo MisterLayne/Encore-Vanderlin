@@ -67,7 +67,7 @@
 	)
 	traits = list(TRAIT_DIVINE_SERVANT)
 
-/datum/devotion/divine/necra
+/datum/devotion/divine/valdala
 	miracles = list(
 		CLERIC_T0 = list(/datum/action/cooldown/spell/healing, /datum/action/cooldown/spell/avert),
 		CLERIC_T1 = /datum/action/cooldown/spell/burial_rites,
@@ -75,7 +75,7 @@
 		CLERIC_T3 = /datum/action/cooldown/spell/aoe/churn_undead,
 	)
 	viable_tasks = list(
-		/datum/devotion_task/necra_bury,
+		/datum/devotion_task/valdala_bury,
 		/datum/devotion_task/visires_purge,
 	)
 	traits = list(TRAIT_DIVINE_SERVANT, TRAIT_DEATHSIGHT)

@@ -24,7 +24,7 @@
 /datum/action/cooldown/spell/undirected/list_target/ultimate_sacrifice/cast(mob/living/carbon/human/cast_on)
 	. = ..()
 
-	if(HAS_TRAIT(cast_on, TRAIT_NECRA_CURSE))
+	if(HAS_TRAIT(cast_on, TRAIT_VALDALA_CURSE))
 		to_chat(owner, span_warning("Valdala holds tight to this one."))
 		return
 
@@ -53,7 +53,7 @@
 	cast_on.revive(HEAL_ALL)
 	cast_on.grab_ghost(force = TRUE, grab_spirit = TRUE)
 	playsound(owner, 'sound/magic/churn.ogg', 80)
-	ADD_TRAIT(owner, TRAIT_NECRA_CURSE, "mordsol_ritual")
+	ADD_TRAIT(owner, TRAIT_VALDALA_CURSE, "mordsol_ritual")
 	owner.death()
 
 	if(owner.mind)

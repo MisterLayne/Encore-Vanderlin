@@ -133,9 +133,9 @@
 	sellprice = 35
 	item_weight = 600 GRAMS
 
-/obj/item/weapon/mace/cane/necran
-	name = "necran rod"
-	desc = "Carved from dark stone, engraved with gold. Often carried by elderly Necrans."
+/obj/item/weapon/mace/cane/valdalan
+	name = "valdalan rod"
+	desc = "Carved from dark stone, engraved with gold. Often carried by elderly Valdalans."
 	icon_state = "necran_cane"
 	force = DAMAGE_MACE - 3
 	force_wielded = DAMAGE_MACE - 1

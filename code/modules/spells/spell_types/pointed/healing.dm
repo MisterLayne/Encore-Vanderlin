@@ -133,7 +133,7 @@
 					situational_bonus = min(situational_bonus + 1, 25)
 				conditional_buff = TRUE
 
-			if(/datum/patron/divine/necra)
+			if(/datum/patron/divine/valdala)
 				cast_on.visible_message(span_info("A sense of quiet respite radiates from [cast_on]!"), span_notice("I feel the Undermaiden's gaze turn from me for now!"))
 				if(iscarbon(cast_on))
 					var/mob/living/carbon/C = cast_on

@@ -193,8 +193,8 @@
 		)
 	)
 
-/datum/storyteller/necra
-	name = NECRA
+/datum/storyteller/valdala
+	name = VALDALA
 	desc = "Valdala takes things very slow, rarely bringing in newcomers."
 	welcome_text = "The grave whispers, patience is virtue."
 	weight = 4
@@ -202,7 +202,7 @@
 	color_theme = "#888888"
 
 	tag_multipliers = list(
-		TAG_NECRA = 3,
+		TAG_VALDALA = 3,
 		TAG_HAUNTED = 1.75,
 	)
 

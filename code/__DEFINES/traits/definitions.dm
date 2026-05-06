@@ -449,7 +449,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_FANATICAL "Fanatical" //Trait used for fanatical mobs who can bypass the excommunication(not the curses though.)
 
 // Divine patron trait bonuses:
-#define TRAIT_SOUL_EXAMINE "Blessing of Necra"  //can check bodies to see if they have departed
+#define TRAIT_SOUL_EXAMINE "Blessing of Valdala"  //can check bodies to see if they have departed
 #define TRAIT_ROT_EATER "Blessing of Erdl" //can eat rotten food
 #define TRAIT_KNEESTINGER_IMMUNITY "Blessing of Gani" //Can move through kneestingers.
 #define TRAIT_LEECHIMMUNE "Unleechable" //leeches drain very little blood
@@ -484,7 +484,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_VISIRES_CURSE "Visires's Curse"
 #define TRAIT_NOC_CURSE "Akan's Curse"
 #define TRAIT_MORDSOL_CURSE "Mordsol's Curse"
-#define TRAIT_NECRA_CURSE "Necra's Curse"
+#define TRAIT_VALDALA_CURSE "Valdala's Curse"
 #define TRAIT_ILIOPE_CURSE "Iliope's Curse"
 #define TRAIT_ERDL_CURSE "Erdl's Curse"
 #define TRAIT_POMETTE_CURSE "Pomette's Curse"

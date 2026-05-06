@@ -160,7 +160,7 @@
 	craftdiff = 3
 	category = "Hat"
 
-/datum/repeatable_crafting_recipe/sewing/weaving/necrahood
+/datum/repeatable_crafting_recipe/sewing/weaving/valdalahood
 	name = "hood (Valdala)"
 	output = /obj/item/clothing/head/padded/deathshroud
 	requirements = list(/obj/item/natural/cloth = 2,
@@ -297,9 +297,9 @@
 				/obj/item/natural/silk = 1)
 	craftdiff = 4
 
-/datum/repeatable_crafting_recipe/sewing/weaving/necrarobe
+/datum/repeatable_crafting_recipe/sewing/weaving/valdalarobe
 	name = "robes (Valdala)"
-	output = /obj/item/clothing/shirt/robe/necra
+	output = /obj/item/clothing/shirt/robe/valdala
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/silk = 1)
 	craftdiff = 4

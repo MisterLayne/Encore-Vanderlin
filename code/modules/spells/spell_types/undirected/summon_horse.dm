@@ -96,7 +96,7 @@ GLOBAL_VAR_INIT(nya_catmodder_go, FALSE)
 
 	var/mob/living/simple_animal/honse = user.saddleborn_mount.resolve()
 	if (!honse || honse.stat == DEAD)
-		to_chat(user, span_warning("Necra has them now..."))
+		to_chat(user, span_warning("Valdala has them now..."))
 		return FALSE
 
 	if (honse.has_buckled_mobs())

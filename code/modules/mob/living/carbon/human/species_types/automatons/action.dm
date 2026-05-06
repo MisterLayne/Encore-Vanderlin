@@ -46,7 +46,7 @@ GLOBAL_LIST_INIT(automaton_voice_lines, list(
 	"Moving To Location" = list("text" = "MOVING TO LOCATION", "file" = 'sound/vo/automaton/movingtolocation.ogg'),
 	"My Liege" = list("text" = "MY LIEGE", "file" = 'sound/vo/automaton/myliege.ogg'),
 	"My Soul Is Caged" = list("text" = "MY SOUL IS CAGED", "file" = 'sound/vo/automaton/mysouliscaged.ogg'),
-	"Necra Praise" = list("text" = "NECRA BE PRAISED", "file" = 'sound/vo/automaton/necrapraise.ogg'),
+	"Valdala Praise" = list("text" = "VALDALA BE PRAISED", "file" = 'sound/vo/automaton/necrapraise.ogg'),
 	"No" = list("text" = "NO", "file" = 'sound/vo/automaton/No.ogg'),
 	"Akan Praise" = list("text" = "AKAN BE PRAISED", "file" = 'sound/vo/automaton/nocpraise.ogg'),
 	//"No Women Allowed" = list("text" = "NO WOMEN ALLOWED", "file" = 'sound/vo/automaton/nowomenallowed.ogg'),

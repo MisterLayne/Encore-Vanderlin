@@ -224,7 +224,7 @@ GLOBAL_LIST_INIT(natural_precursor_registry, list())
 	)
 	init_types = list(
 		/obj/item/gem/blue,
-		/obj/item/gem/turq,//frost because its associated with necra
+		/obj/item/gem/turq,//frost because its associated with valdala
 	)
 
 //we can assume opal is really dense due to being seen as crystallized rainbow

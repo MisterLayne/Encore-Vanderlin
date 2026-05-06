@@ -31,7 +31,7 @@
 		/datum/attribute/skill/combat/polearms = 40
 	)
 
-/datum/attribute_holder/sheet/job/templar/patron/necra
+/datum/attribute_holder/sheet/job/templar/patron/valdala
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/whipsflails = 40
 	)
@@ -146,8 +146,8 @@
 		if(/datum/patron/divine/gani)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/gani)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatDendor.ogg'
-		if(/datum/patron/divine/necra)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/necra)
+		if(/datum/patron/divine/valdala)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/valdala)
 			ADD_TRAIT(spawned, TRAIT_DEADNOSE, TRAIT_GENERIC)
 			ADD_TRAIT(spawned, TRAIT_GRAVEROBBER, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatGravekeeper.ogg'
@@ -229,11 +229,11 @@
 			head = /obj/item/clothing/head/helmet/heavy/necked/ganihelm
 			cloak = /obj/item/clothing/cloak/stabard/templar/gani
 			backr = /obj/item/weapon/polearm/halberd/bardiche/gani
-		if(/datum/patron/divine/necra)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/necra
-			head = /obj/item/clothing/head/helmet/heavy/necked/necra
-			cloak = /obj/item/clothing/cloak/stabard/templar/necra
-			beltl = /obj/item/weapon/flail/sflail/necraflail
+		if(/datum/patron/divine/valdala)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/valdala
+			head = /obj/item/clothing/head/helmet/heavy/necked/valdala
+			cloak = /obj/item/clothing/cloak/stabard/templar/valdala
+			beltl = /obj/item/weapon/flail/sflail/valdalaflail
 		if(/datum/patron/divine/erdl)
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/erdl
 			head = /obj/item/clothing/head/helmet/heavy/necked/erdlhelm

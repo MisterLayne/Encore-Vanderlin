@@ -31,11 +31,11 @@
 	desc = "Light blacks and greys, with a tinge of red, the everlasting fire of Goler Kanh's iron hammer as it strikes."
 	icon_state = "malumtabard"
 
-/obj/item/clothing/cloak/templar/necran
+/obj/item/clothing/cloak/templar/valdalan
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/cloaks.dmi'
 	alternate_worn_layer = TABARD_LAYER
 	boobed = FALSE
-	name = "necran tabard"
+	name = "valdalan tabard"
 	desc = "Deep dark blacks, swallowing all light as if the night itself."
 	icon_state = "necratabard"
 
@@ -263,8 +263,8 @@
 	melting_material = /datum/material/steel
 	melt_amount = 150
 
-/obj/item/clothing/head/helmet/heavy/necrahelm
-	name = "necra helmet"
+/obj/item/clothing/head/helmet/heavy/valdalahelm
+	name = "valdalan helmet"
 	desc = "Headwear commonly worn by Templars in service to Valdala. Let its skeletal features remind you of the only thing which is guaranteed in life: You will die."
 	icon_state = "necranhelm"
 	item_state = "necranhelm"

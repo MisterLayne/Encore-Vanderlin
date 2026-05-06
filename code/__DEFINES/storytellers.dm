@@ -6,7 +6,7 @@
 #define TAG_MORDSOL "Mordsol"
 #define TAG_MJALLIDHORN "Mjallidhorn"
 #define TAG_ILIOPE "Iliope"
-#define TAG_NECRA "Valdala"
+#define TAG_VALDALA "Valdala"
 #define TAG_ERDL "Erdl"
 #define TAG_GOLERKANH "Goler Kanh"
 #define TAG_POMETTE "Pomette"
@@ -25,7 +25,7 @@
 /// Tag reserved for curse mechanics (unused by gods)
 #define TAG_CURSE "Curse"
 
-/// Tag associated with hauntings, used by Akan and Necra
+/// Tag associated with hauntings, used by Akan and Valdala
 #define TAG_HAUNTED "Haunted"
 
 /// Tag reserved for combat logic (unused by gods)
@@ -187,7 +187,7 @@
 	/datum/storyteller/mordsol, \
 	/datum/storyteller/mjallidhorn, \
 	/datum/storyteller/iliope, \
-	/datum/storyteller/necra, \
+	/datum/storyteller/valdala, \
 	/datum/storyteller/erdl, \
 	/datum/storyteller/golerkanh, \
 	/datum/storyteller/pomette, \
@@ -211,7 +211,7 @@
 #define MORDSOL "Mordsol"
 #define MJALLIDHORN "Mjallidhorn"
 #define ILIOPE "Iliope"
-#define NECRA "Valdala"
+#define VALDALA "Valdala"
 #define ERDL "Erdl"
 #define GOLERKANH "Goler Kanh"
 #define POMETTE "Pomette"

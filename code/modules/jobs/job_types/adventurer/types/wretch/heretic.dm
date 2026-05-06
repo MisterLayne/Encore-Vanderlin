@@ -47,7 +47,7 @@
 		if(/datum/patron/divine/gani)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/polearms, 40)
 			spawned.cmode_music = 'sound/music/cmode/garrison/CombatForestGarrison.ogg'
-		if(/datum/patron/divine/necra)
+		if(/datum/patron/divine/valdala)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/whipsflails, 40)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatGravekeeper.ogg'
 			ADD_TRAIT(spawned, TRAIT_GRAVEROBBER, TRAIT_GENERIC)
@@ -153,11 +153,11 @@
 			head = /obj/item/clothing/head/helmet/heavy/necked/ganihelm
 			cloak = /obj/item/clothing/cloak/stabard/templar/gani
 			backr = /obj/item/weapon/polearm/halberd/bardiche/gani
-		if(/datum/patron/divine/necra)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/necra
-			head = /obj/item/clothing/head/helmet/heavy/necked/necra
-			cloak = /obj/item/clothing/cloak/stabard/templar/necra
-			beltl = /obj/item/weapon/flail/sflail/necraflail
+		if(/datum/patron/divine/valdala)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/valdala
+			head = /obj/item/clothing/head/helmet/heavy/necked/valdala
+			cloak = /obj/item/clothing/cloak/stabard/templar/valdala
+			beltl = /obj/item/weapon/flail/sflail/valdalaflail
 		if(/datum/patron/divine/erdl)
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/erdl
 			head = /obj/item/clothing/head/helmet/heavy/necked/erdlhelm

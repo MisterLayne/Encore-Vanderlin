@@ -85,10 +85,10 @@
 	description = "Violence disgusts me. I struggle to bring myself to wield any kind of weapon."
 	trait = TRAIT_MORDSOL_CURSE
 
-/datum/curse/necra
+/datum/curse/valdala
 	name = "Valdala's Curse"
 	description = "Valdala has claimed my soul. No one will bring me back from the dead."
-	trait = TRAIT_NECRA_CURSE
+	trait = TRAIT_VALDALA_CURSE
 
 /datum/curse/iliope
 	name = "Iliope's Curse"

@@ -1273,7 +1273,7 @@
 	base_icon_state = "book2"
 	bookfile = "tales8.json"
 
-/obj/item/book/necra
+/obj/item/book/valdala
 	name = "Burial Rites for Valdala"
 	desc = "By Hunlaf, Gravedigger. Revised by Lenore, Priest of Valdala."
 	icon_state ="book6_0"
@@ -1625,7 +1625,7 @@ ____________End of Example*/
 	base_icon_state = "knowledge"
 	bookfile = "MagicalTheory.json"
 
-/obj/item/book/vownecrapage
+/obj/item/book/vowvaldalapage
 	name = "Valdala's Vow of Silence"
 	desc = "A faded page, with seemingly no author."
 	icon_state = "book8_0"

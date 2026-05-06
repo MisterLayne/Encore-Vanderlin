@@ -91,7 +91,7 @@
 	desc = "Sanctified, form fitting straps. Used by more radical followers of the Pomettic Church"
 	icon_state = "eorastraps"
 
-/obj/item/clothing/shirt/robe/necra
+/obj/item/clothing/shirt/robe/valdala
 	name = "mourning robe"
 	desc = "Black robes which cover the body not unlike those in depictions of the Carriageman himself."
 	icon_state = "necrarobe"

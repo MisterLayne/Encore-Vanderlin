@@ -49,7 +49,7 @@
 			reset_spell_cooldown()
 			return . | SPELL_CANCEL_CAST
 
-	if(HAS_TRAIT(cast_on, TRAIT_NECRA_CURSE))
+	if(HAS_TRAIT(cast_on, TRAIT_VALDALA_CURSE))
 		to_chat(owner, span_warning("Valdala holds tight to this one."))
 		reset_spell_cooldown()
 		return . | SPELL_CANCEL_CAST

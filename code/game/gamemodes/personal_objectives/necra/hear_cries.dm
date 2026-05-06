@@ -37,7 +37,7 @@
 
 	var/amulet_found = FALSE
 	for(var/obj/item/clothing/neck/current_item in user.get_equipped_items(TRUE))
-		if(current_item.type in list(/obj/item/clothing/neck/psycross/silver/divine/necra))
+		if(current_item.type in list(/obj/item/clothing/neck/psycross/silver/divine/valdala))
 			amulet_found = TRUE
 
 	if(!amulet_found)
@@ -58,7 +58,7 @@
 /datum/objective/personal/listen_whispers/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("You have listened to the whispers of the dead long enough to satisfy Valdala!"))
-	adjust_storyteller_influence(NECRA, 20)
+	adjust_storyteller_influence(VALDALA, 20)
 	STOP_PROCESSING(SSprocessing, src)
 
 /datum/objective/personal/listen_whispers/reward_owner()

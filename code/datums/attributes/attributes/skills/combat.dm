@@ -145,5 +145,5 @@
 	)
 	difficulty = SKILL_DIFFICULTY_EASY
 	dreams = list(
-		"...the deadite claws on the door, another crashes through a window... in a panic, you grab a chair, and utter a prayer to Necra..."
+		"...the deadite claws on the door, another crashes through a window... in a panic, you grab a chair, and utter a prayer to Valdala..."
 	)

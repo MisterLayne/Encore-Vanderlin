@@ -552,10 +552,10 @@
 	created_item = /obj/item/clothing/head/helmet/heavy/necked/visires
 	additional_items = list(/obj/item/ingot/gold)
 
-/datum/anvil_recipe/armor/steel/templar/helmet_necra
-	name = "Necran Helmet (+Iron Bar)"
-	recipe_name = "a necran helmet"
-	created_item = /obj/item/clothing/head/helmet/heavy/necked/necra
+/datum/anvil_recipe/armor/steel/templar/helmet_valdala
+	name = "Valdalan Helmet (+Iron Bar)"
+	recipe_name = "a valdalan helmet"
+	created_item = /obj/item/clothing/head/helmet/heavy/necked/valdala
 	additional_items = list(/obj/item/ingot/iron)
 
 /datum/anvil_recipe/armor/steel/templar/helmet_gani
@@ -1317,10 +1317,10 @@
 	created_item = /obj/item/clothing/head/helmet/heavy/akanhelm
 	craftdiff = 3
 
-/datum/anvil_recipe/armor/necrahelm
-	name = "necra helmet"
+/datum/anvil_recipe/armor/valdalahelm
+	name = "valdalan helmet"
 	req_bar = /obj/item/ingot/steel
-	created_item = /obj/item/clothing/head/helmet/heavy/necrahelm
+	created_item = /obj/item/clothing/head/helmet/heavy/valdalahelm
 	craftdiff = 3
 
 /datum/anvil_recipe/armor/ganihelm

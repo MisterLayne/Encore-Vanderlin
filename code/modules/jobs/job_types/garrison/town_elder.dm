@@ -379,7 +379,7 @@
 	switch(spawned.patron?.type)
 		if(/datum/patron/divine/visires)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
-		if(/datum/patron/divine/necra)
+		if(/datum/patron/divine/valdala)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatGravekeeper.ogg'
 			ADD_TRAIT(spawned, TRAIT_DEADNOSE, TRAIT_GENERIC)
 		if(/datum/patron/divine/pomette)
@@ -468,8 +468,8 @@
 	switch(equipped_human.patron?.type)
 		if(/datum/patron/divine/visires)
 			neck = /obj/item/clothing/neck/psycross/silver/divine/visires
-		if(/datum/patron/divine/necra)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/necra
+		if(/datum/patron/divine/valdala)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/valdala
 		if(/datum/patron/divine/pomette)
 			neck = /obj/item/clothing/neck/psycross/silver/divine/pomette
 		if(/datum/patron/divine/akan)

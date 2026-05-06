@@ -514,10 +514,10 @@
 	required_item = /obj/item/ingot/silver
 	created_item = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
 
-/datum/artificer_recipe/psycross/necra
+/datum/artificer_recipe/psycross/valdala
 	name = "Valdala Psycross"
 	required_item = /obj/item/ingot/silver
-	created_item = /obj/item/clothing/neck/psycross/silver/divine/necra
+	created_item = /obj/item/clothing/neck/psycross/silver/divine/valdala
 
 /datum/artificer_recipe/psycross/mordsol
 	name = "Mordsol Psycross"

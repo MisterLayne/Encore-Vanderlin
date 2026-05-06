@@ -14,7 +14,7 @@
 	name = "Deceivers' Fingers"
 	desc = "Improves thief's chance of a successful pickpocket."
 
-/datum/world_trait/necra_requiem
+/datum/world_trait/valdala_requiem
 	name = "Valdala's Requiem"
 	desc = "New corpses won't become deadites."
 

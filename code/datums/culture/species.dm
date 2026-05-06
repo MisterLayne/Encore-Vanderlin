@@ -41,7 +41,7 @@
 
 /datum/culture/species/elven/obsidian
 	name = "Obsidian Tribes"
-	description = "Known by humens to be miserably devout Necrans. \
+	description = "Known by humens to be miserably devout valdalans. \
 	They worship their holy tree, \"The Waiting Wood,\" praying to its skulls for but a chance to speak to The Veiled Lady herself."
 	species = list(
 		SPEC_ID_ELF,

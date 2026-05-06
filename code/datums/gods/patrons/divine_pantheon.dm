@@ -5,7 +5,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	GANI = 'sound/magic/barbroar.ogg',
 	GOLERKANH = 'sound/magic/dwarf_chant01.ogg',
 	ILIOPE = 'sound/misc/gods/xylix_omen.ogg',
-	NECRA = 'sound/ambience/noises/genspooky (1).ogg',
+	VALDALA = 'sound/ambience/noises/genspooky (1).ogg',
 	MJALLIDHORN = 'sound/items/bucket_transfer (2).ogg',
 	MORDSOL = 'sound/vo/male/knight/rage (6).ogg',
 	ERDL = 'sound/magic/cosmic_expansion.ogg',
@@ -128,8 +128,8 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	storyteller = /datum/storyteller/mjallidhorn
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
 
-/datum/patron/divine/necra
-	name = NECRA
+/datum/patron/divine/valdala
+	name = VALDALA
 	domain = "Mother Goddess of Death and Time"
 	desc = "The Veiled Lady, once close partner to Psydon. She created the Nine others from his corpse, guiding them from the Underworld."
 	flaws = "Unchanging, Apathetic, Easy to Bore"
@@ -137,14 +137,14 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	sins = "Heretical Magic, Untimely Death, Disturbance of Rest"
 	boons = "You may see the presence of a soul in a body."
 	added_traits = list(TRAIT_SOUL_EXAMINE)
-	devotion_holder = /datum/devotion/divine/necra
+	devotion_holder = /datum/devotion/divine/valdala
 	confess_lines = list(
-		"ALL SOULS FIND THEIR WAY TO NECRA!",
+		"ALL SOULS FIND THEIR WAY TO VALDALA!",
 		"THE UNDERMAIDEN IS OUR FINAL REPOSE!",
 		"I FEAR NOT DEATH, MY LADY AWAITS ME!",
 	)
-	storyteller = /datum/storyteller/necra
-	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/necra
+	storyteller = /datum/storyteller/valdala
+	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/valdala
 
 /datum/patron/divine/mordsol
 	name = MORDSOL

@@ -53,24 +53,24 @@ GLOBAL_LIST_EMPTY(street_lamp_lights)
 /obj/structure/visiresshard/proc/on_bump(atom/shard,atom/movable/movie)
 	SIGNAL_HANDLER
 	if(ismob(movie))
-		send_to_necra(movie)
+		send_to_valdala(movie)
 	else
 		on_whacked(movie)
 
 /obj/structure/visiresshard/proc/on_touched(atom/shard,mob/fool)
 	SIGNAL_HANDLER
-	send_to_necra(fool)
+	send_to_valdala(fool)
 
 /obj/structure/visiresshard/proc/on_whacked(atom/shard,atom/thingy)
 	SIGNAL_HANDLER
 	if(ismob(thingy))
-		send_to_necra(thingy)
+		send_to_valdala(thingy)
 	if(istype(thingy,/obj))
 		var/obj/deadthing = thingy
 		src.visible_message(span_danger("\The [deadthing] vanishes in a violent flash on contact with \The [src]!"))
 		deadthing.Destroy()
 
-/obj/structure/visiresshard/proc/send_to_necra(mob/fool,visible_message,mob_message,cause)
+/obj/structure/visiresshard/proc/send_to_valdala(mob/fool,visible_message,mob_message,cause)
 	if(isdead(fool))
 		return
 	if(!visible_message)

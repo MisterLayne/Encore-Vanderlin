@@ -234,9 +234,9 @@
 	play_voice_line("My Soul Is Caged")
 
 /mob/living/carbon/human/proc/voice_necrapraise()
-	set name = "Necra Praise"
+	set name = "Valdala Praise"
 	set category = "Emotes.Automaton"
-	play_voice_line("Necra Praise")
+	play_voice_line("Valdala Praise")
 
 /mob/living/carbon/human/proc/voice_no()
 	set name = "No"

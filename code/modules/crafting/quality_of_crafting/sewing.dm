@@ -929,17 +929,17 @@
 	craftdiff = 3
 	category = "Cloak"
 
-/datum/repeatable_crafting_recipe/sewing/necratemplar
-	name = "necran surcoat"
-	output = /obj/item/clothing/cloak/stabard/templar/necra
+/datum/repeatable_crafting_recipe/sewing/valdalatemplar
+	name = "valdalan surcoat"
+	output = /obj/item/clothing/cloak/stabard/templar/valdala
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3
 	category = "Cloak"
 
-/datum/repeatable_crafting_recipe/sewing/necratemplar/alt
-	name = "necran surcoat (alt)"
-	output = /obj/item/clothing/cloak/stabard/templar/necra/alt
+/datum/repeatable_crafting_recipe/sewing/valdalatemplar/alt
+	name = "valdalan surcoat (alt)"
+	output = /obj/item/clothing/cloak/stabard/templar/valdala/alt
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3
@@ -1477,9 +1477,9 @@
 	craftdiff = 1
 	category = "Tabard"
 
-/datum/repeatable_crafting_recipe/sewing/necran_tabard
-	name = "necran tabard"
-	output = /obj/item/clothing/cloak/templar/necran
+/datum/repeatable_crafting_recipe/sewing/valdalan_tabard
+	name = "valdalan tabard"
+	output = /obj/item/clothing/cloak/templar/valdalan
 	requirements = list(
 		/obj/item/natural/cloth = 2,
 		/obj/item/natural/fibers = 1

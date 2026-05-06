@@ -305,7 +305,7 @@
 			var/datum/patron/victim_patron = patron
 			switch(interrogator_patron.associated_faith.type)
 				if(/datum/faith/psydon)
-					if(ispath(victim_patron.type, /datum/patron/divine) && victim_patron.type != /datum/patron/divine/necra)
+					if(ispath(victim_patron.type, /datum/patron/divine) && victim_patron.type != /datum/patron/divine/valdala)
 						interrogator.add_stress(/datum/stress_event/torture_small_penalty)
 					else if(victim_patron.type == /datum/patron/godless/naivety)
 						interrogator.add_stress(/datum/stress_event/torture_small_penalty)

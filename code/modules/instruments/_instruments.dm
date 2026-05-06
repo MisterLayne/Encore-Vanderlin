@@ -425,7 +425,7 @@
 	desc = "This talisman emanates a small shimmer of light. When held, it can amplify and even change one's voice."
 	icon_state = "vtalisman"
 	song_list = list("Harpy's Call (Feminine)" = 'sound/instruments/vocalsf (1).ogg',
-	"Necra's Lullaby (Feminine)" = 'sound/instruments/vocalsf (2).ogg',
+	"Valdala's Lullaby (Feminine)" = 'sound/instruments/vocalsf (2).ogg',
 	"Death Touched Aasimar (Feminine)" = 'sound/instruments/vocalsf (3).ogg',
 	"Our Mother, Our Divine (Feminine)" = 'sound/instruments/vocalsf (4).ogg',
 	"Wed, Forever More (Feminine)" = 'sound/instruments/vocalsf (5).ogg',
