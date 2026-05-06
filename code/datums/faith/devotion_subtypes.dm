@@ -180,7 +180,7 @@
 	)
 	traits = list(TRAIT_DEATHSIGHT)
 
-/datum/devotion/inhumen/graggar
+/datum/devotion/inhumen/archdevils
 	miracles = list(
 		CLERIC_T0 = /datum/action/cooldown/spell/undirected/call_to_slaughter,
 		CLERIC_T1 = /datum/action/cooldown/spell/projectile/blood_net,
@@ -188,7 +188,7 @@
 		CLERIC_T3 = /datum/action/cooldown/spell/undirected/bloodrage.
 	)
 	viable_tasks = list(
-		/datum/devotion_task/graggar_consume,
+		/datum/devotion_task/archdevils_consume,
 	)
 
 /datum/devotion/inhumen/matthios

@@ -36,7 +36,7 @@
 #define STATMOD_MORDSOL_BLESSING "mordsol_blessing"
 #define STATMOD_ILIOPE_BLESSING "iliope_blessing"
 
-#define STATMOD_GRAGGAR_BLESSING "graggar_blessing"
+#define STATMOD_ARCHDEVILS_BLESSING "archdevils_blessing"
 #define STATMOD_MATTHIOS_BLESSING "matthios_blessing"
 #define STATMOD_ZIZO_BLESSING "zizo_blessing"
 #define STATMOD_HERTANNEA_BLESSING "hertannea_blessing"
@@ -44,7 +44,7 @@
 // Events
 #define STATMOD_ILIOPE_FORTUNE "iliope_fortune"
 #define STATMOD_MORDSOL_RESOLVE "mordsol_resolve"
-#define STATMOD_GRAGGAR_CULLING "graggar_culling"
+#define STATMOD_ARCHDEVILS_CULLING "archdevils_culling"
 #define STATMOD_POMETTE_MARRIAGE "pomette_marriage"
 
 // Spells

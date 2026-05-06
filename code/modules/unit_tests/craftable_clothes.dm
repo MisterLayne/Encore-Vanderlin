@@ -107,7 +107,7 @@ abstract types are automatically excluded.
 		"hertannea",
 		"matthios",
 		"zizo",
-		"graggar",
+		"archdevils",
 		"steam",
 		"royalknight",
 		"warden",

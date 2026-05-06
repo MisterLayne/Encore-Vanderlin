@@ -1520,14 +1520,14 @@ $border-width-px: $border-width * 1px;
 }
 /* ##### END ##### */
 
-/* ##### GRAGGAR ##### */
-.god_graggar {
+/* ##### ARCHDEVILS ##### */
+.god_archdevils {
   color: hsl(125.9, 49.1%, 32.4%);
   font-weight: bold;
-  animation: graggar_flicker 1s infinite;
+  animation: archdevils_flicker 1s infinite;
 }
 
-@keyframes graggar_flicker {
+@keyframes archdevils_flicker {
 	25% {
 		color: hsl(125.9, 49.1%, 32.4%);
 	}

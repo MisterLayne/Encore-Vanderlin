@@ -90,7 +90,7 @@
 	. = ..()
 	AddComponent(/datum/component/storage/concrete/grid/cloak)
 
-/obj/item/clothing/cloak/graggar
+/obj/item/clothing/cloak/archdevils
 	name = "vicious cloak"
 	desc = "The only motive force in this rotten world is violence. Be its wielder, not its victim."
 	icon_state = "graggarcloak"

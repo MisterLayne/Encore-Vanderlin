@@ -19,7 +19,7 @@
 
 /datum/quirk/vice/hunted/on_examined(mob/user, list/P, list/examine_contents)
 	if(HAS_TRAIT(user, TRAIT_RECOGNIZE_ADDICTS))
-		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_HERTANNEA("Graggar's Prey..."))
+		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_HERTANNEA("The Archdevils' Prey..."))
 
 /datum/quirk/vice/hunted/on_life(mob/living/user)
 	if(!ishuman(user))

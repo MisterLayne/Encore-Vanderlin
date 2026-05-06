@@ -19,10 +19,10 @@
 	triumph_buy_id = TRIUMPH_BUY_MATTHIOS_INFLUENCE_REDUCTION
 	storyteller_name = MATTHIOS
 
-/datum/triumph_buy/storyteller_influence_reduction/graggar
+/datum/triumph_buy/storyteller_influence_reduction/archdevils
 	name = "Archdevil's Influence Reduction"
-	triumph_buy_id = TRIUMPH_BUY_GRAGGAR_INFLUENCE_REDUCTION
-	storyteller_name = GRAGGAR
+	triumph_buy_id = TRIUMPH_BUY_ARCHDEVILS_INFLUENCE_REDUCTION
+	storyteller_name = ARCHDEVILS
 
 /datum/triumph_buy/storyteller_influence_reduction/hertannea
 	name = "Hertannea's Influence Reduction"

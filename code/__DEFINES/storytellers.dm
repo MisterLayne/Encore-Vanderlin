@@ -13,7 +13,7 @@
 #define TAG_GANI "Gani"
 #define TAG_ZIZO "The One Envy"
 #define TAG_HERTANNEA "Hertannea"
-#define TAG_GRAGGAR "The Archdevils"
+#define TAG_ARCHDEVILS "The Archdevils"
 #define TAG_MATTHIOS "The Deceivers"
 
 /// Base tag for god-related logic and identification
@@ -61,13 +61,13 @@
 /// Tag representing magical influence or events, used by Akan and Zizo
 #define TAG_MAGICAL "Magical"
 
-/// Tag denoting battle-related effects, associated with Graggar
+/// Tag denoting battle-related effects, associated with Archdevils
 #define TAG_BATTLE "Battle"
 
-/// Tag symbolizing blood-related actions, belonging to Graggar
+/// Tag symbolizing blood-related actions, belonging to Archdevils
 #define TAG_BLOOD "Blood"
 
-/// Tag representing war-like influence, tied to Graggar
+/// Tag representing war-like influence, tied to Archdevils
 #define TAG_WAR "War"
 
 /// Tag for gambling-related systems or events, used by Iliope
@@ -198,7 +198,7 @@
 #define INHUMEN_STORYTELLERS list( \
 	/datum/storyteller/zizo, \
 	/datum/storyteller/hertannea, \
-	/datum/storyteller/graggar, \
+	/datum/storyteller/archdevils, \
 	/datum/storyteller/matthios, \
 )
 
@@ -221,7 +221,7 @@
 // Inhumen pantheon
 #define ZIZO "One Envy"
 #define HERTANNEA "Hertannea"
-#define GRAGGAR "Archdevils"
+#define ARCHDEVILS "Archdevils"
 #define MATTHIOS "Deceivers"
 
 // Devotion Classes

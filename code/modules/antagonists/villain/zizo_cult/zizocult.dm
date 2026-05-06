@@ -80,7 +80,7 @@
 	if(istype(examined_datum, /datum/antagonist/zizocultist))
 		return span_boldnotice("A lackey for the future.")
 	if(istype(examined_datum, /datum/antagonist/assassin))
-		return span_boldnotice("A GRAGGAROID! A CULTIST OF GRAGGAR!")
+		return span_boldnotice("A ARCHDEVILSOID! A CULTIST OF ARCHDEVILS!")
 
 /datum/antagonist/zizocultist/on_gain()
 	. = ..()

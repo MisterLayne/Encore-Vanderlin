@@ -214,7 +214,7 @@
 	sleeved = 'icons/roguetown/clothing/special/onmob/evilarmor.dmi'
 	sellprice = 0 // See above comment
 
-/obj/item/clothing/shoes/boots/armor/graggar
+/obj/item/clothing/shoes/boots/armor/archdevils
 	name = "vicious boots"
 	desc = "A menacing pair of plate boots, caked in blood and brain matter. Known for crushing skulls."
 	icon_state = "graggarplateboots"

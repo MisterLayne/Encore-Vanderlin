@@ -171,7 +171,7 @@
 #define SPAN_GOD_VALDALA(str) ("<span class='god_valdala'>" + str + "</span>")
 #define SPAN_GOD_MATTHIOS(str) ("<span class='god_matthios'>" + str + "</span>")
 #define SPAN_GOD_HERTANNEA(str) ("<span class='god_hertannea'>" + str + "</span>")
-#define SPAN_GOD_GRAGGAR(str) ("<span class='god_graggar'>" + str + "</span>")
+#define SPAN_GOD_ARCHDEVILS(str) ("<span class='god_archdevils'>" + str + "</span>")
 #define SPAN_GOD_ZIZO(str) ("<span class='god_zizo'>" + str + "</span>")
 #define SPAN_GOD_PSYDON(str) ("<span class='god_psydon'>" + str + "</span>")
 #define SPAN_GOD_GREATHUNT(str) ("<span class='god_thegreathunt'>" + str + "</span>")

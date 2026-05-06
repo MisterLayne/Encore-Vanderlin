@@ -493,8 +493,8 @@
 
 	cost_variance = 30  // Makes events more erratic in timing
 
-/datum/storyteller/graggar
-	name = GRAGGAR
+/datum/storyteller/archdevils
+	name = ARCHDEVILS
 	desc = "Archdevil encourages war and conquest, making combat the solution to all."
 	welcome_text = "Victory or death!"
 	weight = 4
@@ -504,7 +504,7 @@
 	guarantees_roundstart_roleset = TRUE
 
 	tag_multipliers = list(
-		TAG_GRAGGAR = 3,
+		TAG_ARCHDEVILS = 3,
 		TAG_BATTLE = 1.75,
 		TAG_BLOOD = 1.5,
 		TAG_WAR = 1.25,

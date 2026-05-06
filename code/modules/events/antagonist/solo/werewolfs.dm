@@ -2,7 +2,7 @@
 	name = "Verevolfs"
 	tags = list(
 		TAG_GANI,
-		TAG_GRAGGAR,
+		TAG_ARCHDEVILS,
 		TAG_BLOOD,
 		TAG_COMBAT,
 		TAG_VILLAIN,

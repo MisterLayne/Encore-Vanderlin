@@ -74,11 +74,11 @@
 
 /datum/culture/species/half_orc/blood_axe
 	name = "Blood Axe"
-	description = "Known to humens as violent and brutal warriors in the Crimsonlands. They believe themselves to be Graggar's chosen. Humen steppesmen avoid their path. Never ask their opinion of the Splitjaw tribe."
+	description = "Known to humens as violent and brutal warriors in the Crimsonlands. They believe themselves to be the Archdevils' chosen. Humen steppesmen avoid their path. Never ask their opinion of the Splitjaw tribe."
 
 /datum/culture/species/half_orc/splitjaw
 	name = "Splitjaw"
-	description = "Known to humens as brutal and violent fighters in the Crimsonlands. They believe themselves to be Graggar's chosen. Humen steppesmen avoid their path. Never ask their opinion of the Blood Axe tribe."
+	description = "Known to humens as brutal and violent fighters in the Crimsonlands. They believe themselves to be the Archdevils' chosen. Humen steppesmen avoid their path. Never ask their opinion of the Blood Axe tribe."
 
 /datum/culture/species/half_orc/blackhammer
 	name = "Blackhammer"

@@ -39,8 +39,8 @@
 		/mob/living/carbon/human/proc/praise,
 	)
 
-/datum/patron/inhumen/graggar
-	name = GRAGGAR
+/datum/patron/inhumen/archdevils
+	name = ARCHDEVILS
 	domain = "Ascended God, the Dark Sini-Star of Unnatural Beasts, Unsated Consumption, and Unbridled Hatred"
 	desc = "Became the first orc upon ascension through his habit of consuming the bodies of those he conquered. His forces continue to ravage the lands in his name. Through him, one may achieve true strength."
 	flaws = "Rage, Hatred, Bloodthirst"
@@ -48,13 +48,13 @@
 	sins = "Compassion, Frailty, Servility"
 	boons = "You are drawn to the flavour of raw flesh, organs, and blood. You may consume without worry."
 	added_traits = list(TRAIT_ORGAN_EATER, TRAIT_BLOODDRINKER)
-	devotion_holder = /datum/devotion/inhumen/graggar
+	devotion_holder = /datum/devotion/inhumen/archdevils
 	confess_lines = list(
-		"GRAGGAR IS THE BEAST I WORSHIP!",
-		"GRAGGAR WILL RAVAGE YOU!",
-		"GRAGGAR BRINGS UNHOLY DESTRUCTION!"
+		"ARCHDEVILS IS THE BEAST I WORSHIP!",
+		"ARCHDEVILS WILL RAVAGE YOU!",
+		"ARCHDEVILS BRINGS UNHOLY DESTRUCTION!"
 	)
-	storyteller = /datum/storyteller/graggar
+	storyteller = /datum/storyteller/archdevils
 
 /datum/patron/inhumen/matthios
 	name = MATTHIOS
@@ -90,8 +90,8 @@
 	)
 	storyteller = /datum/storyteller/hertannea
 
-/// Maniac Patron - Their mind is broken by secrets of Zizo/Graggar combined. They quite possibly know the reality of what happens outside the planet. They may think this is all a game. They are clearly insane.
-/datum/patron/inhumen/graggar_zizo
+/// Maniac Patron - Their mind is broken by secrets of Zizo/Archdevils combined. They quite possibly know the reality of what happens outside the planet. They may think this is all a game. They are clearly insane.
+/datum/patron/inhumen/archdevils_zizo
 	name = "Graggazo"
 	domain = "Ascended God who slaughtered her kind in ascension, the Dark Sini-Star of Unnatural Beasts, Forbidden Magic, and Unbridled Hatred."
 	desc = "Became the first snow orc upon ascension through his habit of consuming the bodies of those he conquered. His forces continue to ravage the lands in her name. He proves that any with will can achieve divinity... though at a cost. MAKE THIS MAKE SENSE. MY MIND! MY MIND!!"
@@ -106,10 +106,10 @@
 		"WHO AM I WORSHIPPING?!"
 	)
 
-/datum/patron/inhumen/graggar_zizo/preference_accessible(datum/preferences/prefs)
+/datum/patron/inhumen/archdevils_zizo/preference_accessible(datum/preferences/prefs)
 	return FALSE
 
-/datum/patron/inhumen/graggar_zizo/can_pray(mob/living/follower)
+/datum/patron/inhumen/archdevils_zizo/can_pray(mob/living/follower)
 	var/datum/antagonist/maniac/dreamer = follower.mind.has_antag_datum(/datum/antagonist/maniac)
 	if(dreamer)
 		return TRUE
@@ -119,7 +119,7 @@
 	message_admins("[ADMIN_LOOKUPFLW(follower)] has been gibbed due to praying as a non-maniac with their patron set to Graggazo. Whoops..")
 	return FALSE
 
-/datum/patron/inhumen/graggar_zizo/hear_prayer(mob/living/follower, message)
+/datum/patron/inhumen/archdevils_zizo/hear_prayer(mob/living/follower, message)
 	var/datum/antagonist/maniac/dreamer = follower.mind.has_antag_datum(/datum/antagonist/maniac)
 	if(!dreamer)
 		return FALSE

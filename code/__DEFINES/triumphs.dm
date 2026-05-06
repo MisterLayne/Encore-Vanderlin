@@ -28,11 +28,11 @@
 #define TRIUMPH_BUY_GANI_INFLUENCE "gani_influence"
 #define TRIUMPH_BUY_ZIZO_INFLUENCE "zizo_influence"
 #define TRIUMPH_BUY_HERTANNEA_INFLUENCE "hertannea_influence"
-#define TRIUMPH_BUY_GRAGGAR_INFLUENCE "graggar_influence"
+#define TRIUMPH_BUY_ARCHDEVILS_INFLUENCE "archdevils_influence"
 #define TRIUMPH_BUY_MATTHIOS_INFLUENCE "matthios_influence"
 
 #define TRIUMPH_BUY_MATTHIOS_INFLUENCE_REDUCTION "matthios_influence_reduction"
-#define TRIUMPH_BUY_GRAGGAR_INFLUENCE_REDUCTION "graggar_influence_reduction"
+#define TRIUMPH_BUY_ARCHDEVILS_INFLUENCE_REDUCTION "archdevils_influence_reduction"
 #define TRIUMPH_BUY_HERTANNEA_INFLUENCE_REDUCTION "hertannea_influence_reduction"
 #define TRIUMPH_BUY_ZIZO_INFLUENCE_REDUCTION "zizo_influence_reduction"
 #define TRIUMPH_BUY_GANI_INFLUENCE_REDUCTION "gani_influence_reduction"

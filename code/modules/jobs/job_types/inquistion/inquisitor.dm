@@ -294,7 +294,7 @@
 						var/static/list/false_patron_types = list(
 							/datum/patron/inhumen/matthios,
 							/datum/patron/inhumen/zizo,
-							/datum/patron/inhumen/graggar
+							/datum/patron/inhumen/archdevils
 						)
 						antag_type = pick(false_patron_types)
 						confessions += list("I WORSHIP THE FORBIDDEN!", "I FOLLOW THE DARK PATH!", "I AM A HERETIC!")
@@ -383,7 +383,7 @@
 					if(/datum/antagonist/vampire/lords_spawn)
 						held_confession.bad_type = "AN UNDERLING OF THE BLOOD-LORD"
 						held_confession.antag = initial(antag_type:name)
-					if(/datum/patron/inhumen/graggar)
+					if(/datum/patron/inhumen/archdevils)
 						held_confession.bad_type = "A FOLLOWER OF THE DARK SUN"
 						held_confession.antag = "worshiper of " + initial(antag_type:name)
 					if(/datum/patron/godless/godless)

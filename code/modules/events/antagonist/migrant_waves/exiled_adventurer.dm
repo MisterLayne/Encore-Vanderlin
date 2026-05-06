@@ -9,7 +9,7 @@
 
 	tags = list(
 		TAG_GANI,
-		TAG_GRAGGAR,
+		TAG_ARCHDEVILS,
 		TAG_VILLAIN,
 		TAG_BLOOD,
 		TAG_COMBAT,

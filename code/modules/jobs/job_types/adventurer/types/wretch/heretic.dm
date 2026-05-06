@@ -74,12 +74,12 @@
 		if(/datum/patron/divine/iliope)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/whipsflails, 40)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatXylix.ogg'
-		if(/datum/patron/inhumen/graggar)
+		if(/datum/patron/inhumen/archdevils)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/axesmaces, 40)
 			ADD_TRAIT(spawned, TRAIT_STRONGBITE, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/antag/combat_werewolf.ogg'
 			ADD_TRAIT(spawned, TRAIT_STRONGBITE, TRAIT_GENERIC)
-		if(/datum/patron/inhumen/graggar_zizo)
+		if(/datum/patron/inhumen/archdevils_zizo)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/axesmaces, 40)
 			spawned.cmode_music = 'sound/music/cmode/antag/combat_werewolf.ogg'
 		if(/datum/patron/inhumen/zizo)
@@ -191,24 +191,24 @@
 			head = /obj/item/clothing/head/helmet/heavy/necked/iliope
 			cloak = /obj/item/clothing/cloak/stabard/templar/iliope
 			beltl = /obj/item/weapon/whip/iliope
-		if(/datum/patron/inhumen/graggar)
-			head = /obj/item/clothing/head/helmet/heavy/graggar
-			armor = /obj/item/clothing/armor/plate/full/graggar
+		if(/datum/patron/inhumen/archdevils)
+			head = /obj/item/clothing/head/helmet/heavy/archdevils
+			armor = /obj/item/clothing/armor/plate/full/archdevils
 			neck = /obj/item/clothing/neck/gorget
-			gloves = /obj/item/clothing/gloves/plate/graggar
-			pants = /obj/item/clothing/pants/platelegs/graggar
-			shoes = /obj/item/clothing/shoes/boots/armor/graggar
-			cloak = /obj/item/clothing/cloak/graggar
-			backr = /obj/item/weapon/greataxe/steel/doublehead/graggar
-		if(/datum/patron/inhumen/graggar_zizo)
-			head = /obj/item/clothing/head/helmet/heavy/graggar
-			armor = /obj/item/clothing/armor/plate/full/graggar
+			gloves = /obj/item/clothing/gloves/plate/archdevils
+			pants = /obj/item/clothing/pants/platelegs/archdevils
+			shoes = /obj/item/clothing/shoes/boots/armor/archdevils
+			cloak = /obj/item/clothing/cloak/archdevils
+			backr = /obj/item/weapon/greataxe/steel/doublehead/archdevils
+		if(/datum/patron/inhumen/archdevils_zizo)
+			head = /obj/item/clothing/head/helmet/heavy/archdevils
+			armor = /obj/item/clothing/armor/plate/full/archdevils
 			neck = /obj/item/clothing/neck/gorget
-			gloves = /obj/item/clothing/gloves/plate/graggar
-			pants = /obj/item/clothing/pants/platelegs/graggar
-			shoes = /obj/item/clothing/shoes/boots/armor/graggar
-			cloak = /obj/item/clothing/cloak/graggar
-			backr = /obj/item/weapon/greataxe/steel/doublehead/graggar
+			gloves = /obj/item/clothing/gloves/plate/archdevils
+			pants = /obj/item/clothing/pants/platelegs/archdevils
+			shoes = /obj/item/clothing/shoes/boots/armor/archdevils
+			cloak = /obj/item/clothing/cloak/archdevils
+			backr = /obj/item/weapon/greataxe/steel/doublehead/archdevils
 		if(/datum/patron/inhumen/zizo)
 			head = /obj/item/clothing/head/helmet/visored/zizo
 			armor = /obj/item/clothing/armor/plate/full/zizo

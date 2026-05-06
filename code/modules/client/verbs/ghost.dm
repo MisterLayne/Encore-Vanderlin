@@ -79,7 +79,7 @@
 			return FALSE
 
 		if((live_one.has_quirk(/datum/quirk/vice/hunted) || HAS_TRAIT(src, TRAIT_ZIZOID_HUNTED)) && !MOBTIMER_FINISHED(src, MT_LASTDIED, 60 SECONDS))
-			to_chat(src, span_warning("Graggar's influence is currently preventing me from fleeing to the Underworld!"))
+			to_chat(src, span_warning("the Archdevils' influence is currently preventing me from fleeing to the Underworld!"))
 			return FALSE
 
 	var/answer = tgui_alert(src, "Begin the long walk in the Underworld to your judgement?", "JUDGEMENT", DEFAULT_INPUT_CHOICES)

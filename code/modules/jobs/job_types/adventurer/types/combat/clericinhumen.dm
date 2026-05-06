@@ -57,11 +57,11 @@
 	. = ..()
 	if(spawned.patron)
 		switch(spawned.patron.type)
-			if(/datum/patron/inhumen/graggar)
+			if(/datum/patron/inhumen/archdevils)
 				spawned.adjust_skill_level(/datum/attribute/skill/combat/axesmaces, 30)
 				ADD_TRAIT(spawned, TRAIT_DUALWIELDER, TRAIT_GENERIC)
 				spawned.cmode_music = 'sound/music/cmode/antag/combat_werewolf.ogg'
-			if(/datum/patron/inhumen/graggar_zizo)
+			if(/datum/patron/inhumen/archdevils_zizo)
 				spawned.adjust_skill_level(/datum/attribute/skill/combat/unarmed, 20)
 				spawned.adjust_skill_level(/datum/attribute/skill/combat/wrestling, 20)
 				spawned.cmode_music = 'sound/music/cmode/antag/combat_werewolf.ogg'
@@ -110,12 +110,12 @@
 	. = ..()
 	if(equipped_human.patron)
 		switch(equipped_human.patron.type)
-			if(/datum/patron/inhumen/graggar)
+			if(/datum/patron/inhumen/archdevils)
 				cloak = /obj/item/clothing/cloak/raincloak/colored/mortus
 				head = /obj/item/clothing/head/helmet/horned
 				beltl = /obj/item/weapon/axe/boneaxe
 				beltr = /obj/item/weapon/axe/boneaxe
-			if(/datum/patron/inhumen/graggar_zizo)
+			if(/datum/patron/inhumen/archdevils_zizo)
 				cloak = /obj/item/clothing/cloak/raincloak/colored/mortus
 			if(/datum/patron/inhumen/zizo)
 				cloak = /obj/item/clothing/cloak/raincloak/colored/mortus

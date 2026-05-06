@@ -983,8 +983,8 @@
 	// Hertannea
 	data += god_ui_block("HERTANNEA", "#46254a", "#e2abee", /datum/storyteller/hertannea, debug)
 
-	// Graggar
-	data += god_ui_block("GRAGGAR", "#3b5e51", "#99bbc7", /datum/storyteller/graggar, debug)
+	// Archdevils
+	data += god_ui_block("ARCHDEVILS", "#3b5e51", "#99bbc7", /datum/storyteller/archdevils, debug)
 
 	// Zizo
 	data += god_ui_block("ZIZO", "#661239", "#ed9da3", /datum/storyteller/zizo, debug)

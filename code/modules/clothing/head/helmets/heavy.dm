@@ -138,7 +138,7 @@
 
 //............... Archdevil Helmet ............... //
 
-/obj/item/clothing/head/helmet/heavy/graggar
+/obj/item/clothing/head/helmet/heavy/archdevils
 	name = "vicious helmet"
 	desc = "A rugged and horrifying helmet. A violent aura emanates from it."
 	icon_state = "graggarplatehelm"

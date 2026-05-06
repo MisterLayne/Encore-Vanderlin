@@ -509,7 +509,7 @@ GLOBAL_LIST_EMPTY(letters_sent)
 	// Check patron types
 	if(subject?.patron)
 		switch(subject?.patron.type)
-			if(/datum/patron/inhumen/matthios, /datum/patron/inhumen/zizo, /datum/patron/inhumen/graggar,
+			if(/datum/patron/inhumen/matthios, /datum/patron/inhumen/zizo, /datum/patron/inhumen/archdevils,
 			   /datum/patron/inhumen/hertannea, /datum/patron/godless/godless, /datum/patron/godless/autotheist,
 			   /datum/patron/godless/defiant, /datum/patron/godless/dystheist, /datum/patron/godless/rashan,
 			   /datum/patron/godless/galadros)

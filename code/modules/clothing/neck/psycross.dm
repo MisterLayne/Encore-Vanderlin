@@ -41,7 +41,7 @@
 	desc = "'“The hunger, the destruction, the impending frost, the enemy of my enemy. Feed the Bear, or be consumed.'  </br>  </br>The Starving Bear embodies not a virtue, but the necessity to thrive above all else. Avarice is not a sin, but a virtue; to ensure that the homeland never suffers from poverty nor starvation again. Pillage, plunder, and perforate the wealth that others would keep from you, but do not forget that every choice begets consequences."
 	icon_state = "gronnmatthios"
 
-/obj/item/clothing/neck/psycross/gronn/graggar
+/obj/item/clothing/neck/psycross/gronn/archdevils
 	name = "carved talisman" //grinning talisman
 	desc = "'The battle, the combat, the violence, the rush of victory, the honored glories. Defeat the foe, or die with them.'  </br>  </br>The Grinning Moose embodies the virtues of strengh and domination; to survive both the homeland's frigid blizzards and those who'd seek to maraude its countrymen. Be untamed and unstoppable, but do not lose yourself in the haze; for even the Moose was chained, once. Kill your own without reason, and the chain shall be tugged; and your soul, too, shall be impaled on their horns."
 	icon_state = "gronngraggar"

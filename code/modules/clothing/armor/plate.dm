@@ -131,7 +131,7 @@
 
 //.............. Archdevil Armor .................//
 
-/obj/item/clothing/armor/plate/full/graggar
+/obj/item/clothing/armor/plate/full/archdevils
 	name = "vicious full-plate"
 	desc = "A sinister set full plate. Untold violence stirs from within."
 	icon_state = "graggarplate"

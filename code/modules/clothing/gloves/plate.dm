@@ -95,7 +95,7 @@
 	sleeved = 'icons/roguetown/clothing/special/onmob/evilarmor.dmi'
 	sellprice = 0 // See above comment
 
-/obj/item/clothing/gloves/plate/graggar
+/obj/item/clothing/gloves/plate/archdevils
 	name = "vicious gauntlets"
 	desc = "Plate gauntlets that reek of death. Many lives have been taken with these."
 	icon_state = "graggarplategloves"

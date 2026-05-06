@@ -380,44 +380,44 @@ If you want to expand on poisons theres tons of fun effects TG chemistry has tha
 		M.add_nausea(10 * (1 - GET_MOB_ATTRIBUTE_VALUE(M, STAT_CONSTITUTION) / 20))
 		M.adjustToxLoss(0.5)
 	if(ishuman(M) && !ishalforc(M))
-		var/mob/living/carbon/human/graggar_lover = M
-		var/obj/item/organ/heart/H = graggar_lover.getorganslot(ORGAN_SLOT_HEART)
+		var/mob/living/carbon/human/archdevils_lover = M
+		var/obj/item/organ/heart/H = archdevils_lover.getorganslot(ORGAN_SLOT_HEART)
 		if(istype(H))
 			H.graggometer++
 			switch(H.graggometer)
 				if(15, 30)
-					to_chat(graggar_lover, span_warning("Feel... strange..."))
+					to_chat(archdevils_lover, span_warning("Feel... strange..."))
 				if(45)
-					to_chat(graggar_lover, span_bloody("Flesh...bone..."))
+					to_chat(archdevils_lover, span_bloody("Flesh...bone..."))
 				if(50 to 59)
 					if(prob(30))
-						to_chat(graggar_lover, span_bloody("More... More..."))
-					var/obj/item/bodypart/bp = graggar_lover.get_bodypart()
+						to_chat(archdevils_lover, span_bloody("More... More..."))
+					var/obj/item/bodypart/bp = archdevils_lover.get_bodypart()
 					bp?.lingering_pain += 10
 					bp?.bodypart_attacked_by(BCLASS_BLUNT, 12, null, BODY_ZONE_CHEST, crit_message = FALSE, modifiers = list(CRIT_MOD_CHANCE = -10))
 					M.do_jitter_animation(100)
 				if(60)
 					M.do_jitter_animation(150)
 					M.adjust_jitter(20 SECONDS)
-					graggar_lover.Paralyze(10 SECONDS, TRUE)
-					graggar_lover.unequip_everything()
+					archdevils_lover.Paralyze(10 SECONDS, TRUE)
+					archdevils_lover.unequip_everything()
 					var/datum/dna/dna_cache = new()
-					graggar_lover.dna.copy_dna(dna_cache)
+					archdevils_lover.dna.copy_dna(dna_cache)
 					var/species = /datum/species/halforc
 					//if(ishalforc(M)) // when this works it can be used
 					//	species = /datum/species/orc
 					//else if(iskobold(M))
 					//	species = /datum/species/goblin
-					graggar_lover.set_species(species)
-					if(ishalforc(graggar_lover))
-						dna_cache.transfer_identity(graggar_lover, FALSE)
-					graggar_lover.real_name = dna_cache.real_name
-					graggar_lover.bloody_hands++
-					graggar_lover.update_inv_gloves()
-					playsound(get_turf(graggar_lover), pick('sound/combat/gib (1).ogg','sound/combat/gib (2).ogg'), 100, FALSE, 3)
-					graggar_lover.spawn_gibs(TRUE)
-					graggar_lover.emote("agony")
-					graggar_lover.visible_message(span_danger("[graggar_lover]'s skin bursts!"), span_userdanger("MY SKIN BURSTS!!"))
+					archdevils_lover.set_species(species)
+					if(ishalforc(archdevils_lover))
+						dna_cache.transfer_identity(archdevils_lover, FALSE)
+					archdevils_lover.real_name = dna_cache.real_name
+					archdevils_lover.bloody_hands++
+					archdevils_lover.update_inv_gloves()
+					playsound(get_turf(archdevils_lover), pick('sound/combat/gib (1).ogg','sound/combat/gib (2).ogg'), 100, FALSE, 3)
+					archdevils_lover.spawn_gibs(TRUE)
+					archdevils_lover.emote("agony")
+					archdevils_lover.visible_message(span_danger("[archdevils_lover]'s skin bursts!"), span_userdanger("MY SKIN BURSTS!!"))
 					H.graggometer = 0
 	return ..()
 

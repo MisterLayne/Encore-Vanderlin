@@ -39,12 +39,12 @@
 /datum/objective/personal/consume_organs/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("You have consumed enough organs and hearts to satisfy Archdevil!"))
-	adjust_storyteller_influence(GRAGGAR, 20)
+	adjust_storyteller_influence(ARCHDEVILS, 20)
 	UnregisterSignal(owner.current, COMSIG_ORGAN_CONSUMED)
 
 /datum/objective/personal/consume_organs/reward_owner()
 	. = ..()
-	owner.current.adjust_stat_modifier(STATMOD_GRAGGAR_BLESSING, list(
+	owner.current.adjust_stat_modifier(STATMOD_ARCHDEVILS_BLESSING, list(
 		STAT_STRENGTH = 1,
 		STAT_CONSTITUTION = 1
 	))

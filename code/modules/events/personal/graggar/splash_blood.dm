@@ -8,7 +8,7 @@
 	min_players = 20
 
 	tags = list(
-		TAG_GRAGGAR,
+		TAG_ARCHDEVILS,
 		TAG_BLOOD,
 	)
 
@@ -20,7 +20,7 @@
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(!istype(H) || H.stat == DEAD || !H.client)
 			continue
-		if(!H.patron || !istype(H.patron, /datum/patron/inhumen/graggar))
+		if(!H.patron || !istype(H.patron, /datum/patron/inhumen/archdevils))
 			continue
 		return TRUE
 
@@ -32,7 +32,7 @@
 	for(var/mob/living/carbon/human/human_mob in GLOB.player_list)
 		if(!istype(human_mob) || human_mob.stat == DEAD || !human_mob.client)
 			continue
-		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/inhumen/graggar))
+		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/inhumen/archdevils))
 			continue
 		valid_targets += human_mob
 
@@ -45,7 +45,7 @@
 	chosen_one.mind.add_personal_objective(new_objective)
 
 	bordered_message(chosen_one, list(
-		span_userdanger("YOU ARE GRAGGAR'S CHOSEN!"),
+		span_userdanger("YOU ARE THE ARCHDEVILS'S CHOSEN!"),
 		span_notice("There is power in blood. Splash a bucket full of blood on yourself to honor Archdevil!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/graggar_omen.ogg', 100)

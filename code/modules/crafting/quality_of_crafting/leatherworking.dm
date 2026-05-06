@@ -324,13 +324,13 @@
 	output = /obj/item/clothing/cloak/battlenun
 	craftdiff = 3
 
-/datum/repeatable_crafting_recipe/leather/graggar_cloak
+/datum/repeatable_crafting_recipe/leather/archdevils_cloak
 	name = "vicious cloak"
 	requirements = list(
 		/obj/item/natural/hide/cured = 2,
 		/obj/item/natural/silk = 1,
 	)
-	output = /obj/item/clothing/cloak/graggar
+	output = /obj/item/clothing/cloak/archdevils
 	craftdiff = 4
 
 /datum/repeatable_crafting_recipe/leather/savage_cloak

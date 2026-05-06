@@ -127,10 +127,10 @@
 	trait = TRAIT_SCHIZO_FLAW
 	var/atom/movable/screen/fullscreen/maniac/hallucinations
 
-/datum/curse/graggar
+/datum/curse/archdevils
 	name = "Archdevil's Curse"
 	description = "I am engulfed by unspeakable rage. I cannot stop myself from harming others. When that's not an option, my rage is directed inward."
-	trait = TRAIT_GRAGGAR_CURSE
+	trait = TRAIT_ARCHDEVILS_CURSE
 
 /datum/curse/matthios
 	name = "Deceivers' Curse"
@@ -205,12 +205,12 @@
 
 	owner.reagents.add_reagent(/datum/reagent/druqks, 3)
 
-/datum/curse/graggar/on_life(mob/living/carbon/human/owner)
+/datum/curse/archdevils/on_life(mob/living/carbon/human/owner)
 	. = ..()
-	if(!MOBTIMER_FINISHED(owner, MT_CURSE_GRAGGAR, rand(180, 480) SECONDS)) //this isn't how mob timers work
+	if(!MOBTIMER_FINISHED(owner, MT_CURSE_ARCHDEVILS, rand(180, 480) SECONDS)) //this isn't how mob timers work
 		return
 
-	MOBTIMER_SET(owner, MT_CURSE_GRAGGAR)
+	MOBTIMER_SET(owner, MT_CURSE_ARCHDEVILS)
 	for(var/mob/living/carbon/human in view(1, owner))
 		owner.emote("rage")
 		human.attacked_by(owner.get_active_held_item(), owner)

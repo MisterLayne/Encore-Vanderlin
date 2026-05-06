@@ -240,7 +240,7 @@
 		),
 
 		/// Archdevil
-		/datum/patron/inhumen/graggar = list(
+		/datum/patron/inhumen/archdevils = list(
 			/datum/status_effect/buff/beastsense = "Archdevil growls: \"Sniff it. Smell the fear, thu fool.\"",
 			/datum/status_effect/buff/trollshape = "Archdevil roars: \"Meat swells. Thu strong. Thu crush now.\"",
 			/datum/status_effect/buff/divine_beauty = "Archdevil spits: \"Pah! Pretty? WASTE! Git bloody, thu fole!\"",

@@ -467,7 +467,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_DIVINE_CONVERT "Divine Convert"
 
 // Inhumen patron trait bonuses
-#define TRAIT_ORGAN_EATER "Blessing of Graggar"//Can eat organs (duh.) and raw meat
+#define TRAIT_ORGAN_EATER "Blessing of Archdevils"//Can eat organs (duh.) and raw meat
 #define TRAIT_CRACKHEAD	"Blessing of Hertannea" //No overdose on drugs.
 #define TRAIT_CABAL "Of the Cabal" //Zizo cultists recognize each other too
 #define TRAIT_MATTHIOS_EYES	"Eyes of Matthios" //Examine to see the most expensive item someone has
@@ -489,7 +489,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_ERDL_CURSE "Erdl's Curse"
 #define TRAIT_POMETTE_CURSE "Pomette's Curse"
 #define TRAIT_ZIZO_CURSE "Zizo's Curse"
-#define TRAIT_GRAGGAR_CURSE "Graggar's Curse"
+#define TRAIT_ARCHDEVILS_CURSE "Archdevils' Curse"
 #define TRAIT_MATTHIOS_CURSE "Matthios' Curse"
 #define TRAIT_HERTANNEA_CURSE "Hertannea's Curse"
 

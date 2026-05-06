@@ -7,7 +7,7 @@
 	head = /obj/item/clothing/head/leather/duelhat
 	mask = /obj/item/clothing/face/facemask/steel/harlequin
 	armor = /obj/item/clothing/armor/plate/full/matthios
-	cloak = /obj/item/clothing/cloak/graggar
+	cloak = /obj/item/clothing/cloak/archdevils
 	shirt = /obj/item/clothing/shirt/undershirt/artificer
 	shoes = /obj/item/clothing/shoes/nobleboot/duelboots
 	pants = /obj/item/clothing/pants/trou/leathertights
@@ -25,7 +25,7 @@
 		/obj/item/weapon/flail/peasantwarflail/matthios = list(1, PRICE_SUBGOD_ARTIFACT, 1),
 		/obj/item/weapon/sword/long/martyr = list(1, PRICE_SUBGOD_ARTIFACT, 1),
 		/obj/item/weapon/greataxe/dreamscape = list(1, PRICE_SUBGOD_ARTIFACT, 1),
-		/obj/item/weapon/greataxe/steel/doublehead/graggar = list(1, PRICE_SUBGOD_ARTIFACT, 1),
+		/obj/item/weapon/greataxe/steel/doublehead/archdevils = list(1, PRICE_SUBGOD_ARTIFACT, 1),
 		/obj/item/weapon/polearm/woodstaff/naledi = list(1, PRICE_BOSS_ARTIFACT, 1),
 		/obj/item/weapon/polearm/halberd/bardiche/woodcutter/gorefeast = list(1, PRICE_GOD_ARTIFACT, 1),
 		/obj/item/weapon/polearm/neant = list(1, PRICE_GOD_ARTIFACT, 1),

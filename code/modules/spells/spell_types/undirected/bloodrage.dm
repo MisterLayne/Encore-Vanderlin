@@ -8,7 +8,7 @@
 	spell_type = SPELL_MIRACLE
 	antimagic_flags = MAGIC_RESISTANCE_HOLY
 	associated_skill = /datum/attribute/skill/magic/holy
-	invocation = "I AM GRAGGAR'S RAGE MADE MANIFEST!!"
+	invocation = "I AM ARCHDEVILS'S RAGE MADE MANIFEST!!"
 	invocation_type = INVOCATION_SHOUT
 	charge_required = FALSE
 	cooldown_time = 2 MINUTES
@@ -30,7 +30,7 @@
 	. = ..()
 	if(. & SPELL_CANCEL_CAST)
 		return
-	invocation = "I AM GRAGGAR'S RAGE MADE MANIFEST!!"
+	invocation = "I AM ARCHDEVILS'S RAGE MADE MANIFEST!!"
 	var/mob/living/carbon/human/C = cast_on
 	if(C.handcuffed || C.legcuffed)
 		invocation = "THESE CHAINS CANNOT BIND ME!"

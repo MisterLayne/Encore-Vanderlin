@@ -230,7 +230,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 		/datum/patron/divine/erdl = 0.5,
 		/datum/patron/divine/gani = 0.5,
 		/datum/patron/inhumen/zizo = 1,
-		/datum/patron/inhumen/graggar = 2,
+		/datum/patron/inhumen/archdevils = 2,
 	)
 
 /datum/attunement/life
@@ -283,7 +283,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 	alignments = list(
 		/datum/patron/inhumen/zizo = 0.15,
 		/datum/patron/inhumen/hertannea = 0.15,
-		/datum/patron/inhumen/graggar = 0.15,
+		/datum/patron/inhumen/archdevils = 0.15,
 		/datum/patron/inhumen/matthios = 0.15,
 	)
 

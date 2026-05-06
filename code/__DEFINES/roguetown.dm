@@ -3,10 +3,10 @@
 #define ALL_CLERIC_PATRONS 		list(/datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/valdala, /datum/patron/divine/mordsol, /datum/patron/divine/iliope, /datum/patron/divine/erdl, /datum/patron/divine/golerkanh, /datum/patron/divine/pomette)
 #define ALL_PALADIN_PATRONS 	list(/datum/patron/psydon, /datum/patron/psydon/extremist, /datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/valdala, /datum/patron/divine/mordsol, /datum/patron/divine/iliope, /datum/patron/divine/erdl, /datum/patron/divine/golerkanh, /datum/patron/divine/pomette)
 #define ALL_TEMPLAR_PATRONS 	list(/datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/pomette, /datum/patron/divine/valdala, /datum/patron/divine/mordsol, /datum/patron/divine/erdl, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/golerkanh, /datum/patron/divine/iliope)
-#define ALL_PROFANE_PATRONS 	list(/datum/patron/inhumen/graggar, /datum/patron/inhumen/zizo, /datum/patron/inhumen/matthios, /datum/patron/inhumen/hertannea)
-#define ALL_ICONOCLAST_PATRONS  list(/datum/patron/psydon, /datum/patron/psydon/extremist, /datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/valdala, /datum/patron/divine/mordsol, /datum/patron/divine/iliope, /datum/patron/divine/erdl, /datum/patron/divine/golerkanh, /datum/patron/divine/pomette, /datum/patron/inhumen/graggar, /datum/patron/inhumen/zizo, /datum/patron/inhumen/matthios, /datum/patron/inhumen/hertannea)
+#define ALL_PROFANE_PATRONS 	list(/datum/patron/inhumen/archdevils, /datum/patron/inhumen/zizo, /datum/patron/inhumen/matthios, /datum/patron/inhumen/hertannea)
+#define ALL_ICONOCLAST_PATRONS  list(/datum/patron/psydon, /datum/patron/psydon/extremist, /datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/valdala, /datum/patron/divine/mordsol, /datum/patron/divine/iliope, /datum/patron/divine/erdl, /datum/patron/divine/golerkanh, /datum/patron/divine/pomette, /datum/patron/inhumen/archdevils, /datum/patron/inhumen/zizo, /datum/patron/inhumen/matthios, /datum/patron/inhumen/hertannea)
 
-#define COLORFUL_PATRONS		list("Psydon", "Visires", "Akan", "Gani", "Mjallidhorn", "Valdala", "Mordsol", "Iliope", "Erdl", "Goler Kanh", "Pomette", "Graggar", "Zizo", "Matthios", "Hertannea", "The Great Hunt", "The Black Briar")
+#define COLORFUL_PATRONS		list("Psydon", "Visires", "Akan", "Gani", "Mjallidhorn", "Valdala", "Mordsol", "Iliope", "Erdl", "Goler Kanh", "Pomette", "Archdevils", "Zizo", "Matthios", "Hertannea", "The Great Hunt", "The Black Briar")
 #define TEMPLE_PATRON_NAMES		list("Visires", "Akan", "Gani", "Mjallidhorn", "Valdala", "Mordsol", "Iliope", "Erdl", "Goler Kanh", "Pomette")
 
 GLOBAL_LIST_INIT(curse_names, list())
@@ -24,7 +24,7 @@ GLOBAL_LIST_INIT(curse_names, list())
 #define INHUMEN_CURSES list(\
 	/datum/curse/zizo,\
 	/datum/curse/zizo/minor,\
-	/datum/curse/graggar,\
+	/datum/curse/archdevils,\
 	/datum/curse/matthios,\
 	/datum/curse/hertannea\
 )
@@ -480,7 +480,7 @@ BCLASS_TWIST)
 		"Stripes"="stripes_decoration",\
 		"Red Castle"="castle_red_decoration",\
 		"White Castle"="castle_white_decoration",\
-		"Archdevil"="graggar_decoration",\
+		"Archdevil"="archdevils_decoration",\
 		"Efreet"="efreet_decoration",\
 		"Sun"="sun_decoration",\
 		"Peace"="peace_decoration",\
@@ -501,7 +501,7 @@ BCLASS_TWIST)
 		"Stripes"="stripes_houndecoration",\
 		"Red Castle"="castle_red_houndecoration",\
 		"White Castle"="castle_white_houndecoration",\
-		"Archdevil"="graggar_houndecoration",\
+		"Archdevil"="archdevils_houndecoration",\
 		"Efreet"="efreet_houndecoration",\
 		"Peace"="peace_houndecoration",\
 		"Sun"="sun_houndecoration",\
@@ -522,7 +522,7 @@ BCLASS_TWIST)
 		"Stripes"="stripes_bucket",\
 		"Red Castle"="castle_red_bucket",\
 		"White Castle"="castle_white_bucket",\
-		"Archdevil"="graggar_bucket",\
+		"Archdevil"="archdevils_bucket",\
 		"Efreet"="efreet_bucket",\
 		"Peace"="peace_bucket",\
 		"Sun"="sun_bucket",\
@@ -543,7 +543,7 @@ BCLASS_TWIST)
 		"Stripes"="stripes_gbucket",\
 		"Red Castle"="castle_red_gbucket",\
 		"White Castle"="castle_white_gbucket",\
-		"Archdevil"="graggar_gbucket",\
+		"Archdevil"="archdevils_gbucket",\
 		"Efreet"="efreet_gbucket",\
 		"Peace"="peace_gbucket",\
 		"Sun"="sun_gbucket",\
@@ -564,7 +564,7 @@ BCLASS_TWIST)
 		"Stripes"="stripes_bascinet",\
 		"Red Castle"="castle_red_bascinet",\
 		"White Castle"="castle_white_bascinet",\
-		"Archdevil"="graggar_bascinet",\
+		"Archdevil"="archdevils_bascinet",\
 		"Efreet"="efreet_bascinet",\
 		"Sun"="sun_bascinet",\
 		"Peace"="peace_bascinet",\

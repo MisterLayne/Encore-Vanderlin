@@ -20,7 +20,7 @@
 /* CURSES */
 	#define MT_CURSE_ERDL "curse_erdl"
 	#define MT_CURSE_HERTANNEA "curse_hertannea"
-	#define MT_CURSE_GRAGGAR "curse_graggar"
+	#define MT_CURSE_ARCHDEVILS "curse_archdevils"
 
 /* VILLAIN */
 	#define MT_ZOMBIETRIUMPH "zombie_tri" //! flag

@@ -182,7 +182,7 @@
 				if(situational_bonus > 0)
 					conditional_buff = TRUE
 
-			if(/datum/patron/inhumen/graggar)
+			if(/datum/patron/inhumen/archdevils)
 				cast_on.visible_message(span_info("Foul fumes billow outward as [cast_on] is restored!"), span_notice("A noxious scent burns my nostrils, but I feel better!"))
 				// if you've got lingering toxin damage, you get healed more, but your bonus healing doesn't affect toxin
 				var/toxloss = cast_on.getToxLoss()

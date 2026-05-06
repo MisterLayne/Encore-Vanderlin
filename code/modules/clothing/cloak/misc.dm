@@ -270,7 +270,7 @@
 	allowed_race = SPECIES_BASE_BODY
 	inhand_mod = FALSE
 
-/obj/item/clothing/cloak/graggar
+/obj/item/clothing/cloak/archdevils
 	name = "vicious cloak"
 	desc = "A cloak with a sinister aura set to bring about violence on the world."
 	icon = 'icons/roguetown/clothing/special/evilarmor.dmi'

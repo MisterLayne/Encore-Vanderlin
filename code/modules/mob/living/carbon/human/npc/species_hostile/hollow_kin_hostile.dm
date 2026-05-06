@@ -14,8 +14,8 @@
 	AddElement(/datum/element/ai_retaliate)
 	set_species(/datum/species/demihuman)
 	AddComponent(/datum/component/ai_aggro_system)
-	set_patron(/datum/patron/inhumen/graggar, TRUE)
-	job = "Graggarite Hollow-Kin"
+	set_patron(/datum/patron/inhumen/archdevils, TRUE)
+	job = "Archdevilsite Hollow-Kin"
 	ADD_TRAIT(src, TRAIT_NOMOOD, TRAIT_GENERIC)
 	ADD_TRAIT(src, TRAIT_NOHUNGER, TRAIT_GENERIC)
 	ai_controller?.blackboard[BB_ARMOR_CLASS] = 0

@@ -238,7 +238,7 @@
 	desc = span_green("Visires' light shines brightly through me. I must not let others ever forget that.")
 	timer = 30 MINUTES
 
-/datum/stress_event/graggar_culling_finished
+/datum/stress_event/archdevils_culling_finished
 	stress_change = -2
 	desc = span_green("I have prevailed over my rival! Archdevil favours me now!")
 	timer = INFINITY

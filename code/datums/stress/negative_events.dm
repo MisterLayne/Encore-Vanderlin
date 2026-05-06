@@ -534,7 +534,7 @@
 	desc = span_rose("Pomette calls for me to be wed! I must find my destined partner before I die all alone...")
 	timer = 30 MINUTES
 
-/datum/stress_event/graggar_culling_unfinished
+/datum/stress_event/archdevils_culling_unfinished
 	stress_change = 1
 	desc = span_red("I must eat my opponent's heart before he eats MINE!")
 	timer = INFINITY

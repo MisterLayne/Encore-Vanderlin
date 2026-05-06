@@ -88,7 +88,7 @@
 				<option value="['sound/misc/gods/astrata_omen.ogg']">Visires Omen</option>
 				<option value="['sound/misc/gods/xylix_omen.ogg']">Iliope Omen</option>
 				<option value="['sound/misc/gods/zizo_omen.ogg']">Zizo Omen</option>
-				<option value="['sound/misc/gods/graggar_omen.ogg']">Graggar Omen</option>
+				<option value="['sound/misc/gods/graggar_omen.ogg']">Archdevils Omen</option>
 				<option value="['sound/misc/gods/matthios_omen.ogg']">Matthios Omen</option>
 				<option value="['sound/misc/gods/baotha_omen.ogg']">Hertannea Omen</option>
 			</select>

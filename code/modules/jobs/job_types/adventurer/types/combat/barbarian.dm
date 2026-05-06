@@ -33,7 +33,7 @@
 	category_tags = list(CTAG_ADVENTURER)
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander2.ogg'
 
-	allowed_patrons = list(/datum/patron/divine/mordsol, /datum/patron/divine/mjallidhorn, /datum/patron/divine/valdala, /datum/patron/divine/gani,/datum/patron/inhumen/graggar, /datum/patron/godless/godless, /datum/patron/godless/autotheist, /datum/patron/godless/defiant, /datum/patron/godless/dystheist, /datum/patron/godless/naivety, /datum/patron/godless/rashan, /datum/patron/godless/galadros)
+	allowed_patrons = list(/datum/patron/divine/mordsol, /datum/patron/divine/mjallidhorn, /datum/patron/divine/valdala, /datum/patron/divine/gani,/datum/patron/inhumen/archdevils, /datum/patron/godless/godless, /datum/patron/godless/autotheist, /datum/patron/godless/defiant, /datum/patron/godless/dystheist, /datum/patron/godless/naivety, /datum/patron/godless/rashan, /datum/patron/godless/galadros)
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/barbarian
 

@@ -1010,11 +1010,11 @@
 	created_item = /obj/item/clothing/pants/platelegs/matthios
 	craftdiff = 6
 
-/datum/anvil_recipe/armor/steel/graggarite_plate_pants
-	name = "Graggarite Plate Chausses (+Bar)"
-	recipe_name = "a pair of Graggarite Plate Chausses"
+/datum/anvil_recipe/armor/steel/archdevilsite_plate_pants
+	name = "Archdevilsite Plate Chausses (+Bar)"
+	recipe_name = "a pair of Archdevilsite Plate Chausses"
 	additional_items = list(/obj/item/ingot/steel)
-	created_item = /obj/item/clothing/pants/platelegs/graggar
+	created_item = /obj/item/clothing/pants/platelegs/archdevils
 	craftdiff = 6
 
 /datum/anvil_recipe/armor/steel/matthios_plate
@@ -1024,11 +1024,11 @@
 	created_item = /obj/item/clothing/armor/plate/full/matthios
 	craftdiff = 6
 
-/datum/anvil_recipe/armor/steel/graggar_plate
-	name = "Graggarite Plate Armor (+Bar x3)"
-	recipe_name = "a Full-Plate Graggarite Armor"
+/datum/anvil_recipe/armor/steel/archdevils_plate
+	name = "Archdevilsite Plate Armor (+Bar x3)"
+	recipe_name = "a Full-Plate Archdevilsite Armor"
 	additional_items = list(/obj/item/ingot/steel,/obj/item/ingot/steel,/obj/item/ingot/steel)
-	created_item = /obj/item/clothing/armor/plate/full/graggar
+	created_item = /obj/item/clothing/armor/plate/full/archdevils
 	craftdiff = 6
 
 /datum/anvil_recipe/armor/steel/matthios_plate_gauntlets
@@ -1037,10 +1037,10 @@
 	created_item = /obj/item/clothing/gloves/plate/matthios
 	craftdiff = 6
 
-/datum/anvil_recipe/armor/steel/graggar_plate_gauntlets
-	name = "Graggarite Plate Gauntlets"
+/datum/anvil_recipe/armor/steel/archdevils_plate_gauntlets
+	name = "Archdevilsite Plate Gauntlets"
 	recipe_name = "a pair of graggarite Plate gauntlets"
-	created_item = /obj/item/clothing/gloves/plate/graggar
+	created_item = /obj/item/clothing/gloves/plate/archdevils
 	craftdiff = 6
 
 /datum/anvil_recipe/armor/steel/matthios_plate_boots
@@ -1049,10 +1049,10 @@
 	created_item = /obj/item/clothing/shoes/boots/armor/matthios
 	craftdiff = 6
 
-/datum/anvil_recipe/armor/steel/graggar_plate_boots
-	name = "Graggarite Plate Boots"
+/datum/anvil_recipe/armor/steel/archdevils_plate_boots
+	name = "Archdevilsite Plate Boots"
 	recipe_name = "a pair of graggar Plate boots"
-	created_item = /obj/item/clothing/shoes/boots/armor/graggar
+	created_item = /obj/item/clothing/shoes/boots/armor/archdevils
 	craftdiff = 6
 
 */
@@ -1238,10 +1238,10 @@
 	created_item = /obj/item/clothing/head/helmet/heavy/matthios
 	craftdiff = 5
 
-/datum/anvil_recipe/armor/blacksteel/graggar_helm
+/datum/anvil_recipe/armor/blacksteel/archdevils_helm
 	name = "Vicious Helmet (+Bar)"
 	additional_items = list(/obj/item/ingot/blacksteel)
-	created_item = /obj/item/clothing/head/helmet/heavy/graggar
+	created_item = /obj/item/clothing/head/helmet/heavy/archdevils
 	craftdiff = 5
 
 /datum/anvil_recipe/armor/blacksteel/elven_helm

@@ -1600,9 +1600,9 @@
 	craftdiff = 1
 	category = "Cloak"
 
-/datum/repeatable_crafting_recipe/sewing/graggar_cloak
+/datum/repeatable_crafting_recipe/sewing/archdevils_cloak
 	name = "vicious cloak"
-	output = /obj/item/clothing/cloak/graggar
+	output = /obj/item/clothing/cloak/archdevils
 	requirements = list(
 		/obj/item/natural/cloth = 2,
 		/obj/item/natural/hide/cured = 1
