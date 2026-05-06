@@ -187,14 +187,14 @@
 				return list("shrink" = 0.6,"sx" = 5,"sy" = -3,"nx" = -5,"ny" = -2,"wx" = -5,"wy" = -1,"ex" = 3,"ey" = -2,"northabove" = 0,"southabove" = 1,"eastabove" = 1,"westabove" = 0,"nturn" = 7,"sturn" = -7,"wturn" = 16,"eturn" = -22,"nflip" = 8,"sflip" = 0,"wflip" = 8,"eflip" = 0)
 
 
-/obj/item/weapon/flail/peasantwarflail/matthios
+/obj/item/weapon/flail/peasantwarflail/deceivers
 	name = "Gilded Flail"
 	desc = "Weight of wealth in a deadly striking end."
 	icon = 'icons/roguetown/weapons/64/patron.dmi'
 	icon_state = "matthiosflail"
 	force_wielded = DAMAGE_GOOD_FLAIL + 7
-	possible_item_intents = list(MATTHIOS_STRIKE)
-	gripped_intents = list(MATTHIOS_STRIKE, MATTHIOS_SMASH)
+	possible_item_intents = list(DECEIVERS_STRIKE)
+	gripped_intents = list(DECEIVERS_STRIKE, DECEIVERS_SMASH)
 	max_integrity = INTEGRITY_STRONGEST
 	slot_flags = ITEM_SLOT_BACK
 	anvilrepair = /datum/attribute/skill/craft/weapon_repair

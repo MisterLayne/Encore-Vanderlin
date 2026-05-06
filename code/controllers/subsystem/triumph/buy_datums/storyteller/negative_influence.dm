@@ -14,10 +14,10 @@
 	if(storyteller_name)
 		adjust_storyteller_influence(storyteller_name, -25)
 
-/datum/triumph_buy/storyteller_influence_reduction/matthios
+/datum/triumph_buy/storyteller_influence_reduction/deceivers
 	name = "Deceivers' Influence Reduction"
-	triumph_buy_id = TRIUMPH_BUY_MATTHIOS_INFLUENCE_REDUCTION
-	storyteller_name = MATTHIOS
+	triumph_buy_id = TRIUMPH_BUY_DECEIVERS_INFLUENCE_REDUCTION
+	storyteller_name = DECEIVERS
 
 /datum/triumph_buy/storyteller_influence_reduction/archdevils
 	name = "Archdevil's Influence Reduction"

@@ -10,7 +10,7 @@
 	name = "Erdl's Mercy"
 	desc = "Corpses rot slower."
 
-/datum/world_trait/matthios_fingers
+/datum/world_trait/deceivers_fingers
 	name = "Deceivers' Fingers"
 	desc = "Improves thief's chance of a successful pickpocket."
 

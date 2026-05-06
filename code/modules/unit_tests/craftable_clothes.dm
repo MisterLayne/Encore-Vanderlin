@@ -105,7 +105,7 @@ abstract types are automatically excluded.
 		"rare",
 		"captain",
 		"hertannea",
-		"matthios",
+		"deceivers",
 		"zizo",
 		"archdevils",
 		"steam",

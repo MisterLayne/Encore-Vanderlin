@@ -272,7 +272,7 @@
 		),
 
 		/// Deceivers
-		/datum/patron/inhumen/matthios = list(
+		/datum/patron/inhumen/deceivers = list(
 			/datum/status_effect/buff/beastsense = "Deceivers laughs: \"Sniff it out, lad. Something worth stealing.\"",
 			/datum/status_effect/buff/trollshape = "Deceivers grins: \"Ugly sells well in some towns, friend.\"",
 			/datum/status_effect/buff/divine_beauty = "Deceivers smirks: \"Pretty coin, pretty face... both stolen easy.\"",

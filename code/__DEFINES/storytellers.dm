@@ -14,7 +14,7 @@
 #define TAG_ZIZO "The One Envy"
 #define TAG_HERTANNEA "Hertannea"
 #define TAG_ARCHDEVILS "The Archdevils"
-#define TAG_MATTHIOS "The Deceivers"
+#define TAG_DECEIVERS "The Deceivers"
 
 /// Base tag for god-related logic and identification
 #define TAG_GOD "God"
@@ -34,7 +34,7 @@
 /// Tag used for raid events, associated with Mordsol
 #define TAG_RAID "Raid"
 
-/// Tag representing trade interactions, used by Mjallidhorn and Matthios
+/// Tag representing trade interactions, used by Mjallidhorn and Deceivers
 #define TAG_TRADE "Trade"
 
 /// Tag denoting widespread effects, utilized by Pomette
@@ -85,10 +85,10 @@
 /// Tag denoting disaster-related events or effects, tied to Hertannea
 #define TAG_DISASTER "Disaster"
 
-/// Tag representing corruption, used by Matthios
+/// Tag representing corruption, used by Deceivers
 #define TAG_CORRUPTION "Corruption"
 
-/// Tag for loot-related events, effects, or systems, used by Matthios
+/// Tag for loot-related events, effects, or systems, used by Deceivers
 #define TAG_LOOT "Loot"
 
 #define EVENT_TRACK_MUNDANE "Mundane"
@@ -199,7 +199,7 @@
 	/datum/storyteller/zizo, \
 	/datum/storyteller/hertannea, \
 	/datum/storyteller/archdevils, \
-	/datum/storyteller/matthios, \
+	/datum/storyteller/deceivers, \
 )
 
 /// All storytellers
@@ -222,7 +222,7 @@
 #define ZIZO "One Envy"
 #define HERTANNEA "Hertannea"
 #define ARCHDEVILS "Archdevils"
-#define MATTHIOS "Deceivers"
+#define DECEIVERS "Deceivers"
 
 // Devotion Classes
 #define DEVOTION_CLASS_PRIEST "Priest"

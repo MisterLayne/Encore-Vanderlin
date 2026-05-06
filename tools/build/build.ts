@@ -68,7 +68,7 @@ export const DmMapsIncludeTarget = new Juke.Target({
   executes: async () => {
     const folders = [
       ...Juke.glob('_maps/kalypso/**/*.dmm'),
-      ...Juke.glob('_maps/matthios_tomb/**/*.dmm'),
+      ...Juke.glob('_maps/deceivers_tomb/**/*.dmm'),
       ...Juke.glob('_maps/templates/**/*.dmm'),
     ];
     const content = `${folders

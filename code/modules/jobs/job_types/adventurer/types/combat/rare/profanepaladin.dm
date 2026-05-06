@@ -58,7 +58,7 @@
 			spawned.cmode_music = 'sound/music/cmode/antag/combat_cult.ogg'
 			if(!spawned.has_language(/datum/language/undead))
 				spawned.grant_language(/datum/language/undead)
-		if(/datum/patron/inhumen/matthios)
+		if(/datum/patron/inhumen/deceivers)
 			spawned.cmode_music = 'sound/music/cmode/antag/CombatBandit1.ogg'
 		if(/datum/patron/inhumen/hertannea)
 			spawned.cmode_music = 'sound/music/cmode/antag/CombatBaotha.ogg'
@@ -107,12 +107,12 @@
 			gloves = /obj/item/clothing/gloves/plate/zizo
 			pants = /obj/item/clothing/pants/platelegs/zizo
 			shoes = /obj/item/clothing/shoes/boots/armor/zizo
-		if(/datum/patron/inhumen/matthios)
-			head = /obj/item/clothing/head/helmet/heavy/matthios
-			armor = /obj/item/clothing/armor/plate/full/matthios
-			gloves = /obj/item/clothing/gloves/plate/matthios
-			pants = /obj/item/clothing/pants/platelegs/matthios
-			shoes = /obj/item/clothing/shoes/boots/armor/matthios
+		if(/datum/patron/inhumen/deceivers)
+			head = /obj/item/clothing/head/helmet/heavy/deceivers
+			armor = /obj/item/clothing/armor/plate/full/deceivers
+			gloves = /obj/item/clothing/gloves/plate/deceivers
+			pants = /obj/item/clothing/pants/platelegs/deceivers
+			shoes = /obj/item/clothing/shoes/boots/armor/deceivers
 		if(/datum/patron/inhumen/hertannea)
 			head = /obj/item/clothing/head/helmet/heavy/hertannea
 			mask = /obj/item/clothing/face/spectacles/sglasses

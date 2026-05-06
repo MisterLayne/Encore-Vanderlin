@@ -331,7 +331,7 @@
 	// Pricing
 	if(HAS_TRAIT(user, TRAIT_SEEPRICES) && sellprice)
 		. += span_tinynoticeital("[P[THEYRE]] worth around [sellprice] mammon\s.")
-	if(HAS_TRAIT(user, TRAIT_MATTHIOS_EYES))
+	if(HAS_TRAIT(user, TRAIT_DECEIVERS_EYES))
 		var/atom/item = get_most_expensive()
 		if(item)
 			. += span_tinynoticeital("You get the feeling [P[THEIR]] most valuable possession is [item.get_examine_name(user)].")

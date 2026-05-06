@@ -1,19 +1,19 @@
-/datum/round_event_control/matthios_theft
+/datum/round_event_control/deceivers_theft
 	name = "Thieving Task"
 	track = EVENT_TRACK_PERSONAL
-	typepath = /datum/round_event/matthios_theft
+	typepath = /datum/round_event/deceivers_theft
 	weight = 10
 	earliest_start = 10 MINUTES
 	max_occurrences = 1
 	min_players = 25
 
 	tags = list(
-		TAG_MATTHIOS,
+		TAG_DECEIVERS,
 		TAG_TRICKERY,
 		TAG_LOOT,
 	)
 
-/datum/round_event_control/matthios_theft/canSpawnEvent(players_amt, gamemode, fake_check)
+/datum/round_event_control/deceivers_theft/canSpawnEvent(players_amt, gamemode, fake_check)
 	. = ..()
 	if(!.)
 		return FALSE
@@ -21,7 +21,7 @@
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(!istype(H) || H.stat == DEAD || !H.client)
 			continue
-		if(!H.patron || !istype(H.patron, /datum/patron/inhumen/matthios))
+		if(!H.patron || !istype(H.patron, /datum/patron/inhumen/deceivers))
 			continue
 		if(istype(H.mind?.assigned_role, /datum/job/bandit) || H.job == ROLE_BANDIT)
 			continue
@@ -31,13 +31,13 @@
 
 	return FALSE
 
-/datum/round_event/matthios_theft/start()
+/datum/round_event/deceivers_theft/start()
 	var/list/valid_targets = list()
 
 	for(var/mob/living/carbon/human/human_mob in GLOB.player_list)
 		if(!istype(human_mob) || human_mob.stat == DEAD || !human_mob.client)
 			continue
-		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/inhumen/matthios))
+		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/inhumen/deceivers))
 			continue
 		if(istype(human_mob.mind?.assigned_role, /datum/job/bandit) || human_mob.job == ROLE_BANDIT)
 			continue
@@ -54,7 +54,7 @@
 	chosen_one.mind.add_personal_objective(new_objective)
 
 	bordered_message(chosen_one, list(
-		span_userdanger("YOU ARE MATTHIOS' CHOSEN!"),
+		span_userdanger("YOU ARE THE DECEIVERS' CHOSEN!"),
 		span_notice("Deceivers demands you prove your cunning! Pickpocket fools to earn Deceivers' favor!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/matthios_omen.ogg', 100)

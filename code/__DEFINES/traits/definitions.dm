@@ -470,7 +470,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_ORGAN_EATER "Blessing of Archdevils"//Can eat organs (duh.) and raw meat
 #define TRAIT_CRACKHEAD	"Blessing of Hertannea" //No overdose on drugs.
 #define TRAIT_CABAL "Of the Cabal" //Zizo cultists recognize each other too
-#define TRAIT_MATTHIOS_EYES	"Eyes of Matthios" //Examine to see the most expensive item someone has
+#define TRAIT_DECEIVERS_EYES	"Eyes of Deceivers" //Examine to see the most expensive item someone has
 
 // Other Patron Trait Bonuses
 #define TRAIT_MANEATER_IMMUNITY "Blessing of The Hunt" //Cannot be grabbed by maneaters.
@@ -490,7 +490,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_POMETTE_CURSE "Pomette's Curse"
 #define TRAIT_ZIZO_CURSE "Zizo's Curse"
 #define TRAIT_ARCHDEVILS_CURSE "Archdevils' Curse"
-#define TRAIT_MATTHIOS_CURSE "Matthios' Curse"
+#define TRAIT_DECEIVERS_CURSE "Deceivers' Curse"
 #define TRAIT_HERTANNEA_CURSE "Hertannea's Curse"
 
 // HIDDEN DOOR TRAITS

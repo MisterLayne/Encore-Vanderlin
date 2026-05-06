@@ -191,7 +191,7 @@
 		/datum/devotion_task/archdevils_consume,
 	)
 
-/datum/devotion/inhumen/matthios
+/datum/devotion/inhumen/deceivers
 	miracles = list(
 		CLERIC_T0 = /datum/action/cooldown/spell/appraise/holy,
 		CLERIC_T1 = /datum/action/cooldown/spell/transact,
@@ -199,7 +199,7 @@
 		CLERIC_T3 = /datum/action/cooldown/spell/churn_wealthy,
 	)
 	viable_tasks = list(
-		/datum/devotion_task/matthios_steal,
+		/datum/devotion_task/deceivers_steal,
 	)
 
 /datum/devotion/inhumen/hertannea

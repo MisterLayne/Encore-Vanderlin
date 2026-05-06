@@ -292,7 +292,7 @@
 					if(!length(confessions) && prob(false_confession_chance) && !was_suspect)
 						is_false_confession = TRUE
 						var/static/list/false_patron_types = list(
-							/datum/patron/inhumen/matthios,
+							/datum/patron/inhumen/deceivers,
 							/datum/patron/inhumen/zizo,
 							/datum/patron/inhumen/archdevils
 						)
@@ -341,7 +341,7 @@
 					if(/datum/antagonist/bandit)
 						held_confession.bad_type = "AN OUTLAW OF THE THIEF-LORD"
 						held_confession.antag = initial(antag_type:name)
-					if(/datum/patron/inhumen/matthios)
+					if(/datum/patron/inhumen/deceivers)
 						held_confession.bad_type = "A FOLLOWER OF THE THIEF-LORD"
 						held_confession.antag = "worshiper of " + initial(antag_type:name)
 					if(/datum/antagonist/maniac)

@@ -131,9 +131,9 @@
 	reach = 2
 	misscost = 12
 
-/datum/intent/flail/strike/matthiosflail
+/datum/intent/flail/strike/deceiversflail
 	reach = 2
 
-/datum/intent/flail/strike/smash/matthiosflail
+/datum/intent/flail/strike/smash/deceiversflail
 	reach = 2
 

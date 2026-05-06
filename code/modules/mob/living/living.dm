@@ -6,8 +6,8 @@
 			if(SSmapping.level_has_any_trait(turf.z, list(ZTRAIT_IGNORE_WEATHER_TRAIT)))
 				GLOB.weatherproof_z_levels |= "[turf.z]"
 		if("[turf.z]" in GLOB.weatherproof_z_levels)
-			faction |= FACTION_MATTHIOS
-			SSmatthios_mobs.register_mob(src)
+			faction |= FACTION_DECEIVERS
+			SSdeceivers_mobs.register_mob(src)
 		if(SSterrain_generation.get_island_at_location(turf))
 			faction |= "islander"
 			SSisland_mobs.register_mob(src, SSterrain_generation.get_island_at_location(turf))
@@ -32,8 +32,8 @@
 	recalculate_stats()
 
 /mob/living/Destroy()
-	if(FACTION_MATTHIOS in faction)
-		SSmatthios_mobs.unregister_mob(src)
+	if(FACTION_DECEIVERS in faction)
+		SSdeceivers_mobs.unregister_mob(src)
 	if(cached_island_id)
 		SSisland_mobs.remove_mob(src)
 
@@ -2743,8 +2743,8 @@
 
 	SEND_SIGNAL(src, COMSIG_LIVING_BEFRIENDED, new_friend)
 
-	if(src in SSmatthios_mobs.matthios_mobs)
-		SSmatthios_mobs.unregister_mob(src)
+	if(src in SSdeceivers_mobs.deceivers_mobs)
+		SSdeceivers_mobs.unregister_mob(src)
 	if(cached_island_id)
 		SSisland_mobs.remove_mob(src)
 

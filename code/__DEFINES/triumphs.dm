@@ -29,9 +29,9 @@
 #define TRIUMPH_BUY_ZIZO_INFLUENCE "zizo_influence"
 #define TRIUMPH_BUY_HERTANNEA_INFLUENCE "hertannea_influence"
 #define TRIUMPH_BUY_ARCHDEVILS_INFLUENCE "archdevils_influence"
-#define TRIUMPH_BUY_MATTHIOS_INFLUENCE "matthios_influence"
+#define TRIUMPH_BUY_DECEIVERS_INFLUENCE "deceivers_influence"
 
-#define TRIUMPH_BUY_MATTHIOS_INFLUENCE_REDUCTION "matthios_influence_reduction"
+#define TRIUMPH_BUY_DECEIVERS_INFLUENCE_REDUCTION "deceivers_influence_reduction"
 #define TRIUMPH_BUY_ARCHDEVILS_INFLUENCE_REDUCTION "archdevils_influence_reduction"
 #define TRIUMPH_BUY_HERTANNEA_INFLUENCE_REDUCTION "hertannea_influence_reduction"
 #define TRIUMPH_BUY_ZIZO_INFLUENCE_REDUCTION "zizo_influence_reduction"

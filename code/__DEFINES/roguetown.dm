@@ -3,10 +3,10 @@
 #define ALL_CLERIC_PATRONS 		list(/datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/valdala, /datum/patron/divine/mordsol, /datum/patron/divine/iliope, /datum/patron/divine/erdl, /datum/patron/divine/golerkanh, /datum/patron/divine/pomette)
 #define ALL_PALADIN_PATRONS 	list(/datum/patron/psydon, /datum/patron/psydon/extremist, /datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/valdala, /datum/patron/divine/mordsol, /datum/patron/divine/iliope, /datum/patron/divine/erdl, /datum/patron/divine/golerkanh, /datum/patron/divine/pomette)
 #define ALL_TEMPLAR_PATRONS 	list(/datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/pomette, /datum/patron/divine/valdala, /datum/patron/divine/mordsol, /datum/patron/divine/erdl, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/golerkanh, /datum/patron/divine/iliope)
-#define ALL_PROFANE_PATRONS 	list(/datum/patron/inhumen/archdevils, /datum/patron/inhumen/zizo, /datum/patron/inhumen/matthios, /datum/patron/inhumen/hertannea)
-#define ALL_ICONOCLAST_PATRONS  list(/datum/patron/psydon, /datum/patron/psydon/extremist, /datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/valdala, /datum/patron/divine/mordsol, /datum/patron/divine/iliope, /datum/patron/divine/erdl, /datum/patron/divine/golerkanh, /datum/patron/divine/pomette, /datum/patron/inhumen/archdevils, /datum/patron/inhumen/zizo, /datum/patron/inhumen/matthios, /datum/patron/inhumen/hertannea)
+#define ALL_PROFANE_PATRONS 	list(/datum/patron/inhumen/archdevils, /datum/patron/inhumen/zizo, /datum/patron/inhumen/deceivers, /datum/patron/inhumen/hertannea)
+#define ALL_ICONOCLAST_PATRONS  list(/datum/patron/psydon, /datum/patron/psydon/extremist, /datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/valdala, /datum/patron/divine/mordsol, /datum/patron/divine/iliope, /datum/patron/divine/erdl, /datum/patron/divine/golerkanh, /datum/patron/divine/pomette, /datum/patron/inhumen/archdevils, /datum/patron/inhumen/zizo, /datum/patron/inhumen/deceivers, /datum/patron/inhumen/hertannea)
 
-#define COLORFUL_PATRONS		list("Psydon", "Visires", "Akan", "Gani", "Mjallidhorn", "Valdala", "Mordsol", "Iliope", "Erdl", "Goler Kanh", "Pomette", "Archdevils", "Zizo", "Matthios", "Hertannea", "The Great Hunt", "The Black Briar")
+#define COLORFUL_PATRONS		list("Psydon", "Visires", "Akan", "Gani", "Mjallidhorn", "Valdala", "Mordsol", "Iliope", "Erdl", "Goler Kanh", "Pomette", "Archdevils", "Zizo", "Deceivers", "Hertannea", "The Great Hunt", "The Black Briar")
 #define TEMPLE_PATRON_NAMES		list("Visires", "Akan", "Gani", "Mjallidhorn", "Valdala", "Mordsol", "Iliope", "Erdl", "Goler Kanh", "Pomette")
 
 GLOBAL_LIST_INIT(curse_names, list())
@@ -25,7 +25,7 @@ GLOBAL_LIST_INIT(curse_names, list())
 	/datum/curse/zizo,\
 	/datum/curse/zizo/minor,\
 	/datum/curse/archdevils,\
-	/datum/curse/matthios,\
+	/datum/curse/deceivers,\
 	/datum/curse/hertannea\
 )
 #define SPECIAL_CURSES list(\

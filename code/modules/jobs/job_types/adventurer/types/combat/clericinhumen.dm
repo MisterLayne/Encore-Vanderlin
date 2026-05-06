@@ -70,7 +70,7 @@
 				spawned.adjust_skill_level(/datum/attribute/skill/combat/shields, 10)
 				spawned.grant_language(/datum/language/undead)
 				spawned.cmode_music = 'sound/music/cmode/antag/combat_cult.ogg'
-			if(/datum/patron/inhumen/matthios)
+			if(/datum/patron/inhumen/deceivers)
 				spawned.adjust_skill_level(/datum/attribute/skill/combat/polearms, 30)
 				spawned.adjust_skill_level(/datum/attribute/skill/misc/stealing, 20)
 				spawned.adjust_skill_level(/datum/attribute/skill/misc/sneaking, 20)
@@ -122,7 +122,7 @@
 				head = /obj/item/clothing/head/helmet/skullcap/cult
 				backr = /obj/item/weapon/shield/heater
 				beltl = /obj/item/weapon/sword/short/iron
-			if(/datum/patron/inhumen/matthios)
+			if(/datum/patron/inhumen/deceivers)
 				cloak = /obj/item/clothing/cloak/raincloak/colored/mortus
 				backr = /obj/item/weapon/pitchfork
 			if(/datum/patron/inhumen/hertannea)

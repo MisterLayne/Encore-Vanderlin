@@ -37,7 +37,7 @@
 #define STATMOD_ILIOPE_BLESSING "iliope_blessing"
 
 #define STATMOD_ARCHDEVILS_BLESSING "archdevils_blessing"
-#define STATMOD_MATTHIOS_BLESSING "matthios_blessing"
+#define STATMOD_DECEIVERS_BLESSING "deceivers_blessing"
 #define STATMOD_ZIZO_BLESSING "zizo_blessing"
 #define STATMOD_HERTANNEA_BLESSING "hertannea_blessing"
 

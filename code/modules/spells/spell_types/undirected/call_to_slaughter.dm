@@ -28,7 +28,7 @@
 			else if((target.job != "Prince Regent") || (target.job == "Prince"))
 				to_chat(target, span_danger("The Jealous God cares not to shield you from the maddened blood-call of the Hells.</font>"))	//But She doesn't give a shit otherwise
 			continue
-		if(istype(target.patron, /datum/patron/inhumen/matthios))
+		if(istype(target.patron, /datum/patron/inhumen/deceivers))
 			to_chat(target, span_danger("Your enigmatic patron recoils, caught unprepared by the vicious call of demonic hunger.</font>"))	//Deceiver Gods are caught unprepared
 			continue
 		if(istype(target.patron, /datum/patron/divine || /datum/patron/psydon))

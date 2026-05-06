@@ -120,7 +120,7 @@
 
 //................ Deceivers Armor ...............//
 
-/obj/item/clothing/armor/plate/full/matthios
+/obj/item/clothing/armor/plate/full/deceivers
 	name = "gilded fullplate"
 	desc = "Full plate. Tales told of men in armor such as this stealing many riches, or lives."
 	icon_state = "matthiosarmor"

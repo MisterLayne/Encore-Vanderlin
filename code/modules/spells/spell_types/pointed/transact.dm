@@ -51,7 +51,7 @@
 	to_chat(owner, "<font color='yellow'>[held_item] burns into the air suddenly, my Transaction is accepted.</font>")
 	if(iscarbon(cast_on))
 		var/mob/living/carbon/C = cast_on
-		var/datum/status_effect/buff/matthioshealing/heal_effect = C.apply_status_effect(/datum/status_effect/buff/matthioshealing)
+		var/datum/status_effect/buff/deceivershealing/heal_effect = C.apply_status_effect(/datum/status_effect/buff/deceivershealing)
 		heal_effect.healing_on_tick = helditemvalue/2
 	else
 		cast_on.adjustBruteLoss(helditemvalue / 2)

@@ -14,7 +14,7 @@
 		/datum/patron/divine/erdl = /datum/curse/erdl,
 		/datum/patron/divine/pomette = /datum/curse/pomette,
 		/datum/patron/inhumen/zizo = /datum/curse/zizo/minor,
-		/datum/patron/inhumen/matthios = /datum/curse/matthios,
+		/datum/patron/inhumen/deceivers = /datum/curse/deceivers,
 		/datum/patron/inhumen/hertannea = /datum/curse/hertannea,
 		/datum/patron/inhumen/archdevils_zizo = /datum/curse/zizo/minor,
 	)

@@ -2,7 +2,7 @@
 	name = "Rebels"
 	tags = list(
 		TAG_VISIRES,
-		TAG_MATTHIOS,
+		TAG_DECEIVERS,
 		TAG_COMBAT,
 		TAG_VILLAIN,
 	)

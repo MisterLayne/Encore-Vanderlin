@@ -542,8 +542,8 @@
 
 	cost_variance = 10  // Less randomness, more direct
 
-/datum/storyteller/matthios
-	name = MATTHIOS
+/datum/storyteller/deceivers
+	name = DECEIVERS
 	desc = "Deceivers manipulates wealth and corruption, rewarding those who make deals."
 	welcome_text = "Fortune favors the cunning."
 	weight = 4
@@ -553,7 +553,7 @@
 	guarantees_roundstart_roleset = TRUE
 
 	tag_multipliers = list(
-		TAG_MATTHIOS = 3,
+		TAG_DECEIVERS = 3,
 		TAG_CORRUPTION = 1.75,
 		TAG_LOOT = 1.75,
 		TAG_TRADE = 1.25,

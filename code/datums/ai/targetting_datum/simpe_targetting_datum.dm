@@ -45,7 +45,7 @@
 	return FALSE
 
 /datum/targetting_datum/basic/proc/faction_check(mob/living/living_mob, mob/living/the_target)
-	if((living_mob in SSmatthios_mobs.matthios_mobs) && (the_target in SSmatthios_mobs.matthios_mobs))
+	if((living_mob in SSdeceivers_mobs.deceivers_mobs) && (the_target in SSdeceivers_mobs.deceivers_mobs))
 		return TRUE
 	return living_mob.faction_check_mob(the_target, exact_match = FALSE)
 

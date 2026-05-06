@@ -37,13 +37,13 @@
 /datum/objective/personal/hoard_mammons/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("You have accumulated enough mammons, completing Deceivers' objective!"))
-	adjust_storyteller_influence(MATTHIOS, 20)
+	adjust_storyteller_influence(DECEIVERS, 20)
 	STOP_PROCESSING(SSprocessing, src)
 
 /datum/objective/personal/hoard_mammons/reward_owner()
 	. = ..()
 	ADD_TRAIT(owner.current, TRAIT_SEEPRICES, OBJECTIVE_TRAIT)
-	owner.current.adjust_stat_modifier(STATMOD_MATTHIOS_BLESSING, list(STAT_FORTUNE = 1))
+	owner.current.adjust_stat_modifier(STATMOD_DECEIVERS_BLESSING, list(STAT_FORTUNE = 1))
 
 /datum/objective/personal/hoard_mammons/update_explanation_text()
 	explanation_text = "Accumulate at least [target_mammons] mammons in your possession to demonstrate your greediness to Deceivers."

@@ -977,8 +977,8 @@
 	data += "<div style='width: 91.5%; margin: 0 auto;'>"
 	data += "<div style='display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: 1fr; gap: 20px; margin-bottom: 20px;'>"
 
-	// Matthios
-	data += god_ui_block("MATTHIOS", "#20202e", "#99b2b1", /datum/storyteller/matthios, debug)
+	// Deceivers
+	data += god_ui_block("DECEIVERS", "#20202e", "#99b2b1", /datum/storyteller/deceivers, debug)
 
 	// Hertannea
 	data += god_ui_block("HERTANNEA", "#46254a", "#e2abee", /datum/storyteller/hertannea, debug)

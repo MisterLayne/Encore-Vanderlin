@@ -132,10 +132,10 @@
 	description = "I am engulfed by unspeakable rage. I cannot stop myself from harming others. When that's not an option, my rage is directed inward."
 	trait = TRAIT_ARCHDEVILS_CURSE
 
-/datum/curse/matthios
+/datum/curse/deceivers
 	name = "Deceivers' Curse"
 	description = "I hate the sight of wealth, and I struggle to do anything with mammons."
-	trait = TRAIT_MATTHIOS_CURSE
+	trait = TRAIT_DECEIVERS_CURSE
 
 /datum/curse/hertannea
 	name = "Hertannea's Curse"

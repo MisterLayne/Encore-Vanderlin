@@ -36,13 +36,13 @@
 /datum/objective/personal/steal_items/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("You have stolen enough items to complete Deceivers' objective!"))
-	adjust_storyteller_influence(MATTHIOS, 20)
+	adjust_storyteller_influence(DECEIVERS, 20)
 	UnregisterSignal(owner.current, COMSIG_ITEM_STOLEN)
 
 /datum/objective/personal/steal_items/reward_owner()
 	. = ..()
 	owner.current.attributes?.add_attribute_modifier(/datum/attribute_modifier/steal_items)
-	owner.current.adjust_stat_modifier(STATMOD_MATTHIOS_BLESSING, list(STAT_SPEED = 1))
+	owner.current.adjust_stat_modifier(STATMOD_DECEIVERS_BLESSING, list(STAT_SPEED = 1))
 
 /datum/objective/personal/steal_items/update_explanation_text()
 	explanation_text = "Steal [required_count] item\s from others to prove your cunning to Deceivers!"

@@ -204,7 +204,7 @@
 	sleeved = 'icons/roguetown/clothing/special/onmob/evilarmor.dmi'
 	sellprice = 0 // Incredibly evil Zizoid armor, this should be burnt, nobody wants this
 
-/obj/item/clothing/shoes/boots/armor/matthios
+/obj/item/clothing/shoes/boots/armor/deceivers
 	name = "gilded boots"
 	desc = "Plate boots. A door kicked in, treasures to behold inside."
 	icon_state = "matthiosboots"

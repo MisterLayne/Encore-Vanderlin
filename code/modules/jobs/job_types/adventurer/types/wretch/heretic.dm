@@ -86,7 +86,7 @@
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/swords, 40)
 			spawned.cmode_music = 'sound/music/cmode/antag/combat_cult.ogg'
 			spawned.grant_language(/datum/language/undead)
-		if(/datum/patron/inhumen/matthios)
+		if(/datum/patron/inhumen/deceivers)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/whipsflails, 40)
 			spawned.cmode_music = 'sound/music/cmode/antag/CombatBandit1.ogg'
 		if(/datum/patron/inhumen/hertannea)
@@ -217,14 +217,14 @@
 			pants = /obj/item/clothing/pants/platelegs/zizo
 			shoes = /obj/item/clothing/shoes/boots/armor/zizo
 			backr = /obj/item/weapon/sword/long/greatsword/zizo
-		if(/datum/patron/inhumen/matthios)
-			head = /obj/item/clothing/head/helmet/heavy/matthios
-			armor = /obj/item/clothing/armor/plate/full/matthios
+		if(/datum/patron/inhumen/deceivers)
+			head = /obj/item/clothing/head/helmet/heavy/deceivers
+			armor = /obj/item/clothing/armor/plate/full/deceivers
 			neck = /obj/item/clothing/neck/gorget
-			gloves = /obj/item/clothing/gloves/plate/matthios
-			pants = /obj/item/clothing/pants/platelegs/matthios
-			shoes = /obj/item/clothing/shoes/boots/armor/matthios
-			backr = /obj/item/weapon/flail/peasantwarflail/matthios
+			gloves = /obj/item/clothing/gloves/plate/deceivers
+			pants = /obj/item/clothing/pants/platelegs/deceivers
+			shoes = /obj/item/clothing/shoes/boots/armor/deceivers
+			backr = /obj/item/weapon/flail/peasantwarflail/deceivers
 		if(/datum/patron/inhumen/hertannea)
 			head = /obj/item/clothing/head/helmet/heavy/hertannea
 			mask = /obj/item/clothing/face/spectacles/sglasses

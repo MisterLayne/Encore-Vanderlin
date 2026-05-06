@@ -3,7 +3,7 @@
 import os
 import sys
 
-folders = ["_maps/templates", "_maps/matthios_tomb", "_maps/kalypso", "_maps/map_files"]
+folders = ["_maps/templates", "_maps/deceivers_tomb", "_maps/kalypso", "_maps/map_files"]
 
 generated = "_maps/templates.dm"
 

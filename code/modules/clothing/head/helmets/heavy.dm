@@ -119,7 +119,7 @@
 
 //............... Deceivers Helmet ............... //
 
-/obj/item/clothing/head/helmet/heavy/matthios
+/obj/item/clothing/head/helmet/heavy/deceivers
 	name = "gilded visage"
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/64x64/head.dmi'
 	desc = "A sinister visage. So that your crimes are never brought to you."

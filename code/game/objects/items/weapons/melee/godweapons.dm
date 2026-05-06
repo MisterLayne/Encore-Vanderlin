@@ -338,7 +338,7 @@
 	icon_state = "pleonexia"
 	icon = 'icons/roguetown/weapons/64/godweapons.dmi'
 	name = "pleonexia"
-	desc = "A sword of legend. If they are true, then this is the blade of Matthios himself. Rumor has it, it steals space and time."
+	desc = "A sword of legend. If they are true, then this is the blade of Deceivers himself. Rumor has it, it steals space and time."
 	possible_item_intents = list(SWORD_STRIKE, SWORD_CUT)
 	gripped_intents = list(SWORD_STRIKE, SWORD_CHOP, SWORD_THRUST, PLEX_BLINK)
 	max_integrity = INTEGRITY_STRONGEST + 220
@@ -349,10 +349,10 @@
 
 /obj/item/weapon/sword/long/pleonexia/Initialize(mapload, ...)
 	. = ..()
-	AddElement(/datum/element/divine_intervention, /datum/patron/inhumen/matthios, PUNISHMENT_STRESS, /datum/stress_event/divine_punishment, TRUE)
+	AddElement(/datum/element/divine_intervention, /datum/patron/inhumen/deceivers, PUNISHMENT_STRESS, /datum/stress_event/divine_punishment, TRUE)
 
 /obj/item/weapon/sword/long/pleonexia/pre_attack(atom/A, mob/living/user, list/modifiers)
-	if(!istype(user.used_intent, /datum/intent/plex_dash) || !HAS_TRAIT(user, TRAIT_MATTHIOS_EYES))
+	if(!istype(user.used_intent, /datum/intent/plex_dash) || !HAS_TRAIT(user, TRAIT_DECEIVERS_EYES))
 		return ..()
 	. = TRUE
 	if(!isturf(user.loc))

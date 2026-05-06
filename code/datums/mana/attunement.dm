@@ -284,7 +284,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 		/datum/patron/inhumen/zizo = 0.15,
 		/datum/patron/inhumen/hertannea = 0.15,
 		/datum/patron/inhumen/archdevils = 0.15,
-		/datum/patron/inhumen/matthios = 0.15,
+		/datum/patron/inhumen/deceivers = 0.15,
 	)
 
 /datum/attunement/time
@@ -294,7 +294,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 	alignments = list(
 		/datum/patron/divine/valdala = 1,
 		/datum/patron/divine/pomette = 0.6,
-		/datum/patron/inhumen/matthios = 0.75,
+		/datum/patron/inhumen/deceivers = 0.75,
 	)
 
 /datum/attunement/aeromancy

@@ -1,19 +1,19 @@
-/datum/round_event_control/matthios_hoard
+/datum/round_event_control/deceivers_hoard
 	name = "Mammon Desire"
 	track = EVENT_TRACK_PERSONAL
-	typepath = /datum/round_event/matthios_hoard
+	typepath = /datum/round_event/deceivers_hoard
 	weight = 10
 	earliest_start = 5 MINUTES
 	max_occurrences = 1
 	min_players = 20
 
 	tags = list(
-		TAG_MATTHIOS,
+		TAG_DECEIVERS,
 		TAG_LOOT,
 		TAG_CORRUPTION,
 	)
 
-/datum/round_event_control/matthios_hoard/canSpawnEvent(players_amt, gamemode, fake_check)
+/datum/round_event_control/deceivers_hoard/canSpawnEvent(players_amt, gamemode, fake_check)
 	. = ..()
 	if(!.)
 		return FALSE
@@ -21,7 +21,7 @@
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(!istype(H) || H.stat == DEAD || !H.client)
 			continue
-		if(!H.patron || !istype(H.patron, /datum/patron/inhumen/matthios))
+		if(!H.patron || !istype(H.patron, /datum/patron/inhumen/deceivers))
 			continue
 		if(H.is_noble())
 			continue
@@ -29,13 +29,13 @@
 
 	return FALSE
 
-/datum/round_event/matthios_hoard/start()
+/datum/round_event/deceivers_hoard/start()
 	var/list/valid_targets = list()
 
 	for(var/mob/living/carbon/human/human_mob in GLOB.player_list)
 		if(!istype(human_mob) || human_mob.stat == DEAD || !human_mob.client)
 			continue
-		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/inhumen/matthios))
+		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/inhumen/deceivers))
 			continue
 		if(human_mob.is_noble())
 			continue
@@ -50,7 +50,7 @@
 	chosen_one.mind.add_personal_objective(new_objective)
 
 	bordered_message(chosen_one, list(
-		span_userdanger("YOU ARE MATTHIOS' CHOSEN!"),
+		span_userdanger("YOU ARE THE DECEIVERS' CHOSEN!"),
 		span_notice("Accumulate [new_objective.target_mammons] mammons to prove your greed to Deceivers!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/matthios_omen.ogg', 100)

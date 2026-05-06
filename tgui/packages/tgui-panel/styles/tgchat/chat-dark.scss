@@ -1497,14 +1497,14 @@ $border-width-px: $border-width * 1px;
 }
 /* ##### END ##### */
 
-/* ##### MATTHIOS ##### */
-.god_matthios {
+/* ##### DECEIVERS ##### */
+.god_deceivers {
   color: hsl(220, 6.1%, 9.6%);
   font-weight: bold;
-  animation: matthios_flicker 1s infinite;
+  animation: deceivers_flicker 1s infinite;
 }
 
-@keyframes matthios_flicker {
+@keyframes deceivers_flicker {
 	25% {
 		color: hsl(220, 6.1%, 9.6%);
 	}

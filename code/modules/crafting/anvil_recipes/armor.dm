@@ -1003,11 +1003,11 @@
 	created_item = /obj/item/clothing/pants/platelegs/captain
 	craftdiff = 6
 
-/datum/anvil_recipe/armor/steel/matthios_plate_pants
-	name = "Matthiosan Plate Chausses (+Bar)"
-	recipe_name = "a pair of Matthiosan Plate Chausses"
+/datum/anvil_recipe/armor/steel/deceivers_plate_pants
+	name = "Deceiversan Plate Chausses (+Bar)"
+	recipe_name = "a pair of Deceiversan Plate Chausses"
 	additional_items = list(/obj/item/ingot/steel)
-	created_item = /obj/item/clothing/pants/platelegs/matthios
+	created_item = /obj/item/clothing/pants/platelegs/deceivers
 	craftdiff = 6
 
 /datum/anvil_recipe/armor/steel/archdevilsite_plate_pants
@@ -1017,11 +1017,11 @@
 	created_item = /obj/item/clothing/pants/platelegs/archdevils
 	craftdiff = 6
 
-/datum/anvil_recipe/armor/steel/matthios_plate
-	name = "Matthiosan Plate Armor (+Bar x3)"
-	recipe_name = "a Full-Plate matthiosan Armor"
+/datum/anvil_recipe/armor/steel/deceivers_plate
+	name = "Deceiversan Plate Armor (+Bar x3)"
+	recipe_name = "a Full-Plate deceiversan Armor"
 	additional_items = list(/obj/item/ingot/steel,/obj/item/ingot/steel,/obj/item/ingot/steel)
-	created_item = /obj/item/clothing/armor/plate/full/matthios
+	created_item = /obj/item/clothing/armor/plate/full/deceivers
 	craftdiff = 6
 
 /datum/anvil_recipe/armor/steel/archdevils_plate
@@ -1031,10 +1031,10 @@
 	created_item = /obj/item/clothing/armor/plate/full/archdevils
 	craftdiff = 6
 
-/datum/anvil_recipe/armor/steel/matthios_plate_gauntlets
-	name = "Matthiosan Plate Gauntlets"
-	recipe_name = "a pair of matthiosan Plate gauntlets"
-	created_item = /obj/item/clothing/gloves/plate/matthios
+/datum/anvil_recipe/armor/steel/deceivers_plate_gauntlets
+	name = "Deceiversan Plate Gauntlets"
+	recipe_name = "a pair of deceiversan Plate gauntlets"
+	created_item = /obj/item/clothing/gloves/plate/deceivers
 	craftdiff = 6
 
 /datum/anvil_recipe/armor/steel/archdevils_plate_gauntlets
@@ -1043,10 +1043,10 @@
 	created_item = /obj/item/clothing/gloves/plate/archdevils
 	craftdiff = 6
 
-/datum/anvil_recipe/armor/steel/matthios_plate_boots
-	name = "Matthiosan Plate Boots"
-	recipe_name = "a pair of matthios Plate gauntlets"
-	created_item = /obj/item/clothing/shoes/boots/armor/matthios
+/datum/anvil_recipe/armor/steel/deceivers_plate_boots
+	name = "Deceiversan Plate Boots"
+	recipe_name = "a pair of deceivers Plate gauntlets"
+	created_item = /obj/item/clothing/shoes/boots/armor/deceivers
 	craftdiff = 6
 
 /datum/anvil_recipe/armor/steel/archdevils_plate_boots
@@ -1232,10 +1232,10 @@
 	created_item = /obj/item/clothing/head/helmet/heavy/zizo
 	craftdiff = 5
 
-/datum/anvil_recipe/armor/blacksteel/matthios_helm
+/datum/anvil_recipe/armor/blacksteel/deceivers_helm
 	name = "Gilded Visage (+Bar)"
 	additional_items = list(/obj/item/ingot/blacksteel)
-	created_item = /obj/item/clothing/head/helmet/heavy/matthios
+	created_item = /obj/item/clothing/head/helmet/heavy/deceivers
 	craftdiff = 5
 
 /datum/anvil_recipe/armor/blacksteel/archdevils_helm

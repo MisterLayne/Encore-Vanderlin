@@ -56,22 +56,22 @@
 	)
 	storyteller = /datum/storyteller/archdevils
 
-/datum/patron/inhumen/matthios
-	name = MATTHIOS
+/datum/patron/inhumen/deceivers
+	name = DECEIVERS
 	domain = "God of Thievery, Ill-Gotten Gains, and Highwaymen"
 	desc = "Legendary humen bandit whose name was attributed to countless great thefts. It is because of his legacy that nobles clutch their coin purses to their chests in town."
 	flaws = "Pride, Greed, Orneriness"
 	worshippers = "Outlaws, Noble-Haters, Downtrodden Peasantry"
 	sins = "Clumsiness, Stupidity, Humility"
 	boons = "You can see the most expensive item someone is carrying."
-	added_traits = list(TRAIT_MATTHIOS_EYES)
-	devotion_holder = /datum/devotion/inhumen/matthios
+	added_traits = list(TRAIT_DECEIVERS_EYES)
+	devotion_holder = /datum/devotion/inhumen/deceivers
 	confess_lines = list(
-		"MATTHIOS STEALS FROM THE WORTHLESS!",
-		"MATTHIOS IS JUSTICE FOR THE COMMON MAN!",
-		"MATTHIOS IS MY LORD, I SHALL BE HIS MARTYR!",
+		"DECEIVERS STEALS FROM THE WORTHLESS!",
+		"DECEIVERS IS JUSTICE FOR THE COMMON MAN!",
+		"DECEIVERS IS MY LORD, I SHALL BE HIS MARTYR!",
 	)
-	storyteller = /datum/storyteller/matthios
+	storyteller = /datum/storyteller/deceivers
 
 /datum/patron/inhumen/hertannea
 	name = HERTANNEA
