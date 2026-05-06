@@ -154,7 +154,7 @@
 		/datum/patron/divine/pestra = list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/divine/eora  =list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/divine/gani =list(PLACEHOLDER_PATRON_REBRANDING),
-		/datum/patron/divine/xylix  =list(PLACEHOLDER_PATRON_REBRANDING),
+		/datum/patron/divine/iliope  =list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/divine/malum =list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/inhumen/matthios  =list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/inhumen/zizo = list(PLACEHOLDER_PATRON_REBRANDING),

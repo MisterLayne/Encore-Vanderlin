@@ -142,7 +142,7 @@
 						conditional_buff = TRUE
 						situational_bonus = 25
 
-			if(/datum/patron/divine/xylix)
+			if(/datum/patron/divine/iliope)
 				cast_on.visible_message(span_info("A fugue seems to manifest briefly across [cast_on]!"), span_notice("My wounds vanish as if they had never been there! "))
 				// half of the time, heal a little (or a lot) more - flip the coin
 				if(prob(50))

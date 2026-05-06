@@ -34,7 +34,7 @@
 #define STATMOD_GANI_BLESSING "gani_blessing"
 #define STATMOD_EORA_BLESSING "eora_blessing"
 #define STATMOD_RAVOX_BLESSING "ravox_blessing"
-#define STATMOD_XYLIX_BLESSING "xylix_blessing"
+#define STATMOD_ILIOPE_BLESSING "iliope_blessing"
 
 #define STATMOD_GRAGGAR_BLESSING "graggar_blessing"
 #define STATMOD_MATTHIOS_BLESSING "matthios_blessing"
@@ -42,7 +42,7 @@
 #define STATMOD_BAOTHA_BLESSING "baotha_blessing"
 
 // Events
-#define STATMOD_XYLIX_FORTUNE "xylix_fortune"
+#define STATMOD_ILIOPE_FORTUNE "iliope_fortune"
 #define STATMOD_RAVOX_RESOLVE "ravox_resolve"
 #define STATMOD_GRAGGAR_CULLING "graggar_culling"
 #define STATMOD_EORA_MARRIAGE "eora_marriage"

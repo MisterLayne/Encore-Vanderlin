@@ -90,10 +90,10 @@
 	description = "Valdala has claimed my soul. No one will bring me back from the dead."
 	trait = TRAIT_NECRA_CURSE
 
-/datum/curse/xylix
+/datum/curse/iliope
 	name = "Iliope's Curse"
 	description = "Fortune is no longer on my side."
-	trait = TRAIT_XYLIX_CURSE
+	trait = TRAIT_ILIOPE_CURSE
 
 /datum/curse/pestra
 	name = "Erdl's Curse"
@@ -164,11 +164,11 @@
 	. = ..()
 	hallucinations = null
 
-/datum/curse/xylix/on_gain(mob/living/carbon/human/owner)
+/datum/curse/iliope/on_gain(mob/living/carbon/human/owner)
 	. = ..()
 	GET_MOB_ATTRIBUTE_VALUE(owner, STAT_FORTUNE) -= 10
 
-/datum/curse/xylix/on_loss(mob/living/carbon/human/owner)
+/datum/curse/iliope/on_loss(mob/living/carbon/human/owner)
 	. = ..()
 	GET_MOB_ATTRIBUTE_VALUE(owner, STAT_FORTUNE) += 10
 

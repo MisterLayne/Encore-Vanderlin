@@ -55,11 +55,11 @@
 	desc = "A complex covering of translucent pink and beige clothes. They carry the scent of flowers in them."
 	icon_state = "eoratabard"
 
-/obj/item/clothing/cloak/templar/xylixian
+/obj/item/clothing/cloak/templar/iliope
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/cloaks.dmi'
 	alternate_worn_layer = TABARD_LAYER
 	boobed = TRUE
-	name = "xylixian cloak"
+	name = "fools cloak"
 	desc = "Swirling cloth, jingling bells! Oh, how I love the path to hell!"
 	icon_state = "xylixcloak"
 	sleeved = 'icons/roguetown/clothing/onmob/helpers/sleeves_cloaks.dmi'
@@ -172,8 +172,8 @@
 	slot_flags = ITEM_SLOT_ARMOR|ITEM_SLOT_CLOAK
 	flags_inv = HIDEBOOB
 
-/obj/item/clothing/cloak/templar/xylix
-	name = "xylix tabard"
+/obj/item/clothing/cloak/templar/iliope
+	name = "fools tabard"
 	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Iliope on it."
 	icon_state = "tabard_xylix"
 	alternate_worn_layer = TABARD_LAYER
@@ -225,8 +225,8 @@
 	item_state = "loudmouth"
 	color = "#8b2323"
 
-/obj/item/clothing/head/helmet/heavy/xylixhelm
-	name = "xylixian helmet"
+/obj/item/clothing/head/helmet/heavy/iliopehelm
+	name = "fools helmet"
 	desc = "I dance, I sing! I'll be your fool!"
 	icon_state = "xylixhelmet"
 	item_state = "xylixhelmet"
@@ -236,7 +236,7 @@
 	melting_material = /datum/material/steel
 	melt_amount = 150
 
-/obj/item/clothing/head/helmet/heavy/xylixhelm/Initialize()
+/obj/item/clothing/head/helmet/heavy/iliopehelm/Initialize()
 	. = ..()
 	AddComponent(/datum/component/item_equipped_movement_rustle, SFX_JINGLE_BELLS, 2)
 

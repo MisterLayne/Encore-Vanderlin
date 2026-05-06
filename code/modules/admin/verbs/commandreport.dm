@@ -86,7 +86,7 @@
 				<option value="['sound/misc/lawdeclaration.ogg']">Law Declaration</option>
 				<option value="['sound/misc/evilevent.ogg']">Generic Bad Omen</option>
 				<option value="['sound/misc/gods/astrata_omen.ogg']">Visires Omen</option>
-				<option value="['sound/misc/gods/xylix_omen.ogg']">Xylix Omen</option>
+				<option value="['sound/misc/gods/xylix_omen.ogg']">Iliope Omen</option>
 				<option value="['sound/misc/gods/zizo_omen.ogg']">Zizo Omen</option>
 				<option value="['sound/misc/gods/graggar_omen.ogg']">Graggar Omen</option>
 				<option value="['sound/misc/gods/matthios_omen.ogg']">Matthios Omen</option>

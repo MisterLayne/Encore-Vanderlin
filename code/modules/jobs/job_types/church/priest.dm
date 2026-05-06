@@ -241,7 +241,7 @@
 					return FALSE
 				H.add_stress(/datum/stress_event/psycurse)
 				GLOB.heretical_players += inputty
-				priority_announce("[real_name] has put Xylix's curse of woe on [inputty] for offending the church!", title = "SHAME", sound = 'sound/misc/excomm.ogg')
+				priority_announce("[real_name] has put Iliope's curse of woe on [inputty] for offending the church!", title = "SHAME", sound = 'sound/misc/excomm.ogg')
 				break
 
 /mob/living/carbon/human/proc/churchannouncement()

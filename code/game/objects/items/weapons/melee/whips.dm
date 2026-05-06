@@ -168,8 +168,8 @@
 	melt_amount = 100
 	item_weight = 1.5 KILOGRAMS
 
-//................ Xylix Whip ............... //
-/obj/item/weapon/whip/xylix
+//................ Iliope Whip ............... //
+/obj/item/weapon/whip/iliope
 	name = "cackle lash"
 	desc = "The chimes of this whip are said to sound as the trickster's laughter itself."
 	icon = 'icons/roguetown/weapons/32/patron.dmi'

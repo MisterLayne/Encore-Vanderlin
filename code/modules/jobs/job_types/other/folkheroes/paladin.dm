@@ -69,7 +69,7 @@
 			ADD_TRAIT(spawned, TRAIT_GRAVEROBBER, JOB_TRAIT)
 		if(/datum/patron/divine/ravox)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatRavox.ogg'
-		if(/datum/patron/divine/xylix)
+		if(/datum/patron/divine/iliope)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatXylix.ogg'
 		if(/datum/patron/divine/pestra)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
@@ -137,9 +137,9 @@
 		if(/datum/patron/divine/ravox)
 			head = /obj/item/clothing/head/helmet/heavy/necked/ravox
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/ravox
-		if(/datum/patron/divine/xylix)
-			head = /obj/item/clothing/head/helmet/heavy/necked/xylix
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/xylix
+		if(/datum/patron/divine/iliope)
+			head = /obj/item/clothing/head/helmet/heavy/necked/iliope
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/iliope
 		if(/datum/patron/divine/pestra)
 			head = /obj/item/clothing/head/helmet/heavy/necked/pestrahelm
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/pestra

@@ -1196,7 +1196,7 @@
 	base_icon_state = "book5"
 	bookfile = "knowledge.json"
 
-/obj/item/book/secret/xylix
+/obj/item/book/secret/iliope
 	name = "Book of Gold"
 	desc = "{<font color='red'><blink>An ominous book with untold powers.</blink></font>}"
 	icon_state ="xylix_0"
@@ -1205,7 +1205,7 @@
 	base_icon_state = "pellbookmimic"
 	bookfile = "xylix.json"
 
-/obj/item/book/xylix/attack_self(mob/user, list/modifiers)
+/obj/item/book/iliope/attack_self(mob/user, list/modifiers)
 	user.update_inv_hands()
 	to_chat(user, "<span class='notice'>You feel laughter echo in your head.</span>")
 

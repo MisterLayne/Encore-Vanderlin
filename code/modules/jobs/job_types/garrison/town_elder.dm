@@ -55,7 +55,7 @@
 		"Viola" = /obj/item/instrument/viola
 	)
 
-	spawned.select_equippable(player_client, instruments, message = "Choose your instrument.", title = "XYLIX")
+	spawned.select_equippable(player_client, instruments, message = "Choose your instrument.", title = "ILIOPE")
 
 /mob/living/carbon/human/proc/townannouncement()
 	set name = "Elder Announcement"
@@ -337,7 +337,7 @@
 		/datum/attribute/skill/combat/axesmaces = list(0, 10)
 	)
 
-/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/xylix
+/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/iliope
 	raw_attribute_list = list(
 		/datum/attribute/skill/misc/stealing = 20,
 		/datum/attribute/skill/misc/music = 30
@@ -431,8 +431,8 @@
 		if(/datum/patron/divine/ravox)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/ravox)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatRavox.ogg'
-		if(/datum/patron/divine/xylix)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/xylix)
+		if(/datum/patron/divine/iliope)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/iliope)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatXylix.ogg'
 		if(/datum/patron/divine/malum)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/malum)
@@ -483,8 +483,8 @@
 			neck = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
 		if(/datum/patron/divine/ravox)
 			neck = /obj/item/clothing/neck/psycross/silver/divine/ravox
-		if(/datum/patron/divine/xylix)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/xylix
+		if(/datum/patron/divine/iliope)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/iliope
 		if(/datum/patron/divine/malum)
 			neck = /obj/item/clothing/neck/psycross/silver/divine/malum
 			backpack_contents += /obj/item/weapon/hammer/iron

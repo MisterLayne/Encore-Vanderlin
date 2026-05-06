@@ -68,7 +68,7 @@ GLOBAL_LIST_INIT(automaton_voice_lines, list(
 	"We Cannot Expect God" = list("text" = "WE CANNOT EXPECT GOD TO DO ALL THE WORK", "file" = 'sound/vo/automaton/wecannotexpectgodtodoallthework.ogg'),
 	//"Woman Detected" = list("text" = "WOMAN DETECTED", "file" = 'sound/vo/automaton/womandetected.ogg'),
 	"Wrench Bones" = list("text" = "WRENCH BONES", "file" = 'sound/vo/automaton/wrenchbones.ogg'),
-	"Xylix Praise" = list("text" = "XYLIX BE PRAISED", "file" = 'sound/vo/automaton/xylixpraise.ogg'),
+	"Iliope Praise" = list("text" = "ILIOPE BE PRAISED", "file" = 'sound/vo/automaton/xylixpraise.ogg'),
 	"Yes" = list("text" = "YES", "file" = 'sound/vo/automaton/Yes.ogg'),
 ))
 GLOBAL_PROTECT(automaton_voice_lines)

@@ -425,7 +425,7 @@
 	stress_change = -5
 	desc = span_briar("I stare at Akan, and He stares back...")
 
-/datum/stress_event/xylix_laughed
+/datum/stress_event/iliope_laughed
 	timer = 10 MINUTES
 	stress_change = -5
-	desc = SPAN_GOD_XYLIX("Oh frabjous dae, calooh callay! The Silver-Tongue's guffaw keeps my troubles at bay!")
+	desc = SPAN_GOD_ILIOPE("Oh frabjous dae, calooh callay! The Silver-Tongue's guffaw keeps my troubles at bay!")

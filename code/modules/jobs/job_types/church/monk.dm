@@ -70,7 +70,7 @@
 		/datum/attribute/skill/combat/axesmaces = list(0, 10)
 	)
 
-/datum/attribute_holder/sheet/job/acolyte/patron/xylix
+/datum/attribute_holder/sheet/job/acolyte/patron/iliope
 	raw_attribute_list = list(
 		/datum/attribute/skill/misc/stealing = 20,
 		/datum/attribute/skill/misc/music = 30
@@ -176,8 +176,8 @@
 		if(/datum/patron/divine/ravox)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/ravox)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatRavox.ogg'
-		if(/datum/patron/divine/xylix)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/xylix)
+		if(/datum/patron/divine/iliope)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/iliope)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatXylix.ogg'
 		if(/datum/patron/divine/malum)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/malum)
@@ -254,9 +254,9 @@
 			shirt = /obj/item/clothing/armor/gambeson/light
 			armor = /obj/item/clothing/armor/leather
 			cloak = /obj/item/clothing/cloak/stabard/templar/ravox
-		if(/datum/patron/divine/xylix)
+		if(/datum/patron/divine/iliope)
 			head = /obj/item/clothing/head/roguehood/colored/random
-			neck = /obj/item/clothing/neck/psycross/silver/divine/xylix
+			neck = /obj/item/clothing/neck/psycross/silver/divine/iliope
 			shoes = /obj/item/clothing/shoes/boots
 			armor = /obj/item/clothing/shirt/robe/colored/purple
 		if(/datum/patron/divine/malum)

@@ -166,7 +166,7 @@
 #define SPAN_GOD_RAVOX(str) ("<span class='god_ravox'>" + str + "</span>")
 #define SPAN_GOD_MALUM(str) ("<span class='god_malum'>" + str + "</span>")
 #define SPAN_GOD_EORA(str) ("<span class='god_eora'>" + str + "</span>")
-#define SPAN_GOD_XYLIX(str) ("<span class='god_xylix'>" + str + "</span>")
+#define SPAN_GOD_ILIOPE(str) ("<span class='god_iliope'>" + str + "</span>")
 #define SPAN_GOD_PESTRA(str) ("<span class='god_pestra'>" + str + "</span>")
 #define SPAN_GOD_NECRA(str) ("<span class='god_necra'>" + str + "</span>")
 #define SPAN_GOD_MATTHIOS(str) ("<span class='god_matthios'>" + str + "</span>")

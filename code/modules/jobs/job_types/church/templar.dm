@@ -57,7 +57,7 @@
 		/datum/attribute/skill/labor/fishing = 20
 	)
 
-/datum/attribute_holder/sheet/job/templar/patron/xylix
+/datum/attribute_holder/sheet/job/templar/patron/iliope
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/whipsflails = 40
 	)
@@ -192,8 +192,8 @@
 					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/mjallidhorn/spear)
 				if("Barotrauma (Katars)")
 					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/mjallidhorn/katars)
-		if(/datum/patron/divine/xylix)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/xylix)
+		if(/datum/patron/divine/iliope)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/iliope)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatXylix.ogg'
 
 /datum/outfit/templar
@@ -260,8 +260,8 @@
 			armor = /obj/item/clothing/armor/brigandine/mjallidhorn
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
 			cloak = /obj/item/clothing/cloak/stabard/templar/mjallidhorn
-		if(/datum/patron/divine/xylix)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/xylix
-			head = /obj/item/clothing/head/helmet/heavy/necked/xylix
-			cloak = /obj/item/clothing/cloak/stabard/templar/xylix
-			beltl = /obj/item/weapon/whip/xylix
+		if(/datum/patron/divine/iliope)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/iliope
+			head = /obj/item/clothing/head/helmet/heavy/necked/iliope
+			cloak = /obj/item/clothing/cloak/stabard/templar/iliope
+			beltl = /obj/item/weapon/whip/iliope

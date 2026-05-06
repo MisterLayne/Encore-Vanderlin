@@ -329,9 +329,9 @@
 	play_voice_line("Wrench Bones")
 
 /mob/living/carbon/human/proc/voice_xylixpraise()
-	set name = "Xylix Praise"
+	set name = "Iliope Praise"
 	set category = "Emotes.Automaton"
-	play_voice_line("Xylix Praise")
+	play_voice_line("Iliope Praise")
 
 /mob/living/carbon/human/proc/voice_yes()
 	set name = "Yes"

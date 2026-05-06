@@ -1419,14 +1419,14 @@ $border-width-px: $border-width * 1px;
 }
 /* ##### END ##### */
 
-/* ##### XYLIX ##### */
-.god_xylix {
+/* ##### ILIOPE ##### */
+.god_iliope {
   color: hsl(70, 47%, 82%);
   font-weight: bold;
-  animation: xylix_flicker 1s infinite;
+  animation: iliope_flicker 1s infinite;
 }
 
-@keyframes xylix_flicker {
+@keyframes iliope_flicker {
 	25% {
 		color: hsl(70, 47%, 82%);
 	}

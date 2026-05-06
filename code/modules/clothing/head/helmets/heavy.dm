@@ -257,14 +257,14 @@
 	item_weight = 4.5 KILOGRAMS
 
 //................ Iliope Helmet ............. //
-/obj/item/clothing/head/helmet/heavy/necked/xylix
-	name = "xylix helmet"
+/obj/item/clothing/head/helmet/heavy/necked/iliope
+	name = "fools helmet"
 	desc = "A great helmet forged from steel, and fashioned in the visage of a jester, jingling bells and all. Commonly worn by Templars in service to Iliope"
 	icon_state = "xylixhelm"
 	item_state = "xylixhelm"
 	item_weight = 4.5 KILOGRAMS
 
-/obj/item/clothing/head/helmet/heavy/necked/xylix/Initialize()
+/obj/item/clothing/head/helmet/heavy/necked/iliope/Initialize()
 	. = ..()
 	AddComponent(/datum/component/item_equipped_movement_rustle, custom_sounds = list(SFX_JINGLE_BELLS))
 

@@ -1018,9 +1018,9 @@
 	craftdiff = 3
 	category = "Cloak"
 
-/datum/repeatable_crafting_recipe/sewing/xylixtemplar
-	name = "xylixian surcoat"
-	output = /obj/item/clothing/cloak/stabard/templar/xylix
+/datum/repeatable_crafting_recipe/sewing/iliopetemplar
+	name = "fools surcoat"
+	output = /obj/item/clothing/cloak/stabard/templar/iliope
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3
@@ -1507,9 +1507,9 @@
 	craftdiff = 1
 	category = "Tabard"
 
-/datum/repeatable_crafting_recipe/sewing/xylixian_cloak
-	name = "xylixian cloak"
-	output = /obj/item/clothing/cloak/templar/xylixian
+/datum/repeatable_crafting_recipe/sewing/fools_cloak
+	name = "fools cloak"
+	output = /obj/item/clothing/cloak/templar/iliope
 	requirements = list(
 		/obj/item/natural/cloth = 3,
 		/obj/item/natural/fibers = 1
@@ -1558,9 +1558,9 @@
 	craftdiff = 1
 	category = "Tabard"
 
-/datum/repeatable_crafting_recipe/sewing/xylix_tabard
-	name = "xylix tabard"
-	output = /obj/item/clothing/cloak/templar/xylix
+/datum/repeatable_crafting_recipe/sewing/iliope_tabard
+	name = "fools tabard"
+	output = /obj/item/clothing/cloak/templar/iliope
 	requirements = list(
 		/obj/item/natural/cloth = 2,
 		/obj/item/natural/fibers = 1

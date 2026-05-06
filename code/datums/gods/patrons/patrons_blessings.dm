@@ -352,7 +352,7 @@
 		),
 
 		/// Iliope
-		/datum/patron/divine/xylix = list(
+		/datum/patron/divine/iliope = list(
 			/datum/status_effect/buff/beastsense = "Iliope laughs: \"Sniff sniff! What's behind that tree? Chaos, I hope!\"",
 			/datum/status_effect/buff/trollshape = "Iliope grins: \"Big, dumb, and hilarious. Perfect.\"",
 			/datum/status_effect/buff/divine_beauty = "Iliope cackles: \"Shiny! Pretty! Now trip over it!\"",

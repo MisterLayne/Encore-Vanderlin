@@ -271,7 +271,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 		/datum/patron/divine/visires = 0.15,
 		/datum/patron/divine/akan = 0.15,
 		/datum/patron/divine/necra = 0.15,
-		/datum/patron/divine/xylix = 0.15,
+		/datum/patron/divine/iliope = 0.15,
 		/datum/patron/divine/eora = 0.15,
 		/datum/patron/divine/ravox = 0.15,
 	)
@@ -319,7 +319,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 	desc = ""
 
 	alignments = list(
-		/datum/patron/divine/xylix = 1,
+		/datum/patron/divine/iliope = 1,
 	)
 
 /datum/attunement/polymorph
@@ -327,5 +327,5 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 	desc = ""
 
 	alignments = list(
-		/datum/patron/divine/xylix = 1,
+		/datum/patron/divine/iliope = 1,
 	)

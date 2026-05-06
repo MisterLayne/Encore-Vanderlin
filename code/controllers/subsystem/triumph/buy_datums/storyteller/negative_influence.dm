@@ -59,10 +59,10 @@
 	triumph_buy_id = TRIUMPH_BUY_NECRA_INFLUENCE_REDUCTION
 	storyteller_name = NECRA
 
-/datum/triumph_buy/storyteller_influence_reduction/xylix
+/datum/triumph_buy/storyteller_influence_reduction/iliope
 	name = "Iliope's Influence Reduction"
-	triumph_buy_id = TRIUMPH_BUY_XYLIX_INFLUENCE_REDUCTION
-	storyteller_name = XYLIX
+	triumph_buy_id = TRIUMPH_BUY_ILIOPE_INFLUENCE_REDUCTION
+	storyteller_name = ILIOPE
 
 /datum/triumph_buy/storyteller_influence_reduction/mjallidhorn
 	name = "Mjallidhorn's Influence Reduction"

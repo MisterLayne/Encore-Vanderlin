@@ -89,7 +89,7 @@
 	)
 	traits = list(TRAIT_DIVINE_SERVANT)
 
-/datum/devotion/divine/xylix
+/datum/devotion/divine/iliope
 	miracles = list(
 		CLERIC_T0 = /datum/action/cooldown/spell/healing,
 		CLERIC_T1 = /datum/action/cooldown/spell/undirected/list_target/vicious_mimicry,
@@ -97,8 +97,8 @@
 		CLERIC_T3 = /datum/action/cooldown/spell/undirected/jaunt/illusory_prop,
 	)
 	viable_tasks = list(
-		/datum/devotion_task/xylix_gamble,
-		/datum/devotion_task/xylix_trick,
+		/datum/devotion_task/iliope_gamble,
+		/datum/devotion_task/iliope_trick,
 	)
 	traits = list(TRAIT_DIVINE_SERVANT)
 

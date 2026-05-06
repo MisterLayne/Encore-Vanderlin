@@ -71,7 +71,7 @@
 			spawned.adjust_skill_level(/datum/attribute/skill/labor/fishing, 10)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/polearms, 40)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAbyssor.ogg'
-		if(/datum/patron/divine/xylix)
+		if(/datum/patron/divine/iliope)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/whipsflails, 40)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatXylix.ogg'
 		if(/datum/patron/inhumen/graggar)
@@ -186,11 +186,11 @@
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
 			cloak = /obj/item/clothing/cloak/stabard/templar/mjallidhorn
 			backr = /obj/item/weapon/polearm/spear/mjallidhorn
-		if(/datum/patron/divine/xylix)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/xylix
-			head = /obj/item/clothing/head/helmet/heavy/necked/xylix
-			cloak = /obj/item/clothing/cloak/stabard/templar/xylix
-			beltl = /obj/item/weapon/whip/xylix
+		if(/datum/patron/divine/iliope)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/iliope
+			head = /obj/item/clothing/head/helmet/heavy/necked/iliope
+			cloak = /obj/item/clothing/cloak/stabard/templar/iliope
+			beltl = /obj/item/weapon/whip/iliope
 		if(/datum/patron/inhumen/graggar)
 			head = /obj/item/clothing/head/helmet/heavy/graggar
 			armor = /obj/item/clothing/armor/plate/full/graggar

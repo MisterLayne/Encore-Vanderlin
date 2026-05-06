@@ -80,7 +80,7 @@
 	if(!length(dice_list))
 		to_chat(user, span_warning("There are no dice to roll!"))
 		return
-	var/option = browser_input_list(user, "Do you wish to roll the die in secret?", "XYLIX", DEFAULT_INPUT_CHOICES)
+	var/option = browser_input_list(user, "Do you wish to roll the die in secret?", "ILIOPE", DEFAULT_INPUT_CHOICES)
 	if(!option)
 		return
 	var/public_roll = TRUE
@@ -105,7 +105,7 @@
 	return ..()
 
 /obj/item/dice_cup/proc/rig_dice_cup(user)
-	var/obj/item/dice/which_one = browser_input_list(user, "Which die will you rig in your next roll?", "XYLIX", dice_list)
+	var/obj/item/dice/which_one = browser_input_list(user, "Which die will you rig in your next roll?", "ILIOPE", dice_list)
 	if(which_one)
 		INVOKE_ASYNC(which_one, TYPE_PROC_REF(/obj/item/dice, rig_dice), user)
 

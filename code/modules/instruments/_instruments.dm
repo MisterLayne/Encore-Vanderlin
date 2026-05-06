@@ -224,18 +224,18 @@
 				buffs2pick += list("Akan's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence,
 								"Malum's Perseverance (+1 END)" = /datum/status_effect/bardicbuff/endurance,
 								"Pestra's Blessing (+1 CON)" = /datum/status_effect/bardicbuff/constitution,
-								"Xylix's Alacrity (+1 SPD)" = /datum/status_effect/bardicbuff/speed)
+								"Iliope's Alacrity (+1 SPD)" = /datum/status_effect/bardicbuff/speed)
 			if(1 to 5) // T5
 				buffs2pick += list("Akan's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence,
 								"Malum's Perseverance (+1 END)" = /datum/status_effect/bardicbuff/endurance,
 								"Pestra's Blessing (+1 CON)" = /datum/status_effect/bardicbuff/constitution,
-								"Xylix's Alacrity (+1 SPD)" = /datum/status_effect/bardicbuff/speed,
+								"Iliope's Alacrity (+1 SPD)" = /datum/status_effect/bardicbuff/speed,
 								"Ravox's Righteous Fury (+1 STR, +1 PER)" = /datum/status_effect/bardicbuff/ravox)
 			if(6 to INFINITY) // Legendary onwards
 				buffs2pick += list("Akan's Brilliance (+1 INT)" = /datum/status_effect/bardicbuff/intelligence,
 								"Malum's Perseverance (+1 END)" = /datum/status_effect/bardicbuff/endurance,
 								"Pestra's Blessing (+1 CON)" = /datum/status_effect/bardicbuff/constitution,
-								"Xylix's Alacrity (+1 SPD)" = /datum/status_effect/bardicbuff/speed,
+								"Iliope's Alacrity (+1 SPD)" = /datum/status_effect/bardicbuff/speed,
 								"Ravox's Righteous Fury (+1 STR, +1 PER)" = /datum/status_effect/bardicbuff/ravox,
 								"Visires's Awakening (+energy, +stamina, +1 FOR)" = /datum/status_effect/bardicbuff/awaken) // TAKE THE LAND THAT MUST BE TAKEN
 			else // debug

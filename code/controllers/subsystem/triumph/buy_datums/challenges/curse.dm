@@ -10,7 +10,7 @@
 		/datum/patron/divine/visires = /datum/curse/visires,
 		/datum/patron/divine/ravox = /datum/curse/ravox,
 		/datum/patron/divine/necra = /datum/curse/necra,
-		/datum/patron/divine/xylix = /datum/curse/xylix,
+		/datum/patron/divine/iliope = /datum/curse/iliope,
 		/datum/patron/divine/pestra = /datum/curse/pestra,
 		/datum/patron/divine/eora = /datum/curse/eora,
 		/datum/patron/inhumen/zizo = /datum/curse/zizo/minor,

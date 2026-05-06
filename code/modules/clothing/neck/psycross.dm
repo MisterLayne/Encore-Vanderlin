@@ -112,8 +112,8 @@
 	desc = "Struggle. Challenge. And rise to struggle again. That is the sword of he who yet lives to fight again."
 	icon_state = "ravox"
 
-/obj/item/clothing/neck/psycross/silver/divine/xylix
-	name = "amulet of Xylix"
+/obj/item/clothing/neck/psycross/silver/divine/iliope
+	name = "amulet of Iliope"
 	desc = "Be not fooled, and be not afraid to."
 	icon_state = "xylix"
 

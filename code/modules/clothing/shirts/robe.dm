@@ -30,7 +30,7 @@
 /obj/item/clothing/shirt/robe/colored/black
 	color = CLOTHING_DARK_INK
 
-/obj/item/clothing/shirt/robe/colored/red//placeholder for malum & xylix acolyte robes
+/obj/item/clothing/shirt/robe/colored/red//placeholder for malum & fools acolyte robes
 	color = CLOTHING_WINESTAIN_RED
 
 /obj/item/clothing/shirt/robe/colored/purple

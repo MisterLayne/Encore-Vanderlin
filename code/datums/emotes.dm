@@ -68,7 +68,7 @@
 				continue
 			mobsadjacent += target_mob
 		if(length(mobsadjacent))
-			chosenmob = browser_input_list(user, "[key] who?", "XYLIX", mobsadjacent)
+			chosenmob = browser_input_list(user, "[key] who?", "ILIOPE", mobsadjacent)
 		if(istype(chosenmob))
 			if(user.Adjacent(chosenmob))
 				params = chosenmob.name

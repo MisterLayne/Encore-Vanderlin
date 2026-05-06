@@ -295,11 +295,11 @@
 	output = /obj/item/reagent_containers/food/snacks/choccy_cookie
 	cooked_smell = /datum/pollutant/food/pastry
 
-/datum/container_craft/oven/xylixbun
-	name = "Xylix Bun"
+/datum/container_craft/oven/iliopebun
+	name = "Iliope Bun"
 	hides_from_books = TRUE //Secret bun ooooooo
-	requirements = list(/obj/item/reagent_containers/food/snacks/foodbase/xylixbun_raw = 1)
-	output = /obj/item/reagent_containers/food/snacks/xylixbun
+	requirements = list(/obj/item/reagent_containers/food/snacks/foodbase/iliopebun_raw = 1)
+	output = /obj/item/reagent_containers/food/snacks/iliopebun
 	cooked_smell = /datum/pollutant/food/bun
 
 /datum/container_craft/oven/hardtack

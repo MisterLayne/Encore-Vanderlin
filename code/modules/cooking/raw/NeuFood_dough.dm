@@ -742,7 +742,7 @@
 
 /obj/item/reagent_containers/food/snacks/bookbreadslice/lemon
 	name = "sliced lemon bookbread"
-	desc = "Sweet but a little sour, like a good Xylixian comedy."
+	desc = "Sweet but a little sour, like a good fool's comedy."
 	icon_state = "lemon_bookbread_slice"
 
 	nutrition = BOOKBREADSLICE_NUTRITION + DRIEDFRUIT_NUTRITION
@@ -1643,8 +1643,8 @@
 	faretype = FARE_FINE
 	item_weight = 130 GRAMS
 
-/*	.................   Xylix Bun   ................... */
-/obj/item/reagent_containers/food/snacks/foodbase/xylixbun_raw
+/*	.................   Iliope Bun   ................... */
+/obj/item/reagent_containers/food/snacks/foodbase/iliopebun_raw
 	name = "mysterious dough"
 	desc = "This dough seems entirely inconspicous, sure to bake into a regular bun."
 	icon_state = "xylixdough"
@@ -1659,8 +1659,8 @@
 	item_weight = 120 GRAMS
 
 
-/obj/item/reagent_containers/food/snacks/xylixbun
-	name = "xylixbun"
+/obj/item/reagent_containers/food/snacks/iliopebun
+	name = "iliopebun"
 	desc = "A very smug looking bun throwing up a holy gesture. Surely nothing bad could come of eating this?"
 	icon_state = "xylixbun"
 	tastes = list("horribly spicy bread" = 1)

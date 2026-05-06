@@ -31,7 +31,7 @@
 
 /datum/culture/species/elven/desert
 	name = "Desert Tribes"
-	description = "Known by humens to be rebellious and unruly. Assumed to be involved with the Xylixian freemen of Zaladin."
+	description = "Known by humens to be rebellious and unruly. Assumed to be involved with Iliope's freemen of Zaladin."
 	pre_append = "the "
 
 /datum/culture/species/elven/crimson

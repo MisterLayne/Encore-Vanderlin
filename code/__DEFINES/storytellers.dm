@@ -5,7 +5,7 @@
 #define TAG_AKAN "Akan"
 #define TAG_RAVOX "Mordsol"
 #define TAG_MJALLIDHORN "Mjallidhorn"
-#define TAG_XYLIX "Iliope"
+#define TAG_ILIOPE "Iliope"
 #define TAG_NECRA "Valdala"
 #define TAG_PESTRA "Erdl"
 #define TAG_MALUM "Goler Kanh"
@@ -70,13 +70,13 @@
 /// Tag representing war-like influence, tied to Graggar
 #define TAG_WAR "War"
 
-/// Tag for gambling-related systems or events, used by Xylix
+/// Tag for gambling-related systems or events, used by Iliope
 #define TAG_GAMBLE "Gamble"
 
-/// Tag symbolizing trickery, mischief, or deception, belonging to Zizo and Xylix
+/// Tag symbolizing trickery, mischief, or deception, belonging to Zizo and Iliope
 #define TAG_TRICKERY "Trickery"
 
-/// Tag representing unexpected outcomes or randomness, tied to Zizo and Xylix
+/// Tag representing unexpected outcomes or randomness, tied to Zizo and Iliope
 #define TAG_UNEXPECTED "Unexpected"
 
 /// Tag representing insanity-related mechanics, used by Baotha and Dendor
@@ -186,7 +186,7 @@
 	/datum/storyteller/akan, \
 	/datum/storyteller/ravox, \
 	/datum/storyteller/mjallidhorn, \
-	/datum/storyteller/xylix, \
+	/datum/storyteller/iliope, \
 	/datum/storyteller/necra, \
 	/datum/storyteller/pestra, \
 	/datum/storyteller/malum, \
@@ -210,7 +210,7 @@
 #define AKAN "Akan"
 #define RAVOX "Mordsol"
 #define MJALLIDHORN "Mjallidhorn"
-#define XYLIX "Iliope"
+#define ILIOPE "Iliope"
 #define NECRA "Valdala"
 #define PESTRA "Erdl"
 #define MALUM "Goler Kanh"

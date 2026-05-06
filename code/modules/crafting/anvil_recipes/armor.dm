@@ -582,10 +582,10 @@
 	created_item = /obj/item/clothing/head/helmet/heavy/necked/ravox
 	additional_items = list(/obj/item/ingot/iron)
 
-/datum/anvil_recipe/armor/steel/templar/helmet_xylix
+/datum/anvil_recipe/armor/steel/templar/helmet_iliope
 	name = "Iliope Helmet (+Iron Bar)"
-	recipe_name = "a xylixian helmet"
-	created_item = /obj/item/clothing/head/helmet/heavy/necked/xylix
+	recipe_name = "a fools helmet"
+	created_item = /obj/item/clothing/head/helmet/heavy/necked/iliope
 	additional_items = list(/obj/item/ingot/iron)
 
 /datum/anvil_recipe/armor/steel/chainleg
@@ -1299,10 +1299,10 @@
 	craftdiff = 4
 
 
-/datum/anvil_recipe/armor/xylixhelm
-	name = "xylixian helmet"
+/datum/anvil_recipe/armor/iliopehelm
+	name = "fools helmet"
 	req_bar = /obj/item/ingot/steel
-	created_item = /obj/item/clothing/head/helmet/heavy/xylixhelm
+	created_item = /obj/item/clothing/head/helmet/heavy/iliopehelm
 	craftdiff = 3
 
 /datum/anvil_recipe/armor/visireshelm

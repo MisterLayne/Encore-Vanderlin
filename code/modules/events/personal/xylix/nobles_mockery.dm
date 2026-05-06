@@ -1,34 +1,34 @@
-/datum/round_event_control/xylix_mocking_nobles
+/datum/round_event_control/iliope_mocking_nobles
 	name = "Mockery (Nobles)"
 	track = EVENT_TRACK_PERSONAL
-	typepath = /datum/round_event/xylix_mocking_nobles
+	typepath = /datum/round_event/iliope_mocking_nobles
 	weight = 10
 	earliest_start = 10 MINUTES
 	max_occurrences = 1
 	min_players = 25
 
 	tags = list(
-		TAG_XYLIX,
+		TAG_ILIOPE,
 		TAG_TRICKERY,
 	)
 
-/datum/round_event_control/xylix_mocking_nobles/canSpawnEvent(players_amt, gamemode, fake_check)
+/datum/round_event_control/iliope_mocking_nobles/canSpawnEvent(players_amt, gamemode, fake_check)
 	. = ..()
 	if(!.)
 		return FALSE
 
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
-		if(!istype(H) || H.stat == DEAD || !H.client || !istype(H.patron, /datum/patron/divine/xylix) || H.is_noble())
+		if(!istype(H) || H.stat == DEAD || !H.client || !istype(H.patron, /datum/patron/divine/iliope) || H.is_noble())
 			continue
 		if(H.get_spell(/datum/action/cooldown/spell/vicious_mockery))
 			return TRUE
 	return FALSE
 
-/datum/round_event/xylix_mocking_nobles/start()
+/datum/round_event/iliope_mocking_nobles/start()
 	var/list/valid_targets = list()
 
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
-		if(!istype(H) || H.stat == DEAD || !H.client || !istype(H.patron, /datum/patron/divine/xylix) || H.is_noble())
+		if(!istype(H) || H.stat == DEAD || !H.client || !istype(H.patron, /datum/patron/divine/iliope) || H.is_noble())
 			continue
 		if(H.get_spell(/datum/action/cooldown/spell/vicious_mockery))
 			valid_targets += H
@@ -42,7 +42,7 @@
 	chosen_one.mind.add_personal_objective(new_objective)
 
 	bordered_message(chosen_one, list(
-		span_userdanger("YOU ARE XYLIX'S CHOSEN!"),
+		span_userdanger("YOU ARE ILIOPE'S CHOSEN!"),
 		span_notice("Iliope demands entertainment! Viciously mock [new_objective.required_count] nobles to prove your wit and earn Iliope's favor!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/xylix_omen.ogg', 100)

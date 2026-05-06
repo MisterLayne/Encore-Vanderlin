@@ -143,8 +143,8 @@
 		)
 	)
 
-/datum/storyteller/xylix
-	name = XYLIX
+/datum/storyteller/iliope
+	name = ILIOPE
 	desc = "Iliope is a wildcard, spinning the wheels of fate."
 	welcome_text = "The dice have been cast, let chaos reign."
 	weight = 4
@@ -155,7 +155,7 @@
 	roundstart_prob = 75
 
 	tag_multipliers = list(
-		TAG_XYLIX = 3,
+		TAG_ILIOPE = 3,
 		TAG_GAMBLE = 1.75,
 		TAG_TRICKERY = 1.5,
 		TAG_UNEXPECTED = 1.25,

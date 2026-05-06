@@ -4,7 +4,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	EORA = 'sound/vo/female/gen/giggle (1).ogg',
 	GANI = 'sound/magic/barbroar.ogg',
 	MALUM = 'sound/magic/dwarf_chant01.ogg',
-	XYLIX = 'sound/misc/gods/xylix_omen.ogg',
+	ILIOPE = 'sound/misc/gods/xylix_omen.ogg',
 	NECRA = 'sound/ambience/noises/genspooky (1).ogg',
 	MJALLIDHORN = 'sound/items/bucket_transfer (2).ogg',
 	RAVOX = 'sound/vo/male/knight/rage (6).ogg',
@@ -164,16 +164,16 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	storyteller = /datum/storyteller/ravox
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/ravox
 
-/datum/patron/divine/xylix
-	name = XYLIX
+/datum/patron/divine/iliope
+	name = ILIOPE
 	domain = "Deity of Trickery, Freedom, and Inspiration"
-	desc = "Crafted from the silver tongue of Psydon. Xylix is a force of change and deceit, yet allows little known of their gender let alone presence."
+	desc = "Crafted from the silver tongue of Psydon. Iliope is a force of change and deceit, yet allows little known of their gender let alone presence."
 	flaws = "Petulance, Deception, Gambling-Prone"
 	worshippers = "Cheats, Performers, The Hopeless"
 	sins = "Boredom, Predictability, Routine"
 	boons = "You can rig different forms of gambling in your favor."
 	added_traits = list(TRAIT_BLACKLEG)
-	devotion_holder = /datum/devotion/divine/xylix
+	devotion_holder = /datum/devotion/divine/iliope
 	confess_lines = list(
 		"VISIRES IS MY LIGHT!",
 		"AKAN FLIES FREE AND TOO FAR FROM ME!",
@@ -181,8 +181,8 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 		"GOLER KANH IS MY MUSE!",
 		"MJALLIDHORN IS MY TERROR!",
 	)
-	storyteller = /datum/storyteller/xylix
-	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/xylix
+	storyteller = /datum/storyteller/iliope
+	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/iliope
 
 /datum/patron/divine/pestra
 	name = PESTRA

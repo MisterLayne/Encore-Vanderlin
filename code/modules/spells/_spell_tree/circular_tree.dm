@@ -596,7 +596,7 @@
 
 
 /datum/spell_node/gib
-	name = "Xylix's Cruel Prank"
+	name = "Iliope's Cruel Prank"
 	desc = "Fucked up and evil."
 	node_x = -500
 	node_y = -500
@@ -609,10 +609,10 @@
 		if(isnewplayer(target))
 			continue
 		bordered_message(target, list(
-			span_extremelybig(html_tag("center", SPAN_GOD_XYLIX("An Infectious Laugh from the God of Fools!"))),
+			span_extremelybig(html_tag("center", SPAN_GOD_ILIOPE("An Infectious Laugh from the God of Fools!"))),
 			html_tag("center", span_extremelybig(span_info("[user.real_name] has fallen for a jest most cruel!"))),
 		))
 		target.playsound_local(target, 'sound/magic/mockery.ogg', 100, environment_override = 25)
-		if(target.add_stress(/datum/stress_event/xylix_laughed))
+		if(target.add_stress(/datum/stress_event/iliope_laughed))
 			addtimer(CALLBACK(target, TYPE_PROC_REF(/mob, emote), pick("laugh", "chuckle")), rand(5, 20))
 	record_round_statistic(STATS_CRUEL_PRANKS)
