@@ -49,10 +49,10 @@
 	triumph_buy_id = TRIUMPH_BUY_MALUM_INFLUENCE
 	storyteller_name = MALUM
 
-/datum/triumph_buy/storyteller_influence_bonus/pestra
+/datum/triumph_buy/storyteller_influence_bonus/erdl
 	name = "Erdl's Influence"
-	triumph_buy_id = TRIUMPH_BUY_PESTRA_INFLUENCE
-	storyteller_name = PESTRA
+	triumph_buy_id = TRIUMPH_BUY_ERDL_INFLUENCE
+	storyteller_name = ERDL
 
 /datum/triumph_buy/storyteller_influence_bonus/necra
 	name = "Valdala's Influence"

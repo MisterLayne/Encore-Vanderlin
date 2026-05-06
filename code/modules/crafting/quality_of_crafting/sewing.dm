@@ -1010,9 +1010,9 @@
 	craftdiff = 3
 	category = "Cloak"
 
-/datum/repeatable_crafting_recipe/sewing/pestratemplar
-	name = "pestran surcoat"
-	output = /obj/item/clothing/cloak/stabard/templar/pestra
+/datum/repeatable_crafting_recipe/sewing/erdltemplar
+	name = "erdite surcoat"
+	output = /obj/item/clothing/cloak/stabard/templar/erdl
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3
@@ -1487,9 +1487,9 @@
 	craftdiff = 1
 	category = "Tabard"
 
-/datum/repeatable_crafting_recipe/sewing/pestran_tabard
-	name = "pestran tabard"
-	output = /obj/item/clothing/cloak/templar/pestran
+/datum/repeatable_crafting_recipe/sewing/erdln_tabard
+	name = "erdite tabard"
+	output = /obj/item/clothing/cloak/templar/erdite
 	requirements = list(
 		/obj/item/natural/cloth = 2,
 		/obj/item/natural/fibers = 1
@@ -1538,9 +1538,9 @@
 	craftdiff = 1
 	category = "Tabard"
 
-/datum/repeatable_crafting_recipe/sewing/pestra_tabard
-	name = "pestra tabard"
-	output = /obj/item/clothing/cloak/templar/pestra
+/datum/repeatable_crafting_recipe/sewing/erdl_tabard
+	name = "erdl tabard"
+	output = /obj/item/clothing/cloak/templar/erdl
 	requirements = list(
 		/obj/item/natural/cloth = 2,
 		/obj/item/natural/fibers = 1

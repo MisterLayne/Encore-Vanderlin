@@ -71,7 +71,7 @@
 			spawned.cmode_music = 'sound/music/cmode/church/CombatRavox.ogg'
 		if(/datum/patron/divine/iliope)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatXylix.ogg'
-		if(/datum/patron/divine/pestra)
+		if(/datum/patron/divine/erdl)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
 		if(/datum/patron/divine/malum)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatOutlander2.ogg'
@@ -140,9 +140,9 @@
 		if(/datum/patron/divine/iliope)
 			head = /obj/item/clothing/head/helmet/heavy/necked/iliope
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/iliope
-		if(/datum/patron/divine/pestra)
-			head = /obj/item/clothing/head/helmet/heavy/necked/pestrahelm
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/pestra
+		if(/datum/patron/divine/erdl)
+			head = /obj/item/clothing/head/helmet/heavy/necked/erdlhelm
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/erdl
 		if(/datum/patron/divine/malum)
 			head = /obj/item/clothing/head/helmet/heavy/necked/malumhelm
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/malum

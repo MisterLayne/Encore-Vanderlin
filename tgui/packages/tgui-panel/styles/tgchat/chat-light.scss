@@ -1416,14 +1416,14 @@ $border-width-px: $border-width * 1px;
 }
 /* ##### END ##### */
 
-/* ##### PESTRA ##### */
-.god_pestra {
+/* ##### ERDL ##### */
+.god_erdl {
   color: hsl(70, 70%, 37%);
   font-weight: bold;
-  animation: pestra_flicker 1s infinite;
+  animation: erdl_flicker 1s infinite;
 }
 
-@keyframes pestra_flicker {
+@keyframes erdl_flicker {
 	25% {
 		color: hsl(70, 70%, 37%);
 	}

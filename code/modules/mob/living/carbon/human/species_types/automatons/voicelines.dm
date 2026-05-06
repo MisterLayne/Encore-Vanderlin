@@ -269,9 +269,9 @@
 	play_voice_line("Organic Presence Detected")
 
 /mob/living/carbon/human/proc/voice_pestrapraise()
-	set name = "Pestra Praise"
+	set name = "Erdl Praise"
 	set category = "Emotes.Automaton"
-	play_voice_line("Pestra Praise")
+	play_voice_line("Erdl Praise")
 
 /mob/living/carbon/human/proc/voice_psydonlives()
 	set name = "Psydon Lives"

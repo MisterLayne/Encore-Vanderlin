@@ -54,7 +54,7 @@
 2025-08-09:
   Arkatos:
   - rscadd: Influences balancing, added number of medicators as a possible influence
-      for Pestra.
+      for Erdl.
   - bugfix: Influence modifier is now correctly applied to negative influences.
   CheffieGithub:
   - bugfix: Shield heraldry works again.

@@ -1,13 +1,13 @@
-#define ALL_TEMPLE_PATRONS 		list(/datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/necra, /datum/patron/divine/ravox, /datum/patron/divine/iliope, /datum/patron/divine/pestra, /datum/patron/divine/malum, /datum/patron/divine/eora)
-#define UNDIVIDED_TEMPLE_PATRONS list(/datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/necra, /datum/patron/divine/ravox, /datum/patron/divine/iliope, /datum/patron/divine/pestra, /datum/patron/divine/malum, /datum/patron/divine/eora, /datum/patron/divine/centrist)
-#define ALL_CLERIC_PATRONS 		list(/datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/necra, /datum/patron/divine/ravox, /datum/patron/divine/iliope, /datum/patron/divine/pestra, /datum/patron/divine/malum, /datum/patron/divine/eora)
-#define ALL_PALADIN_PATRONS 	list(/datum/patron/psydon, /datum/patron/psydon/extremist, /datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/necra, /datum/patron/divine/ravox, /datum/patron/divine/iliope, /datum/patron/divine/pestra, /datum/patron/divine/malum, /datum/patron/divine/eora)
-#define ALL_TEMPLAR_PATRONS 	list(/datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/eora, /datum/patron/divine/necra, /datum/patron/divine/ravox, /datum/patron/divine/pestra, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/malum, /datum/patron/divine/iliope)
+#define ALL_TEMPLE_PATRONS 		list(/datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/necra, /datum/patron/divine/ravox, /datum/patron/divine/iliope, /datum/patron/divine/erdl, /datum/patron/divine/malum, /datum/patron/divine/eora)
+#define UNDIVIDED_TEMPLE_PATRONS list(/datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/necra, /datum/patron/divine/ravox, /datum/patron/divine/iliope, /datum/patron/divine/erdl, /datum/patron/divine/malum, /datum/patron/divine/eora, /datum/patron/divine/centrist)
+#define ALL_CLERIC_PATRONS 		list(/datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/necra, /datum/patron/divine/ravox, /datum/patron/divine/iliope, /datum/patron/divine/erdl, /datum/patron/divine/malum, /datum/patron/divine/eora)
+#define ALL_PALADIN_PATRONS 	list(/datum/patron/psydon, /datum/patron/psydon/extremist, /datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/necra, /datum/patron/divine/ravox, /datum/patron/divine/iliope, /datum/patron/divine/erdl, /datum/patron/divine/malum, /datum/patron/divine/eora)
+#define ALL_TEMPLAR_PATRONS 	list(/datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/eora, /datum/patron/divine/necra, /datum/patron/divine/ravox, /datum/patron/divine/erdl, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/malum, /datum/patron/divine/iliope)
 #define ALL_PROFANE_PATRONS 	list(/datum/patron/inhumen/graggar, /datum/patron/inhumen/zizo, /datum/patron/inhumen/matthios, /datum/patron/inhumen/baotha)
-#define ALL_ICONOCLAST_PATRONS  list(/datum/patron/psydon, /datum/patron/psydon/extremist, /datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/necra, /datum/patron/divine/ravox, /datum/patron/divine/iliope, /datum/patron/divine/pestra, /datum/patron/divine/malum, /datum/patron/divine/eora, /datum/patron/inhumen/graggar, /datum/patron/inhumen/zizo, /datum/patron/inhumen/matthios, /datum/patron/inhumen/baotha)
+#define ALL_ICONOCLAST_PATRONS  list(/datum/patron/psydon, /datum/patron/psydon/extremist, /datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/necra, /datum/patron/divine/ravox, /datum/patron/divine/iliope, /datum/patron/divine/erdl, /datum/patron/divine/malum, /datum/patron/divine/eora, /datum/patron/inhumen/graggar, /datum/patron/inhumen/zizo, /datum/patron/inhumen/matthios, /datum/patron/inhumen/baotha)
 
-#define COLORFUL_PATRONS		list("Psydon", "Visires", "Akan", "Gani", "Mjallidhorn", "Necra", "Ravox", "Iliope", "Pestra", "Malum", "Eora", "Graggar", "Zizo", "Matthios", "Baotha", "The Great Hunt", "The Black Briar")
-#define TEMPLE_PATRON_NAMES		list("Visires", "Akan", "Gani", "Mjallidhorn", "Necra", "Ravox", "Iliope", "Pestra", "Malum", "Eora")
+#define COLORFUL_PATRONS		list("Psydon", "Visires", "Akan", "Gani", "Mjallidhorn", "Necra", "Ravox", "Iliope", "Erdl", "Malum", "Eora", "Graggar", "Zizo", "Matthios", "Baotha", "The Great Hunt", "The Black Briar")
+#define TEMPLE_PATRON_NAMES		list("Visires", "Akan", "Gani", "Mjallidhorn", "Necra", "Ravox", "Iliope", "Erdl", "Malum", "Eora")
 
 GLOBAL_LIST_INIT(curse_names, list())
 
@@ -17,7 +17,7 @@ GLOBAL_LIST_INIT(curse_names, list())
 	/datum/curse/ravox,\
 	/datum/curse/necra,\
 	/datum/curse/iliope,\
-	/datum/curse/pestra,\
+	/datum/curse/erdl,\
 	/datum/curse/eora\
 )
 

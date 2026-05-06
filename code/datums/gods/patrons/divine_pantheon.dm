@@ -8,7 +8,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	NECRA = 'sound/ambience/noises/genspooky (1).ogg',
 	MJALLIDHORN = 'sound/items/bucket_transfer (2).ogg',
 	RAVOX = 'sound/vo/male/knight/rage (6).ogg',
-	PESTRA = 'sound/magic/cosmic_expansion.ogg',
+	ERDL = 'sound/magic/cosmic_expansion.ogg',
 	ZIZO = 'sound/misc/gods/zizo_omen.ogg',
 	GRAGGAR = 'sound/misc/gods/graggar_omen.ogg',
 	BAOTHA = 'sound/misc/gods/baotha_omen.ogg',
@@ -184,8 +184,8 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	storyteller = /datum/storyteller/iliope
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/iliope
 
-/datum/patron/divine/pestra
-	name = PESTRA
+/datum/patron/divine/erdl
+	name = ERDL
 	domain = "Goddess of Disease, Alchemy, and Medicine"
 	desc = "A mistake; Psydon's intestines left behind. She slithered out, bringing forth the cycle of life and decay."
 	flaws = "Drunkenness, Crudeness, Irresponsibility"
@@ -193,21 +193,21 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	sins = "´Curing´ Abnormalities, Refusing to Help Unfortunates, Groveling"
 	boons = "You may consume rotten food without being sick."
 	added_traits = list(TRAIT_ROT_EATER)
-	devotion_holder = /datum/devotion/divine/pestra
+	devotion_holder = /datum/devotion/divine/erdl
 	confess_lines = list(
-		"PESTRA SOOTHES ALL ILLS!",
+		"ERDL SOOTHES ALL ILLS!",
 		"DECAY IS A CONTINUATION OF LIFE!",
 		"MY AFFLICTION IS MY TESTAMENT!",
 	)
-	storyteller = /datum/storyteller/pestra
-	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/pestra
+	storyteller = /datum/storyteller/erdl
+	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/erdl
 
-/datum/patron/divine/pestra/preference_accessible(datum/preferences/prefs)
+/datum/patron/divine/erdl/preference_accessible(datum/preferences/prefs)
 	. = ..()
 	if(!.)
 		return
 
-	// These guys believe in a wurm, not pestra. They won't accept pestra as not being a giant acid wurm.
+	// These guys believe in a wurm, not erdl. They won't accept erdl as not being a giant acid wurm.
 	return prefs.pref_species.id != SPEC_ID_DWARF_SUBTERRAN
 
 /datum/patron/divine/malum

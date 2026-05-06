@@ -25,7 +25,7 @@
 /datum/objective/personal/lux_extraction/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("You have extracted lux and completed Erdl's objective!"))
-	adjust_storyteller_influence(PESTRA, 20)
+	adjust_storyteller_influence(ERDL, 20)
 	UnregisterSignal(owner.current, COMSIG_LUX_EXTRACTED)
 
 /datum/objective/personal/lux_extraction/reward_owner()

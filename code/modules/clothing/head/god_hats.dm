@@ -1,4 +1,4 @@
-/obj/item/clothing/head/padded/pestra
+/obj/item/clothing/head/padded/erdl
 	name = "naga hood"
 	desc = "Worn by the faithful of Erdl. Resembling the face of the Naga clothed in rot."
 	icon_state = "pestrahood"
@@ -37,7 +37,7 @@
 	flags_inv = HIDEEARS|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
 	item_weight = 250 GRAMS
 
-/obj/item/clothing/head/padded/pestra
+/obj/item/clothing/head/padded/erdl
 	name = "naga hood"
 	desc = "Worn by the faithful of Erdl. Resembling the face of the Naga clothed in rot."
 	icon_state = "pestrahood"

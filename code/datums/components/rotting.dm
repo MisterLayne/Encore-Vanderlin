@@ -37,8 +37,8 @@
 /datum/component/rot/corpse/process()
 	var/time_elapsed = last_process ? (world.time - last_process)/10 : 1
 	..()
-	if(has_world_trait(/datum/world_trait/pestra_mercy))
-		amount -= (is_ascendant(PESTRA) ? 2.5 : 5) * time_elapsed
+	if(has_world_trait(/datum/world_trait/erdl_mercy))
+		amount -= (is_ascendant(ERDL) ? 2.5 : 5) * time_elapsed
 
 	var/mob/living/carbon/C = parent
 	var/is_zombie

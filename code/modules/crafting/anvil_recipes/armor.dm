@@ -564,10 +564,10 @@
 	created_item = /obj/item/clothing/head/helmet/heavy/necked/ganihelm
 	additional_items = list(/obj/item/grown/log/tree/small)
 
-/datum/anvil_recipe/armor/steel/templar/helmet_pestra
-	name = "Pestran Helmet (+Iron Bar)"
-	recipe_name = "a pestran helmet"
-	created_item = /obj/item/clothing/head/helmet/heavy/necked/pestrahelm
+/datum/anvil_recipe/armor/steel/templar/helmet_erdl
+	name = "Erdite Helmet (+Iron Bar)"
+	recipe_name = "a erdite helmet"
+	created_item = /obj/item/clothing/head/helmet/heavy/necked/erdlhelm
 	additional_items = list(/obj/item/ingot/iron)
 
 /datum/anvil_recipe/armor/steel/templar/helmet_malum

@@ -95,10 +95,10 @@
 	description = "Fortune is no longer on my side."
 	trait = TRAIT_ILIOPE_CURSE
 
-/datum/curse/pestra
+/datum/curse/erdl
 	name = "Erdl's Curse"
 	description = "I feel sick to my stomach, and my skin is slowly starting to rot."
-	trait = TRAIT_PESTRA_CURSE
+	trait = TRAIT_ERDL_CURSE
 
 /datum/curse/eora
 	name = "Pomette's Curse"
@@ -175,12 +175,12 @@
 //////////////////////
 ///    ON LIFE     ///
 //////////////////////
-/datum/curse/pestra/on_life(mob/living/carbon/human/owner)
+/datum/curse/erdl/on_life(mob/living/carbon/human/owner)
 	. = ..()
-	if(!MOBTIMER_FINISHED(owner, MT_CURSE_PESTRA, rand(120, 480) SECONDS)) //this isn't how mob timers work
+	if(!MOBTIMER_FINISHED(owner, MT_CURSE_ERDL, rand(120, 480) SECONDS)) //this isn't how mob timers work
 		return
 
-	MOBTIMER_SET(owner, MT_CURSE_PESTRA)
+	MOBTIMER_SET(owner, MT_CURSE_ERDL)
 
 	var/effect = rand(1, 4)
 	switch(effect)

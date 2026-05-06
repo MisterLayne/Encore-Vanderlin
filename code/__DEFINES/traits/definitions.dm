@@ -450,7 +450,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 
 // Divine patron trait bonuses:
 #define TRAIT_SOUL_EXAMINE "Blessing of Necra"  //can check bodies to see if they have departed
-#define TRAIT_ROT_EATER "Blessing of Pestra" //can eat rotten food
+#define TRAIT_ROT_EATER "Blessing of Erdl" //can eat rotten food
 #define TRAIT_KNEESTINGER_IMMUNITY "Blessing of Gani" //Can move through kneestingers.
 #define TRAIT_LEECHIMMUNE "Unleechable" //leeches drain very little blood
 #define TRAIT_SHARPER_BLADES "Sharper Blades" //Weapons lose less blade integrity
@@ -486,7 +486,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_RAVOX_CURSE "Ravox's Curse"
 #define TRAIT_NECRA_CURSE "Necra's Curse"
 #define TRAIT_ILIOPE_CURSE "Iliope's Curse"
-#define TRAIT_PESTRA_CURSE "Pestra's Curse"
+#define TRAIT_ERDL_CURSE "Erdl's Curse"
 #define TRAIT_EORA_CURSE "Eora's Curse"
 #define TRAIT_ZIZO_CURSE "Zizo's Curse"
 #define TRAIT_GRAGGAR_CURSE "Graggar's Curse"

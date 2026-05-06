@@ -1,18 +1,18 @@
-/datum/round_event_control/pestra_lux
+/datum/round_event_control/erdl_lux
 	name = "Lux Extraction Demand"
 	track = EVENT_TRACK_PERSONAL
-	typepath = /datum/round_event/pestra_lux
+	typepath = /datum/round_event/erdl_lux
 	weight = 7
 	earliest_start = 15 MINUTES
 	max_occurrences = 1
 	min_players = 30
 
 	tags = list(
-		TAG_PESTRA,
+		TAG_ERDL,
 		TAG_MEDICAL,
 	)
 
-/datum/round_event_control/pestra_lux/canSpawnEvent(players_amt, gamemode, fake_check)
+/datum/round_event_control/erdl_lux/canSpawnEvent(players_amt, gamemode, fake_check)
 	. = ..()
 	if(!.)
 		return FALSE
@@ -20,7 +20,7 @@
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(!istype(H) || H.stat == DEAD || !H.client)
 			continue
-		if(!H.patron || !istype(H.patron, /datum/patron/divine/pestra))
+		if(!H.patron || !istype(H.patron, /datum/patron/divine/erdl))
 			continue
 		if(GET_MOB_SKILL_VALUE_OLD(H, /datum/attribute/skill/misc/medicine) < 3)
 			continue
@@ -28,13 +28,13 @@
 
 	return FALSE
 
-/datum/round_event/pestra_lux/start()
+/datum/round_event/erdl_lux/start()
 	var/list/valid_targets = list()
 
 	for(var/mob/living/carbon/human/human_mob in GLOB.player_list)
 		if(!istype(human_mob) || human_mob.stat == DEAD || !human_mob.client)
 			continue
-		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/divine/pestra))
+		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/divine/erdl))
 			continue
 		if(GET_MOB_SKILL_VALUE_OLD(human_mob, /datum/attribute/skill/misc/medicine) < 3)
 			continue
@@ -49,7 +49,7 @@
 	chosen_one.mind.add_personal_objective(new_objective)
 
 	bordered_message(chosen_one, list(
-		span_userdanger("YOU ARE PESTRA'S CHOSEN!"),
+		span_userdanger("YOU ARE ERDL'S CHOSEN!"),
 		span_notice("Erdl is curious about the divine spark! Extract lux from a living being to earn Erdl's favor!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/magic/cosmic_expansion.ogg', 100)

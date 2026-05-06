@@ -102,16 +102,16 @@
 	)
 	traits = list(TRAIT_DIVINE_SERVANT)
 
-/datum/devotion/divine/pestra
+/datum/devotion/divine/erdl
 	miracles = list(
-		CLERIC_T0 = list(/datum/action/cooldown/spell/healing, /datum/action/cooldown/spell/undirected/conjure_item/summon_leech/pestra),
+		CLERIC_T0 = list(/datum/action/cooldown/spell/healing, /datum/action/cooldown/spell/undirected/conjure_item/summon_leech/erdl),
 		CLERIC_T1 = /datum/action/cooldown/spell/diagnose/holy,
 		CLERIC_T2 = /datum/action/cooldown/spell/attach_bodypart,
 		CLERIC_T3 = /datum/action/cooldown/spell/cure_rot,
 	)
 	viable_tasks = list(
-		/datum/devotion_task/pestra_heal,
-		/datum/devotion_task/pestra_medicine,
+		/datum/devotion_task/erdl_heal,
+		/datum/devotion_task/erdl_medicine,
 	)
 	traits = list(TRAIT_DIVINE_SERVANT)
 

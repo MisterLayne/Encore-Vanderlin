@@ -36,7 +36,7 @@
 		/datum/attribute/skill/combat/whipsflails = 40
 	)
 
-/datum/attribute_holder/sheet/job/templar/patron/pestra
+/datum/attribute_holder/sheet/job/templar/patron/erdl
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/knives = 40,
 		/datum/attribute/skill/craft/alchemy = 20
@@ -151,8 +151,8 @@
 			ADD_TRAIT(spawned, TRAIT_DEADNOSE, TRAIT_GENERIC)
 			ADD_TRAIT(spawned, TRAIT_GRAVEROBBER, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatGravekeeper.ogg'
-		if(/datum/patron/divine/pestra)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/pestra)
+		if(/datum/patron/divine/erdl)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/erdl)
 			ADD_TRAIT(spawned, TRAIT_DUALWIELDER, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
 		if(/datum/patron/divine/eora)
@@ -234,13 +234,13 @@
 			head = /obj/item/clothing/head/helmet/heavy/necked/necra
 			cloak = /obj/item/clothing/cloak/stabard/templar/necra
 			beltl = /obj/item/weapon/flail/sflail/necraflail
-		if(/datum/patron/divine/pestra)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/pestra
-			head = /obj/item/clothing/head/helmet/heavy/necked/pestrahelm
-			cloak = /obj/item/clothing/cloak/stabard/templar/pestra
+		if(/datum/patron/divine/erdl)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/erdl
+			head = /obj/item/clothing/head/helmet/heavy/necked/erdlhelm
+			cloak = /obj/item/clothing/cloak/stabard/templar/erdl
 			backpack_contents += /obj/item/reagent_containers/glass/bottle/poison
-			beltr = /obj/item/weapon/knife/dagger/steel/pestrasickle
-			beltl = /obj/item/weapon/knife/dagger/steel/pestrasickle
+			beltr = /obj/item/weapon/knife/dagger/steel/erdlsickle
+			beltl = /obj/item/weapon/knife/dagger/steel/erdlsickle
 		if(/datum/patron/divine/eora)
 			head = /obj/item/clothing/head/helmet/sallet/eoran
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/eora

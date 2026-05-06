@@ -481,11 +481,11 @@
 	faretype = FARE_IMPOVERISHED
 	item_weight = 25 GRAMS
 
-/*	............   Pestran Stick   ................ */
+/*	............   Erdite Stick   ................ */
 
-/obj/item/reagent_containers/food/snacks/pestranstick
-	name = "pestran stick"
-	desc = "An unappetizing snack adored by devout Pestrans, somehow doesn't taste half bad."
+/obj/item/reagent_containers/food/snacks/erdlnstick
+	name = "erdite stick"
+	desc = "An unappetizing snack adored by devout Erdites, somehow doesn't taste half bad."
 	icon_state = "pestranstick"
 	nutrition = BUTTER_NUTRITION
 	tastes = list("raw unsalted butter on a stick" = 1)

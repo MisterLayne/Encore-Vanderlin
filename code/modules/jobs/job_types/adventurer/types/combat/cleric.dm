@@ -90,7 +90,7 @@
 				spawned.adjust_skill_level(/datum/attribute/skill/combat/unarmed, 10)
 			if(/datum/patron/divine/akan)
 				spawned.cmode_music = 'sound/music/cmode/church/CombatNoc.ogg'
-			if(/datum/patron/divine/pestra)
+			if(/datum/patron/divine/erdl)
 				spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
 			if(/datum/patron/divine/mjallidhorn)
 				spawned.cmode_music = 'sound/music/cmode/church/CombatAbyssor.ogg'
@@ -200,9 +200,9 @@
 			if(/datum/patron/divine/akan)
 				wrists = /obj/item/clothing/neck/psycross/silver/divine/akan
 				cloak = /obj/item/clothing/cloak/stabard/templar/akan
-			if(/datum/patron/divine/pestra)
-				wrists = /obj/item/clothing/neck/psycross/silver/divine/pestra
-				cloak = /obj/item/clothing/cloak/stabard/templar/pestra
+			if(/datum/patron/divine/erdl)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/erdl
+				cloak = /obj/item/clothing/cloak/stabard/templar/erdl
 			if(/datum/patron/divine/mjallidhorn)
 				wrists = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
 				cloak = /obj/item/clothing/cloak/stabard/templar/mjallidhorn

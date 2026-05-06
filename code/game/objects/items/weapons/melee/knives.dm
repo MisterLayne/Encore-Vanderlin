@@ -313,7 +313,7 @@
 	melt_amount = 75
 	item_weight = 270 GRAMS
 
-/obj/item/weapon/knife/dagger/steel/pestrasickle
+/obj/item/weapon/knife/dagger/steel/erdlsickle
 	name ="plaguebringer sickle"
 	desc = "A wicked edge brings feculent delights."
 	icon = 'icons/roguetown/weapons/32/patron.dmi'

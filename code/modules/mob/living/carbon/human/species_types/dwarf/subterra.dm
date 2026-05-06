@@ -10,7 +10,7 @@
 	Carvings of rock are replaced with holy tenets of caustic minerals and pools of acid, \
 	those who fail were too weak and those who succeed are the next generation.\
 	\n\n\
-	Following a now twisted version of Pestran teachings, most worship the Wurm, \
+	Following a now twisted version of Erdite teachings, most worship the Wurm, \
 	turning medicine into madness and plague into purity.\
 	\n\n\
 	Rituals of flesh searing and caustic air have turned them green, the deepest \
@@ -18,7 +18,7 @@
 	\n\n\
 	There are some who find their way out of their stone cages. Those fortunate to wander into humen \
 	settlements, live just like their unscarred kin. Yet still remembering their old tenets, \
-	they may never see Pestra the same."
+	they may never see Erdl the same."
 
 	custom_id = SPEC_ID_DWARF // this is stupid
 	custom_clothes = TRUE

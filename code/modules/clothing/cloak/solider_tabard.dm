@@ -194,8 +194,8 @@
 	icon_state = "tabard_eora"
 	item_state = "tabard_eora"
 
-/obj/item/clothing/cloak/stabard/templar/pestra
-	name = "surcoat of the pestran order"
+/obj/item/clothing/cloak/stabard/templar/erdl
+	name = "surcoat of the erdite order"
 	icon_state = "tabard_pestra"
 	item_state = "tabard_pestra"
 

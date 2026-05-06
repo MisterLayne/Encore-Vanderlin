@@ -1,6 +1,6 @@
 /datum/surgery/revival
 	name = "Revive"
-	category = "Pestran"
+	category = "Erdite"
 	steps = list(
 		/datum/surgery_step/incise,
 		/datum/surgery_step/clamp,

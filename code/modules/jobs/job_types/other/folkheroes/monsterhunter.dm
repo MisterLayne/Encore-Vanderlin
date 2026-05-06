@@ -68,7 +68,7 @@
 				wrists = /obj/item/clothing/neck/psycross/silver/divine/visires
 			if(/datum/patron/divine/necra)
 				wrists = /obj/item/clothing/neck/psycross/silver/divine/necra
-			if(/datum/patron/divine/pestra)
-				wrists = /obj/item/clothing/neck/psycross/silver/divine/pestra
+			if(/datum/patron/divine/erdl)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/erdl
 			else
 				wrists = /obj/item/clothing/neck/silveramulet

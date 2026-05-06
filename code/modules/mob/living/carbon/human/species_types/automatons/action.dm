@@ -54,7 +54,7 @@ GLOBAL_LIST_INIT(automaton_voice_lines, list(
 	//"Oh Shit Soldier Grenade" = list("text" = "OH SHIT SOLDIER GRENADE OORAH", "file" = 'sound/vo/automaton/OHSHITSOLDIERGRENADEOORAH.ogg'),
 	"Open The Door" = list("text" = "DOOR", "file" = list('sound/vo/automaton/door1.ogg', 'sound/vo/automaton/door2.ogg', 'sound/vo/automaton/door3.ogg')),
 	"Organic Presence Detected" = list("text" = "ORGANIC PRESENCE DETECTED", "file" = 'sound/vo/automaton/organicpresencedetected.ogg'),
-	"Pestra Praise" = list("text" = "PESTRA BE PRAISED", "file" = 'sound/vo/automaton/pestrapraise.ogg'),
+	"Erdl Praise" = list("text" = "ERDL BE PRAISED", "file" = 'sound/vo/automaton/pestrapraise.ogg'),
 	"Psydon Lives" = list("text" = "PSYDON LIVES", "file" = 'sound/vo/automaton/PSYDONLIVES.ogg'),
 	"Ravox Praise" = list("text" = "RAVOX BE PRAISED", "file" = 'sound/vo/automaton/ravoxpraise.ogg'),
 	//"Schmelf Detected" = list("text" = "SCHMELF DETECTED", "file" = 'sound/vo/automaton/schmelfdetected.ogg'),

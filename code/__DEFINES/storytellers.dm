@@ -7,7 +7,7 @@
 #define TAG_MJALLIDHORN "Mjallidhorn"
 #define TAG_ILIOPE "Iliope"
 #define TAG_NECRA "Valdala"
-#define TAG_PESTRA "Erdl"
+#define TAG_ERDL "Erdl"
 #define TAG_MALUM "Goler Kanh"
 #define TAG_EORA "Pomette"
 #define TAG_GANI "Gani"
@@ -43,13 +43,13 @@
 /// Tag reserved for villain roles or actions (unused by gods)
 #define TAG_VILLAIN "Villain"
 
-/// Tag representing medical influences, tied to Pestra
+/// Tag representing medical influences, tied to Erdl
 #define TAG_MEDICAL "Medical"
 
-/// Tag for alchemy-related actions or systems, belonging to Pestra
+/// Tag for alchemy-related actions or systems, belonging to Erdl
 #define TAG_ALCHEMY "Alchemy"
 
-/// Tag for nature-related events, tied to Pestra and Gani
+/// Tag for nature-related events, tied to Erdl and Gani
 #define TAG_NATURE "Nature"
 
 /// Tag representing work-related actions or influence, used by Malum
@@ -188,7 +188,7 @@
 	/datum/storyteller/mjallidhorn, \
 	/datum/storyteller/iliope, \
 	/datum/storyteller/necra, \
-	/datum/storyteller/pestra, \
+	/datum/storyteller/erdl, \
 	/datum/storyteller/malum, \
 	/datum/storyteller/eora, \
 	/datum/storyteller/gani, \
@@ -212,7 +212,7 @@
 #define MJALLIDHORN "Mjallidhorn"
 #define ILIOPE "Iliope"
 #define NECRA "Valdala"
-#define PESTRA "Erdl"
+#define ERDL "Erdl"
 #define MALUM "Goler Kanh"
 #define EORA "Pomette"
 #define GANI "Gani"

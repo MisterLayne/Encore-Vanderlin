@@ -10,7 +10,7 @@
 /datum/surgery/chimeric_transformation
 	name = "Chimeric Transformation"
 	desc = "Transform a normal organ into a chimeric organ capable of accepting grafted nodes."
-	category = "Pestran"
+	category = "Erdite"
 	steps = list(
 		/datum/surgery_step/incise,
 		/datum/surgery_step/retract,
@@ -25,7 +25,7 @@
 /datum/surgery/chimeric_grafting
 	name = "Humor Grafting"
 	desc = "Graft a harvested humor into a chimeric organ."
-	category = "Pestran"
+	category = "Erdite"
 	steps = list(
 		/datum/surgery_step/incise,
 		/datum/surgery_step/retract,
@@ -40,7 +40,7 @@
 /datum/surgery/chimeric_repair
 	name = "Chimeric Organ Repair"
 	desc = "Attempt to repair a failed chimeric organ."
-	category = "Pestran"
+	category = "Erdite"
 	steps = list(
 		/datum/surgery_step/incise,
 		/datum/surgery_step/retract,

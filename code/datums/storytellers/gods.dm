@@ -236,14 +236,14 @@
 		)
 	)
 
-/datum/storyteller/pestra
-	name = PESTRA
+/datum/storyteller/erdl
+	name = ERDL
 	desc = "Erdl keeps things simple, with a slight bias towards alchemy."
 	welcome_text = "The balance of life and craft tilts in your favor."
 	color_theme = "#AADDAA"
 
 	tag_multipliers = list(
-		TAG_PESTRA = 3,
+		TAG_ERDL = 3,
 		TAG_ALCHEMY = 1.75,
 		TAG_MEDICAL = 1.75,
 		TAG_NATURE = 1.25,

@@ -31,12 +31,12 @@
 /datum/objective/personal/rotten_feast/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("You have consumed enough rotten food to complete Erdl's objective!"))
-	adjust_storyteller_influence(PESTRA, 20)
+	adjust_storyteller_influence(ERDL, 20)
 	UnregisterSignal(owner.current, COMSIG_ROTTEN_FOOD_EATEN)
 
 /datum/objective/personal/rotten_feast/reward_owner()
 	. = ..()
-	owner.current.adjust_stat_modifier(STATMOD_PESTRA_BLESSING, list(STAT_CONSTITUTION = 1))
+	owner.current.adjust_stat_modifier(STATMOD_ERDL_BLESSING, list(STAT_CONSTITUTION = 1))
 
 /datum/objective/personal/rotten_feast/update_explanation_text()
 	explanation_text = "Let nothing go to waste! Consume [meals_required] piece of rotten food to gain Erdl's favor!"

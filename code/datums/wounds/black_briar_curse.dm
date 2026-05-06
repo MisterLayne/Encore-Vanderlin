@@ -180,7 +180,7 @@
 				else if(infection_percent >= BBC_STAGE_MID && prob(50))
 					owner.emote("agony")
 				bodypart_owner.lingering_pain += 5
-		if(/datum/patron/divine/gani, /datum/patron/divine/pestra)
+		if(/datum/patron/divine/gani, /datum/patron/divine/erdl)
 			var/infection_min = 0
 			var/list/stages = list(BBC_STAGE_MID, BBC_STAGE_LATE, 1)
 			for(var/i = length(stages), i > 0, i--)

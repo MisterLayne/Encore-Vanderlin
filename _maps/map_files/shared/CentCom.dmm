@@ -6675,12 +6675,6 @@
 	},
 /turf/open/floor/dirt/road,
 /area/outdoors/bog/inhumen_camp)
-"PI" = (
-/obj/structure/mannequin/male,
-/obj/item/clothing/shirt/robe/pestra,
-/obj/item/clothing/head/padded/pestra,
-/turf/open/floor/wood,
-/area)
 "PJ" = (
 /obj/item/natural/rock,
 /turf/open/floor/grass/red,
@@ -15050,7 +15044,7 @@ SW
 xs
 BX
 ln
-PI
+Ra
 Sa
 Xg
 Qt

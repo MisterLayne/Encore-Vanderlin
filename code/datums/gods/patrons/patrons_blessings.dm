@@ -320,7 +320,7 @@
 		),
 
 		/// Erdl
-		/datum/patron/divine/pestra = list(
+		/datum/patron/divine/erdl = list(
 			/datum/status_effect/buff/beastsense = "Erdl bemuses: \"Sniff it. Identify its substance— not that cycles of rot would harm you.\"",
 			/datum/status_effect/buff/trollshape = "Erdl wheezes: \"Thick skin, bad breath. You’re a fascinating specimen.\"",
 			/datum/status_effect/buff/divine_beauty = "Erdl muses: \"Unblemished... Curious. Beauty often masks the most virulent flaws.\"",

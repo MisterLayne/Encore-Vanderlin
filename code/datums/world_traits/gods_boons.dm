@@ -6,7 +6,7 @@
 	name = "Gani's Ire"
 	desc = "Decreases the fertility of crops, making them grow slower."
 
-/datum/world_trait/pestra_mercy
+/datum/world_trait/erdl_mercy
 	name = "Erdl's Mercy"
 	desc = "Corpses rot slower."
 

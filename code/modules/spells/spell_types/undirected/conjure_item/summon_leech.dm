@@ -19,12 +19,12 @@
 	item_type = /obj/item/natural/worms/leech
 	item_duration = 0
 
-/datum/action/cooldown/spell/undirected/conjure_item/summon_leech/pestra
-	name = "Pestra's Leech"
-	desc = "Summon a leech by Pestra's will."
+/datum/action/cooldown/spell/undirected/conjure_item/summon_leech/erdl
+	name = "Erdl's Leech"
+	desc = "Summon a leech by Erdl's will."
 	button_icon_state = "diagnose"
 
-	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/pestra)
+	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/erdl)
 
-	invocation = "Pestra grant me the creacher to cleanse the blood!"
+	invocation = "Erdl grant me the creacher to cleanse the blood!"
 	invocation_type = INVOCATION_WHISPER

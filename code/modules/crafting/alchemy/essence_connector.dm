@@ -1,5 +1,5 @@
 /obj/item/essence_connector
-	name = "pestran connector"
+	name = "erdite connector"
 	desc = "A oddly shaped object used to create connections between alchemical apparatus. Can sense nearby essence nodes. Something under the metal squirms..."
 	icon = 'icons/roguetown/misc/alchemy.dmi'
 	icon_state = "connector"

@@ -41,12 +41,12 @@
 /datum/objective/personal/take_pain/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("You have taken enough pain from others, completing Erdl's objective! Your sacrifice is rewarded."))
-	adjust_storyteller_influence(PESTRA, 20)
+	adjust_storyteller_influence(ERDL, 20)
 	UnregisterSignal(owner.current, COMSIG_PAIN_TRANSFERRED)
 
 /datum/objective/personal/take_pain/reward_owner()
 	. = ..()
-	owner.current.adjust_stat_modifier(STATMOD_PESTRA_BLESSING, list(STAT_CONSTITUTION = 1))
+	owner.current.adjust_stat_modifier(STATMOD_ERDL_BLESSING, list(STAT_CONSTITUTION = 1))
 
 /datum/objective/personal/take_pain/update_explanation_text()
 	explanation_text = "Take enough pain from others upon yourself as an act of mercy and devotion to Erdl."

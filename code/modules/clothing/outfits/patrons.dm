@@ -39,11 +39,11 @@
 	desc = "Deep dark blacks, swallowing all light as if the night itself."
 	icon_state = "necratabard"
 
-/obj/item/clothing/cloak/templar/pestran
+/obj/item/clothing/cloak/templar/erdite
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/cloaks.dmi'
 	alternate_worn_layer = TABARD_LAYER
 	boobed = TRUE
-	name = "pestran tabard"
+	name = "erdite tabard"
 	desc = "A simple covering of green cloth, meant to keep rot and blood alike off its wearer."
 	icon_state = "pestratabard"
 
@@ -144,8 +144,8 @@
 	slot_flags = ITEM_SLOT_ARMOR|ITEM_SLOT_CLOAK
 	flags_inv = HIDEBOOB
 
-/obj/item/clothing/cloak/templar/pestra
-	name = "pestra tabard"
+/obj/item/clothing/cloak/templar/erdl
+	name = "erdl tabard"
 	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Erdl on it."
 	icon_state = "tabard_pestra"
 	alternate_worn_layer = TABARD_LAYER

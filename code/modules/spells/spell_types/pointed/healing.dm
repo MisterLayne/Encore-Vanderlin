@@ -149,9 +149,9 @@
 					conditional_buff = TRUE
 					situational_bonus = rand(1, 25)
 
-			if(/datum/patron/divine/pestra)
+			if(/datum/patron/divine/erdl)
 				cast_on.visible_message(span_info("An aura of clinical care encompasses [cast_on]!"), span_notice("I'm sewn back together by sacred medicine!"))
-				// pestra always heals a little more toxin damage and restores a bit more blood
+				// erdl always heals a little more toxin damage and restores a bit more blood
 				cast_on.adjustToxLoss(-situational_bonus)
 				situational_blood += BLOOD_VOLUME_SURVIVE/2
 

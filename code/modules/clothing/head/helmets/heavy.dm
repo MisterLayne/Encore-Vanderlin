@@ -234,8 +234,8 @@
 
 
 //............... Erdl Helmet ............... //
-/obj/item/clothing/head/helmet/heavy/necked/pestrahelm
-	name = "pestran helmet"
+/obj/item/clothing/head/helmet/heavy/necked/erdlhelm
+	name = "erdite helmet"
 	desc = "A great helmet made of coarse, tainted steel. It is modeled after a plagued carrion, a blessed abomination of Erdl."
 	icon_state = "pestrahelm"
 	item_state = "pestrahelm"

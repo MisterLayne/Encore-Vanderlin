@@ -964,8 +964,8 @@
 	// Iliope
 	data += god_ui_block("ILIOPE", "#7e632c", "#f6feff", /datum/storyteller/iliope, debug)
 
-	// Pestra
-	data += god_ui_block("PESTRA", "#517b27", "#1b2a2a", /datum/storyteller/pestra, debug)
+	// Erdl
+	data += god_ui_block("ERDL", "#517b27", "#1b2a2a", /datum/storyteller/erdl, debug)
 
 	data += "</div></div>"
 

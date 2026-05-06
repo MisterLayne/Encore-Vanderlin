@@ -56,7 +56,7 @@
 		<br>
 		<div>
 		<h2>Using Alchemical Equipment</h2>
-		[icon2html(new /obj/item/essence_connector, user)]<br> Connect other achemical devices using a pestran connector for easier essence management.<br>
+		[icon2html(new /obj/item/essence_connector, user)]<br> Connect other achemical devices using a erdite connector for easier essence management.<br>
 		<br>
 		<b>Extracting Essences:</b> Place raw materials into the essence splitter and activate it.<br>
 		The splitter will break down items into alchemical essences.<br>

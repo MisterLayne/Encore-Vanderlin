@@ -317,8 +317,8 @@ GLOBAL_LIST_EMPTY(rousman_ambush_objects)
 		amt2add = ((world.time - last_process)/10) * amt2add
 	last_process = world.time
 	amount += amt2add
-	if(has_world_trait(/datum/world_trait/pestra_mercy))
-		amount -= (is_ascendant(PESTRA) ? 2.5 : 5) * time_elapsed
+	if(has_world_trait(/datum/world_trait/erdl_mercy))
+		amount -= (is_ascendant(ERDL) ? 2.5 : 5) * time_elapsed
 
 	var/mob/living/carbon/C = parent
 	if(!C)

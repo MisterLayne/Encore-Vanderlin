@@ -309,7 +309,7 @@
 		/datum/attribute/skill/labor/mathematics = 20
 	)
 
-/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/pestra
+/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/erdl
 	raw_attribute_list = list(
 		/datum/attribute/skill/misc/medicine = 10,
 		/datum/attribute/skill/craft/alchemy = 10
@@ -418,8 +418,8 @@
 					I learned the tongue of the savages in my time.")
 					)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatNoc.ogg'
-		if(/datum/patron/divine/pestra)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/pestra)
+		if(/datum/patron/divine/erdl)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/erdl)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
 		if(/datum/patron/divine/gani)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/gani)
@@ -474,8 +474,8 @@
 			neck = /obj/item/clothing/neck/psycross/silver/divine/eora
 		if(/datum/patron/divine/akan)
 			neck = /obj/item/clothing/neck/psycross/silver/divine/akan
-		if(/datum/patron/divine/pestra)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/pestra
+		if(/datum/patron/divine/erdl)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/erdl
 			backpack_contents += /obj/item/needle/blessed
 		if(/datum/patron/divine/gani)
 			neck = /obj/item/clothing/neck/psycross/silver/divine/gani

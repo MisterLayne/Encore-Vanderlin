@@ -168,9 +168,9 @@
 	craftdiff = 3
 	category = "Hat"
 
-/datum/repeatable_crafting_recipe/sewing/weaving/pestrahood
-	name = "hood (pestra)"
-	output = /obj/item/clothing/head/padded/pestra
+/datum/repeatable_crafting_recipe/sewing/weaving/erdlhood
+	name = "hood (erdl)"
+	output = /obj/item/clothing/head/padded/erdl
 	requirements = list(/obj/item/natural/cloth = 2,
 				/obj/item/natural/silk = 1)
 	craftdiff = 3
@@ -318,9 +318,9 @@
 				/obj/item/natural/silk = 1)
 	craftdiff = 4
 
-/datum/repeatable_crafting_recipe/sewing/weaving/pestra_robe
+/datum/repeatable_crafting_recipe/sewing/weaving/erdl_robe
 	name = "robes (Erdl)"
-	output = /obj/item/clothing/shirt/robe/pestra
+	output = /obj/item/clothing/shirt/robe/erdl
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/silk = 1)
 	craftdiff = 4

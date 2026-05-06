@@ -18,7 +18,7 @@
 	#define MT_PUKE "puke"
 
 /* CURSES */
-	#define MT_CURSE_PESTRA "curse_pestra"
+	#define MT_CURSE_ERDL "curse_erdl"
 	#define MT_CURSE_BAOTHA "curse_baotha"
 	#define MT_CURSE_GRAGGAR "curse_graggar"
 

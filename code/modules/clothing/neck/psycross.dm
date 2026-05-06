@@ -149,10 +149,10 @@
 	love_target.apply_status_effect(/datum/status_effect/in_love, user)
 	qdel(src)
 
-/obj/item/clothing/neck/psycross/silver/divine/pestra
-	name = "amulet of Pestra"
+/obj/item/clothing/neck/psycross/silver/divine/erdl
+	name = "amulet of Erdl"
 	desc = "When pure, alcohol is best used as a cleanser of wounds and a cleanser of the palate."
-	icon_state = "pestra"
+	icon_state = "erdl"
 	resistance_flags = FIRE_PROOF
 
 /obj/item/clothing/neck/psycross/silver/divine/malum

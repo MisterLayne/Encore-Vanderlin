@@ -227,7 +227,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 
 	alignments = list(
 		/datum/patron/divine/mjallidhorn = 2,
-		/datum/patron/divine/pestra = 0.5,
+		/datum/patron/divine/erdl = 0.5,
 		/datum/patron/divine/gani = 0.5,
 		/datum/patron/inhumen/zizo = 1,
 		/datum/patron/inhumen/graggar = 2,
@@ -238,7 +238,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 	desc = "The driving force of, and most effectively seen in, all living matter. Life is the most far-reaching of all elements, with its effects seen across the lands."
 
 	alignments = list(
-		/datum/patron/divine/pestra = 1,
+		/datum/patron/divine/erdl = 1,
 		/datum/patron/divine/visires = 0.5,
 		/datum/patron/inhumen/baotha = 1,
 	)
