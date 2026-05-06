@@ -198,7 +198,7 @@
 					conditional_buff = TRUE
 					situational_bonus = 25
 
-			if(/datum/patron/inhumen/baotha)
+			if(/datum/patron/inhumen/hertannea)
 				cast_on.visible_message(span_info("A sweet, dizzying haze swirls around [cast_on], their eyes glimmering with bliss..."), span_notice("Mmm... the world softens... and I melt into it..."))
 				//If the owner or cast_on are on drugs, they get a heal bonus.
 				var/static/list/drugs_buffs = list(

@@ -202,15 +202,15 @@
 		/datum/devotion_task/matthios_steal,
 	)
 
-/datum/devotion/inhumen/baotha
+/datum/devotion/inhumen/hertannea
 	miracles = list(
 		CLERIC_T0 = /datum/action/cooldown/spell/find_flaw,
-		CLERIC_T1 = /datum/action/cooldown/spell/baothablessings,
+		CLERIC_T1 = /datum/action/cooldown/spell/hertanneablessings,
 		CLERIC_T2 = /datum/action/cooldown/spell/projectile/blowingdust,
 		CLERIC_T3 = /datum/action/cooldown/spell/painkiller,
 	)
 	viable_tasks = list(
-		/datum/devotion_task/baotha_indulge,
+		/datum/devotion_task/hertannea_indulge,
 	)
 
 // Alternate faiths

@@ -104,7 +104,7 @@ abstract types are automatically excluded.
 		"goblin",
 		"rare",
 		"captain",
-		"baotha",
+		"hertannea",
 		"matthios",
 		"zizo",
 		"graggar",

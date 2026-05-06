@@ -942,7 +942,7 @@
 
 /datum/special_trait/glutton
 	name = "The Glutton"
-	greet_text = span_notice("Baotha has cursed my entire bloodline, demanding that we indulge in luxuries and dine in decadence.")
+	greet_text = span_notice("Hertannea has cursed my entire bloodline, demanding that we indulge in luxuries and dine in decadence.")
 	weight = 20
 	req_text = "Monarch"
 	allowed_jobs = list(/datum/job/lord)
@@ -952,7 +952,7 @@
 	ADD_TRAIT(character, TRAIT_FAT, "[type]")
 	ADD_TRAIT(character, TRAIT_CRITICAL_RESISTANCE, "[type]")
 
-	character.family_datum.AddFamilyCurse(/datum/family_curse/hunger, 1, BAOTHA)
+	character.family_datum.AddFamilyCurse(/datum/family_curse/hunger, 1, HERTANNEA)
 
 	character.transform = character.transform.Scale(1.15, 1)
 	character.update_transform()
@@ -996,21 +996,21 @@
 	character.inspiration = new /datum/inspiration(character)
 	character.attributes?.add_sheet(/datum/attribute_holder/sheet/job/muscial)
 
-/datum/special_trait/baothan
-	name = "Adored by Baotha"
-	greet_text = span_notice("Baotha adore me so much that she gave me some goodies, dope tbh.")
+/datum/special_trait/hertannean
+	name = "Adored by Hertannea"
+	greet_text = span_notice("Hertannea adore me so much that she gave me some goodies, dope tbh.")
 	weight = 10
-	allowed_patrons = list(/datum/patron/inhumen/baotha)
-	req_text = "Have Baotha as your Patron and do not be a Iconoclast, a profane paladin or a inhumen cleric"
+	allowed_patrons = list(/datum/patron/inhumen/hertannea)
+	req_text = "Have Hertannea as your Patron and do not be a Iconoclast, a profane paladin or a inhumen cleric"
 	restricted_jobs = list(/datum/job/advclass/wretch/heretic, /datum/job/advclass/combat/inhumencleric, /datum/job/advclass/combat/profanepaladin)
 
-/datum/special_trait/baothan/on_apply(mob/living/carbon/human/character, silent)
+/datum/special_trait/hertannean/on_apply(mob/living/carbon/human/character, silent)
 	var/holder = character.patron?.devotion_holder
 	if(holder)
 		var/datum/devotion/devotion = new holder()
 		devotion.make_churchling()
 		devotion.grant_to(character)
-	character.mind.special_items["Baotha's Gift"] = /obj/item/clothing/head/corruptflower
+	character.mind.special_items["Hertannea's Gift"] = /obj/item/clothing/head/corruptflower
 	character.AddComponent(/datum/component/theme_music)
 
 /datum/special_trait/black_biar

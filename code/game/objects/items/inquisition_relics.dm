@@ -159,7 +159,7 @@
 		/datum/patron/inhumen/matthios  =list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/inhumen/zizo = list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/inhumen/graggar =list(PLACEHOLDER_PATRON_REBRANDING),
-		/datum/patron/inhumen/baotha =list(PLACEHOLDER_PATRON_REBRANDING),
+		/datum/patron/inhumen/hertannea =list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/psydon = list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/psydon/extremist = list(PLACEHOLDER_PATRON_REBRANDING),
 	)

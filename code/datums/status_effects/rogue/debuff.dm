@@ -466,14 +466,14 @@
 	desc = "A putrid rotting scent fills your nose as Archdevil's call for slaughter rattles you to your core..."
 	icon_state = "call_to_slaughter"
 
-/datum/status_effect/debuff/baothadruqks
-	id = "baothadruqks"
-	alert_type = /atom/movable/screen/alert/status_effect/debuff/baothadruqks
+/datum/status_effect/debuff/hertanneadruqks
+	id = "hertanneadruqks"
+	alert_type = /atom/movable/screen/alert/status_effect/debuff/hertanneadruqks
 	effectedstats = list(STAT_PERCEPTION = -2, STAT_SPEED = -1, STAT_FORTUNE = -5)
 	duration = 20 SECONDS
 
-/atom/movable/screen/alert/status_effect/debuff/baothadruqks
-	name = "Baothan Dust"
+/atom/movable/screen/alert/status_effect/debuff/hertanneadruqks
+	name = "Hertannean Dust"
 	desc = span_warning("Someone blew some powders at me...\n")
 	icon_state = "drunk"
 

@@ -15,7 +15,7 @@
 		/datum/patron/divine/pomette = /datum/curse/pomette,
 		/datum/patron/inhumen/zizo = /datum/curse/zizo/minor,
 		/datum/patron/inhumen/matthios = /datum/curse/matthios,
-		/datum/patron/inhumen/baotha = /datum/curse/baotha,
+		/datum/patron/inhumen/hertannea = /datum/curse/hertannea,
 		/datum/patron/inhumen/graggar_zizo = /datum/curse/zizo/minor,
 	)
 

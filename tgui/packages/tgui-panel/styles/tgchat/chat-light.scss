@@ -1494,14 +1494,14 @@ $border-width-px: $border-width * 1px;
 }
 /* ##### END ##### */
 
-/* ##### BAOTHA ##### */
-.god_baotha {
+/* ##### HERTANNEA ##### */
+.god_hertannea {
   color: hsl(294.9, 26.5%, 43.7%);
   font-weight: bold;
-  animation: baotha_flicker 1s infinite;
+  animation: hertannea_flicker 1s infinite;
 }
 
-@keyframes baotha_flicker {
+@keyframes hertannea_flicker {
 	25% {
 		color: hsl(294.9, 26.5%, 43.7%);
 	}

@@ -81,11 +81,11 @@
 	if(pm_controller)
 		pm_controller.remove_filter(list("druqks_ripple", "druqks_color"))
 
-/datum/status_effect/buff/druqks/baotha/on_apply()
+/datum/status_effect/buff/druqks/hertannea/on_apply()
 	. = ..()
 	ADD_TRAIT(owner, TRAIT_CRACKHEAD, TRAIT_STATUS_EFFECT(id))
 
-/datum/status_effect/buff/druqks/baotha/on_remove()
+/datum/status_effect/buff/druqks/hertannea/on_remove()
 	. = ..()
 	REMOVE_TRAIT(owner, TRAIT_CRACKHEAD, TRAIT_STATUS_EFFECT(id))
 	owner.visible_message("[owner]'s eyes appear to return to normal.")
@@ -622,7 +622,7 @@
 	to_chat(owner, span_warning("I feel my connection to the arcyne surround me once more."))
 	owner.visible_message("[owner]'s arcyne aura seems to return once more.")
 
-/datum/status_effect/buff/lux_drank/baothavitae
+/datum/status_effect/buff/lux_drank/hertanneavitae
 	id = "druqks"
 	duration = 1 MINUTES
 

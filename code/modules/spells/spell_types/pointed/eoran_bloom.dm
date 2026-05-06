@@ -97,7 +97,7 @@
 
 //Putting this here for now until we have a better place. Ook wants this to inject drugs eventually. I guess this is decent for now.
 /obj/item/clothing/head/corruptflower
-	name = "baothan bud"
+	name = "hertannean bud"
 	desc = "A flower of dark petals and sharp thorns, associated with Hertannea. It is said that these allow their wearer to better commune with their goddess."
 	icon = 'icons/roguetown/items/produce.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/head_items.dmi'
@@ -118,7 +118,7 @@
 	if(slot & ITEM_SLOT_HEAD)
 		RegisterSignal(user, COMSIG_MOB_UNEQUIPPED_ITEM, PROC_REF(item_removed))
 		ADD_TRAIT(user, TRAIT_CRACKHEAD, "corruptflower_[REF(src)]")
-		user.add_curse(/datum/curse/baotha)
+		user.add_curse(/datum/curse/hertannea)
 		to_chat(user, span_userdanger("FUCK YES. Party on!</b>"))
 
 /obj/item/clothing/head/corruptflower/proc/item_removed(mob/living/carbon/human/wearer, obj/item/dropped_item)
@@ -126,8 +126,8 @@
 	if(dropped_item != src)
 		return
 	UnregisterSignal(wearer, COMSIG_MOB_UNEQUIPPED_ITEM)
-	wearer.remove_curse(/datum/curse/baotha)
-	if(wearer.patron != /datum/patron/inhumen/baotha)
+	wearer.remove_curse(/datum/curse/hertannea)
+	if(wearer.patron != /datum/patron/inhumen/hertannea)
 		REMOVE_TRAIT(wearer, TRAIT_CRACKHEAD, "corruptflower_[REF(src)]")
 
 /obj/item/clothing/head/corruptflower/proc/cursed_check(mob/living/user)

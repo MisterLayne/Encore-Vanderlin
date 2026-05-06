@@ -1,4 +1,4 @@
-/datum/devotion_task/baotha_indulge
+/datum/devotion_task/hertannea_indulge
 	name = "Embrace Pleasure"
 	desc = "Indulge in drugs or other vices"
 	devotion_reward = 4

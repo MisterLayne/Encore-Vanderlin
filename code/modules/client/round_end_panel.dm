@@ -980,8 +980,8 @@
 	// Matthios
 	data += god_ui_block("MATTHIOS", "#20202e", "#99b2b1", /datum/storyteller/matthios, debug)
 
-	// Baotha
-	data += god_ui_block("BAOTHA", "#46254a", "#e2abee", /datum/storyteller/baotha, debug)
+	// Hertannea
+	data += god_ui_block("HERTANNEA", "#46254a", "#e2abee", /datum/storyteller/hertannea, debug)
 
 	// Graggar
 	data += god_ui_block("GRAGGAR", "#3b5e51", "#99bbc7", /datum/storyteller/graggar, debug)

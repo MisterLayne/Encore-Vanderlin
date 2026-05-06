@@ -89,7 +89,7 @@
 		if(/datum/patron/inhumen/matthios)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/whipsflails, 40)
 			spawned.cmode_music = 'sound/music/cmode/antag/CombatBandit1.ogg'
-		if(/datum/patron/inhumen/baotha)
+		if(/datum/patron/inhumen/hertannea)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/knives, 40)
 			spawned.adjust_skill_level(/datum/attribute/skill/craft/alchemy, 20)
 			ADD_TRAIT(spawned, TRAIT_DUALWIELDER, TRAIT_GENERIC)
@@ -225,16 +225,16 @@
 			pants = /obj/item/clothing/pants/platelegs/matthios
 			shoes = /obj/item/clothing/shoes/boots/armor/matthios
 			backr = /obj/item/weapon/flail/peasantwarflail/matthios
-		if(/datum/patron/inhumen/baotha)
-			head = /obj/item/clothing/head/helmet/heavy/baotha
+		if(/datum/patron/inhumen/hertannea)
+			head = /obj/item/clothing/head/helmet/heavy/hertannea
 			mask = /obj/item/clothing/face/spectacles/sglasses
 			neck = /obj/item/clothing/neck/gorget
 			armor = /obj/item/clothing/armor/plate
 			gloves = /obj/item/clothing/gloves/plate
 			pants = /obj/item/clothing/pants/platelegs
 			shoes = /obj/item/clothing/shoes/boots/armor
-			beltr = /obj/item/weapon/knife/dagger/steel/dirk/baotha
-			beltl = /obj/item/weapon/knife/dagger/steel/dirk/baotha
+			beltr = /obj/item/weapon/knife/dagger/steel/dirk/hertannea
+			beltl = /obj/item/weapon/knife/dagger/steel/dirk/hertannea
 		if(/datum/patron/psydon,  /datum/patron/psydon/extremist)
 			wrists = /obj/item/clothing/neck/psycross/gold
 			armor = /obj/item/clothing/armor/cuirass/fluted

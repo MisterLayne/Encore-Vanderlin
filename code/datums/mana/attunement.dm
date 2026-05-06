@@ -240,7 +240,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 	alignments = list(
 		/datum/patron/divine/erdl = 1,
 		/datum/patron/divine/visires = 0.5,
-		/datum/patron/inhumen/baotha = 1,
+		/datum/patron/inhumen/hertannea = 1,
 	)
 
 /datum/attunement/death
@@ -282,7 +282,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 
 	alignments = list(
 		/datum/patron/inhumen/zizo = 0.15,
-		/datum/patron/inhumen/baotha = 0.15,
+		/datum/patron/inhumen/hertannea = 0.15,
 		/datum/patron/inhumen/graggar = 0.15,
 		/datum/patron/inhumen/matthios = 0.15,
 	)

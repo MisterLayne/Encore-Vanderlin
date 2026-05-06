@@ -12,7 +12,7 @@
 #define TAG_POMETTE "Pomette"
 #define TAG_GANI "Gani"
 #define TAG_ZIZO "The One Envy"
-#define TAG_BAOTHA "Hertannea"
+#define TAG_HERTANNEA "Hertannea"
 #define TAG_GRAGGAR "The Archdevils"
 #define TAG_MATTHIOS "The Deceivers"
 
@@ -79,10 +79,10 @@
 /// Tag representing unexpected outcomes or randomness, tied to Zizo and Iliope
 #define TAG_UNEXPECTED "Unexpected"
 
-/// Tag representing insanity-related mechanics, used by Baotha and Dendor
+/// Tag representing insanity-related mechanics, used by Hertannea and Dendor
 #define TAG_INSANITY "Insanity"
 
-/// Tag denoting disaster-related events or effects, tied to Baotha
+/// Tag denoting disaster-related events or effects, tied to Hertannea
 #define TAG_DISASTER "Disaster"
 
 /// Tag representing corruption, used by Matthios
@@ -197,7 +197,7 @@
 /// Inhumen pantheon storytellers
 #define INHUMEN_STORYTELLERS list( \
 	/datum/storyteller/zizo, \
-	/datum/storyteller/baotha, \
+	/datum/storyteller/hertannea, \
 	/datum/storyteller/graggar, \
 	/datum/storyteller/matthios, \
 )
@@ -220,7 +220,7 @@
 
 // Inhumen pantheon
 #define ZIZO "One Envy"
-#define BAOTHA "Hertannea"
+#define HERTANNEA "Hertannea"
 #define GRAGGAR "Archdevils"
 #define MATTHIOS "Deceivers"
 

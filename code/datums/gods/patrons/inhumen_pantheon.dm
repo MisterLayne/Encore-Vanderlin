@@ -73,8 +73,8 @@
 	)
 	storyteller = /datum/storyteller/matthios
 
-/datum/patron/inhumen/baotha
-	name = BAOTHA
+/datum/patron/inhumen/hertannea
+	name = HERTANNEA
 	domain = "Goddess of Drugs, Self-Preservation, and Remorseless Joy"	//Bright-dyed hair falls within 'remorseless joy.' Joy for one's self at expense of the setting. Same for her music taste.
 	desc = "Ascended, formerly disgraced tiefling queen, notorious for having a mind elsewhere. Drove her kingdom into the ground through her demands and addictions. The first tiefling noble, last tiefling noble, and sole reason there are no more tiefling nobles. As she preaches to her followers, 'Joy at all costs!'"
 	flaws = "Manipulation, Self-Destruction, Willingness to Sacrifice Others"
@@ -82,13 +82,13 @@
 	sins = "Sobriety, Self-Sacrifice, Faltering Willpower"
 	boons = "You will never overdose on drugs."
 	added_traits = list(TRAIT_CRACKHEAD)
-	devotion_holder = /datum/devotion/inhumen/baotha
+	devotion_holder = /datum/devotion/inhumen/hertannea
 	confess_lines = list(
-		"LIVE, LAUGH, LOVE! IN BAOTHA'S NAME!",
-		"JOY AT ALL COSTS! BAOTHA'S TEACHINGS REIGN!",
-		"BAOTHA'S WHISPERS CALM MY MIND!",
+		"LIVE, LAUGH, LOVE! IN HERTANNEA'S NAME!",
+		"JOY AT ALL COSTS! HERTANNEA'S TEACHINGS REIGN!",
+		"HERTANNEA'S WHISPERS CALM MY MIND!",
 	)
-	storyteller = /datum/storyteller/baotha
+	storyteller = /datum/storyteller/hertannea
 
 /// Maniac Patron - Their mind is broken by secrets of Zizo/Graggar combined. They quite possibly know the reality of what happens outside the planet. They may think this is all a game. They are clearly insane.
 /datum/patron/inhumen/graggar_zizo

@@ -151,9 +151,9 @@
 	block2add = FOV_BEHIND
 	sellprice = 0 // See above comment
 
-//............... Baothan Helmet ............... //
+//............... Hertannean Helmet ............... //
 
-/obj/item/clothing/head/helmet/heavy/baotha
+/obj/item/clothing/head/helmet/heavy/hertannea
 	name = "willful helmet"
 	desc = PLACEHOLDER_PATRON_REBRANDING
 	icon_state = "baothahelm"

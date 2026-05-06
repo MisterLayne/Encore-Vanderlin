@@ -220,7 +220,7 @@
 
 /obj/item/gun/ballistic/bow/turbulenta
 	name = "turbulenta"
-	desc = "Rarely does she even care about combat, but when she does... Baotha was quite the markswoman."
+	desc = "Rarely does she even care about combat, but when she does... Hertannea was quite the markswoman."
 	icon = 'icons/roguetown/weapons/64/godweapons.dmi'
 	icon_state = "turbulenta"
 	base_icon_state = "turbulenta"
@@ -240,7 +240,7 @@
 
 /obj/item/gun/ballistic/bow/turbulenta/Initialize(mapload, ...)
 	. = ..()
-	AddElement(/datum/element/divine_intervention, /datum/patron/inhumen/baotha, PUNISHMENT_STRESS, /datum/stress_event/divine_punishment, TRUE)
+	AddElement(/datum/element/divine_intervention, /datum/patron/inhumen/hertannea, PUNISHMENT_STRESS, /datum/stress_event/divine_punishment, TRUE)
 
 /obj/item/gun/ballistic/bow/turbulenta/getonmobprop(tag)
 	if(tag)

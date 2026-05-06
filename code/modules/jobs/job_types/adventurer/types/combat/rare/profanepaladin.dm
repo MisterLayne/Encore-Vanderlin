@@ -60,7 +60,7 @@
 				spawned.grant_language(/datum/language/undead)
 		if(/datum/patron/inhumen/matthios)
 			spawned.cmode_music = 'sound/music/cmode/antag/CombatBandit1.ogg'
-		if(/datum/patron/inhumen/baotha)
+		if(/datum/patron/inhumen/hertannea)
 			spawned.cmode_music = 'sound/music/cmode/antag/CombatBaotha.ogg'
 		else
 			spawned.cmode_music = 'sound/music/cmode/church/CombatInquisitor.ogg'
@@ -113,8 +113,8 @@
 			gloves = /obj/item/clothing/gloves/plate/matthios
 			pants = /obj/item/clothing/pants/platelegs/matthios
 			shoes = /obj/item/clothing/shoes/boots/armor/matthios
-		if(/datum/patron/inhumen/baotha)
-			head = /obj/item/clothing/head/helmet/heavy/baotha
+		if(/datum/patron/inhumen/hertannea)
+			head = /obj/item/clothing/head/helmet/heavy/hertannea
 			mask = /obj/item/clothing/face/spectacles/sglasses
 			armor = /obj/item/clothing/armor/plate
 			gloves = /obj/item/clothing/gloves/plate

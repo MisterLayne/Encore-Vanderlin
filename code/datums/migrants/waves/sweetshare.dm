@@ -28,7 +28,7 @@
 	Sell your product to those who should imbibe - the poor, the downtrodden, the youth. Get them hooked; stay off of your \
 	own supply. You are Hertannea's strongest spice-addict."
 	outfit = /datum/outfit/sweetshare
-	allowed_patrons = list(/datum/patron/inhumen/baotha)
+	allowed_patrons = list(/datum/patron/inhumen/hertannea)
 
 	honorary_suffix = "the Candyman"
 	honorary_suffix_f = "the Candywoman"

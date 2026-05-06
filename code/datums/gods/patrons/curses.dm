@@ -137,10 +137,10 @@
 	description = "I hate the sight of wealth, and I struggle to do anything with mammons."
 	trait = TRAIT_MATTHIOS_CURSE
 
-/datum/curse/baotha
+/datum/curse/hertannea
 	name = "Hertannea's Curse"
 	description = "I'm in a constant state of ecstasy."
-	trait = TRAIT_BAOTHA_CURSE
+	trait = TRAIT_HERTANNEA_CURSE
 
 //////////////////////
 /// ON GAIN / LOSS ///
@@ -196,12 +196,12 @@
 			owner.playsound_local(get_turf(owner), 'sound/foley/butcher.ogg', 80, FALSE, pressure_affected = FALSE)
 			owner.regenerate_icons()
 
-/datum/curse/baotha/on_life(mob/living/carbon/human/owner)
+/datum/curse/hertannea/on_life(mob/living/carbon/human/owner)
 	. = ..()
-	if(!MOBTIMER_FINISHED(owner, MT_CURSE_BAOTHA, rand(60, 420) SECONDS)) //this isn't how mob timers work
+	if(!MOBTIMER_FINISHED(owner, MT_CURSE_HERTANNEA, rand(60, 420) SECONDS)) //this isn't how mob timers work
 		return
 
-	MOBTIMER_SET(owner, MT_CURSE_BAOTHA)
+	MOBTIMER_SET(owner, MT_CURSE_HERTANNEA)
 
 	owner.reagents.add_reagent(/datum/reagent/druqks, 3)
 

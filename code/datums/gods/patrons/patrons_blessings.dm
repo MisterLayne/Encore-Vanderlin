@@ -192,7 +192,7 @@
 		),
 
 		/// Hertannea
-		/datum/patron/inhumen/baotha = list(
+		/datum/patron/inhumen/hertannea = list(
 			/datum/status_effect/buff/beastsense = "Hertannea shrieks: \"See it! Smell it! Rip it apart! Or hug it! Both are valid!\"",
 			/datum/status_effect/buff/trollshape = "Hertannea howls: \"Perfect. You’re gonna cause SUCH a scene!\"",
 			/datum/status_effect/buff/divine_beauty = "Hertannea swoons: \"Beauty fit for a queen. I'd know.\"",

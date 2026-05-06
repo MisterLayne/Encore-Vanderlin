@@ -76,7 +76,7 @@
 				spawned.adjust_skill_level(/datum/attribute/skill/misc/sneaking, 20)
 				spawned.adjust_skill_level(/datum/attribute/skill/misc/lockpicking, 10)
 				spawned.cmode_music = 'sound/music/cmode/antag/CombatBandit1.ogg'
-			if(/datum/patron/inhumen/baotha)
+			if(/datum/patron/inhumen/hertannea)
 				spawned.adjust_skill_level(/datum/attribute/skill/combat/crossbows, 30)
 				spawned.adjust_skill_level(/datum/attribute/skill/combat/knives, 20)
 				spawned.adjust_skill_level(/datum/attribute/skill/craft/alchemy, 20)
@@ -125,7 +125,7 @@
 			if(/datum/patron/inhumen/matthios)
 				cloak = /obj/item/clothing/cloak/raincloak/colored/mortus
 				backr = /obj/item/weapon/pitchfork
-			if(/datum/patron/inhumen/baotha)
+			if(/datum/patron/inhumen/hertannea)
 				head = /obj/item/clothing/head/crown/circlet
 				mask = /obj/item/clothing/face/spectacles/sglasses
 				cloak = /obj/item/clothing/cloak/raincloak/colored/purple

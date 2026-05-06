@@ -19,7 +19,7 @@
 
 /* CURSES */
 	#define MT_CURSE_ERDL "curse_erdl"
-	#define MT_CURSE_BAOTHA "curse_baotha"
+	#define MT_CURSE_HERTANNEA "curse_hertannea"
 	#define MT_CURSE_GRAGGAR "curse_graggar"
 
 /* VILLAIN */

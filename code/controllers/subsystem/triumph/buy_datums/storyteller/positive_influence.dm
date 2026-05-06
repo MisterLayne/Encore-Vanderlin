@@ -24,10 +24,10 @@
 	triumph_buy_id = TRIUMPH_BUY_GRAGGAR_INFLUENCE
 	storyteller_name = GRAGGAR
 
-/datum/triumph_buy/storyteller_influence_bonus/baotha
+/datum/triumph_buy/storyteller_influence_bonus/hertannea
 	name = "Hertannea's Influence"
-	triumph_buy_id = TRIUMPH_BUY_BAOTHA_INFLUENCE
-	storyteller_name = BAOTHA
+	triumph_buy_id = TRIUMPH_BUY_HERTANNEA_INFLUENCE
+	storyteller_name = HERTANNEA
 
 /datum/triumph_buy/storyteller_influence_bonus/zizo
 	name = "One Envy's Influence"

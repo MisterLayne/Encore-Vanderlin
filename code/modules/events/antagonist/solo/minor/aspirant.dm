@@ -2,7 +2,7 @@
 	name = "Aspirant"
 	tags = list(
 		TAG_VISIRES,
-		TAG_BAOTHA,
+		TAG_HERTANNEA,
 		TAG_VILLAIN,
 		TAG_CORRUPTION,
 	)

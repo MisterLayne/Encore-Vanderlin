@@ -34,6 +34,6 @@
 	name = "Akan's Wisdom"
 	desc = "All magic actions cost less mana."
 
-/datum/world_trait/baotha_revelry
+/datum/world_trait/hertannea_revelry
 	name = "Hertannea's Revelry"
 	desc = "Alcohol lasts longer."

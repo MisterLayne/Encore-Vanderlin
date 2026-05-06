@@ -17,7 +17,7 @@
 /datum/action/cooldown/spell/undirected/call_to_slaughter/cast(atom/cast_on)
 	. = ..()
 	for(var/mob/living/carbon/target in viewers(3, get_turf(owner)))
-		if(istype(target.patron, /datum/patron/inhumen/graggar || /datum/patron/inhumen/baotha || /datum/patron/psydon/extremist))
+		if(istype(target.patron, /datum/patron/inhumen/graggar || /datum/patron/inhumen/hertannea || /datum/patron/psydon/extremist))
 			target.apply_status_effect(/datum/status_effect/buff/call_to_slaughter)	//Buffs patrons in service to Hell
 			to_chat(target, span_danger("You feel the ancient roiling madness call to you from beneath the Firmament, briefly empowering you."))
 			return

@@ -446,8 +446,8 @@
 
 	cost_variance = 50  // Events will be highly variable in cost
 
-/datum/storyteller/baotha
-	name = BAOTHA
+/datum/storyteller/hertannea
+	name = HERTANNEA
 	desc = "Hertannea revels in chaos, making events and reality unpredictable."
 	welcome_text = "The world bends to my whims."
 	weight = 4
@@ -457,7 +457,7 @@
 	roundstart_prob = 90
 
 	tag_multipliers = list(
-		TAG_BAOTHA = 3,
+		TAG_HERTANNEA = 3,
 		TAG_INSANITY = 1.75,
 		TAG_DISASTER = 1.5,
 	)

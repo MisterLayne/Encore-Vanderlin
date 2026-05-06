@@ -39,7 +39,7 @@
 #define STATMOD_GRAGGAR_BLESSING "graggar_blessing"
 #define STATMOD_MATTHIOS_BLESSING "matthios_blessing"
 #define STATMOD_ZIZO_BLESSING "zizo_blessing"
-#define STATMOD_BAOTHA_BLESSING "baotha_blessing"
+#define STATMOD_HERTANNEA_BLESSING "hertannea_blessing"
 
 // Events
 #define STATMOD_ILIOPE_FORTUNE "iliope_fortune"
