@@ -1,8 +1,8 @@
 
-/datum/action/cooldown/spell/undirected/psydonrespite
+/datum/action/cooldown/spell/undirected/angrosrespite
 	name = "RESPITE"
-	spell_type = SPELL_PSYDONIC_MIRACLE
-	spell_flags = SPELL_PSYDON
+	spell_type = SPELL_ANGROSIC_MIRACLE
+	spell_flags = SPELL_ANGROS
 	spell_cost = 10
 	charge_time = 1
 	sound = null
@@ -11,7 +11,7 @@
 	associated_skill = /datum/attribute/skill/magic/holy
 	cooldown_time  = 60 SECONDS
 
-/datum/action/cooldown/spell/undirected/psydonrespite/cast(mob/living/user) // It's a very tame self-heal. Nothing too special.
+/datum/action/cooldown/spell/undirected/angrosrespite/cast(mob/living/user) // It's a very tame self-heal. Nothing too special.
 	. = ..()
 	if(!ishuman(user))
 		return FALSE

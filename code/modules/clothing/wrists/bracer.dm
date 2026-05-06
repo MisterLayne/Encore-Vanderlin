@@ -27,7 +27,7 @@
 	armor = ARMOR_PADDED_GOOD
 	blade_dulling = DULLING_BASHCHOP
 	color = "#48443B"
-	max_integrity = ARMOR_INT_SIDE_STEEL //Heavy leather-tier protection and critical resistances, steel-tier integrity. Integrity boost encourages hand-to-hand parrying. Weaker than the Psydonic Thorns.
+	max_integrity = ARMOR_INT_SIDE_STEEL //Heavy leather-tier protection and critical resistances, steel-tier integrity. Integrity boost encourages hand-to-hand parrying. Weaker than the Unsundered Thorns.
 	prevent_crits = list(BCLASS_CUT, BCLASS_CHOP, BCLASS_STAB, BCLASS_BLUNT, BCLASS_TWIST)
 	blocksound = SOFTHIT
 	sewrepair = /datum/attribute/skill/misc/sewing/mending
@@ -129,7 +129,7 @@
 	AddComponent(/datum/component/storage/concrete/scabbard/knife)
 
 /obj/item/clothing/wrists/bracers/psythorns
-	name = "psydonian thorns"
+	name = "angrosian thorns"
 	desc = "Thorns fashioned from pliable yet durable blacksteel - woven and interlinked, fashioned to be wrapped around the wrists."
 	body_parts_covered = ARMS
 	icon_state = "psybarbs"

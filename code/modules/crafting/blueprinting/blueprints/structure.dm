@@ -234,13 +234,13 @@
 	supports_directions = TRUE
 	place_on_wall = TRUE
 
-/datum/blueprint_recipe/structure/psydon_metal_cross
+/datum/blueprint_recipe/structure/angros_metal_cross
 	name = "metal psycross"
-	desc = "A metal psycross dedicated to Psydon."
+	desc = "A metal psycross dedicated to Angros."
 	required_materials = list(
 		/obj/item/ingot/iron = 3,
 	)
-	result_type = /obj/structure/fluff/psycross/psydon/metal
+	result_type = /obj/structure/fluff/psycross/angros/metal
 	construct_tool = /obj/item/weapon/hammer
 	skillcraft = /datum/attribute/skill/craft/crafting
 	craftdiff = 3

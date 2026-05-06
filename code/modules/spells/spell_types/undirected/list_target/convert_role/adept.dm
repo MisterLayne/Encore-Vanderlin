@@ -3,7 +3,7 @@
 	button_icon_state = "recruit_guard"
 	new_role = JOB_ADEPT
 	recruitment_faction = "Inquisition"
-	recruitment_message = "You will serve Psydon's will, %RECRUIT!"
+	recruitment_message = "You will serve Angros's will, %RECRUIT!"
 	accept_message = "F-fine just don't kill me!"
 	refuse_message = "I FOLLOW MY GOD INTO DEATH!!!"
 

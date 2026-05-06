@@ -35,7 +35,7 @@
 	The true nature of their existence is largely lost to the hollowkin through centuries. \
 	The dark elves still recall, of course, viciously mocking their creations from deep within their caves, \
 	declaring them but nothing more than animals or pets. \
-	Hollowkin react violently to dark-elven attempts at oppression, this leads to conflicts across the world of Psydonia. \
+	Hollowkin react violently to dark-elven attempts at oppression, this leads to conflicts across the world of Gaia. \
 	\n\n\
 	To the unaligned observer, hollowkin are often seen amongst bandit bands, working openly with Agents of Deceivers, \
 	conflating the idea of freedom between the two deities. There is, of course, the old wives' tales that circulate... \

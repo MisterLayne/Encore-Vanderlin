@@ -25,7 +25,7 @@
 
 	material_category = ARMOR_MAT_CHAINMAIL
 
-/obj/item/clothing/gloves/chain/psydon
+/obj/item/clothing/gloves/chain/angros
 	name = "grenzelhoftian chain gauntlets"
 	icon_state = "psydongloveschain"
 	item_state = "psydongloveschains"

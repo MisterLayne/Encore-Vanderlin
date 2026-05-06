@@ -55,7 +55,7 @@ GLOBAL_LIST_INIT(automaton_voice_lines, list(
 	"Open The Door" = list("text" = "DOOR", "file" = list('sound/vo/automaton/door1.ogg', 'sound/vo/automaton/door2.ogg', 'sound/vo/automaton/door3.ogg')),
 	"Organic Presence Detected" = list("text" = "ORGANIC PRESENCE DETECTED", "file" = 'sound/vo/automaton/organicpresencedetected.ogg'),
 	"Erdl Praise" = list("text" = "ERDL BE PRAISED", "file" = 'sound/vo/automaton/pestrapraise.ogg'),
-	"Psydon Lives" = list("text" = "PSYDON LIVES", "file" = 'sound/vo/automaton/PSYDONLIVES.ogg'),
+	"Angros Lives" = list("text" = "ANGROS LIVES", "file" = 'sound/vo/automaton/PSYDONLIVES.ogg'),
 	"Ravox Praise" = list("text" = "MORDSOL BE PRAISED", "file" = 'sound/vo/automaton/ravoxpraise.ogg'),
 	//"Schmelf Detected" = list("text" = "SCHMELF DETECTED", "file" = 'sound/vo/automaton/schmelfdetected.ogg'),
 	"Silence Organic" = list("text" = "SILENCE, ORGANIC", "file" = 'sound/vo/automaton/silenceorganic.ogg'),

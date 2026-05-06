@@ -273,10 +273,10 @@
 	set category = "Emotes.Automaton"
 	play_voice_line("Erdl Praise")
 
-/mob/living/carbon/human/proc/voice_psydonlives()
-	set name = "Psydon Lives"
+/mob/living/carbon/human/proc/voice_angroslives()
+	set name = "Angros Lives"
 	set category = "Emotes.Automaton"
-	play_voice_line("Psydon Lives")
+	play_voice_line("Angros Lives")
 
 /mob/living/carbon/human/proc/voice_ravoxpraise()
 	set name = "Ravox Praise"

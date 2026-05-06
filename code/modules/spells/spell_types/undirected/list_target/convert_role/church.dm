@@ -20,8 +20,8 @@
 		living_owner.IgniteMob()
 		return // Stop the recruitment entirely
 
-	if(istype(cast_on.patron, /datum/patron/psydon))
-		to_chat(owner, span_info("The Ten glare upon you in sadness. CHILD, [cast_on.real_name] serves Psydon, he is dead, nobody can answer these prayers."))
+	if(istype(cast_on.patron, /datum/patron/angros))
+		to_chat(owner, span_info("The Ten glare upon you in sadness. CHILD, [cast_on.real_name] serves Angros, he is dead, nobody can answer these prayers."))
 		return // Stop recruitment
 
 	if(!allow_centrist && istype(cast_on.patron, /datum/patron/divine/centrist))

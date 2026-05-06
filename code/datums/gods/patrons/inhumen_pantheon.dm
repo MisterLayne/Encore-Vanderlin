@@ -3,7 +3,7 @@
 	associated_faith = /datum/faith/inhumen_pantheon
 
 	confess_lines = list(
-		"PSYDON AND HIS CHILDREN ARE THE DEMIURGE!",
+		"ANGROS AND HIS CHILDREN ARE THE DEMIURGE!",
 		"THE TEN ARE WORTHLESS COWARDS!",
 		"THE TEN ARE DECEIVERS!"
 	)

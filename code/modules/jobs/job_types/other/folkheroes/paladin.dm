@@ -51,11 +51,11 @@
 	spawned.virginity = TRUE
 
 	switch(spawned.patron?.type)
-		if(/datum/patron/psydon, /datum/patron/psydon/extremist)
+		if(/datum/patron/angros, /datum/patron/angros/extremist)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatInquisitor.ogg'
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/paladin/extremist)
-			spawned.grant_language(/datum/language/newpsydonic)
-			ADD_TRAIT(spawned, TRAIT_PSYDONIAN_GRIT, JOB_TRAIT)
+			spawned.grant_language(/datum/language/newunsundered)
+			ADD_TRAIT(spawned, TRAIT_ANGROSIAN_GRIT, JOB_TRAIT)
 		if(/datum/patron/divine/visires)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAstrata.ogg'
 		if(/datum/patron/divine/akan)
@@ -116,7 +116,7 @@
 	. = ..()
 
 	switch(H.patron?.type)
-		if(/datum/patron/psydon, /datum/patron/psydon/extremist)
+		if(/datum/patron/angros, /datum/patron/angros/extremist)
 			head = /obj/item/clothing/head/helmet/heavy/bucket/gold
 			wrists = /obj/item/clothing/neck/psycross/gold
 		if(/datum/patron/divine/visires)

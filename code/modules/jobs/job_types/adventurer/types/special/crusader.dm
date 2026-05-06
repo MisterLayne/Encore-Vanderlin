@@ -39,7 +39,7 @@
 		TRAIT_HEAVYARMOR
 	)
 
-	languages = list(/datum/language/oldpsydonic)
+	languages = list(/datum/language/oldunsundered)
 
 /datum/job/advclass/pilgrim/rare/crusader/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
@@ -102,7 +102,7 @@
 
 /obj/item/clothing/cloak/stabard/crusader
 	name = "surcoat of the golden order"
-	desc = "A surcoat drenched in charcoal water, golden thread stitched in the style of Psydon's Knights of Old Psydonia."
+	desc = "A surcoat drenched in charcoal water, golden thread stitched in the style of Angros's Knights of Old Gaia."
 	icon_state = "crusader_surcoat"
 	icon = 'icons/roguetown/clothing/special/crusader.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/crusader.dmi'
@@ -110,7 +110,7 @@
 
 /obj/item/clothing/cloak/stabard/crusader/t
 	name = "surcoat of the silver order"
-	desc = "A surcoat drenched in charcoal water, white cotton stitched in the symbol of Psydon."
+	desc = "A surcoat drenched in charcoal water, white cotton stitched in the symbol of Angros."
 	icon_state = "crusader_surcoatt2"
 
 /obj/item/clothing/cloak/cape/crusader
@@ -132,7 +132,7 @@
 	worn_y_dimension = 64
 
 /obj/item/clothing/head/helmet/heavy/crusader/t
-	desc = "A silver gilded bucket helm, inscriptions in old Psydonic are found embezeled on every inch of silver. Grenzelhoft specializes in these helmets, the Totod order has been purchasing them en-masse."
+	desc = "A silver gilded bucket helm, inscriptions in old Unsundered are found embezeled on every inch of silver. Grenzelhoft specializes in these helmets, the Totod order has been purchasing them en-masse."
 	icon_state = "crusader_helmt2"
 	icon = 'icons/roguetown/clothing/special/crusader.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/crusader.dmi'

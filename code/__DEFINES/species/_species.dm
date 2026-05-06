@@ -267,7 +267,7 @@
 	SPEC_ID_KOBOLD,\
 )
 
-/// Nonnative species - Anything not native to Psydonia.
+/// Nonnative species - Anything not native to Gaia.
 /// Probably only will ever contain humans pragmatically, as funny as ethereals pretending to be tieflings would be.
 #define RACES_PLAYER_ALIEN list(\
 	SPEC_ID_HUMAN_SPACE,\

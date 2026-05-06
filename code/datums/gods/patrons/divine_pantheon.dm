@@ -95,7 +95,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 /datum/patron/divine/gani
 	name = GANI
 	domain = "God of Nature and Beasts"
-	desc = "Crafted from the bones of Psydon as the embodiment of the natural world. Driven mad with time."
+	desc = "Crafted from the bones of Angros as the embodiment of the natural world. Driven mad with time."
 	flaws = "Madness, Rebelliousness, Disorderliness"
 	worshippers = "Druids, Beasts, Madmen"
 	sins = "Deforestation, Overhunting, Disrespecting Nature"
@@ -113,7 +113,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 /datum/patron/divine/mjallidhorn
 	name = MJALLIDHORN
 	domain = "God of Seas and Storms"
-	desc = "Crafted from the blood of Psydon as sovereign of the waters. Enraged by ignorance of Him from followers of The Ten."
+	desc = "Crafted from the blood of Angros as sovereign of the waters. Enraged by ignorance of Him from followers of The Ten."
 	flaws= "Reckless, Stubborn, Destructive"
 	worshippers = "Sailors of the Sea and Sky, Horrid Sea-Creachers, Fog Islanders"
 	sins = "Fear, Hubris, Forgetfulness"
@@ -131,7 +131,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 /datum/patron/divine/valdala
 	name = VALDALA
 	domain = "Mother Goddess of Death and Time"
-	desc = "The Veiled Lady, once close partner to Psydon. She created the Nine others from his corpse, guiding them from the Underworld."
+	desc = "The Veiled Lady, once close partner to Angros. She created the Nine others from his corpse, guiding them from the Underworld."
 	flaws = "Unchanging, Apathetic, Easy to Bore"
 	worshippers = "Orderlies, Gravetenders, Mourners"
 	sins = "Heretical Magic, Untimely Death, Disturbance of Rest"
@@ -149,7 +149,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 /datum/patron/divine/mordsol
 	name = MORDSOL
 	domain = "God of Warfare, Justice, and Bravery"
-	desc = "Crafted from the blade of Psydon, a champion of all who seek righteousness for themselves and others."
+	desc = "Crafted from the blade of Angros, a champion of all who seek righteousness for themselves and others."
 	flaws = "Carelessness, Aggression, Pride"
 	worshippers = "Warriors, Sellswords, Guardsmen"
 	sins = "Cowardice, Cruelty, Stagnation"
@@ -167,7 +167,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 /datum/patron/divine/iliope
 	name = ILIOPE
 	domain = "Deity of Trickery, Freedom, and Inspiration"
-	desc = "Crafted from the silver tongue of Psydon. Iliope is a force of change and deceit, yet allows little known of their gender let alone presence."
+	desc = "Crafted from the silver tongue of Angros. Iliope is a force of change and deceit, yet allows little known of their gender let alone presence."
 	flaws = "Petulance, Deception, Gambling-Prone"
 	worshippers = "Cheats, Performers, The Hopeless"
 	sins = "Boredom, Predictability, Routine"
@@ -187,7 +187,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 /datum/patron/divine/erdl
 	name = ERDL
 	domain = "Goddess of Disease, Alchemy, and Medicine"
-	desc = "A mistake; Psydon's intestines left behind. She slithered out, bringing forth the cycle of life and decay."
+	desc = "A mistake; Angros's intestines left behind. She slithered out, bringing forth the cycle of life and decay."
 	flaws = "Drunkenness, Crudeness, Irresponsibility"
 	worshippers = "The Ill and Infirm, Alchemists, Physicians"
 	sins = "´Curing´ Abnormalities, Refusing to Help Unfortunates, Groveling"
@@ -213,7 +213,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 /datum/patron/divine/golerkanh
 	name = GOLERKANH
 	domain = "God of Toil, Innovation, and Creation"
-	desc = "Crafted from the hands of Psydon. He would later use his own to construct wondrous inventions."
+	desc = "Crafted from the hands of Angros. He would later use his own to construct wondrous inventions."
 	flaws = "Obsessive, Exacting, Overbearing"
 	worshippers = "Smiths, Miners, Sculptors"
 	sins = "Cheating, Shoddy Work, Suicide"
@@ -231,7 +231,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 /datum/patron/divine/pomette
 	name = POMETTE
 	domain = "Goddess of Love, Family, and Art"
-	desc = "Crafted from the heart of Psydon, a spreader of love and beauty, and strengthener of bonds."
+	desc = "Crafted from the heart of Angros, a spreader of love and beauty, and strengthener of bonds."
 	flaws= "Naivete, Impulsiveness, Bigotry"
 	worshippers = "Mothers, Artists, Married Couples"
 	sins = "Sadism, Abandonment, Ruining Beauty"

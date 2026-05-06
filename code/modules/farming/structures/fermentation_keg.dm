@@ -769,7 +769,7 @@ GLOBAL_LIST_EMPTY(custom_fermentation_recipes)
 	reagents.add_reagent(/datum/reagent/consumable/ethanol/whitewine,900)
 
 /obj/structure/fermentation_keg/redwine
-	desc = "A barrel that contains a Grenzelhoftian luxury. It was originally served as part of Psydonic communion, eventually becoming wildly enjoyed within Grenzelhoft to the point of being oft paired with EVERY meal."
+	desc = "A barrel that contains a Grenzelhoftian luxury. It was originally served as part of Unsundered communion, eventually becoming wildly enjoyed within Grenzelhoft to the point of being oft paired with EVERY meal."
 
 /obj/structure/fermentation_keg/redwine/Initialize()
 	. = ..()

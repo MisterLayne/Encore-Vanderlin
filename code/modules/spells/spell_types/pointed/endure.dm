@@ -15,10 +15,10 @@
 	pixel_x = rand(-12, 12)
 	pixel_y = rand(-9, 0)
 
-/datum/action/cooldown/spell/psydonendure
+/datum/action/cooldown/spell/angrosendure
 	name = "ENDURE"
-	spell_type = SPELL_PSYDONIC_MIRACLE
-	spell_flags = SPELL_PSYDON
+	spell_type = SPELL_ANGROSIC_MIRACLE
+	spell_flags = SPELL_ANGROS
 
 	spell_cost = 40
 	charge_time = 1
@@ -29,7 +29,7 @@
 	associated_skill = /datum/attribute/skill/magic/holy
 	cooldown_time = 30 SECONDS
 
-/datum/action/cooldown/spell/psydonendure/cast(mob/living/target)
+/datum/action/cooldown/spell/angrosendure/cast(mob/living/target)
 	. = ..()
 	var/mob/living/user = owner
 	if(isliving(target))
@@ -102,7 +102,7 @@
 	desc = "I am awash with sentimentality."
 	icon_state = "buff"
 
-#define PSYDON_HEALING_FILTER "psydon_heal_glow"
+#define ANGROS_HEALING_FILTER "angros_heal_glow"
 
 /datum/status_effect/buff/psyhealing
 	id = "psyhealing"
@@ -117,9 +117,9 @@
 
 /datum/status_effect/buff/psyhealing/on_apply()
 	. = ..()
-	var/filter = owner.get_filter(PSYDON_HEALING_FILTER)
+	var/filter = owner.get_filter(ANGROS_HEALING_FILTER)
 	if (!filter)
-		owner.add_filter(PSYDON_HEALING_FILTER, 2, list("type" = "outline", "color" = outline_colour, "alpha" = 60, "size" = 1))
+		owner.add_filter(ANGROS_HEALING_FILTER, 2, list("type" = "outline", "color" = outline_colour, "alpha" = 60, "size" = 1))
 	return TRUE
 
 /datum/status_effect/buff/psyhealing/get_examine_text()
@@ -139,7 +139,7 @@
 
 /datum/status_effect/buff/psyhealing/on_remove()
 	. = ..()
-	owner.remove_filter(PSYDON_HEALING_FILTER)
+	owner.remove_filter(ANGROS_HEALING_FILTER)
 	owner.update_damage_hud()
 
 /atom/movable/screen/alert/status_effect/buff/psyvived
@@ -147,7 +147,7 @@
 	desc = "I feel a strange sense of peace."
 	icon_state = "buff"
 
-#define PSYDON_REVIVED_FILTER "psydon_revival_glow"
+#define ANGROS_REVIVED_FILTER "angros_revival_glow"
 
 /datum/status_effect/buff/psyvived
 	id = "psyvived"
@@ -160,9 +160,9 @@
 
 /datum/status_effect/buff/psyvived/on_apply()
 	. = ..()
-	var/filter = owner.get_filter(PSYDON_REVIVED_FILTER)
+	var/filter = owner.get_filter(ANGROS_REVIVED_FILTER)
 	if (!filter)
-		owner.add_filter(PSYDON_REVIVED_FILTER, 2, list("type" = "outline", "color" = outline_colour, "alpha" = 60, "size" = 1))
+		owner.add_filter(ANGROS_REVIVED_FILTER, 2, list("type" = "outline", "color" = outline_colour, "alpha" = 60, "size" = 1))
 	return TRUE
 
 /datum/status_effect/buff/psyvived/get_examine_text()
@@ -174,8 +174,8 @@
 
 /datum/status_effect/buff/psyvived/on_remove()
 	. = ..()
-	owner.remove_filter(PSYDON_REVIVED_FILTER)
+	owner.remove_filter(ANGROS_REVIVED_FILTER)
 	owner.update_damage_hud()
 
-#undef PSYDON_HEALING_FILTER
-#undef PSYDON_REVIVED_FILTER
+#undef ANGROS_HEALING_FILTER
+#undef ANGROS_REVIVED_FILTER

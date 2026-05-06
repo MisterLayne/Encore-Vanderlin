@@ -1325,21 +1325,21 @@ SUBSYSTEM_DEF(gamemode)
 	chosen_chronicle_stats.Cut()
 
 	var/list/current_valid_humans = list()
-	var/mob/living/carbon/human/valid_psydon_favourite
+	var/mob/living/carbon/human/valid_angros_favourite
 
 	for(var/client/client in GLOB.clients)
 		var/mob/living/carbon/human/human_mob = client.mob
 		if(!ishuman(human_mob) || !human_mob.mind || human_mob.stat == DEAD)
 			continue
 		current_valid_humans += human_mob
-		if(client.has_triumph_buy(TRIUMPH_BUY_PSYDON_FAVOURITE))
-			valid_psydon_favourite = human_mob
+		if(client.has_triumph_buy(TRIUMPH_BUY_ANGROS_FAVOURITE))
+			valid_angros_favourite = human_mob
 
-	if(valid_psydon_favourite && length(current_valid_humans) >= 2)
-		chosen_chronicle_stats += CHRONICLE_STATS_PSYDON_FAVOURITE
+	if(valid_angros_favourite && length(current_valid_humans) >= 2)
+		chosen_chronicle_stats += CHRONICLE_STATS_ANGROS_FAVOURITE
 		chosen_chronicle_stats += CHRONICLE_STATS_RANDOM_PASSERBY
-	else if(valid_psydon_favourite)
-		chosen_chronicle_stats += CHRONICLE_STATS_PSYDON_FAVOURITE
+	else if(valid_angros_favourite)
+		chosen_chronicle_stats += CHRONICLE_STATS_ANGROS_FAVOURITE
 		for(var/set_name in chronicle_sets)
 			var/list/set_data = chronicle_sets[set_name]
 			if(length(set_data) >= 2 && GLOB.chronicle_stats[set_data[1]] && GLOB.chronicle_stats[set_data[2]])
@@ -1513,7 +1513,7 @@ SUBSYSTEM_DEF(gamemode)
 
 	var/list/current_valid_humans = list()
 
-	var/mob/living/carbon/human/valid_psydon_favourite
+	var/mob/living/carbon/human/valid_angros_favourite
 
 	var/highest_total_stats = -1
 	var/highest_strength = -1
@@ -1658,8 +1658,8 @@ SUBSYSTEM_DEF(gamemode)
 
 			// Chronicle statistics
 
-			if(human_mob.client.has_triumph_buy(TRIUMPH_BUY_PSYDON_FAVOURITE))
-				valid_psydon_favourite = human_mob
+			if(human_mob.client.has_triumph_buy(TRIUMPH_BUY_ANGROS_FAVOURITE))
+				valid_angros_favourite = human_mob
 
 			var/total_stats = GET_MOB_ATTRIBUTE_VALUE(human_mob, STAT_STRENGTH) + GET_MOB_ATTRIBUTE_VALUE(human_mob, STAT_INTELLIGENCE) + GET_MOB_ATTRIBUTE_VALUE(human_mob, STAT_ENDURANCE) + GET_MOB_ATTRIBUTE_VALUE(human_mob, STAT_CONSTITUTION) + GET_MOB_ATTRIBUTE_VALUE(human_mob, STAT_PERCEPTION) + GET_MOB_ATTRIBUTE_VALUE(human_mob, STAT_SPEED) + GET_MOB_ATTRIBUTE_VALUE(human_mob, STAT_FORTUNE)
 			if(total_stats > highest_total_stats)
@@ -1788,9 +1788,9 @@ SUBSYSTEM_DEF(gamemode)
 		var/mob/living/carbon/human/selected_ugly = pick(ugly_candidates)
 		set_chronicle_stat(CHRONICLE_STATS_UGLIEST_PERSON, selected_ugly, "EYESORE", "#9e6033", "their ugliness")
 
-	if(valid_psydon_favourite)
-		set_chronicle_stat(CHRONICLE_STATS_PSYDON_FAVOURITE, valid_psydon_favourite, "PSYDON'S FAVOURITE", "#e6e6e6", "buying their way in")
-		potential_passers -= valid_psydon_favourite
+	if(valid_angros_favourite)
+		set_chronicle_stat(CHRONICLE_STATS_ANGROS_FAVOURITE, valid_angros_favourite, "ANGROS'S FAVOURITE", "#e6e6e6", "buying their way in")
+		potential_passers -= valid_angros_favourite
 
 	if(length(potential_passers) > 0)
 		var/mob/living/carbon/human/selected_passerby = pick(potential_passers)

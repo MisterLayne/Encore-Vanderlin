@@ -1054,9 +1054,9 @@
 	craftdiff = 1
 	category = "Shoes"
 
-/datum/repeatable_crafting_recipe/leather/psydonboots
+/datum/repeatable_crafting_recipe/leather/angrosboots
 	name = "enduring boots"
-	output = /obj/item/clothing/shoes/psydonboots
+	output = /obj/item/clothing/shoes/angrosboots
 	requirements = list(
 		/obj/item/natural/hide/cured = 3,
 		/obj/item/natural/fibers/sinew = 1,

@@ -25,7 +25,7 @@
 	attribute_sheet = /datum/attribute_holder/sheet/job/malaguero
 
 	traits = list(TRAIT_MEDIUMARMOR)
-	languages = list(/datum/language/newpsydonic)
+	languages = list(/datum/language/newunsundered)
 	category_tags = list(CTAG_ADVENTURER)
 	total_positions = 2
 

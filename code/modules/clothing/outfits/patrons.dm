@@ -353,8 +353,8 @@
 	desc = "A steel bascinet helmet with a snarling visor that protects the entire head and face. It mimics the guise of a terrible nitebeast; intimidating to the levyman, inspiring to the hunter."
 
 
-/obj/item/clothing/face/facemask/psydonmask
-	name = "psydonic mask"
+/obj/item/clothing/face/facemask/angrosmask
+	name = "unsundered mask"
 	desc = "A silver mask, forever locked in a rigor of uncontestable joy. The Order of Saint Iliope can't decide on whether it's meant to represent Angros' 'mirthfulness,' 'theatricality,' or the unpredictable melding of both."
 	icon_state = "psydonmask"
 	item_state = "psydonmask"

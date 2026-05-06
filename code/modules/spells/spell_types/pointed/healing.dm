@@ -91,7 +91,7 @@
 	if(isliving(owner))
 		var/mob/living/living_owner = owner
 		switch(living_owner.patron?.type)
-			if(/datum/patron/psydon, /datum/patron/psydon/extremist)
+			if(/datum/patron/angros, /datum/patron/angros/extremist)
 				cast_on.visible_message(span_info("A strange stirring feeling pours from [cast_on]!"), span_notice("Sentimental thoughts drive away my pains!"))
 
 			if(/datum/patron/divine/visires)

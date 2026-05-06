@@ -49,12 +49,12 @@
 // Misc category and its buys
 #define TRIUMPH_CAT_MISC "MISC"
 
-#define TRIUMPH_BUY_PSYDON_FAVOURITE "psydon_favourite"
+#define TRIUMPH_BUY_ANGROS_FAVOURITE "angros_favourite"
 
 // Misc category and its buys
 #define TRIUMPH_CAT_COMMUNAL "COMMUNAL"
 
-#define TRIUMPH_BUY_PSYDON_RETIREMENT "psydon_retirement"
+#define TRIUMPH_BUY_ANGROS_RETIREMENT "angros_retirement"
 #define TRIUMPH_BUY_ORPHANAGE_RENOVATION "orphanage_renovation"
 #define TRIUMPH_BUY_LONGER_WEEK "longer_week"
 #define TRIUMPH_BUY_EXOTIC_TASTES "exotic_tastes"

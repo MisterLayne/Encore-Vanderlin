@@ -24,8 +24,8 @@
 	total_positions = 1 // THE ONE.
 	spawn_positions = 1
 	allowed_races = list(SPEC_ID_HUMEN)
-	//You MUST have a Psydonite character to start. Just so people don't get japed into Oops Suddenly Psydon!
-	allowed_patrons = list(/datum/patron/psydon) // no e. psydon, according to ook
+	//You MUST have a Angrosian character to start. Just so people don't get japed into Oops Suddenly Angros!
+	allowed_patrons = list(/datum/patron/angros)
 	tutorial = "The Oratorium claims you are naught more than a 'cleric', but you know the truth; you are a sacrificial lamb. Your hands, unmarred through prayer and pacifism, have been gifted with the power to manipulate blood - to siphon away the wounds of others, so that you may endure in their stead. Let your censer's light shepherd the Inquisitor's retinue forth, lest they're led astray by wrath and temptation."
 	selection_color = JCOLOR_INQUISITION
 	outfit = /datum/outfit/absolver
@@ -48,20 +48,20 @@
 		TRAIT_STEELHEARTED,
 		TRAIT_INQUISITION,
 		TRAIT_SILVER_BLESSED,
-		TRAIT_PSYDONIAN_GRIT,
-		TRAIT_PSYDONITE,
+		TRAIT_ANGROSIAN_GRIT,
+		TRAIT_ANGROSIAN,
 		TRAIT_FOREIGNER,
 	)
 
 	spells = list(
-		/datum/action/cooldown/spell/psydonlux_tamper,
-		/datum/action/cooldown/spell/psydonabsolve,
+		/datum/action/cooldown/spell/angroslux_tamper,
+		/datum/action/cooldown/spell/angrosabsolve,
 		/datum/action/cooldown/spell/diagnose,
 	)
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/absolver
 
-	languages = list(/datum/language/oldpsydonic, /datum/language/newpsydonic)
+	languages = list(/datum/language/oldunsundered, /datum/language/newunsundered)
 
 	exp_type = list(EXP_TYPE_INQUISITION)
 	exp_types_granted = list(EXP_TYPE_INQUISITION)
@@ -81,14 +81,14 @@
 	spawned.hud_used?.shutdown_bloodpool()
 	spawned.hud_used?.initialize_bloodpool()
 	spawned.hud_used?.bloodpool.set_fill_color("#dcdddb")
-	spawned.hud_used?.bloodpool?.name = "Psydon's Grace: [spawned.bloodpool]"
+	spawned.hud_used?.bloodpool?.name = "Angros's Grace: [spawned.bloodpool]"
 	spawned.hud_used?.bloodpool?.desc = "Devotion: [spawned.bloodpool]/[spawned.maxbloodpool]"
 	spawned.maxbloodpool = 1000
 
 	var/datum/species/species = spawned.dna?.species
 	if(!species)
 		return
-	species.native_language = "Old Psydonic"
+	species.native_language = "Old Unsundered"
 	species.accent_language = species.get_accent(species.native_language)
 
 /datum/outfit/absolver
@@ -102,9 +102,9 @@
 	backr = /obj/item/storage/backpack/satchel/otavan
 	belt = /obj/item/storage/belt/leather
 	pants = /obj/item/clothing/pants/trou/leather/advanced/colored/duelpants
-	armor = /obj/item/clothing/armor/cuirass/psydon
+	armor = /obj/item/clothing/armor/cuirass/angros
 	shirt = /obj/item/clothing/armor/gambeson/heavy/inq
-	shoes = /obj/item/clothing/shoes/psydonboots
+	shoes = /obj/item/clothing/shoes/angrosboots
 	mask = /obj/item/clothing/head/helmet/blacksteel/psythorns
 	head = /obj/item/clothing/head/helmet/heavy/absolver
 	ring = /obj/item/clothing/ring/signet/silver

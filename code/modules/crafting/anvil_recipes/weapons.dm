@@ -980,89 +980,89 @@
 	created_item = /obj/item/weapon/mace/elvenclub/silver
 
 /datum/anvil_recipe/weapons/psy/axe
-	name = "Psydonian War Axe (+1 B. Silver, +1 Stick)"
+	name = "Angrosian War Axe (+1 B. Silver, +1 Stick)"
 	req_bar = /obj/item/ingot/silverblessed
 	craftdiff = 3
-	created_item = /obj/item/weapon/axe/psydon
+	created_item = /obj/item/weapon/axe/angros
 	additional_items = list(/obj/item/ingot/silverblessed, /obj/item/grown/log/tree/stick)
 	i_type = "Weapons"
 /datum/anvil_recipe/weapons/psy/mace
-	name = "Psydonian Mace (+1 B. Silver, +1 Stick)"
+	name = "Angrosian Mace (+1 B. Silver, +1 Stick)"
 	req_bar = /obj/item/ingot/silverblessed
 	craftdiff = 3
-	created_item = /obj/item/weapon/mace/goden/psydon
+	created_item = /obj/item/weapon/mace/goden/angros
 	additional_items = list(/obj/item/ingot/silverblessed, /obj/item/grown/log/tree/stick)
 	i_type = "Weapons"
 /datum/anvil_recipe/weapons/psy/spear
-	name = "Psydonian Spear (+1 Small Log)"
+	name = "Angrosian Spear (+1 Small Log)"
 	req_bar = /obj/item/ingot/silverblessed
 	craftdiff = 3
-	created_item = /obj/item/weapon/polearm/spear/psydon
+	created_item = /obj/item/weapon/polearm/spear/angros
 	additional_items = list(/obj/item/grown/log/tree/small)
 	i_type = "Weapons"
 /datum/anvil_recipe/weapons/psy/dagger
-	name = "Psydonian Dagger"
+	name = "Angrosian Dagger"
 	req_bar = /obj/item/ingot/silverblessed
 	craftdiff = 3
-	created_item = /obj/item/weapon/knife/dagger/silver/psydon
+	created_item = /obj/item/weapon/knife/dagger/silver/angros
 	i_type = "Weapons"
 
 /datum/anvil_recipe/weapons/psy/shortsword
-	name = "Psydonian Shortsword"
+	name = "Angrosian Shortsword"
 	req_bar = /obj/item/ingot/silverblessed
 	craftdiff = 3
 	created_item = /obj/item/weapon/sword/short/psy
 	i_type = "Weapons"
 
 /datum/anvil_recipe/weapons/psy/katar
-	name = "Psydonian Katar"
+	name = "Angrosian Katar"
 	req_bar = /obj/item/ingot/silverblessed
 	craftdiff = 3
-	created_item = /obj/item/weapon/katar/psydon
+	created_item = /obj/item/weapon/katar/angros
 	i_type = "Weapons"
 
 /datum/anvil_recipe/weapons/psy/knuckles
-	name = "Psydonian Knuckles"
+	name = "Angrosian Knuckles"
 	req_bar = /obj/item/ingot/silverblessed
 	craftdiff = 3
-	created_item = /obj/item/weapon/knuckles/psydon
+	created_item = /obj/item/weapon/knuckles/angros
 	i_type = "Weapons"
 
 /datum/anvil_recipe/weapons/psy/cudgel
-	name = "Psydonian Handmace"
+	name = "Angrosian Handmace"
 	req_bar = /obj/item/ingot/silverblessed
 	craftdiff = 3
 	created_item = /obj/item/weapon/mace/cudgel/psy
 	i_type = "Weapons"
 
 /datum/anvil_recipe/weapons/psy/halberd
-	name = "Psydonian Halberd (+1 B. Silver, +1 Small Log)"
+	name = "Angrosian Halberd (+1 B. Silver, +1 Small Log)"
 	req_bar = /obj/item/ingot/silverblessed
 	craftdiff = 3
-	created_item = /obj/item/weapon/polearm/halberd/psydon
+	created_item = /obj/item/weapon/polearm/halberd/angros
 	additional_items = list(/obj/item/ingot/silverblessed, /obj/item/grown/log/tree/small)
 	i_type = "Weapons"
 
 /datum/anvil_recipe/weapons/psy/gsword
-	name = "Psydonian Greatsword (+1 B. Silver)"
+	name = "Angrosian Greatsword (+1 B. Silver)"
 	req_bar = /obj/item/ingot/silverblessed
 	craftdiff = 3
-	created_item = /obj/item/weapon/sword/long/greatsword/psydon
+	created_item = /obj/item/weapon/sword/long/greatsword/angros
 	additional_items = list(/obj/item/ingot/silverblessed)
 	i_type = "Weapons"
 
 /datum/anvil_recipe/weapons/psy/sword
-	name = "Psydonian Sword"
+	name = "Angrosian Sword"
 	req_bar = /obj/item/ingot/silverblessed
 	craftdiff = 3
-	created_item = /obj/item/weapon/sword/long/psydon
+	created_item = /obj/item/weapon/sword/long/angros
 	i_type = "Weapons"
 
 /datum/anvil_recipe/weapons/psy/whip
-	name = "Psydonian Whip (+2 Cured Leather)"
+	name = "Angrosian Whip (+2 Cured Leather)"
 	req_bar = /obj/item/ingot/silverblessed
 	craftdiff = 3
-	created_item = /obj/item/weapon/whip/psydon
+	created_item = /obj/item/weapon/whip/angros
 	additional_items = list(/obj/item/natural/hide/cured, /obj/item/natural/hide/cured)
 	i_type = "Weapons"
 

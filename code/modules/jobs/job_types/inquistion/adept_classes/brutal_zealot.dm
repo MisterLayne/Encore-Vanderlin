@@ -21,7 +21,7 @@
 // Brutal Zealot, a class balanced to town guard, with noticeably more strength but less intelligence and perception. Axe/Mace and shield focus.
 /datum/job/advclass/adept/bzealot
 	title = "Brutal Zealot"
-	tutorial = "You are a former thug who has been given a chance to redeem yourself by the Inquisitor. You serve him and Psydon with your physical strength and zeal."
+	tutorial = "You are a former thug who has been given a chance to redeem yourself by the Inquisitor. You serve him and Angros with your physical strength and zeal."
 	outfit = /datum/outfit/adept/bzealot
 	category_tags = list(CTAG_ADEPT)
 	cmode_music = 'sound/music/cmode/church/CombatInquisitor.ogg'
@@ -32,8 +32,8 @@
 		TRAIT_MEDIUMARMOR,
 		TRAIT_STEELHEARTED,
 		TRAIT_INQUISITION,
-		TRAIT_PSYDONIAN_GRIT,
-		TRAIT_PSYDONITE,
+		TRAIT_ANGROSIAN_GRIT,
+		TRAIT_ANGROSIAN,
 	)
 	mind_traits = list(TRAIT_KNOWBANDITS)
 
@@ -57,5 +57,5 @@
 	gloves = /obj/item/clothing/gloves/leather
 	backpack_contents = list(
 		/obj/item/storage/keyring/adept = 1,
-		/obj/item/weapon/knife/dagger/silver/psydon = 1
+		/obj/item/weapon/knife/dagger/silver/angros = 1
 	)

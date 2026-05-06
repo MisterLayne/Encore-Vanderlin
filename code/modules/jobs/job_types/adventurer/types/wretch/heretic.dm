@@ -94,10 +94,10 @@
 			spawned.adjust_skill_level(/datum/attribute/skill/craft/alchemy, 20)
 			ADD_TRAIT(spawned, TRAIT_DUALWIELDER, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/antag/CombatBaotha.ogg'
-		if(/datum/patron/psydon,  /datum/patron/psydon/extremist)
+		if(/datum/patron/angros,  /datum/patron/angros/extremist)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/swords, 40)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatInquisitor.ogg'
-			spawned.grant_language(/datum/language/newpsydonic)
+			spawned.grant_language(/datum/language/newunsundered)
 		else
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/swords, 40)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatInquisitor.ogg'
@@ -235,14 +235,14 @@
 			shoes = /obj/item/clothing/shoes/boots/armor
 			beltr = /obj/item/weapon/knife/dagger/steel/dirk/hertannea
 			beltl = /obj/item/weapon/knife/dagger/steel/dirk/hertannea
-		if(/datum/patron/psydon,  /datum/patron/psydon/extremist)
+		if(/datum/patron/angros,  /datum/patron/angros/extremist)
 			wrists = /obj/item/clothing/neck/psycross/gold
 			armor = /obj/item/clothing/armor/cuirass/fluted
-			cloak = /obj/item/clothing/cloak/psydontabard
-			gloves = /obj/item/clothing/gloves/chain/psydon
-			shoes = /obj/item/clothing/shoes/psydonboots
-			head = /obj/item/clothing/head/helmet/heavy/psydonhelm
-			beltr = /obj/item/weapon/sword/long/psydon
+			cloak = /obj/item/clothing/cloak/angrostabard
+			gloves = /obj/item/clothing/gloves/chain/angros
+			shoes = /obj/item/clothing/shoes/angrosboots
+			head = /obj/item/clothing/head/helmet/heavy/angroshelm
+			beltr = /obj/item/weapon/sword/long/angros
 			beltl = /obj/item/weapon/scabbard/sword
 		else
 			head = /obj/item/clothing/head/helmet/heavy/bucket

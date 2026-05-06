@@ -263,7 +263,7 @@
 			playsound(src, 'sound/misc/bug.ogg', 100, FALSE, -1)
 
 		if(5)
-			say("Oh, Psydon?")
+			say("Oh, Angros?")
 			playsound(src, 'sound/misc/machinequestion.ogg', 100, FALSE, -1)
 			sleep(30)
 			say("To be honest, I'm about PSY-DONE with this whole debate! Ha-ha-h- ...No? Too soon? Alright.")

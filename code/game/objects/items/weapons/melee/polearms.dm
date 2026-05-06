@@ -155,9 +155,9 @@
 	item_weight = 2.7 KILOGRAMS
 
 
-//................ Psydonian Spear ............... //
-/obj/item/weapon/polearm/spear/psydon
-	name = "psydonian spear"
+//................ Angrosian Spear ............... //
+/obj/item/weapon/polearm/spear/angros
+	name = "angrosian spear"
 	desc = "A polearm with a twisting trident head perfect for mangling the bodies of the impure."
 	icon = 'icons/roguetown/weapons/64/psydonite.dmi'
 	icon_state = "psyspear"
@@ -168,11 +168,11 @@
 	sellprice = 60
 	item_weight = 2.5 KILOGRAMS
 
-/obj/item/weapon/polearm/spear/psydon/Initialize(mapload)
+/obj/item/weapon/polearm/spear/angros/Initialize(mapload)
 	. = ..()
 	enchant(/datum/enchantment/silver)
 
-/obj/item/weapon/polearm/spear/psydon/getonmobprop(tag)
+/obj/item/weapon/polearm/spear/angros/getonmobprop(tag)
 	. = ..()
 	if(tag)
 		switch(tag)
@@ -459,9 +459,9 @@
 				return list("shrink" = 0.3,"sx" = -2,"sy" = -5,"nx" = 4,"ny" = -5,"wx" = 0,"wy" = -5,"ex" = 2,"ey" = -5,"nturn" = 0,"sturn" = 0,"wturn" = 0,"eturn" = 0,"nflip" = 0,"sflip" = 0,"wflip" = 0,"eflip" = 0,"northabove" = 0,"southabove" = 1,"eastabove" = 1,"westabove" = 0)
 
 
-//................ Psydonian Halberd ............... //
-/obj/item/weapon/polearm/halberd/psydon
-	name = "psydonian halberd"
+//................ Angrosian Halberd ............... //
+/obj/item/weapon/polearm/halberd/angros
+	name = "angrosian halberd"
 	desc = "A mighty halberd capable of cutting down the heretical with remarkable ease, be it effigy, man, or beast."
 	icon = 'icons/roguetown/weapons/64/psydonite.dmi'
 	icon_state = "psyhalberd"
@@ -474,12 +474,12 @@
 	sellprice = 100
 	item_weight = 3.5 KILOGRAMS
 
-/obj/item/weapon/polearm/halberd/psydon/Initialize(mapload)
+/obj/item/weapon/polearm/halberd/angros/Initialize(mapload)
 	. = ..()
 	enchant(/datum/enchantment/silver)
 	AddComponent(/datum/component/psyblessed, FALSE, 3, FALSE, 50, 1, TRUE)
 
-/obj/item/weapon/polearm/halberd/psydon/getonmobprop(tag)
+/obj/item/weapon/polearm/halberd/angros/getonmobprop(tag)
 	. = ..()
 	if(tag)
 		switch(tag)
@@ -490,7 +490,7 @@
 			if("onbelt")
 				return list("shrink" = 0.3,"sx" = -2,"sy" = -5,"nx" = 4,"ny" = -5,"wx" = 0,"wy" = -5,"ex" = 2,"ey" = -5,"nturn" = 0,"sturn" = 0,"wturn" = 0,"eturn" = 0,"nflip" = 0,"sflip" = 0,"wflip" = 0,"eflip" = 0,"northabove" = 0,"southabove" = 1,"eastabove" = 1,"westabove" = 0)
 
-/obj/item/weapon/polearm/halberd/psydon/relic
+/obj/item/weapon/polearm/halberd/angros/relic
 	name = "Sanctum"
 	desc = "These silver-tipped polearms are the bulwark of the Ordo Venatari, borrowing techniques from the Ordo Benetarus. During the early sieges, the Ordos used these to hold the horrors at bay for forty days-and-nites. A time always comes to fight - strike true."
 	icon_state = "psyhalberd"
@@ -593,7 +593,7 @@
 //................ Hoplite Spear ............... //
 /obj/item/weapon/polearm/spear/hoplite
 	name = "ancient spear"
-	desc = "A humble spear with a bronze head, a rare survivor from the battles long past that nearly destroyed Psydonia."
+	desc = "A humble spear with a bronze head, a rare survivor from the battles long past that nearly destroyed Gaia."
 	icon_state = "bronzespear"
 	max_blade_int = 200
 	melting_material = /datum/material/bronze
@@ -603,7 +603,7 @@
 
 /obj/item/weapon/polearm/spear/hoplite/winged // Winged version has +1 weapon defence and sells for a bit more, but is identical otherwise
 	name = "ancient winged spear"
-	desc = "A spear with a winged bronze head, a rare survivor from the battles long past that nearly destroyed Psydonia."
+	desc = "A spear with a winged bronze head, a rare survivor from the battles long past that nearly destroyed Gaia."
 	icon_state = "bronzespear_winged"
 	sellprice = 150 // A noble collector would love to get his/her hands on one of these spears
 	item_weight = 2.5 KILOGRAMS
@@ -727,7 +727,7 @@
 
 
 /obj/item/weapon/polearm/woodstaff/naledi
-	name = "psydonian warstaff"
+	name = "angrosian warstaff"
 	desc = "A staff carrying the black and gold insignia of the war scholars."
 	icon_state = "naledistaff"
 	force = DAMAGE_SPEARPLUS

@@ -47,7 +47,7 @@
 	attribute_sheet = /datum/attribute_holder/sheet/job/grenzelhoft
 
 	traits = list(TRAIT_MEDIUMARMOR)
-	languages = list(/datum/language/newpsydonic)
+	languages = list(/datum/language/newunsundered)
 	category_tags = list(CTAG_MERCENARY)
 	total_positions = 2
 
@@ -75,7 +75,7 @@
 	. = ..()
 	H.merctype = 2
 	if(H.dna?.species.id == SPEC_ID_HUMEN)
-		H.dna.species.native_language = "Old Psydonic"
+		H.dna.species.native_language = "Old Unsundered"
 		H.dna.species.accent_language = H.dna.species.get_accent(H.dna.species.native_language)
 
 /datum/job/advclass/mercenary/grenzelhoft/on_roundstart(mob/living/carbon/human/spawned, client/player_client)

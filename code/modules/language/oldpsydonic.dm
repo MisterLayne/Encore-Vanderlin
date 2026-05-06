@@ -1,8 +1,8 @@
-/datum/language/oldpsydonic
-	name = "Old Psydonic"
+/datum/language/oldunsundered
+	name = "Old Unsundered"
 	desc = ""
 	icon_state = "psydon"
-	spans = list(SPAN_PSYDON_OLD)
+	spans = list(SPAN_ANGROS_OLD)
 	speech_verb = "states"
 	ask_verb = "questions"
 	exclaim_verb = "shouts"

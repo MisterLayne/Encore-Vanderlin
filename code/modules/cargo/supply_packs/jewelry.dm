@@ -23,7 +23,7 @@
 	cost = 150
 	contains = /obj/item/clothing/head/crown/nyle
 
-/datum/supply_pack/jewelry/psycross // PSYDON LIVESSS RAHHHHHH
+/datum/supply_pack/jewelry/psycross // ANGROS LIVESSS RAHHHHHH
 	name = "Silver Psycross"
 	cost = 55
 	contains = /obj/item/clothing/neck/psycross/silver

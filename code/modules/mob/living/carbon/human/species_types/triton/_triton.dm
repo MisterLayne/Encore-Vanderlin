@@ -31,14 +31,14 @@
 	changesource_flags = WABBAJACK
 
 	desc = "The Children of Mjallidhorn, also known as Tritons or their colloquial name, \"Deep Folk,\" \
-	are a strange species of people that live under the waves of Psydonia. \
+	are a strange species of people that live under the waves of Gaia. \
 	Born from creatures of the deep with Mjallidhorn's guidance, \
 	these aquatic wayfarers all share a few common traits. \
 	Similar to other creatures that dwell below the surface, their eyes are dull with disuse. \
 	Tritons feel pain when gazing upon that which direct light of Visires herself illuminates. \
 	\n\n\
-	Unlike most of the people of Psydonia, their culture is often considered cold and dour; \
-	an apathetic attitude to most negative or positive news. For them, the depths of Psydonias oceans are cold and unforgiving. \
+	Unlike most of the people of Gaia, their culture is often considered cold and dour; \
+	an apathetic attitude to most negative or positive news. For them, the depths of Angrosias oceans are cold and unforgiving. \
 	Large beasts travel the waters that swallow their kin whole... \
 	but the crushing depths have provided them a hearty disposition and resistance to most threats. \
 	Born of Mjallidhorn, their normally placid emotions can swing into a wild rage when they view injustice done upon their kin at the hands of a sapient being. \

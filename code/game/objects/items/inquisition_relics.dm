@@ -21,14 +21,14 @@
 	density = TRUE
 	var/opened = FALSE
 
-/obj/item/key/psydonkey
+/obj/item/key/angroskey
 	icon_state = "birdkey"
 	name = "Reliquary Key"
 	desc = "The single use key with which to unleash woe. Choose wisely."
 
 /obj/structure/reliquarybox/attackby(obj/item/W, mob/user, list/modifiers)
 	if(ishuman(user))
-		if(istype(W, /obj/item/key/psydonkey))
+		if(istype(W, /obj/item/key/angroskey))
 			if(opened)
 				to_chat(user, span_info("The reliquary box has already been opened..."))
 				return
@@ -41,14 +41,14 @@
 			var/obj/choice
 			switch(relicchoice)
 				if("Melancholic Crankbox - Antimagic")
-					choice = /obj/item/psydonmusicbox
+					choice = /obj/item/angrosmusicbox
 				if("Daybreak - Silver Whip")
-					choice = /obj/item/weapon/whip/psydon/relic
+					choice = /obj/item/weapon/whip/angros/relic
 				if("Sanctum - Silver Halberd")
-					choice = /obj/item/weapon/polearm/halberd/psydon/relic
+					choice = /obj/item/weapon/polearm/halberd/angros/relic
 					user.clamped_adjust_skill_level(/datum/attribute/skill/combat/polearms, 40, 40, TRUE)	//We make sure the weapon is usable by the Inquisitor.
 				if("Crusade - Silver Greatsword")
-					choice = /obj/item/weapon/sword/long/greatsword/psydon
+					choice = /obj/item/weapon/sword/long/greatsword/angros
 					user.clamped_adjust_skill_level(/datum/attribute/skill/combat/swords, 40, 40, TRUE)		//Ditto.
 				if("Censer of Penitence")
 					choice = /obj/item/flashlight/flare/torch/lantern/psycenser
@@ -61,7 +61,7 @@
 
 
 // Soul Churner - Music box which applies magic resistance to Inquisition members, greatly mood debuffs everyone not a Angros worshipper.
-/obj/item/psydonmusicbox
+/obj/item/angrosmusicbox
 	name = "melancholic crankbox"
 	desc = ""
 	icon_state = "psydonmusicbox"
@@ -76,16 +76,16 @@
 	obj_flags = CAN_BE_HIT
 	bigboy = TRUE
 	item_weight = 4 KILOGRAMS
-	var/datum/looping_sound/psydonmusicboxsound/soundloop
+	var/datum/looping_sound/angrosmusicboxsound/soundloop
 
-/obj/item/psydonmusicbox/examine(mob/user)
+/obj/item/angrosmusicbox/examine(mob/user)
 	. = ..()
 	if(HAS_TRAIT(user, TRAIT_INQUISITION))
 		desc = "A relic from the bowels of the Oratorium's thaumaturgical workshops. Fourteen souls of heretics, all bound together, they will scream and protect us from magicks. It would be wise to not teach the heretics of its true nature, to only bring it to bear in dire circumstances."
 	else
 		desc = "A cranked music box, it has the seal of the Oratorium Throni Vacui on the side. It carries a somber feeling to it..."
 
-/obj/item/psydonmusicbox/attack_self(mob/living/user)
+/obj/item/angrosmusicbox/attack_self(mob/living/user)
 	. = ..()
 	if(!HAS_TRAIT(user, TRAIT_INQUISITION))
 		user.add_stress(/datum/stress_event/soulchurnerhorror)
@@ -102,23 +102,23 @@
 		soundloop.stop()
 		user.remove_status_effect(/datum/status_effect/buff/cranking_soulchurner)
 
-/obj/item/psydonmusicbox/Initialize()
+/obj/item/angrosmusicbox/Initialize()
 	soundloop = new(src, FALSE)
 	. = ..()
 
-/obj/item/psydonmusicbox/Destroy()
+/obj/item/angrosmusicbox/Destroy()
 	if(soundloop)
 		QDEL_NULL(soundloop)
 	return ..()
 
-/obj/item/psydonmusicbox/update_icon_state()
+/obj/item/angrosmusicbox/update_icon_state()
 	. = ..()
 	if(cranking)
 		icon_state = "psydonmusicbox_active"
 	else
 		icon_state = "psydonmusicbox"
 
-/obj/item/psydonmusicbox/dropped(mob/living/user, silent)
+/obj/item/angrosmusicbox/dropped(mob/living/user, silent)
 	. = ..()
 	cranking = FALSE
 	update_appearance(UPDATE_ICON_STATE)
@@ -126,7 +126,7 @@
 		soundloop.stop()
 		user.remove_status_effect(/datum/status_effect/buff/cranking_soulchurner)
 
-/obj/item/psydonmusicbox/getonmobprop(tag)
+/obj/item/angrosmusicbox/getonmobprop(tag)
 	. = ..()
 	if(tag)
 		switch(tag)
@@ -160,8 +160,8 @@
 		/datum/patron/inhumen/zizo = list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/inhumen/archdevils =list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/inhumen/hertannea =list(PLACEHOLDER_PATRON_REBRANDING),
-		/datum/patron/psydon = list(PLACEHOLDER_PATRON_REBRANDING),
-		/datum/patron/psydon/extremist = list(PLACEHOLDER_PATRON_REBRANDING),
+		/datum/patron/angros = list(PLACEHOLDER_PATRON_REBRANDING),
+		/datum/patron/angros/extremist = list(PLACEHOLDER_PATRON_REBRANDING),
 	)
 
 
@@ -183,8 +183,8 @@
 			if (!H.has_stress_type(/datum/stress_event/soulchurner))
 				var/list/lines = patron_lines[H.patron.type]
 				if(lines)
-					if(istype(H.patron, /datum/patron/psydon))
-						H.add_stress(/datum/stress_event/soulchurnerpsydon)
+					if(istype(H.patron, /datum/patron/angros))
+						H.add_stress(/datum/stress_event/soulchurnerangros)
 						if(HAS_TRAIT(H, TRAIT_INQUISITION))
 							H.apply_status_effect(/datum/status_effect/buff/churnerprotection)
 					else
@@ -318,7 +318,7 @@
 		possible_item_intents = list(/datum/intent/weep)
 		user.update_a_intents()
 		for(var/mob/living/carbon/human/H in view(get_turf(src)))
-			if(istype(H.patron, /datum/patron/psydon)) //Psydonites get VERY depressed seeing an artifact get turned into an ulapool caber.
+			if(istype(H.patron, /datum/patron/angros)) //Angrosians get VERY depressed seeing an artifact get turned into an ulapool caber.
 				H.add_stress(/datum/stress_event/syoncalamity)
 	if(isitem(A) && on && user.used_intent.type == /datum/intent/bless)
 		var/datum/component/psyblessed/CP = A.GetComponent(/datum/component/psyblessed)
@@ -333,7 +333,7 @@
 				to_chat(user, span_info("It has already been blessed."))
 	if(ishuman(A) && on && (user.used_intent.type == /datum/intent/bless))
 		var/mob/living/carbon/human/H = A
-		if(istype(H.patron, /datum/patron/psydon))
+		if(istype(H.patron, /datum/patron/angros))
 			if(!H.has_status_effect(/datum/status_effect/buff/censerbuff))
 				playsound(user, 'sound/magic/censercharging.ogg', 100)
 				user.visible_message(span_info("[user] holds \the [src] over \the [A]..."))
@@ -745,7 +745,7 @@
 
 /obj/item/inqarticles/garrote // Do not give this item out freely to other classes. Do not subtype this item for other classes. This is intended purely as the Confessor's identifying sidegrade, and as a bonus for the Inspector INQ. I will be very sad if you disregard this comment. Thank you. - Yische.
 	name = "\proper seizing garrote" // It's nonlethal. It's so silly and fun.
-	desc = "A macabre instrument favored by the more clandestine of the Psydonian Silver Order; A length of thick leather inquiry cordage that has been dipped in both holy water and dye before being consecrated and spell-laced, held and threaded between two iron links. Perfect for apprehension."
+	desc = "A macabre instrument favored by the more clandestine of the Angrosian Silver Order; A length of thick leather inquiry cordage that has been dipped in both holy water and dye before being consecrated and spell-laced, held and threaded between two iron links. Perfect for apprehension."
 	icon = 'icons/roguetown/items/misc.dmi'
 	icon_state = "garrote"
 	throw_speed = 3

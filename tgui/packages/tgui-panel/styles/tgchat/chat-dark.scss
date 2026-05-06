@@ -706,12 +706,12 @@ em {
   font-size: 1.12em;
 }
 
-.psydonic {
+.unsundered {
   font-family: "Breitkopf Fraktur", Pterra;
   font-size: 1.22em;
 }
 
-.psydonic_old {
+.unsundered_old {
   font-family: "Wernicke Schwabacher", Pterra;
   font-size: 1.23em;
 }
@@ -1601,14 +1601,14 @@ $border-width-px: $border-width * 1px;
 }
 /* ##### END ##### */
 
-/* ##### PSYDON ##### */
-.god_psydon {
+/* ##### ANGROS ##### */
+.god_angros {
   color: hsl(190.9, 36.3%, 82.2%);
   font-weight: bold;
-  animation: psydon_flicker 1s infinite;
+  animation: angros_flicker 1s infinite;
 }
 
-@keyframes psydon_flicker {
+@keyframes angros_flicker {
 	25% {
 		color: hsl(190.9, 36.3%, 82.2%);
 	}

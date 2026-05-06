@@ -89,7 +89,7 @@
 //////////////////////
 
 /obj/item/caparison/psy
-	name = "psydonite caparison"
+	name = "angrosian caparison"
 	desc = "A decorative piece of cloth meant to be used as a saddle decoration. It's adorned with Psycrosses. This one fits on a Saiga."
 	caparison_state = "psy_caparison"
 	female_caparison_state = "psy_caparison-f"

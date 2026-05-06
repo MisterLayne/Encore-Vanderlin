@@ -158,7 +158,7 @@
 
 /obj/item/clothing/armor/plate/fluted
 	name = "fluted half-plate"
-	desc = "An ornate steel cuirass, fitted with tassets and pauldrons for additional coverage. This lightweight deviation of 'plate armor' is favored by cuirassiers all across Psydonia, alongside fledging barons who've - up until now - waged their fiercest battles upon a chamberpot."
+	desc = "An ornate steel cuirass, fitted with tassets and pauldrons for additional coverage. This lightweight deviation of 'plate armor' is favored by cuirassiers all across Gaia, alongside fledging barons who've - up until now - waged their fiercest battles upon a chamberpot."
 	icon_state = "ornatehalfplate"
 
 	equip_delay_self = 6 SECONDS
@@ -168,7 +168,7 @@
 	body_parts_covered = COVERAGE_FULL // Less durability than proper plate, more expensive to manufacture, and accurate to the sprite.
 
 /obj/item/clothing/armor/plate/fluted/ornate
-	name = "psydonian half-plate"
+	name = "angrosian half-plate"
 	desc = "A sturdily made fluted half-plate armour-set, complete with pauldrons and shoulder-guards. \
 			Favored by both the Oratorium Throni Vacui and the Order of the Silver Psycross. It smells of the madness of an enduring God."
 	icon_state = "ornatehalfplate"
@@ -185,23 +185,23 @@
 	icon_state = "ordinatorplate"
 
 
-/datum/status_effect/buff/psydonic_endurance
-	id = "psydonic_endurance"
-	alert_type = /atom/movable/screen/alert/status_effect/buff/psydonic_endurance
+/datum/status_effect/buff/unsundered_endurance
+	id = "unsundered_endurance"
+	alert_type = /atom/movable/screen/alert/status_effect/buff/unsundered_endurance
 	effectedstats = list(STAT_CONSTITUTION = 1,STAT_ENDURANCE = 1)
 
-/datum/status_effect/buff/psydonic_endurance/on_apply()
+/datum/status_effect/buff/unsundered_endurance/on_apply()
 	. = ..()
 	if(HAS_TRAIT(owner, TRAIT_MEDIUMARMOR) && !HAS_TRAIT(owner, TRAIT_HEAVYARMOR))
 		ADD_TRAIT(owner, TRAIT_HEAVYARMOR, src)
 
-/datum/status_effect/buff/psydonic_endurance/on_remove()
+/datum/status_effect/buff/unsundered_endurance/on_remove()
 	. = ..()
 	REMOVE_TRAIT(owner, TRAIT_HEAVYARMOR, src)
 
-/atom/movable/screen/alert/status_effect/buff/psydonic_endurance
-	name = "Psydonic Endurance"
-	desc = "I am protected by blessed Psydonian plate armor."
+/atom/movable/screen/alert/status_effect/buff/unsundered_endurance
+	name = "Unsundered Endurance"
+	desc = "I am protected by blessed Angrosian plate armor."
 	icon_state = "buff"
 
 //.............. Gronn Armor Sets .................//

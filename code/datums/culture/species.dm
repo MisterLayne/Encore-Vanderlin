@@ -232,7 +232,7 @@
 
 /datum/culture/species/aasimar/grounded
 	name = "Grounded origin"
-	description = "Known to humens to be the most level-headed of aasimar, these were placed on Psydonia to serve a purpose there, and may vary in whether they have accomplished it at all, or been discarded."
+	description = "Known to humens to be the most level-headed of aasimar, these were placed on Gaia to serve a purpose there, and may vary in whether they have accomplished it at all, or been discarded."
 
 /datum/culture/species/aasimar/seer
 	name = "Great Tree"
@@ -264,7 +264,7 @@
 
 /datum/culture/species/dwarf/malachite
 	name = "Malachite clan"
-	description = "Known to humens as the premier jewelers of Psydonia, these dwarves are both the primary source of dwarven wedding gems, and the makers of crowns and royal rings."
+	description = "Known to humens as the premier jewelers of Gaia, these dwarves are both the primary source of dwarven wedding gems, and the makers of crowns and royal rings."
 
 /datum/culture/species/dwarf/cerargyrite
 	name = "Cerargyrite clan"

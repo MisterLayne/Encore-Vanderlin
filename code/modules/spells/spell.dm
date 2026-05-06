@@ -601,7 +601,7 @@
 				L.cursed_freak_out()
 			return sig_return | SPELL_CANCEL_CAST
 
-		if((spell_type == SPELL_MIRACLE) && HAS_TRAIT(cast_on, TRAIT_SILVER_BLESSED) && !(spell_flags & SPELL_PSYDON))
+		if((spell_type == SPELL_MIRACLE) && HAS_TRAIT(cast_on, TRAIT_SILVER_BLESSED) && !(spell_flags & SPELL_ANGROS))
 			cast_on.visible_message(span_info("[cast_on] stirs for a moment, the miracle dissipates."), span_notice("A dull warmth swells in your heart, only to fade as quickly as it arrived."))
 			playsound(cast_on, 'sound/magic/PSY.ogg', 100, FALSE, -1)
 			owner.playsound_local(owner, 'sound/magic/PSY.ogg', 100, FALSE, -1)
@@ -938,7 +938,7 @@
 
 			return TRUE
 
-		if(SPELL_PSYDONIC_MIRACLE)
+		if(SPELL_ANGROSIC_MIRACLE)
 			if(!caster.has_bloodpool_cost(used_cost))
 				if(feedback)
 					owner.balloon_alert(owner, "Need more grace to cast!")
@@ -1005,7 +1005,7 @@
 			var/mob/living/caster = owner
 			caster.adjust_bloodpool(-used_cost)
 
-		if(SPELL_PSYDONIC_MIRACLE)
+		if(SPELL_ANGROSIC_MIRACLE)
 			var/mob/living/caster = owner
 			caster.adjust_bloodpool(-used_cost)
 

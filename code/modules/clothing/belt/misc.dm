@@ -300,7 +300,7 @@
 
 /obj/item/storage/backpack/satchel/otavan
 	name = "grenzelhoftian leather satchel"
-	desc = "A made to last leather bag from the Psydonian heart of Grenzelhoft. It's Grenzelhoft's finest."
+	desc = "A made to last leather bag from the Angrosian heart of Grenzelhoft. It's Grenzelhoft's finest."
 	icon_state = "osatchel"
 	item_state = "osatchel"
 
@@ -486,10 +486,10 @@
 		if(!SEND_SIGNAL(src, COMSIG_TRY_STORAGE_INSERT, A, null, TRUE, TRUE))
 			qdel(A)
 
-/obj/item/storage/belt/leather/knifebelt/psydon/Initialize()
+/obj/item/storage/belt/leather/knifebelt/angros/Initialize()
 	. = ..()
 	for(var/i in 1 to max_storage)
-		var/obj/item/weapon/knife/throwingknife/psydon/A = new(loc)
+		var/obj/item/weapon/knife/throwingknife/angros/A = new(loc)
 		if(!SEND_SIGNAL(src, COMSIG_TRY_STORAGE_INSERT, A, null, TRUE, TRUE))
 			qdel(A)
 
@@ -511,10 +511,10 @@
 		if(!SEND_SIGNAL(src, COMSIG_TRY_STORAGE_INSERT, A, null, TRUE, TRUE))
 			qdel(A)
 
-/obj/item/storage/belt/leather/knifebelt/black/psydon/Initialize()
+/obj/item/storage/belt/leather/knifebelt/black/angros/Initialize()
 	. = ..()
 	for(var/i in 1 to max_storage)
-		var/obj/item/weapon/knife/throwingknife/psydon/A = new(loc)
+		var/obj/item/weapon/knife/throwingknife/angros/A = new(loc)
 		if(!SEND_SIGNAL(src, COMSIG_TRY_STORAGE_INSERT, A, null, TRUE, TRUE))
 			qdel(A)
 

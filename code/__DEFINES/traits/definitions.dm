@@ -321,9 +321,9 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 /// Black-bagged. More snowflaking.
 #define TRAIT_BAGGED "bagged"
 /// Pain Tolerance. Through faith, ENDURE.
-#define TRAIT_PSYDONIAN_GRIT "Psydonian Grit"
+#define TRAIT_ANGROSIAN_GRIT "Angrosian Grit"
 /// Anti-Miracles on a selective basis, anastasis / cure rot still apply. Slow passive wound healing while you have blood.
-#define TRAIT_PSYDONITE "Psydonite's Devotion"
+#define TRAIT_ANGROSIAN "Angrosian's Devotion"
 /// Capable of using Garrotes and Blackbags. Apprehension techniques.
 #define TRAIT_BLACKBAGGER "Apprehension Techniques"
 #define TRAIT_WOUNDREGEN "Wound Regeneration"
@@ -480,7 +480,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 // PATRON CURSE TRAITS
 #define TRAIT_CURSE "Curse" //source
 #define TRAIT_ATHEISM_CURSE "Curse of Atheism"
-#define TRAIT_PSYDON_CURSE "Psydon's Curse"
+#define TRAIT_ANGROS_CURSE "Angros's Curse"
 #define TRAIT_VISIRES_CURSE "Visires's Curse"
 #define TRAIT_NOC_CURSE "Akan's Curse"
 #define TRAIT_MORDSOL_CURSE "Mordsol's Curse"

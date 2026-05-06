@@ -1681,12 +1681,12 @@ ____________End of Example*/
 	name = "The PSY Book"
 	icon_state = "bibble_0" // change when sprites avaliable
 	base_icon_state = "bibble"
-	title = "psydon bible"
+	title = "angrosian bible"
 	dat = "gott.json"
 	verses_file = "strings/psybibble.txt"
 
 /obj/item/book/bibble/psy/attack(mob/living/M, mob/living/user, list/modifiers)
-	if(istype(user) && istype(user.patron, /datum/patron/psydon))
+	if(istype(user) && istype(user.patron, /datum/patron/angros))
 		if(!user.can_read(src))
 			return
 		M.apply_status_effect(/datum/status_effect/buff/blessed)

@@ -1181,21 +1181,21 @@
 	icon_state = "shrine_dendor_troll"
 
 /obj/structure/fluff/psycross/psycrucifix
-	name = "wooden psydonic crucifix"
+	name = "wooden unsundered crucifix"
 	desc = "A rarely seen symbol of absolute and devoted certainty, more common in Grenzelhoft: HE yet lives. HE yet breathes."
 	icon_state = "psycruci"
 	max_integrity = 80
 
 /obj/structure/fluff/psycross/psycrucifix/stone
-	name = "stone psydonic crucifix"
+	name = "stone unsundered crucifix"
 	desc = "Formed of stone, this great Psycross symbolises that HE is forever ENDURING. Considered a rare sight upon the Peaks."
 	icon_state = "psycruci_r"
 	max_integrity = 120
 
 /obj/structure/fluff/psycross/psycrucifix/silver
-	name = "silver psydonic crucifix"
+	name = "silver unsundered crucifix"
 	icon_state = "psycruci_s"
-	desc = "Constructed of Blessed Silver, this crucifix symbolises absolute faith in the ONE - For PSYDON WEEPS, for all mortal ilk. PSYDON WEEPS, for all who walk upon the soil. PSYDON WEEPS..."
+	desc = "Constructed of Blessed Silver, this crucifix symbolises absolute faith in the ONE - For ANGROS WEEPS, for all mortal ilk. ANGROS WEEPS, for all who walk upon the soil. ANGROS WEEPS..."
 	attacked_sound = list("sound/combat/hits/onmetal/metalimpact (1).ogg", "sound/combat/hits/onmetal/metalimpact (2).ogg")
 	max_integrity = 450
 
@@ -1405,29 +1405,29 @@
 	if(M.flash_act())
 		M.set_confusion_if_lower(power SECONDS)
 
-/obj/structure/fluff/psycross/psydon
-	name = "psydonian cross"
-	desc = "A wooden monument to Psydon. Let His name be naught but forgot'n."
+/obj/structure/fluff/psycross/angros
+	name = "angrosian cross"
+	desc = "A wooden monument to Angros. Let His name be naught but forgot'n."
 	icon_state = "psydon_wooden_cross"
 	icon = 'icons/roguetown/misc/psydon_cross.dmi'
 	divine = FALSE //this variable to my understanding is only used to prevent zizo prayers. He's dead, so he can't do anything.
 
-/obj/structure/fluff/psycross/psydon/metal
-	desc = "A metal monument to Psydon. Let His name be naught but forgot'n."
+/obj/structure/fluff/psycross/angros/metal
+	desc = "A metal monument to Angros. Let His name be naught but forgot'n."
 	icon_state = "psydon_metal_cross"
 
 //this one is meant to be uncraftable
-/obj/structure/fluff/psycross/psydon/abandoned
-	name = "overgrown psydonian cross"
+/obj/structure/fluff/psycross/angros/abandoned
+	name = "overgrown angrosian cross"
 	desc = "A decrepit monument to a dead god. Looking at it fills you with profound sadness."
 	icon_state = "psydon_abandoned_cross"
 
-/obj/structure/fluff/psycross/psydon/abandoned/examine(mob/user)
+/obj/structure/fluff/psycross/angros/abandoned/examine(mob/user)
 	. = ..()
 	if(!isliving(user))
 		return
 	var/mob/living/living_user = user
-	if(istype(living_user.patron, /datum/patron/psydon))
+	if(istype(living_user.patron, /datum/patron/angros))
 		living_user.add_stress(/datum/stress_event/painful_reminder)
 		. += " Never forget those we have lost."
 

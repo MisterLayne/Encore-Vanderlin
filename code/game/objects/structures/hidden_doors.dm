@@ -393,7 +393,7 @@ GLOBAL_LIST_EMPTY(secret_door_managers)
 	override_floor = FALSE
 	hidden_dc = 14
 	use_phrases = TRUE
-	lang = list(/datum/language/oldpsydonic)
+	lang = list(/datum/language/oldunsundered)
 
 	manager_id = "inquisition"
 	accessor_trait = TRAIT_KNOW_INQUISITION_DOORS

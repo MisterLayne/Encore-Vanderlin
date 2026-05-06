@@ -363,7 +363,7 @@
 
 /obj/item/instrument/flute // small rats approach a little when begin playing
 	name = "flute"
-	desc = "A cacophonous wind-instrument, played primarily by humens all around Psydonia."
+	desc = "A cacophonous wind-instrument, played primarily by humens all around Gaia."
 	icon_state = "flute"
 	icon_prefix = "flute" // used for inhands switch
 	dropshrink = 0.6
@@ -453,7 +453,7 @@
 	"Disciples Tower" = 'sound/instruments/psyaltery (1).ogg',
 	"Green Sleeves" = 'sound/instruments/psyaltery (2).ogg',
 	"Midyear Melancholy" = 'sound/instruments/psyaltery (3).ogg',
-	"Santa Psydonia" = 'sound/instruments/psyaltery (4).ogg',
+	"Santa Gaia" = 'sound/instruments/psyaltery (4).ogg',
 	"Le Venardine" = 'sound/instruments/psyaltery (5).ogg',
 	"Azurea Fair" = 'sound/instruments/psyaltery (6).ogg',
 	"Amoroso" = 'sound/instruments/psyaltery (7).ogg',

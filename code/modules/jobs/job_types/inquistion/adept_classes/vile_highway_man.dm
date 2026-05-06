@@ -36,8 +36,8 @@
 		TRAIT_STEELHEARTED,
 		TRAIT_INQUISITION,
 		TRAIT_BLACKBAGGER,
-		TRAIT_PSYDONIAN_GRIT,
-		TRAIT_PSYDONITE,
+		TRAIT_ANGROSIAN_GRIT,
+		TRAIT_ANGROSIAN,
 	)
 	mind_traits = list(TRAIT_KNOWBANDITS)
 
@@ -58,7 +58,7 @@
 	pants = /obj/item/clothing/pants/trou/leather
 	backpack_contents = list(
 		/obj/item/storage/keyring/adept = 1,
-		/obj/item/weapon/knife/dagger/silver/psydon = 1,
+		/obj/item/weapon/knife/dagger/silver/angros = 1,
 		/obj/item/clothing/head/inqarticles/blackbag = 1,
 		/obj/item/inqarticles/garrote = 1,
 	)

@@ -693,7 +693,7 @@
 
 /obj/item/reagent_containers/food/snacks/bread/bookbread/plum
 	name = "plum bookbread"
-	desc = "The origin of Nocsmas are shrouded in mystery, perhaps intentionally so, though some theorize it may have had its origins as an originally Psydonian holiday."
+	desc = "The origin of Nocsmas are shrouded in mystery, perhaps intentionally so, though some theorize it may have had its origins as an originally Angrosian holiday."
 	icon_state = "plum_bookbread"
 	base_icon_state = "plum_bookbread"
 	slice_path = /obj/item/reagent_containers/food/snacks/bookbreadslice/plum
@@ -2321,7 +2321,7 @@
 
 /obj/item/reagent_containers/food/snacks/griddlecake
 	name = "griddlecake"
-	desc = "Enjoyed by mercenaries throughout Psydonia, though despite their prevalence no one quite knows the origin."
+	desc = "Enjoyed by mercenaries throughout Gaia, though despite their prevalence no one quite knows the origin."
 	bitesize = 6
 	icon_state = "griddlecake"
 	tastes = list("fluffy butterdough" = 1)
@@ -2345,7 +2345,7 @@
 
 /obj/item/reagent_containers/food/snacks/griddlecake/lemon
 	name = "lemon griddlecake"
-	desc = "Enjoyed by mercenaries throughout Psydonia, though despite their prevalence no one quite knows the origin."
+	desc = "Enjoyed by mercenaries throughout Gaia, though despite their prevalence no one quite knows the origin."
 	bitesize = 6
 	icon_state = "griddlecakelemon"
 	tastes = list("fluffy butterdough" = 1, "sweet" = 1, "lemon" = 1)
@@ -2370,7 +2370,7 @@
 
 /obj/item/reagent_containers/food/snacks/griddlecake/apple
 	name = "apple griddlecake"
-	desc = "Enjoyed by mercenaries throughout Psydonia, though despite their prevalence no one quite knows the origin."
+	desc = "Enjoyed by mercenaries throughout Gaia, though despite their prevalence no one quite knows the origin."
 	bitesize = 6
 	icon_state = "griddlecakeapple"
 	tastes = list("fluffy butterdough" = 1, "sweet" = 1, "apple" = 1)
@@ -2395,7 +2395,7 @@
 
 /obj/item/reagent_containers/food/snacks/griddlecake/berry
 	name = "jacksberry griddlecake"
-	desc = "Enjoyed by mercenaries throughout Psydonia, though despite their prevalence no one quite knows the origin."
+	desc = "Enjoyed by mercenaries throughout Gaia, though despite their prevalence no one quite knows the origin."
 	bitesize = 6
 	icon_state = "griddlecakeberry"
 	tastes = list("fluffy butterdough" = 1, "sweet" = 1, "berry" = 1)

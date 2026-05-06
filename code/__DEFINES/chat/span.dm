@@ -173,7 +173,7 @@
 #define SPAN_GOD_HERTANNEA(str) ("<span class='god_hertannea'>" + str + "</span>")
 #define SPAN_GOD_ARCHDEVILS(str) ("<span class='god_archdevils'>" + str + "</span>")
 #define SPAN_GOD_ZIZO(str) ("<span class='god_zizo'>" + str + "</span>")
-#define SPAN_GOD_PSYDON(str) ("<span class='god_psydon'>" + str + "</span>")
+#define SPAN_GOD_ANGROS(str) ("<span class='god_angros'>" + str + "</span>")
 #define SPAN_GOD_GREATHUNT(str) ("<span class='god_thegreathunt'>" + str + "</span>")
 
 /* Complex Spans */

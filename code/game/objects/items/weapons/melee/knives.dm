@@ -371,9 +371,9 @@
 	. = ..()
 	enchant(/datum/enchantment/silver)
 
-//................ Psydonian Dagger ............... //
-/obj/item/weapon/knife/dagger/silver/psydon
-	name = "psydonian dagger"
+//................ Angrosian Dagger ............... //
+/obj/item/weapon/knife/dagger/silver/angros
+	name = "angrosian dagger"
 	desc = "A silver dagger favored by close range fighters of the inquisition."
 	icon = 'icons/roguetown/weapons/32/psydonite.dmi'
 	icon_state = "psydagger"
@@ -668,9 +668,9 @@
 	sellprice = 4
 	item_weight = 85 GRAMS
 
-/obj/item/weapon/knife/throwingknife/psydon
-	name = "psydonian tossblade"
-	desc = "An unconventional method of delivering silver to a heretic; but one PSYDON smiles at, all the same. Doubles as an 'actual' knife in a pinch."
+/obj/item/weapon/knife/throwingknife/angros
+	name = "angrosian tossblade"
+	desc = "An unconventional method of delivering silver to a heretic; but one ANGROS smiles at, all the same. Doubles as an 'actual' knife in a pinch."
 	icon_state = "throw_knifes"
 	item_state = "bone_dagger"
 	wdefense = GOOD_PARRY
@@ -681,7 +681,7 @@
 	melting_material = /datum/material/silver
 	item_weight = 80 GRAMS
 
-/obj/item/weapon/knife/throwingknife/psydon/Initialize(mapload)
+/obj/item/weapon/knife/throwingknife/angros/Initialize(mapload)
 	. = ..()
 	enchant(/datum/enchantment/silver)
 

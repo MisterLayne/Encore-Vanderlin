@@ -32,12 +32,12 @@
 	some nondescript bioweapon under codename 'Romero.' \
 	\n\n\
 	While genetic alteration technologies allow for a wide range of hair colours, \
-	only those considered 'natural' are allowed on missions to Psydonia. They are expected to blend in \
+	only those considered 'natural' are allowed on missions to Gaia. They are expected to blend in \
 	with the local- and strikingly similar- 'humen' species population due to difficulties of extraction. \
 	\n\n\
 	Human bodies have largely adapted to their space-faring lifestyle. Through their training, their physical \
-	abilities largely overshadow most Psydonia-native species, divine or otherwise. A human's intelligence and knowledge \
-	VASTLY dwarfs anything seen on the planet. However, the gods of Psydonia do not smile upon them. They must stay \
+	abilities largely overshadow most Gaia-native species, divine or otherwise. A human's intelligence and knowledge \
+	VASTLY dwarfs anything seen on the planet. However, the gods of Gaia do not smile upon them. They must stay \
 	covert, or face an another immediate sunbeam to their location."
 
 	default_color = "FFFFFF"

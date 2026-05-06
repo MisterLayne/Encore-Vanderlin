@@ -383,9 +383,9 @@
 				/obj/item/natural/silk = 2)
 	craftdiff = 4
 
-/datum/repeatable_crafting_recipe/sewing/weaving/chasuble_psydonite
+/datum/repeatable_crafting_recipe/sewing/weaving/chasuble_angrosian
 	name = "chasuble"
-	output = /obj/item/clothing/cloak/chasuble/psydon
+	output = /obj/item/clothing/cloak/chasuble/angros
 	requirements = list(/obj/item/natural/cloth = 1,
 				/obj/item/natural/silk = 2)
 	craftdiff = 4

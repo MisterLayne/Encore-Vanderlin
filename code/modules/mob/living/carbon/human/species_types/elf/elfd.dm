@@ -39,7 +39,7 @@
 	Zizo's spawn, the last snow elves, integrated themselves- whether gleefully or resentfully- within the dark elf culture \
 	their grandmother had carved through conquest. \
 	\n\n\
-	To most in Psydonia, a dark elf is nothing more than a servant of Zizo waiting to betray for power, \
+	To most in Gaia, a dark elf is nothing more than a servant of Zizo waiting to betray for power, \
 	leading most dark elves to remain within their safe underground strongholds. Those who breach the surface \
 	rarely receive fair treatment. \
 	Dark elves over 500 years old may remember their Mordsolian empire of old, yet few remain who were not killed or converted. \

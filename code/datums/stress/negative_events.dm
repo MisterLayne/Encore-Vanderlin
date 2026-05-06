@@ -804,7 +804,7 @@
 	desc = span_red("The horrid wails of the dead call for relief!")
 
 
-/datum/stress_event/soulchurnerpsydon
+/datum/stress_event/soulchurnerangros
 	timer = 1 MINUTES
 	stress_change = 1
 	desc = span_red("The horrid wails of the dead call for relief! I can ENDURE such calls...")

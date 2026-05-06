@@ -49,8 +49,8 @@
 		TRAIT_INQUISITION,
 		TRAIT_SILVER_BLESSED,
 		TRAIT_STEELHEARTED,
-		TRAIT_PSYDONIAN_GRIT,
-		TRAIT_PSYDONITE,
+		TRAIT_ANGROSIAN_GRIT,
+		TRAIT_ANGROSIAN,
 		TRAIT_DODGEEXPERT,
 		TRAIT_DUALWIELDER,
 		TRAIT_FOREIGNER,
@@ -69,15 +69,15 @@
 	var/gear_choice = browser_input_list(spawned, "CHOOSE YOUR RELIQUARY PIECE.", "WIELD THEM IN HIS NAME.", gear)
 	switch(gear_choice)
 		if("Knuckleduster and Knuckleduster")
-			spawned.put_in_hands(new /obj/item/weapon/knuckles/psydon(get_turf(spawned)), TRUE)
-			spawned.put_in_hands(new /obj/item/weapon/knuckles/psydon(get_turf(spawned)), TRUE)
+			spawned.put_in_hands(new /obj/item/weapon/knuckles/angros(get_turf(spawned)), TRUE)
+			spawned.put_in_hands(new /obj/item/weapon/knuckles/angros(get_turf(spawned)), TRUE)
 		if("Katar and Katar")
-			spawned.put_in_hands(new /obj/item/weapon/katar/psydon(get_turf(spawned)), TRUE)
-			spawned.put_in_hands(new /obj/item/weapon/katar/psydon(get_turf(spawned)), TRUE)
+			spawned.put_in_hands(new /obj/item/weapon/katar/angros(get_turf(spawned)), TRUE)
+			spawned.put_in_hands(new /obj/item/weapon/katar/angros(get_turf(spawned)), TRUE)
 
 /datum/outfit/job/preceptor
 	name = "Preceptor (Herr Prafekt)"
-	shoes = /obj/item/clothing/shoes/psydonboots
+	shoes = /obj/item/clothing/shoes/angrosboots
 	armor = /obj/item/clothing/armor/regenerating/skin/disciple
 	backl = /obj/item/storage/backpack/satchel/otavan
 	backpack_contents = list(

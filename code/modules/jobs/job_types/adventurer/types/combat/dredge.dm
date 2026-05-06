@@ -124,13 +124,13 @@
 			spawned.adjust_skillrank(/datum/attribute/skill/misc/reading, 1, TRUE)
 			ADD_TRAIT(spawned, TRAIT_DODGEEXPERT, TRAIT_GENERIC)
 			ADD_TRAIT(spawned, TRAIT_STEELHEARTED, TRAIT_GENERIC)
-			if(!spawned.has_language(/datum/language/newpsydonic))
-				spawned.grant_language(/datum/language/newpsydonic)
-				to_chat(spawned, "<span class='info'>I can speak New Psydonic with ,n before my speech.</span>")
-			if(!istype(spawned.patron, /datum/patron/psydon)) // don't overwrite extremist psydon
-				spawned.set_patron(/datum/patron/psydon, TRUE)
+			if(!spawned.has_language(/datum/language/newunsundered))
+				spawned.grant_language(/datum/language/newunsundered)
+				to_chat(spawned, "<span class='info'>I can speak New Unsundered with ,n before my speech.</span>")
+			if(!istype(spawned.patron, /datum/patron/angros)) // don't overwrite extremist angros
+				spawned.set_patron(/datum/patron/angros, TRUE)
 			to_chat(spawned,span_info("\
-			The Ten are false gods, and I loathe those that worship the true corpse god, Valdala. Psydon lives, my life for Psydon.")
+			The Ten are false gods, and I loathe those that worship the true corpse god, Valdala. Angros lives, my life for Angros.")
 			)
 		if("Hide")
 			spawned.adjust_skillrank(/datum/attribute/skill/misc/swimming, 1, TRUE)
@@ -506,7 +506,7 @@
 			spawned.virginity = TRUE
 			spawned.grant_language(/datum/language/elvish)
 			spawned.grant_language(/datum/language/celestial)
-			spawned.grant_language(/datum/language/oldpsydonic)
+			spawned.grant_language(/datum/language/oldunsundered)
 			to_chat(spawned,span_info("\
 			I was a scribe in my former years. I'm well-educated and can speak a couple languages.")
 			)

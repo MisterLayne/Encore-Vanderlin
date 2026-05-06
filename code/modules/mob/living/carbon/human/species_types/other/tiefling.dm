@@ -28,7 +28,7 @@
 	Many tieflings resign to seeking a solitary and nomadic life, huddled in groups outside the watchful eyes of others. \
 	They also tend to be extremely perceptive and paranoid, as luck is rarely on their side. \
 	\n\n\
-	Tieflings began appearing all over Psydonia after Hertannea's ascension within the 21st century, and were exiled in droves as the world adapted. \
+	Tieflings began appearing all over Gaia after Hertannea's ascension within the 21st century, and were exiled in droves as the world adapted. \
 	They are often mistaken as being related to her. \
 	\n\n\
 	Tieflings are incapable of reproducing with mortals, \

@@ -1,12 +1,12 @@
 #define ALL_TEMPLE_PATRONS 		list(/datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/valdala, /datum/patron/divine/mordsol, /datum/patron/divine/iliope, /datum/patron/divine/erdl, /datum/patron/divine/golerkanh, /datum/patron/divine/pomette)
 #define UNDIVIDED_TEMPLE_PATRONS list(/datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/valdala, /datum/patron/divine/mordsol, /datum/patron/divine/iliope, /datum/patron/divine/erdl, /datum/patron/divine/golerkanh, /datum/patron/divine/pomette, /datum/patron/divine/centrist)
 #define ALL_CLERIC_PATRONS 		list(/datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/valdala, /datum/patron/divine/mordsol, /datum/patron/divine/iliope, /datum/patron/divine/erdl, /datum/patron/divine/golerkanh, /datum/patron/divine/pomette)
-#define ALL_PALADIN_PATRONS 	list(/datum/patron/psydon, /datum/patron/psydon/extremist, /datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/valdala, /datum/patron/divine/mordsol, /datum/patron/divine/iliope, /datum/patron/divine/erdl, /datum/patron/divine/golerkanh, /datum/patron/divine/pomette)
+#define ALL_PALADIN_PATRONS 	list(/datum/patron/angros, /datum/patron/angros/extremist, /datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/valdala, /datum/patron/divine/mordsol, /datum/patron/divine/iliope, /datum/patron/divine/erdl, /datum/patron/divine/golerkanh, /datum/patron/divine/pomette)
 #define ALL_TEMPLAR_PATRONS 	list(/datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/pomette, /datum/patron/divine/valdala, /datum/patron/divine/mordsol, /datum/patron/divine/erdl, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/golerkanh, /datum/patron/divine/iliope)
 #define ALL_PROFANE_PATRONS 	list(/datum/patron/inhumen/archdevils, /datum/patron/inhumen/zizo, /datum/patron/inhumen/deceivers, /datum/patron/inhumen/hertannea)
-#define ALL_ICONOCLAST_PATRONS  list(/datum/patron/psydon, /datum/patron/psydon/extremist, /datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/valdala, /datum/patron/divine/mordsol, /datum/patron/divine/iliope, /datum/patron/divine/erdl, /datum/patron/divine/golerkanh, /datum/patron/divine/pomette, /datum/patron/inhumen/archdevils, /datum/patron/inhumen/zizo, /datum/patron/inhumen/deceivers, /datum/patron/inhumen/hertannea)
+#define ALL_ICONOCLAST_PATRONS  list(/datum/patron/angros, /datum/patron/angros/extremist, /datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/valdala, /datum/patron/divine/mordsol, /datum/patron/divine/iliope, /datum/patron/divine/erdl, /datum/patron/divine/golerkanh, /datum/patron/divine/pomette, /datum/patron/inhumen/archdevils, /datum/patron/inhumen/zizo, /datum/patron/inhumen/deceivers, /datum/patron/inhumen/hertannea)
 
-#define COLORFUL_PATRONS		list("Psydon", "Visires", "Akan", "Gani", "Mjallidhorn", "Valdala", "Mordsol", "Iliope", "Erdl", "Goler Kanh", "Pomette", "Archdevils", "Zizo", "Deceivers", "Hertannea", "The Great Hunt", "The Black Briar")
+#define COLORFUL_PATRONS		list("Angros", "Visires", "Akan", "Gani", "Mjallidhorn", "Valdala", "Mordsol", "Iliope", "Erdl", "Goler Kanh", "Pomette", "Archdevils", "Zizo", "Deceivers", "Hertannea", "The Great Hunt", "The Black Briar")
 #define TEMPLE_PATRON_NAMES		list("Visires", "Akan", "Gani", "Mjallidhorn", "Valdala", "Mordsol", "Iliope", "Erdl", "Goler Kanh", "Pomette")
 
 GLOBAL_LIST_INIT(curse_names, list())
@@ -343,7 +343,7 @@ Thing can move up or down an armor class by significant changes to coverage & cr
 #define ARMOR_HEAD_HELMET_BAD list("blunt" = 50, "slash" = 50, "stab" = 50, "piercing" = 20, "fire" = 0, "acid" = 0)
 #define ARMOR_HEAD_HELMET list("blunt" = 50, "slash" = 100, "stab" = 80, "piercing" = 20, "fire" = 0, "acid" = 0)
 #define ARMOR_HEAD_HELMET_VISOR list("blunt" = 40, "slash" = 100, "stab" = 80, "piercing" = 50, "fire" = 0, "acid" = 0)
-#define ARMOR_HEAD_PSYDON list("blunt" = 70, "slash" = 70, "stab" = 50, "piercing" = 30, "fire" = 0, "acid" = 0)	//Yeah they just have their own thing going on.
+#define ARMOR_HEAD_ANGROS list("blunt" = 70, "slash" = 70, "stab" = 50, "piercing" = 30, "fire" = 0, "acid" = 0)	//Yeah they just have their own thing going on.
 #define ARMOR_HEAD_LEATHER list("blunt" = 90, "slash" = 60, "stab" = 30, "piercing" = 20, "fire" = 0, "acid" = 0)
 
 // Mask Armor
@@ -620,7 +620,7 @@ BCLASS_TWIST)
 #define ARMOR_INT_CHEST_PLATE_BLACKSTEEL 600
 #define ARMOR_INT_CHEST_PLATE_STEEL 500
 #define ARMOR_INT_CHEST_PLATE_BRIGANDINE 350
-#define ARMOR_INT_CHEST_PLATE_PSYDON 400 // You get free training, less int
+#define ARMOR_INT_CHEST_PLATE_ANGROS 400 // You get free training, less int
 #define ARMOR_INT_CHEST_PLATE_IRON 375
 #define ARMOR_INT_CHEST_PLATE_DECREPIT 250
 

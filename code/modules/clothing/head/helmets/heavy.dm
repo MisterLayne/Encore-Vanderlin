@@ -30,16 +30,16 @@
 	prevent_crits = ALL_EXCEPT_BLUNT
 	block2add = FOV_BEHIND
 
-/obj/item/clothing/head/helmet/heavy/psydonbarbute
-	name = "psydonian barbute"
-	desc = "A barbute styled with Psydonian Imagery."
+/obj/item/clothing/head/helmet/heavy/angrosbarbute
+	name = "angrosian barbute"
+	desc = "A barbute styled with Angrosian Imagery."
 	icon_state = "psydonbarbute"
 	item_state = "psydonbarbute"
 	block2add = FOV_BEHIND
 
-/obj/item/clothing/head/helmet/heavy/psydonhelm
+/obj/item/clothing/head/helmet/heavy/angroshelm
 	name ="grenzelhoftian armet"
-	desc = "Headwear commonly worn by Templars in service to the Oratorium Throni Vacui. PSYDON Endures."
+	desc = "Headwear commonly worn by Templars in service to the Oratorium Throni Vacui. ANGROS Endures."
 	icon_state = "psydonarmet"
 	item_state = "psydonarmet"
 	block2add = FOV_BEHIND
@@ -487,7 +487,7 @@
 		return
 
 /obj/item/clothing/head/helmet/heavy/absolver
-	name = "psydonian conical helm"
+	name = "angrosian conical helm"
 	desc = "Its shape confounds and confuses the enemies of Angros. Offering unfound protection in its visage, the gaze is horrific to those without understanding."
 	icon_state = "absolutionisthelm"
 	item_state = "absolutionisthelm"
@@ -503,7 +503,7 @@
 	clothing_flags = NONE
 
 /obj/item/clothing/head/helmet/heavy/psybucket
-	name = "psydonian bucket helmet"
+	name = "angrosian bucket helmet"
 	desc = "Originally just a bucket with a psycross nailed on, it proved surprisingly effective, making its way into common use for inquisitorial templars. Steel encapsulates your head, and His cross facing enemies reminds them that you will endure until they meet oblivion. Only then may you rest."
 	icon_state = "psybucket"
 	item_state = "psybucket"
@@ -513,7 +513,7 @@
 	max_integrity = 400
 
 /obj/item/clothing/head/helmet/heavy/psysallet
-	name = "psydonian sallet"
+	name = "angrosian sallet"
 	desc = "A boiled leather cap, crowned with steel and veiled with His cross. Fear not - He will show you the way, and He will see your blows well-struck."
 	icon_state = "psysallet"
 	item_state = "psysallet"

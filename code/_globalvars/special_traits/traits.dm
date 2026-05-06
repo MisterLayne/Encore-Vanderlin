@@ -251,14 +251,14 @@
 		/datum/attribute/skill/misc/riding = 40,
 	)
 
-/datum/special_trait/psydons_rider
-	name = "Psydon's Drunkest Rider"
-	greet_text = span_notice("I ride! None of the laws shall stop me for that is Psydon's divine will!")
-	req_text = "Worship Psydon"
-	allowed_patrons = list(/datum/patron/psydon, /datum/patron/psydon/extremist)
+/datum/special_trait/angross_rider
+	name = "Angros's Drunkest Rider"
+	greet_text = span_notice("I ride! None of the laws shall stop me for that is Angros's divine will!")
+	req_text = "Worship Angros"
+	allowed_patrons = list(/datum/patron/angros, /datum/patron/angros/extremist)
 	weight = 100
 
-/datum/special_trait/psydons_rider/on_apply(mob/living/carbon/human/character, silent)
+/datum/special_trait/angross_rider/on_apply(mob/living/carbon/human/character, silent)
 	character.drunkenness = 50
 	for(var/i in 1 to 2)
 		var/obj/item/bottle = new /obj/item/reagent_containers/glass/bottle/wine(get_turf(character))
@@ -312,8 +312,8 @@
 	character.grant_language(/datum/language/celestial)
 	character.grant_language(/datum/language/orcish)
 	character.grant_language(/datum/language/deepspeak)
-	character.grant_language(/datum/language/newpsydonic)
-	character.grant_language(/datum/language/oldpsydonic)
+	character.grant_language(/datum/language/newunsundered)
+	character.grant_language(/datum/language/oldunsundered)
 	character.grant_language(/datum/language/zalad)
 	character.grant_language(/datum/language/thievescant)
 
@@ -335,7 +335,7 @@
 		if(4)
 			character.grant_language(/datum/language/zalad)
 		if(5)
-			character.grant_language(/datum/language/newpsydonic)
+			character.grant_language(/datum/language/newunsundered)
 		if(6)
 			character.grant_language(/datum/language/hellspeak)
 		if(7)
@@ -355,8 +355,8 @@
 	character.grant_language(/datum/language/celestial)
 	character.grant_language(/datum/language/orcish)
 	character.grant_language(/datum/language/deepspeak)
-	character.grant_language(/datum/language/newpsydonic)
-	character.grant_language(/datum/language/oldpsydonic)
+	character.grant_language(/datum/language/newunsundered)
+	character.grant_language(/datum/language/oldunsundered)
 	character.grant_language(/datum/language/zalad)
 	character.grant_language(/datum/language/thievescant)
 

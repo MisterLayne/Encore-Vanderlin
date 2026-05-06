@@ -291,7 +291,7 @@ GLOBAL_LIST_EMPTY(roundstart_species)
 
 /datum/species/proc/get_accent(language, variant = 0)
 	switch(language)
-		if("Old Psydonic", "Psydonic")
+		if("Old Unsundered", "Unsundered")
 			return strings("accents/grenz_replacement.json", "grenz")
 		if("Zalad")
 			return strings("accents/zalad_replacement.json", "arabic")
@@ -413,15 +413,15 @@ GLOBAL_LIST_EMPTY(roundstart_species)
 				/datum/language/celestial = "Celestial",
 				/datum/language/zalad = "Zalad",
 				/datum/language/deepspeak = "Deepspeak",
-				/datum/language/oldpsydonic = "Old Psydonic",
-				/datum/language/newpsydonic = "Psydonic",
+				/datum/language/oldunsundered = "Old Unsundered",
+				/datum/language/newunsundered = "Unsundered",
 				/datum/language/undead = "Zizo Chant"
 			)
 
 			if (language in language_map)
 				language_check = language_map[language]
 			var/unaccented = FALSE
-			if(((language_check == "Psydonic") && (nativelang == "Old Psydonic")) || ((language_check == "Old Psydonic") && (nativelang == "Psydonic")))
+			if(((language_check == "Unsundered") && (nativelang == "Old Unsundered")) || ((language_check == "Old Unsundered") && (nativelang == "Unsundered")))
 				unaccented = TRUE
 			else if(nativelang == language_check)
 				unaccented = TRUE

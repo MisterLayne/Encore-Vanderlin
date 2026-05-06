@@ -71,10 +71,10 @@
 	. = ..()
 	enchant(/datum/enchantment/silver)
 
-//................ Psydon Whip ............... //
-/obj/item/weapon/whip/psydon
-	name = "psydonian whip"
-	desc = "A whip fashioned with the iconography of Psydon, and crafted entirely out of silver."
+//................ Angros Whip ............... //
+/obj/item/weapon/whip/angros
+	name = "angrosian whip"
+	desc = "A whip fashioned with the iconography of Angros, and crafted entirely out of silver."
 	icon = 'icons/roguetown/weapons/32/psydonite.dmi'
 	icon_state = "psywhip"
 	force = DAMAGE_WHIP + 2
@@ -85,16 +85,16 @@
 	last_used = 0
 	item_weight = 550 GRAMS
 
-/obj/item/weapon/whip/psydon/Initialize(mapload)
+/obj/item/weapon/whip/angros/Initialize(mapload)
 	. = ..()
 	AddComponent(/datum/component/psyblessed, FALSE, 3, FALSE, 50, 1, TRUE)
 
-/obj/item/weapon/whip/psydon/relic
+/obj/item/weapon/whip/angros/relic
 	name = "Daybreak"
-	desc = "Holding this blessed silver evokes memories of the grand cathedrals, testaments to humanity’s faith. There, upon the ceiling, was painted a scene-most-beautiful: of Psydon, robed, in battle against the archdevils. Bring daelight to the faithful."
+	desc = "Holding this blessed silver evokes memories of the grand cathedrals, testaments to humanity’s faith. There, upon the ceiling, was painted a scene-most-beautiful: of Angros, robed, in battle against the archdevils. Bring daelight to the faithful."
 	item_weight = 550 GRAMS
 
-/obj/item/weapon/whip/psydon/relic/Initialize(mapload)
+/obj/item/weapon/whip/angros/relic/Initialize(mapload)
 	. = ..()					// Pre-blessed, +5 force, +100 INT, +2 Def, Silver.
 	AddComponent(/datum/component/psyblessed, TRUE, 5, FALSE, 100, 2, TRUE)
 

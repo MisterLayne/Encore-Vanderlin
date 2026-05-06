@@ -762,7 +762,7 @@ Traitors and the like can also be revived with the previous role mostly intact.
 		ADMIN_PUNISHMENT_MEATPIE,
 		ADMIN_PUNISHMENT_GODHAND,
 		ADMIN_PUNISHMENT_FORCECOLLAR,
-		ADMIN_PUNISHMENT_PSYDON,
+		ADMIN_PUNISHMENT_ANGROS,
 		ADMIN_PUNISHMENT_BLACK_BRIAR,
 	)
 
@@ -784,7 +784,7 @@ Traitors and the like can also be revived with the previous role mostly intact.
 			target.adjustOrganLoss(ORGAN_SLOT_BRAIN, 199, 199)
 		if(ADMIN_PUNISHMENT_GIB)
 			target.gib(FALSE)
-		if(ADMIN_PUNISHMENT_PSYDON)
+		if(ADMIN_PUNISHMENT_ANGROS)
 			sleep(60)
 			target.psydo_nyte()
 			target.playsound_local(target, 'sound/misc/psydong.ogg', 100, FALSE)

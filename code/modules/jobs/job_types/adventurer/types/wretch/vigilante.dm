@@ -21,7 +21,7 @@
 
 /datum/job/advclass/wretch/vigilante
 	title = "Renegade"
-	tutorial = "A renegade, deserter and a gunslinger, Favoured by Deceivers, You've turned your back on the black empire and Psydon alike, Now? you wander around Faience, wielding black powder, grit, and a gambler's instinct."
+	tutorial = "A renegade, deserter and a gunslinger, Favoured by Deceivers, You've turned your back on the black empire and Angros alike, Now? you wander around Faience, wielding black powder, grit, and a gambler's instinct."
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_PLAYER_GRENZ
 	outfit = /datum/outfit/wretch/vigilante

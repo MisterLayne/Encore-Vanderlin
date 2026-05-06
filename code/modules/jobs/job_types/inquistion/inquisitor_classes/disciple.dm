@@ -38,12 +38,12 @@
 		TRAIT_INQUISITION,
 		TRAIT_SILVER_BLESSED,
 		TRAIT_STEELHEARTED,
-		TRAIT_PSYDONIAN_GRIT,
-		TRAIT_PSYDONITE,
+		TRAIT_ANGROSIAN_GRIT,
+		TRAIT_ANGROSIAN,
 		TRAIT_FOREIGNER,
 	)
 
-	languages = list(/datum/language/oldpsydonic, /datum/language/newpsydonic)
+	languages = list(/datum/language/oldunsundered, /datum/language/newunsundered)
 
 /datum/job/advclass/sacrestant/disciple/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
@@ -52,7 +52,7 @@
 
 	var/datum/species/species = spawned.dna?.species
 	if(species)
-		species.native_language = "Old Psydonic"
+		species.native_language = "Old Unsundered"
 		species.accent_language = species.get_accent(species.native_language)
 
 /datum/job/advclass/sacrestant/disciple/on_roundstart(mob/living/carbon/human/spawned, client/player_client)
@@ -61,11 +61,11 @@
 	// I Hate
 	var/static/list/weapons = list(
 		"Discipline - Unarmed" = /obj/item/clothing/gloves/bandages/pugilist,
-		"Katar" = /obj/item/weapon/katar/psydon,
-		"Knuckledusters" = /obj/item/weapon/knuckles/psydon,
+		"Katar" = /obj/item/weapon/katar/angros,
+		"Knuckledusters" = /obj/item/weapon/knuckles/angros,
 		"Quarterstaff" = /obj/item/weapon/polearm/woodstaff/quarterstaff/steel,
 	)
-	var/weapon_choice = spawned.select_equippable(player_client, weapons, message = "TAKE UP PSYDON'S ARMS!")
+	var/weapon_choice = spawned.select_equippable(player_client, weapons, message = "TAKE UP ANGROS'S ARMS!")
 	spawned.equip_to_slot_or_del(new /obj/item/clothing/gloves/bandages/weighted, ITEM_SLOT_GLOVES, TRUE) // this will fail on the unarmed discipline
 	switch(weapon_choice)
 		if("Discipline - Unarmed")
@@ -81,18 +81,18 @@
 
 /datum/outfit/disciple
 	name = "Disciple (Sacrestants)"
-	shoes = /obj/item/clothing/shoes/psydonboots
+	shoes = /obj/item/clothing/shoes/angrosboots
 	armor = /obj/item/clothing/armor/regenerating/skin/disciple
 	backl = /obj/item/storage/backpack/satchel/otavan
 	belt = /obj/item/storage/belt/leather/rope/dark
 	pants = /obj/item/clothing/pants/tights/colored/black
 	beltl = /obj/item/storage/belt/pouch/coins/mid
-	cloak = /obj/item/clothing/cloak/psydontabard/alt
+	cloak = /obj/item/clothing/cloak/angrostabard/alt
 	ring = /obj/item/clothing/ring/signet/silver
 	neck = /obj/item/clothing/neck/psycross/silver
 	wrists = /obj/item/clothing/wrists/bracers/psythorns
 	mask = /obj/item/clothing/head/helmet/blacksteel/psythorns
-	head = /obj/item/clothing/head/roguehood/psydon
+	head = /obj/item/clothing/head/roguehood/angros
 	backpack_contents = list(
 		/obj/item/key/inquisition = 1,
 		/obj/item/paper/inqslip/arrival/ortho = 1,

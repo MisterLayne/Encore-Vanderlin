@@ -505,7 +505,7 @@ GLOBAL_LIST_INIT(featured_stats, list(
 #define MAX_CHRONICLE_STATS 8
 
 // Chronicle statistics
-#define CHRONICLE_STATS_PSYDON_FAVOURITE "psydon_favourite"
+#define CHRONICLE_STATS_ANGROS_FAVOURITE "angros_favourite"
 #define CHRONICLE_STATS_RANDOM_PASSERBY "random_passerby"
 #define CHRONICLE_STATS_MOST_SKILLS_PERSON "most_skills_person"
 #define CHRONICLE_STATS_LEAST_SKILLS_PERSON "least_skills_person"

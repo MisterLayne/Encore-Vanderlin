@@ -57,7 +57,7 @@
 		TRAIT_FEARLESS,
 		TRAIT_NOAMBUSH,
 		TRAIT_NOHYGIENE, // too cool to stink
-		TRAIT_PSYDONIAN_GRIT,
+		TRAIT_ANGROSIAN_GRIT,
 		TRAIT_NOPAINSTUN
 	)
 	antag_memory = "It's open season on all bloodsuckers. Nothing else matters.\n\
@@ -104,8 +104,8 @@
 	blade.remove_all_languages()
 	blade.grant_language(/datum/language/common)
 	blade.grant_language(/datum/language/celestial)
-	blade.grant_language(/datum/language/newpsydonic)
-	blade.grant_language(/datum/language/oldpsydonic)
+	blade.grant_language(/datum/language/newunsundered)
+	blade.grant_language(/datum/language/oldunsundered)
 	blade.add_quirk(/datum/quirk/vice/godfearing)
 
 	RegisterSignal(blade, COMSIG_PARENT_EXAMINE, PROC_REF(on_examine))
@@ -162,7 +162,7 @@
 	gloves = /obj/item/clothing/gloves/fingerless
 	ring =  /obj/item/clothing/ring/active/nomag
 
-	belt = /obj/item/storage/belt/leather/knifebelt/black/psydon
+	belt = /obj/item/storage/belt/leather/knifebelt/black/angros
 	beltl = /obj/item/gun/ballistic/powder/wheellock/puffer
 	beltr = /obj/item/ammo_holder/bullet/bullets
 	backl = /obj/item/storage/backpack/satchel/otavan
@@ -283,7 +283,7 @@
 
 /obj/item/clothing/wrists/bracers/leather/scabbard/daewalker/Initialize()
 	. = ..()
-	new /obj/item/weapon/knife/dagger/silver/psydon(src)
+	new /obj/item/weapon/knife/dagger/silver/angros(src)
 	update_appearance(UPDATE_ICON_STATE)
 
 

@@ -1373,8 +1373,8 @@
 	created_item = /obj/item/clothing/head/helmet/bascinet/atgervi
 	craftdiff = 3
 
-/datum/anvil_recipe/armor/psydonboots
-	name = "crown of psydonian thorns"
+/datum/anvil_recipe/armor/angrosboots
+	name = "crown of angrosian thorns"
 	req_bar = /obj/item/ingot/blacksteel
 	created_item = /obj/item/clothing/head/helmet/blacksteel/psythorns
 	craftdiff = 3
@@ -1386,62 +1386,62 @@
 	craftdiff = 3
 
 /datum/anvil_recipe/armor/blessedsilver/psychestplate
-	name = "Psydonic Chestplate (+1 Cured Leather)"
+	name = "Unsundered Chestplate (+1 Cured Leather)"
 	req_bar = /obj/item/ingot/silverblessed
 	additional_items = list(/obj/item/natural/hide/cured)
-	created_item = /obj/item/clothing/armor/cuirass/psydon
+	created_item = /obj/item/clothing/armor/cuirass/angros
 
 /datum/anvil_recipe/armor/blessedsilver/psycuirass
-	name = "Psydonic Cuirass (+2 Cured Leather)"
+	name = "Unsundered Cuirass (+2 Cured Leather)"
 	req_bar = /obj/item/ingot/silverblessed
 	additional_items = list(/obj/item/natural/hide/cured, /obj/item/natural/hide/cured)
 	created_item = /obj/item/clothing/armor/cuirass/ornate
 
 /datum/anvil_recipe/armor/blessedsilver/armetpsy
-	name = "Psydonic Armet"
+	name = "Unsundered Armet"
 	req_bar = /obj/item/ingot/silverblessed
-	created_item = /obj/item/clothing/head/helmet/heavy/psydonhelm
+	created_item = /obj/item/clothing/head/helmet/heavy/angroshelm
 
 /datum/anvil_recipe/armor/blessedsilver/helmsallpsy
-	name = "Psydonic Sallet (+1 Blessed Silver)"
+	name = "Unsundered Sallet (+1 Blessed Silver)"
 	req_bar = /obj/item/ingot/silverblessed
 	created_item = /obj/item/clothing/head/helmet/heavy/psysallet
 
 /datum/anvil_recipe/armor/blessedsilver/helmbucketpsy
-	name = "Psydonic Bucket Helm (+1 Blessed Silver)"
+	name = "Unsundered Bucket Helm (+1 Blessed Silver)"
 	req_bar = /obj/item/ingot/silverblessed
 	created_item = /obj/item/clothing/head/helmet/heavy/psybucket
 
 /datum/anvil_recipe/armor/blessedsilver/helmetabso
-	name = "Psydonian Conical Helm (+2 Blessed Silver)"
+	name = "Angrosian Conical Helm (+2 Blessed Silver)"
 	req_bar = /obj/item/ingot/silverblessed
 	additional_items = list(/obj/item/ingot/silverblessed, /obj/item/ingot/silverblessed)
 	created_item = /obj/item/clothing/head/helmet/heavy/absolver
 
 /datum/anvil_recipe/armor/blessedsilver/psyhalfplate
-	name = "Psydonic Half-Plate (+Psydonic Cuirass, +1 Blessed Silver, +2 Cured Leather)"
+	name = "Unsundered Half-Plate (+Unsundered Cuirass, +1 Blessed Silver, +2 Cured Leather)"
 	req_bar = /obj/item/ingot/silverblessed
 	additional_items = list(/obj/item/clothing/armor/cuirass/ornate, /obj/item/ingot/silverblessed, /obj/item/natural/hide/cured, /obj/item/natural/hide/cured)
 	created_item = /obj/item/clothing/armor/plate/fluted/ornate
 
 /datum/anvil_recipe/armor/blessedsilver/psyfullplate
-	name = "Psydonic Full-Plate (+Psydonic Half-Plate, +1 Blessed Silver, +2 Cured Leather)"
+	name = "Unsundered Full-Plate (+Unsundered Half-Plate, +1 Blessed Silver, +2 Cured Leather)"
 	req_bar = /obj/item/ingot/silverblessed
 	additional_items = list(/obj/item/clothing/armor/plate/fluted/ornate, /obj/item/ingot/silverblessed, /obj/item/natural/hide/cured, /obj/item/natural/hide/cured)
 	created_item = /obj/item/clothing/armor/plate/fluted/ornate
 
 /datum/anvil_recipe/armor/blessedsilver/psyfullplatealt
-	name = "Psydonic Full-Plate, Hauberked (+Psydonic Hauberk, +2 Blessed Silver, +2 Cured Leather)"
+	name = "Unsundered Full-Plate, Hauberked (+Unsundered Hauberk, +2 Blessed Silver, +2 Cured Leather)"
 	req_bar = /obj/item/ingot/silverblessed
 	additional_items = list(/obj/item/clothing/armor/chainmail/hauberk/fluted, /obj/item/ingot/silverblessed, /obj/item/ingot/silverblessed, /obj/item/natural/hide/cured, /obj/item/natural/hide/cured)
 	created_item = /obj/item/clothing/armor/plate/fluted/ornate
 
-/datum/anvil_recipe/armor/blessedsilver/psydonmask
-	name = "Psydonic Mask"
+/datum/anvil_recipe/armor/blessedsilver/angrosmask
+	name = "Unsundered Mask"
 	req_bar = /obj/item/ingot/silverblessed
-	created_item = /obj/item/clothing/face/facemask/psydonmask
+	created_item = /obj/item/clothing/face/facemask/angrosmask
 
-/datum/anvil_recipe/armor/blessedsilver/psydonic_gloves
-	name = "Psydonic Chain Gloves"
+/datum/anvil_recipe/armor/blessedsilver/unsundered_gloves
+	name = "Unsundered Chain Gloves"
 	req_bar = /obj/item/ingot/silverblessed
-	created_item = /obj/item/clothing/gloves/chain/psydon
+	created_item = /obj/item/clothing/gloves/chain/angros

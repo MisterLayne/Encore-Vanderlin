@@ -20,7 +20,7 @@
 /datum/job/advclass/mercenary/sworddancer
 	title = "Sword Dancer"
 	tutorial = "You were a former bard, but when times got tough you picked up a blade to defend yourself. \
-	Now you travel the lands of Psydonia, selling your sword and your songs to the highest bidder."
+	Now you travel the lands of Gaia, selling your sword and your songs to the highest bidder."
 	allowed_races = list(SPEC_ID_TIEFLING)
 	outfit = /datum/outfit/mercenary/sworddancer
 	category_tags = list(CTAG_MERCENARY)

@@ -31,7 +31,7 @@
 
 /datum/quirk/vice/luxless
 	name = "Lux-less"
-	desc = "Through some grand misfortune, or heroic sacrifice - you have given up your link to Psydon, and with it - your soul. A putrid, horrid thing, you consign yourself to an eternity of nil after death. EXPECT A DIFFICULT, MECHANICALLY UNFAIR EXPERIENCE. (Rakshari, Hollowkin and Kobolds cannot take this - they already have no lux.)"
+	desc = "Through some grand misfortune, or heroic sacrifice - you have given up your link to Angros, and with it - your soul. A putrid, horrid thing, you consign yourself to an eternity of nil after death. EXPECT A DIFFICULT, MECHANICALLY UNFAIR EXPERIENCE. (Rakshari, Hollowkin and Kobolds cannot take this - they already have no lux.)"
 	point_value = 5
 	random_exempt = TRUE
 	blocked_species = list(
@@ -467,7 +467,7 @@
 
 /datum/quirk/vice/suspicion
 	name = "Inquisitorial Suspicion"
-	desc = "The inquisition suspects me of heresy, whether truthfully or not... Expect a harder experience, as some only require a suspicion to administer Psydon's Justice."
+	desc = "The inquisition suspects me of heresy, whether truthfully or not... Expect a harder experience, as some only require a suspicion to administer Angros's Justice."
 	point_value = 1
 	customization_type = QUIRK_TEXT
 	customization_label = "Why do they suspect me?"

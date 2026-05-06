@@ -11,7 +11,7 @@
 	allowed_race = SPECIES_BASE_BODY
 	nodismemsleeves = TRUE
 
-/obj/item/clothing/cloak/chasuble/psydon
+/obj/item/clothing/cloak/chasuble/angros
 	name = "chasuble"
 	desc = "Pristine white liturgical vestments with a golden psycross adornment."
 	icon_state = "chasuble_psydon"
