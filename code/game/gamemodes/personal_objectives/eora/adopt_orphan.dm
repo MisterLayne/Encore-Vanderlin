@@ -26,12 +26,12 @@
 /datum/objective/personal/adopt_orphan/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("You've adopted a child, completing Pomette's objective!"))
-	adjust_storyteller_influence(EORA, 20)
+	adjust_storyteller_influence(POMETTE, 20)
 	UnregisterSignal(owner.current, COMSIG_ORPHAN_ADOPTED)
 
 /datum/objective/personal/adopt_orphan/reward_owner()
 	. = ..()
-	owner.current.adjust_stat_modifier(STATMOD_EORA_BLESSING, list(STAT_FORTUNE = 1))
+	owner.current.adjust_stat_modifier(STATMOD_POMETTE_BLESSING, list(STAT_FORTUNE = 1))
 
 /datum/objective/personal/adopt_orphan/update_explanation_text()
 	explanation_text = "Adopt an orphan as your own child and provide them a loving home! Pomette is counting on you!"

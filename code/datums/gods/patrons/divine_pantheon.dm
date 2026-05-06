@@ -1,7 +1,7 @@
 GLOBAL_LIST_INIT(patron_sound_themes, list(
 	VISIRES = 'sound/magic/bless.ogg',
 	AKAN = 'sound/ambience/noises/mystical (4).ogg',
-	EORA = 'sound/vo/female/gen/giggle (1).ogg',
+	POMETTE = 'sound/vo/female/gen/giggle (1).ogg',
 	GANI = 'sound/magic/barbroar.ogg',
 	MALUM = 'sound/magic/dwarf_chant01.ogg',
 	ILIOPE = 'sound/misc/gods/xylix_omen.ogg',
@@ -228,8 +228,8 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	storyteller = /datum/storyteller/malum
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/malum
 
-/datum/patron/divine/eora
-	name = EORA
+/datum/patron/divine/pomette
+	name = POMETTE
 	domain = "Goddess of Love, Family, and Art"
 	desc = "Crafted from the heart of Psydon, a spreader of love and beauty, and strengthener of bonds."
 	flaws= "Naivete, Impulsiveness, Bigotry"
@@ -237,11 +237,11 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	sins = "Sadism, Abandonment, Ruining Beauty"
 	boons = "You can understand others' needs better."
 	added_traits = list(TRAIT_EXTEROCEPTION)
-	devotion_holder = /datum/devotion/divine/eora
+	devotion_holder = /datum/devotion/divine/pomette
 	confess_lines = list(
-		"EORA BRINGS US TOGETHER!",
+		"POMETTE BRINGS US TOGETHER!",
 		"HER BEAUTY IS EVEN IN THIS TORMENT!",
 		"I LOVE YOU, EVEN AS YOU TRESPASS AGAINST ME!",
 	)
-	storyteller = /datum/storyteller/eora
-	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/eora
+	storyteller = /datum/storyteller/pomette
+	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/pomette

@@ -47,11 +47,11 @@
 	desc = "A simple covering of green cloth, meant to keep rot and blood alike off its wearer."
 	icon_state = "pestratabard"
 
-/obj/item/clothing/cloak/templar/eoran
+/obj/item/clothing/cloak/templar/pomettic
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/cloaks.dmi'
 	alternate_worn_layer = TABARD_LAYER
 	boobed = TRUE
-	name = "eoran tabard"
+	name = "pomettic tabard"
 	desc = "A complex covering of translucent pink and beige clothes. They carry the scent of flowers in them."
 	icon_state = "eoratabard"
 
@@ -130,8 +130,8 @@
 	user.update_inv_cloak()
 	user.update_inv_armor()
 
-/obj/item/clothing/cloak/templar/eora
-	name = "eora tabard"
+/obj/item/clothing/cloak/templar/pomette
+	name = "pomette tabard"
 	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Pomette on it."
 	icon_state = "tabard_eora"
 	alternate_worn_layer = TABARD_LAYER

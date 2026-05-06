@@ -401,7 +401,7 @@
 	icon_state = "bestialsense"
 
 /*-----------------\
-|   Eora Miracles  |
+|   Pomette Miracles  |
 \-----------------*/
 
 /datum/status_effect/buff/divine_beauty

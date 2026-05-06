@@ -103,7 +103,7 @@
 		if("Malum")
 			atmosphere_message = SPAN_GOD_MALUM("Your perspective abruptly shifts on the world. Every wall, every gate, even the pavement you’d walk onto clicks to you. The whole world is a big puzzle, a feat of engineering to the inspired mind. Your mind races with ideas, striking you with plan after plan. A loud sizzle snaps you out of this trance, someone speaks to you in a tempered, detached voice, with few words. Direct, and to the point, as if preoccupied with something.")
 		if("Eora")
-			atmosphere_message = SPAN_GOD_EORA("All manner of troubles seem to evaporate. Everyone, everything around you appeals to have grown softer, more docile. A comfort akin to a mother tucking in her child, your worries are hushed away for now. Amidst this dreamy state, a soft-spoken, appeasing voice cradles your mind. Her tone is compassionate, as if she were right there with you.")
+			atmosphere_message = SPAN_GOD_POMETTE("All manner of troubles seem to evaporate. Everyone, everything around you appeals to have grown softer, more docile. A comfort akin to a mother tucking in her child, your worries are hushed away for now. Amidst this dreamy state, a soft-spoken, appeasing voice cradles your mind. Her tone is compassionate, as if she were right there with you.")
 		if("Iliope")
 			atmosphere_message = SPAN_GOD_ILIOPE("Life is so comical… the drama you will cause will be astronomical! Wouldn’t you just love a show, you should’ve been laughing five minutes ago! The air is light and witty, you begin to truly enjoy this city… Ambiguous is this voice… festive,whimsical, and carefree.. The peak of free choice!")
 		if("Erdl")

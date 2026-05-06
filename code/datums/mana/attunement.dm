@@ -272,7 +272,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 		/datum/patron/divine/akan = 0.15,
 		/datum/patron/divine/necra = 0.15,
 		/datum/patron/divine/iliope = 0.15,
-		/datum/patron/divine/eora = 0.15,
+		/datum/patron/divine/pomette = 0.15,
 		/datum/patron/divine/ravox = 0.15,
 	)
 
@@ -293,7 +293,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 
 	alignments = list(
 		/datum/patron/divine/necra = 1,
-		/datum/patron/divine/eora = 0.6,
+		/datum/patron/divine/pomette = 0.6,
 		/datum/patron/inhumen/matthios = 0.75,
 	)
 

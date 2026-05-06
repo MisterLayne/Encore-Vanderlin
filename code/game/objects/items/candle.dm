@@ -131,16 +131,16 @@
 	start_lit = TRUE
 	icon_state = "darkskullcandle_lit"
 
-/obj/item/candle/eora
+/obj/item/candle/pomette
 	icon = 'icons/roguetown/items/lighting.dmi'
-	name = "eora's candle"
+	name = "pomette's candle"
 	desc = ""
 	color = "#f858b5ff"
 	light_color = "#ff13d8ff"
 	infinite = TRUE
 	base_icon_state = "eora's candle"
 
-/obj/item/candle/eora/lit
+/obj/item/candle/pomette/lit
 	start_lit = TRUE
 	icon_state = "candle1_lit"
 

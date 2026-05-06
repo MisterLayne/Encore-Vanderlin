@@ -385,7 +385,7 @@ GLOBAL_LIST_EMPTY(tennite_schisms)
 	var/highest_influence = 0
 	var/visires_influence = get_storyteller_influence(VISIRES) || 0
 
-	for(var/type in subtypesof(/datum/patron/divine) - list(/datum/patron/divine/visires, /datum/patron/divine/eora))
+	for(var/type in subtypesof(/datum/patron/divine) - list(/datum/patron/divine/visires, /datum/patron/divine/pomette))
 		var/datum/patron/divine/god = GLOB.patrons_by_type[type]
 		if(!god)
 			continue

@@ -197,7 +197,7 @@
 	icon_state = "hellgrass"
 	neighborlay = "hellgrass"
 
-/turf/open/floor/grass/eora
+/turf/open/floor/grass/pomette
 	icon_state = "hellgrass"
 	neighborlay = "hellgrass"
 

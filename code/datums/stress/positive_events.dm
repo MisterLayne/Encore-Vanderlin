@@ -162,7 +162,7 @@
 	stress_change = 0
 	desc = span_green("A fellow Triton, looking good!")
 
-/datum/stress_event/eora
+/datum/stress_event/pomette
 	stress_change = -4
 	timer = INFINITY
 	desc = span_boldgreen("Pomette brings me peace.")

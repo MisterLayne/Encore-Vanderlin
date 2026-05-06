@@ -151,9 +151,9 @@
 	craftdiff = 3
 	category = "Hat"
 
-/datum/repeatable_crafting_recipe/sewing/weaving/eorahood
-	name = "hood (eora)"
-	output = /obj/item/clothing/head/roguehood/eora
+/datum/repeatable_crafting_recipe/sewing/weaving/pomettehood
+	name = "hood (pomette)"
+	output = /obj/item/clothing/head/roguehood/pomette
 	requirements = list(/obj/item/natural/cloth = 2,
 				/obj/item/natural/silk = 1,
 				/obj/item/natural/thorn = 3)
@@ -176,7 +176,7 @@
 	craftdiff = 3
 	category = "Hat"
 
-/datum/repeatable_crafting_recipe/sewing/weaving/eoramask
+/datum/repeatable_crafting_recipe/sewing/weaving/pomettemask
 	name = "mask (Pomette)"
 	output = /obj/item/clothing/face/operavisage
 	requirements = list(/obj/item/ingot/silver = 1,
@@ -283,9 +283,9 @@
 				/obj/item/natural/silk = 1)
 	craftdiff = 4
 
-/datum/repeatable_crafting_recipe/sewing/weaving/eorarobe
+/datum/repeatable_crafting_recipe/sewing/weaving/pometterobe
 	name = "robes (Pomette)"
-	output = /obj/item/clothing/shirt/robe/eora
+	output = /obj/item/clothing/shirt/robe/pomette
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/silk = 1)
 	craftdiff = 4
@@ -483,9 +483,9 @@
 	sellprice = 60
 	category = "Armor"
 
-/datum/repeatable_crafting_recipe/sewing/weaving/eorastraps
-	name = "straps (eora)"
-	output = /obj/item/clothing/shirt/robe/eora/alt
+/datum/repeatable_crafting_recipe/sewing/weaving/pomettestraps
+	name = "straps (pomette)"
+	output = /obj/item/clothing/shirt/robe/pomette/alt
 	requirements = list(/obj/item/ingot/gold = 1,
 				/obj/item/natural/silk = 5,
 				)

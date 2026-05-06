@@ -12,7 +12,7 @@
 		/datum/patron/divine/necra = /datum/curse/necra,
 		/datum/patron/divine/iliope = /datum/curse/iliope,
 		/datum/patron/divine/erdl = /datum/curse/erdl,
-		/datum/patron/divine/eora = /datum/curse/eora,
+		/datum/patron/divine/pomette = /datum/curse/pomette,
 		/datum/patron/inhumen/zizo = /datum/curse/zizo/minor,
 		/datum/patron/inhumen/matthios = /datum/curse/matthios,
 		/datum/patron/inhumen/baotha = /datum/curse/baotha,

@@ -224,7 +224,7 @@
         ),
 
 		/// Pomette
-		/datum/patron/divine/eora = list(
+		/datum/patron/divine/pomette = list(
 			/datum/status_effect/buff/beastsense = "Pomette whispers: \"Even the beasts know love's call.\"",
 			/datum/status_effect/buff/trollshape = "Pomette coos: \"Strong arms, tender heart.\"",
 			/datum/status_effect/buff/divine_beauty = "Pomette smiles: \"You shine, beloved. All gaze upon you with wonder.\"",

@@ -189,8 +189,8 @@
 	icon_state = "tabard_malum"
 	item_state = "tabard_malum"
 
-/obj/item/clothing/cloak/stabard/templar/eora
-	name = "surcoat of the eoran order"
+/obj/item/clothing/cloak/stabard/templar/pomette
+	name = "surcoat of the pomettic order"
 	icon_state = "tabard_eora"
 	item_state = "tabard_eora"
 

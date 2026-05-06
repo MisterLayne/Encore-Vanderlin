@@ -75,7 +75,7 @@
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
 		if(/datum/patron/divine/malum)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatOutlander2.ogg'
-		if(/datum/patron/divine/eora)
+		if(/datum/patron/divine/pomette)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatEora.ogg'
 			spawned.virginity = FALSE
 			ADD_TRAIT(spawned, TRAIT_BEAUTIFUL, JOB_TRAIT)
@@ -146,6 +146,6 @@
 		if(/datum/patron/divine/malum)
 			head = /obj/item/clothing/head/helmet/heavy/necked/malumhelm
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/malum
-		if(/datum/patron/divine/eora)
-			head = /obj/item/clothing/head/helmet/sallet/eoran
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/eora
+		if(/datum/patron/divine/pomette)
+			head = /obj/item/clothing/head/helmet/sallet/pomettic
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/pomette

@@ -1002,9 +1002,9 @@
 	craftdiff = 3
 	category = "Cloak"
 
-/datum/repeatable_crafting_recipe/sewing/eoratemplar
-	name = "eoran surcoat"
-	output = /obj/item/clothing/cloak/stabard/templar/eora
+/datum/repeatable_crafting_recipe/sewing/pomettetemplar
+	name = "pomettic surcoat"
+	output = /obj/item/clothing/cloak/stabard/templar/pomette
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3
@@ -1497,9 +1497,9 @@
 	craftdiff = 1
 	category = "Tabard"
 
-/datum/repeatable_crafting_recipe/sewing/eoran_tabard
-	name = "eoran tabard"
-	output = /obj/item/clothing/cloak/templar/eoran
+/datum/repeatable_crafting_recipe/sewing/pomettic_tabard
+	name = "pomettic tabard"
+	output = /obj/item/clothing/cloak/templar/pomettic
 	requirements = list(
 		/obj/item/natural/cloth = 2,
 		/obj/item/natural/fibers = 1
@@ -1528,9 +1528,9 @@
 	category = "Tabard"
 
 // Detailed Tabards
-/datum/repeatable_crafting_recipe/sewing/eora_tabard
-	name = "eora tabard"
-	output = /obj/item/clothing/cloak/templar/eora
+/datum/repeatable_crafting_recipe/sewing/pomette_tabard
+	name = "pomette tabard"
+	output = /obj/item/clothing/cloak/templar/pomette
 	requirements = list(
 		/obj/item/natural/cloth = 2,
 		/obj/item/natural/fibers = 1
@@ -1794,9 +1794,9 @@
 	name = "visires caparison"
 	output =/obj/item/caparison/visires
 
-/datum/repeatable_crafting_recipe/sewing/caparison/eora
-	name = "eoran caparison"
-	output =/obj/item/caparison/eora
+/datum/repeatable_crafting_recipe/sewing/caparison/pomette
+	name = "pomettic caparison"
+	output =/obj/item/caparison/pomette
 
 /datum/repeatable_crafting_recipe/sewing/caparison/honse
 	name = "honse caparison"

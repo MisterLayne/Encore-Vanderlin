@@ -32,7 +32,7 @@
 #define STATMOD_MALUM_BLESSING "malum_blessing"
 #define STATMOD_ERDL_BLESSING "erdl_blessing"
 #define STATMOD_GANI_BLESSING "gani_blessing"
-#define STATMOD_EORA_BLESSING "eora_blessing"
+#define STATMOD_POMETTE_BLESSING "pomette_blessing"
 #define STATMOD_RAVOX_BLESSING "ravox_blessing"
 #define STATMOD_ILIOPE_BLESSING "iliope_blessing"
 
@@ -45,7 +45,7 @@
 #define STATMOD_ILIOPE_FORTUNE "iliope_fortune"
 #define STATMOD_RAVOX_RESOLVE "ravox_resolve"
 #define STATMOD_GRAGGAR_CULLING "graggar_culling"
-#define STATMOD_EORA_MARRIAGE "eora_marriage"
+#define STATMOD_POMETTE_MARRIAGE "pomette_marriage"
 
 // Spells
 #define STATMOD_EQUALIZE "Equalized"

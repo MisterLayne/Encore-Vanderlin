@@ -487,7 +487,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_NECRA_CURSE "Necra's Curse"
 #define TRAIT_ILIOPE_CURSE "Iliope's Curse"
 #define TRAIT_ERDL_CURSE "Erdl's Curse"
-#define TRAIT_EORA_CURSE "Eora's Curse"
+#define TRAIT_POMETTE_CURSE "Pomette's Curse"
 #define TRAIT_ZIZO_CURSE "Zizo's Curse"
 #define TRAIT_GRAGGAR_CURSE "Graggar's Curse"
 #define TRAIT_MATTHIOS_CURSE "Matthios' Curse"

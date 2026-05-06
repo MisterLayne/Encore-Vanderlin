@@ -277,7 +277,7 @@
 
 /obj/item/instrument/lute
 	name = "lute"
-	desc = "The favored instrument of Eora, made of wood and simple string."
+	desc = "The favored instrument of Pomette, made of wood and simple string."
 	possible_item_intents = list(MACE_WDSTRIKE)
 	force = 5
 	icon_state = "lute"
@@ -348,7 +348,7 @@
 	"Mjallidhorn's Second Shanty" = 'sound/instruments/band/harp (b1).ogg',
 	"Through Thine Window, He Glanced" = 'sound/instruments/harp (1).ogg',
 	"The Lady of Red Silks" = 'sound/instruments/harp (2).ogg',
-	"Eora Doth Watches" = 'sound/instruments/harp (3).ogg',
+	"Pomette Doth Watches" = 'sound/instruments/harp (3).ogg',
 	"Dance of the Mages" = 'sound/instruments/harp (4).ogg',
 	"Trickster Wisps" = 'sound/instruments/harp (5).ogg',
 	"On the Breeze" = 'sound/instruments/harp (6).ogg',

@@ -309,15 +309,15 @@
 		)
 	)
 
-/datum/storyteller/eora
-	name = EORA
+/datum/storyteller/pomette
+	name = POMETTE
 	desc = "Pomette hates death and promotes love. Raids will never naturally progress, only death will bring them."
 	welcome_text = "Life shall flourish under my watchful gaze."
 	color_theme = "#9966CC"
 	roundstart_prob = 50
 
 	tag_multipliers = list(
-		TAG_EORA = 3,
+		TAG_POMETTE = 3,
 		TAG_BOON = 1.75,
 		TAG_WIDESPREAD = 1.5,
 	)

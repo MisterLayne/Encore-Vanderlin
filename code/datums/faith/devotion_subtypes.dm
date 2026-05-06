@@ -129,20 +129,20 @@
 	)
 	traits = list(TRAIT_DIVINE_SERVANT)
 
-/datum/devotion/divine/eora
+/datum/devotion/divine/pomette
 	miracles = list(
 		CLERIC_T0 = /datum/action/cooldown/spell/healing,
 		CLERIC_T1 = /datum/action/cooldown/spell/instill_perfection,
-		CLERIC_T2 = /datum/action/cooldown/spell/projectile/eora_curse,
-		CLERIC_T3 = /datum/action/cooldown/spell/eoran_bloom,
+		CLERIC_T2 = /datum/action/cooldown/spell/projectile/pomette_curse,
+		CLERIC_T3 = /datum/action/cooldown/spell/pomettic_bloom,
 	)
 	favored_species = list(SPEC_ID_HARPY)
 	favored_miracles = list(
-		CLERIC_T3 = /datum/action/cooldown/spell/charm/eoran
+		CLERIC_T3 = /datum/action/cooldown/spell/charm/pomettic
 	)
 	viable_tasks = list(
-		/datum/devotion_task/eora_create,
-		/datum/devotion_task/eora_hug,
+		/datum/devotion_task/pomette_create,
+		/datum/devotion_task/pomette_hug,
 	)
 	traits = list(TRAIT_DIVINE_SERVANT)
 

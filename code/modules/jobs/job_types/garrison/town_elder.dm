@@ -299,7 +299,7 @@
 		/datum/attribute/skill/misc/music = 40
 	)
 
-/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/eora
+/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/pomette
 	raw_attribute_list = list(
 		/datum/attribute/skill/misc/music = 20
 	)
@@ -382,11 +382,11 @@
 		if(/datum/patron/divine/necra)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatGravekeeper.ogg'
 			ADD_TRAIT(spawned, TRAIT_DEADNOSE, TRAIT_GENERIC)
-		if(/datum/patron/divine/eora)
+		if(/datum/patron/divine/pomette)
 			ADD_TRAIT(spawned, TRAIT_BEAUTIFUL, TRAIT_GENERIC)
 			ADD_TRAIT(spawned, TRAIT_EMPATH, TRAIT_GENERIC)
 			spawned.virginity = FALSE
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/eora)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/pomette)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatEora.ogg'
 		if(/datum/patron/divine/akan)
 			spawned.adjust_skill_level(/datum/attribute/skill/labor/mathematics, 20)
@@ -470,8 +470,8 @@
 			neck = /obj/item/clothing/neck/psycross/silver/divine/visires
 		if(/datum/patron/divine/necra)
 			neck = /obj/item/clothing/neck/psycross/silver/divine/necra
-		if(/datum/patron/divine/eora)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/eora
+		if(/datum/patron/divine/pomette)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/pomette
 		if(/datum/patron/divine/akan)
 			neck = /obj/item/clothing/neck/psycross/silver/divine/akan
 		if(/datum/patron/divine/erdl)

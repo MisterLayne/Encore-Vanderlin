@@ -152,7 +152,7 @@
 		/datum/patron/divine/mjallidhorn = list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/divine/ravox = list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/divine/erdl = list(PLACEHOLDER_PATRON_REBRANDING),
-		/datum/patron/divine/eora  =list(PLACEHOLDER_PATRON_REBRANDING),
+		/datum/patron/divine/pomette  =list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/divine/gani =list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/divine/iliope  =list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/divine/malum =list(PLACEHOLDER_PATRON_REBRANDING),

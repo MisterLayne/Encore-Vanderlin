@@ -377,12 +377,12 @@
 	created_item = /obj/item/clothing/head/helmet/visored/sallet/iron
 	craftdiff = 2
 
-/datum/anvil_recipe/armor/iron/eoran_sallet
-	name = "Eoran Sallet (+Bar)"
-	recipe_name = "an Eoran Sallet"
+/datum/anvil_recipe/armor/iron/pomettic_sallet
+	name = "Pomettic Sallet (+Bar)"
+	recipe_name = "a Pomettic Sallet"
 	req_bar = /obj/item/ingot/iron
 	additional_items = list(/obj/item/ingot/iron)
-	created_item = /obj/item/clothing/head/helmet/sallet/eoran
+	created_item = /obj/item/clothing/head/helmet/sallet/pomettic
 	craftdiff = 2
 
 /datum/anvil_recipe/armor/iron/helmetknight

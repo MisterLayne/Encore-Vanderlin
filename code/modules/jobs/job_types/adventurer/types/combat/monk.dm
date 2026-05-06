@@ -70,8 +70,8 @@
 			neck = /obj/item/clothing/neck/psycross/silver/divine/visires
 		if(/datum/patron/divine/necra) // Necra acolytes are now gravetenders
 			neck = /obj/item/clothing/neck/psycross/silver/divine/necra
-		if(/datum/patron/divine/eora)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/eora
+		if(/datum/patron/divine/pomette)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/pomette
 		if(/datum/patron/divine/akan)
 			neck = /obj/item/clothing/neck/psycross/silver/divine/akan
 		if(/datum/patron/divine/erdl)

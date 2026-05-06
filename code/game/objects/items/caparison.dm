@@ -100,11 +100,11 @@
 	caparison_state = "astra_caparison"
 	female_caparison_state = "astra_caparison-f"
 
-/obj/item/caparison/eora
-	name = "eoran caparison"
-	desc = "A decorative piece of cloth meant to be used as a saddle decoration. It's adorned with Eoran hearts. This one fits on a Saiga."
-	caparison_state = "eora_caparison"
-	female_caparison_state = "eora_caparison-f"
+/obj/item/caparison/pomette
+	name = "pomettic caparison"
+	desc = "A decorative piece of cloth meant to be used as a saddle decoration. It's adorned with Pomettic hearts. This one fits on a Saiga."
+	caparison_state = "pomette_caparison"
+	female_caparison_state = "pomette_caparison-f"
 
 /obj/item/caparison/azure
 	name = "azurean caparison"

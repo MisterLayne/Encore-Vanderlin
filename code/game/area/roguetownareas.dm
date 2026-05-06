@@ -194,8 +194,8 @@
 
 	threat_region = THREAT_REGION_COAST
 
-/area/outdoors/eora
-	name = "eoran grove"
+/area/outdoors/pomette
+	name = "pomettic grove"
 	icon_state = "eora"
 	droning_index = DRONING_FOREST_DAY
 	background_track = 'sound/music/area/eora.ogg'

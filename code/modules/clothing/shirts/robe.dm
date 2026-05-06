@@ -81,14 +81,14 @@
 	desc = "Nature nurtures us and we, in turn, will nurture it back in the end."
 	icon_state = "dendorrobe"
 
-/obj/item/clothing/shirt/robe/eora
-	name = "eoran robe"
+/obj/item/clothing/shirt/robe/pomette
+	name = "pomettic robe"
 	desc = "Holy robes, intended for use by followers of Pomette"
 	icon_state = "eorarobes"
 
-/obj/item/clothing/shirt/robe/eora/alt
-	name = "eoran straps"
-	desc = "Sanctified, form fitting straps. Used by more radical followers of the Eoran Church"
+/obj/item/clothing/shirt/robe/pomette/alt
+	name = "pomettic straps"
+	desc = "Sanctified, form fitting straps. Used by more radical followers of the Pomettic Church"
 	icon_state = "eorastraps"
 
 /obj/item/clothing/shirt/robe/necra

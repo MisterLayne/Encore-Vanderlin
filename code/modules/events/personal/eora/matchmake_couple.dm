@@ -1,19 +1,19 @@
-/datum/round_event_control/eora_marriage
+/datum/round_event_control/pomette_marriage
 	name = "Marriage Broker"
 	track = EVENT_TRACK_PERSONAL
-	typepath = /datum/round_event/eora_marriage
+	typepath = /datum/round_event/pomette_marriage
 	weight = 7
 	earliest_start = 15 MINUTES
 	max_occurrences = 1
 	min_players = 35
 
 	tags = list(
-		TAG_EORA,
+		TAG_POMETTE,
 		TAG_BOON,
 		TAG_WIDESPREAD,
 	)
 
-/datum/round_event_control/eora_marriage/canSpawnEvent(players_amt, gamemode, fake_check)
+/datum/round_event_control/pomette_marriage/canSpawnEvent(players_amt, gamemode, fake_check)
 	. = ..()
 	if(!.)
 		return FALSE
@@ -21,19 +21,19 @@
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(!istype(H) || H.stat == DEAD || !H.client)
 			continue
-		if(!H.patron || !istype(H.patron, /datum/patron/divine/eora))
+		if(!H.patron || !istype(H.patron, /datum/patron/divine/pomette))
 			continue
 		return TRUE
 
 	return FALSE
 
-/datum/round_event/eora_marriage/start()
+/datum/round_event/pomette_marriage/start()
 	var/list/valid_targets = list()
 
 	for(var/mob/living/carbon/human/human_mob in GLOB.player_list)
 		if(!istype(human_mob) || human_mob.stat == DEAD || !human_mob.client)
 			continue
-		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/divine/eora))
+		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/divine/pomette))
 			continue
 		valid_targets += human_mob
 
@@ -46,7 +46,7 @@
 	chosen_one.mind.add_personal_objective(new_objective)
 
 	bordered_message(chosen_one, list(
-		span_userdanger("YOU ARE EORA'S CHOSEN!"),
+		span_userdanger("YOU ARE POMETTE'S CHOSEN!"),
 		span_notice("Pomette wishes to see love blossom! Arrange a marriage between any two people to earn Pomette's favor!"),
 	))
 	to_chat(chosen_one, span_notice("You were given a power to conduct secret marriage ceremonies outside of the chapel. Let nothing stand in the way of true love!"))

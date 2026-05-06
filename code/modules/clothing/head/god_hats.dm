@@ -53,7 +53,7 @@
 	flags_inv = HIDEEARS|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
 	item_weight = 250 GRAMS
 
-/obj/item/clothing/head/roguehood/eora
+/obj/item/clothing/head/roguehood/pomette
 	name = "opera hood"
 	desc = "A silver opera mask worn by the faithful of Pomette, usually during their rituals. Comes with a hood that can be pulled up for warmth."
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/64x64/head.dmi'

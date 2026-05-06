@@ -942,8 +942,8 @@
 	// Ravox
 	data += god_ui_block("RAVOX", "#2c232d", "#710f0f", /datum/storyteller/ravox, debug)
 
-	// Eora
-	data += god_ui_block("EORA", "#a95063", "#e7c3da", /datum/storyteller/eora, debug)
+	// Pomette
+	data += god_ui_block("POMETTE", "#a95063", "#e7c3da", /datum/storyteller/pomette, debug)
 
 	// Necra
 	data += god_ui_block("NECRA", "#2a2459", "#4c82a8", /datum/storyteller/necra, debug)

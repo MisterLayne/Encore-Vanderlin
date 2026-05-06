@@ -174,7 +174,7 @@
 
 /obj/item/carvedgem/rose/rawrose
 	name = "raw rosellusk"
-	desc = "Pink and lustrous, these pearls produced by fossilized clamshells are valued by Eorans: and are usually gifted to expecting mothers and newlyweds."
+	desc = "Pink and lustrous, these pearls produced by fossilized clamshells are valued by Pomettics: and are usually gifted to expecting mothers and newlyweds."
 	icon_state = "raw_rose"
 	grid_height = 32
 	grid_width = 32
@@ -303,7 +303,7 @@
 
 /obj/item/carvedgem/rose/flower
 	name = "rosellusk flower carving"
-	desc = " A carving of a beautiful flower made out of rosellusk. Eora would be proud of such artistry."
+	desc = " A carving of a beautiful flower made out of rosellusk. Pomette would be proud of such artistry."
 	icon_state = "flower_rose"
 	dropshrink = 0.8
 	grid_height = 64
@@ -312,7 +312,7 @@
 
 /obj/item/carvedgem/rose/carp
 	name = "rosellusk carp statue"
-	desc = "A medium-sized carving of a carp made out of rosellusk. The fish have been selectively bred by Eorans to bring out beautiful patterns in their scales, but have become invasive in some regions due to carelessness."
+	desc = "A medium-sized carving of a carp made out of rosellusk. The fish have been selectively bred by Pomettics to bring out beautiful patterns in their scales, but have become invasive in some regions due to carelessness."
 	icon_state = "carp_rose"
 	grid_height = 64
 	grid_width = 64

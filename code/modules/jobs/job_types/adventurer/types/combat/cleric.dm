@@ -81,7 +81,7 @@
 				spawned.cmode_music = 'sound/music/cmode/church/CombatGravekeeper.ogg'
 				ADD_TRAIT(spawned, TRAIT_DEADNOSE, TRAIT_GENERIC)
 				ADD_TRAIT(spawned, TRAIT_GRAVEROBBER, TRAIT_GENERIC)
-			if(/datum/patron/divine/eora)
+			if(/datum/patron/divine/pomette)
 				spawned.cmode_music = 'sound/music/cmode/church/CombatEora.ogg'
 				spawned.virginity = FALSE
 				ADD_TRAIT(spawned, TRAIT_BEAUTIFUL, TRAIT_GENERIC)
@@ -191,9 +191,9 @@
 				wrists = /obj/item/clothing/neck/psycross/silver/divine/necra
 				cloak = /obj/item/clothing/cloak/stabard/templar/necra
 				beltr = /obj/item/weapon/shovel/small
-			if(/datum/patron/divine/eora)
-				wrists = /obj/item/clothing/neck/psycross/silver/divine/eora
-				cloak = /obj/item/clothing/cloak/stabard/templar/eora
+			if(/datum/patron/divine/pomette)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/pomette
+				cloak = /obj/item/clothing/cloak/stabard/templar/pomette
 			if(/datum/patron/divine/ravox)
 				wrists = /obj/item/clothing/neck/psycross/silver/divine/ravox
 				cloak = /obj/item/clothing/cloak/stabard/templar/ravox

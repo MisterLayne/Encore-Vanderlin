@@ -1,16 +1,16 @@
-/datum/coven/eora
-	name = "Eoran Embrace"
+/datum/coven/pomette
+	name = "Pomettic Embrace"
 	desc = "Blessed by the Goddess of Love, Family, and Art, these vampires have developed powers that strengthen bonds, inspire beauty, and heal emotional wounds."
 	icon_state = "eora"
-	power_type = /datum/coven_power/eora
+	power_type = /datum/coven_power/pomette
 	max_level = 4
 
-/datum/coven_power/eora
+/datum/coven_power/pomette
 	name = "Pomette power name"
 	desc = "Pomette power desc"
 
 //EMPATHIC BOND
-/datum/coven_power/eora/empathic_bond
+/datum/coven_power/pomette/empathic_bond
 	name = "Empathic Bond"
 	desc = "Touch someone to sense their emotional state and immediate needs, making you obsessed with them for a short time."
 
@@ -21,7 +21,7 @@
 
 	cooldown_length = 10 SECONDS
 
-/datum/coven_power/eora/empathic_bond/activate(mob/living/target)
+/datum/coven_power/pomette/empathic_bond/activate(mob/living/target)
 	. = ..()
 	if(!ishuman(target))
 		to_chat(owner, span_warning("You can only sense the emotions of other people."))
@@ -64,7 +64,7 @@
 	owner.AddComponent(/datum/component/empathic_obsession, victim, 2 MINUTES)
 
 //ARTISTIC INSPIRATION
-/datum/coven_power/eora/artistic_inspiration
+/datum/coven_power/pomette/artistic_inspiration
 	name = "Artistic Inspiration"
 	desc = "Inspire others with divine creativity, enhancing their artistic abilities and mood."
 
@@ -76,7 +76,7 @@
 	cooldown_length = 30 SECONDS
 	duration_length = 5 MINUTES
 
-/datum/coven_power/eora/artistic_inspiration/activate(mob/living/target)
+/datum/coven_power/pomette/artistic_inspiration/activate(mob/living/target)
 	. = ..()
 	if(!ishuman(target))
 		to_chat(owner, span_warning("Only humans can receive artistic inspiration."))
@@ -98,13 +98,13 @@
 
 	addtimer(CALLBACK(src, PROC_REF(deactivate), inspired), duration_length)
 
-/datum/coven_power/eora/artistic_inspiration/deactivate(mob/living/carbon/human/target)
+/datum/coven_power/pomette/artistic_inspiration/deactivate(mob/living/carbon/human/target)
 	. = ..()
 	target.remove_overlay(MUTATIONS_LAYER)
 	to_chat(target, span_info("The divine inspiration fades, but the memory of it remains."))
 
 //FAMILIAL BOND
-/datum/coven_power/eora/familial_bond
+/datum/coven_power/pomette/familial_bond
 	name = "Familial Bond"
 	desc = "Create a temporary spiritual connection between two people, allowing them to sense each other's location and well-being."
 
@@ -117,7 +117,7 @@
 	cooldown_length = 60 SECONDS
 	duration_length = 10 MINUTES
 
-/datum/coven_power/eora/familial_bond/activate(mob/living/target)
+/datum/coven_power/pomette/familial_bond/activate(mob/living/target)
 	. = ..()
 	if(!ishuman(target))
 		to_chat(owner, span_warning("You can only bond with other people."))
@@ -140,7 +140,7 @@
 	second_target.AddComponent(/datum/component/familial_bond, bonded, duration_length)
 
 //BEAUTY'S RESTORATION
-/datum/coven_power/eora/beautys_restoration
+/datum/coven_power/pomette/beautys_restoration
 	name = "Beauty's Restoration"
 	desc = "Channel Pomette's power to restore physical beauty and heal disfigurements."
 
@@ -152,7 +152,7 @@
 
 	cooldown_length = 90 SECONDS
 
-/datum/coven_power/eora/beautys_restoration/activate(mob/living/target)
+/datum/coven_power/pomette/beautys_restoration/activate(mob/living/target)
 	. = ..()
 	if(!ishuman(target))
 		to_chat(owner, span_warning("You can only restore the beauty of people."))
@@ -177,7 +177,7 @@
 	addtimer(CALLBACK(src, PROC_REF(deactivate), patient), 3 SECONDS)
 	owner.AddComponent(/datum/component/empathic_obsession, patient, 5 MINUTES)
 
-/datum/coven_power/eora/beautys_restoration/deactivate(mob/living/carbon/human/target)
+/datum/coven_power/pomette/beautys_restoration/deactivate(mob/living/carbon/human/target)
 	. = ..()
 	target.remove_overlay(MUTATIONS_LAYER)
 

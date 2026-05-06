@@ -39,10 +39,10 @@
 	triumph_buy_id = TRIUMPH_BUY_GANI_INFLUENCE
 	storyteller_name = GANI
 
-/datum/triumph_buy/storyteller_influence_bonus/eora
+/datum/triumph_buy/storyteller_influence_bonus/pomette
 	name = "Pomette's Influence"
-	triumph_buy_id = TRIUMPH_BUY_EORA_INFLUENCE
-	storyteller_name = EORA
+	triumph_buy_id = TRIUMPH_BUY_POMETTE_INFLUENCE
+	storyteller_name = POMETTE
 
 /datum/triumph_buy/storyteller_influence_bonus/malum
 	name = "Goler Kanh's Influence"

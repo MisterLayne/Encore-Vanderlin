@@ -15,7 +15,7 @@
 		/turf/open/floor,
 		/turf/open,
 		/turf/open/floor/grass/hell,
-		/turf/open/floor/grass/eora,
+		/turf/open/floor/grass/pomette,
 		/turf/open/floor/dirt/ambush,
 		/turf/open/floor/cobble/snow,
 		/turf/open/floor/volcanic,

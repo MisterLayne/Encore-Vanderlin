@@ -225,9 +225,9 @@
 	item_weight = 4.5 KILOGRAMS
 
 //............... Pomette Helmet ............... //
-/obj/item/clothing/head/helmet/sallet/eoran
-	name = "eora helmet"
-	desc = "A standard helmet forged in the style typical of Eoran worshippers, a simple yet practical protective piece of equipment. Upon it lays several laurels of flowers and other colorful ornaments, followed by several symbols and standards of the user's chapter, accomplishments or even punishment"
+/obj/item/clothing/head/helmet/sallet/pomettic
+	name = "pomette helmet"
+	desc = "A standard helmet forged in the style typical of Pomettic worshippers, a simple yet practical protective piece of equipment. Upon it lays several laurels of flowers and other colorful ornaments, followed by several symbols and standards of the user's chapter, accomplishments or even punishment"
 	icon_state = "eorahelm"
 	item_state = "eorahelm"
 	item_weight = 3.2 KILOGRAMS

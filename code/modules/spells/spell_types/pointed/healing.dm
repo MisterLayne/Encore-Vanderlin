@@ -165,9 +165,9 @@
 				if(situational_bonus > 0)
 					conditional_buff = TRUE
 
-			if(/datum/patron/divine/eora)
+			if(/datum/patron/divine/pomette)
 				cast_on.visible_message(span_info("An eminence of love blossoms around [cast_on]!"), span_notice("I'm filled with the restorative warmth of love!"))
-				// if they're wearing an eoran bud (or are a pacifist), pretty much double the healing.
+				// if they're wearing an pomettic bud (or are a pacifist), pretty much double the healing.
 				situational_bonus = 0
 				if (HAS_TRAIT(cast_on, TRAIT_PACIFISM))
 					conditional_buff = TRUE

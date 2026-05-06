@@ -32,7 +32,7 @@
 		/datum/attribute/skill/craft/cooking = 20
 	)
 
-/datum/attribute_holder/sheet/job/acolyte/patron/eora
+/datum/attribute_holder/sheet/job/acolyte/patron/pomette
 	raw_attribute_list = list(
 		/datum/attribute/skill/misc/music = 20
 	)
@@ -127,11 +127,11 @@
 			spawned.cmode_music = 'sound/music/cmode/church/CombatGravekeeper.ogg'
 			ADD_TRAIT(spawned, TRAIT_DEADNOSE, TRAIT_GENERIC)
 			ADD_TRAIT(spawned, TRAIT_GRAVEROBBER, TRAIT_GENERIC)
-		if(/datum/patron/divine/eora)
+		if(/datum/patron/divine/pomette)
 			ADD_TRAIT(spawned, TRAIT_BEAUTIFUL, TRAIT_GENERIC)
 			ADD_TRAIT(spawned, TRAIT_EMPATH, TRAIT_GENERIC)
 			spawned.virginity = FALSE
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/eora)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/pomette)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatEora.ogg'
 		if(/datum/patron/divine/akan)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/akan)
@@ -220,11 +220,11 @@
 				l_hand = /obj/item/weapon/mace/cane/necran
 			else
 				backl = /obj/item/weapon/polearm/woodstaff/quarterstaff
-		if(/datum/patron/divine/eora)
+		if(/datum/patron/divine/pomette)
 			mask = /obj/item/clothing/face/operavisage
-			neck = /obj/item/clothing/neck/psycross/silver/divine/eora
+			neck = /obj/item/clothing/neck/psycross/silver/divine/pomette
 			shoes = /obj/item/clothing/shoes/sandals
-			armor = /obj/item/clothing/shirt/robe/eora
+			armor = /obj/item/clothing/shirt/robe/pomette
 		if(/datum/patron/divine/akan)
 			head = /obj/item/clothing/head/roguehood/nochood
 			neck = /obj/item/clothing/neck/psycross/silver/divine/akan

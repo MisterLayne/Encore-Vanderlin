@@ -3118,7 +3118,6 @@
 "rf" = (
 /obj/item/clothing/neck/mercator,
 /obj/item/clothing/neck/shalal,
-/obj/item/clothing/neck/psycross/silver/divine/eora,
 /obj/item/clothing/neck/psycross/gold,
 /obj/item/clothing/neck/psycross/silver/divine/necra,
 /obj/item/clothing/neck/psycross/silver/divine/ravox,
@@ -4080,12 +4079,6 @@
 	},
 /turf/open/floor/cobblerock,
 /area/outdoors)
-"xs" = (
-/obj/structure/mannequin/male,
-/obj/item/clothing/shirt/robe/eora/alt,
-/obj/item/clothing/head/roguehood/eora,
-/turf/open/floor/wood,
-/area)
 "xt" = (
 /turf/open/floor/dirt/road,
 /area/outdoors/woods_safe)
@@ -7263,12 +7256,6 @@
 /obj/structure/fluff/statue/pillar,
 /turf/open/floor/grass/mixyel,
 /area/outdoors/bog/inhumen_camp)
-"SW" = (
-/obj/structure/mannequin/male,
-/obj/item/clothing/shirt/robe/eora,
-/obj/item/clothing/head/roguehood/eora,
-/turf/open/floor/wood,
-/area)
 "Te" = (
 /turf/open/floor/dirt,
 /area/outdoors/woods_safe)
@@ -15040,8 +15027,8 @@ ag
 ag
 Qe
 av
-SW
-xs
+Ra
+Ra
 BX
 ln
 Ra

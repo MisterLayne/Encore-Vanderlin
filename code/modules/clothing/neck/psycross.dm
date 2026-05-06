@@ -117,17 +117,17 @@
 	desc = "Be not fooled, and be not afraid to."
 	icon_state = "xylix"
 
-/obj/item/clothing/neck/psycross/silver/divine/eora
-	name = "amulet of Eora"
+/obj/item/clothing/neck/psycross/silver/divine/pomette
+	name = "amulet of Pomette"
 	desc = "And I love thee because thou art love."
 	icon_state = "eora"
 
-/obj/item/clothing/neck/psycross/silver/divine/eora/potion
-	name = "Eora's love potion"
-	desc = "Eora's blessing is upon thy, use me on someone else and you shall be soulbond."
+/obj/item/clothing/neck/psycross/silver/divine/pomette/potion
+	name = "Pomette's love potion"
+	desc = "Pomette's blessing is upon thy, use me on someone else and you shall be soulbond."
 	icon_state = "eora"
 
-/obj/item/clothing/neck/psycross/silver/divine/eora/potion/attack(mob/living/love_target, mob/user, list/modifiers)
+/obj/item/clothing/neck/psycross/silver/divine/pomette/potion/attack(mob/living/love_target, mob/user, list/modifiers)
 	if(!isliving(love_target) || love_target.stat == DEAD)
 		to_chat(user, span_warning("The love potion only works on living things, sicko!"))
 		return ..()

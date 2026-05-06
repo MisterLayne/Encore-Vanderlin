@@ -9,7 +9,7 @@
 #define TAG_NECRA "Valdala"
 #define TAG_ERDL "Erdl"
 #define TAG_MALUM "Goler Kanh"
-#define TAG_EORA "Pomette"
+#define TAG_POMETTE "Pomette"
 #define TAG_GANI "Gani"
 #define TAG_ZIZO "The One Envy"
 #define TAG_BAOTHA "Hertannea"
@@ -19,7 +19,7 @@
 /// Base tag for god-related logic and identification
 #define TAG_GOD "God"
 
-/// Tag used for blessings granted by Eora
+/// Tag used for blessings granted by Pomette
 #define TAG_BOON "Boon"
 
 /// Tag reserved for curse mechanics (unused by gods)
@@ -37,7 +37,7 @@
 /// Tag representing trade interactions, used by Mjallidhorn and Matthios
 #define TAG_TRADE "Trade"
 
-/// Tag denoting widespread effects, utilized by Eora
+/// Tag denoting widespread effects, utilized by Pomette
 #define TAG_WIDESPREAD "Widespread"
 
 /// Tag reserved for villain roles or actions (unused by gods)
@@ -190,7 +190,7 @@
 	/datum/storyteller/necra, \
 	/datum/storyteller/erdl, \
 	/datum/storyteller/malum, \
-	/datum/storyteller/eora, \
+	/datum/storyteller/pomette, \
 	/datum/storyteller/gani, \
 )
 
@@ -214,7 +214,7 @@
 #define NECRA "Valdala"
 #define ERDL "Erdl"
 #define MALUM "Goler Kanh"
-#define EORA "Pomette"
+#define POMETTE "Pomette"
 #define GANI "Gani"
 #define DIVINE_CENTRIST "Elementalist"
 

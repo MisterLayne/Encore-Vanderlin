@@ -1,18 +1,18 @@
-/datum/round_event_control/eora_compassion
+/datum/round_event_control/pomette_compassion
 	name = "Beggar Compassion"
 	track = EVENT_TRACK_PERSONAL
-	typepath = /datum/round_event/eora_compassion
+	typepath = /datum/round_event/pomette_compassion
 	weight = 10
 	earliest_start = 5 MINUTES
 	max_occurrences = 1
 	min_players = 30
 
 	tags = list(
-		TAG_EORA,
+		TAG_POMETTE,
 		TAG_BOON,
 	)
 
-/datum/round_event_control/eora_compassion/canSpawnEvent(players_amt, gamemode, fake_check)
+/datum/round_event_control/pomette_compassion/canSpawnEvent(players_amt, gamemode, fake_check)
 	. = ..()
 	if(!.)
 		return FALSE
@@ -32,18 +32,18 @@
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(!istype(H) || H.stat == DEAD || !H.client)
 			continue
-		if(H.patron && istype(H.patron, /datum/patron/divine/eora))
+		if(H.patron && istype(H.patron, /datum/patron/divine/pomette))
 			return TRUE
 
 	return FALSE
 
-/datum/round_event/eora_compassion/start()
+/datum/round_event/pomette_compassion/start()
 	var/list/valid_targets = list()
 
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(!istype(H) || H.stat == DEAD || !H.client)
 			continue
-		if(H.patron && istype(H.patron, /datum/patron/divine/eora))
+		if(H.patron && istype(H.patron, /datum/patron/divine/pomette))
 			valid_targets += H
 
 	if(!length(valid_targets))
@@ -54,7 +54,7 @@
 	chosen_one.mind.add_personal_objective(new_objective)
 
 	bordered_message(chosen_one, list(
-		span_userdanger("YOU ARE EORA'S CHOSEN!"),
+		span_userdanger("YOU ARE POMETTE'S CHOSEN!"),
 		span_notice("Pomette wishes to see compassion! Show kindness to the less fortunate by hugging a beggar to earn Pomette's favor!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/vo/female/gen/giggle (1).ogg', 100)

@@ -1364,14 +1364,14 @@ $border-width-px: $border-width * 1px;
 }
 /* ##### END ##### */
 
-/* ##### EORA ##### */
-.god_eora {
+/* ##### POMETTE ##### */
+.god_pomette {
   color: hsl(297, 47%, 82%);
   font-weight: bold;
-  animation: eora_flicker 1s infinite;
+  animation: pomette_flicker 1s infinite;
  }
 
-@keyframes eora_flicker {
+@keyframes pomette_flicker {
 	25% {
 		color: hsl(297, 47%, 82%);
 	}

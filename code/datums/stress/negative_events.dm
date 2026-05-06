@@ -529,7 +529,7 @@
 	desc = span_red("This menial chore insults my station, i should not need to polish a pair of shoes.")
 	timer = 5 MINUTES
 
-/datum/stress_event/eora_matchmaking
+/datum/stress_event/pomette_matchmaking
 	stress_change = 2
 	desc = span_rose("Pomette calls for me to be wed! I must find my destined partner before I die all alone...")
 	timer = 30 MINUTES

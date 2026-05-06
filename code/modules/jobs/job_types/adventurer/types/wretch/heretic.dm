@@ -56,7 +56,7 @@
 			spawned.adjust_skill_level(/datum/attribute/skill/craft/alchemy, 20)
 			ADD_TRAIT(spawned, TRAIT_DUALWIELDER, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
-		if(/datum/patron/divine/eora)
+		if(/datum/patron/divine/pomette)
 			spawned.virginity = FALSE
 			ADD_TRAIT(spawned, TRAIT_BEAUTIFUL, TRAIT_GENERIC)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/swords, 40)
@@ -165,11 +165,11 @@
 			backpack_contents += /obj/item/reagent_containers/glass/bottle/strongpoison
 			beltr = /obj/item/weapon/knife/dagger/steel/erdlsickle
 			beltl = /obj/item/weapon/knife/dagger/steel/erdlsickle
-		if(/datum/patron/divine/eora)
-			head = /obj/item/clothing/head/helmet/sallet/eoran
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/eora
-			cloak = /obj/item/clothing/cloak/stabard/templar/eora
-			beltr = /obj/item/weapon/sword/rapier/eora
+		if(/datum/patron/divine/pomette)
+			head = /obj/item/clothing/head/helmet/sallet/pomettic
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/pomette
+			cloak = /obj/item/clothing/cloak/stabard/templar/pomette
+			beltr = /obj/item/weapon/sword/rapier/pomette
 		if(/datum/patron/divine/ravox)
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/ravox
 			head = /obj/item/clothing/head/helmet/heavy/necked/ravox

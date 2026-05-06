@@ -100,10 +100,10 @@
 	description = "I feel sick to my stomach, and my skin is slowly starting to rot."
 	trait = TRAIT_ERDL_CURSE
 
-/datum/curse/eora
+/datum/curse/pomette
 	name = "Pomette's Curse"
 	description = "I am unable to show any kind of affection or love, whether intimate or platonic."
-	trait = TRAIT_EORA_CURSE
+	trait = TRAIT_POMETTE_CURSE
 
 //////////////////////
 /// INHUMEN CURSES ///

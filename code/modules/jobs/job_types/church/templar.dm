@@ -62,12 +62,12 @@
 		/datum/attribute/skill/combat/whipsflails = 40
 	)
 
-/datum/attribute_holder/sheet/job/templar/patron/eora/rapier
+/datum/attribute_holder/sheet/job/templar/patron/pomette/rapier
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/swords = 40
 	)
 
-/datum/attribute_holder/sheet/job/templar/patron/eora/knuckles
+/datum/attribute_holder/sheet/job/templar/patron/pomette/knuckles
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/unarmed = 20
 	)
@@ -155,22 +155,22 @@
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/erdl)
 			ADD_TRAIT(spawned, TRAIT_DUALWIELDER, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
-		if(/datum/patron/divine/eora)
+		if(/datum/patron/divine/pomette)
 			spawned.virginity = FALSE
 			ADD_TRAIT(spawned, TRAIT_BEAUTIFUL, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatEora.ogg'
 			var/static/list/selectable = list(
-				"Heartstring (Rapier)" = /obj/item/weapon/sword/rapier/eora,
-				"Close Caress (Knuckles)" = /obj/item/weapon/knuckles/eora,
+				"Heartstring (Rapier)" = /obj/item/weapon/sword/rapier/pomette,
+				"Close Caress (Knuckles)" = /obj/item/weapon/knuckles/pomette,
 			)
 			var/choice = spawned.select_equippable(player_client, selectable, message = "Choose Your Specialisation", title = "TEMPLAR")
 			if(!choice)
 				return
 			switch(choice)
 				if("Heartstring (Rapier)")
-					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/eora/rapier)
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/pomette/rapier)
 				if("Close Caress (Knuckles)")
-					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/eora/knuckles)
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/pomette/knuckles)
 		if(/datum/patron/divine/ravox)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/ravox)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatRavox.ogg'
@@ -241,10 +241,10 @@
 			backpack_contents += /obj/item/reagent_containers/glass/bottle/poison
 			beltr = /obj/item/weapon/knife/dagger/steel/erdlsickle
 			beltl = /obj/item/weapon/knife/dagger/steel/erdlsickle
-		if(/datum/patron/divine/eora)
-			head = /obj/item/clothing/head/helmet/sallet/eoran
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/eora
-			cloak = /obj/item/clothing/cloak/stabard/templar/eora
+		if(/datum/patron/divine/pomette)
+			head = /obj/item/clothing/head/helmet/sallet/pomettic
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/pomette
+			cloak = /obj/item/clothing/cloak/stabard/templar/pomette
 		if(/datum/patron/divine/ravox)
 			wrists = /obj/item/clothing/neck/psycross/silver/divine/ravox
 			head = /obj/item/clothing/head/helmet/heavy/necked/ravox
