@@ -20,7 +20,7 @@ GLOBAL_LIST_EMPTY(roundstart_species)
 	/// if alien colors are disabled, this is the color that will be used by that race
 	var/default_color = "#FFF"
 	/// List of ages that can be selected in prefs for this species
-	var/list/possible_ages = ALL_AGES_LIST_CHILD
+	var/list/possible_ages = ALL_AGES_LIST
 	/// Whether or not this species has sexual characteristics
 	var/sexes = TRUE
 	/// Whether this species a requires donator subscription to access, we removed all donator restrictions for species, but it's here if we ever want to reenable them or smth.

@@ -8,8 +8,8 @@
 	display_order = JDO_ORPHAN
 	faction = FACTION_TOWN
 	allowed_ages = list(AGE_CHILD)
-	total_positions = 12
-	spawn_positions = 12
+	total_positions = 0
+	spawn_positions = 0
 	bypass_lastclass = TRUE
 	can_have_apprentices = FALSE
 	can_be_apprentice = TRUE
