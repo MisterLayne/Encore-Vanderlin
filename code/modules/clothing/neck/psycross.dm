@@ -152,7 +152,7 @@
 /obj/item/clothing/neck/psycross/silver/divine/erdl
 	name = "amulet of Erdl"
 	desc = "When pure, alcohol is best used as a cleanser of wounds and a cleanser of the palate."
-	icon_state = "erdl"
+	icon_state = "pestra"
 	resistance_flags = FIRE_PROOF
 
 /obj/item/clothing/neck/psycross/silver/divine/golerkanh
