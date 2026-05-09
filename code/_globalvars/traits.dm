@@ -273,7 +273,7 @@ GLOBAL_LIST_INIT(roguetraits, list(
 	TRAIT_SHOCKIMMUNE = "I am immune to electrical shocks.",
 	TRAIT_INTRAINING = "I'm going to be a knight someday! I can use training dummies more effectively than others.",
 	TRAIT_GOLERKANHFIRE = "My hands are blessed by Goler Kanh to forge items of superb quality.",
-	TRAIT_DEATHSIGHT = span_info("I can feel when someone nearby draws the Undermaiden's attention, a tiny voice whispering 'Someone has died,' in my ear."),
+	TRAIT_DEATHSIGHT = span_info("I can feel when someone nearby draws Valdala's attention, a tiny voice whispering 'Someone has died,' in my ear."),
 	TRAIT_DIVINE_CENTRIST = "I haven't connected a divine patron. I wonder which one I should profess myself to...",
 	TRAIT_DIVINE_SERVANT = SPAN_GOD_GENERIC("I serve the divine."),
 	TRAIT_DIVINE_CONVERT = SPAN_GOD_GENERIC("I recently converted to a new Patron."),

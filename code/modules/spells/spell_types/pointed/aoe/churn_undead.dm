@@ -10,7 +10,7 @@
 	associated_skill = /datum/attribute/skill/magic/holy
 	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/valdala)
 
-	invocation = "The Undermaiden rebukes!"
+	invocation = "Valdala reclaims!"
 	invocation_type = INVOCATION_SHOUT
 
 	click_to_activate = FALSE
