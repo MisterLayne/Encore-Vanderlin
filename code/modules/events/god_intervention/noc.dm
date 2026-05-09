@@ -1,7 +1,7 @@
-/datum/round_event_control/noc_wisdom
+/datum/round_event_control/akan_wisdom
 	name = "Akan's Wisdom"
 	track = EVENT_TRACK_INTERVENTION
-	typepath = /datum/round_event/noc_wisdom
+	typepath = /datum/round_event/akan_wisdom
 	weight = 8
 	earliest_start = 10 MINUTES
 	max_occurrences = 2
@@ -14,5 +14,5 @@
 		TAG_AKAN,
 	)
 
-/datum/round_event/noc_wisdom/start()
-	SSmapping.add_world_trait(/datum/world_trait/noc_wisdom, 20 MINUTES)
+/datum/round_event/akan_wisdom/start()
+	SSmapping.add_world_trait(/datum/world_trait/akan_wisdom, 20 MINUTES)

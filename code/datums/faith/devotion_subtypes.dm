@@ -33,9 +33,9 @@
 		CLERIC_T3 = /datum/action/cooldown/spell/projectile/moonlit_dagger,
 	)
 	viable_tasks = list(
-		/datum/devotion_task/noc_teach,
-		/datum/devotion_task/noc_write,
-		/datum/devotion_task/noc_read,
+		/datum/devotion_task/akan_teach,
+		/datum/devotion_task/akan_write,
+		/datum/devotion_task/akan_read,
 	)
 	traits = list(TRAIT_DIVINE_SERVANT)
 

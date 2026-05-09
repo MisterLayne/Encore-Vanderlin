@@ -30,7 +30,7 @@
 	name = "Goler Kanh's Diligence"
 	desc = "Mined rocks have additional yields."
 
-/datum/world_trait/noc_wisdom
+/datum/world_trait/akan_wisdom
 	name = "Akan's Wisdom"
 	desc = "All magic actions cost less mana."
 

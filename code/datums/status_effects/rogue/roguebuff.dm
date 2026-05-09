@@ -299,11 +299,11 @@
 // ---------------------- DIVINE KNOWLEDGE ( AKAN ) ----------------------------
 /datum/status_effect/buff/akan
 	id = "nocbuff"
-	alert_type = /atom/movable/screen/alert/status_effect/buff/nocbuff
+	alert_type = /atom/movable/screen/alert/status_effect/buff/akanbuff
 	effectedstats = list(STAT_INTELLIGENCE = 3)
 	duration = 240 MINUTES
 
-/atom/movable/screen/alert/status_effect/buff/nocbuff
+/atom/movable/screen/alert/status_effect/buff/akanbuff
 	name = "Divine Knowledge"
 	desc = span_nicegreen("Divine knowledge flows through me.")
 	icon_state = "intelligence"
@@ -888,15 +888,15 @@
 	name = "Cold"
 	desc = "Something has chilled me to the bone! It's hard to move."
 
-/datum/status_effect/buff/nocblessing
+/datum/status_effect/buff/akanblessing
 	id = "nocblessing"
-	alert_type = /atom/movable/screen/alert/status_effect/buff/nocblessing
+	alert_type = /atom/movable/screen/alert/status_effect/buff/akanblessing
 	effectedstats = list(STAT_INTELLIGENCE = 1)
 	duration = 30 MINUTES
 
-/atom/movable/screen/alert/status_effect/buff/nocblessing
+/atom/movable/screen/alert/status_effect/buff/akanblessing
 	name = "Akan's blessing"
-	desc = "Gazing Akan helps me think."
+	desc = "Gazing upon Luna helps me think."
 	icon_state = "buff"
 
 /datum/status_effect/buff/nocblessed

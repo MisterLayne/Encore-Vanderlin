@@ -1,7 +1,7 @@
-/datum/round_event_control/noc_literacy
+/datum/round_event_control/akan_literacy
 	name = "Get Literate"
 	track = EVENT_TRACK_PERSONAL
-	typepath = /datum/round_event/noc_literacy
+	typepath = /datum/round_event/akan_literacy
 	weight = 10
 	earliest_start = 5 MINUTES
 	max_occurrences = 1
@@ -11,7 +11,7 @@
 		TAG_AKAN,
 	)
 
-/datum/round_event_control/noc_literacy/canSpawnEvent(players_amt, gamemode, fake_check)
+/datum/round_event_control/akan_literacy/canSpawnEvent(players_amt, gamemode, fake_check)
 	. = ..()
 	if(!.)
 		return FALSE
@@ -26,7 +26,7 @@
 
 	return has_valid_target
 
-/datum/round_event/noc_literacy/start()
+/datum/round_event/akan_literacy/start()
 	var/list/illiterate_noc_followers = list()
 
 	for(var/mob/living/carbon/human/H in GLOB.player_list)

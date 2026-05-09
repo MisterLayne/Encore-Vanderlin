@@ -127,13 +127,11 @@
 /area/outdoors/bog)
 "vG" = (
 /obj/structure/closet/crate/coffin,
-/obj/item/clothing/shirt/robe/necra,
 /obj/item/clothing/head/padded/deathshroud,
 /turf/open/floor/blocks,
 /area/outdoors/bog)
 "vU" = (
 /obj/structure/closet/crate/coffin,
-/obj/item/clothing/neck/psycross/silver/divine/ravox,
 /turf/open/floor/blocks/paving,
 /area/outdoors/bog)
 "wa" = (
@@ -205,7 +203,6 @@
 /area/outdoors/bog)
 "CW" = (
 /obj/structure/table/church,
-/obj/item/clothing/head/helmet/heavy/necked/necra,
 /turf/open/floor/blocks,
 /area/outdoors/bog)
 "CZ" = (
@@ -255,11 +252,6 @@
 "Jt" = (
 /obj/structure/door/violet,
 /turf/open/floor/hexstone,
-/area/outdoors/bog)
-"Lr" = (
-/obj/structure/closet/crate/coffin,
-/obj/item/clothing/neck/psycross/silver/divine/noc,
-/turf/open/floor/blocks/paving,
 /area/outdoors/bog)
 "MK" = (
 /obj/structure/table/wood/plain,
@@ -345,7 +337,6 @@
 /area/outdoors/bog)
 "VV" = (
 /obj/structure/closet/crate/coffin,
-/obj/item/clothing/neck/psycross/silver/divine/necra,
 /turf/open/floor/blocks,
 /area/outdoors/bog)
 "Wk" = (
@@ -1476,7 +1467,7 @@ uZ
 Id
 uZ
 uZ
-Lr
+vU
 Ci
 Rk
 Rk

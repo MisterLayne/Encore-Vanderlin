@@ -1,7 +1,7 @@
-/datum/round_event_control/noc_baptism
+/datum/round_event_control/akan_baptism
 	name = "Mana Baptism"
 	track = EVENT_TRACK_PERSONAL
-	typepath = /datum/round_event/noc_baptism
+	typepath = /datum/round_event/akan_baptism
 	weight = 7
 	earliest_start = 10 MINUTES
 	max_occurrences = 1
@@ -12,7 +12,7 @@
 		TAG_MAGICAL,
 	)
 
-/datum/round_event_control/noc_baptism/canSpawnEvent(players_amt, gamemode, fake_check)
+/datum/round_event_control/akan_baptism/canSpawnEvent(players_amt, gamemode, fake_check)
 	. = ..()
 	if(!.)
 		return FALSE
@@ -31,7 +31,7 @@
 			return TRUE
 	return FALSE
 
-/datum/round_event/noc_baptism/start()
+/datum/round_event/akan_baptism/start()
 	if(!length(GLOB.mana_fountains) || SSmapping.config.map_name == "Vanderlin")
 		return
 

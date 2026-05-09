@@ -837,7 +837,7 @@
 			to_chat(H,  span_notice("You can see Akan rotating."))
 			if(do_after(H, 1 SECONDS, target = src))
 				to_chat(H, span_good("Akan's glow seems to help clear your thoughts."))
-				H.apply_status_effect(/datum/status_effect/buff/nocblessing)
+				H.apply_status_effect(/datum/status_effect/buff/akanblessing)
 				H.playsound_local(H, 'sound/misc/notice (2).ogg', 100, FALSE)
 		if(2)
 			to_chat(H, span_warning("Looking at the sun blinds you"))
