@@ -15,7 +15,7 @@
 	pixel_x = -2;
 	pixel_y = 20
 	},
-/turf/open/floor/grass/eora,
+/turf/open/floor/grass/mixyel,
 /area/template_noop)
 "h" = (
 /obj/structure/flora/grass,
@@ -36,11 +36,8 @@
 /turf/closed/wall/mineral/stone/moss,
 /area/template_noop)
 "p" = (
-/obj/item/candle/eora/lit{
-	pixel_x = 1;
-	pixel_y = 5
-	},
-/turf/open/floor/grass/eora,
+/obj/item/alch/herb/salvia,
+/turf/open/floor/grass/mixyel,
 /area/template_noop)
 "q" = (
 /obj/structure/fluff/walldeco/vinez,
@@ -73,19 +70,9 @@
 /obj/structure/flora/grass,
 /turf/open/floor/dirt/road,
 /area/template_noop)
-"y" = (
-/obj/structure/fluff/walldeco/vinez,
-/turf/open/floor/grass/eora,
-/area/template_noop)
 "A" = (
 /obj/structure/flora/grass/bush,
 /turf/open/floor/dirt/road,
-/area/template_noop)
-"C" = (
-/turf/open/floor/grass/eora,
-/area/template_noop)
-"D" = (
-/turf/template_noop,
 /area/template_noop)
 "F" = (
 /obj/structure/flora/grass/herb/salvia,
@@ -110,21 +97,14 @@
 /area/template_noop)
 "O" = (
 /obj/structure/flora/hotspring_rocks/small/five,
-/turf/open/floor/grass/eora,
+/turf/open/floor/grass/mixyel,
 /area/template_noop)
 "P" = (
 /obj/structure/flora/hotspring_rocks{
 	pixel_x = 4;
 	pixel_y = 2
 	},
-/turf/open/floor/grass/eora,
-/area/template_noop)
-"R" = (
-/obj/item/candle/eora/lit{
-	pixel_x = 0;
-	pixel_y = -13
-	},
-/turf/open/floor/grass/eora,
+/turf/open/floor/grass/mixyel,
 /area/template_noop)
 "S" = (
 /obj/structure/well/fountain{
@@ -133,11 +113,7 @@
 	},
 /obj/structure/flora/hotspring_rocks/small/three,
 /obj/item/alch/herb/salvia,
-/turf/open/floor/grass/eora,
-/area/template_noop)
-"T" = (
-/obj/structure/flora/grass/herb/salvia,
-/turf/open/floor/grass/eora,
+/turf/open/floor/grass/mixyel,
 /area/template_noop)
 "V" = (
 /obj/structure/flora/grass/bush/wall,
@@ -145,11 +121,7 @@
 /area/template_noop)
 "W" = (
 /obj/item/bouquet/salvia,
-/obj/item/candle/eora/lit{
-	pixel_x = -1;
-	pixel_y = 22
-	},
-/turf/open/floor/grass/eora,
+/turf/open/floor/grass/mixyel,
 /area/template_noop)
 "Y" = (
 /obj/structure/flora/hotspring_rocks/small/four,
@@ -157,8 +129,8 @@
 /area/template_noop)
 
 (1,1,1) = {"
-D
-D
+e
+e
 e
 t
 H
@@ -167,11 +139,11 @@ q
 I
 L
 s
-D
-D
+e
+e
 "}
 (2,1,1) = {"
-D
+e
 e
 V
 s
@@ -182,17 +154,17 @@ L
 a
 s
 s
-D
+e
 "}
 (3,1,1) = {"
-D
+e
 V
 s
 s
 I
-y
-C
-C
+I
+e
+e
 t
 f
 s
@@ -203,12 +175,12 @@ k
 s
 s
 O
-C
-C
-C
-C
-C
-C
+e
+e
+e
+e
+e
+e
 I
 I
 "}
@@ -216,13 +188,13 @@ I
 k
 N
 S
-p
-C
-T
+e
+e
+f
 h
-r
-C
-y
+p
+e
+I
 I
 e
 "}
@@ -230,13 +202,13 @@ e
 a
 N
 g
-R
-C
+e
+e
 h
 w
-H
-C
-y
+f
+e
+I
 I
 x
 "}
@@ -245,12 +217,12 @@ a
 N
 P
 W
-C
+e
 r
 A
-C
-C
-C
+e
+e
+e
 h
 q
 "}
@@ -258,12 +230,12 @@ q
 a
 s
 s
-C
-C
-C
-C
-C
-C
+e
+e
+e
+e
+e
+e
 a
 u
 I
@@ -274,9 +246,9 @@ f
 s
 s
 Y
-C
-C
-C
+e
+e
+e
 L
 I
 I
@@ -294,12 +266,12 @@ I
 s
 o
 s
-D
+e
 "}
 (11,1,1) = {"
-D
-D
-D
+e
+e
+e
 k
 I
 F
@@ -307,6 +279,6 @@ q
 s
 s
 s
-D
-D
+e
+e
 "}
