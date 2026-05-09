@@ -93,7 +93,7 @@
 /// Encore edit for below- pending whatever the fuck we need to do to swap Zizo to the One Envy. I guess it works but it will definitely need some adjustment
 /// Maniac Patron - Their mind is broken by secrets of Zizo/Archdevils combined. They quite possibly know the reality of what happens outside the planet. They may think this is all a game. They are clearly insane.
 /datum/patron/inhumen/archdevils_zizo
-	name = "Graggazo"
+	name = "The Seven Sages"
 	domain = PLACEHOLDER_PATRON_REBRANDING
 	desc = PLACEHOLDER_PATRON_REBRANDING
 	flaws = PLACEHOLDER_PATRON_REBRANDING

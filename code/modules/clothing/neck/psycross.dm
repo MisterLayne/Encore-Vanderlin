@@ -1,7 +1,7 @@
 
 /obj/item/clothing/neck/psycross
-	name = "psycross"
-	desc = "Let His name be naught but forgot'n."
+	name = "wooden aspekter"
+	desc = "A common effigy to the Aspects, carried as a charm by the devout."
 	icon_state = "psycross_wood"
 	//dropshrink = 0.75
 	slot_flags = ITEM_SLOT_NECK|ITEM_SLOT_HIP|ITEM_SLOT_WRISTS
@@ -12,7 +12,7 @@
 /obj/item/clothing/neck/psycross/great_hunt
 	name = "bone amulet"
 	icon_state = "bone_amulet"
-	desc = "An amulet made of parched bones and animal sinews, a common representation of faith used in Ossland."
+	desc = "An amulet made of parched bones and animal sinews, a common representation of faith in the great hunt."
 	sellprice = 30
 
 // INHUMEN PSYCROSSES
@@ -64,8 +64,8 @@
 // SILVER PSYCROSS START
 
 /obj/item/clothing/neck/psycross/silver
-	name = "silver psycross"
-	desc = "Let His name be naught but forgot'n. Let the wicked undead burn at my touch."
+	name = "silver angrosian aspekter"
+	desc = "An idol to His memory, or perhaps a challenge to His demise."
 	icon_state = "psycross_silver"
 	resistance_flags = FIRE_PROOF
 	sellprice = 50
@@ -77,8 +77,8 @@
 
 // PANTHEON SILVER PSYCROSSES START
 /obj/item/clothing/neck/psycross/silver/divine
-	name = "amulet of the ten"
-	desc = "The Ten eternal, strength in unity. Stalwart for centuries against the darkness."
+	name = "amulet of all aspects"
+	desc = "The Elementals guide our hand in holding this world together. The Aspects place their trust in our devotion."
 	icon_state = "undivided"
 	resistance_flags = FIRE_PROOF
 
@@ -89,27 +89,27 @@
 
 /obj/item/clothing/neck/psycross/silver/divine/akan
 	name = "amulet of Akan"
-	desc = "Diligence, study, pursuit of truth and wisdom. Let nothing deter you from it."
+	desc = "Father's winds carry us to new beginnings, and so we grow."
 	icon_state = "noc"
 
 /obj/item/clothing/neck/psycross/silver/divine/gani
 	name = "amulet of Gani"
-	desc = "Nature is a body of which we are but its entrails."
+	desc = "The warmth of the Mother is never far."
 	icon_state = "dendor"
 
 /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
 	name = "amulet of Mjallidhorn"
-	desc = "Oceanshaper and guardian of the seas, make them remember his name."
+	desc = "If you were to listen closely, a distant horn calls, rolling upon crashing waves. His war will have you, some day."
 	icon_state = "abyssor"
 
 /obj/item/clothing/neck/psycross/silver/divine/valdala
 	name = "amulet of Valdala"
-	desc = "Where, grave, thy victory? I triumph still while the Veiled Lady abides by me."
+	desc = "Her tears batter away on mourning winds, the span of Her flight leaving a shade of grief upon us all."
 	icon_state = "necra"
 
 /obj/item/clothing/neck/psycross/silver/divine/mordsol
 	name = "amulet of Mordsol"
-	desc = "Struggle. Challenge. And rise to struggle again. That is the sword of he who yet lives to fight again."
+	desc = "The fire is gone."
 	icon_state = "ravox"
 
 /obj/item/clothing/neck/psycross/silver/divine/iliope
@@ -119,7 +119,7 @@
 
 /obj/item/clothing/neck/psycross/silver/divine/pomette
 	name = "amulet of Pomette"
-	desc = "And I love thee because thou art love."
+	desc = "Her innocence. Her sanctity. Her purity. The likes of Man are unfit for its address, yet She still embraces us."
 	icon_state = "eora"
 
 /obj/item/clothing/neck/psycross/silver/divine/pomette/potion
@@ -151,25 +151,25 @@
 
 /obj/item/clothing/neck/psycross/silver/divine/erdl
 	name = "amulet of Erdl"
-	desc = "When pure, alcohol is best used as a cleanser of wounds and a cleanser of the palate."
+	desc = "All struggle to comprehend His great work, for it is laced into your body as vein and sinew. This effigy serves nicely enough."
 	icon_state = "pestra"
 	resistance_flags = FIRE_PROOF
 
 /obj/item/clothing/neck/psycross/silver/divine/golerkanh
 	name = "amulet of Goler Kanh"
-	desc = "Blessed be our works, made in His name."
+	desc = "The blessing of His hand gives meaning to our grasp. By His keen sense do we guide our hammer."
 	icon_state = "malum"
 	resistance_flags = FIRE_PROOF
 
 /obj/item/clothing/neck/psycross/silver/divine/golerkanh/steel
 	name = "amulet of Goler Kanh"
-	desc = "Let the tools that guide thee be thy hands."
+	desc = "By His grace do our monuments conquer all sin."
 	icon_state = "malum_alt"
 	resistance_flags = FIRE_PROOF
 
 /obj/item/clothing/neck/psycross/gold
-	name = "golden psycross"
-	desc = "Let His name be naught but forgot'n. Let devotion to Him endure, in heart and in deed, beyond the veil of sight."
+	name = "golden angrosian aspekter"
+	desc = "An idol to His memory, or perhaps a challenge to His demise."
 	icon_state = "psycross_gold"
 	//dropshrink = 0.75
 	resistance_flags = FIRE_PROOF
