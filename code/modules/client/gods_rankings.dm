@@ -56,7 +56,7 @@
 			for(var/client/C in GLOB.clients)
 				if(!C?.mob)
 					continue
-				C.mob.playsound_local(C.mob, GLOB.patron_sound_themes[initialized_storyteller.name], initialized_storyteller.name == RAVOX ? 70 : 100)
+				C.mob.playsound_local(C.mob, GLOB.patron_sound_themes[initialized_storyteller.name], initialized_storyteller.name == MORDSOL ? 70 : 100)
 
 			bordered_message(world, list(
 				"<span style='font-size: 180%; color: [initialized_storyteller.color_theme]'>[initialized_storyteller.name] is ascendant!</span>",

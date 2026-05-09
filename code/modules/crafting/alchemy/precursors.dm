@@ -224,7 +224,7 @@ GLOBAL_LIST_INIT(natural_precursor_registry, list())
 	)
 	init_types = list(
 		/obj/item/gem/blue,
-		/obj/item/gem/turq,//frost because its associated with necra
+		/obj/item/gem/turq,//frost because its associated with valdala
 	)
 
 //we can assume opal is really dense due to being seen as crystallized rainbow
@@ -629,8 +629,8 @@ GLOBAL_LIST_INIT(natural_precursor_registry, list())
 		/obj/item/natural/worms/leech/abyssoid,
 	)
 
-/datum/natural_precursor/dendor_essence
-	name = "dendor essence"
+/datum/natural_precursor/gani_essence
+	name = "earthen essence"
 	essence_yields = list(
 		/datum/thaumaturgical_essence/life = 10,
 		/datum/thaumaturgical_essence/chaos = 10

@@ -47,7 +47,7 @@
 	job_bitflag = BITFLAG_CONSTRUCTOR
 
 	traits = list(
-		TRAIT_MALUMFIRE,
+		TRAIT_GOLERKANHFIRE,
 		TRAIT_SEEPRICES,
 	)
 

@@ -175,13 +175,13 @@
 
 /turf/open/floor/grass/red
 	name = "red grass"
-	desc = "Grass, ripe with Dendor's bloody marrow."
+	desc = "Grass, ripe with Gani's bloody marrow."
 	icon_state = "grass_red"
 	neighborlay = "grass_rededge"
 
 /turf/open/floor/grass/yel
 	name = "yellow grass"
-	desc = "Grass, blessed by Astrata's light."
+	desc = "Grass, blessed by the One Star's light."
 	icon_state = "grass_yel"
 	neighborlay = "grass_yeledge"
 
@@ -197,7 +197,7 @@
 	icon_state = "hellgrass"
 	neighborlay = "hellgrass"
 
-/turf/open/floor/grass/eora
+/turf/open/floor/grass/pomette
 	icon_state = "hellgrass"
 	neighborlay = "hellgrass"
 
@@ -693,7 +693,7 @@
 /turf/open/floor/churchrough/gold
 	icon_state = "church-gold_marble"
 
-// Green - Dendor shrines.
+// Green - Gani shrines.
 /turf/open/floor/church/green
 	icon_state = "church-green"
 

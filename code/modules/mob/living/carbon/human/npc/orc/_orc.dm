@@ -213,8 +213,8 @@
 		amt2add = ((world.time - last_process)/10) * amt2add
 	last_process = world.time
 	amount += amt2add
-	if(has_world_trait(/datum/world_trait/pestra_mercy))
-		amount -= (is_ascendant(PESTRA) ? 2.5 : 5) * time_elapsed
+	if(has_world_trait(/datum/world_trait/erdl_mercy))
+		amount -= (is_ascendant(ERDL) ? 2.5 : 5) * time_elapsed
 
 	var/mob/living/carbon/C = parent
 	if(!C)
@@ -234,7 +234,7 @@
 			if(!B.rotted)
 				B.rotted = TRUE
 				should_update = TRUE
-			if(B.rotted && amount < 16 MINUTES && !(FACTION_MATTHIOS in C.faction))
+			if(B.rotted && amount < 16 MINUTES && !(FACTION_DECEIVERS in C.faction))
 				var/turf/open/T = C.loc
 				if(istype(T))
 					T.pollute_turf(/datum/pollutant/rot, 4)

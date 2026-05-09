@@ -2226,7 +2226,6 @@
 /area/indoors/lich)
 "ln" = (
 /obj/structure/mannequin/male,
-/obj/item/clothing/shirt/robe/noc,
 /obj/item/clothing/head/padded/deathface,
 /turf/open/floor/wood,
 /area)
@@ -3119,13 +3118,9 @@
 "rf" = (
 /obj/item/clothing/neck/mercator,
 /obj/item/clothing/neck/shalal,
-/obj/item/clothing/neck/psycross/silver/divine/astrata,
-/obj/item/clothing/neck/psycross/silver/divine/dendor,
-/obj/item/clothing/neck/psycross/silver/divine/eora,
 /obj/item/clothing/neck/psycross/gold,
-/obj/item/clothing/neck/psycross/silver/divine/necra,
-/obj/item/clothing/neck/psycross/silver/divine/noc,
-/obj/item/clothing/neck/psycross/silver/divine/ravox,
+/obj/item/clothing/neck/psycross/silver/divine/valdala,
+/obj/item/clothing/neck/psycross/silver/divine/mordsol,
 /turf/open/floor/wood,
 /area/indoors)
 "ri" = (
@@ -4084,12 +4079,6 @@
 	},
 /turf/open/floor/cobblerock,
 /area/outdoors)
-"xs" = (
-/obj/structure/mannequin/male,
-/obj/item/clothing/shirt/robe/eora/alt,
-/obj/item/clothing/head/roguehood/eora,
-/turf/open/floor/wood,
-/area)
 "xt" = (
 /turf/open/floor/dirt/road,
 /area/outdoors/woods_safe)
@@ -4629,9 +4618,9 @@
 /obj/item/clothing/ring/gold/guild_mercator,
 /obj/item/clothing/ring/gold/guild_mercator,
 /obj/item/clothing/ring/gold/guild_mercator,
-/obj/item/clothing/ring/gold/ravox,
-/obj/item/clothing/ring/gold/ravox,
-/obj/item/clothing/ring/gold/ravox,
+/obj/item/clothing/ring/gold/mordsol,
+/obj/item/clothing/ring/gold/mordsol,
+/obj/item/clothing/ring/gold/mordsol,
 /obj/item/clothing/ring/silver,
 /obj/item/clothing/ring/silver,
 /obj/item/clothing/ring/silver,
@@ -5226,7 +5215,6 @@
 /area/overlord_lair)
 "Fx" = (
 /obj/structure/mannequin/male,
-/obj/item/clothing/shirt/robe/dendor,
 /obj/item/clothing/head/padded/briarthorns,
 /turf/open/floor/wood,
 /area)
@@ -5302,7 +5290,7 @@
 /area/indoors)
 "Ge" = (
 /obj/structure/mannequin/male,
-/obj/item/clothing/shirt/robe/necra,
+/obj/item/clothing/shirt/robe/valdala,
 /turf/open/floor/wood,
 /area/indoors)
 "Gg" = (
@@ -6680,12 +6668,6 @@
 	},
 /turf/open/floor/dirt/road,
 /area/outdoors/bog/inhumen_camp)
-"PI" = (
-/obj/structure/mannequin/male,
-/obj/item/clothing/shirt/robe/pestra,
-/obj/item/clothing/head/padded/pestra,
-/turf/open/floor/wood,
-/area)
 "PJ" = (
 /obj/item/natural/rock,
 /turf/open/floor/grass/red,
@@ -7274,12 +7256,6 @@
 /obj/structure/fluff/statue/pillar,
 /turf/open/floor/grass/mixyel,
 /area/outdoors/bog/inhumen_camp)
-"SW" = (
-/obj/structure/mannequin/male,
-/obj/item/clothing/shirt/robe/eora,
-/obj/item/clothing/head/roguehood/eora,
-/turf/open/floor/wood,
-/area)
 "Te" = (
 /turf/open/floor/dirt,
 /area/outdoors/woods_safe)
@@ -7746,12 +7722,6 @@
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/hexstone,
 /area/indoors/vampire_manor)
-"VS" = (
-/obj/structure/mannequin/male,
-/obj/item/clothing/shirt/robe/astrata,
-/obj/item/clothing/head/roguehood/astrata,
-/turf/open/floor/wood,
-/area)
 "VW" = (
 /obj/structure/fluff/wallclock/r,
 /turf/open/floor/ruinedwood/turned/darker,
@@ -7916,8 +7886,8 @@
 /area/indoors/bandit_lair)
 "Xg" = (
 /obj/structure/mannequin/male,
-/obj/item/clothing/shirt/robe/necra,
-/obj/item/clothing/head/helmet/heavy/necked/necra,
+/obj/item/clothing/shirt/robe/valdala,
+/obj/item/clothing/head/helmet/heavy/necked/valdala,
 /turf/open/floor/wood,
 /area)
 "Xi" = (
@@ -15057,16 +15027,16 @@ ag
 ag
 Qe
 av
-SW
-xs
+Ra
+Ra
 BX
 ln
-PI
+Ra
 Sa
 Xg
 Qt
 Fx
-VS
+Ra
 Ra
 av
 Qe

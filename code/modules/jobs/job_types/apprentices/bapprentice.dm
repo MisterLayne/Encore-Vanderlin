@@ -40,7 +40,7 @@
 	attribute_sheet = /datum/attribute_holder/sheet/job/bapprentice
 
 	traits = list(
-		TRAIT_MALUMFIRE
+		TRAIT_GOLERKANHFIRE
 	)
 
 	skill_multipliers = list(/datum/attribute/skill/craft/blacksmithing = 1.25, /datum/attribute/skill/craft/armorsmithing = 1.25, /datum/attribute/skill/craft/weaponsmithing = 1.25)

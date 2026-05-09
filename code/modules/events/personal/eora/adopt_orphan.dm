@@ -8,7 +8,7 @@
 	min_players = 35
 
 	tags = list(
-		TAG_EORA,
+		TAG_POMETTE,
 		TAG_BOON,
 	)
 
@@ -23,7 +23,7 @@
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(!istype(H) || H.stat == DEAD || !H.client)
 			continue
-		if(!H.patron || !istype(H.patron, /datum/patron/divine/eora))
+		if(!H.patron || !istype(H.patron, /datum/patron/divine/pomette))
 			continue
 		if(H.age == AGE_CHILD)
 			continue
@@ -51,7 +51,7 @@
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(!istype(H) || H.stat == DEAD || !H.client)
 			continue
-		if(!H.patron || !istype(H.patron, /datum/patron/divine/eora))
+		if(!H.patron || !istype(H.patron, /datum/patron/divine/pomette))
 			continue
 		if(H.age == AGE_CHILD)
 			continue
@@ -76,7 +76,7 @@
 	chosen_one.add_spell(/datum/action/cooldown/spell/adopt_child)
 
 	bordered_message(chosen_one, list(
-		span_userdanger("YOU ARE EORA'S CHOSEN!"),
+		span_userdanger("YOU ARE POMETTE'S CHOSEN!"),
 		span_notice("Pomette weeps for the orphaned children! Find an orphan and adopt them as your own child to earn her favor!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/vo/female/gen/giggle (1).ogg', 100)

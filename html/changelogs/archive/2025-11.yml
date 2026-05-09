@@ -330,7 +330,7 @@
   Somniworld:
   - qol: Adds a description to nocshades and the confessor mask regarding night-vision
       + the ability to put nocshades in the confessor's mask.
-  - bugfix: Fixes the Noc-Shades not updating your nightvision when turned on/off
+  - bugfix: Fixes the Akan-Shades not updating your nightvision when turned on/off
       or taken off.
   - bugfix: The Oratorium reliquary menu no longer is French
   - rscadd: 'Grants Necran clergy a new T2 miracle : Locate corpse, which allows them

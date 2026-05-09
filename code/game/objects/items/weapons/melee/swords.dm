@@ -95,7 +95,7 @@
 	item_weight = 700 GRAMS
 
 /obj/item/weapon/sword/short/psy
-	name = "psydonian shortsword"
+	name = "angrosian shortsword"
 	desc = "Grenzelhoftian smiths worked with artificers, and an esoteric blade was born: a blade with an unique design, dismissing a crossguard in favor of a hollow beak to hook and draw harm away from its user. Short in length, yet lethally light in weight."
 	icon = 'icons/roguetown/weapons/32/psydonite.dmi'
 	icon_state = "psyswordshort"
@@ -269,7 +269,7 @@
 	possible_item_intents = list(SWORD_CUT, SHORT_THRUST)
 	item_weight = 850 GRAMS
 
-/obj/item/weapon/sword/sabre/noc
+/obj/item/weapon/sword/sabre/akan
 	name = "moonlight khopesh"
 	icon = 'icons/roguetown/weapons/32/patron.dmi'
 	icon_state = "nockhopesh"
@@ -278,14 +278,14 @@
 	max_integrity = INTEGRITY_STRONGEST * 0.8
 	item_weight = 950 GRAMS
 
-/obj/item/weapon/sword/sabre/noc/Initialize(mapload)
+/obj/item/weapon/sword/sabre/akan/Initialize(mapload)
 	. = ..()
 	enchant(/datum/enchantment/silver)
 
 //................ Cutlass ............... //
 /obj/item/weapon/sword/sabre/cutlass
 	name = "cutlass"
-	desc = "Both tool and weapon of war, favored by Abyssor cultists and sailors for seafaring battle."
+	desc = "Both tool and weapon of war, favored by Mjallidhorn cultists and sailors for seafaring battle."
 	icon_state = "cutlass"
 	force = DAMAGE_SWORD + 2
 	wdefense = GREAT_PARRY
@@ -382,7 +382,7 @@
 
 /obj/item/weapon/sword/scimitar/falchion
 	name = "falchion"
-	desc = "Broad blade, excellent steel, a design inspired by Malum the dwarves claim."
+	desc = "Broad blade, excellent steel, a design inspired by Goler Kanh the dwarves claim."
 	icon_state = "falchion"
 	wbalance = EASY_TO_DODGE
 	possible_item_intents = list(SWORD_CUT, AXE_CHOP)
@@ -598,7 +598,7 @@
 				)
 
 /obj/item/weapon/sword/rapier/psy
-	name = "psydonian rapier"
+	name = "angrosian rapier"
 	desc = "A highly ornate silver rapier, used more as a show of status for members of the inquisition."
 	icon = 'icons/roguetown/weapons/64/psydonite.dmi'
 	icon_state = "psyrapier"
@@ -613,7 +613,7 @@
 
 /obj/item/weapon/sword/rapier/psy/relic
 	name = "retribution"
-	desc = "A rapier as swift as the inquisitors of the Ordo Venatari. Strike evil at its heart. Purge the unholy through the slightest window it offers, in Psydon’s name."
+	desc = "A rapier as swift as the inquisitors of the Ordo Venatari. Strike evil at its heart. Purge the unholy through the slightest window it offers, in Angros’s name."
 	item_weight = 700 GRAMS
 
 /obj/item/weapon/sword/rapier/dec
@@ -669,7 +669,7 @@
 	. = ..()
 	enchant(/datum/enchantment/silver)
 
-/obj/item/weapon/sword/rapier/eora
+/obj/item/weapon/sword/rapier/pomette
 	name = "The Heartstring"
 	desc = "For when soft words cannot be spoken more, and hearts are to be pierced."
 	icon = 'icons/roguetown/weapons/32/patron.dmi'
@@ -679,7 +679,7 @@
 // Hoplite Kophesh
 /obj/item/weapon/sword/khopesh
 	name = "ancient khopesh"
-	desc = "A bronze weapon of war from the age of Psydon's reign. This blade is older than a few elven generations, but has been very well-maintained and still keeps a good edge."
+	desc = "A bronze weapon of war from the age of Angros's reign. This blade is older than a few elven generations, but has been very well-maintained and still keeps a good edge."
 	icon = 'icons/roguetown/weapons/64/swords.dmi'
 	icon_state = "khopesh"
 	item_state = "khopesh"
@@ -978,7 +978,7 @@
 
 /obj/item/weapon/sword/long/forgotten
 	name = "forgotten blade"
-	desc = "A large silver-alloy sword made in a revisionist style, honoring Psydon. Best known as the preferred weapon of Inquisitorial Lodges."
+	desc = "A large silver-alloy sword made in a revisionist style, honoring Angros. Best known as the preferred weapon of Inquisitorial Lodges."
 	icon = 'icons/roguetown/weapons/64/psydonite.dmi'
 	icon_state = "oldpsybroadsword"
 	force = DAMAGE_SWORD * 0.9 // Damage is .9 of a steel sword
@@ -995,16 +995,16 @@
 	. = ..()
 	enchant(/datum/enchantment/silver)
 
-/obj/item/weapon/sword/long/ravox
+/obj/item/weapon/sword/long/mordsol
 	name = "duel settler"
-	desc = "The tenets of Ravoxian duels are inscribed upon the blade of this sword."
+	desc = "The tenets of Mordsolian duels are inscribed upon the blade of this sword."
 	icon = 'icons/roguetown/weapons/64/patron.dmi'
 	icon_state = "ravoxflamberge"
 	force = DAMAGE_SWORD + 2
 	item_weight = 1.5 KILOGRAMS
 
-/obj/item/weapon/sword/long/psydon
-	name = "psydonian longsword"
+/obj/item/weapon/sword/long/angros
+	name = "angrosian longsword"
 	desc = "A large silver longsword forged in the shape of a psycross."
 	icon = 'icons/roguetown/weapons/64/psydonite.dmi'
 	icon_state = "psysword"
@@ -1013,16 +1013,16 @@
 	sellprice = 100
 	item_weight = 1.5 KILOGRAMS
 
-/obj/item/weapon/sword/long/psydon/Initialize(mapload)
+/obj/item/weapon/sword/long/angros/Initialize(mapload)
 	. = ..()
 	AddComponent(/datum/component/psyblessed, FALSE, 3, FALSE, 50, 1, TRUE)
 
-/obj/item/weapon/sword/long/psydon/relic
+/obj/item/weapon/sword/long/angros/relic
 	name = "Rememberance"
-	desc = "A balanced silver blade, favoured by both the Ordo Benetarus and the Ordo Venetari. May it carve a path through the Unholy, in honour and rememberance of Psydon's sacrifice."
+	desc = "A balanced silver blade, favoured by both the Ordo Benetarus and the Ordo Venetari. May it carve a path through the Unholy, in honour and rememberance of Angros's sacrifice."
 	item_weight = 1.5 KILOGRAMS
 
-/obj/item/weapon/sword/long/psydon/relic/Initialize(mapload)
+/obj/item/weapon/sword/long/angros/relic/Initialize(mapload)
 	. = ..()
 	//Pre-blessed, +5 force +100 Blade int, +100 int, +1 def, make it silver
 	AddComponent(/datum/component/psyblessed, TRUE, 5, 100, 100, 1, TRUE)
@@ -1046,7 +1046,7 @@
 	enchant(/datum/enchantment/silver)
 
 /obj/item/weapon/sword/long/oldpsysword //Not attainable
-	name = "old psydonian longsword"
+	name = "old angrosian longsword"
 	desc = "A finely made longsword, plated in a worn-down veneer of grubby silver. It's long seen better daes."
 	icon = 'icons/roguetown/weapons/64/psydonite.dmi'
 	icon_state = "opsysword"
@@ -1082,9 +1082,9 @@
 			if("onback")
 				return list("shrink" = 0.6,"sx" = -1,"sy" = 3,"nx" = -1,"ny" = 2,"wx" = 3,"wy" = 4,"ex" = -1,"ey" = 5,"nturn" = 0,"sturn" = 0,"wturn" = 70,"eturn" = 20,"nflip" = 1,"sflip" = 1,"wflip" = 1,"eflip" = 1,"northabove" = 1,"southabove" = 0,"eastabove" = 0,"westabove" = 0)
 
-//................ Psydonian Greatsword ............... //
-/obj/item/weapon/sword/long/greatsword/psydon
-	name = "psydonian greatsword"
+//................ Angrosian Greatsword ............... //
+/obj/item/weapon/sword/long/greatsword/angros
+	name = "angrosian greatsword"
 	desc = "A mighty silver greatsword made to strike fear into the heart of even Archdevils."
 	icon = 'icons/roguetown/weapons/64/psydonite.dmi'
 	icon_state = "psygsword"
@@ -1096,11 +1096,11 @@
 	sellprice = 150
 	item_weight = 2.5 KILOGRAMS
 
-/obj/item/weapon/sword/long/greatsword/psydon/Initialize(mapload)
+/obj/item/weapon/sword/long/greatsword/angros/Initialize(mapload)
 	. = ..()
 	AddComponent(/datum/component/psyblessed, FALSE, 3, FALSE, 50, 1, TRUE)
 
-/obj/item/weapon/sword/long/greatsword/psydon/getonmobprop(tag)
+/obj/item/weapon/sword/long/greatsword/angros/getonmobprop(tag)
 	. = ..()
 	if(tag)
 		switch(tag)
@@ -1113,9 +1113,9 @@
 			if("onback")
 				return list("shrink" = 0.6,"sx" = -1,"sy" = 3,"nx" = -1,"ny" = 2,"wx" = 3,"wy" = 4,"ex" = -1,"ey" = 5,"nturn" = 0,"sturn" = 0,"wturn" = 70,"eturn" = 20,"nflip" = 1,"sflip" = 1,"wflip" = 1,"eflip" = 1,"northabove" = 1,"southabove" = 0,"eastabove" = 0,"westabove" = 0)
 
-/obj/item/weapon/sword/long/greatsword/psydon/relic
+/obj/item/weapon/sword/long/greatsword/angros/relic
 	name = "Crusade"
-	desc = "The grandest blade of the Ordo Benetarus. Its unparalleled strength commands even the greatest of foes to fall. Wade through the unholy in Psydon’s name. Let none survive."
+	desc = "The grandest blade of the Ordo Benetarus. Its unparalleled strength commands even the greatest of foes to fall. Wade through the unholy in Angros’s name. Let none survive."
 	icon_state = "psygsword"
 	force = DAMAGE_SWORD_WIELD
 	possible_item_intents = list(SWORD_CUT, SWORD_THRUST, SWORD_STRIKE)
@@ -1124,7 +1124,7 @@
 	item_weight = 2.5 KILOGRAMS
 
 /obj/item/weapon/sword/long/broadsword/psy
-	name = "old psydonian broadsword"
+	name = "old angrosian broadsword"
 	desc = "Even the most ignorant of zealots know that the holy silver loses its properties when not blessed by Priests for an extended period of time. Its edge remains as lethal as ever, however."
 	icon = 'icons/roguetown/weapons/64/psydonite.dmi'
 	icon_state = "psybroadsword"
@@ -1134,7 +1134,7 @@
 
 /obj/item/weapon/sword/long/broadsword/psy/relic
 	name = "Creed"
-	desc = "Bathed in Psydonian prayers, this large and heavy blade exists to slay the inhumen and evil. The crossguard’s psycross is engraved with prayers of the Ordo Benetarus. You’re the light - show them the way."
+	desc = "Bathed in Angrosian prayers, this large and heavy blade exists to slay the inhumen and evil. The crossguard’s psycross is engraved with prayers of the Ordo Benetarus. You’re the light - show them the way."
 	item_weight = 2.5 KILOGRAMS
 
 /obj/item/weapon/sword/long/broadsword/psy/getonmobprop(tag)
@@ -1150,13 +1150,13 @@
 	. = ..()					//Pre-blessed, +5 DMG, +100 Blade int, +100 int, +2 def, make it silver
 	AddComponent(/datum/component/psyblessed, TRUE, 5, 100, 100, 2, TRUE)
 
-/obj/item/weapon/sword/long/greatsword/psydon/unforgotten
+/obj/item/weapon/sword/long/greatsword/angros/unforgotten
 	name = "unforgotten blade"
-	desc = "High Inquisitor Archibald once recorded an expedition of seven brave order members into eastern snow-felled wastes to root out evil. Its leader, Holy Ordinator Guillemin, was said to have held on for seven daes and seven nights against darksteel-clad heretics before Psydon acknowledged his endurance. Nothing but his blade remained - his psycross wrapped around its hilt in remembrance."
+	desc = "High Inquisitor Archibald once recorded an expedition of seven brave order members into eastern snow-felled wastes to root out evil. Its leader, Holy Ordinator Guillemin, was said to have held on for seven daes and seven nights against darksteel-clad heretics before Angros acknowledged his endurance. Nothing but his blade remained - his psycross wrapped around its hilt in remembrance."
 	icon_state = "forgottenblade"
 	item_weight = 2.5 KILOGRAMS
 
-/obj/item/weapon/sword/long/greatsword/psydon/unforgotten/Initialize()
+/obj/item/weapon/sword/long/greatsword/angros/unforgotten/Initialize()
 	. = ..()					//+50 Blade int, +3 DMG, +50 int, +1 def, make it silver
 	AddComponent(/datum/component/psyblessed, FALSE, 3, 50, 50, 1, TRUE)
 
@@ -1247,7 +1247,7 @@
 
 /obj/item/weapon/sword/long/greatsword/claymore/iron
 	name = "iron claymore"
-	desc = "A large sword originating from the north, commonly used by Ravoxians."
+	desc = "A large sword originating from the north, commonly used by Mordsolians."
 	icon_state = "ironclaymore"
 	force_wielded = DAMAGE_LONGSWORD_WIELD
 	max_blade_int = 200
@@ -1294,8 +1294,8 @@
 
 
 /obj/item/weapon/sword/long/greatsword/claymore/gold //Uncraftable
-	name = "ravoxian claymore"
-	desc = "A huge sword constructed out of Steel and Gold, wielded by certain Templars of the Ravoxian Order."
+	name = "mordsolian claymore"
+	desc = "A huge sword constructed out of Steel and Gold, wielded by certain Templars of the Mordsolian Order."
 	icon_state = "gsclaymore"
 	max_blade_int = INTEGRITY_STRONG + 50
 	sellprice = 200
@@ -1367,7 +1367,7 @@
 			if("onback")
 				return list("shrink" = 0.6,"sx" = -1,"sy" = 3,"nx" = -1,"ny" = 2,"wx" = 3,"wy" = 4,"ex" = -1,"ey" = 5,"nturn" = 0,"sturn" = 0,"wturn" = 70,"eturn" = 20,"nflip" = 1,"sflip" = 1,"wflip" = 1,"eflip" = 1,"northabove" = 1,"southabove" = 0,"eastabove" = 0,"westabove" = 0)
 
-/obj/item/weapon/sword/long/exe/astrata
+/obj/item/weapon/sword/long/exe/visires
 	name = "solar judge"
 	desc = "This wicked executioner's blade calls for order."
 	icon = 'icons/roguetown/weapons/64/patron.dmi'

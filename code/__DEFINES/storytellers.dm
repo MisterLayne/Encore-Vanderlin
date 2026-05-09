@@ -1,94 +1,94 @@
 /// Could be bitflags, but that would require a good amount of translations, which eh, either way works for me
 /// When the event is combat oriented (spawning monsters, inherently hostile antags)
 
-#define TAG_ASTRATA "Astrata"
-#define TAG_NOC "Noc"
-#define TAG_RAVOX "Ravox"
-#define TAG_ABYSSOR "Abyssor"
-#define TAG_XYLIX "Xylix"
-#define TAG_NECRA "Necra"
-#define TAG_PESTRA "Pestra"
-#define TAG_MALUM "Malum"
-#define TAG_EORA "Eora"
-#define TAG_DENDOR "Dendor"
-#define TAG_ZIZO "Zizo"
-#define TAG_BAOTHA "Baotha"
-#define TAG_GRAGGAR "Graggar"
-#define TAG_MATTHIOS "Matthios"
+#define TAG_VISIRES "Visires"
+#define TAG_AKAN "Akan"
+#define TAG_MORDSOL "Mordsol"
+#define TAG_MJALLIDHORN "Mjallidhorn"
+#define TAG_ILIOPE "Iliope"
+#define TAG_VALDALA "Valdala"
+#define TAG_ERDL "Erdl"
+#define TAG_GOLERKANH "Goler Kanh"
+#define TAG_POMETTE "Pomette"
+#define TAG_GANI "Gani"
+#define TAG_ZIZO "The One Envy"
+#define TAG_HERTANNEA "Hertannea"
+#define TAG_ARCHDEVILS "The Archdevils"
+#define TAG_DECEIVERS "The Deceivers"
 
 /// Base tag for god-related logic and identification
 #define TAG_GOD "God"
 
-/// Tag used for blessings granted by Eora
+/// Tag used for blessings granted by Pomette
 #define TAG_BOON "Boon"
 
 /// Tag reserved for curse mechanics (unused by gods)
 #define TAG_CURSE "Curse"
 
-/// Tag associated with hauntings, used by Noc and Necra
+/// Tag associated with hauntings, used by Akan and Valdala
 #define TAG_HAUNTED "Haunted"
 
 /// Tag reserved for combat logic (unused by gods)
 #define TAG_COMBAT "Combat"
 
-/// Tag used for raid events, associated with Ravox
+/// Tag used for raid events, associated with Mordsol
 #define TAG_RAID "Raid"
 
-/// Tag representing trade interactions, used by Abyssor and Matthios
+/// Tag representing trade interactions, used by Mjallidhorn and Deceivers
 #define TAG_TRADE "Trade"
 
-/// Tag denoting widespread effects, utilized by Eora
+/// Tag denoting widespread effects, utilized by Pomette
 #define TAG_WIDESPREAD "Widespread"
 
 /// Tag reserved for villain roles or actions (unused by gods)
 #define TAG_VILLAIN "Villain"
 
-/// Tag representing medical influences, tied to Pestra
+/// Tag representing medical influences, tied to Erdl
 #define TAG_MEDICAL "Medical"
 
-/// Tag for alchemy-related actions or systems, belonging to Pestra
+/// Tag for alchemy-related actions or systems, belonging to Erdl
 #define TAG_ALCHEMY "Alchemy"
 
-/// Tag for nature-related events, tied to Pestra and Dendor
+/// Tag for nature-related events, tied to Erdl and Gani
 #define TAG_NATURE "Nature"
 
-/// Tag representing work-related actions or influence, used by Malum
+/// Tag representing work-related actions or influence, used by Goler Kanh
 #define TAG_WORK "Work"
 
-/// Tag for water-related actions or effects, used by Abyssor
+/// Tag for water-related actions or effects, used by Mjallidhorn
 #define TAG_WATER "Water"
 
-/// Tag representing magical influence or events, used by Noc and Zizo
+/// Tag representing magical influence or events, used by Akan and Zizo
 #define TAG_MAGICAL "Magical"
 
-/// Tag denoting battle-related effects, associated with Graggar
+/// Tag denoting battle-related effects, associated with Archdevils
 #define TAG_BATTLE "Battle"
 
-/// Tag symbolizing blood-related actions, belonging to Graggar
+/// Tag symbolizing blood-related actions, belonging to Archdevils
 #define TAG_BLOOD "Blood"
 
-/// Tag representing war-like influence, tied to Graggar
+/// Tag representing war-like influence, tied to Archdevils
 #define TAG_WAR "War"
 
-/// Tag for gambling-related systems or events, used by Xylix
+/// Tag for gambling-related systems or events, used by Iliope
 #define TAG_GAMBLE "Gamble"
 
-/// Tag symbolizing trickery, mischief, or deception, belonging to Zizo and Xylix
+/// Tag symbolizing trickery, mischief, or deception, belonging to Zizo and Iliope
 #define TAG_TRICKERY "Trickery"
 
-/// Tag representing unexpected outcomes or randomness, tied to Zizo and Xylix
+/// Tag representing unexpected outcomes or randomness, tied to Zizo and Iliope
 #define TAG_UNEXPECTED "Unexpected"
 
-/// Tag representing insanity-related mechanics, used by Baotha and Dendor
+/// Tag representing insanity-related mechanics, used by Hertannea and Dendor
 #define TAG_INSANITY "Insanity"
 
-/// Tag denoting disaster-related events or effects, tied to Baotha
+/// Tag denoting disaster-related events or effects, tied to Hertannea
 #define TAG_DISASTER "Disaster"
 
-/// Tag representing corruption, used by Matthios
+/// Tag representing corruption, used by Deceivers
 #define TAG_CORRUPTION "Corruption"
 
-/// Tag for loot-related events, effects, or systems, used by Matthios
+/// Tag for loot-related events, effects, or systems, used by Deceivers
 #define TAG_LOOT "Loot"
 
 #define EVENT_TRACK_MUNDANE "Mundane"
@@ -182,47 +182,47 @@
 
 /// Divine pantheon storytellers
 #define DIVINE_STORYTELLERS list( \
-	/datum/storyteller/astrata, \
-	/datum/storyteller/noc, \
-	/datum/storyteller/ravox, \
-	/datum/storyteller/abyssor, \
-	/datum/storyteller/xylix, \
-	/datum/storyteller/necra, \
-	/datum/storyteller/pestra, \
-	/datum/storyteller/malum, \
-	/datum/storyteller/eora, \
-	/datum/storyteller/dendor, \
+	/datum/storyteller/visires, \
+	/datum/storyteller/akan, \
+	/datum/storyteller/mordsol, \
+	/datum/storyteller/mjallidhorn, \
+	/datum/storyteller/iliope, \
+	/datum/storyteller/valdala, \
+	/datum/storyteller/erdl, \
+	/datum/storyteller/golerkanh, \
+	/datum/storyteller/pomette, \
+	/datum/storyteller/gani, \
 )
 
 /// Inhumen pantheon storytellers
 #define INHUMEN_STORYTELLERS list( \
 	/datum/storyteller/zizo, \
-	/datum/storyteller/baotha, \
-	/datum/storyteller/graggar, \
-	/datum/storyteller/matthios, \
+	/datum/storyteller/hertannea, \
+	/datum/storyteller/archdevils, \
+	/datum/storyteller/deceivers, \
 )
 
 /// All storytellers
 #define STORYTELLERS_ALL (DIVINE_STORYTELLERS + INHUMEN_STORYTELLERS)
 
 // Divine pantheon
-#define ASTRATA "Astrata"
-#define NOC "Noc"
-#define RAVOX "Ravox"
-#define ABYSSOR "Abyssor"
-#define XYLIX "Xylix"
-#define NECRA "Necra"
-#define PESTRA "Pestra"
-#define MALUM "Malum"
-#define EORA "Eora"
-#define DENDOR "Dendor"
-#define DIVINE_CENTRIST "Enlightened Centrism"
+#define VISIRES "Visires"
+#define AKAN "Akan"
+#define MORDSOL "Mordsol"
+#define MJALLIDHORN "Mjallidhorn"
+#define ILIOPE "Iliope"
+#define VALDALA "Valdala"
+#define ERDL "Erdl"
+#define GOLERKANH "Goler Kanh"
+#define POMETTE "Pomette"
+#define GANI "Gani"
+#define DIVINE_CENTRIST "Elementalist"
 
 // Inhumen pantheon
-#define ZIZO "Zizo"
-#define BAOTHA "Baotha"
-#define GRAGGAR "Graggar"
-#define MATTHIOS "Matthios"
+#define ZIZO "One Envy"
+#define HERTANNEA "Hertannea"
+#define ARCHDEVILS "Archdevils"
+#define DECEIVERS "Deceivers"
 
 // Devotion Classes
 #define DEVOTION_CLASS_PRIEST "Priest"

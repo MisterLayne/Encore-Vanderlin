@@ -11,25 +11,25 @@
 		return
 
 	if(!cast_on.patron)
-		to_chat(owner, span_info("The Ten glare upon you in confusion. CHILD, [cast_on.real_name] has no form of faith."))
+		to_chat(owner, span_info("The Elementals glare upon you in confusion. Child, [cast_on.real_name] has no form of faith."))
 		return
 
 	if(cast_on.patron.type in ALL_PROFANE_PATRONS)
-		to_chat(owner, span_danger("The Ten glare upon you in fury. CHILD, [cast_on.real_name] serves the Inhumen, do not disgrace Our name."))
+		to_chat(owner, span_danger("The Elementals glare upon you in fury. Child, [cast_on.real_name] serves the denizens of Hell!"))
 		living_owner.adjust_divine_fire_stacks(50) // Half of the damage that you get if you say a profane word, hurts alot.
 		living_owner.IgniteMob()
 		return // Stop the recruitment entirely
 
-	if(istype(cast_on.patron, /datum/patron/psydon))
-		to_chat(owner, span_info("The Ten glare upon you in sadness. CHILD, [cast_on.real_name] serves Psydon, he is dead, nobody can answer these prayers."))
+	if(istype(cast_on.patron, /datum/patron/angros))
+		to_chat(owner, span_info("The Elementals glare upon you in sadness. Child, [cast_on.real_name] serves Angros, he is lost, nobody can answer these prayers."))
 		return // Stop recruitment
 
 	if(!allow_centrist && istype(cast_on.patron, /datum/patron/divine/centrist))
-		to_chat(owner, span_info("The Ten glare upon you in stubbornness. [cast_on.real_name] worships The Ten equally. They can serve only one."))
+		to_chat(owner, span_info("The Elementals glare upon you in stubbornness. [cast_on.real_name] worships balance equally. They can serve only one."))
 		return // Stop recruitment
 
 	if(!(cast_on.patron.type in ALL_TEMPLE_PATRONS))
-		to_chat(owner, span_danger("The Ten glare upon you in anger. CHILD, [cast_on.real_name] does not worship Our divinity. They are undeserving of Our grace."))
+		to_chat(owner, span_danger("The Elementals glare upon you in anger. Child, [cast_on.real_name] does not worship the Aspects. They are undeserving of the its gift."))
 		return // Stop recruitment
 
 	return ..()
@@ -40,8 +40,8 @@
 
 	new_role = JOB_TEMPLAR
 	recruitment_faction = "Church"
-	recruitment_message = "Serve the Ten, %RECRUIT!"
-	accept_message = "FOR THE TEN!"
+	recruitment_message = "Serve the Aspects, %RECRUIT!"
+	accept_message = "FOR THE BALANCE!"
 	refuse_message = "I refuse."
 
 /datum/action/cooldown/spell/undirected/list_target/convert_role/church/templar/on_conversion(mob/living/carbon/human/cast_on)
@@ -59,8 +59,8 @@
 
 	new_role = JOB_ACOLYTE
 	recruitment_faction = "Church"
-	recruitment_message = "Serve the Ten, %RECRUIT!"
-	accept_message = "FOR THE TEN!"
+	recruitment_message = "Serve the Aspects, %RECRUIT!"
+	accept_message = "FOR THE BALANCE!"
 	refuse_message = "I refuse."
 
 /datum/action/cooldown/spell/undirected/list_target/convert_role/church/acolyte/on_conversion(mob/living/carbon/human/cast_on)
@@ -77,8 +77,8 @@
 
 	new_role = JOB_CHURCHLING
 	recruitment_faction = "Church"
-	recruitment_message = "Serve the Ten, %RECRUIT!"
-	accept_message = "FOR THE TEN!"
+	recruitment_message = "Serve the Aspects, %RECRUIT!"
+	accept_message = "FOR THE BALANCE!"
 	refuse_message = "I refuse."
 
 	allow_centrist = TRUE

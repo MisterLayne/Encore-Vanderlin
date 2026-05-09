@@ -61,7 +61,7 @@
 
 	dodgetime = 50
 	aggressive = TRUE
-	dendor_taming_chance = DENDOR_TAME_PROB_HIGH
+	gani_taming_chance = GANI_TAME_PROB_HIGH
 
 	remains_type = /obj/effect/decal/remains/troll
 
@@ -203,7 +203,7 @@
 						/obj/item/natural/rock/mana_crystal = 3)
 	head_butcher = /obj/item/natural/head/troll/cave
 
-	dendor_taming_chance = DENDOR_TAME_PROB_LOW
+	gani_taming_chance = GANI_TAME_PROB_LOW
 	defprob = 15
 
 	//stone chucking ability
@@ -227,7 +227,7 @@
 					/obj/item/natural/hide = 3, \
 					/obj/item/alch/horn = 2)
 	head_butcher = /obj/item/natural/head/troll/axe
-	dendor_taming_chance = DENDOR_TAME_PROB_LOW
+	gani_taming_chance = GANI_TAME_PROB_LOW
 	base_intents = list(/datum/intent/simple/troll_axe)
 	attack_sound = list('sound/combat/wooshes/blunt/wooshhuge (1).ogg','sound/combat/wooshes/blunt/wooshhuge (2).ogg','sound/combat/wooshes/blunt/wooshhuge (3).ogg')
 	loot = list(/obj/item/weapon/axe/iron/troll)

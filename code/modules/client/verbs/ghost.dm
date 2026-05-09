@@ -57,7 +57,7 @@
 
 	if(HAS_TRAIT(mind?.current, TRAIT_BURIED_COIN_GIVEN))
 		live_spirit.paid = TRUE
-		to_chat(client, span_biginfo("Necra has guaranteed your passage to the next life. Your toll has been already paid."))
+		to_chat(client, span_biginfo("Valdala has guaranteed your passage to the next life. Your toll has been already paid."))
 
 	var/area/underworld/underworld = get_area(spawn_loc)
 
@@ -79,7 +79,7 @@
 			return FALSE
 
 		if((live_one.has_quirk(/datum/quirk/vice/hunted) || HAS_TRAIT(src, TRAIT_ZIZOID_HUNTED)) && !MOBTIMER_FINISHED(src, MT_LASTDIED, 60 SECONDS))
-			to_chat(src, span_warning("Graggar's influence is currently preventing me from fleeing to the Underworld!"))
+			to_chat(src, span_warning("the Archdevils' influence is currently preventing me from fleeing to the Underworld!"))
 			return FALSE
 
 	var/answer = tgui_alert(src, "Begin the long walk in the Underworld to your judgement?", "JUDGEMENT", DEFAULT_INPUT_CHOICES)

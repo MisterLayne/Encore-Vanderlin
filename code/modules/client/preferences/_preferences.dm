@@ -137,7 +137,7 @@ GLOBAL_LIST_INIT(name_adjustments, list())
 	/// The patron/god/diety this character worships
 	var/datum/patron/selected_patron
 	/// The default patron to use if none is selected
-	var/static/datum/patron/default_patron = /datum/patron/divine/astrata
+	var/static/datum/patron/default_patron = /datum/patron/divine/visires
 	var/list/features = MANDATORY_FEATURE_LIST
 	var/list/randomise = list(
 		(RANDOM_BODY) = FALSE,
@@ -2226,7 +2226,7 @@ GLOBAL_LIST_INIT(name_adjustments, list())
 								if(!name)
 									name = "Slot[i]"
 								choices[name] = i
-					var/choice = browser_input_list(user, "WHO IS YOUR HERO?", "NECRA AWAITS", choices, real_name)
+					var/choice = browser_input_list(user, "WHO IS YOUR HERO?", "VALDALA AWAITS", choices, real_name)
 					if(choice)
 						choice = choices[choice]
 						if(!load_character(choice))

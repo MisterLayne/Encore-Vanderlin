@@ -86,7 +86,7 @@
 	sleeved = 'icons/roguetown/clothing/special/onmob/evilarmor.dmi'
 	sellprice = 0 // Incredibly evil Zizoid armor, this should be burnt, nobody wants this
 
-/obj/item/clothing/gloves/plate/matthios
+/obj/item/clothing/gloves/plate/deceivers
 	name = "gilded gauntlets"
 	desc = "Shimmering plate gauntlets. Many riches have been taken with these, and just as many lives."
 	icon_state = "matthiosgloves"
@@ -95,7 +95,7 @@
 	sleeved = 'icons/roguetown/clothing/special/onmob/evilarmor.dmi'
 	sellprice = 0 // See above comment
 
-/obj/item/clothing/gloves/plate/graggar
+/obj/item/clothing/gloves/plate/archdevils
 	name = "vicious gauntlets"
 	desc = "Plate gauntlets that reek of death. Many lives have been taken with these."
 	icon_state = "graggarplategloves"

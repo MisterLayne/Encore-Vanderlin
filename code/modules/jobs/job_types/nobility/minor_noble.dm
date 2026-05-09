@@ -63,7 +63,7 @@
 
 /datum/job/minor_noble/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
-	if(istype(spawned.patron, /datum/patron/inhumen/baotha))
+	if(istype(spawned.patron, /datum/patron/inhumen/hertannea))
 		spawned.cmode_music = 'sound/music/cmode/antag/CombatBaotha.ogg'
 
 /datum/job/minor_noble/on_roundstart(mob/living/carbon/human/spawned, client/player_client)

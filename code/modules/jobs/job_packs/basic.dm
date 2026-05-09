@@ -40,7 +40,7 @@
 	)
 
 	pack_contents = list(
-		/obj/item/weapon/flail/psydon/relic = ITEM_SLOT_HANDS,
+		/obj/item/weapon/flail/angros/relic = ITEM_SLOT_HANDS,
 		/obj/item/weapon/shield/tower/metal/psy = ITEM_SLOT_BACK_R,
 	)
 
@@ -51,7 +51,7 @@
 	)
 
 	pack_contents = list(
-		/obj/item/weapon/sword/long/greatsword/psydon/relic = ITEM_SLOT_HANDS,
-		/obj/item/weapon/knife/dagger/silver/psydon = ITEM_SLOT_HANDS,
+		/obj/item/weapon/sword/long/greatsword/angros/relic = ITEM_SLOT_HANDS,
+		/obj/item/weapon/knife/dagger/silver/angros = ITEM_SLOT_HANDS,
 		/obj/item/weapon/scabbard/knife = ITEM_SLOT_BACK_L,
 	)

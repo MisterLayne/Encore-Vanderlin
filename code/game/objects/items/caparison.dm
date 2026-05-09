@@ -10,7 +10,6 @@
 	var/list/symbol_types
 	var/female_caparison_state = "caparison-f"
 	gender = NEUTER
-	item_weight = 500 GRAMS
 	var/list/valid_animal_types = list(/mob/living/simple_animal/hostile/retaliate/saiga)
 
 /obj/item/caparison/attack(mob/living/M, mob/living/user)
@@ -90,22 +89,22 @@
 //////////////////////
 
 /obj/item/caparison/psy
-	name = "psydonite caparison"
+	name = "angrosian caparison"
 	desc = "A decorative piece of cloth meant to be used as a saddle decoration. It's adorned with Psycrosses. This one fits on a Saiga."
 	caparison_state = "psy_caparison"
 	female_caparison_state = "psy_caparison-f"
 
-/obj/item/caparison/astrata
-	name = "astratan caparison"
+/obj/item/caparison/visires
+	name = "visires caparison"
 	desc = "A decorative piece of cloth meant to be used as a saddle decoration. It's adorned with Astratan crosses. This one fits on a Saiga."
 	caparison_state = "astra_caparison"
 	female_caparison_state = "astra_caparison-f"
 
-/obj/item/caparison/eora
-	name = "eoran caparison"
-	desc = "A decorative piece of cloth meant to be used as a saddle decoration. It's adorned with Eoran hearts. This one fits on a Saiga."
-	caparison_state = "eora_caparison"
-	female_caparison_state = "eora_caparison-f"
+/obj/item/caparison/pomette
+	name = "pomettic caparison"
+	desc = "A decorative piece of cloth meant to be used as a saddle decoration. It's adorned with Pomettic hearts. This one fits on a Saiga."
+	caparison_state = "pomette_caparison"
+	female_caparison_state = "pomette_caparison-f"
 
 /obj/item/caparison/azure
 	name = "azurean caparison"
@@ -130,5 +129,4 @@
 	valid_animal_types = list(/mob/living/simple_animal/hostile/retaliate/honse)
 	color = COLOR_WHITE
 	detail_types = list("Quad" = "quad")
-	symbol_types = list("Psycross" = "psycross", "Astrata" = "astrata")
-	item_weight = 700 GRAMS
+	symbol_types = list("Psycross" = "psycross", "Visires" = "visires")

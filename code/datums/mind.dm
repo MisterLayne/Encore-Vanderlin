@@ -549,7 +549,7 @@ GLOBAL_LIST_EMPTY(personal_objective_minds)
 				else
 					output += "<br><i>Hunted for: Unknown reasons</i>"
 
-		output += "<br><br>Your creed is blood, your faith is steel. You will not rest until these souls are yours. Use the profane dagger to trap their souls for Graggar."
+		output += "<br><br>Your creed is blood, your faith is steel. You will not rest until these souls are yours. Use the profane dagger to trap their souls for Archdevils."
 	if(window)
 		recipient << browse(output,"window=memory")
 

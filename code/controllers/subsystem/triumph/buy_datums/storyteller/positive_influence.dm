@@ -14,72 +14,72 @@
 	if(storyteller_name)
 		adjust_storyteller_influence(storyteller_name, 25)
 
-/datum/triumph_buy/storyteller_influence_bonus/matthios
+/datum/triumph_buy/storyteller_influence_bonus/deceivers
 	name = "Deceivers' Influence"
-	triumph_buy_id = TRIUMPH_BUY_MATTHIOS_INFLUENCE
-	storyteller_name = MATTHIOS
+	triumph_buy_id = TRIUMPH_BUY_DECEIVERS_INFLUENCE
+	storyteller_name = DECEIVERS
 
-/datum/triumph_buy/storyteller_influence_bonus/graggar
+/datum/triumph_buy/storyteller_influence_bonus/archdevils
 	name = "Archdevil's Influence"
-	triumph_buy_id = TRIUMPH_BUY_GRAGGAR_INFLUENCE
-	storyteller_name = GRAGGAR
+	triumph_buy_id = TRIUMPH_BUY_ARCHDEVILS_INFLUENCE
+	storyteller_name = ARCHDEVILS
 
-/datum/triumph_buy/storyteller_influence_bonus/baotha
+/datum/triumph_buy/storyteller_influence_bonus/hertannea
 	name = "Hertannea's Influence"
-	triumph_buy_id = TRIUMPH_BUY_BAOTHA_INFLUENCE
-	storyteller_name = BAOTHA
+	triumph_buy_id = TRIUMPH_BUY_HERTANNEA_INFLUENCE
+	storyteller_name = HERTANNEA
 
 /datum/triumph_buy/storyteller_influence_bonus/zizo
 	name = "One Envy's Influence"
 	triumph_buy_id = TRIUMPH_BUY_ZIZO_INFLUENCE
 	storyteller_name = ZIZO
 
-/datum/triumph_buy/storyteller_influence_bonus/dendor
+/datum/triumph_buy/storyteller_influence_bonus/gani
 	name = "Gani's Influence"
-	triumph_buy_id = TRIUMPH_BUY_DENDOR_INFLUENCE
-	storyteller_name = DENDOR
+	triumph_buy_id = TRIUMPH_BUY_GANI_INFLUENCE
+	storyteller_name = GANI
 
-/datum/triumph_buy/storyteller_influence_bonus/eora
+/datum/triumph_buy/storyteller_influence_bonus/pomette
 	name = "Pomette's Influence"
-	triumph_buy_id = TRIUMPH_BUY_EORA_INFLUENCE
-	storyteller_name = EORA
+	triumph_buy_id = TRIUMPH_BUY_POMETTE_INFLUENCE
+	storyteller_name = POMETTE
 
-/datum/triumph_buy/storyteller_influence_bonus/malum
+/datum/triumph_buy/storyteller_influence_bonus/golerkanh
 	name = "Goler Kanh's Influence"
-	triumph_buy_id = TRIUMPH_BUY_MALUM_INFLUENCE
-	storyteller_name = MALUM
+	triumph_buy_id = TRIUMPH_BUY_GOLERKANH_INFLUENCE
+	storyteller_name = GOLERKANH
 
-/datum/triumph_buy/storyteller_influence_bonus/pestra
+/datum/triumph_buy/storyteller_influence_bonus/erdl
 	name = "Erdl's Influence"
-	triumph_buy_id = TRIUMPH_BUY_PESTRA_INFLUENCE
-	storyteller_name = PESTRA
+	triumph_buy_id = TRIUMPH_BUY_ERDL_INFLUENCE
+	storyteller_name = ERDL
 
-/datum/triumph_buy/storyteller_influence_bonus/necra
+/datum/triumph_buy/storyteller_influence_bonus/valdala
 	name = "Valdala's Influence"
-	triumph_buy_id = TRIUMPH_BUY_NECRA_INFLUENCE
-	storyteller_name = NECRA
+	triumph_buy_id = TRIUMPH_BUY_VALDALA_INFLUENCE
+	storyteller_name = VALDALA
 
-/datum/triumph_buy/storyteller_influence_bonus/xylix
+/datum/triumph_buy/storyteller_influence_bonus/iliope
 	name = "Iliope's Influence"
-	triumph_buy_id = TRIUMPH_BUY_XYLIX_INFLUENCE
-	storyteller_name = XYLIX
+	triumph_buy_id = TRIUMPH_BUY_ILIOPE_INFLUENCE
+	storyteller_name = ILIOPE
 
-/datum/triumph_buy/storyteller_influence_bonus/abyssor
+/datum/triumph_buy/storyteller_influence_bonus/mjallidhorn
 	name = "Mjallidhorn's Influence"
-	triumph_buy_id = TRIUMPH_BUY_ABYSSOR_INFLUENCE
-	storyteller_name = ABYSSOR
+	triumph_buy_id = TRIUMPH_BUY_MJALLIDHORN_INFLUENCE
+	storyteller_name = MJALLIDHORN
 
-/datum/triumph_buy/storyteller_influence_bonus/ravox
+/datum/triumph_buy/storyteller_influence_bonus/mordsol
 	name = "Mordsol's Influence"
-	triumph_buy_id = TRIUMPH_BUY_RAVOX_INFLUENCE
-	storyteller_name = RAVOX
+	triumph_buy_id = TRIUMPH_BUY_MORDSOL_INFLUENCE
+	storyteller_name = MORDSOL
 
-/datum/triumph_buy/storyteller_influence_bonus/noc
+/datum/triumph_buy/storyteller_influence_bonus/akan
 	name = "Akan's Influence"
 	triumph_buy_id = TRIUMPH_BUY_NOC_INFLUENCE
-	storyteller_name = NOC
+	storyteller_name = AKAN
 
-/datum/triumph_buy/storyteller_influence_bonus/astrata
+/datum/triumph_buy/storyteller_influence_bonus/visires
 	name = "Visires' Influence"
-	triumph_buy_id = TRIUMPH_BUY_ASTRATA_INFLUENCE
-	storyteller_name = ASTRATA
+	triumph_buy_id = TRIUMPH_BUY_VISIRES_INFLUENCE
+	storyteller_name = VISIRES

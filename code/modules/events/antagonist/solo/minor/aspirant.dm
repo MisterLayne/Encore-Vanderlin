@@ -1,8 +1,8 @@
 /datum/round_event_control/antagonist/solo/aspirant
 	name = "Aspirant"
 	tags = list(
-		TAG_ASTRATA,
-		TAG_BAOTHA,
+		TAG_VISIRES,
+		TAG_HERTANNEA,
 		TAG_VILLAIN,
 		TAG_CORRUPTION,
 	)

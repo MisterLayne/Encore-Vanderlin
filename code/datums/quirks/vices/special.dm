@@ -19,7 +19,7 @@
 
 /datum/quirk/vice/hunted/on_examined(mob/user, list/P, list/examine_contents)
 	if(HAS_TRAIT(user, TRAIT_RECOGNIZE_ADDICTS))
-		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_BAOTHA("Graggar's Prey..."))
+		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_HERTANNEA("The Archdevils' Prey..."))
 
 /datum/quirk/vice/hunted/on_life(mob/living/user)
 	if(!ishuman(user))
@@ -31,7 +31,7 @@
 
 /datum/quirk/vice/luxless
 	name = "Lux-less"
-	desc = "Through some grand misfortune, or heroic sacrifice - you have given up your link to Psydon, and with it - your soul. A putrid, horrid thing, you consign yourself to an eternity of nil after death. EXPECT A DIFFICULT, MECHANICALLY UNFAIR EXPERIENCE. (Rakshari, Hollowkin and Kobolds cannot take this - they already have no lux.)"
+	desc = "Through some grand misfortune, or heroic sacrifice - you have given up your link to Angros, and with it - your soul. A putrid, horrid thing, you consign yourself to an eternity of nil after death. EXPECT A DIFFICULT, MECHANICALLY UNFAIR EXPERIENCE. (Rakshari, Hollowkin and Kobolds cannot take this - they already have no lux.)"
 	point_value = 5
 	random_exempt = TRUE
 	blocked_species = list(
@@ -45,7 +45,7 @@
 
 /datum/quirk/vice/luxless/on_examined(mob/user, list/P, list/examine_contents)
 	if(HAS_TRAIT(user, TRAIT_RECOGNIZE_ADDICTS))
-		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_BAOTHA("Luxless..."))
+		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_HERTANNEA("Luxless..."))
 
 /datum/quirk/vice/luxless/on_spawn()
 	if(!ishuman(owner))
@@ -72,7 +72,7 @@
 
 /datum/quirk/vice/pacifist/on_examined(mob/user, list/P, list/examine_contents)
 	if(HAS_TRAIT(user, TRAIT_RECOGNIZE_ADDICTS))
-		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_BAOTHA("Pacifist..."))
+		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_HERTANNEA("Pacifist..."))
 
 /datum/quirk/vice/pacifist/on_remove()
 	if(owner)
@@ -179,7 +179,7 @@
 
 /datum/quirk/vice/traumatized/on_examined(mob/user, list/P, list/examine_contents)
 	if(HAS_TRAIT(user, TRAIT_RECOGNIZE_ADDICTS))
-		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_BAOTHA("Traumatized..."))
+		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_HERTANNEA("Traumatized..."))
 
 /datum/quirk/vice/traumatized/on_spawn()
 	if(!ishuman(owner))
@@ -241,7 +241,7 @@
 
 /datum/quirk/vice/tortured/on_examined(mob/user, list/P, list/examine_contents)
 	if(HAS_TRAIT(user, TRAIT_RECOGNIZE_ADDICTS))
-		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_BAOTHA("Tortured..."))
+		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_HERTANNEA("Tortured..."))
 
 /datum/quirk/vice/tortured/on_spawn()
 	if(!ishuman(owner))
@@ -328,7 +328,7 @@
 
 /datum/quirk/vice/weak_heart/on_examined(mob/user, list/P, list/examine_contents)
 	if(HAS_TRAIT(user, TRAIT_RECOGNIZE_ADDICTS))
-		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_BAOTHA("Weak-Hearted..."))
+		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_HERTANNEA("Weak-Hearted..."))
 
 /datum/quirk/vice/weak_heart/on_spawn()
 	if(!ishuman(owner))
@@ -467,7 +467,7 @@
 
 /datum/quirk/vice/suspicion
 	name = "Inquisitorial Suspicion"
-	desc = "The inquisition suspects me of heresy, whether truthfully or not... Expect a harder experience, as some only require a suspicion to administer Psydon's Justice."
+	desc = "The inquisition suspects me of heresy, whether truthfully or not... Expect a harder experience, as some only require a suspicion to administer Angros's Justice."
 	point_value = 1
 	customization_type = QUIRK_TEXT
 	customization_label = "Why do they suspect me?"

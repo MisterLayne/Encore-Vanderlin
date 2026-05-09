@@ -282,8 +282,8 @@
 	for(var/i in 1 to 3)
 		new /obj/item/flashlight/flare/torch/lantern(src)
 
-/datum/inqports/equipment/psydonthorns
-	name = "1 Psydonian Thorns"
+/datum/inqports/equipment/angrosthorns
+	name = "1 Angrosian Thorns"
 	item_type = /obj/item/clothing/wrists/bracers/psythorns
 	marquescost = 16
 
@@ -330,17 +330,17 @@
 	for(var/i in 1 to 3)
 		new /obj/item/clothing/head/inqarticles/blackbag(src)
 
-/datum/inqports/equipment/psydonhelms
+/datum/inqports/equipment/angroshelms
 	name = "Helms of Angros"
-	item_type = /obj/structure/closet/crate/chest/inqcrate/equipment/psydonhelms
+	item_type = /obj/structure/closet/crate/chest/inqcrate/equipment/angroshelms
 	marquescost = 12
 	maximum = 1
 
-/obj/structure/closet/crate/chest/inqcrate/equipment/psydonhelms/populate_contents()
-	new /obj/item/clothing/head/helmet/heavy/psydonbarbute(src)
+/obj/structure/closet/crate/chest/inqcrate/equipment/angroshelms/populate_contents()
+	new /obj/item/clothing/head/helmet/heavy/angrosbarbute(src)
 	new /obj/item/clothing/head/helmet/heavy/psysallet(src)
 	new /obj/item/clothing/head/helmet/heavy/psybucket(src)
-	new /obj/item/clothing/head/helmet/heavy/psydonhelm(src)
+	new /obj/item/clothing/head/helmet/heavy/angroshelm(src)
 
 /datum/inqports/equipment/crankbox
 	name = "The Crankbox"
@@ -349,7 +349,7 @@
 	maximum = 1
 
 /obj/structure/closet/crate/chest/inqreliquary/relic/crankbox/populate_contents()
-	new /obj/item/psydonmusicbox(src)
+	new /obj/item/angrosmusicbox(src)
 
 /datum/inqports/equipment/nocshades
 	name = "1 Nocshade Lens-Pair"
@@ -395,7 +395,7 @@
 	marquescost = 6
 
 /obj/structure/closet/crate/chest/inqcrate/wardrobe/confessionalcombo/populate_contents()
-	new /obj/item/clothing/head/roguehood/psydon/confessor(src)
+	new /obj/item/clothing/head/roguehood/angros/confessor(src)
 	new /obj/item/clothing/armor/leather/jacket/leathercoat/confessor(src)
 
 /datum/inqports/wardrobe/inspectorcoat
@@ -428,16 +428,16 @@
 	for(var/i in 1 to 3)
 		new /obj/item/clothing/armor/gambeson/heavy/otavan/inq(src)
 
-/datum/inqports/wardrobe/psydonianstandard
+/datum/inqports/wardrobe/angrosianstandard
 	name = "The Inquisitorial Standard"
-	item_type = /obj/structure/closet/crate/chest/inqcrate/wardrobe/psydonian
+	item_type = /obj/structure/closet/crate/chest/inqcrate/wardrobe/angrosian
 	marquescost = 6
 
-/obj/structure/closet/crate/chest/inqcrate/wardrobe/psydonian/populate_contents()
+/obj/structure/closet/crate/chest/inqcrate/wardrobe/angrosian/populate_contents()
 	new /obj/item/clothing/pants/tights/colored/black(src)
 	new /obj/item/clothing/armor/gambeson/heavy/inq(src)
 	new /obj/item/clothing/gloves/leather/otavan(src)
-	new /obj/item/clothing/shoes/psydonboots(src)
+	new /obj/item/clothing/shoes/angrosboots(src)
 
 /datum/inqports/wardrobe/nobledressup
 	name = "The Cost of Nobility Crate"

@@ -367,7 +367,7 @@ GLOBAL_LIST_EMPTY(letters_sent)
 		if(is_accused)
 			marque_value -= 4
 		if(confession.signee?.mind?.has_antag_datum(/datum/antagonist/vampire/lord/daewalker))
-			to_chat(user, SPAN_GOD_PSYDON("Wunderbar. This was no small task to undertake.\
+			to_chat(user, SPAN_GOD_ANGROS("Wunderbar. This was no small task to undertake.\
 			\nThe House of Thronleer wishes you to speak. Finish your duties and return immediately.\
 			\nCongratulations."))
 			marque_value += 50
@@ -509,10 +509,9 @@ GLOBAL_LIST_EMPTY(letters_sent)
 	// Check patron types
 	if(subject?.patron)
 		switch(subject?.patron.type)
-			if(/datum/patron/inhumen/matthios, /datum/patron/inhumen/zizo, /datum/patron/inhumen/graggar,
-			   /datum/patron/inhumen/baotha, /datum/patron/godless/godless, /datum/patron/godless/autotheist,
-			   /datum/patron/godless/defiant, /datum/patron/godless/dystheist, /datum/patron/godless/rashan,
-			   /datum/patron/godless/galadros)
+			if(/datum/patron/inhumen/deceivers, /datum/patron/inhumen/zizo, /datum/patron/inhumen/archdevils,
+			   /datum/patron/inhumen/hertannea, /datum/patron/godless/godless, /datum/patron/godless/autotheist,
+			   /datum/patron/godless/defiant, /datum/patron/godless/dystheist)
 				is_correct = TRUE
 
 	// Check excommunication
@@ -560,7 +559,7 @@ GLOBAL_LIST_EMPTY(letters_sent)
 		if(!is_indexed)
 			marque_value += 2
 		if(subject?.mind?.has_antag_datum(/datum/antagonist/vampire/lord/daewalker))
-			to_chat(user, SPAN_GOD_PSYDON("The Daewalker is among you?! Get their confession immediately, my child. You will be well rewarded for your efforts."))
+			to_chat(user, SPAN_GOD_ANGROS("The Daewalker is among you?! Get their confession immediately, my child. You will be well rewarded for your efforts."))
 			marque_value += 6
 		budget2change(marque_value, user, "MARQUE")
 		GLOB.vanderlin_round_stats[STATS_MARQUES_MADE] += marque_value
@@ -807,7 +806,7 @@ GLOBAL_LIST_EMPTY(letters_sent)
 /obj/structure/fake_machine/mail/proc/display_marquette(mob/user)
 	var/contents
 	contents = "<center>  THE ORATORIUM'S RELIQUARY  <BR>"
-	contents += "ERADICATE HERESY, SO THAT PSYDONIA MAY ENDURE <BR>"
+	contents += "ERADICATE HERESY, SO THAT ANGROSIA MAY ENDURE <BR>"
 	if(HAS_TRAIT(user, TRAIT_PURITAN))
 		contents += "  <a href='?src=[REF(src)];locktoggle=1]'> PURITAN'S LOCK: [inqonly ? "YES":"NO"]</a>  <BR>"
 	else

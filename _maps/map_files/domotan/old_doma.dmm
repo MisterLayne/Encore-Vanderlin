@@ -18274,10 +18274,6 @@
 	pixel_y = -15
 	},
 /obj/effect/landmark/start/priest,
-/obj/structure/fluff/psycross/psydon/metal{
-	density = 0;
-	pixel_y = 20
-	},
 /turf/open/floor/church,
 /area/indoors/town/church)
 "nMx" = (
@@ -24202,9 +24198,6 @@
 /area/outdoors/town/roofs)
 "sps" = (
 /obj/machinery/light/fueled/wallfire/candle/l,
-/obj/structure/bookcase/random/eoratica{
-	name = "bookcase (The Dangers of Holding Hands)"
-	},
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town/clinic_large)
 "spz" = (
@@ -29190,7 +29183,6 @@
 	dir = 10
 	},
 /obj/structure/bookcase,
-/obj/item/book/abyssor,
 /obj/item/book/bookofpriests,
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town/steward)

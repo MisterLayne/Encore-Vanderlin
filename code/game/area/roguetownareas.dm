@@ -99,7 +99,7 @@
 	background_track = 'sound/music/area/decap.ogg'
 	background_track_dusk = null
 	background_track_night = null
-	first_time_text = "MALUMS ANVIL"
+	first_time_text = "GOLER KANHS ANVIL"
 	custom_area_sound = 'sound/misc/stings/MalumSting.ogg'
 	ambush_times = list(NIGHT,DAWN,DUSK,DAY)
 
@@ -194,8 +194,8 @@
 
 	threat_region = THREAT_REGION_COAST
 
-/area/outdoors/eora
-	name = "eoran grove"
+/area/outdoors/pomette
+	name = "pomettic grove"
 	icon_state = "eora"
 	droning_index = DRONING_FOREST_DAY
 	background_track = 'sound/music/area/eora.ogg'
@@ -297,7 +297,7 @@
 /area/under/cavelava
 	name = "cavelava"
 	icon_state = "cavelava"
-	first_time_text = "MALUM'S ARTERY"
+	first_time_text = "GOLERKANH'S ARTERY"
 	droning_index = DRONING_CAVE_LAVA
 	ambient_index = AMBIENCE_CAVE
 	ambush_times = list(NIGHT,DAWN,DUSK,DAY)

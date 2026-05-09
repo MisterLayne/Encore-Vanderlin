@@ -47,11 +47,6 @@
 /obj/item/book/godofdreamsandnightmares,
 /turf/open/floor/blocks,
 /area/outdoors/bog)
-"s" = (
-/obj/structure/bookcase,
-/obj/item/book/abyssor,
-/turf/open/floor/blocks,
-/area/outdoors/bog)
 "t" = (
 /obj/structure/door/violet,
 /turf/open/floor/blocks/paving/vert,
@@ -96,11 +91,6 @@
 /obj/structure/bars/cemetery,
 /turf/open/floor/blocks,
 /area/outdoors/bog)
-"D" = (
-/obj/structure/bookcase,
-/obj/item/book/xylix,
-/turf/open/floor/blocks,
-/area/outdoors/bog)
 "F" = (
 /turf/open/floor/blocks/paving/vert,
 /area/outdoors/bog)
@@ -128,9 +118,6 @@
 /area/outdoors/bog)
 "O" = (
 /obj/structure/closet/crate/coffin,
-/obj/item/clothing/head/helmet/heavy/necked/noc,
-/obj/item/clothing/ring/silver/noc,
-/obj/item/clothing/neck/psycross/silver/divine/noc,
 /turf/open/floor/herringbone,
 /area/outdoors/bog)
 "Q" = (
@@ -662,7 +649,7 @@ j
 j
 R
 I
-s
+R
 z
 n
 f
@@ -1164,7 +1151,7 @@ d
 N
 j
 j
-D
+R
 R
 R
 z

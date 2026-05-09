@@ -84,16 +84,16 @@
 	icon_state = "aflail"
 	item_weight = 1.4 KILOGRAMS
 
-/obj/item/weapon/flail/sflail/necraflail
+/obj/item/weapon/flail/sflail/valdalaflail
 	name = "swift journey"
-	desc = "The striking head resembles Valdala's original skull, striking true with a sculpted emblem of love and sacrifice. Perhaps one of the few Psydonic-designed emblems of The Ten left."
+	desc = "The striking head resembles Valdala's original skull, striking true with a sculpted emblem of love and sacrifice. Perhaps one of the few Unsundered-designed emblems of The Ten left."
 	icon = 'icons/roguetown/weapons/32/patron.dmi'
 	icon_state = "necraflail"
 	item_weight = 1.4 KILOGRAMS
 
 //................ Angros Flail ............... //
-/obj/item/weapon/flail/psydon
-	name = "psydonian flail"
+/obj/item/weapon/flail/angros
+	name = "angrosian flail"
 	desc = "A flail fashioned with the iconography of Angros, and crafted entirely out of silver."
 	icon = 'icons/roguetown/weapons/32/psydonite.dmi'
 	icon_state = "psyflail"
@@ -106,11 +106,11 @@
 	last_used = 0
 	item_weight = 1.4 KILOGRAMS
 
-/obj/item/weapon/flail/psydon/Initialize(mapload)
+/obj/item/weapon/flail/angros/Initialize(mapload)
 	. = ..()
 	AddComponent(/datum/component/psyblessed, FALSE, 3, FALSE, 50, 1, TRUE)
 
-/obj/item/weapon/flail/psydon/relic
+/obj/item/weapon/flail/angros/relic
 	name = "Consecratia"
 	desc = "The weight of His anguish, His pain, His hope and His love for humenkind - all hanging on this ornamental silver-steel head chained to this arm. A declaration of love for all that Angros lives for, and a crushing reminder that the Ordo Benetarus will endure anything to defend it."
 	icon_state = "psymorningstar"
@@ -187,14 +187,14 @@
 				return list("shrink" = 0.6,"sx" = 5,"sy" = -3,"nx" = -5,"ny" = -2,"wx" = -5,"wy" = -1,"ex" = 3,"ey" = -2,"northabove" = 0,"southabove" = 1,"eastabove" = 1,"westabove" = 0,"nturn" = 7,"sturn" = -7,"wturn" = 16,"eturn" = -22,"nflip" = 8,"sflip" = 0,"wflip" = 8,"eflip" = 0)
 
 
-/obj/item/weapon/flail/peasantwarflail/matthios
+/obj/item/weapon/flail/peasantwarflail/deceivers
 	name = "Gilded Flail"
 	desc = "Weight of wealth in a deadly striking end."
 	icon = 'icons/roguetown/weapons/64/patron.dmi'
 	icon_state = "matthiosflail"
 	force_wielded = DAMAGE_GOOD_FLAIL + 7
-	possible_item_intents = list(MATTHIOS_STRIKE)
-	gripped_intents = list(MATTHIOS_STRIKE, MATTHIOS_SMASH)
+	possible_item_intents = list(DECEIVERS_STRIKE)
+	gripped_intents = list(DECEIVERS_STRIKE, DECEIVERS_SMASH)
 	max_integrity = INTEGRITY_STRONGEST
 	slot_flags = ITEM_SLOT_BACK
 	anvilrepair = /datum/attribute/skill/craft/weapon_repair

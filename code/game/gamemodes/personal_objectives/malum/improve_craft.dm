@@ -42,12 +42,12 @@
 /datum/objective/personal/improve_craft/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("You've improved your craft skills enough to please Goler Kanh!"))
-	adjust_storyteller_influence(MALUM, 20)
+	adjust_storyteller_influence(GOLERKANH, 20)
 	UnregisterSignal(owner.current, COMSIG_SKILL_RANK_CHANGE)
 
 /datum/objective/personal/improve_craft/reward_owner()
 	. = ..()
-	owner.current.adjust_stat_modifier(STATMOD_MALUM_BLESSING, list(STAT_INTELLIGENCE = 1))
+	owner.current.adjust_stat_modifier(STATMOD_GOLERKANH_BLESSING, list(STAT_INTELLIGENCE = 1))
 
 /datum/objective/personal/improve_craft/update_explanation_text()
 	explanation_text = "Improve your craft skills by gaining [required_levels] new skill levels through practice or dreams. For Goler Kanh!"

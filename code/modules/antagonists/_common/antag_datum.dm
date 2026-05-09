@@ -307,7 +307,7 @@ GLOBAL_LIST_EMPTY(antagonists)
 			choices[name] = i
 	if(!choices.len)
 		return
-	var/choice = browser_input_list(user, "WHO IS YOUR VILLAIN?", "NECRA AWAITS", choices, null, 45 SECONDS)
+	var/choice = browser_input_list(user, "WHO IS YOUR VILLAIN?", "VALDALA AWAITS", choices, null, 45 SECONDS)
 	if(!choice || QDELETED(user))
 		return
 	if(choice == user.real_name)

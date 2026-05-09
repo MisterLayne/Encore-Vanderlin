@@ -256,11 +256,11 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_IMPERCEPTIBLE "imperceptible"
 /// Reduced turf slowdown
 #define TRAIT_LONGSTRIDER "longstrider"
-/// Dendor Path Traits
-#define TRAIT_DENDOR_GROWING "trait_dendor_growing"
-#define TRAIT_DENDOR_STINGING "trait_dendor_stinging"
-#define TRAIT_DENDOR_DEVOURING "trait_dendor_devouring"
-#define TRAIT_DENDOR_LORDING "trait_dendor_lording"
+/// Gani Path Traits
+#define TRAIT_GANI_GROWING "trait_gani_growing"
+#define TRAIT_GANI_STINGING "trait_gani_stinging"
+#define TRAIT_GANI_DEVOURING "trait_gani_devouring"
+#define TRAIT_GANI_LORDING "trait_gani_lording"
 /// trait that makes you bounce when speaking
 #define TRAIT_SHAKY_SPEECH "Shaky Speech"
 /// Allows for offhand weapon usage
@@ -321,9 +321,9 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 /// Black-bagged. More snowflaking.
 #define TRAIT_BAGGED "bagged"
 /// Pain Tolerance. Through faith, ENDURE.
-#define TRAIT_PSYDONIAN_GRIT "Psydonian Grit"
+#define TRAIT_ANGROSIAN_GRIT "Angrosian Grit"
 /// Anti-Miracles on a selective basis, anastasis / cure rot still apply. Slow passive wound healing while you have blood.
-#define TRAIT_PSYDONITE "Psydonite's Devotion"
+#define TRAIT_ANGROSIAN "Angrosian's Devotion"
 /// Capable of using Garrotes and Blackbags. Apprehension techniques.
 #define TRAIT_BLACKBAGGER "Apprehension Techniques"
 #define TRAIT_WOUNDREGEN "Wound Regeneration"
@@ -392,7 +392,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_BLOODDRINKER "Blood Drinker" // Can drink blood without vomiting
 #define TRAIT_FORAGER "Expert Forager"
 #define TRAIT_TINY "Tiny"
-#define TRAIT_DREAM_WATCHER	"Noc Blessed" //Unique Trait of the Dream Watcher Town Elder Class, they have a chance to know about antags or gods influences.
+#define TRAIT_DREAM_WATCHER	"Akan Blessed" //Unique Trait of the Dream Watcher Town Elder Class, they have a chance to know about antags or gods influences.
 #define TRAIT_HOLLOWBONES "Hollow Bones"
 #define TRAIT_AMAZING_BACK "Light Load"
 #define TRAIT_KITTEN_MOM "Loved By Kittens"
@@ -449,9 +449,9 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_FANATICAL "Fanatical" //Trait used for fanatical mobs who can bypass the excommunication(not the curses though.)
 
 // Divine patron trait bonuses:
-#define TRAIT_SOUL_EXAMINE "Blessing of Necra"  //can check bodies to see if they have departed
-#define TRAIT_ROT_EATER "Blessing of Pestra" //can eat rotten food
-#define TRAIT_KNEESTINGER_IMMUNITY "Blessing of Dendor" //Can move through kneestingers.
+#define TRAIT_SOUL_EXAMINE "Blessing of Valdala"  //can check bodies to see if they have departed
+#define TRAIT_ROT_EATER "Blessing of Erdl" //can eat rotten food
+#define TRAIT_KNEESTINGER_IMMUNITY "Blessing of Gani" //Can move through kneestingers.
 #define TRAIT_LEECHIMMUNE "Unleechable" //leeches drain very little blood
 #define TRAIT_SHARPER_BLADES "Sharper Blades" //Weapons lose less blade integrity
 #define TRAIT_BETTER_SLEEP "Better Sleep" //Recover more energy (blue bar) when sleeping
@@ -462,15 +462,15 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_INQUISITION "Member of the Oratorium Throni Vacui"
 #define TRAIT_PURITAN "Puritan"
 #define TRAIT_SILVER_BLESSED "Silver Blessed"
-#define TRAIT_DIVINE_CENTRIST "Divine Centrist"
+#define TRAIT_DIVINE_CENTRIST "Elementalist"
 #define TRAIT_DIVINE_SERVANT "Divine Servant"
 #define TRAIT_DIVINE_CONVERT "Divine Convert"
 
 // Inhumen patron trait bonuses
-#define TRAIT_ORGAN_EATER "Blessing of Graggar"//Can eat organs (duh.) and raw meat
-#define TRAIT_CRACKHEAD	"Blessing of Baotha" //No overdose on drugs.
+#define TRAIT_ORGAN_EATER "Blessing of Archdevils"//Can eat organs (duh.) and raw meat
+#define TRAIT_CRACKHEAD	"Blessing of Hertannea" //No overdose on drugs.
 #define TRAIT_CABAL "Of the Cabal" //Zizo cultists recognize each other too
-#define TRAIT_MATTHIOS_EYES	"Eyes of Matthios" //Examine to see the most expensive item someone has
+#define TRAIT_DECEIVERS_EYES	"Eyes of Deceivers" //Examine to see the most expensive item someone has
 
 // Other Patron Trait Bonuses
 #define TRAIT_MANEATER_IMMUNITY "Blessing of The Hunt" //Cannot be grabbed by maneaters.
@@ -480,18 +480,18 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 // PATRON CURSE TRAITS
 #define TRAIT_CURSE "Curse" //source
 #define TRAIT_ATHEISM_CURSE "Curse of Atheism"
-#define TRAIT_PSYDON_CURSE "Psydon's Curse"
-#define TRAIT_ASTRATA_CURSE "Astrata's Curse"
-#define TRAIT_NOC_CURSE "Noc's Curse"
-#define TRAIT_RAVOX_CURSE "Ravox's Curse"
-#define TRAIT_NECRA_CURSE "Necra's Curse"
-#define TRAIT_XYLIX_CURSE "Xylix's Curse"
-#define TRAIT_PESTRA_CURSE "Pestra's Curse"
-#define TRAIT_EORA_CURSE "Eora's Curse"
+#define TRAIT_ANGROS_CURSE "Angros's Curse"
+#define TRAIT_VISIRES_CURSE "Visires's Curse"
+#define TRAIT_NOC_CURSE "Akan's Curse"
+#define TRAIT_MORDSOL_CURSE "Mordsol's Curse"
+#define TRAIT_VALDALA_CURSE "Valdala's Curse"
+#define TRAIT_ILIOPE_CURSE "Iliope's Curse"
+#define TRAIT_ERDL_CURSE "Erdl's Curse"
+#define TRAIT_POMETTE_CURSE "Pomette's Curse"
 #define TRAIT_ZIZO_CURSE "Zizo's Curse"
-#define TRAIT_GRAGGAR_CURSE "Graggar's Curse"
-#define TRAIT_MATTHIOS_CURSE "Matthios' Curse"
-#define TRAIT_BAOTHA_CURSE "Baotha's Curse"
+#define TRAIT_ARCHDEVILS_CURSE "Archdevils' Curse"
+#define TRAIT_DECEIVERS_CURSE "Deceivers' Curse"
+#define TRAIT_HERTANNEA_CURSE "Hertannea's Curse"
 
 // HIDDEN DOOR TRAITS
 #define TRAIT_KNOW_KEEP_DOORS "know_keep_doors"
@@ -500,7 +500,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_KNOW_ROUS_DOORS "know_rous_doors" //Event purposes.
 
 // JOB RELATED TRAITS
-#define TRAIT_MALUMFIRE "Professional Smith"
+#define TRAIT_GOLERKANHFIRE "Professional Smith"
 #define TRAIT_CRATEMOVER "Crate Mover"
 #define TRAIT_OLDPARTY "Old Party"
 #define TRAIT_EARGRAB "Ear Grab"

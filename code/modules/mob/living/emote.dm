@@ -56,7 +56,7 @@
 	var/ident_string = "[follower.key]/([follower.real_name]) (follower of [patron_name])"
 	var/bigger = FALSE
 	if((follower.job == JOB_PRIEST) || (follower.job == JOB_PRIEST_FEM))
-		ident_string += "[SPAN_GOD_ASTRATA("(PRIEST)")]"
+		ident_string += "[SPAN_GOD_VISIRES("(PRIEST)")]"
 		bigger = TRUE
 	if(follower.has_quirk(/datum/quirk/vice/godfearing))
 		ident_string += "[SPAN_GOD_GENERIC("(GODFEARING)")]"
@@ -605,7 +605,7 @@
 
 /datum/emote/living/hug/can_run_emote(mob/living/user, status_check = TRUE , intentional)
 	. = ..()
-	if(HAS_TRAIT(user, TRAIT_EORA_CURSE))
+	if(HAS_TRAIT(user, TRAIT_POMETTE_CURSE))
 		var/mob/living/carbon/human/H = user
 		to_chat(H, "<span class='warning'>The idea repulses me!</span>")
 		H.cursed_freak_out()
@@ -618,7 +618,7 @@
 	if(ishuman(target))
 		var/mob/living/carbon/human/H = target
 		// cursed is the one being hugged
-		if(HAS_TRAIT(H, TRAIT_EORA_CURSE))
+		if(HAS_TRAIT(H, TRAIT_POMETTE_CURSE))
 			to_chat(H, "<span class='warning'>I feel inexplicably repelled!</span>")
 			H.cursed_freak_out()
 			return
@@ -689,7 +689,7 @@
 
 /datum/emote/living/kiss/can_run_emote(mob/living/user, status_check = TRUE , intentional)
 	. = ..()
-	if(HAS_TRAIT(user, TRAIT_EORA_CURSE))
+	if(HAS_TRAIT(user, TRAIT_POMETTE_CURSE))
 		var/mob/living/carbon/human/H = user
 		to_chat(H, "<span class='warning'>The idea repulses me!</span>")
 		H.cursed_freak_out()
@@ -710,7 +710,7 @@
 		var/mob/living/carbon/human/E = target
 
 		// cursed is the one being kissed
-		if(HAS_TRAIT(E, TRAIT_EORA_CURSE))
+		if(HAS_TRAIT(E, TRAIT_POMETTE_CURSE))
 			to_chat(E, "<span class='warning'>I feel inexplicably repelled!</span>")
 			E.cursed_freak_out()
 

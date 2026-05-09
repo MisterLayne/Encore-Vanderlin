@@ -9,7 +9,7 @@
 		/datum/attribute/skill/misc/climbing = 50, // Same climbing as Thieves, but without lockpicking
 		/datum/attribute/skill/misc/stealing = 40, // Worse than a Thief, but still very possible to pickpocket
 		/datum/attribute/skill/combat/bows = 30,
-		/datum/attribute/skill/craft/tanning = 20, // Dendor asks us to use every part of the beast
+		/datum/attribute/skill/craft/tanning = 20, // Gani asks us to use every part of the beast
 		/datum/attribute/skill/misc/sewing = 20,
 		/datum/attribute/skill/misc/medicine = 20,
 		/datum/attribute/skill/craft/cooking = 10,
@@ -37,7 +37,7 @@
 	attribute_sheet = /datum/attribute_holder/sheet/job/hollowranger
 
 	traits = list(
-		TRAIT_BESTIALSENSE, // Dendor influence in nature blesses them with the Eyes of the Zad
+		TRAIT_BESTIALSENSE, // Gani influence in nature blesses them with the Eyes of the Zad
 	)
 
 /datum/job/advclass/combat/hollowranger/after_spawn(mob/living/carbon/human/spawned, client/player_client)
@@ -58,7 +58,7 @@
 	beltl = /obj/item/ammo_holder/quiver/arrows
 	beltr = /obj/item/weapon/knife/cleaver/combat
 	armor = /obj/item/clothing/armor/leather/jacket
-	wrists = /obj/item/clothing/neck/psycross/silver/divine/dendor
+	wrists = /obj/item/clothing/neck/psycross/silver/divine/gani
 	gloves = /obj/item/clothing/gloves/fingerless
 	cloak = /obj/item/clothing/cloak/raincloak/furcloak/colored/black
 

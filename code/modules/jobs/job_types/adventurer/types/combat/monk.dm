@@ -66,23 +66,23 @@
 	. = ..()
 
 	switch(H.patron?.type)
-		if(/datum/patron/divine/astrata)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/astrata
-		if(/datum/patron/divine/necra) // Necra acolytes are now gravetenders
-			neck = /obj/item/clothing/neck/psycross/silver/divine/necra
-		if(/datum/patron/divine/eora)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/eora
-		if(/datum/patron/divine/noc)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/noc
-		if(/datum/patron/divine/pestra)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/pestra
-		if(/datum/patron/divine/dendor)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/dendor
-		if(/datum/patron/divine/abyssor)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/abyssor
-		if(/datum/patron/divine/ravox)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/ravox
-		if(/datum/patron/divine/xylix)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/xylix
-		if(/datum/patron/divine/malum)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/malum
+		if(/datum/patron/divine/visires)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/visires
+		if(/datum/patron/divine/valdala) // Valdala acolytes are now gravetenders
+			neck = /obj/item/clothing/neck/psycross/silver/divine/valdala
+		if(/datum/patron/divine/pomette)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/pomette
+		if(/datum/patron/divine/akan)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/akan
+		if(/datum/patron/divine/erdl)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/erdl
+		if(/datum/patron/divine/gani)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/gani
+		if(/datum/patron/divine/mjallidhorn)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
+		if(/datum/patron/divine/mordsol)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/mordsol
+		if(/datum/patron/divine/iliope)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/iliope
+		if(/datum/patron/divine/golerkanh)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/golerkanh

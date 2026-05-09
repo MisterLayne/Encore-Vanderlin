@@ -1,4 +1,4 @@
-/datum/action/cooldown/spell/undirected/touch/bladeofpsydon
+/datum/action/cooldown/spell/undirected/touch/bladeofangros
 	name = "Blade of Angros"
 	desc = "The manifestation of the higher concept of a blade itself. Said to be drawn upon from Akan's treasury of wisdom, each casting a poor facsimile of the perfect weapon They hold."
 	button_icon_state = "boundkatar"
@@ -9,23 +9,23 @@
 		/datum/attunement/light = 0.6,
 	)
 
-	hand_path = /obj/item/melee/touch_attack/bladeofpsydon
+	hand_path = /obj/item/melee/touch_attack/bladeofangros
 	draw_message = "I imagine the perfect weapon, forged by arcyne knowledge, it's edge flawless. \
 	I feel it in my mind's eye -- but it's just out of reach. I pull away it's shadow, a bad copy, and yet it is one of a great weapon nonetheless... "
 	drop_message = "I release my arcyne focus."
 	charges = 3
 
-/datum/action/cooldown/spell/undirected/touch/bladeofpsydon/adjust_hand_charges()
+/datum/action/cooldown/spell/undirected/touch/bladeofangros/adjust_hand_charges()
 	charges += FLOOR(attuned_strength * 1.5, 1)
 
-/datum/action/cooldown/spell/undirected/touch/bladeofpsydon/is_valid_target(atom/cast_on)
+/datum/action/cooldown/spell/undirected/touch/bladeofangros/is_valid_target(atom/cast_on)
 	. = ..()
 	if(!.)
 		return FALSE
 	return isliving(cast_on)
 
 
-/obj/item/melee/touch_attack/bladeofpsydon
+/obj/item/melee/touch_attack/bladeofangros
 	name = "\improper arcyne push dagger"
 	desc = "This blade throbs, translucent and iridescent, blueish arcyne energies running through its translucent surface..."
 	icon = 'icons/mob/actions/roguespells.dmi'

@@ -254,25 +254,7 @@
 		if(prob(5))
 			record_round_statistic(STATS_ZIZO_PRAISED)
 			V.say(pick( \
-				"PRAISE ZIZO!", \
-				"DEATH TO THE TEN...", \
-				"Visires will fail!", \
-				"The Ten cannot stop me!", \
-				"One Envy shows the way!", \
-				"The Dark Lady has shown me the truth!", \
-				"My life for One Envy...", \
-				"Curse your Beast God!", \
-				"Akan's magick is nothing to One Envy!", \
-				"Mjallidhorn is but a grain of salt!", \
-				"Erdl is the most foul of goddesses!", \
-				"Mordsol's justice is flawed and dull!", \
-				"Rip the Sun Tyrant from the sky!", \
-				"Iliope is the tongue that must be severed off!", \
-				"Cast Goler Kanh into the fires of hell!", \
-				"The only truth there is lies with the Dark Elves!", \
-				"I will defile Valdala's dead, a thousand times!", \
-				"I will butcher the Ten like Valdala butchered Angros!", \
-				"Snuff out the beating hearts of Pomette!"))
+				"DEATH TO THE ELEMENTALS..."))
 		V.add_stress(/datum/stress_event/leechcult)
 
 /obj/item/natural/worms/leech/abyssoid
@@ -297,6 +279,6 @@
 	if(iscarbon(user))
 		var/mob/living/carbon/V = user
 		if(prob(3))
-			V.say(pick("PRAISE ABYSSOR!", "REMEMBER ABYSSOR!", "ABYSSOR LIVES!", "GLORY TO ABYSSOR!", "ABYSSOR IS COMING!"))
+			V.say(pick("PRAISE MJALLIDHORN!", "REMEMBER MJALLIDHORN!", "MJALLIDHORN LIVES!", "GLORY TO MJALLIDHORN!", "MJALLIDHORN IS COMING!"))
 
 #undef MAX_LEECH_EVILNESS

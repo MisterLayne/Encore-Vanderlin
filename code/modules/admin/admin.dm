@@ -1067,8 +1067,8 @@
 	priest_job?.add_spells(M)
 	priest_job?.assign_honorary_titles(M)
 	M.mind.set_assigned_role(/datum/job/priest)
-	M.job = JOB_PRIEST
-	M.set_patron(/datum/patron/divine/astrata)
+	M.job = "Priest"
+	M.set_patron(/datum/patron/divine/visires)
 	var/holder = M.patron?.devotion_holder
 	if(holder)
 		var/datum/devotion/devotion = new holder()
@@ -1076,7 +1076,7 @@
 		devotion.grant_to(M)
 	M.give_priest_verbs()
 	removeomen(OMEN_NOPRIEST)
-	priority_announce("Visires has anointed [M.real_name] as the new head of the Church of the Ten!", title = "Visires Shines!", sound = 'sound/misc/bell.ogg')
+	priority_announce("Gani has anointed [M.real_name] as the new head of the Church!", title = "The Worldflame Shines!", sound = 'sound/misc/bell.ogg')
 
 /datum/admins/proc/fix_death_area()
 	set category = "GameMaster"
@@ -1119,8 +1119,6 @@
 
 	for(var/client/client as anything in GLOB.clients)
 		client.mob.adjust_triumphs(amount, reason = reason, override_bonus = TRUE)
-
-	log_game("TRIUMPHS: [key_name(user)] gave everyone [amount] triumphs.")
 
 /datum/admins/proc/change_skill_exp_modifier()
 	set name = "Change Skill Experience Gain"

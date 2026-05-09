@@ -23,7 +23,7 @@
 //┌─────────────── GOREFEAST ───────────────┐//
 /obj/item/weapon/polearm/halberd/bardiche/woodcutter/gorefeast
 	name = "gorefeast"
-	desc = "It is said that with this axe alone, Graggar slew a thousand men. With you, it will slay a thousand more."
+	desc = "It is said that with this axe alone, Archdevils slew a thousand men. With you, it will slay a thousand more."
 	icon = 'icons/roguetown/weapons/64/godweapons.dmi'
 	icon_state = "gorefeast"
 	parrysound = "sword"
@@ -42,7 +42,7 @@
 
 /obj/item/weapon/polearm/halberd/bardiche/woodcutter/gorefeast/Initialize(mapload, ...)
 	. = ..()
-	AddElement(/datum/element/divine_intervention, /datum/patron/inhumen/graggar, PUNISHMENT_STRESS, /datum/stress_event/divine_punishment, TRUE)
+	AddElement(/datum/element/divine_intervention, /datum/patron/inhumen/archdevils, PUNISHMENT_STRESS, /datum/stress_event/divine_punishment, TRUE)
 
 /obj/item/weapon/polearm/halberd/bardiche/woodcutter/gorefeast/pickup(mob/user)
 	. = ..()
@@ -220,7 +220,7 @@
 
 /obj/item/gun/ballistic/bow/turbulenta
 	name = "turbulenta"
-	desc = "Rarely does she even care about combat, but when she does... Baotha was quite the markswoman."
+	desc = "Rarely does she even care about combat, but when she does... Hertannea was quite the markswoman."
 	icon = 'icons/roguetown/weapons/64/godweapons.dmi'
 	icon_state = "turbulenta"
 	base_icon_state = "turbulenta"
@@ -240,7 +240,7 @@
 
 /obj/item/gun/ballistic/bow/turbulenta/Initialize(mapload, ...)
 	. = ..()
-	AddElement(/datum/element/divine_intervention, /datum/patron/inhumen/baotha, PUNISHMENT_STRESS, /datum/stress_event/divine_punishment, TRUE)
+	AddElement(/datum/element/divine_intervention, /datum/patron/inhumen/hertannea, PUNISHMENT_STRESS, /datum/stress_event/divine_punishment, TRUE)
 
 /obj/item/gun/ballistic/bow/turbulenta/getonmobprop(tag)
 	if(tag)
@@ -338,7 +338,7 @@
 	icon_state = "pleonexia"
 	icon = 'icons/roguetown/weapons/64/godweapons.dmi'
 	name = "pleonexia"
-	desc = "A sword of legend. If they are true, then this is the blade of Matthios himself. Rumor has it, it steals space and time."
+	desc = "A sword of legend. If they are true, then this is the blade of Deceivers himself. Rumor has it, it steals space and time."
 	possible_item_intents = list(SWORD_STRIKE, SWORD_CUT)
 	gripped_intents = list(SWORD_STRIKE, SWORD_CHOP, SWORD_THRUST, PLEX_BLINK)
 	max_integrity = INTEGRITY_STRONGEST + 220
@@ -349,10 +349,10 @@
 
 /obj/item/weapon/sword/long/pleonexia/Initialize(mapload, ...)
 	. = ..()
-	AddElement(/datum/element/divine_intervention, /datum/patron/inhumen/matthios, PUNISHMENT_STRESS, /datum/stress_event/divine_punishment, TRUE)
+	AddElement(/datum/element/divine_intervention, /datum/patron/inhumen/deceivers, PUNISHMENT_STRESS, /datum/stress_event/divine_punishment, TRUE)
 
 /obj/item/weapon/sword/long/pleonexia/pre_attack(atom/A, mob/living/user, list/modifiers)
-	if(!istype(user.used_intent, /datum/intent/plex_dash) || !HAS_TRAIT(user, TRAIT_MATTHIOS_EYES))
+	if(!istype(user.used_intent, /datum/intent/plex_dash) || !HAS_TRAIT(user, TRAIT_DECEIVERS_EYES))
 		return ..()
 	. = TRUE
 	if(!isturf(user.loc))
@@ -435,7 +435,7 @@
 
 /obj/item/weapon/greataxe/steel/grandmaster
 	name = "divine greataxe"
-	desc = "The Axe of Saint Altierre. A holy great axe forged of silver, said to represent the brutal attack she struck Graggar with, mortally wounding him and nearly killing him."
+	desc = "The Axe of Saint Altierre. A holy great axe forged of silver, said to represent the brutal attack she struck Archdevils with, mortally wounding him and nearly killing him."
 	icon = 'icons/roguetown/weapons/64/godweapons.dmi'
 	icon_state = "martyraxe"
 	item_weight = 4.5 KILOGRAMS
@@ -485,7 +485,7 @@
 
 /obj/item/weapon/polearm/spear/grandmaster
 	name = "divine trident"
-	desc = "The Trident of Saint Altierre. A holy spear forged of silver in the form of a holy weapon of Abyssor, said to represent her unfathomable Rage against the inhumen gods."
+	desc = "The Trident of Saint Altierre. A holy spear forged of silver in the form of a holy weapon of Mjallidhorn, said to represent her unfathomable Rage against the inhumen gods."
 	icon = 'icons/roguetown/weapons/64/godweapons.dmi'
 	icon_state = "martyrtrident"
 	item_weight = 2.5 KILOGRAMS
@@ -509,7 +509,7 @@
 
 /obj/item/weapon/mace/goden/steel/grandmaster
 	name = "divine grandmace"
-	desc = "The Mace of Saint Altierre. A holy mace forged of silver, said to represent her unyielding Might that turned upon Graggar before his ascension."
+	desc = "The Mace of Saint Altierre. A holy mace forged of silver, said to represent her unyielding Might that turned upon Archdevils before his ascension."
 	icon = 'icons/roguetown/weapons/64/godweapons.dmi'
 	icon_state = "martyrmace"
 	item_weight = 3.5 KILOGRAMS

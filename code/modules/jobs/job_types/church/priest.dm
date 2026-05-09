@@ -43,12 +43,12 @@
 #define PRIEST_CURSE "Curse"
 
 /datum/job/priest
-	title = JOB_PRIEST
-	f_title = JOB_PRIEST_FEM
-	tutorial = "You are a devoted follower of Astrata. \
+	title = "Priest"
+	f_title = "Priestess"
+	tutorial = "You are a devoted leader of the Katholikos. \
 	The divine is all that matters in an immoral world. \
-	The Sun Queen and her pantheon rule over all, and you will preach their wisdom to Vanderlin. \
-	It is up to you to shepherd the flock into a Ten-fearing future."
+	The Elementals and their pantheon rule over all, and you will preach their wisdom to this land. \
+	It is up to you to shepherd the flock into a righteous future."
 	department_flag = CHURCHMEN
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_PRIEST
@@ -60,7 +60,7 @@
 	cmode_music = 'sound/music/cmode/church/CombatAstrata.ogg'
 	allowed_races = RACES_PLAYER_NONDISCRIMINATED
 	blacklisted_species = list(SPEC_ID_HALFLING)
-	allowed_patrons = list(/datum/patron/divine/astrata)
+	allowed_patrons = list(/datum/patron/divine/visires)
 
 	outfit = /datum/outfit/priest
 	spells = list(
@@ -96,8 +96,8 @@
 		devotion.grant_to(spawned)
 
 /datum/outfit/priest
-	name = JOB_PRIEST
-	neck = /obj/item/clothing/neck/psycross/silver/divine/astrata
+	name = "Priest"
+	neck = /obj/item/clothing/neck/psycross/silver/divine/visires
 	head = /obj/item/clothing/head/priestmask
 	shirt = /obj/item/clothing/shirt/undershirt/priest
 	pants = /obj/item/clothing/pants/tights/colored/black
@@ -163,25 +163,25 @@
 		if(HL.mind)
 			if(is_lord_job(HL.mind.assigned_role) || is_consort_job(HL.mind.assigned_role))
 				HL.mind.set_assigned_role(SSjob.GetJobType(/datum/job/villager))
-		if(HL.job == JOB_MONARCH)
+		if(HL.job == "Monarch")
 			HL.job = "Ex-Monarch"
 			lord_job?.remove_spells(HL)
 			HL.honorary = "Former [lord_job.honorary]"
-		if(HL.job == JOB_CONSORT)
+		if(HL.job == "Consort")
 			HL.job = "Ex-Consort"
 			consort_job?.remove_spells(HL)
 
-	var/new_monarch_title = (coronated.gender == MALE) ? SSmapping.config.monarch_title : SSmapping.config.monarch_title_f
+	var/new_title = (coronated.gender == MALE) ? SSmapping.config.monarch_title : SSmapping.config.monarch_title_f
 	coronated.mind.set_assigned_role(/datum/job/lord)
 	lord_job?.assign_honorary_titles(coronated)
-	lord_job?.get_informed_title(coronated, FALSE, TRUE, new_monarch_title)
-	coronated.job = JOB_MONARCH
+	lord_job?.get_informed_title(coronated, TRUE, new_title)
+	coronated.job = "Monarch"
 	lord_job?.add_spells(coronated)
 	SSticker.rulermob = coronated
 	GLOB.badomens -= OMEN_NOLORD
 	say("By the authority of the Gods, I pronounce you Ruler of all [SSmapping.config.map_name]!")
 	priority_announce("[real_name] the [mind.assigned_role.get_informed_title(src)] has named [coronated.real_name] the inheritor of [SSmapping.config.map_name]!", \
-	title = "Long Live [lord_job.get_informed_title()] [coronated.real_name]!", sound = 'sound/misc/bell.ogg')
+	title = "Long Live [lord_job.get_informed_title(coronated)] [coronated.real_name]!", sound = 'sound/misc/bell.ogg')
 
 /mob/living/carbon/human/proc/churchexcommunicate()
 	set name = "Excommunicate"
@@ -191,7 +191,7 @@
 	if(!istype(get_area(src), /area/indoors/town/church/chapel))
 		to_chat(src, span_warning("I need to do this from the prayer hall."))
 		return FALSE
-	var/inputty = SANITIZE_HEAR_MESSAGE(html_decode(tgui_input_text(src, "Excommunicate someone, cutting off their connection to the Ten. (excommunicate them again to remove it)", "Sinner's Name")))
+	var/inputty = input("Excommunicate someone, cutting off their connection to the Ten. (excommunicate them again to remove it)", "Sinner Name") as text|null
 	if(inputty)
 		if(inputty in GLOB.excommunicated_players)
 			GLOB.excommunicated_players -= inputty
@@ -222,7 +222,7 @@
 	if(!istype(get_area(src), /area/indoors/town/church/chapel))
 		to_chat(src, "<span class='warning'>I need to do this from the prayer hall.</span>")
 		return FALSE
-	var/inputty = SANITIZE_HEAR_MESSAGE(html_decode(tgui_input_text(src, "Curse someone as a heretic. (curse them again to remove it)", "Sinner's Name")))
+	var/inputty = input("Curse someone as a heretic. (curse them again to remove it)", "Sinner Name") as text|null
 	if(inputty)
 		if(inputty in GLOB.heretical_players)
 			GLOB.heretical_players -= inputty
@@ -234,14 +234,14 @@
 		if(length(GLOB.tennite_schisms))
 			to_chat(src, span_warning("I cannot curse anyone during the schism!"))
 			return FALSE
-		for(var/mob/living/carbon/human/H in GLOB.human_list)
+		for(var/mob/living/carbon/human/H in GLOB.player_list)
 			if(H.real_name == inputty)
 				if(H.job == "Faceless One")
 					to_chat(src, span_danger("I wasn't able to do that!"))
 					return FALSE
 				H.add_stress(/datum/stress_event/psycurse)
 				GLOB.heretical_players += inputty
-				priority_announce("[real_name] has put Xylix's curse of woe on [inputty] for offending the church!", title = "SHAME", sound = 'sound/misc/excomm.ogg')
+				priority_announce("[real_name] has put Iliope's curse of woe on [inputty] for offending the church!", title = "SHAME", sound = 'sound/misc/excomm.ogg')
 				break
 
 /mob/living/carbon/human/proc/churchannouncement()
@@ -252,7 +252,7 @@
 	if(!istype(get_area(src), /area/indoors/town/church/chapel))
 		to_chat(src, "<span class='warning'>I need to do this from the prayer hall.</span>")
 		return FALSE
-	var/inputty = SANITIZE_HEAR_MESSAGE(html_decode(tgui_input_text(src, "Make an announcement to the faithful", "Church Announcement", multiline = TRUE)))
+	var/inputty = input("Make an announcement", "VANDERLIN") as text|null
 	if(inputty)
 		priority_announce("[inputty]", title = "The [get_role_title()] Speaks", sound = 'sound/misc/bell.ogg')
 		src.log_talk("[TIMETOTEXT4LOGS] [inputty]", LOG_SAY, tag="Priest announcement")

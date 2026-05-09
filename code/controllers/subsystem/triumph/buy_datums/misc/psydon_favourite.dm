@@ -1,7 +1,7 @@
-/datum/triumph_buy/psydon_favourite
+/datum/triumph_buy/angros_favourite
 	name = "Angros' Favourite"
 	desc = "Have a guaranteed place as a notable person of the Realm if you make it through the week!"
-	triumph_buy_id = TRIUMPH_BUY_PSYDON_FAVOURITE
+	triumph_buy_id = TRIUMPH_BUY_ANGROS_FAVOURITE
 	triumph_cost = 2
 	category = TRIUMPH_CAT_MISC
 	visible_on_active_menu = TRUE
@@ -9,6 +9,6 @@
 	limited = TRUE
 	stock = 1
 
-/datum/triumph_buy/psydon_favourite/on_activate()
+/datum/triumph_buy/angros_favourite/on_activate()
 	. = ..()
 	SSgamemode.refresh_alive_stats()

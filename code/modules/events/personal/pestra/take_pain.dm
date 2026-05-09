@@ -8,7 +8,7 @@
 	min_players = 30
 
 	tags = list(
-		TAG_PESTRA,
+		TAG_ERDL,
 		TAG_MEDICAL,
 	)
 
@@ -21,7 +21,7 @@
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(!istype(H) || H.stat == DEAD || !H.client)
 			continue
-		if(!H.patron || !istype(H.patron, /datum/patron/divine/pestra))
+		if(!H.patron || !istype(H.patron, /datum/patron/divine/erdl))
 			continue
 		recipient_found = TRUE
 
@@ -36,7 +36,7 @@
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(!istype(H) || H.stat == DEAD || !H.client)
 			continue
-		if(!H.patron || !istype(H.patron, /datum/patron/divine/pestra))
+		if(!H.patron || !istype(H.patron, /datum/patron/divine/erdl))
 			continue
 		valid_targets += H
 
@@ -51,7 +51,7 @@
 	chosen_one.add_spell(/datum/action/cooldown/spell/transfer_pain)
 
 	bordered_message(chosen_one, list(
-		span_userdanger("YOU ARE PESTRA'S CHOSEN!"),
+		span_userdanger("YOU ARE ERDL'S CHOSEN!"),
 		span_notice("Erdl calls you to ease the suffering of others! Find those in pain and take their suffering upon yourself."),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/magic/cosmic_expansion.ogg', 100)

@@ -595,7 +595,7 @@
 /obj/item/reagent_containers/food/snacks/produce/fruit/pompkaun
 	name = "pompkaun"
 	seed = /obj/item/neuFarm/seed/pompkaun
-	desc = "This fruit is equal parts Dendorite and Pestran, carved in offering to the former, and collected by followers of the latter after the offerings rot."
+	desc = "This fruit is really spooky." //very creative
 	icon_state = "pompkaun"
 	bitesize = 3
 	slices_num = 2
@@ -740,7 +740,7 @@
 /* .......... Mushrooms ........ */
 /obj/item/reagent_containers/food/snacks/produce/mushroom/capillus
 	name = "capillus mort"
-	desc = "Also called Corpse Caps or Valdala’s Nightcaps, this toxic fungus was first discovered by Necran gravetenders, growing amongst tombs. It has long since been harvested and dried to make use of its fibrous gills in the weaving of winding sheets."
+	desc = "Also called Corpse Caps or Valdala’s Nightcaps, this toxic fungus was first discovered by Valdalan gravetenders, growing amongst tombs. It has long since been harvested and dried to make use of its fibrous gills in the weaving of winding sheets."
 	icon_state = "capillus"
 	seed = /obj/item/neuFarm/seed/spore/capillus
 	throwforce = 0
@@ -785,7 +785,7 @@
 
 /obj/item/reagent_containers/food/snacks/produce/mushroom/caveweep
 	name = "caveweep"
-	desc = "Once thought to be the wept tears of Psydonia itself, this fungus can be found growing deep within the damp caves along the coasts of Faience. It is known only to those brave enough to delve their depths and discover its unique, briney flavors."
+	desc = "Once thought to be the wept tears of Gaia itself, this fungus can be found growing deep within the damp caves along the coasts of Faience. It is known only to those brave enough to delve their depths and discover its unique, briney flavors."
 	icon_state = "caveweep"
 	seed = /obj/item/neuFarm/seed/spore/caveweep
 	throwforce = 0
@@ -799,7 +799,7 @@
 
 /obj/item/reagent_containers/food/snacks/produce/mushroom/borowiki
 	name = "borowiki"
-	desc = "Also known as Cépes to the Drow, this fungus was cultivated over generations into this hearty crop by the Dwarves of the mountain passes. It is not known which of them were the first to discover it, though their use by the surface dwelling species of Psydonia has grown significantly in the last few centuries."
+	desc = "Also known as Cépes to the Drow, this fungus was cultivated over generations into this hearty crop by the Dwarves of the mountain passes. It is not known which of them were the first to discover it, though their use by the surface dwelling species of Gaia has grown significantly in the last few centuries."
 	icon_state = "borowiki"
 	seed = /obj/item/neuFarm/seed/spore/borowiki
 	throwforce = 0

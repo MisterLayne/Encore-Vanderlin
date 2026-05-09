@@ -143,8 +143,8 @@
 	crafting_message = "stuff a wiener"
 	extra_chance = 100
 
-/datum/repeatable_crafting_recipe/cooking/pestranstick
-	name = "Pestran Stick"
+/datum/repeatable_crafting_recipe/cooking/erdlnstick
+	name = "Erdite Stick"
 
 	requirements = list(
 		/obj/item/reagent_containers/food/snacks/butterslice = 1,
@@ -153,7 +153,7 @@
 	required_table = TRUE
 	attacked_atom = /obj/item/reagent_containers/food/snacks/butterslice
 	starting_atom = /obj/item/grown/log/tree/stick
-	output = /obj/item/reagent_containers/food/snacks/pestranstick
+	output = /obj/item/reagent_containers/food/snacks/erdlnstick
 	craft_time = 5 SECONDS
 	crafting_sound = 'sound/foley/dropsound/food_drop.ogg'
 	crafting_message = "skewer the butter"

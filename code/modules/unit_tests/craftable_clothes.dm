@@ -35,15 +35,15 @@ abstract types are automatically excluded.
 		/obj/item/clothing/wall_grab, ///abstract
 		/obj/item/clothing/climbing_gear, ///weird
 		/obj/item/clothing/wrists/bracers/psythorns, //inqport
-		/obj/item/clothing/cloak/psydontabard, ///they'd kill you for this
-		/obj/item/clothing/cloak/psydontabard/alt, ///same here
+		/obj/item/clothing/cloak/angrostabard, ///they'd kill you for this
+		/obj/item/clothing/cloak/angrostabard/alt, ///same here
 		/obj/item/clothing/face/spectacles/inq, //these are powerful
-		/obj/item/clothing/head/helmet/heavy/psydonbarbute, //buyable
+		/obj/item/clothing/head/helmet/heavy/angrosbarbute, //buyable
 		/obj/item/clothing/head/helmet/heavy/psysallet, //buyable
 		/obj/item/clothing/head/helmet/heavy/psybucket, //buyable
-		/obj/item/clothing/head/helmet/heavy/psydonhelm, //buyable
+		/obj/item/clothing/head/helmet/heavy/angroshelm, //buyable
 		/obj/item/clothing/head/helmet/heavy/ordinatorhelm, ///special item //! probably can add this at some point
-		/obj/item/clothing/head/roguehood/psydon/confessor, ///inqport
+		/obj/item/clothing/head/roguehood/angros/confessor, ///inqport
 		/obj/item/clothing/face/facemask/steel/confessor, ///inqport
 		/obj/item/clothing/gloves/bandages/pugilist,
 		/obj/item/clothing/armor/gambeson/heavy/otavan/inq, ///inqport
@@ -51,7 +51,7 @@ abstract types are automatically excluded.
 		/obj/item/clothing/armor/gambeson/heavy/inq, //inqport
 		/obj/item/clothing/armor/leather/studded,
 		/obj/item/clothing/armor/leather/jacket/leathercoat/confessor, //inqport
-		/obj/item/clothing/head/roguehood/psydon,
+		/obj/item/clothing/head/roguehood/angros,
 		/obj/item/clothing/neck/fencerguard/inq, ///inqport
 		/obj/item/clothing/neck/fencerguard, //null
 		/obj/item/clothing/armor/cuirass/fencer, //meh
@@ -75,7 +75,7 @@ abstract types are automatically excluded.
 	var/list/excluded_paths_with_their_subtypes = list(
 		/obj/item/clothing/neck/mercmedal, // only earnable via hermes
 		/obj/item/clothing/neck/shalal, // this is a medal
-		/obj/item/clothing/neck/psycross/silver/divine/eora/potion, // unimplemented
+		/obj/item/clothing/neck/psycross/silver/divine/pomette/potion, // unimplemented
 		/obj/item/clothing/armor/skin_armor, // bruh
 		/obj/item/clothing/head/hooded, // abstract items connected to a cloak, shouldn't be craftable
 		/obj/item/clothing/accessory, // ???
@@ -104,10 +104,10 @@ abstract types are automatically excluded.
 		"goblin",
 		"rare",
 		"captain",
-		"baotha",
-		"matthios",
+		"hertannea",
+		"deceivers",
 		"zizo",
-		"graggar",
+		"archdevils",
 		"steam",
 		"royalknight",
 		"warden",

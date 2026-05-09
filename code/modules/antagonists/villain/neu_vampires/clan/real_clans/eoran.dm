@@ -1,5 +1,5 @@
 
-/datum/clan_leader/eoran
+/datum/clan_leader/pomettic
 	lord_spells = list(
 		/datum/action/cooldown/spell/enslave_mortal,
 		/datum/action/cooldown/spell/undirected/mansion_portal,
@@ -11,7 +11,7 @@
 	lord_traits = list(TRAIT_HEAVYARMOR, TRAIT_NOSTAMINA)
 	lord_title = "Elder"
 
-/datum/clan/eoran
+/datum/clan/pomettic
 	name = "Vitabella Family"
 	desc = "Pomette, moved by your relentless pursuit of art and beauty, has bestowed her blessing upon your cursed bloodline. Yet, in her admiration, she has overlooked the darker facets of your nature: your twisted notion of love and your delusions of grandeur. "
 	curse = "Obsession with vanity, need to be loved"
@@ -40,17 +40,17 @@
 		/datum/coven/auspex,
 		/datum/coven/presence,
 		/datum/coven/bloodheal,
-		/datum/coven/eora
+		/datum/coven/pomette
 	)
-	leader = /datum/clan_leader/eoran
+	leader = /datum/clan_leader/pomettic
 
-/datum/clan/eoran/get_blood_preference_string()
+/datum/clan/pomettic/get_blood_preference_string()
 	return "the blood of lovers and virgins, but not those already dead"
 
-/datum/clan/eoran/get_downside_string()
+/datum/clan/pomettic/get_downside_string()
 	return "You are perfect, you do not have any downsides."
 
-/datum/clan/eoran/apply_clan_components(mob/living/carbon/human/H)
+/datum/clan/pomettic/apply_clan_components(mob/living/carbon/human/H)
 	H.AddComponent(/datum/component/vampire_disguise)
 
 

@@ -3,7 +3,7 @@ GLOBAL_VAR_INIT(vamp_detection, FALSE)
 /datum/round_event_control/antagonist/solo/from_ghosts/daewalker
 	name = "The Daewalker"
 	tags = list(
-		TAG_ASTRATA,
+		TAG_VISIRES,
 		TAG_BLOOD,
 		TAG_COMBAT,
 		TAG_WAR,
@@ -14,7 +14,7 @@ GLOBAL_VAR_INIT(vamp_detection, FALSE)
 	minor_roleset = TRUE
 	max_occurrences = 1
 	allowed_storytellers = DIVINE_STORYTELLERS
-	dedicated_storytellers = list(/datum/storyteller/astrata)
+	dedicated_storytellers = list(/datum/storyteller/visires)
 
 	cost = 0.7
 	checks_antag_cap = FALSE
@@ -92,7 +92,7 @@ GLOBAL_VAR_INIT(vamp_detection, FALSE)
 			continue
 		var/mob/living/suckhead = M.current
 		bordered_message(suckhead, list(
-			"<h1>[SPAN_GOD_ASTRATA("<center>ASTRATA HAS NOTICED YOU</center>")]</h1>",
+			"<h1>[SPAN_GOD_VISIRES("<center>VISIRES HAS NOTICED YOU</center>")]</h1>",
 			"<h2>[span_boldannounce("<center>THE DAEWALKER APPROACHES</center>")]</h2>"
 		))
 		var/vol = suckhead.client.prefs?.musicvol

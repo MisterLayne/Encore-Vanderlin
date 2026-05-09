@@ -32,35 +32,35 @@
 		/datum/attribute/skill/craft/cooking = 20
 	)
 
-/datum/attribute_holder/sheet/job/acolyte/patron/eora
+/datum/attribute_holder/sheet/job/acolyte/patron/pomette
 	raw_attribute_list = list(
 		/datum/attribute/skill/misc/music = 20
 	)
 
-/datum/attribute_holder/sheet/job/acolyte/patron/noc
+/datum/attribute_holder/sheet/job/acolyte/patron/akan
 	raw_attribute_list = list(
 		/datum/attribute/skill/labor/mathematics = 20
 	)
 
-/datum/attribute_holder/sheet/job/acolyte/patron/pestra
+/datum/attribute_holder/sheet/job/acolyte/patron/erdl
 	raw_attribute_list = list(
 		/datum/attribute/skill/misc/medicine = 10,
 		/datum/attribute/skill/craft/alchemy = 10
 	)
 
-/datum/attribute_holder/sheet/job/acolyte/patron/dendor
+/datum/attribute_holder/sheet/job/acolyte/patron/gani
 	raw_attribute_list = list(
 		/datum/attribute/skill/labor/farming = 20,
 		/datum/attribute/skill/labor/taming = 10
 	)
 
-/datum/attribute_holder/sheet/job/acolyte/patron/abyssor
+/datum/attribute_holder/sheet/job/acolyte/patron/mjallidhorn
 	raw_attribute_list = list(
 		/datum/attribute/skill/labor/fishing = 20,
 		/datum/attribute/skill/misc/swimming = 20
 	)
 
-/datum/attribute_holder/sheet/job/acolyte/patron/ravox
+/datum/attribute_holder/sheet/job/acolyte/patron/mordsol
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/polearms = 10
 	)
@@ -70,13 +70,13 @@
 		/datum/attribute/skill/combat/axesmaces = list(0, 10)
 	)
 
-/datum/attribute_holder/sheet/job/acolyte/patron/xylix
+/datum/attribute_holder/sheet/job/acolyte/patron/iliope
 	raw_attribute_list = list(
 		/datum/attribute/skill/misc/stealing = 20,
 		/datum/attribute/skill/misc/music = 30
 	)
 
-/datum/attribute_holder/sheet/job/acolyte/patron/malum
+/datum/attribute_holder/sheet/job/acolyte/patron/golerkanh
 	raw_attribute_list = list(
 		/datum/attribute/skill/craft/blacksmithing = 20,
 		/datum/attribute/skill/craft/smelting = 20,
@@ -121,20 +121,20 @@
 
 	spawned.virginity = TRUE
 	switch(spawned.patron?.type)
-		if(/datum/patron/divine/astrata)
+		if(/datum/patron/divine/visires)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
-		if(/datum/patron/divine/necra)
+		if(/datum/patron/divine/valdala)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatGravekeeper.ogg'
 			ADD_TRAIT(spawned, TRAIT_DEADNOSE, TRAIT_GENERIC)
 			ADD_TRAIT(spawned, TRAIT_GRAVEROBBER, TRAIT_GENERIC)
-		if(/datum/patron/divine/eora)
+		if(/datum/patron/divine/pomette)
 			ADD_TRAIT(spawned, TRAIT_BEAUTIFUL, TRAIT_GENERIC)
 			ADD_TRAIT(spawned, TRAIT_EMPATH, TRAIT_GENERIC)
 			spawned.virginity = FALSE
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/eora)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/pomette)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatEora.ogg'
-		if(/datum/patron/divine/noc)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/noc)
+		if(/datum/patron/divine/akan)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/akan)
 			var/language = pickweight(list("Dwarvish" = 1, "Elvish" = 1, "Hellspeak" = 1, "Zaladin" = 1, "Orcish" = 1,))
 			switch(language)
 				if("Dwarvish")
@@ -163,25 +163,25 @@
 					I learned the tongue of the savages in my time.")
 					)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatNoc.ogg'
-		if(/datum/patron/divine/pestra)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/pestra)
+		if(/datum/patron/divine/erdl)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/erdl)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
-		if(/datum/patron/divine/dendor)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/dendor)
+		if(/datum/patron/divine/gani)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/gani)
 			ADD_TRAIT(spawned, TRAIT_SEEDKNOW, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatDendor.ogg'
-		if(/datum/patron/divine/abyssor)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/abyssor)
+		if(/datum/patron/divine/mjallidhorn)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/mjallidhorn)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAbyssor.ogg'
-		if(/datum/patron/divine/ravox)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/ravox)
+		if(/datum/patron/divine/mordsol)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/mordsol)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatRavox.ogg'
-		if(/datum/patron/divine/xylix)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/xylix)
+		if(/datum/patron/divine/iliope)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/iliope)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatXylix.ogg'
-		if(/datum/patron/divine/malum)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/malum)
-			ADD_TRAIT(spawned, TRAIT_MALUMFIRE, TRAIT_GENERIC)
+		if(/datum/patron/divine/golerkanh)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/golerkanh)
+			ADD_TRAIT(spawned, TRAIT_GOLERKANHFIRE, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
 
 	var/holder = spawned.patron?.devotion_holder
@@ -203,65 +203,65 @@
 /datum/outfit/monk/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
 	. = ..()
 	switch(equipped_human.patron?.type)
-		if(/datum/patron/divine/astrata)
-			head = /obj/item/clothing/head/roguehood/astrata
-			neck = /obj/item/clothing/neck/psycross/silver/divine/astrata
+		if(/datum/patron/divine/visires)
+			head = /obj/item/clothing/head/roguehood/visires
+			neck = /obj/item/clothing/neck/psycross/silver/divine/visires
 			wrists = /obj/item/clothing/wrists/wrappings
 			shoes = /obj/item/clothing/shoes/sandals
-			armor = /obj/item/clothing/shirt/robe/astrata
-		if(/datum/patron/divine/necra)
+			armor = /obj/item/clothing/shirt/robe/visires
+		if(/datum/patron/divine/valdala)
 			head = /obj/item/clothing/head/padded/deathshroud
-			neck = /obj/item/clothing/neck/psycross/silver/divine/necra
+			neck = /obj/item/clothing/neck/psycross/silver/divine/valdala
 			shoes = /obj/item/clothing/shoes/boots
 			pants = /obj/item/clothing/pants/trou/leather/mourning
-			armor = /obj/item/clothing/shirt/robe/necra
+			armor = /obj/item/clothing/shirt/robe/valdala
 			backpack_contents = list(/obj/item/inqarticles/tallowpot, /obj/item/reagent_containers/food/snacks/tallow/red) // Needed for coffin sanctification, they get enough for one, the rest they must source themselves.
 			if(equipped_human.age == AGE_OLD)
-				l_hand = /obj/item/weapon/mace/cane/necran
+				l_hand = /obj/item/weapon/mace/cane/valdalan
 			else
 				backl = /obj/item/weapon/polearm/woodstaff/quarterstaff
-		if(/datum/patron/divine/eora)
+		if(/datum/patron/divine/pomette)
 			mask = /obj/item/clothing/face/operavisage
-			neck = /obj/item/clothing/neck/psycross/silver/divine/eora
+			neck = /obj/item/clothing/neck/psycross/silver/divine/pomette
 			shoes = /obj/item/clothing/shoes/sandals
-			armor = /obj/item/clothing/shirt/robe/eora
-		if(/datum/patron/divine/noc)
+			armor = /obj/item/clothing/shirt/robe/pomette
+		if(/datum/patron/divine/akan)
 			head = /obj/item/clothing/head/roguehood/nochood
-			neck = /obj/item/clothing/neck/psycross/silver/divine/noc
+			neck = /obj/item/clothing/neck/psycross/silver/divine/akan
 			wrists = /obj/item/clothing/wrists/nocwrappings
 			shoes = /obj/item/clothing/shoes/sandals
-			armor = /obj/item/clothing/shirt/robe/noc
-		if(/datum/patron/divine/pestra)
-			head = /obj/item/clothing/head/padded/pestra
-			neck = /obj/item/clothing/neck/psycross/silver/divine/pestra
+			armor = /obj/item/clothing/shirt/robe/akan
+		if(/datum/patron/divine/erdl)
+			head = /obj/item/clothing/head/padded/erdl
+			neck = /obj/item/clothing/neck/psycross/silver/divine/erdl
 			shoes = /obj/item/clothing/shoes/sandals
-			armor = /obj/item/clothing/shirt/robe/pestra
+			armor = /obj/item/clothing/shirt/robe/erdl
 			backpack_contents += /obj/item/needle/blessed
-		if(/datum/patron/divine/dendor)
+		if(/datum/patron/divine/gani)
 			head = /obj/item/clothing/head/padded/briarthorns
-			neck = /obj/item/clothing/neck/psycross/silver/divine/dendor
+			neck = /obj/item/clothing/neck/psycross/silver/divine/gani
 			shoes = /obj/item/clothing/shoes/sandals
-			armor = /obj/item/clothing/shirt/robe/dendor
-		if(/datum/patron/divine/abyssor)
-			head = /obj/item/clothing/head/padded/abyssor
-			neck = /obj/item/clothing/neck/psycross/silver/divine/abyssor
+			armor = /obj/item/clothing/shirt/robe/gani
+		if(/datum/patron/divine/mjallidhorn)
+			head = /obj/item/clothing/head/padded/mjallidhorn
+			neck = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
 			shoes = /obj/item/clothing/shoes/boots
-			armor = /obj/item/clothing/shirt/robe/abyssor
-		if(/datum/patron/divine/ravox)
+			armor = /obj/item/clothing/shirt/robe/mjallidhorn
+		if(/datum/patron/divine/mordsol)
 			head = /obj/item/clothing/head/helmet/leather/headscarf
-			neck = /obj/item/clothing/neck/psycross/silver/divine/ravox
+			neck = /obj/item/clothing/neck/psycross/silver/divine/mordsol
 			shoes = /obj/item/clothing/shoes/boots
 			shirt = /obj/item/clothing/armor/gambeson/light
 			armor = /obj/item/clothing/armor/leather
-			cloak = /obj/item/clothing/cloak/stabard/templar/ravox
-		if(/datum/patron/divine/xylix)
+			cloak = /obj/item/clothing/cloak/stabard/templar/mordsol
+		if(/datum/patron/divine/iliope)
 			head = /obj/item/clothing/head/roguehood/colored/random
-			neck = /obj/item/clothing/neck/psycross/silver/divine/xylix
+			neck = /obj/item/clothing/neck/psycross/silver/divine/iliope
 			shoes = /obj/item/clothing/shoes/boots
 			armor = /obj/item/clothing/shirt/robe/colored/purple
-		if(/datum/patron/divine/malum)
+		if(/datum/patron/divine/golerkanh)
 			head = /obj/item/clothing/head/headband/colored/red
-			neck = /obj/item/clothing/neck/psycross/silver/divine/malum
+			neck = /obj/item/clothing/neck/psycross/silver/divine/golerkanh
 			shoes = /obj/item/clothing/shoes/boots
 			armor = /obj/item/clothing/shirt/robe/colored/red
 			backl = /obj/item/weapon/polearm/woodstaff/quarterstaff

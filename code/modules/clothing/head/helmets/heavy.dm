@@ -30,16 +30,16 @@
 	prevent_crits = ALL_EXCEPT_BLUNT
 	block2add = FOV_BEHIND
 
-/obj/item/clothing/head/helmet/heavy/psydonbarbute
-	name = "psydonian barbute"
-	desc = "A barbute styled with Psydonian Imagery."
+/obj/item/clothing/head/helmet/heavy/angrosbarbute
+	name = "angrosian barbute"
+	desc = "A barbute styled with Angrosian Imagery."
 	icon_state = "psydonbarbute"
 	item_state = "psydonbarbute"
 	block2add = FOV_BEHIND
 
-/obj/item/clothing/head/helmet/heavy/psydonhelm
+/obj/item/clothing/head/helmet/heavy/angroshelm
 	name ="grenzelhoftian armet"
-	desc = "Headwear commonly worn by Templars in service to the Oratorium Throni Vacui. PSYDON Endures."
+	desc = "Headwear commonly worn by Templars in service to the Oratorium Throni Vacui. ANGROS Endures."
 	icon_state = "psydonarmet"
 	item_state = "psydonarmet"
 	block2add = FOV_BEHIND
@@ -106,7 +106,7 @@
 
 /obj/item/clothing/head/helmet/heavy/zizo
 	name = "darksteel frog helmet"
-	desc = "A darksteel frog helmet. This one has an adjustable visor. Called forth from the edge of what should be known. In Her name."
+	desc = PLACEHOLDER_PATRON_REBRANDING
 	adjustable = CAN_CADJUST
 	icon_state = "zizofrogmouth"
 	icon = 'icons/roguetown/clothing/special/evilarmor.dmi'
@@ -119,7 +119,7 @@
 
 //............... Deceivers Helmet ............... //
 
-/obj/item/clothing/head/helmet/heavy/matthios
+/obj/item/clothing/head/helmet/heavy/deceivers
 	name = "gilded visage"
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/64x64/head.dmi'
 	desc = "A sinister visage. So that your crimes are never brought to you."
@@ -138,7 +138,7 @@
 
 //............... Archdevil Helmet ............... //
 
-/obj/item/clothing/head/helmet/heavy/graggar
+/obj/item/clothing/head/helmet/heavy/archdevils
 	name = "vicious helmet"
 	desc = "A rugged and horrifying helmet. A violent aura emanates from it."
 	icon_state = "graggarplatehelm"
@@ -151,15 +151,11 @@
 	block2add = FOV_BEHIND
 	sellprice = 0 // See above comment
 
-//............... Baothan Helmet ............... //
+//............... Hertannean Helmet ............... //
 
-/obj/item/clothing/head/helmet/heavy/baotha
+/obj/item/clothing/head/helmet/heavy/hertannea
 	name = "willful helmet"
-	desc = "Baothan knights are an antithesis : the tiefling queen preaches self preservation at the cost of even family or friend. Choosing to embark on a quest to knightlyhood means facing peril at the forefront. \
-	Indeed, many are the upstarts who understood the folly of their journey, and either turned back to the warmth of ozium and wine or died in the process. \
-	The original wearer of this helmet is no such pushover : they do not have the might of Archdevil nor the magick of One Envy, and instead rely on their wits and grit to proclaim their unicity in the face of this cold, uncaring world. \
-	It is rumoured that Hertannea offers this baroque piece in person, as a reward for the knight's unflinching will in the face of sheer terror, minute after minute, hour after hour. \
-	Fashioned in steel and petals, it has no viewport, the wearer instead having their senses heightened to preternatural levels." // yes, this is a long item description, but it's the only piece of armour unique to Hertannea.
+	desc = PLACEHOLDER_PATRON_REBRANDING
 	icon_state = "baothahelm"
 	icon = 'icons/roguetown/clothing/special/baothanknight.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/evilarmor64x64.dmi'
@@ -195,86 +191,86 @@
 
 //............... Temple heavy helmets ......................//
 //............... Visires Helmet ............... //
-/obj/item/clothing/head/helmet/heavy/necked/astrata
-	name = "astrata helmet"
-	desc = "A great helmet decorated with a golden sigil of the solar order and a maille neck cover. The dependable companion of many holy warriors of Visires."
+/obj/item/clothing/head/helmet/heavy/necked/visires
+	name = "flame helm"
+	desc = PLACEHOLDER_PATRON_REBRANDING
 	icon_state = "astratahelm"
 	item_weight = 5.5 KILOGRAMS
 
 //............... Akan Helmet ............... //
-/obj/item/clothing/head/helmet/heavy/necked/noc
-	name = "noc helmet"
-	desc = "A sleek and rounded heavy helmet with a maille neck cover. Its unique craft is said to allow holy warriors of Akan additional insight before battle."
+/obj/item/clothing/head/helmet/heavy/necked/akan
+	name = "air helm"
+	desc = PLACEHOLDER_PATRON_REBRANDING
 	icon_state = "nochelm"
 	item_weight = 6 KILOGRAMS
 	flags_inv = HIDEEARS
 
-/obj/item/clothing/head/helmet/heavy/necked/noc/Initialize(mapload)
+/obj/item/clothing/head/helmet/heavy/necked/akan/Initialize(mapload)
 	. = ..()
 	enchant(/datum/enchantment/silver)
 
 //............... Valdala Helmet ............... //
-/obj/item/clothing/head/helmet/heavy/necked/necra
-	name = "necra helmet"
+/obj/item/clothing/head/helmet/heavy/necked/valdala
+	name = "valdalan helmet"
 	desc = "A reinforced helmet shaped into the visage of a skull with a maille neck cover under the cloth. A symbol of authority for the battle servants of the Undermaiden."
 	icon_state = "necrahelm"
 	item_weight = 4.5 KILOGRAMS
 
 //............... Gani Helmet ............... //	This one seems a bit out of place
-/obj/item/clothing/head/helmet/heavy/necked/dendorhelm
-	name = "dendor helmet"
+/obj/item/clothing/head/helmet/heavy/necked/ganihelm
+	name = "earthen helmet"
 	desc = "A great helmet with twisted metalwork that imitates the twisting of bark, or the horns of a beast."
 	icon_state = "dendorhelm"
 	prevent_crits = ALL_EXCEPT_BLUNT
 	item_weight = 4.5 KILOGRAMS
 
 //............... Pomette Helmet ............... //
-/obj/item/clothing/head/helmet/sallet/eoran
-	name = "eora helmet"
-	desc = "A standard helmet forged in the style typical of Eoran worshippers, a simple yet practical protective piece of equipment. Upon it lays several laurels of flowers and other colorful ornaments, followed by several symbols and standards of the user's chapter, accomplishments or even punishment"
+/obj/item/clothing/head/helmet/sallet/pomettic
+	name = "pomette helmet"
+	desc = "A standard helmet forged in the style typical of Pomettic worshippers, a simple yet practical protective piece of equipment. Upon it lays several laurels of flowers and other colorful ornaments, followed by several symbols and standards of the user's chapter, accomplishments or even punishment"
 	icon_state = "eorahelm"
 	item_state = "eorahelm"
 	item_weight = 3.2 KILOGRAMS
 
 
 //............... Erdl Helmet ............... //
-/obj/item/clothing/head/helmet/heavy/necked/pestrahelm
-	name = "pestran helmet"
+/obj/item/clothing/head/helmet/heavy/necked/erdlhelm
+	name = "erdite helmet"
 	desc = "A great helmet made of coarse, tainted steel. It is modeled after a plagued carrion, a blessed abomination of Erdl."
 	icon_state = "pestrahelm"
 	item_state = "pestrahelm"
 	item_weight = 4.5 KILOGRAMS
 
 //................ Goler Kanh Helmet ............. //
-/obj/item/clothing/head/helmet/heavy/necked/malumhelm
-	name = "malumite helmet"
+/obj/item/clothing/head/helmet/heavy/necked/golerkanhhelm
+	name = "kanhite helmet"
 	desc = "A great helmet of sturdy dark steel. Its chiseled countenance reminds the viewer of Goler Kanh's stern gaze."
 	icon_state = "malumhelm"
 	item_state = "malumhelm"
 	item_weight = 4.5 KILOGRAMS
 
-/obj/item/clothing/head/helmet/heavy/necked/ravox
-	name = "ravoxian helmet"
+/obj/item/clothing/head/helmet/heavy/necked/mordsol
+	name = "mordsolian helmet"
 	desc = "Headwear commonly worn by Templars in service to Mordsol. It resembles a heavily-adorned visored sallet."
 	icon_state = "ravoxhelm"
 	item_state = "ravoxhelm"
 	item_weight = 4.5 KILOGRAMS
 
 //................ Iliope Helmet ............. //
-/obj/item/clothing/head/helmet/heavy/necked/xylix
-	name = "xylix helmet"
+/obj/item/clothing/head/helmet/heavy/necked/iliope
+	name = "fools helmet"
 	desc = "A great helmet forged from steel, and fashioned in the visage of a jester, jingling bells and all. Commonly worn by Templars in service to Iliope"
 	icon_state = "xylixhelm"
 	item_state = "xylixhelm"
 	item_weight = 4.5 KILOGRAMS
 
-/obj/item/clothing/head/helmet/heavy/necked/xylix/Initialize()
+/obj/item/clothing/head/helmet/heavy/necked/iliope/Initialize()
 	. = ..()
 	AddComponent(/datum/component/item_equipped_movement_rustle, custom_sounds = list(SFX_JINGLE_BELLS))
 
 //................ Mjallidhorn Helmet ............. //
-/obj/item/clothing/head/helmet/heavy/necked/abyssor
-	name = "abyssor helmet"
+/obj/item/clothing/head/helmet/heavy/necked/mjallidhorn
+	name = "mjallidhorn helmet"
 	desc = "A great helmet crafted from bronze. The visor is slitted and ridged, evoking the gills of a great sea-beast."
 	icon_state = "abyssorhelm"
 	item_state = "abyssorhelm"
@@ -491,7 +487,7 @@
 		return
 
 /obj/item/clothing/head/helmet/heavy/absolver
-	name = "psydonian conical helm"
+	name = "angrosian conical helm"
 	desc = "Its shape confounds and confuses the enemies of Angros. Offering unfound protection in its visage, the gaze is horrific to those without understanding."
 	icon_state = "absolutionisthelm"
 	item_state = "absolutionisthelm"
@@ -507,7 +503,7 @@
 	clothing_flags = NONE
 
 /obj/item/clothing/head/helmet/heavy/psybucket
-	name = "psydonian bucket helmet"
+	name = "angrosian bucket helmet"
 	desc = "Originally just a bucket with a psycross nailed on, it proved surprisingly effective, making its way into common use for inquisitorial templars. Steel encapsulates your head, and His cross facing enemies reminds them that you will endure until they meet oblivion. Only then may you rest."
 	icon_state = "psybucket"
 	item_state = "psybucket"
@@ -517,7 +513,7 @@
 	max_integrity = 400
 
 /obj/item/clothing/head/helmet/heavy/psysallet
-	name = "psydonian sallet"
+	name = "angrosian sallet"
 	desc = "A boiled leather cap, crowned with steel and veiled with His cross. Fear not - He will show you the way, and He will see your blows well-struck."
 	icon_state = "psysallet"
 	item_state = "psysallet"

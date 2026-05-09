@@ -41,7 +41,7 @@
 	FACTION_ORCS, \
 	FACTION_BUMS, \
 	FACTION_VIKINGS, \
-	FACTION_MATTHIOS \
+	FACTION_DECEIVERS \
 )
 
 #define FACTION_NONE		"None"
@@ -57,7 +57,7 @@
 #define FACTION_RATS		"Rats"
 #define FACTION_ORCS		"Orcs"
 #define FACTION_BUMS		"Bums"
-#define FACTION_MATTHIOS	"Matthios"
+#define FACTION_DECEIVERS	"Deceivers"
 #define FACTION_VIKINGS     "Vikings"
 
 #define NOBLEMEN		(1<<0)

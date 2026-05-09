@@ -99,13 +99,13 @@
 					emote("painmoan")
 			else
 				if(effective_pain >= pain_threshold) // Dynamic threshold based on endurance
-					if(HAS_TRAIT(src, TRAIT_PSYDONIAN_GRIT))
+					if(HAS_TRAIT(src, TRAIT_ANGROSIAN_GRIT))
 						// Major pain event - increase tolerance
 						pain_tolerance += tolerance_gain_rate
 						last_major_pain_time = world.time
-						if(prob(25)) // PSYDONIC WEIGHTED COINFLIP. TWEAK THIS AS THOU WILT. DON'T LET THEM BE BROKEN, PSYDON WILLING. THROW CON-MAXXERS A BONE, TOO.
+						if(prob(25)) // ANGROSIC WEIGHTED COINFLIP. TWEAK THIS AS THOU WILT. DON'T LET THEM BE BROKEN, ANGROS WILLING. THROW CON-MAXXERS A BONE, TOO.
 							Immobilize(15) // EAT A MICROSTUN. YOU'RE AVOIDING A PAINCRIT.
-							if(HAS_TRAIT(src, TRAIT_PSYDONIAN_GRIT))
+							if(HAS_TRAIT(src, TRAIT_ANGROSIAN_GRIT))
 								visible_message(span_info("[src] audibly grits their teeth. ENDURING through their pain."), span_info("Through my faith in HIM, I ENDURE."))
 							else
 								visible_message(span_info("[src] trembled for a moment, but they remain stood."), span_info("My strong constitution keeps me upright."))
@@ -211,7 +211,7 @@
 	var/react_volume = 2
 	var/react_type = TOUCH
 	var/is_laying = (body_position == LYING_DOWN)
-	var/drown_damage = has_world_trait(/datum/world_trait/abyssor_rage) ? (is_ascendant(ABYSSOR) ? 15 : 10) : 5
+	var/drown_damage = has_world_trait(/datum/world_trait/mjallidhorn_rage) ? (is_ascendant(MJALLIDHORN) ? 15 : 10) : 5
 	if(!is_laying)
 		if(W.water_height < WATER_HEIGHT_SHALLOW)
 			return

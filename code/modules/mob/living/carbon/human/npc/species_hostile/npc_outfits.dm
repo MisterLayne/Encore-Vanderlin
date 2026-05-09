@@ -246,7 +246,7 @@
 			else
 				head = /obj/item/clothing/head/helmet/heavy/frog
 		if(2)
-			head = /obj/item/clothing/head/helmet/heavy/graggar
+			head = /obj/item/clothing/head/helmet/heavy/archdevils
 		if(3)
 			head = /obj/item/clothing/head/helmet/heavy/frog
 		if(4)
@@ -270,7 +270,7 @@
 
 	// Pants
 	if(prob(5))
-		pants = /obj/item/clothing/pants/platelegs/graggar
+		pants = /obj/item/clothing/pants/platelegs/archdevils
 	else if(prob(50))
 		pants = /obj/item/clothing/pants/platelegs/iron
 	else
@@ -278,7 +278,7 @@
 
 	// Gloves
 	if(prob(5))
-		gloves = /obj/item/clothing/gloves/plate/graggar
+		gloves = /obj/item/clothing/gloves/plate/archdevils
 	else if(prob(50))
 		gloves = /obj/item/clothing/gloves/plate
 	else
@@ -296,7 +296,7 @@
 
 	// Shoes
 	if(prob(5))
-		shoes = /obj/item/clothing/shoes/boots/armor/graggar
+		shoes = /obj/item/clothing/shoes/boots/armor/archdevils
 	else
 		shoes = /obj/item/clothing/shoes/boots/armor
 
@@ -317,7 +317,7 @@
 			armor =  /obj/item/clothing/armor/plate/full/iron
 			if(prob(30))
 				armor = /obj/item/clothing/armor/plate/full
-			l_hand = /obj/item/weapon/greataxe/steel/doublehead/graggar
+			l_hand = /obj/item/weapon/greataxe/steel/doublehead/archdevils
 		if(4)
 			armor = /obj/item/clothing/armor/plate/full/iron
 			if(prob(30))
@@ -363,6 +363,6 @@
 				armor = /obj/item/clothing/armor/plate/full
 			l_hand = /obj/item/weapon/axe/battle
 			r_hand = /obj/item/weapon/axe/battle
-	// For the very small chance, a npc can roll a fullset of graggar armor
+	// For the very small chance, a npc can roll a fullset of archdevils armor
 	if(prob(5))
-		armor = /obj/item/clothing/armor/plate/full/graggar
+		armor = /obj/item/clothing/armor/plate/full/archdevils

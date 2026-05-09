@@ -120,7 +120,7 @@
 	var/merctype = 0 // Used for mercenary backgrounds - check mail.dm
 	var/tokenclaimed = FALSE // Check for one-time tri reward.
 
-	// Boolean. Usually set only to TRUE for non-Eoran church roles.
+	// Boolean. Usually set only to TRUE for non-Pomettic church roles.
 	var/virginity = FALSE
 
 	possible_rmb_intents = list(/datum/rmb_intent/feint,\

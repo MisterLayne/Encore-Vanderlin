@@ -14,52 +14,52 @@
 			STR.remove_from_storage(I, get_turf(src))
 
 
-/obj/item/clothing/cloak/templar/astratan
+/obj/item/clothing/cloak/templar/visires
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/cloaks.dmi'
 	alternate_worn_layer = TABARD_LAYER
 	boobed = FALSE
-	name = "astratan tabard"
-	desc = "The washed out golds of an astratan crusader adorn these fine robes."
+	name = "visires tabard"
+	desc = "The washed out golds of an visires crusader adorn these fine robes."
 	icon_state = "astratatabard"
 	resistance_flags = FIRE_PROOF
 
-/obj/item/clothing/cloak/templar/malumite
+/obj/item/clothing/cloak/templar/golerkanh
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/cloaks.dmi'
 	alternate_worn_layer = TABARD_LAYER
 	boobed = FALSE
-	name = "tabard of malum"
+	name = "tabard of goler kanh"
 	desc = "Light blacks and greys, with a tinge of red, the everlasting fire of Goler Kanh's iron hammer as it strikes."
 	icon_state = "malumtabard"
 
-/obj/item/clothing/cloak/templar/necran
+/obj/item/clothing/cloak/templar/valdalan
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/cloaks.dmi'
 	alternate_worn_layer = TABARD_LAYER
 	boobed = FALSE
-	name = "necran tabard"
+	name = "valdalan tabard"
 	desc = "Deep dark blacks, swallowing all light as if the night itself."
 	icon_state = "necratabard"
 
-/obj/item/clothing/cloak/templar/pestran
+/obj/item/clothing/cloak/templar/erdite
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/cloaks.dmi'
 	alternate_worn_layer = TABARD_LAYER
 	boobed = TRUE
-	name = "pestran tabard"
+	name = "erdite tabard"
 	desc = "A simple covering of green cloth, meant to keep rot and blood alike off its wearer."
 	icon_state = "pestratabard"
 
-/obj/item/clothing/cloak/templar/eoran
+/obj/item/clothing/cloak/templar/pomettic
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/cloaks.dmi'
 	alternate_worn_layer = TABARD_LAYER
 	boobed = TRUE
-	name = "eoran tabard"
+	name = "pomettic tabard"
 	desc = "A complex covering of translucent pink and beige clothes. They carry the scent of flowers in them."
 	icon_state = "eoratabard"
 
-/obj/item/clothing/cloak/templar/xylixian
+/obj/item/clothing/cloak/templar/iliope
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/cloaks.dmi'
 	alternate_worn_layer = TABARD_LAYER
 	boobed = TRUE
-	name = "xylixian cloak"
+	name = "fools cloak"
 	desc = "Swirling cloth, jingling bells! Oh, how I love the path to hell!"
 	icon_state = "xylixcloak"
 	sleeved = 'icons/roguetown/clothing/onmob/helpers/sleeves_cloaks.dmi'
@@ -90,7 +90,7 @@
 	. = ..()
 	AddComponent(/datum/component/storage/concrete/grid/cloak)
 
-/obj/item/clothing/cloak/graggar
+/obj/item/clothing/cloak/archdevils
 	name = "vicious cloak"
 	desc = "The only motive force in this rotten world is violence. Be its wielder, not its victim."
 	icon_state = "graggarcloak"
@@ -130,8 +130,8 @@
 	user.update_inv_cloak()
 	user.update_inv_armor()
 
-/obj/item/clothing/cloak/templar/eora
-	name = "eora tabard"
+/obj/item/clothing/cloak/templar/pomette
+	name = "pomette tabard"
 	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Pomette on it."
 	icon_state = "tabard_eora"
 	alternate_worn_layer = TABARD_LAYER
@@ -144,8 +144,8 @@
 	slot_flags = ITEM_SLOT_ARMOR|ITEM_SLOT_CLOAK
 	flags_inv = HIDEBOOB
 
-/obj/item/clothing/cloak/templar/pestra
-	name = "pestra tabard"
+/obj/item/clothing/cloak/templar/erdl
+	name = "erdl tabard"
 	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Erdl on it."
 	icon_state = "tabard_pestra"
 	alternate_worn_layer = TABARD_LAYER
@@ -158,8 +158,8 @@
 	slot_flags = ITEM_SLOT_ARMOR|ITEM_SLOT_CLOAK
 	flags_inv = HIDEBOOB
 
-/obj/item/clothing/cloak/ravox
-	name = "ravox tabard"
+/obj/item/clothing/cloak/mordsol
+	name = "mordsol tabard"
 	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Mordsol on it."
 	icon_state = "tabard_ravox"
 	alternate_worn_layer = TABARD_LAYER
@@ -172,8 +172,8 @@
 	slot_flags = ITEM_SLOT_ARMOR|ITEM_SLOT_CLOAK
 	flags_inv = HIDEBOOB
 
-/obj/item/clothing/cloak/templar/xylix
-	name = "xylix tabard"
+/obj/item/clothing/cloak/templar/iliope
+	name = "fools tabard"
 	desc = "An outer garment commonly worn by soldiers. This one has the symbol of Iliope on it."
 	icon_state = "tabard_xylix"
 	alternate_worn_layer = TABARD_LAYER
@@ -225,8 +225,8 @@
 	item_state = "loudmouth"
 	color = "#8b2323"
 
-/obj/item/clothing/head/helmet/heavy/xylixhelm
-	name = "xylixian helmet"
+/obj/item/clothing/head/helmet/heavy/iliopehelm
+	name = "fools helmet"
 	desc = "I dance, I sing! I'll be your fool!"
 	icon_state = "xylixhelmet"
 	item_state = "xylixhelmet"
@@ -236,23 +236,23 @@
 	melting_material = /datum/material/steel
 	melt_amount = 150
 
-/obj/item/clothing/head/helmet/heavy/xylixhelm/Initialize()
+/obj/item/clothing/head/helmet/heavy/iliopehelm/Initialize()
 	. = ..()
 	AddComponent(/datum/component/item_equipped_movement_rustle, SFX_JINGLE_BELLS, 2)
 
-/obj/item/clothing/head/helmet/heavy/astratahelm
-	name = "astrata helmet"
-	desc = "Headwear commonly worn by Templars in service to Visires. The firstborn child's light will forever shine on within its crest."
-	icon_state = "astratanhelm"
-	item_state = "astratanhelm"
+/obj/item/clothing/head/helmet/heavy/visireshelm
+	name = "visires helmet"
+	desc = "Headwear commonly worn by Templars in service to Visires. The Fire Queen's light will forever shine on within its crest."
+	icon_state = "astratahelm"
+	item_state = "visireshelm"
 	emote_environment = 3
 	flags_inv = HIDEEARS|HIDEFACE|HIDEHAIR
 	block2add = FOV_BEHIND
 	melting_material = /datum/material/steel
 	melt_amount = 150
 
-/obj/item/clothing/head/helmet/heavy/nochelm
-	name = "noc helmet"
+/obj/item/clothing/head/helmet/heavy/akanhelm
+	name = "air helmet"
 	desc = "Headwear commonly worn by Templars in service to Akan. Without the night there can be no day; without Akan there can be no light in the dark hours."
 	icon_state = "nochelm"
 	item_state = "nochelm"
@@ -263,8 +263,8 @@
 	melting_material = /datum/material/steel
 	melt_amount = 150
 
-/obj/item/clothing/head/helmet/heavy/necrahelm
-	name = "necra helmet"
+/obj/item/clothing/head/helmet/heavy/valdalahelm
+	name = "valdalan helmet"
 	desc = "Headwear commonly worn by Templars in service to Valdala. Let its skeletal features remind you of the only thing which is guaranteed in life: You will die."
 	icon_state = "necranhelm"
 	item_state = "necranhelm"
@@ -274,8 +274,8 @@
 	melting_material = /datum/material/steel
 	melt_amount = 150
 
-/obj/item/clothing/head/helmet/heavy/dendorhelm
-	name = "dendor helmet"
+/obj/item/clothing/head/helmet/heavy/ganihelm
+	name = "earthen helmet"
 	desc = "Headwear commonly worn by Templars in service to Gani. Its protrusions almost resemble branches. Take root in the earth, and you will never be moved."
 	icon_state = "dendorhelm"
 	item_state = "dendorhelm"
@@ -285,8 +285,8 @@
 	melting_material = /datum/material/steel
 	melt_amount = 150
 
-/obj/item/clothing/head/helmet/heavy/abyssorgreathelm
-	name = "abyssorite helmet"
+/obj/item/clothing/head/helmet/heavy/mjallidhorngreathelm
+	name = "mjallidhornite helmet"
 	desc = "A helmet commonly worn by Templars in service to Mjallidhorn. It evokes imagery of the sea with a menacing crustacean visage."
 	icon_state = "abyssorgreathelm"
 	item_state = "abyssorgreathelm"
@@ -296,7 +296,7 @@
 	melting_material = /datum/material/steel
 	melt_amount = 150
 
-/obj/item/clothing/head/helmet/heavy/ravoxhelm
+/obj/item/clothing/head/helmet/heavy/mordsolhelm
 	name = "justice eagle"
 	desc = "Forged in reverence to Mordsol, this helm bears the stylized visage of an eagle, symbol of unyielding judgment and divine vigilance. Its hollow eyes see not just foes, but the truth behind every deed."
 	icon_state = "ravoxhelmet"
@@ -307,7 +307,7 @@
 	melting_material = /datum/material/steel
 	melt_amount = 150
 
-/obj/item/clothing/head/helmet/heavy/ravoxhelm/attackby(obj/item/W, mob/living/user, params)
+/obj/item/clothing/head/helmet/heavy/mordsolhelm/attackby(obj/item/W, mob/living/user, params)
 	..()
 	var/list/colorlist = list(
 		"PURPLE"="#865c9c",
@@ -353,8 +353,8 @@
 	desc = "A steel bascinet helmet with a snarling visor that protects the entire head and face. It mimics the guise of a terrible nitebeast; intimidating to the levyman, inspiring to the hunter."
 
 
-/obj/item/clothing/face/facemask/psydonmask
-	name = "psydonic mask"
+/obj/item/clothing/face/facemask/angrosmask
+	name = "unsundered mask"
 	desc = "A silver mask, forever locked in a rigor of uncontestable joy. The Order of Saint Iliope can't decide on whether it's meant to represent Angros' 'mirthfulness,' 'theatricality,' or the unpredictable melding of both."
 	icon_state = "psydonmask"
 	item_state = "psydonmask"

@@ -31,12 +31,12 @@
 /datum/objective/personal/blood_splash/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("You have performed the blood ritual, appeasing Archdevil!"))
-	adjust_storyteller_influence(GRAGGAR, 20)
+	adjust_storyteller_influence(ARCHDEVILS, 20)
 	UnregisterSignal(owner.current, COMSIG_SPLASHED_MOB)
 
 /datum/objective/personal/blood_splash/reward_owner()
 	. = ..()
-	owner.current.adjust_stat_modifier(STATMOD_GRAGGAR_BLESSING, list(
+	owner.current.adjust_stat_modifier(STATMOD_ARCHDEVILS_BLESSING, list(
 		STAT_STRENGTH = 1,
 		STAT_CONSTITUTION =1,
 	))

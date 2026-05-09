@@ -70,40 +70,40 @@
 //////////////////////
 ///   TEN CURSES   ///
 //////////////////////
-/datum/curse/astrata
+/datum/curse/visires
 	name = "Visires' Curse"
-	description = "I am forsaken by the Sun. Healing miracles have no effect on me."
-	trait = TRAIT_ASTRATA_CURSE
+	description = "I am forsaken by the fire within! Healing miracles have no effect on me."
+	trait = TRAIT_VISIRES_CURSE
 
-/datum/curse/noc
+/datum/curse/akan
 	name = "Akan's Curse"
 	description = "Magical knowledge is now beyond my grasp."
 	trait = TRAIT_NOC_CURSE
 
-/datum/curse/ravox
+/datum/curse/mordsol
 	name = "Mordsol's Curse"
 	description = "Violence disgusts me. I struggle to bring myself to wield any kind of weapon."
-	trait = TRAIT_RAVOX_CURSE
+	trait = TRAIT_MORDSOL_CURSE
 
-/datum/curse/necra
+/datum/curse/valdala
 	name = "Valdala's Curse"
 	description = "Valdala has claimed my soul. No one will bring me back from the dead."
-	trait = TRAIT_NECRA_CURSE
+	trait = TRAIT_VALDALA_CURSE
 
-/datum/curse/xylix
+/datum/curse/iliope
 	name = "Iliope's Curse"
 	description = "Fortune is no longer on my side."
-	trait = TRAIT_XYLIX_CURSE
+	trait = TRAIT_ILIOPE_CURSE
 
-/datum/curse/pestra
+/datum/curse/erdl
 	name = "Erdl's Curse"
 	description = "I feel sick to my stomach, and my skin is slowly starting to rot."
-	trait = TRAIT_PESTRA_CURSE
+	trait = TRAIT_ERDL_CURSE
 
-/datum/curse/eora
+/datum/curse/pomette
 	name = "Pomette's Curse"
 	description = "I am unable to show any kind of affection or love, whether intimate or platonic."
-	trait = TRAIT_EORA_CURSE
+	trait = TRAIT_POMETTE_CURSE
 
 //////////////////////
 /// INHUMEN CURSES ///
@@ -127,20 +127,20 @@
 	trait = TRAIT_SCHIZO_FLAW
 	var/atom/movable/screen/fullscreen/maniac/hallucinations
 
-/datum/curse/graggar
+/datum/curse/archdevils
 	name = "Archdevil's Curse"
 	description = "I am engulfed by unspeakable rage. I cannot stop myself from harming others. When that's not an option, my rage is directed inward."
-	trait = TRAIT_GRAGGAR_CURSE
+	trait = TRAIT_ARCHDEVILS_CURSE
 
-/datum/curse/matthios
+/datum/curse/deceivers
 	name = "Deceivers' Curse"
 	description = "I hate the sight of wealth, and I struggle to do anything with mammons."
-	trait = TRAIT_MATTHIOS_CURSE
+	trait = TRAIT_DECEIVERS_CURSE
 
-/datum/curse/baotha
+/datum/curse/hertannea
 	name = "Hertannea's Curse"
 	description = "I'm in a constant state of ecstasy."
-	trait = TRAIT_BAOTHA_CURSE
+	trait = TRAIT_HERTANNEA_CURSE
 
 //////////////////////
 /// ON GAIN / LOSS ///
@@ -164,23 +164,23 @@
 	. = ..()
 	hallucinations = null
 
-/datum/curse/xylix/on_gain(mob/living/carbon/human/owner)
+/datum/curse/iliope/on_gain(mob/living/carbon/human/owner)
 	. = ..()
 	GET_MOB_ATTRIBUTE_VALUE(owner, STAT_FORTUNE) -= 10
 
-/datum/curse/xylix/on_loss(mob/living/carbon/human/owner)
+/datum/curse/iliope/on_loss(mob/living/carbon/human/owner)
 	. = ..()
 	GET_MOB_ATTRIBUTE_VALUE(owner, STAT_FORTUNE) += 10
 
 //////////////////////
 ///    ON LIFE     ///
 //////////////////////
-/datum/curse/pestra/on_life(mob/living/carbon/human/owner)
+/datum/curse/erdl/on_life(mob/living/carbon/human/owner)
 	. = ..()
-	if(!MOBTIMER_FINISHED(owner, MT_CURSE_PESTRA, rand(120, 480) SECONDS)) //this isn't how mob timers work
+	if(!MOBTIMER_FINISHED(owner, MT_CURSE_ERDL, rand(120, 480) SECONDS)) //this isn't how mob timers work
 		return
 
-	MOBTIMER_SET(owner, MT_CURSE_PESTRA)
+	MOBTIMER_SET(owner, MT_CURSE_ERDL)
 
 	var/effect = rand(1, 4)
 	switch(effect)
@@ -196,21 +196,21 @@
 			owner.playsound_local(get_turf(owner), 'sound/foley/butcher.ogg', 80, FALSE, pressure_affected = FALSE)
 			owner.regenerate_icons()
 
-/datum/curse/baotha/on_life(mob/living/carbon/human/owner)
+/datum/curse/hertannea/on_life(mob/living/carbon/human/owner)
 	. = ..()
-	if(!MOBTIMER_FINISHED(owner, MT_CURSE_BAOTHA, rand(60, 420) SECONDS)) //this isn't how mob timers work
+	if(!MOBTIMER_FINISHED(owner, MT_CURSE_HERTANNEA, rand(60, 420) SECONDS)) //this isn't how mob timers work
 		return
 
-	MOBTIMER_SET(owner, MT_CURSE_BAOTHA)
+	MOBTIMER_SET(owner, MT_CURSE_HERTANNEA)
 
 	owner.reagents.add_reagent(/datum/reagent/druqks, 3)
 
-/datum/curse/graggar/on_life(mob/living/carbon/human/owner)
+/datum/curse/archdevils/on_life(mob/living/carbon/human/owner)
 	. = ..()
-	if(!MOBTIMER_FINISHED(owner, MT_CURSE_GRAGGAR, rand(180, 480) SECONDS)) //this isn't how mob timers work
+	if(!MOBTIMER_FINISHED(owner, MT_CURSE_ARCHDEVILS, rand(180, 480) SECONDS)) //this isn't how mob timers work
 		return
 
-	MOBTIMER_SET(owner, MT_CURSE_GRAGGAR)
+	MOBTIMER_SET(owner, MT_CURSE_ARCHDEVILS)
 	for(var/mob/living/carbon/human in view(1, owner))
 		owner.emote("rage")
 		human.attacked_by(owner.get_active_held_item(), owner)

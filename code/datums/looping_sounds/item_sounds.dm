@@ -90,7 +90,7 @@
 	volume = 100
 	extra_range = -3
 
-/datum/looping_sound/psydonmusicboxsound
+/datum/looping_sound/angrosmusicboxsound
 	mid_sounds = list('sound/magic/psydonmusicbox.ogg')
 	mid_length = 320
 	volume = 50

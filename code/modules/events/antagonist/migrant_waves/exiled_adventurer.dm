@@ -8,8 +8,8 @@
 	shared_occurence_type = SHARED_HIGH_THREAT
 
 	tags = list(
-		TAG_DENDOR,
-		TAG_GRAGGAR,
+		TAG_GANI,
+		TAG_ARCHDEVILS,
 		TAG_VILLAIN,
 		TAG_BLOOD,
 		TAG_COMBAT,

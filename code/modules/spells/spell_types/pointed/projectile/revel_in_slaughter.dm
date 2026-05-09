@@ -1,6 +1,6 @@
 /datum/action/cooldown/spell/projectile/revel_in_slaughter
 	name = "Revel in Slaughter"
-	desc = "Stagger your enemy through throwing a blood orb into their eyes, blurring their view and exposing them to your attacks. Finish them off for GRAGGAR!!"
+	desc = "Stagger your enemy through throwing a blood orb into their eyes, blurring their view and exposing them to your attacks. Finish them off for ARCHDEVILS!!"
 	button_icon_state = "bloodsteal"
 	sound = 'sound/magic/antimagic.ogg'
 

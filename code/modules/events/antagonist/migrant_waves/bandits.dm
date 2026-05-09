@@ -8,7 +8,7 @@
 	shared_occurence_type = SHARED_MINOR_THREAT
 
 	tags = list(
-		TAG_MATTHIOS,
+		TAG_DECEIVERS,
 		TAG_COMBAT,
 		TAG_VILLAIN,
 	)

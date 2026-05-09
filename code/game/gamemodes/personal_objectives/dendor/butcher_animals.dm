@@ -31,7 +31,7 @@
 /datum/objective/personal/butcher_animals/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("You've butchered enough animals to satisfy Gani!"))
-	adjust_storyteller_influence(DENDOR, 20)
+	adjust_storyteller_influence(GANI, 20)
 	UnregisterSignal(owner.current, COMSIG_MOB_BUTCHERED)
 
 /datum/objective/personal/butcher_animals/reward_owner()

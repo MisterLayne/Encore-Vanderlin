@@ -31,7 +31,7 @@
 	deathmessage = "collapses to the floor with a final roar, the impact rocking the ground."
 	footstep_type = FOOTSTEP_MOB_HEAVY
 	void_corruption = FALSE
-	dendor_taming_chance = DENDOR_TAME_PROB_LOW
+	gani_taming_chance = GANI_TAME_PROB_LOW
 
 /mob/living/simple_animal/hostile/retaliate/voiddragon/red/tsere
 	name = "Tsere the Insurmountable"

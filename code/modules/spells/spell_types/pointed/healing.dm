@@ -66,7 +66,7 @@
 					cast_on.IgniteMob()
 					return
 		if(HEALING_DIVINE)
-			if(HAS_TRAIT(cast_on, TRAIT_ASTRATA_CURSE))
+			if(HAS_TRAIT(cast_on, TRAIT_VISIRES_CURSE))
 				cast_on.visible_message(span_danger("[cast_on] recoils in pain!"), span_userdanger("Divine healing shuns me!"))
 				cast_on.cursed_freak_out()
 				return
@@ -91,22 +91,22 @@
 	if(isliving(owner))
 		var/mob/living/living_owner = owner
 		switch(living_owner.patron?.type)
-			if(/datum/patron/psydon, /datum/patron/psydon/extremist)
+			if(/datum/patron/angros, /datum/patron/angros/extremist)
 				cast_on.visible_message(span_info("A strange stirring feeling pours from [cast_on]!"), span_notice("Sentimental thoughts drive away my pains!"))
 
-			if(/datum/patron/divine/astrata)
+			if(/datum/patron/divine/visires)
 				cast_on.visible_message(span_info("A wreath of gentle light passes over [cast_on]!"), span_notice("I'm bathed in holy light!"))
 				// during the day, heal 10 more (basic as fuck)
 				if(GLOB.tod == DAY)
 					conditional_buff = TRUE
 
-			if(/datum/patron/divine/noc)
+			if(/datum/patron/divine/akan)
 				cast_on.visible_message(span_info("A shroud of soft moonlight falls upon [cast_on]!"), span_notice("I'm shrouded in gentle moonlight!"))
 				// during the night, heal 10 more (i wish this was more interesting but they're twins so whatever)
 				if(GLOB.tod == NIGHT)
 					conditional_buff = TRUE
 
-			if(/datum/patron/divine/dendor)
+			if(/datum/patron/divine/gani)
 				cast_on.visible_message(span_info("A rush of primal energy spirals about [cast_on]!"), span_notice("I'm infused with primal energies!"))
 				var/static/list/natural_stuff = typecacheof(list(/obj/structure/flora/grass, /obj/structure/chair/bench/ancientlog, /obj/structure/flora))
 				situational_bonus = 0
@@ -117,7 +117,7 @@
 				if(situational_bonus > 0)
 					conditional_buff = TRUE
 
-			if(/datum/patron/divine/abyssor)
+			if(/datum/patron/divine/mjallidhorn)
 				cast_on.visible_message(span_info("A mist of salt-scented vapour settles on [cast_on]!"), span_notice("I'm invigorated by healing vapours!"))
 				// if our owner or cast_on is standing in water, heal a flat amount extra
 				if(istype(get_turf(cast_on), /turf/open/water) || istype(get_turf(owner), /turf/open/water))
@@ -125,7 +125,7 @@
 					situational_bonus = 15
 				situational_blood += BLOOD_VOLUME_SURVIVE/2
 
-			if(/datum/patron/divine/ravox)
+			if(/datum/patron/divine/mordsol)
 				cast_on.visible_message(span_info("An air of righteous defiance rises near [cast_on]!"), span_notice("I'm filled with an urge to fight on!"))
 				situational_bonus = 0
 				// the bloodier the area around our cast_on is, the more we heal
@@ -133,7 +133,7 @@
 					situational_bonus = min(situational_bonus + 1, 25)
 				conditional_buff = TRUE
 
-			if(/datum/patron/divine/necra)
+			if(/datum/patron/divine/valdala)
 				cast_on.visible_message(span_info("A sense of quiet respite radiates from [cast_on]!"), span_notice("I feel the Undermaiden's gaze turn from me for now!"))
 				if(iscarbon(cast_on))
 					var/mob/living/carbon/C = cast_on
@@ -142,20 +142,20 @@
 						conditional_buff = TRUE
 						situational_bonus = 25
 
-			if(/datum/patron/divine/xylix)
+			if(/datum/patron/divine/iliope)
 				cast_on.visible_message(span_info("A fugue seems to manifest briefly across [cast_on]!"), span_notice("My wounds vanish as if they had never been there! "))
 				// half of the time, heal a little (or a lot) more - flip the coin
 				if(prob(50))
 					conditional_buff = TRUE
 					situational_bonus = rand(1, 25)
 
-			if(/datum/patron/divine/pestra)
+			if(/datum/patron/divine/erdl)
 				cast_on.visible_message(span_info("An aura of clinical care encompasses [cast_on]!"), span_notice("I'm sewn back together by sacred medicine!"))
-				// pestra always heals a little more toxin damage and restores a bit more blood
+				// erdl always heals a little more toxin damage and restores a bit more blood
 				cast_on.adjustToxLoss(-situational_bonus)
 				situational_blood += BLOOD_VOLUME_SURVIVE/2
 
-			if(/datum/patron/divine/malum)
+			if(/datum/patron/divine/golerkanh)
 				cast_on.visible_message(span_info("A tempering heat is discharged out of [cast_on]!"), span_notice("I feel the heat of a forge soothing my pains!"))
 				situational_bonus = 0
 				for(var/obj/machinery/light/fueled/O in oview(5, owner))
@@ -165,9 +165,9 @@
 				if(situational_bonus > 0)
 					conditional_buff = TRUE
 
-			if(/datum/patron/divine/eora)
+			if(/datum/patron/divine/pomette)
 				cast_on.visible_message(span_info("An eminence of love blossoms around [cast_on]!"), span_notice("I'm filled with the restorative warmth of love!"))
-				// if they're wearing an eoran bud (or are a pacifist), pretty much double the healing.
+				// if they're wearing an pomettic bud (or are a pacifist), pretty much double the healing.
 				situational_bonus = 0
 				if (HAS_TRAIT(cast_on, TRAIT_PACIFISM))
 					conditional_buff = TRUE
@@ -182,7 +182,7 @@
 				if(situational_bonus > 0)
 					conditional_buff = TRUE
 
-			if(/datum/patron/inhumen/graggar)
+			if(/datum/patron/inhumen/archdevils)
 				cast_on.visible_message(span_info("Foul fumes billow outward as [cast_on] is restored!"), span_notice("A noxious scent burns my nostrils, but I feel better!"))
 				// if you've got lingering toxin damage, you get healed more, but your bonus healing doesn't affect toxin
 				var/toxloss = cast_on.getToxLoss()
@@ -191,14 +191,14 @@
 					situational_bonus = 25
 					cast_on.adjustToxLoss(situational_bonus) // remember we do a global toxloss adjust down below so this is okay
 
-			if(/datum/patron/inhumen/matthios)
+			if(/datum/patron/inhumen/deceivers)
 				cast_on.visible_message(span_info("A shadowed hand passes [cast_on] a small, stolen vial... its contents glimmer faintly before sinking into their veins..."), span_notice("A quick swig and the ache fades..."))
 				// COMRADES! WE MUST BAND TOGETHER! Or Outlaw.
 				if(HAS_TRAIT(cast_on, TRAIT_BANDITCAMP) || (cast_on.real_name in GLOB.outlawed_players))
 					conditional_buff = TRUE
 					situational_bonus = 25
 
-			if(/datum/patron/inhumen/baotha)
+			if(/datum/patron/inhumen/hertannea)
 				cast_on.visible_message(span_info("A sweet, dizzying haze swirls around [cast_on], their eyes glimmering with bliss..."), span_notice("Mmm... the world softens... and I melt into it..."))
 				//If the owner or cast_on are on drugs, they get a heal bonus.
 				var/static/list/drugs_buffs = list(

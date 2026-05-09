@@ -21,7 +21,7 @@
 
 /datum/job/advclass/combat/puritan
 	title = "Monster Hunter"
-	tutorial = "Monster Hunters dedicate their lives to the eradication of the varied evils infesting Psydonia. They know the vile sorcery of the necromancer, the insidious nature of the cultist and monstrousness of vampires and werevolfs. They also know how best to end them."
+	tutorial = "Monster Hunters dedicate their lives to the eradication of the varied evils infesting Gaia. They know the vile sorcery of the necromancer, the insidious nature of the cultist and monstrousness of vampires and werevolfs. They also know how best to end them."
 	allowed_races = RACES_PLAYER_NONEXOTIC
 	outfit = /datum/outfit/folkhero/puritan
 	total_positions = 2
@@ -62,13 +62,13 @@
 	. = ..()
 	if(H.patron)
 		switch(H.patron.type)
-			if(/datum/patron/psydon, /datum/patron/psydon/extremist)
+			if(/datum/patron/angros, /datum/patron/angros/extremist)
 				wrists = /obj/item/clothing/neck/psycross/silver
-			if(/datum/patron/divine/astrata)
-				wrists = /obj/item/clothing/neck/psycross/silver/divine/astrata
-			if(/datum/patron/divine/necra)
-				wrists = /obj/item/clothing/neck/psycross/silver/divine/necra
-			if(/datum/patron/divine/pestra)
-				wrists = /obj/item/clothing/neck/psycross/silver/divine/pestra
+			if(/datum/patron/divine/visires)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/visires
+			if(/datum/patron/divine/valdala)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/valdala
+			if(/datum/patron/divine/erdl)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/erdl
 			else
 				wrists = /obj/item/clothing/neck/silveramulet

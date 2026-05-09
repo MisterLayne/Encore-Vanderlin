@@ -15,7 +15,7 @@
 /datum/objective/personal/eat_rival_heart/on_creation(rival_name, rival_job)
 	. = ..()
 	if(owner?.current)
-		owner.current.add_stress(/datum/stress_event/graggar_culling_unfinished)
+		owner.current.add_stress(/datum/stress_event/archdevils_culling_unfinished)
 		owner.current.add_spell(/datum/action/cooldown/spell/extract_heart)
 		owner.current.add_spell(/datum/action/cooldown/spell/undirected/seek_rival)
 		RegisterSignal(owner.current, COMSIG_ORGAN_CONSUMED, PROC_REF(on_organ_consumed))
@@ -31,7 +31,7 @@
 	if(completed || !organ_inside)
 		return
 
-	for(var/datum/culling_duel/D in GLOB.graggar_cullings)
+	for(var/datum/culling_duel/D in GLOB.archdevils_cullings)
 		var/obj/item/organ/heart/d_challenger_heart = D.challenger_heart?.resolve()
 		var/obj/item/organ/heart/d_target_heart = D.target_heart?.resolve()
 		var/mob/living/carbon/human/challenger = D.challenger?.resolve()
@@ -47,13 +47,13 @@
 /datum/objective/personal/eat_rival_heart/complete_objective(escalatation_type = ESCALATION_INTERVENTION_ONLY)
 	. = ..()
 	to_chat(owner.current, span_greentext("You have proven your strength to Archdevil by consuming your rival's heart! Your rival's power is now YOURS!"))
-	adjust_storyteller_influence(GRAGGAR, 40)
+	adjust_storyteller_influence(ARCHDEVILS, 40)
 	UnregisterSignal(owner.current, COMSIG_ORGAN_CONSUMED)
 
 /datum/objective/personal/eat_rival_heart/reward_owner()
 	. = ..()
-	owner.current.add_stress(/datum/stress_event/graggar_culling_finished)
-	owner.current.adjust_stat_modifier(STATMOD_GRAGGAR_CULLING, list(
+	owner.current.add_stress(/datum/stress_event/archdevils_culling_finished)
+	owner.current.adjust_stat_modifier(STATMOD_ARCHDEVILS_CULLING, list(
 		STAT_STRENGTH = 3,
 		STAT_CONSTITUTION = 3,
 		STAT_PERCEPTION = 3,

@@ -20,7 +20,7 @@
 
 /datum/job/advclass/mercenary/hollowdragoon
 	title = "Hollow Dragoon"
-	tutorial = "You rode out from Amber Hollow on your loyal steed, seeking coin from the wider reaches of Psydonia. \
+	tutorial = "You rode out from Amber Hollow on your loyal steed, seeking coin from the wider reaches of Gaia. \
 	With armour salvaged from fallen knights and a spear in hand, you will fight for anyone, for a price."
 	allowed_races = list(\
 		SPEC_ID_HOLLOWKIN,\

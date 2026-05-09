@@ -1,19 +1,19 @@
-/datum/round_event_control/graggar_organs
+/datum/round_event_control/archdevils_organs
 	name = "Feast of Organs"
 	track = EVENT_TRACK_PERSONAL
-	typepath = /datum/round_event/graggar_organs
+	typepath = /datum/round_event/archdevils_organs
 	weight = 7
 	earliest_start = 15 MINUTES
 	max_occurrences = 1
 	min_players = 30
 
 	tags = list(
-		TAG_GRAGGAR,
+		TAG_ARCHDEVILS,
 		TAG_BLOOD,
 		TAG_BATTLE,
 	)
 
-/datum/round_event_control/graggar_organs/canSpawnEvent(players_amt, gamemode, fake_check)
+/datum/round_event_control/archdevils_organs/canSpawnEvent(players_amt, gamemode, fake_check)
 	. = ..()
 	if(!.)
 		return FALSE
@@ -21,7 +21,7 @@
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(!istype(H) || H.stat == DEAD || !H.client)
 			continue
-		if(!H.patron || !istype(H.patron, /datum/patron/inhumen/graggar))
+		if(!H.patron || !istype(H.patron, /datum/patron/inhumen/archdevils))
 			continue
 		if(H.get_spell(/datum/action/cooldown/spell/extract_heart))
 			continue
@@ -29,13 +29,13 @@
 
 	return FALSE
 
-/datum/round_event/graggar_organs/start()
+/datum/round_event/archdevils_organs/start()
 	var/list/valid_targets = list()
 
 	for(var/mob/living/carbon/human/human_mob in GLOB.player_list)
 		if(!istype(human_mob) || human_mob.stat == DEAD || !human_mob.client)
 			continue
-		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/inhumen/graggar))
+		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/inhumen/archdevils))
 			continue
 		if(human_mob.get_spell(/datum/action/cooldown/spell/extract_heart))
 			continue
@@ -52,7 +52,7 @@
 	chosen_one.add_spell(/datum/action/cooldown/spell/extract_heart)
 
 	bordered_message(chosen_one, list(
-		span_userdanger("YOU ARE GRAGGAR'S CHOSEN!"),
+		span_userdanger("YOU ARE THE ARCHDEVILS'S CHOSEN!"),
 		span_biginfo("Archdevil hungers! [new_objective.explanation_text]"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/graggar_omen.ogg', 100)

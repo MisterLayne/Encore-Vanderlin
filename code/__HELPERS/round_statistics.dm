@@ -67,7 +67,7 @@
 #define STATS_ALIVE_NOBLES "alive_nobles"
 #define STATS_NOBLE_DEATHS "noble_deaths"
 #define STATS_PEOPLE_SMITTEN "smited"
-#define STATS_ASTRATA_REVIVALS "astrata_revivals"
+#define STATS_VISIRES_REVIVALS "visires_revivals"
 #define STATS_TAXES_COLLECTED "taxes_collected"
 #define STATS_SLURS_SPOKEN "slurs_spoken"
 
@@ -100,7 +100,7 @@
 #define STATS_PLANTS_HARVESTED "plants_harvested"
 #define STATS_WEREVOLVES "werevolves"
 #define STATS_ANIMALS_TAMED "animals_tamed"
-#define STATS_DENDOR_SACRIFICES "dendor_sacrifices"
+#define STATS_GANI_SACRIFICES "gani_sacrifices"
 #define STATS_FOREST_DEATHS "forest_deaths"
 
 // Mordsol
@@ -130,7 +130,7 @@
 // Mjallidhorn
 #define STATS_WATER_CONSUMED "water_consumed"
 #define STATS_FISH_CAUGHT "fish_caught"
-#define STATS_ABYSSOR_REMEMBERED "abyssor_remembered"
+#define STATS_MJALLIDHORN_REMEMBERED "mjallidhorn_remembered"
 #define STATS_LEECHES_EMBEDDED "leeches_embedded"
 #define STATS_PEOPLE_DROWNED "people_drowned"
 #define STATS_BATHS_TAKEN "baths_taken"
@@ -200,7 +200,7 @@ GLOBAL_LIST_INIT(vanderlin_round_stats, list(
 	STATS_LAUGHS_MADE = 0,
 	STATS_GRAVES_CONSECRATED = 0,
 	STATS_POTIONS_BREWED = 0,
-	STATS_ASTRATA_REVIVALS = 0,
+	STATS_VISIRES_REVIVALS = 0,
 	STATS_PLANTS_HARVESTED = 0,
 	STATS_LAWS_AND_DECREES_MADE = 0,
 	STATS_ALIVE_NOBLES = 0,
@@ -215,7 +215,7 @@ GLOBAL_LIST_INIT(vanderlin_round_stats, list(
 	STATS_SOULS_REINCARNATED = 0,
 	STATS_ANIMALS_BRED = 0,
 	STATS_WEREVOLVES = 0,
-	STATS_DENDOR_SACRIFICES = 0,
+	STATS_GANI_SACRIFICES = 0,
 	STATS_COMBAT_SKILLS = 0,
 	STATS_PARRIES = 0,
 	STATS_WARCRIES = 0,
@@ -226,7 +226,7 @@ GLOBAL_LIST_INIT(vanderlin_round_stats, list(
 	STATS_CRUEL_PRANKS = 0,
 	STATS_ROCKS_MINED = 0,
 	STATS_CRAFT_SKILLS = 0,
-	STATS_ABYSSOR_REMEMBERED = 0,
+	STATS_MJALLIDHORN_REMEMBERED = 0,
 	STATS_LEECHES_EMBEDDED = 0,
 	STATS_MARRIAGES = 0,
 	STATS_HUGS_MADE = 0,
@@ -505,7 +505,7 @@ GLOBAL_LIST_INIT(featured_stats, list(
 #define MAX_CHRONICLE_STATS 8
 
 // Chronicle statistics
-#define CHRONICLE_STATS_PSYDON_FAVOURITE "psydon_favourite"
+#define CHRONICLE_STATS_ANGROS_FAVOURITE "angros_favourite"
 #define CHRONICLE_STATS_RANDOM_PASSERBY "random_passerby"
 #define CHRONICLE_STATS_MOST_SKILLS_PERSON "most_skills_person"
 #define CHRONICLE_STATS_LEAST_SKILLS_PERSON "least_skills_person"

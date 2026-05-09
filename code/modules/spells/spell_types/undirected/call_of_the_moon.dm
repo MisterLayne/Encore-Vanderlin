@@ -4,7 +4,7 @@
 	spell_type = SPELL_MIRACLE
 	antimagic_flags = MAGIC_RESISTANCE_HOLY
 	associated_skill = /datum/attribute/skill/magic/holy
-	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/dendor)
+	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/gani)
 	has_visual_effects = TRUE
 
 	use_language = TRUE

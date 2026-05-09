@@ -263,7 +263,7 @@
 	time_multiplier = 1.5 //it's for crushing skulls not nails
 	item_weight = 8.4 KILOGRAMS
 
-/obj/item/weapon/hammer/sledgehammer/war/malum
+/obj/item/weapon/hammer/sledgehammer/war/golerkanh
 	name = "forgefiend"
 	desc = "This hammer's creation took a riddle in its own making. A great sacrifice for perfect quality"
 	icon = 'icons/roguetown/weapons/64/patron.dmi'
@@ -287,7 +287,7 @@
 	melt_amount = 150
 	sellprice = 1	//breaking bad cash pallet dot jpg
 
-/obj/item/weapon/hammer/sledgehammer/war/malum/getonmobprop(tag)
+/obj/item/weapon/hammer/sledgehammer/war/golerkanh/getonmobprop(tag)
 	. = ..()
 	if(tag)
 		switch(tag)

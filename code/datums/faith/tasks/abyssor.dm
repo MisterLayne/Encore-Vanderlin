@@ -1,13 +1,13 @@
 
-/datum/devotion_task/abyssor_fish
+/datum/devotion_task/mjallidhorn_fish
 	name = "Harvest the Depths"
-	desc = "Fish from Abyssor's domain"
+	desc = "Fish from Mjallidhorn's domain"
 	devotion_reward = 2
 	progression_reward = 2
 	cooldown_time = 20 SECONDS
 	signal_type = COMSIG_FISH_CAUGHT
 
-/datum/devotion_task/abyssor_sail
+/datum/devotion_task/mjallidhorn_sail
 	name = "Brave the Waves"
 	desc = "Sail the seas"
 	devotion_reward = 5

@@ -461,7 +461,6 @@
 /obj/structure/closet/crate/coffin,
 /obj/item/weapon/shield/tower/metal,
 /obj/item/clothing/armor/cuirass/iron/rust,
-/obj/item/clothing/cloak/stabard/templar/malum,
 /obj/item/alch/bone{
 	name = "bone";
 	desc = null
@@ -544,7 +543,6 @@
 "fD" = (
 /obj/structure/closet/crate/coffin,
 /obj/item/clothing/pants/chainlegs,
-/obj/item/clothing/cloak/stabard/templar/malum,
 /obj/item/weapon/sword/rapier/dec,
 /obj/item/alch/bone{
 	name = "bone";
@@ -1234,7 +1232,6 @@
 /obj/structure/table/wood/large/corner_blue{
 	dir = 10
 	},
-/obj/item/clothing/neck/psycross/silver/divine/ravox,
 /turf/open/floor/churchmarble,
 /area/under/mountains/anvil/dungeon)
 "qN" = (
@@ -1688,11 +1685,6 @@
 /obj/effect/decal/cleanable/blood/gibs,
 /turf/open/floor/naturalstone,
 /area/under/mountains/anvil/dungeon/lower)
-"xo" = (
-/obj/machinery/loom,
-/obj/item/clothing/cloak/stabard/templar/malum,
-/turf/open/floor/wood/nosmooth,
-/area/under/mountains/anvil/dungeon/lower)
 "xv" = (
 /obj/item/clothing/armor/brigandine/coatplates,
 /turf/open/floor/naturalstone,
@@ -1715,7 +1707,6 @@
 "xF" = (
 /obj/structure/closet/crate/drawer,
 /obj/item/candle/yellow,
-/obj/item/clothing/neck/psycross/silver/divine/malum/steel,
 /turf/open/floor/wood/nosmooth,
 /area/under/mountains/anvil/dungeon)
 "xJ" = (
@@ -1869,7 +1860,6 @@
 /area/under/mountains/anvil/dungeon)
 "Ag" = (
 /obj/effect/decal/cleanable/blood/gibs/old,
-/obj/item/clothing/head/helmet/heavy/necked/malumhelm,
 /turf/open/floor/naturalstone,
 /area/under/mountains/anvil/dungeon/lower)
 "Aq" = (
@@ -1915,7 +1905,6 @@
 /area/under/mountains/anvil/dungeon/lower)
 "Ba" = (
 /obj/structure/closet/crate/coffin,
-/obj/item/clothing/ring/gold/ravox,
 /obj/item/skull,
 /obj/item/alch/bone{
 	name = "bone";
@@ -1990,8 +1979,6 @@
 /area/under/mountains/anvil/dungeon/lower)
 "Cm" = (
 /obj/structure/closet/crate/chest/crafted,
-/obj/item/clothing/cloak/stabard/templar/malum,
-/obj/item/clothing/cloak/stabard/templar/malum,
 /turf/open/floor/ruinedwood/spiralfade,
 /area/under/mountains/anvil/dungeon)
 "Co" = (
@@ -3091,7 +3078,7 @@
 "Sq" = (
 /obj/structure/closet/crate/chest,
 /obj/effect/spawner/map_spawner/loot/magic{
-	spawned = list(/obj/item/clothing/ring/active/nomag = 20, /obj/item/clothing/ring/gold/protection = 16, /obj/item/clothing/ring/silver/calm = 20, /obj/item/clothing/ring/silver/noc = 6, /obj/item/clothing/head/crown/circlet/vision = 3, /obj/item/clothing/head/crown/circlet/sleepless = 3, /obj/item/clothing/neck/talkstone = 15)
+	spawned = list(/obj/item/clothing/ring/active/nomag = 20, /obj/item/clothing/ring/gold/protection = 16, /obj/item/clothing/ring/silver/calm = 20, /obj/item/clothing/head/crown/circlet/vision = 3, /obj/item/clothing/head/crown/circlet/sleepless = 3, /obj/item/clothing/neck/talkstone = 15)
 	},
 /turf/open/floor/churchrough,
 /area/under/mountains/anvil/dungeon/lower)
@@ -3535,8 +3522,6 @@
 /area/under/mountains/anvil/dungeon/lower)
 "Yz" = (
 /obj/structure/rack/shelf/big,
-/obj/item/clothing/cloak/stabard/templar/malum,
-/obj/item/clothing/cloak/stabard/templar/malum,
 /turf/open/floor/wood/nosmooth,
 /area/under/mountains/anvil/dungeon/lower)
 "YD" = (
@@ -3602,7 +3587,6 @@
 /area/under/mountains/anvil/dungeon/lower)
 "Zq" = (
 /obj/effect/decal/cleanable/blood/gibs,
-/obj/item/clothing/neck/psycross/silver/divine/malum/steel,
 /obj/effect/decal/cleanable/blood/gibs/body,
 /turf/open/floor/wood/nosmooth,
 /area/under/mountains/anvil/dungeon)
@@ -7723,7 +7707,7 @@ fZ
 DM
 UD
 cV
-xo
+jK
 rv
 DM
 DM

@@ -52,8 +52,8 @@
 		TRAIT_INQUISITION,
 		TRAIT_SILVER_BLESSED,
 		TRAIT_PURITAN,
-		TRAIT_PSYDONIAN_GRIT,
-		TRAIT_PSYDONITE,
+		TRAIT_ANGROSIAN_GRIT,
+		TRAIT_ANGROSIAN,
 		TRAIT_FOREIGNER,
 		TRAIT_RECOGNIZED,
 	)
@@ -82,21 +82,21 @@
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/retribution)
 
 		if("Daybreak (Whip)")
-			spawned.put_in_hands(new /obj/item/weapon/whip/psydon/relic(spawned), TRUE)
+			spawned.put_in_hands(new /obj/item/weapon/whip/angros/relic(spawned), TRUE)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/daybreak)
 
 		if("Sanctum (Halberd)")
-			spawned.put_in_hands(new /obj/item/weapon/polearm/halberd/psydon/relic(spawned), TRUE)
+			spawned.put_in_hands(new /obj/item/weapon/polearm/halberd/angros/relic(spawned), TRUE)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/sanctum)
 
 		if("Remembrance (Long Sword)")
-			spawned.put_in_hands(new /obj/item/weapon/sword/long/psydon/relic(spawned), TRUE)
+			spawned.put_in_hands(new /obj/item/weapon/sword/long/angros/relic(spawned), TRUE)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/retribution)
 
 /datum/outfit/inquisitor/inspector
 	name = "Inspector (Herr Prafekt)"
 	shirt = /obj/item/clothing/armor/gambeson/heavy/inq
-	belt = /obj/item/storage/belt/leather/knifebelt/black/psydon
+	belt = /obj/item/storage/belt/leather/knifebelt/black/angros
 	neck = /obj/item/clothing/neck/gorget
 	shoes = /obj/item/clothing/shoes/otavan/inqboots
 	pants = /obj/item/clothing/pants/tights/colored/black
@@ -112,7 +112,7 @@
 	backpack_contents = list(
 		/obj/item/storage/keyring/inquisitor = 1,
 		/obj/item/lockpickring/mundane = 1,
-		/obj/item/weapon/knife/dagger/silver/psydon,
+		/obj/item/weapon/knife/dagger/silver/angros,
 		/obj/item/clothing/head/inqarticles/blackbag = 1,
 		/obj/item/inqarticles/garrote = 1,
 		/obj/item/rope/inqarticles/inquirycord = 1,

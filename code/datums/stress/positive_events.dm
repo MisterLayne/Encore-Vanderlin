@@ -162,7 +162,7 @@
 	stress_change = 0
 	desc = span_green("A fellow Triton, looking good!")
 
-/datum/stress_event/eora
+/datum/stress_event/pomette
 	stress_change = -4
 	timer = INFINITY
 	desc = span_boldgreen("Pomette brings me peace.")
@@ -233,17 +233,17 @@
 	desc = span_green("It's always good to see an old friend's face.")
 	timer = 2 MINUTES
 
-/datum/stress_event/astrata_grandeur
+/datum/stress_event/visires_grandeur
 	stress_change = -2
 	desc = span_green("Visires' light shines brightly through me. I must not let others ever forget that.")
 	timer = 30 MINUTES
 
-/datum/stress_event/graggar_culling_finished
+/datum/stress_event/archdevils_culling_finished
 	stress_change = -2
 	desc = span_green("I have prevailed over my rival! Archdevil favours me now!")
 	timer = INFINITY
 
-/datum/stress_event/abyssor_serenity
+/datum/stress_event/mjallidhorn_serenity
 	stress_change = -1
 	desc = span_blue("Mjallidhorn is calm, and so am I.")
 	timer = INFINITY
@@ -423,9 +423,9 @@
 /datum/stress_event/black_briar_noc
 	timer = 5 MINUTES
 	stress_change = -5
-	desc = span_briar("I stare at Noc, and He stares back...")
+	desc = span_briar("I stare at Akan, and He stares back...")
 
-/datum/stress_event/xylix_laughed
+/datum/stress_event/iliope_laughed
 	timer = 10 MINUTES
 	stress_change = -5
-	desc = SPAN_GOD_XYLIX("Oh frabjous dae, calooh callay! The Silver-Tongue's guffaw keeps my troubles at bay!")
+	desc = SPAN_GOD_ILIOPE("Oh frabjous dae, calooh callay! The Silver-Tongue's guffaw keeps my troubles at bay!")

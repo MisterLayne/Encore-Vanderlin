@@ -1,17 +1,17 @@
-/datum/round_event_control/astrata_nobility
+/datum/round_event_control/visires_nobility
 	name = "Nobility Aspiration"
 	track = EVENT_TRACK_PERSONAL
-	typepath = /datum/round_event/astrata_nobility
+	typepath = /datum/round_event/visires_nobility
 	weight = 7
 	earliest_start = 5 MINUTES
 	max_occurrences = 1
 	min_players = 25
 
 	tags = list(
-		TAG_ASTRATA,
+		TAG_VISIRES,
 	)
 
-/datum/round_event_control/astrata_nobility/canSpawnEvent(players_amt, gamemode, fake_check)
+/datum/round_event_control/visires_nobility/canSpawnEvent(players_amt, gamemode, fake_check)
 	. = ..()
 	if(!.)
 		return FALSE
@@ -19,7 +19,7 @@
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(!istype(H) || H.stat == DEAD || !H.client)
 			continue
-		if(!H.patron || !istype(H.patron, /datum/patron/divine/astrata))
+		if(!H.patron || !istype(H.patron, /datum/patron/divine/visires))
 			continue
 		if(H.is_noble() || (H.mind?.assigned_role.title in GLOB.church_positions))
 			continue
@@ -29,13 +29,13 @@
 
 	return FALSE
 
-/datum/round_event/astrata_nobility/start()
+/datum/round_event/visires_nobility/start()
 	var/list/valid_targets = list()
 
 	for(var/mob/living/carbon/human/human_mob in GLOB.player_list)
 		if(!istype(human_mob) || human_mob.stat == DEAD || !human_mob.client)
 			continue
-		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/divine/astrata))
+		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/divine/visires))
 			continue
 		if(human_mob.is_noble() || (human_mob.mind?.assigned_role.title in GLOB.church_positions))
 			continue
@@ -52,7 +52,7 @@
 	chosen_one.mind.add_personal_objective(new_objective)
 
 	bordered_message(chosen_one, list(
-		span_userdanger("YOU ARE ASTRATA'S CHOSEN!"),
+		span_userdanger("YOU ARE VISIRES'S CHOSEN!"),
 		span_notice("Visires wishes you to ascend in status! Become a part of the nobility to earn Visires' favor!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/magic/bless.ogg', 100)

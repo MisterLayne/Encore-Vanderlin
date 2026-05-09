@@ -5,7 +5,7 @@
 	lord_title = "Daewalker"
 
 /datum/clan/daewalker
-	name = "Astrata's Will"
+	name = "Visires's Will"
 	desc = "Walk the dae so they may remember to fear it."
 	clan_covens = list(
 		/datum/coven/bloodheal,
@@ -37,7 +37,7 @@
 	allows_non_vampires = FALSE
 
 /datum/clan/daewalker/get_downside_string()
-	return "serve Astrata eternally."
+	return "serve Visires eternally."
 
 /datum/clan/daewalker/get_blood_preference_string()
 	return "the blood of bloodsuckers"
@@ -49,7 +49,7 @@
 
 /datum/clan/daewalker/initialize_hierarchy()
 	// Create the root leadership position
-	hierarchy_root = new /datum/clan_hierarchy_node("Daewalker", "Astrata's Chosen", 0)
+	hierarchy_root = new /datum/clan_hierarchy_node("Daewalker", "Visires's Chosen", 0)
 	hierarchy_root.position_color = "#gold"
 	hierarchy_root.max_subordinates = 0
 	all_positions += hierarchy_root

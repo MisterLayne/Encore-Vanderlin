@@ -353,7 +353,7 @@
 /obj/item/reagent_containers/food/snacks/pie/cooked/pompkaun
 	name = "pompkaun pie"
 	icon_state = "pompkaunpie"
-	desc = "Usually eaten in the second to last month of fall, when the pompkauns have been carved for Dendor but have not yet rotted."
+	desc = "Usually eaten in the second to last month of fall, when the pompkauns have been carved for Gani but have not yet rotted."
 	nutrition = FRUITPIE_NUTRITION * COOK_MOD
 	slice_path = /obj/item/reagent_containers/food/snacks/pieslice/pompkaun
 	tastes = list("pompkaun and butterdough" = 1)

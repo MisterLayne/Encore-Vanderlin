@@ -91,9 +91,9 @@
 	user.visible_message("<span class='danger'>[user] stares into [src], their eyes rolling back into their head.</span>")
 	user.ghostize(1)
 
-/*	..................   NOC Device (Fixed scrying ball)   ................... */
+/*	..................   AKAN Device (Fixed scrying ball)   ................... */
 /obj/structure/nocdevice
-	name = "NOC Device"
+	name = "AKAN Device"
 	desc = "An intricate lunar observation machine, that allows its user to study the face of Akan in the sky, reflecting the true whereabouts of hidden beings..."
 	icon = 'icons/roguetown/misc/96x96.dmi'
 	icon_state = "nocdevice"

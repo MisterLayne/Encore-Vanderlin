@@ -62,8 +62,8 @@
 		TRAIT_STEELHEARTED,
 		TRAIT_HEAVYARMOR,
 		TRAIT_INQUISITION,
-		TRAIT_PSYDONIAN_GRIT,
-		TRAIT_PSYDONITE,
+		TRAIT_ANGROSIAN_GRIT,
+		TRAIT_ANGROSIAN,
 		TRAIT_FOREIGNER,
 		TRAIT_RECOGNIZED,
 	)
@@ -88,17 +88,17 @@
 			spawned.equip_to_slot_or_del(new /obj/item/weapon/shield/tower/metal/psy, ITEM_SLOT_BACK_R, TRUE)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/creed)
 		if("Covenant and Consecratia (Flail + Shield)")
-			spawned.put_in_hands(new /obj/item/weapon/flail/psydon/relic(get_turf(spawned)), TRUE)
+			spawned.put_in_hands(new /obj/item/weapon/flail/angros/relic(get_turf(spawned)), TRUE)
 			spawned.equip_to_slot_or_del(new /obj/item/weapon/shield/tower/metal/psy, ITEM_SLOT_BACK_R, TRUE)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/consecratia)
 		if("Crusade (Greatsword) and a Silver Dagger")
-			spawned.put_in_hands(new /obj/item/weapon/sword/long/greatsword/psydon/relic(get_turf(spawned)), TRUE)
-			spawned.put_in_hands(new /obj/item/weapon/knife/dagger/silver/psydon(get_turf(spawned)), TRUE)
+			spawned.put_in_hands(new /obj/item/weapon/sword/long/greatsword/angros/relic(get_turf(spawned)), TRUE)
+			spawned.put_in_hands(new /obj/item/weapon/knife/dagger/silver/angros(get_turf(spawned)), TRUE)
 			spawned.equip_to_slot_or_del(new /obj/item/weapon/scabbard/knife, ITEM_SLOT_BACK_L, TRUE)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/crusade)
 
 		if("Remembrance (Long Sword)")
-			spawned.put_in_hands(new /obj/item/weapon/sword/long/psydon/relic(spawned), TRUE)
+			spawned.put_in_hands(new /obj/item/weapon/sword/long/angros/relic(spawned), TRUE)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/retribution)
 
 /datum/outfit/inquisitor/ordinator

@@ -6,7 +6,7 @@
 	spell_type = SPELL_MIRACLE
 	antimagic_flags = MAGIC_RESISTANCE_HOLY
 	associated_skill = /datum/attribute/skill/magic/holy
-	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/xylix)
+	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/iliope)
 
 	cooldown_time = 1 MINUTES
 	spell_cost = 25
@@ -28,7 +28,7 @@
 	. = ..()
 	if(. & SPELL_CANCEL_CAST)
 		return
-	message = browser_input_text(owner, "What should they say?", "XYLIX")
+	message = browser_input_text(owner, "What should they say?", "ILIOPE")
 	if(QDELETED(src) || QDELETED(owner) || QDELETED(cast_on) || !can_cast_spell())
 		return . | SPELL_CANCEL_CAST
 
@@ -40,8 +40,8 @@
 	. = ..()
 	log_directed_talk(owner, cast_on, message, LOG_SAY, name)
 	var/mob/living/L = owner
-	var/static/list/bannedwords = list("zizo", "graggar", "matthios", "baotha", "inhumen", "heresy")
-	for(var/T in bannedwords)  //astrata smites naughty xylixans
+	var/static/list/bannedwords = list("zizo", "archdevils", "deceivers", "hertannea", "inhumen", "heresy")
+	for(var/T in bannedwords)
 		if(findtext(message, T))
 			L.add_stress(/datum/stress_event/psycurselight)
 			L.adjust_divine_fire_stacks(6)

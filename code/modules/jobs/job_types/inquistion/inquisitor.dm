@@ -13,9 +13,9 @@
 	)
 	honorary = "Herr Prafekt"
 	honorary_f = "Frau Prafekt"
-	//You MUST have a Psydonite character to start. Just so people don't get japed into Oops Suddenly Psydon!
-	allowed_patrons = list(/datum/patron/psydon) // you have to keep the official church stance, no way an extremist psydonite could become inquisitor
-	tutorial = "This is the week. All your lessons have led to this moment. Your students follow you with eager steps and breathless anticipation. You’re to observe their hunt, and see if they can banish the evils haunting Psydonia, and rise up to become true inquisitors. A guide to them, a monster to others. You are the thing that goes bump in the night."
+	//You MUST have a Angrosian character to start. Just so people don't get japed into Oops Suddenly Angros!
+	allowed_patrons = list(/datum/patron/angros) // you have to keep the official church stance, no way an extremist angrosian could become inquisitor
+	tutorial = "This is the week. All your lessons have led to this moment. Your students follow you with eager steps and breathless anticipation. You’re to observe their hunt, and see if they can banish the evils haunting Gaia, and rise up to become true inquisitors. A guide to them, a monster to others. You are the thing that goes bump in the night."
 	cmode_music = 'sound/music/cmode/church/CombatInquisitor.ogg'
 	selection_color = JCOLOR_INQUISITION
 	allowed_ages = list(AGE_MIDDLEAGED, AGE_OLD)
@@ -30,7 +30,7 @@
 	mind_traits = list(
 		TRAIT_KNOW_INQUISITION_DOORS
 	)
-	languages = list(/datum/language/oldpsydonic, /datum/language/newpsydonic)
+	languages = list(/datum/language/oldunsundered, /datum/language/newunsundered)
 	spells = list(
 		/datum/action/cooldown/spell/undirected/call_bird/inquisitor
 	)
@@ -57,14 +57,14 @@
 	spawned.hud_used?.shutdown_bloodpool()
 	spawned.hud_used?.initialize_bloodpool()
 	spawned.hud_used?.bloodpool.set_fill_color("#dcdddb")
-	spawned.hud_used?.bloodpool?.name = "Psydon's Grace: [spawned.bloodpool]"
+	spawned.hud_used?.bloodpool?.name = "Angros's Grace: [spawned.bloodpool]"
 	spawned.hud_used?.bloodpool?.desc = "Devotion: [spawned.bloodpool]/[spawned.maxbloodpool]"
 	spawned.maxbloodpool = 1000
 
 	var/datum/species/species = spawned.dna?.species
 	if(!species)
 		return
-	species.native_language = "Old Psydonic"
+	species.native_language = "Old Unsundered"
 	species.accent_language = species.get_accent(species.native_language)
 
 ////Classic Inquisitor with a much more underground twist. Use listening devices, sneak into places to gather evidence, track down suspicious individuals. Has relatively the same utility stats as Confessor, but fulfills a different niche in terms of their combative job as the head honcho.
@@ -170,7 +170,7 @@
 		addtimer(TRAIT_CALLBACK_REMOVE(H, TRAIT_RECENTLY_TORTURED, TRAIT_GENERIC), 30 SECONDS)
 
 		var/static/list/faith_lines = list(
-			"DO YOU DENY PSYDON AND THE TEN?",
+			"DO YOU DENY ANGROS AND THE TEN?",
 			"WHO IS YOUR GOD?",
 			"ARE YOU FAITHFUL?",
 			"TO WHICH SHEPHERD DO YOU FLOCK TO?",
@@ -292,9 +292,9 @@
 					if(!length(confessions) && prob(false_confession_chance) && !was_suspect)
 						is_false_confession = TRUE
 						var/static/list/false_patron_types = list(
-							/datum/patron/inhumen/matthios,
+							/datum/patron/inhumen/deceivers,
 							/datum/patron/inhumen/zizo,
-							/datum/patron/inhumen/graggar
+							/datum/patron/inhumen/archdevils
 						)
 						antag_type = pick(false_patron_types)
 						confessions += list("I WORSHIP THE FORBIDDEN!", "I FOLLOW THE DARK PATH!", "I AM A HERETIC!")
@@ -304,12 +304,12 @@
 			var/datum/patron/interrogator_patron = interrogator.patron
 			var/datum/patron/victim_patron = patron
 			switch(interrogator_patron.associated_faith.type)
-				if(/datum/faith/psydon)
-					if(ispath(victim_patron.type, /datum/patron/divine) && victim_patron.type != /datum/patron/divine/necra)
+				if(/datum/faith/angros)
+					if(ispath(victim_patron.type, /datum/patron/divine) && victim_patron.type != /datum/patron/divine/valdala)
 						interrogator.add_stress(/datum/stress_event/torture_small_penalty)
 					else if(victim_patron.type == /datum/patron/godless/naivety)
 						interrogator.add_stress(/datum/stress_event/torture_small_penalty)
-					else if(istype(victim_patron, /datum/patron/psydon))
+					else if(istype(victim_patron, /datum/patron/angros))
 						interrogator.add_stress(/datum/stress_event/torture_large_penalty)
 
 		if(length(confessions))
@@ -341,7 +341,7 @@
 					if(/datum/antagonist/bandit)
 						held_confession.bad_type = "AN OUTLAW OF THE THIEF-LORD"
 						held_confession.antag = initial(antag_type:name)
-					if(/datum/patron/inhumen/matthios)
+					if(/datum/patron/inhumen/deceivers)
 						held_confession.bad_type = "A FOLLOWER OF THE THIEF-LORD"
 						held_confession.antag = "worshiper of " + initial(antag_type:name)
 					if(/datum/antagonist/maniac)
@@ -363,13 +363,13 @@
 						var/datum/antagonist/werewolf/werewolf_antag = mind.has_antag_datum(/datum/antagonist/werewolf, TRUE)
 						if(werewolf_antag.transformed)
 							return
-						held_confession.bad_type = "A BEARER OF DENDOR'S CURSE"
+						held_confession.bad_type = "A BEARER OF GANI'S CURSE"
 						held_confession.antag = initial(antag_type:name)
 					if(/datum/antagonist/werewolf/lesser)
 						var/datum/antagonist/werewolf/werewolf_antag = mind.has_antag_datum(/datum/antagonist/werewolf, TRUE)
 						if(werewolf_antag.transformed)
 							return
-						held_confession.bad_type = "A BEARER OF DENDOR'S CURSE"
+						held_confession.bad_type = "A BEARER OF GANI'S CURSE"
 						held_confession.antag = initial(antag_type:name)
 					if(/datum/antagonist/vampire)
 						held_confession.bad_type = "A SCION OF KAINE"
@@ -383,7 +383,7 @@
 					if(/datum/antagonist/vampire/lords_spawn)
 						held_confession.bad_type = "AN UNDERLING OF THE BLOOD-LORD"
 						held_confession.antag = initial(antag_type:name)
-					if(/datum/patron/inhumen/graggar)
+					if(/datum/patron/inhumen/archdevils)
 						held_confession.bad_type = "A FOLLOWER OF THE DARK SUN"
 						held_confession.antag = "worshiper of " + initial(antag_type:name)
 					if(/datum/patron/godless/godless)
@@ -399,15 +399,9 @@
 						held_confession.bad_type = "A SPURNER OF THE DIVINE"
 						held_confession.antag = "worshiper of nothing"
 					if(/datum/patron/godless/naivety)
-						held_confession.bad_type = "A IGNORANT FOOL"
+						held_confession.bad_type = "AN IGNORANT FOOL"
 						held_confession.antag = "worshiper of nothing"
-					if(/datum/patron/godless/rashan)
-						held_confession.bad_type = "A FOLLOWER OF A FALSE GOD"
-						held_confession.antag = "worshiper of the false god, Rashan-Kahl"
-					if(/datum/patron/godless/galadros)
-						held_confession.bad_type = "A WORSHIPPER OF THE DRACONIC"
-						held_confession.antag = "worshiper of the false god, Galadros"
-					if(/datum/patron/inhumen/baotha)
+					if(/datum/patron/inhumen/hertannea)
 						held_confession.bad_type = "A FOLLOWER OF THE REMORSELESS RUINER"
 						held_confession.antag = "worshiper of " + initial(antag_type:name)
 					else

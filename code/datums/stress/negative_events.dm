@@ -529,12 +529,12 @@
 	desc = span_red("This menial chore insults my station, i should not need to polish a pair of shoes.")
 	timer = 5 MINUTES
 
-/datum/stress_event/eora_matchmaking
+/datum/stress_event/pomette_matchmaking
 	stress_change = 2
 	desc = span_rose("Pomette calls for me to be wed! I must find my destined partner before I die all alone...")
 	timer = 30 MINUTES
 
-/datum/stress_event/graggar_culling_unfinished
+/datum/stress_event/archdevils_culling_unfinished
 	stress_change = 1
 	desc = span_red("I must eat my opponent's heart before he eats MINE!")
 	timer = INFINITY
@@ -804,7 +804,7 @@
 	desc = span_red("The horrid wails of the dead call for relief!")
 
 
-/datum/stress_event/soulchurnerpsydon
+/datum/stress_event/soulchurnerangros
 	timer = 1 MINUTES
 	stress_change = 1
 	desc = span_red("The horrid wails of the dead call for relief! I can ENDURE such calls...")

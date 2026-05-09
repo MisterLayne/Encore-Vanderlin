@@ -1,5 +1,5 @@
 /datum/map_template/dungeon/descent/tented
-	mappath = "_maps/matthios_tomb/descent/tented.dmm"
+	mappath = "_maps/deceivers_tomb/descent/tented.dmm"
 	id = "decent_tented"
 	width = 15
 	height = 15

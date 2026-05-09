@@ -73,10 +73,10 @@
 
 	if(dreamwatcher)
 		to_chat(mind.current, span_notice(pick(
-			"You feel the gaze of Noc before all else..",
+			"You feel the gaze of Akan before all else..",
 			"A silver thread weaves through your thoughts..",
 			"You step into a dream that feels... familiar.",
-			"Noc whispers, not in words, but in meaning.",
+			"Akan whispers, not in words, but in meaning.",
 		)))
 
 	var/dream_dust = retained_dust
@@ -91,7 +91,7 @@
 	dream_dust += intel * DREAM_DUST_PER_INT
 
 	if(dreamwatcher)
-		to_chat(mind.current, span_notice("I can feel Noc's presence... symbols shift, forgotten places stir, and ancient beings whisper through the veil."))
+		to_chat(mind.current, span_notice("I can feel Akan's presence... symbols shift, forgotten places stir, and ancient beings whisper through the veil."))
 	else if(intel < 10)
 		to_chat(mind.current, span_boldwarning("My shallow imagination makes them dull..."))
 	else if(intel > 10)
@@ -102,7 +102,7 @@
 	// Determine rested pool grant for this cycle
 	var/rested_grant = RESTED_XP_BASE_GRANT
 	if(dreamwatcher)
-		to_chat(mind.current, span_notice("Noc opens the dreamworld before me, a realm of impossible beauty and boundless thought."))
+		to_chat(mind.current, span_notice("Akan opens the dreamworld before me, a realm of impossible beauty and boundless thought."))
 		dream_dust += 100
 		rested_grant += RESTED_XP_BASE_GRANT
 	else if(stress_median <= STRESS_THRESHOLD_NICE)
@@ -121,10 +121,10 @@
 
 	if(dreamwatcher)
 		var/list/intro_lines = list(
-			span_boldwarning("Noc stirs beneath the surface of your dreams... the world around you distorts, familiar faces blur, and the stars themselves tremble in disquiet."),
+			span_boldwarning("Akan stirs beneath the surface of your dreams... the world around you distorts, familiar faces blur, and the stars themselves tremble in disquiet."),
 			span_boldwarning("The dreamscape writhes, pulling at the edges of reality... fleeting images dance across your vision, too tangled to grasp, too distant to recall."),
 			span_boldwarning("A shadow stretches across the stars, swallowing all that once was... whispers echo, but the words slip from your grasp like smoke."),
-			span_boldwarning("Noc's touch lingers in the space between thoughts... your mind flickers like a dying ember, lost in the endless night."),
+			span_boldwarning("Akan's touch lingers in the space between thoughts... your mind flickers like a dying ember, lost in the endless night."),
 			span_boldwarning("The fabric of dreams unravels around you... shapes and voices blur, an eternal puzzle without an answer."),
 			span_boldwarning("A ripple of thought trembles through the dreamworld... each shift a new question, each answer a fleeting illusion.")
 		)

@@ -50,17 +50,17 @@
 		devotion.grant_to(spawned)
 
 	switch(spawned.patron?.type)
-		if(/datum/patron/inhumen/graggar)
+		if(/datum/patron/inhumen/archdevils)
 			spawned.cmode_music = 'sound/music/cmode/antag/combat_werewolf.ogg'
-		if(/datum/patron/inhumen/graggar_zizo)
+		if(/datum/patron/inhumen/archdevils_zizo)
 			spawned.cmode_music = 'sound/music/cmode/antag/combat_werewolf.ogg'
 		if(/datum/patron/inhumen/zizo)
 			spawned.cmode_music = 'sound/music/cmode/antag/combat_cult.ogg'
 			if(!spawned.has_language(/datum/language/undead))
 				spawned.grant_language(/datum/language/undead)
-		if(/datum/patron/inhumen/matthios)
+		if(/datum/patron/inhumen/deceivers)
 			spawned.cmode_music = 'sound/music/cmode/antag/CombatBandit1.ogg'
-		if(/datum/patron/inhumen/baotha)
+		if(/datum/patron/inhumen/hertannea)
 			spawned.cmode_music = 'sound/music/cmode/antag/CombatBaotha.ogg'
 		else
 			spawned.cmode_music = 'sound/music/cmode/church/CombatInquisitor.ogg'
@@ -86,20 +86,20 @@
 /datum/outfit/adventurer/profanepaladin/pre_equip(mob/living/carbon/human/H, visuals_only)
 	. = ..()
 	switch(H.patron?.type)
-		if(/datum/patron/inhumen/graggar)
-			head = /obj/item/clothing/head/helmet/heavy/graggar
-			armor = /obj/item/clothing/armor/plate/full/graggar
-			gloves = /obj/item/clothing/gloves/plate/graggar
-			pants = /obj/item/clothing/pants/platelegs/graggar
-			shoes = /obj/item/clothing/shoes/boots/armor/graggar
-			cloak = /obj/item/clothing/cloak/graggar
-		if(/datum/patron/inhumen/graggar_zizo)
-			head = /obj/item/clothing/head/helmet/heavy/graggar
-			armor = /obj/item/clothing/armor/plate/full/graggar
-			gloves = /obj/item/clothing/gloves/plate/graggar
-			pants = /obj/item/clothing/pants/platelegs/graggar
-			shoes = /obj/item/clothing/shoes/boots/armor/graggar
-			cloak = /obj/item/clothing/cloak/graggar
+		if(/datum/patron/inhumen/archdevils)
+			head = /obj/item/clothing/head/helmet/heavy/archdevils
+			armor = /obj/item/clothing/armor/plate/full/archdevils
+			gloves = /obj/item/clothing/gloves/plate/archdevils
+			pants = /obj/item/clothing/pants/platelegs/archdevils
+			shoes = /obj/item/clothing/shoes/boots/armor/archdevils
+			cloak = /obj/item/clothing/cloak/archdevils
+		if(/datum/patron/inhumen/archdevils_zizo)
+			head = /obj/item/clothing/head/helmet/heavy/archdevils
+			armor = /obj/item/clothing/armor/plate/full/archdevils
+			gloves = /obj/item/clothing/gloves/plate/archdevils
+			pants = /obj/item/clothing/pants/platelegs/archdevils
+			shoes = /obj/item/clothing/shoes/boots/armor/archdevils
+			cloak = /obj/item/clothing/cloak/archdevils
 			H.cmode_music = 'sound/music/cmode/antag/combat_werewolf.ogg'
 		if(/datum/patron/inhumen/zizo)
 			head = /obj/item/clothing/head/helmet/visored/zizo
@@ -107,14 +107,14 @@
 			gloves = /obj/item/clothing/gloves/plate/zizo
 			pants = /obj/item/clothing/pants/platelegs/zizo
 			shoes = /obj/item/clothing/shoes/boots/armor/zizo
-		if(/datum/patron/inhumen/matthios)
-			head = /obj/item/clothing/head/helmet/heavy/matthios
-			armor = /obj/item/clothing/armor/plate/full/matthios
-			gloves = /obj/item/clothing/gloves/plate/matthios
-			pants = /obj/item/clothing/pants/platelegs/matthios
-			shoes = /obj/item/clothing/shoes/boots/armor/matthios
-		if(/datum/patron/inhumen/baotha)
-			head = /obj/item/clothing/head/helmet/heavy/baotha
+		if(/datum/patron/inhumen/deceivers)
+			head = /obj/item/clothing/head/helmet/heavy/deceivers
+			armor = /obj/item/clothing/armor/plate/full/deceivers
+			gloves = /obj/item/clothing/gloves/plate/deceivers
+			pants = /obj/item/clothing/pants/platelegs/deceivers
+			shoes = /obj/item/clothing/shoes/boots/armor/deceivers
+		if(/datum/patron/inhumen/hertannea)
+			head = /obj/item/clothing/head/helmet/heavy/hertannea
 			mask = /obj/item/clothing/face/spectacles/sglasses
 			armor = /obj/item/clothing/armor/plate
 			gloves = /obj/item/clothing/gloves/plate

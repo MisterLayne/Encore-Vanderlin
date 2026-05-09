@@ -366,18 +366,18 @@
 	melt_amount = 75
 	item_weight = 400 GRAMS
 
-/obj/item/weapon/katar/psydon
-	name = "psydonian katar"
+/obj/item/weapon/katar/angros
+	name = "angrosian katar"
 	desc = "An exotic weapon taken from the hands of wandering monks, an esoteric design to the Grenzelhoftian nation. Special care was taken into account towards the user's knuckles: silver-tipped steel from tip to edges, and His holy cross reinforcing the heart of the weapon, with curved shoulders to allow its user to deflect incoming blows - provided they lead it in with the blade."
 	icon = 'icons/roguetown/weapons/32/psydonite.dmi'
 	icon_state = "psykatar"
 	item_weight = 400 GRAMS
 
-/obj/item/weapon/katar/psydon/Initialize(mapload)
+/obj/item/weapon/katar/angros/Initialize(mapload)
 	. = ..()						//+3 force, +50 int, +1 def, make silver
 	AddComponent(/datum/component/psyblessed, FALSE, 3, FALSE, 50, 1, TRUE)
 
-/obj/item/weapon/katar/abyssor
+/obj/item/weapon/katar/mjallidhorn
 	name = "barotrauma"
 	desc = "A gift from a creature of the sea. The claw is sharpened to a wicked edge."
 	icon = 'icons/roguetown/weapons/32/patron.dmi'
@@ -444,18 +444,18 @@
 			if("onbelt")
 				return list("shrink" = 0.1,"sx" = -2,"sy" = -5,"nx" = 4,"ny" = -5,"wx" = 0,"wy" = -5,"ex" = 2,"ey" = -5,"nturn" = 0,"sturn" = 0,"wturn" = 0,"eturn" = 0,"nflip" = 0,"sflip" = 0,"wflip" = 0,"eflip" = 0,"northabove" = 0,"southabove" = 1,"eastabove" = 1,"westabove" = 0)
 
-/obj/item/weapon/knuckles/psydon
-	name = "psydonian knuckles"
+/obj/item/weapon/knuckles/angros
+	name = "angrosian knuckles"
 	desc = "A simple piece of harm molded in a holy mixture of steel and silver, finished with three stumps - Angros' crown - to crush the heretics' garments and armor into smithereens."
 	icon = 'icons/roguetown/weapons/32/psydonite.dmi'
 	icon_state = "psyknuckle"
 	item_weight = 200 GRAMS
 
-/obj/item/weapon/knuckles/psydon/Initialize(mapload)
+/obj/item/weapon/knuckles/angros/Initialize(mapload)
 	. = ..()							//+3 force, +50 int, +1 def, make silver
 	AddComponent(/datum/component/psyblessed, FALSE, 3, FALSE, 50, 1, TRUE)
 
-/obj/item/weapon/knuckles/eora
+/obj/item/weapon/knuckles/pomette
 	name = "close caress"
 	desc = "Some times call for a more intimate approach."
 	icon = 'icons/roguetown/weapons/32/patron.dmi'

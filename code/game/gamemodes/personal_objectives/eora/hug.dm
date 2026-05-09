@@ -26,7 +26,7 @@
 /datum/objective/personal/hug_beggar/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("You've hugged a beggar, completing Pomette's objective!"))
-	adjust_storyteller_influence(EORA, 20)
+	adjust_storyteller_influence(POMETTE, 20)
 	UnregisterSignal(owner.current, COMSIG_MOB_HUGGED)
 
 /datum/objective/personal/hug_beggar/reward_owner()

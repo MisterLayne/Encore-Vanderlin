@@ -43,13 +43,13 @@
 		/datum/action/cooldown/spell/undirected/call_bird/grenzel
 	)
 
-	languages = list(/datum/language/newpsydonic)
+	languages = list(/datum/language/newunsundered)
 
 /datum/job/advclass/pilgrim/rare/grenzelhoft/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 
 	if(spawned.dna?.species.id == SPEC_ID_HUMEN)
-		spawned.dna.species.native_language = "Old Psydonic"
+		spawned.dna.species.native_language = "Old Unsundered"
 		spawned.dna.species.accent_language = spawned.dna.species.get_accent(spawned.dna.species.native_language)
 
 /datum/outfit/pilgrim/grenzelhoft

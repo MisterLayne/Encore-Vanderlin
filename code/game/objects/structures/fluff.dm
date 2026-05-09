@@ -703,9 +703,9 @@
 		qdel(carving_block)
 	update_appearance(UPDATE_ICON_STATE)
 
-/obj/structure/fluff/statue/astrata
-	name = "statue of Astrata"
-	desc = "Astrata, the Sun Queen, reigns over light, order, and conquest. She is worshipped and feared in equal measure."
+/obj/structure/fluff/statue/visires
+	name = "statue of Visires"
+	desc = "Visires, the Sun Queen, reigns over light, order, and conquest. She is worshipped and feared in equal measure."
 	icon = 'icons/roguetown/misc/tallandwide.dmi'
 	icon_state = "astrata"
 	max_integrity = 100 // You wanted descructible statues, you'll get them.
@@ -714,7 +714,7 @@
 	blade_dulling = DULLING_BASH
 	SET_BASE_PIXEL(-16, 0)
 
-/obj/structure/fluff/statue/astrata/bling
+/obj/structure/fluff/statue/visires/bling
 	icon_state = "astrata_bling"
 
 /obj/structure/fluff/statue/knight/r
@@ -834,13 +834,13 @@
 	var/random_message = rand(1,5)
 	switch(random_message)
 		if(1)
-			to_chat(H,  span_notice("You can see Noc rotating."))
+			to_chat(H,  span_notice("You can see Akan rotating."))
 			if(do_after(H, 1 SECONDS, target = src))
-				to_chat(H, span_good("Noc's glow seems to help clear your thoughts."))
-				H.apply_status_effect(/datum/status_effect/buff/nocblessing)
+				to_chat(H, span_good("Akan's glow seems to help clear your thoughts."))
+				H.apply_status_effect(/datum/status_effect/buff/akanblessing)
 				H.playsound_local(H, 'sound/misc/notice (2).ogg', 100, FALSE)
 		if(2)
-			to_chat(H, span_warning("Looking at Astrata blinds you"))
+			to_chat(H, span_warning("Looking at the sun blinds you"))
 			if(do_after(H, 1 SECONDS, src)) // QUICK LOOK AWAY !!
 				var/obj/item/bodypart/affecting = H.get_bodypart("head")
 				to_chat(H, span_userdanger("The blinding light causes you intense pain!"))
@@ -864,7 +864,7 @@
 
 /obj/structure/fluff/globe
 	name = "globe"
-	desc = "A model representing the known world of Psydonia."
+	desc = "A model representing the known world of Gaia."
 	icon = 'icons/roguetown/misc/structure.dmi'
 	icon_state = "globe"
 	density = TRUE
@@ -878,19 +878,15 @@
 	var/mob/living/carbon/human/H = user
 	var/random_message = pick(
 	"You spin the globe!",
-	"You land on Rockhill!",
-	"You land on Vanderlin!",
-	"You land on Heartfelt!",
-	"You land on Zaladin!",
-	"You land on Grenzelhoft!",
-	"You land on Valoria!",
-	"You land on Rosewood!",
-	"You land on Wintermare!",
-	"You land on Deshret!",
-	"You land on Kingsfield",
-	"You land on Amber Hollow!",
-	"You land on the lands of Z!",
-	"You land on the Fog Islands!")
+	"You land on Geramor!",
+	"You land on Aelonda!",
+	"You land on Nortmidst!",
+	"You land on Old Kui!",
+	"You land on the Sultanate!",
+	"You land on the Far Wild!",
+	"You land on the Sea of Life!",
+	"You land on Cudao!",
+	"You land on the Hellgates!")
 	to_chat(H, "<span class='notice'>[random_message]</span>")
 
 /obj/structure/fluff/statue/femalestatue/Initialize()
@@ -1005,7 +1001,7 @@
 
 /obj/structure/fluff/statue/evil
 	name = "idol"
-	desc = "A statue built to the robber-god, Matthios. The visage resembles nobody in particular. It is said that he grants the wishes of those pagan bandits (free folk) who feed him money."
+	desc = "A statue built to some unknowable Deceiver God. The visage resembles nobody in particular. It is said that these grant the wishes of those free folk who feed them money."
 	icon_state = "evilidol"
 	icon = 'icons/roguetown/misc/structure.dmi'
 
@@ -1014,7 +1010,7 @@
 		var/datum/antagonist/bandit/B = user.mind.has_antag_datum(/datum/antagonist/bandit)
 		if(B)
 			if(B.tri_amt >= 8)
-				to_chat(user, span_warning("The idol had collected enough tribute from you."))
+				to_chat(user, span_warning("The idol has collected enough tribute from you."))
 				return
 			if(istype(W, /obj/item/reagent_containers/lux))
 				B.contrib += 120
@@ -1075,8 +1071,8 @@
 		playsound(src,'sound/items/matidol2.ogg', 50, TRUE)
 
 /obj/structure/fluff/psycross
-	name = "pantheon cross"
-	desc = "A towering monument to the Ten. Marriages are performed under its shadow."
+	name = "elementalist cross"
+	desc = "A towering monument to the Elementals. Marriages are performed under its shadow."
 	icon_state = "psycross"
 	icon = 'icons/roguetown/misc/tallstructure.dmi'
 	break_sound = 'sound/combat/hits/onwood/destroyfurniture.ogg'
@@ -1133,15 +1129,15 @@
 	break_sound = null
 	attacked_sound = list("sound/combat/hits/onmetal/metalimpact (1).ogg", "sound/combat/hits/onmetal/metalimpact (2).ogg")
 
-/obj/structure/fluff/psycross/astrata
-	name = "astratan cross"
+/obj/structure/fluff/psycross/visires
+	name = "ember effigy"
 	icon_state = "astratancross"
-	desc = "A towering monument to Astrata. Those who stand beneath it feel the warmth of her light."
+	desc = "A towering monument to Visires. A particular warmth surrounds it, and it never seems to fully obscure itself under shadow."
 	break_sound = null
 	attacked_sound = list("sound/combat/hits/onmetal/metalimpact (1).ogg", "sound/combat/hits/onmetal/metalimpact (2).ogg")
 
-/obj/structure/fluff/psycross/astrata/gold
-	name = "astratan cross"
+/obj/structure/fluff/psycross/visires/gold
+	name = "golden ember effigy"
 	icon_state = "astratancross_g"
 	break_sound = null
 	attacked_sound = list("sound/combat/hits/onmetal/metalimpact (1).ogg", "sound/combat/hits/onmetal/metalimpact (2).ogg")
@@ -1164,42 +1160,42 @@
 	density = TRUE
 	dir = SOUTH
 
-/obj/structure/fluff/psycross/crafted/shrine/dendor_volf
-	name = "devouring shrine to Dendor"
+/obj/structure/fluff/psycross/crafted/shrine/gani_volf
+	name = "devouring shrine to Gani"
 	desc = "The life force of a Volf has consecrated this holy place. \n First present two blood baits to craft a red sacrifice. \n Then offer an egg and two feathers to craft a crimson sacrifice."
 	icon_state = "shrine_dendor_volf"
 
-/obj/structure/fluff/psycross/crafted/shrine/dendor_saiga
-	name = "stinging shrine to Dendor"
+/obj/structure/fluff/psycross/crafted/shrine/gani_saiga
+	name = "stinging shrine to Gani"
 	desc = "The life force of a Saiga has consecrated this holy place. \n First present a jacksberry, westleach leaf, and eel to craft a yellow sacrifice. \n Then offer a jacksberry, calendula flower, and fiber to craft a citrine sacrifice."
 	icon_state = "shrine_dendor_saiga"
 
-/obj/structure/fluff/psycross/crafted/shrine/dendor_gote
-	name = "growing shrine to Dendor"
+/obj/structure/fluff/psycross/crafted/shrine/gani_gote
+	name = "growing shrine to Gani"
 	desc = "The life force of a Gote has consecrated this holy place. \n First present a poppy flower, swampweed leaf, and silk grub to craft a green sacrifice. \n Then offer a euphorbia flower, swampweed leaf, and two thorns to craft a viridian sacrifice."
 	icon_state = "shrine_dendor_gote"
 
-/obj/structure/fluff/psycross/crafted/shrine/dendor_troll
-	name = "lording shrine to Dendor"
+/obj/structure/fluff/psycross/crafted/shrine/gani_troll
+	name = "lording shrine to Gani"
 	desc = "The life force of a Troll has consecrated this holy place. \n First present two troll horns to craft a purple sacrifice. \n Then offer a piece of strange meat and two sinews to craft an indigo sacrifice."
 	icon_state = "shrine_dendor_troll"
 
 /obj/structure/fluff/psycross/psycrucifix
-	name = "wooden psydonic crucifix"
+	name = "wooden unsundered crucifix"
 	desc = "A rarely seen symbol of absolute and devoted certainty, more common in Grenzelhoft: HE yet lives. HE yet breathes."
 	icon_state = "psycruci"
 	max_integrity = 80
 
 /obj/structure/fluff/psycross/psycrucifix/stone
-	name = "stone psydonic crucifix"
+	name = "stone unsundered crucifix"
 	desc = "Formed of stone, this great Psycross symbolises that HE is forever ENDURING. Considered a rare sight upon the Peaks."
 	icon_state = "psycruci_r"
 	max_integrity = 120
 
 /obj/structure/fluff/psycross/psycrucifix/silver
-	name = "silver psydonic crucifix"
+	name = "silver unsundered crucifix"
 	icon_state = "psycruci_s"
-	desc = "Constructed of Blessed Silver, this crucifix symbolises absolute faith in the ONE - For PSYDON WEEPS, for all mortal ilk. PSYDON WEEPS, for all who walk upon the soil. PSYDON WEEPS..."
+	desc = "Constructed of Blessed Silver, this crucifix symbolises absolute faith in the ONE - For ANGROS WEEPS, for all mortal ilk. ANGROS WEEPS, for all who walk upon the soil. ANGROS WEEPS..."
 	attacked_sound = list("sound/combat/hits/onmetal/metalimpact (1).ogg", "sound/combat/hits/onmetal/metalimpact (2).ogg")
 	max_integrity = 450
 
@@ -1240,8 +1236,8 @@
 		return ..()
 
 	var/is_priest = is_priest_job(user.mind.assigned_role)
-	var/is_eoran_acolyte = is_monk_job(user.mind.assigned_role) && (user.patron.type == /datum/patron/divine/eora)
-	if(!is_priest && !is_eoran_acolyte && !HAS_TRAIT(user, TRAIT_SECRET_OFFICIANT))
+	var/is_pometten_acolyte = is_monk_job(user.mind.assigned_role) && (user.patron.type == /datum/patron/divine/pomette)
+	if(!is_priest && !is_pometten_acolyte && !HAS_TRAIT(user, TRAIT_SECRET_OFFICIANT))
 		return ..()
 
 	if(!istype(W, /obj/item/reagent_containers/food/snacks/produce/fruit/apple))
@@ -1371,7 +1367,7 @@
 	bride.adjust_triumphs(1)
 
 	if(!secret_marriage)
-		var/announcement_message = "Eora [groom.gender == bride.gender ? "begrudgingly accepts" : "proudly embraces"] the marriage between [groom.real_name] and [bride_first_name]!"
+		var/announcement_message = "Pomette [groom.gender == bride.gender ? "begrudgingly accepts" : "proudly embraces"] the marriage between [groom.real_name] and [bride_first_name]!"
 		priority_announce(announcement_message, title = "Holy Union!", sound = 'sound/misc/bell.ogg')
 
 	SEND_GLOBAL_SIGNAL(COMSIG_GLOBAL_MARRIAGE, groom, bride)
@@ -1409,29 +1405,29 @@
 	if(M.flash_act())
 		M.set_confusion_if_lower(power SECONDS)
 
-/obj/structure/fluff/psycross/psydon
-	name = "psydonian cross"
-	desc = "A wooden monument to Psydon. Let His name be naught but forgot'n."
+/obj/structure/fluff/psycross/angros
+	name = "angrosian cross"
+	desc = "A wooden monument to Angros. Let His name be naught but forgot'n."
 	icon_state = "psydon_wooden_cross"
 	icon = 'icons/roguetown/misc/psydon_cross.dmi'
 	divine = FALSE //this variable to my understanding is only used to prevent zizo prayers. He's dead, so he can't do anything.
 
-/obj/structure/fluff/psycross/psydon/metal
-	desc = "A metal monument to Psydon. Let His name be naught but forgot'n."
+/obj/structure/fluff/psycross/angros/metal
+	desc = "A metal monument to Angros. Let His name be naught but forgot'n."
 	icon_state = "psydon_metal_cross"
 
 //this one is meant to be uncraftable
-/obj/structure/fluff/psycross/psydon/abandoned
-	name = "overgrown psydonian cross"
+/obj/structure/fluff/psycross/angros/abandoned
+	name = "overgrown angrosian cross"
 	desc = "A decrepit monument to a dead god. Looking at it fills you with profound sadness."
 	icon_state = "psydon_abandoned_cross"
 
-/obj/structure/fluff/psycross/psydon/abandoned/examine(mob/user)
+/obj/structure/fluff/psycross/angros/abandoned/examine(mob/user)
 	. = ..()
 	if(!isliving(user))
 		return
 	var/mob/living/living_user = user
-	if(istype(living_user.patron, /datum/patron/psydon))
+	if(istype(living_user.patron, /datum/patron/angros))
 		living_user.add_stress(/datum/stress_event/painful_reminder)
 		. += " Never forget those we have lost."
 

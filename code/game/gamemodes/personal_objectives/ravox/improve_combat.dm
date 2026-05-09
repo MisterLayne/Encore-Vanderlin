@@ -42,12 +42,12 @@
 /datum/objective/personal/improve_combat/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("You've improved your combat skills enough to satisfy Mordsol!"))
-	adjust_storyteller_influence(RAVOX, 20)
+	adjust_storyteller_influence(MORDSOL, 20)
 	UnregisterSignal(owner.current, COMSIG_SKILL_RANK_CHANGE)
 
 /datum/objective/personal/improve_combat/reward_owner()
 	. = ..()
-	owner.current.adjust_stat_modifier(STATMOD_RAVOX_BLESSING, list(STAT_STRENGTH = 1))
+	owner.current.adjust_stat_modifier(STATMOD_MORDSOL_BLESSING, list(STAT_STRENGTH = 1))
 
 /datum/objective/personal/improve_combat/update_explanation_text()
 	explanation_text = "Improve your combat skills by gaining [required_levels] new skill levels through practice or dreams. For Mordsol!"

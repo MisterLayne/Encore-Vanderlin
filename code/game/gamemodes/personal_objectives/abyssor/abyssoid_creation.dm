@@ -33,12 +33,12 @@
 /datum/objective/personal/create_abyssoids/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("You have created enough abyssoids to satisfy Mjallidhorn!"))
-	adjust_storyteller_influence(ABYSSOR, 20)
+	adjust_storyteller_influence(MJALLIDHORN, 20)
 	UnregisterSignal(owner.current, COMSIG_ABYSSOID_CREATED)
 
 /datum/objective/personal/create_abyssoids/reward_owner()
 	. = ..()
-	owner.current.adjust_stat_modifier(STATMOD_ABYSSOR_BLESSING, list(STAT_CONSTITUTION = 1))
+	owner.current.adjust_stat_modifier(STATMOD_MJALLIDHORN_BLESSING, list(STAT_CONSTITUTION = 1))
 
 /datum/objective/personal/create_abyssoids/update_explanation_text()
 	explanation_text = "Create [abyssoids_required] abyssoid\s from the common leeches, and then distribute them among the ingrate population!"

@@ -1,5 +1,5 @@
 
-/datum/island_biome/eoran_hell
+/datum/island_biome/pomettic_hell
 	name = "Fleshy"
 	biome_weight = 40
 	terrain_weights = list(
@@ -18,7 +18,7 @@
 	max_height = 2
 	fauna_density = 6
 
-/datum/island_biome/eoran_hell/setup_spawn_rules()
+/datum/island_biome/pomettic_hell/setup_spawn_rules()
 	..()
 
 	fauna_density -= min(3, difficulty)
@@ -46,7 +46,7 @@
 	if(difficulty >= 3)
 		add_settlement_type()
 
-/datum/island_biome/eoran_hell/select_terrain(temperature, moisture, height)
+/datum/island_biome/pomettic_hell/select_terrain(temperature, moisture, height)
 	if(temperature < 0.35)
 		if(moisture > 0.4)
 			return /turf/open/floor/grass/red
@@ -97,7 +97,7 @@
 
 	return pickweight(terrain_weights)
 
-/datum/island_biome/eoran_hell/select_flora(temperature, moisture, height)
+/datum/island_biome/pomettic_hell/select_flora(temperature, moisture, height)
 	if(prob(10))
 		return /obj/item/natural/stone
 	if(moisture > 0.4 && temperature > 0.3 && temperature < 0.7)
@@ -123,7 +123,7 @@
 	return /obj/effect/flora_patch_spawner/plains
 
 
-/datum/island_biome/eoran_hell/select_patch_flora(temperature, moisture, height)
+/datum/island_biome/pomettic_hell/select_patch_flora(temperature, moisture, height)
 
 	if(prob(80))
 		var/list/pick_list = list(

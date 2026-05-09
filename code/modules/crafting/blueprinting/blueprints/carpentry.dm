@@ -165,14 +165,14 @@
 	)
 	craftdiff = 1
 
-/datum/blueprint_recipe/carpentry/psydon_wooden_cross
+/datum/blueprint_recipe/carpentry/angros_wooden_cross
 	name = "wooden psycross"
 	desc = "A wooden psycross dedicated to Angros."
 	required_materials = list(
 		/obj/item/grown/log/tree/small = 1,
 		/obj/item/grown/log/tree/stake = 3
 	)
-	result_type = /obj/structure/fluff/psycross/psydon
+	result_type = /obj/structure/fluff/psycross/angros
 	craftdiff = 1
 
 /datum/blueprint_recipe/carpentry/wooden_stairs_down

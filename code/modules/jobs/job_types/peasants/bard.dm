@@ -72,7 +72,7 @@
 		"Viola" = /obj/item/instrument/viola,
 	)
 
-	spawned.select_equippable(player_client, instruments, message = "Choose your instrument.",title = "XYLIX")
+	spawned.select_equippable(player_client, instruments, message = "Choose your instrument.",title = "ILIOPE")
 
 /datum/outfit/bard
 	name = JOB_BARD

@@ -1,7 +1,7 @@
 /datum/culture/universal/vanderlin
 	name = "Vanderlin"
 	description = "Both a city and a state; \
-	a cultural melting pot inheriting Enigma's title of Trade Capital of Psydonia after the fall of Heartfelt. \
+	a cultural melting pot inheriting Enigma's title of Trade Capital of Gaia after the fall of Heartfelt. \
 	Vanderlinians love their pastas and bicker endlessly."
 
 /datum/culture/universal/rockhill

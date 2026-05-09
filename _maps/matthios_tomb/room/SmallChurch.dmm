@@ -601,16 +601,6 @@
 /area/under/tomb/indoors/church)
 "vU" = (
 /obj/structure/closet/crate/crafted_closet,
-/obj/item/clothing/cloak/stabard/templar/astrata/alt,
-/obj/item/clothing/cloak/stabard/templar/astrata/alt,
-/obj/item/clothing/cloak/stabard/templar/astrata,
-/obj/item/clothing/cloak/stabard/templar/astrata,
-/obj/item/clothing/neck/psycross/silver/divine/astrata,
-/obj/item/clothing/neck/psycross/silver/divine/astrata,
-/obj/item/clothing/shirt/robe/astrata,
-/obj/item/clothing/shirt/robe/astrata,
-/obj/item/clothing/head/helmet/heavy/necked/astrata,
-/obj/item/clothing/head/helmet/heavy/necked/astrata,
 /obj/machinery/light/fueled/torchholder/l,
 /obj/effect/spawner/map_spawner/loot/medium,
 /turf/open/floor/churchmarble,
@@ -1202,7 +1192,6 @@
 "UC" = (
 /obj/structure/closet/crate/chest/crate,
 /obj/item/clothing/neck/psycross/silver/divine/necra,
-/obj/item/clothing/neck/psycross/silver/divine/astrata,
 /turf/open/floor/churchmarble,
 /area/under/tomb/indoors/church)
 "UM" = (

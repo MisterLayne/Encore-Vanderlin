@@ -39,7 +39,7 @@
 	)
 
 	traits = list(TRAIT_HEAVYARMOR, TRAIT_MEDIUMARMOR, TRAIT_NOBLE_BLOOD, TRAIT_NOBLE_POWER)
-	languages = list(/datum/language/newpsydonic)
+	languages = list(/datum/language/newunsundered)
 	cmode_music = 'sound/music/cmode/combat_grenzelhoft.ogg'
 
 /datum/job/migrant/grenzelhoft_count/after_spawn(mob/living/carbon/human/spawned, client/player_client)
@@ -47,7 +47,7 @@
 	if(!spawned.dna?.species)
 		return
 	var/datum/species/species = spawned.dna.species
-	species.native_language = "Old Psydonic"
+	species.native_language = "Old Unsundered"
 	species.accent_language = species.get_accent(species.native_language)
 
 /datum/outfit/grenzelhoft_count
@@ -108,7 +108,7 @@
 	)
 
 	traits = list(TRAIT_MEDIUMARMOR, TRAIT_NOBLE_BLOOD, TRAIT_NOBLE_POWER)
-	languages = list(/datum/language/newpsydonic)
+	languages = list(/datum/language/newunsundered)
 	cmode_music = 'sound/music/cmode/nobility/combat_noble.ogg'
 
 /datum/job/migrant/grenzelhoft_countess/after_spawn(mob/living/carbon/human/spawned, client/player_client)
@@ -116,7 +116,7 @@
 	if(!spawned.dna?.species)
 		return
 	var/datum/species/species = spawned.dna.species
-	species.native_language = "Old Psydonic"
+	species.native_language = "Old Unsundered"
 	species.accent_language = species.get_accent(species.native_language)
 
 /datum/outfit/grenzelhoft_countess
@@ -169,7 +169,7 @@
 	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/grenzelhoft_knight
 
 	traits = list(TRAIT_HEAVYARMOR)
-	languages = list(/datum/language/newpsydonic)
+	languages = list(/datum/language/newunsundered)
 	cmode_music = 'sound/music/cmode/combat_grenzelhoft.ogg'
 
 /datum/job/migrant/grenzelhoft_knight/after_spawn(mob/living/carbon/human/spawned, client/player_client)
@@ -177,7 +177,7 @@
 	if(!spawned.dna?.species)
 		return
 	var/datum/species/species = spawned.dna.species
-	species.native_language = "Old Psydonic"
+	species.native_language = "Old Unsundered"
 	species.accent_language = species.get_accent(species.native_language)
 
 /datum/outfit/grenzelhoft_knight
@@ -231,7 +231,7 @@
 	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/grenzelhoft_man_at_arms
 
 	traits = list(TRAIT_MEDIUMARMOR)
-	languages = list(/datum/language/newpsydonic)
+	languages = list(/datum/language/newunsundered)
 	cmode_music = 'sound/music/cmode/combat_grenzelhoft.ogg'
 
 /datum/job/migrant/grenzelhoft_man_at_arms/after_spawn(mob/living/carbon/human/spawned, client/player_client)
@@ -240,7 +240,7 @@
 	if(!spawned.dna?.species)
 		return
 	var/datum/species/species = spawned.dna.species
-	species.native_language = "Old Psydonic"
+	species.native_language = "Old Unsundered"
 	species.accent_language = species.get_accent(species.native_language)
 
 /datum/outfit/grenzelhoft_man_at_arms

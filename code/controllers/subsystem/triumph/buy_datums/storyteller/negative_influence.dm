@@ -14,72 +14,72 @@
 	if(storyteller_name)
 		adjust_storyteller_influence(storyteller_name, -25)
 
-/datum/triumph_buy/storyteller_influence_reduction/matthios
+/datum/triumph_buy/storyteller_influence_reduction/deceivers
 	name = "Deceivers' Influence Reduction"
-	triumph_buy_id = TRIUMPH_BUY_MATTHIOS_INFLUENCE_REDUCTION
-	storyteller_name = MATTHIOS
+	triumph_buy_id = TRIUMPH_BUY_DECEIVERS_INFLUENCE_REDUCTION
+	storyteller_name = DECEIVERS
 
-/datum/triumph_buy/storyteller_influence_reduction/graggar
+/datum/triumph_buy/storyteller_influence_reduction/archdevils
 	name = "Archdevil's Influence Reduction"
-	triumph_buy_id = TRIUMPH_BUY_GRAGGAR_INFLUENCE_REDUCTION
-	storyteller_name = GRAGGAR
+	triumph_buy_id = TRIUMPH_BUY_ARCHDEVILS_INFLUENCE_REDUCTION
+	storyteller_name = ARCHDEVILS
 
-/datum/triumph_buy/storyteller_influence_reduction/baotha
+/datum/triumph_buy/storyteller_influence_reduction/hertannea
 	name = "Hertannea's Influence Reduction"
-	triumph_buy_id = TRIUMPH_BUY_BAOTHA_INFLUENCE_REDUCTION
-	storyteller_name = BAOTHA
+	triumph_buy_id = TRIUMPH_BUY_HERTANNEA_INFLUENCE_REDUCTION
+	storyteller_name = HERTANNEA
 
 /datum/triumph_buy/storyteller_influence_reduction/zizo
 	name = "One Envy's Influence Reduction"
 	triumph_buy_id = TRIUMPH_BUY_ZIZO_INFLUENCE_REDUCTION
 	storyteller_name = ZIZO
 
-/datum/triumph_buy/storyteller_influence_reduction/dendor
+/datum/triumph_buy/storyteller_influence_reduction/gani
 	name = "Gani's Influence Reduction"
-	triumph_buy_id = TRIUMPH_BUY_DENDOR_INFLUENCE_REDUCTION
-	storyteller_name = DENDOR
+	triumph_buy_id = TRIUMPH_BUY_GANI_INFLUENCE_REDUCTION
+	storyteller_name = GANI
 
-/datum/triumph_buy/storyteller_influence_reduction/eora
+/datum/triumph_buy/storyteller_influence_reduction/pomette
 	name = "Pomette's Influence Reduction"
-	triumph_buy_id = TRIUMPH_BUY_EORA_INFLUENCE_REDUCTION
-	storyteller_name = EORA
+	triumph_buy_id = TRIUMPH_BUY_POMETTE_INFLUENCE_REDUCTION
+	storyteller_name = POMETTE
 
-/datum/triumph_buy/storyteller_influence_reduction/malum
+/datum/triumph_buy/storyteller_influence_reduction/golerkanh
 	name = "Goler Kanh's Influence Reduction"
-	triumph_buy_id = TRIUMPH_BUY_MALUM_INFLUENCE_REDUCTION
-	storyteller_name = MALUM
+	triumph_buy_id = TRIUMPH_BUY_GOLERKANH_INFLUENCE_REDUCTION
+	storyteller_name = GOLERKANH
 
-/datum/triumph_buy/storyteller_influence_reduction/pestra
+/datum/triumph_buy/storyteller_influence_reduction/erdl
 	name = "Erdl's Influence Reduction"
-	triumph_buy_id = TRIUMPH_BUY_PESTRA_INFLUENCE_REDUCTION
-	storyteller_name = PESTRA
+	triumph_buy_id = TRIUMPH_BUY_ERDL_INFLUENCE_REDUCTION
+	storyteller_name = ERDL
 
-/datum/triumph_buy/storyteller_influence_reduction/necra
+/datum/triumph_buy/storyteller_influence_reduction/valdala
 	name = "Valdala's Influence Reduction"
-	triumph_buy_id = TRIUMPH_BUY_NECRA_INFLUENCE_REDUCTION
-	storyteller_name = NECRA
+	triumph_buy_id = TRIUMPH_BUY_VALDALA_INFLUENCE_REDUCTION
+	storyteller_name = VALDALA
 
-/datum/triumph_buy/storyteller_influence_reduction/xylix
+/datum/triumph_buy/storyteller_influence_reduction/iliope
 	name = "Iliope's Influence Reduction"
-	triumph_buy_id = TRIUMPH_BUY_XYLIX_INFLUENCE_REDUCTION
-	storyteller_name = XYLIX
+	triumph_buy_id = TRIUMPH_BUY_ILIOPE_INFLUENCE_REDUCTION
+	storyteller_name = ILIOPE
 
-/datum/triumph_buy/storyteller_influence_reduction/abyssor
+/datum/triumph_buy/storyteller_influence_reduction/mjallidhorn
 	name = "Mjallidhorn's Influence Reduction"
-	triumph_buy_id = TRIUMPH_BUY_ABYSSOR_INFLUENCE_REDUCTION
-	storyteller_name = ABYSSOR
+	triumph_buy_id = TRIUMPH_BUY_MJALLIDHORN_INFLUENCE_REDUCTION
+	storyteller_name = MJALLIDHORN
 
-/datum/triumph_buy/storyteller_influence_reduction/ravox
+/datum/triumph_buy/storyteller_influence_reduction/mordsol
 	name = "Mordsol's Influence Reduction"
-	triumph_buy_id = TRIUMPH_BUY_RAVOX_INFLUENCE_REDUCTION
-	storyteller_name = RAVOX
+	triumph_buy_id = TRIUMPH_BUY_MORDSOL_INFLUENCE_REDUCTION
+	storyteller_name = MORDSOL
 
-/datum/triumph_buy/storyteller_influence_reduction/noc
+/datum/triumph_buy/storyteller_influence_reduction/akan
 	name = "Akan's Influence Reduction"
 	triumph_buy_id = TRIUMPH_BUY_NOC_INFLUENCE_REDUCTION
-	storyteller_name = NOC
+	storyteller_name = AKAN
 
-/datum/triumph_buy/storyteller_influence_reduction/astrata
+/datum/triumph_buy/storyteller_influence_reduction/visires
 	name = "Visires' Influence Reduction"
-	triumph_buy_id = TRIUMPH_BUY_ASTRATA_INFLUENCE_REDUCTION
-	storyteller_name = ASTRATA
+	triumph_buy_id = TRIUMPH_BUY_VISIRES_INFLUENCE_REDUCTION
+	storyteller_name = VISIRES

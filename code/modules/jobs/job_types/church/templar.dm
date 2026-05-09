@@ -15,69 +15,69 @@
 		/datum/attribute/skill/misc/sewing = 20
 	)
 
-/datum/attribute_holder/sheet/job/templar/patron/astrata
+/datum/attribute_holder/sheet/job/templar/patron/visires
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/swords = 40
 	)
 
-/datum/attribute_holder/sheet/job/templar/patron/noc
+/datum/attribute_holder/sheet/job/templar/patron/akan
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/swords = 40,
 		/datum/attribute/skill/labor/mathematics = 20
 	)
 
-/datum/attribute_holder/sheet/job/templar/patron/dendor
+/datum/attribute_holder/sheet/job/templar/patron/gani
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/polearms = 40
 	)
 
-/datum/attribute_holder/sheet/job/templar/patron/necra
+/datum/attribute_holder/sheet/job/templar/patron/valdala
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/whipsflails = 40
 	)
 
-/datum/attribute_holder/sheet/job/templar/patron/pestra
+/datum/attribute_holder/sheet/job/templar/patron/erdl
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/knives = 40,
 		/datum/attribute/skill/craft/alchemy = 20
 	)
 
-/datum/attribute_holder/sheet/job/templar/patron/ravox
+/datum/attribute_holder/sheet/job/templar/patron/mordsol
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/swords = 40
 	)
 
-/datum/attribute_holder/sheet/job/templar/patron/malum
+/datum/attribute_holder/sheet/job/templar/patron/golerkanh
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/axesmaces = 40
 	)
 
-/datum/attribute_holder/sheet/job/templar/patron/abyssor
+/datum/attribute_holder/sheet/job/templar/patron/mjallidhorn
 	raw_attribute_list = list(
 		/datum/attribute/skill/labor/fishing = 20
 	)
 
-/datum/attribute_holder/sheet/job/templar/patron/xylix
+/datum/attribute_holder/sheet/job/templar/patron/iliope
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/whipsflails = 40
 	)
 
-/datum/attribute_holder/sheet/job/templar/patron/eora/rapier
+/datum/attribute_holder/sheet/job/templar/patron/pomette/rapier
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/swords = 40
 	)
 
-/datum/attribute_holder/sheet/job/templar/patron/eora/knuckles
+/datum/attribute_holder/sheet/job/templar/patron/pomette/knuckles
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/unarmed = 20
 	)
 
-/datum/attribute_holder/sheet/job/templar/patron/abyssor/spear
+/datum/attribute_holder/sheet/job/templar/patron/mjallidhorn/spear
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/polearms = 40
 	)
 
-/datum/attribute_holder/sheet/job/templar/patron/abyssor/katars
+/datum/attribute_holder/sheet/job/templar/patron/mjallidhorn/katars
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/unarmed = 20
 	)
@@ -136,64 +136,64 @@
 	. = ..()
 
 	switch(spawned.patron?.type)
-		if(/datum/patron/divine/astrata)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/astrata)
+		if(/datum/patron/divine/visires)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/visires)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAstrata.ogg'
-		if(/datum/patron/divine/noc)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/noc)
+		if(/datum/patron/divine/akan)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/akan)
 			ADD_TRAIT(spawned, TRAIT_DUALWIELDER, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatNoc.ogg'
-		if(/datum/patron/divine/dendor)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/dendor)
+		if(/datum/patron/divine/gani)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/gani)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatDendor.ogg'
-		if(/datum/patron/divine/necra)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/necra)
+		if(/datum/patron/divine/valdala)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/valdala)
 			ADD_TRAIT(spawned, TRAIT_DEADNOSE, TRAIT_GENERIC)
 			ADD_TRAIT(spawned, TRAIT_GRAVEROBBER, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatGravekeeper.ogg'
-		if(/datum/patron/divine/pestra)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/pestra)
+		if(/datum/patron/divine/erdl)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/erdl)
 			ADD_TRAIT(spawned, TRAIT_DUALWIELDER, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
-		if(/datum/patron/divine/eora)
+		if(/datum/patron/divine/pomette)
 			spawned.virginity = FALSE
 			ADD_TRAIT(spawned, TRAIT_BEAUTIFUL, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatEora.ogg'
 			var/static/list/selectable = list(
-				"Heartstring (Rapier)" = /obj/item/weapon/sword/rapier/eora,
-				"Close Caress (Knuckles)" = /obj/item/weapon/knuckles/eora,
+				"Heartstring (Rapier)" = /obj/item/weapon/sword/rapier/pomette,
+				"Close Caress (Knuckles)" = /obj/item/weapon/knuckles/pomette,
 			)
 			var/choice = spawned.select_equippable(player_client, selectable, message = "Choose Your Specialisation", title = "TEMPLAR")
 			if(!choice)
 				return
 			switch(choice)
 				if("Heartstring (Rapier)")
-					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/eora/rapier)
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/pomette/rapier)
 				if("Close Caress (Knuckles)")
-					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/eora/knuckles)
-		if(/datum/patron/divine/ravox)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/ravox)
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/pomette/knuckles)
+		if(/datum/patron/divine/mordsol)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/mordsol)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatRavox.ogg'
-		if(/datum/patron/divine/malum)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/malum)
+		if(/datum/patron/divine/golerkanh)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/golerkanh)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatOutlander2.ogg'
-		if(/datum/patron/divine/abyssor)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/abyssor)
+		if(/datum/patron/divine/mjallidhorn)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/mjallidhorn)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAbyssor.ogg'
 			var/static/list/selectable = list(
-				"DepthSeeker (Spear)" = /obj/item/weapon/polearm/spear/abyssor,
-				"Barotrauma (Katars)" = /obj/item/weapon/katar/abyssor,
+				"DepthSeeker (Spear)" = /obj/item/weapon/polearm/spear/mjallidhorn,
+				"Barotrauma (Katars)" = /obj/item/weapon/katar/mjallidhorn,
 			)
 			var/choice = spawned.select_equippable(player_client, selectable, message = "Choose Your Specialisation", title = "TEMPLAR")
 			if(!choice)
 				return
 			switch(choice)
 				if("DepthSeeker (Spear)")
-					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/abyssor/spear)
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/mjallidhorn/spear)
 				if("Barotrauma (Katars)")
-					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/abyssor/katars)
-		if(/datum/patron/divine/xylix)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/xylix)
+					spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/mjallidhorn/katars)
+		if(/datum/patron/divine/iliope)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/templar/patron/iliope)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatXylix.ogg'
 
 /datum/outfit/templar
@@ -214,54 +214,54 @@
 /datum/outfit/templar/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
 	. = ..()
 	switch(equipped_human.patron?.type)
-		if(/datum/patron/divine/astrata)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/astrata
-			head = /obj/item/clothing/head/helmet/heavy/necked/astrata
-			cloak = /obj/item/clothing/cloak/stabard/templar/astrata
-			backr = /obj/item/weapon/sword/long/exe/astrata
-		if(/datum/patron/divine/noc)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/noc
-			head = /obj/item/clothing/head/helmet/heavy/necked/noc
-			cloak = /obj/item/clothing/cloak/stabard/templar/noc
-			beltl = /obj/item/weapon/sword/sabre/noc
-		if(/datum/patron/divine/dendor)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/dendor
-			head = /obj/item/clothing/head/helmet/heavy/necked/dendorhelm
-			cloak = /obj/item/clothing/cloak/stabard/templar/dendor
-			backr = /obj/item/weapon/polearm/halberd/bardiche/dendor
-		if(/datum/patron/divine/necra)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/necra
-			head = /obj/item/clothing/head/helmet/heavy/necked/necra
-			cloak = /obj/item/clothing/cloak/stabard/templar/necra
-			beltl = /obj/item/weapon/flail/sflail/necraflail
-		if(/datum/patron/divine/pestra)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/pestra
-			head = /obj/item/clothing/head/helmet/heavy/necked/pestrahelm
-			cloak = /obj/item/clothing/cloak/stabard/templar/pestra
+		if(/datum/patron/divine/visires)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/visires
+			head = /obj/item/clothing/head/helmet/heavy/necked/visires
+			cloak = /obj/item/clothing/cloak/stabard/templar/visires
+			backr = /obj/item/weapon/sword/long/exe/visires
+		if(/datum/patron/divine/akan)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/akan
+			head = /obj/item/clothing/head/helmet/heavy/necked/akan
+			cloak = /obj/item/clothing/cloak/stabard/templar/akan
+			beltl = /obj/item/weapon/sword/sabre/akan
+		if(/datum/patron/divine/gani)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/gani
+			head = /obj/item/clothing/head/helmet/heavy/necked/ganihelm
+			cloak = /obj/item/clothing/cloak/stabard/templar/gani
+			backr = /obj/item/weapon/polearm/halberd/bardiche/gani
+		if(/datum/patron/divine/valdala)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/valdala
+			head = /obj/item/clothing/head/helmet/heavy/necked/valdala
+			cloak = /obj/item/clothing/cloak/stabard/templar/valdala
+			beltl = /obj/item/weapon/flail/sflail/valdalaflail
+		if(/datum/patron/divine/erdl)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/erdl
+			head = /obj/item/clothing/head/helmet/heavy/necked/erdlhelm
+			cloak = /obj/item/clothing/cloak/stabard/templar/erdl
 			backpack_contents += /obj/item/reagent_containers/glass/bottle/poison
-			beltr = /obj/item/weapon/knife/dagger/steel/pestrasickle
-			beltl = /obj/item/weapon/knife/dagger/steel/pestrasickle
-		if(/datum/patron/divine/eora)
-			head = /obj/item/clothing/head/helmet/sallet/eoran
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/eora
-			cloak = /obj/item/clothing/cloak/stabard/templar/eora
-		if(/datum/patron/divine/ravox)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/ravox
-			head = /obj/item/clothing/head/helmet/heavy/necked/ravox
-			cloak = /obj/item/clothing/cloak/stabard/templar/ravox
-			backr = /obj/item/weapon/sword/long/ravox
-		if(/datum/patron/divine/malum)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/malum
-			head = /obj/item/clothing/head/helmet/heavy/necked/malumhelm
-			cloak = /obj/item/clothing/cloak/stabard/templar/malum
-			backr = /obj/item/weapon/hammer/sledgehammer/war/malum
-		if(/datum/patron/divine/abyssor)
-			head = /obj/item/clothing/head/helmet/heavy/necked/abyssor
-			armor = /obj/item/clothing/armor/brigandine/abyssor
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/abyssor
-			cloak = /obj/item/clothing/cloak/stabard/templar/abyssor
-		if(/datum/patron/divine/xylix)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/xylix
-			head = /obj/item/clothing/head/helmet/heavy/necked/xylix
-			cloak = /obj/item/clothing/cloak/stabard/templar/xylix
-			beltl = /obj/item/weapon/whip/xylix
+			beltr = /obj/item/weapon/knife/dagger/steel/erdlsickle
+			beltl = /obj/item/weapon/knife/dagger/steel/erdlsickle
+		if(/datum/patron/divine/pomette)
+			head = /obj/item/clothing/head/helmet/sallet/pomettic
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/pomette
+			cloak = /obj/item/clothing/cloak/stabard/templar/pomette
+		if(/datum/patron/divine/mordsol)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/mordsol
+			head = /obj/item/clothing/head/helmet/heavy/necked/mordsol
+			cloak = /obj/item/clothing/cloak/stabard/templar/mordsol
+			backr = /obj/item/weapon/sword/long/mordsol
+		if(/datum/patron/divine/golerkanh)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/golerkanh
+			head = /obj/item/clothing/head/helmet/heavy/necked/golerkanhhelm
+			cloak = /obj/item/clothing/cloak/stabard/templar/golerkanh
+			backr = /obj/item/weapon/hammer/sledgehammer/war/golerkanh
+		if(/datum/patron/divine/mjallidhorn)
+			head = /obj/item/clothing/head/helmet/heavy/necked/mjallidhorn
+			armor = /obj/item/clothing/armor/brigandine/mjallidhorn
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
+			cloak = /obj/item/clothing/cloak/stabard/templar/mjallidhorn
+		if(/datum/patron/divine/iliope)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/iliope
+			head = /obj/item/clothing/head/helmet/heavy/necked/iliope
+			cloak = /obj/item/clothing/cloak/stabard/templar/iliope
+			beltl = /obj/item/weapon/whip/iliope

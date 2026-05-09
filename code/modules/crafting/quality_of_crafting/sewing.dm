@@ -836,8 +836,8 @@
 	craftdiff = 3
 	category = "Cloak"
 
-/datum/repeatable_crafting_recipe/sewing/psydon_tabbard
-	name = "psydonic tababrd"
+/datum/repeatable_crafting_recipe/sewing/angros_tabbard
+	name = "unsundered tababrd"
 	output = /obj/item/clothing/cloak/tabard/adept
 	requirements = list(/obj/item/natural/cloth = 2,
 				/obj/item/natural/fibers = 1)
@@ -897,17 +897,17 @@
 	craftdiff = 3
 	category = "Cloak"
 
-/datum/repeatable_crafting_recipe/sewing/astratatemplar
+/datum/repeatable_crafting_recipe/sewing/visirestemplar
 	name = "solar surcoat"
-	output = /obj/item/clothing/cloak/stabard/templar/astrata
+	output = /obj/item/clothing/cloak/stabard/templar/visires
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3
 	category = "Cloak"
 
-/datum/repeatable_crafting_recipe/sewing/astratatemplar/alt
+/datum/repeatable_crafting_recipe/sewing/visirestemplar/alt
 	name = "solar surcoat (alt)"
-	output =  /obj/item/clothing/cloak/stabard/templar/astrata/alt
+	output =  /obj/item/clothing/cloak/stabard/templar/visires/alt
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3
@@ -929,25 +929,25 @@
 	craftdiff = 3
 	category = "Cloak"
 
-/datum/repeatable_crafting_recipe/sewing/necratemplar
-	name = "necran surcoat"
-	output = /obj/item/clothing/cloak/stabard/templar/necra
+/datum/repeatable_crafting_recipe/sewing/valdalatemplar
+	name = "valdalan surcoat"
+	output = /obj/item/clothing/cloak/stabard/templar/valdala
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3
 	category = "Cloak"
 
-/datum/repeatable_crafting_recipe/sewing/necratemplar/alt
-	name = "necran surcoat (alt)"
-	output = /obj/item/clothing/cloak/stabard/templar/necra/alt
+/datum/repeatable_crafting_recipe/sewing/valdalatemplar/alt
+	name = "valdalan surcoat (alt)"
+	output = /obj/item/clothing/cloak/stabard/templar/valdala/alt
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3
 	category = "Cloak"
 
-/datum/repeatable_crafting_recipe/sewing/dendortemplar
-	name = "dendorian surcoat"
-	output = /obj/item/clothing/cloak/stabard/templar/dendor
+/datum/repeatable_crafting_recipe/sewing/ganitemplar
+	name = "earthen surcoat"
+	output = /obj/item/clothing/cloak/stabard/templar/gani
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3
@@ -955,7 +955,7 @@
 
 /datum/repeatable_crafting_recipe/sewing/noctemplar
 	name = "lunar surcoat"
-	output = /obj/item/clothing/cloak/stabard/templar/noc
+	output = /obj/item/clothing/cloak/stabard/templar/akan
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3
@@ -963,64 +963,64 @@
 
 /datum/repeatable_crafting_recipe/sewing/noctemplar/alt
 	name = "lunar surcoat (alt)"
-	output = /obj/item/clothing/cloak/stabard/templar/noc/alt
+	output = /obj/item/clothing/cloak/stabard/templar/akan/alt
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3
 	category = "Cloak"
 
-/datum/repeatable_crafting_recipe/sewing/ravoxtemplar
-	name = "ravox surcoat (alt)"
-	output = /obj/item/clothing/cloak/stabard/templar/ravox
+/datum/repeatable_crafting_recipe/sewing/mordsoltemplar
+	name = "mordsol surcoat (alt)"
+	output = /obj/item/clothing/cloak/stabard/templar/mordsol
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3
 	category = "Cloak"
 
 
-/datum/repeatable_crafting_recipe/sewing/abyssortemplar
+/datum/repeatable_crafting_recipe/sewing/mjallidhorntemplar
 	name = "abyssal surcoat"
-	output = /obj/item/clothing/cloak/stabard/templar/abyssor
+	output = /obj/item/clothing/cloak/stabard/templar/mjallidhorn
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3
 	category = "Cloak"
 
-/datum/repeatable_crafting_recipe/sewing/abyssortemplar/alt
+/datum/repeatable_crafting_recipe/sewing/mjallidhorntemplar/alt
 	name = "abyssal surcoat(alt)"
-	output = /obj/item/clothing/cloak/stabard/templar/abyssor/alt
+	output = /obj/item/clothing/cloak/stabard/templar/mjallidhorn/alt
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3
 	category = "Cloak"
 
-/datum/repeatable_crafting_recipe/sewing/malumtemplar
-	name = "malumite surcoat"
-	output = /obj/item/clothing/cloak/stabard/templar/malum
+/datum/repeatable_crafting_recipe/sewing/golerkanhtemplar
+	name = "kanhite surcoat"
+	output = /obj/item/clothing/cloak/stabard/templar/golerkanh
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3
 	category = "Cloak"
 
-/datum/repeatable_crafting_recipe/sewing/eoratemplar
-	name = "eoran surcoat"
-	output = /obj/item/clothing/cloak/stabard/templar/eora
+/datum/repeatable_crafting_recipe/sewing/pomettetemplar
+	name = "pomettic surcoat"
+	output = /obj/item/clothing/cloak/stabard/templar/pomette
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3
 	category = "Cloak"
 
-/datum/repeatable_crafting_recipe/sewing/pestratemplar
-	name = "pestran surcoat"
-	output = /obj/item/clothing/cloak/stabard/templar/pestra
+/datum/repeatable_crafting_recipe/sewing/erdltemplar
+	name = "erdite surcoat"
+	output = /obj/item/clothing/cloak/stabard/templar/erdl
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3
 	category = "Cloak"
 
-/datum/repeatable_crafting_recipe/sewing/xylixtemplar
-	name = "xylixian surcoat"
-	output = /obj/item/clothing/cloak/stabard/templar/xylix
+/datum/repeatable_crafting_recipe/sewing/iliopetemplar
+	name = "fools surcoat"
+	output = /obj/item/clothing/cloak/stabard/templar/iliope
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 3
@@ -1457,9 +1457,9 @@
 	category = "Mask"
 
 // Templar Tabards
-/datum/repeatable_crafting_recipe/sewing/astratan_tabard
-	name = "astratan tabard"
-	output = /obj/item/clothing/cloak/templar/astratan
+/datum/repeatable_crafting_recipe/sewing/visires_tabard
+	name = "visires tabard"
+	output = /obj/item/clothing/cloak/templar/visires
 	requirements = list(
 		/obj/item/natural/cloth = 2,
 		/obj/item/natural/fibers = 1
@@ -1467,9 +1467,9 @@
 	craftdiff = 1
 	category = "Tabard"
 
-/datum/repeatable_crafting_recipe/sewing/malumite_tabard
-	name = "tabard of malum"
-	output = /obj/item/clothing/cloak/templar/malumite
+/datum/repeatable_crafting_recipe/sewing/kanhite_tabard
+	name = "tabard of goler kanh"
+	output = /obj/item/clothing/cloak/templar/golerkanh
 	requirements = list(
 		/obj/item/natural/cloth = 2,
 		/obj/item/natural/fibers = 1
@@ -1477,9 +1477,9 @@
 	craftdiff = 1
 	category = "Tabard"
 
-/datum/repeatable_crafting_recipe/sewing/necran_tabard
-	name = "necran tabard"
-	output = /obj/item/clothing/cloak/templar/necran
+/datum/repeatable_crafting_recipe/sewing/valdalan_tabard
+	name = "valdalan tabard"
+	output = /obj/item/clothing/cloak/templar/valdalan
 	requirements = list(
 		/obj/item/natural/cloth = 2,
 		/obj/item/natural/fibers = 1
@@ -1487,9 +1487,9 @@
 	craftdiff = 1
 	category = "Tabard"
 
-/datum/repeatable_crafting_recipe/sewing/pestran_tabard
-	name = "pestran tabard"
-	output = /obj/item/clothing/cloak/templar/pestran
+/datum/repeatable_crafting_recipe/sewing/erdln_tabard
+	name = "erdite tabard"
+	output = /obj/item/clothing/cloak/templar/erdite
 	requirements = list(
 		/obj/item/natural/cloth = 2,
 		/obj/item/natural/fibers = 1
@@ -1497,9 +1497,9 @@
 	craftdiff = 1
 	category = "Tabard"
 
-/datum/repeatable_crafting_recipe/sewing/eoran_tabard
-	name = "eoran tabard"
-	output = /obj/item/clothing/cloak/templar/eoran
+/datum/repeatable_crafting_recipe/sewing/pomettic_tabard
+	name = "pomettic tabard"
+	output = /obj/item/clothing/cloak/templar/pomettic
 	requirements = list(
 		/obj/item/natural/cloth = 2,
 		/obj/item/natural/fibers = 1
@@ -1507,9 +1507,9 @@
 	craftdiff = 1
 	category = "Tabard"
 
-/datum/repeatable_crafting_recipe/sewing/xylixian_cloak
-	name = "xylixian cloak"
-	output = /obj/item/clothing/cloak/templar/xylixian
+/datum/repeatable_crafting_recipe/sewing/fools_cloak
+	name = "fools cloak"
+	output = /obj/item/clothing/cloak/templar/iliope
 	requirements = list(
 		/obj/item/natural/cloth = 3,
 		/obj/item/natural/fibers = 1
@@ -1528,9 +1528,9 @@
 	category = "Tabard"
 
 // Detailed Tabards
-/datum/repeatable_crafting_recipe/sewing/eora_tabard
-	name = "eora tabard"
-	output = /obj/item/clothing/cloak/templar/eora
+/datum/repeatable_crafting_recipe/sewing/pomette_tabard
+	name = "pomette tabard"
+	output = /obj/item/clothing/cloak/templar/pomette
 	requirements = list(
 		/obj/item/natural/cloth = 2,
 		/obj/item/natural/fibers = 1
@@ -1538,9 +1538,9 @@
 	craftdiff = 1
 	category = "Tabard"
 
-/datum/repeatable_crafting_recipe/sewing/pestra_tabard
-	name = "pestra tabard"
-	output = /obj/item/clothing/cloak/templar/pestra
+/datum/repeatable_crafting_recipe/sewing/erdl_tabard
+	name = "erdl tabard"
+	output = /obj/item/clothing/cloak/templar/erdl
 	requirements = list(
 		/obj/item/natural/cloth = 2,
 		/obj/item/natural/fibers = 1
@@ -1548,9 +1548,9 @@
 	craftdiff = 1
 	category = "Tabard"
 
-/datum/repeatable_crafting_recipe/sewing/ravox_tabard
-	name = "ravox tabard"
-	output = /obj/item/clothing/cloak/ravox
+/datum/repeatable_crafting_recipe/sewing/mordsol_tabard
+	name = "mordsol tabard"
+	output = /obj/item/clothing/cloak/mordsol
 	requirements = list(
 		/obj/item/natural/cloth = 2,
 		/obj/item/natural/fibers = 1
@@ -1558,9 +1558,9 @@
 	craftdiff = 1
 	category = "Tabard"
 
-/datum/repeatable_crafting_recipe/sewing/xylix_tabard
-	name = "xylix tabard"
-	output = /obj/item/clothing/cloak/templar/xylix
+/datum/repeatable_crafting_recipe/sewing/iliope_tabard
+	name = "fools tabard"
+	output = /obj/item/clothing/cloak/templar/iliope
 	requirements = list(
 		/obj/item/natural/cloth = 2,
 		/obj/item/natural/fibers = 1
@@ -1600,9 +1600,9 @@
 	craftdiff = 1
 	category = "Cloak"
 
-/datum/repeatable_crafting_recipe/sewing/graggar_cloak
+/datum/repeatable_crafting_recipe/sewing/archdevils_cloak
 	name = "vicious cloak"
-	output = /obj/item/clothing/cloak/graggar
+	output = /obj/item/clothing/cloak/archdevils
 	requirements = list(
 		/obj/item/natural/cloth = 2,
 		/obj/item/natural/hide/cured = 1
@@ -1716,7 +1716,7 @@
 	category = "Accessories"
 
 /datum/repeatable_crafting_recipe/sewing/psy_sack
-	name = "psydonian sack mask"
+	name = "angrosian sack mask"
 	output = /obj/item/clothing/face/sack/psy
 	requirements = list(
 		/obj/item/natural/cloth = 4,
@@ -1787,16 +1787,16 @@
 	craftdiff = 2
 
 /datum/repeatable_crafting_recipe/sewing/caparison/psy
-	name = "psydonite caparison"
+	name = "angrosian caparison"
 	output =/obj/item/caparison/psy
 
-/datum/repeatable_crafting_recipe/sewing/caparison/astrata
-	name = "astratan caparison"
-	output =/obj/item/caparison/astrata
+/datum/repeatable_crafting_recipe/sewing/caparison/visires
+	name = "visires caparison"
+	output =/obj/item/caparison/visires
 
-/datum/repeatable_crafting_recipe/sewing/caparison/eora
-	name = "eoran caparison"
-	output =/obj/item/caparison/eora
+/datum/repeatable_crafting_recipe/sewing/caparison/pomette
+	name = "pomettic caparison"
+	output =/obj/item/caparison/pomette
 
 /datum/repeatable_crafting_recipe/sewing/caparison/honse
 	name = "honse caparison"

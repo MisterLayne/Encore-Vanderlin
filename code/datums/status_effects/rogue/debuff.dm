@@ -417,29 +417,29 @@
 	desc = "With some sleep in a coffin I feel like I could become better."
 	icon_state = "sleepy"
 
-/datum/status_effect/eorapacify
-	id = "eorapacify"
+/datum/status_effect/pomettepacify
+	id = "pomettepacify"
 	status_type = STATUS_EFFECT_REPLACE
 	tick_interval = 1
 	duration = 85
 	alert_type = null
 
-/datum/status_effect/eorapacify/on_apply()
+/datum/status_effect/pomettepacify/on_apply()
 	ADD_TRAIT(owner, TRAIT_PACIFISM, "[type]")
 	return ..()
 
-/datum/status_effect/eorapacify/on_remove()
+/datum/status_effect/pomettepacify/on_remove()
 	REMOVE_TRAIT(owner, TRAIT_PACIFISM, "[type]")
 	return ..()
 
-/datum/status_effect/debuff/eoradrunk
-	id = "eoradrunk"
+/datum/status_effect/debuff/pomettedrunk
+	id = "pomettedrunk"
 	alert_type = /atom/movable/screen/alert/status_effect/debuff/drunk
 	effectedstats = list(STAT_STRENGTH = -2, STAT_FORTUNE = -5, STAT_PERCEPTION = -2, STAT_SPEED = -3) //debuff stats important in attacking
 	duration = 20 SECONDS
 
 /atom/movable/screen/alert/status_effect/debuff/drunk
-	name = "Eoran Wine"
+	name = "Pomettic Wine"
 	desc = span_warning("I am intoxicated from ambrosia not meant for mortal mouths.\n")
 	icon_state = "drunk"
 
@@ -466,14 +466,14 @@
 	desc = "A putrid rotting scent fills your nose as Archdevil's call for slaughter rattles you to your core..."
 	icon_state = "call_to_slaughter"
 
-/datum/status_effect/debuff/baothadruqks
-	id = "baothadruqks"
-	alert_type = /atom/movable/screen/alert/status_effect/debuff/baothadruqks
+/datum/status_effect/debuff/hertanneadruqks
+	id = "hertanneadruqks"
+	alert_type = /atom/movable/screen/alert/status_effect/debuff/hertanneadruqks
 	effectedstats = list(STAT_PERCEPTION = -2, STAT_SPEED = -1, STAT_FORTUNE = -5)
 	duration = 20 SECONDS
 
-/atom/movable/screen/alert/status_effect/debuff/baothadruqks
-	name = "Baothan Dust"
+/atom/movable/screen/alert/status_effect/debuff/hertanneadruqks
+	name = "Hertannean Dust"
 	desc = span_warning("Someone blew some powders at me...\n")
 	icon_state = "drunk"
 
@@ -600,7 +600,7 @@
 
 /atom/movable/screen/alert/status_effect/debuff/cursed
 	name = "Cursed"
-	desc = "Necra has punished me by my blasphemous deeds with terribly bad luck."
+	desc = "Valdala has punished me by my blasphemous deeds with terribly bad luck."
 	icon_state = "debuff"
 
 /datum/status_effect/debuff/black_briar1

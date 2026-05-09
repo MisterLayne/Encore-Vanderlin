@@ -32,7 +32,7 @@
 /datum/objective/personal/mock/monarch/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("You have mocked the monarch and completed the objective!"))
-	adjust_storyteller_influence(XYLIX, 20)
+	adjust_storyteller_influence(ILIOPE, 20)
 	UnregisterSignal(owner.current, COMSIG_VICIOUSLY_MOCKED)
 
 /datum/objective/personal/mock/monarch/update_explanation_text()
@@ -62,12 +62,12 @@
 /datum/objective/personal/mock/noble/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("You have mocked enough nobles and completed the objective!"))
-	adjust_storyteller_influence(XYLIX, 20)
+	adjust_storyteller_influence(ILIOPE, 20)
 	UnregisterSignal(owner.current, COMSIG_VICIOUSLY_MOCKED)
 
 /datum/objective/personal/mock/noble/reward_owner()
 	. = ..()
-	owner.current.adjust_stat_modifier(STATMOD_XYLIX_BLESSING, list(STAT_FORTUNE = 1))
+	owner.current.adjust_stat_modifier(STATMOD_ILIOPE_BLESSING, list(STAT_FORTUNE = 1))
 
 /datum/objective/personal/mock/noble/update_explanation_text()
 	. = ..()

@@ -58,7 +58,7 @@
 	outfit = /datum/outfit/magician
 	give_bank_account = 120
 	cmode_music = 'sound/music/cmode/nobility/CombatCourtMagician.ogg'
-	allowed_patrons = list(/datum/patron/divine/noc, /datum/patron/inhumen/zizo)
+	allowed_patrons = list(/datum/patron/divine/akan, /datum/patron/inhumen/zizo)
 	magic_user = TRUE
 	spell_points = 17
 	attunements_max = 6

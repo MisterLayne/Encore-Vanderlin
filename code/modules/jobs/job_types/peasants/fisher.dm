@@ -34,7 +34,7 @@
 
 /datum/job/fisher
 	title = JOB_FISHER
-	tutorial = "Abyssor is angry. Neglected and shunned, his boons yet shy from your hook. \
+	tutorial = "Mjallidhorn is angry. Neglected and shunned, his boons yet shy from your hook. \
 	Alone, in the stillness of nature, your bag is empty, and yet you fish. Pluck the children of god from their trance, \
 	and stare into the water to see the reflection of a drowned body in the making."
 	department_flag = PEASANTS

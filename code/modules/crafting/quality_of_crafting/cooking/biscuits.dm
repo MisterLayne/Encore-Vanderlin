@@ -145,8 +145,8 @@
 	crafting_sound = 'sound/foley/dropsound/gen_drop.ogg'
 	extra_chance = 100
 
-/datum/repeatable_crafting_recipe/cooking/xylixbun
-	name = "Xylixbun"
+/datum/repeatable_crafting_recipe/cooking/iliopebun
+	name = "Iliope's bun"
 	hides_from_books = TRUE //The forbidden bun.
 
 	requirements = list(
@@ -156,7 +156,7 @@
 	attacked_atom = /obj/item/reagent_containers/food/snacks/dough_slice
 	starting_atom = /obj/item/reagent_containers/food/snacks/produce/mushroom/drowsbane
 	allow_inverse_start = TRUE
-	output = /obj/item/reagent_containers/food/snacks/foodbase/xylixbun_raw
+	output = /obj/item/reagent_containers/food/snacks/foodbase/iliopebun_raw
 	craft_time = 6 SECONDS
 	crafting_sound = 'sound/foley/dropsound/gen_drop.ogg'
 	extra_chance = 100

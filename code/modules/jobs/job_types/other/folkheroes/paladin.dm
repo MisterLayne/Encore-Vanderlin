@@ -51,31 +51,31 @@
 	spawned.virginity = TRUE
 
 	switch(spawned.patron?.type)
-		if(/datum/patron/psydon, /datum/patron/psydon/extremist)
+		if(/datum/patron/angros, /datum/patron/angros/extremist)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatInquisitor.ogg'
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/paladin/extremist)
-			spawned.grant_language(/datum/language/newpsydonic)
-			ADD_TRAIT(spawned, TRAIT_PSYDONIAN_GRIT, JOB_TRAIT)
-		if(/datum/patron/divine/astrata)
+			spawned.grant_language(/datum/language/newunsundered)
+			ADD_TRAIT(spawned, TRAIT_ANGROSIAN_GRIT, JOB_TRAIT)
+		if(/datum/patron/divine/visires)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAstrata.ogg'
-		if(/datum/patron/divine/noc)
+		if(/datum/patron/divine/akan)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatNoc.ogg'
-		if(/datum/patron/divine/dendor)
+		if(/datum/patron/divine/gani)
 			spawned.cmode_music = 'sound/music/cmode/garrison/CombatForestGarrison2.ogg'
-		if(/datum/patron/divine/abyssor)
+		if(/datum/patron/divine/mjallidhorn)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAbyssor.ogg'
-		if(/datum/patron/divine/necra)
+		if(/datum/patron/divine/valdala)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatGravekeeper.ogg'
 			ADD_TRAIT(spawned, TRAIT_GRAVEROBBER, JOB_TRAIT)
-		if(/datum/patron/divine/ravox)
+		if(/datum/patron/divine/mordsol)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatRavox.ogg'
-		if(/datum/patron/divine/xylix)
+		if(/datum/patron/divine/iliope)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatXylix.ogg'
-		if(/datum/patron/divine/pestra)
+		if(/datum/patron/divine/erdl)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
-		if(/datum/patron/divine/malum)
+		if(/datum/patron/divine/golerkanh)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatOutlander2.ogg'
-		if(/datum/patron/divine/eora)
+		if(/datum/patron/divine/pomette)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatEora.ogg'
 			spawned.virginity = FALSE
 			ADD_TRAIT(spawned, TRAIT_BEAUTIFUL, JOB_TRAIT)
@@ -116,36 +116,36 @@
 	. = ..()
 
 	switch(H.patron?.type)
-		if(/datum/patron/psydon, /datum/patron/psydon/extremist)
+		if(/datum/patron/angros, /datum/patron/angros/extremist)
 			head = /obj/item/clothing/head/helmet/heavy/bucket/gold
 			wrists = /obj/item/clothing/neck/psycross/gold
-		if(/datum/patron/divine/astrata)
-			head = /obj/item/clothing/head/helmet/heavy/necked/astrata
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/astrata
-		if(/datum/patron/divine/noc)
-			head = /obj/item/clothing/head/helmet/heavy/necked/noc
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/noc
-		if(/datum/patron/divine/dendor)
-			head = /obj/item/clothing/head/helmet/heavy/necked/dendorhelm
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/dendor
-		if(/datum/patron/divine/abyssor)
-			head = /obj/item/clothing/head/helmet/heavy/necked/abyssor
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/abyssor
-		if(/datum/patron/divine/necra)
-			head = /obj/item/clothing/head/helmet/heavy/necked/necra
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/necra
-		if(/datum/patron/divine/ravox)
-			head = /obj/item/clothing/head/helmet/heavy/necked/ravox
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/ravox
-		if(/datum/patron/divine/xylix)
-			head = /obj/item/clothing/head/helmet/heavy/necked/xylix
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/xylix
-		if(/datum/patron/divine/pestra)
-			head = /obj/item/clothing/head/helmet/heavy/necked/pestrahelm
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/pestra
-		if(/datum/patron/divine/malum)
-			head = /obj/item/clothing/head/helmet/heavy/necked/malumhelm
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/malum
-		if(/datum/patron/divine/eora)
-			head = /obj/item/clothing/head/helmet/sallet/eoran
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/eora
+		if(/datum/patron/divine/visires)
+			head = /obj/item/clothing/head/helmet/heavy/necked/visires
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/visires
+		if(/datum/patron/divine/akan)
+			head = /obj/item/clothing/head/helmet/heavy/necked/akan
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/akan
+		if(/datum/patron/divine/gani)
+			head = /obj/item/clothing/head/helmet/heavy/necked/ganihelm
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/gani
+		if(/datum/patron/divine/mjallidhorn)
+			head = /obj/item/clothing/head/helmet/heavy/necked/mjallidhorn
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
+		if(/datum/patron/divine/valdala)
+			head = /obj/item/clothing/head/helmet/heavy/necked/valdala
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/valdala
+		if(/datum/patron/divine/mordsol)
+			head = /obj/item/clothing/head/helmet/heavy/necked/mordsol
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/mordsol
+		if(/datum/patron/divine/iliope)
+			head = /obj/item/clothing/head/helmet/heavy/necked/iliope
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/iliope
+		if(/datum/patron/divine/erdl)
+			head = /obj/item/clothing/head/helmet/heavy/necked/erdlhelm
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/erdl
+		if(/datum/patron/divine/golerkanh)
+			head = /obj/item/clothing/head/helmet/heavy/necked/golerkanhhelm
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/golerkanh
+		if(/datum/patron/divine/pomette)
+			head = /obj/item/clothing/head/helmet/sallet/pomettic
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/pomette

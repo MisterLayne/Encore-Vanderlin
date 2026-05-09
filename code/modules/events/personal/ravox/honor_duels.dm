@@ -1,18 +1,18 @@
-/datum/round_event_control/ravox_duel
+/datum/round_event_control/mordsol_duel
 	name = "Honor Duels"
 	track = EVENT_TRACK_PERSONAL
-	typepath = /datum/round_event/ravox_duel
+	typepath = /datum/round_event/mordsol_duel
 	weight = 7
 	earliest_start = 10 MINUTES
 	max_occurrences = 1
 	min_players = 30
 
 	tags = list(
-		TAG_RAVOX,
+		TAG_MORDSOL,
 		TAG_BATTLE,
 	)
 
-/datum/round_event_control/ravox_duel/canSpawnEvent(players_amt, gamemode, fake_check)
+/datum/round_event_control/mordsol_duel/canSpawnEvent(players_amt, gamemode, fake_check)
 	. = ..()
 	if(!.)
 		return FALSE
@@ -20,19 +20,19 @@
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(!istype(H) || H.stat == DEAD || !H.client)
 			continue
-		if(!H.patron || !istype(H.patron, /datum/patron/divine/ravox))
+		if(!H.patron || !istype(H.patron, /datum/patron/divine/mordsol))
 			continue
 		return TRUE
 
 	return FALSE
 
-/datum/round_event/ravox_duel/start()
+/datum/round_event/mordsol_duel/start()
 	var/list/valid_targets = list()
 
 	for(var/mob/living/carbon/human/human_mob in GLOB.player_list)
 		if(!istype(human_mob) || human_mob.stat == DEAD || !human_mob.client)
 			continue
-		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/divine/ravox))
+		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/divine/mordsol))
 			continue
 		valid_targets += human_mob
 
@@ -41,11 +41,11 @@
 
 	var/mob/living/carbon/human/chosen_one = pick(valid_targets)
 
-	var/datum/objective/personal/ravox_duel/new_objective = new(owner = chosen_one.mind)
+	var/datum/objective/personal/mordsol_duel/new_objective = new(owner = chosen_one.mind)
 	chosen_one.mind.add_personal_objective(new_objective)
 
 	bordered_message(chosen_one, list(
-		span_userdanger("YOU ARE RAVOX'S CHOSEN!"),
+		span_userdanger("YOU ARE MORDSOL'S CHOSEN!"),
 		span_notice("Mordsol wants you to challenge others to honor duels! Win [new_objective.duels_required] duel\s to prove your worth! Duels end when a fighter yields or is knocked unconscious."),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/vo/male/knight/rage (6).ogg', 70)

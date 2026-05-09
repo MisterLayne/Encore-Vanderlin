@@ -1,8 +1,8 @@
 /datum/round_event_control/antagonist/solo/rebel
 	name = "Rebels"
 	tags = list(
-		TAG_ASTRATA,
-		TAG_MATTHIOS,
+		TAG_VISIRES,
+		TAG_DECEIVERS,
 		TAG_COMBAT,
 		TAG_VILLAIN,
 	)

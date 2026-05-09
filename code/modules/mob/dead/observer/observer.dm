@@ -682,7 +682,7 @@ This is the proc mobs get to turn into a ghost. Forked from ghostize due to comp
 		var/list/views = list()
 		for(var/i in 7 to max_view)
 			views |= i
-		var/new_view = browser_input_list(src, "Choose your new view", "EYES OF NOC", views)
+		var/new_view = browser_input_list(src, "Choose your new view", "EYES OF AKAN", views)
 		if(new_view)
 			client.view_size.setTo(clamp(new_view, 7, max_view) - 7)
 	else

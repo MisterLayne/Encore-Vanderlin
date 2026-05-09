@@ -40,7 +40,7 @@
 //	stat_attack = UNCONSCIOUS
 	remains_type = /obj/effect/decal/remains/troll // Placeholder until Troll remains are sprited.
 	body_eater = TRUE
-	dendor_taming_chance = DENDOR_TAME_PROB_NONE
+	gani_taming_chance = GANI_TAME_PROB_NONE
 
 	ai_controller = /datum/ai_controller/zizoid
 

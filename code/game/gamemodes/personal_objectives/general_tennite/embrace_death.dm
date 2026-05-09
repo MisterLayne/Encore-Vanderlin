@@ -14,7 +14,7 @@
 
 /datum/objective/personal/embrace_death/complete_objective()
 	. = ..()
-	adjust_storyteller_influence(NECRA, 20)
+	adjust_storyteller_influence(VALDALA, 20)
 
 /datum/objective/personal/embrace_death/update_explanation_text()
 	explanation_text = "Your time has come. Embrace death through Valdala's gift to achieve final rest and secure your soul."

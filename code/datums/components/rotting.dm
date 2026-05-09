@@ -37,8 +37,8 @@
 /datum/component/rot/corpse/process()
 	var/time_elapsed = last_process ? (world.time - last_process)/10 : 1
 	..()
-	if(has_world_trait(/datum/world_trait/pestra_mercy))
-		amount -= (is_ascendant(PESTRA) ? 2.5 : 5) * time_elapsed
+	if(has_world_trait(/datum/world_trait/erdl_mercy))
+		amount -= (is_ascendant(ERDL) ? 2.5 : 5) * time_elapsed
 
 	var/mob/living/carbon/C = parent
 	var/is_zombie
@@ -84,7 +84,7 @@
 					findonerotten = TRUE
 	if(findonerotten)
 		var/turf/open/T = C.loc
-		if(istype(T) && amount < 16 MINUTES && !(FACTION_MATTHIOS in C.faction))
+		if(istype(T) && amount < 16 MINUTES && !(FACTION_DECEIVERS in C.faction))
 			T.pollute_turf(/datum/pollutant/rot, 9)
 			if(soundloop && soundloop.stopped && !is_zombie)
 				soundloop.start()
@@ -117,7 +117,7 @@
 		if(soundloop && soundloop.stopped)
 			soundloop.start()
 		var/turf/open/T = get_turf(L)
-		if(istype(T)  && amount < 16 MINUTES && !(FACTION_MATTHIOS in L.faction))
+		if(istype(T)  && amount < 16 MINUTES && !(FACTION_DECEIVERS in L.faction))
 			T.pollute_turf(/datum/pollutant/rot, 9)
 	if(amount > 20 MINUTES)
 		qdel(R)

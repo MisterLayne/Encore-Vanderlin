@@ -33,7 +33,7 @@
 /datum/objective/personal/proper_burial/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("You have consecrated enough graves to earn Valdala's approval!"))
-	adjust_storyteller_influence(NECRA, 20)
+	adjust_storyteller_influence(VALDALA, 20)
 	UnregisterSignal(owner.current, COMSIG_GRAVE_CONSECRATED)
 
 /datum/objective/personal/proper_burial/reward_owner()

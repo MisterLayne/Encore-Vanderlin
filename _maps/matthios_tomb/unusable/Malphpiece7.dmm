@@ -49,7 +49,6 @@
 /area/under/tomb/sewer)
 "x" = (
 /obj/item/weapon/shield/tower,
-/obj/item/clothing/cloak/stabard/templar/dendor,
 /obj/item/weapon/mace/goden/shillelagh,
 /obj/effect/decal/remains/human,
 /turf/open/floor/blocks/paving,

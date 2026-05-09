@@ -312,7 +312,7 @@
 	icon_state = "map_kingsfield"
 	desc = "A table displaying a map of the capital of Kingsfield."
 
-/obj/structure/table/map/baotha
+/obj/structure/table/map/hertannea
 	icon_state = "map_baotha"
 	desc = "A table displaying the lands surrounding the fallen kingdom of Azuria, doomed to ash."
 

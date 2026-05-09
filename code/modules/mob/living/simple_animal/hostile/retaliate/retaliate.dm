@@ -54,7 +54,7 @@
 	var/summon_primer = null
 
 	//taming vars
-	var/dendor_taming_chance = DENDOR_TAME_PROB_GURANTEED
+	var/gani_taming_chance = GANI_TAME_PROB_GURANTEED
 
 /mob/living/simple_animal/hostile/retaliate/Move()
 	//If you cant act and dont have a player stop moving.

@@ -30,7 +30,7 @@
 
 	aggressive = 0
 	ai_controller = /datum/ai_controller/agriopylon
-	dendor_taming_chance = DENDOR_TAME_PROB_NONE
+	gani_taming_chance = GANI_TAME_PROB_NONE
 	del_on_death = TRUE
 
 	var/current_color

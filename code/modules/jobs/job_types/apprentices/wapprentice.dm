@@ -51,7 +51,7 @@
 	allowed_races = RACES_PLAYER_ALL
 	allowed_ages = list(AGE_CHILD, AGE_ADULT)
 	allowed_sexes = list(MALE, FEMALE)
-	allowed_patrons = list(/datum/patron/divine/noc, /datum/patron/inhumen/zizo)
+	allowed_patrons = list(/datum/patron/divine/akan, /datum/patron/inhumen/zizo)
 
 	outfit = /datum/outfit/mageapprentice
 

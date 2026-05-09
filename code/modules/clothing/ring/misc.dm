@@ -236,24 +236,24 @@
 	REMOVE_TRAIT(wearer, TRAIT_ANTIMAGIC,"[REF(src)]")
 	REMOVE_TRAIT(wearer, TRAIT_SHOCKIMMUNE,"[REF(src)]")
 
-/obj/item/clothing/ring/gold/ravox
-	name = "ring of ravox"
+/obj/item/clothing/ring/gold/mordsol
+	name = "ring of mordsol"
 	desc = "Old ring, inscribed with arcyne words. Just being near it imbues you with otherworldly strength."
 	icon_state = "ring_ravox"
 
-/obj/item/clothing/ring/gold/ravox/equipped(mob/living/user, slot)
+/obj/item/clothing/ring/gold/mordsol/equipped(mob/living/user, slot)
 	. = ..()
 	if(user.mind)
 		if((slot & ITEM_SLOT_RING) && istype(user))
 			RegisterSignal(user, COMSIG_MOB_UNEQUIPPED_ITEM, PROC_REF(item_removed))
-			user.apply_status_effect(/datum/status_effect/buff/ravox)
+			user.apply_status_effect(/datum/status_effect/buff/mordsol)
 
-/obj/item/clothing/ring/gold/ravox/proc/item_removed(mob/living/carbon/wearer, obj/item/dropped_item)
+/obj/item/clothing/ring/gold/mordsol/proc/item_removed(mob/living/carbon/wearer, obj/item/dropped_item)
 	SIGNAL_HANDLER
 	if(dropped_item != src)
 		return
 	UnregisterSignal(wearer, COMSIG_MOB_UNEQUIPPED_ITEM)
-	wearer.remove_status_effect(/datum/status_effect/buff/ravox)
+	wearer.remove_status_effect(/datum/status_effect/buff/mordsol)
 
 /obj/item/clothing/ring/silver/calm
 	name = "soothing ring"
@@ -274,24 +274,24 @@
 	UnregisterSignal(wearer, COMSIG_MOB_UNEQUIPPED_ITEM)
 	wearer.remove_status_effect(/datum/status_effect/buff/calm)
 
-/obj/item/clothing/ring/silver/noc
-	name = "ring of noc"
+/obj/item/clothing/ring/silver/akan
+	name = "ring of akan"
 	desc = "Old ring, inscribed with arcyne words. Just being near it imbues you with otherworldly knowledge."
 	icon_state = "ring_sapphire"
 
-/obj/item/clothing/ring/silver/noc/equipped(mob/living/user, slot)
+/obj/item/clothing/ring/silver/akan/equipped(mob/living/user, slot)
 	. = ..()
 	if(user.mind)
 		if (slot & ITEM_SLOT_RING && istype(user))
 			RegisterSignal(user, COMSIG_MOB_UNEQUIPPED_ITEM, PROC_REF(item_removed))
-			user.apply_status_effect(/datum/status_effect/buff/noc)
+			user.apply_status_effect(/datum/status_effect/buff/akan)
 
-/obj/item/clothing/ring/silver/noc/proc/item_removed(mob/living/carbon/wearer, obj/item/dropped_item)
+/obj/item/clothing/ring/silver/akan/proc/item_removed(mob/living/carbon/wearer, obj/item/dropped_item)
 	SIGNAL_HANDLER
 	if(dropped_item != src)
 		return
 	UnregisterSignal(wearer, COMSIG_MOB_UNEQUIPPED_ITEM)
-	wearer.remove_status_effect(/datum/status_effect/buff/noc)
+	wearer.remove_status_effect(/datum/status_effect/buff/akan)
 
 /obj/item/clothing/ring/dragon_ring
 	name = "dragon ring"
@@ -327,8 +327,8 @@
 	name = "signet ring"
 	icon_state = "signet"
 	icon_state = "signet"
-	desc = "A large golden ring engraved with the Symbol of Psydon."
-	desc = "A large golden signet ring engraved with the Symbol of Psydon."
+	desc = "A large golden ring engraved with the Symbol of Angros."
+	desc = "A large golden signet ring engraved with the Symbol of Angros."
 	sellprice = 135
 	sellprice = 135
 	var/tallowed = FALSE
@@ -362,8 +362,8 @@
 /obj/item/clothing/ring/feldsher_ring
 	name = "feldsher's ring"
 	icon_state = "ring_feldsher"
-	desc = "A hallowed copper ring, ritualistically forged by Pestran clergymen upon the graduation of a feldsher. \
-	\n This ring is proof of Pestra's blessing, in turn allowing the feldsher to extract and manipulate Lux so long as they follow Her teachings"
+	desc = "A hallowed copper ring, ritualistically forged by Erdite clergymen upon the graduation of a feldsher. \
+	\n This ring is proof of Erdl's blessing, in turn allowing the feldsher to extract and manipulate Lux so long as they follow Her teachings"
 
 // ................... The Apothecary's ring .......................
 
@@ -378,7 +378,7 @@
 	if(is_apothecary_job(user.mind.assigned_role))
 		. += span_info("A hefty bloody made out of thaumic iron, proof of my successful graduation. \
 		It doesn't get any easier to wear with time, but at least it proves I'm a confirmed alchemist \
-		and can legally manipulate lux, so long as I follow Pestra's teachings.")
+		and can legally manipulate lux, so long as I follow Erdl's teachings.")
 	else
 		. += "An uncomfortably heavy ring of thaumic iron. Specifically made for apothecaries upon graduation. \n \
-		This gives them the right to both extract and manipulate lux, so long as they follow Pestra's teachings."
+		This gives them the right to both extract and manipulate lux, so long as they follow Erdl's teachings."

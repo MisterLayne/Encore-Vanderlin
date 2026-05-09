@@ -37,67 +37,67 @@
 	. = ..()
 
 	switch(spawned.patron?.type)
-		if(/datum/patron/divine/astrata)
+		if(/datum/patron/divine/visires)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/swords, 40)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAstrata.ogg'
-		if(/datum/patron/divine/noc)
+		if(/datum/patron/divine/akan)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/swords, 40)
 			ADD_TRAIT(spawned, TRAIT_DUALWIELDER, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatNoc.ogg'
-		if(/datum/patron/divine/dendor)
+		if(/datum/patron/divine/gani)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/polearms, 40)
 			spawned.cmode_music = 'sound/music/cmode/garrison/CombatForestGarrison.ogg'
-		if(/datum/patron/divine/necra)
+		if(/datum/patron/divine/valdala)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/whipsflails, 40)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatGravekeeper.ogg'
 			ADD_TRAIT(spawned, TRAIT_GRAVEROBBER, TRAIT_GENERIC)
-		if(/datum/patron/divine/pestra)
+		if(/datum/patron/divine/erdl)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/knives, 40)
 			spawned.adjust_skill_level(/datum/attribute/skill/craft/alchemy, 20)
 			ADD_TRAIT(spawned, TRAIT_DUALWIELDER, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
-		if(/datum/patron/divine/eora)
+		if(/datum/patron/divine/pomette)
 			spawned.virginity = FALSE
 			ADD_TRAIT(spawned, TRAIT_BEAUTIFUL, TRAIT_GENERIC)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/swords, 40)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatEora.ogg'
-		if(/datum/patron/divine/ravox)
+		if(/datum/patron/divine/mordsol)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/swords, 40)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatRavox.ogg'
-		if(/datum/patron/divine/malum)
+		if(/datum/patron/divine/golerkanh)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/axesmaces, 40)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatOutlander2.ogg'
-		if(/datum/patron/divine/abyssor)
+		if(/datum/patron/divine/mjallidhorn)
 			spawned.adjust_skill_level(/datum/attribute/skill/labor/fishing, 10)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/polearms, 40)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAbyssor.ogg'
-		if(/datum/patron/divine/xylix)
+		if(/datum/patron/divine/iliope)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/whipsflails, 40)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatXylix.ogg'
-		if(/datum/patron/inhumen/graggar)
+		if(/datum/patron/inhumen/archdevils)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/axesmaces, 40)
 			ADD_TRAIT(spawned, TRAIT_STRONGBITE, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/antag/combat_werewolf.ogg'
 			ADD_TRAIT(spawned, TRAIT_STRONGBITE, TRAIT_GENERIC)
-		if(/datum/patron/inhumen/graggar_zizo)
+		if(/datum/patron/inhumen/archdevils_zizo)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/axesmaces, 40)
 			spawned.cmode_music = 'sound/music/cmode/antag/combat_werewolf.ogg'
 		if(/datum/patron/inhumen/zizo)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/swords, 40)
 			spawned.cmode_music = 'sound/music/cmode/antag/combat_cult.ogg'
 			spawned.grant_language(/datum/language/undead)
-		if(/datum/patron/inhumen/matthios)
+		if(/datum/patron/inhumen/deceivers)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/whipsflails, 40)
 			spawned.cmode_music = 'sound/music/cmode/antag/CombatBandit1.ogg'
-		if(/datum/patron/inhumen/baotha)
+		if(/datum/patron/inhumen/hertannea)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/knives, 40)
 			spawned.adjust_skill_level(/datum/attribute/skill/craft/alchemy, 20)
 			ADD_TRAIT(spawned, TRAIT_DUALWIELDER, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/antag/CombatBaotha.ogg'
-		if(/datum/patron/psydon,  /datum/patron/psydon/extremist)
+		if(/datum/patron/angros,  /datum/patron/angros/extremist)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/swords, 40)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatInquisitor.ogg'
-			spawned.grant_language(/datum/language/newpsydonic)
+			spawned.grant_language(/datum/language/newunsundered)
 		else
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/swords, 40)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatInquisitor.ogg'
@@ -138,77 +138,77 @@
 	. = ..()
 
 	switch(equipped_human.patron?.type)
-		if(/datum/patron/divine/astrata)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/astrata
-			head = /obj/item/clothing/head/helmet/heavy/necked/astrata
-			cloak = /obj/item/clothing/cloak/stabard/templar/astrata
-			backr = /obj/item/weapon/sword/long/exe/astrata
-		if(/datum/patron/divine/noc)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/noc
-			head = /obj/item/clothing/head/helmet/heavy/necked/noc
-			cloak = /obj/item/clothing/cloak/stabard/templar/noc
-			beltl = /obj/item/weapon/sword/sabre/noc
-		if(/datum/patron/divine/dendor)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/dendor
-			head = /obj/item/clothing/head/helmet/heavy/necked/dendorhelm
-			cloak = /obj/item/clothing/cloak/stabard/templar/dendor
-			backr = /obj/item/weapon/polearm/halberd/bardiche/dendor
-		if(/datum/patron/divine/necra)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/necra
-			head = /obj/item/clothing/head/helmet/heavy/necked/necra
-			cloak = /obj/item/clothing/cloak/stabard/templar/necra
-			beltl = /obj/item/weapon/flail/sflail/necraflail
-		if(/datum/patron/divine/pestra)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/pestra
-			head = /obj/item/clothing/head/helmet/heavy/necked/pestrahelm
-			cloak = /obj/item/clothing/cloak/stabard/templar/pestra
+		if(/datum/patron/divine/visires)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/visires
+			head = /obj/item/clothing/head/helmet/heavy/necked/visires
+			cloak = /obj/item/clothing/cloak/stabard/templar/visires
+			backr = /obj/item/weapon/sword/long/exe/visires
+		if(/datum/patron/divine/akan)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/akan
+			head = /obj/item/clothing/head/helmet/heavy/necked/akan
+			cloak = /obj/item/clothing/cloak/stabard/templar/akan
+			beltl = /obj/item/weapon/sword/sabre/akan
+		if(/datum/patron/divine/gani)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/gani
+			head = /obj/item/clothing/head/helmet/heavy/necked/ganihelm
+			cloak = /obj/item/clothing/cloak/stabard/templar/gani
+			backr = /obj/item/weapon/polearm/halberd/bardiche/gani
+		if(/datum/patron/divine/valdala)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/valdala
+			head = /obj/item/clothing/head/helmet/heavy/necked/valdala
+			cloak = /obj/item/clothing/cloak/stabard/templar/valdala
+			beltl = /obj/item/weapon/flail/sflail/valdalaflail
+		if(/datum/patron/divine/erdl)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/erdl
+			head = /obj/item/clothing/head/helmet/heavy/necked/erdlhelm
+			cloak = /obj/item/clothing/cloak/stabard/templar/erdl
 			backpack_contents += /obj/item/reagent_containers/glass/bottle/strongpoison
-			beltr = /obj/item/weapon/knife/dagger/steel/pestrasickle
-			beltl = /obj/item/weapon/knife/dagger/steel/pestrasickle
-		if(/datum/patron/divine/eora)
-			head = /obj/item/clothing/head/helmet/sallet/eoran
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/eora
-			cloak = /obj/item/clothing/cloak/stabard/templar/eora
-			beltr = /obj/item/weapon/sword/rapier/eora
-		if(/datum/patron/divine/ravox)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/ravox
-			head = /obj/item/clothing/head/helmet/heavy/necked/ravox
-			cloak = /obj/item/clothing/cloak/stabard/templar/ravox
-			backr = /obj/item/weapon/sword/long/ravox
-		if(/datum/patron/divine/malum)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/malum
-			head = /obj/item/clothing/head/helmet/heavy/necked/malumhelm
-			cloak = /obj/item/clothing/cloak/stabard/templar/malum
-			backr = /obj/item/weapon/hammer/sledgehammer/war/malum
-		if(/datum/patron/divine/abyssor)
-			head = /obj/item/clothing/head/helmet/heavy/necked/abyssor
-			armor = /obj/item/clothing/armor/brigandine/abyssor
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/abyssor
-			cloak = /obj/item/clothing/cloak/stabard/templar/abyssor
-			backr = /obj/item/weapon/polearm/spear/abyssor
-		if(/datum/patron/divine/xylix)
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/xylix
-			head = /obj/item/clothing/head/helmet/heavy/necked/xylix
-			cloak = /obj/item/clothing/cloak/stabard/templar/xylix
-			beltl = /obj/item/weapon/whip/xylix
-		if(/datum/patron/inhumen/graggar)
-			head = /obj/item/clothing/head/helmet/heavy/graggar
-			armor = /obj/item/clothing/armor/plate/full/graggar
+			beltr = /obj/item/weapon/knife/dagger/steel/erdlsickle
+			beltl = /obj/item/weapon/knife/dagger/steel/erdlsickle
+		if(/datum/patron/divine/pomette)
+			head = /obj/item/clothing/head/helmet/sallet/pomettic
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/pomette
+			cloak = /obj/item/clothing/cloak/stabard/templar/pomette
+			beltr = /obj/item/weapon/sword/rapier/pomette
+		if(/datum/patron/divine/mordsol)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/mordsol
+			head = /obj/item/clothing/head/helmet/heavy/necked/mordsol
+			cloak = /obj/item/clothing/cloak/stabard/templar/mordsol
+			backr = /obj/item/weapon/sword/long/mordsol
+		if(/datum/patron/divine/golerkanh)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/golerkanh
+			head = /obj/item/clothing/head/helmet/heavy/necked/golerkanhhelm
+			cloak = /obj/item/clothing/cloak/stabard/templar/golerkanh
+			backr = /obj/item/weapon/hammer/sledgehammer/war/golerkanh
+		if(/datum/patron/divine/mjallidhorn)
+			head = /obj/item/clothing/head/helmet/heavy/necked/mjallidhorn
+			armor = /obj/item/clothing/armor/brigandine/mjallidhorn
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
+			cloak = /obj/item/clothing/cloak/stabard/templar/mjallidhorn
+			backr = /obj/item/weapon/polearm/spear/mjallidhorn
+		if(/datum/patron/divine/iliope)
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/iliope
+			head = /obj/item/clothing/head/helmet/heavy/necked/iliope
+			cloak = /obj/item/clothing/cloak/stabard/templar/iliope
+			beltl = /obj/item/weapon/whip/iliope
+		if(/datum/patron/inhumen/archdevils)
+			head = /obj/item/clothing/head/helmet/heavy/archdevils
+			armor = /obj/item/clothing/armor/plate/full/archdevils
 			neck = /obj/item/clothing/neck/gorget
-			gloves = /obj/item/clothing/gloves/plate/graggar
-			pants = /obj/item/clothing/pants/platelegs/graggar
-			shoes = /obj/item/clothing/shoes/boots/armor/graggar
-			cloak = /obj/item/clothing/cloak/graggar
-			backr = /obj/item/weapon/greataxe/steel/doublehead/graggar
-		if(/datum/patron/inhumen/graggar_zizo)
-			head = /obj/item/clothing/head/helmet/heavy/graggar
-			armor = /obj/item/clothing/armor/plate/full/graggar
+			gloves = /obj/item/clothing/gloves/plate/archdevils
+			pants = /obj/item/clothing/pants/platelegs/archdevils
+			shoes = /obj/item/clothing/shoes/boots/armor/archdevils
+			cloak = /obj/item/clothing/cloak/archdevils
+			backr = /obj/item/weapon/greataxe/steel/doublehead/archdevils
+		if(/datum/patron/inhumen/archdevils_zizo)
+			head = /obj/item/clothing/head/helmet/heavy/archdevils
+			armor = /obj/item/clothing/armor/plate/full/archdevils
 			neck = /obj/item/clothing/neck/gorget
-			gloves = /obj/item/clothing/gloves/plate/graggar
-			pants = /obj/item/clothing/pants/platelegs/graggar
-			shoes = /obj/item/clothing/shoes/boots/armor/graggar
-			cloak = /obj/item/clothing/cloak/graggar
-			backr = /obj/item/weapon/greataxe/steel/doublehead/graggar
+			gloves = /obj/item/clothing/gloves/plate/archdevils
+			pants = /obj/item/clothing/pants/platelegs/archdevils
+			shoes = /obj/item/clothing/shoes/boots/armor/archdevils
+			cloak = /obj/item/clothing/cloak/archdevils
+			backr = /obj/item/weapon/greataxe/steel/doublehead/archdevils
 		if(/datum/patron/inhumen/zizo)
 			head = /obj/item/clothing/head/helmet/visored/zizo
 			armor = /obj/item/clothing/armor/plate/full/zizo
@@ -217,32 +217,32 @@
 			pants = /obj/item/clothing/pants/platelegs/zizo
 			shoes = /obj/item/clothing/shoes/boots/armor/zizo
 			backr = /obj/item/weapon/sword/long/greatsword/zizo
-		if(/datum/patron/inhumen/matthios)
-			head = /obj/item/clothing/head/helmet/heavy/matthios
-			armor = /obj/item/clothing/armor/plate/full/matthios
+		if(/datum/patron/inhumen/deceivers)
+			head = /obj/item/clothing/head/helmet/heavy/deceivers
+			armor = /obj/item/clothing/armor/plate/full/deceivers
 			neck = /obj/item/clothing/neck/gorget
-			gloves = /obj/item/clothing/gloves/plate/matthios
-			pants = /obj/item/clothing/pants/platelegs/matthios
-			shoes = /obj/item/clothing/shoes/boots/armor/matthios
-			backr = /obj/item/weapon/flail/peasantwarflail/matthios
-		if(/datum/patron/inhumen/baotha)
-			head = /obj/item/clothing/head/helmet/heavy/baotha
+			gloves = /obj/item/clothing/gloves/plate/deceivers
+			pants = /obj/item/clothing/pants/platelegs/deceivers
+			shoes = /obj/item/clothing/shoes/boots/armor/deceivers
+			backr = /obj/item/weapon/flail/peasantwarflail/deceivers
+		if(/datum/patron/inhumen/hertannea)
+			head = /obj/item/clothing/head/helmet/heavy/hertannea
 			mask = /obj/item/clothing/face/spectacles/sglasses
 			neck = /obj/item/clothing/neck/gorget
 			armor = /obj/item/clothing/armor/plate
 			gloves = /obj/item/clothing/gloves/plate
 			pants = /obj/item/clothing/pants/platelegs
 			shoes = /obj/item/clothing/shoes/boots/armor
-			beltr = /obj/item/weapon/knife/dagger/steel/dirk/baotha
-			beltl = /obj/item/weapon/knife/dagger/steel/dirk/baotha
-		if(/datum/patron/psydon,  /datum/patron/psydon/extremist)
+			beltr = /obj/item/weapon/knife/dagger/steel/dirk/hertannea
+			beltl = /obj/item/weapon/knife/dagger/steel/dirk/hertannea
+		if(/datum/patron/angros,  /datum/patron/angros/extremist)
 			wrists = /obj/item/clothing/neck/psycross/gold
 			armor = /obj/item/clothing/armor/cuirass/fluted
-			cloak = /obj/item/clothing/cloak/psydontabard
-			gloves = /obj/item/clothing/gloves/chain/psydon
-			shoes = /obj/item/clothing/shoes/psydonboots
-			head = /obj/item/clothing/head/helmet/heavy/psydonhelm
-			beltr = /obj/item/weapon/sword/long/psydon
+			cloak = /obj/item/clothing/cloak/angrostabard
+			gloves = /obj/item/clothing/gloves/chain/angros
+			shoes = /obj/item/clothing/shoes/angrosboots
+			head = /obj/item/clothing/head/helmet/heavy/angroshelm
+			beltr = /obj/item/weapon/sword/long/angros
 			beltl = /obj/item/weapon/scabbard/sword
 		else
 			head = /obj/item/clothing/head/helmet/heavy/bucket

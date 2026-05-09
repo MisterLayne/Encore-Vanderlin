@@ -20,11 +20,11 @@
 	name = "Halfling"
 	id = SPEC_ID_HALFLING
 	desc = "Halflings, merry-folk, pipe-tokers, these people are one of many names and few insults. Beloved, not for their glory and their honor, like men, or their crafts and stout ales like dwarves, \
-	nor the graceful mystique of elfen kind- but for their bright smile and richly warm welcome that they provide even to the most boorish of visitors. The truest union of Psydon's dwarven and humen-kind. \
+	nor the graceful mystique of elfen kind- but for their bright smile and richly warm welcome that they provide even to the most boorish of visitors. The truest union of Angros's dwarven and humen-kind. \
 	And true to their nature, Halflings are most commonly known to have full bellies, smaller frames than that of dwarves and far less width to them as well. \
 	\n\
 	Curly hair of warm and earthy coloration, with coarse tufts atop the bridge of their proportionally large feet rather than a propensity to wear any sort of shoe to protect their already leathery soles. \
-	No magick is present among these people, blessed not with the grand wizardry of Noc but that simpler everyday magicks of the world, for a halfling goes unseen as easily as the wind blows. Truly, they are a hearth in this age."
+	No magick is present among these people, blessed not with the grand wizardry of Akan but that simpler everyday magicks of the world, for a halfling goes unseen as easily as the wind blows. Truly, they are a hearth in this age."
 
 	default_color = "FFFFFF"
 	native_language = "Halfling"

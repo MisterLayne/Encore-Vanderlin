@@ -37,7 +37,7 @@
 			else
 				message = pick_list_replacements("bard.json", "default_mockery")
 	else
-		message = tgui_input_text(owner, "How will I mock this fool?", "XYLIX")
+		message = tgui_input_text(owner, "How will I mock this fool?", "ILIOPE")
 		if(QDELETED(src) || QDELETED(owner) || QDELETED(cast_on) || !can_cast_spell())
 			return . | SPELL_CANCEL_CAST
 

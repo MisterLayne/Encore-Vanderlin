@@ -1,32 +1,32 @@
-#define ALL_TEMPLE_PATRONS 		list(/datum/patron/divine/astrata, /datum/patron/divine/noc, /datum/patron/divine/dendor, /datum/patron/divine/abyssor, /datum/patron/divine/necra, /datum/patron/divine/ravox, /datum/patron/divine/xylix, /datum/patron/divine/pestra, /datum/patron/divine/malum, /datum/patron/divine/eora)
-#define UNDIVIDED_TEMPLE_PATRONS list(/datum/patron/divine/astrata, /datum/patron/divine/noc, /datum/patron/divine/dendor, /datum/patron/divine/abyssor, /datum/patron/divine/necra, /datum/patron/divine/ravox, /datum/patron/divine/xylix, /datum/patron/divine/pestra, /datum/patron/divine/malum, /datum/patron/divine/eora, /datum/patron/divine/centrist)
-#define ALL_CLERIC_PATRONS 		list(/datum/patron/divine/astrata, /datum/patron/divine/noc, /datum/patron/divine/dendor, /datum/patron/divine/abyssor, /datum/patron/divine/necra, /datum/patron/divine/ravox, /datum/patron/divine/xylix, /datum/patron/divine/pestra, /datum/patron/divine/malum, /datum/patron/divine/eora)
-#define ALL_PALADIN_PATRONS 	list(/datum/patron/psydon, /datum/patron/psydon/extremist, /datum/patron/divine/astrata, /datum/patron/divine/noc, /datum/patron/divine/dendor, /datum/patron/divine/abyssor, /datum/patron/divine/necra, /datum/patron/divine/ravox, /datum/patron/divine/xylix, /datum/patron/divine/pestra, /datum/patron/divine/malum, /datum/patron/divine/eora)
-#define ALL_TEMPLAR_PATRONS 	list(/datum/patron/divine/astrata, /datum/patron/divine/noc, /datum/patron/divine/eora, /datum/patron/divine/necra, /datum/patron/divine/ravox, /datum/patron/divine/pestra, /datum/patron/divine/dendor, /datum/patron/divine/abyssor, /datum/patron/divine/malum, /datum/patron/divine/xylix)
-#define ALL_PROFANE_PATRONS 	list(/datum/patron/inhumen/graggar, /datum/patron/inhumen/zizo, /datum/patron/inhumen/matthios, /datum/patron/inhumen/baotha)
-#define ALL_ICONOCLAST_PATRONS  list(/datum/patron/psydon, /datum/patron/psydon/extremist, /datum/patron/divine/astrata, /datum/patron/divine/noc, /datum/patron/divine/dendor, /datum/patron/divine/abyssor, /datum/patron/divine/necra, /datum/patron/divine/ravox, /datum/patron/divine/xylix, /datum/patron/divine/pestra, /datum/patron/divine/malum, /datum/patron/divine/eora, /datum/patron/inhumen/graggar, /datum/patron/inhumen/zizo, /datum/patron/inhumen/matthios, /datum/patron/inhumen/baotha)
+#define ALL_TEMPLE_PATRONS 		list(/datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/valdala, /datum/patron/divine/mordsol, /datum/patron/divine/iliope, /datum/patron/divine/erdl, /datum/patron/divine/golerkanh, /datum/patron/divine/pomette)
+#define UNDIVIDED_TEMPLE_PATRONS list(/datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/valdala, /datum/patron/divine/mordsol, /datum/patron/divine/iliope, /datum/patron/divine/erdl, /datum/patron/divine/golerkanh, /datum/patron/divine/pomette, /datum/patron/divine/centrist)
+#define ALL_CLERIC_PATRONS 		list(/datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/valdala, /datum/patron/divine/mordsol, /datum/patron/divine/iliope, /datum/patron/divine/erdl, /datum/patron/divine/golerkanh, /datum/patron/divine/pomette)
+#define ALL_PALADIN_PATRONS 	list(/datum/patron/angros, /datum/patron/angros/extremist, /datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/valdala, /datum/patron/divine/mordsol, /datum/patron/divine/iliope, /datum/patron/divine/erdl, /datum/patron/divine/golerkanh, /datum/patron/divine/pomette)
+#define ALL_TEMPLAR_PATRONS 	list(/datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/pomette, /datum/patron/divine/valdala, /datum/patron/divine/mordsol, /datum/patron/divine/erdl, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/golerkanh, /datum/patron/divine/iliope)
+#define ALL_PROFANE_PATRONS 	list(/datum/patron/inhumen/archdevils, /datum/patron/inhumen/zizo, /datum/patron/inhumen/deceivers, /datum/patron/inhumen/hertannea)
+#define ALL_ICONOCLAST_PATRONS  list(/datum/patron/angros, /datum/patron/angros/extremist, /datum/patron/divine/visires, /datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/mjallidhorn, /datum/patron/divine/valdala, /datum/patron/divine/mordsol, /datum/patron/divine/iliope, /datum/patron/divine/erdl, /datum/patron/divine/golerkanh, /datum/patron/divine/pomette, /datum/patron/inhumen/archdevils, /datum/patron/inhumen/zizo, /datum/patron/inhumen/deceivers, /datum/patron/inhumen/hertannea)
 
-#define COLORFUL_PATRONS		list("Psydon", "Astrata", "Noc", "Dendor", "Abyssor", "Necra", "Ravox", "Xylix", "Pestra", "Malum", "Eora", "Graggar", "Zizo", "Matthios", "Baotha", "The Great Hunt", "The Black Briar")
-#define TEMPLE_PATRON_NAMES		list("Astrata", "Noc", "Dendor", "Abyssor", "Necra", "Ravox", "Xylix", "Pestra", "Malum", "Eora")
+#define COLORFUL_PATRONS		list("Angros", "Visires", "Akan", "Gani", "Mjallidhorn", "Valdala", "Mordsol", "Iliope", "Erdl", "Goler Kanh", "Pomette", "Archdevils", "Zizo", "Deceivers", "Hertannea", "The Great Hunt", "The Black Briar")
+#define TEMPLE_PATRON_NAMES		list("Visires", "Akan", "Gani", "Mjallidhorn", "Valdala", "Mordsol", "Iliope", "Erdl", "Goler Kanh", "Pomette")
 
 GLOBAL_LIST_INIT(curse_names, list())
 
 #define TEN_CURSES list(\
-	/datum/curse/astrata,\
-	/datum/curse/noc,\
-	/datum/curse/ravox,\
-	/datum/curse/necra,\
-	/datum/curse/xylix,\
-	/datum/curse/pestra,\
-	/datum/curse/eora\
+	/datum/curse/visires,\
+	/datum/curse/akan,\
+	/datum/curse/mordsol,\
+	/datum/curse/valdala,\
+	/datum/curse/iliope,\
+	/datum/curse/erdl,\
+	/datum/curse/pomette\
 )
 
 #define INHUMEN_CURSES list(\
 	/datum/curse/zizo,\
 	/datum/curse/zizo/minor,\
-	/datum/curse/graggar,\
-	/datum/curse/matthios,\
-	/datum/curse/baotha\
+	/datum/curse/archdevils,\
+	/datum/curse/deceivers,\
+	/datum/curse/hertannea\
 )
 #define SPECIAL_CURSES list(\
 	/datum/curse/atheism\
@@ -343,7 +343,7 @@ Thing can move up or down an armor class by significant changes to coverage & cr
 #define ARMOR_HEAD_HELMET_BAD list("blunt" = 50, "slash" = 50, "stab" = 50, "piercing" = 20, "fire" = 0, "acid" = 0)
 #define ARMOR_HEAD_HELMET list("blunt" = 50, "slash" = 100, "stab" = 80, "piercing" = 20, "fire" = 0, "acid" = 0)
 #define ARMOR_HEAD_HELMET_VISOR list("blunt" = 40, "slash" = 100, "stab" = 80, "piercing" = 50, "fire" = 0, "acid" = 0)
-#define ARMOR_HEAD_PSYDON list("blunt" = 70, "slash" = 70, "stab" = 50, "piercing" = 30, "fire" = 0, "acid" = 0)	//Yeah they just have their own thing going on.
+#define ARMOR_HEAD_ANGROS list("blunt" = 70, "slash" = 70, "stab" = 50, "piercing" = 30, "fire" = 0, "acid" = 0)	//Yeah they just have their own thing going on.
 #define ARMOR_HEAD_LEATHER list("blunt" = 90, "slash" = 60, "stab" = 30, "piercing" = 20, "fire" = 0, "acid" = 0)
 
 // Mask Armor
@@ -480,7 +480,7 @@ BCLASS_TWIST)
 		"Stripes"="stripes_decoration",\
 		"Red Castle"="castle_red_decoration",\
 		"White Castle"="castle_white_decoration",\
-		"Archdevil"="graggar_decoration",\
+		"Archdevil"="archdevils_decoration",\
 		"Efreet"="efreet_decoration",\
 		"Sun"="sun_decoration",\
 		"Peace"="peace_decoration",\
@@ -501,7 +501,7 @@ BCLASS_TWIST)
 		"Stripes"="stripes_houndecoration",\
 		"Red Castle"="castle_red_houndecoration",\
 		"White Castle"="castle_white_houndecoration",\
-		"Archdevil"="graggar_houndecoration",\
+		"Archdevil"="archdevils_houndecoration",\
 		"Efreet"="efreet_houndecoration",\
 		"Peace"="peace_houndecoration",\
 		"Sun"="sun_houndecoration",\
@@ -522,7 +522,7 @@ BCLASS_TWIST)
 		"Stripes"="stripes_bucket",\
 		"Red Castle"="castle_red_bucket",\
 		"White Castle"="castle_white_bucket",\
-		"Archdevil"="graggar_bucket",\
+		"Archdevil"="archdevils_bucket",\
 		"Efreet"="efreet_bucket",\
 		"Peace"="peace_bucket",\
 		"Sun"="sun_bucket",\
@@ -543,7 +543,7 @@ BCLASS_TWIST)
 		"Stripes"="stripes_gbucket",\
 		"Red Castle"="castle_red_gbucket",\
 		"White Castle"="castle_white_gbucket",\
-		"Archdevil"="graggar_gbucket",\
+		"Archdevil"="archdevils_gbucket",\
 		"Efreet"="efreet_gbucket",\
 		"Peace"="peace_gbucket",\
 		"Sun"="sun_gbucket",\
@@ -564,7 +564,7 @@ BCLASS_TWIST)
 		"Stripes"="stripes_bascinet",\
 		"Red Castle"="castle_red_bascinet",\
 		"White Castle"="castle_white_bascinet",\
-		"Archdevil"="graggar_bascinet",\
+		"Archdevil"="archdevils_bascinet",\
 		"Efreet"="efreet_bascinet",\
 		"Sun"="sun_bascinet",\
 		"Peace"="peace_bascinet",\
@@ -586,11 +586,11 @@ BCLASS_TWIST)
 		"rous"="skullmet_ruffian",\
 		"bobcat"="skullmet_bobcat")
 
-#define DENDOR_TAME_PROB_NONE 0
-#define DENDOR_TAME_PROB_LOW 25
-#define DENDOR_TAME_PROB_MEDIUM 50
-#define DENDOR_TAME_PROB_HIGH 75
-#define DENDOR_TAME_PROB_GURANTEED 100
+#define GANI_TAME_PROB_NONE 0
+#define GANI_TAME_PROB_LOW 25
+#define GANI_TAME_PROB_MEDIUM 50
+#define GANI_TAME_PROB_HIGH 75
+#define GANI_TAME_PROB_GURANTEED 100
 
 
 /*------------------------\
@@ -620,7 +620,7 @@ BCLASS_TWIST)
 #define ARMOR_INT_CHEST_PLATE_BLACKSTEEL 600
 #define ARMOR_INT_CHEST_PLATE_STEEL 500
 #define ARMOR_INT_CHEST_PLATE_BRIGANDINE 350
-#define ARMOR_INT_CHEST_PLATE_PSYDON 400 // You get free training, less int
+#define ARMOR_INT_CHEST_PLATE_ANGROS 400 // You get free training, less int
 #define ARMOR_INT_CHEST_PLATE_IRON 375
 #define ARMOR_INT_CHEST_PLATE_DECREPIT 250
 
@@ -660,3 +660,6 @@ BCLASS_TWIST)
 #define ARMOR_INT_SIDE_LEATHER 200 // Integrity for leather / copper pieces
 #define ARMOR_INT_SIDE_DECREPIT 150 // Integrity for decrepit pieces
 #define ARMOR_INT_SIDE_CLOTH 100 // Integrity for cloth / aesthetic oriented pieces
+
+//Placeholder defines that will be used to spot descriptions in need of replacement during move to Encore setting
+#define PLACEHOLDER_PATRON_REBRANDING "This description is a placeholder. You should make a Github issue report. It was modified during a rebranding PR."

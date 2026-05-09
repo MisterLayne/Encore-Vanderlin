@@ -1,4 +1,4 @@
-/obj/item/clothing/head/padded/pestra
+/obj/item/clothing/head/padded/erdl
 	name = "naga hood"
 	desc = "Worn by the faithful of Erdl. Resembling the face of the Naga clothed in rot."
 	icon_state = "pestrahood"
@@ -37,14 +37,14 @@
 	flags_inv = HIDEEARS|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
 	item_weight = 250 GRAMS
 
-/obj/item/clothing/head/padded/pestra
+/obj/item/clothing/head/padded/erdl
 	name = "naga hood"
 	desc = "Worn by the faithful of Erdl. Resembling the face of the Naga clothed in rot."
 	icon_state = "pestrahood"
 	flags_inv = HIDEEARS|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
 	item_weight = 250 GRAMS
 
-/obj/item/clothing/head/padded/abyssor
+/obj/item/clothing/head/padded/mjallidhorn
 	name = "sea hood"
 	desc = "A green hood worn by the faithful of Mjallidhorn."
 	icon_state = "abysshood"
@@ -53,7 +53,7 @@
 	flags_inv = HIDEEARS|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR
 	item_weight = 250 GRAMS
 
-/obj/item/clothing/head/roguehood/eora
+/obj/item/clothing/head/roguehood/pomette
 	name = "opera hood"
 	desc = "A silver opera mask worn by the faithful of Pomette, usually during their rituals. Comes with a hood that can be pulled up for warmth."
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/64x64/head.dmi'
@@ -66,7 +66,7 @@
 	armor = ARMOR_WEAK
 	salvage_result = NUTRITION_LEVEL_HUNGRY
 
-/obj/item/clothing/head/roguehood/astrata
+/obj/item/clothing/head/roguehood/visires
 	name = "sun hood"
 	desc = "Worn by the faithful of Visires."
 	icon_state = "astratahood"

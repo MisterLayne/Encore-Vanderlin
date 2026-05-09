@@ -2,7 +2,7 @@
 	title = JOB_ADEPT
 	tutorial = "You were a convicted criminal, the lowest scum of Vanderlin. \
 	Your master, the Inquisitor, saved you from the gallows \
-	and has given you true purpose in service to Psydon. \
+	and has given you true purpose in service to Angros. \
 	You will not let him down."
 	department_flag = INQUISITION
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
@@ -13,7 +13,7 @@
 	spawn_positions = 1
 	bypass_lastclass = TRUE
 
-	allowed_patrons = list(/datum/patron/psydon, /datum/patron/psydon/extremist)
+	allowed_patrons = list(/datum/patron/angros, /datum/patron/angros/extremist)
 	allowed_races = RACES_PLAYER_ALL
 
 	outfit = /datum/outfit/adept
@@ -28,7 +28,7 @@
 	mind_traits = list(
 		TRAIT_KNOW_INQUISITION_DOORS
 	)
-	languages = list(/datum/language/oldpsydonic)
+	languages = list(/datum/language/oldunsundered)
 
 /datum/outfit/adept // Base outfit for Adepts, before loadouts
 	name = JOB_ADEPT

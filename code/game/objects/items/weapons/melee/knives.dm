@@ -313,7 +313,7 @@
 	melt_amount = 75
 	item_weight = 270 GRAMS
 
-/obj/item/weapon/knife/dagger/steel/pestrasickle
+/obj/item/weapon/knife/dagger/steel/erdlsickle
 	name ="plaguebringer sickle"
 	desc = "A wicked edge brings feculent delights."
 	icon = 'icons/roguetown/weapons/32/patron.dmi'
@@ -343,16 +343,16 @@
 	icon_state = "spiderdagger"
 	item_weight = 200 GRAMS
 
-/obj/item/weapon/knife/dagger/steel/dirk/baotha //this is a placeholder weapon until they actually receive a proper baothan weapon
+/obj/item/weapon/knife/dagger/steel/dirk/hertannea //this is a placeholder weapon until they actually receive a proper hertannean weapon
 	name = "laced dagger"
 	desc = "Whispers of bliss seep deeper than the blade."
 	color = "#f78ccc"
 	wdefense = GOOD_PARRY //They use a dagger, but it should be fine for them to also parry with it.
 	item_weight = 200 GRAMS
 
-/obj/item/weapon/knife/dagger/steel/dirk/baotha/Initialize(mapload)
+/obj/item/weapon/knife/dagger/steel/dirk/hertannea/Initialize(mapload)
 	. = ..()
-	enchant(/datum/enchantment/baothagift)
+	enchant(/datum/enchantment/hertanneagift)
 
 
 //................ Silver Dagger ............... //
@@ -371,9 +371,9 @@
 	. = ..()
 	enchant(/datum/enchantment/silver)
 
-//................ Psydonian Dagger ............... //
-/obj/item/weapon/knife/dagger/silver/psydon
-	name = "psydonian dagger"
+//................ Angrosian Dagger ............... //
+/obj/item/weapon/knife/dagger/silver/angros
+	name = "angrosian dagger"
 	desc = "A silver dagger favored by close range fighters of the inquisition."
 	icon = 'icons/roguetown/weapons/32/psydonite.dmi'
 	icon_state = "psydagger"
@@ -416,7 +416,7 @@
 				"<span class='danger'>Save me...</span>",
 				"<span class='danger'>It's cold...</span>",
 				"<span class='danger'>Free us...please...</span>",
-				"<span class='danger'>Necra...deliver...us...</span>")
+				"<span class='danger'>Valdala...deliver...us...</span>")
 //			H.visible_message("profane dagger whispers, \"[message]\"")
 			to_chat(M, "profane dagger whispers, \"[message]\"")
 		else
@@ -533,7 +533,7 @@
 /obj/item/weapon/knife/dagger/steel/profane/proc/get_profane_ghost(mob/living/carbon/human/target, mob/user)
 	var/mob/dead/observer/chosen_ghost
 	var/mob/living/carbon/spirit/underworld_spirit = target.get_spirit() //Check if a soul has already gone to the underworld
-	if(underworld_spirit) // If they are in the underworld, pull them back to the real world and make them a normal ghost. Necra can't save you now!
+	if(underworld_spirit) // If they are in the underworld, pull them back to the real world and make them a normal ghost. Valdala can't save you now!
 		var/mob/dead/observer/ghost = underworld_spirit.ghostize()
 		chosen_ghost = ghost.get_ghost(TRUE,TRUE)
 	else //Otherwise, try to get a ghost from the real world
@@ -548,7 +548,7 @@
 /obj/item/weapon/knife/dagger/steel/profane/proc/release_profane_souls(mob/user) // For ways to release the souls trapped within a profane dagger, such as a Necrite burial rite. Returns the number of freed souls.
 	var/freed_souls = 0
 	for(var/mob/dead/observer/profane/A in src) // for every trapped soul in the dagger, whether they have left the game or not
-		to_chat(A, "<b>I have been freed from my vile prison, I await Necra's cold grasp. Salvation!</b>")
+		to_chat(A, "<b>I have been freed from my vile prison, I await Valdala's cold grasp. Salvation!</b>")
 		A.returntolobby() //Send the trapped soul back to the lobby
 		user.visible_message("<span class='warning'>The [A.name] flows out from the profane dagger, finally free of its grasp.</span>")
 		freed_souls += 1
@@ -668,9 +668,9 @@
 	sellprice = 4
 	item_weight = 85 GRAMS
 
-/obj/item/weapon/knife/throwingknife/psydon
-	name = "psydonian tossblade"
-	desc = "An unconventional method of delivering silver to a heretic; but one PSYDON smiles at, all the same. Doubles as an 'actual' knife in a pinch."
+/obj/item/weapon/knife/throwingknife/angros
+	name = "angrosian tossblade"
+	desc = "An unconventional method of delivering silver to a heretic; but one ANGROS smiles at, all the same. Doubles as an 'actual' knife in a pinch."
 	icon_state = "throw_knifes"
 	item_state = "bone_dagger"
 	wdefense = GOOD_PARRY
@@ -681,7 +681,7 @@
 	melting_material = /datum/material/silver
 	item_weight = 80 GRAMS
 
-/obj/item/weapon/knife/throwingknife/psydon/Initialize(mapload)
+/obj/item/weapon/knife/throwingknife/angros/Initialize(mapload)
 	. = ..()
 	enchant(/datum/enchantment/silver)
 

@@ -7,22 +7,22 @@
 	visible_on_active_menu = TRUE
 	manual_activation = TRUE
 	var/list/patron_curse_map = list(
-		/datum/patron/divine/astrata = /datum/curse/astrata,
-		/datum/patron/divine/ravox = /datum/curse/ravox,
-		/datum/patron/divine/necra = /datum/curse/necra,
-		/datum/patron/divine/xylix = /datum/curse/xylix,
-		/datum/patron/divine/pestra = /datum/curse/pestra,
-		/datum/patron/divine/eora = /datum/curse/eora,
+		/datum/patron/divine/visires = /datum/curse/visires,
+		/datum/patron/divine/mordsol = /datum/curse/mordsol,
+		/datum/patron/divine/valdala = /datum/curse/valdala,
+		/datum/patron/divine/iliope = /datum/curse/iliope,
+		/datum/patron/divine/erdl = /datum/curse/erdl,
+		/datum/patron/divine/pomette = /datum/curse/pomette,
 		/datum/patron/inhumen/zizo = /datum/curse/zizo/minor,
-		/datum/patron/inhumen/matthios = /datum/curse/matthios,
-		/datum/patron/inhumen/baotha = /datum/curse/baotha,
-		/datum/patron/inhumen/graggar_zizo = /datum/curse/zizo/minor,
+		/datum/patron/inhumen/deceivers = /datum/curse/deceivers,
+		/datum/patron/inhumen/hertannea = /datum/curse/hertannea,
+		/datum/patron/inhumen/archdevils_zizo = /datum/curse/zizo/minor,
 	)
 
 /datum/triumph_buy/random_curse/on_after_spawn(mob/living/carbon/human/H)
 	. = ..()
 
-	var/list/available_curses = (TEN_CURSES + INHUMEN_CURSES) - list(/datum/curse/noc, /datum/curse/graggar, /datum/curse/zizo)
+	var/list/available_curses = (TEN_CURSES + INHUMEN_CURSES) - list(/datum/curse/akan, /datum/curse/archdevils, /datum/curse/zizo)
 
 	if(H.patron && patron_curse_map[H.patron.type])
 		var/datum/curse/patron_curse = patron_curse_map[H.patron.type]

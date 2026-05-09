@@ -73,31 +73,31 @@
 
 	if(spawned.patron)
 		switch(spawned.patron.type)
-			if(/datum/patron/divine/astrata)
+			if(/datum/patron/divine/visires)
 				spawned.cmode_music = 'sound/music/cmode/church/CombatAstrata.ogg'
-			if(/datum/patron/divine/dendor)
+			if(/datum/patron/divine/gani)
 				spawned.cmode_music = 'sound/music/cmode/church/CombatDendor.ogg'
-			if(/datum/patron/divine/necra)
+			if(/datum/patron/divine/valdala)
 				spawned.cmode_music = 'sound/music/cmode/church/CombatGravekeeper.ogg'
 				ADD_TRAIT(spawned, TRAIT_DEADNOSE, TRAIT_GENERIC)
 				ADD_TRAIT(spawned, TRAIT_GRAVEROBBER, TRAIT_GENERIC)
-			if(/datum/patron/divine/eora)
+			if(/datum/patron/divine/pomette)
 				spawned.cmode_music = 'sound/music/cmode/church/CombatEora.ogg'
 				spawned.virginity = FALSE
 				ADD_TRAIT(spawned, TRAIT_BEAUTIFUL, TRAIT_GENERIC)
-			if(/datum/patron/divine/ravox)
+			if(/datum/patron/divine/mordsol)
 				spawned.cmode_music = 'sound/music/cmode/church/CombatRavox.ogg'
 				spawned.adjust_skill_level(/datum/attribute/skill/combat/unarmed, 10)
-			if(/datum/patron/divine/noc)
+			if(/datum/patron/divine/akan)
 				spawned.cmode_music = 'sound/music/cmode/church/CombatNoc.ogg'
-			if(/datum/patron/divine/pestra)
+			if(/datum/patron/divine/erdl)
 				spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
-			if(/datum/patron/divine/abyssor)
+			if(/datum/patron/divine/mjallidhorn)
 				spawned.cmode_music = 'sound/music/cmode/church/CombatAbyssor.ogg'
 				spawned.adjust_skill_level(/datum/attribute/skill/labor/fishing, 20)
-			if(/datum/patron/divine/malum)
+			if(/datum/patron/divine/golerkanh)
 				spawned.cmode_music = 'sound/music/cmode/adventurer/CombatOutlander2.ogg'
-			if(/datum/patron/divine/xylix)
+			if(/datum/patron/divine/iliope)
 				spawned.cmode_music = 'sound/music/cmode/church/CombatXylix.ogg'
 			else
 				spawned.cmode_music = 'sound/music/cmode/church/CombatInquisitor.ogg'
@@ -181,35 +181,35 @@
 
 	if(equipped_human.patron)
 		switch(equipped_human.patron.type)
-			if(/datum/patron/divine/astrata)
-				wrists = /obj/item/clothing/neck/psycross/silver/divine/astrata
-				cloak = /obj/item/clothing/cloak/stabard/templar/astrata
-			if(/datum/patron/divine/dendor)
-				wrists = /obj/item/clothing/neck/psycross/silver/divine/dendor
-				cloak = /obj/item/clothing/cloak/stabard/templar/dendor
-			if(/datum/patron/divine/necra)
-				wrists = /obj/item/clothing/neck/psycross/silver/divine/necra
-				cloak = /obj/item/clothing/cloak/stabard/templar/necra
+			if(/datum/patron/divine/visires)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/visires
+				cloak = /obj/item/clothing/cloak/stabard/templar/visires
+			if(/datum/patron/divine/gani)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/gani
+				cloak = /obj/item/clothing/cloak/stabard/templar/gani
+			if(/datum/patron/divine/valdala)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/valdala
+				cloak = /obj/item/clothing/cloak/stabard/templar/valdala
 				beltr = /obj/item/weapon/shovel/small
-			if(/datum/patron/divine/eora)
-				wrists = /obj/item/clothing/neck/psycross/silver/divine/eora
-				cloak = /obj/item/clothing/cloak/stabard/templar/eora
-			if(/datum/patron/divine/ravox)
-				wrists = /obj/item/clothing/neck/psycross/silver/divine/ravox
-				cloak = /obj/item/clothing/cloak/stabard/templar/ravox
-			if(/datum/patron/divine/noc)
-				wrists = /obj/item/clothing/neck/psycross/silver/divine/noc
-				cloak = /obj/item/clothing/cloak/stabard/templar/noc
-			if(/datum/patron/divine/pestra)
-				wrists = /obj/item/clothing/neck/psycross/silver/divine/pestra
-				cloak = /obj/item/clothing/cloak/stabard/templar/pestra
-			if(/datum/patron/divine/abyssor)
-				wrists = /obj/item/clothing/neck/psycross/silver/divine/abyssor
-				cloak = /obj/item/clothing/cloak/stabard/templar/abyssor
+			if(/datum/patron/divine/pomette)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/pomette
+				cloak = /obj/item/clothing/cloak/stabard/templar/pomette
+			if(/datum/patron/divine/mordsol)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/mordsol
+				cloak = /obj/item/clothing/cloak/stabard/templar/mordsol
+			if(/datum/patron/divine/akan)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/akan
+				cloak = /obj/item/clothing/cloak/stabard/templar/akan
+			if(/datum/patron/divine/erdl)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/erdl
+				cloak = /obj/item/clothing/cloak/stabard/templar/erdl
+			if(/datum/patron/divine/mjallidhorn)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
+				cloak = /obj/item/clothing/cloak/stabard/templar/mjallidhorn
 				beltl = /obj/item/fishingrod
-			if(/datum/patron/divine/malum)
-				wrists = /obj/item/clothing/neck/psycross/silver/divine/malum
-				cloak = /obj/item/clothing/cloak/stabard/templar/malum
-			if(/datum/patron/divine/xylix)
-				wrists = /obj/item/clothing/neck/psycross/silver/divine/xylix
-				cloak = /obj/item/clothing/cloak/stabard/templar/xylix
+			if(/datum/patron/divine/golerkanh)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/golerkanh
+				cloak = /obj/item/clothing/cloak/stabard/templar/golerkanh
+			if(/datum/patron/divine/iliope)
+				wrists = /obj/item/clothing/neck/psycross/silver/divine/iliope
+				cloak = /obj/item/clothing/cloak/stabard/templar/iliope

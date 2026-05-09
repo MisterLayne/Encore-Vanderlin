@@ -87,8 +87,8 @@
 	name = "Magic apprentice"
 	greet_text = span_notice("I have learned basic arcyne but my skills are far from good.")
 	weight = 25
-	req_text = "Have Noc or Zizo as your Patron"
-	allowed_patrons = list(/datum/patron/divine/noc, /datum/patron/inhumen/zizo)
+	req_text = "Have Akan or Zizo as your Patron"
+	allowed_patrons = list(/datum/patron/divine/akan, /datum/patron/inhumen/zizo)
 
 /datum/special_trait/latentmagic/on_apply(mob/living/carbon/human/character, silent)
 	character.attributes?.add_attribute_modifier(/datum/attribute_modifier/latentmagic, TRUE)
@@ -112,7 +112,7 @@
 
 /datum/special_trait/night_owl
 	name = "Night Owl"
-	greet_text = span_notice("I've always preferred Noc over his other half.")
+	greet_text = span_notice("I've always preferred Akan over his other half.")
 	weight = 100
 
 /datum/special_trait/night_owl/on_apply(mob/living/carbon/human/character, silent)
@@ -182,7 +182,7 @@
 
 /datum/special_trait/darkmagic
 	name = "Practitioner of forbidden magic"
-	greet_text = span_notice("Noc's path is weak, I have seen the light and practiced magic these fools call forbidden.")
+	greet_text = span_notice("Akan's path is weak, I have seen the light and practiced magic these fools call forbidden.")
 	weight = 25
 	req_text = "Worship zizo and roll court magician or magician apprentice."
 	allowed_patrons = list(/datum/patron/inhumen/zizo)
@@ -251,14 +251,14 @@
 		/datum/attribute/skill/misc/riding = 40,
 	)
 
-/datum/special_trait/psydons_rider
-	name = "Psydon's Drunkest Rider"
-	greet_text = span_notice("I ride! None of the laws shall stop me for that is Psydon's divine will!")
-	req_text = "Worship Psydon"
-	allowed_patrons = list(/datum/patron/psydon, /datum/patron/psydon/extremist)
+/datum/special_trait/angross_rider
+	name = "Angros's Drunkest Rider"
+	greet_text = span_notice("I ride! None of the laws shall stop me for that is Angros's divine will!")
+	req_text = "Worship Angros"
+	allowed_patrons = list(/datum/patron/angros, /datum/patron/angros/extremist)
 	weight = 100
 
-/datum/special_trait/psydons_rider/on_apply(mob/living/carbon/human/character, silent)
+/datum/special_trait/angross_rider/on_apply(mob/living/carbon/human/character, silent)
 	character.drunkenness = 50
 	for(var/i in 1 to 2)
 		var/obj/item/bottle = new /obj/item/reagent_containers/glass/bottle/wine(get_turf(character))
@@ -312,8 +312,8 @@
 	character.grant_language(/datum/language/celestial)
 	character.grant_language(/datum/language/orcish)
 	character.grant_language(/datum/language/deepspeak)
-	character.grant_language(/datum/language/newpsydonic)
-	character.grant_language(/datum/language/oldpsydonic)
+	character.grant_language(/datum/language/newunsundered)
+	character.grant_language(/datum/language/oldunsundered)
 	character.grant_language(/datum/language/zalad)
 	character.grant_language(/datum/language/thievescant)
 
@@ -335,7 +335,7 @@
 		if(4)
 			character.grant_language(/datum/language/zalad)
 		if(5)
-			character.grant_language(/datum/language/newpsydonic)
+			character.grant_language(/datum/language/newunsundered)
 		if(6)
 			character.grant_language(/datum/language/hellspeak)
 		if(7)
@@ -355,8 +355,8 @@
 	character.grant_language(/datum/language/celestial)
 	character.grant_language(/datum/language/orcish)
 	character.grant_language(/datum/language/deepspeak)
-	character.grant_language(/datum/language/newpsydonic)
-	character.grant_language(/datum/language/oldpsydonic)
+	character.grant_language(/datum/language/newunsundered)
+	character.grant_language(/datum/language/oldunsundered)
 	character.grant_language(/datum/language/zalad)
 	character.grant_language(/datum/language/thievescant)
 
@@ -432,14 +432,14 @@
 
 /datum/special_trait/burdened
 	name = "The Burdened One"
-	greet_text = span_notice("You are a true instrument of creation, the most blessed of Malum, nothing will stop your toil, be it sleep or fatigue.")
+	greet_text = span_notice("You are a true instrument of creation, the most blessed of Goler Kanh, nothing will stop your toil, be it sleep or fatigue.")
 	weight = 10
-	allowed_patrons = list(/datum/patron/divine/malum)
-	req_text = "Worship Malum, must be a carpenter, elder, smith, artificer or miner."
+	allowed_patrons = list(/datum/patron/divine/golerkanh)
+	req_text = "Worship Goler Kanh, must be a carpenter, elder, smith, artificer or miner."
 	allowed_jobs = list(/datum/job/carpenter, /datum/job/blacksmith, /datum/job/artificer, /datum/job/bapprentice, /datum/job/miner, /datum/job/town_elder) // no combat roles
 
 /datum/special_trait/burdened/on_apply(mob/living/carbon/human/character, silent)
-	ADD_TRAIT(character, TRAIT_MALUMFIRE, "[type]")
+	ADD_TRAIT(character, TRAIT_GOLERKANHFIRE, "[type]")
 	ADD_TRAIT(character, TRAIT_NOSLEEP, "[type]") // can't learn any new skills
 	ADD_TRAIT(character, TRAIT_NOENERGY, "[type]")
 	character.attributes?.add_sheet(/datum/attribute_holder/sheet/job/burdened_one)
@@ -484,9 +484,9 @@
 
 /datum/special_trait/lucky
 	name = "Fortune's Grace"
-	greet_text = span_notice("Xylix favor me, I am extremely lucky.")
-	req_text = "Have Xylix as your Patron"
-	allowed_patrons = list(/datum/patron/divine/xylix)
+	greet_text = span_notice("Iliope favor me, I am extremely lucky.")
+	req_text = "Have Iliope as your Patron"
+	allowed_patrons = list(/datum/patron/divine/iliope)
 	weight = 7
 
 /datum/special_trait/lucky/on_apply(mob/living/carbon/human/character, silent)
@@ -833,8 +833,8 @@
 	greet_text = span_notice("Physique, Endurance, Constitution. \
 	The trinity of what builds a great leader and an even greater kingdom... \
 	or whatever those nimrods were yapping about! <b>I cast FIREBALL!!!</b>")
-	req_text = "Monarch, worship Noc or Zizo"
-	allowed_patrons = list(/datum/patron/divine/noc, /datum/patron/inhumen/zizo)
+	req_text = "Monarch, worship Akan or Zizo"
+	allowed_patrons = list(/datum/patron/divine/akan, /datum/patron/inhumen/zizo)
 	allowed_jobs = list(/datum/job/lord)
 	weight = 25 //Should be fine.
 
@@ -919,11 +919,11 @@
 
 /datum/special_trait/bestial
 	name = "Bestial"
-	greet_text = span_notice("I am blessed by Dendor I feel closer to beasts than men, I can whisper in their tongue.")
+	greet_text = span_notice("I am blessed by Gani I feel closer to beasts than men, I can whisper in their tongue.")
 	weight = 50
-	req_text = "Worship Dendor and be an acolyte"
+	req_text = "Worship Gani and be an acolyte"
 	allowed_jobs = list(/datum/job/monk)
-	allowed_patrons = list(/datum/patron/divine/dendor)
+	allowed_patrons = list(/datum/patron/divine/gani)
 
 /datum/special_trait/bestial/on_apply(mob/living/carbon/human/character, silent)
 	character.grant_language(/datum/language/beast)
@@ -942,7 +942,7 @@
 
 /datum/special_trait/glutton
 	name = "The Glutton"
-	greet_text = span_notice("Baotha has cursed my entire bloodline, demanding that we indulge in luxuries and dine in decadence.")
+	greet_text = span_notice("Hertannea has cursed my entire bloodline, demanding that we indulge in luxuries and dine in decadence.")
 	weight = 20
 	req_text = "Monarch"
 	allowed_jobs = list(/datum/job/lord)
@@ -952,7 +952,7 @@
 	ADD_TRAIT(character, TRAIT_FAT, "[type]")
 	ADD_TRAIT(character, TRAIT_CRITICAL_RESISTANCE, "[type]")
 
-	character.family_datum.AddFamilyCurse(/datum/family_curse/hunger, 1, BAOTHA)
+	character.family_datum.AddFamilyCurse(/datum/family_curse/hunger, 1, HERTANNEA)
 
 	character.transform = character.transform.Scale(1.15, 1)
 	character.update_transform()
@@ -996,21 +996,21 @@
 	character.inspiration = new /datum/inspiration(character)
 	character.attributes?.add_sheet(/datum/attribute_holder/sheet/job/muscial)
 
-/datum/special_trait/baothan
-	name = "Adored by Baotha"
-	greet_text = span_notice("Baotha adore me so much that she gave me some goodies, dope tbh.")
+/datum/special_trait/hertannean
+	name = "Adored by Hertannea"
+	greet_text = span_notice("Hertannea adore me so much that she gave me some goodies, dope tbh.")
 	weight = 10
-	allowed_patrons = list(/datum/patron/inhumen/baotha)
-	req_text = "Have Baotha as your Patron and do not be a Iconoclast, a profane paladin or a inhumen cleric"
+	allowed_patrons = list(/datum/patron/inhumen/hertannea)
+	req_text = "Have Hertannea as your Patron and do not be a Iconoclast, a profane paladin or a inhumen cleric"
 	restricted_jobs = list(/datum/job/advclass/wretch/heretic, /datum/job/advclass/combat/inhumencleric, /datum/job/advclass/combat/profanepaladin)
 
-/datum/special_trait/baothan/on_apply(mob/living/carbon/human/character, silent)
+/datum/special_trait/hertannean/on_apply(mob/living/carbon/human/character, silent)
 	var/holder = character.patron?.devotion_holder
 	if(holder)
 		var/datum/devotion/devotion = new holder()
 		devotion.make_churchling()
 		devotion.grant_to(character)
-	character.mind.special_items["Baotha's Gift"] = /obj/item/clothing/head/corruptflower
+	character.mind.special_items["Hertannea's Gift"] = /obj/item/clothing/head/corruptflower
 	character.AddComponent(/datum/component/theme_music)
 
 /datum/special_trait/black_biar

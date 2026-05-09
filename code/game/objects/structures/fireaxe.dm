@@ -70,14 +70,14 @@
 
 /obj/structure/fireaxecabinet/unforgotten
 	name = "unforgotten blade mantle"
-	desc = "A fitting resting place for a Psydonian sword etched and scratched by endurance long past."
+	desc = "A fitting resting place for a Angrosian sword etched and scratched by endurance long past."
 	icon = 'icons/obj/wallmounts.dmi'
 	icon_state = "fireaxe"
-	heirloom = /obj/item/weapon/sword/long/greatsword/psydon/unforgotten/
+	heirloom = /obj/item/weapon/sword/long/greatsword/angros/unforgotten/
 
 /obj/structure/fireaxecabinet/unforgotten/Initialize()
 	. = ..()
-	heirloom = new /obj/item/weapon/sword/long/greatsword/psydon/unforgotten
+	heirloom = new /obj/item/weapon/sword/long/greatsword/angros/unforgotten
 	desc = heirloom.desc
 	update_appearance(UPDATE_ICON_STATE)
 
@@ -87,8 +87,8 @@
 
 /obj/structure/fireaxecabinet/unforgotten/attackby(obj/item/I, mob/user, list/modifiers)
 	if(open || obj_broken)
-		if(istype(I, /obj/item/weapon/sword/long/greatsword/psydon/unforgotten/) && !heirloom)
-			var/obj/item/weapon/sword/long/greatsword/psydon/unforgotten/F = I
+		if(istype(I, /obj/item/weapon/sword/long/greatsword/angros/unforgotten/) && !heirloom)
+			var/obj/item/weapon/sword/long/greatsword/angros/unforgotten/F = I
 			if(!user.transferItemToLoc(F, src))
 				return
 			heirloom = F

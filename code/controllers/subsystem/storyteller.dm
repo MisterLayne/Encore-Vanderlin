@@ -22,7 +22,7 @@ SUBSYSTEM_DEF(gamemode)
 	/// Our storyteller. They progresses our trackboards and picks out events
 	var/datum/storyteller/current_storyteller
 	/// Result of the storyteller vote/pick. Defaults to Visires.
-	var/selected_storyteller = /datum/storyteller/astrata
+	var/selected_storyteller = /datum/storyteller/visires
 	/// List of all the storytellers. Populated at init. Associative from type
 	var/list/storytellers = list()
 	/// Next process for our storyteller. The wait time is STORYTELLER_WAIT_TIME
@@ -274,39 +274,39 @@ SUBSYSTEM_DEF(gamemode)
 			//Divine Pantheon
 
 			"Angros" = list(
-				"...golden threads drift through the void, stitching stars where wounds once were... something sacred stirs beneath the quiet...",
-				"...a vast warmth flickers behind your closed eyes... broken pieces drift, searching for their whole...",
-				"...you walk among ruins humming with warmth... pieces of something divine lie scattered, each pulse a memory, each breath a promise..."
+				PLACEHOLDER_PATRON_REBRANDING,
+				PLACEHOLDER_PATRON_REBRANDING,
+				PLACEHOLDER_PATRON_REBRANDING
 			),
 
 			"Visires"= list(
-				"...radiance floods your dream... it’s not warmth, but judgment disguised as light...",
-				"...you dream of unending sunrise, gold pouring over endless skies... judgment walks in daylight’s shoes...",
-				"...a glare pierces your soul... you feel seen, judged, burned, yet safe... the light watches, unwavering and eternal..."
+				PLACEHOLDER_PATRON_REBRANDING,
+				PLACEHOLDER_PATRON_REBRANDING,
+				PLACEHOLDER_PATRON_REBRANDING
 			),
 
 			"Akan" = list(
-				"...silver light spills across ink-black halls... you hear pages fluttering without wind, and a voice speaks in riddles...",
-				"...a tapestry of stars weaves itself in your mind... patterns emerge and vanish, revealing truths never spoken aloud...",
-				"...moonlight coils into a key... you reach for it, but your hands are made of questions..."
+				PLACEHOLDER_PATRON_REBRANDING,
+				PLACEHOLDER_PATRON_REBRANDING,
+				PLACEHOLDER_PATRON_REBRANDING
 			),
 
 			"Valdala"= list(
-				"...the dream begins with a closed door... you knock. Silence answers... when it opens, everything you were is counted, weighed...",
-				"...everything is still... you are the last heartbeat in a world already buried... a cold smile waits just past the veil...",
-				"...a quiet woman sits by a river made of ash... she nods once, counting your breath..."
+				PLACEHOLDER_PATRON_REBRANDING,
+				PLACEHOLDER_PATRON_REBRANDING,
+				PLACEHOLDER_PATRON_REBRANDING
 			),
 
 			"Erdl"= list(
-				"...your dream wilts, then blooms. A garden of endings and beginnings surrounds you...",
-				"...you hold your own bones like seeds. Rain falls, and they whisper with life...",
-				"...you see a flower bloom in ash. It dies and returns, brighter, stranger. The rhythm of endings comforts you...",
+				PLACEHOLDER_PATRON_REBRANDING,
+				PLACEHOLDER_PATRON_REBRANDING,
+				PLACEHOLDER_PATRON_REBRANDING,
 			),
 
 			"Mordsol"= list(
-				"...a sword rests beside a scale... neither tips...",
-				"...steel sings in your dreams... a verdict is written in blood and flame, but justice waits before it lands...",
-				"...you duel a mirror image of yourself... the victor is neither, yet the fight continues... law and war share the same breath..."
+				PLACEHOLDER_PATRON_REBRANDING,
+				PLACEHOLDER_PATRON_REBRANDING,
+				PLACEHOLDER_PATRON_REBRANDING
 			),
 
 			"Goler Kanh"= list(
@@ -316,15 +316,15 @@ SUBSYSTEM_DEF(gamemode)
 			),
 
 			"Gani"= list(
-				"...animals scream in tongues you almost understand... trees whisper old pain, searching for their shepherd...",
-				"...vines coil around your limbs. Roots burst from your feet... the forest within you howls, a kingdom lost to madness...",
-				"...eyes glow among tangled thorns... something ancient, betrayed, hungers again..."
+				PLACEHOLDER_PATRON_REBRANDING,
+				PLACEHOLDER_PATRON_REBRANDING,
+				PLACEHOLDER_PATRON_REBRANDING
 			),
 
 			"Mjallidhorn"= list(
-				"...the sea invades your lungs... a storm of blood and salt rises...",
-				"...fins brush past your legs... the water tastes of fury and old wounds...",
-				"...tides drag you under... in the silence, you hear sobbing, not yours... the sea remembers every wound..."
+				PLACEHOLDER_PATRON_REBRANDING,
+				PLACEHOLDER_PATRON_REBRANDING,
+				PLACEHOLDER_PATRON_REBRANDING
 			),
 
 
@@ -335,12 +335,12 @@ SUBSYSTEM_DEF(gamemode)
 			),
 
 			"Pomette"= list(
-				"...you dream in color,red threads, gold loops, blue knots... all pulling gently...",
-				"...a weaving surrounds you... every face you’ve loved or hated is there...",
-				"...your heart is a loom... dreams pass through it, weaving bonds to people you’ve never met, yet feel you’ve always known..."
+				PLACEHOLDER_PATRON_REBRANDING,
+				PLACEHOLDER_PATRON_REBRANDING,
+				PLACEHOLDER_PATRON_REBRANDING
 			),
 
-			//Inhumen Pantheon
+			//heretics
 
 			"Deceivers"= list(
 				"...a shadow slips your pocket open... you feel lighter in your dream...",
@@ -355,15 +355,15 @@ SUBSYSTEM_DEF(gamemode)
 			),
 
 			"Archdevil"= list(
-				"...your mouth is not your own... it’s laughing, snarling, hungry...",
-				"...you tear through flesh with joy... your dream is soaked in red... hunger knows your name, and calls you friend...",
-				"...an ancient drum beats under your ribs... it demands violence in return for peace..."
+				"...there is nothing below... it claws for you, the firmament can only hold so long...",
+				"...you tear through flesh with joy... your dream is soaked in red... hunger knows your name, and calls you friend..",
+				"...an ancient sadness engulfs you... longing to return, furious at something you can scarcely comprehend..."
 			),
 
 			"One Envy"= list(
-				"...eyes stare from skulls that still weep... you cradle a child made of frost and ash... it whispers secrets backwards...",
-				"...your name is forgotten by everyone in your dream... only bones remember...",
-				"...a girl with white eyes smiles at you... her lullaby stitches flesh to spirit..."
+				"...burning eyes of amber are gazing a hole through you... you almost see something inside...",
+				"...lost people keep coming to you... they can never seem to find their way home...",
+				"...you almost feel as if you wrest control of the dream... but your soul urges you stay..."
 			),
 
 			"Unknown" = list("You feel a presence watching your sleep... old, vast, and unknowable. You do not yet know their name.")
@@ -984,7 +984,7 @@ SUBSYSTEM_DEF(gamemode)
 /datum/controller/subsystem/gamemode/proc/set_storyteller(passed_type)
 	if(!storytellers[passed_type])
 		message_admins("Attempted to set an invalid storyteller type: [passed_type], force setting to guide instead.")
-		current_storyteller = storytellers[/datum/storyteller/astrata] //if we dont have any then we brick, lets not do that
+		current_storyteller = storytellers[/datum/storyteller/visires] //if we dont have any then we brick, lets not do that
 		CRASH("Attempted to set an invalid storyteller type: [passed_type].")
 
 	var/datum/storyteller/chosen_storyteller = storytellers[passed_type]
@@ -1325,21 +1325,21 @@ SUBSYSTEM_DEF(gamemode)
 	chosen_chronicle_stats.Cut()
 
 	var/list/current_valid_humans = list()
-	var/mob/living/carbon/human/valid_psydon_favourite
+	var/mob/living/carbon/human/valid_angros_favourite
 
 	for(var/client/client in GLOB.clients)
 		var/mob/living/carbon/human/human_mob = client.mob
 		if(!ishuman(human_mob) || !human_mob.mind || human_mob.stat == DEAD)
 			continue
 		current_valid_humans += human_mob
-		if(client.has_triumph_buy(TRIUMPH_BUY_PSYDON_FAVOURITE))
-			valid_psydon_favourite = human_mob
+		if(client.has_triumph_buy(TRIUMPH_BUY_ANGROS_FAVOURITE))
+			valid_angros_favourite = human_mob
 
-	if(valid_psydon_favourite && length(current_valid_humans) >= 2)
-		chosen_chronicle_stats += CHRONICLE_STATS_PSYDON_FAVOURITE
+	if(valid_angros_favourite && length(current_valid_humans) >= 2)
+		chosen_chronicle_stats += CHRONICLE_STATS_ANGROS_FAVOURITE
 		chosen_chronicle_stats += CHRONICLE_STATS_RANDOM_PASSERBY
-	else if(valid_psydon_favourite)
-		chosen_chronicle_stats += CHRONICLE_STATS_PSYDON_FAVOURITE
+	else if(valid_angros_favourite)
+		chosen_chronicle_stats += CHRONICLE_STATS_ANGROS_FAVOURITE
 		for(var/set_name in chronicle_sets)
 			var/list/set_data = chronicle_sets[set_name]
 			if(length(set_data) >= 2 && GLOB.chronicle_stats[set_data[1]] && GLOB.chronicle_stats[set_data[2]])
@@ -1513,7 +1513,7 @@ SUBSYSTEM_DEF(gamemode)
 
 	var/list/current_valid_humans = list()
 
-	var/mob/living/carbon/human/valid_psydon_favourite
+	var/mob/living/carbon/human/valid_angros_favourite
 
 	var/highest_total_stats = -1
 	var/highest_strength = -1
@@ -1658,8 +1658,8 @@ SUBSYSTEM_DEF(gamemode)
 
 			// Chronicle statistics
 
-			if(human_mob.client.has_triumph_buy(TRIUMPH_BUY_PSYDON_FAVOURITE))
-				valid_psydon_favourite = human_mob
+			if(human_mob.client.has_triumph_buy(TRIUMPH_BUY_ANGROS_FAVOURITE))
+				valid_angros_favourite = human_mob
 
 			var/total_stats = GET_MOB_ATTRIBUTE_VALUE(human_mob, STAT_STRENGTH) + GET_MOB_ATTRIBUTE_VALUE(human_mob, STAT_INTELLIGENCE) + GET_MOB_ATTRIBUTE_VALUE(human_mob, STAT_ENDURANCE) + GET_MOB_ATTRIBUTE_VALUE(human_mob, STAT_CONSTITUTION) + GET_MOB_ATTRIBUTE_VALUE(human_mob, STAT_PERCEPTION) + GET_MOB_ATTRIBUTE_VALUE(human_mob, STAT_SPEED) + GET_MOB_ATTRIBUTE_VALUE(human_mob, STAT_FORTUNE)
 			if(total_stats > highest_total_stats)
@@ -1788,9 +1788,9 @@ SUBSYSTEM_DEF(gamemode)
 		var/mob/living/carbon/human/selected_ugly = pick(ugly_candidates)
 		set_chronicle_stat(CHRONICLE_STATS_UGLIEST_PERSON, selected_ugly, "EYESORE", "#9e6033", "their ugliness")
 
-	if(valid_psydon_favourite)
-		set_chronicle_stat(CHRONICLE_STATS_PSYDON_FAVOURITE, valid_psydon_favourite, "PSYDON'S FAVOURITE", "#e6e6e6", "buying their way in")
-		potential_passers -= valid_psydon_favourite
+	if(valid_angros_favourite)
+		set_chronicle_stat(CHRONICLE_STATS_ANGROS_FAVOURITE, valid_angros_favourite, "ANGROS'S FAVOURITE", "#e6e6e6", "buying their way in")
+		potential_passers -= valid_angros_favourite
 
 	if(length(potential_passers) > 0)
 		var/mob/living/carbon/human/selected_passerby = pick(potential_passers)

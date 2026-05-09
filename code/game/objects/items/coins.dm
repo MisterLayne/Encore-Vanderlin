@@ -58,7 +58,7 @@
 
 /obj/item/coin/pickup(mob/user)
 	. = ..()
-	if(HAS_TRAIT(user, TRAIT_MATTHIOS_CURSE) && prob(33))
+	if(HAS_TRAIT(user, TRAIT_DECEIVERS_CURSE) && prob(33))
 		var/mob/living/carbon/human/H = user
 		to_chat(H, span_warning("The idea repulses me!"))
 		H.cursed_freak_out()
@@ -288,7 +288,7 @@
 	playsound(src, 'sound/foley/coins1.ogg', 100, TRUE, -2)
 
 /obj/item/coin/proc/rig_coin(mob/user)
-	var/outcome = tgui_alert(user, "What will you rig the next coin flip to?","XYLIX", list("Heads","Tails","Play fair"))
+	var/outcome = tgui_alert(user, "What will you rig the next coin flip to?","ILIOPE", list("Heads","Tails","Play fair"))
 	if(QDELETED(src) || !user.is_holding(src))
 		return
 	switch(outcome)
@@ -456,10 +456,10 @@
 	if(!coin_amount)
 		set_quantity(rand(4,14))
 
-/obj/item/coin/silver/pile/xylix
+/obj/item/coin/silver/pile/iliope
 	name = MAP_SWITCH("ziliqua", "INFINTE COIN PILE")
 
-/obj/item/coin/silver/pile/xylix/Initialize()
+/obj/item/coin/silver/pile/iliope/Initialize()
 	. = ..()
 	set_quantity(rand(6,9))
 

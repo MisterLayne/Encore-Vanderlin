@@ -521,7 +521,7 @@
 
 /obj/item/fishing/lure/deluxe
 	name = "enchanted bait"
-	desc = "A ball of unknown ingredients, formulated by Abyssorian priests. Rarely catches something truly special."
+	desc = "A ball of unknown ingredients, formulated by Nortic priests. Rarely catches something truly special."
 	icon = 'icons/roguetown/items/fishing.dmi'
 	icon_state = "deluxebait"
 	spin_frequency = list(2 SECONDS, 3.5 SECONDS)

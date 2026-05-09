@@ -1,8 +1,8 @@
-/datum/language/newpsydonic
-	name = "Psydonic"
+/datum/language/newunsundered
+	name = "Unsundered"
 	icon_state = "psydon_new"
-	spans = list(SPAN_PSYDON)
-	desc = "The common language of Grenzelhoft, evolved from Old Psydonic over centuries."
+	spans = list(SPAN_ANGROS)
+	desc = "The common language of Grenzelhoft, evolved from Old Unsundered over centuries."
 	speech_verb = "states"
 	ask_verb = "questions"
 	exclaim_verb = "shouts"

@@ -3,9 +3,9 @@
 	associated_faith = /datum/faith/inhumen_pantheon
 
 	confess_lines = list(
-		"PSYDON AND HIS CHILDREN ARE THE DEMIURGE!",
-		"THE TEN ARE WORTHLESS COWARDS!",
-		"THE TEN ARE DECEIVERS!"
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
 	)
 
 /datum/patron/inhumen/can_pray(mob/living/follower)
@@ -17,21 +17,21 @@
 	return TRUE
 
 /* ----------------- */
-
+/// Encore edit- Zizo needs to become the One Envy. This involves over 500 file changes, so, lmao, see you soon
 /datum/patron/inhumen/zizo
 	name = ZIZO
-	domain = "Ascended Goddess of Forbidden Magic, Domination, and Power"
-	desc = "Snow elf who slaughtered her kind in ascension, conquered and remade the Dark Elven empires in her name. She proves that any with will can achieve divinity... though at a cost."
-	flaws = "Hubris, Superiority, Fury"
-	worshippers = "Dark Elves, Aspirants, Necromancers, Misandrists"
-	sins = "Pearl-clutching, Moralism, Wastefulness"
-	boons = "You may perform fleshcrafting. Access to roles with magic."
+	domain = PLACEHOLDER_PATRON_REBRANDING
+	desc = PLACEHOLDER_PATRON_REBRANDING
+	flaws = PLACEHOLDER_PATRON_REBRANDING
+	worshippers = PLACEHOLDER_PATRON_REBRANDING
+	sins = PLACEHOLDER_PATRON_REBRANDING
+	boons = PLACEHOLDER_PATRON_REBRANDING
 	//added_traits = list(TRAIT_CABAL)	No need for this. They have fleshcrafting now.
 	devotion_holder = /datum/devotion/inhumen/zizo
 	confess_lines = list(
-		"I FOLLOW THE PATH OF ZIZO!",
-		"LONG LIVE QUEEN ZIZO!",
-		"ZIZO SHOWED ME THE WAY!",
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
 	)
 	storyteller = /datum/storyteller/zizo
 	added_verbs = list(
@@ -39,77 +39,78 @@
 		/mob/living/carbon/human/proc/praise,
 	)
 
-/datum/patron/inhumen/graggar
-	name = GRAGGAR
-	domain = "Ascended God, the Dark Sini-Star of Unnatural Beasts, Unsated Consumption, and Unbridled Hatred"
-	desc = "Became the first orc upon ascension through his habit of consuming the bodies of those he conquered. His forces continue to ravage the lands in his name. Through him, one may achieve true strength."
-	flaws = "Rage, Hatred, Bloodthirst"
-	worshippers = "Greenskins, The Revenge-Driven, Sadists, Misogynists"
-	sins = "Compassion, Frailty, Servility"
-	boons = "You are drawn to the flavour of raw flesh, organs, and blood. You may consume without worry."
+/datum/patron/inhumen/archdevils
+	name = ARCHDEVILS
+	domain = PLACEHOLDER_PATRON_REBRANDING
+	desc = PLACEHOLDER_PATRON_REBRANDING
+	flaws = PLACEHOLDER_PATRON_REBRANDING
+	worshippers = PLACEHOLDER_PATRON_REBRANDING
+	sins = PLACEHOLDER_PATRON_REBRANDING
+	boons = PLACEHOLDER_PATRON_REBRANDING
 	added_traits = list(TRAIT_ORGAN_EATER, TRAIT_BLOODDRINKER)
-	devotion_holder = /datum/devotion/inhumen/graggar
+	devotion_holder = /datum/devotion/inhumen/archdevils
 	confess_lines = list(
-		"GRAGGAR IS THE BEAST I WORSHIP!",
-		"GRAGGAR WILL RAVAGE YOU!",
-		"GRAGGAR BRINGS UNHOLY DESTRUCTION!"
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
 	)
-	storyteller = /datum/storyteller/graggar
+	storyteller = /datum/storyteller/archdevils
 
-/datum/patron/inhumen/matthios
-	name = MATTHIOS
-	domain = "God of Thievery, Ill-Gotten Gains, and Highwaymen"
-	desc = "Legendary humen bandit whose name was attributed to countless great thefts. It is because of his legacy that nobles clutch their coin purses to their chests in town."
-	flaws = "Pride, Greed, Orneriness"
-	worshippers = "Outlaws, Noble-Haters, Downtrodden Peasantry"
-	sins = "Clumsiness, Stupidity, Humility"
-	boons = "You can see the most expensive item someone is carrying."
-	added_traits = list(TRAIT_MATTHIOS_EYES)
-	devotion_holder = /datum/devotion/inhumen/matthios
+/datum/patron/inhumen/deceivers
+	name = DECEIVERS
+	domain = PLACEHOLDER_PATRON_REBRANDING
+	desc = PLACEHOLDER_PATRON_REBRANDING
+	flaws = PLACEHOLDER_PATRON_REBRANDING
+	worshippers = PLACEHOLDER_PATRON_REBRANDING
+	sins = PLACEHOLDER_PATRON_REBRANDING
+	boons = PLACEHOLDER_PATRON_REBRANDING
+	added_traits = list(TRAIT_DECEIVERS_EYES)
+	devotion_holder = /datum/devotion/inhumen/deceivers
 	confess_lines = list(
-		"MATTHIOS STEALS FROM THE WORTHLESS!",
-		"MATTHIOS IS JUSTICE FOR THE COMMON MAN!",
-		"MATTHIOS IS MY LORD, I SHALL BE HIS MARTYR!",
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
 	)
-	storyteller = /datum/storyteller/matthios
+	storyteller = /datum/storyteller/deceivers
 
-/datum/patron/inhumen/baotha
-	name = BAOTHA
-	domain = "Goddess of Drugs, Self-Preservation, and Remorseless Joy"	//Bright-dyed hair falls within 'remorseless joy.' Joy for one's self at expense of the setting. Same for her music taste.
-	desc = "Ascended, formerly disgraced tiefling queen, notorious for having a mind elsewhere. Drove her kingdom into the ground through her demands and addictions. The first tiefling noble, last tiefling noble, and sole reason there are no more tiefling nobles. As she preaches to her followers, 'Joy at all costs!'"
-	flaws = "Manipulation, Self-Destruction, Willingness to Sacrifice Others"
-	worshippers = "Addicts, Hedonists, Pink-Haired Harlots"
-	sins = "Sobriety, Self-Sacrifice, Faltering Willpower"
-	boons = "You will never overdose on drugs."
+/datum/patron/inhumen/hertannea
+	name = HERTANNEA
+	domain = PLACEHOLDER_PATRON_REBRANDING
+	desc = PLACEHOLDER_PATRON_REBRANDING
+	flaws = PLACEHOLDER_PATRON_REBRANDING
+	worshippers = PLACEHOLDER_PATRON_REBRANDING
+	sins = PLACEHOLDER_PATRON_REBRANDING
+	boons = PLACEHOLDER_PATRON_REBRANDING
 	added_traits = list(TRAIT_CRACKHEAD)
-	devotion_holder = /datum/devotion/inhumen/baotha
+	devotion_holder = /datum/devotion/inhumen/hertannea
 	confess_lines = list(
-		"LIVE, LAUGH, LOVE! IN BAOTHA'S NAME!",
-		"JOY AT ALL COSTS! BAOTHA'S TEACHINGS REIGN!",
-		"BAOTHA'S WHISPERS CALM MY MIND!",
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
 	)
-	storyteller = /datum/storyteller/baotha
+	storyteller = /datum/storyteller/hertannea
 
-/// Maniac Patron - Their mind is broken by secrets of Zizo/Graggar combined. They quite possibly know the reality of what happens outside the planet. They may think this is all a game. They are clearly insane.
-/datum/patron/inhumen/graggar_zizo
-	name = "Graggazo"
-	domain = "Ascended God who slaughtered her kind in ascension, the Dark Sini-Star of Unnatural Beasts, Forbidden Magic, and Unbridled Hatred."
-	desc = "Became the first snow orc upon ascension through his habit of consuming the bodies of those he conquered. His forces continue to ravage the lands in her name. He proves that any with will can achieve divinity... though at a cost. MAKE THIS MAKE SENSE. MY MIND! MY MIND!!"
-	flaws = "Nothing, Everything, Nothing"
-	worshippers = "Broken Minds, Overshared Secrets, Space-Faring Species Like You, Misanthropes"
-	sins = "The Unseen, Secrets, Worthless Pigs"
-	boons = "You are drawn to the flavour of other followers of Zizo, and may see them when you consume without worry."
+/// Encore edit for below- pending whatever the fuck we need to do to swap Zizo to the One Envy. I guess it works but it will definitely need some adjustment
+/// Maniac Patron - Their mind is broken by secrets of Zizo/Archdevils combined. They quite possibly know the reality of what happens outside the planet. They may think this is all a game. They are clearly insane.
+/datum/patron/inhumen/archdevils_zizo
+	name = "The Seven Sages"
+	domain = PLACEHOLDER_PATRON_REBRANDING
+	desc = PLACEHOLDER_PATRON_REBRANDING
+	flaws = PLACEHOLDER_PATRON_REBRANDING
+	worshippers = PLACEHOLDER_PATRON_REBRANDING
+	sins = PLACEHOLDER_PATRON_REBRANDING
+	boons = PLACEHOLDER_PATRON_REBRANDING
 	added_traits = list(TRAIT_ORGAN_EATER, TRAIT_BLOODDRINKER, TRAIT_CABAL)
 	confess_lines = list(
-		"WHERE AM I!",
-		"NONE OF THIS IS REAL!",
-		"WHO AM I WORSHIPPING?!"
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
 	)
 
-/datum/patron/inhumen/graggar_zizo/preference_accessible(datum/preferences/prefs)
+/datum/patron/inhumen/archdevils_zizo/preference_accessible(datum/preferences/prefs)
 	return FALSE
 
-/datum/patron/inhumen/graggar_zizo/can_pray(mob/living/follower)
+/datum/patron/inhumen/archdevils_zizo/can_pray(mob/living/follower)
 	var/datum/antagonist/maniac/dreamer = follower.mind.has_antag_datum(/datum/antagonist/maniac)
 	if(dreamer)
 		return TRUE
@@ -119,7 +120,7 @@
 	message_admins("[ADMIN_LOOKUPFLW(follower)] has been gibbed due to praying as a non-maniac with their patron set to Graggazo. Whoops..")
 	return FALSE
 
-/datum/patron/inhumen/graggar_zizo/hear_prayer(mob/living/follower, message)
+/datum/patron/inhumen/archdevils_zizo/hear_prayer(mob/living/follower, message)
 	var/datum/antagonist/maniac/dreamer = follower.mind.has_antag_datum(/datum/antagonist/maniac)
 	if(!dreamer)
 		return FALSE

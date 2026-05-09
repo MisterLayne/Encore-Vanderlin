@@ -29,7 +29,7 @@
 
 /datum/job/advclass/mercenary/bogwalker
 	title = "Bogwalker"
-	tutorial = "You've spent your years wandering the bogs of Psydonia, eking out a living a hunter of both men and beast. \
+	tutorial = "You've spent your years wandering the bogs of Gaia, eking out a living a hunter of both men and beast. \
 	Your axe has claimed many a head and the bog has hardened your body and mind against all threats."
 	allowed_races = list(SPEC_ID_HALF_ORC)
 	outfit = /datum/outfit/mercenary/bogwalker

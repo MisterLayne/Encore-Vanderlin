@@ -1,21 +1,21 @@
-/datum/objective/personal/abyssor_splash
+/datum/objective/personal/mjallidhorn_splash
 	name = "Splash Water"
 	category = "Mjallidhorn's Chosen"
 	triumph_count = 2
 	rewards = list("2 Triumphs", "Mjallidhorn grows stronger", "Mjallidhorn blesses you (+1 Strength)")
 
-/datum/objective/personal/abyssor_splash/on_creation()
+/datum/objective/personal/mjallidhorn_splash/on_creation()
 	. = ..()
 	if(owner?.current)
 		RegisterSignal(owner.current, COMSIG_SPLASHED_MOB, PROC_REF(on_mob_splashed))
 	update_explanation_text()
 
-/datum/objective/personal/abyssor_splash/Destroy()
+/datum/objective/personal/mjallidhorn_splash/Destroy()
 	if(owner?.current)
 		UnregisterSignal(owner.current, COMSIG_SPLASHED_MOB)
 	return ..()
 
-/datum/objective/personal/abyssor_splash/proc/on_mob_splashed(datum/source, mob/target, list/reagents_splashed)
+/datum/objective/personal/mjallidhorn_splash/proc/on_mob_splashed(datum/source, mob/target, list/reagents_splashed)
 	SIGNAL_HANDLER
 	if(completed || target == owner.current || target.stat == DEAD || !target.client)
 		return
@@ -28,15 +28,15 @@
 	if(water_volume >= 30)
 		complete_objective()
 
-/datum/objective/personal/abyssor_splash/complete_objective()
+/datum/objective/personal/mjallidhorn_splash/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("You've unleashed Mjallidhorn's rage, completing the objective!"))
-	adjust_storyteller_influence(ABYSSOR, 20)
+	adjust_storyteller_influence(MJALLIDHORN, 20)
 	UnregisterSignal(owner.current, COMSIG_SPLASHED_MOB)
 
-/datum/objective/personal/abyssor_splash/reward_owner()
+/datum/objective/personal/mjallidhorn_splash/reward_owner()
 	. = ..()
-	owner.current.adjust_stat_modifier(STATMOD_ABYSSOR_BLESSING, list(STAT_STRENGTH =  1))
+	owner.current.adjust_stat_modifier(STATMOD_MJALLIDHORN_BLESSING, list(STAT_STRENGTH =  1))
 
-/datum/objective/personal/abyssor_splash/update_explanation_text()
+/datum/objective/personal/mjallidhorn_splash/update_explanation_text()
 	explanation_text = "Mjallidhorn is RAGING! Splash some ingrate who forgot his name with a bucket full of water!"

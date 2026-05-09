@@ -26,11 +26,11 @@
 	var/nav_x = 0 // Navigation X coordinate
 	var/nav_y = 0 // Navigation Y coordinate
 
-	var/matthios_fragment = FALSE
+	var/deceivers_fragment = FALSE
 	var/list/ore_types_lower
 	var/list/ore_types_upper
 
-/datum/island_data/New(turf/bl, size, _island_name, _difficulty, _matthios, list/_ore_types_lower, list/_ore_types_upper)
+/datum/island_data/New(turf/bl, size, _island_name, _difficulty, _deceivers, list/_ore_types_lower, list/_ore_types_upper)
 	bottom_left = bl
 	island_size = size
 	difficulty = _difficulty
@@ -41,7 +41,7 @@
 
 	ore_types_lower = _ore_types_lower
 	ore_types_upper = _ore_types_upper
-	matthios_fragment = _matthios
+	deceivers_fragment = _deceivers
 
 /datum/island_data/proc/get_difficulty_text()
 	switch(difficulty)
@@ -203,11 +203,11 @@ SUBSYSTEM_DEF(terrain_generation)
 	// Phase 1: Generate caves (z and z+1)
 	var/datum/cave_generator/cave_gen
 
-	var/matthios = FALSE
+	var/deceivers = FALSE
 	if(prob(30) || first)
 		first = FALSE
-		cave_gen = new /datum/cave_generator/matthios_fragment(cave_biome, size, size)
-		matthios = TRUE
+		cave_gen = new /datum/cave_generator/deceivers_fragment(cave_biome, size, size)
+		deceivers = TRUE
 	else
 		cave_gen = new(cave_biome, size, size)
 
@@ -221,13 +221,13 @@ SUBSYSTEM_DEF(terrain_generation)
 		log_world("ERROR: Could not locate island z-level at z+2")
 		return FALSE
 
-	var/datum/island_generator/island_gen = new(island_biome, size, size, _matthios = matthios)
+	var/datum/island_generator/island_gen = new(island_biome, size, size, _deceivers = deceivers)
 
 	if(!island_gen.generate(island_corner))
 		log_world("ERROR: Island generation failed at ([island_corner.x], [island_corner.y], [island_corner.z])")
 		return FALSE
 
-	var/datum/island_data/island = new(bottom_left, size + (perimeter_width * 2), island_biome.name, island_biome.difficulty, matthios, cave_biome.ore_types_lower, cave_biome.ore_types_upper)
+	var/datum/island_data/island = new(bottom_left, size + (perimeter_width * 2), island_biome.name, island_biome.difficulty, deceivers, cave_biome.ore_types_lower, cave_biome.ore_types_upper)
 	generate_island_position(island)
 	island_registry += island
 

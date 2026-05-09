@@ -91,7 +91,7 @@
 	sleeved = 'icons/roguetown/clothing/special/onmob/evilarmor.dmi'
 	sellprice = 0 // Incredibly evil Zizoid armor, this should be burnt, nobody wants this
 
-/obj/item/clothing/pants/platelegs/matthios
+/obj/item/clothing/pants/platelegs/deceivers
 	name = "gilded leggings"
 	desc = "Plate leggings. perfect for sprinting away after a theft of mammon, or life."
 	icon_state = "matthioslegs"
@@ -100,7 +100,7 @@
 	sleeved = 'icons/roguetown/clothing/special/onmob/evilarmor.dmi'
 	sellprice = 0 // See above comment
 
-/obj/item/clothing/pants/platelegs/graggar
+/obj/item/clothing/pants/platelegs/archdevils
 	name = "vicious leggings"
 	desc = "A sinister pair of plate chausses that have born witness many violent atrocities."
 	icon_state = "graggarplatelegs"

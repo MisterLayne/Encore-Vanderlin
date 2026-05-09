@@ -431,7 +431,7 @@
 
 /obj/item/reagent_containers/food/snacks/bread/bookbread
 	name = "bookbread"
-	desc = "On the days when Noc's reign lengthens to its apex, all proper Ten fearing folk huddle by their warm hearths, exchanging both books and pastries such as this."
+	desc = "On the days when Akan's reign lengthens to its apex, all proper Ten fearing folk huddle by their warm hearths, exchanging both books and pastries such as this."
 	icon_state = "bookbread"
 	base_icon_state = "bookbread"
 	dropshrink = 0.8
@@ -693,7 +693,7 @@
 
 /obj/item/reagent_containers/food/snacks/bread/bookbread/plum
 	name = "plum bookbread"
-	desc = "The origin of Nocsmas are shrouded in mystery, perhaps intentionally so, though some theorize it may have had its origins as an originally Psydonian holiday."
+	desc = "The origin of Nocsmas are shrouded in mystery, perhaps intentionally so, though some theorize it may have had its origins as an originally Angrosian holiday."
 	icon_state = "plum_bookbread"
 	base_icon_state = "plum_bookbread"
 	slice_path = /obj/item/reagent_containers/food/snacks/bookbreadslice/plum
@@ -742,7 +742,7 @@
 
 /obj/item/reagent_containers/food/snacks/bookbreadslice/lemon
 	name = "sliced lemon bookbread"
-	desc = "Sweet but a little sour, like a good Xylixian comedy."
+	desc = "Sweet but a little sour, like a good fool's comedy."
 	icon_state = "lemon_bookbread_slice"
 
 	nutrition = BOOKBREADSLICE_NUTRITION + DRIEDFRUIT_NUTRITION
@@ -1643,8 +1643,8 @@
 	faretype = FARE_FINE
 	item_weight = 130 GRAMS
 
-/*	.................   Xylix Bun   ................... */
-/obj/item/reagent_containers/food/snacks/foodbase/xylixbun_raw
+/*	.................   Iliope Bun   ................... */
+/obj/item/reagent_containers/food/snacks/foodbase/iliopebun_raw
 	name = "mysterious dough"
 	desc = "This dough seems entirely inconspicous, sure to bake into a regular bun."
 	icon_state = "xylixdough"
@@ -1659,8 +1659,8 @@
 	item_weight = 120 GRAMS
 
 
-/obj/item/reagent_containers/food/snacks/xylixbun
-	name = "xylixbun"
+/obj/item/reagent_containers/food/snacks/iliopebun
+	name = "iliopebun"
 	desc = "A very smug looking bun throwing up a holy gesture. Surely nothing bad could come of eating this?"
 	icon_state = "xylixbun"
 	tastes = list("horribly spicy bread" = 1)
@@ -2321,7 +2321,7 @@
 
 /obj/item/reagent_containers/food/snacks/griddlecake
 	name = "griddlecake"
-	desc = "Enjoyed by mercenaries throughout Psydonia, though despite their prevalence no one quite knows the origin."
+	desc = "Enjoyed by mercenaries throughout Gaia, though despite their prevalence no one quite knows the origin."
 	bitesize = 6
 	icon_state = "griddlecake"
 	tastes = list("fluffy butterdough" = 1)
@@ -2345,7 +2345,7 @@
 
 /obj/item/reagent_containers/food/snacks/griddlecake/lemon
 	name = "lemon griddlecake"
-	desc = "Enjoyed by mercenaries throughout Psydonia, though despite their prevalence no one quite knows the origin."
+	desc = "Enjoyed by mercenaries throughout Gaia, though despite their prevalence no one quite knows the origin."
 	bitesize = 6
 	icon_state = "griddlecakelemon"
 	tastes = list("fluffy butterdough" = 1, "sweet" = 1, "lemon" = 1)
@@ -2370,7 +2370,7 @@
 
 /obj/item/reagent_containers/food/snacks/griddlecake/apple
 	name = "apple griddlecake"
-	desc = "Enjoyed by mercenaries throughout Psydonia, though despite their prevalence no one quite knows the origin."
+	desc = "Enjoyed by mercenaries throughout Gaia, though despite their prevalence no one quite knows the origin."
 	bitesize = 6
 	icon_state = "griddlecakeapple"
 	tastes = list("fluffy butterdough" = 1, "sweet" = 1, "apple" = 1)
@@ -2395,7 +2395,7 @@
 
 /obj/item/reagent_containers/food/snacks/griddlecake/berry
 	name = "jacksberry griddlecake"
-	desc = "Enjoyed by mercenaries throughout Psydonia, though despite their prevalence no one quite knows the origin."
+	desc = "Enjoyed by mercenaries throughout Gaia, though despite their prevalence no one quite knows the origin."
 	bitesize = 6
 	icon_state = "griddlecakeberry"
 	tastes = list("fluffy butterdough" = 1, "sweet" = 1, "berry" = 1)

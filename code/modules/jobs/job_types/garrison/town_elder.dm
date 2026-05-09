@@ -55,7 +55,7 @@
 		"Viola" = /obj/item/instrument/viola
 	)
 
-	spawned.select_equippable(player_client, instruments, message = "Choose your instrument.", title = "XYLIX")
+	spawned.select_equippable(player_client, instruments, message = "Choose your instrument.", title = "ILIOPE")
 
 /mob/living/carbon/human/proc/townannouncement()
 	set name = "Elder Announcement"
@@ -248,7 +248,7 @@
 	traits = list(
 		TRAIT_DEADNOSE,
 		TRAIT_SEEDKNOW,
-		TRAIT_MALUMFIRE
+		TRAIT_GOLERKANHFIRE
 	)
 
 /datum/outfit/town_elder/master_of_crafts_and_labor
@@ -299,35 +299,35 @@
 		/datum/attribute/skill/misc/music = 40
 	)
 
-/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/eora
+/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/pomette
 	raw_attribute_list = list(
 		/datum/attribute/skill/misc/music = 20
 	)
 
-/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/noc
+/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/akan
 	raw_attribute_list = list(
 		/datum/attribute/skill/labor/mathematics = 20
 	)
 
-/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/pestra
+/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/erdl
 	raw_attribute_list = list(
 		/datum/attribute/skill/misc/medicine = 10,
 		/datum/attribute/skill/craft/alchemy = 10
 	)
 
-/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/dendor
+/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/gani
 	raw_attribute_list = list(
 		/datum/attribute/skill/labor/farming = 20,
 		/datum/attribute/skill/labor/taming = 10
 	)
 
-/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/abyssor
+/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/mjallidhorn
 	raw_attribute_list = list(
 		/datum/attribute/skill/labor/fishing = 20,
 		/datum/attribute/skill/misc/swimming = 20
 	)
 
-/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/ravox
+/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/mordsol
 	raw_attribute_list = list(
 		/datum/attribute/skill/combat/polearms = 10
 	)
@@ -337,13 +337,13 @@
 		/datum/attribute/skill/combat/axesmaces = list(0, 10)
 	)
 
-/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/xylix
+/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/iliope
 	raw_attribute_list = list(
 		/datum/attribute/skill/misc/stealing = 20,
 		/datum/attribute/skill/misc/music = 30
 	)
 
-/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/malum
+/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/golerkanh
 	raw_attribute_list = list(
 		/datum/attribute/skill/craft/blacksmithing = 20,
 		/datum/attribute/skill/craft/smelting = 20,
@@ -377,18 +377,18 @@
 
 	spawned.virginity = TRUE
 	switch(spawned.patron?.type)
-		if(/datum/patron/divine/astrata)
+		if(/datum/patron/divine/visires)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
-		if(/datum/patron/divine/necra)
+		if(/datum/patron/divine/valdala)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatGravekeeper.ogg'
 			ADD_TRAIT(spawned, TRAIT_DEADNOSE, TRAIT_GENERIC)
-		if(/datum/patron/divine/eora)
+		if(/datum/patron/divine/pomette)
 			ADD_TRAIT(spawned, TRAIT_BEAUTIFUL, TRAIT_GENERIC)
 			ADD_TRAIT(spawned, TRAIT_EMPATH, TRAIT_GENERIC)
 			spawned.virginity = FALSE
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/eora)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/pomette)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatEora.ogg'
-		if(/datum/patron/divine/noc)
+		if(/datum/patron/divine/akan)
 			spawned.adjust_skill_level(/datum/attribute/skill/labor/mathematics, 20)
 			var/language = pickweight(list("Dwarvish" = 1, "Elvish" = 1, "Hellspeak" = 1, "Zaladin" = 1, "Orcish" = 1,))
 			switch(language)
@@ -418,25 +418,25 @@
 					I learned the tongue of the savages in my time.")
 					)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatNoc.ogg'
-		if(/datum/patron/divine/pestra)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/pestra)
+		if(/datum/patron/divine/erdl)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/erdl)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
-		if(/datum/patron/divine/dendor)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/dendor)
+		if(/datum/patron/divine/gani)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/gani)
 			ADD_TRAIT(spawned, TRAIT_SEEDKNOW, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatDendor.ogg'
-		if(/datum/patron/divine/abyssor)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/abyssor)
+		if(/datum/patron/divine/mjallidhorn)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/mjallidhorn)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAbyssor.ogg'
-		if(/datum/patron/divine/ravox)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/ravox)
+		if(/datum/patron/divine/mordsol)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/mordsol)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatRavox.ogg'
-		if(/datum/patron/divine/xylix)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/xylix)
+		if(/datum/patron/divine/iliope)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/iliope)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatXylix.ogg'
-		if(/datum/patron/divine/malum)
-			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/malum)
-			ADD_TRAIT(spawned, TRAIT_MALUMFIRE, TRAIT_GENERIC)
+		if(/datum/patron/divine/golerkanh)
+			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/town_elder/hearth_acolyte/patron/golerkanh)
+			ADD_TRAIT(spawned, TRAIT_GOLERKANHFIRE, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
 
 	if(spawned.age == AGE_OLD)
@@ -466,27 +466,27 @@
 /datum/outfit/town_elder/hearth_acolyte/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
 	. = ..()
 	switch(equipped_human.patron?.type)
-		if(/datum/patron/divine/astrata)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/astrata
-		if(/datum/patron/divine/necra)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/necra
-		if(/datum/patron/divine/eora)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/eora
-		if(/datum/patron/divine/noc)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/noc
-		if(/datum/patron/divine/pestra)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/pestra
+		if(/datum/patron/divine/visires)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/visires
+		if(/datum/patron/divine/valdala)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/valdala
+		if(/datum/patron/divine/pomette)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/pomette
+		if(/datum/patron/divine/akan)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/akan
+		if(/datum/patron/divine/erdl)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/erdl
 			backpack_contents += /obj/item/needle/blessed
-		if(/datum/patron/divine/dendor)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/dendor
-		if(/datum/patron/divine/abyssor)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/abyssor
-		if(/datum/patron/divine/ravox)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/ravox
-		if(/datum/patron/divine/xylix)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/xylix
-		if(/datum/patron/divine/malum)
-			neck = /obj/item/clothing/neck/psycross/silver/divine/malum
+		if(/datum/patron/divine/gani)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/gani
+		if(/datum/patron/divine/mjallidhorn)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
+		if(/datum/patron/divine/mordsol)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/mordsol
+		if(/datum/patron/divine/iliope)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/iliope
+		if(/datum/patron/divine/golerkanh)
+			neck = /obj/item/clothing/neck/psycross/silver/divine/golerkanh
 			backpack_contents += /obj/item/weapon/hammer/iron
 		else
 			neck = /obj/item/clothing/neck/psycross/silver

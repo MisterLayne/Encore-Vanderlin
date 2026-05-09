@@ -43,7 +43,7 @@
 //	stat_attack = UNCONSCIOUS
 
 	ai_controller = /datum/ai_controller/minotaur
-	dendor_taming_chance = DENDOR_TAME_PROB_NONE
+	gani_taming_chance = GANI_TAME_PROB_NONE
 
 
 /mob/living/simple_animal/hostile/retaliate/minotaur/Initialize()

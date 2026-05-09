@@ -54,7 +54,7 @@
 2025-08-09:
   Arkatos:
   - rscadd: Influences balancing, added number of medicators as a possible influence
-      for Pestra.
+      for Erdl.
   - bugfix: Influence modifier is now correctly applied to negative influences.
   CheffieGithub:
   - bugfix: Shield heraldry works again.
@@ -181,7 +181,7 @@
   - sound: lock unlock door sounds are back
 2025-08-17:
   Arkatos:
-  - rscadd: Xylix as a storyteller now respects round start events requirements. (But
+  - rscadd: Iliope as a storyteller now respects round start events requirements. (But
       then true silliness begins)
   PotatoTomahto:
   - balance: royal knights no longer get master skill

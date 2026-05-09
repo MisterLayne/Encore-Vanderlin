@@ -124,7 +124,7 @@
 	dyeable = TRUE
 
 /obj/item/clothing/face/sack/psy
-	name = "psydonian sack mask"
+	name = "angrosian sack mask"
 	desc = "An ordinary brown sack. This one has eyeholes cut into it, bearing a crude chalk drawing of Angros' cross upon its visage. Unsettling for most."
 	icon_state = "sackmask_psy"
 
@@ -200,7 +200,7 @@
 /obj/item/clothing/face/facemask/steel/confessor/lensed/examine(mob/user)
 	. = ..()
 	if(HAS_TRAIT(user, TRAIT_INQUISITION))
-		. += span_info("This mask contains noc-shades, which provide the user with short-range dark-vision when activated.")
+		. += span_info("This mask contains night-shades, which provide the user with short-range dark-vision when activated.")
 		. += span_warning("Use the Middle Mouse Button on the glasses, with your jump, bite, etc.. intents OFF to (de)activate nightvision.")
 
 /obj/item/clothing/face/facemask/steel/confessor/lensed/equipped(mob/user, slot)

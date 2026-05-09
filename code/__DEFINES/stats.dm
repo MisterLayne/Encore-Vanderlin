@@ -26,26 +26,26 @@
 #define STATMOD_RITUAL "Ritual"
 
 // Patrons
-#define STATMOD_ASTRATA_BLESSING "astrata_blessing"
-#define STATMOD_ABYSSOR_BLESSING "abyssor_blessing"
+#define STATMOD_VISIRES_BLESSING "visires_blessing"
+#define STATMOD_MJALLIDHORN_BLESSING "mjallidhorn_blessing"
 #define STATMOD_NOC_BLESSING "noc_blessing"
-#define STATMOD_MALUM_BLESSING "malum_blessing"
-#define STATMOD_PESTRA_BLESSING "pestra_blessing"
-#define STATMOD_DENDOR_BLESSING "dendor_blessing"
-#define STATMOD_EORA_BLESSING "eora_blessing"
-#define STATMOD_RAVOX_BLESSING "ravox_blessing"
-#define STATMOD_XYLIX_BLESSING "xylix_blessing"
+#define STATMOD_GOLERKANH_BLESSING "golerkanh_blessing"
+#define STATMOD_ERDL_BLESSING "erdl_blessing"
+#define STATMOD_GANI_BLESSING "gani_blessing"
+#define STATMOD_POMETTE_BLESSING "pomette_blessing"
+#define STATMOD_MORDSOL_BLESSING "mordsol_blessing"
+#define STATMOD_ILIOPE_BLESSING "iliope_blessing"
 
-#define STATMOD_GRAGGAR_BLESSING "graggar_blessing"
-#define STATMOD_MATTHIOS_BLESSING "matthios_blessing"
+#define STATMOD_ARCHDEVILS_BLESSING "archdevils_blessing"
+#define STATMOD_DECEIVERS_BLESSING "deceivers_blessing"
 #define STATMOD_ZIZO_BLESSING "zizo_blessing"
-#define STATMOD_BAOTHA_BLESSING "baotha_blessing"
+#define STATMOD_HERTANNEA_BLESSING "hertannea_blessing"
 
 // Events
-#define STATMOD_XYLIX_FORTUNE "xylix_fortune"
-#define STATMOD_RAVOX_RESOLVE "ravox_resolve"
-#define STATMOD_GRAGGAR_CULLING "graggar_culling"
-#define STATMOD_EORA_MARRIAGE "eora_marriage"
+#define STATMOD_ILIOPE_FORTUNE "iliope_fortune"
+#define STATMOD_MORDSOL_RESOLVE "mordsol_resolve"
+#define STATMOD_ARCHDEVILS_CULLING "archdevils_culling"
+#define STATMOD_POMETTE_MARRIAGE "pomette_marriage"
 
 // Spells
 #define STATMOD_EQUALIZE "Equalized"

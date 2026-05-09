@@ -9,7 +9,7 @@
 	spell_type = SPELL_MIRACLE
 	antimagic_flags = MAGIC_RESISTANCE_HOLY
 	associated_skill = /datum/attribute/skill/magic/holy
-	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/necra)
+	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/valdala)
 
 	invocation = "Undermaiden grant thee passage forth and spare the trials of the forgotten."
 	invocation_type = INVOCATION_WHISPER
@@ -33,7 +33,7 @@
 			if(closet.check_double_consecration(cast_on, owner)) // Check if the thing we're casting the rites on is a grave with an already-consecrated casket.
 				var/obj/structure/closet/dirthole/grave = cast_on // This should only ever get called on graves anyways.
 				cast_on.icon_state = "gravedoubleconsecrated"
-				owner.visible_message(span_rose("The air gets colder as [owner] consecrates [cast_on], woe betide any graverobber."), span_rose("Necra's gaze turns over to [cast_on] as I consecrate it. Any who would rob this grave will pay a dire toll."))
+				owner.visible_message(span_rose("The air gets colder as [owner] consecrates [cast_on], woe betide any graverobber."), span_rose("Valdala's gaze turns over to [cast_on] as I consecrate it. Any who would rob this grave will pay a dire toll."))
 				grave.is_consecrated += 1 // this is how we define a grave as "doubly consecrated"
 			else
 				owner.visible_message(span_rose("[owner] consecrates [cast_on]."), span_rose("My funeral rites have been performed on [cast_on]."))
@@ -41,7 +41,7 @@
 			if(istype(cast_on, /obj/structure/closet/dirthole)) // if it's a grave, increase it's level of consecration.
 				var/obj/structure/closet/dirthole/grave = cast_on
 				grave.is_consecrated += 1
-				if(grave.is_consecrated < 1) // don't count graves as being consecrated multiple time for Necra
+				if(grave.is_consecrated < 1) // don't count graves as being consecrated multiple time for Valdala
 					SEND_SIGNAL(owner, COMSIG_GRAVE_CONSECRATED, cast_on)
 					record_round_statistic(STATS_GRAVES_CONSECRATED)
 			return

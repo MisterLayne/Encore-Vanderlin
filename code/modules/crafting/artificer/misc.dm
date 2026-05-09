@@ -494,60 +494,60 @@
 	required_item = /obj/item/ingot/silver
 	created_item = /obj/item/clothing/neck/psycross/silver/divine
 
-/datum/artificer_recipe/psycross/noc
+/datum/artificer_recipe/psycross/akan
 	name = "Akan Psycross"
 	required_item = /obj/item/ingot/silver
-	created_item = /obj/item/clothing/neck/psycross/silver/divine/noc
+	created_item = /obj/item/clothing/neck/psycross/silver/divine/akan
 
-/datum/artificer_recipe/psycross/astrata
+/datum/artificer_recipe/psycross/visires
 	name = "Visires Psycross"
 	required_item = /obj/item/ingot/silver
-	created_item = /obj/item/clothing/neck/psycross/silver/divine/astrata
+	created_item = /obj/item/clothing/neck/psycross/silver/divine/visires
 
-/datum/artificer_recipe/psycross/dendor
+/datum/artificer_recipe/psycross/gani
 	name = "Gani Psycross"
 	required_item = /obj/item/ingot/silver
-	created_item = /obj/item/clothing/neck/psycross/silver/divine/dendor
+	created_item = /obj/item/clothing/neck/psycross/silver/divine/gani
 
-/datum/artificer_recipe/psycross/abyssor
+/datum/artificer_recipe/psycross/mjallidhorn
 	name = "Mjallidhorn Psycross"
 	required_item = /obj/item/ingot/silver
-	created_item = /obj/item/clothing/neck/psycross/silver/divine/abyssor
+	created_item = /obj/item/clothing/neck/psycross/silver/divine/mjallidhorn
 
-/datum/artificer_recipe/psycross/necra
+/datum/artificer_recipe/psycross/valdala
 	name = "Valdala Psycross"
 	required_item = /obj/item/ingot/silver
-	created_item = /obj/item/clothing/neck/psycross/silver/divine/necra
+	created_item = /obj/item/clothing/neck/psycross/silver/divine/valdala
 
-/datum/artificer_recipe/psycross/ravox
+/datum/artificer_recipe/psycross/mordsol
 	name = "Mordsol Psycross"
 	required_item = /obj/item/ingot/silver
-	created_item = /obj/item/clothing/neck/psycross/silver/divine/ravox
+	created_item = /obj/item/clothing/neck/psycross/silver/divine/mordsol
 
-/datum/artificer_recipe/psycross/xylix
+/datum/artificer_recipe/psycross/iliope
 	name = "Iliope Psycross"
 	required_item = /obj/item/ingot/silver
-	created_item = /obj/item/clothing/neck/psycross/silver/divine/xylix
+	created_item = /obj/item/clothing/neck/psycross/silver/divine/iliope
 
-/datum/artificer_recipe/psycross/eora
+/datum/artificer_recipe/psycross/pomette
 	name = "Pomette Psycross"
 	required_item = /obj/item/ingot/silver
-	created_item = /obj/item/clothing/neck/psycross/silver/divine/eora
+	created_item = /obj/item/clothing/neck/psycross/silver/divine/pomette
 
-/datum/artificer_recipe/psycross/pestra
+/datum/artificer_recipe/psycross/erdl
 	name = "Erdl Psycross"
 	required_item = /obj/item/ingot/silver
-	created_item = /obj/item/clothing/neck/psycross/silver/divine/pestra
+	created_item = /obj/item/clothing/neck/psycross/silver/divine/erdl
 
-/datum/artificer_recipe/psycross/malum_silver
+/datum/artificer_recipe/psycross/golerkanh_silver
 	name = "Goler Kanh Psycross"
 	required_item = /obj/item/ingot/silver
-	created_item = /obj/item/clothing/neck/psycross/silver/divine/malum
+	created_item = /obj/item/clothing/neck/psycross/silver/divine/golerkanh
 
-/datum/artificer_recipe/psycross/malum_steel
+/datum/artificer_recipe/psycross/golerkanh_steel
 	name = "Goler Kanh Steel Psycross"
 	required_item = /obj/item/ingot/silver
-	created_item = /obj/item/clothing/neck/psycross/silver/divine/malum/steel
+	created_item = /obj/item/clothing/neck/psycross/silver/divine/golerkanh/steel
 	additional_items = list(/obj/item/ingot/steel = 1)
 	craftdiff = 3
 

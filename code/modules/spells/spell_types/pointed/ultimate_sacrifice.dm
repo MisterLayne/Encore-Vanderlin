@@ -8,7 +8,7 @@
 	antimagic_flags = NONE
 
 	charge_required = FALSE
-	invocation = "RAVOX, HEAR MY PLEA!"
+	invocation = "MORDSOL, HEAR MY PLEA!"
 	invocation_type = INVOCATION_SHOUT
 
 /datum/action/cooldown/spell/undirected/list_target/ultimate_sacrifice/get_list_targets(atom/center, target_radius = 7)
@@ -24,7 +24,7 @@
 /datum/action/cooldown/spell/undirected/list_target/ultimate_sacrifice/cast(mob/living/carbon/human/cast_on)
 	. = ..()
 
-	if(HAS_TRAIT(cast_on, TRAIT_NECRA_CURSE))
+	if(HAS_TRAIT(cast_on, TRAIT_VALDALA_CURSE))
 		to_chat(owner, span_warning("Valdala holds tight to this one."))
 		return
 
@@ -47,13 +47,13 @@
 	if(cast_on.stat != DEAD || QDELETED(cast_on))
 		return
 
-	owner.say("RAVOX, I GIVE MY LIFE FOR THEIRS!", forced = "ravox_ritual")
+	owner.say("MORDSOL, I GIVE MY LIFE FOR THEIRS!", forced = "mordsol_ritual")
 	owner.emote("rage", forced = TRUE)
 
 	cast_on.revive(HEAL_ALL)
 	cast_on.grab_ghost(force = TRUE, grab_spirit = TRUE)
 	playsound(owner, 'sound/magic/churn.ogg', 80)
-	ADD_TRAIT(owner, TRAIT_NECRA_CURSE, "ravox_ritual")
+	ADD_TRAIT(owner, TRAIT_VALDALA_CURSE, "mordsol_ritual")
 	owner.death()
 
 	if(owner.mind)

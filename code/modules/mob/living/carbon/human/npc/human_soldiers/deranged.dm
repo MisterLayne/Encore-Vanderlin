@@ -4,9 +4,9 @@
  * Uses fuckoff gear that should not be looted - hence snowflake dismemberment code.
  */
 
-GLOBAL_LIST_INIT(matthios_aggro, file2list("strings/rt/matthiosaggrolines.txt"))
+GLOBAL_LIST_INIT(deceivers_aggro, file2list("strings/rt/deceiversaggrolines.txt"))
 GLOBAL_LIST_INIT(zizo_aggro, file2list("strings/rt/zizoaggrolines.txt"))
-GLOBAL_LIST_INIT(graggar_aggro, file2list("strings/rt/graggaraggrolines.txt"))
+GLOBAL_LIST_INIT(archdevils_aggro, file2list("strings/rt/archdevilsaggrolines.txt"))
 GLOBAL_LIST_INIT(hedgeknight_aggro, file2list("strings/rt/hedgeknightaggrolines.txt"))
 
 /mob/living/carbon/human/species/human/northern/deranged_knight
@@ -16,7 +16,7 @@ GLOBAL_LIST_INIT(hedgeknight_aggro, file2list("strings/rt/hedgeknightaggrolines.
 	dodgetime = 30
 	flee_in_pain = TRUE
 	var/is_silent = FALSE /// Determines whether or not we will scream our funny lines at people.
-	var/preset = "matthios"
+	var/preset = "deceivers"
 	var/forced_preset = "" // If set, force a specific preset instead of randomizing.
 	headprice = 36
 
@@ -57,23 +57,23 @@ GLOBAL_LIST_INIT(hedgeknight_aggro, file2list("strings/rt/hedgeknightaggrolines.
 	else
 		switch(rand(1, 4))
 			if(1)
-				preset = "graggar"
+				preset = "archdevils"
 			if(2)
-				preset = "matthios"
+				preset = "deceivers"
 			if(3)
 				preset = "zizo"
 			if(4)
 				preset = "hedgeknight"
 
 	switch(preset)
-		if("graggar")
-			equipOutfit(new /datum/outfit/job/quest_miniboss/graggar)
-			SEND_SIGNAL(src, COMSIG_MOB_MODIFY_AGGRO_LINES, GLOB.graggar_aggro, TRUE)
+		if("archdevils")
+			equipOutfit(new /datum/outfit/job/quest_miniboss/archdevils)
+			SEND_SIGNAL(src, COMSIG_MOB_MODIFY_AGGRO_LINES, GLOB.archdevils_aggro, TRUE)
 			SEND_SIGNAL(src, COMSIG_MOB_MODIFY_DEATH_LINES, list("No more... Blood!"), TRUE)
-		if ("matthios")
-			equipOutfit(new /datum/outfit/job/quest_miniboss/matthios)
-			SEND_SIGNAL(src, COMSIG_MOB_MODIFY_AGGRO_LINES, GLOB.matthios_aggro, TRUE)
-			SEND_SIGNAL(src, COMSIG_MOB_MODIFY_DEATH_LINES, list("Matthios, I have failed you...", "Matthios, is this true?!"), TRUE)
+		if ("deceivers")
+			equipOutfit(new /datum/outfit/job/quest_miniboss/deceivers)
+			SEND_SIGNAL(src, COMSIG_MOB_MODIFY_AGGRO_LINES, GLOB.deceivers_aggro, TRUE)
+			SEND_SIGNAL(src, COMSIG_MOB_MODIFY_DEATH_LINES, list("Deceivers, I have failed you...", "Deceivers, is this true?!"), TRUE)
 		if ("zizo")
 			ADD_TRAIT(src, TRAIT_CABAL, TRAIT_GENERIC)
 			equipOutfit(new /datum/outfit/job/quest_miniboss/zizo)
@@ -159,17 +159,17 @@ GLOBAL_LIST_INIT(hedgeknight_aggro, file2list("strings/rt/hedgeknightaggrolines.
 	. = ..()
 	H.attributes?.add_sheet(/datum/attribute_holder/sheet/job/npc/quest_miniboss)
 
-/datum/outfit/job/quest_miniboss/matthios/pre_equip(mob/living/carbon/human/H)
+/datum/outfit/job/quest_miniboss/deceivers/pre_equip(mob/living/carbon/human/H)
 	. = ..()
 
-	armor = /obj/item/clothing/armor/plate/full/matthios
-	pants = /obj/item/clothing/pants/platelegs/matthios
-	shoes = /obj/item/clothing/shoes/boots/armor/matthios
+	armor = /obj/item/clothing/armor/plate/full/deceivers
+	pants = /obj/item/clothing/pants/platelegs/deceivers
+	shoes = /obj/item/clothing/shoes/boots/armor/deceivers
 	wrists = /obj/item/clothing/wrists/bracers
-	gloves = /obj/item/clothing/gloves/plate/matthios
-	head = /obj/item/clothing/head/helmet/heavy/matthios
+	gloves = /obj/item/clothing/gloves/plate/deceivers
+	head = /obj/item/clothing/head/helmet/heavy/deceivers
 	neck = /obj/item/clothing/neck/gorget
-	r_hand = /obj/item/weapon/flail/peasantwarflail/matthios
+	r_hand = /obj/item/weapon/flail/peasantwarflail/deceivers
 	mask = /obj/item/clothing/face/facemask/steel
 
 /datum/outfit/job/quest_miniboss/zizo/pre_equip(mob/living/carbon/human/H)
@@ -185,20 +185,20 @@ GLOBAL_LIST_INIT(hedgeknight_aggro, file2list("strings/rt/hedgeknightaggrolines.
 	r_hand = /obj/item/weapon/sword/long
 	mask = /obj/item/clothing/face/facemask/steel
 
-/datum/outfit/job/quest_miniboss/graggar/pre_equip(mob/living/carbon/human/H)
+/datum/outfit/job/quest_miniboss/archdevils/pre_equip(mob/living/carbon/human/H)
 	. = ..()
 
 	armor = /obj/item/clothing/armor/plate/fluted/ornate
-	pants = /obj/item/clothing/pants/platelegs/graggar
-	shoes = /obj/item/clothing/shoes/boots/armor/graggar
-	gloves = /obj/item/clothing/gloves/plate/graggar
+	pants = /obj/item/clothing/pants/platelegs/archdevils
+	shoes = /obj/item/clothing/shoes/boots/armor/archdevils
+	gloves = /obj/item/clothing/gloves/plate/archdevils
 	wrists = /obj/item/clothing/wrists/bracers
-	head = /obj/item/clothing/head/helmet/heavy/graggar
+	head = /obj/item/clothing/head/helmet/heavy/archdevils
 	neck = /obj/item/clothing/neck/gorget
-	r_hand = /obj/item/weapon/greataxe/steel/doublehead/graggar
+	r_hand = /obj/item/weapon/greataxe/steel/doublehead/archdevils
 	mask = /obj/item/clothing/face/facemask/steel
 	wrists = /obj/item/clothing/wrists/bracers
-	cloak = /obj/item/clothing/cloak/graggar
+	cloak = /obj/item/clothing/cloak/archdevils
 
 /datum/outfit/job/quest_miniboss/blacksteel/pre_equip(mob/living/carbon/human/H)
 	. = ..()
@@ -239,14 +239,14 @@ GLOBAL_LIST_INIT(hedgeknight_aggro, file2list("strings/rt/hedgeknightaggrolines.
 /mob/living/carbon/human/species/human/northern/highwayman/dk_goon
 	faction = list(FACTION_UNDEAD)
 
-/mob/living/carbon/human/species/human/northern/deranged_knight/matthios
-	forced_preset = "matthios"
+/mob/living/carbon/human/species/human/northern/deranged_knight/deceivers
+	forced_preset = "deceivers"
 
 /mob/living/carbon/human/species/human/northern/deranged_knight/zizo
 	forced_preset = "zizo"
 
-/mob/living/carbon/human/species/human/northern/deranged_knight/graggar
-	forced_preset = "graggar"
+/mob/living/carbon/human/species/human/northern/deranged_knight/archdevils
+	forced_preset = "archdevils"
 
 /mob/living/carbon/human/species/human/northern/deranged_knight/hedgeknight
 	forced_preset = "hedgeknight"

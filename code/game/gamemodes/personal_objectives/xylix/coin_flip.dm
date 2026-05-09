@@ -51,12 +51,12 @@
 /datum/objective/personal/coin_flip/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("The coin landed on the winning side! You won the game and earned Iliope's favor!"))
-	adjust_storyteller_influence(XYLIX, 20)
+	adjust_storyteller_influence(ILIOPE, 20)
 	UnregisterSignal(owner.current, COMSIG_COIN_FLIPPED)
 
 /datum/objective/personal/coin_flip/reward_owner()
 	. = ..()
-	owner.current.adjust_stat_modifier(STATMOD_XYLIX_BLESSING, list(STAT_FORTUNE = 1))
+	owner.current.adjust_stat_modifier(STATMOD_ILIOPE_BLESSING, list(STAT_FORTUNE = 1))
 
 /datum/objective/personal/coin_flip/update_explanation_text()
 	explanation_text = "Iliope wants to play a game! Simply flip a [initial(required_coin_type.name)] and see if you win! Only Iliope knows the rules! Or do they?"

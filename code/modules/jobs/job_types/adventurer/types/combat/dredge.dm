@@ -20,7 +20,7 @@
 	armortype = pickweight(list("Warrior" = 4, "Splint" = 4, "HeavyG" = 4, "Hide" = 3, "Jacket" = 3, "Sailor" = 3, "Peon" = 3, "Ironplate" = 2, "Freak" = 3, "Psy" = 2, "Destitute" = 2, "Berserker" = 2, "Copper" = 1, "Noble" = 1, "BKnight" = 1)) // Armor / Armortype roll. It varies heavily. The more gimmicky / best stuff is generally the rarest
 	weapontype = pickweight(list("Axe" = 4, "BigAxe" = 3, "Mace" = 4, "Mage" = 1, "Shield" = 2, "BigMace" = 3, "Spear" = 3, "Messer" = 3, "LSword" = 3, "GSword" = 1, "Shovel" = 3, "Scythe" = 2, "Cutlass" = 3, "Falx" = 3, "Rapier" = 2, "Sword" = 4, "Sword2" = 3, "Flail" = 2, "Bow" = 1, "Fist" = 2, "Daggers" = 3, "MFlail" = 3, "Gun" = 1,)) // Weapon roll
 	randomjob = pickweight (list("Farmer" = 3, "Sailor" = 2, "Pickpocket" = 2, "Smith" = 2, "Fisher" = 3, "Doctor" = 2, "Steppes" = 2, "Smart" = 1, "Grappler" = 1, "Lumber" = 2, "Guard" = 2, "Bard" = 2, "Paranoiac" = 1, "Alch" = 2, "Torturer" = 1,)) // 'Job' roll, gives small skill benefits
-	randomperk = pickweight (list("Fat" = 3, "Normal" = 3, "Smartish" = 3, "Speedy" = 3, "Lucky" = 3, "Abyssor" = 2, "Packrat" = 2, "Strong" = 1, "Zizo" = 2, "Atheist" = 1, "Graggar" = 1, "Stupid" = 1, "Lockpicks" = 2, "Traps" = 2, "Ring" = 2, "Knives" = 2, "Heel" = 1, "Meek" = 2, "Invisible" = 2, "Zigs" = 2, "Ozium" = 2, "Bomb" = 1,)) // A random trait or a couple of items
+	randomperk = pickweight (list("Fat" = 3, "Normal" = 3, "Smartish" = 3, "Speedy" = 3, "Lucky" = 3, "Mjallidhorn" = 2, "Packrat" = 2, "Strong" = 1, "Zizo" = 2, "Atheist" = 1, "Archdevils" = 1, "Stupid" = 1, "Lockpicks" = 2, "Traps" = 2, "Ring" = 2, "Knives" = 2, "Heel" = 1, "Meek" = 2, "Invisible" = 2, "Zigs" = 2, "Ozium" = 2, "Bomb" = 1,)) // A random trait or a couple of items
 	randomtarot = pickweight (list("TFool" = 2, "TMagician" = 2, "THP" = 2, "TEmpress" = 2, "TEmperor" = 2, "THiero" = 2, "TLovers" = 2, "TChariot" = 2, "TStrength" = 2, "THermit" = 2, "JUSTICE" = 2, "THang" = 2, "TDeath" = 2, "TTemperance" = 2, "TDevil" = 2, "TTower" = 2, "TStar" = 2, "TMoon" = 2, "TSun" = 2, "TJudge" = 2, "TWorld" = 2,))
 
 /datum/job/advclass/combat/dredge/after_spawn(mob/living/carbon/human/spawned, client/player_client)
@@ -124,13 +124,13 @@
 			spawned.adjust_skillrank(/datum/attribute/skill/misc/reading, 1, TRUE)
 			ADD_TRAIT(spawned, TRAIT_DODGEEXPERT, TRAIT_GENERIC)
 			ADD_TRAIT(spawned, TRAIT_STEELHEARTED, TRAIT_GENERIC)
-			if(!spawned.has_language(/datum/language/newpsydonic))
-				spawned.grant_language(/datum/language/newpsydonic)
-				to_chat(spawned, "<span class='info'>I can speak New Psydonic with ,n before my speech.</span>")
-			if(!istype(spawned.patron, /datum/patron/psydon)) // don't overwrite extremist psydon
-				spawned.set_patron(/datum/patron/psydon, TRUE)
+			if(!spawned.has_language(/datum/language/newunsundered))
+				spawned.grant_language(/datum/language/newunsundered)
+				to_chat(spawned, "<span class='info'>I can speak New Unsundered with ,n before my speech.</span>")
+			if(!istype(spawned.patron, /datum/patron/angros)) // don't overwrite extremist angros
+				spawned.set_patron(/datum/patron/angros, TRUE)
 			to_chat(spawned,span_info("\
-			The Ten are false gods, and I loathe those that worship the true corpse god, Necra. Psydon lives, my life for Psydon.")
+			The Ten are false gods, and I loathe those that worship the true corpse god, Valdala. Angros lives, my life for Angros.")
 			)
 		if("Hide")
 			spawned.adjust_skillrank(/datum/attribute/skill/misc/swimming, 1, TRUE)
@@ -140,7 +140,7 @@
 			spawned.change_stat(STAT_SPEED, 1)
 			spawned.change_stat(STAT_CONSTITUTION, 1)
 			to_chat(spawned,span_info("\
-			Dendor provides. The only armor I need are hides taken from the backs of his beasts.")
+			Gani provides. The only armor I need are hides taken from the backs of his beasts.")
 			)
 		if("Freak")
 			ADD_TRAIT(spawned, TRAIT_CRITICAL_RESISTANCE, TRAIT_GENERIC)
@@ -223,7 +223,7 @@
 			spawned.change_stat(STAT_SPEED, -1) // big boy
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatIntense.ogg'
 			to_chat(spawned,span_info("\
-			Only the strong can survive in the wilds, Dendor fears my axe.")
+			Only the strong can survive in the wilds, Gani fears my axe.")
 			)
 		if("Mace")
 			spawned.adjust_skillrank(/datum/attribute/skill/combat/axesmaces, 3, TRUE)
@@ -276,7 +276,7 @@
 			spawned.change_stat(STAT_ENDURANCE, 1)
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatMonk.ogg'
 			to_chat(spawned,span_info("\
-			I'm the lord of the harvest. I will shepherd the damned to Necra herself.")
+			I'm the lord of the harvest. I will shepherd the damned to Valdala herself.")
 			)
 		if("MFlail")
 			spawned.adjust_skillrank(/datum/attribute/skill/combat/whipsflails, 3, TRUE)
@@ -352,8 +352,8 @@
 			)
 		if("Mage")
 			spawned.mana_pool?.set_intrinsic_recharge(MANA_ALL_LEYLINES)
-			if(!(spawned.patron == /datum/patron/divine/noc || /datum/patron/inhumen/zizo))	//Magicians must follow Noc or Zizo to have access to magic.
-				spawned.set_patron(/datum/patron/divine/noc, TRUE)
+			if(!(spawned.patron == /datum/patron/divine/akan || /datum/patron/inhumen/zizo))	//Magicians must follow Akan or Zizo to have access to magic.
+				spawned.set_patron(/datum/patron/divine/akan, TRUE)
 			spawned.adjust_skillrank(/datum/attribute/skill/combat/polearms, 2, TRUE)
 			spawned.adjust_skillrank(/datum/attribute/skill/misc/medicine, 1, TRUE)
 			spawned.adjust_skillrank(/datum/attribute/skill/craft/alchemy, 2, TRUE)
@@ -419,7 +419,7 @@
 			spawned.adjust_skillrank(/datum/attribute/skill/misc/climbing, 1, TRUE)
 			spawned.change_stat(STAT_STRENGTH, -1)
 			to_chat(spawned,span_info("\
-			I've worked on ships defending their cargo. I am no stranger to Abyssor's wrath.")
+			I've worked on ships defending their cargo. I am no stranger to Mjallidhorn's wrath.")
 			)
 		if("Pickpocket")
 			spawned.adjust_skillrank(/datum/attribute/skill/misc/sneaking, 2, TRUE)
@@ -449,7 +449,7 @@
 			spawned.adjust_skillrank(/datum/attribute/skill/misc/swimming, 1, TRUE)
 			spawned.change_stat(STAT_PERCEPTION, 2)
 			to_chat(spawned,span_info("\
-			Fish fear me. I've lived off Abyssor's bounty, both salt-and-freshwater.")
+			Fish fear me. I've lived off Mjallidhorn's bounty, both salt-and-freshwater.")
 			)
 		if("Doctor")
 			spawned.adjust_skillrank(/datum/attribute/skill/misc/sewing, 2, TRUE)
@@ -506,7 +506,7 @@
 			spawned.virginity = TRUE
 			spawned.grant_language(/datum/language/elvish)
 			spawned.grant_language(/datum/language/celestial)
-			spawned.grant_language(/datum/language/oldpsydonic)
+			spawned.grant_language(/datum/language/oldunsundered)
 			to_chat(spawned,span_info("\
 			I was a scribe in my former years. I'm well-educated and can speak a couple languages.")
 			)
@@ -588,18 +588,18 @@
 			to_chat(spawned,span_info("\
 			CHAOS REIGNS! HAIL ZIZO!")
 			)
-		if("Abyssor")
+		if("Mjallidhorn")
 			spawned.change_stat(STAT_ENDURANCE, 1)
-			spawned.set_patron(/datum/patron/divine/abyssor, TRUE)
+			spawned.set_patron(/datum/patron/divine/mjallidhorn, TRUE)
 			to_chat(spawned,span_info("\
-			Abyssor swallows my soul, his wrath will never be quenched!")
+			Mjallidhorn swallows my soul, his wrath will never be quenched!")
 			)
-		if("Graggar")
+		if("Archdevils")
 			spawned.change_stat(STAT_ENDURANCE, 1)
 			spawned.change_stat(STAT_CONSTITUTION, 1)
-			spawned.set_patron(/datum/patron/inhumen/graggar, TRUE)
+			spawned.set_patron(/datum/patron/inhumen/archdevils, TRUE)
 			to_chat(spawned,span_info("\
-			FOR ALL WHO DENY THE STRUGGLE, THE TRIUMPHANT OVERCOME! GRAGGAR IS THE BEAST I WORSHIP!")
+			FOR ALL WHO DENY THE STRUGGLE, THE TRIUMPHANT OVERCOME! ARCHDEVILS IS THE BEAST I WORSHIP!")
 			)
 		if("Speedy")
 			spawned.change_stat(STAT_SPEED, 2)
@@ -1008,7 +1008,7 @@
 				backpack_contents = list(/obj/item/clothing/ring/gold = 1)
 			if("Knives")
 				backpack_contents = list(/obj/item/weapon/knife/dagger= 6)
-			if("Graggar")
+			if("Archdevils")
 				l_hand = /obj/item/clothing/head/helmet/heavy/sinistar
 			if("Invisible") // METAL GEAR SOLID V?!!
 				r_hand = /obj/item/clothing/face/facemask

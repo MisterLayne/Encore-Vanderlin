@@ -168,7 +168,7 @@
 
 /obj/item/reagent_containers/food/snacks/bread/ribrack/honey
 	name = "glazed rib rack"
-	desc = "Sometimes even Graggarites want some luxury."
+	desc = "Sometimes even Archdevilsites want some luxury."
 	icon_state = "honey_ribs"
 	base_icon_state = "honey_ribs"
 	slice_path = /obj/item/reagent_containers/food/snacks/cooked/rib/honey

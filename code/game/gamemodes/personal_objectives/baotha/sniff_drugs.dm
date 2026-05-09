@@ -31,13 +31,13 @@
 /datum/objective/personal/sniff_drugs/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("You have sniffed enough drugs to complete Hertannea's objective!"))
-	adjust_storyteller_influence(BAOTHA, 20)
+	adjust_storyteller_influence(HERTANNEA, 20)
 	UnregisterSignal(owner.current, COMSIG_DRUG_SNIFFED)
 
 /datum/objective/personal/sniff_drugs/reward_owner()
 	. = ..()
 	ADD_TRAIT(owner.current, TRAIT_RECOGNIZE_ADDICTS, OBJECTIVE_TRAIT)
-	owner.current.adjust_stat_modifier(STATMOD_BAOTHA_BLESSING, list(STAT_FORTUNE = 1))
+	owner.current.adjust_stat_modifier(STATMOD_HERTANNEA_BLESSING, list(STAT_FORTUNE = 1))
 
 /datum/objective/personal/sniff_drugs/update_explanation_text()
 	explanation_text = "Sniff [required_count] drugs for Hertannea's pleasure!"

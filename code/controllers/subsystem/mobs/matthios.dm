@@ -1,22 +1,22 @@
-SUBSYSTEM_DEF(matthios_mobs)
+SUBSYSTEM_DEF(deceivers_mobs)
 	name = "Deceivers Mobs"
 	priority = FIRE_PRIORITY_MOBS - 2 // Lower priority, background task
 	flags = SS_KEEP_TIMING | SS_NO_INIT | SS_BACKGROUND
 	runlevels = RUNLEVEL_GAME | RUNLEVEL_POSTGAME
 	wait = 2 SECONDS
 	var/list/currentrun = list()
-	var/list/matthios_mobs = list()
+	var/list/deceivers_mobs = list()
 
 	var/list/dungeon_z = list()
 	var/looked = FALSE
 
-/datum/controller/subsystem/matthios_mobs/stat_entry()
-	..("MM:[matthios_mobs.len]")
+/datum/controller/subsystem/deceivers_mobs/stat_entry()
+	..("MM:[deceivers_mobs.len]")
 
-/datum/controller/subsystem/matthios_mobs/fire(resumed = 0)
+/datum/controller/subsystem/deceivers_mobs/fire(resumed = 0)
 	var/seconds = wait * 0.1
 	if(!length(dungeon_z) && !looked)
-		dungeon_z = SSmapping.levels_by_trait(ZTRAIT_MATTHIOS_DUNGEON)
+		dungeon_z = SSmapping.levels_by_trait(ZTRAIT_DECEIVERS_DUNGEON)
 		looked = TRUE
 
 	if(!length(dungeon_z))
@@ -37,7 +37,7 @@ SUBSYSTEM_DEF(matthios_mobs)
 		return
 
 	if (!resumed)
-		src.currentrun = matthios_mobs.Copy()
+		src.currentrun = deceivers_mobs.Copy()
 
 	var/list/currentrun = src.currentrun
 	var/times_fired = src.times_fired
@@ -47,7 +47,7 @@ SUBSYSTEM_DEF(matthios_mobs)
 		currentrun.len--
 
 		if(!L || QDELETED(L))
-			matthios_mobs -= L
+			deceivers_mobs -= L
 			GLOB.mob_living_list -= L
 			continue
 
@@ -59,15 +59,15 @@ SUBSYSTEM_DEF(matthios_mobs)
 		if (MC_TICK_CHECK)
 			return
 
-/datum/controller/subsystem/matthios_mobs/proc/register_mob(mob/living/L)
+/datum/controller/subsystem/deceivers_mobs/proc/register_mob(mob/living/L)
 	if(!L)
 		return FALSE
 
-	matthios_mobs |= L
+	deceivers_mobs |= L
 	return TRUE
 
-/datum/controller/subsystem/matthios_mobs/proc/unregister_mob(mob/living/L)
+/datum/controller/subsystem/deceivers_mobs/proc/unregister_mob(mob/living/L)
 	if(!L)
 		return
 
-	matthios_mobs -= L
+	deceivers_mobs -= L

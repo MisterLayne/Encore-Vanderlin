@@ -31,7 +31,7 @@
 	if(helditemvalue < 10)
 		to_chat(owner, span_info("This has little value, it will be of no use in such a transaction."))
 		return
-	if(istype(cast_on.patron, /datum/patron/psydon))
+	if(istype(cast_on.patron, /datum/patron/angros))
 		owner.playsound_local(owner, 'sound/magic/PSY.ogg', 100, FALSE, -1)
 		cast_on.visible_message(span_info("[cast_on] stirs for a moment, the miracle dissipates."), span_notice("A dull warmth swells in your heart, only to fade as quickly as it arrived."))
 		playsound(cast_on, 'sound/magic/PSY.ogg', 100, FALSE, -1)
@@ -51,7 +51,7 @@
 	to_chat(owner, "<font color='yellow'>[held_item] burns into the air suddenly, my Transaction is accepted.</font>")
 	if(iscarbon(cast_on))
 		var/mob/living/carbon/C = cast_on
-		var/datum/status_effect/buff/matthioshealing/heal_effect = C.apply_status_effect(/datum/status_effect/buff/matthioshealing)
+		var/datum/status_effect/buff/deceivershealing/heal_effect = C.apply_status_effect(/datum/status_effect/buff/deceivershealing)
 		heal_effect.healing_on_tick = helditemvalue/2
 	else
 		cast_on.adjustBruteLoss(helditemvalue / 2)

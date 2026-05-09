@@ -81,11 +81,11 @@
 	if(pm_controller)
 		pm_controller.remove_filter(list("druqks_ripple", "druqks_color"))
 
-/datum/status_effect/buff/druqks/baotha/on_apply()
+/datum/status_effect/buff/druqks/hertannea/on_apply()
 	. = ..()
 	ADD_TRAIT(owner, TRAIT_CRACKHEAD, TRAIT_STATUS_EFFECT(id))
 
-/datum/status_effect/buff/druqks/baotha/on_remove()
+/datum/status_effect/buff/druqks/hertannea/on_remove()
 	. = ..()
 	REMOVE_TRAIT(owner, TRAIT_CRACKHEAD, TRAIT_STATUS_EFFECT(id))
 	owner.visible_message("[owner]'s eyes appear to return to normal.")
@@ -296,38 +296,38 @@
 |		 	 	|
 \---------------*/
 
-// ---------------------- DIVINE KNOWLEDGE ( NOC ) ----------------------------
-/datum/status_effect/buff/noc
+// ---------------------- DIVINE KNOWLEDGE ( AKAN ) ----------------------------
+/datum/status_effect/buff/akan
 	id = "nocbuff"
-	alert_type = /atom/movable/screen/alert/status_effect/buff/nocbuff
+	alert_type = /atom/movable/screen/alert/status_effect/buff/akanbuff
 	effectedstats = list(STAT_INTELLIGENCE = 3)
 	duration = 240 MINUTES
 
-/atom/movable/screen/alert/status_effect/buff/nocbuff
+/atom/movable/screen/alert/status_effect/buff/akanbuff
 	name = "Divine Knowledge"
 	desc = span_nicegreen("Divine knowledge flows through me.")
 	icon_state = "intelligence"
 
 
 
-// ---------------------- DIVINE POWER ( RAVOX ) ----------------------------
-/datum/status_effect/buff/ravox
-	id = "ravoxbuff"
-	alert_type = /atom/movable/screen/alert/status_effect/buff/ravoxbuff
+// ---------------------- DIVINE POWER ( MORDSOL ) ----------------------------
+/datum/status_effect/buff/mordsol
+	id = "mordsolbuff"
+	alert_type = /atom/movable/screen/alert/status_effect/buff/mordsolbuff
 	effectedstats = list(STAT_CONSTITUTION = 1, STAT_ENDURANCE = 1, STAT_STRENGTH = 1)
 	duration = 240 MINUTES
 
-/atom/movable/screen/alert/status_effect/buff/ravoxbuff
+/atom/movable/screen/alert/status_effect/buff/mordsolbuff
 	name = "Divine Power"
 	desc = span_nicegreen("Divine power flows through me.")
 	icon_state = "ravox"
 
 
 /*-----------------\
-|  Dendor Miracles |
+|  Gani Miracles |
 \-----------------*/
 
-// ---------------------- EYES OF THE BEAST ( DENDOR ) ----------------------------
+// ---------------------- EYES OF THE BEAST ( GANI ) ----------------------------
 /datum/status_effect/buff/beastsense
 	id = "beastsense"
 	alert_type = /atom/movable/screen/alert/status_effect/buff/beastsense
@@ -354,7 +354,7 @@
 	REMOVE_TRAIT(owner, TRAIT_BESTIALSENSE, REF(src))
 	owner.update_sight()
 
-// ---------------------- TROLL SHAPE ( DENDOR ) ----------------------------
+// ---------------------- TROLL SHAPE ( GANI ) ----------------------------
 /datum/status_effect/buff/trollshape
 	id = "trollshape"
 	alert_type = /atom/movable/screen/alert/status_effect/buff/trollshape
@@ -363,7 +363,7 @@
 
 /atom/movable/screen/alert/status_effect/buff/trollshape
 	name = "Troll Shape"
-	desc = span_nicegreen("I AM STRONG! DENDOR'S ENEMIES WILL DIE!")
+	desc = span_nicegreen("I AM STRONG! GANI'S ENEMIES WILL DIE!")
 	icon_state = "trollshape"
 /datum/status_effect/buff/trollshape/on_apply()
 	. = ..()
@@ -380,7 +380,7 @@
 		var/mob/living/carbon/human/C = owner
 		C.emote("pain", forced = TRUE)
 		playsound(C, 'sound/gore/flesh_eat_03.ogg', 100, TRUE)
-		to_chat(C, span_warning("Dendor's transformation fades, flesh shrinking back. My body aches..."))
+		to_chat(C, span_warning("Gani's transformation fades, flesh shrinking back. My body aches..."))
 		C.adjustBruteLoss(10)
 		C.apply_status_effect(/datum/status_effect/debuff/barbfalter)
 		C.resize = (1/1.2)
@@ -388,7 +388,7 @@
 		C.RemoveElement(/datum/element/footstep, FOOTSTEP_MOB_HEAVY, 1, -2)
 		C.AddElement(/datum/element/footstep, C.footstep_type, 1, -6)
 
-// ---------------------- BRIAR'S RAGE ( DENDOR ) ----------------------------
+// ---------------------- BRIAR'S RAGE ( GANI ) ----------------------------
 /datum/status_effect/buff/barbrage/briarrage //barbarian rage but it's permanent and exclusive to the briar
 	id = "briarrage"
 	alert_type = /atom/movable/screen/alert/status_effect/buff/barbrage/briarrage
@@ -396,12 +396,12 @@
 	duration = -1
 
 /atom/movable/screen/alert/status_effect/buff/barbrage/briarrage
-	name = "Dendor's frenzy"
+	name = "Gani's frenzy"
 	desc = span_nicegreen("EMBRACE WILDERNESS")
 	icon_state = "bestialsense"
 
 /*-----------------\
-|   Eora Miracles  |
+|   Pomette Miracles  |
 \-----------------*/
 
 /datum/status_effect/buff/divine_beauty
@@ -427,7 +427,7 @@
 	icon_state = "beauty"
 
 /*-----------------\
-|   Ravox Miracles |
+|   Mordsol Miracles |
 \-----------------*/
 
 /datum/status_effect/buff/call_to_arms
@@ -442,11 +442,11 @@
 	icon_state = "call_to_arms"
 
 /*-----------------\
-|   Malum Miracles |
+|   Goler Kanh Miracles |
 \-----------------*/
 
 /datum/status_effect/buff/craft_buff
-	id = "crafting_buff_malum"
+	id = "crafting_buff_golerkanh"
 	alert_type = /atom/movable/screen/alert/status_effect/buff/craft_buff
 	duration = 2.5 MINUTES
 	effectedstats = list(STAT_INTELLIGENCE = 2)
@@ -454,7 +454,7 @@
 /atom/movable/screen/alert/status_effect/buff/craft_buff
 	name = "Exquisite Craftsmanship"
 	desc = span_notice("I am inspired to create!")
-	icon_state = "malum_buff"
+	icon_state = "golerkanh_buff"
 
 /*-----------------\
 |   Hunt Miracles |
@@ -489,21 +489,21 @@
 
 #define BLOODRAGE_FILTER "bloodrage"
 
-/atom/movable/screen/alert/status_effect/buff/graggar_bloodrage
+/atom/movable/screen/alert/status_effect/buff/archdevils_bloodrage
 	name = "BLOODRAGE"
-	desc = "GRAGGAR! GRAGGAR! GRAGGAR!"
+	desc = "ARCHDEVILS! ARCHDEVILS! ARCHDEVILS!"
 	icon_state = "bloodrage"
 
 /datum/status_effect/buff/bloodrage
 	id = "bloodrage"
-	alert_type = /atom/movable/screen/alert/status_effect/buff/graggar_bloodrage
+	alert_type = /atom/movable/screen/alert/status_effect/buff/archdevils_bloodrage
 	var/outline_color = "#ad0202"
 	duration = 15 SECONDS
 
 /datum/status_effect/buff/bloodrage/on_creation(mob/living/carbon/new_owner, duration_override, ...)
 	var/holyskill = GET_MOB_SKILL_VALUE(new_owner, /datum/attribute/skill/magic/holy)
 	duration = (holyskill SECONDS)
-	new_owner.add_stun_absorption("Graggar's rage", duration, 2, "doesn't even flinch as rage courses through them!", "You shrug off the stun!", " glowing with a blazing red aura!")
+	new_owner.add_stun_absorption("the Archdevils' rage", duration, 2, "doesn't even flinch as rage courses through them!", "You shrug off the stun!", " glowing with a blazing red aura!")
 	if(holyskill >= SKILL_LEVEL_APPRENTICE)
 		effectedstats = list(STAT_STRENGTH = 2)
 	else
@@ -526,38 +526,38 @@
 
 #undef BLOODRAGE_FILTER
 
-/atom/movable/screen/alert/status_effect/buff/matthioshealing
+/atom/movable/screen/alert/status_effect/buff/deceivershealing
 	name = "Healing Miracle"
 	desc = "Strange Divine intervention relieves me of my ailments."
 	icon_state = "buff"
 
 #define MIRACLE_HEALING_FILTER "miracle_heal_glow"
 
-/datum/status_effect/buff/matthioshealing
+/datum/status_effect/buff/deceivershealing
 	id = "healing"
-	alert_type = /atom/movable/screen/alert/status_effect/buff/matthioshealing
+	alert_type = /atom/movable/screen/alert/status_effect/buff/deceivershealing
 	duration = 10 SECONDS
 	var/healing_on_tick = 1
 	var/outline_colour = "#c42424"
 
-/datum/status_effect/buff/matthioshealing/on_creation(mob/living/new_owner, new_healing_on_tick)
+/datum/status_effect/buff/deceivershealing/on_creation(mob/living/new_owner, new_healing_on_tick)
 	healing_on_tick = new_healing_on_tick
 	return ..()
 
-/datum/status_effect/buff/matthioshealing/on_apply()
+/datum/status_effect/buff/deceivershealing/on_apply()
 	. = ..()
 	owner.add_filter(MIRACLE_HEALING_FILTER, 2,  outline_filter(2, outline_colour))
 	return TRUE
 
-/datum/status_effect/buff/matthioshealing/on_remove()
+/datum/status_effect/buff/deceivershealing/on_remove()
 	. = ..()
 	owner.remove_filter(MIRACLE_HEALING_FILTER)
 	return TRUE
 
-/datum/status_effect/buff/matthioshealing/get_examine_text()
+/datum/status_effect/buff/deceivershealing/get_examine_text()
 	return "SUBJECTPRONOUN is bathed in a restorative aura!"
 
-/datum/status_effect/buff/matthioshealing/tick()
+/datum/status_effect/buff/deceivershealing/tick()
 	if(owner.blood_volume < BLOOD_VOLUME_NORMAL)
 		owner.blood_volume = min(owner.blood_volume+10, BLOOD_VOLUME_NORMAL)
 	if(owner.get_wounds())
@@ -622,7 +622,7 @@
 	to_chat(owner, span_warning("I feel my connection to the arcyne surround me once more."))
 	owner.visible_message("[owner]'s arcyne aura seems to return once more.")
 
-/datum/status_effect/buff/lux_drank/baothavitae
+/datum/status_effect/buff/lux_drank/hertanneavitae
 	id = "druqks"
 	duration = 1 MINUTES
 
@@ -703,13 +703,13 @@
 	name = "Inspiring"
 
 // TIER 5 - MASTER
-/datum/status_effect/bardicbuff/ravox
+/datum/status_effect/bardicbuff/mordsol
 	name = "Empowering (+1 STR, +1 PER)"
 	id = "bardbuff_str"
 	effectedstats = list(STAT_STRENGTH = 1, STAT_PERCEPTION = 1)
-	alert_type = /atom/movable/screen/alert/status_effect/bardbuff/ravox
+	alert_type = /atom/movable/screen/alert/status_effect/bardbuff/mordsol
 
-/atom/movable/screen/alert/status_effect/bardbuff/ravox
+/atom/movable/screen/alert/status_effect/bardbuff/mordsol
 	name = "Empowering"
 
 // TIER 6 - LEGENDARY
@@ -888,15 +888,15 @@
 	name = "Cold"
 	desc = "Something has chilled me to the bone! It's hard to move."
 
-/datum/status_effect/buff/nocblessing
+/datum/status_effect/buff/akanblessing
 	id = "nocblessing"
-	alert_type = /atom/movable/screen/alert/status_effect/buff/nocblessing
+	alert_type = /atom/movable/screen/alert/status_effect/buff/akanblessing
 	effectedstats = list(STAT_INTELLIGENCE = 1)
 	duration = 30 MINUTES
 
-/atom/movable/screen/alert/status_effect/buff/nocblessing
-	name = "Noc's blessing"
-	desc = "Gazing Noc helps me think."
+/atom/movable/screen/alert/status_effect/buff/akanblessing
+	name = "Akan's blessing"
+	desc = "Gazing upon Luna helps me think."
 	icon_state = "buff"
 
 /datum/status_effect/buff/nocblessed
@@ -906,8 +906,8 @@
 	duration = -1
 
 /atom/movable/screen/alert/status_effect/buff/nocblessed
-	name = "Blessed by Noc"
-	desc = "I have been blessed by Noc since I was born, with his help I can see and think better than anyone."
+	name = "Blessed by Akan"
+	desc = "I have been blessed by Akan since I was born, with his help I can see and think better than anyone."
 	icon_state = "intelligence"
 
 
@@ -923,7 +923,7 @@
 	var/obj/item/organ/eyes/eyes = H.getorgan(/obj/item/organ/eyes)
 	if(!eyes)
 		return
-	ADD_TRAIT(owner, TRAIT_BESTIALSENSE, REF(src)) //It is not related to Dendor, it is just for the night vision.
+	ADD_TRAIT(owner, TRAIT_BESTIALSENSE, REF(src)) //It is not related to Gani, it is just for the night vision.
 	owner.update_sight()
 
 /datum/status_effect/buff/powered_steam_armor

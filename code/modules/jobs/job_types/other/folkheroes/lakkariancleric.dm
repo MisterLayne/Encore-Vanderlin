@@ -31,7 +31,7 @@
 	title = "Lakkarian Cleric"
 	tutorial = "A cleric belonging to the Order of the Southern Sun. After years of martial training and rigorous theological study, your abbess has deemed you worthy of a grand task. You will root out the corruption spread by The Four across Faience, and deliver the gospel of the glorious Sun Queen."
 	allowed_races = RACES_PLAYER_ELF
-	allowed_patrons = list(/datum/patron/divine/astrata)
+	allowed_patrons = list(/datum/patron/divine/visires)
 	outfit = /datum/outfit/folkhero/lakkariancleric
 	category_tags = list(CTAG_FOLKHEROES)
 	total_positions = 0 //Lakkari disabled
@@ -78,7 +78,7 @@
 	armor = /obj/item/clothing/armor/gambeson/heavy/lakkarijupon
 	shirt = /obj/item/clothing/shirt/undershirt/fancy
 	gloves = /obj/item/clothing/gloves/leather
-	wrists = /obj/item/clothing/neck/psycross/silver/divine/astrata
+	wrists = /obj/item/clothing/neck/psycross/silver/divine/visires
 	pants = /obj/item/clothing/pants/trou/leather/quiltedkilt/colored/blue
 	shoes = /obj/item/clothing/shoes/boots/leather
 	neck = /obj/item/clothing/neck/coif/cloth // price to pay for being a speedy class, less neck protection

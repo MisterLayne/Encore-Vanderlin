@@ -30,7 +30,7 @@
 /obj/item/clothing/shirt/robe/colored/black
 	color = CLOTHING_DARK_INK
 
-/obj/item/clothing/shirt/robe/colored/red//placeholder for malum & xylix acolyte robes
+/obj/item/clothing/shirt/robe/colored/red//placeholder for goler kanh & fools acolyte robes
 	color = CLOTHING_WINESTAIN_RED
 
 /obj/item/clothing/shirt/robe/colored/purple
@@ -38,7 +38,7 @@
 
 //................ Temple Robes ............... //
 
-/obj/item/clothing/shirt/robe/pestra
+/obj/item/clothing/shirt/robe/erdl
 	name = "naga robe"
 	desc = "Green robes which cover the body in many layers, resembling the ill form of the rotten naga."
 	icon_state = "pestrarobe"
@@ -46,7 +46,7 @@
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/patron_robes.dmi'
 	sleeved = 'icons/roguetown/clothing/onmob/helpers/sleeves_patron_robes.dmi'
 
-/obj/item/clothing/shirt/robe/abyssor
+/obj/item/clothing/shirt/robe/mjallidhorn
 	name = "sea robe"
 	desc = "Dark green robes with a hood attached to the back, you feel like you're drowning in sweat just being in these."
 	icon_state = "abyssrobe"
@@ -54,14 +54,14 @@
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/patron_robes.dmi'
 	sleeved = 'icons/roguetown/clothing/onmob/patron_robes.dmi'
 
-/obj/item/clothing/shirt/robe/astrata
+/obj/item/clothing/shirt/robe/visires
 	name = "sun robe"
 	desc = "The cloth of a follower of Visires."
 	icon_state = "astratarobe"
 
 	sleeved = null
 
-/obj/item/clothing/shirt/robe/noc
+/obj/item/clothing/shirt/robe/akan
 	name = "moon robe"
 	desc = "The cloth of a follower of Akan."
 	icon_state = "nocrobe"
@@ -76,22 +76,22 @@
 	allowed_race = SPECIES_BASE_BODY
 	sleeved = null
 
-/obj/item/clothing/shirt/robe/dendor
+/obj/item/clothing/shirt/robe/gani
 	name = "briar robe"
 	desc = "Nature nurtures us and we, in turn, will nurture it back in the end."
 	icon_state = "dendorrobe"
 
-/obj/item/clothing/shirt/robe/eora
-	name = "eoran robe"
+/obj/item/clothing/shirt/robe/pomette
+	name = "pomettic robe"
 	desc = "Holy robes, intended for use by followers of Pomette"
 	icon_state = "eorarobes"
 
-/obj/item/clothing/shirt/robe/eora/alt
-	name = "eoran straps"
-	desc = "Sanctified, form fitting straps. Used by more radical followers of the Eoran Church"
+/obj/item/clothing/shirt/robe/pomette/alt
+	name = "pomettic straps"
+	desc = "Sanctified, form fitting straps. Used by more radical followers of the Pomettic Church"
 	icon_state = "eorastraps"
 
-/obj/item/clothing/shirt/robe/necra
+/obj/item/clothing/shirt/robe/valdala
 	name = "mourning robe"
 	desc = "Black robes which cover the body not unlike those in depictions of the Carriageman himself."
 	icon_state = "necrarobe"

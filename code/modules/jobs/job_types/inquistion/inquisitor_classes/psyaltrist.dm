@@ -33,8 +33,8 @@
 		TRAIT_EMPATH,
 		TRAIT_INQUISITION,
 		TRAIT_SILVER_BLESSED,
-		TRAIT_PSYDONIAN_GRIT,
-		TRAIT_PSYDONITE,
+		TRAIT_ANGROSIAN_GRIT,
+		TRAIT_ANGROSIAN,
 		TRAIT_FOREIGNER,
 		)
 
@@ -73,9 +73,9 @@
 	gloves = /obj/item/clothing/gloves/leather/otavan
 	wrists = /obj/item/clothing/neck/psycross/silver
 	pants = /obj/item/clothing/pants/tights/colored/black
-	shoes = /obj/item/clothing/shoes/psydonboots
-	belt = /obj/item/storage/belt/leather/knifebelt/black/psydon
-	beltr = /obj/item/weapon/knife/dagger/silver/psydon
+	shoes = /obj/item/clothing/shoes/angrosboots
+	belt = /obj/item/storage/belt/leather/knifebelt/black/angros
+	beltr = /obj/item/weapon/knife/dagger/silver/angros
 	beltl = /obj/item/storage/belt/pouch/coins/mid
 	ring = /obj/item/clothing/ring/signet/silver
 	backpack_contents = list(

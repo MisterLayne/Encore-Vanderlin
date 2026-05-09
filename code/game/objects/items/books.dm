@@ -1196,7 +1196,7 @@
 	base_icon_state = "book5"
 	bookfile = "knowledge.json"
 
-/obj/item/book/secret/xylix
+/obj/item/book/secret/iliope
 	name = "Book of Gold"
 	desc = "{<font color='red'><blink>An ominous book with untold powers.</blink></font>}"
 	icon_state ="xylix_0"
@@ -1205,7 +1205,7 @@
 	base_icon_state = "pellbookmimic"
 	bookfile = "xylix.json"
 
-/obj/item/book/xylix/attack_self(mob/user, list/modifiers)
+/obj/item/book/iliope/attack_self(mob/user, list/modifiers)
 	user.update_inv_hands()
 	to_chat(user, "<span class='notice'>You feel laughter echo in your head.</span>")
 
@@ -1266,21 +1266,21 @@
 	base_icon_state = "book8"
 	bookfile = "tales7.json"
 
-/obj/item/book/abyssor
+/obj/item/book/mjallidhorn
 	name = "A Tale of Those Who Live At Sea"
 	desc = "By Bellum Aegir"
 	icon_state ="book2_0"
 	base_icon_state = "book2"
 	bookfile = "tales8.json"
 
-/obj/item/book/necra
+/obj/item/book/valdala
 	name = "Burial Rites for Valdala"
 	desc = "By Hunlaf, Gravedigger. Revised by Lenore, Priest of Valdala."
 	icon_state ="book6_0"
 	base_icon_state = "book6"
 	bookfile = "tales9.json"
 
-/obj/item/book/noc
+/obj/item/book/akan
 	name = "Dreamseeker"
 	desc = "By Hunlaf, Gravedigger. Revised by Lenore, Priest of Valdala."
 	icon_state ="book6_0"
@@ -1533,7 +1533,7 @@
 		// Prompt user to populate manuscript fields
 		var/newtitle = dd_limittext(SANITIZE_HEAR_MESSAGE(input(user, "Enter the title of the manuscript:") as text|null), MAX_CHARTER_LEN)
 		var/newauthor = dd_limittext(SANITIZE_HEAR_MESSAGE(input(user, "Enter the author's name:") as text|null), MAX_CHARTER_LEN)
-		var/newcategory = input(user, "Select the category of the manuscript:") in list("Apocrypha & Grimoires", "Myths & Tales", "Legends & Accounts", "Thesis", "Eoratica")
+		var/newcategory = input(user, "Select the category of the manuscript:") in list("Apocrypha & Grimoires", "Myths & Tales", "Legends & Accounts", "Thesis", "Heretical")
 		var/newicon = book_icons[input(user, "Choose a book style", "Book Style") as anything in book_icons]
 
 		if(newtitle && newauthor && newcategory)
@@ -1544,7 +1544,7 @@
 			select_icon = newicon
 			icon_state = "paperwrite"
 			to_chat(user, "<span class='notice'>You have successfully authored and titled the manuscript.</span>")
-			var/complete = tgui_alert(user, "Is the manuscript finished?", "WORDS OF NOC", DEFAULT_INPUT_CHOICES)
+			var/complete = tgui_alert(user, "Is the manuscript finished?", "WORDS OF AKAN", DEFAULT_INPUT_CHOICES)
 			SEND_SIGNAL(user, COMSIG_BOOK_WRITTEN)
 			if(complete == CHOICE_YES && compiled_pages)
 				written = TRUE
@@ -1625,7 +1625,7 @@ ____________End of Example*/
 	base_icon_state = "knowledge"
 	bookfile = "MagicalTheory.json"
 
-/obj/item/book/vownecrapage
+/obj/item/book/vowvaldalapage
 	name = "Valdala's Vow of Silence"
 	desc = "A faded page, with seemingly no author."
 	icon_state = "book8_0"
@@ -1681,12 +1681,12 @@ ____________End of Example*/
 	name = "The PSY Book"
 	icon_state = "bibble_0" // change when sprites avaliable
 	base_icon_state = "bibble"
-	title = "psydon bible"
+	title = "angrosian bible"
 	dat = "gott.json"
 	verses_file = "strings/psybibble.txt"
 
 /obj/item/book/bibble/psy/attack(mob/living/M, mob/living/user, list/modifiers)
-	if(istype(user) && istype(user.patron, /datum/patron/psydon))
+	if(istype(user) && istype(user.patron, /datum/patron/angros))
 		if(!user.can_read(src))
 			return
 		M.apply_status_effect(/datum/status_effect/buff/blessed)

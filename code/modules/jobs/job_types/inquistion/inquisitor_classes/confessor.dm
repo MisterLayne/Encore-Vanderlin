@@ -44,7 +44,7 @@
 
 /datum/job/advclass/sacrestant/confessor
 	title = "Confessor"
-	tutorial = "Psydonite hunters, unmatched in the fields of subterfuge and investigation. There is no suspect too powerful to investigate, no room too guarded to infiltrate, and no weakness too hidden to exploit. The Ordo Venatari trained you, and this, your final hunt as a student, will prove the wisdom of their teachings."
+	tutorial = "Angrosian hunters, unmatched in the fields of subterfuge and investigation. There is no suspect too powerful to investigate, no room too guarded to infiltrate, and no weakness too hidden to exploit. The Ordo Venatari trained you, and this, your final hunt as a student, will prove the wisdom of their teachings."
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/confessor
@@ -58,12 +58,12 @@
 		TRAIT_INQUISITION,
 		TRAIT_BLACKBAGGER,
 		TRAIT_SILVER_BLESSED,
-		TRAIT_PSYDONIAN_GRIT,
-		TRAIT_PSYDONITE,
+		TRAIT_ANGROSIAN_GRIT,
+		TRAIT_ANGROSIAN,
 		TRAIT_FOREIGNER,
 	)
 
-	languages = list(/datum/language/oldpsydonic)
+	languages = list(/datum/language/oldunsundered)
 
 /datum/job/advclass/sacrestant/confessor/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
@@ -73,29 +73,29 @@
 /datum/job/advclass/sacrestant/confessor/on_roundstart(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 
-	var/static/list/weapons = list("Blessed Psydonic Dagger", "Psydonic Handmace", "Psydonic Shortsword")
-	var/weapon_choice = browser_input_list(spawned, "CHOOSE YOUR WEAPON.", "TAKE UP PSYDON'S ARMS.", weapons)
+	var/static/list/weapons = list("Blessed Unsundered Dagger", "Unsundered Handmace", "Unsundered Shortsword")
+	var/weapon_choice = browser_input_list(spawned, "CHOOSE YOUR WEAPON.", "TAKE UP ANGROS'S ARMS.", weapons)
 
 	switch(weapon_choice)
-		if("Blessed Psydonic Dagger")
-			spawned.put_in_hands(new /obj/item/weapon/knife/dagger/silver/psydon(get_turf(spawned)), TRUE)
+		if("Blessed Unsundered Dagger")
+			spawned.put_in_hands(new /obj/item/weapon/knife/dagger/silver/angros(get_turf(spawned)), TRUE)
 			spawned.equip_to_slot_or_del(new /obj/item/weapon/scabbard/knife, ITEM_SLOT_BACK_R, TRUE)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/confessor/knives)
-		if("Psydonic Handmace")
+		if("Unsundered Handmace")
 			spawned.put_in_hands(new /obj/item/weapon/mace/cudgel/psy(get_turf(spawned)), TRUE)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/confessor/axes)
-		if("Psydonic Shortsword")
+		if("Unsundered Shortsword")
 			spawned.put_in_hands(new /obj/item/weapon/sword/short/psy(get_turf(spawned)), TRUE)
 			spawned.equip_to_slot_or_del(new /obj/item/weapon/scabbard/sword, ITEM_SLOT_BACK_R, TRUE)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/confessor/swords)
 
 	// Armor/archetype selection
 	var/static/list/armors = list("Confessor - Slurbow, Leather Maillecoat", "Arbalist - Crossbow, Lightweight Brigandine")
-	var/armor_choice = browser_input_list(spawned, "CHOOSE YOUR ARCHETYPE.", "TAKE UP PSYDON'S DUTY.", armors)
+	var/armor_choice = browser_input_list(spawned, "CHOOSE YOUR ARCHETYPE.", "TAKE UP ANGROS'S DUTY.", armors)
 
 	switch(armor_choice)
 		if("Confessor - Slurbow, Leather Maillecoat")
-			spawned.equip_to_slot_or_del(new /obj/item/clothing/head/roguehood/psydon/confessor, ITEM_SLOT_HEAD, TRUE)
+			spawned.equip_to_slot_or_del(new /obj/item/clothing/head/roguehood/angros/confessor, ITEM_SLOT_HEAD, TRUE)
 			spawned.equip_to_slot_or_del(new /obj/item/clothing/armor/leather/jacket/leathercoat/confessor, ITEM_SLOT_ARMOR, TRUE)
 			spawned.equip_to_slot_or_del(new /obj/item/clothing/armor/gambeson/heavy/inq, ITEM_SLOT_SHIRT, TRUE)
 			spawned.equip_to_slot_or_del(new /obj/item/gun/ballistic/bow/cross/slur, ITEM_SLOT_BELT_L, TRUE)
@@ -108,7 +108,7 @@
 
 	// Bolt selection
 	var/static/list/quivers = list("Bolts - Steel-Tipped", "Sunderbolts - Silver-Tipped, Halved Damage")
-	var/boltchoice = browser_input_list(spawned, "CHOOSE YOUR MUNITIONS.", "TAKE UP PSYDON'S MISSILES.", quivers)
+	var/boltchoice = browser_input_list(spawned, "CHOOSE YOUR MUNITIONS.", "TAKE UP ANGROS'S MISSILES.", quivers)
 
 	switch(boltchoice)
 		if("Bolts - Steel-Tipped")
@@ -123,10 +123,10 @@
 	gloves = /obj/item/clothing/gloves/leather/otavan
 	neck = /obj/item/clothing/neck/gorget
 	backr = /obj/item/storage/backpack/satchel/otavan
-	belt = /obj/item/storage/belt/leather/knifebelt/black/psydon
+	belt = /obj/item/storage/belt/leather/knifebelt/black/angros
 	beltr = /obj/item/storage/belt/pouch/coins/mid
 	pants = /obj/item/clothing/pants/tights/colored/black
-	shoes = /obj/item/clothing/shoes/psydonboots
+	shoes = /obj/item/clothing/shoes/angrosboots
 	mask = /obj/item/clothing/face/facemask/steel/confessor
 	ring = /obj/item/clothing/ring/signet/silver
 	backpack_contents = list(

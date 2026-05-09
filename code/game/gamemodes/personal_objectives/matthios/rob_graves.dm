@@ -31,13 +31,13 @@
 /datum/objective/personal/grave_robbery/complete_objective()
 	. = ..()
 	to_chat(owner.current, span_greentext("You've robbed enough graves to earn Deceivers' respect!"))
-	adjust_storyteller_influence(MATTHIOS, 20)
+	adjust_storyteller_influence(DECEIVERS, 20)
 	UnregisterSignal(owner.current, COMSIG_GRAVE_ROBBED)
 
 /datum/objective/personal/grave_robbery/reward_owner()
 	. = ..()
 	ADD_TRAIT(owner.current, TRAIT_GRAVEROBBER, OBJECTIVE_TRAIT)
-	owner.current.adjust_stat_modifier(STATMOD_MATTHIOS_BLESSING, STAT_ENDURANCE, 1)
+	owner.current.adjust_stat_modifier(STATMOD_DECEIVERS_BLESSING, STAT_ENDURANCE, 1)
 
 /datum/objective/personal/grave_robbery/update_explanation_text()
 	explanation_text = "Rob at least [graves_required] graves to earn Deceivers' respect."

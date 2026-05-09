@@ -185,9 +185,9 @@
 		// Cabal
 		if(HAS_TRAIT(user, TRAIT_CABAL) && (istype(patron, /datum/patron/inhumen/zizo) || HAS_TRAIT(src, TRAIT_CABAL)))
 			. += span_purple("A fellow seeker of Her ascension.")
-		// Centrist
+		// Elementalist
 		if(HAS_TRAIT(user, TRAIT_DIVINE_SERVANT) && (HAS_TRAIT(src, TRAIT_DIVINE_CENTRIST) && !HAS_TRAIT(src, TRAIT_DIVINE_SERVANT)))
-			. += SPAN_GOD_ASTRATA("An 'Enlightened Centrist'. Shame!")
+			. += SPAN_GOD_VISIRES("An elementalist. A warrior of the balance itself...")
 
 		// The disgusing inquistion section
 		if(HAS_MIND_TRAIT(user, TRAIT_INQUISITION) && (real_name in GLOB.inquis_suspect_players))
@@ -199,11 +199,11 @@
 		var/im_inquis = HAS_TRAIT(src, TRAIT_INQUISITION)
 		var/inquis_msg
 		if(they_inquis && im_inquis)
-			inquis_msg = "A Practical of our Psydonic Inquisitorial Sect."
+			inquis_msg = "A Practical of our Unsundered Inquisitorial Sect."
 		if(they_inquis && im_pur)
-			inquis_msg = "The Lorde-Inquisitor of our Psydonic Inquisitorial Sect."
+			inquis_msg = "The Lorde-Inquisitor of our Unsundered Inquisitorial Sect."
 		if(they_pur && im_inquis)
-			inquis_msg = "Subordinate to me in the Psydonic Inquisitorial Sect."
+			inquis_msg = "Subordinate to me in the Unsundered Inquisitorial Sect."
 		if(they_pur && im_pur)
 			inquis_msg = "The Lorde-Inquisitor of the Sect sent here. That should be me though..."
 		if(inquis_msg)
@@ -331,7 +331,7 @@
 	// Pricing
 	if(HAS_TRAIT(user, TRAIT_SEEPRICES) && sellprice)
 		. += span_tinynoticeital("[P[THEYRE]] worth around [sellprice] mammon\s.")
-	if(HAS_TRAIT(user, TRAIT_MATTHIOS_EYES))
+	if(HAS_TRAIT(user, TRAIT_DECEIVERS_EYES))
 		var/atom/item = get_most_expensive()
 		if(item)
 			. += span_tinynoticeital("You get the feeling [P[THEIR]] most valuable possession is [item.get_examine_name(user)].")

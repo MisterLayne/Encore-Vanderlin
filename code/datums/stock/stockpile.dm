@@ -238,7 +238,7 @@
 
 /datum/stock/stockpile/tamto
 	name = "Tamtos"
-	desc = "A deliciously sweet berry that grows abundantly in the bogs of Daftmarsh."
+	desc = "A deliciously sweet berry that grows abundantly in the southern plains of the Amberlands."
 	item_type = /obj/item/reagent_containers/food/snacks/produce/fruit/tamto
 	held_items = 2
 	payout_price = 2
@@ -249,7 +249,7 @@
 
 /datum/stock/stockpile/pompkaun
 	name = "Pompkauns"
-	desc = "A large, thick fruit favored by Dendorites and Pestrans."
+	desc = "A large, thick fruit favored by the disciples of Erdl."
 	item_type = /obj/item/reagent_containers/food/snacks/produce/fruit/pompkaun
 	held_items = 2
 	payout_price = 2
@@ -260,7 +260,7 @@
 
 /datum/stock/stockpile/strawberry
 	name = "Strawberries"
-	desc = "A variety of sweet berry native to Wintermare."
+	desc = "A variety of sweet berry native to Manesi."
 	item_type = /obj/item/reagent_containers/food/snacks/produce/fruit/strawberry
 	held_items = 2
 	payout_price = 4
@@ -271,7 +271,7 @@
 
 /datum/stock/stockpile/raspberry
 	name = "Raspberries"
-	desc = "A variety of tart berry formerly common in Vanderlin."
+	desc = "A variety of tart berry formerly common in the west."
 	item_type = /obj/item/reagent_containers/food/snacks/produce/fruit/raspberry
 	held_items = 2
 	payout_price = 2
@@ -293,7 +293,7 @@
 
 /datum/stock/stockpile/jacksberry
 	name = "Jacksberries"
-	desc = "Common berries found throughout most of Faience."
+	desc = "Common berries found throughout most of the Goblet."
 	item_type = /obj/item/reagent_containers/food/snacks/produce/fruit/jacksberry
 	held_items = 2
 	payout_price = 1
@@ -326,7 +326,7 @@
 
 /datum/stock/stockpile/sunflower
 	name = "Sunflowers"
-	desc = "Astratas favoured flower, said to carry some of her warmth and radiance."
+	desc = "The favored flower of Visires, said to carry some of her warmth and radiance."
 	item_type = /obj/item/reagent_containers/food/snacks/produce/sunflower
 	held_items = 2
 	payout_price = 2

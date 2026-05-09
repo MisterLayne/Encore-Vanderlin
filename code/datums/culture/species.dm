@@ -31,7 +31,7 @@
 
 /datum/culture/species/elven/desert
 	name = "Desert Tribes"
-	description = "Known by humens to be rebellious and unruly. Assumed to be involved with the Xylixian freemen of Zaladin."
+	description = "Known by humens to be rebellious and unruly. Assumed to be involved with Iliope's freemen of Zaladin."
 	pre_append = "the "
 
 /datum/culture/species/elven/crimson
@@ -41,7 +41,7 @@
 
 /datum/culture/species/elven/obsidian
 	name = "Obsidian Tribes"
-	description = "Known by humens to be miserably devout Necrans. \
+	description = "Known by humens to be miserably devout valdalans. \
 	They worship their holy tree, \"The Waiting Wood,\" praying to its skulls for but a chance to speak to The Veiled Lady herself."
 	species = list(
 		SPEC_ID_ELF,
@@ -74,11 +74,11 @@
 
 /datum/culture/species/half_orc/blood_axe
 	name = "Blood Axe"
-	description = "Known to humens as violent and brutal warriors in the Crimsonlands. They believe themselves to be Graggar's chosen. Humen steppesmen avoid their path. Never ask their opinion of the Splitjaw tribe."
+	description = "Known to humens as violent and brutal warriors in the Crimsonlands. They believe themselves to be the Archdevils' chosen. Humen steppesmen avoid their path. Never ask their opinion of the Splitjaw tribe."
 
 /datum/culture/species/half_orc/splitjaw
 	name = "Splitjaw"
-	description = "Known to humens as brutal and violent fighters in the Crimsonlands. They believe themselves to be Graggar's chosen. Humen steppesmen avoid their path. Never ask their opinion of the Blood Axe tribe."
+	description = "Known to humens as brutal and violent fighters in the Crimsonlands. They believe themselves to be the Archdevils' chosen. Humen steppesmen avoid their path. Never ask their opinion of the Blood Axe tribe."
 
 /datum/culture/species/half_orc/blackhammer
 	name = "Blackhammer"
@@ -196,7 +196,7 @@
 
 /datum/culture/species/triton/abyssal
 	name = "Abyssal colonies"
-	description = "Nearly entirely unknown to humens. Those deepest in the darkest depths hear Abyssor's demands for worship, and another voice whispering beneath."
+	description = "Nearly entirely unknown to humens. Those deepest in the darkest depths hear Mjallidhorn's demands for worship, and another voice whispering beneath."
 
 /datum/culture/species/triton/shallows
 	name = "Shallow colonies"
@@ -232,7 +232,7 @@
 
 /datum/culture/species/aasimar/grounded
 	name = "Grounded origin"
-	description = "Known to humens to be the most level-headed of aasimar, these were placed on Psydonia to serve a purpose there, and may vary in whether they have accomplished it at all, or been discarded."
+	description = "Known to humens to be the most level-headed of aasimar, these were placed on Gaia to serve a purpose there, and may vary in whether they have accomplished it at all, or been discarded."
 
 /datum/culture/species/aasimar/seer
 	name = "Great Tree"
@@ -264,7 +264,7 @@
 
 /datum/culture/species/dwarf/malachite
 	name = "Malachite clan"
-	description = "Known to humens as the premier jewelers of Psydonia, these dwarves are both the primary source of dwarven wedding gems, and the makers of crowns and royal rings."
+	description = "Known to humens as the premier jewelers of Gaia, these dwarves are both the primary source of dwarven wedding gems, and the makers of crowns and royal rings."
 
 /datum/culture/species/dwarf/cerargyrite
 	name = "Cerargyrite clan"
@@ -272,7 +272,7 @@
 
 /datum/culture/species/dwarf/aurum
 	name = "Aurum clan"
-	description = "Known to humens for their faith in Malum and their endless toil in brewing alcohol. Prone to bar fights. Their beers are the best in the land."
+	description = "Known to humens for their faith in Goler Kanh and their endless toil in brewing alcohol. Prone to bar fights. Their beers are the best in the land."
 
 /datum/culture/species/dwarf/platinum
 	name = "Platinum clan"

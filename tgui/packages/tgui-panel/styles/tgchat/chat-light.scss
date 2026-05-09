@@ -704,12 +704,12 @@ h2.alert {
   font-size: 1.12em;
 }
 
-.psydonic {
+.unsundered {
   font-family: "Breitkopf Fraktur", Pterra;
   font-size: 1.22em;
 }
 
-.psydonic_old {
+.unsundered_old {
   font-family: "Wernicke Schwabacher", Pterra;
   font-size: 1.23em;
 }
@@ -1208,13 +1208,13 @@ $border-width-px: $border-width * 1px;
 }
 
 /* ##### ASTRATA ##### */
-.god_astrata {
+.god_visires {
   color: hsl(52, 70%, 65%);
   font-weight: bold;
-  animation: astrata_flicker 1s infinite;
+  animation: visires_flicker 1s infinite;
 }
 
-@keyframes astrata_flicker {
+@keyframes visires_flicker {
 	25% {
 		color: hsl(52, 70%, 65%);
 	}
@@ -1234,7 +1234,7 @@ $border-width-px: $border-width * 1px;
 /* ##### END ##### */
 
 
-/* ##### NOC ##### */
+/* ##### AKAN ##### */
 .god_noc {
   color: hsl(219, 53%, 68%);
   font-weight: bold;
@@ -1260,8 +1260,8 @@ $border-width-px: $border-width * 1px;
 }
 /* ##### END ##### */
 
-/* ##### ABYSSOR ##### */
-.god_abyssor {
+/* ##### MJALLIDHORN ##### */
+.god_mjallidhorn {
   color: hsl(352, 51%, 36%);
   font-weight: bold;
   animation: abyssor_flicker 1s infinite;
@@ -1286,14 +1286,14 @@ $border-width-px: $border-width * 1px;
 }
 /* ##### END ##### */
 
-/* ##### DENDOR ##### */
-.god_dendor {
+/* ##### GANI ##### */
+.god_gani {
   color: hsl(85, 20%, 44%);
   font-weight: bold;
-  animation: dendor_flicker 1s infinite;
+  animation: gani_flicker 1s infinite;
 }
 
-@keyframes dendor_flicker {
+@keyframes gani_flicker {
 	25% {
 		color: hsl(85, 20%, 44%);
 	}
@@ -1312,14 +1312,14 @@ $border-width-px: $border-width * 1px;
 }
 /* ##### END ##### */
 
-/* ##### RAVOX ##### */
-.god_ravox {
+/* ##### MORDSOL ##### */
+.god_mordsol {
   color: hsl(8, 27%, 37%);
   font-weight: bold;
-  animation: ravox_flicker 1s infinite;
+  animation: mordsol_flicker 1s infinite;
 }
 
-@keyframes ravox_flicker {
+@keyframes mordsol_flicker {
 	25% {
 		color: hsl(8, 27%, 37%);
 	}
@@ -1338,14 +1338,14 @@ $border-width-px: $border-width * 1px;
 }
 /* ##### END ##### */
 
-/* ##### MALUM ##### */
-.god_malum {
+/* ##### GOLERKANH ##### */
+.god_golerkanh {
   color: hsl(29, 58%, 59%);
   font-weight: bold;
-  animation: malum_flicker 1s infinite;
+  animation: golerkanh_flicker 1s infinite;
 }
 
-@keyframes malum_flicker {
+@keyframes golerkanh_flicker {
 	25% {
 		color: hsl(29, 58%, 59%);
 	}
@@ -1364,14 +1364,14 @@ $border-width-px: $border-width * 1px;
 }
 /* ##### END ##### */
 
-/* ##### EORA ##### */
-.god_eora {
+/* ##### POMETTE ##### */
+.god_pomette {
   color: hsl(297, 47%, 82%);
   font-weight: bold;
-  animation: eora_flicker 1s infinite;
+  animation: pomette_flicker 1s infinite;
  }
 
-@keyframes eora_flicker {
+@keyframes pomette_flicker {
 	25% {
 		color: hsl(297, 47%, 82%);
 	}
@@ -1390,14 +1390,14 @@ $border-width-px: $border-width * 1px;
 }
 /* ##### END ##### */
 
-/* ##### XYLIX ##### */
-.god_xylix {
+/* ##### ILIOPE ##### */
+.god_iliope {
   color: hsl(70, 47%, 82%);
   font-weight: bold;
-  animation: xylix_flicker 1s infinite;
+  animation: iliope_flicker 1s infinite;
 }
 
-@keyframes xylix_flicker {
+@keyframes iliope_flicker {
 	25% {
 		color: hsl(70, 47%, 82%);
 	}
@@ -1416,14 +1416,14 @@ $border-width-px: $border-width * 1px;
 }
 /* ##### END ##### */
 
-/* ##### PESTRA ##### */
-.god_pestra {
+/* ##### ERDL ##### */
+.god_erdl {
   color: hsl(70, 70%, 37%);
   font-weight: bold;
-  animation: pestra_flicker 1s infinite;
+  animation: erdl_flicker 1s infinite;
 }
 
-@keyframes pestra_flicker {
+@keyframes erdl_flicker {
 	25% {
 		color: hsl(70, 70%, 37%);
 	}
@@ -1442,14 +1442,14 @@ $border-width-px: $border-width * 1px;
 }
 /* ##### END ##### */
 
-/* ##### NECRA ##### */
-.god_necra {
+/* ##### VALDALA ##### */
+.god_valdala {
   color: hsl(243, 60%, 58%);
   font-weight: bold;
-  animation: necra_flicker 1s infinite;
+  animation: valdala_flicker 1s infinite;
 }
 
-@keyframes necra_flicker {
+@keyframes valdala_flicker {
 	25% {
 		color: hsl(243, 60.8%, 58%);
 	}
@@ -1468,14 +1468,14 @@ $border-width-px: $border-width * 1px;
 }
 /* ##### END ##### */
 
-/* ##### MATTHIOS ##### */
-.god_matthios {
+/* ##### DECEIVERS ##### */
+.god_deceivers {
   color: hsl(220, 6.1%, 9.6%);
   font-weight: bold;
-  animation: matthios_flicker 1s infinite;
+  animation: deceivers_flicker 1s infinite;
 }
 
-@keyframes matthios_flicker {
+@keyframes deceivers_flicker {
 	25% {
 		color: hsl(220, 6.1%, 9.6%);
 	}
@@ -1494,14 +1494,14 @@ $border-width-px: $border-width * 1px;
 }
 /* ##### END ##### */
 
-/* ##### BAOTHA ##### */
-.god_baotha {
+/* ##### HERTANNEA ##### */
+.god_hertannea {
   color: hsl(294.9, 26.5%, 43.7%);
   font-weight: bold;
-  animation: baotha_flicker 1s infinite;
+  animation: hertannea_flicker 1s infinite;
 }
 
-@keyframes baotha_flicker {
+@keyframes hertannea_flicker {
 	25% {
 		color: hsl(294.9, 26.5%, 43.7%);
 	}
@@ -1520,14 +1520,14 @@ $border-width-px: $border-width * 1px;
 }
 /* ##### END ##### */
 
-/* ##### GRAGGAR ##### */
-.god_graggar {
+/* ##### ARCHDEVILS ##### */
+.god_archdevils {
   color: hsl(125.9, 49.1%, 32.4%);
   font-weight: bold;
-  animation: graggar_flicker 1s infinite;
+  animation: archdevils_flicker 1s infinite;
 }
 
-@keyframes graggar_flicker {
+@keyframes archdevils_flicker {
 	25% {
 		color: hsl(125.9, 49.1%, 32.4%);
 	}
@@ -1572,14 +1572,14 @@ $border-width-px: $border-width * 1px;
 }
 /* ##### END ##### */
 
-/* ##### PSYDON ##### */
-.god_psydon {
+/* ##### ANGROS ##### */
+.god_angros {
   color: hsl(190.9, 36.3%, 82.2%);
   font-weight: bold;
-  animation: psydon_flicker 1s infinite;
+  animation: angros_flicker 1s infinite;
 }
 
-@keyframes psydon_flicker {
+@keyframes angros_flicker {
 	25% {
 		color: hsl(190.9, 36.3%, 82.2%);
 	}

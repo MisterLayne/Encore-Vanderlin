@@ -106,7 +106,7 @@
 			var/amt2raise = GET_MOB_ATTRIBUTE_VALUE(L, STAT_INTELLIGENCE) // It would be impossible to level up otherwise
 			var/boon = user.get_learning_boon(appro_skill)
 			if(amt2raise > 0)
-				if(!HAS_TRAIT(user, TRAIT_MALUMFIRE))
+				if(!HAS_TRAIT(user, TRAIT_GOLERKANHFIRE))
 					skill_quality += (rand(skill_level*6, skill_level*15) * moveup) // Lesser quality for self-learned non-professional smiths by trade
 					if(skill_level < 3) // Non-blacksmith jobs can't level past 3. Ever.
 						user.mind.add_sleep_experience(appro_skill, floor(amt2raise * boon), FALSE)

@@ -11,7 +11,7 @@ SUBSYSTEM_DEF(mobs)
 	var/datum/mob_affix_system/affix_system
 
 /datum/controller/subsystem/mobs/stat_entry()
-	..("P:[GLOB.mob_living_list.len - SSmatthios_mobs.matthios_mobs.len - SSisland_mobs.island_mobs.len]")
+	..("P:[GLOB.mob_living_list.len - SSdeceivers_mobs.deceivers_mobs.len - SSisland_mobs.island_mobs.len]")
 
 /datum/controller/subsystem/mobs/proc/MaxZChanged()
 	if (!islist(clients_by_zlevel))
@@ -41,7 +41,7 @@ SUBSYSTEM_DEF(mobs)
 	if (!resumed)
 		src.currentrun = GLOB.mob_living_list.Copy()
 		// exclude mobs handled by other subsystems
-		src.currentrun -= SSmatthios_mobs.matthios_mobs
+		src.currentrun -= SSdeceivers_mobs.deceivers_mobs
 		src.currentrun -= SSisland_mobs.island_mobs
 
 	var/list/currentrun = src.currentrun

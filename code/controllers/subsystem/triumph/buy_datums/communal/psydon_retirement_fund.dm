@@ -1,10 +1,10 @@
-/datum/triumph_buy/communal/psydon_retirement_fund
+/datum/triumph_buy/communal/angros_retirement_fund
 	name = "Angros' Retirement Fund"
 	desc = "Contribute to a fund that will be redistributed to the poorest players when its full or when the round ends."
-	triumph_buy_id = TRIUMPH_BUY_PSYDON_RETIREMENT
+	triumph_buy_id = TRIUMPH_BUY_ANGROS_RETIREMENT
 	maximum_pool = 300
 
-/datum/triumph_buy/communal/psydon_retirement_fund/on_activate()
+/datum/triumph_buy/communal/angros_retirement_fund/on_activate()
 	var/total_pool = SStriumphs.communal_pools[type]
 	if(total_pool <= 0)
 		return

@@ -167,7 +167,7 @@
 					filter: grayscale(1) brightness(0.6);
 					cursor: not-allowed;
 				}
-				.matthios-island {
+				.deceivers-island {
 					animation: glow 2s ease-in-out infinite;
 				}
 				.island-player-badge {
@@ -300,7 +300,7 @@
 					font-weight: bold;
 					margin-left: 5px;
 				}
-				.matthios-indicator {
+				.deceivers-indicator {
 					color: #ffff00;
 					font-size: 16px;
 					margin-left: 5px;
@@ -593,7 +593,7 @@
 		tooltip += "Distance: ~[round(distance)] leagues\\n"
 		tooltip += "Coordinates: ([round(island.nav_x)], [round(island.nav_y)])\\n"
 		tooltip += "Difficulty: [island.get_difficulty_text()]\\n"
-		if(island.matthios_fragment)
+		if(island.deceivers_fragment)
 			tooltip += "Contains: Deceivers Fragment\\n"
 		tooltip += "Ores: [ore_text]\\n"
 		if(player_count > 0)
@@ -608,7 +608,7 @@
 				<strong class='difficulty-[island.difficulty]'>[island.island_name]</strong>
 				[is_target ? "(DESTINATION)" : ""]
 				[player_count > 0 ? "<span class='player-count'>([player_count])</span>" : ""]
-				[island.matthios_fragment ? "<span class='matthios-indicator'>Fragment of Deceivers</span>" : ""]
+				[island.deceivers_fragment ? "<span class='deceivers-indicator'>Fragment of Deceivers</span>" : ""]
 			</div>
 			<div class='info-label'>Difficulty: [island.get_difficulty_text()]</div>
 			<div class='info-label'>Distance: ~[round(distance)] leagues</div>
@@ -648,7 +648,7 @@
 
 		// Build tooltip for map marker
 		var/tooltip = "[island.island_name] ([round(island.nav_x)], [round(island.nav_y)])"
-		if(island.matthios_fragment)
+		if(island.deceivers_fragment)
 			tooltip += "\\nContains Deceivers Fragment"
 		tooltip += "\\nOres: [ore_text]"
 		if(player_count > 0)
@@ -658,7 +658,7 @@
 
 		js += {"
 			var island[island.island_id] = document.createElement('div');
-			island[island.island_id].className = 'island-icon [is_docked ? "docked-island" : ""] [is_target ? "target-island" : ""] [!can_dock && !is_docked ? "cooldown-island" : ""] [island.matthios_fragment ? "matthios-island" : ""]';
+			island[island.island_id].className = 'island-icon [is_docked ? "docked-island" : ""] [is_target ? "target-island" : ""] [!can_dock && !is_docked ? "cooldown-island" : ""] [island.deceivers_fragment ? "deceivers-island" : ""]';
 			island[island.island_id].style.left = '[x_percent]%';
 			island[island.island_id].style.top = '[y_percent]%';
 			island[island.island_id].innerHTML = "<img src='\ref['icons/obj/overmap.dmi']?state=event&dir=2' />[player_count > 0 ? "<span class='island-player-badge'>[player_count]</span>" : ""]";

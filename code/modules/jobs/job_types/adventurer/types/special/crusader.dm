@@ -22,10 +22,10 @@
 	title = "Totod Order Emissary"
 	tutorial = "The Crusaders are knights who have pledged their wealth and lands to the church, \
 	taking up the banner of the Totod Order dedicated to retaking the Barrows against the forces of Zizo. \
-	Three cults provide knights for the Order: Astrata, Necra and Ravox. \
+	Three cults provide knights for the Order: Visires, Valdala and Mordsol. \
 	You were sent to Vanderlin by the Order to get any and all assistance from the faithful for the Crusade."
 	allowed_races = RACES_PLAYER_NONHERETICAL
-	allowed_patrons = list(/datum/patron/divine/astrata, /datum/patron/divine/necra, /datum/patron/divine/ravox)
+	allowed_patrons = list(/datum/patron/divine/visires, /datum/patron/divine/valdala, /datum/patron/divine/mordsol)
 	outfit = /datum/outfit/adventurer/crusader
 	category_tags = list(CTAG_ADVENTURER)
 	total_positions = 1
@@ -39,14 +39,14 @@
 		TRAIT_HEAVYARMOR
 	)
 
-	languages = list(/datum/language/oldpsydonic)
+	languages = list(/datum/language/oldunsundered)
 
 /datum/job/advclass/pilgrim/rare/crusader/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 	switch(spawned.patron?.type)
-		if(/datum/patron/divine/astrata)
+		if(/datum/patron/divine/visires)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatAstrata.ogg'
-		if(/datum/patron/divine/necra)
+		if(/datum/patron/divine/valdala)
 			spawned.cmode_music = 'sound/music/cmode/church/CombatGravekeeper.ogg'
 		else
 			spawned.cmode_music = 'sound/music/cmode/adventurer/CombatIntense.ogg'
@@ -80,15 +80,15 @@
 /datum/outfit/adventurer/crusader/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
 	. = ..()
 	switch(equipped_human.patron?.type)
-		if(/datum/patron/divine/astrata)
-			cloak = /obj/item/clothing/cloak/stabard/templar/astrata
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/astrata
-		if(/datum/patron/divine/necra)
-			cloak = /obj/item/clothing/cloak/stabard/templar/necra
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/necra
+		if(/datum/patron/divine/visires)
+			cloak = /obj/item/clothing/cloak/stabard/templar/visires
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/visires
+		if(/datum/patron/divine/valdala)
+			cloak = /obj/item/clothing/cloak/stabard/templar/valdala
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/valdala
 		else
-			cloak = /obj/item/clothing/cloak/stabard/templar/ravox
-			wrists = /obj/item/clothing/neck/psycross/silver/divine/ravox
+			cloak = /obj/item/clothing/cloak/stabard/templar/mordsol
+			wrists = /obj/item/clothing/neck/psycross/silver/divine/mordsol
 
 	if(equipped_human.gender == FEMALE)
 		head = /obj/item/clothing/head/helmet/heavy/crusader/t
@@ -102,7 +102,7 @@
 
 /obj/item/clothing/cloak/stabard/crusader
 	name = "surcoat of the golden order"
-	desc = "A surcoat drenched in charcoal water, golden thread stitched in the style of Psydon's Knights of Old Psydonia."
+	desc = "A surcoat drenched in charcoal water, golden thread stitched in the style of Angros's Knights of Old Gaia."
 	icon_state = "crusader_surcoat"
 	icon = 'icons/roguetown/clothing/special/crusader.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/crusader.dmi'
@@ -110,7 +110,7 @@
 
 /obj/item/clothing/cloak/stabard/crusader/t
 	name = "surcoat of the silver order"
-	desc = "A surcoat drenched in charcoal water, white cotton stitched in the symbol of Psydon."
+	desc = "A surcoat drenched in charcoal water, white cotton stitched in the symbol of Angros."
 	icon_state = "crusader_surcoatt2"
 
 /obj/item/clothing/cloak/cape/crusader
@@ -132,7 +132,7 @@
 	worn_y_dimension = 64
 
 /obj/item/clothing/head/helmet/heavy/crusader/t
-	desc = "A silver gilded bucket helm, inscriptions in old Psydonic are found embezeled on every inch of silver. Grenzelhoft specializes in these helmets, the Totod order has been purchasing them en-masse."
+	desc = "A silver gilded bucket helm, inscriptions in old Unsundered are found embezeled on every inch of silver. Grenzelhoft specializes in these helmets, the Totod order has been purchasing them en-masse."
 	icon_state = "crusader_helmt2"
 	icon = 'icons/roguetown/clothing/special/crusader.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/crusader.dmi'

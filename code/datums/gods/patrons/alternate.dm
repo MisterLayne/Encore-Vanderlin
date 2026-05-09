@@ -2,43 +2,43 @@
 	abstract_type = /datum/patron/alternate
 	associated_faith = /datum/faith/alternate
 
+//no idea what any of this is but it all needs swapped out anyway so placeholder time
+//Wurm can become Nidhogg perhaps, given the relation to dwarves
 /datum/patron/alternate/wurm
 	name = "The Wurm"
-	desc = "A Belief of Pestra contorted. You live for the Wurm and you will die for it."
-	domain = "\"Mineralogy\", Flesh Searing, Chimeric Enhancement"
-	flaws = "Blind Faith, Self-Harm, Cruelty"
-	worshippers = "The Desperate, The Lost, Fanatics"
-	sins = "Betrayal of Duty, Hesitance, Trusting Outsiders"
-	boons = "Two \"blessed\" chimeric organs"
+	desc = PLACEHOLDER_PATRON_REBRANDING
+	domain = PLACEHOLDER_PATRON_REBRANDING
+	flaws = PLACEHOLDER_PATRON_REBRANDING
+	worshippers = PLACEHOLDER_PATRON_REBRANDING
+	sins = PLACEHOLDER_PATRON_REBRANDING
+	boons = PLACEHOLDER_PATRON_REBRANDING
 
 	confess_lines = list(
-		"THE CYCLE WILL GO ON!",
-		"THE WURM WILL GUIDE MY PATH!",
-		"MY SCARS ARE MY PROOF!",
-		"THE POOLS WILL ERODE ALL!",
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
 	)
 
 	allowed_races = list(SPEC_ID_DWARF_SUBTERRAN)
 
+//round and round we goooooo
+//Honestly this patron is so cool I don't actually intend to overwrite or remove it at all.
 /datum/patron/alternate/great_hunt
 	name = "The Great Hunt"
 	display_name = "The Great Hunt (Unproven)"
-	desc = "In the cold reaches of Ossland, they worship the four aspects of the Great Hunt: \
-	Graggar as The Hunter, revered for the relation between predator and prey; \
-	Necra as The Skull, revered for the death that awaits every living being; \
-	Dendor as The Woods, revered for the wilds they live in and the beasts they hunt; \
-	Abyssor as The Traveler, revered for the safe passage of travelers and the unflinching weather that scours the north."
-	boons = "None. You have not proven worthy, yet."
-	domain = "The Hunt, Travelers, Nature"
-	flaws = "Intense, Morbid"
-	worshippers = "Hunters, the Northmen"
-	sins = "Wasting any of your kills, Smashing skullmets, Exploiting nature"
+	desc = PLACEHOLDER_PATRON_REBRANDING
+	boons = PLACEHOLDER_PATRON_REBRANDING
+	domain = PLACEHOLDER_PATRON_REBRANDING
+	flaws = PLACEHOLDER_PATRON_REBRANDING
+	worshippers = PLACEHOLDER_PATRON_REBRANDING
+	sins = PLACEHOLDER_PATRON_REBRANDING
 
 	confess_lines = list(
-		"I WILL BE REBORN!",
-		"TO HUNT IS TO TAKE YOUR PLACE IN THE CYCLE!",
-		"WE ALL DIE SOMEDAY!",
-		"LET ME BE HUNTED, NOT SLAUGHTERED LIKE THIS!"
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING,
+		PLACEHOLDER_PATRON_REBRANDING
 	)
 	devotion_holder = /datum/devotion/alternate/great_hunt
 
@@ -72,7 +72,7 @@
 		"WE ARE BEAUTIFUL!",
 		"LISTEN TO OUR SONG!",
 		"CUT MY FLESH SO I MAY SPROUT!",
-		"OH NOC, SWEET NOC, YOUR GAZE IS THE NECTAR IN WHICH I DRINK!",
+		"OH AKAN, SWEET AKAN, YOUR GAZE IS THE NECTAR IN WHICH I DRINK!",
 	)
 	added_traits = list(TRAIT_BRIAR_HOST)
 

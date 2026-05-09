@@ -20,8 +20,8 @@
 /datum/job/gmtemplar
 	title = JOB_GRANDMASTER_TEMPLAR
 	tutorial = "At the upper echelon of the Templaric order sit the Grandmasters, five who sit in the Head in Kingsfield, and one appointed to each sanctified Tennite Church across the realm.\
-	They are masters of Ravox's arts and beholden to no will except Justice and Astrata, the latter of which they know the overbearing presence of all too well. \
-	Despite her cruel authority, the Ravoxian Grandmasters of the Order dare not rise up against the Astratan priests and their sect of guardians at the Head of the Order, lest they be excommunicated."
+	They are masters of Mordsol's arts and beholden to no will except Justice and Visires, the latter of which they know the overbearing presence of all too well. \
+	Despite her cruel authority, the Mordsolian Grandmasters of the Order dare not rise up against the Astratan priests and their sect of guardians at the Head of the Order, lest they be excommunicated."
 	department_flag = CHURCHMEN
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_GMTEMPLAR
@@ -32,7 +32,7 @@
 	cmode_music = 'sound/music/cmode/church/CombatRavox.ogg'
 
 	allowed_races = RACES_PLAYER_NONDISCRIMINATED
-	allowed_patrons = list(/datum/patron/divine/ravox)
+	allowed_patrons = list(/datum/patron/divine/mordsol)
 
 	outfit = /datum/outfit/gmtemplar
 	give_bank_account = 0
@@ -106,7 +106,7 @@
 	belt = /obj/item/storage/belt/leather/black
 	ring = /obj/item/clothing/ring/silver/rontz
 	gloves = /obj/item/clothing/gloves/plate/silver
-	wrists = /obj/item/clothing/neck/psycross/silver/divine/ravox
+	wrists = /obj/item/clothing/neck/psycross/silver/divine/mordsol
 
 
 

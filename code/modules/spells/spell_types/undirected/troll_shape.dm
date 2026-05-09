@@ -11,9 +11,9 @@
 	spell_type = SPELL_MIRACLE
 	antimagic_flags = MAGIC_RESISTANCE_HOLY
 	associated_skill = /datum/attribute/skill/magic/holy
-	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/dendor)
+	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/gani)
 
-	invocation = "DENDOR LEND ME YOUR POWER!!"
+	invocation = "GANI LEND ME YOUR POWER!!"
 	invocation_type = INVOCATION_SHOUT
 
 	charge_required = FALSE
@@ -47,7 +47,7 @@
 			next_stage_time = 3 SECONDS
 		if(TROLL_SHAPE_STAGE_2)
 			playsound(druid, 'sound/foley/sewflesh.ogg', 100, TRUE)
-			to_chat(druid, span_warning("My body is transforming, growing! Unbearable pain, Dendor has answered my prayers!"))
+			to_chat(druid, span_warning("My body is transforming, growing! Unbearable pain, Gani has answered my prayers!"))
 			druid.emote("pain", forced = TRUE)
 			druid.do_jitter_animation(4 SECONDS)
 			druid.Immobilize(4 SECONDS)

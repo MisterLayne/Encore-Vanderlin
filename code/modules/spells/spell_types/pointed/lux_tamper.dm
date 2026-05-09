@@ -1,7 +1,7 @@
-/datum/action/cooldown/spell/psydonlux_tamper
+/datum/action/cooldown/spell/angroslux_tamper
 	name = "WEEP"
-	spell_type = SPELL_PSYDONIC_MIRACLE
-	spell_flags = SPELL_PSYDON
+	spell_type = SPELL_ANGROSIC_MIRACLE
+	spell_flags = SPELL_ANGROS
 
 	spell_cost = 40
 	charge_time = 1
@@ -13,7 +13,7 @@
 	cooldown_time = 1 MINUTES // 60 seconds cooldown
 	button_icon_state = "WEEP"
 
-/datum/action/cooldown/spell/psydonlux_tamper/cast(mob/living/carbon/human/H)
+/datum/action/cooldown/spell/angroslux_tamper/cast(mob/living/carbon/human/H)
 	. = ..()
 	var/mob/living/user = owner
 	if(!ishuman(H))

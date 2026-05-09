@@ -168,7 +168,7 @@
 	desc = "Boots custom fit for a Valorian Duelist. Footwork is paramount in a duel, so good boots are a must."
 	armor = list("blunt" = 25, "slash" = 25, "stab" = 25,  "piercing" = 15, "fire" = 0, "acid" = 0)
 
-/obj/item/clothing/shoes/psydonboots
+/obj/item/clothing/shoes/angrosboots
 	name = "enduring boots"
 	desc = "A reliable pair of dark leather boots. Seems like they could endure the world!"
 	color = "#d5c2aa"

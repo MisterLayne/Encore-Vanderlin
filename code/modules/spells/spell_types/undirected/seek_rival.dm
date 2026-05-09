@@ -12,7 +12,7 @@
 	. = ..()
 
 	var/datum/culling_duel/current_duel
-	for(var/datum/culling_duel/D in GLOB.graggar_cullings)
+	for(var/datum/culling_duel/D in GLOB.archdevils_cullings)
 		var/mob/living/carbon/human/challenger = D.challenger?.resolve()
 		var/mob/living/carbon/human/target = D.target?.resolve()
 

@@ -134,9 +134,9 @@
 	craftdiff = 3
 	category = "Mask"
 
-/datum/repeatable_crafting_recipe/sewing/weaving/abyssorhood
+/datum/repeatable_crafting_recipe/sewing/weaving/mjallidhornhood
 	name = "hood (Mjallidhorn)"
-	output = /obj/item/clothing/head/padded/abyssor
+	output = /obj/item/clothing/head/padded/mjallidhorn
 	requirements = list(/obj/item/natural/cloth = 2,
 				/obj/item/natural/silk = 1)
 	craftdiff = 3
@@ -151,16 +151,16 @@
 	craftdiff = 3
 	category = "Hat"
 
-/datum/repeatable_crafting_recipe/sewing/weaving/eorahood
-	name = "hood (eora)"
-	output = /obj/item/clothing/head/roguehood/eora
+/datum/repeatable_crafting_recipe/sewing/weaving/pomettehood
+	name = "hood (pomette)"
+	output = /obj/item/clothing/head/roguehood/pomette
 	requirements = list(/obj/item/natural/cloth = 2,
 				/obj/item/natural/silk = 1,
 				/obj/item/natural/thorn = 3)
 	craftdiff = 3
 	category = "Hat"
 
-/datum/repeatable_crafting_recipe/sewing/weaving/necrahood
+/datum/repeatable_crafting_recipe/sewing/weaving/valdalahood
 	name = "hood (Valdala)"
 	output = /obj/item/clothing/head/padded/deathshroud
 	requirements = list(/obj/item/natural/cloth = 2,
@@ -168,15 +168,15 @@
 	craftdiff = 3
 	category = "Hat"
 
-/datum/repeatable_crafting_recipe/sewing/weaving/pestrahood
-	name = "hood (pestra)"
-	output = /obj/item/clothing/head/padded/pestra
+/datum/repeatable_crafting_recipe/sewing/weaving/erdlhood
+	name = "hood (erdl)"
+	output = /obj/item/clothing/head/padded/erdl
 	requirements = list(/obj/item/natural/cloth = 2,
 				/obj/item/natural/silk = 1)
 	craftdiff = 3
 	category = "Hat"
 
-/datum/repeatable_crafting_recipe/sewing/weaving/eoramask
+/datum/repeatable_crafting_recipe/sewing/weaving/pomettemask
 	name = "mask (Pomette)"
 	output = /obj/item/clothing/face/operavisage
 	requirements = list(/obj/item/ingot/silver = 1,
@@ -184,9 +184,9 @@
 	craftdiff = 3
 	category = "Hat"
 
-/datum/repeatable_crafting_recipe/sewing/weaving/astratahood
+/datum/repeatable_crafting_recipe/sewing/weaving/visireshood
 	name = "hood (solar/Visires)"
-	output = /obj/item/clothing/head/roguehood/astrata
+	output = /obj/item/clothing/head/roguehood/visires
 	requirements = list(/obj/item/natural/cloth = 2,
 				/obj/item/natural/silk = 1)
 	craftdiff = 3
@@ -276,51 +276,51 @@
 	craftdiff = 4
 	category = "Pants"
 
-/datum/repeatable_crafting_recipe/sewing/weaving/astratarobe
+/datum/repeatable_crafting_recipe/sewing/weaving/visiresrobe
 	name = "robes (Visires)"
-	output = /obj/item/clothing/shirt/robe/astrata
+	output = /obj/item/clothing/shirt/robe/visires
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/silk = 1)
 	craftdiff = 4
 
-/datum/repeatable_crafting_recipe/sewing/weaving/eorarobe
+/datum/repeatable_crafting_recipe/sewing/weaving/pometterobe
 	name = "robes (Pomette)"
-	output = /obj/item/clothing/shirt/robe/eora
+	output = /obj/item/clothing/shirt/robe/pomette
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/silk = 1)
 	craftdiff = 4
 
-/datum/repeatable_crafting_recipe/sewing/weaving/dendorrobe
+/datum/repeatable_crafting_recipe/sewing/weaving/ganirobe
 	name = "robes (Gani)"
-	output = /obj/item/clothing/shirt/robe/dendor
+	output = /obj/item/clothing/shirt/robe/gani
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/silk = 1)
 	craftdiff = 4
 
-/datum/repeatable_crafting_recipe/sewing/weaving/necrarobe
+/datum/repeatable_crafting_recipe/sewing/weaving/valdalarobe
 	name = "robes (Valdala)"
-	output = /obj/item/clothing/shirt/robe/necra
+	output = /obj/item/clothing/shirt/robe/valdala
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/silk = 1)
 	craftdiff = 4
 
 /datum/repeatable_crafting_recipe/sewing/weaving/nocrobe
 	name = "robes (Akan)"
-	output = /obj/item/clothing/shirt/robe/noc
+	output = /obj/item/clothing/shirt/robe/akan
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/silk = 1)
 	craftdiff = 4
 
-/datum/repeatable_crafting_recipe/sewing/weaving/abyssor_robe
+/datum/repeatable_crafting_recipe/sewing/weaving/mjallidhorn_robe
 	name = "robes (Mjallidhorn)"
-	output = /obj/item/clothing/shirt/robe/abyssor
+	output = /obj/item/clothing/shirt/robe/mjallidhorn
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/silk = 1)
 	craftdiff = 4
 
-/datum/repeatable_crafting_recipe/sewing/weaving/pestra_robe
+/datum/repeatable_crafting_recipe/sewing/weaving/erdl_robe
 	name = "robes (Erdl)"
-	output = /obj/item/clothing/shirt/robe/pestra
+	output = /obj/item/clothing/shirt/robe/erdl
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/silk = 1)
 	craftdiff = 4
@@ -383,9 +383,9 @@
 				/obj/item/natural/silk = 2)
 	craftdiff = 4
 
-/datum/repeatable_crafting_recipe/sewing/weaving/chasuble_psydonite
+/datum/repeatable_crafting_recipe/sewing/weaving/chasuble_angrosian
 	name = "chasuble"
-	output = /obj/item/clothing/cloak/chasuble/psydon
+	output = /obj/item/clothing/cloak/chasuble/angros
 	requirements = list(/obj/item/natural/cloth = 1,
 				/obj/item/natural/silk = 2)
 	craftdiff = 4
@@ -483,9 +483,9 @@
 	sellprice = 60
 	category = "Armor"
 
-/datum/repeatable_crafting_recipe/sewing/weaving/eorastraps
-	name = "straps (eora)"
-	output = /obj/item/clothing/shirt/robe/eora/alt
+/datum/repeatable_crafting_recipe/sewing/weaving/pomettestraps
+	name = "straps (pomette)"
+	output = /obj/item/clothing/shirt/robe/pomette/alt
 	requirements = list(/obj/item/ingot/gold = 1,
 				/obj/item/natural/silk = 5,
 				)

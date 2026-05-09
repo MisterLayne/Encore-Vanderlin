@@ -21,7 +21,7 @@
 	alternative_icon_handling = TRUE
 	var/stage = 1
 	var/faildirt = 0
-	var/is_consecrated = NOT_CONSECRATED // Has the "burial rites" miracle been used on this grave. 0 = No consecration. 1 = Simple consecration (you get cursed by Necra) 2 and above = Double consecration (you get cursed, and the clergy is alerted.)
+	var/is_consecrated = NOT_CONSECRATED // Has the "burial rites" miracle been used on this grave. 0 = No consecration. 1 = Simple consecration (you get cursed by Valdala) 2 and above = Double consecration (you get cursed, and the clergy is alerted.)
 
 
 /obj/structure/closet/dirthole/Initialize()
@@ -200,47 +200,47 @@
 			stage = 3
 			climb_offset = 0
 			open()
-			switch(is_consecrated) // this is where we handle folks being cursed by Necra for graverobbing.
+			switch(is_consecrated) // this is where we handle folks being cursed by Valdala for graverobbing.
 				if(NOT_CONSECRATED) // not consecrated, proceed
 					for(var/obj/structure/gravemarker/G in loc) // remove gravemarkers
 						qdel(G)
 					return
 
-				if(CONSECRATED) // consecrated, if you're not necran clergy or a treasure hunter, you get cursed.
+				if(CONSECRATED) // consecrated, if you're not valdalan clergy or a treasure hunter, you get cursed.
 					if(ishuman(user))
 						var/mob/living/L = user
-						if(L.patron?.type != /datum/patron/divine/necra) // non-necran get tagged as graverobbers in EOR stats.
+						if(L.patron?.type != /datum/patron/divine/valdala) // non-valdalan get tagged as graverobbers in EOR stats.
 							record_featured_stat(FEATURED_STATS_CRIMINALS, user)
 							record_round_statistic(STATS_GRAVES_ROBBED)
 						if(HAS_TRAIT(L, TRAIT_GRAVEROBBER))
-							to_chat(user, span_warning("Necra turns a blind eye to my deeds."))
+							to_chat(user, span_warning("Valdala turns a blind eye to my deeds."))
 						else // the part where she curses you.
-							to_chat(user, span_warning("Necra shuns my blasphemous deeds!"))
+							to_chat(user, span_warning("Valdala shuns my blasphemous deeds!"))
 							L.apply_status_effect(/datum/status_effect/debuff/cursed)
 					SEND_SIGNAL(user, COMSIG_GRAVE_ROBBED, user)
 					for(var/obj/structure/gravemarker/G in loc) // remove gravemarkers
 						qdel(G)
 
-				if(DOUBLY_CONSECRATED to INFINITY) // if double-consecrated (2 or higher), you better be a Necran, or an alarm is tripped.
+				if(DOUBLY_CONSECRATED to INFINITY) // if double-consecrated (2 or higher), you better be a Valdalan, or an alarm is tripped.
 					if(ishuman(user))
 						var/mob/living/carbon/human/L = user
 						var/robbery_location = get_area_name(src)
-						if(L.patron?.type != /datum/patron/divine/necra) // non-necran trigger an alarm and get cursed.
+						if(L.patron?.type != /datum/patron/divine/valdala) // non-valdalan trigger an alarm and get cursed.
 							record_featured_stat(FEATURED_STATS_CRIMINALS, user)
 							record_round_statistic(STATS_GRAVES_ROBBED)
-							to_chat(user, span_warning("Necra shuns my blasphemous deeds! Worse, whispers flutter in every direction, someone has been warned of my actions!"))
+							to_chat(user, span_warning("Valdala shuns my blasphemous deeds! Worse, whispers flutter in every direction, someone has been warned of my actions!"))
 							L.apply_status_effect(/datum/status_effect/debuff/cursed)
 							for (var/mob/living/player in GLOB.player_list)
 								if (player.stat == DEAD || isbrain(player))
 									continue
-								// When the alarm is tripped, the priest, templars, and necran clergy (gravekeepers + acolytes whose patron is Necra) get alerted.
-								if (is_priest_job(player.mind.assigned_role) || (is_monk_job(player.mind.assigned_role) && player.patron?.type == /datum/patron/divine/necra) || istype(player.mind.assigned_role, /datum/job/templar) || istype(player.mind.assigned_role, /datum/job/undertaker))
+								// When the alarm is tripped, the priest, templars, and valdalan clergy (gravekeepers + acolytes whose patron is Valdala) get alerted.
+								if (is_priest_job(player.mind.assigned_role) || (is_monk_job(player.mind.assigned_role) && player.patron?.type == /datum/patron/divine/valdala) || istype(player.mind.assigned_role, /datum/job/templar) || istype(player.mind.assigned_role, /datum/job/undertaker))
 									to_chat(player, span_crit("Veiled whispers hiss of great blasphemy, a twice-consecrated grave is being robbed in [robbery_location], this cannot go unpunished!"))
 						else
 							if(HAS_TRAIT(L, TRAIT_GRAVEROBBER)) // this typically means you're a gravetender or cleric
-								to_chat(user, span_info("I speak the hallowed words of Necra, and she releases her grip over my soul.."))
-							else // Even Necrans get minorly cursed, but it's miles better than losing your lux or your arm
-								to_chat(user, span_warning("I mutter Necra's hallowed rites, and although my devotion is recognized, my trespass remains great, I am cursed!"))
+								to_chat(user, span_info("I speak the hallowed words of Valdala, and she releases her grip over my soul.."))
+							else // Even Valdalans get minorly cursed, but it's miles better than losing your lux or your arm
+								to_chat(user, span_warning("I mutter Valdala's hallowed rites, and although my devotion is recognized, my trespass remains great, I am cursed!"))
 								L.apply_status_effect(/datum/status_effect/debuff/cursed)
 					for(var/obj/structure/gravemarker/G in loc) // remove gravemarkers
 						qdel(G)

@@ -1,5 +1,5 @@
 /obj/structure/fake_machine/lottery_roguetown
-	name = "XYLIX'S FORTUNE"
+	name = "ILIOPE'S FORTUNE"
 	desc = "An infinite, yawning hole that makes or breaks men. Come and play!"
 	icon = 'icons/roguetown/misc/machines.dmi'
 	icon_state = "lottery"
@@ -87,7 +87,7 @@
 	diceroll = rand(1, 100)
 	say(pick(
 		"Around and around I go, where I stop, only I know.",\
-		"Xylix smiles upon your idiocy, child.",\
+		"Iliope smiles upon your idiocy, child.",\
 		"The wheel of fate spins, and spins.",\
 		"Oh, you poor fool.",\
 		"This is going to hurt for one of us.",\
@@ -263,7 +263,7 @@
 			playsound(src, 'sound/misc/bug.ogg', 100, FALSE, -1)
 
 		if(5)
-			say("Oh, Psydon?")
+			say("Oh, Angros?")
 			playsound(src, 'sound/misc/machinequestion.ogg', 100, FALSE, -1)
 			sleep(30)
 			say("To be honest, I'm about PSY-DONE with this whole debate! Ha-ha-h- ...No? Too soon? Alright.")

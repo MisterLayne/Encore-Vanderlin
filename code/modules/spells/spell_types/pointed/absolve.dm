@@ -1,8 +1,8 @@
 
-/datum/action/cooldown/spell/psydonabsolve
+/datum/action/cooldown/spell/angrosabsolve
 	name = "ABSOLVE"
-	spell_type = SPELL_PSYDONIC_MIRACLE
-	spell_flags = SPELL_PSYDON
+	spell_type = SPELL_ANGROSIC_MIRACLE
+	spell_flags = SPELL_ANGROS
 	spell_cost = 160
 	charge_time = 1
 	cast_range = 1
@@ -13,7 +13,7 @@
 	cooldown_time = 30 SECONDS // 60 seconds cooldown
 	button_icon_state = "ABSOLVE"
 
-/datum/action/cooldown/spell/psydonabsolve/cast(mob/living/carbon/human/H)
+/datum/action/cooldown/spell/angrosabsolve/cast(mob/living/carbon/human/H)
 	. = ..()
 	var/mob/living/user = owner
 	if(!ishuman(H))

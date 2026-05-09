@@ -84,37 +84,3 @@
 		"WHAT'S A GOD?!",
 		"NOBODY EVER TOLD ME ABOUT THE DIVINE!"
 	)
-
-/datum/patron/godless/rashan
-	name = "Rashan-Kahl"
-	domain = "Twin-faced god of ambition and chains"
-	desc = "Rashan represents both creation and destruction, freedom and bondage: a duality that mirrors the rakshari's complex relationship with power. Temples to Rashan-Kahl often double as marketplaces, symbolizing the transactional nature of life."
-	flaws = "Flaws of their followers"
-	worshippers = "Rakshari, Slavers, His Majesty"
-	sins = "Sins of their Followers"
-	boons = "The will to meow"
-	confess_lines = list(
-		"WHAT MUST I PAY FOR THE PAIN TO STOP!",
-		"I AM UNCHAINED!!",
-		"I AM PROMISED FREEDOM",
-		"MY GOD IS FREEDOM WHILE YOURS ARE SHACKLES!",
-		"RASHAN-KAHL WILL ENSLAVE YOU!"
-	)
-	allowed_races = list(SPEC_ID_RAKSHARI)
-
-/datum/patron/godless/galadros
-	name = "Galadros"
-	domain = "The Great Wyrm in the heart of Kruskros, Krusnakell"
-	desc = "Galadros has brought himself to reverential status among Kobolds through generational servitude. They feed him the lux of the mountain. He gives their short lives purpose. For them, this is everything."
-	flaws = "Ignorance, Co-dependency, Stubbornness"
-	worshippers = "Kobolds, His Offspring"
-	sins = "Self-dependency, Failing your sire, Discouraging servantry"
-	boons = "A sense of purpose and accomplishment!"
-	confess_lines = list(
-		"I'LL NEVER LET YOU DOWN AGAIN!!",
-		"I HAVE FAILED YOU, MASTER!",
-		"HE IS HUNGRY! I MUST TO FEED HIM!!",
-		"I FIND PURPOSE THROUGH SERVITUDE!",
-		"THE GREAT WYRM WILL DEVOUR YOU!!",
-	)
-	allowed_races = list(SPEC_ID_KOBOLD)

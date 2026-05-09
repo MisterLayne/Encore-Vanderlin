@@ -75,7 +75,7 @@
 
 /datum/quirk/vice/alcoholic/on_examined(mob/user, list/P, list/examine_contents)
 	if(HAS_TRAIT(user, TRAIT_RECOGNIZE_ADDICTS))
-		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_BAOTHA("Drinker..."))
+		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_HERTANNEA("Drinker..."))
 
 
 /datum/quirk/vice/smoker
@@ -88,7 +88,7 @@
 
 /datum/quirk/vice/smoker/on_examined(mob/user, list/P, list/examine_contents)
 	if(HAS_TRAIT(user, TRAIT_RECOGNIZE_ADDICTS))
-		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_BAOTHA("Smoker..."))
+		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_HERTANNEA("Smoker..."))
 
 /datum/quirk/vice/junkie
 	name = "Junkie"
@@ -100,7 +100,7 @@
 
 /datum/quirk/vice/junkie/on_examined(mob/user, list/P, list/examine_contents)
 	if(HAS_TRAIT(user, TRAIT_RECOGNIZE_ADDICTS))
-		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_BAOTHA("Narco..."))
+		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_HERTANNEA("Narco..."))
 
 /datum/quirk/vice/pyromaniac
 	name = "Fire Servant"
@@ -112,7 +112,7 @@
 
 /datum/quirk/vice/pyromaniac/on_examined(mob/user, list/P, list/examine_contents)
 	if(HAS_TRAIT(user, TRAIT_RECOGNIZE_ADDICTS))
-		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_BAOTHA("Pyro!"))
+		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_HERTANNEA("Pyro!"))
 
 /datum/quirk/vice/kleptomaniac
 	name = "Thief-Borne"
@@ -124,7 +124,7 @@
 
 /datum/quirk/vice/kleptomaniac/on_examined(mob/user, list/P, list/examine_contents)
 	if(HAS_TRAIT(user, TRAIT_RECOGNIZE_ADDICTS))
-		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_BAOTHA("Klepto..."))
+		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_HERTANNEA("Klepto..."))
 
 /datum/quirk/vice/godfearing
 	name = "Devout Follower"
@@ -160,4 +160,4 @@
 
 /datum/quirk/vice/maniac/on_examined(mob/user, list/P, list/examine_contents)
 	if(HAS_TRAIT(user, TRAIT_RECOGNIZE_ADDICTS))
-		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_BAOTHA("Sadist..."))
+		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, SPAN_GOD_HERTANNEA("Sadist..."))
