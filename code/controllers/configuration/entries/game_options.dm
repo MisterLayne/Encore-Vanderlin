@@ -364,7 +364,7 @@
 	default = FALSE
 
 /datum/config_entry/flag/ruler_required
-	config_entry_value = TRUE
+	config_entry_value = FALSE
 	default = FALSE
 
 /datum/config_entry/flag/starvation_death
