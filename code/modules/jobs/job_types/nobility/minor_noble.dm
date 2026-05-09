@@ -45,7 +45,7 @@
 	give_bank_account = 60
 	noble_income = 16
 	cmode_music = 'sound/music/cmode/nobility/combat_noble.ogg'
-	allowed_ages = ALL_AGES_LIST_CHILD
+	allowed_ages = ALL_AGES_LIST
 	spells = list(/datum/action/cooldown/spell/undirected/call_bird)
 	job_bitflag = BITFLAG_ROYALTY
 

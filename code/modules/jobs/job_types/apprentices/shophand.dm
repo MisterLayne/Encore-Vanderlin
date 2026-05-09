@@ -47,7 +47,7 @@
 	can_have_apprentices = FALSE
 
 	allowed_races = RACES_PLAYER_ALL
-	allowed_ages = list(AGE_CHILD, AGE_ADULT)
+	allowed_ages = list(AGE_ADULT)
 
 	outfit = /datum/outfit/shophand
 	display_order = JDO_SHOPHAND

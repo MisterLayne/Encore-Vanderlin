@@ -26,7 +26,7 @@
 	bypass_lastclass = TRUE
 	allowed_races = RACES_PLAYER_ALL
 	blacklisted_species = list(SPEC_ID_HALFLING)
-	allowed_ages = list(AGE_CHILD, AGE_ADULT)
+	allowed_ages = list(AGE_ADULT)
 	allowed_sexes = list(MALE, FEMALE)
 	outfit = /datum/outfit/bog_apprentice
 	is_foreigner = TRUE
