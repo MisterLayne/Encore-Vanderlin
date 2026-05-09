@@ -297,6 +297,12 @@
 	},
 /turf/open/floor/metal/alt,
 /area/latejoin_area)
+"cT" = (
+/obj/structure/fluff/psycross/hugecrystal{
+	pixel_y = -16
+	},
+/turf/open/floor/metal,
+/area/latejoin_area)
 "cV" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/open/floor/snow,
@@ -2418,6 +2424,7 @@
 /area/indoors/town/church)
 "Gk" = (
 /obj/effect/landmark/latejoin,
+/obj/effect/landmark/start/late,
 /turf/open/floor/metal/barograte,
 /area/latejoin_area)
 "Gl" = (
@@ -9151,7 +9158,7 @@ LG
 Ze
 pP
 Ea
-ey
+cT
 df
 Ze
 Se
@@ -12235,7 +12242,7 @@ LG
 Ze
 Se
 Ea
-ey
+cT
 df
 Ze
 pa

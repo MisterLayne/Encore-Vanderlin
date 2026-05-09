@@ -212,7 +212,7 @@
 //............... Valdala Helmet ............... //
 /obj/item/clothing/head/helmet/heavy/necked/valdala
 	name = "valdalan helmet"
-	desc = "A reinforced helmet shaped into the visage of a skull with a maille neck cover under the cloth. A symbol of authority for the battle servants of the Undermaiden."
+	desc = "A reinforced helmet shaped into the visage of a skull with a maille neck cover under the cloth. A symbol of authority for the battle servants of the grieving angel."
 	icon_state = "necrahelm"
 	item_weight = 4.5 KILOGRAMS
 

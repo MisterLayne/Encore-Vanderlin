@@ -3,7 +3,7 @@
 // Turn this into a continuous spell type?
 /datum/action/cooldown/spell/avert
 	name = "Borrowed Time"
-	desc = "Shield someone from the Undermaiden's gaze, preventing them from slipping into death for as long as your faith and fatigue may muster."
+	desc = "Shield someone from Valdala's embrace, preventing them from slipping into death for as long as your faith and fatigue may muster."
 	button_icon_state = "borrowtime"
 	sound = 'sound/magic/churn.ogg'
 	charge_sound = 'sound/magic/holycharging.ogg'
@@ -15,7 +15,7 @@
 	associated_skill = /datum/attribute/skill/magic/holy
 	required_items = list(/obj/item/clothing/neck/psycross/silver/divine/valdala)
 
-	invocation = "Undermaiden avert your gaze!"
+	invocation = "Valdala, stay your tears!"
 	invocation_type = INVOCATION_SHOUT
 
 	self_cast_possible = FALSE
@@ -54,7 +54,7 @@
 	. = ..()
 
 	owner.visible_message(
-		span_notice("Whispering motes gently bead from [owner]'s fingers as [owner.p_they()] place a hand near [cast_on], scriptures of the Undermaiden spilling from their lips..."),
+		span_notice("Whispering motes gently bead from [owner]'s fingers as [owner.p_they()] place a hand near [cast_on], laments of Valdala spilling from their lips..."),
 		span_notice("I stand beside [cast_on] and utter the hallowed words of Aeon's Intercession, staying Her grasp for just a little while longer..."),
 	)
 
