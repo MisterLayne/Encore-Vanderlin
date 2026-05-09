@@ -40,7 +40,6 @@ INITIALIZE_IMMEDIATE(/atom/movable/screen/lobby)
 	var/always_shown = FALSE
 	/// If true we will create this button every time the HUD is generated
 	var/always_available = TRUE
-	alpha = 210
 
 ///Run sleeping actions after initialize
 /atom/movable/screen/lobby/proc/SlowInit()
@@ -62,7 +61,6 @@ INITIALIZE_IMMEDIATE(/atom/movable/screen/lobby)
 	plane = LOBBY_MENU_PLANE
 	layer = LOBBY_BACKGROUND_LAYER
 	screen_loc = "WEST:10,TOP:10"
-	alpha = 150
 
 /atom/movable/screen/lobby/button
 	mouse_over_pointer = MOUSE_HAND_POINTER
