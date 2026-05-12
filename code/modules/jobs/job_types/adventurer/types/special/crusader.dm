@@ -19,11 +19,11 @@
 	)
 
 /datum/job/advclass/pilgrim/rare/crusader
-	title = "Totod Order Emissary"
+	title = "Katholikon Emissary"
 	tutorial = "The Crusaders are knights who have pledged their wealth and lands to the church, \
-	taking up the banner of the Totod Order dedicated to retaking the Barrows against the forces of Zizo. \
-	Three cults provide knights for the Order: Visires, Valdala and Mordsol. \
-	You were sent to Vanderlin by the Order to get any and all assistance from the faithful for the Crusade."
+	taking up the banner of the Katholikon dedicated to retaking the Firmament against the forces of Hell. \
+	Three sects provide knights for the Church: one each for Visires, Valdala and Mordsol. \
+	You were sent to Domotan by the Church to get any and all assistance from the faithful for the Crusade."
 	allowed_races = RACES_PLAYER_NONHERETICAL
 	allowed_patrons = list(/datum/patron/divine/visires, /datum/patron/divine/valdala, /datum/patron/divine/mordsol)
 	outfit = /datum/outfit/adventurer/crusader
@@ -61,10 +61,10 @@
 	if(spawned.dna?.species?.id == SPEC_ID_HUMEN && spawned.gender == MALE)
 		spawned.dna.species.soundpack_m = new /datum/voicepack/male/knight()
 
-	to_chat(spawned, "<br><br><font color='#bdc34a'><span class='bold'>You have been sent from the Totod Order on a mission to aid your struggle against the Blood Barons somehow. The details of your mission may vary, perhaps to find allies, funding, or a agent of the enemy...</span></font><br><br>")
+	to_chat(spawned, "<br><br><font color='#bdc34a'><span class='bold'>You have been sent from the Katholikon on a mission to aid your struggle against the Archdevils somehow. The details of your mission may vary, perhaps to find allies, funding, or a agent of the enemy...</span></font><br><br>")
 
 /datum/outfit/adventurer/crusader
-	name = "Totod Order Emissary (Adventurer)"
+	name = "Katholikon Emissary (Adventurer)"
 	head = /obj/item/clothing/head/helmet/heavy/crusader
 	neck = /obj/item/clothing/neck/coif/cloth
 	armor = /obj/item/clothing/armor/chainmail/hauberk
@@ -102,20 +102,20 @@
 
 /obj/item/clothing/cloak/stabard/crusader
 	name = "surcoat of the golden order"
-	desc = "A surcoat drenched in charcoal water, golden thread stitched in the style of Angros's Knights of Old Gaia."
+	desc = "A surcoat drenched in charcoal water, golden thread stitched in the style of Angros's First Knights."
 	icon_state = "crusader_surcoat"
 	icon = 'icons/roguetown/clothing/special/crusader.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/crusader.dmi'
 	sleeved = 'icons/roguetown/clothing/special/onmob/crusader.dmi'
 
 /obj/item/clothing/cloak/stabard/crusader/t
-	name = "surcoat of the silver order"
+	name = "surcoat of the last angrosian order"
 	desc = "A surcoat drenched in charcoal water, white cotton stitched in the symbol of Angros."
 	icon_state = "crusader_surcoatt2"
 
 /obj/item/clothing/cloak/cape/crusader
 	name = "desert cape"
-	desc = "Zaladin is known for its legacies in tailoring, this particular cape is interwoven with fine stained silks and leather - a sand elf design, renowned for its style and durability."
+	desc = "The Qadirid is known for its legacies in tailoring, this particular cape is interwoven with fine stained silks and leather - a sand elf design, renowned for its style and durability."
 	icon_state = "crusader_cloak"
 	icon = 'icons/roguetown/clothing/special/crusader.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/crusader.dmi'
@@ -123,7 +123,7 @@
 
 /obj/item/clothing/head/helmet/heavy/crusader
 	name = "bucket helm"
-	desc = "Proud knights of the Totod order displays their faith and their allegiance openly."
+	desc = "Proud knights of the Katholikon display their faith and their allegiance openly."
 	icon_state = "totodhelm"
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/64x64/head.dmi'
 	bloody_icon = 'icons/effects/blood64x64.dmi'
@@ -132,7 +132,7 @@
 	worn_y_dimension = 64
 
 /obj/item/clothing/head/helmet/heavy/crusader/t
-	desc = "A silver gilded bucket helm, inscriptions in old Unsundered are found embezeled on every inch of silver. Grenzelhoft specializes in these helmets, the Totod order has been purchasing them en-masse."
+	desc = "A silver gilded bucket helm, inscriptions in old Unsundered are found embezeled on every inch of silver. The Undermen specialize in these helmets, the Katholikos has been purchasing them en-masse."
 	icon_state = "crusader_helmt2"
 	icon = 'icons/roguetown/clothing/special/crusader.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/crusader.dmi'

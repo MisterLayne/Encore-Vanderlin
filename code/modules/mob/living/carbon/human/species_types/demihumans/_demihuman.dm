@@ -20,30 +20,9 @@
 	)
 
 /datum/species/demihuman
-	name = "Hollow-Kin"
+	name = "Beast-Kin"
 	id = SPEC_ID_HOLLOWKIN
-	desc = "Hollowkin are short lived, widely diverse, and have an insatiable hatred for dark elves. \
-	This hate stems from their long standing political neighbor and rival, \
-	the Zizonic dark-elven kingdoms of Subterra. \
-	Gani and Iliope stand as the 'patron-deities' of this species despite having no hand in their creation. \
-	Hollowkin view freedom to be of the upmost importance due to their dark-elven neighbors' tendencies toward slavery and their own history of subjugation. \
-	They also, often mistakenly, worship Gani for the boon of their animalistic nature, perceiving him as the source of their traits, talents, and instinct. \
-	\n\n\
-	Their true origin is much darker. Hollowkin are the product of dark-elven ingenuity and fleshcrafting. \
-	Their creation is a simple story of malice and greed- of sapient animal hybrid slave homunculi, \
-	a person turned product which they could market and sell to other great houses of modern Zizonic Subterra. \
-	The true nature of their existence is largely lost to the hollowkin through centuries. \
-	The dark elves still recall, of course, viciously mocking their creations from deep within their caves, \
-	declaring them but nothing more than animals or pets. \
-	Hollowkin react violently to dark-elven attempts at oppression, this leads to conflicts across the world of Gaia. \
-	\n\n\
-	To the unaligned observer, hollowkin are often seen amongst bandit bands, working openly with Agents of Deceivers, \
-	conflating the idea of freedom between the two deities. There is, of course, the old wives' tales that circulate... \
-	how hollowkin lead to infestations of Werewolves. Hollowkin are often denied nobility from this rumour alone. \
-	Whether this is true or not is unknown to the common person, \
-	but to those familiar with the horrendous magics used by the dark elves, they must only assume the worst. \
-	\n\n\
-	THIS IS A DISCRIMINATED SPECIES. EXPECT A MORE DIFFICULT EXPERIENCE. PLAY AT YOUR OWN RISK."
+	desc = PLACEHOLDER_SPECIES_REBRANDING
 
 	allowed_pronouns = PRONOUNS_LIST
 

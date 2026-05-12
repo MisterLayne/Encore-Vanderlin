@@ -35,8 +35,8 @@
 	)
 
 /datum/job/advclass/combat/inhumencleric
-	title = "Inhumen Cleric"
-	tutorial = "Clerics are wandering warriors of the Inhumen Gods, zealots whom demonstrated martial talent.\
+	title = "Heretic Cleric"
+	tutorial = "Clerics are wandering warriors of heretical idols, zealots whom demonstrated martial talent.\
 	Protected by stolen armor and unholy zeal, they are a force to be reckoned with."
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/adventurer/inhumencleric

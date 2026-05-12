@@ -22,8 +22,8 @@
 	)
 
 /datum/job/advclass/combat/sekketianshinobi
-	title = "Sekketian Shinobi"
-	tutorial = "You belong to the Shinobi's of Sekket. An elusive order of Xylixian freedom fighters originating from the Queendom of Lakkari. You have dedicated yourself to uplifting the enslaved and oppressed, and hope to continue doing so in the lands you travel."
+	title = "Cudese Shinobi"
+	tutorial = "You belong to the Shinobis of Yinshi. An elusive order of Akanite freedom fighters originating from the long-dead Old Kui. You have dedicated yourself to uplifting the enslaved and oppressed, and hope to continue doing so in the lands you travel."
 	allowed_patrons = list(/datum/patron/divine/iliope)
 	allowed_races = list(\
 		SPEC_ID_HUMEN,\
@@ -48,7 +48,7 @@
 	)
 
 /datum/outfit/adventurer/sekketianshinobi
-	name = "Sekketian Shinobi (Adventurer)"
+	name = "Cudese Shinobi (Adventurer)"
 	head = /obj/item/clothing/head/helmet/leather/headscarf/colored/red
 	neck = /obj/item/clothing/neck/coif/cloth/colored/berryblue
 	mask = /obj/item/clothing/face/shellmask

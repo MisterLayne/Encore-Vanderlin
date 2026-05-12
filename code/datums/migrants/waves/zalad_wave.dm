@@ -27,7 +27,7 @@
 	tutorial = "An Emir hailing from the Deshret, here on business for the Mercator's Guild."
 	outfit = /datum/outfit/zalad_migration/emir
 	allowed_sexes = list(MALE)
-	allowed_races = RACES_PLAYER_ZALADIN
+	allowed_races = RACES_PLAYER_SULTANS
 	is_recognized = TRUE
 	honorary = "Emir"
 	honorary_f = "Amirah"
@@ -111,7 +111,7 @@
 	tutorial = "An Amirah hailing from Deshret, here on business for the Mercator's Guild to the Isle of the Enigma."
 	outfit = /datum/outfit/zalad_migration/amirah
 	allowed_sexes = list(FEMALE)
-	allowed_races = RACES_PLAYER_ZALADIN
+	allowed_races = RACES_PLAYER_SULTANS
 	is_recognized = TRUE
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/amirah
@@ -195,7 +195,7 @@
 	tutorial = "You are a furusiyya, pledged to the Emir and the Amirah. Make sure they come out alive of that place."
 	outfit = /datum/outfit/zalad_migration/furusiyya
 	allowed_sexes = list(MALE)
-	allowed_races = RACES_PLAYER_ZALADIN
+	allowed_races = RACES_PLAYER_SULTANS
 	is_recognized = TRUE
 	exp_types_granted  = list(EXP_TYPE_COMBAT)
 

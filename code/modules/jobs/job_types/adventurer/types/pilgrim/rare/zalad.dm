@@ -20,7 +20,7 @@
 /datum/job/advclass/pilgrim/rare/zaladin
 	title = "Zaladin Emir"
 	tutorial = "An Emir hailing from Deshret, here on business for the Mercator's Guild."
-	allowed_races = RACES_PLAYER_ZALADIN
+	allowed_races = RACES_PLAYER_SULTANS
 	outfit = /datum/outfit/pilgrim/zalad
 	category_tags = list(CTAG_PILGRIM)
 	total_positions = 1

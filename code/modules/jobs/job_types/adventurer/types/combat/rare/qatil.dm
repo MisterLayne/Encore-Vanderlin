@@ -21,11 +21,10 @@
 
 /datum/job/advclass/adventurer/qatil
 	title = "Qatil"
-	tutorial = "Hailing from Zalad lands, you are a killer for hire that is trained both in murdering unseen and seen with your trusty knife."
+	tutorial = "Hailing from the Sultanate's distant lands, you are a killer for hire that is trained both in murdering unseen and seen with your trusty knife."
 	allowed_races = list(\
 		SPEC_ID_HUMEN,\
 		SPEC_ID_ELF,\
-		SPEC_ID_RAKSHARI,\
 		SPEC_ID_HALF_ELF,\
 		SPEC_ID_TIEFLING,\
 		SPEC_ID_DROW,\

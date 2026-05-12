@@ -1,6 +1,6 @@
 /datum/job/pilgrim
 	title = JOB_PILGRIM
-	tutorial = "As a Pilgrim, you begin far outside the safety of the city and must reach it in order to ply your trade. \
+	tutorial = "As a Pilgrim, your ambitions lay beyond the walls of the town, or perhaps you are merely moving in. \
 	Alternatively, you can build your own settlement and enjoy the terrible dangers nature has to offer."
 	department_flag = OUTSIDERS
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)

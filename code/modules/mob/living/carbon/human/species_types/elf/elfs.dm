@@ -22,19 +22,7 @@
 /datum/species/elf/snow
 	name = "Elf"
 	id = SPEC_ID_ELF
-	desc = "Valdala's guides.\
-	\n\n\
-	Elves, created by Valdala to guide humenity, are characterized by lengthened age, \
-	low fertility, and a magical aptitude originating from a vast array of tribal cultures. \
-	With the ascension of One Envy, the entire culture of snow-elves was all but destroyed, \
-	leading the remaining tribes to live in fear and paranoia of suffering the same fate. \
-	Many elves sought safety through mixing culture, \
-	positioning themselves under the watchful guard of their stronger humen counterparts. \
-	\n\n\
-	A longstanding feud remains between elves and dwarves. \
-	Elvenkind has yet to forgive the dwarves for their destruction of homeland \
-	and pillaging of natural resources within the former snow-elf territory. \n\
-	To elves, it was the greatest disrespect to those lost. "
+	desc = PLACEHOLDER_SPECIES_REBRANDING
 
 	default_color = "FFFFFF"
 	species_traits = list(EYECOLOR,HAIR,FACEHAIR,LIPS,OLDGREY)

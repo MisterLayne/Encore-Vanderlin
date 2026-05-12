@@ -27,7 +27,7 @@
 	title = "Monk"
 	allowed_races = RACES_PLAYER_NONHERETICAL
 	allowed_patrons = ALL_TEMPLE_PATRONS
-	tutorial = "A traveling monk of the Ten, unmatched in the unarmed arts, with an unwavering devotion to their patron God's Justice."
+	tutorial = "A traveling monk of the Aspects, unmatched in the unarmed arts, with an unwavering devotion to their patron God's Justice."
 	total_positions = 4
 	outfit = /datum/outfit/adventurer/monk
 

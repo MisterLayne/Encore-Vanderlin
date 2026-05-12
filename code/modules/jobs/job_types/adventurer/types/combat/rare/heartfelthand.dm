@@ -17,10 +17,10 @@
 	)
 
 /datum/job/advclass/combat/heartfelthand
-	title = "Hand of Heartfelt"
+	title = "Hand to Banterfield"
 	tutorial = "You served your lord as hand, taking care of diplomatic actions within your realm, \
-	yet your kingdom lies in ruins ever since it's mechanical servants rose up. \
-	You have since fled to the kingdom of Vanderlin, \
+	yet your kingdom is so utterly distant now. \
+	You have decided to visit Domotan Island, \
 	the exact reason of your stay here are up to you."
 	allowed_sexes = list(MALE)
 	allowed_races = list(SPEC_ID_HUMEN)
@@ -36,7 +36,7 @@
 	)
 
 /datum/outfit/adventurer/heartfelthand
-	name = "Hand of Heartfelt (Adventurer)"
+	name = "Hand to Banterfield (Adventurer)"
 	shirt = /obj/item/clothing/shirt/undershirt
 	belt = /obj/item/storage/belt/leather/black
 	shoes = /obj/item/clothing/shoes/nobleboot

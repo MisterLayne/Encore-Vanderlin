@@ -24,7 +24,8 @@
 /datum/job/advclass/combat/gravedigger
 	title = "Treasure Hunter"
 	tutorial = "Grave robbers sell themselves as treasure hunters, but be sure to wipe that \
-	necrotic flesh off of that trinket you found."
+	necrotic flesh off of that trinket you found. \
+	You'd better hope the Shirleighs don't find out what you take."
 	allowed_sexes = list(MALE, FEMALE)
 	outfit = /datum/outfit/adventurer/gravedigger
 	category_tags = list(CTAG_ADVENTURER)

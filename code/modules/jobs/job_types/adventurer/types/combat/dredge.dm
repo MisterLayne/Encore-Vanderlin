@@ -17,7 +17,7 @@
 	roll_vars()
 
 /datum/job/advclass/combat/dredge/proc/roll_vars()
-	armortype = pickweight(list("Warrior" = 4, "Splint" = 4, "HeavyG" = 4, "Hide" = 3, "Jacket" = 3, "Sailor" = 3, "Peon" = 3, "Ironplate" = 2, "Freak" = 3, "Psy" = 2, "Destitute" = 2, "Berserker" = 2, "Copper" = 1, "Noble" = 1, "BKnight" = 1)) // Armor / Armortype roll. It varies heavily. The more gimmicky / best stuff is generally the rarest
+	armortype = pickweight(list("Warrior" = 4, "Splint" = 4, "HeavyG" = 4, "Hide" = 3, "Jacket" = 3, "Sailor" = 3, "Peon" = 3, "Ironplate" = 2, "Freak" = 3, "Angrosian" = 2, "Destitute" = 2, "Berserker" = 2, "Copper" = 1, "Noble" = 1, "BKnight" = 1)) // Armor / Armortype roll. It varies heavily. The more gimmicky / best stuff is generally the rarest
 	weapontype = pickweight(list("Axe" = 4, "BigAxe" = 3, "Mace" = 4, "Mage" = 1, "Shield" = 2, "BigMace" = 3, "Spear" = 3, "Messer" = 3, "LSword" = 3, "GSword" = 1, "Shovel" = 3, "Scythe" = 2, "Cutlass" = 3, "Falx" = 3, "Rapier" = 2, "Sword" = 4, "Sword2" = 3, "Flail" = 2, "Bow" = 1, "Fist" = 2, "Daggers" = 3, "MFlail" = 3, "Gun" = 1,)) // Weapon roll
 	randomjob = pickweight (list("Farmer" = 3, "Sailor" = 2, "Pickpocket" = 2, "Smith" = 2, "Fisher" = 3, "Doctor" = 2, "Steppes" = 2, "Smart" = 1, "Grappler" = 1, "Lumber" = 2, "Guard" = 2, "Bard" = 2, "Paranoiac" = 1, "Alch" = 2, "Torturer" = 1,)) // 'Job' roll, gives small skill benefits
 	randomperk = pickweight (list("Fat" = 3, "Normal" = 3, "Smartish" = 3, "Speedy" = 3, "Lucky" = 3, "Mjallidhorn" = 2, "Packrat" = 2, "Strong" = 1, "Zizo" = 2, "Atheist" = 1, "Archdevils" = 1, "Stupid" = 1, "Lockpicks" = 2, "Traps" = 2, "Ring" = 2, "Knives" = 2, "Heel" = 1, "Meek" = 2, "Invisible" = 2, "Zigs" = 2, "Ozium" = 2, "Bomb" = 1,)) // A random trait or a couple of items
@@ -120,7 +120,7 @@
 			to_chat(spawned,span_info("\
 			Like a raging current, I am unrelenting. My attacks will chip at my enemy until their skin sloughs, and their bones litter the dry, sandy shores.")
 			)
-		if("Psy")
+		if("Angrosian")
 			spawned.adjust_skillrank(/datum/attribute/skill/misc/reading, 1, TRUE)
 			ADD_TRAIT(spawned, TRAIT_DODGEEXPERT, TRAIT_GENERIC)
 			ADD_TRAIT(spawned, TRAIT_STEELHEARTED, TRAIT_GENERIC)
@@ -130,7 +130,7 @@
 			if(!istype(spawned.patron, /datum/patron/angros)) // don't overwrite extremist angros
 				spawned.set_patron(/datum/patron/angros, TRUE)
 			to_chat(spawned,span_info("\
-			The Ten are false gods, and I loathe those that worship the true corpse god, Valdala. Angros lives, my life for Angros.")
+			The Aspects are traitors to Angros, and to His name I am solely loyal. I can't stand these false idols!")
 			)
 		if("Hide")
 			spawned.adjust_skillrank(/datum/attribute/skill/misc/swimming, 1, TRUE)
@@ -863,8 +863,8 @@
 				gloves = /obj/item/clothing/gloves/leather/advanced
 				wrists = /obj/item/clothing/wrists/bracers/leather
 				pants = /obj/item/clothing/pants/tights/colored/black
-			if("Psy")
-				neck = /obj/item/clothing/neck/psycross
+			if("Angrosian")
+				neck = /obj/item/clothing/neck/psycross/silver
 				head = /obj/item/clothing/head/brimmed
 				shirt = /obj/item/clothing/shirt/undershirt/puritan
 				gloves = /obj/item/clothing/gloves/leather/advanced

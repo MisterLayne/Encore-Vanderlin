@@ -20,7 +20,7 @@
 /datum/job/advclass/pilgrim/rare/grenzelhoft
 	title = "Grenzelhoft Count"
 	tutorial = "A Count hailing from the Grenzelhoft Imperiate, here on an official visit to Vanderlin."
-	allowed_races = RACES_PLAYER_GRENZ
+	allowed_races = RACES_PLAYER_GERAMOR
 	outfit = /datum/outfit/pilgrim/grenzelhoft
 	category_tags = list(CTAG_PILGRIM)
 	total_positions = 1

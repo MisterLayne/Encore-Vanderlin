@@ -21,11 +21,11 @@
 	)
 
 /datum/job/advclass/combat/heartfeltlord
-	title = "Lord of Heartfelt"
-	tutorial = "You are the lord of Heartfelt, \
-	your kingdom lies in ruins ever since it's mechanical servants rose up. \
-	You have since fled to the kingdom of Vanderlin, \
-	the exact reason of your stay here are up to you."
+	title = "Banterfield Baron"
+	tutorial = "You are a baron of the Banterfields, \
+	your kingdom's authority is distant and out of reach. \
+	You have the privilege of good standing with the Shirleighs, \
+	and the exact reason of your stay here are up to you."
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = list(SPEC_ID_HUMEN)
 	outfit = /datum/outfit/adventurer/heartfeltlord
@@ -42,7 +42,7 @@
 	)
 
 /datum/outfit/adventurer/heartfeltlord
-	name = "Lord of Heartfelt (Adventurer)"
+	name = "Banterfield Baron (Adventurer)"
 
 	shirt = /obj/item/clothing/shirt/undershirt
 	belt = /obj/item/storage/belt/leather/black

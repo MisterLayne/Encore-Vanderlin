@@ -23,22 +23,7 @@
 /datum/species/human/space
 	name = "Human"
 	id = SPEC_ID_HUMAN_SPACE
-	desc = "A space-faring species. \
-	\n\n\
-	Humans have long since departed from the restraints of their homeworld, 'Earth.' \
-	Most live within megacorporation jurisdiction, TerraGov space, or politically irrelevant planetary colonies. \
-	Most humans rightfully avoid this section of space, however the corporation Interdyne Pharmaceuticals \
-	avoids these warnings with Syndicate backing, repeatedly attempting planetary landing in effort to create \
-	some nondescript bioweapon under codename 'Romero.' \
-	\n\n\
-	While genetic alteration technologies allow for a wide range of hair colours, \
-	only those considered 'natural' are allowed on missions to Gaia. They are expected to blend in \
-	with the local- and strikingly similar- 'humen' species population due to difficulties of extraction. \
-	\n\n\
-	Human bodies have largely adapted to their space-faring lifestyle. Through their training, their physical \
-	abilities largely overshadow most Gaia-native species, divine or otherwise. A human's intelligence and knowledge \
-	VASTLY dwarfs anything seen on the planet. However, the gods of Gaia do not smile upon them. They must stay \
-	covert, or face an another immediate sunbeam to their location."
+	desc = PLACEHOLDER_SPECIES_REBRANDING
 
 	default_color = "FFFFFF"
 	species_traits = list(EYECOLOR, HAIR, FACEHAIR, LIPS, STUBBLE, OLDGREY)

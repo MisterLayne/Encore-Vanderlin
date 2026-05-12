@@ -24,15 +24,7 @@
 		"Grenzelhoft Accent" = ACCENT_GRENZ,
 		"Ossland Accent" = ACCENT_OSSLAND,
 	)
-	desc = "Humenity, created in Angros's image. \
-	\n\n\
-	Humens come from a vast swathe of cultures and ethnicities all around Gaia, most of which \
-	have historically been at odds with both one another and other species. \
-	With their tenacity and overwhelming population, humens tend to outnumber the other species drastically. \
-	Their saturation leads to most world maps representing humen borders and states over other species'. \
-	\n\n\
-	Humens tend to find fortune easier than the other species, \
-	and are so diverse that no other trait is dominant..."
+	desc = PLACEHOLDER_SPECIES_REBRANDING
 
 	default_color = "FFFFFF"
 	species_traits = list(EYECOLOR, HAIR, FACEHAIR, LIPS, STUBBLE, OLDGREY)

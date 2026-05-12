@@ -27,7 +27,7 @@
 	tutorial = "A Count hailing from the Grenzelhoft Imperiate, here on an official visit to the Peninsula of Vanderlin alongside his beloved convoy and spouse."
 	outfit = /datum/outfit/grenzelhoft_count
 	allowed_sexes = list(MALE)
-	allowed_races = RACES_PLAYER_GRENZ
+	allowed_races = RACES_PLAYER_GERAMOR
 	is_recognized = TRUE
 	honorary = "Count"
 	honorary_f = "Countess"
@@ -95,7 +95,7 @@
 	tutorial = "A Countess hailing from the Grenzelhoft Imperiate, here on an official visit to Vanderlin alongside her beloved convoy and husband."
 	outfit = /datum/outfit/grenzelhoft_countess
 	allowed_sexes = list(FEMALE)
-	allowed_races = RACES_PLAYER_GRENZ
+	allowed_races = RACES_PLAYER_GERAMOR
 	is_recognized = TRUE
 	honorary = "Count"
 	honorary_f = "Countess"
@@ -159,7 +159,7 @@
 	title = "Grenzelhoft Knight"
 	tutorial = "Your liege, the count and the countess have both took the duty given by the council to voyage to Vanderlin, ensure their survival and obey their orders."
 	outfit = /datum/outfit/grenzelhoft_knight
-	allowed_races = RACES_PLAYER_GRENZ
+	allowed_races = RACES_PLAYER_GERAMOR
 	is_recognized = TRUE
 	exp_types_granted  = list(EXP_TYPE_COMBAT)
 
@@ -225,7 +225,7 @@
 	title = "Grenzelhoft Man-at-Arms"
 	tutorial = "You and your fellows are men at arms from Grenzelhoft, following your count with pride. Obey the count and make sure the nobles you arrived with survive."
 	outfit = /datum/outfit/grenzelhoft_man_at_arms
-	allowed_races = RACES_PLAYER_GRENZ
+	allowed_races = RACES_PLAYER_GERAMOR
 	exp_types_granted  = list(EXP_TYPE_COMBAT)
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/grenzelhoft_man_at_arms

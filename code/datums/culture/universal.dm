@@ -1,64 +1,51 @@
-/datum/culture/universal/vanderlin
-	name = "Vanderlin"
-	description = "Both a city and a state; \
-	a cultural melting pot inheriting Enigma's title of Trade Capital of Gaia after the fall of Heartfelt. \
-	Vanderlinians love their pastas and bicker endlessly."
-
-/datum/culture/universal/rockhill
-	name = "Rockhill"
-	description = "Once a shithole, now an even worse shithole. \
-	Located conveniently in the fetid bogs of Enigma, Rockhill has since converted into a militaristic bastion against the Brass Cataclysm. \
-	Their diet is interestingly comprised largely of whatever pies they can make."
-
-/datum/culture/universal/heartfelt
-	name = "Heartfelt"
-	description = "Those hailing from Heartfelt remember the trauma of their city's fall vividly. \
-	The masterful doctors and steam artificers clutch this wound close to their hearts, \
-	forced to abandon their home and flee the expanding scourge of rogue automaton constructs."
-
-/datum/culture/universal/kingsfield
-	name = "Kingsfield"
-	description = "Kingsfieldian culture influences every nation connected by pneumatic tubes and rail. \
-	They are known to love artistry, bureaucracy, and their syrup."
-
-/datum/culture/universal/valoria
-	name = "Valoria"
-	description = "Despite potentially being located in the most unfortunate area of Faience, \
-	Valorians are known for their ingenuity and craft. \
-	Valorians will not hesitate to talk your ear off about whatever distracts them from impending doom."
-
-/datum/culture/universal/zaladin
-	name = "Zaladin"
-	description = "Both feared and respected for the sheer might of their armies, \
-	whether slaves or conscripts. Zaladinian heros may walk willingly into shackles for a chance at glory in their gladiator sports."
-
-/datum/culture/universal/wintermare
-	name = "Wintermare"
-	description = "Proud, typically wealthy snow-dwellers. Known for their fashion and arcyne academia. \
-	Never ask them their opinions of Grenzelhoft."
-
-/datum/culture/universal/grenzelhoft
-	name = "Grenzelhoft"
-	description = "Known for their mighty weiners, meals, and talented jesters. \
-	Potentially some of the most grim, bigoted people one could ever meet. Never ask them their opinions of Wintermare."
-
-/datum/culture/universal/amber_hollow
-	name = "Amber Hollow"
-	description = "Almost all whom trace hollow-kin ancestry have family history reaching back to the hollow, \
-	a triumph over their dark elven once-overlords. Mighty redwoods make Hollow Dwellers proficient vertical navigators."
-
-/datum/culture/universal/crimsonlands
-	name = "Crimsonlands"
-	description = "Survivors, plain and simple. \
-	The harsh steppes of their nomadic peoples' homes are roaming with cannabalistic orc bands, \
-	never granting the fortune of true relaxation."
-
 /datum/culture/universal/ambiguous
 	name = "Ambiguous"
 	description = " Either you have no distinct dialect, or society is simply ignorant to your origin. \
 	You will not be recognized."
 
-/datum/culture/universal/ossland
-	name = "Ossland"
-	description = "Known for their barbaric traditions and morbid faith, these folk are proud and strong. \
-	Never, NEVER touch their skull helms."
+/datum/culture/universal/domotan
+	name = "Native Doman"
+	description = "Domotan Island, the center of all peculiarity in the world. The witnesses to the new era of heroism. \
+	It serves as an important commerce hub for those traveling in the Sea of Fire, but its odd rulers and ancient mysteries capture the imagination of all. \
+	The Doman people themselves have never known rule beyond the Shirleighs, and their long history together has gifted them immense wealth upon the isle."
+
+/datum/culture/universal/aelonda
+	name = "Aelonda"
+	description = "The righteous, stalwart and lumbering kingdom of the western isles. The selfless union of Elves and Humankind. \
+	An old country of dragon-slayers turned its focus to deep roots in chivalry, honor and social order. The denizens Good Kingdom have steeped their past in grandeur. \
+	Its commonfolk are mostly the simple sort, and its lands fertile but wild."
+
+/datum/culture/universal/geramor
+	name = "Geramor"
+	description = "The Broken Kingdom, remnants of the First Dwarves in the western edge. The eldest adept users of true magics and sorcery. \
+	The remains of the Dwarven tribes bled into every seam of the craggy peaks here. They stand in testament to the discord wrought by calamity time and time again. \
+	In Gani's clutches, they thrive, slowly reclaiming their empire's limbs within Gernhollow. Mortal enemies and forever in conflict with the Sultans of the south."
+
+/datum/culture/universal/nortmidst
+	name = "Nortmidst"
+	description = "Independent tribesfolk and warriors of the brutal, unrelenting north. Pride of Mjallidhorn's endless toil. \
+	The Nortics serve their own interests in survival. They endure year-round blizzards of continental scale, hardened by a colorless and difficult livelihood. \
+	Stiff bread and cold nights are common reasons for congregation here, just as much as it is for escape."
+
+/datum/culture/universal/cudao
+	name = "Cudao"
+	description = "Inheritors of Old Kui and its misfortunes. The first and most prominent user of true technology. \
+	The Cudese are a diverse people of sky-farers native to the isle of Yinshi. They are the first industrial power in the Goblet. \
+	Their wit alone has permitted great vessels of steel and pluming factories to engulf their dry, lifeless islands. \
+	In those choking smogs, scholars of Truetech see a metropolitan paradise."
+
+/datum/culture/universal/noma
+	name = "Noma Guilds"
+	description = "Guilds, tribes, free people and city-states of the Noma. Free men by right, and the most storied merchants. \
+	The Noma Guilds are a merchant republic affectionately called the Moving Country. In grand fleets and lively caravans, their trade broadens the divides between all cultures of the world. \
+	Coin serves as the basis for their morals, ethics, law and diplomatic understanding of others. It allows the Noma to revel in eccentric, exotic behavior not seen commonly elsewhere."
+	pre_append = "the "
+
+/datum/culture/universal/sultanate
+	name = "Qadirid Sultanate"
+	description = "Ravenous conquerors of ancient times beholden to an unbreakable oath to the Burning Banner. \
+	The Qadirid Sultanate has drawn their reputation in the blood of generations. It is an extremely hostile nation and the largest within the Goblet geographically. \
+	Merciless consumption and dismantling of the world itself has been their prerogative by the First Emperor, Maruhadar, whose challenge has isolated the Sultans since. \
+	Internally, their peoples flourish thanks to their study of the stars and Thaumatech. Those who flee can scarcely expect good standing elsewhere, anyway. \
+	CAUTION! QADIRID NATIVES CAN NOT PRACTICE MAGIC OUTSIDE OF DIVINE MIRACLES. You will have to utilize Thaumatech if you plan to use magic!"
+	pre_append = "the "

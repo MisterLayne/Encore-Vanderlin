@@ -30,28 +30,7 @@
 	native_language = "Deepspeak"
 	changesource_flags = WABBAJACK
 
-	desc = "The Children of Mjallidhorn, also known as Tritons or their colloquial name, \"Deep Folk,\" \
-	are a strange species of people that live under the waves of Gaia. \
-	Born from creatures of the deep with Mjallidhorn's guidance, \
-	these aquatic wayfarers all share a few common traits. \
-	Similar to other creatures that dwell below the surface, their eyes are dull with disuse. \
-	Tritons feel pain when gazing upon that which direct light of Visires herself illuminates. \
-	\n\n\
-	Unlike most of the people of Gaia, their culture is often considered cold and dour; \
-	an apathetic attitude to most negative or positive news. For them, the depths of Angrosias oceans are cold and unforgiving. \
-	Large beasts travel the waters that swallow their kin whole... \
-	but the crushing depths have provided them a hearty disposition and resistance to most threats. \
-	Born of Mjallidhorn, their normally placid emotions can swing into a wild rage when they view injustice done upon their kin at the hands of a sapient being. \
-	\n\n\
-	Tritons seen on the surface are very important trade partners, mercenaries, and surprising academics. \
-	Merchants often spend vast amounts of coin to have them aboard their trade vessels, fending off pirates or guiding their boats through turbulent weather. \
-	Be it on or within the sea, they excel- on land, however, they struggle. \
-	With their awkward and gangly fins, long, sharp talons, ghastly, lipless teeth, \
-	and milky, foreign eyes, they seem unfit to walk amongst the people. Humen children are often afraid of them due to such appearances. \
-	\n\n\
-	Their species is not without its tribalism, however. Large sections of their kin have broken away form their father, \
-	to consider themselves Akan's chosen. Due to their extreme sexual dimorphism similar to that of the common angler, \
-	males of this species are more likely to pursue magick with their weaker frames compared to their stronger female counterparts."
+	desc = PLACEHOLDER_SPECIES_REBRANDING
 
 	possible_ages = NORMAL_AGES_LIST
 

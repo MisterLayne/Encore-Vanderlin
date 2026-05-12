@@ -20,27 +20,7 @@
 	name = "Tiefling"
 	id = SPEC_ID_TIEFLING
 	native_language = "Infernal"
-	desc = "Also known as Infernal-Spawn, Hell-Bloods, Surface-Devils, and perhaps in a more humorous manner, <i>thief</i>-lings. \
-	\n\n\
-	Their treatment ranges from shunning to distrust, depending on the region. \
-	Shopkeeps and merchants always keep a wary eye out for tiefling passersby. \
-	The resentment feed into itself, leading to higher rates of tiefling ire and thievery against other species. \
-	Many tieflings resign to seeking a solitary and nomadic life, huddled in groups outside the watchful eyes of others. \
-	They also tend to be extremely perceptive and paranoid, as luck is rarely on their side. \
-	\n\n\
-	Tieflings began appearing all over Gaia after Hertannea's ascension within the 21st century, and were exiled in droves as the world adapted. \
-	They are often mistaken as being related to her. \
-	\n\n\
-	Tieflings are incapable of reproducing with mortals, \
-	and thus are spawn of either devils, demons, or other tieflings. \
-	A tiefling may develop any number of hellish features, a wide range of horns, potential hooves, odd spines and spikes, or scales. \
-	Oddly positioned scales, hollow bones, and other varying oddities \
-	that appear consistently in Tiefling biology make them considerably fragile. \
-	It is not uncommon for a tiefling to be generally unpleasant to look at in the eye of the commonfolk. \
-	As if to make matters worse, their hellish progenitors have left them a destiny of misfortune, \
-	though perhaps their immunity to fire opens new opportunities for them... \
-	\n\n\
-	THIS IS A DISCRIMINATED SPECIES. EXPECT A MORE DIFFICULT EXPERIENCE. <B>NOBLES EVEN MORE SO.</B> PLAY AT YOUR OWN RISK."
+	desc = PLACEHOLDER_SPECIES_REBRANDING
 
 	skin_tone_wording = "Progenitor"
 

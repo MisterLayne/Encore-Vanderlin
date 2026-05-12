@@ -15,13 +15,13 @@
 	)
 
 /datum/job/advclass/combat/vikingr
-	title = "Elven Vikingr"
-	tutorial = "A wandering searaider, a Vikingr from the Elven Clans of Kaledon. You are locked in a fierce rivalry with your other kin, those sea elves, those coastal elves, you hate whichever one is not you. You will see them die. Mjallidhorn's bounty is what you seek, and you shall have it."
-	allowed_races = RACES_PLAYER_ELF
+	title = "Nortic Pillager"
+	tutorial = "A Nortic exile who resorted to traversing the Sea of Fire in search of booty."
+	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/adventurer/vikingr
 	category_tags = list(CTAG_ADVENTURER)
 	cmode_music = 'sound/music/cmode/adventurer/CombatWarrior.ogg'
-	total_positions = 0 //Kaledon isn't in
+	total_positions = 6
 	attribute_sheet = /datum/attribute_holder/sheet/job/vikingr
 
 /datum/outfit/adventurer/vikingr/pre_equip(mob/living/carbon/human/H)

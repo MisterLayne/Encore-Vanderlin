@@ -115,7 +115,7 @@
 /datum/job/migrant/inquisition_crusader
 	title = "Episcopal Crusader"
 	tutorial = "Crusader of the true faith, you came from Grenzelhoft under the command of the Inquisitor. Obey them as they lead you to smite the heathens."
-	allowed_races = RACES_PLAYER_GRENZ
+	allowed_races = RACES_PLAYER_GERAMOR
 	is_recognized = TRUE
 	allowed_patrons = list(/datum/patron/angros, /datum/patron/angros/extremist)
 	outfit = /datum/outfit/inquisition_crusader

@@ -37,14 +37,7 @@
 /datum/species/kobold
 	name = "Kobold"
 	id = SPEC_ID_KOBOLD
-	desc = "Speculated to have originated from the dank depths of Subterra, \
-	Kobolds are a species of stout sea-faring and mountain-dwelling lizardfolk infamous for their skills in trap-making, \
-	their habit of hoarding grandiose amounts of trinkets and artifacts, and their opportunism.\
-	\n\n\
-	They are often in servitude to great beasts such as dragons and giants - trapping their lairs and utilizing pack tactics to dispose of ambitious adventurers and thieves alike. \
-	But in their lonesome, Kobolds are generally weak and quick to die, as they noticeably lack the meaningful amount of constitution, strength, and endurance that other species usually have. \
-	\n\n\
-	WARNING: THIS IS A HEAVILY DISCRIMINATED AGAINST CHALLENGE SPECIES WITH ACTIVE SPECIES DETRIMENTS. YOU CAN AND WILL DIE A LOT; PLAY AT YOUR OWN RISK!"
+	desc = PLACEHOLDER_SPECIES_REBRANDING
 
 	skin_tone_wording = "Scale Color"
 	default_color = "FFFFFF"

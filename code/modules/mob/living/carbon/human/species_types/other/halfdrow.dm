@@ -21,15 +21,7 @@
 		"Humen Accent" = "Imperial",
 		"Dark Elf Accent" = "Elfish"
 	)
-	desc = "The child of a Dark Elf and Humen. \
-	\n\n\
-	The distinction between Half-Elves and 'Half-Drow' has been a subject of debate for centuries. \
-	While similar in physicality and longevity to their non-drow cousins, their origins cause them to face discrimination akin to their elven side. \
-	\n\n\
-	Groups of half-elves and half-drow have been known to congregate together and consider themselves one species. \
-	According to some radical academic scholars, they might be one and the same species indeed- yet the people of Gaia certainly do not believe the same at large. \
-	\n\
-	THIS IS A DISCRIMINATED SPECIES. EXPECT A MORE DIFFICULT EXPERIENCE. <B>NOBLES EVEN MORE SO.</B> PLAY AT YOUR OWN RISK."
+	desc = PLACEHOLDER_SPECIES_REBRANDING
 
 	default_color = "FFFFFF"
 

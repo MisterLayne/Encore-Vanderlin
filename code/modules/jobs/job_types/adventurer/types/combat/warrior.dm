@@ -83,7 +83,7 @@
 		"Great axe" = /obj/item/weapon/polearm/halberd/bardiche/woodcutter, \
 	)
 
-	var/weaponchoice = H.select_equippable(H, selectableweapon, message = "Choose Your Specialisation", title = "Fighter!")
+	var/weaponchoice = H.select_equippable(H, selectableweapon, message = "Choose Your Specialization", title = "Fighter!")
 	if(!weaponchoice)
 		return
 

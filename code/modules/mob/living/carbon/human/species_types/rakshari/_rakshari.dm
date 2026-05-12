@@ -15,21 +15,7 @@
 	changesource_flags = WABBAJACK
 	native_language = "Zalad"
 
-	desc = "Rakshari origins trace back to nomadic desert tribes, \
-	whose survival in the harsh sands cultivated a culture steeped in resilience, cunning, and adaptability. \
-	\n\n\
-	Over centuries, the Rakshari united under the banners of powerful Zalad merchant-kings and warlords,\
-	transforming their scattered clans into a dominant slaver force across the region. \
-	They would often raid weaker settlements and rival caravans, \
-	capturing slaves to fuel their expanding cities and economies. \
-	Practice of this was justified through religious doctrines, \
-	venerating strength and dominance as divine virtues. \
-	\n\n\
-	As they further attached themselves to Zaladin, however, \
-	their people would integrate more sophisticated forms of servitude, \
-	such as indentured contracts and debt bondage. \
-	\n\n\
-	THIS IS A DISCRIMINATED SPECIES. EXPECT A MORE DIFFICULT EXPERIENCE. PLAY AT YOUR OWN RISK."
+	desc = PLACEHOLDER_SPECIES_REBRANDING
 
 	use_skintones = TRUE
 	default_color = "FFFFFF"

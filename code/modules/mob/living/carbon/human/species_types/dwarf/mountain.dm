@@ -28,19 +28,7 @@
 /datum/species/dwarf/mountain
 	name = "Dwarf"
 	id = SPEC_ID_DWARF
-	desc = "Shaped by Angros and Valdala, chosen by Goler Kanh.\
-	\n\n\
-	A proud and robust species of vertically challenged folk, \
-	dwarves are known for their martial strength \
-	and their tenacity towards their ancient customs of craft and honour. \
-	Dwarves hold a strong alliance with humenkind and have done so throughout history, as was their original purpose decreed by Angros. \
-	A Dwarf, much like the rock that they carve their fortress out of, is stubborn and ancient. \
-	\n\n\
-	They are revered craftsmen, sculptors, smiths, and miners. \
-	As an old and mostly out-of-date saying goes, \"If you want it done right, lose 2 feet and grow a beard.\" \
-	\n\n\
-	Despite their cultural praise, a long-standing feud remains between dwarves and elves \
-	stemming from old industrial practices."
+	desc = PLACEHOLDER_SPECIES_REBRANDING
 
 	skin_tone_wording = "Ore Attunement"
 
