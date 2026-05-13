@@ -136,8 +136,8 @@
 	. = ..()
 	AddComponent(/datum/component/squeak, custom_sounds = list(SFX_JINGLE_BELLS), step_delay_override = 2, falloff_exponent = 20)
 
-/obj/item/clothing/shoes/rare/grenzelhoft
-	name = "grenzelhoft boots"
+/obj/item/clothing/shoes/rare/sterkenstadten
+	name = "sterkenstadten boots"
 	icon_state = "grenzelboots"
 	item_state = "grenzelboots"
 	sleeved = 'icons/roguetown/clothing/onmob/helpers/stonekeep_merc.dmi'
@@ -146,7 +146,7 @@
 	wetable = FALSE
 
 /obj/item/clothing/shoes/otavan
-	name = "grenzelhoftian leather boots"
+	name = "aelondan leather boots"
 	desc = "Boots of outstanding craft, your fragile feet have never felt so protected and comfortable before."
 	body_parts_covered = FEET
 	icon_state = "fencerboots"

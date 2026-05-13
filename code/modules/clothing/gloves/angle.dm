@@ -12,9 +12,9 @@
 	salvage_result = /obj/item/natural/fur
 	item_weight = 800 GRAMS
 
-/obj/item/clothing/gloves/angle/grenzel
-	name = "grenzelhoft gloves"
-	desc = "Regal gloves of Grenzelhoftian design, more a fashion statement than actual protection."
+/obj/item/clothing/gloves/angle/sterkenstadten
+	name = "sterkenstadten gloves"
+	desc = "Regal gloves of Sterkenstadten design, more a fashion statement than actual protection."
 	icon_state = "grenzelgloves"
 	sleeved = 'icons/roguetown/clothing/onmob/helpers/stonekeep_merc.dmi'
 

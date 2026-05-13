@@ -301,8 +301,8 @@
 
 /*	..................   METT   ................... */
 /obj/item/reagent_containers/food/snacks/meat/mince/beef/mett
-	name = "grenzel mett"
-	desc = "A popular topping for bread in Grenzelhoft, while simply bizarre to people from Vanderlin."
+	name = "Aelondan mett"
+	desc = "A popular topping for bread in Aelonda, while simply bizarre to people from anywhere else."
 	icon_state = "mett_minced"
 	bitesize = 3
 	slice_path = /obj/item/reagent_containers/food/snacks/meat/mince/beef/mett/slice
@@ -316,7 +316,7 @@
 	item_weight = 150 GRAMS
 
 /obj/item/reagent_containers/food/snacks/meat/mince/beef/mett/slice
-	name = "grenzel mett"
+	name = "aelondan mett"
 	icon_state = "mett_slice"
 	bitesize = 1
 	slices_num = FALSE

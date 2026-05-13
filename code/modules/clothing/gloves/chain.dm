@@ -26,7 +26,7 @@
 	material_category = ARMOR_MAT_CHAINMAIL
 
 /obj/item/clothing/gloves/chain/angros
-	name = "grenzelhoftian chain gauntlets"
+	name = "angrosian chain gauntlets"
 	icon_state = "psydongloveschain"
 	item_state = "psydongloveschains"
 	melting_material = /datum/material/silver

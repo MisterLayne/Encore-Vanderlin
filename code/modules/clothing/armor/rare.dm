@@ -51,9 +51,9 @@
 	item_weight = 17 KILOGRAMS
 	stand_speed_reduction = 1.2
 
-/obj/item/clothing/armor/rare/grenzelplate
-	name = "grenzelhoftian plate regalia"
-	desc = "Engraved on this masterwork of humen metallurgy lies \"Thrice Fingered, Thrice Betrayed, Thrice Pronged\" alongside the symbol of Angros in its neck guard. No one is certain what the third betrayal is meant to signify, yet Samantha's poetry is clear."
+/obj/item/clothing/armor/rare/bastardsplate
+	name = "high aelondan plate regalia"
+	desc = "Engraved on this masterwork of Human metallurgy lies the visage of the bastard king, Rols. One could only imagine the adventures this thing has seen."
 	icon_state = "human_swordchest"
 	allowed_race = list(SPEC_ID_HUMEN, SPEC_ID_AASIMAR)
 	allowed_sex = list(MALE)

@@ -53,9 +53,9 @@
 	item_weight = 3.5 KILOGRAMS
 
 //............... Swordmaster Helmet ............... //
-/obj/item/clothing/head/rare/grenzelplate // Unique Swordmaster kit
+/obj/item/clothing/head/rare/bastardsplate // Unique Swordmaster kit
 	name = "chicklet sallet"
-	desc = "A Grenzelhoftian chicklet sallet, decorated with a plume of valor. \
+	desc = "A high Aelondan chicklet sallet, decorated with a plume of valor. \
 			It has been proven with severe battle-testing that a wearer's head would crack before the helmet chips."
 	icon_state = "human_swordhead"
 	allowed_sex = list(MALE)

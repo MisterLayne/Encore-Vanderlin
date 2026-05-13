@@ -170,7 +170,7 @@
 /obj/item/clothing/armor/plate/fluted/ornate
 	name = "angrosian half-plate"
 	desc = "A sturdily made fluted half-plate armour-set, complete with pauldrons and shoulder-guards. \
-			Favored by both the Oratorium Throni Vacui and the Order of the Silver Psycross. It smells of the madness of an enduring God."
+			Favored by both the Katholikos and the remaining Angrosians. It smells of the madness of an enduring God."
 	icon_state = "ornatehalfplate"
 
 	max_integrity = 400
@@ -181,7 +181,7 @@
 
 /obj/item/clothing/armor/plate/fluted/ornate/ordinator
 	name = "inquisitorial ordinator's plate"
-	desc = "A relic that is said to have survived the early sieges of Grenzelhoft, refurbished and repurposed to slay the arch-enemy in the name of Angros. <br> A fluted cuirass that has been reinforced with thick padding and an additional shoulder piece. You will endure."
+	desc = "A relic that is said to have survived the early sieges of the Burning Shore, refurbished and repurposed to slay the arch-enemy in the name of the Elementals. <br> A fluted cuirass that has been reinforced with thick padding and an additional shoulder piece."
 	icon_state = "ordinatorplate"
 
 

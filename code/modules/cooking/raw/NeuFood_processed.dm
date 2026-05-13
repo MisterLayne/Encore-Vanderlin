@@ -68,7 +68,7 @@
 /obj/item/reagent_containers/food/snacks/tallow/red
 	name = "redtallow"
 	desc = "Fatty tissue is harvested from slain creachurs and rendered of its membraneous sinew to produce a hard shelf-stable \
-	grease. It has then been soaked in blood or something blood adjacent to make for an easily sourced and rather grim wax substitute. As they say in Grenzelhoft, one uses what one has."
+	grease. It has then been soaked in blood or something blood adjacent to make for an easily sourced and rather grim wax substitute. As they say in Nortmidst, one uses what one has."
 	icon_state = "redtallow"
 	tastes = list("grease" = 1, "oil" = 1, "regret" =1, "blood"=1,)
 
@@ -101,7 +101,7 @@
 // -------------- TIEFLING SUGAR -----------------
 /obj/item/reagent_containers/food/snacks/tiefsugar
 	name = "Tiefling Sugar"
-	desc ="Originating from subterra, Tiefling blood that has been expertly dried and mixed into a sugar base, sweetens when boiled."
+	desc ="Originating from the less savory parts of Gernhollow, this is Tiefling blood that has been expertly dried and mixed into a sugar base, sweetens when boiled."
 	icon = 'icons/roguetown/items/produce.dmi'
 	icon_state = "tsugar"
 	tastes = list("sweet" = 1)
@@ -113,7 +113,7 @@
 // -------------- CHOCOLATE -----------------
 /obj/item/reagent_containers/food/snacks/chocolate
 	name = "chocolate bar"
-	desc = "Unbelievably fancy chocolate, imported all the way from distant Grenzelhoft"
+	desc = "Unbelievably fancy chocolate, imported all the way from Aelonda."
 	icon_state = "chocolate"
 	bitesize = 4
 	slices_num = 3
@@ -143,7 +143,7 @@
 // -------------- SALUMOI (dwarven smoked sausage) -----------------
 /obj/item/reagent_containers/food/snacks/meat/salami
 	name = "salumoi"
-	desc = "Traveling food invented by dwarves. Said to last for ten yils before spoiling"
+	desc = "Traveling food invented by dwarves. Said to last for ten yils before spoiling."
 	icon_state = "salumoi5"
 	eat_effect = null
 	slices_num = 4

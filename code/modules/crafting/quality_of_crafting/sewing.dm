@@ -1182,18 +1182,18 @@
 
 /*.............. recipes requiring skill 5 ..............*/
 
-/datum/repeatable_crafting_recipe/sewing/grenzel_shirt
-	name = "Grenzelhoftian hip shirt"
-	output = /obj/item/clothing/shirt/grenzelhoft
+/datum/repeatable_crafting_recipe/sewing/sterkenstadten_shirt
+	name = "Sterkenstadten hip shirt"
+	output = /obj/item/clothing/shirt/sterkenstadten
 	requirements = list(/obj/item/natural/cloth = 2,
 				/obj/item/natural/silk = 2,
 				/obj/item/natural/fibers = 1)
 	craftdiff = 5
 	category = "Shirt"
 
-/datum/repeatable_crafting_recipe/sewing/grenzel_pants
-	name = "Grenzelhoftian paumpers"
-	output = /obj/item/clothing/pants/grenzelpants
+/datum/repeatable_crafting_recipe/sewing/sterkenstadten_pants
+	name = "Sterkenstadten paumpers"
+	output = /obj/item/clothing/pants/sterkenstadten
 	requirements = list(/obj/item/natural/cloth = 2,
 				/obj/item/natural/silk = 1,
 				/obj/item/natural/fibers = 1)

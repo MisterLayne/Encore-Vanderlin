@@ -346,7 +346,7 @@
 
 /obj/item/clothing/armor/leather/studded/psyaltrist
 	name = "cuir-bouilli armor"
-	desc = "Treated, water-boiled and composite-layered leather armor of fine Grenzelhoftian make."
+	desc = "Treated, water-boiled and composite-layered leather armor of fine Aelondan make."
 	icon_state = "cuirbouilli"
 	item_state = "cuirbouilli"
 

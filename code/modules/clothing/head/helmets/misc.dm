@@ -72,9 +72,9 @@
 	item_weight = 2.5 KILOGRAMS
 
 //............... Grenzelhoft Plume Hat ............... // - worn over a skullcap
-/obj/item/clothing/head/helmet/skullcap/grenzelhoft
-	name = "grenzelhoft plume hat"
-	desc = "Slaying foul creachers or fair maidens: Grenzelhoft stands. A stylish hat concealing an iron skullcap."
+/obj/item/clothing/head/helmet/skullcap/sterkenstadten
+	name = "sterkenstadten plume hat"
+	desc = "A stylish hat concealing an iron skullcap."
 	icon_state = "grenzelhat"
 	item_state = "grenzelhat"
 	sleeved = 'icons/roguetown/clothing/onmob/helpers/stonekeep_merc.dmi'
@@ -83,7 +83,7 @@
 	colorgrenz = TRUE
 	sellprice = VALUE_FANCY_HAT
 
-/obj/item/clothing/head/helmet/skullcap/grenzelhoft/update_overlays()
+/obj/item/clothing/head/helmet/skullcap/sterkenstadten/update_overlays()
 	. = ..()
 	if(!get_detail_tag())
 		return

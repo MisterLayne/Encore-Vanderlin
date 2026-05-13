@@ -44,9 +44,9 @@
 	allowed_sex = list(MALE, FEMALE)
 	item_weight = 1.65 KILOGRAMS
 
-/obj/item/clothing/gloves/rare/grenzelplate
-	name = "grenzelhoftian plate gauntlets"
-	desc = "Battling the Qadirids led to the exchange of military ideas. The Grenzelhoft adopted refined chain and plate armaments to better allow their knights unmatchable resilience against the enemies of their Empire."
+/obj/item/clothing/gloves/rare/bastardsplate
+	name = "high aelondan plate gauntlets"
+	desc = "Battling the Qadirids led to the exchange of military ideas. The Aelondans adopted refined chain and plate armaments to better allow their knights unmatchable resilience against the enemies of their King."
 	icon_state = "human_swordhand"
 	allowed_race = list(SPEC_ID_HUMEN, SPEC_ID_AASIMAR)
 	allowed_sex = list(MALE)

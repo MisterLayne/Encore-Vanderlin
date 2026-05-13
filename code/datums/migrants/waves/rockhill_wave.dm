@@ -263,7 +263,7 @@
 
 /datum/migrant_wave/rockhill_wave
 	name = "The Mayor's Visit"
-	shared_wave_type = list(/datum/migrant_wave/grenzelhoft_visit,/datum/migrant_wave/qadirid_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/dunmoon)
+	shared_wave_type = list(/datum/migrant_wave/aelondan_visit,/datum/migrant_wave/qadirid_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/dunmoon)
 	downgrade_wave = /datum/migrant_wave/rockhill_wave_down
 	max_spawns = 1
 	weight = 30
@@ -277,7 +277,7 @@
 
 /datum/migrant_wave/rockhill_wave_down
 	name = "The Mayor's Visit"
-	shared_wave_type = list(/datum/migrant_wave/grenzelhoft_visit,/datum/migrant_wave/qadirid_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/dunmoon)
+	shared_wave_type = list(/datum/migrant_wave/aelondan_visit,/datum/migrant_wave/qadirid_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/dunmoon)
 	downgrade_wave = /datum/migrant_wave/rockhill_wave_down_one
 	can_roll = FALSE
 	roles = list(
@@ -290,7 +290,7 @@
 
 /datum/migrant_wave/rockhill_wave_down_one
 	name = "The Mayor's visit"
-	shared_wave_type = list(/datum/migrant_wave/grenzelhoft_visit,/datum/migrant_wave/qadirid_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/dunmoon)
+	shared_wave_type = list(/datum/migrant_wave/aelondan_visit,/datum/migrant_wave/qadirid_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/dunmoon)
 	can_roll = FALSE
 	roles = list(
 		/datum/migrant_role/rockhill/mayor = 1,

@@ -1585,8 +1585,8 @@
 	item_weight = 100 GRAMS
 
 /obj/item/reagent_containers/food/snacks/grenzelbun
-	name = "grenzelbun"
-	desc = "The classic wiener in a bun, a staple food of Grenzelhoft cuisine."
+	name = "sweetbun"
+	desc = "The classic wiener in a bun, a staple food of Aelondan cuisine."
 	icon_state = "grenzbun"
 	base_icon_state = "grenzbun"
 	bitesize = 5
@@ -1600,8 +1600,8 @@
 	item_weight = 180 GRAMS
 
 /obj/item/reagent_containers/food/snacks/grenzelbun_cocaumole
-	name = "grenzelbun with cocaumole"
-	desc = "A staple of Grenzelhoft cuisine, altered by Tiefling wanderers."
+	name = "sweetbun with cocaumole"
+	desc = "A staple of Aelondan cuisine, altered by Tiefling wanderers."
 	icon_state = "grenzbun_cocaumole"
 	bitesize = 5
 	w_class = WEIGHT_CLASS_NORMAL
@@ -1630,7 +1630,7 @@
 
 /obj/item/reagent_containers/food/snacks/cheesebun
 	name = "cheese bun"
-	desc = "A treat from the Grenzelhoft kitchen."
+	desc = "A treat from the Aelondan kitchen."
 	icon_state = "cheesebun"
 	base_icon_state = "cheesebun"
 	biting = TRUE
@@ -2054,7 +2054,7 @@
 
 /obj/item/reagent_containers/food/snacks/crimsoncake_cooked
 	name = "crimson pine cake"
-	desc = "A fusion of Crimson Elf and Grenzelhoftian cuisines, the cake originates from the Aelondan Republics. Rumor has it that one of the many casus belli in the Republics was based upon a disagreement on the cakes exact recipe."
+	desc = "A fusion of Qadirid and Geramorean cuisines, the cake originates from one or the other. Rumor has it that one of the many casus belli between the two was based upon a disagreement on the cakes exact recipe."
 	icon_state = "crimsonpinecake"
 	slices_num = 6
 	slice_path = /obj/item/reagent_containers/food/snacks/crimsoncake_slice

@@ -771,7 +771,7 @@
 
 /obj/item/reagent_containers/food/snacks/produce/mushroom/merkel
 	name = "merkel"
-	desc = "A rare fungus popularized by the ruling class of Grenzelhoft. It has been said that these mushrooms smell SO divine when prepared correctly, it could raise a man from the dead."
+	desc = "A rare fungus popularized by the ruling class of Geramor. It has been said that these mushrooms smell SO divine when prepared correctly, it could raise a man from the dead."
 	icon_state = "merkel"
 	seed = /obj/item/neuFarm/seed/spore/merkel
 	throwforce = 0
@@ -785,7 +785,7 @@
 
 /obj/item/reagent_containers/food/snacks/produce/mushroom/caveweep
 	name = "caveweep"
-	desc = "Once thought to be the wept tears of Gaia itself, this fungus can be found growing deep within the damp caves along the coasts of Faience. It is known only to those brave enough to delve their depths and discover its unique, briney flavors."
+	desc = "Once thought to be the wept tears of Gaia itself, this fungus can be found growing deep within the damp caves along the coasts of the Goblet. It is known only to those brave enough to delve their depths and discover its unique, briney flavors."
 	icon_state = "caveweep"
 	seed = /obj/item/neuFarm/seed/spore/caveweep
 	throwforce = 0
@@ -799,7 +799,7 @@
 
 /obj/item/reagent_containers/food/snacks/produce/mushroom/borowiki
 	name = "borowiki"
-	desc = "Also known as Cépes to the Drow, this fungus was cultivated over generations into this hearty crop by the Dwarves of the mountain passes. It is not known which of them were the first to discover it, though their use by the surface dwelling species of Gaia has grown significantly in the last few centuries."
+	desc = "Also known as Cépes to the Drow, this fungus was cultivated over generations into this hearty crop by the Dwarves of Geramor. It is not known which of them were the first to discover it, though their use by the surface dwelling species of Gaia has grown significantly in the last few centuries."
 	icon_state = "borowiki"
 	seed = /obj/item/neuFarm/seed/spore/borowiki
 	throwforce = 0
@@ -813,7 +813,7 @@
 
 /obj/item/reagent_containers/food/snacks/produce/mushroom/drowsbane
 	name = "drowsbane"
-	desc = "Creates a burning sensation in the mouth of anyone who eats it, this lichen is particularly adept at warding off its consumption by any Subterra denizens. However, in a cruel twist of fate, Tieflings find it particularly delectable."
+	desc = "Creates a burning sensation in the mouth of anyone who eats it, this lichen is particularly adept at warding off its consumption by any fiendish denizens. However, in a cruel twist of fate, Tieflings find it particularly delectable."
 	icon_state = "drowsbane"
 	seed = /obj/item/neuFarm/seed/spore/drowsbane
 	throwforce = 0

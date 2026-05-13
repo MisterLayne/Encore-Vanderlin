@@ -36,7 +36,7 @@
 	neck = /obj/item/clothing/neck/coif
 	pants = /obj/item/clothing/pants/trou/leather
 	shoes = /obj/item/clothing/shoes/boots
-	gloves = /obj/item/clothing/gloves/angle/grenzel
+	gloves = /obj/item/clothing/gloves/angle/sterkenstadten
 	belt = /obj/item/storage/belt/leather
 	shirt = /obj/item/clothing/armor/gambeson
 	head = /obj/item/clothing/head/helmet/visored/sallet/iron

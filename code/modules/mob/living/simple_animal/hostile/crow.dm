@@ -18,7 +18,7 @@
 
 /obj/item/reagent_containers/food/snacks/friedcrow
 	name = "fried zad"
-	desc = "A pesky, fried bird. The Grenzelhoftians say one 'eats zad' if they are mistaken or outdone."
+	desc = "A pesky, fried bird. The Aelondans say one 'eats zad' if they are mistaken or outdone."
 	icon_state = "fcrow"
 	bitesize = 2
 	nutrition = MINCE_NUTRITION * COOK_MOD

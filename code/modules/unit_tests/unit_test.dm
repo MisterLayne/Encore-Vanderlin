@@ -140,7 +140,7 @@ GLOBAL_LIST_EMPTY(required_map_items)
 		/obj/effect/DPfall,
 		/obj/effect/DPtarget,
 		// prompts loc for input
-		/obj/item/clothing/shirt/grenzelhoft,
+		/obj/item/clothing/shirt/sterkenstadten,
 		// Sets usr on initialise,
 		/obj/item/sendingstonesummoner,
 		// sets all it's shit on initialize

@@ -905,12 +905,12 @@
 				pants = /obj/item/clothing/pants/chainlegs
 			if("BKnight") // RARE. DO NOT GIVE THEM BLACKSTEEL SHIT.
 				head = /obj/item/clothing/head/menacing
-				armor = /obj/item/clothing/armor/cuirass/grenzelhoft
+				armor = /obj/item/clothing/armor/cuirass/sterkenstadten
 				wrists = /obj/item/clothing/wrists/bracers
 				neck = /obj/item/clothing/neck/chaincoif
 				shirt = /obj/item/clothing/armor/gambeson
 				pants = /obj/item/clothing/pants/tights/colored/black
-				backpack_contents = list(/obj/item/clothing/gloves/rare/grenzelplate = 1, /obj/item/clothing/shoes/boots/rare/grenzelplate = 1)
+				backpack_contents = list(/obj/item/clothing/gloves/rare/bastardsplate = 1, /obj/item/clothing/shoes/boots/rare/bastardsplate = 1)
 		switch(dredge.weapontype)
 			if("Axe")
 				beltl = /obj/item/weapon/axe/iron

@@ -1,4 +1,4 @@
-/datum/attribute_holder/sheet/job/pilgrim/grenzelhoft
+/datum/attribute_holder/sheet/job/pilgrim/aelondan
 	raw_attribute_list = list(
 		STAT_INTELLIGENCE = 1,
 		STAT_ENDURANCE = 2,
@@ -17,11 +17,11 @@
 		/datum/attribute/skill/labor/mathematics = 30,
 	)
 
-/datum/job/advclass/pilgrim/rare/grenzelhoft
-	title = "Grenzelhoft Count"
+/datum/job/advclass/pilgrim/rare/aelondan
+	title = "Aelondan Count"
 	tutorial = "A Count hailing from the Grenzelhoft Imperiate, here on an official visit to Vanderlin."
 	allowed_races = RACES_PLAYER_GERAMOR
-	outfit = /datum/outfit/pilgrim/grenzelhoft
+	outfit = /datum/outfit/pilgrim/aelondan
 	category_tags = list(CTAG_PILGRIM)
 	total_positions = 1
 	is_recognized = TRUE
@@ -29,7 +29,7 @@
 	honorary = "Count"
 	honorary_f = "Countess"
 
-	attribute_sheet = /datum/attribute_holder/sheet/job/pilgrim/grenzelhoft
+	attribute_sheet = /datum/attribute_holder/sheet/job/pilgrim/aelondan
 
 	traits = list(
 		TRAIT_MEDIUMARMOR,
@@ -40,36 +40,36 @@
 
 
 	spells = list(
-		/datum/action/cooldown/spell/undirected/call_bird/grenzel
+		/datum/action/cooldown/spell/undirected/call_bird/aelonda
 	)
 
 	languages = list(/datum/language/newunsundered)
 
-/datum/job/advclass/pilgrim/rare/grenzelhoft/after_spawn(mob/living/carbon/human/spawned, client/player_client)
+/datum/job/advclass/pilgrim/rare/aelondan/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 
 	if(spawned.dna?.species.id == SPEC_ID_HUMEN)
 		spawned.dna.species.native_language = "Old Unsundered"
 		spawned.dna.species.accent_language = spawned.dna.species.get_accent(spawned.dna.species.native_language)
 
-/datum/outfit/pilgrim/grenzelhoft
-	name = "Grenzelhoft Count (Pilgrim)"
-	shoes = /obj/item/clothing/shoes/rare/grenzelhoft
-	gloves = /obj/item/clothing/gloves/angle/grenzel
+/datum/outfit/pilgrim/aelondan
+	name = "Aelondan Count (Pilgrim)"
+	shoes = /obj/item/clothing/shoes/rare/sterkenstadten
+	gloves = /obj/item/clothing/gloves/angle/sterkenstadten
 	wrists = /obj/item/clothing/neck/psycross/gold
-	head = /obj/item/clothing/head/helmet/skullcap/grenzelhoft
+	head = /obj/item/clothing/head/helmet/skullcap/sterkenstadten
 	armor = /obj/item/clothing/armor/brigandine
 	belt = /obj/item/storage/belt/leather/plaquesilver
 	beltl = /obj/item/weapon/sword/sabre/dec
 	beltr = /obj/item/flashlight/flare/torch/lantern
 	backr = /obj/item/storage/backpack/satchel
 	ring = /obj/item/clothing/ring/gold
-	shirt = /obj/item/clothing/shirt/grenzelhoft
-	pants = /obj/item/clothing/pants/grenzelpants
+	shirt = /obj/item/clothing/shirt/sterkenstadten
+	pants = /obj/item/clothing/pants/sterkenstadten
 	neck = /obj/item/clothing/neck/gorget
 	backpack_contents = list(/obj/item/storage/belt/pouch/coins/veryrich = 1)
 
-/datum/outfit/pilgrim/grenzelhoft/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
+/datum/outfit/pilgrim/aelondan/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
 	. = ..()
 	if(equipped_human.gender == FEMALE)
 		armor = /obj/item/clothing/armor/gambeson/heavy/dress/alt

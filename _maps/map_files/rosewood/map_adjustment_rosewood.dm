@@ -32,12 +32,12 @@
 		/datum/job/orthodoxist,
 		// RACES_PLAYER_GERAMOR
 		/datum/job/advclass/combat/swordmaster,
-		/datum/job/advclass/mercenary/grenzelhoft,
-		/datum/job/advclass/pilgrim/rare/grenzelhoft,
+		/datum/job/advclass/mercenary/sterkenstadten,
+		/datum/job/advclass/pilgrim/rare/aelondan,
 		/datum/job/advclass/pilgrim/rare/preacher,
 	)
 
 	migrant_blacklist = list(
 		/datum/migrant_wave/crusade,
-		/datum/migrant_wave/grenzelhoft_visit,
+		/datum/migrant_wave/aelondan_visit,
 	)

@@ -353,7 +353,7 @@
 /datum/migrant_wave/dunmoon
 	name = "The Roaming Tycoon"
 	max_spawns = 1
-	shared_wave_type = list(/datum/migrant_wave/grenzelhoft_visit,/datum/migrant_wave/qadirid_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/dunmoon)
+	shared_wave_type = list(/datum/migrant_wave/aelondan_visit,/datum/migrant_wave/qadirid_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/dunmoon)
 	weight = 25
 	downgrade_wave = /datum/migrant_wave/dunmoon_down
 	roles = list(
@@ -367,7 +367,7 @@
 
 /datum/migrant_wave/dunmoon_down
 	name = "The Roaming Tycoon"
-	shared_wave_type = list(/datum/migrant_wave/grenzelhoft_visit,/datum/migrant_wave/qadirid_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/dunmoon)
+	shared_wave_type = list(/datum/migrant_wave/aelondan_visit,/datum/migrant_wave/qadirid_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/dunmoon)
 	can_roll = FALSE
 	downgrade_wave = /datum/migrant_wave/dunmoon_down_one
 	roles = list(
@@ -379,7 +379,7 @@
 
 /datum/migrant_wave/dunmoon_down_one
 	name = "The Roaming Tycoon"
-	shared_wave_type = list(/datum/migrant_wave/grenzelhoft_visit,/datum/migrant_wave/qadirid_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/dunmoon)
+	shared_wave_type = list(/datum/migrant_wave/aelondan_visit,/datum/migrant_wave/qadirid_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/dunmoon)
 	can_roll = FALSE
 	downgrade_wave = /datum/migrant_wave/dunmoon_down_two
 	roles = list(
@@ -390,7 +390,7 @@
 
 /datum/migrant_wave/dunmoon_down_two
 	name = "The Roaming Tycoon"
-	shared_wave_type = list(/datum/migrant_wave/grenzelhoft_visit,/datum/migrant_wave/qadirid_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/dunmoon)
+	shared_wave_type = list(/datum/migrant_wave/aelondan_visit,/datum/migrant_wave/qadirid_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/dunmoon)
 	can_roll = FALSE
 	roles = list(
 		/datum/migrant_role/dunmoon_tycoon = 1,

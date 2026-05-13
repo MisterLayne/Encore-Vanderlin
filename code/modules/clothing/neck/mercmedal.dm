@@ -14,9 +14,9 @@
 	desc = "A small, gilded neck-chain. The desert riders rose from humble beginnings as fight pit slaves. A tale now celebrated in their decorations."
 	icon_state = "goldchain"
 
-/obj/item/clothing/neck/mercmedal/grenzelhoft
-	name = "grenzelhoft gryphon of valor"
-	desc = "The fearsome beast of the Black Empire's heraldry, cast in brass. These service awards have lost much of their value since mercenaries started receiving them."
+/obj/item/clothing/neck/mercmedal/sterkenstadten
+	name = "sterkenstadten gryphon of valor"
+	desc = "The fearsome beast of the Amberbearded's heraldry, cast in brass. These service awards have lost much of their value since mercenaries started receiving them."
 	icon_state = "gryphon"
 
 /obj/item/clothing/neck/mercmedal/underdweller

@@ -498,63 +498,63 @@
 	switch(loadout)
 		if(1) //zizombie Warrior
 			r_hand = /obj/item/weapon/sword/long/greatsword/zwei
-			pants = /obj/item/clothing/pants/grenzelpants
+			pants = /obj/item/clothing/pants/sterkenstadten
 			shoes = /obj/item/clothing/shoes/boots/armor/light
-			gloves = /obj/item/clothing/gloves/angle/grenzel
+			gloves = /obj/item/clothing/gloves/angle/sterkenstadten
 			belt = /obj/item/storage/belt/leather
-			shirt = /obj/item/clothing/shirt/grenzelhoft
+			shirt = /obj/item/clothing/shirt/sterkenstadten
 			head = /obj/item/clothing/head/helmet/kettle
 			neck = /obj/item/clothing/neck/chaincoif
-			armor = /obj/item/clothing/armor/cuirass/grenzelhoft
+			armor = /obj/item/clothing/armor/cuirass/sterkenstadten
 			backl = /obj/item/storage/backpack/satchel
 			wrists = /obj/item/clothing/wrists/bracers/leather
 		if(2) //zizombie Warrior
 			r_hand = /obj/item/weapon/polearm/halberd
-			pants = /obj/item/clothing/pants/grenzelpants
+			pants = /obj/item/clothing/pants/sterkenstadten
 			shoes = /obj/item/clothing/shoes/boots/armor/light
-			gloves = /obj/item/clothing/gloves/angle/grenzel
+			gloves = /obj/item/clothing/gloves/angle/sterkenstadten
 			belt = /obj/item/storage/belt/leather
-			shirt = /obj/item/clothing/shirt/grenzelhoft
+			shirt = /obj/item/clothing/shirt/sterkenstadten
 			head = /obj/item/clothing/head/helmet/sallet
 			neck = /obj/item/clothing/neck/chaincoif
-			armor = /obj/item/clothing/armor/cuirass/grenzelhoft
+			armor = /obj/item/clothing/armor/cuirass/sterkenstadten
 			backl = /obj/item/storage/backpack/satchel
 			wrists = /obj/item/clothing/wrists/bracers/leather
 		if(3) //zizombie Warrior
 			r_hand = /obj/item/weapon/polearm/eaglebeak
-			pants = /obj/item/clothing/pants/grenzelpants
+			pants = /obj/item/clothing/pants/sterkenstadten
 			shoes = /obj/item/clothing/shoes/boots/armor/light
-			gloves = /obj/item/clothing/gloves/angle/grenzel
+			gloves = /obj/item/clothing/gloves/angle/sterkenstadten
 			belt = /obj/item/storage/belt/leather
-			shirt = /obj/item/clothing/shirt/grenzelhoft
+			shirt = /obj/item/clothing/shirt/sterkenstadten
 			head = /obj/item/clothing/head/helmet/sallet
 			neck = /obj/item/clothing/neck/chaincoif
-			armor = /obj/item/clothing/armor/cuirass/grenzelhoft
+			armor = /obj/item/clothing/armor/cuirass/sterkenstadten
 			backl = /obj/item/storage/backpack/satchel
 			wrists = /obj/item/clothing/wrists/bracers/leather
 		if(4) //zizombie Warrior
 			r_hand = /obj/item/weapon/sword/short/iron
 			l_hand = /obj/item/weapon/knife/dagger
-			pants = /obj/item/clothing/pants/grenzelpants
+			pants = /obj/item/clothing/pants/sterkenstadten
 			shoes = /obj/item/clothing/shoes/boots/armor/light
-			gloves = /obj/item/clothing/gloves/angle/grenzel
+			gloves = /obj/item/clothing/gloves/angle/sterkenstadten
 			belt = /obj/item/storage/belt/leather
-			shirt = /obj/item/clothing/shirt/grenzelhoft
+			shirt = /obj/item/clothing/shirt/sterkenstadten
 			head = /obj/item/clothing/head/helmet/sallet
 			neck = /obj/item/clothing/neck/chaincoif
-			armor = /obj/item/clothing/armor/cuirass/grenzelhoft
+			armor = /obj/item/clothing/armor/cuirass/sterkenstadten
 			backl = /obj/item/storage/backpack/satchel
 			wrists = /obj/item/clothing/wrists/bracers/leather
 		if(5) //zizombie Warrior
 			r_hand = /obj/item/weapon/axe/battle
-			pants = /obj/item/clothing/pants/grenzelpants
+			pants = /obj/item/clothing/pants/sterkenstadten
 			shoes = /obj/item/clothing/shoes/boots/armor/light
-			gloves = /obj/item/clothing/gloves/angle/grenzel
+			gloves = /obj/item/clothing/gloves/angle/sterkenstadten
 			belt = /obj/item/storage/belt/leather
-			shirt = /obj/item/clothing/shirt/grenzelhoft
+			shirt = /obj/item/clothing/shirt/sterkenstadten
 			head = /obj/item/clothing/head/helmet/sallet
 			neck = /obj/item/clothing/neck/chaincoif
-			armor = /obj/item/clothing/armor/cuirass/grenzelhoft
+			armor = /obj/item/clothing/armor/cuirass/sterkenstadten
 			backl = /obj/item/storage/backpack/satchel
 			wrists = /obj/item/clothing/wrists/bracers/leather
 

@@ -93,7 +93,7 @@
 	skillcraft = /datum/attribute/skill/craft/cooking/baking
 
 /datum/repeatable_crafting_recipe/cooking/grenzelbun
-	name = "Grenzel Bun"
+	name = "Sweetbun"
 
 	requirements = list(
 		/obj/item/reagent_containers/food/snacks/cooked/sausage = 1,
@@ -112,7 +112,7 @@
 
 /datum/repeatable_crafting_recipe/cooking/grenzelbun_cocaumole
 	category = "Tiefling Cuisine"
-	name = "Grenzel Bun With Cocaumole"
+	name = "Sweetbun With Cocaumole"
 	subtypes_allowed = TRUE
 
 	requirements = list(
@@ -129,7 +129,7 @@
 	extra_chance = 100
 
 /datum/repeatable_crafting_recipe/cooking/grenzelbun_cocaumole_alt
-	name = "Grenzel Bun With Cocaumole"
+	name = "Sweetbun With Cocaumole"
 	hides_from_books = TRUE
 	subtypes_allowed = TRUE
 
@@ -146,7 +146,7 @@
 	extra_chance = 100
 
 /datum/repeatable_crafting_recipe/cooking/iliopebun
-	name = "Iliope's bun"
+	name = "Iliope's buns"
 	hides_from_books = TRUE //The forbidden bun.
 
 	requirements = list(

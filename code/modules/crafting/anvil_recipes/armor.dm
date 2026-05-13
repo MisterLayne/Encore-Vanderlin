@@ -442,11 +442,11 @@
 	recipe_name = "a skullcap"
 	created_item = /obj/item/clothing/head/helmet/skullcap
 
-/datum/anvil_recipe/armor/iron/grenzelhoft_skullcap
-	name = "Grenzelhoft Plume helmet"
+/datum/anvil_recipe/armor/iron/sterkenstadten_skullcap
+	name = "Sterkenstadten Plume helmet"
 	additional_items = list(/obj/item/natural/feather)
-	recipe_name = "a grenzelhoft plume helmet"
-	created_item = /obj/item/clothing/head/helmet/skullcap/grenzelhoft
+	recipe_name = "a sterkenstadten plume helmet"
+	created_item = /obj/item/clothing/head/helmet/skullcap/sterkenstadten
 
 /datum/anvil_recipe/armor/iron/splint
 	name = "Two splint Armors (+2 cured leather)"
@@ -940,23 +940,23 @@
 	name = "Dwarven Plate Gauntlets"
 	created_item = /obj/item/clothing/gloves/rare/dwarfplate
 
-/datum/anvil_recipe/armor/steel/rare/grenzel_plate_gauntlets
+/datum/anvil_recipe/armor/steel/rare/sterkenstadten_plate_gauntlets
 	name = "Grenzel Plate Gauntlets"
-	created_item = /obj/item/clothing/gloves/rare/grenzelplate
+	created_item = /obj/item/clothing/gloves/rare/bastardsplate
 
-/datum/anvil_recipe/armor/steel/rare/grenzel_plate
+/datum/anvil_recipe/armor/steel/rare/sterkenstadten_plate
 	name = "Grenzel Plate (+Bar x3)"
 	additional_items = list(/obj/item/ingot/steel, /obj/item/ingot/steel, /obj/item/ingot/steel)
-	created_item = /obj/item/clothing/armor/rare/grenzelplate
+	created_item = /obj/item/clothing/armor/rare/bastardsplate
 
-/datum/anvil_recipe/armor/steel/rare/grenzel_plate_boots
+/datum/anvil_recipe/armor/steel/rare/sterkenstadten_plate_boots
 	name = "Grenzel Plate Boots"
-	created_item = /obj/item/clothing/shoes/boots/rare/grenzelplate
+	created_item = /obj/item/clothing/shoes/boots/rare/bastardsplate
 
-/datum/anvil_recipe/armor/steel/rare/grenzel_plate_helm
+/datum/anvil_recipe/armor/steel/rare/sterkenstadten_plate_helm
 	name = "Grenzel Chicklet Plate Helm (+Bar)"
 	additional_items = list(/obj/item/ingot/steel)
-	created_item = /obj/item/clothing/head/rare/grenzelplate
+	created_item = /obj/item/clothing/head/rare/bastardsplate
 
 /datum/anvil_recipe/armor/steel/rare/qadirid_plate_helm
 	name = "Qadirid Bastion Plate Helm (+Bar)"
@@ -1126,10 +1126,10 @@
 ///////////////////////////////////////////////
 
 // --------- BLACKSTEEL -----------
-/datum/anvil_recipe/armor/blacksteel/grenzel_cuirass
-	name = "Grenzelhoft Cuirass (+Steel Bar)"
+/datum/anvil_recipe/armor/blacksteel/sterkenstadten_cuirass
+	name = "Aelondan Cuirass (+Steel Bar)"
 	additional_items = list(/obj/item/ingot/steel)
-	created_item = /obj/item/clothing/armor/cuirass/grenzelhoft
+	created_item = /obj/item/clothing/armor/cuirass/sterkenstadten
 
 /datum/anvil_recipe/armor/blacksteel/platechest
 	name = "Blacksteel Plate Armor (+Bar x3)"
