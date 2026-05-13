@@ -294,7 +294,7 @@ GLOBAL_LIST_EMPTY(roundstart_species)
 		if("Old Unsundered", "Unsundered")
 			return strings("accents/grenz_replacement.json", "sterkenstadt")
 		if("Qadirid")
-			return strings("accents/qadirid_replacement.json", "arabic")
+			return strings("accents/qadirid_replacement.json", "qadirid")
 		if("Common")
 			return
 		if("Elfish")
