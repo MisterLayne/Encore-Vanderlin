@@ -206,9 +206,9 @@
 
 //.............. Gronn Armor Sets .................//
 /obj/item/clothing/armor/plate/iron/gronn
-	name = "osslandic iron plate"
+	name = "nortic iron plate"
 	desc = "A suit of solid iron plate, adorned with tassets and roundels. \
-			The hunters of Ossland rarely used plate, but when they did, \
+			The hunters of Nortmidst rarely used plate, but when they did, \
 			it is said that they were after the most dangerous of prey: their enemies."
 	icon = 'icons/roguetown/clothing/special/gronn.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/gronn.dmi'

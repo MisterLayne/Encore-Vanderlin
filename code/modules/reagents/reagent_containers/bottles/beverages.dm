@@ -79,22 +79,22 @@
 	auto_label_desc = "A Grenzelhoft classic, extremely sour wine that is watered down with mineral water."
 
 /obj/item/reagent_containers/glass/bottle/redwine
-	desc = "A bottle with the Valorian Merchant Guild cork-seal."
+	desc = "A bottle with the Aelondan Merchant Guild cork-seal."
 	list_reagents = list(/datum/reagent/consumable/ethanol/redwine = 75)
-	auto_label_name = "young valorian red"
-	auto_label_desc = "This one appears to be labelled as a relatively young red-wine from the Valorian city-states."
+	auto_label_name = "young aelondan red"
+	auto_label_desc = "This one appears to be labelled as a relatively young red-wine from the Aelondan city-states."
 
 /obj/item/reagent_containers/glass/bottle/whitewine
-	desc = "A bottle with the Valorian Merchant Guild cork-seal."
+	desc = "A bottle with the Aelondan Merchant Guild cork-seal."
 	list_reagents = list(/datum/reagent/consumable/ethanol/whitewine = 75)
-	auto_label_name = "sweet valorian white"
+	auto_label_name = "sweet aelondan white"
 	auto_label_desc = "This one appears to be labelled as a sweet wine from the colder northern regions."
 
 /obj/item/reagent_containers/glass/bottle/elfred
 	desc = "A bottle gilded with a silver cork-seal."
 	list_reagents = list(/datum/reagent/consumable/ethanol/elfred = 75)
-	auto_label_name = "valorian red"
-	auto_label_desc = "An Elvish red wine from Valoria. Likely worth more than what an entire village makes!"
+	auto_label_name = "aelondan red"
+	auto_label_desc = "An Elvish red wine from Aelonda. Likely worth more than what an entire village makes!"
 
 /obj/item/reagent_containers/glass/bottle/elfblue
 	desc = "A bottle gilded with a golden cork-seal."
@@ -134,8 +134,8 @@
 /obj/item/reagent_containers/glass/bottle/gronnmead
 	desc = "A bottle with a Huntsmen Brewery cork-seal."
 	list_reagents = list(/datum/reagent/consumable/ethanol/gronnmead = 48)
-	auto_label_name = "ossland mead"
-	auto_label_desc = "A deep red honey-wine, refined with the red berries native to Ossland's highlands."
+	auto_label_name = "nortic mead"
+	auto_label_desc = "A deep red honey-wine, refined with the red berries native to Nortmidst's highlands."
 
 /obj/item/reagent_containers/glass/bottle/avarmead
 	desc = "A bottle with a simple cork-seal."

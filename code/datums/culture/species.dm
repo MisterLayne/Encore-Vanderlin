@@ -20,7 +20,6 @@
 	description = "Those born with the crest of the Emeraldine Court, the nobility of Aelonda and everything adjacent. \
 	Most here paint an idyllic picture of serene nobility, but for most, going stir crazy pushes them to adventure overseas."
 	species = RACES_PLAYER_NONDISCRIMINATED//No monstrous nobility here
-	pre_append = "the "
 
 //havel sectus
 /datum/culture/species/havelsectus
@@ -113,6 +112,7 @@
 	description = "Commonfolk who originate from the security of Gernhollow, distinct in their keen control of magic and stone. \
 	The majority of these people are dwarven, though other humanoids find a difficult life in the harsh sanctum carved out of the regolith here."
 	species = RACES_PLAYER_GERAMOR//dwarf, human, elf, aasimar
+	pre_append = "the "
 
 //landschnekt gooner containment culture
 /datum/culture/species/geramor/sterkenstadt
@@ -120,7 +120,6 @@
 	description = "Tor Sterkenstadt is known the world over for the boisterous festivities that ever fill its streets in brazen defiance of the darkness that threatens to swallow it whole from all sides. \
 	It is an ostentatious beacon of flashy excess, with most of the world regarding it as the sole origin of the holiday seasons. \
 	The glamorous Feathercap Free Company originates from here and serves as a component of Angus the Fifth's own personal guard."
-	pre_append = "the "
 
 //obligatory trench veterans
 /datum/culture/species/geramor/scars
@@ -132,12 +131,13 @@
 
 //Nidhogg spawn
 /datum/culture/species/geramor/nidhogg
-	name = "Wormblood"
+	name = "Wormbloods"
 	description = "Loyal or formerly loyal dwarves to the demonic Nidhogg who festers still beneath Gernhollow. \
 	Those who shook free the blood of the vile Betrayer were still permanently altered, given monstrous and drained features. \
 	They are obviously difficult to be trusted, suffering exile at best for their malformed state. \
 	That is, assuming they aren't still loyal to the Worm all along..."
 	species = RACES_PLAYER_DWARVES_ONLY//Only dwarves
+	pre_append = "the "
 
 //ocean people
 /datum/culture/species/aquatic
@@ -156,12 +156,13 @@
 	pre_append = "the "
 
 /datum/culture/species/hellspawn
-	name = "Fiend"
+	name = "Fiend-kin"
 	description = "Thauma-less, unnaturally formed life- usually the result of some meddling by daemons. \
 	These range from anything between monstrous greenskins to Tieflings, which can sometimes be indistinguishable from Humans. \
 	Fiends have no recollection or greater understanding of the workings of Hell beyond their own lacking of Thauma. \
 	Invariably, they are discriminated in all parts of the world, only seeing anything close to impartial on Domotan Island."
 	species = RACES_PLAYER_HERETICAL_RACE
+	pre_append = "the "
 
 /datum/culture/species/aasimar
 	name = "Divine origin"

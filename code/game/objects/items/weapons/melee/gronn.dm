@@ -1,7 +1,7 @@
 // Weapons
 /obj/item/weapon/sword/short/gronn
-	name = "Osslandic hinterblade"
-	desc = "Due to the shortage of forged steel in Ossland, their iron blades have become hardier and thicker than what one may see elsewhere. The favoured weapon of choice for any able-bodied hunter of Ossland, the hinterblade is the heftier, unwieldy cousin of the arming sword."
+	name = "Nortic hinterblade"
+	desc = "Due to the shortage of forged steel in Nortmidst, their iron blades have become hardier and thicker than what one may see elsewhere. The favoured weapon of choice for any able-bodied hunter of Nortmidst, the hinterblade is the heftier, unwieldy cousin of the arming sword."
 	icon_state = "gronnsword"
 	force = DAMAGE_SWORD
 	wdefense = GOOD_PARRY
@@ -24,7 +24,7 @@
 /obj/item/weapon/handclaw
 	name = "Iron Hound Claws"
 	desc = "A pair of heavily curved claws, styled after beasts of the wilds for rending bare flesh, \
-			a show of the continual worship and veneration of the Great Hunt in Ossland."
+			a show of the continual worship and veneration of the Great Hunt in Nortmidst."
 	icon = 'icons/roguetown/weapons/32/fists_claws.dmi'
 	icon_state = "ironclaws"
 	parrysound = list('sound/combat/parry/bladed/bladedthin (1).ogg', 'sound/combat/parry/bladed/bladedthin (2).ogg', 'sound/combat/parry/bladed/bladedthin (3).ogg')
@@ -50,7 +50,7 @@
 
 /obj/item/weapon/handclaw/steel
 	name = "Steel Mantis Claws"
-	desc = "A pair of steel claws, an uncommon sight in Ossland as they do not forge their own steel, \
+	desc = "A pair of steel claws, an uncommon sight in Nortmidst as they do not forge their own steel, \
 			Their longer blades offer a superior defence option but their added weight slows them down."
 	icon_state = "steelclaws"
 	force = DAMAGE_KATAR + 7
@@ -63,8 +63,8 @@
 	item_weight = 900 GRAMS
 
 /obj/item/weapon/handclaw/gronn
-	name = "Ossland Beast Claws"
-	desc = "A pair of uniquely reinforced iron claws forged with the addition of bone by the cleric-priests of Ossland. \
+	name = "Nortic Beast Claws"
+	desc = "A pair of uniquely reinforced iron claws forged with the addition of bone by the cleric-priests of Nortmidst. \
 			Their unique design aids them in slipping between the plates in armor and their light weight supports rapid aggressive slashes. \
 			'The cycle of predator and prey continues. To hunt is to be hunted is to hunt in return.'"
 	icon_state = "gronnclaws"

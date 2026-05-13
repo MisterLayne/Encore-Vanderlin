@@ -4,7 +4,7 @@
 	You will not be recognized."
 
 /datum/culture/universal/domotan
-	name = "Native Doman"
+	name = "Domotan Island"
 	description = "Domotan Island, the center of all peculiarity in the world. The witnesses to the new era of heroism. \
 	It serves as an important commerce hub for those traveling in the Sea of Fire, but its odd rulers and ancient mysteries capture the imagination of all. \
 	The Doman people themselves have never known rule beyond the Shirleighs, and their long history together has gifted them immense wealth upon the isle."
@@ -67,7 +67,7 @@
 
 //tribal people
 /datum/culture/universal/tribal
-	name = "Tribal origin"
+	name = "tribal origins"
 	description = "A tribesperson from some undeveloped or isolated place in the Goblet. \
 	Their life could take on any myriad of story, but invariably they lived in some largely primitive state throughout it. \
 	Troubles of the world at large have likely not weighed much on your mind."

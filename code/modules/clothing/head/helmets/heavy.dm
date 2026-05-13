@@ -524,9 +524,9 @@
 
 //............... Gronn Heavy Helmet ...............//
 /obj/item/clothing/head/helmet/heavy/ironplate/gronn
-	name = "osslandic horned helmet"
+	name = "nortic horned helmet"
 	desc = "A horned helms of solid iron. \
-		A suitable replacement for the precious skull-helms worn in Ossland. \
+		A suitable replacement for the precious skull-helms worn in Nortmidst. \
 		For of course, to have your skull-helm smashed is the highest of disrespects."
 	icon = 'icons/roguetown/clothing/special/gronn.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/64x64/gronn.dmi'

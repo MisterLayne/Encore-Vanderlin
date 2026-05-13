@@ -44,13 +44,13 @@
 
 	pants = /obj/item/clothing/pants/tights/colored/black
 	beltl = /obj/item/storage/belt/pouch/coins/mid
-	shoes = /obj/item/clothing/shoes/boots/rare/zaladplate
-	gloves = /obj/item/clothing/gloves/rare/zaladplate
+	shoes = /obj/item/clothing/shoes/boots/rare/qadiridplate
+	gloves = /obj/item/clothing/gloves/rare/qadiridplate
 	belt = /obj/item/storage/belt/leather
 	shirt = /obj/item/clothing/shirt/undershirt/colored/random
-	armor = /obj/item/clothing/armor/rare/zaladplate
+	armor = /obj/item/clothing/armor/rare/qadiridplate
 	backl = /obj/item/storage/backpack/satchel
-	head = /obj/item/clothing/head/rare/zaladplate
+	head = /obj/item/clothing/head/rare/qadiridplate
 	wrists = /obj/item/clothing/wrists/bracers
 	neck = /obj/item/clothing/neck/chaincoif
 

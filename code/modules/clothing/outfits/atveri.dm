@@ -29,7 +29,7 @@
 
 /obj/item/clothing/gloves/plate/atgervi
 	name = "beast claws"
-	desc = "A menacing pair of plated claws, a ceremonial weapon of the Osslandic hunters. The four claws symbolize the four godly aspects they revere."
+	desc = "A menacing pair of plated claws, a ceremonial weapon of the Nortic hunters. The four claws symbolize the four godly aspects they revere."
 	icon_state = "atgervi_shaman_gloves"
 	item_state = "atergvi_shaman_gloves"
 
@@ -224,7 +224,7 @@
 
 
 /obj/item/clothing/head/helmet/bascinet/atgervi/gronn
-	name = "osslandic skull-helm"
+	name = "nortic skull-helm"
 	desc = "A helmet of hardened leather with a carefully preserved animal skull. \
 			The skull integrated is a trophy of the bearer's great hunt, and a symbol of their reincarnation after death."
 
@@ -238,15 +238,15 @@
 	worn_y_dimension = 32
 
 /obj/item/clothing/head/helmet/bascinet/atgervi/gronn/ownel
-	name = "osslandic scout's helmet"
+	name = "nortic scout's helmet"
 	desc = "A full helmet that adequately protect the eyes and head; \
-			The slits are decorated with a harsh gold dye - it is rumoured in Ossland to grant one the ability to see as keenly as The Hunter himself."
+			The slits are decorated with a harsh gold dye - it is rumoured in Nortmidst to grant one the ability to see as keenly as The Hunter himself."
 	icon_state = "gronnhelm"
 	item_state = "gronnhelm"
 
 /obj/item/clothing/armor/chainmail/hauberk/gronn
-	name = "osslandic chain hauberk"
-	desc = "A chain shirt of Osslandic design with a leather coat layered over, \
+	name = "nortic chain hauberk"
+	desc = "A chain shirt of Nortic design with a leather coat layered over, \
 			offering additional protection and superior movement. It is often used by sea raiders."
 	icon = 'icons/roguetown/clothing/special/gronn.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/gronn.dmi'

@@ -196,7 +196,7 @@
 
 /obj/item/clothing/cloak/cape/inquisitor
 	name = "Inquisitors Cloak"
-	desc = "A time honored cloak Valorian design, used by founding clans of the Valorian Lodge"
+	desc = "A time honored cloak Aelondan design, used by founding clans of the Aelondan Lodge"
 	icon_state = "inquisitor_cloak"
 	icon = 'icons/roguetown/clothing/cloaks.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/cloaks.dmi'
@@ -260,7 +260,7 @@
 
 /obj/item/clothing/cloak/half/duelcape
 	name = "duelist cape"
-	desc = "A cape designed for mercenary bands hailing from Valoria."
+	desc = "A cape designed for mercenary bands hailing from Aelonda."
 	icon_state = "duelistcape"
 	item_state = "duelistcape"
 	color = null

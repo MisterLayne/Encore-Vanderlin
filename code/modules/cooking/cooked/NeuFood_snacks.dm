@@ -213,8 +213,8 @@
 	foodtype = EGG
 	item_weight = 100 GRAMS
 
-/obj/item/reagent_containers/food/snacks/cooked/valorian_omlette
-	name = "valorian omelette"
+/obj/item/reagent_containers/food/snacks/cooked/aelondan_omlette
+	name = "aelondan omelette"
 	desc = "Fried cackleberries on a bed of half-melted cheese, a dish from distant lands."
 	tastes = list("fried cackleberries" = 1, "cheese" = 1)
 	icon_state = "omelette"

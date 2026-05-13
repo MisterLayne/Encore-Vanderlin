@@ -66,8 +66,8 @@
 	item_weight = 3.5 KILOGRAMS
 
 
-//............... Kataphract/bastion/spear/zaladin Helmet ............... //
-/obj/item/clothing/head/rare/zaladplate // Unique Freelancer kit
+//............... Kataphract/bastion/spear/qadirid Helmet ............... //
+/obj/item/clothing/head/rare/qadiridplate // Unique Freelancer kit
 	name = "bastion helm"
 	desc = "The Qadirid Kataphractoe are the ancestral guardians of the first Despot, \
 			their helms designed in the fashion of the capital's majestic sky-piercing tower \

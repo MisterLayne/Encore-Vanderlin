@@ -324,7 +324,7 @@
 
 /obj/item/clothing/armor/leather/jacket/leathercoat/duelcoat
 	name = "black leather coat"
-	desc = "A stylish coat worn by the Duelists of Valoria. Light and flexible, it doesn't impede the complex movements they are known for, Seems to be well-padded."
+	desc = "A stylish coat worn by the Duelists of Aelonda. Light and flexible, it doesn't impede the complex movements they are known for, Seems to be well-padded."
 	icon_state = "bwleathercoat"
 	boobed = TRUE
 	armor = ARMOR_LEATHER_GOOD
@@ -373,9 +373,9 @@
 
 // gronnic subtype
 /obj/item/clothing/armor/leather/gronn
-	name = "osslandic ravager mantle"
+	name = "nortic ravager mantle"
 	desc = "A carefully created mantle of bone and hardened leather. It offers superior protection against the threats of the wild while remaining light, \
-			A popular design in Ossland is to adorn a shoulder with a wolf pelt, a symbol of the Great Hunt."
+			A popular design in Nortmidst is to adorn a shoulder with a wolf pelt, a symbol of the Great Hunt."
 	icon = 'icons/roguetown/clothing/special/gronn.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/gronn.dmi'
 	icon_state = "gronnleatherarmor"

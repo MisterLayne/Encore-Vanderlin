@@ -416,7 +416,7 @@
 	gender = MALE
 	specuse = list(SPEC_ID_ELF)
 
-/datum/sprite_accessory/hair/head/zaladin
+/datum/sprite_accessory/hair/head/qadirid
 	name = "Qadirid"
 	icon_state = "zaladin" // orginal name gelled
 	gender = MALE

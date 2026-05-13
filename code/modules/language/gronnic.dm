@@ -1,5 +1,5 @@
 // Language
-/datum/language/gronnic
+/datum/language/nortic
 	name = "Nortic"
 	desc = "The harsh tongue of the Nortic tribes."
 	speech_verb = "remarks"

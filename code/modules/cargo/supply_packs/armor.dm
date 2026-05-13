@@ -164,12 +164,12 @@
 /datum/supply_pack/armor/steel/zplatehelm
 	name = "Qadirid Plate Helm"
 	cost = 90
-	contains = /obj/item/clothing/head/rare/zaladplate
+	contains = /obj/item/clothing/head/rare/qadiridplate
 
 /datum/supply_pack/armor/steel/zsallet
 	name = "Qadirid Sallet"
 	cost = 60
-	contains = /obj/item/clothing/head/helmet/sallet/zalad
+	contains = /obj/item/clothing/head/helmet/sallet/qadirid
 
 /datum/supply_pack/armor/steel/nasalh
 	name = "Nasal Helmet"
@@ -243,7 +243,7 @@
 /datum/supply_pack/armor/steel/zplatearmor
 	name = "Qadirid Plate"
 	cost = 140
-	contains = /obj/item/clothing/armor/rare/zaladplate
+	contains = /obj/item/clothing/armor/rare/qadiridplate
 
 /datum/supply_pack/armor/steel/cuirass
 	name = "Steel Cuirass"
@@ -297,7 +297,7 @@
 /datum/supply_pack/armor/steel/zplategloves
 	name = "Qadirid Plate Gloves"
 	cost = 55
-	contains = /obj/item/clothing/armor/rare/zaladplate
+	contains = /obj/item/clothing/armor/rare/qadiridplate
 
 /datum/supply_pack/armor/steel/plate_gloves
 	name = "Heavy Plate Gloves"
@@ -331,4 +331,4 @@
 /datum/supply_pack/armor/steel/zplateboots
 	name = "Qadirid Plate Boots"
 	cost = 55
-	contains = /obj/item/clothing/shoes/boots/rare/zaladplate
+	contains = /obj/item/clothing/shoes/boots/rare/qadiridplate

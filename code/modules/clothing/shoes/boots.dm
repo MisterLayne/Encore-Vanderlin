@@ -227,9 +227,9 @@
 //.............. Gronn Boots .................//
 
 /obj/item/clothing/shoes/boots/armor/gronn
-	name = "osslandic iron boots"
+	name = "nortic iron boots"
 	desc = "Thick iron boots, tied with a leather cord; protective and sturdy. \
-			Osslandic legend tells of a great warrior who fought for aeons until a hero speared him through the foot. \
+			Nortic legend tells of a great warrior who fought for aeons until a hero speared him through the foot. \
 			The Northmen have since followed through by protecting their feet heavily."
 	icon_state = "gronnplateboots"
 	item_state = "gronnplateboots"

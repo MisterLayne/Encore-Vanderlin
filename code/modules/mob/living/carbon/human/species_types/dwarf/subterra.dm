@@ -12,7 +12,7 @@
 
 	exotic_bloodtype = /datum/blood_type/human/dwarf/subterra
 
-	inherent_traits = list(TRAIT_NOMOBSWAP, TRAIT_ACID_IMMUNE)
+	inherent_traits = list(TRAIT_NOMOBSWAP, TRAIT_ACID_IMMUNE, TRAIT_ORGAN_EATER)
 
 /datum/species/dwarf/mountain/subterra/on_species_gain(mob/living/carbon/C, datum/species/old_species)
 	. = ..()
@@ -57,5 +57,5 @@
 
 /datum/species/dwarf/mountain/subterra/get_skin_list()
 	return sortList(list(
-		"Hollow" = "aabf7c"
+		"Wormblood" = "aabf7c"
 	))

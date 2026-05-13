@@ -60,7 +60,7 @@
 	item_weight = 12 KILOGRAMS
 	stand_speed_reduction = 1.2
 
-/obj/item/clothing/armor/rare/zaladplate
+/obj/item/clothing/armor/rare/qadiridplate
 	name = "Qadirid scaleskin"
 	desc = "Steel scales woven into armor with miniscule threads of adamantine, \
 			ensuring the wearer optimal defence with forgiving breathability."

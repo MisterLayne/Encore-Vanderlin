@@ -1,8 +1,8 @@
 /datum/language/qadirid
 	name = "Qadirid"
 	desc = ""
-	icon_state = "zalad"
-	spans = list(SPAN_ZALAD)
+	icon_state = "qadirid"
+	spans = list(SPAN_QADIRID)
 	speech_verb = "states"
 	ask_verb = "questions"
 	exclaim_verb = "shouts"

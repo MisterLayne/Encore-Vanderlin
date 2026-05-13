@@ -1,7 +1,7 @@
-/datum/migrant_role/zalad/emir
+/datum/migrant_role/qadirid/emir
 	name = "Qadirid Emir"
 	greet_text = "An Emir hailing from Milhun, here on business for the Burning Banner to the throne of Etgard."
-	migrant_job = /datum/job/migrant/zalad_migration/emir
+	migrant_job = /datum/job/migrant/qadirid_migration/emir
 
 /datum/attribute_holder/sheet/job/migrant/emir
 	raw_attribute_list = list(
@@ -22,9 +22,9 @@
 		/datum/attribute/skill/labor/mathematics = 30,
 	)
 
-/datum/job/migrant/zalad_migration/emir
+/datum/job/migrant/qadirid_migration/emir
 	title = "Qadirid Emir"
-	outfit = /datum/outfit/zalad_migration/emir
+	outfit = /datum/outfit/qadirid_migration/emir
 	allowed_sexes = list(MALE)
 	allowed_races = RACES_PLAYER_SULTANS
 	is_recognized = TRUE
@@ -34,7 +34,7 @@
 	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/emir
 
 	spells = list(
-		/datum/action/cooldown/spell/undirected/call_bird/zalad
+		/datum/action/cooldown/spell/undirected/call_bird/qadirid
 	)
 
 	traits = list(
@@ -46,7 +46,7 @@
 	languages = list(/datum/language/qadirid)
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander.ogg'
 
-/datum/job/migrant/zalad_migration/emir/after_spawn(mob/living/carbon/human/spawned, client/player_client)
+/datum/job/migrant/qadirid_migration/emir/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 
 	if(spawned.dna?.species)
@@ -57,7 +57,7 @@
 			spawned.dna.species.native_language = "Qadirid"
 			spawned.dna.species.accent_language = spawned.dna.species.get_accent(spawned.dna.species.native_language)
 
-/datum/outfit/zalad_migration/emir
+/datum/outfit/qadirid_migration/emir
 	name = "Qadirid Emir (Migrant Wave)"
 	shoes = /obj/item/clothing/shoes/shalal
 	gloves = /obj/item/clothing/gloves/leather
@@ -74,17 +74,17 @@
 	neck = /obj/item/clothing/neck/shalal/emir
 	backpack_contents = list(/obj/item/storage/belt/pouch/coins/veryrich)
 
-/datum/outfit/zalad_migration/emir/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
+/datum/outfit/qadirid_migration/emir/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
 	. = ..()
 
 	if(equipped_human.gender == FEMALE)
 		armor = /obj/item/clothing/armor/leather/jacket/silk_coat
 		shirt = /obj/item/clothing/shirt/dress/silkdress/colored/black
 
-/datum/migrant_role/zalad/amirah
+/datum/migrant_role/qadirid/amirah
 	name = "Qadirid Amirah"
 	greet_text = "An Amirah hailing from Milhun, here on business for the Burning Banner to the throne of Etgard."
-	migrant_job = /datum/job/migrant/zalad_migration/amirah
+	migrant_job = /datum/job/migrant/qadirid_migration/amirah
 
 /datum/attribute_holder/sheet/job/migrant/amirah
 	raw_attribute_list = list(
@@ -105,9 +105,9 @@
 		/datum/attribute/skill/labor/mathematics = 30,
 	)
 
-/datum/job/migrant/zalad_migration/amirah
+/datum/job/migrant/qadirid_migration/amirah
 	title = "Qadirid Amirah"
-	outfit = /datum/outfit/zalad_migration/amirah
+	outfit = /datum/outfit/qadirid_migration/amirah
 	allowed_sexes = list(FEMALE)
 	allowed_races = RACES_PLAYER_SULTANS
 	is_recognized = TRUE
@@ -118,7 +118,7 @@
 	honorary_f = "Amirah"
 
 	spells = list(
-		/datum/action/cooldown/spell/undirected/call_bird/zalad
+		/datum/action/cooldown/spell/undirected/call_bird/qadirid
 	)
 
 	traits = list(
@@ -130,7 +130,7 @@
 	languages = list(/datum/language/qadirid)
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander.ogg'
 
-/datum/job/migrant/zalad_migration/amirah/after_spawn(mob/living/carbon/human/spawned, client/player_client)
+/datum/job/migrant/qadirid_migration/amirah/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 	if(spawned.dna?.species)
 		if(spawned.dna.species.id == SPEC_ID_HUMEN)
@@ -140,7 +140,7 @@
 			spawned.dna.species.native_language = "Qadirid"
 			spawned.dna.species.accent_language = spawned.dna.species.get_accent(spawned.dna.species.native_language)
 
-/datum/outfit/zalad_migration/amirah
+/datum/outfit/qadirid_migration/amirah
 	name = "Qadirid Amirah (Migrant Wave)"
 	shoes = /obj/item/clothing/shoes/shalal
 	gloves = /obj/item/clothing/gloves/leather
@@ -160,10 +160,10 @@
 		/obj/item/reagent_containers/glass/bottle/wine = 1,
 	)
 
-/datum/migrant_role/zalad/furusiyya
+/datum/migrant_role/qadirid/furusiyya
 	name = "Furusiyya"
 	greet_text = "You are a furusiyya, pledged to the Emir and the Amirah. Make sure they come out alive of that place."
-	migrant_job = /datum/job/migrant/zalad_migration/furusiyya
+	migrant_job = /datum/job/migrant/qadirid_migration/furusiyya
 
 /datum/attribute_holder/sheet/job/migrant/furusiyya
 	raw_attribute_list = list(
@@ -188,9 +188,9 @@
 		/datum/attribute/skill/labor/mathematics = 30,
 	)
 
-/datum/job/migrant/zalad_migration/furusiyya
+/datum/job/migrant/qadirid_migration/furusiyya
 	title = "Furusiyya"
-	outfit = /datum/outfit/zalad_migration/furusiyya
+	outfit = /datum/outfit/qadirid_migration/furusiyya
 	allowed_sexes = list(MALE)
 	allowed_races = RACES_PLAYER_SULTANS
 	is_recognized = TRUE
@@ -209,7 +209,7 @@
 	languages = list(/datum/language/qadirid)
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander.ogg'
 
-/datum/job/migrant/zalad_migration/furusiyya/after_spawn(mob/living/carbon/human/spawned, client/player_client)
+/datum/job/migrant/qadirid_migration/furusiyya/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 
 	if(spawned.dna?.species)
@@ -220,21 +220,21 @@
 			spawned.dna.species.native_language = "Qadirid"
 			spawned.dna.species.accent_language = spawned.dna.species.get_accent(spawned.dna.species.native_language)
 
-/datum/outfit/zalad_migration/furusiyya
+/datum/outfit/qadirid_migration/furusiyya
 	name = "Furusiyya (Migrant Wave)"
 	pants = /obj/item/clothing/pants/tights/colored/black
 	beltl = /obj/item/storage/belt/pouch/coins/mid
-	shoes = /obj/item/clothing/shoes/boots/rare/zaladplate
-	gloves = /obj/item/clothing/gloves/rare/zaladplate
+	shoes = /obj/item/clothing/shoes/boots/rare/qadiridplate
+	gloves = /obj/item/clothing/gloves/rare/qadiridplate
 	belt = /obj/item/storage/belt/leather/shalal
 	shirt = /obj/item/clothing/shirt/undershirt/colored/random
-	armor = /obj/item/clothing/armor/rare/zaladplate
+	armor = /obj/item/clothing/armor/rare/qadiridplate
 	backl = /obj/item/storage/backpack/satchel
-	head = /obj/item/clothing/head/rare/zaladplate
+	head = /obj/item/clothing/head/rare/qadiridplate
 	wrists = /obj/item/clothing/wrists/bracers
 	neck = /obj/item/clothing/neck/chaincoif
 
-/datum/outfit/zalad_migration/furusiyya/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
+/datum/outfit/qadirid_migration/furusiyya/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
 	. = ..()
 
 	var/randy = rand(1,5)
@@ -246,12 +246,12 @@
 		if(5)
 			backr = /obj/item/weapon/polearm/spear/billhook
 
-/datum/migrant_role/zalad_guard
+/datum/migrant_role/qadirid_guard
 	name = "Qadirid Soldier"
 	greet_text = "You are a soldier from Milhun, sent as an escort to the emirs on a foreign land, do not fail them."
-	migrant_job = /datum/job/migrant/zalad_migration/zalad_guard
+	migrant_job = /datum/job/migrant/qadirid_migration/qadirid_guard
 
-/datum/attribute_holder/sheet/job/migrant/zalad_guard
+/datum/attribute_holder/sheet/job/migrant/qadirid_guard
 	attribute_variance = list(
 		/datum/attribute/skill/combat/shields = list(0, 10)
 	)
@@ -273,14 +273,14 @@
 		/datum/attribute/skill/misc/athletics = 30,
 	)
 
-/datum/job/migrant/zalad_migration/zalad_guard
+/datum/job/migrant/qadirid_migration/qadirid_guard
 	title = "Qadirid Soldier"
-	outfit = /datum/outfit/zalad_migration/zalad_guard
+	outfit = /datum/outfit/qadirid_migration/qadirid_guard
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_PLAYER_ALL
 	exp_types_granted  = list(EXP_TYPE_COMBAT)
 
-	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/zalad_guard
+	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/qadirid_guard
 
 	traits = list(
 		TRAIT_HEAVYARMOR,
@@ -289,7 +289,7 @@
 	languages = list(/datum/language/qadirid)
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander.ogg'
 
-/datum/job/migrant/zalad_migration/zalad_guard/after_spawn(mob/living/carbon/human/spawned, client/player_client)
+/datum/job/migrant/qadirid_migration/qadirid_guard/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 
 	if(spawned.dna?.species)
@@ -300,10 +300,10 @@
 			spawned.dna.species.native_language = "Qadirid"
 			spawned.dna.species.accent_language = spawned.dna.species.get_accent(spawned.dna.species.native_language)
 
-/datum/outfit/zalad_migration/zalad_guard
+/datum/outfit/qadirid_migration/qadirid_guard
 	name = "Qadirid Soldier (Migrant Wave)"
 	shoes = /obj/item/clothing/shoes/shalal
-	head = /obj/item/clothing/head/helmet/sallet/zalad
+	head = /obj/item/clothing/head/helmet/sallet/qadirid
 	gloves = /obj/item/clothing/gloves/angle
 	belt = /obj/item/storage/belt/leather/shalal
 	armor = /obj/item/clothing/armor/brigandine/coatplates
@@ -318,7 +318,7 @@
 /datum/migrant_role/qatil
 	name = "Qatil"
 	greet_text = "You are the Amirah's confident and most loyal protector, you shan't let them die in these wretched lands."
-	migrant_job = /datum/job/migrant/zalad_migration/qatil
+	migrant_job = /datum/job/migrant/qadirid_migration/qatil
 
 /datum/attribute_holder/sheet/job/migrant/qatil
 	raw_attribute_list = list(
@@ -341,9 +341,9 @@
 		/datum/attribute/skill/craft/traps = 10,
 	)
 
-/datum/job/migrant/zalad_migration/qatil
+/datum/job/migrant/qadirid_migration/qatil
 	title = "Qatil"
-	outfit = /datum/outfit/zalad_migration/qatil
+	outfit = /datum/outfit/qadirid_migration/qatil
 	exp_types_granted  = list(EXP_TYPE_COMBAT)
 	allowed_races = list(
 		SPEC_ID_HUMEN,
@@ -364,7 +364,7 @@
 	languages = list(/datum/language/qadirid)
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander3.ogg'
 
-/datum/job/migrant/zalad_migration/qatil/after_spawn(mob/living/carbon/human/spawned, client/player_client)
+/datum/job/migrant/qadirid_migration/qatil/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 
 	if(spawned.dna?.species)
@@ -375,7 +375,7 @@
 			spawned.dna.species.native_language = "Qadirid"
 			spawned.dna.species.accent_language = spawned.dna.species.get_accent(spawned.dna.species.native_language)
 
-/datum/outfit/zalad_migration/qatil
+/datum/outfit/qadirid_migration/qatil
 	name = "Qatil (Migrant Wave)"
 	pants = /obj/item/clothing/pants/trou/leather
 	beltr = /obj/item/weapon/knife/dagger/steel/special
@@ -391,30 +391,30 @@
 		/obj/item/lockpick,
 	)
 
-/datum/migrant_wave/zalad_wave
+/datum/migrant_wave/qadirid_wave
 	name = "The Sultanate Expedition"
 	max_spawns = 1
-	shared_wave_type = list(/datum/migrant_wave/grenzelhoft_visit,/datum/migrant_wave/zalad_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/heartfelt)
+	shared_wave_type = list(/datum/migrant_wave/grenzelhoft_visit,/datum/migrant_wave/qadirid_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/heartfelt)
 	weight = 25
-	downgrade_wave = /datum/migrant_wave/zalad_wave_down
+	downgrade_wave = /datum/migrant_wave/qadirid_wave_down
 	roles = list(
-		/datum/migrant_role/zalad/emir = 1,
-		/datum/migrant_role/zalad/amirah = 1,
-		/datum/migrant_role/zalad/furusiyya = 1,
+		/datum/migrant_role/qadirid/emir = 1,
+		/datum/migrant_role/qadirid/amirah = 1,
+		/datum/migrant_role/qadirid/furusiyya = 1,
 		/datum/migrant_role/qatil = 1,
-		/datum/migrant_role/zalad_guard = 2
+		/datum/migrant_role/qadirid_guard = 2
 	)
 	greet_text = "The Burning Banner sent you, respected Sunmen, to seek favorable business proposals upon Domotan Island."
 
-/datum/migrant_wave/zalad_wave_down
+/datum/migrant_wave/qadirid_wave_down
 	name = "The Sultanate Expedition"
 	max_spawns = 1
-	shared_wave_type = list(/datum/migrant_wave/grenzelhoft_visit,/datum/migrant_wave/zalad_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/heartfelt)
+	shared_wave_type = list(/datum/migrant_wave/grenzelhoft_visit,/datum/migrant_wave/qadirid_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/heartfelt)
 	can_roll = FALSE
 	roles = list(
-		/datum/migrant_role/zalad/emir = 1,
-		/datum/migrant_role/zalad/amirah = 1,
-		/datum/migrant_role/zalad/furusiyya = 1,
+		/datum/migrant_role/qadirid/emir = 1,
+		/datum/migrant_role/qadirid/amirah = 1,
+		/datum/migrant_role/qadirid/furusiyya = 1,
 		/datum/migrant_role/qatil = 1
 	)
 	greet_text = "The Burning Banner sent you, respected Sunmen, to seek favorable business proposals upon Domotan Island. Unfortunately most of your guards died on the way here."

@@ -173,8 +173,8 @@
 	crafting_sound = 'sound/foley/dropsound/food_drop.ogg'
 	extra_chance = 100
 
-/datum/repeatable_crafting_recipe/cooking/valorian_omlette
-	name = "Valorian Omlette"
+/datum/repeatable_crafting_recipe/cooking/aelondan_omlette
+	name = "Aelondan Omlette"
 
 	requirements = list(
 		/obj/item/reagent_containers/food/snacks/cooked/twin_egg = 1,
@@ -184,7 +184,7 @@
 	attacked_atom = /obj/item/reagent_containers/food/snacks/cooked/twin_egg
 	starting_atom = /obj/item/reagent_containers/food/snacks/cheese_wedge
 	allow_inverse_start = TRUE
-	output = /obj/item/reagent_containers/food/snacks/cooked/valorian_omlette
+	output = /obj/item/reagent_containers/food/snacks/cooked/aelondan_omlette
 	craft_time = 5 SECONDS
 	crafting_sound = 'sound/foley/dropsound/food_drop.ogg'
 	extra_chance = 100

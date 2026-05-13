@@ -37,7 +37,7 @@
 		"Cancel" = "cancel",
 	)
 
-/datum/action/cooldown/spell/undirected/call_bird/zalad
+/datum/action/cooldown/spell/undirected/call_bird/qadirid
 	name = "Call Guild Messenger"
 	destinations = list(
 		"The Mercator Guild" = "the Mercator Guild",

@@ -128,9 +128,9 @@
 	icon_state = "beltpants"
 	item_state = "beltpants"
 
-//Valorian Duelist Merc - On par with grenzelhoftian's stats.
+//Aelondan Duelist Merc - On par with grenzelhoftian's stats.
 /obj/item/clothing/pants/trou/leather/advanced/colored/duelpants
-	desc = "Padded pants, favored by Valoria's Duelists, Legs are often a prime target in a duel, and these pants seem to have seen their fair share of it"
+	desc = "Padded pants, favored by Aelonda's Duelists, Legs are often a prime target in a duel, and these pants seem to have seen their fair share of it"
 	color = "#5a5a5a"
 	armor = ARMOR_PADDED
 	prevent_crits = MINOR_CRITICALS
@@ -166,7 +166,7 @@
 
 //gronn trou
 /obj/item/clothing/pants/trou/leather/splint/gronn
-	name = "osslandic chain chausses"
+	name = "nortic chain chausses"
 	desc = "A pair of chain-wrapped pants with a leather subligar, ensuring both protection and comfort."
 	icon = 'icons/roguetown/clothing/special/gronn.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/gronn.dmi'
@@ -174,9 +174,9 @@
 	item_state = "gronnchainpants"
 
 /obj/item/clothing/pants/trou/leather/gronn
-	name = "osslandic fur pants"
+	name = "nortic fur pants"
 	desc = "A pair of hardened leather pants with bone reinforcements along the legs; \
-			Those of Ossland adopt a design that offers superior protection against the blunted hits and slashing claws of beasts."
+			Those of Nortmidst adopt a design that offers superior protection against the blunted hits and slashing claws of beasts."
 	icon_state = "gronnleatherpants"
 	item_state = "gronnleatherpants"
 	armor = ARMOR_GRONN_LIGHT

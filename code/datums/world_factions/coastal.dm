@@ -113,7 +113,7 @@
 		/datum/supply_pack/weapons/iron/navaja,
 		// Exotic foods
 		/datum/supply_pack/food/angler,
-		/datum/supply_pack/food/drinks/winezaladin,
+		/datum/supply_pack/food/drinks/winesultanate,
 		/datum/supply_pack/food/drinks/winegrenzel,
 		// Musical instruments - coastal culture
 		/datum/supply_pack/instruments/flute,

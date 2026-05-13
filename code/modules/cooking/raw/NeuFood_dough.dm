@@ -1843,7 +1843,7 @@
 	item_weight = 400 GRAMS
 
 /obj/item/reagent_containers/food/snacks/zybcake
-	name = "zaladin cake base"
+	name = "qadirid cake base"
 	desc = "With this sweet thing, you shall make them sing. Lacking spider-honey glazing."
 	icon_state = "cake_filled"
 	dropshrink = 0.8
@@ -1856,7 +1856,7 @@
 
 // -------------- SPIDER-HONEY CAKE (Qadirid) -----------------
 /obj/item/reagent_containers/food/snacks/zybcake_ready
-	name = "unbaked zaladin cake"
+	name = "unbaked qadirid cake"
 	icon_state = "honeycakeuncook"
 	dropshrink = 0.8
 	slices_num = 0
@@ -1870,7 +1870,7 @@
 	item_weight = 400 GRAMS
 
 /obj/item/reagent_containers/food/snacks/zybcake_cooked
-	name = "zalad cake"
+	name = "qadirid cake"
 	desc = "Cake glazed with honey, in the famous Qadirid fashion, a delicious sweet treat. Said to be very hard to poison, perhaps the honey counteracting such malicious concotions."
 	icon_state = "honeycake"
 	dropshrink = 0.8
@@ -1889,7 +1889,7 @@
 	item_weight = 600 GRAMS
 
 /obj/item/reagent_containers/food/snacks/zybcake_slice
-	name = "zalad cake slice"
+	name = "qadirid cake slice"
 	icon_state = "hcake_slice"
 	base_icon_state = "hcake_slice"
 	dropshrink = 0.8
@@ -2054,7 +2054,7 @@
 
 /obj/item/reagent_containers/food/snacks/crimsoncake_cooked
 	name = "crimson pine cake"
-	desc = "A fusion of Crimson Elf and Grenzelhoftian cuisines, the cake originates from the Valorian Republics. Rumor has it that one of the many casus belli in the Republics was based upon a disagreement on the cakes exact recipe."
+	desc = "A fusion of Crimson Elf and Grenzelhoftian cuisines, the cake originates from the Aelondan Republics. Rumor has it that one of the many casus belli in the Republics was based upon a disagreement on the cakes exact recipe."
 	icon_state = "crimsonpinecake"
 	slices_num = 6
 	slice_path = /obj/item/reagent_containers/food/snacks/crimsoncake_slice

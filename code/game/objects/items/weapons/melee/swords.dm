@@ -654,7 +654,7 @@
 
 /obj/item/weapon/sword/rapier/silver
 	name = "silver rapier"
-	desc = "An elegant silver rapier. Popular with lords and ladies in Valoria."
+	desc = "An elegant silver rapier. Popular with lords and ladies in Aelonda."
 	icon_state = "rapier_s"
 	force = DAMAGE_SWORD - 2
 	melt_amount = 100

@@ -56,7 +56,7 @@
 	cost = 35
 	contains = /obj/item/reagent_containers/glass/bottle/beer/voddena
 
-/datum/supply_pack/food/drinks/winezaladin
+/datum/supply_pack/food/drinks/winesultanate
 	name = "Qadirid Wine"
 	cost = 20
 	contains = /obj/item/reagent_containers/glass/bottle/wine
@@ -67,12 +67,12 @@
 	contains = /obj/item/reagent_containers/glass/bottle/wine/sourwine
 
 /datum/supply_pack/food/drinks/winevalorred
-	name = "Valorian Red Wine"
+	name = "Aelondan Red Wine"
 	cost = 45
 	contains = /obj/item/reagent_containers/glass/bottle/redwine
 
 /datum/supply_pack/food/drinks/winevalorwhite
-	name = "Valorian White Wine"
+	name = "Aelondan White Wine"
 	cost = 35
 	contains = /obj/item/reagent_containers/glass/bottle/whitewine
 

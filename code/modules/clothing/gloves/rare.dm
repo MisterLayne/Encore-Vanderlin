@@ -52,7 +52,7 @@
 	allowed_sex = list(MALE)
 	item_weight = 1.65 KILOGRAMS
 
-/obj/item/clothing/gloves/rare/zaladplate
+/obj/item/clothing/gloves/rare/qadiridplate
 	name = "kataphractoe claw gauntlets"
 	desc = "Interwoven beautifully with layers of silk, chain and plate, these gauntlets grant unmatched coverage while allowing maximum mobility. Both useful to the Qadirid's ever-growing slave-empire."
 	icon_state = "human_spearhand"

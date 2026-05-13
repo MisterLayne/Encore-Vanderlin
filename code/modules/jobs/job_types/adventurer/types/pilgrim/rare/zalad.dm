@@ -1,4 +1,4 @@
-/datum/attribute_holder/sheet/job/pilgrim/zaladin
+/datum/attribute_holder/sheet/job/pilgrim/qadirid
 	raw_attribute_list = list(
 		STAT_INTELLIGENCE = 1,
 		STAT_ENDURANCE = 2,
@@ -17,11 +17,11 @@
 		/datum/attribute/skill/labor/mathematics = 30
 	)
 
-/datum/job/advclass/pilgrim/rare/zaladin
+/datum/job/advclass/pilgrim/rare/qadirid
 	title = "Qadirid Emir"
 	tutorial = "An Emir hailing from Djannam, here on business for the Mercator's Guild."
 	allowed_races = RACES_PLAYER_SULTANS
-	outfit = /datum/outfit/pilgrim/zalad
+	outfit = /datum/outfit/pilgrim/qadirid
 	category_tags = list(CTAG_PILGRIM)
 	total_positions = 1
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander.ogg'
@@ -29,7 +29,7 @@
 	honorary = "Emir"
 	honorary_f = "Amirah"
 
-	attribute_sheet = /datum/attribute_holder/sheet/job/pilgrim/zaladin
+	attribute_sheet = /datum/attribute_holder/sheet/job/pilgrim/qadirid
 
 	traits = list(
 		TRAIT_MEDIUMARMOR,
@@ -40,7 +40,7 @@
 
 	languages = list(/datum/language/qadirid)
 
-/datum/job/advclass/pilgrim/rare/zaladin/after_spawn(mob/living/carbon/human/spawned, client/player_client)
+/datum/job/advclass/pilgrim/rare/qadirid/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 	if(spawned.dna?.species)
 		if(spawned.dna.species.id == SPEC_ID_HUMEN)
@@ -51,7 +51,7 @@
 				spawned.dna.species.native_language = "Qadirid"
 				spawned.dna.species.accent_language = spawned.dna.species.get_accent(spawned.dna.species.native_language)
 
-/datum/outfit/pilgrim/zalad
+/datum/outfit/pilgrim/qadirid
 	name = "Qadirid Emir (Pilgrim)"
 	shoes = /obj/item/clothing/shoes/shalal
 	gloves = /obj/item/clothing/gloves/leather
@@ -68,7 +68,7 @@
 	neck = /obj/item/clothing/neck/shalal/emir
 	backpack_contents = list(/obj/item/storage/belt/pouch/coins/veryrich = 1)
 
-/datum/outfit/pilgrim/zalad/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
+/datum/outfit/pilgrim/qadirid/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
 	. = ..()
 	if(equipped_human.gender == FEMALE)
 		shirt = /obj/item/clothing/shirt/dress/silkdress/colored/black

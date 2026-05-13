@@ -78,7 +78,7 @@
 /datum/curse/akan
 	name = "Akan's Curse"
 	description = "Magical knowledge is now beyond my grasp."
-	trait = TRAIT_NOC_CURSE
+	trait = TRAIT_AKAN_CURSE
 
 /datum/curse/mordsol
 	name = "Mordsol's Curse"

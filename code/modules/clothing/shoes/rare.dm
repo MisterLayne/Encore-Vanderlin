@@ -69,7 +69,7 @@
 	blocksound = PLATEHIT
 	item_weight = 2.1 KILOGRAMS
 
-/obj/item/clothing/shoes/boots/rare/zaladplate
+/obj/item/clothing/shoes/boots/rare/qadiridplate
 	name = "Qadirid segmented plate boots"
 	allowed_race = list(SPEC_ID_HUMEN)
 	allowed_sex = list(MALE)

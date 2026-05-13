@@ -1,4 +1,4 @@
-/datum/attribute_holder/sheet/job/zalad
+/datum/attribute_holder/sheet/job/qadirid
 	attribute_variance = list(
 		/datum/attribute/skill/combat/shields = list(0, 10)
 	)
@@ -21,7 +21,7 @@
 		/datum/attribute/skill/misc/athletics = 30
 	)
 
-/datum/job/advclass/mercenary/zalad
+/datum/job/advclass/mercenary/qadirid
 	title = "Red Sands"
 	tutorial = "A cutthroat from Qadirid lands, you've headed into foreign lands to make even greater coin than you had prior."
 	allowed_races = list(\
@@ -35,13 +35,13 @@
 		SPEC_ID_AASIMAR,\
 		SPEC_ID_HALF_ORC,\
 	)
-	outfit = /datum/outfit/mercenary/zalad
+	outfit = /datum/outfit/mercenary/qadirid
 	category_tags = list(CTAG_MERCENARY)
 	total_positions = 5
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander.ogg' //Forgive me, Combat_DesertRider, I'm sorry, I'll miss you.
 	languages = list(/datum/language/qadirid)
 
-	attribute_sheet = /datum/attribute_holder/sheet/job/zalad
+	attribute_sheet = /datum/attribute_holder/sheet/job/qadirid
 
 	traits = list(
 		TRAIT_MEDIUMARMOR,
@@ -49,7 +49,7 @@
 		TRAIT_DUALWIELDER
 	)
 
-/datum/job/advclass/mercenary/zalad/after_spawn(mob/living/carbon/human/spawned, client/player_client)
+/datum/job/advclass/mercenary/qadirid/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 	spawned.merctype = 1
 
@@ -64,10 +64,10 @@
 				species.native_language = "Qadirid"
 				species.accent_language = species.get_accent(species.native_language)
 
-/datum/outfit/mercenary/zalad
+/datum/outfit/mercenary/qadirid
 	name = "Red Sands (Mercenary)"
 	shoes = /obj/item/clothing/shoes/shalal
-	head = /obj/item/clothing/head/helmet/sallet/zalad
+	head = /obj/item/clothing/head/helmet/sallet/qadirid
 	gloves = /obj/item/clothing/gloves/angle
 	belt = /obj/item/storage/belt/leather/mercenary/shalal
 	armor = /obj/item/clothing/armor/brigandine/coatplates

@@ -720,10 +720,10 @@
 	recipe_name = "a cuirass"
 	created_item = /obj/item/clothing/armor/cuirass/rare/elven
 
-/datum/anvil_recipe/armor/steel/helmetsall_zalad
+/datum/anvil_recipe/armor/steel/helmetsall_qadirid
 	name = "Kulah Khud"
 	recipe_name = "a Qadirid Sallet"
-	created_item = /obj/item/clothing/head/helmet/sallet/zalad
+	created_item = /obj/item/clothing/head/helmet/sallet/qadirid
 
 /datum/anvil_recipe/armor/steel/bascinet
 	name = "Bascinet"
@@ -958,33 +958,33 @@
 	additional_items = list(/obj/item/ingot/steel)
 	created_item = /obj/item/clothing/head/rare/grenzelplate
 
-/datum/anvil_recipe/armor/steel/rare/zaladin_plate_helm
+/datum/anvil_recipe/armor/steel/rare/qadirid_plate_helm
 	name = "Qadirid Bastion Plate Helm (+Bar)"
 	additional_items = list(/obj/item/ingot/steel)
-	created_item = /obj/item/clothing/head/rare/zaladplate
+	created_item = /obj/item/clothing/head/rare/qadiridplate
 
 /datum/anvil_recipe/armor/steel/rare/hoplite_plate_helm
 	name = "Hoplite Plate Helm (+Bronze Bar, +Steel Bar)"
 	additional_items = list(/obj/item/ingot/bronze, /obj/item/ingot/steel)
 	created_item = /obj/item/clothing/head/rare/hoplite
 
-/datum/anvil_recipe/armor/steel/rare/zaladin_plate_gauntlets
+/datum/anvil_recipe/armor/steel/rare/qadirid_plate_gauntlets
 	name = "Qadirid Claw Plate Gauntlets"
-	created_item = /obj/item/clothing/gloves/rare/zaladplate
+	created_item = /obj/item/clothing/gloves/rare/qadiridplate
 
-/datum/anvil_recipe/armor/steel/rare/zaladin_plate
+/datum/anvil_recipe/armor/steel/rare/qadirid_plate
 	name = "Qadirid Kataphractoe Scaleskin (+Bar X3)"
 	additional_items = list(/obj/item/ingot/steel, /obj/item/ingot/steel, /obj/item/ingot/steel)
-	created_item = /obj/item/clothing/armor/rare/zaladplate
+	created_item = /obj/item/clothing/armor/rare/qadiridplate
 
 /datum/anvil_recipe/armor/steel/rare/hoplite_plate
 	name = "Hoplite Plate (+Bar x2 +Bronze Bar x2)"
 	additional_items = list(/obj/item/ingot/steel, /obj/item/ingot/steel, /obj/item/ingot/bronze, /obj/item/ingot/bronze)
 	created_item = /obj/item/clothing/armor/rare/hoplite
 
-/datum/anvil_recipe/armor/steel/rare/zaladin_plate_boots
+/datum/anvil_recipe/armor/steel/rare/qadirid_plate_boots
 	name = "Qadirid Boots"
-	created_item = /obj/item/clothing/shoes/boots/rare/zaladplate
+	created_item = /obj/item/clothing/shoes/boots/rare/qadiridplate
 
 /datum/anvil_recipe/armor/steel/rare/hoplite_plate_bracers
 	name = "Hoplite Bracers (+Bronze Bar)"
