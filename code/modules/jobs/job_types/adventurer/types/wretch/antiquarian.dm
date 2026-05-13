@@ -20,7 +20,7 @@
 
 /datum/job/advclass/wretch/antiquarian
 	title = "Antiquarian"
-	tutorial = "You're a professional. You've seen things. Many disturbing, and many strange - and it's all changed who you are. Your years of avoiding the watch of Heartfelt \
+	tutorial = "You're a professional. You've seen things. Many disturbing, and many strange - and it's all changed who you are. Your years of avoiding the watch of Dunnish wardens \
 	gave you the skills needed to escape when the steam rose from the cracks in the roads, when you saw the fire in the streets, when it took your friends and family away. \
 	You're not the same anymore, in mind and in flesh - beyond it all you saw your home be pilfered. It's time to take it all back."
 	allowed_sexes = list(MALE, FEMALE)
@@ -31,7 +31,7 @@
 
 // The idea is that they're a slippery bastard. Cantrip focused, stealth-focused. They rely on their spells.
 	languages = list(/datum/language/thievescant)
-	allowed_patrons = list(/datum/patron/godless/defiant) // This one has seen too much. Deceiversans are not compatible with Heartfelt.
+	allowed_patrons = list(/datum/patron/godless/defiant) // This one has seen too much. Deceivers are not compatible with this.
 
 	traits = list(
 		TRAIT_DEADNOSE,

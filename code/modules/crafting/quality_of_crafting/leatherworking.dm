@@ -623,7 +623,7 @@
 
 /datum/repeatable_crafting_recipe/leather/red_cloak
 	name = "red cloak"
-	output = /obj/item/clothing/cloak/heartfelt
+	output = /obj/item/clothing/cloak/dunmoon
 	requirements = list(/obj/item/natural/silk = 2,
 				/obj/item/natural/hide/cured = 2)
 	craftdiff = 5

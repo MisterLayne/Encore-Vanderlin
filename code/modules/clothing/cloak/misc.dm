@@ -66,7 +66,7 @@
 	boobed = FALSE
 	sellprice = 10
 
-/obj/item/clothing/cloak/heartfelt
+/obj/item/clothing/cloak/dunmoon
 	name = "red cloak"
 	desc = "A typical cloak, this one is in red colours."
 	icon_state = "heartfelt_cloak"

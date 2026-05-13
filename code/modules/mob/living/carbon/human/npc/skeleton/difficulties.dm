@@ -176,7 +176,7 @@
 /datum/outfit/job/skeleton/npc/medium/pre_equip(mob/living/carbon/human/H)
 	..()
 	name = "Skeleton Soldier"
-	cloak = /obj/item/clothing/cloak/heartfelt
+	cloak = /obj/item/clothing/cloak/dunmoon
 	head = /obj/item/clothing/head/helmet/heavy/ancient
 	armor = /obj/item/clothing/armor/cuirass/copperchest
 	shirt = /obj/item/clothing/armor/chainmail/iron
@@ -204,7 +204,7 @@
 	name = "Skeleton Dreadnought"
 	var/skeletonclass = rand(1, 2)
 	if(skeletonclass == 1)
-		cloak = /obj/item/clothing/cloak/heartfelt
+		cloak = /obj/item/clothing/cloak/dunmoon
 		mask = /obj/item/clothing/face/facemask/copper
 		armor = /obj/item/clothing/armor/cuirass/copperchest
 		shirt = /obj/item/clothing/armor/chainmail/iron

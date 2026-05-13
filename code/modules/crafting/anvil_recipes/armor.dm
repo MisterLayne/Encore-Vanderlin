@@ -637,11 +637,11 @@
 	created_item = /obj/item/clothing/armor/medium/surcoat
 	craftdiff = 3
 
-/datum/anvil_recipe/armor/steel/surcoat/heartfelt
-	name = "Armored Heartfelt Surcoat (+Bar)"
-	recipe_name = "an Armored Heartfeltian Surcoat"
+/datum/anvil_recipe/armor/steel/surcoat/dunmoon
+	name = "Armored Dunnish Surcoat (+Bar)"
+	recipe_name = "an Armored Dunnish Surcoat"
 	additional_items = list(/obj/item/ingot/steel)
-	created_item = /obj/item/clothing/armor/medium/surcoat/heartfelt
+	created_item = /obj/item/clothing/armor/medium/surcoat/dunmoon
 	craftdiff = 4
 
 // STEEL NECK ARMOR

@@ -208,7 +208,7 @@
 	desc = "A bottle with a Possumtail Brewery mark."
 	list_reagents = list(/datum/reagent/consumable/ethanol/murkwine = 48)
 	auto_label_name = "murk wine"
-	auto_label_desc = "A special brew made from murky water and swampweed. A Heartfelt special, and a rare find now."
+	auto_label_desc = "A special brew made from murky water and swampweed. A Dunnish special, and a rare find now."
 
 /obj/item/reagent_containers/glass/bottle/black/nocshine
 	desc = "A bottle with a blue, Crescent moon mark."

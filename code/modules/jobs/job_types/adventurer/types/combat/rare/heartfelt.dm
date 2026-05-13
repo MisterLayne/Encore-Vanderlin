@@ -1,4 +1,4 @@
-/datum/attribute_holder/sheet/job/heartfeltlord
+/datum/attribute_holder/sheet/job/dunmoontycoon
 	raw_attribute_list = list(
 		STAT_STRENGTH = 1,
 		STAT_INTELLIGENCE = 3,
@@ -20,20 +20,20 @@
 		/datum/attribute/skill/craft/cooking = 10,
 	)
 
-/datum/job/advclass/combat/heartfeltlord
-	title = "Banterfield Baron"
-	tutorial = "You are a baron of the Banterfields, \
-	your kingdom's authority is distant and out of reach. \
+/datum/job/advclass/combat/dunmoontycoon
+	title = "Dunnish Tycoon"
+	tutorial = "You are a tycoon from Dunmoon, \
+	your country's authority is distant and out of reach. \
 	You have the privilege of good standing with the Shirleighs, \
-	and the exact reason of your stay here are up to you."
+	and the exact reasons of your stay here are up to you."
 	allowed_sexes = list(MALE, FEMALE)
-	allowed_races = list(SPEC_ID_HUMEN)
-	outfit = /datum/outfit/adventurer/heartfeltlord
+	allowed_races = RACES_PLAYER_NONDISCRIMINATED
+	outfit = /datum/outfit/adventurer/dunmoontycoon
 	total_positions = 1
 	roll_chance = 50
 	cmode_music = 'sound/music/cmode/adventurer/CombatDream.ogg'
 
-	attribute_sheet = /datum/attribute_holder/sheet/job/heartfeltlord
+	attribute_sheet = /datum/attribute_holder/sheet/job/dunmoontycoon
 
 	traits = list(
 		TRAIT_NOBLE_BLOOD,
@@ -41,16 +41,16 @@
 		TRAIT_HEAVYARMOR,
 	)
 
-/datum/outfit/adventurer/heartfeltlord
-	name = "Banterfield Baron (Adventurer)"
+/datum/outfit/adventurer/dunmoontycoon
+	name = "Dunnish Tycoon (Adventurer)"
 
 	shirt = /obj/item/clothing/shirt/undershirt
 	belt = /obj/item/storage/belt/leather/black
 	head = /obj/item/clothing/head/helmet
 	shoes = /obj/item/clothing/shoes/nobleboot
 	pants = /obj/item/clothing/pants/tights/colored/black
-	cloak = /obj/item/clothing/cloak/heartfelt
-	armor = /obj/item/clothing/armor/medium/surcoat/heartfelt
+	cloak = /obj/item/clothing/cloak/dunmoon
+	armor = /obj/item/clothing/armor/medium/surcoat/dunmoon
 	beltr = /obj/item/storage/belt/pouch/coins/rich
 	beltl = /obj/item/weapon/sword/long
 	gloves = /obj/item/clothing/gloves/leather/black

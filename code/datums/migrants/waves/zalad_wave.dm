@@ -394,7 +394,7 @@
 /datum/migrant_wave/qadirid_wave
 	name = "The Sultanate Expedition"
 	max_spawns = 1
-	shared_wave_type = list(/datum/migrant_wave/grenzelhoft_visit,/datum/migrant_wave/qadirid_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/heartfelt)
+	shared_wave_type = list(/datum/migrant_wave/grenzelhoft_visit,/datum/migrant_wave/qadirid_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/dunmoon)
 	weight = 25
 	downgrade_wave = /datum/migrant_wave/qadirid_wave_down
 	roles = list(
@@ -409,7 +409,7 @@
 /datum/migrant_wave/qadirid_wave_down
 	name = "The Sultanate Expedition"
 	max_spawns = 1
-	shared_wave_type = list(/datum/migrant_wave/grenzelhoft_visit,/datum/migrant_wave/qadirid_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/heartfelt)
+	shared_wave_type = list(/datum/migrant_wave/grenzelhoft_visit,/datum/migrant_wave/qadirid_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/dunmoon)
 	can_roll = FALSE
 	roles = list(
 		/datum/migrant_role/qadirid/emir = 1,

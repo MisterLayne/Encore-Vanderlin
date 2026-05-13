@@ -27,7 +27,7 @@
 	item_weight = 100 GRAMS
 
 /obj/item/clothing/head/articap
-	desc = "A sporting cap with a small gear adornment. Popular fashion amongst Heartfelt engineers."
+	desc = "A sporting cap with a small gear adornment. Popular fashion amongst Dunnish engineers."
 	icon_state = "articap"
 	item_weight = 125 GRAMS
 
