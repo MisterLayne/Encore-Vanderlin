@@ -1,6 +1,6 @@
 /datum/migrant_role/zalad/emir
-	name = "Zalad Emir"
-	greet_text = "An Emir hailing from the Deshret, here on business for the Mercator's Guild."
+	name = "Qadirid Emir"
+	greet_text = "An Emir hailing from Milhun, here on business for the Burning Banner to the throne of Etgard."
 	migrant_job = /datum/job/migrant/zalad_migration/emir
 
 /datum/attribute_holder/sheet/job/migrant/emir
@@ -23,8 +23,7 @@
 	)
 
 /datum/job/migrant/zalad_migration/emir
-	title = "Zalad Emir"
-	tutorial = "An Emir hailing from the Deshret, here on business for the Mercator's Guild."
+	title = "Qadirid Emir"
 	outfit = /datum/outfit/zalad_migration/emir
 	allowed_sexes = list(MALE)
 	allowed_races = RACES_PLAYER_SULTANS
@@ -44,7 +43,7 @@
 		TRAIT_NOBLE_POWER,
 	)
 
-	languages = list(/datum/language/zalad)
+	languages = list(/datum/language/qadirid)
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander.ogg'
 
 /datum/job/migrant/zalad_migration/emir/after_spawn(mob/living/carbon/human/spawned, client/player_client)
@@ -52,14 +51,14 @@
 
 	if(spawned.dna?.species)
 		if(spawned.dna.species.id == SPEC_ID_HUMEN)
-			spawned.dna.species.native_language = "Zalad"
+			spawned.dna.species.native_language = "Qadirid"
 			spawned.dna.species.accent_language = spawned.dna.species.get_accent(spawned.dna.species.native_language)
-		if(spawned.dna.species.id == SPEC_ID_HALF_ELF && spawned.dna.species.native_language == "Imperial")
-			spawned.dna.species.native_language = "Zalad"
+		if(spawned.dna.species.id == SPEC_ID_HALF_ELF && spawned.dna.species.native_language == "Common")
+			spawned.dna.species.native_language = "Qadirid"
 			spawned.dna.species.accent_language = spawned.dna.species.get_accent(spawned.dna.species.native_language)
 
 /datum/outfit/zalad_migration/emir
-	name = "Zalad Emir (Migrant Wave)"
+	name = "Qadirid Emir (Migrant Wave)"
 	shoes = /obj/item/clothing/shoes/shalal
 	gloves = /obj/item/clothing/gloves/leather
 	head = /obj/item/clothing/head/crown/circlet
@@ -83,8 +82,8 @@
 		shirt = /obj/item/clothing/shirt/dress/silkdress/colored/black
 
 /datum/migrant_role/zalad/amirah
-	name = "Zalad Amirah"
-	greet_text = "An Amirah hailing from Deshret, here on business for the Mercator's Guild to the Isle of the Enigma."
+	name = "Qadirid Amirah"
+	greet_text = "An Amirah hailing from Milhun, here on business for the Burning Banner to the throne of Etgard."
 	migrant_job = /datum/job/migrant/zalad_migration/amirah
 
 /datum/attribute_holder/sheet/job/migrant/amirah
@@ -107,8 +106,7 @@
 	)
 
 /datum/job/migrant/zalad_migration/amirah
-	title = "Zalad Amirah"
-	tutorial = "An Amirah hailing from Deshret, here on business for the Mercator's Guild to the Isle of the Enigma."
+	title = "Qadirid Amirah"
 	outfit = /datum/outfit/zalad_migration/amirah
 	allowed_sexes = list(FEMALE)
 	allowed_races = RACES_PLAYER_SULTANS
@@ -129,21 +127,21 @@
 		TRAIT_NOBLE_POWER,
 	)
 
-	languages = list(/datum/language/zalad)
+	languages = list(/datum/language/qadirid)
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander.ogg'
 
 /datum/job/migrant/zalad_migration/amirah/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 	if(spawned.dna?.species)
 		if(spawned.dna.species.id == SPEC_ID_HUMEN)
-			spawned.dna.species.native_language = "Zalad"
+			spawned.dna.species.native_language = "Qadirid"
 			spawned.dna.species.accent_language = spawned.dna.species.get_accent(spawned.dna.species.native_language)
-		if(spawned.dna.species.id == SPEC_ID_HALF_ELF && spawned.dna.species.native_language == "Imperial")
-			spawned.dna.species.native_language = "Zalad"
+		if(spawned.dna.species.id == SPEC_ID_HALF_ELF && spawned.dna.species.native_language == "Common")
+			spawned.dna.species.native_language = "Qadirid"
 			spawned.dna.species.accent_language = spawned.dna.species.get_accent(spawned.dna.species.native_language)
 
 /datum/outfit/zalad_migration/amirah
-	name = "Zalad Amirah (Migrant Wave)"
+	name = "Qadirid Amirah (Migrant Wave)"
 	shoes = /obj/item/clothing/shoes/shalal
 	gloves = /obj/item/clothing/gloves/leather
 	head = /obj/item/clothing/head/crown/nyle
@@ -192,7 +190,6 @@
 
 /datum/job/migrant/zalad_migration/furusiyya
 	title = "Furusiyya"
-	tutorial = "You are a furusiyya, pledged to the Emir and the Amirah. Make sure they come out alive of that place."
 	outfit = /datum/outfit/zalad_migration/furusiyya
 	allowed_sexes = list(MALE)
 	allowed_races = RACES_PLAYER_SULTANS
@@ -209,7 +206,7 @@
 		TRAIT_STEELHEARTED,
 	)
 
-	languages = list(/datum/language/zalad)
+	languages = list(/datum/language/qadirid)
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander.ogg'
 
 /datum/job/migrant/zalad_migration/furusiyya/after_spawn(mob/living/carbon/human/spawned, client/player_client)
@@ -217,10 +214,10 @@
 
 	if(spawned.dna?.species)
 		if(spawned.dna.species.id == SPEC_ID_HUMEN)
-			spawned.dna.species.native_language = "Zalad"
+			spawned.dna.species.native_language = "Qadirid"
 			spawned.dna.species.accent_language = spawned.dna.species.get_accent(spawned.dna.species.native_language)
-		if(spawned.dna.species.id == SPEC_ID_HALF_ELF && spawned.dna.species.native_language == "Imperial")
-			spawned.dna.species.native_language = "Zalad"
+		if(spawned.dna.species.id == SPEC_ID_HALF_ELF && spawned.dna.species.native_language == "Common")
+			spawned.dna.species.native_language = "Qadirid"
 			spawned.dna.species.accent_language = spawned.dna.species.get_accent(spawned.dna.species.native_language)
 
 /datum/outfit/zalad_migration/furusiyya
@@ -250,8 +247,8 @@
 			backr = /obj/item/weapon/polearm/spear/billhook
 
 /datum/migrant_role/zalad_guard
-	name = "Zalad Soldier"
-	greet_text = "You are a slave soldier from Deshret, sent as an escort to the emirs on a foreign land, do not fail them."
+	name = "Qadirid Soldier"
+	greet_text = "You are a soldier from Milhun, sent as an escort to the emirs on a foreign land, do not fail them."
 	migrant_job = /datum/job/migrant/zalad_migration/zalad_guard
 
 /datum/attribute_holder/sheet/job/migrant/zalad_guard
@@ -277,8 +274,7 @@
 	)
 
 /datum/job/migrant/zalad_migration/zalad_guard
-	title = "Zalad Soldier"
-	tutorial = "You are a slave soldier from Deshret, sent as an escort to the emirs on a foreign land, do not fail them."
+	title = "Qadirid Soldier"
 	outfit = /datum/outfit/zalad_migration/zalad_guard
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_PLAYER_ALL
@@ -290,7 +286,7 @@
 		TRAIT_HEAVYARMOR,
 		TRAIT_MEDIUMARMOR,
 	)
-	languages = list(/datum/language/zalad)
+	languages = list(/datum/language/qadirid)
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander.ogg'
 
 /datum/job/migrant/zalad_migration/zalad_guard/after_spawn(mob/living/carbon/human/spawned, client/player_client)
@@ -298,14 +294,14 @@
 
 	if(spawned.dna?.species)
 		if(spawned.dna.species.id == SPEC_ID_HUMEN)
-			spawned.dna.species.native_language = "Zalad"
+			spawned.dna.species.native_language = "Qadirid"
 			spawned.dna.species.accent_language = spawned.dna.species.get_accent(spawned.dna.species.native_language)
-		if(spawned.dna.species.id == SPEC_ID_HALF_ELF && spawned.dna.species.native_language == "Imperial")
-			spawned.dna.species.native_language = "Zalad"
+		if(spawned.dna.species.id == SPEC_ID_HALF_ELF && spawned.dna.species.native_language == "Common")
+			spawned.dna.species.native_language = "Qadirid"
 			spawned.dna.species.accent_language = spawned.dna.species.get_accent(spawned.dna.species.native_language)
 
 /datum/outfit/zalad_migration/zalad_guard
-	name = "Zalad Soldier (Migrant Wave)"
+	name = "Qadirid Soldier (Migrant Wave)"
 	shoes = /obj/item/clothing/shoes/shalal
 	head = /obj/item/clothing/head/helmet/sallet/zalad
 	gloves = /obj/item/clothing/gloves/angle
@@ -347,7 +343,6 @@
 
 /datum/job/migrant/zalad_migration/qatil
 	title = "Qatil"
-	tutorial = "You are the Amirah's confident and most loyal protector, you shan't let them die in these wretched lands."
 	outfit = /datum/outfit/zalad_migration/qatil
 	exp_types_granted  = list(EXP_TYPE_COMBAT)
 	allowed_races = list(
@@ -366,7 +361,7 @@
 		TRAIT_DODGEEXPERT,
 		TRAIT_STEELHEARTED,
 	)
-	languages = list(/datum/language/zalad)
+	languages = list(/datum/language/qadirid)
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander3.ogg'
 
 /datum/job/migrant/zalad_migration/qatil/after_spawn(mob/living/carbon/human/spawned, client/player_client)
@@ -374,10 +369,10 @@
 
 	if(spawned.dna?.species)
 		if(spawned.dna.species.id == SPEC_ID_HUMEN)
-			spawned.dna.species.native_language = "Zalad"
+			spawned.dna.species.native_language = "Qadirid"
 			spawned.dna.species.accent_language = spawned.dna.species.get_accent(spawned.dna.species.native_language)
-		if(spawned.dna.species.id == SPEC_ID_HALF_ELF && spawned.dna.species.native_language == "Imperial")
-			spawned.dna.species.native_language = "Zalad"
+		if(spawned.dna.species.id == SPEC_ID_HALF_ELF && spawned.dna.species.native_language == "Common")
+			spawned.dna.species.native_language = "Qadirid"
 			spawned.dna.species.accent_language = spawned.dna.species.get_accent(spawned.dna.species.native_language)
 
 /datum/outfit/zalad_migration/qatil
@@ -397,7 +392,7 @@
 	)
 
 /datum/migrant_wave/zalad_wave
-	name = "The Deshret Expedition"
+	name = "The Sultanate Expedition"
 	max_spawns = 1
 	shared_wave_type = list(/datum/migrant_wave/grenzelhoft_visit,/datum/migrant_wave/zalad_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/heartfelt)
 	weight = 25
@@ -409,10 +404,10 @@
 		/datum/migrant_role/qatil = 1,
 		/datum/migrant_role/zalad_guard = 2
 	)
-	greet_text = "The Mercator Guild sent you, respected Zaladins, to seek favorable business proposal within the Kingdom of Vanderlin."
+	greet_text = "The Burning Banner sent you, respected Sunmen, to seek favorable business proposals upon Domotan Island."
 
 /datum/migrant_wave/zalad_wave_down
-	name = "The Deshret Expedition"
+	name = "The Sultanate Expedition"
 	max_spawns = 1
 	shared_wave_type = list(/datum/migrant_wave/grenzelhoft_visit,/datum/migrant_wave/zalad_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/heartfelt)
 	can_roll = FALSE
@@ -422,4 +417,4 @@
 		/datum/migrant_role/zalad/furusiyya = 1,
 		/datum/migrant_role/qatil = 1
 	)
-	greet_text = "The Mercator Guild sent you, respected Zaladins, to seek favorable business proposal within the Kingdom of Vanderlin. Unfortunately most of your guards died on the way here."
+	greet_text = "The Burning Banner sent you, respected Sunmen, to seek favorable business proposals upon Domotan Island. Unfortunately most of your guards died on the way here."

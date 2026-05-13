@@ -49,3 +49,25 @@
 	Internally, their peoples flourish thanks to their study of the stars and Thaumatech. Those who flee can scarcely expect good standing elsewhere, anyway. \
 	CAUTION! QADIRID NATIVES CAN NOT PRACTICE MAGIC OUTSIDE OF DIVINE MIRACLES. You will have to utilize Thaumatech if you plan to use magic!"
 	pre_append = "the "
+
+//misc
+//underground people
+/datum/culture/universal/subterra
+	name = "Undermen"
+	description = "Cave-dwellers, pioneering dwarves and generally those which seek not the sun's embrace. \
+	These refer to practically any and all things which thrive deep within the firmament, eking out a livelihood in Gaia's veins."
+	pre_append = "the "
+
+//islander people
+/datum/culture/universal/islander
+	name = "Sea of Fire"
+	description = "A denizen of the many diverse islands which exist beyond the borders of the great nations in the Sea of Fire. \
+	These sanctuaries offer tiny slices of habitats not entirely seen elsewhere in the Goblet, and natives typically reflect those environments visibly."
+	pre_append = "the "
+
+//tribal people
+/datum/culture/universal/tribal
+	name = "Tribal origin"
+	description = "A tribesperson from some undeveloped or isolated place in the Goblet. \
+	Their life could take on any myriad of story, but invariably they lived in some largely primitive state throughout it. \
+	Troubles of the world at large have likely not weighed much on your mind."

@@ -722,7 +722,7 @@
 
 /datum/anvil_recipe/armor/steel/helmetsall_zalad
 	name = "Kulah Khud"
-	recipe_name = "a Zalad Sallet"
+	recipe_name = "a Qadirid Sallet"
 	created_item = /obj/item/clothing/head/helmet/sallet/zalad
 
 /datum/anvil_recipe/armor/steel/bascinet
@@ -959,7 +959,7 @@
 	created_item = /obj/item/clothing/head/rare/grenzelplate
 
 /datum/anvil_recipe/armor/steel/rare/zaladin_plate_helm
-	name = "Zaladin Bastion Plate Helm (+Bar)"
+	name = "Qadirid Bastion Plate Helm (+Bar)"
 	additional_items = list(/obj/item/ingot/steel)
 	created_item = /obj/item/clothing/head/rare/zaladplate
 
@@ -969,11 +969,11 @@
 	created_item = /obj/item/clothing/head/rare/hoplite
 
 /datum/anvil_recipe/armor/steel/rare/zaladin_plate_gauntlets
-	name = "Zaladin Claw Plate Gauntlets"
+	name = "Qadirid Claw Plate Gauntlets"
 	created_item = /obj/item/clothing/gloves/rare/zaladplate
 
 /datum/anvil_recipe/armor/steel/rare/zaladin_plate
-	name = "Zaladin Kataphractoe Scaleskin (+Bar X3)"
+	name = "Qadirid Kataphractoe Scaleskin (+Bar X3)"
 	additional_items = list(/obj/item/ingot/steel, /obj/item/ingot/steel, /obj/item/ingot/steel)
 	created_item = /obj/item/clothing/armor/rare/zaladplate
 
@@ -983,7 +983,7 @@
 	created_item = /obj/item/clothing/armor/rare/hoplite
 
 /datum/anvil_recipe/armor/steel/rare/zaladin_plate_boots
-	name = "Zaladin Boots"
+	name = "Qadirid Boots"
 	created_item = /obj/item/clothing/shoes/boots/rare/zaladplate
 
 /datum/anvil_recipe/armor/steel/rare/hoplite_plate_bracers

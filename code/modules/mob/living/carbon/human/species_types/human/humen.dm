@@ -21,8 +21,8 @@
 	id = SPEC_ID_HUMEN
 	multiple_accents = list(
 		"No Accent" = ACCENT_NONE,
-		"Grenzelhoft Accent" = ACCENT_GRENZ,
-		"Ossland Accent" = ACCENT_OSSLAND,
+		"Sterkenstadt Accent" = ACCENT_STERKENSTADT,
+		"Nortic Accent" = ACCENT_NORTIC,
 	)
 	desc = PLACEHOLDER_SPECIES_REBRANDING
 

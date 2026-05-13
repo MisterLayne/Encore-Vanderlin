@@ -6,8 +6,8 @@
 	id = SPEC_ID_ELF
 	multiple_accents = list(
 		"Elf Accent" = ACCENT_ELF,
-		"Wintermare Accent" = ACCENT_WINTERMARE,
-		"Ossland Accent" = ACCENT_OSSLAND,
+		"Noman Accent" = ACCENT_NOMAN,
+		"Nortic Accent" = ACCENT_NORTIC,
 	)
 	changesource_flags = WABBAJACK
 	native_language = "Elfish"

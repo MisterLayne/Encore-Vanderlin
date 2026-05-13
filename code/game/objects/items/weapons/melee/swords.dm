@@ -322,8 +322,8 @@
 
 //................ Shalal Sabre ............... //
 /obj/item/weapon/sword/sabre/shalal
-	name = "Zaladin riding sabre"
-	desc = "A fine weapon of Zaladin origin, used by those with mastery of mounted swordsmanship."
+	name = "Qadirid riding sabre"
+	desc = "A fine weapon of Qadirid origin, used by those with mastery of mounted swordsmanship."
 	icon = 'icons/roguetown/weapons/64/swords.dmi'
 	icon_state = "marlin"
 	lefthand_file = 'icons/mob/inhands/weapons/roguebig_lefthand.dmi'
@@ -373,7 +373,7 @@
 \----------*/
 /obj/item/weapon/sword/scimitar
 	name = "scimitar"
-	desc = "A Zaladin design for swords, these curved blades are a common sight in the lands of the Ziggurat."
+	desc = "A Qadirid design for swords, these curved blades are a common sight in the lands of the Ziggurat."
 	icon_state = "scimitar"
 	wdefense = GOOD_PARRY
 	possible_item_intents = list(SWORD_CUT, SWORD_CHOP)
@@ -947,7 +947,7 @@
 /obj/item/weapon/sword/long/rider
 	icon_state = "tabi"
 	name = "kilij scimitar"
-	desc = "A curved blade of Zaladin origin meaning 'curved one'. The standard sword that saw the conquest of the Zalad continent and peoples."
+	desc = "A curved blade of Qadirid origin meaning 'curved one'. The standard sword that saw the conquest of the Qadirid continent and peoples."
 	possible_item_intents = list(SWORD_CUT, SWORD_STRIKE)
 	gripped_intents = list(SWORD_CUT, SWORD_STRIKE, SWDLONG_CHOP)
 	sellprice = 80

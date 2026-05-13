@@ -67,7 +67,7 @@
 // WINES - Expensive, Nobleblooded
 /obj/item/reagent_containers/glass/bottle/wine
 	name = "bottle of wine"
-	desc = "A bottle that contains a generic red-wine, likely from Zaladin. It has a red-clay cork-seal."
+	desc = "A bottle that contains a generic red-wine, likely from Qadirid. It has a red-clay cork-seal."
 	list_reagents = list(/datum/reagent/consumable/ethanol/wine = 75)
 	fancy = TRUE
 	auto_label = TRUE

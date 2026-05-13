@@ -89,7 +89,7 @@
 
 	info += "<br/></font>"
 
-	info += "<font size=\"2\" face=\"[FOUNTAIN_PEN_FONT]\" color=#27293f>[writers_name] Shipwright of [pick("Heartfelt", "Zalad", "Grenzelhoft", "Kingsfield")]</font>"
+	info += "<font size=\"2\" face=\"[FOUNTAIN_PEN_FONT]\" color=#27293f>[writers_name] Shipwright of [pick("Heartfelt", "Qadirid", "Grenzelhoft", "Kingsfield")]</font>"
 
 	info += "</div>"
 

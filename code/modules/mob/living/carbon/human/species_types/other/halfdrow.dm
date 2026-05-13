@@ -18,7 +18,7 @@
 	name = "Half-Drow"
 	id = SPEC_ID_HALF_DROW
 	multiple_accents = list(
-		"Humen Accent" = "Imperial",
+		"Humen Accent" = "Common",
 		"Dark Elf Accent" = "Elfish"
 	)
 	desc = PLACEHOLDER_SPECIES_REBRANDING

@@ -15,7 +15,7 @@
 		/datum/language/elvish,
 		/datum/language/oldunsundered,
 		/datum/language/newunsundered,
-		/datum/language/zalad,
+		/datum/language/qadirid,
 		/datum/language/celestial,
 		/datum/language/hellspeak,
 		/datum/language/beast,

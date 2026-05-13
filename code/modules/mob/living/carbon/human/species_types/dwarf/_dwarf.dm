@@ -6,8 +6,8 @@
 	id = SPEC_ID_DWARF
 	multiple_accents = list(
 		"Dwarf Accent" = ACCENT_DWARF,
-		"Ossland Accent" = ACCENT_OSSLAND,
-		"Grenzelhoft Accent" = ACCENT_GRENZ,
+		"Nortic Accent" = ACCENT_NORTIC,
+		"Sterkenstadt Accent" = ACCENT_STERKENSTADT,
 	)
 	changesource_flags = WABBAJACK
 	native_language = "Dwarfish"

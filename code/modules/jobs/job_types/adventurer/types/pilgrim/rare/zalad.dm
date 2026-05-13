@@ -18,8 +18,8 @@
 	)
 
 /datum/job/advclass/pilgrim/rare/zaladin
-	title = "Zaladin Emir"
-	tutorial = "An Emir hailing from Deshret, here on business for the Mercator's Guild."
+	title = "Qadirid Emir"
+	tutorial = "An Emir hailing from Djannam, here on business for the Mercator's Guild."
 	allowed_races = RACES_PLAYER_SULTANS
 	outfit = /datum/outfit/pilgrim/zalad
 	category_tags = list(CTAG_PILGRIM)
@@ -38,21 +38,21 @@
 		TRAIT_FOREIGNER
 	)
 
-	languages = list(/datum/language/zalad)
+	languages = list(/datum/language/qadirid)
 
 /datum/job/advclass/pilgrim/rare/zaladin/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 	if(spawned.dna?.species)
 		if(spawned.dna.species.id == SPEC_ID_HUMEN)
-			spawned.dna.species.native_language = "Zalad"
+			spawned.dna.species.native_language = "Qadirid"
 			spawned.dna.species.accent_language = spawned.dna.species.get_accent(spawned.dna.species.native_language)
 		if(spawned.dna.species.id == SPEC_ID_HALF_ELF)
-			if(spawned.dna.species.native_language == "Imperial")
-				spawned.dna.species.native_language = "Zalad"
+			if(spawned.dna.species.native_language == "Common")
+				spawned.dna.species.native_language = "Qadirid"
 				spawned.dna.species.accent_language = spawned.dna.species.get_accent(spawned.dna.species.native_language)
 
 /datum/outfit/pilgrim/zalad
-	name = "Zaladin Emir (Pilgrim)"
+	name = "Qadirid Emir (Pilgrim)"
 	shoes = /obj/item/clothing/shoes/shalal
 	gloves = /obj/item/clothing/gloves/leather
 	head = /obj/item/clothing/head/crown/circlet

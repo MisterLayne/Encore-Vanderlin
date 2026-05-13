@@ -1,5 +1,5 @@
-/datum/language/zalad
-	name = "Zalad"
+/datum/language/qadirid
+	name = "Qadirid"
 	desc = ""
 	icon_state = "zalad"
 	spans = list(SPAN_ZALAD)

@@ -323,7 +323,7 @@
 			if(prob(30))
 				armor = /obj/item/clothing/armor/plate/full
 			l_hand = /obj/item/weapon/shield/tower/metal
-			r_hand = /obj/item/weapon/sword/long/rider // Rest in peace for the Zaladian who died.
+			r_hand = /obj/item/weapon/sword/long/rider // Rest in peace for the Qadiridian who died.
 
 		if(5)
 			armor = /obj/item/clothing/armor/plate/full/iron

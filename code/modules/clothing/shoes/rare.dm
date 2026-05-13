@@ -70,10 +70,10 @@
 	item_weight = 2.1 KILOGRAMS
 
 /obj/item/clothing/shoes/boots/rare/zaladplate
-	name = "Zaladin segmented plate boots"
+	name = "Qadirid segmented plate boots"
 	allowed_race = list(SPEC_ID_HUMEN)
 	allowed_sex = list(MALE)
-	desc = "The segmented plate boots are a recent alteration to the Zaladin Elite, \
+	desc = "The segmented plate boots are a recent alteration to the Qadirid Elite, \
 			many old warriors decorate their own by tieing ribbons and other knick-knacks \
 			as a homage to the colorful socks they wore in simpler times."
 	body_parts_covered = FEET|LEGS

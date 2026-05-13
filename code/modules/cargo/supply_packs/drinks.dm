@@ -57,7 +57,7 @@
 	contains = /obj/item/reagent_containers/glass/bottle/beer/voddena
 
 /datum/supply_pack/food/drinks/winezaladin
-	name = "Zaladin Wine"
+	name = "Qadirid Wine"
 	cost = 20
 	contains = /obj/item/reagent_containers/glass/bottle/wine
 

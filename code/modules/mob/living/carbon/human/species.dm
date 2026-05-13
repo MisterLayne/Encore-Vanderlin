@@ -279,7 +279,7 @@ GLOBAL_LIST_EMPTY(roundstart_species)
 	var/kick_damage = 0
 
 	/// Native language for accents
-	var/native_language = "Imperial"
+	var/native_language = "Common"
 	/// Accent based of the language
 	var/accent_language
 	/// For races that can have more than one Accent such as the Half-Drow and Half-Elf
@@ -293,9 +293,9 @@ GLOBAL_LIST_EMPTY(roundstart_species)
 	switch(language)
 		if("Old Unsundered", "Unsundered")
 			return strings("accents/grenz_replacement.json", "grenz")
-		if("Zalad")
+		if("Qadirid")
 			return strings("accents/zalad_replacement.json", "arabic")
-		if("Imperial")
+		if("Common")
 			return
 		if("Elfish")
 			if(variant == 1)
@@ -380,15 +380,15 @@ GLOBAL_LIST_EMPTY(roundstart_species)
 				ACCENT_TIEFLING,
 				ACCENT_HORC,
 				ACCENT_TRITON,
-				ACCENT_GRENZ,
+				ACCENT_STERKENSTADT,
 				ACCENT_PIRATE,
 				ACCENT_MIDDLE_SPEAK,
-				ACCENT_ZALAD,
+				ACCENT_SULTANATE,
 				ACCENT_HALFLING,
 				ACCENT_KOBOLD,
 				ACCENT_ROUSMAN,
-				ACCENT_WINTERMARE,
-				ACCENT_OSSLAND,
+				ACCENT_NOMAN,
+				ACCENT_NORTIC,
 			)
 
 			///This will only trigger for donators
@@ -405,13 +405,13 @@ GLOBAL_LIST_EMPTY(roundstart_species)
 					special_accent = TRUE
 
 			var/list/language_map = list(
-				/datum/language/common = "Imperial",
+				/datum/language/common = "Common",
 				/datum/language/elvish = "Elfish",
 				/datum/language/dwarvish = "Dwarfish",
 				/datum/language/hellspeak = "Infernal",
 				/datum/language/orcish = "Orcish",
 				/datum/language/celestial = "Celestial",
-				/datum/language/zalad = "Zalad",
+				/datum/language/qadirid = "Qadirid",
 				/datum/language/deepspeak = "Deepspeak",
 				/datum/language/oldunsundered = "Old Unsundered",
 				/datum/language/newunsundered = "Unsundered",

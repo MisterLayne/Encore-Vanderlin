@@ -34,7 +34,7 @@
 	languages = list(
 		/datum/language/elvish,
 		/datum/language/dwarvish,
-		/datum/language/zalad,
+		/datum/language/qadirid,
 		/datum/language/celestial,
 		/datum/language/hellspeak,
 		/datum/language/newunsundered,

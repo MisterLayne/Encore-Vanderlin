@@ -302,7 +302,7 @@
 
 /obj/structure/table/map/deshret
 	icon_state = "map_deshret"
-	desc = "A table displaying a map of Deshret and surrounding deserts."
+	desc = "A table displaying a map of Djannam and surrounding deserts."
 
 /obj/structure/table/map/amber
 	icon_state = "map_amber"

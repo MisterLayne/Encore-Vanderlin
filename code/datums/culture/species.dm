@@ -109,7 +109,7 @@
 //geramor
 //commoners
 /datum/culture/species/geramor
-	name = "Undermen"
+	name = "Geramorean Undermen"
 	description = "Commonfolk who originate from the security of Gernhollow, distinct in their keen control of magic and stone. \
 	The majority of these people are dwarven, though other humanoids find a difficult life in the harsh sanctum carved out of the regolith here."
 	species = RACES_PLAYER_GERAMOR//dwarf, human, elf, aasimar
@@ -138,3 +138,39 @@
 	They are obviously difficult to be trusted, suffering exile at best for their malformed state. \
 	That is, assuming they aren't still loyal to the Worm all along..."
 	species = RACES_PLAYER_DWARVES_ONLY//Only dwarves
+
+//ocean people
+/datum/culture/species/aquatic
+	name = "Shallowfolk"
+	description = "Inhabitants of coastal, shallow waters which commonly exist in distant and wild places. \
+	Often Tritonians or adjacent beastfolk are the only ones who make true civilization in these areas."
+	pre_append = "the "
+
+/datum/culture/species/aquatic/deep
+	name = "Deep Ones"
+	description = "Twisted, pale and solitary aquatic peoples live deep beyond the edge of easily-traversed waters. \
+	Beyond the continental shelves of the Goblet, the fearsome depths are found to be a Godless place. \
+	Few things survive here and nothing is known to survive beyond a certain point. \
+	One could surmise that only truly alien monsters dwell in these parts."
+	species = RACES_PLAYER_AQUATIC//generic options
+	pre_append = "the "
+
+/datum/culture/species/hellspawn
+	name = "Fiend"
+	description = "Thauma-less, unnaturally formed life- usually the result of some meddling by daemons. \
+	These range from anything between monstrous greenskins to Tieflings, which can sometimes be indistinguishable from Humans. \
+	Fiends have no recollection or greater understanding of the workings of Hell beyond their own lacking of Thauma. \
+	Invariably, they are discriminated in all parts of the world, only seeing anything close to impartial on Domotan Island."
+	species = RACES_PLAYER_HERETICAL_RACE
+
+/datum/culture/species/aasimar
+	name = "Divine origin"
+	description = "Genies, mortal divines and generally anything which has ethereal form are considered spirits. \
+	They are the most ancient and inscrutable forms of life which inhabit Gaia. \
+	The gravitas of their elder origins gives them a rather displaced spot in the modern world. \
+	In the times after the Big Burn, the memories of old have been lost with no clear way of continuing their eternal lineages."
+	abstract_type = /datum/culture/species/aasimar
+	species = list(
+		SPEC_ID_AASIMAR
+	)
+

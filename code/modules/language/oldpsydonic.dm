@@ -1,6 +1,6 @@
 /datum/language/oldunsundered
 	name = "Old Unsundered"
-	desc = ""
+	desc = "The lost tongue of Angros' devout, forgotten now that he went ahead and caused trouble for everyone else."
 	icon_state = "psydon"
 	spans = list(SPAN_ANGROS_OLD)
 	speech_verb = "states"

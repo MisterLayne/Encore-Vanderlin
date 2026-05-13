@@ -89,6 +89,7 @@
 #define RACES_PLAYER_ALL list(\
 	SPEC_ID_HUMEN,\
 	SPEC_ID_DWARF,\
+	SPEC_ID_DWARF_SUBTERRAN,\
 	SPEC_ID_AASIMAR,\
 	SPEC_ID_ELF,\
 	SPEC_ID_HALF_ELF,\
@@ -104,7 +105,7 @@
 	SPEC_ID_HALF_ORC,\
 )
 
-/// Species not considered discriminated against as nobility in the Goblet. Used for nobility, etc.
+/// Species not considered discriminated against as nobility in MOST of the Goblet. Used for nobility, etc.
 #define RACES_PLAYER_NONDISCRIMINATED list(\
 	SPEC_ID_HUMEN,\
 	SPEC_ID_DWARF,\
@@ -215,6 +216,12 @@
 	SPEC_ID_TRITON,\
 	SPEC_ID_HOLLOWKIN,\
 	SPEC_ID_HALF_ORC,\
+)
+
+//races that can be aquatic
+#define RACES_PLAYER_AQUATIC list(\
+	SPEC_ID_TRITON,\
+	SPEC_ID_HOLLOWKIN,\
 )
 
 /// Etgard royalty

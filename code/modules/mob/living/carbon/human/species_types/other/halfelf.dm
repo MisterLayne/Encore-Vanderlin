@@ -18,10 +18,10 @@
 	name = "Half-Elf"
 	id = SPEC_ID_HALF_ELF
 	multiple_accents = list(
-		"Humen Accent" = "Imperial",
+		"Humen Accent" = "Common",
 		"Elf Accent" = "Elfish",
-		"Wintermare Accent" = ACCENT_WINTERMARE,
-		"Ossland Accent" = ACCENT_OSSLAND,
+		"Noman Accent" = ACCENT_NOMAN,
+		"Nortic Accent" = ACCENT_NORTIC,
 	)
 	desc = PLACEHOLDER_SPECIES_REBRANDING
 

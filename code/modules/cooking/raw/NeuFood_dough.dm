@@ -1854,7 +1854,7 @@
 	nutrition = CAKEBASE_NUTRITION + FRUIT_NUTRITION
 	item_weight = 400 GRAMS
 
-// -------------- SPIDER-HONEY CAKE (Zaladin) -----------------
+// -------------- SPIDER-HONEY CAKE (Qadirid) -----------------
 /obj/item/reagent_containers/food/snacks/zybcake_ready
 	name = "unbaked zaladin cake"
 	icon_state = "honeycakeuncook"
@@ -1871,7 +1871,7 @@
 
 /obj/item/reagent_containers/food/snacks/zybcake_cooked
 	name = "zalad cake"
-	desc = "Cake glazed with honey, in the famous Zaladin fashion, a delicious sweet treat. Said to be very hard to poison, perhaps the honey counteracting such malicious concotions."
+	desc = "Cake glazed with honey, in the famous Qadirid fashion, a delicious sweet treat. Said to be very hard to poison, perhaps the honey counteracting such malicious concotions."
 	icon_state = "honeycake"
 	dropshrink = 0.8
 	slices_num = 6

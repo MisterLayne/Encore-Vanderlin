@@ -13,7 +13,7 @@
 	name = "Rakshari"
 	id = SPEC_ID_RAKSHARI
 	changesource_flags = WABBAJACK
-	native_language = "Zalad"
+	native_language = "Qadirid"
 
 	desc = PLACEHOLDER_SPECIES_REBRANDING
 
@@ -98,10 +98,10 @@
 	..()
 	RegisterSignal(C, COMSIG_MOB_SAY, PROC_REF(handle_speech))
 	C.grant_language(/datum/language/common)
-	C.grant_language(/datum/language/zalad)
+	C.grant_language(/datum/language/qadirid)
 	add_verb(C, /mob/living/carbon/human/species/rakshari/verb/emote_meow)
 	add_verb(C, /mob/living/carbon/human/species/rakshari/verb/emote_purr)
-	to_chat(C, "<span class='info'>I can speak Zalad with ,z before my speech.</span>")
+	to_chat(C, "<span class='info'>I can speak Qadirid with ,z before my speech.</span>")
 
 /datum/species/rakshari/check_roundstart_eligible()
 	return TRUE
@@ -109,7 +109,7 @@
 /datum/species/rakshari/after_creation(mob/living/carbon/C)
 	..()
 	C.grant_language(/datum/language/common)
-	C.grant_language(/datum/language/zalad)
+	C.grant_language(/datum/language/qadirid)
 
 /datum/species/rakshari/spec_life(mob/living/carbon/human/H)
 	. = ..()

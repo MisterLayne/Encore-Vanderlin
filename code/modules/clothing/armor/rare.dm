@@ -61,7 +61,7 @@
 	stand_speed_reduction = 1.2
 
 /obj/item/clothing/armor/rare/zaladplate
-	name = "Zaladin scaleskin"
+	name = "Qadirid scaleskin"
 	desc = "Steel scales woven into armor with miniscule threads of adamantine, \
 			ensuring the wearer optimal defence with forgiving breathability."
 	icon_state = "human_spearchest"

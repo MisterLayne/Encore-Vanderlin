@@ -1,7 +1,7 @@
 // Language
 /datum/language/gronnic
-	name = "Osslandic"
-	desc = "The harsh tongue of the Northern Highlands."
+	name = "Nortic"
+	desc = "The harsh tongue of the Nortic tribes."
 	speech_verb = "remarks"
 	ask_verb = "inquires"
 	exclaim_verb = "asserts"
