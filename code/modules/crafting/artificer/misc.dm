@@ -477,6 +477,11 @@
 	hammers_per_item = 5
 	craftdiff = 2
 
+/datum/artificer_recipe/psycross/heretical
+	name = "Heretical Amulet"
+	required_item = /obj/item/ingot/silver
+	created_item = /obj/item/clothing/neck/psycross/heretical
+
 /datum/artificer_recipe/psycross/silver
 	name = "silver Psycross"
 	required_item = /obj/item/ingot/silver
