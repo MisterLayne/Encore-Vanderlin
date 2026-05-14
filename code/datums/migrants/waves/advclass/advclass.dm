@@ -10,7 +10,7 @@
 		/datum/migrant_role/advclass/pilgrim = 4,
 	)
 	weight = 20
-	greet_text = "Fleeing from misfortune and hardship, you and a handful of survivors get closer to Vanderlin, looking for refuge and work, finally almost being there, almost..."
+	greet_text = "Fleeing from misfortune and hardship, you and a handful of survivors get closer to Old Doma, looking for refuge and work, finally almost being there, almost..."
 
 /datum/migrant_wave/pilgrim_down_one
 	name = "Pilgrimage"
@@ -19,7 +19,7 @@
 	roles = list(
 		/datum/migrant_role/advclass/pilgrim = 3,
 	)
-	greet_text = "Fleeing from misfortune and hardship, you and a handful of survivors get closer to Vanderlin, looking for refuge and work, finally almost being there, almost..."
+	greet_text = "Fleeing from misfortune and hardship, you and a handful of survivors get closer to Old Doma, looking for refuge and work, finally almost being there, almost..."
 
 /datum/migrant_wave/pilgrim_down_two
 	name = "Pilgrimage"
@@ -28,7 +28,7 @@
 	roles = list(
 		/datum/migrant_role/advclass/pilgrim = 2,
 	)
-	greet_text = "Fleeing from misfortune and hardship, you and a handful of survivors get closer to Vanderlin, looking for refuge and work, finally almost being there, almost..."
+	greet_text = "Fleeing from misfortune and hardship, you and a handful of survivors get closer to Old Doma, looking for refuge and work, finally almost being there, almost..."
 
 /datum/migrant_wave/pilgrim_down_three
 	name = "Pilgrimage"
@@ -36,7 +36,7 @@
 	roles = list(
 		/datum/migrant_role/advclass/pilgrim = 1,
 	)
-	greet_text = "Fleeing from misfortune and hardship, you and a handful of survivors get closer to Vanderlin, looking for refuge and work, finally almost being there, almost..."
+	greet_text = "Fleeing from misfortune and hardship, you and a handful of survivors get closer to Old Doma, looking for refuge and work, finally almost being there, almost..."
 
 /datum/migrant_role/advclass/adventurer
 	name = JOB_ADVENTURER
@@ -50,7 +50,7 @@
 	roles = list(
 		/datum/migrant_role/advclass/adventurer = 4,
 	)
-	greet_text = "Together with a party of trusted friends we decided to venture out, seeking thrills, glory and treasure, ending up in the misty and damp bog underneath Vanderlin, perhaps getting ourselves into more than what we bargained for."
+	greet_text = "Together with a party of trusted friends we decided to venture out, seeking thrills, glory and treasure, ending up in the misty and damp bog underneath Old Doma, perhaps getting ourselves into more than what we bargained for."
 
 /datum/migrant_wave/adventurer_down_one
 	name = "Adventure Party"
@@ -59,7 +59,7 @@
 	roles = list(
 		/datum/migrant_role/advclass/adventurer = 3,
 	)
-	greet_text = "Together with a party of trusted friends we decided to venture out, seeking thrills, glory and treasure, ending up in the misty and damp bog underneath Vanderlin, perhaps getting ourselves into more than what we bargained for."
+	greet_text = "Together with a party of trusted friends we decided to venture out, seeking thrills, glory and treasure, ending up in the misty and damp bog underneath Old Doma, perhaps getting ourselves into more than what we bargained for."
 
 /datum/migrant_wave/adventurer_down_two
 	name = "Adventure Party"
@@ -68,7 +68,7 @@
 	roles = list(
 		/datum/migrant_role/advclass/adventurer = 2,
 	)
-	greet_text = "Together with a party of trusted friends we decided to venture out, seeking thrills, glory and treasure, ending up in the misty and damp bog underneath Vanderlin, perhaps getting ourselves into more than what we bargained for."
+	greet_text = "Together with a party of trusted friends we decided to venture out, seeking thrills, glory and treasure, ending up in the misty and damp bog underneath Old Doma, perhaps getting ourselves into more than what we bargained for."
 
 /datum/migrant_wave/adventurer_down_three
 	name = "Adventure Party"
@@ -76,7 +76,7 @@
 	roles = list(
 		/datum/migrant_role/advclass/adventurer = 1,
 	)
-	greet_text = "Together with a party of trusted friends we decided to venture out, seeking thrills, glory and treasure, ending up in the misty and damp bog underneath Vanderlin, perhaps getting ourselves into more than what we bargained for."
+	greet_text = "Together with a party of trusted friends we decided to venture out, seeking thrills, glory and treasure, ending up in the misty and damp bog underneath Old Doma, perhaps getting ourselves into more than what we bargained for."
 
 /datum/migrant_role/advclass/bandit
 	name = ROLE_BANDIT

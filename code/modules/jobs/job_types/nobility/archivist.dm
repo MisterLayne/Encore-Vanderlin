@@ -1,7 +1,7 @@
 /datum/job/archivist
 	title = JOB_ARCHIVIST
 	tutorial = "A well-traveled and well-learned seeker of wisdom, the Archivist bears the mark of Akan's influence.\
-	Tasked with recording the court's events and educating the ungrateful whelps the monarch calls heirs.\
+	Tasked with recording the court's events and educating Etgard's heirs.\
 	Your work may go unappreciated now, but one dae historians will sing of your dedication and insight."
 	department_flag = NOBLEMEN
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
@@ -12,7 +12,7 @@
 	bypass_lastclass = TRUE
 
 	allowed_races = RACES_PLAYER_NONDISCRIMINATED
-	allowed_ages = list(AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	blacklisted_species = list(SPEC_ID_HALFLING)
 	cmode_music = 'sound/music/cmode/nobility/CombatCourtMagician.ogg'
 	advclass_cat_rolls = list(CTAG_ARCHIVIST = 20)
@@ -86,7 +86,7 @@
 
 /datum/job/advclass/archivist/chronicler
 	title = "Chronicler"
-	tutorial = "With endless papers and dripping ink, you record the tales of both the mundane and magickal. Simple magicks at your means as a tool to aid your true talent. Let us write the books of the next generation. "
+	tutorial = "With endless papers and dripping ink, you record the tales of both the mundane and magickal. Simple magicks at your means as a tool to aid your true talent. Let us write the books of the next generation."
 	outfit = /datum/outfit/archivist/chronicler
 	category_tags = list(CTAG_ARCHIVIST)
 	magic_user = TRUE

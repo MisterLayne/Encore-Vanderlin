@@ -23,7 +23,7 @@
 
 /datum/job/advclass/pilgrim/mason
 	title = JOB_MASON
-	tutorial = "Despite the lack of a formal guild in Vanderlin, you've traveled there to hone your stonemasonry. \
+	tutorial = "Despite the lack of a formal guild in Domotan, you've traveled there to hone your stonemasonry. \
 	You've known your entire life there are ancient secrets within stone, and now you must prove their value to others."
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/pilgrim/mason

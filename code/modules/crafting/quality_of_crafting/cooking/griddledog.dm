@@ -15,7 +15,7 @@
 	crafting_message = "skewer the sausage"
 
 /datum/repeatable_crafting_recipe/cooking/raw_griddle_dog
-	category = "Vanderlin Cuisine"
+	category = "Domotan Cuisine"
 	name = "Raw Griddledog"
 
 	requirements = list(

@@ -102,7 +102,7 @@
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/retribution)
 
 /datum/outfit/inquisitor/ordinator
-	name = "Ordinator (Herr Prafekt)"
+	name = "Ordinator (Prefect)"
 	shirt = /obj/item/clothing/armor/gambeson/heavy/inq
 	armor = /obj/item/clothing/armor/plate/fluted/ornate/ordinator
 	belt = /obj/item/storage/belt/leather/steel

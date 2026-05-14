@@ -17,8 +17,8 @@
 
 /datum/job/butcher
 	title = JOB_BUTCHER
-	tutorial = "Some say youre a strange individual, \
-	some say youre a cheat while some claim you are a savant in the art of sausage making. \
+	tutorial = "Some say you're a strange individual, \
+	some say you're a cheat, while some claim you are a savant in the art of sausage making. \
 	Without your skilled hands and knifework most of the livestock around the town would be wasted."
 	display_order = JDO_BUTCHER
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)

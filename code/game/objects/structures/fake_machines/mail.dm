@@ -579,11 +579,11 @@ GLOBAL_LIST_EMPTY(letters_sent)
 	if(tgui_alert(user, "Send Mail?", "Confirm", list("YES","NO")) != "YES")
 		return
 
-	var/send_to = browser_input_text(user, "Where to? (Person or #number)", "Vanderlin", null)
+	var/send_to = browser_input_text(user, "Where to? (Person or #number)", "Domotan", null)
 	if(!send_to)
 		return
 
-	var/sent_from = browser_input_text(user, "Who is this from?", "Vanderlin", null)
+	var/sent_from = browser_input_text(user, "Who is this from?", "Domotan", null)
 	if(!sent_from)
 		sent_from = "Anonymous"
 

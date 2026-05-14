@@ -76,7 +76,7 @@
 			spawned.put_in_hands(new /obj/item/weapon/katar/angros(get_turf(spawned)), TRUE)
 
 /datum/outfit/job/preceptor
-	name = "Preceptor (Herr Prafekt)"
+	name = "Preceptor (Prefect)"
 	shoes = /obj/item/clothing/shoes/angrosboots
 	armor = /obj/item/clothing/armor/regenerating/skin/disciple
 	backl = /obj/item/storage/backpack/satchel/otavan

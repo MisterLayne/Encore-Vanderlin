@@ -552,7 +552,7 @@
 
 /obj/item/reagent_containers/food/snacks/cooked/griddledog
 	name = "griddledog"
-	desc = "A classic piece of Sterkenstadten street food, the fried butterdough is a Vanderlinian adulteration."
+	desc = "A classic piece of Sterkenstadten street food, the fried butterdough is a Doman adulteration."
 	nutrition = COOKED_SAUSAGE_NUTRITION + BUTTERDOUGHSLICE_NUTRITION * COOK_MOD
 	icon_state = "griddledog"
 	tastes = list("savory sausage" = 2, "crispy butterdough" = 1)

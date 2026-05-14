@@ -91,7 +91,7 @@
 /datum/job/monk
 	title = JOB_ACOLYTE
 	tutorial = "Chores, exercise, prayer... and more chores. \
-	You are a humble acolyte at the temple in Vanderlin, \
+	You are a humble acolyte at the temple on Domotan Island, \
 	not yet a trained guardian or an ordained priest. \
 	But who else would keep the fires lit and the floors clean?"
 	department_flag = CHURCHMEN
@@ -155,7 +155,7 @@
 				if("Qadirid")
 					spawned.grant_language(/datum/language/qadirid)
 					to_chat(spawned,span_info("\
-					I learned the tongue of Qadirid.")
+					I learned the tongue of the Sultanate.")
 					)
 				if("Orcish")
 					spawned.grant_language(/datum/language/orcish)

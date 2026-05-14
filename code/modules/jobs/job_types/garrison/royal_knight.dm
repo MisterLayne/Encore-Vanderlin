@@ -1,6 +1,6 @@
 /datum/job/royalknight
 	title = JOB_ROYAL_KNIGHT
-	tutorial = "You are a knight of the royal family, elevated by your skill and steadfast devotion. \
+	tutorial = "You are a knight of the Shirleighs, elevated by your skill and steadfast devotion. \
 	Sworn to protect the royal family, you stand as their shield, upholding their rule with steel and sacrifice. \
 	Yet service is not without its trials, and your loyalty will be tested in ways both seen and unseen. \
 	In the end, duty is a path you must walk carefully."
@@ -208,7 +208,7 @@
 
 /datum/job/advclass/royalknight/steam
 	title = "Steam Knight"
-	tutorial = "The pinnacle of Vanderlin's steam technology. \
+	tutorial = "The pinnacle of the Goblet's steam technology. \
 	Start with a set of Steam Armor that requires steam to function. \
 	The suit is powerful when powered but will slow you down when not \
 	learning how to use it has cost you precious time \

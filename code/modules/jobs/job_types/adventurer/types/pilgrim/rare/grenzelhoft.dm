@@ -19,7 +19,7 @@
 
 /datum/job/advclass/pilgrim/rare/aelondan
 	title = "Aelondan Count"
-	tutorial = "A Count hailing from the Grenzelhoft Imperiate, here on an official visit to Vanderlin."
+	tutorial = "A Count hailing from the Emeraldine Court, here on an official visit to Domotan Island."
 	allowed_races = RACES_PLAYER_GERAMOR
 	outfit = /datum/outfit/pilgrim/aelondan
 	category_tags = list(CTAG_PILGRIM)

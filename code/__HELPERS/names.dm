@@ -25,7 +25,7 @@
 
 /proc/set_station_name(newname)
 	GLOB.station_name = newname
-	world.name = "VANDERLIN"
+	world.name = "DOMOTAN"
 
 /proc/new_station_name()
 	var/random = rand(1,5)

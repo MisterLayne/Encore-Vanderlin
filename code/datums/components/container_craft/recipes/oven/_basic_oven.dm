@@ -39,7 +39,7 @@
 	return FALSE
 
 /datum/container_craft/oven/apple_fritter
-	category = "Vanderlin Cuisine"
+	category = "Domotan Cuisine"
 	name = "Apple Fritter"
 	requirements = list(/obj/item/reagent_containers/food/snacks/foodbase/fritter_raw = 1)
 	output = /obj/item/reagent_containers/food/snacks/fritter
@@ -636,28 +636,28 @@
 	used_skill = /datum/attribute/skill/craft/cooking/baking
 
 /datum/container_craft/oven/tamtoplate_cheese
-	category = "Vanderlin Cuisine"
+	category = "Domotan Cuisine"
 	name = "Cheese Tamtoplate"
 	requirements = list(/obj/item/reagent_containers/food/snacks/foodbase/tamtoplate_unfinished = 1)
 	output = /obj/item/reagent_containers/food/snacks/tamtoplate
 	cooked_smell = /datum/pollutant/food/tamtoplate
 
 /datum/container_craft/oven/tamtoplate_meat
-	category = "Vanderlin Cuisine"
+	category = "Domotan Cuisine"
 	name = "Sausage Tamtoplate"
 	requirements = list(/obj/item/reagent_containers/food/snacks/foodbase/tamtoplate_unfinished_meat = 1)
 	output = /obj/item/reagent_containers/food/snacks/tamtoplate/meat
 	cooked_smell = /datum/pollutant/food/tamtoplate
 
 /datum/container_craft/oven/tamtoplate_fish
-	category = "Vanderlin Cuisine"
+	category = "Domotan Cuisine"
 	name = "Fish Tamtoplate"
 	requirements = list(/obj/item/reagent_containers/food/snacks/foodbase/tamtoplate_unfinished_fish = 1)
 	output = /obj/item/reagent_containers/food/snacks/tamtoplate/fish
 	cooked_smell = /datum/pollutant/food/tamtoplate
 
 /datum/container_craft/oven/tamtoplate_onion
-	category = "Vanderlin Cuisine"
+	category = "Domotan Cuisine"
 	name = "Onion Tamtoplate"
 	requirements = list(/obj/item/reagent_containers/food/snacks/foodbase/tamtoplate_unfinished_onion = 1)
 	output = /obj/item/reagent_containers/food/snacks/tamtoplate/onion

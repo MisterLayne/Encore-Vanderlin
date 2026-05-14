@@ -21,7 +21,7 @@
 
 /datum/job/dungeoneer
 	title = JOB_DUNGEONEER
-	tutorial = "Be you an instrument of sadism for the King or the guarantor of his merciful hospitality, \
+	tutorial = "Be you an instrument of sadism for the Regent or the guarantor of his merciful hospitality, \
 	your duties are a service paid for most handsomely. \
 	Perhaps you were promoted from the garrison down to these cells \
 	to get your brutality off the town streets where cracked skulls caused outcries, \

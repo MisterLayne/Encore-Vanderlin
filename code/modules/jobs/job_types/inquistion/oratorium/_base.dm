@@ -14,21 +14,21 @@
 	initialize_schools()
 
 /datum/oratorium/proc/initialize_schools()
-	venatari = new /datum/inquisition_hierarchy_node("Herr Prafekt", "Teacher of the Venatari", 100, "Order of the Venatari")
+	venatari = new /datum/inquisition_hierarchy_node("Prefect", "Teacher of the Venatari", 100, "Order of the Venatari")
 	venatari.is_school_leader = TRUE
 	venatari.can_assign_positions = TRUE
 	venatari.max_subordinates = 10
 	venatari.position_color = "#8B0000"
 	all_positions += venatari
 
-	benetarus = new /datum/inquisition_hierarchy_node("Herr Prafekt", "Teacher of the Benetarus", 100, "Benetarus")
+	benetarus = new /datum/inquisition_hierarchy_node("Prefect", "Teacher of the Benetarus", 100, "Benetarus")
 	benetarus.is_school_leader = TRUE
 	benetarus.can_assign_positions = TRUE
 	benetarus.max_subordinates = 10
 	benetarus.position_color = "#8B0000"
 	all_positions += benetarus
 
-	sanctae = new /datum/inquisition_hierarchy_node("Herr Prafekt", "Teacher of the Sanctae", 100, "Sanctae")
+	sanctae = new /datum/inquisition_hierarchy_node("Prefect", "Teacher of the Sanctae", 100, "Sanctae")
 	sanctae.is_school_leader = TRUE
 	sanctae.can_assign_positions = TRUE
 	sanctae.max_subordinates = 10

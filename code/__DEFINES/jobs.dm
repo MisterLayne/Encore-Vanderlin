@@ -185,7 +185,7 @@
 #define BITFLAG_GARRISON (1<<3)
 
 
-#define JOB_MONARCH "Monarch"
+#define JOB_MONARCH "Regent"
 #define JOB_CONSORT "Consort"
 #define JOB_HAND "Hand"
 #define JOB_PRINCE "Prince"
@@ -271,7 +271,7 @@
 #define JOB_FOREST_GUARD "Forest Guard"
 
 
-#define JOB_PRAFEKT "Herr Prafekt"
+#define JOB_PRAFEKT "Prefect"
 #define JOB_SACRESTANTS "Sacrestants"
 #define JOB_ABSOLVER "Absolver"
 #define JOB_ADEPT "Adept"

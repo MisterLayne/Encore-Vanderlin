@@ -254,7 +254,7 @@
 
 /datum/job/advclass/consort/lowborn
 	title = "Lowborn Consort"
-	tutorial = "You never could have dreamed your life would be like this. Though your origins are humble, something special about you - whether it was your good looks, your kind heart, or your bravery - has brought you into Vanderlin Keep."
+	tutorial = "You never could have dreamed your life would be like this. Though your origins are humble, something special about you - whether it was your good looks, your kind heart, or your bravery - has brought you into Etgard Keep."
 	outfit = /datum/outfit/consort/lowborn
 	category_tags = list(CTAG_CONSORT)
 	exp_types_granted  = list(EXP_TYPE_NOBLE)

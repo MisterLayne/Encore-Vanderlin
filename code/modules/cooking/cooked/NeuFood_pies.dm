@@ -317,7 +317,7 @@
 /obj/item/reagent_containers/food/snacks/pie/cooked/blackberry
 	name = "blackberry pie"
 	icon_state = "blackberrypie"
-	desc = "A sweet pie made from blackberries. A classic Vanderlinian treat, nearly lost to time."
+	desc = "A sweet pie made from blackberries. A classic Doman treat, nearly lost to time."
 	nutrition = FRUITPIE_NUTRITION * COOK_MOD
 	slice_path = /obj/item/reagent_containers/food/snacks/pieslice/blackberry
 	tastes = list("blackberry and butterdough" = 1)
@@ -335,7 +335,7 @@
 /obj/item/reagent_containers/food/snacks/pie/cooked/raspberry
 	name = "raspberry pie"
 	icon_state = "pompkaunpie"
-	desc = "A sweet pie made from raspberries. A classic Vanderlinian treat, nearly lost to time."
+	desc = "A sweet pie made from raspberries. A classic Doman treat, nearly lost to time."
 	nutrition = FRUITPIE_NUTRITION * COOK_MOD
 	slice_path = /obj/item/reagent_containers/food/snacks/pieslice/raspberry
 	tastes = list("raspberry and butterdough" = 1)

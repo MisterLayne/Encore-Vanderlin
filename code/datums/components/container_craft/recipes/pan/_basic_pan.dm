@@ -222,7 +222,7 @@
 	cooked_smell = /datum/pollutant/food/fried_meat
 
 /datum/container_craft/pan/griddle_dog
-	category = "Vanderlin Cuisine"
+	category = "Domotan Cuisine"
 	name = "Griddledog"
 	requirements = list(/obj/item/reagent_containers/food/snacks/foodbase/griddledog_raw = 1)
 	output = /obj/item/reagent_containers/food/snacks/cooked/griddledog

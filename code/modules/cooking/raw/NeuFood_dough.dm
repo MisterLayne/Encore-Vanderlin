@@ -1793,7 +1793,7 @@
 
 /obj/item/reagent_containers/food/snacks/fritter
 	name = "apple fritter"
-	desc = "Having deep origins in the culture of Vanderlin, the humble fritter is perhaps the most patriotic pastry out there, long may it reign!"
+	desc = "Having deep origins in the culture of Domotan, the humble fritter is perhaps the most patriotic pastry out there, long may it reign!"
 	icon_state = "applefritter"
 	dropshrink = 0.8
 	tastes = list("crispy butterdough" = 1, "sweet apple bits" = 1)
@@ -2673,7 +2673,7 @@
 
 /obj/item/reagent_containers/food/snacks/tamtoplate
 	name = "cheese tamto plate"
-	desc = "A deliciously greasy cheese half-pie originating from the trade-capital of Vanderlin, long may it reign!"
+	desc = "A deliciously greasy cheese half-pie originating from the trade-capital of Domotan, long may it reign!"
 	bitesize = 6
 	slices_num = 6
 	slice_path = /obj/item/reagent_containers/food/snacks/tamtoplate_slice
@@ -2691,7 +2691,7 @@
 
 /obj/item/reagent_containers/food/snacks/tamtoplate/meat
 	name = "sausage tamto plate"
-	desc = "A deliciously greasy sausage half-pie originating from the trade-capital of Vanderlin, long may it reign!"
+	desc = "A deliciously greasy sausage half-pie originating from the trade-capital of Domotan, long may it reign!"
 	slice_path = /obj/item/reagent_containers/food/snacks/tamtoplate_slice/meat
 	icon_state = "meat_pizza"
 	tastes = list("crispy dough" = 1, "warm tomato" = 1, "gooey cheese" = 1, "savory sausage")
@@ -2702,7 +2702,7 @@
 
 /obj/item/reagent_containers/food/snacks/tamtoplate/fish
 	name = "sausage tamto plate"
-	desc = "A deliciously greasy fish half-pie originating from the trade-capital of Vanderlin, long may it reign!"
+	desc = "A deliciously greasy fish half-pie originating from the trade-capital of Domotan, long may it reign!"
 	slice_path = /obj/item/reagent_containers/food/snacks/tamtoplate_slice/fish
 	icon_state = "fish_pizza"
 	tastes = list("crispy dough" = 1, "warm tomato" = 1, "gooey cheese" = 1, "crispy fish" = 1)
@@ -2713,7 +2713,7 @@
 
 /obj/item/reagent_containers/food/snacks/tamtoplate/onion
 	name = "onion tamto plate"
-	desc = "A deliciously greasy onion half-pie originating from the trade-capital of Vanderlin, long may it reign!"
+	desc = "A deliciously greasy onion half-pie originating from the trade-capital of Domotan, long may it reign!"
 	slice_path = /obj/item/reagent_containers/food/snacks/tamtoplate_slice/onion
 	icon_state = "onion_pizza"
 	tastes = list("crispy dough" = 1, "warm tomato" = 1, "gooey cheese" = 1, "crunchy onion" = 1)
@@ -2726,7 +2726,7 @@
 
 /obj/item/reagent_containers/food/snacks/tamtoplate_slice
 	name = "cheese tamto plate slice"
-	desc = "A deliciously greasy cheese half-pie originating from the trade-capital of Vanderlin, long may it reign!"
+	desc = "A deliciously greasy cheese half-pie originating from the trade-capital of Domotan, long may it reign!"
 	bitesize = 3
 	w_class = WEIGHT_CLASS_SMALL
 	icon_state = "pizza_slice"
@@ -2740,7 +2740,7 @@
 
 /obj/item/reagent_containers/food/snacks/tamtoplate_slice/meat
 	name = "sausage tamto plate slice"
-	desc = "A deliciously greasy sausage half-pie originating from the trade-capital of Vanderlin, long may it reign!"
+	desc = "A deliciously greasy sausage half-pie originating from the trade-capital of Domotan, long may it reign!"
 	icon_state = "meat_pizza_slice"
 	tastes = list("crispy dough" = 1, "warm tomato" = 1, "gooey cheese" = 1, "savory sausage")
 	faretype = FARE_FINE
@@ -2750,7 +2750,7 @@
 
 /obj/item/reagent_containers/food/snacks/tamtoplate_slice/fish
 	name = "sausage tamto plate"
-	desc = "A deliciously greasy fish half-pie originating from the trade-capital of Vanderlin, long may it reign!"
+	desc = "A deliciously greasy fish half-pie originating from the trade-capital of Domotan, long may it reign!"
 	icon_state = "fish_pizza_slice"
 	tastes = list("crispy dough" = 1, "warm tomato" = 1, "gooey cheese" = 1, "crispy fish" = 1)
 	faretype = FARE_FINE
@@ -2760,7 +2760,7 @@
 
 /obj/item/reagent_containers/food/snacks/tamtoplate_slice/onion
 	name = "onion tamto plate slice"
-	desc = "A deliciously greasy onion half-pie originating from the trade-capital of Vanderlin, long may it reign!"
+	desc = "A deliciously greasy onion half-pie originating from the trade-capital of Domotan, long may it reign!"
 	icon_state = "onion_pizza_slice"
 	tastes = list("crispy dough" = 1, "warm tomato" = 1, "gooey cheese" = 1, "crunchy onion" = 1)
 	faretype = FARE_FINE
