@@ -426,7 +426,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_STEELHEARTED "steelhearted" //no bad mood from dismembering or seeing this
 #define TRAIT_IWASREVIVED "iwasrevived" //prevents PQ gain from reviving the same person twice
 #define TRAIT_IWASUNZOMBIFIED "iwasunzombified" //prevents PQ gain from curing a zombie twice
-#define TRAIT_ZIZOID_HUNTED "zizoidhunted" // Used to signal character has been marked by death by the Zizoid cult
+#define TRAIT_HELL_HUNTED "hellhunted" // Used to signal character has been marked by death by the hell cult
 #define TRAIT_LEPROSY "Leprosy"
 #define TRAIT_BRIAR_HOST "Host of the Black Briar"
 #define TRAIT_NUDE_SLEEPER "Nude Sleeper"
@@ -469,7 +469,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 // Inhumen patron trait bonuses
 #define TRAIT_ORGAN_EATER "Blessing of Archdevils"//Can eat organs (duh.) and raw meat
 #define TRAIT_CRACKHEAD	"Blessing of Hertannea" //No overdose on drugs.
-#define TRAIT_CABAL "Of the Cabal" //Zizo cultists recognize each other too
+#define TRAIT_CABAL "Of the Cabal" //Envy cultists recognize each other too
 #define TRAIT_DECEIVERS_EYES	"Eyes of Deceivers" //Examine to see the most expensive item someone has
 
 // Other Patron Trait Bonuses
@@ -488,7 +488,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_ILIOPE_CURSE "Iliope's Curse"
 #define TRAIT_ERDL_CURSE "Erdl's Curse"
 #define TRAIT_POMETTE_CURSE "Pomette's Curse"
-#define TRAIT_ZIZO_CURSE "Zizo's Curse"
+#define TRAIT_ENVY_CURSE "Envy's Curse"
 #define TRAIT_ARCHDEVILS_CURSE "Archdevils' Curse"
 #define TRAIT_DECEIVERS_CURSE "Deceivers' Curse"
 #define TRAIT_HERTANNEA_CURSE "Hertannea's Curse"

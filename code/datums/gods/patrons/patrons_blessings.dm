@@ -368,7 +368,7 @@
 		),
 
 		/// One Envy
-		/datum/patron/inhumen/zizo = list(
+		/datum/patron/inhumen/envy = list(
 			/datum/status_effect/buff/beastsense = PLACEHOLDER_PATRON_REBRANDING,
 			/datum/status_effect/buff/trollshape = PLACEHOLDER_PATRON_REBRANDING,
 			/datum/status_effect/buff/divine_beauty = PLACEHOLDER_PATRON_REBRANDING,

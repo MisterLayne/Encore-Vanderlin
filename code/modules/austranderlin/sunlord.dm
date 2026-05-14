@@ -77,7 +77,7 @@
 
 /datum/job/sunlord/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
-	spawned.add_curse(/datum/curse/zizo)
+	spawned.add_curse(/datum/curse/envy)
 	spawned.LoadComponent(/datum/component/theme_music)
 	spawned.set_hygiene(HYGIENE_LEVEL_DISGUSTING)
 

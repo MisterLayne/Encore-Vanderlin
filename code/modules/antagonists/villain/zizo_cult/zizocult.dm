@@ -1,4 +1,4 @@
-/datum/attribute_holder/sheet/job/zizocultist
+/datum/attribute_holder/sheet/job/archdevilcultist
 	raw_attribute_list = list(
 		STAT_STRENGTH = 4,
 		STAT_ENDURANCE = 3,
@@ -13,7 +13,7 @@
 		/datum/attribute/skill/misc/athletics = list(40, 40),
 	)
 
-/datum/attribute_holder/sheet/job/zizocultist/lesser
+/datum/attribute_holder/sheet/job/archdevilcultist/lesser
 	raw_attribute_list = list(
 		STAT_INTELLIGENCE = -2,
 	)
@@ -23,7 +23,7 @@
 		/datum/attribute/skill/combat/polearms = list(20, 30),
 	)
 
-/datum/attribute_holder/sheet/job/zizocultist/change
+/datum/attribute_holder/sheet/job/archdevilcultist/change
 	raw_attribute_list = list(
 		STAT_STRENGTH = 2,
 	)
@@ -31,16 +31,16 @@
 		/datum/attribute/skill/misc/reading = list(30, 30),
 	)
 
-/datum/antagonist/zizocultist
-	name = "Zizoid Lackey"
-	roundend_category = "Zizoid Cultists"
-	antagpanel_category = "Zizoid Cult"
-	job_rank = ROLE_ZIZOIDCULTIST
+/datum/antagonist/archdevilcultist
+	name = "Fiendish Lackey"
+	roundend_category = "Hell Cultists"
+	antagpanel_category = "Hell Cult"
+	job_rank = ROLE_ARCHDEVILCULTIST
 	antag_hud_type = ANTAG_HUD_ZIZOID
 	antag_hud_name = "zizoid_lackey"
 	confess_lines = list(
-		"DEATH TO THE TEN!",
-		"PRAISE ZIZO!",
+		"DEATH TO THE ELEMENTALS",
+		"PRAISE HELL!",
 		"I AM THE FUTURE!",
 		"NO GODS! ONLY MASTERS!",
 	)
@@ -53,8 +53,8 @@
 		TRAIT_CABAL,
 	)
 
-/datum/antagonist/zizocultist/leader
-	name = "Zizoid Cultist"
+/datum/antagonist/archdevilcultist/leader
+	name = "Fiendish Cultist"
 	antag_hud_type = ANTAG_HUD_ZIZOID
 	antag_hud_name = "zizoid"
 	islesser = FALSE
@@ -67,59 +67,59 @@
 		TRAIT_CABAL,
 	)
 
-/datum/antagonist/zizocultist/examine_target(mob/user, mob/examined, list/P, list/examine_contents)
+/datum/antagonist/archdevilcultist/examine_target(mob/user, mob/examined, list/P, list/examine_contents)
 	var/mob/living/carbon/human/H = examined
 	if(istype(H) && H.virginity)
 		LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_BODY, span_purple(html_tag("B", "[P[THEYRE]] a virgin!")))
 	. = ..()
 
 
-/datum/antagonist/zizocultist/examine_friendorfoe(datum/antagonist/examined_datum, mob/examiner, mob/examined)
-	if(istype(examined_datum, /datum/antagonist/zizocultist/leader))
+/datum/antagonist/archdevilcultist/examine_friendorfoe(datum/antagonist/examined_datum, mob/examiner, mob/examined)
+	if(istype(examined_datum, /datum/antagonist/archdevilcultist/leader))
 		return span_boldnotice("OUR LEADER!")
-	if(istype(examined_datum, /datum/antagonist/zizocultist))
+	if(istype(examined_datum, /datum/antagonist/archdevilcultist))
 		return span_boldnotice("A lackey for the future.")
 	if(istype(examined_datum, /datum/antagonist/assassin))
-		return span_boldnotice("A ARCHDEVILSOID! A CULTIST OF ARCHDEVILS!")
+		return span_boldnotice("HELLSPAWN! A CULTIST OF THE ARCHDEVILS!")
 
-/datum/antagonist/zizocultist/on_gain()
+/datum/antagonist/archdevilcultist/on_gain()
 	. = ..()
 	var/mob/living/carbon/human/H = owner.current
 	SSmapping.retainer.cultists |= owner
-	H.set_patron(/datum/patron/inhumen/zizo)
+	H.set_patron(/datum/patron/inhumen/archdevils)
 
-	owner.special_role = "Zizoid Lackey"
+	owner.special_role = "Fiendish Lackey"
 	H.cmode_music = 'sound/music/cmode/antag/combat_cult.ogg'
 	H.playsound_local(get_turf(H), 'sound/music/maniac.ogg', 80, FALSE, pressure_affected = FALSE)
 	add_verb(H, /mob/living/carbon/human/proc/communicate)
 
 	if(change_stats)
-		H.attributes?.add_sheet(/datum/attribute_holder/sheet/job/zizocultist/change)
+		H.attributes?.add_sheet(/datum/attribute_holder/sheet/job/archdevilcultist/change)
 	if(islesser)
-		add_objective(/datum/objective/zizoserve)
+		add_objective(/datum/objective/archdevilsserve)
 		if(!change_stats)
 			return
-		H.attributes?.add_sheet(/datum/attribute_holder/sheet/job/zizocultist/lesser)
+		H.attributes?.add_sheet(/datum/attribute_holder/sheet/job/archdevilcultist/lesser)
 		H.grant_language(/datum/language/undead)
 		return
 
-	add_objective(/datum/objective/zizo)
-	owner.special_role = ROLE_ZIZOIDCULTIST
+	add_objective(/datum/objective/archdevils)
+	owner.special_role = ROLE_ARCHDEVILCULTIST
 	add_verb(H, /mob/living/carbon/human/proc/release_minion)
 	if(!change_stats)
 		return
-	H.attributes?.add_sheet(/datum/attribute_holder/sheet/job/zizocultist)
+	H.attributes?.add_sheet(/datum/attribute_holder/sheet/job/archdevilcultist)
 	H.grant_language(/datum/language/undead)
 
-/datum/antagonist/zizocultist/greet()
+/datum/antagonist/archdevilcultist/greet()
 	to_chat(owner, span_danger("I'm a lackey to the LEADER. A new future begins."))
 	owner.announce_objectives()
 
-/datum/antagonist/zizocultist/leader/greet()
+/datum/antagonist/archdevilcultist/leader/greet()
 	to_chat(owner, span_danger("I'm a cultist to the ALMIGHTY. They call it the UNSPEAKABLE. I require LACKEYS to make my RITUALS easier. I SHALL ASCEND."))
 	owner.announce_objectives()
 
-/datum/antagonist/zizocultist/can_be_owned(datum/mind/new_owner)
+/datum/antagonist/archdevilcultist/can_be_owned(datum/mind/new_owner)
 	. = ..()
 	if(.)
 		if(new_owner.current == SSticker.rulermob)
@@ -133,38 +133,38 @@
 		if(new_owner.current && HAS_TRAIT(new_owner.current, TRAIT_MINDSHIELD))
 			return FALSE
 
-/datum/antagonist/zizocultist/proc/add_cultist(datum/mind/cult_mind)
-	cult_mind.add_antag_datum(/datum/antagonist/zizocultist)
+/datum/antagonist/archdevilcultist/proc/add_cultist(datum/mind/cult_mind)
+	cult_mind.add_antag_datum(/datum/antagonist/archdevilcultist)
 	return TRUE
 
-/datum/objective/zizo
+/datum/objective/archdevils
 	name = "ASCEND"
 	explanation_text = "Ensure that I ascend."
 	team_explanation_text = "Ensure that I ascend."
 	triumph_count = 5
 
-/datum/objective/zizo/check_completion()
+/datum/objective/archdevils/check_completion()
 	if(SSmapping.retainer.cult_ascended)
 		return TRUE
 
-/datum/objective/zizoserve
+/datum/objective/archdevilsserve
 	name = "Serve your Leader"
 	explanation_text = "Serve your leader and ensure that they ascend."
 	team_explanation_text = "Serve your leader and ensure that they ascend."
 	triumph_count = 3
 
-/datum/objective/zizoserve/check_completion()
+/datum/objective/archdevilsserve/check_completion()
 	if(SSmapping.retainer.cult_ascended)
 		return TRUE
 
-/datum/antagonist/zizocultist/proc/add_objective(datum/objective/O)
+/datum/antagonist/archdevilcultist/proc/add_objective(datum/objective/O)
 	var/datum/objective/V = new O
 	objectives += V
 
-/datum/antagonist/zizocultist/proc/remove_objective(datum/objective/O)
+/datum/antagonist/archdevilcultist/proc/remove_objective(datum/objective/O)
 	objectives -= O
 
-/datum/antagonist/zizocultist/roundend_report()
+/datum/antagonist/archdevilcultist/roundend_report()
 	var/traitorwin = TRUE
 
 	to_chat(world, printplayer(owner))
@@ -207,15 +207,15 @@
 // VERBS
 
 /mob/living/carbon/human/proc/praise()
-	set name = "Praise the Dark Lady!"
+	set name = "Praise Hell!"
 	set category = "RoleUnique.Zizo"
 
 	if(stat >= UNCONSCIOUS || !can_speak_vocal())
 		return
-	record_round_statistic(STATS_ZIZO_PRAISED)
-	audible_message("\The [src] praises <span class='bold'>Zizo</span>!")
+	record_round_statistic(STATS_ARCHDEVILS_PRAISED)
+	audible_message("\The [src] praises <span class='bold'>Hell</span>!")
 	playsound(src, 'sound/vo/cult/praise.ogg', 45, 1)
-	log_say("[src] has praised zizo! (zizo cultist verb)")
+	log_say("[src] has praised the Archdevils! (hell cultist verb)")
 
 /mob/living/carbon/human/proc/communicate()
 	set name = "Communicate with Cult"
@@ -225,7 +225,7 @@
 		return
 
 	var/mob/living/carbon/human/H = src
-	var/speak = input("What do you speak of?", "ZIZO") as text|null
+	var/speak = input("What do you speak of?", "TARTARUS") as text|null
 	if(!speak)
 		return
 	whisper("O schlet'a ty'schkotot ty'skvoro...")
@@ -255,7 +255,7 @@
 
 	if(isliving(user))
 		var/mob/living/living_user = user
-		if(istype(living_user, /datum/patron/inhumen/zizo))
+		if(istype(living_user, /datum/patron/inhumen/archdevils))
 			to_chat(user, "It is of the [sigil_type] circle.")
 
 /obj/effect/decal/cleanable/sigil/proc/consume_ingredients(datum/ritual/R)
@@ -289,7 +289,7 @@
 	. = ..()
 	if(icon_state != "center") // fucking awful but it has to be this way
 		return
-	if(!istype(user.patron, /datum/patron/inhumen/zizo))
+	if(!istype(user.patron, /datum/patron/inhumen/archdevils))
 		return
 	var/list/rituals_pre = list()
 	switch(sigil_type)
@@ -305,11 +305,11 @@
 	for(var/datum/ritual/ritual as anything in rituals_pre)
 		if(IS_ABSTRACT(ritual))
 			continue
-		if(initial(ritual.is_cultist_ritual) && !(is_zizocultist(user.mind) || is_zizolackey(user.mind))) // some rituals are cultist exclusive
+		if(initial(ritual.is_cultist_ritual) && !(is_archdevilcultist(user.mind) || is_archdevillackey(user.mind))) // some rituals are cultist exclusive
 			continue
 		rituals += initial(ritual.name)
 
-	var/ritualnameinput = browser_input_list(user, "Rituals", "ZIZO", rituals)
+	var/ritualnameinput = browser_input_list(user, "Rituals", "Tartarus", rituals)
 	if(!ritualnameinput)
 		return
 
@@ -459,7 +459,7 @@
 		to_chat(src, span_danger("My hands aren't bloody enough."))
 		return
 
-	var/input = input("Sigil Type", "ZIZO") as null|anything in runes
+	var/input = input("Sigil Type", "Tartarus") as null|anything in runes
 	if(!input)
 		return
 
@@ -473,7 +473,7 @@
 
 	var/list/mob/living/carbon/human/possible = list()
 	for(var/datum/mind/V in SSmapping.retainer.cultists)
-		if(V.special_role == "Zizoid Lackey")
+		if(V.special_role == "Fiendish Lackey")
 			possible |= V.current
 
 	var/mob/living/carbon/human/choice = input(src, "Whom do you no longer have use for?", "VANDERLIN") as null|anything in possible
@@ -481,7 +481,7 @@
 		var/alert = tgui_alert(src, "Are you sure?", "VANDERLIN", list("Yes", "Cancel"))
 		if(alert == "Yes")
 			visible_message(span_danger("[src] reaches out, ripping up [choice]'s soul!</span>"))
-			to_chat(choice, span_danger("I HAVE FAILED MY LEADER! I HAVE FAILED ZIZO! NOTHING ELSE BUT DEATH REMAINS FOR ME NOW!"))
+			to_chat(choice, span_danger("I HAVE FAILED MY LEADER! I HAVE FAILED HELL! NOTHING ELSE BUT DEATH REMAINS FOR ME NOW!"))
 			sleep(20)
 			choice.gib() // Cooler than dusting.
 			SSmapping.retainer.cultists -= choice.mind

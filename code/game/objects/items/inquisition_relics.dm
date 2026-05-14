@@ -157,7 +157,7 @@
 		/datum/patron/divine/iliope  =list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/divine/golerkanh =list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/inhumen/deceivers  =list(PLACEHOLDER_PATRON_REBRANDING),
-		/datum/patron/inhumen/zizo = list(PLACEHOLDER_PATRON_REBRANDING),
+		/datum/patron/inhumen/envy = list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/inhumen/archdevils =list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/inhumen/hertannea =list(PLACEHOLDER_PATRON_REBRANDING),
 		/datum/patron/angros = list(PLACEHOLDER_PATRON_REBRANDING),

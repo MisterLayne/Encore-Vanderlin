@@ -173,7 +173,7 @@
 					conditional_buff = TRUE
 					situational_bonus = 25
 
-			if(/datum/patron/inhumen/zizo)
+			if(/datum/patron/inhumen/envy)
 				cast_on.visible_message(span_info("Vital energies are sapped towards [cast_on]!"), span_notice("The life around me pales as I am restored!"))
 				// set up a ritual pile of bones (or just cast near a stack of bones whatever) around us for massive bonuses, cap at 50 for 75 healing total (wowie)
 				situational_bonus = 0

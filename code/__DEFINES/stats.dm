@@ -38,7 +38,7 @@
 
 #define STATMOD_ARCHDEVILS_BLESSING "archdevils_blessing"
 #define STATMOD_DECEIVERS_BLESSING "deceivers_blessing"
-#define STATMOD_ZIZO_BLESSING "zizo_blessing"
+#define STATMOD_ENVY_BLESSING "envy_blessing"
 #define STATMOD_HERTANNEA_BLESSING "hertannea_blessing"
 
 // Events

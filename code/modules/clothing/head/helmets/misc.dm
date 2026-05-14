@@ -540,7 +540,7 @@
 
 //................. One Envy Barbute .............. //
 
-/obj/item/clothing/head/helmet/visored/zizo
+/obj/item/clothing/head/helmet/visored/envy
 	name = "darksteel barbute"
 	desc = "A darksteel barbute. This one has an adjustable visor. Called forth from the edge of what should be known. In Her name."
 	icon_state = "zizobarbute"

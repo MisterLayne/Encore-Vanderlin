@@ -232,7 +232,7 @@ GLOBAL_LIST_INIT_TYPED(blood_types, /datum/blood_type, init_subtypes_w_path_keys
 	. |= BLOOD_PREFERENCE_RATS
 
 /datum/blood_type/human/corrupted/zizombie
-	name = "Zizombie"
+	name = "Rotblood"
 	reagent_type = /datum/reagent/blood/putrid
 	vitae = 1000 VITAE
 

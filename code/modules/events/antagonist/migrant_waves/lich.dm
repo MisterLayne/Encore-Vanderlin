@@ -9,7 +9,7 @@
 	shared_occurence_type = SHARED_HIGH_THREAT
 
 	tags = list(
-		TAG_ZIZO,
+		TAG_ARCHDEVILS,
 		TAG_HAUNTED,
 		TAG_COMBAT,
 		TAG_VILLAIN,

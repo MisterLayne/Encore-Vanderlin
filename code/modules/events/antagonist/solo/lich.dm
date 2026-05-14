@@ -1,7 +1,7 @@
 /datum/round_event_control/antagonist/solo/lich
 	name = ROLE_LICH
 	tags = list(
-		TAG_ZIZO,
+		TAG_ARCHDEVILS,
 		TAG_COMBAT,
 		TAG_HAUNTED,
 		TAG_VILLAIN,

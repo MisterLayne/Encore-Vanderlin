@@ -987,7 +987,7 @@
 	data += god_ui_block("ARCHDEVILS", "#3b5e51", "#99bbc7", /datum/storyteller/archdevils, debug)
 
 	// Zizo
-	data += god_ui_block("ZIZO", "#661239", "#ed9da3", /datum/storyteller/zizo, debug)
+	data += god_ui_block("ONE ENVY", "#661239", "#ed9da3", /datum/storyteller/envy, debug)
 
 	data += "</div></div>"
 

@@ -29,8 +29,8 @@
 			"dagger ear",
 			"dagger head",
 			"cursed blood",
-			"zizo cursed",
-			"zizo dominated",
+			"cursed",
+			"dominated",
 			"spider kisser",
 			"dirt elf",
 			"dirt elves",
@@ -38,7 +38,7 @@
 			"cave dweller",
 			"mushroom stain",
 			"underscum",
-			"zizospawn"
+			"hellspawn"
 		],
 		"Half-Elf": [
 			"mutt",
@@ -52,9 +52,7 @@
 			"half breed",
 			"halfie",
 			"cursed blood",
-			"zizo cursed",
-			"zizo dominated",
-			"zizospawn"
+			"cursed"
 		],
 		"Dwarf": [
 			"rock licker",
@@ -135,9 +133,7 @@
 			"rock rat"
 		],
 		"Hollow-Kin": [
-			"zizo's pet",
-			"drow pet",
-			"drow spawn",
+			"pomette's pet",
 			"flea bitten",
 			"homunculus",
 			"furry"
@@ -151,17 +147,13 @@
 			"worm breath",
 			"sky rat",
 			"sky rodent",
-			"magpie",
-			"whore pigeon"
+			"magpie"
 		],
 		"Generic": [
 			"whore",
 			"slut",
 			"hedon",
 			"harlot",
-			"zizite",
-			"zizoid",
-			"zybantine",
 			"salad"
 		]
 	}

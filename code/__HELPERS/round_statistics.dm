@@ -147,7 +147,7 @@
 #define STATS_CHILD_POPULATION "child_population"
 
 // One Envy
-#define STATS_ZIZO_PRAISED "zizo_praised"
+#define STATS_ARCHDEVILS_PRAISED "archdevils_praised"
 #define STATS_ALIVE_DARK_ELVES "alive_dark_elves"
 #define STATS_DEADITES_WOKEN_UP "deadites_woken_up"
 #define STATS_CLERGY_DEATHS "clergy_deaths"
@@ -231,7 +231,7 @@ GLOBAL_LIST_INIT(vanderlin_round_stats, list(
 	STATS_MARRIAGES = 0,
 	STATS_HUGS_MADE = 0,
 	STATS_CLINGY_PEOPLE = 0,
-	STATS_ZIZO_PRAISED = 0,
+	STATS_ARCHDEVILS_PRAISED = 0,
 	STATS_DEADITES_ALIVE = 0,
 	STATS_CLERGY_DEATHS = 0,
 	STATS_ASSASSINATIONS = 0,

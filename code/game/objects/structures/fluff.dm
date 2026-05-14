@@ -796,8 +796,8 @@
 	SET_BASE_PIXEL(-32, 0)
 
 /obj/structure/fluff/statue/zizo
-	name = "statue of Zizo"
-	desc = "The Dark Lady. Even in stone, you feel unsettled looking at it."
+	name = "dark effigy"
+	desc = "Some unknown, lost God. Even in stone, you feel unsettled looking at it."
 	icon = 'icons/roguetown/misc/64x128.dmi'
 	icon_state = "zizo"
 	max_integrity = 100
@@ -1142,7 +1142,7 @@
 	break_sound = null
 	attacked_sound = list("sound/combat/hits/onmetal/metalimpact (1).ogg", "sound/combat/hits/onmetal/metalimpact (2).ogg")
 
-/obj/structure/fluff/psycross/zizocross
+/obj/structure/fluff/psycross/archdevil_cross
 	name = "inverted cross"
 	desc = "An unholy symbol. Blasphemy for most, reverence for few."
 	icon_state = "zizoinvertedcross"

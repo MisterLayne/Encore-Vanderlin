@@ -1,8 +1,8 @@
-/datum/migrant_role/zizo_cultist
-	name = "Zizo's Ascendant"
-	migrant_job = /datum/job/migrant/zizo_cultist
+/datum/migrant_role/archdevil_cultist
+	name = "Hell's Ascendant"
+	migrant_job = /datum/job/migrant/archdevil_cultist
 
-/datum/attribute_holder/sheet/job/migrant/zizo_cultist
+/datum/attribute_holder/sheet/job/migrant/archdevil_cultist
 	raw_attribute_list = list(
 		STAT_STRENGTH = 3,
 		STAT_PERCEPTION = 1,
@@ -25,46 +25,46 @@
 		/datum/attribute/skill/misc/climbing = 30,
 	)
 
-/datum/job/migrant/zizo_cultist
-	title = "Zizo's Ascendant"
-	outfit = /datum/outfit/zizo_cultist
-	antag_role = /datum/antagonist/zizocultist/leader
+/datum/job/migrant/archdevil_cultist
+	title = "Hell's Ascendant"
+	outfit = /datum/outfit/archdevil_cultist
+	antag_role = /datum/antagonist/archdevilcultist/leader
 	allowed_sexes = list(FEMALE)
 	allowed_races = list(SPEC_ID_DROW)
 	honorary_f = "Madame"
 
-	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/zizo_cultist
+	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/archdevil_cultist
 
 	traits = list(TRAIT_NOBLE_BLOOD, TRAIT_HEAVYARMOR, TRAIT_STEELHEARTED)
 	languages = list(/datum/language/undead)
 	cmode_music = 'sound/music/cmode/antag/combat_cult.ogg'
-	default_patron = /datum/patron/inhumen/zizo
+	default_patron = /datum/patron/inhumen/archdevils
 
-/datum/outfit/zizo_cultist
-	name = "Zizo's Ascendant"
+/datum/outfit/archdevil_cultist
+	name = "Hell's Ascendant"
 	head = /obj/item/clothing/head/helmet/skullcap/cult
 	mask = /obj/item/clothing/face/shepherd/shadowmask
 	neck = /obj/item/clothing/neck/chaincoif
 	shirt = /obj/item/clothing/shirt/shadowshirt
-	armor = /obj/item/clothing/armor/plate/full/zizo
+	armor = /obj/item/clothing/armor/plate/full/archdevils
 	cloak = /obj/item/clothing/cloak/half/shadowcloak/cult
-	wrists = /obj/item/clothing/neck/psycross/zizo
-	gloves = /obj/item/clothing/gloves/plate/zizo
-	pants = /obj/item/clothing/pants/platelegs/zizo
-	shoes = /obj/item/clothing/shoes/boots/armor/zizo
+	wrists = /obj/item/clothing/neck/psycross/heretical
+	gloves = /obj/item/clothing/gloves/plate/archdevils
+	pants = /obj/item/clothing/pants/platelegs/archdevils
+	shoes = /obj/item/clothing/shoes/boots/armor/archdevils
 	belt = /obj/item/storage/belt/leather/plaquesilver
 	beltl = /obj/item/weapon/whip/spiderwhip
 	beltr = /obj/item/weapon/knife/dagger/steel/dirk
 	backl = /obj/item/storage/backpack/satchel
-	backr = /obj/item/weapon/sword/long/greatsword/zizo
+	backr = /obj/item/weapon/sword/long/greatsword/flamberge
 	scabbards = list(/obj/item/weapon/scabbard/knife)
 
-/datum/migrant_role/zizo_cultist_lesser
+/datum/migrant_role/archdevil_cultist_lesser
 	name = "Ascendant Follower"
 	greet_text = "You are the apostle of your madame. Should you see their ascension through, you will be rewarded in kind."
-	migrant_job = /datum/job/migrant/zizo_cultist_lesser
+	migrant_job = /datum/job/migrant/archdevil_cultist_lesser
 
-/datum/attribute_holder/sheet/job/migrant/zizo_cultist_lesser
+/datum/attribute_holder/sheet/job/migrant/archdevil_cultist_lesser
 	raw_attribute_list = list(
 		STAT_STRENGTH = 1,
 		STAT_CONSTITUTION = 1,
@@ -84,21 +84,21 @@
 		/datum/attribute/skill/misc/riding = 10,
 	)
 
-/datum/job/migrant/zizo_cultist_lesser
+/datum/job/migrant/archdevil_cultist_lesser
 	title = "Ascendant Follower"
 	tutorial = "You are the apostle of your madame. Should you see their ascension through, you will be rewarded in kind."
-	outfit = /datum/outfit/zizo_cultist_lesser
-	antag_role = /datum/antagonist/zizocultist
+	outfit = /datum/outfit/archdevil_cultist_lesser
+	antag_role = /datum/antagonist/archdevilcultist
 	allowed_races = list(SPEC_ID_DROW, SPEC_ID_HALF_DROW)
 
-	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/zizo_cultist_lesser
+	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/archdevil_cultist_lesser
 
 	traits = list(TRAIT_MEDIUMARMOR, TRAIT_DUALWIELDER)
 	languages = list(/datum/language/undead)
 	cmode_music = 'sound/music/cmode/antag/combat_cult.ogg'
-	default_patron = /datum/patron/inhumen/zizo
+	default_patron = /datum/patron/inhumen/archdevils
 
-/datum/outfit/zizo_cultist_lesser
+/datum/outfit/archdevil_cultist_lesser
 	name = "Ascendant Follower"
 	head = /obj/item/clothing/head/helmet/skullcap/cult
 	mask = /obj/item/clothing/face/shepherd/shadowmask
@@ -106,7 +106,7 @@
 	shirt = /obj/item/clothing/armor/chainmail
 	armor = /obj/item/clothing/armor/cuirass/iron/shadowplate
 	cloak = /obj/item/clothing/shirt/undershirt/sash/colored/violet
-	wrists = /obj/item/clothing/neck/psycross/zizo
+	wrists = /obj/item/clothing/neck/psycross/heretical
 	gloves = /obj/item/clothing/gloves/fingerless/shadowgloves
 	pants = /obj/item/clothing/pants/trou/leather/splint
 	shoes = /obj/item/clothing/shoes/boots

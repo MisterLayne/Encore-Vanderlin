@@ -78,7 +78,7 @@
 			SEND_SIGNAL(live_one, COMSIG_LIVING_TRY_ENTER_AFTERLIFE)
 			return FALSE
 
-		if((live_one.has_quirk(/datum/quirk/vice/hunted) || HAS_TRAIT(src, TRAIT_ZIZOID_HUNTED)) && !MOBTIMER_FINISHED(src, MT_LASTDIED, 60 SECONDS))
+		if((live_one.has_quirk(/datum/quirk/vice/hunted) || HAS_TRAIT(src, TRAIT_HELL_HUNTED)) && !MOBTIMER_FINISHED(src, MT_LASTDIED, 60 SECONDS))
 			to_chat(src, span_warning("the Archdevils' influence is currently preventing me from fleeing to the Underworld!"))
 			return FALSE
 

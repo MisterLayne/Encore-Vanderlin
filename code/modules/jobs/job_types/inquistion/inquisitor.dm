@@ -272,7 +272,7 @@
 						var/static/list/false_antag_types = list(
 							/datum/antagonist/bandit,
 							/datum/antagonist/maniac,
-							/datum/antagonist/zizocultist
+							/datum/antagonist/archdevilcultist
 						)
 						antag_type = pick(false_antag_types)
 						confessions += list("I... I AM GUILTY!", "YES! I CONFESS!", "I DID IT!")
@@ -293,7 +293,7 @@
 						is_false_confession = TRUE
 						var/static/list/false_patron_types = list(
 							/datum/patron/inhumen/deceivers,
-							/datum/patron/inhumen/zizo,
+							/datum/patron/inhumen/envy,
 							/datum/patron/inhumen/archdevils
 						)
 						antag_type = pick(false_patron_types)
@@ -350,13 +350,13 @@
 					if(/datum/antagonist/assassin)
 						held_confession.bad_type = "A DEATH CULTIST"
 						held_confession.antag = initial(antag_type:name)
-					if(/datum/antagonist/zizocultist)
-						held_confession.bad_type = "A SERVANT OF THE FORBIDDEN ONE"
+					if(/datum/antagonist/archdevilcultist)
+						held_confession.bad_type = "A SERVANT OF HELL"
 						held_confession.antag = initial(antag_type:name)
-					if(/datum/antagonist/zizocultist/leader)
-						held_confession.bad_type = "A SERVANT OF THE FORBIDDEN ONE"
+					if(/datum/antagonist/archdevilcultist/leader)
+						held_confession.bad_type = "A SERVANT OF HELL"
 						held_confession.antag = initial(antag_type:name)
-					if(/datum/patron/inhumen/zizo)
+					if(/datum/patron/inhumen/envy)
 						held_confession.bad_type = "A FOLLOWER OF THE FORBIDDEN ONE"
 						held_confession.antag = "worshiper of " + initial(antag_type:name)
 					if(/datum/antagonist/werewolf)

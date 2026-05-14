@@ -98,7 +98,7 @@
 
 			var/water_qty = max(1, holy_skill) + 1
 			var/list/water_contents = list(/datum/reagent/water/blessed = water_qty)
-			if(user.patron.type == /datum/patron/inhumen/zizo)
+			if(user.patron.type == /datum/patron/inhumen/archdevils)
 				water_contents = list(/datum/reagent/water/cursed = water_qty)
 
 			var/datum/reagents/reagents_to_add = new()

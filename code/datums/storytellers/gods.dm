@@ -398,9 +398,9 @@
 
 // INHUMEN
 
-/datum/storyteller/zizo
-	name = ZIZO
-	desc = "One Envy thrives on risk and reward, favoring the daring and unpredictable."
+/datum/storyteller/envy
+	name = ENVY
+	desc = "The One Envy thrives on risk and reward, favoring the daring and unpredictable."
 	welcome_text = "You will kneel."
 	weight = 4
 	always_votable = TRUE
@@ -409,7 +409,7 @@
 	guarantees_roundstart_roleset = TRUE
 
 	tag_multipliers = list(
-		TAG_ZIZO = 3,
+		TAG_ARCHDEVILS = 3,
 		TAG_MAGICAL = 1.5,
 		TAG_UNEXPECTED = 1.5,
 		TAG_TRICKERY = 1.25,
@@ -427,7 +427,7 @@
 
 	influence_sets = list(
 		"Set 1" = list(
-			STATS_ZIZO_PRAISED = list("name" = "One Envy praised:", "points" = 1.25, "capacity" = 45),
+			STATS_ARCHDEVILS_PRAISED = list("name" = "Archdevils praised:", "points" = 1.25, "capacity" = 45),
 			STATS_ALIVE_DARK_ELVES = list("name" = "Number of dark elves:", "points" = 6.75, "capacity" = 60),
 		),
 		"Set 2" = list(

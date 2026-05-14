@@ -52,9 +52,9 @@
 	switch(spawned.patron?.type)
 		if(/datum/patron/inhumen/archdevils)
 			spawned.cmode_music = 'sound/music/cmode/antag/combat_werewolf.ogg'
-		if(/datum/patron/inhumen/archdevils_zizo)
+		if(/datum/patron/inhumen/sages)
 			spawned.cmode_music = 'sound/music/cmode/antag/combat_werewolf.ogg'
-		if(/datum/patron/inhumen/zizo)
+		if(/datum/patron/inhumen/envy)
 			spawned.cmode_music = 'sound/music/cmode/antag/combat_cult.ogg'
 			if(!spawned.has_language(/datum/language/undead))
 				spawned.grant_language(/datum/language/undead)
@@ -93,7 +93,7 @@
 			pants = /obj/item/clothing/pants/platelegs/archdevils
 			shoes = /obj/item/clothing/shoes/boots/armor/archdevils
 			cloak = /obj/item/clothing/cloak/archdevils
-		if(/datum/patron/inhumen/archdevils_zizo)
+		if(/datum/patron/inhumen/sages)
 			head = /obj/item/clothing/head/helmet/heavy/archdevils
 			armor = /obj/item/clothing/armor/plate/full/archdevils
 			gloves = /obj/item/clothing/gloves/plate/archdevils
@@ -101,12 +101,12 @@
 			shoes = /obj/item/clothing/shoes/boots/armor/archdevils
 			cloak = /obj/item/clothing/cloak/archdevils
 			H.cmode_music = 'sound/music/cmode/antag/combat_werewolf.ogg'
-		if(/datum/patron/inhumen/zizo)
-			head = /obj/item/clothing/head/helmet/visored/zizo
-			armor = /obj/item/clothing/armor/plate/full/zizo
-			gloves = /obj/item/clothing/gloves/plate/zizo
-			pants = /obj/item/clothing/pants/platelegs/zizo
-			shoes = /obj/item/clothing/shoes/boots/armor/zizo
+		if(/datum/patron/inhumen/envy)
+			head = /obj/item/clothing/head/helmet/visored/envy
+			armor = /obj/item/clothing/armor/plate/full/envy
+			gloves = /obj/item/clothing/gloves/plate/envy
+			pants = /obj/item/clothing/pants/platelegs/envy
+			shoes = /obj/item/clothing/shoes/boots/armor/envy
 		if(/datum/patron/inhumen/deceivers)
 			head = /obj/item/clothing/head/helmet/heavy/deceivers
 			armor = /obj/item/clothing/armor/plate/full/deceivers

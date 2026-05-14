@@ -59,6 +59,6 @@
 /datum/targetting_datum/basic/zizoid/can_attack(mob/living/living_mob, atom/the_target)
 	if(isliving(the_target))
 		var/mob/living/target = the_target
-		if(target.mind?.has_antag_datum(/datum/antagonist/zizocultist))
+		if(target.mind?.has_antag_datum(/datum/antagonist/archdevilcultist))
 			return FALSE
 	. = ..()

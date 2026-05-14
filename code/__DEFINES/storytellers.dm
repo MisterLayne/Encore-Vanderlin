@@ -11,7 +11,7 @@
 #define TAG_GOLERKANH "Goler Kanh"
 #define TAG_POMETTE "Pomette"
 #define TAG_GANI "Gani"
-#define TAG_ZIZO "The One Envy"
+#define TAG_ENVY "The One Envy"
 #define TAG_HERTANNEA "Hertannea"
 #define TAG_ARCHDEVILS "The Archdevils"
 #define TAG_DECEIVERS "The Deceivers"
@@ -58,7 +58,7 @@
 /// Tag for water-related actions or effects, used by Mjallidhorn
 #define TAG_WATER "Water"
 
-/// Tag representing magical influence or events, used by Akan and Zizo
+/// Tag representing magical influence or events, used by Akan and the One Envy
 #define TAG_MAGICAL "Magical"
 
 /// Tag denoting battle-related effects, associated with Archdevils
@@ -73,10 +73,10 @@
 /// Tag for gambling-related systems or events, used by Iliope
 #define TAG_GAMBLE "Gamble"
 
-/// Tag symbolizing trickery, mischief, or deception, belonging to Zizo and Iliope
+/// Tag symbolizing trickery, mischief, or deception, belonging to the One Envy and Iliope
 #define TAG_TRICKERY "Trickery"
 
-/// Tag representing unexpected outcomes or randomness, tied to Zizo and Iliope
+/// Tag representing unexpected outcomes or randomness, tied to the One Envy and Iliope
 #define TAG_UNEXPECTED "Unexpected"
 
 /// Tag representing insanity-related mechanics, used by Hertannea and Dendor
@@ -196,7 +196,7 @@
 
 /// Inhumen pantheon storytellers
 #define INHUMEN_STORYTELLERS list( \
-	/datum/storyteller/zizo, \
+	/datum/storyteller/envy, \
 	/datum/storyteller/hertannea, \
 	/datum/storyteller/archdevils, \
 	/datum/storyteller/deceivers, \
@@ -219,7 +219,7 @@
 #define DIVINE_CENTRIST "Elementalist"
 
 // Inhumen pantheon
-#define ZIZO "One Envy"
+#define ENVY "One Envy"
 #define HERTANNEA "Hertannea"
 #define ARCHDEVILS "Archdevils"
 #define DECEIVERS "Deceivers"

@@ -108,20 +108,20 @@
 //////////////////////
 /// INHUMEN CURSES ///
 //////////////////////
-/datum/curse/zizo
+/datum/curse/envy
 	name = "One Envy's Curse"
 	description = "I can no longer distinguish reality from delusion."
-	trait = TRAIT_ZIZO_CURSE
+	trait = TRAIT_ENVY_CURSE
 	/// Chance to call hallucination handle procs on life
 	var/hallucination_prob = 100
 	var/atom/movable/screen/fullscreen/maniac/hallucinations
 
-/datum/curse/zizo/minor
+/datum/curse/envy/minor
 	name = "One Envy's Minor Curse"
 	description = "I struggle to distinguish reality from delusion."
 	hallucination_prob = 10
 
-/datum/curse/schizophrenic //zizo curse but without the jumpscares and meta hallucinations
+/datum/curse/schizophrenic //envy curse but without the jumpscares and meta hallucinations
 	name = "Schizophrenic"
 	description = "I can see and hear things others cannot."
 	trait = TRAIT_SCHIZO_FLAW
@@ -156,11 +156,11 @@
 	owner.set_patron(old_patron)
 	owner.cure_trauma_type(/datum/brain_trauma/mild/phobia/religion)
 
-/datum/curse/zizo/on_gain(mob/living/carbon/human/owner)
+/datum/curse/envy/on_gain(mob/living/carbon/human/owner)
 	. = ..()
 	hallucinations = owner.overlay_fullscreen("maniac", /atom/movable/screen/fullscreen/maniac)
 
-/datum/curse/zizo/on_loss(mob/living/carbon/human/owner)
+/datum/curse/envy/on_loss(mob/living/carbon/human/owner)
 	. = ..()
 	hallucinations = null
 
@@ -218,7 +218,7 @@
 		break
 
 // Currently calls maniac hallucinations
-/datum/curse/zizo/on_life(mob/living/carbon/human/owner)
+/datum/curse/envy/on_life(mob/living/carbon/human/owner)
 	. = ..()
 	if(prob(hallucination_prob))
 		handle_maniac_visions(owner, hallucinations)

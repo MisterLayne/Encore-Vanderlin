@@ -109,7 +109,7 @@
 
 //................ One Envy Armor ...............//
 
-/obj/item/clothing/armor/plate/full/zizo
+/obj/item/clothing/armor/plate/full/envy
 	name = "darksteel fullplate"
 	desc = "Full plate. Called forth from the edge of what should be known. In Her name."
 	icon_state = "zizoplate"

@@ -224,7 +224,7 @@
 		INVOKE_ASYNC(src, PROC_REF(emote), "breathgasp", forced = TRUE)
 		shake_camera(src, 1, 3)
 		set_eye_blur_if_lower(80 SECONDS)
-		var/stuffy = list("ZIZO GRABS MY WEARY HEART!","ARGH! MY HEART BEATS NO MORE!","NO... MY HEART HAS BEAT IT'S LAST!","MY HEART HAS GIVEN UP!","MY HEART BETRAYS ME!","THE METRONOME OF MY LIFE STILLS!")
+		var/stuffy = list("ENVY GRABS MY WEARY HEART!","ARGH! MY HEART BEATS NO MORE!","NO... MY HEART HAS BEAT IT'S LAST!","MY HEART HAS GIVEN UP!","MY HEART BETRAYS ME!","THE METRONOME OF MY LIFE STILLS!")
 		to_chat(src, "<span class='userdanger'>[pick(stuffy)]</span>")
 		addtimer(CALLBACK(src, PROC_REF(set_heartattack), TRUE), 3 SECONDS) //no penthrite so just doing this
 		// addtimer(CALLBACK(src, PROC_REF(adjustOxyLoss), 110), 30) This was commented out because the heart attack already kills, why put people into oxy crit instantly?

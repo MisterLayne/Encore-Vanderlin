@@ -5,7 +5,7 @@
  */
 
 GLOBAL_LIST_INIT(deceivers_aggro, file2list("strings/rt/deceiversaggrolines.txt"))
-GLOBAL_LIST_INIT(zizo_aggro, file2list("strings/rt/zizoaggrolines.txt"))
+GLOBAL_LIST_INIT(envy_aggro, file2list("strings/rt/zizoaggrolines.txt"))
 GLOBAL_LIST_INIT(archdevils_aggro, file2list("strings/rt/archdevilsaggrolines.txt"))
 GLOBAL_LIST_INIT(hedgeknight_aggro, file2list("strings/rt/hedgeknightaggrolines.txt"))
 
@@ -61,7 +61,7 @@ GLOBAL_LIST_INIT(hedgeknight_aggro, file2list("strings/rt/hedgeknightaggrolines.
 			if(2)
 				preset = "deceivers"
 			if(3)
-				preset = "zizo"
+				preset = "envy"
 			if(4)
 				preset = "hedgeknight"
 
@@ -74,11 +74,11 @@ GLOBAL_LIST_INIT(hedgeknight_aggro, file2list("strings/rt/hedgeknightaggrolines.
 			equipOutfit(new /datum/outfit/job/quest_miniboss/deceivers)
 			SEND_SIGNAL(src, COMSIG_MOB_MODIFY_AGGRO_LINES, GLOB.deceivers_aggro, TRUE)
 			SEND_SIGNAL(src, COMSIG_MOB_MODIFY_DEATH_LINES, list("Deceivers, I have failed you...", "Deceivers, is this true?!"), TRUE)
-		if ("zizo")
+		if ("envy")
 			ADD_TRAIT(src, TRAIT_CABAL, TRAIT_GENERIC)
-			equipOutfit(new /datum/outfit/job/quest_miniboss/zizo)
-			SEND_SIGNAL(src, COMSIG_MOB_MODIFY_AGGRO_LINES, GLOB.zizo_aggro, TRUE)
-			SEND_SIGNAL(src, COMSIG_MOB_MODIFY_DEATH_LINES, list("Zizo, forgive me!"), TRUE)
+			equipOutfit(new /datum/outfit/job/quest_miniboss/envy)
+			SEND_SIGNAL(src, COMSIG_MOB_MODIFY_AGGRO_LINES, GLOB.envy_aggro, TRUE)
+			SEND_SIGNAL(src, COMSIG_MOB_MODIFY_DEATH_LINES, list("My beloved, forgive me!"), TRUE)
 		if ("hedgeknight")
 			if(prob(50))
 				equipOutfit(new /datum/outfit/job/quest_miniboss/hedge_knight)
@@ -172,15 +172,15 @@ GLOBAL_LIST_INIT(hedgeknight_aggro, file2list("strings/rt/hedgeknightaggrolines.
 	r_hand = /obj/item/weapon/flail/peasantwarflail/deceivers
 	mask = /obj/item/clothing/face/facemask/steel
 
-/datum/outfit/job/quest_miniboss/zizo/pre_equip(mob/living/carbon/human/H)
+/datum/outfit/job/quest_miniboss/envy/pre_equip(mob/living/carbon/human/H)
 	. = ..()
 
-	armor = /obj/item/clothing/armor/plate/full/zizo
-	pants = /obj/item/clothing/pants/platelegs/zizo
-	shoes = /obj/item/clothing/shoes/boots/armor/zizo
+	armor = /obj/item/clothing/armor/plate/full/archdevils
+	pants = /obj/item/clothing/pants/platelegs/archdevils
+	shoes = /obj/item/clothing/shoes/boots/armor/archdevils
 	wrists = /obj/item/clothing/wrists/bracers
-	gloves = /obj/item/clothing/gloves/plate/zizo
-	head = /obj/item/clothing/head/helmet/heavy/zizo
+	gloves = /obj/item/clothing/gloves/plate/archdevils
+	head = /obj/item/clothing/head/helmet/heavy/archdevils
 	neck = /obj/item/clothing/neck/gorget
 	r_hand = /obj/item/weapon/sword/long
 	mask = /obj/item/clothing/face/facemask/steel
@@ -242,8 +242,8 @@ GLOBAL_LIST_INIT(hedgeknight_aggro, file2list("strings/rt/hedgeknightaggrolines.
 /mob/living/carbon/human/species/human/northern/deranged_knight/deceivers
 	forced_preset = "deceivers"
 
-/mob/living/carbon/human/species/human/northern/deranged_knight/zizo
-	forced_preset = "zizo"
+/mob/living/carbon/human/species/human/northern/deranged_knight/envy
+	forced_preset = "envy"
 
 /mob/living/carbon/human/species/human/northern/deranged_knight/archdevils
 	forced_preset = "archdevils"

@@ -401,12 +401,12 @@ SUBSYSTEM_DEF(gamemode)
 					"... they follow the alpha's scent... and dream of killing him",
 					"... a low growl rumbles under moonlight... fur and fury rise"
 				),
-			/datum/antagonist/zizocultist = list(
+			/datum/antagonist/archdevilcultist = list(
 					"...a circle chants beneath shifting stars... their eyes are wrong",
 					"...ink flows upward... the words burn in reverse",
 					"...your thoughts are not your own... they hum in unison"
 				),
-			/datum/antagonist/zizocultist/leader = list(
+			/datum/antagonist/archdevilcultist/leader = list(
 					"... a silent servant tends to a spiral... it never ends",
 					"... you hand someone a book... you've never seen it before",
 					"... something stands just behind your shoulder... always just behind"

@@ -197,7 +197,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 
 	alignments = list(
 		/datum/patron/divine/visires = 1,
-		/datum/patron/inhumen/zizo = 0.25,
+		/datum/patron/inhumen/envy = 0.25,
 		/datum/patron/divine/akan = 0.15,
 		/datum/patron/divine/golerkanh = 1.2,
 	)
@@ -208,7 +208,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 
 	alignments = list(
 		/datum/patron/divine/akan = 1,
-		/datum/patron/inhumen/zizo = 0.4,
+		/datum/patron/inhumen/envy = 0.4,
 	)
 
 /datum/attunement/electric
@@ -217,7 +217,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 
 	alignments = list(
 		/datum/patron/divine/akan = 0.25,
-		/datum/patron/inhumen/zizo = 0.15,
+		/datum/patron/inhumen/envy = 0.15,
 		/datum/patron/divine/mjallidhorn = 0.5,
 	)
 
@@ -229,7 +229,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 		/datum/patron/divine/mjallidhorn = 2,
 		/datum/patron/divine/erdl = 0.5,
 		/datum/patron/divine/gani = 0.5,
-		/datum/patron/inhumen/zizo = 1,
+		/datum/patron/inhumen/envy = 1,
 		/datum/patron/inhumen/archdevils = 2,
 	)
 
@@ -249,7 +249,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 
 	alignments = list(
 		/datum/patron/divine/valdala = 0.5,
-		/datum/patron/inhumen/zizo = 0.5,
+		/datum/patron/inhumen/envy = 0.5,
 	)
 
 
@@ -281,7 +281,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 	desc = "Able to subtract Light, combine with other elements, and manifest on its own."
 
 	alignments = list(
-		/datum/patron/inhumen/zizo = 0.15,
+		/datum/patron/inhumen/envy = 0.15,
 		/datum/patron/inhumen/hertannea = 0.15,
 		/datum/patron/inhumen/archdevils = 0.15,
 		/datum/patron/inhumen/deceivers = 0.15,
@@ -311,7 +311,7 @@ GLOBAL_LIST_INIT(attunement_colors, list(
 
 	alignments = list(
 		/datum/patron/divine/akan = 2,
-		/datum/patron/inhumen/zizo = 1.2,
+		/datum/patron/inhumen/envy = 1.2,
 	)
 
 /datum/attunement/illusion

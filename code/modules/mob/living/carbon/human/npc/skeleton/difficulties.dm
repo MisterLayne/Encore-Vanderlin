@@ -211,7 +211,7 @@
 		wrists = /obj/item/clothing/wrists/bracers/ancient
 		pants = /obj/item/clothing/pants/platelegs/iron
 		shoes = /obj/item/clothing/shoes/boots/armor/light
-		neck = /obj/item/clothing/neck/psycross/zizo
+		neck = /obj/item/clothing/neck/psycross/heretical
 		gloves = /obj/item/clothing/gloves/chain/iron
 		r_hand = /obj/item/weapon/sword/sabre/cutlass
 		l_hand = /obj/item/weapon/sword/sabre/cutlass

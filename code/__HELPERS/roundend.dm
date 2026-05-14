@@ -115,7 +115,7 @@
 
 	INVOKE_ASYNC(world, TYPE_PROC_REF(/world, flush_byond_tracy))
 
-	to_chat(world, "<BR><BR><BR><span class='reallybig'>So ends this tale of Vanderlin.</span>")
+	to_chat(world, "<BR><BR><BR><span class='reallybig'>So ends this tale on Domotan Island.</span>")
 	get_end_reason()
 
 	var/list/key_list = list()
@@ -205,17 +205,17 @@
 	var/end_reason
 
 	if(!check_for_lord(TRUE)) //TRUE forces the check, otherwise it will autofail.
-		end_reason = pick("Without a Monarch, the forces of One Envy grew ever bolder.",
-						"Without a Monarch, the settlement fell into turmoil.",
-						"Without a Monarch, some jealous rival reigned in tyranny.")
+		end_reason = pick("Without a Regent, the forces of Hell grew ever bolder.",
+						"Without a Regent, Etgard fell into turmoil.",
+						"Without a Regent, some jealous rival reigned in tyranny.")
 
 	if(vampire_werewolf() == "vampire")
 		end_reason = "When the Vampires finished sucking the town dry, they moved on to the next one."
 	if(vampire_werewolf() == "werewolf")
-		end_reason = "The Werevolves formed an unholy clan, marauding Rockhill until the end of its daes."
+		end_reason = "The Werevolves formed an unholy clan, marauding the island until the end of its daes."
 
 	if(SSmapping.retainer.cult_ascended)
-		end_reason = "ZIZOZIZOZIZOZIZO"
+		end_reason = "THE FIRMAMENT HAS FALLEN!"
 
 	if(SSmapping.retainer.head_rebel_decree)
 		end_reason = "The peasant rebels took control of the throne, hail the new community!"

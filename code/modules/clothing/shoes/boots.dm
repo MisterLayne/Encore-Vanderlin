@@ -194,7 +194,7 @@
 
 //............... Evil Boots ............... //
 
-/obj/item/clothing/shoes/boots/armor/zizo
+/obj/item/clothing/shoes/boots/armor/envy
 	name = "darksteel boots"
 	desc = "Plate boots. Called forth from the edge of what should be known. In Her name."
 	icon_state = "zizoboots"

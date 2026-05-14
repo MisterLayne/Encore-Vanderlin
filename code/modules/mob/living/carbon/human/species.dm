@@ -320,7 +320,7 @@ GLOBAL_LIST_EMPTY(roundstart_species)
 			return strings("accents/triton_replacement.json", "triton")
 		if("Pirate")
 			return strings("accents/pirate_replacement.json", "pirate")
-		if("Zizo Chant")
+		if("Bonesong")
 			return
 	return
 
@@ -415,7 +415,7 @@ GLOBAL_LIST_EMPTY(roundstart_species)
 				/datum/language/deepspeak = "Deepspeak",
 				/datum/language/oldunsundered = "Old Unsundered",
 				/datum/language/newunsundered = "Unsundered",
-				/datum/language/undead = "Zizo Chant"
+				/datum/language/undead = "Bonesong"
 			)
 
 			if (language in language_map)

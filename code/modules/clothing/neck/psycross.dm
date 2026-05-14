@@ -17,9 +17,9 @@
 
 // INHUMEN PSYCROSSES
 
-/obj/item/clothing/neck/psycross/zizo
-	name = "Amulet of Zizo"
-	desc = "Through power dominate, through domination rule, through Zizo become the divinity you were always meant to be."
+/obj/item/clothing/neck/psycross/heretical
+	name = "heretical amulet"
+	desc = "Through power dominate, through domination rule, through the Flesh become the divinity you were always meant to be."
 	icon_state = "zcross"
 	slot_flags = ITEM_SLOT_NECK|ITEM_SLOT_HIP|ITEM_SLOT_WRISTS
 	sellprice = 0
