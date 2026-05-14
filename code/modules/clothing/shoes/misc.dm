@@ -112,7 +112,7 @@
 
 /obj/item/clothing/shoes/shalal
 	name = "babouche"
-	desc = "Leather slippers of Zaladin origin."
+	desc = "Leather slippers of Qadirid origin."
 	gender = PLURAL
 	icon_state = "shalal"
 	item_state = "shalal"
@@ -136,8 +136,8 @@
 	. = ..()
 	AddComponent(/datum/component/squeak, custom_sounds = list(SFX_JINGLE_BELLS), step_delay_override = 2, falloff_exponent = 20)
 
-/obj/item/clothing/shoes/rare/grenzelhoft
-	name = "grenzelhoft boots"
+/obj/item/clothing/shoes/rare/sterkenstadten
+	name = "sterkenstadten boots"
 	icon_state = "grenzelboots"
 	item_state = "grenzelboots"
 	sleeved = 'icons/roguetown/clothing/onmob/helpers/stonekeep_merc.dmi'
@@ -146,7 +146,7 @@
 	wetable = FALSE
 
 /obj/item/clothing/shoes/otavan
-	name = "grenzelhoftian leather boots"
+	name = "aelondan leather boots"
 	desc = "Boots of outstanding craft, your fragile feet have never felt so protected and comfortable before."
 	body_parts_covered = FEET
 	icon_state = "fencerboots"
@@ -163,9 +163,9 @@
 	icon_state = "inqboots"
 	item_state = "inqboots"
 
-//Valorian Duelist Merc - On par with grenzelhoftian's stats.
+//Aelondan Duelist Merc - On par with grenzelhoftian's stats.
 /obj/item/clothing/shoes/nobleboot/duelboots
-	desc = "Boots custom fit for a Valorian Duelist. Footwork is paramount in a duel, so good boots are a must."
+	desc = "Boots custom fit for a Aelondan Duelist. Footwork is paramount in a duel, so good boots are a must."
 	armor = list("blunt" = 25, "slash" = 25, "stab" = 25,  "piercing" = 15, "fire" = 0, "acid" = 0)
 
 /obj/item/clothing/shoes/angrosboots

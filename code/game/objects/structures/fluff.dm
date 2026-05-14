@@ -1182,13 +1182,13 @@
 
 /obj/structure/fluff/psycross/psycrucifix
 	name = "wooden unsundered crucifix"
-	desc = "A rarely seen symbol of absolute and devoted certainty, more common in Grenzelhoft: HE yet lives. HE yet breathes."
+	desc = "A rarely seen symbol of absolute and devoted certainty, somewhat ominously declaring that Angros will return."
 	icon_state = "psycruci"
 	max_integrity = 80
 
 /obj/structure/fluff/psycross/psycrucifix/stone
 	name = "stone unsundered crucifix"
-	desc = "Formed of stone, this great Psycross symbolises that HE is forever ENDURING. Considered a rare sight upon the Peaks."
+	desc = "A rarely seen symbol of absolute and devoted certainty, somewhat ominously declaring that Angros will return."
 	icon_state = "psycruci_r"
 	max_integrity = 120
 

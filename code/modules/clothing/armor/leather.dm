@@ -157,7 +157,7 @@
 /obj/item/clothing/armor/leather/jacket/artijacket
 	name = "artificer jacket"
 	icon_state = "artijacket"
-	desc = "A thick leather jacket adorned with fur and cog decals. The height of Heartfelt fashion."
+	desc = "A thick leather jacket adorned with fur and cog decals. The height of Dunnish fashion."
 
 /obj/item/clothing/armor/leather/jacket/artijacket/porter
 	name = "leather jacket"
@@ -324,7 +324,7 @@
 
 /obj/item/clothing/armor/leather/jacket/leathercoat/duelcoat
 	name = "black leather coat"
-	desc = "A stylish coat worn by the Duelists of Valoria. Light and flexible, it doesn't impede the complex movements they are known for, Seems to be well-padded."
+	desc = "A stylish coat worn by the Duelists of Aelonda. Light and flexible, it doesn't impede the complex movements they are known for, Seems to be well-padded."
 	icon_state = "bwleathercoat"
 	boobed = TRUE
 	armor = ARMOR_LEATHER_GOOD
@@ -346,7 +346,7 @@
 
 /obj/item/clothing/armor/leather/studded/psyaltrist
 	name = "cuir-bouilli armor"
-	desc = "Treated, water-boiled and composite-layered leather armor of fine Grenzelhoftian make."
+	desc = "Treated, water-boiled and composite-layered leather armor of fine Aelondan make."
 	icon_state = "cuirbouilli"
 	item_state = "cuirbouilli"
 
@@ -373,9 +373,9 @@
 
 // gronnic subtype
 /obj/item/clothing/armor/leather/gronn
-	name = "osslandic ravager mantle"
+	name = "nortic ravager mantle"
 	desc = "A carefully created mantle of bone and hardened leather. It offers superior protection against the threats of the wild while remaining light, \
-			A popular design in Ossland is to adorn a shoulder with a wolf pelt, a symbol of the Great Hunt."
+			A popular design in Nortmidst is to adorn a shoulder with a wolf pelt, a symbol of the Great Hunt."
 	icon = 'icons/roguetown/clothing/special/gronn.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/gronn.dmi'
 	icon_state = "gronnleatherarmor"

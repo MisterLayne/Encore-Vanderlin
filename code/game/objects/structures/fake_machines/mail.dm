@@ -241,8 +241,8 @@ GLOBAL_LIST_EMPTY(letters_sent)
 	var/turf/drop_location = drop_location()
 	switch(H.merctype)
 		if(0) new /obj/item/clothing/neck/shalal(drop_location)
-		if(1) new /obj/item/clothing/neck/mercmedal/zaladin(drop_location)
-		if(2) new /obj/item/clothing/neck/mercmedal/grenzelhoft(drop_location)
+		if(1) new /obj/item/clothing/neck/mercmedal/qadirid(drop_location)
+		if(2) new /obj/item/clothing/neck/mercmedal/sterkenstadten(drop_location)
 		if(3) new /obj/item/clothing/neck/mercmedal/underdweller(drop_location)
 		if(4) new /obj/item/clothing/neck/mercmedal/blackoak(drop_location)
 		if(5) new /obj/item/clothing/neck/mercmedal/steppesman(drop_location)
@@ -579,11 +579,11 @@ GLOBAL_LIST_EMPTY(letters_sent)
 	if(tgui_alert(user, "Send Mail?", "Confirm", list("YES","NO")) != "YES")
 		return
 
-	var/send_to = browser_input_text(user, "Where to? (Person or #number)", "Vanderlin", null)
+	var/send_to = browser_input_text(user, "Where to? (Person or #number)", "Domotan", null)
 	if(!send_to)
 		return
 
-	var/sent_from = browser_input_text(user, "Who is this from?", "Vanderlin", null)
+	var/sent_from = browser_input_text(user, "Who is this from?", "Domotan", null)
 	if(!sent_from)
 		sent_from = "Anonymous"
 

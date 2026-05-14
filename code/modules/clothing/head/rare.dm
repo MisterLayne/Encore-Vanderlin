@@ -53,9 +53,9 @@
 	item_weight = 3.5 KILOGRAMS
 
 //............... Swordmaster Helmet ............... //
-/obj/item/clothing/head/rare/grenzelplate // Unique Swordmaster kit
+/obj/item/clothing/head/rare/bastardsplate // Unique Swordmaster kit
 	name = "chicklet sallet"
-	desc = "A Grenzelhoftian chicklet sallet, decorated with a plume of valor. \
+	desc = "A high Aelondan chicklet sallet, decorated with a plume of valor. \
 			It has been proven with severe battle-testing that a wearer's head would crack before the helmet chips."
 	icon_state = "human_swordhead"
 	allowed_sex = list(MALE)
@@ -66,10 +66,10 @@
 	item_weight = 3.5 KILOGRAMS
 
 
-//............... Kataphract/bastion/spear/zaladin Helmet ............... //
-/obj/item/clothing/head/rare/zaladplate // Unique Freelancer kit
+//............... Kataphract/bastion/spear/qadirid Helmet ............... //
+/obj/item/clothing/head/rare/qadiridplate // Unique Freelancer kit
 	name = "bastion helm"
-	desc = "The Zaladin Kataphractoe are the ancestral guardians of the first Despot, \
+	desc = "The Qadirid Kataphractoe are the ancestral guardians of the first Despot, \
 			their helms designed in the fashion of the capital's majestic sky-piercing tower \
 			where the old God-King resided."
 	icon_state = "human_spearhead"

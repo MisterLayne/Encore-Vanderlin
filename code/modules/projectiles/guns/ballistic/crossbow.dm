@@ -24,7 +24,7 @@
 /obj/item/gun/ballistic/bow/cross/slur
 	name = "slurbow"
 	desc = "A lighter weight crossbow with a distinct barrel shroud holding the bolt in place. Light enough to arm by hand. \n\
-		They're popular among highwaymen and the patrolling lamplighters of Grenzelhoft."
+		They're popular among highwaymen and the patrolling lamplighters of Aelonda."
 	icon_state = "slurbow"
 	base_icon_state = "slurbow"
 	possible_item_intents = list(/datum/intent/shoot/crossbow/slurbow, /datum/intent/arc/crossbow, INTENT_GENERIC)

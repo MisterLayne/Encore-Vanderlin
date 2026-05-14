@@ -213,8 +213,8 @@
 	foodtype = EGG
 	item_weight = 100 GRAMS
 
-/obj/item/reagent_containers/food/snacks/cooked/valorian_omlette
-	name = "valorian omelette"
+/obj/item/reagent_containers/food/snacks/cooked/aelondan_omlette
+	name = "aelondan omelette"
 	desc = "Fried cackleberries on a bed of half-melted cheese, a dish from distant lands."
 	tastes = list("fried cackleberries" = 1, "cheese" = 1)
 	icon_state = "omelette"
@@ -528,7 +528,7 @@
 /*	.............   Sausages on sticks   ................ */
 /obj/item/reagent_containers/food/snacks/cooked/sausage_sticked
 	name = "sausage onna stick"
-	desc = "A sausage skewered for convenience and cleanliness, classic Grenzelhoftian street food."
+	desc = "A sausage skewered for convenience and cleanliness, classic Sterkenstadten street food."
 	nutrition = COOKED_SAUSAGE_NUTRITION
 	icon_state = "sausageonastick"
 	tastes = list("savory sausage" = 2)
@@ -552,7 +552,7 @@
 
 /obj/item/reagent_containers/food/snacks/cooked/griddledog
 	name = "griddledog"
-	desc = "A classic piece of Grenzelhoftian street food, the fried butterdough is a Vanderlinian adulteration."
+	desc = "A classic piece of Sterkenstadten street food, the fried butterdough is a Doman adulteration."
 	nutrition = COOKED_SAUSAGE_NUTRITION + BUTTERDOUGHSLICE_NUTRITION * COOK_MOD
 	icon_state = "griddledog"
 	tastes = list("savory sausage" = 2, "crispy butterdough" = 1)

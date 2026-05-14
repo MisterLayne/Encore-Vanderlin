@@ -55,13 +55,11 @@
 	blocksound = PLATEHIT
 	item_weight = 2.1 KILOGRAMS
 
-/obj/item/clothing/shoes/boots/rare/grenzelplate
-	name = "grenzelhoft \"Elvenbane\" sabatons"
+/obj/item/clothing/shoes/boots/rare/bastardsplate
+	name = "high aelondan sabatons"
 	allowed_race = list(SPEC_ID_HUMEN, SPEC_ID_AASIMAR)
 	allowed_sex = list(MALE)
-	desc = "The sabatons that march to the tune of a glorious nation. It is said that the boots \
-			are gilded with the tears of elves within Grenzelhoft lands, \
-			as their great tree was reduced to shards."
+	desc = "The sabatons that guided the King's men to the Good Bastard in the first mythos of Aelonda."
 	body_parts_covered = FEET|LEGS
 	icon_state = "human_swordshoes"
 	item_state = "human_swordshoes"
@@ -69,11 +67,11 @@
 	blocksound = PLATEHIT
 	item_weight = 2.1 KILOGRAMS
 
-/obj/item/clothing/shoes/boots/rare/zaladplate
-	name = "Zaladin segmented plate boots"
+/obj/item/clothing/shoes/boots/rare/qadiridplate
+	name = "Qadirid segmented plate boots"
 	allowed_race = list(SPEC_ID_HUMEN)
 	allowed_sex = list(MALE)
-	desc = "The segmented plate boots are a recent alteration to the Zaladin Elite, \
+	desc = "The segmented plate boots are a recent alteration to the Qadirid Elite, \
 			many old warriors decorate their own by tieing ribbons and other knick-knacks \
 			as a homage to the colorful socks they wore in simpler times."
 	body_parts_covered = FEET|LEGS

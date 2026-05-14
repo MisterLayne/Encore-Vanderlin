@@ -14,15 +14,15 @@
 
 /datum/job/advclass/combat/swordmaster
 	title = "Hedge Knight"
-	tutorial = "You spent years serving the eastern Grenzelhoftian lords, and now you spend your days as a travelling hedge knight. Upon this island, you like to increase the fame of your sword skills, as well as your honor."
+	tutorial = "You spent years serving Aelondan lords, and now you spend your days as a travelling hedge knight. Upon this island, you like to increase the fame of your sword skills, as well as your honor."
 	allowed_sexes = list(MALE)
-	allowed_races = list(SPEC_ID_HUMEN, SPEC_ID_AASIMAR) // not RACES_PLAYER_GRENZ because dwarves don't have a sprite for this armor
+	allowed_races = list(SPEC_ID_HUMEN, SPEC_ID_AASIMAR) // not RACES_PLAYER_GERAMOR because dwarves don't have a sprite for this armor
 	outfit = /datum/outfit/folkhero/swordmaster
 	total_positions = 1
 	category_tags = list(CTAG_FOLKHEROES)
 	cmode_music = 'sound/music/cmode/combat_grenzelhoft.ogg'
-	honorary = "Ritter"
-	honorary_f = "Ritterin"
+	honorary = "Ser"
+	honorary_f = "Dame"
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/swordmaster
 
@@ -46,12 +46,12 @@
 	pants = /obj/item/clothing/pants/tights/colored/black
 	backr = /obj/item/weapon/sword/long/greatsword/flamberge
 	beltl = /obj/item/storage/belt/pouch/coins/mid
-	shoes = /obj/item/clothing/shoes/boots/rare/grenzelplate
-	gloves = /obj/item/clothing/gloves/rare/grenzelplate
+	shoes = /obj/item/clothing/shoes/boots/rare/bastardsplate
+	gloves = /obj/item/clothing/gloves/rare/bastardsplate
 	belt = /obj/item/storage/belt/leather
 	shirt = /obj/item/clothing/armor/gambeson
-	armor = /obj/item/clothing/armor/rare/grenzelplate
+	armor = /obj/item/clothing/armor/rare/bastardsplate
 	backl = /obj/item/storage/backpack/satchel
-	head = /obj/item/clothing/head/rare/grenzelplate
+	head = /obj/item/clothing/head/rare/bastardsplate
 	wrists = /obj/item/clothing/wrists/bracers
 	neck = /obj/item/clothing/neck/chaincoif

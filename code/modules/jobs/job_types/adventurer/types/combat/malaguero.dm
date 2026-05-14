@@ -18,8 +18,8 @@
 	)
 
 /datum/job/advclass/combat/malaguero
-	title = "Malaguero Deserter"
-	tutorial = "A former soldier fighting against the forces of Zizo, something drove you to flee your post. Now, you fight for coin, rather than for the authority and command of generals you would never meet."
+	title = "Qadirid Deserter"
+	tutorial = "A former indentured daemonic soldier fighting under the Burning Banner, something drove you to flee your post. Now, you fight for coin, rather than for the authority and command of generals you would never meet."
 	allowed_races = list(SPEC_ID_TIEFLING)
 	outfit = /datum/outfit/malaguero
 	attribute_sheet = /datum/attribute_holder/sheet/job/malaguero
@@ -36,7 +36,7 @@
 	neck = /obj/item/clothing/neck/coif
 	pants = /obj/item/clothing/pants/trou/leather
 	shoes = /obj/item/clothing/shoes/boots
-	gloves = /obj/item/clothing/gloves/angle/grenzel
+	gloves = /obj/item/clothing/gloves/angle/sterkenstadten
 	belt = /obj/item/storage/belt/leather
 	shirt = /obj/item/clothing/armor/gambeson
 	head = /obj/item/clothing/head/helmet/visored/sallet/iron

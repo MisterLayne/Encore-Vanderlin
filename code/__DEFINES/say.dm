@@ -67,7 +67,7 @@
 #define SPAN_ELF "elf"
 #define SPAN_ANGROS "unsundered"
 #define SPAN_ANGROS_OLD "unsundered_old"
-#define SPAN_ZALAD "zalad"
+#define SPAN_QADIRID "qadirid"
 #define SPAN_CELESTIAL "celestial"
 #define SPAN_DELF "delf"
 #define SPAN_HELL "hellspeak"

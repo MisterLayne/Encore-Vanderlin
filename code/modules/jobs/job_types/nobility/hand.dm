@@ -2,10 +2,10 @@
 	title = JOB_HAND
 	tutorial = "You owe everything to your liege. \
 	You are the most trusted of the ruler- their sibling, in fact. \
-	You have played spymaster and confidant to the Noble-Family for so long that you are a vault of intrigue, \
+	You have played spymaster and confidant to the Shirleighs for so long that you are a vault of intrigue, \
 	something you exploit with potent conviction. Let no man ever forget whose ear you whisper into. \
 	You have killed more men with those lips than any blademaster could ever claim to.\
-	You can add and remove agents with your Frumentarii scroll"
+	You can add and remove agents with your Frumentarii scroll."
 	department_flag = NOBLEMEN
 	display_order = JDO_HAND
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
@@ -90,7 +90,7 @@
 
 /datum/job/advclass/hand/hand
 	title = JOB_HAND
-	tutorial = "You have played blademaster and strategist to the Noble-Family for so long that you are a master tactician, something you exploit with potent conviction. Let no man ever forget whose ear you whisper into. You've killed more men with swords than any spymaster could ever claim to."
+	tutorial = "You have played blademaster and strategist to the Shirleighs for so long that you are a master tactician, something you exploit with potent conviction. Let no man ever forget whose ear you whisper into. You've killed more men with swords than any spymaster could ever claim to."
 	outfit = /datum/outfit/hand/handclassic
 	category_tags = list(CTAG_HAND)
 	cmode_music = 'sound/music/cmode/nobility/combat_noble.ogg'
@@ -144,7 +144,7 @@
 
 /datum/job/advclass/hand/spymaster
 	title = "Spymaster"
-	tutorial = " You have played spymaster and confidant to the Noble-Family for so long that you are a vault of intrigue, something you exploit with potent conviction. Let no man ever forget whose ear you whisper into. You've killed more men with those lips than any blademaster could ever claim to."
+	tutorial = " You have played spymaster and confidant to the Shirleighs for so long that you are a vault of intrigue, something you exploit with potent conviction. Let no man ever forget whose ear you whisper into. You've killed more men with those lips than any blademaster could ever claim to."
 	outfit = /datum/outfit/hand/spymaster
 	category_tags = list(CTAG_HAND)
 	cmode_music = 'sound/music/cmode/nobility/CombatSpymaster.ogg'
@@ -226,7 +226,7 @@
 
 /datum/job/advclass/hand/advisor
 	title = "Advisor"
-	tutorial = " You have played researcher and confidant to the Noble-Family for so long that you are a vault of knowledge, \
+	tutorial = " You have played researcher and confidant to the Shirleighs for so long that you are a vault of knowledge, \
 	something you exploit with potent conviction. Let no man ever forget the knowledge you wield. \
 	You've read more books than any blademaster or spymaster could ever claim to."
 	outfit = /datum/outfit/hand/advisor

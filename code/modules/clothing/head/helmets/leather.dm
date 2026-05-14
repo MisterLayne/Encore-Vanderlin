@@ -148,8 +148,8 @@
 	set_light(0)
 
 /obj/item/clothing/head/leather/duelhat
-	name = "valorian duelist hat"
-	desc = "A dainty looking feathered hat that is actually quite heavy and thick, Duelists from Valoria are known to value winning fights without dirtying the white feather on top"
+	name = "aelondan duelist hat"
+	desc = "A dainty looking feathered hat that is actually quite heavy and thick, Duelists from Aelonda are known to value winning fights without dirtying the white feather on top"
 	icon_state = "duelisthat"
 	item_state = "duelisthat"
 	sewrepair = /datum/attribute/skill/craft/tanning/patching

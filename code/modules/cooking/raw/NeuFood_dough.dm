@@ -1585,8 +1585,8 @@
 	item_weight = 100 GRAMS
 
 /obj/item/reagent_containers/food/snacks/grenzelbun
-	name = "grenzelbun"
-	desc = "The classic wiener in a bun, a staple food of Grenzelhoft cuisine."
+	name = "sweetbun"
+	desc = "The classic wiener in a bun, a staple food of Aelondan cuisine."
 	icon_state = "grenzbun"
 	base_icon_state = "grenzbun"
 	bitesize = 5
@@ -1600,8 +1600,8 @@
 	item_weight = 180 GRAMS
 
 /obj/item/reagent_containers/food/snacks/grenzelbun_cocaumole
-	name = "grenzelbun with cocaumole"
-	desc = "A staple of Grenzelhoft cuisine, altered by Tiefling wanderers."
+	name = "sweetbun with cocaumole"
+	desc = "A staple of Aelondan cuisine, altered by Tiefling wanderers."
 	icon_state = "grenzbun_cocaumole"
 	bitesize = 5
 	w_class = WEIGHT_CLASS_NORMAL
@@ -1630,7 +1630,7 @@
 
 /obj/item/reagent_containers/food/snacks/cheesebun
 	name = "cheese bun"
-	desc = "A treat from the Grenzelhoft kitchen."
+	desc = "A treat from the Aelondan kitchen."
 	icon_state = "cheesebun"
 	base_icon_state = "cheesebun"
 	biting = TRUE
@@ -1793,7 +1793,7 @@
 
 /obj/item/reagent_containers/food/snacks/fritter
 	name = "apple fritter"
-	desc = "Having deep origins in the culture of Vanderlin, the humble fritter is perhaps the most patriotic pastry out there, long may it reign!"
+	desc = "Having deep origins in the culture of Domotan, the humble fritter is perhaps the most patriotic pastry out there, long may it reign!"
 	icon_state = "applefritter"
 	dropshrink = 0.8
 	tastes = list("crispy butterdough" = 1, "sweet apple bits" = 1)
@@ -1843,7 +1843,7 @@
 	item_weight = 400 GRAMS
 
 /obj/item/reagent_containers/food/snacks/zybcake
-	name = "zaladin cake base"
+	name = "qadirid cake base"
 	desc = "With this sweet thing, you shall make them sing. Lacking spider-honey glazing."
 	icon_state = "cake_filled"
 	dropshrink = 0.8
@@ -1854,9 +1854,9 @@
 	nutrition = CAKEBASE_NUTRITION + FRUIT_NUTRITION
 	item_weight = 400 GRAMS
 
-// -------------- SPIDER-HONEY CAKE (Zaladin) -----------------
+// -------------- SPIDER-HONEY CAKE (Qadirid) -----------------
 /obj/item/reagent_containers/food/snacks/zybcake_ready
-	name = "unbaked zaladin cake"
+	name = "unbaked qadirid cake"
 	icon_state = "honeycakeuncook"
 	dropshrink = 0.8
 	slices_num = 0
@@ -1870,8 +1870,8 @@
 	item_weight = 400 GRAMS
 
 /obj/item/reagent_containers/food/snacks/zybcake_cooked
-	name = "zalad cake"
-	desc = "Cake glazed with honey, in the famous Zaladin fashion, a delicious sweet treat. Said to be very hard to poison, perhaps the honey counteracting such malicious concotions."
+	name = "qadirid cake"
+	desc = "Cake glazed with honey, in the famous Qadirid fashion, a delicious sweet treat. Said to be very hard to poison, perhaps the honey counteracting such malicious concotions."
 	icon_state = "honeycake"
 	dropshrink = 0.8
 	slices_num = 6
@@ -1889,7 +1889,7 @@
 	item_weight = 600 GRAMS
 
 /obj/item/reagent_containers/food/snacks/zybcake_slice
-	name = "zalad cake slice"
+	name = "qadirid cake slice"
 	icon_state = "hcake_slice"
 	base_icon_state = "hcake_slice"
 	dropshrink = 0.8
@@ -2054,7 +2054,7 @@
 
 /obj/item/reagent_containers/food/snacks/crimsoncake_cooked
 	name = "crimson pine cake"
-	desc = "A fusion of Crimson Elf and Grenzelhoftian cuisines, the cake originates from the Valorian Republics. Rumor has it that one of the many casus belli in the Republics was based upon a disagreement on the cakes exact recipe."
+	desc = "A fusion of Qadirid and Geramorean cuisines, the cake originates from one or the other. Rumor has it that one of the many casus belli between the two was based upon a disagreement on the cakes exact recipe."
 	icon_state = "crimsonpinecake"
 	slices_num = 6
 	slice_path = /obj/item/reagent_containers/food/snacks/crimsoncake_slice
@@ -2673,7 +2673,7 @@
 
 /obj/item/reagent_containers/food/snacks/tamtoplate
 	name = "cheese tamto plate"
-	desc = "A deliciously greasy cheese half-pie originating from the trade-capital of Vanderlin, long may it reign!"
+	desc = "A deliciously greasy cheese half-pie originating from the trade-capital of Domotan, long may it reign!"
 	bitesize = 6
 	slices_num = 6
 	slice_path = /obj/item/reagent_containers/food/snacks/tamtoplate_slice
@@ -2691,7 +2691,7 @@
 
 /obj/item/reagent_containers/food/snacks/tamtoplate/meat
 	name = "sausage tamto plate"
-	desc = "A deliciously greasy sausage half-pie originating from the trade-capital of Vanderlin, long may it reign!"
+	desc = "A deliciously greasy sausage half-pie originating from the trade-capital of Domotan, long may it reign!"
 	slice_path = /obj/item/reagent_containers/food/snacks/tamtoplate_slice/meat
 	icon_state = "meat_pizza"
 	tastes = list("crispy dough" = 1, "warm tomato" = 1, "gooey cheese" = 1, "savory sausage")
@@ -2702,7 +2702,7 @@
 
 /obj/item/reagent_containers/food/snacks/tamtoplate/fish
 	name = "sausage tamto plate"
-	desc = "A deliciously greasy fish half-pie originating from the trade-capital of Vanderlin, long may it reign!"
+	desc = "A deliciously greasy fish half-pie originating from the trade-capital of Domotan, long may it reign!"
 	slice_path = /obj/item/reagent_containers/food/snacks/tamtoplate_slice/fish
 	icon_state = "fish_pizza"
 	tastes = list("crispy dough" = 1, "warm tomato" = 1, "gooey cheese" = 1, "crispy fish" = 1)
@@ -2713,7 +2713,7 @@
 
 /obj/item/reagent_containers/food/snacks/tamtoplate/onion
 	name = "onion tamto plate"
-	desc = "A deliciously greasy onion half-pie originating from the trade-capital of Vanderlin, long may it reign!"
+	desc = "A deliciously greasy onion half-pie originating from the trade-capital of Domotan, long may it reign!"
 	slice_path = /obj/item/reagent_containers/food/snacks/tamtoplate_slice/onion
 	icon_state = "onion_pizza"
 	tastes = list("crispy dough" = 1, "warm tomato" = 1, "gooey cheese" = 1, "crunchy onion" = 1)
@@ -2726,7 +2726,7 @@
 
 /obj/item/reagent_containers/food/snacks/tamtoplate_slice
 	name = "cheese tamto plate slice"
-	desc = "A deliciously greasy cheese half-pie originating from the trade-capital of Vanderlin, long may it reign!"
+	desc = "A deliciously greasy cheese half-pie originating from the trade-capital of Domotan, long may it reign!"
 	bitesize = 3
 	w_class = WEIGHT_CLASS_SMALL
 	icon_state = "pizza_slice"
@@ -2740,7 +2740,7 @@
 
 /obj/item/reagent_containers/food/snacks/tamtoplate_slice/meat
 	name = "sausage tamto plate slice"
-	desc = "A deliciously greasy sausage half-pie originating from the trade-capital of Vanderlin, long may it reign!"
+	desc = "A deliciously greasy sausage half-pie originating from the trade-capital of Domotan, long may it reign!"
 	icon_state = "meat_pizza_slice"
 	tastes = list("crispy dough" = 1, "warm tomato" = 1, "gooey cheese" = 1, "savory sausage")
 	faretype = FARE_FINE
@@ -2750,7 +2750,7 @@
 
 /obj/item/reagent_containers/food/snacks/tamtoplate_slice/fish
 	name = "sausage tamto plate"
-	desc = "A deliciously greasy fish half-pie originating from the trade-capital of Vanderlin, long may it reign!"
+	desc = "A deliciously greasy fish half-pie originating from the trade-capital of Domotan, long may it reign!"
 	icon_state = "fish_pizza_slice"
 	tastes = list("crispy dough" = 1, "warm tomato" = 1, "gooey cheese" = 1, "crispy fish" = 1)
 	faretype = FARE_FINE
@@ -2760,7 +2760,7 @@
 
 /obj/item/reagent_containers/food/snacks/tamtoplate_slice/onion
 	name = "onion tamto plate slice"
-	desc = "A deliciously greasy onion half-pie originating from the trade-capital of Vanderlin, long may it reign!"
+	desc = "A deliciously greasy onion half-pie originating from the trade-capital of Domotan, long may it reign!"
 	icon_state = "onion_pizza_slice"
 	tastes = list("crispy dough" = 1, "warm tomato" = 1, "gooey cheese" = 1, "crunchy onion" = 1)
 	faretype = FARE_FINE

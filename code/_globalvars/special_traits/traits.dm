@@ -314,7 +314,7 @@
 	character.grant_language(/datum/language/deepspeak)
 	character.grant_language(/datum/language/newunsundered)
 	character.grant_language(/datum/language/oldunsundered)
-	character.grant_language(/datum/language/zalad)
+	character.grant_language(/datum/language/qadirid)
 	character.grant_language(/datum/language/thievescant)
 
 /datum/special_trait/uniglot
@@ -333,7 +333,7 @@
 		if(3)
 			character.grant_language(/datum/language/dwarvish)
 		if(4)
-			character.grant_language(/datum/language/zalad)
+			character.grant_language(/datum/language/qadirid)
 		if(5)
 			character.grant_language(/datum/language/newunsundered)
 		if(6)
@@ -357,7 +357,7 @@
 	character.grant_language(/datum/language/deepspeak)
 	character.grant_language(/datum/language/newunsundered)
 	character.grant_language(/datum/language/oldunsundered)
-	character.grant_language(/datum/language/zalad)
+	character.grant_language(/datum/language/qadirid)
 	character.grant_language(/datum/language/thievescant)
 
 /datum/attribute_holder/sheet/job/tavernbrawler

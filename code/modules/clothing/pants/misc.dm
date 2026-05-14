@@ -9,8 +9,8 @@
 	salvage_result = /obj/item/natural/silk
 	item_weight = 90 GRAMS
 
-/obj/item/clothing/pants/grenzelpants
-	name = "grenzelhoftian paumpers"
+/obj/item/clothing/pants/sterkenstadten
+	name = "sterkenstadten paumpers"
 	desc = "Padded pants for extra comfort and protection, adorned in vibrant colors."
 	icon_state = "grenzelpants"
 	item_state = "grenzelpants"
@@ -22,7 +22,7 @@
 	max_integrity = INTEGRITY_STANDARD
 	item_weight = 400 GRAMS
 
-/obj/item/clothing/pants/grenzelpants/update_overlays()
+/obj/item/clothing/pants/sterkenstadten/update_overlays()
 	. = ..()
 	if(!get_detail_tag())
 		return

@@ -19,9 +19,7 @@
 
 /datum/job/gmtemplar
 	title = JOB_GRANDMASTER_TEMPLAR
-	tutorial = "At the upper echelon of the Templaric order sit the Grandmasters, five who sit in the Head in Kingsfield, and one appointed to each sanctified Tennite Church across the realm.\
-	They are masters of Mordsol's arts and beholden to no will except Justice and Visires, the latter of which they know the overbearing presence of all too well. \
-	Despite her cruel authority, the Mordsolian Grandmasters of the Order dare not rise up against the Astratan priests and their sect of guardians at the Head of the Order, lest they be excommunicated."
+	tutorial = "The most veteran of the Templars within the church employ. A survivor of some unknowable old conflict, given seniority and great respect among their peers."
 	department_flag = CHURCHMEN
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_GMTEMPLAR

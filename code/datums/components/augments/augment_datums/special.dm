@@ -29,7 +29,7 @@
 
 /datum/augment/special/dualwield
 	name = "Marauder Unit"
-	desc = "One of the assemblies that sealed Heartfelt's fate. Allows for simultaneous attacks with dual weaponry."
+	desc = "One of the ancient designs uncovered prior to the Big Burn. Allows for simultaneous attacks with dual weaponry."
 	stability_cost = -25
 	engineering_difficulty = SKILL_RANK_EXPERT
 	installation_time = 20 SECONDS
@@ -98,7 +98,7 @@
 
 /datum/augment/special/sandevistan
 	name = "\improper CHRONOS unit"
-	desc = "One of the assemblies that sealed Heartfelt's fate. Activates a localized chrono-distortion field, slowing time for everything around you while you move at normal speed."
+	desc = "One of the ancient designs uncovered prior to the Big Burn. Activates a localized chrono-distortion field, slowing time for everything around you while you move at normal speed."
 	stability_cost = -30
 	engineering_difficulty = SKILL_RANK_LEGENDARY
 	installation_time = 30 SECONDS
@@ -111,7 +111,7 @@
 
 /datum/augment/special/sandevistan/on_install(mob/living/carbon/human/H)
 	. = ..()
-	to_chat(H, span_redtextbig("HEARTFELT CONNECTION RECEIVED. ORDERS: SURVEY."))
+	to_chat(H, span_redtextbig("CONNECTION RECEIVED. ORDERS: SURVEY."))
 
 /datum/augment/special/sandevistan/proc/activate()
 	var/mob/living/carbon/human/H = parent

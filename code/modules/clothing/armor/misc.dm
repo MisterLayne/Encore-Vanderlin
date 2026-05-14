@@ -83,7 +83,7 @@
 
 /obj/item/clothing/armor/brigandine/captain
 	name = "captain's brigandine"
-	desc = "A coat with plates specifically tailored and forged for the captain of Vanderlin."
+	desc = "A coat with plates specifically tailored and forged for the captain of Old Doma."
 	icon_state = "capplate"
 	icon = 'icons/roguetown/clothing/special/captain.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/captain.dmi'
@@ -113,7 +113,7 @@
 //................ Coat of Plate ............... //
 /obj/item/clothing/armor/brigandine/coatplates
 	name = "coat of plates"
-	desc = "A Zalad leather coat with steel scales woven with miniscule threads of adamantine, \
+	desc = "A Qadirid leather coat with steel scales woven with miniscule threads of adamantine, \
 			ensuring the wearer an optimal defence with forgiving breathability and mobility."
 	icon_state = "coat_of_plates"
 	blocksound = PLATEHIT

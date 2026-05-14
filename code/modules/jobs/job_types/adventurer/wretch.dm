@@ -25,8 +25,8 @@
 	wretch_select_bounty(spawned)
 
 /datum/job/advclass/wretch/proc/wretch_select_bounty(mob/living/carbon/human/H)
-	var/bounty_poster = browser_input_list(H, "Who placed a bounty on you?", "Filthy Criminal", list("The Divine Pantheon", "Kingsfield Expanse"))
-	if(bounty_poster == "Kingsfield Expanse")
+	var/bounty_poster = browser_input_list(H, "Who placed a bounty on you?", "Filthy Criminal", list("The Katholikos", "Noman Eastern Trade Company"))
+	if(bounty_poster == "Noman Eastern Trade Company")
 		GLOB.outlawed_players += H.real_name
 	else
 		GLOB.heretical_players += H.real_name

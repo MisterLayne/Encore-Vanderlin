@@ -390,7 +390,7 @@
 			spawned.cmode_music = 'sound/music/cmode/church/CombatEora.ogg'
 		if(/datum/patron/divine/akan)
 			spawned.adjust_skill_level(/datum/attribute/skill/labor/mathematics, 20)
-			var/language = pickweight(list("Dwarvish" = 1, "Elvish" = 1, "Hellspeak" = 1, "Zaladin" = 1, "Orcish" = 1,))
+			var/language = pickweight(list("Dwarvish" = 1, "Elvish" = 1, "Hellspeak" = 1, "Qadirid" = 1, "Orcish" = 1,))
 			switch(language)
 				if("Dwarvish")
 					spawned.grant_language(/datum/language/dwarvish)
@@ -407,10 +407,10 @@
 					to_chat(spawned,span_info("\
 					I learned the tongue of the hellspawn.")
 					)
-				if("Zaladin")
-					spawned.grant_language(/datum/language/zalad)
+				if("Qadirid")
+					spawned.grant_language(/datum/language/qadirid)
 					to_chat(spawned,span_info("\
-					I learned the tongue of Zaladin.")
+					I learned the tongue of Qadirid.")
 					)
 				if("Orcish")
 					spawned.grant_language(/datum/language/orcish)

@@ -1,7 +1,7 @@
 
 /obj/item/clothing/cloak/angrostabard
 	name = "inquisitorial tabard"
-	desc = "A long vest bearing Angrosian symbology"
+	desc = "A long vest bearing Angrosian symbology."
 	color = null
 	icon_state = "psydontabard"
 	item_state = "psydontabard"
@@ -14,8 +14,8 @@
 	var/open_wear = FALSE
 
 /obj/item/clothing/cloak/angrostabard/alt
-	name = "open grenzelhoftian tabard"
-	desc = "Used by more radical followers of the Inquisition"
+	name = "open angrosian tabard"
+	desc = "Used by more radical followers of the Inquisition."
 	body_parts_covered = null
 	icon_state = "psydontabardalt"
 	item_state = "psydontabardalt"

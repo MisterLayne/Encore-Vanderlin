@@ -1,4 +1,4 @@
-/datum/attribute_holder/sheet/job/heartfelthand
+/datum/attribute_holder/sheet/job/dunmoonhand
 	raw_attribute_list = list(
 		STAT_STRENGTH = 3,
 		STAT_PERCEPTION = 2,
@@ -16,32 +16,32 @@
 		/datum/attribute/skill/labor/mathematics = 30,
 	)
 
-/datum/job/advclass/combat/heartfelthand
-	title = "Hand of Heartfelt"
-	tutorial = "You served your lord as hand, taking care of diplomatic actions within your realm, \
-	yet your kingdom lies in ruins ever since it's mechanical servants rose up. \
-	You have since fled to the kingdom of Vanderlin, \
+/datum/job/advclass/combat/dunmoonhand
+	title = "Tycoon's Steward"
+	tutorial = "You served your business as right-hand-man to the Tycoon, taking care of diplomatic actions within your company, \
+	yet your islands are so utterly distant now. \
+	You have decided to visit Domotan Island, \
 	the exact reason of your stay here are up to you."
-	allowed_sexes = list(MALE)
-	allowed_races = list(SPEC_ID_HUMEN)
-	outfit = /datum/outfit/adventurer/heartfelthand
+	allowed_sexes = list(MALE, FEMALE)
+	allowed_races = RACES_PLAYER_NONDISCRIMINATED
+	outfit = /datum/outfit/adventurer/dunmoonhand
 	total_positions = 1
 	roll_chance = 50
 
-	attribute_sheet = /datum/attribute_holder/sheet/job/heartfelthand
+	attribute_sheet = /datum/attribute_holder/sheet/job/dunmoonhand
 
 	traits = list(
 		TRAIT_SEEPRICES,
 		TRAIT_HEAVYARMOR,
 	)
 
-/datum/outfit/adventurer/heartfelthand
-	name = "Hand of Heartfelt (Adventurer)"
+/datum/outfit/adventurer/dunmoonhand
+	name = "Tycoon's Steward (Adventurer)"
 	shirt = /obj/item/clothing/shirt/undershirt
 	belt = /obj/item/storage/belt/leather/black
 	shoes = /obj/item/clothing/shoes/nobleboot
 	pants = /obj/item/clothing/pants/tights/colored/black
-	armor = /obj/item/clothing/armor/medium/surcoat/heartfelt
+	armor = /obj/item/clothing/armor/medium/surcoat/dunmoon
 	beltr = /obj/item/storage/belt/pouch/coins/rich
 	gloves = /obj/item/clothing/gloves/leather/black
 	beltl = /obj/item/weapon/sword/decorated

@@ -89,7 +89,7 @@
 	blade.headshot_link = null
 	blade.flavortext = null
 	blade.flavortext_display = null
-	blade.culture = GLOB.culture_singletons[/datum/culture/universal/grenzelhoft]
+	blade.culture = GLOB.culture_singletons[/datum/culture/universal/sultanate]
 	blade.accent = ACCENT_NONE
 
 	. = ..()

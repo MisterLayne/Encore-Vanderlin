@@ -106,7 +106,7 @@
 
 //............... Gronnic gloves ............... //
 /obj/item/clothing/gloves/plate/iron/gronn
-	name = "osslandic iron gauntlets"
+	name = "nortic iron gauntlets"
 	desc = "Tough iron gauntlets, simple and protective in design. A single punch is said to leave a dozen bruises."
 	icon_state = "gronnplategloves"
 	icon = 'icons/roguetown/clothing/special/gronn.dmi'

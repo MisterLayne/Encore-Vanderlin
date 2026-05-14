@@ -18,26 +18,12 @@
 	name = "Half-Elf"
 	id = SPEC_ID_HALF_ELF
 	multiple_accents = list(
-		"Humen Accent" = "Imperial",
+		"Humen Accent" = "Common",
 		"Elf Accent" = "Elfish",
-		"Wintermare Accent" = ACCENT_WINTERMARE,
-		"Ossland Accent" = ACCENT_OSSLAND,
+		"Noman Accent" = ACCENT_NOMAN,
+		"Nortic Accent" = ACCENT_NORTIC,
 	)
-	desc = "The child of an Elf and a Humen. \
-	\n\n\
-	Half-Elves are generally frowned upon by more conservative peoples, \
-	although as species tensions lower, more and more half-elves are being born- \
-	to the point that some scholars worry someday \
-	it may be impossible to distinguish the two species. \
-	\n\n\
-	Half-Elves are extraordinarily diverse, as they combine both Humen and Elvish culture. \
-	It is widely considered that Half-Elf culture is simply a melting pot of \
-	various others condensing into one vibrant entity. \
-	\n\n\
-	With their longevity spanning too long for a human and too short for an elf, they tend to congregate together. \
-	Depending on their heritage, Half-Elves tend to gain species traits \
-	depending on how strong their fathers, or mothers, genes were. \
-	Half-Elves typically struggle to find their own identity."
+	desc = PLACEHOLDER_SPECIES_REBRANDING
 
 	default_color = "FFFFFF"
 	species_traits = list(EYECOLOR, HAIR, FACEHAIR, LIPS, STUBBLE, OLDGREY)

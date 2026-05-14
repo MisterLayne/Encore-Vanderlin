@@ -3,8 +3,8 @@
 	id = SPEC_ID_HUMEN
 	multiple_accents = list(
 		"No Accent" = ACCENT_NONE,
-		"Ossland Accent" = ACCENT_OSSLAND,
-		"Grenzelhoft Accent" = ACCENT_GRENZ,
+		"Nortic Accent" = ACCENT_NORTIC,
+		"Sterkenstadt Accent" = ACCENT_STERKENSTADT,
 	)
 	changesource_flags = WABBAJACK
 	bodypart_features = list(

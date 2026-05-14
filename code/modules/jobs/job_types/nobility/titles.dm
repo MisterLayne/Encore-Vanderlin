@@ -1,5 +1,5 @@
 /datum/job/bogwarden
-	title = "Warden of the Terrorbog"
+	title = "Warden of the Weeping Wood"
 	tutorial = ""
 	department_flag = NOBLEMEN
 	faction = "Station"
@@ -12,7 +12,7 @@
 
 
 /datum/outfit/bogwarden
-	name = "Warden of the Terrorbog"
+	name = "Warden of the Weeping Wood"
 
 	pants = /obj/item/clothing/pants/tights
 	shirt = /obj/item/clothing/shirt/undershirt
@@ -20,8 +20,8 @@
 	shoes = /obj/item/clothing/shoes/boots
 
 /datum/job/huntmaster
-	title = "Huntmaster of the Murderwoods"
-	f_title = "Huntmistress of the Murderwoods"
+	title = "Huntmaster of the Crossroads"
+	f_title = "Huntmistress of the Crossroads"
 	tutorial = ""
 	department_flag = NOBLEMEN
 	faction = "Station"
@@ -34,7 +34,7 @@
 
 
 /datum/outfit/huntmaster
-	name = "Huntmaster of the Murderwoods"
+	name = "Huntmaster of the Crossroads"
 
 	pants = /obj/item/clothing/pants/tights
 	shirt = /obj/item/clothing/shirt/undershirt
@@ -42,7 +42,7 @@
 	shoes = /obj/item/clothing/shoes/boots
 
 /datum/job/hetman
-	title = "Hetman of Mount Decapitation"
+	title = "Hetman of Heavenscoast"
 	tutorial = ""
 	department_flag = NOBLEMEN
 	faction = "Station"
@@ -55,7 +55,7 @@
 
 
 /datum/outfit/hetman
-	name = "Hetman of Mount Decapitation"
+	name = "Hetman of Heavenscoast"
 
 	pants = /obj/item/clothing/pants/tights
 	shirt = /obj/item/clothing/shirt/undershirt

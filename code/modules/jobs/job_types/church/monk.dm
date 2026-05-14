@@ -91,7 +91,7 @@
 /datum/job/monk
 	title = JOB_ACOLYTE
 	tutorial = "Chores, exercise, prayer... and more chores. \
-	You are a humble acolyte at the temple in Vanderlin, \
+	You are a humble acolyte at the temple on Domotan Island, \
 	not yet a trained guardian or an ordained priest. \
 	But who else would keep the fires lit and the floors clean?"
 	department_flag = CHURCHMEN
@@ -135,7 +135,7 @@
 			spawned.cmode_music = 'sound/music/cmode/church/CombatEora.ogg'
 		if(/datum/patron/divine/akan)
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/acolyte/patron/akan)
-			var/language = pickweight(list("Dwarvish" = 1, "Elvish" = 1, "Hellspeak" = 1, "Zaladin" = 1, "Orcish" = 1,))
+			var/language = pickweight(list("Dwarvish" = 1, "Elvish" = 1, "Hellspeak" = 1, "Qadirid" = 1, "Orcish" = 1,))
 			switch(language)
 				if("Dwarvish")
 					spawned.grant_language(/datum/language/dwarvish)
@@ -152,10 +152,10 @@
 					to_chat(spawned,span_info("\
 					I learned the tongue of the hellspawn.")
 					)
-				if("Zaladin")
-					spawned.grant_language(/datum/language/zalad)
+				if("Qadirid")
+					spawned.grant_language(/datum/language/qadirid)
 					to_chat(spawned,span_info("\
-					I learned the tongue of Zaladin.")
+					I learned the tongue of the Sultanate.")
 					)
 				if("Orcish")
 					spawned.grant_language(/datum/language/orcish)

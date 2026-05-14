@@ -88,7 +88,7 @@
 
 /datum/outfit/sunlord
 	name = "Sunlord"
-	cloak = /obj/item/clothing/cloak/heartfelt/shit
+	cloak = /obj/item/clothing/cloak/dunmoon/shit
 	ring = /obj/item/clothing/ring/dragon_ring
 	neck = /obj/item/clothing/neck/amberamulet
 	head = /obj/item/clothing/head/priesthat/sunlord

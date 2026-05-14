@@ -22,32 +22,32 @@
 		"Cancel" = "cancel",
 	)
 
-/datum/action/cooldown/spell/undirected/call_bird/grenzel
-	name = "Call Imperial Messenger"
+/datum/action/cooldown/spell/undirected/call_bird/aelonda
+	name = "Call Emeraldine Messenger"
 	destinations = list(
 		"My family" = "their family",
-		"Grenzelhoft Imperiate" = "the Grenzelhoft Imperiate",
+		"Emeraldine Court" = "the Emeraldine Court",
 		"Cancel" = "cancel",
 	)
 
 /datum/action/cooldown/spell/undirected/call_bird/priest
 	name = "Call Holy Messenger"
 	destinations = list(
-		"The Archbishop" = "the Archbishop",
+		"The Katholikos" = "the Katholikos",
 		"Cancel" = "cancel",
 	)
 
-/datum/action/cooldown/spell/undirected/call_bird/zalad
+/datum/action/cooldown/spell/undirected/call_bird/qadirid
 	name = "Call Guild Messenger"
 	destinations = list(
-		"The Mercator Guild" = "the Mercator Guild",
+		"The Sunmen" = "the Sunmen",
 		"Cancel" = "cancel",
 	)
 
 /datum/action/cooldown/spell/undirected/call_bird/inquisitor
 	name = "Call Inquisitorial Messenger"
 	destinations = list(
-		"Holy Bishop of the Inquisition" = "the Holy Bishop of the Inquisition",
+		"Katholikon" = "the militant Katholikon",
 		"Cancel" = "cancel",
 	)
 
@@ -87,7 +87,7 @@
 
 /obj/item/reagent_containers/food/snacks/messenger_bird
 	name = "messenger bird"
-	desc = "A small bird, used by nobles to send messages beyond the borders of this city. It has a small pouch on its leg for carrying notes."
+	desc = "A small bird, used by nobles to send messages beyond the grand sea. It has a small pouch on its leg for carrying notes."
 	icon_state = "messenger"
 	icon = 'icons/roguetown/mob/monster/messenger.dmi'
 	nutrition = MINCE_NUTRITION

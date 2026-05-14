@@ -38,8 +38,8 @@
 	block2add = FOV_BEHIND
 
 /obj/item/clothing/head/helmet/heavy/angroshelm
-	name ="grenzelhoftian armet"
-	desc = "Headwear commonly worn by Templars in service to the Oratorium Throni Vacui. ANGROS Endures."
+	name = "angrosian armet"
+	desc = "Headwear commonly worn by Templars in service to the Angrosians."
 	icon_state = "psydonarmet"
 	item_state = "psydonarmet"
 	block2add = FOV_BEHIND
@@ -450,7 +450,7 @@
 
 /obj/item/clothing/head/helmet/heavy/ordinatorhelm
 	name = "inquisitorial ordinator's helmet"
-	desc = "A design suggested by a Grenzelhoftian smith, inspired by an eccentric count who insisted on sleeping in a coffin. A steel casket with thin slits that allow for deceptively clear vision. The tainted will drown in the blood you bring their way, while this high helm keeps it out of your face."
+	desc = "A design suggested by a Aelondan smith, inspired by an eccentric count who insisted on sleeping in a coffin. A steel casket with thin slits that allow for deceptively clear vision. The tainted will drown in the blood you bring their way, while this high helm keeps it out of your face."
 	icon_state = "ordinatorhelm"
 	item_state = "ordinatorhelm"
 	worn_x_dimension = 64
@@ -524,9 +524,9 @@
 
 //............... Gronn Heavy Helmet ...............//
 /obj/item/clothing/head/helmet/heavy/ironplate/gronn
-	name = "osslandic horned helmet"
+	name = "nortic horned helmet"
 	desc = "A horned helms of solid iron. \
-		A suitable replacement for the precious skull-helms worn in Ossland. \
+		A suitable replacement for the precious skull-helms worn in Nortmidst. \
 		For of course, to have your skull-helm smashed is the highest of disrespects."
 	icon = 'icons/roguetown/clothing/special/gronn.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/64x64/gronn.dmi'

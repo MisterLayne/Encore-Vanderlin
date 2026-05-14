@@ -34,7 +34,7 @@
 	title = "Master Chef"
 	tutorial = "A master chef is one of the best cooks to ever live. \
 	You received an early education from the guild of culinary arts and have traveled across Gaia, cooking exotic masterpieces for wealthy merchants and nobility alike. \
-	Now you find yourself approaching Vanderlin... perhaps this will be a perfect location to prepare your next great feast?"
+	Now you find yourself approaching Domotan... perhaps this will be a perfect location to prepare your next great feast?"
 	allowed_sexes = list(MALE, FEMALE)
 	outfit = /datum/outfit/pilgrim/masterchef
 	total_positions = 1

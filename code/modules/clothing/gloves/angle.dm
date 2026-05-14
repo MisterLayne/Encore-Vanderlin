@@ -12,15 +12,15 @@
 	salvage_result = /obj/item/natural/fur
 	item_weight = 800 GRAMS
 
-/obj/item/clothing/gloves/angle/grenzel
-	name = "grenzelhoft gloves"
-	desc = "Regal gloves of Grenzelhoftian design, more a fashion statement than actual protection."
+/obj/item/clothing/gloves/angle/sterkenstadten
+	name = "sterkenstadten gloves"
+	desc = "Regal gloves of Sterkenstadten design, more a fashion statement than actual protection."
 	icon_state = "grenzelgloves"
 	sleeved = 'icons/roguetown/clothing/onmob/helpers/stonekeep_merc.dmi'
 
 // gronn subtypes
 /obj/item/clothing/gloves/angle/gronn
-	name = "osslandic fur-lined leather gloves"
+	name = "nortic fur-lined leather gloves"
 	desc = "Thick, padded gloves made for the harshest of climates and the wildest of beasts encountered in the untamed north."
 	icon_state = "gronnleathergloves"
 	icon = 'icons/roguetown/clothing/special/gronn.dmi'
@@ -29,7 +29,7 @@
 	color = "#ffffff"
 
 /obj/item/clothing/gloves/angle/gronnfur
-	name = "osslandic fur-lined bone gloves"
+	name = "nortic fur-lined bone gloves"
 	desc = "A pair of hardened leather gloves with bone reinforcements across the wrists\
 			and the back of the hand, offering superior protection against\
 			the claws of beasts and plants alike. Commonly worn by gatherers."

@@ -8,7 +8,7 @@
 	bodyparts = list(/obj/item/bodypart/chest/automaton, /obj/item/bodypart/head/automaton, /obj/item/bodypart/l_arm/automaton,
 					/obj/item/bodypart/r_arm/automaton, /obj/item/bodypart/r_leg/automaton, /obj/item/bodypart/l_leg/automaton)
 	uses_random_stats = FALSE
-	culture = /datum/culture/universal/heartfelt
+	culture = /datum/culture/universal/cudao
 	cmode_music = 'sound/music/cmode/towner/CombatPrisoner.ogg'
 
 /mob/living/carbon/human/species/automaton/LateInitialize()
@@ -54,15 +54,7 @@
 /datum/species/automaton
 	name = "Automaton"
 	id = SPEC_ID_AUTOMATON
-	desc = "The Bronze Men of Heartfelt, engineered servants of the Makers Guild. \
-	These mechanical beings house souls bound to bronze and steel, compelled to serve through ancient artifice. \
-	\n\n\
-	Following the catastrophic events at Heartfelt, automatons are forbidden from wielding weapons - only tools may grace their metal hands. \
-	They exist in servitude to the Makers Guild and nobility, bound by a single immutable law: obey the last order given. \
-	\n\n\
-	Their speech comes not from lips but from pre-recorded proclamations, their thoughts trapped within a prison of brass and binding runes. \
-	\n\n\
-	WARNING: THIS IS A HEAVILY RESTRICTED WHITELIST-ONLY SPECIES. EXTENSIVE RP STANDARDS APPLY."
+	desc = PLACEHOLDER_SPECIES_REBRANDING
 
 	skin_tone_wording = "plating"
 	default_color = "FFFFFF"
@@ -338,8 +330,8 @@
 
 
 /obj/item/organ/brain/automaton
-	name = "soul core"
-	desc = "A crystalline matrix containing a trapped soul, bound in service through dark artifice."
+	name = "thaumatic core"
+	desc = "A crystalline matrix containing a trapped amalgam of Thauma, bound in service through specialized artifice."
 	icon_state = "soul_core"
 	resistance_flags = FIRE_PROOF
 	status = ORGAN_ROBOTIC

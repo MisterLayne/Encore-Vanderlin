@@ -5346,7 +5346,7 @@
 /area/overlord_lair)
 "GE" = (
 /obj/structure/table/wood/reinforced,
-/obj/item/clothing/armor/medium/surcoat/heartfelt,
+/obj/item/clothing/armor/medium/surcoat/dunmoon,
 /obj/item/clothing/armor/medium/surcoat,
 /obj/item/clothing/armor/cuirass/vampire,
 /obj/item/clothing/armor/plate/blkknight,
@@ -6206,11 +6206,11 @@
 "Mk" = (
 /obj/structure/mannequin/male,
 /obj/structure/fluff/walldeco/maidendrape,
-/obj/item/clothing/gloves/angle/grenzel,
-/obj/item/clothing/head/helmet/skullcap/grenzelhoft,
-/obj/item/clothing/pants/grenzelpants,
-/obj/item/clothing/shirt/grenzelhoft,
-/obj/item/clothing/shoes/rare/grenzelhoft,
+/obj/item/clothing/gloves/angle/sterkenstadten,
+/obj/item/clothing/head/helmet/skullcap/sterkenstadten,
+/obj/item/clothing/pants/sterkenstadten,
+/obj/item/clothing/shirt/sterkenstadten,
+/obj/item/clothing/shoes/rare/sterkenstadten,
 /obj/item/clothing/neck/psycross/gold,
 /turf/open/floor/herringbone,
 /area/indoors/vampire_manor)
@@ -6735,7 +6735,7 @@
 /area/indoors/vampire_manor)
 "Qi" = (
 /obj/structure/mannequin/male,
-/obj/item/clothing/head/helmet/skullcap/grenzelhoft,
+/obj/item/clothing/head/helmet/skullcap/sterkenstadten,
 /turf/open/floor/wood,
 /area/indoors)
 "Ql" = (

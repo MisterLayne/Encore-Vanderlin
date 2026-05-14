@@ -98,10 +98,10 @@
 		/datum/supply_pack/apparel/tabard,
 		/datum/supply_pack/apparel/halfcloak_random,
 		/datum/supply_pack/apparel/magedyes,
-		/datum/supply_pack/apparel/grenzelhat,
-		/datum/supply_pack/apparel/grenzel_gloves,
-		/datum/supply_pack/apparel/grenzel_trousers,
-		/datum/supply_pack/apparel/grenzel_shirt,
+		/datum/supply_pack/apparel/sterkenstadtenhat,
+		/datum/supply_pack/apparel/sterkenstadten_gloves,
+		/datum/supply_pack/apparel/sterkenstadten_trousers,
+		/datum/supply_pack/apparel/sterkenstadten_shirt,
 		/datum/supply_pack/apparel/buckle_boots,
 		/datum/supply_pack/apparel/Puritan_shirt,
 		/datum/supply_pack/apparel/otavan_boots,
@@ -113,7 +113,7 @@
 		/datum/supply_pack/weapons/iron/navaja,
 		// Exotic foods
 		/datum/supply_pack/food/angler,
-		/datum/supply_pack/food/drinks/winezaladin,
+		/datum/supply_pack/food/drinks/winesultanate,
 		/datum/supply_pack/food/drinks/winegrenzel,
 		// Musical instruments - coastal culture
 		/datum/supply_pack/instruments/flute,

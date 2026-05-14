@@ -92,7 +92,7 @@
 /obj/item/clothing/head/roguehood/colored/sundweller
 	color = CLOTHING_MUSTARD_YELLOW
 
-/obj/item/clothing/cloak/heartfelt/shit
+/obj/item/clothing/cloak/dunmoon/shit
 	name = "shitstained cloak"
 	desc = "You are the lord of this shithouse."
 	misc_flags = CRAFTING_TEST_EXCLUDE

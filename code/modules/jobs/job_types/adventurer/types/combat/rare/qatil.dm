@@ -21,11 +21,10 @@
 
 /datum/job/advclass/adventurer/qatil
 	title = "Qatil"
-	tutorial = "Hailing from Zalad lands, you are a killer for hire that is trained both in murdering unseen and seen with your trusty knife."
+	tutorial = "Hailing from the Sultanate's distant lands, you are a killer for hire that is trained both in murdering unseen and seen with your trusty knife."
 	allowed_races = list(\
 		SPEC_ID_HUMEN,\
 		SPEC_ID_ELF,\
-		SPEC_ID_RAKSHARI,\
 		SPEC_ID_HALF_ELF,\
 		SPEC_ID_TIEFLING,\
 		SPEC_ID_DROW,\
@@ -44,7 +43,7 @@
 		TRAIT_STEELHEARTED,
 	)
 
-	languages = list(/datum/language/zalad)
+	languages = list(/datum/language/qadirid)
 
 /datum/job/advclass/adventurer/qatil/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
@@ -53,12 +52,12 @@
 		return
 
 	if(species.id == SPEC_ID_HUMEN)
-		species.native_language = "Zalad"
+		species.native_language = "Qadirid"
 		species.accent_language = species.get_accent(species.native_language)
 
 	else if((species.id == SPEC_ID_HALF_ELF) || (species.id == SPEC_ID_HALF_DROW))
-		if(species.native_language == "Imperial")
-			species.native_language = "Zalad"
+		if(species.native_language == "Common")
+			species.native_language = "Qadirid"
 			species.accent_language = species.get_accent(species.native_language)
 
 /datum/outfit/adventurer/qatil

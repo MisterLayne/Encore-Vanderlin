@@ -1,10 +1,10 @@
 /datum/job/men_at_arms
 	title = JOB_MAN_AT_ARMS
-	tutorial = "Chosen by the Captain and King, you're not like those shit stinking City Watchmen. \
+	tutorial = "Chosen by the Captain and King, you're not like those stinking City Watchmen. \
 	Like a hound on a leash, you stand vigilant for your masters. \
 	You live better than the rest of the taffers in this kingdom-- \
 	infact, you take shifts manning the gate with your brethren, assuming the gatemaster isn't there, \
-	keeping the savages out, keeping the shit-covered knaves away from your foppish superiors. \
+	keeping the savages out, keeping the knaves away from your foppish superiors. \
 	It will be a cold day in hell when you and your compatriots are slain, and nobody in this town will care. \
 	The nobility needs good men, and they only come in a pair of pairs."
 	department_flag = GARRISON
@@ -77,7 +77,7 @@
 	title = "Pikeman Men-At-Arms"
 	tutorial = "You once warded the town, beating the poor and killing the senseless. \
 	Now you get to stare at them in the eyes, watching as they bleed, \
-	exanguinated personally by one of the Monarch's best. \
+	exanguinated personally by one of the Regent's best. \
 	You are poor, and your belly is yet full."
 	outfit = /datum/outfit/watchman/pikeman
 	category_tags = list(CTAG_MENATARMS)
@@ -127,7 +127,7 @@
 	title = "Axeman Men-At-Arms"
 	tutorial = "You once warded the town, beating the poor and killing the senseless. \
 	Now you charge straight ahead, those infront cannot stop the weight of your axe- \
-	exanguinated personally by one of the Monarch's best. \
+	exanguinated personally by one of the Regent's best. \
 	You are poor, and your belly is yet full."
 	outfit = /datum/outfit/watchman/axeman
 	category_tags = list(CTAG_MENATARMS)
@@ -230,7 +230,7 @@
 	title = "Swordsman Men-At-Arms"
 	tutorial = "You once warded the town, beating the poor and killing the senseless. \
 	Now you get to stare at them in the eyes, watching as they bleed, \
-	exanguinated personally by one of the Monarch's best. \
+	exanguinated personally by one of the Regent's best. \
 	You are poor, and your belly is yet full."
 	outfit = /datum/outfit/watchman/swordsman
 	category_tags = list(CTAG_MENATARMS)

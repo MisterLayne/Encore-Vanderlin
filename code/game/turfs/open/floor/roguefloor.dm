@@ -673,7 +673,7 @@
 /turf/open/floor/churchrough/rust
 	icon_state = "church-rust_rough"
 
-// Pale - Sandy, use in Deshret maybe
+// Pale - Sandy, use in Djannam maybe
 /turf/open/floor/church/pale
 	icon_state = "church-pale"
 

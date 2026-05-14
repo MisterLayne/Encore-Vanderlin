@@ -94,7 +94,7 @@
 			spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/retribution)
 
 /datum/outfit/inquisitor/inspector
-	name = "Inspector (Herr Prafekt)"
+	name = "Inspector (Prefect)"
 	shirt = /obj/item/clothing/armor/gambeson/heavy/inq
 	belt = /obj/item/storage/belt/leather/knifebelt/black/angros
 	neck = /obj/item/clothing/neck/gorget

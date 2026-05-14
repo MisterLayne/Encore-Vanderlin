@@ -20,8 +20,8 @@
 	)
 
 /datum/job/advclass/combat/profanepaladin
-	title = "Profane Paladin"
-	tutorial = "There are those who are so dedicated to the worship and service of their inhumen god, that they have become famous amongst their followers, and infamous amongst the common men and women. These Profane Paladins bear the armour and marks of their respective god, travelling across the lands to preach and slay in their name. Naturally, they are branded a heretic by the Ten. Expect no quarter."
+	title = "False Paladin"
+	tutorial = "There are those who are so dedicated to the worship and service of their heretical god, that they have become famous amongst their followers, and infamous amongst the common men and women. These False Paladins bear the armour and marks of their respective god, travelling across the lands to preach and slay in their name. Naturally, they are branded a heretic by the Katholikos. Expect no quarter."
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/adventurer/profanepaladin
 	total_positions = 1
@@ -68,7 +68,7 @@
 	GLOB.heretical_players += spawned.real_name
 
 /datum/outfit/adventurer/profanepaladin
-	name = "Profane Paladin (Adventurer)"
+	name = "False Paladin (Adventurer)"
 
 	shirt = /obj/item/clothing/armor/chainmail
 	belt = /obj/item/storage/belt/leather/steel

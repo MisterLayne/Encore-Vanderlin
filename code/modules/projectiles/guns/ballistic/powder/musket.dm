@@ -1,6 +1,6 @@
 /obj/item/gun/ballistic/powder/musket
 	name = "musket"
-	desc = "The current peak of Grenzelholfian firearms. It uses a much less complex firing mechanism than previous weapons."
+	desc = "The current peak of Western firearms, it lacks much in the way of Truetech complexity. It uses a much less complex firing mechanism than previous weapons."
 	icon = 'icons/roguetown/weapons/64/guns.dmi'
 	icon_state = "musket"
 	base_icon_state = "musket"

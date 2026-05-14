@@ -18,9 +18,9 @@
 	item_weight = 7 KILOGRAMS
 
 //................ Grenzelhoft Cuirass ............... //
-/obj/item/clothing/armor/cuirass/grenzelhoft
-	name = "grenzelhoft cuirass"
-	desc = "Simple armor, but made from Grenzelhoftian black-steel, famed afar for its strength."
+/obj/item/clothing/armor/cuirass/sterkenstadten
+	name = "Sterkenstadten cuirass"
+	desc = "Simple armor, but made from Sterkenstadten black-steel, famed afar for its strength."
 	icon_state = "grenzelcuirass"
 	item_state = "grenzelcuirass"
 	sleeved = 'icons/roguetown/clothing/onmob/helpers/stonekeep_merc.dmi'
@@ -131,5 +131,4 @@
 /obj/item/clothing/armor/cuirass/ornate
 	name = "angrosian cuirass"
 	icon_state = "ornatecuirass"
-	desc = "An ornate steel cuirass with tassets, favored by both the Oratorium Throni Vacui and the Order of the Silver Psycross. \
-			Made to endure."
+	desc = "An ornate steel cuirass with tassets, favored by the Angrosian sects of the Katholikos."

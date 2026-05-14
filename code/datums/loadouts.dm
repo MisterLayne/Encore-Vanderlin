@@ -84,7 +84,7 @@ GLOBAL_LIST_INIT(loadout_items, init_loadout_items())
 	item_path = /obj/item/servant_bell
 
 //HATS
-/datum/loadout_item/zalad
+/datum/loadout_item/qadirid
 	name = "Keffiyeh"
 	item_path = /obj/item/clothing/neck/keffiyeh
 

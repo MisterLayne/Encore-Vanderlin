@@ -15,7 +15,7 @@
 		/datum/language/elvish,
 		/datum/language/oldunsundered,
 		/datum/language/newunsundered,
-		/datum/language/zalad,
+		/datum/language/qadirid,
 		/datum/language/celestial,
 		/datum/language/hellspeak,
 		/datum/language/beast,
@@ -25,7 +25,7 @@
 		/datum/language/deepspeak,
 		/datum/language/undead,
 		/datum/language/halfling,
-		/datum/language/gronnic,
+		/datum/language/nortic,
 	))
 
 /obj/item/organ/tongue/Initialize(mapload)

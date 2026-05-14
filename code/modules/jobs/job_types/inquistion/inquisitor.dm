@@ -1,6 +1,6 @@
 /datum/job/inquisitor
 	title = JOB_PRAFEKT
-	f_title = "Frau Prafekt"
+	f_title = "Frau Prefect"
 	department_flag = INQUISITION
 	faction = "Station"
 	total_positions = 1
@@ -11,8 +11,8 @@
 		SPEC_ID_HUMEN,\
 		SPEC_ID_DWARF,\
 	)
-	honorary = "Herr Prafekt"
-	honorary_f = "Frau Prafekt"
+	honorary = "Prefect"
+	honorary_f = "Frau Prefect"
 	//You MUST have a Angrosian character to start. Just so people don't get japed into Oops Suddenly Angros!
 	allowed_patrons = list(/datum/patron/angros) // you have to keep the official church stance, no way an extremist angrosian could become inquisitor
 	tutorial = "This is the week. All your lessons have led to this moment. Your students follow you with eager steps and breathless anticipation. You’re to observe their hunt, and see if they can banish the evils haunting Gaia, and rise up to become true inquisitors. A guide to them, a monster to others. You are the thing that goes bump in the night."
@@ -375,10 +375,10 @@
 						held_confession.bad_type = "A SCION OF KAINE"
 						held_confession.antag = initial(antag_type:name)
 					if(/datum/antagonist/vampire/lord)
-						held_confession.bad_type = "THE BLOOD-LORD OF VANDERLIN"
+						held_confession.bad_type = "THE BLOOD-LORD OF THE WILD PLACES"
 						held_confession.antag = initial(antag_type:name)
 					if(/datum/antagonist/vampire/lord/daewalker)
-						held_confession.bad_type = "THE DAEWALKER, TRAITOR OF THE ORDO AND GRENZELHOFT"
+						held_confession.bad_type = "THE DAEWALKER, TRAITOR OF THE CHURCH"
 						held_confession.antag = initial(antag_type:name)
 					if(/datum/antagonist/vampire/lords_spawn)
 						held_confession.bad_type = "AN UNDERLING OF THE BLOOD-LORD"

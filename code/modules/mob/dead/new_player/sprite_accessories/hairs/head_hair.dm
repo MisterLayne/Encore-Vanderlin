@@ -416,8 +416,8 @@
 	gender = MALE
 	specuse = list(SPEC_ID_ELF)
 
-/datum/sprite_accessory/hair/head/zaladin
-	name = "Zaladin"
+/datum/sprite_accessory/hair/head/qadirid
+	name = "Qadirid"
 	icon_state = "zaladin" // orginal name gelled
 	gender = MALE
 	specuse = list(SPEC_ID_HUMEN, SPEC_ID_DWARF, SPEC_ID_ELF, SPEC_ID_AASIMAR, SPEC_ID_TIEFLING, SPEC_ID_HALF_ORC)

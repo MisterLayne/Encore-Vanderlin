@@ -24,7 +24,7 @@
 /datum/job/advclass/combat/bard
 	title = JOB_BARD
 	tutorial = "Bards make up one of the largest populations of \
-	registered adventurers in Vanderlin, mostly because they are \
+	registered adventurers in the Goblet, mostly because they are \
 	the last ones in a party to die. Their wish is to experience \
 	the greatest adventures of the age and write amazing songs about them."
 	allowed_sexes = list(MALE, FEMALE)

@@ -1,7 +1,7 @@
 
 /datum/augment/loyalty_binder
 	name = "shackle"
-	desc = "A device invented following the collapse. Scrambles a soul core's connection to the Heartfelt Central Processor."
+	desc = "A device invented following the Big Burn. Scrambles a thaumatic core's connection to the Firmament."
 	incompatible_installations = list(/datum/augment/loyalty_binder)
 	stability_cost = 0
 	engineering_difficulty = SKILL_RANK_APPRENTICE

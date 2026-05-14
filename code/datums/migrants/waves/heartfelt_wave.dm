@@ -1,9 +1,9 @@
-/datum/migrant_role/heartfelt_lord
-	name = "Lord of Heartfelt"
-	greet_text = "You are the Lord of Heartfelt, ruler of a once-prosperous barony now in ruin. Guided by your Magos, you journey to Vanderlin, seeking aid to restore your domain to its former glory, or perhaps claim a new throne."
-	migrant_job = /datum/job/migrant/heartfelt_lord
+/datum/migrant_role/dunmoon_tycoon
+	name = "Dunnish Tycoon"
+	greet_text = "You are an acclaimed and wealthy Dunnish tycoon, your island's authority is distant and out of reach. You have the privilege of good standing with the Shirleighs, and the exact reasons of your stay here are up to you."
+	migrant_job = /datum/job/migrant/dunmoon_tycoon
 
-/datum/attribute_holder/sheet/job/migrant/heartfelt_lord
+/datum/attribute_holder/sheet/job/migrant/dunmoon_tycoon
 	raw_attribute_list = list(
 		STAT_STRENGTH = 1,
 		STAT_INTELLIGENCE = 3,
@@ -26,19 +26,18 @@
 		/datum/attribute/skill/labor/mathematics = 30,
 	)
 
-/datum/job/migrant/heartfelt_lord
-	title = "Lord of Heartfelt"
-	tutorial = "You are the Lord of Heartfelt, ruler of a once-prosperous barony now in ruin. Guided by your Magos, you journey to Vanderlin, seeking aid to restore your domain to its former glory, or perhaps claim a new throne."
-	outfit = /datum/outfit/heartfelt_lord
+/datum/job/migrant/dunmoon_tycoon
+	title = "Dunnish Tycoon"
+	tutorial = "You are an acclaimed and wealthy Dunnish tycoon, your island's authority is distant and out of reach. You have the privilege of good standing with the Shirleighs, and the exact reasons of your stay here are up to you."
+	outfit = /datum/outfit/dunmoon_tycoon
 	allowed_sexes = list(MALE)
 	allowed_races = RACES_PLAYER_NONDISCRIMINATED
-	blacklisted_species = list(SPEC_ID_HALFLING)
 	is_recognized = TRUE
-	honorary = "Baron"
-	honorary_f = "Baroness"
+	honorary = "Executor"
+	honorary_f = "Executor"
 
 
-	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/heartfelt_lord
+	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/dunmoon_tycoon
 
 	traits = list(
 		TRAIT_NOBLE_BLOOD,
@@ -50,16 +49,16 @@
 
 	cmode_music = 'sound/music/cmode/nobility/combat_noble.ogg'
 
-/datum/outfit/heartfelt_lord
-	name = "Lord of Heartfelt (Migrant Wave)"
+/datum/outfit/dunmoon_tycoon
+	name = "Dunnish Tycoon (Migrant Wave)"
 	shirt = /obj/item/clothing/shirt/undershirt
 	belt = /obj/item/storage/belt/leather/black
 	neck = /obj/item/clothing/neck/gorget
 	head = /obj/item/clothing/head/helmet
 	shoes = /obj/item/clothing/shoes/nobleboot
 	pants = /obj/item/clothing/pants/tights/colored/black
-	cloak = /obj/item/clothing/cloak/heartfelt
-	armor = /obj/item/clothing/armor/medium/surcoat/heartfelt
+	cloak = /obj/item/clothing/cloak/dunmoon
+	armor = /obj/item/clothing/armor/medium/surcoat/dunmoon
 	beltr = /obj/item/storage/belt/pouch/coins/rich
 	ring = /obj/item/scomstone
 	gloves = /obj/item/clothing/gloves/leather/black
@@ -67,12 +66,12 @@
 	backl = /obj/item/storage/backpack/satchel
 	backpack_contents = list(/obj/item/reagent_containers/glass/bottle/waterskin/purifier)
 
-/datum/migrant_role/heartfelt_lady
-	name = "Lady of Heartfelt"
-	greet_text = "You are the Lady of Heartfelt, once a respected noblewoman now struggling to survive in a desolate landscape. With your home in ruins, you look to Vanderlin, hoping to find new purpose or refuge amidst the chaos."
-	migrant_job = /datum/job/migrant/heartfelt_lady
+/datum/migrant_role/dunmoon_lady
+	name = "Lady of Dunmoon"
+	greet_text = "You are a Lady of Dunmoon, once a respected businesswoman now isolated from your country. You are far from home, but likely in good standing with the Shirleighs. Perhaps business is in order."
+	migrant_job = /datum/job/migrant/dunmoon_lady
 
-/datum/attribute_holder/sheet/job/migrant/heartfelt_lady
+/datum/attribute_holder/sheet/job/migrant/dunmoon_lady
 	raw_attribute_list = list(
 		STAT_INTELLIGENCE = 3,
 		STAT_ENDURANCE = 1,
@@ -92,18 +91,18 @@
 		/datum/attribute/skill/labor/mathematics = 30,
 	)
 
-/datum/job/migrant/heartfelt_lady
-	title = "Lady of Heartfelt"
-	tutorial = "You are the Lady of Heartfelt, once a respected noblewoman now struggling to survive in a desolate landscape. With your home in ruins, you look to Vanderlin, hoping to find new purpose or refuge amidst the chaos."
-	outfit = /datum/outfit/heartfelt_lady
+/datum/job/migrant/dunmoon_lady
+	title = "Lady of Dunmoon"
+	tutorial = "You are a Lady of Dunmoon, once a respected businesswoman now isolated from your country. You are far from home, but likely in good standing with the Shirleighs. Perhaps business is in order."
+	outfit = /datum/outfit/dunmoon_lady
 	allowed_sexes = list(FEMALE)
 	allowed_races = RACES_PLAYER_NONDISCRIMINATED
 	blacklisted_species = list(SPEC_ID_HALFLING)
 	is_recognized = TRUE
-	honorary = "Baron"
-	honorary_f = "Baroness"
+	honorary = "Executor"
+	honorary_f = "Executor"
 
-	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/heartfelt_lady
+	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/dunmoon_lady
 
 	traits = list(
 		TRAIT_SEEPRICES,
@@ -114,11 +113,11 @@
 
 	cmode_music = 'sound/music/cmode/nobility/combat_noble.ogg'
 
-/datum/outfit/heartfelt_lady
-	name = "Lady of Heartfelt (Migrant Wave)"
+/datum/outfit/dunmoon_lady
+	name = "Lady of Dunmoon (Migrant Wave)"
 	head = /obj/item/clothing/head/hennin
 	neck = /obj/item/storage/belt/pouch/coins/rich
-	cloak = /obj/item/clothing/cloak/heartfelt
+	cloak = /obj/item/clothing/cloak/dunmoon
 	backr = /obj/item/gun/ballistic/bow
 	backl = /obj/item/storage/backpack/satchel
 	belt = /obj/item/storage/belt/leather/black
@@ -128,7 +127,7 @@
 	shoes = /obj/item/clothing/shoes/shortboots
 	pants = /obj/item/clothing/pants/tights/colored/random
 
-/datum/outfit/heartfelt_lady/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
+/datum/outfit/dunmoon_lady/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
 	. = ..()
 
 	if(isdwarf(equipped_human))
@@ -138,12 +137,12 @@
 	else
 		armor = /obj/item/clothing/armor/gambeson/heavy/dress
 
-/datum/migrant_role/heartfelt_hand
-	name = "Hand of Heartfelt"
-	greet_text = "You are the Hand of Heartfelt, burdened by the perception of failure in protecting your Lord's domain. Despite doubts from others, your loyalty remains steadfast as you journey to Vanderlin, determined to fulfill your duties."
-	migrant_job = /datum/job/migrant/heartfelt_hand
+/datum/migrant_role/dunmoon_hand
+	name = "Hand of Dunmoon"
+	greet_text = "You served your business as right-hand-man to the Tycoon, taking care of diplomatic actions within your company. You now ride by their side in an effort to carry out your duties wherever they may need you."
+	migrant_job = /datum/job/migrant/dunmoon_hand
 
-/datum/attribute_holder/sheet/job/migrant/heartfelt_hand
+/datum/attribute_holder/sheet/job/migrant/dunmoon_hand
 	raw_attribute_list = list(
 		STAT_STRENGTH = 2,
 		STAT_PERCEPTION = 2,
@@ -162,18 +161,18 @@
 	)
 
 
-/datum/job/migrant/heartfelt_hand
-	title = "Hand of Heartfelt"
-	tutorial = "You are the Hand of Heartfelt, burdened by the perception of failure in protecting your Lord's domain. Despite doubts from others, your loyalty remains steadfast as you journey to Vanderlin, determined to fulfill your duties."
-	outfit = /datum/outfit/heartfelt_hand
+/datum/job/migrant/dunmoon_hand
+	title = "Hand of Dunmoon"
+	tutorial = "You served your business as right-hand-man to the Tycoon, taking care of diplomatic actions within your company. You now ride by their side in an effort to carry out your duties wherever they may need you."
+	outfit = /datum/outfit/dunmoon_hand
 	allowed_races = RACES_PLAYER_NONDISCRIMINATED
 	blacklisted_species = list(SPEC_ID_HALFLING)
 	is_recognized = TRUE
-	honorary = "Lord"
-	honorary_f = "Lady"
+	honorary = "Good Sir"
+	honorary_f = "Madam"
 
 
-	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/heartfelt_hand
+	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/dunmoon_hand
 
 	traits = list(
 		TRAIT_HEAVYARMOR,
@@ -182,27 +181,27 @@
 
 	cmode_music = 'sound/music/cmode/adventurer/CombatDream.ogg'
 
-/datum/outfit/heartfelt_hand
-	name = "Hand of Heartfelt (Migrant Wave)"
+/datum/outfit/dunmoon_hand
+	name = "Hand of Dunmoon (Migrant Wave)"
 	shirt = /obj/item/clothing/shirt/undershirt
 	belt = /obj/item/storage/belt/leather/black
 	shoes = /obj/item/clothing/shoes/nobleboot
 	pants = /obj/item/clothing/pants/tights/colored/black
 	neck = /obj/item/clothing/neck/gorget
-	armor = /obj/item/clothing/armor/medium/surcoat/heartfelt
+	armor = /obj/item/clothing/armor/medium/surcoat/dunmoon
 	beltr = /obj/item/storage/belt/pouch/coins/rich
 	gloves = /obj/item/clothing/gloves/leather/black
 	beltl = /obj/item/weapon/sword/decorated
 	ring = /obj/item/scomstone
 	backr = /obj/item/storage/backpack/satchel
-	mask = /obj/item/clothing/face/spectacles/golden
+	mask = /obj/item/clothing/face/spectacles/monocle
 
-/datum/migrant_role/heartfelt_knight
-	name = "Knight of Heartfelt"
-	greet_text = "You are a Knight of Heartfelt, once part of a brotherhood in service to your Lord. Now, alone and committed to safeguarding what remains of your court, you ride to Vanderlin, resolved to ensure their safe arrival."
-	migrant_job = /datum/job/migrant/heartfelt_knight
+/datum/migrant_role/dunmoon_knight
+	name = "Dunnish Warden"
+	greet_text = "You are a Dunnish warden, a loyal and handsomely-paid bodyguard for your Tycoon's business."
+	migrant_job = /datum/job/migrant/dunmoon_knight
 
-/datum/attribute_holder/sheet/job/migrant/heartfelt_knight
+/datum/attribute_holder/sheet/job/migrant/dunmoon_knight
 	raw_attribute_list = list(
 		STAT_STRENGTH = 2,
 		STAT_PERCEPTION = 1,
@@ -226,10 +225,10 @@
 		/datum/attribute/skill/labor/mathematics = 30,
 	)
 
-/datum/job/migrant/heartfelt_knight
-	title = "Knight of Heartfelt"
-	tutorial = "You are a Knight of Heartfelt, once part of a brotherhood in service to your Lord. Now, alone and committed to safeguarding what remains of your court, you ride to Vanderlin, resolved to ensure their safe arrival."
-	outfit = /datum/outfit/heartfelt_knight
+/datum/job/migrant/dunmoon_knight
+	title = "Dunnish Warden"
+	tutorial = "You are a Dunnish warden, a loyal and handsomely-paid bodyguard for your Tycoon's business."
+	outfit = /datum/outfit/dunmoon_knight
 	allowed_races = RACES_PLAYER_NONDISCRIMINATED
 	blacklisted_species = list(SPEC_ID_HALFLING)
 	is_recognized = TRUE
@@ -238,7 +237,7 @@
 	honorary = "Sir"
 	honorary_f = "Dame"
 
-	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/heartfelt_knight
+	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/dunmoon_knight
 
 	traits = list(
 		TRAIT_NOBLE_BLOOD,
@@ -251,7 +250,7 @@
 	cmode_music = 'sound/music/cmode/nobility/CombatKnight.ogg'
 	voicepack_m = /datum/voicepack/male/knight
 
-/datum/job/migrant/heartfelt_knight/after_spawn(mob/living/carbon/human/spawned, client/player_client)
+/datum/job/migrant/dunmoon_knight/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 
 	if(istype(spawned.cloak, /obj/item/clothing/cloak/tabard/knight/guard))
@@ -267,8 +266,8 @@
 	if(boiler)
 		SEND_SIGNAL(boiler, COMSIG_ATOM_STEAM_INCREASE, rand(500, 900))
 
-/datum/outfit/heartfelt_knight
-	name = "Knight of Heartfelt (Migrant Wave)"
+/datum/outfit/dunmoon_knight
+	name = "Dunnish Warden (Migrant Wave)"
 	backl = /obj/item/clothing/cloak/boiler
 	armor = /obj/item/clothing/armor/steam
 	shoes = /obj/item/clothing/shoes/boots/armor/steam
@@ -283,7 +282,7 @@
 	belt = /obj/item/storage/belt/leather/steel
 	backr = /obj/item/storage/backpack/satchel/black
 
-/datum/outfit/heartfelt_knight/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
+/datum/outfit/dunmoon_knight/pre_equip(mob/living/carbon/human/equipped_human, visuals_only)
 	. = ..()
 
 	if(prob(50))
@@ -291,12 +290,12 @@
 	else
 		r_hand = /obj/item/weapon/mace/goden/steel
 
-/datum/migrant_role/heartfelt_artificer
+/datum/migrant_role/dunmoon_artificer
 	name = "Supreme Artificer"
-	greet_text = "You are the Supreme Artificer, the foremost expert on anything brass and steam. Your knowledge helped advance your kingdom, before ultimately leading it to ruin..."
-	migrant_job = /datum/job/migrant/heartfelt_artificer
+	greet_text = "You are the Supreme Artificer, the foremost expert on anything brass and steam. Your knowledge has little equal across all the Goblet."
+	migrant_job = /datum/job/migrant/dunmoon_artificer
 
-/datum/attribute_holder/sheet/job/migrant/heartfelt_artificer
+/datum/attribute_holder/sheet/job/migrant/dunmoon_artificer
 	raw_attribute_list = list(
 		STAT_STRENGTH = 1,
 		STAT_INTELLIGENCE = 2,
@@ -320,19 +319,19 @@
 		/datum/attribute/skill/craft/bombs= 40,
 	)
 
-/datum/job/migrant/heartfelt_artificer
+/datum/job/migrant/dunmoon_artificer
 	title = "Supreme Artificer"
-	tutorial = "You are the Supreme Artificer, the foremost expert on anything brass and steam. Your knowledge helped advance your kingdom, before ultimately leading it to ruin..."
-	outfit = /datum/outfit/heartfelt_artificer
+	tutorial = "You are the Supreme Artificer, the foremost expert on anything brass and steam. Your knowledge has little equal across all the Goblet."
+	outfit = /datum/outfit/dunmoon_artificer
 	allowed_races = RACES_PLAYER_NONDISCRIMINATED
 	is_recognized = TRUE
 
-	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/heartfelt_artificer
+	attribute_sheet = /datum/attribute_holder/sheet/job/migrant/dunmoon_artificer
 
 	traits = list(TRAIT_SEEPRICES)
 	cmode_music = 'sound/music/cmode/adventurer/CombatDream.ogg'
 
-/datum/outfit/heartfelt_artificer
+/datum/outfit/dunmoon_artificer
 	name = "Supreme Artificer (Migrant Wave)"
 	head = /obj/item/clothing/head/articap
 	armor = /obj/item/clothing/armor/leather/jacket/artijacket
@@ -351,49 +350,49 @@
 		/obj/item/weapon/chisel = 1,
 	)
 
-/datum/migrant_wave/heartfelt
-	name = "The Court of Heartfelt"
+/datum/migrant_wave/dunmoon
+	name = "The Roaming Tycoon"
 	max_spawns = 1
-	shared_wave_type = list(/datum/migrant_wave/grenzelhoft_visit,/datum/migrant_wave/zalad_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/heartfelt)
+	shared_wave_type = list(/datum/migrant_wave/aelondan_visit,/datum/migrant_wave/qadirid_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/dunmoon)
 	weight = 25
-	downgrade_wave = /datum/migrant_wave/heartfelt_down
+	downgrade_wave = /datum/migrant_wave/dunmoon_down
 	roles = list(
-		/datum/migrant_role/heartfelt_lord = 1,
-		/datum/migrant_role/heartfelt_lady = 1,
-		/datum/migrant_role/heartfelt_hand = 1,
-		/datum/migrant_role/heartfelt_knight = 1,
-		/datum/migrant_role/heartfelt_artificer = 1,
+		/datum/migrant_role/dunmoon_tycoon = 1,
+		/datum/migrant_role/dunmoon_lady = 1,
+		/datum/migrant_role/dunmoon_hand = 1,
+		/datum/migrant_role/dunmoon_knight = 1,
+		/datum/migrant_role/dunmoon_artificer = 1,
 	)
-	greet_text = "Fleeing disaster, you have come together as a court, united in a final effort to restore the former glory and promise of Heartfelt. Stay close and watch out for each other, for all of your sakes!"
+	greet_text = "In search of profit, a Tycoon and their attachment of trustees have set course for Domotan Island. Hopefully for good business."
 
-/datum/migrant_wave/heartfelt_down
-	name = "The Court of Heartfelt"
-	shared_wave_type = list(/datum/migrant_wave/grenzelhoft_visit,/datum/migrant_wave/zalad_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/heartfelt)
+/datum/migrant_wave/dunmoon_down
+	name = "The Roaming Tycoon"
+	shared_wave_type = list(/datum/migrant_wave/aelondan_visit,/datum/migrant_wave/qadirid_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/dunmoon)
 	can_roll = FALSE
-	downgrade_wave = /datum/migrant_wave/heartfelt_down_one
+	downgrade_wave = /datum/migrant_wave/dunmoon_down_one
 	roles = list(
-		/datum/migrant_role/heartfelt_lord = 1,
-		/datum/migrant_role/heartfelt_lady = 1,
-		/datum/migrant_role/heartfelt_hand = 1,
+		/datum/migrant_role/dunmoon_tycoon = 1,
+		/datum/migrant_role/dunmoon_lady = 1,
+		/datum/migrant_role/dunmoon_hand = 1,
 	)
-	greet_text = "Fleeing disaster, you have come together as a court, united in a final effort to restore the former glory and promise of Heartfelt. Stay close and watch out for each other, for all of your sakes! Your Knight, Magos and Artificer did not make it..."
+	greet_text = "In search of profit, a Tycoon and their attachment of trustees have set course for Domotan Island. Hopefully for good business."
 
-/datum/migrant_wave/heartfelt_down_one
-	name = "The Court of Heartfelt"
-	shared_wave_type = list(/datum/migrant_wave/grenzelhoft_visit,/datum/migrant_wave/zalad_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/heartfelt)
+/datum/migrant_wave/dunmoon_down_one
+	name = "The Roaming Tycoon"
+	shared_wave_type = list(/datum/migrant_wave/aelondan_visit,/datum/migrant_wave/qadirid_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/dunmoon)
 	can_roll = FALSE
-	downgrade_wave = /datum/migrant_wave/heartfelt_down_two
+	downgrade_wave = /datum/migrant_wave/dunmoon_down_two
 	roles = list(
-		/datum/migrant_role/heartfelt_lord = 1,
-		/datum/migrant_role/heartfelt_hand = 1,
+		/datum/migrant_role/dunmoon_tycoon = 1,
+		/datum/migrant_role/dunmoon_hand = 1,
 	)
-	greet_text = "Fleeing disaster, you have come together as a court, united in a final effort to restore the former glory and promise of Heartfelt. Stay close and watch out for each other, for all of your sakes! The journey took its heavy toll. Only you two made it, the rest..."
+	greet_text = "In search of profit, a Tycoon and their attachment of trustees have set course for Domotan Island. Hopefully for good business."
 
-/datum/migrant_wave/heartfelt_down_two
-	name = "The Court of Heartfelt"
-	shared_wave_type = list(/datum/migrant_wave/grenzelhoft_visit,/datum/migrant_wave/zalad_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/heartfelt)
+/datum/migrant_wave/dunmoon_down_two
+	name = "The Roaming Tycoon"
+	shared_wave_type = list(/datum/migrant_wave/aelondan_visit,/datum/migrant_wave/qadirid_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/dunmoon)
 	can_roll = FALSE
 	roles = list(
-		/datum/migrant_role/heartfelt_lord = 1,
+		/datum/migrant_role/dunmoon_tycoon = 1,
 	)
-	greet_text = "Fleeing disaster, you have come together as a court, united in a final effort to restore the former glory and promise of Heartfelt. But disaster followed hot on your heels, from Heartfelt to this very place! You are the last one remaining, oh how tragic!"
+	greet_text = "In search of profit, a Tycoon and their attachment of trustees have set course for Domotan Island. Hopefully for good business."

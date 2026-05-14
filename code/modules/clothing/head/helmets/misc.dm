@@ -72,9 +72,9 @@
 	item_weight = 2.5 KILOGRAMS
 
 //............... Grenzelhoft Plume Hat ............... // - worn over a skullcap
-/obj/item/clothing/head/helmet/skullcap/grenzelhoft
-	name = "grenzelhoft plume hat"
-	desc = "Slaying foul creachers or fair maidens: Grenzelhoft stands. A stylish hat concealing an iron skullcap."
+/obj/item/clothing/head/helmet/skullcap/sterkenstadten
+	name = "sterkenstadten plume hat"
+	desc = "A stylish hat concealing an iron skullcap."
 	icon_state = "grenzelhat"
 	item_state = "grenzelhat"
 	sleeved = 'icons/roguetown/clothing/onmob/helpers/stonekeep_merc.dmi'
@@ -83,7 +83,7 @@
 	colorgrenz = TRUE
 	sellprice = VALUE_FANCY_HAT
 
-/obj/item/clothing/head/helmet/skullcap/grenzelhoft/update_overlays()
+/obj/item/clothing/head/helmet/skullcap/sterkenstadten/update_overlays()
 	. = ..()
 	if(!get_detail_tag())
 		return
@@ -285,8 +285,8 @@
 //	icon_state = "elven_barbute_winged"
 //	item_state = "elven_barbute_winged"
 
-//................ Zalad Kulah Khud ............... //
-/obj/item/clothing/head/helmet/sallet/zalad // Unique Zaladin merc kit
+//................ Qadirid Kulah Khud ............... //
+/obj/item/clothing/head/helmet/sallet/qadirid // Unique Qadirid merc kit
 	name = "kulah khud"
 	desc = "Known as devil masks amongst the Western Kingdoms, these serve part decorative headpiece, part protective helmet."
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/64x64/head.dmi'

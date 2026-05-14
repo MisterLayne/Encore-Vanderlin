@@ -14,7 +14,7 @@
 
 /datum/job/advclass/combat/lancer
 	title = "Lancer"
-	tutorial = "Working for many years as a famous mercenary in Zaladin, you have left your country to avoid the skeletons of your past. With your polearm by your side, you can face down any foe."
+	tutorial = "Working for many years as a famous mercenary in the Sultanate, you have left your country to avoid the skeletons of your past. With your polearm by your side, you can face down any foe."
 	allowed_sexes = list(MALE)
 	allowed_races = list(SPEC_ID_HUMEN)
 	outfit = /datum/outfit/adventurer/lancer
@@ -30,13 +30,13 @@
 		TRAIT_HEAVYARMOR,
 	)
 
-	languages = list(/datum/language/zalad)
+	languages = list(/datum/language/qadirid)
 
 /datum/job/advclass/combat/lancer/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
 	var/datum/species/species = spawned.dna?.species
 	if(species && species.id == SPEC_ID_HUMEN)
-		species.native_language = "Zalad"
+		species.native_language = "Qadirid"
 		species.accent_language = species.get_accent(species.native_language)
 
 /datum/outfit/adventurer/lancer
@@ -44,13 +44,13 @@
 
 	pants = /obj/item/clothing/pants/tights/colored/black
 	beltl = /obj/item/storage/belt/pouch/coins/mid
-	shoes = /obj/item/clothing/shoes/boots/rare/zaladplate
-	gloves = /obj/item/clothing/gloves/rare/zaladplate
+	shoes = /obj/item/clothing/shoes/boots/rare/qadiridplate
+	gloves = /obj/item/clothing/gloves/rare/qadiridplate
 	belt = /obj/item/storage/belt/leather
 	shirt = /obj/item/clothing/shirt/undershirt/colored/random
-	armor = /obj/item/clothing/armor/rare/zaladplate
+	armor = /obj/item/clothing/armor/rare/qadiridplate
 	backl = /obj/item/storage/backpack/satchel
-	head = /obj/item/clothing/head/rare/zaladplate
+	head = /obj/item/clothing/head/rare/qadiridplate
 	wrists = /obj/item/clothing/wrists/bracers
 	neck = /obj/item/clothing/neck/chaincoif
 

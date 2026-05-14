@@ -4,7 +4,7 @@
 	triumph_buy_id = TRIUMPH_BUY_FART
 	triumph_cost = 2
 	category = TRIUMPH_CAT_CHARACTER
-	visible_on_active_menu = TRUE
+	visible_on_active_menu = FALSE//no thanks
 	manual_activation = TRUE
 	limited = TRUE
 	stock = 1

@@ -299,8 +299,8 @@
 	component_type = /datum/component/storage/concrete/grid/satchel/cloth/big
 
 /obj/item/storage/backpack/satchel/otavan
-	name = "grenzelhoftian leather satchel"
-	desc = "A made to last leather bag from the Angrosian heart of Grenzelhoft. It's Grenzelhoft's finest."
+	name = "Aelondan leather satchel"
+	desc = "A made to last leather bag from the center of Wavehearth. It's Aelonda's finest."
 	icon_state = "osatchel"
 	item_state = "osatchel"
 

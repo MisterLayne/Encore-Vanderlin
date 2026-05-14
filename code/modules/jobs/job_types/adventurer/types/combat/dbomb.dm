@@ -33,7 +33,7 @@
 
 /datum/job/advclass/combat/dbomb/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()
-	spawned.culture = GLOB.culture_singletons[/datum/culture/species/dwarf/blackpowder]
+	spawned.culture = GLOB.culture_singletons[/datum/culture/universal/geramor]
 
 /datum/outfit/adventurer/dbomb
 	name = "Dwarven Bombardier (Adventurer)"

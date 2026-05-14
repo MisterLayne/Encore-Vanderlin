@@ -90,7 +90,7 @@ GLOBAL_VAR(lordsecondary)
 		"ORANGE"="#b47011",
 		"MAJENTA"="#822b52",
 	)
-	var/choice = browser_input_list(src, "Choose a Primary Color", "VANDERLIN", lordcolors)
+	var/choice = browser_input_list(src, "Choose a Primary Color", "ENCORE", lordcolors)
 	if(!choice)
 		if(!client)
 			addtimer(CALLBACK(src, PROC_REF(lord_color_choice)), 5 SECONDS)
@@ -99,7 +99,7 @@ GLOBAL_VAR(lordsecondary)
 		return
 	GLOB.lordprimary = lordcolors[choice]
 	lordcolors -= choice
-	choice = browser_input_list(src, "Choose a Secondary Color", "VANDERLIN", lordcolors)
+	choice = browser_input_list(src, "Choose a Secondary Color", "ENCORE", lordcolors)
 	if(!choice)
 		choice = pick(lordcolors)
 		return

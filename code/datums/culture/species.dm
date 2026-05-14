@@ -1,281 +1,177 @@
-/datum/culture/species/subterra
-	name = "Subterra"
-	description = "Known by humens to be hardened by the harsh environment of the world below. \
-	To the average humen, a Subterran could refer to anywhere from citizens of the nearest outpost of Zizo, \
-	to a deep culture of hermits, or even a group of dwarves who dug too deep. Regardless, none are to be trusted."
-	species = list(
-		SPEC_ID_DROW,
-		SPEC_ID_HALF_DROW,
-		SPEC_ID_DWARF,
-		SPEC_ID_KOBOLD,
-	)
-
-/datum/culture/species/elven
-	abstract_type = /datum/culture/species/elven
-	species = list(
-		SPEC_ID_ELF,
-		SPEC_ID_HALF_ELF,
-	)
-
-/datum/culture/species/elven/costal
-	name = "Coastal Tribes"
-	description = "Known by humens to be haughty, wealthy, disconnected pricks. \
-	Much of the culture has since been absorbed by Wintermare. Never ask their opinions on any of the Sea Tribes."
+//Aelondan species specific cultures
+//commoners
+/datum/culture/species/aelonda
+	name = "Aelondan commonfolk"
+	description = "The most common of commonfolk in the realm, shielded from heartache in the deep countryside of Aelonda. \
+	A typical upbringing in the Sanct is a mundane tale, working the land and toiling for a heritage of inscrutable age."
+	species = RACES_PLAYER_NONEXOTIC
 	pre_append = "the "
 
-/datum/culture/species/elven/sea
-	name = "Sea Tribes"
-	description = "Known by humens to be cruel, relentless slavers. \
-	They say the basalt sands of their home island are stained with blood. Never ask their opinions on any of the Coastal Tribes."
+//cityfolk
+/datum/culture/species/aelonda/city
+	name = "Aelondan cityfolk"
+	description = "The most common of commonfolk in the real, shielded from heartache in the deep countryside of Aelonda. \
+	A typical upbringing in the Sanct is a mundane tale, working the land and toiling for a heritage of inscrutable age."
+	species = RACES_PLAYER_NONDISCRIMINATED//People in cities here are generally more uppity about monstrous humanoids
+
+//nobility
+/datum/culture/species/aelonda/noble
+	name = "Aelondan highbornes"
+	description = "Those born with the crest of the Emeraldine Court, the nobility of Aelonda and everything adjacent. \
+	Most here paint an idyllic picture of serene nobility, but for most, going stir crazy pushes them to adventure overseas."
+	species = RACES_PLAYER_NONDISCRIMINATED//No monstrous nobility here
+
+//havel sectus
+/datum/culture/species/havelsectus
+	name = "Havel Sectus"
+	description = "Devout warrior-castes of Havel Sectus who occupy the bridges to Nortmidst and dwell within its mighty walls. \
+	Invariably hardened, combat-trained and stubborn to a fault. Most often, these are immigrants seeking to do some good with otherwise dangerous skills."
+	species = RACES_PLAYER_NONEXOTIC//Only thing that matters is your ability to fight here honestly, kobolds are the only ones actually exempt
+
+//Nortmidst species specific cultures
+//commoners
+/datum/culture/species/nortmidst
+	name = "Nortic wanderers"
+	description = "Nomads, exiles and generally hardy folk who have somehow found themselves traversing Nortmidst free of any tribe. \
+	A typical upbringing in Nortmidst is not a fun one, and very few who choose to brave the colds survive long."
+	species = RACES_PLAYER_ALL//It is Nortmidst, nobody cares what you are
 	pre_append = "the "
 
-/datum/culture/species/elven/desert
-	name = "Desert Tribes"
-	description = "Known by humens to be rebellious and unruly. Assumed to be involved with Iliope's freemen of Zaladin."
+//cityfolk
+/datum/culture/species/nortmidst/city
+	name = "Nortic tribesfolk"
+	description = "The majority of Norts seek refuge together, and build their lives in rather confined spaces to fend off the brutal wilds. \
+	Life here is never lacking for things to do, with the cityfolk trained from a very early age to join in communal labor for the betterment of their tribe. \
+	The rigidity of their lives invite feelings of being in a prison for many. It is easy to justify why one would inevitably seek to flee south, damned be the consequences."
+	species = RACES_PLAYER_ALL//It is Nortmidst, nobody cares what you are
+
+//Cudao species specific cultures
+//commoners
+/datum/culture/species/cudao
+	name = "Cudese underclass"
+	description = "A sharp wit and a sharper knife are the most keen indicators of Cudao's working class. \
+	These folk are solely responsible for the back-breaking labor involved in maintaining the nation's billowing industrial works. \
+	Most of the downtrodden types yearn to seek more amenable lifestyles but are held back by crime, poverty or discrimination. \
+	Hope for their future can usually be found overseas, or playing a role in the Skyways themselves in an airship's employ."
+	species = RACES_PLAYER_ALL//It is Cudao, nobody cares what you are as long as you can work. Capitalism baby
 	pre_append = "the "
 
-/datum/culture/species/elven/crimson
-	name = "Crimson Tribes"
-	description = "Known by humens to be naive and weak. How they manage to survive the harsh steppe with roaming orc bands is anyone's guess."
+//cityfolk
+/datum/culture/species/cudao/city
+	name = "Cudese cityfolk"
+	description = "The middle class of Cudao which lives invariably above street level across its industrialized islands. \
+	Paper-pushers, taxmen, office workers and human calculators only scratch the surface of the many complex roles found here. \
+	The almighty coin rules these folk almost more than the Gods themselves, partly in thanks to their close ties to Noman economic innovation."
+	species = RACES_PLAYER_ALL//It is Cudao, nobody cares what you are as long as you can work. Capitalism baby
 	pre_append = "the "
 
-/datum/culture/species/elven/obsidian
-	name = "Obsidian Tribes"
-	description = "Known by humens to be miserably devout valdalans. \
-	They worship their holy tree, \"The Waiting Wood,\" praying to its skulls for but a chance to speak to The Veiled Lady herself."
-	species = list(
-		SPEC_ID_ELF,
-		SPEC_ID_AASIMAR,
-	)
+//tycoons
+/datum/culture/species/cudao/tycoon
+	name = "Dunnish tycoons"
+	description = "The most capable engineers, business owners and leaders of the Cudao peoples. \
+	Their less-than-flattering depictions to virtually every lower class is thanks to a brilliant usage of machinery to expand their own little empires. \
+	In their pursuit of wealth, Dunmoon and Cudao as a whole has turned into an explosively growing- if morally dubious- machine of its own."
+	species = RACES_PLAYER_NONDISCRIMINATED//Again, it is Cudao, except it would be strange to see a monstrous tycoon
 	pre_append = "the "
 
-/datum/culture/species/halfling
-	name = "Hearthhill"
-	description = "Known by humens to be mostly coin-counting-challenged halflings. \
-	They are proud of homely crafts, and often prefer bartering over coin. Violence is a foreign concept to most."
-	species = list(
-		SPEC_ID_HALFLING
-	)
-
-/datum/culture/species/halfling/jaded
-	name = "worldly halflings"
-	description = "Known to humens as halflings who have been outside of Hearthhill for longer, identifiable by the lack of shock in their eyes when someone is wounded in front of them. They understand humens can die like animals, though they are still averse to violence."
+//Sultans specific species cultures
+//commoners
+/datum/culture/species/sultanate
+	name = "Qadirid commonfolk"
+	description = "Natives of Milhun and its loyalist states within the Sultanate's grasp. \
+	Despite an abhorrent reputation with their neighbor Geramor, these folk are internally a deeply storied and culturally rich folk. \
+	Their history is defined by unending strife and the pursuit of pride, so much that they would spite their very patron god Visires to see it through. \
+	They are among the few still-divine groups which have been stricken of their ability to channel their Thauma's power, due to their wrongs against Visires. \
+	CAUTION! QADIRID NATIVES CAN NOT PRACTICE MAGIC OUTSIDE OF DIVINE MIRACLES. You will have to utilize Thaumatech if you plan to use magic!"
+	species = RACES_PLAYER_SULTANS//no monstrous races, the sultans are not exactly a welcoming culture
 	pre_append = "the "
 
-/datum/culture/species/half_orc
-	abstract_type = /datum/culture/species/half_orc
-	species = list(
-		SPEC_ID_HALF_ORC,
-	)
-
-/datum/culture/species/half_orc/shellcrest
-	name = "Shellcrest"
-	description = "Known to humens as vicious pirates, the Shellcrest tribe lives off the western coast of Vanderlin and the Isle of Enigma. They're famous for proving that a metal boat can float as well as a wooden one, through complete and utter blind enthusiasm."
-
-/datum/culture/species/half_orc/blood_axe
-	name = "Blood Axe"
-	description = "Known to humens as violent and brutal warriors in the Crimsonlands. They believe themselves to be the Archdevils' chosen. Humen steppesmen avoid their path. Never ask their opinion of the Splitjaw tribe."
-
-/datum/culture/species/half_orc/splitjaw
-	name = "Splitjaw"
-	description = "Known to humens as brutal and violent fighters in the Crimsonlands. They believe themselves to be the Archdevils' chosen. Humen steppesmen avoid their path. Never ask their opinion of the Blood Axe tribe."
-
-/datum/culture/species/half_orc/blackhammer
-	name = "Blackhammer"
-	description = "Known to humens to be mostly around the borders of Grenzelhoft towards the east. These orcs are both a hazard to Grenzelhoftian troops and a helpful nuisance, smashing apart undead on other fronts. Half-orcs from this tribe exist in an uneasy stalemate with Grenzelhoft, and with the Host of Misfortune."
-
-/datum/culture/species/half_orc/skullseeker
-	name = "Skullseeker"
-	description = "Known to humens as one of the wilder half-orc tribes, originating from Ossland. Many of them follow the Great Hunt common in that land. The most valued trophy is a sapient being's head, ensuring reincarnation into a more powerful form."
-
-/datum/culture/species/half_orc/crescent_fang
-	name = "Crescent Fang"
-	description = "Known to humens to live in the jungle between Grenzelhoft and Zaladin, hating both sides. They are isolationist and rarely engage in trade, preferring instead to take bounties from one of the warring nations to kill members of the other, or take payment to guide travelers across the jungle. They can also be found picking off undead that managed to get stranded in the jungle after Zizo's ascension. Don't ask their opinion on the quicksand rakshari."
-
-/datum/culture/species/half_orc/murkwater
-	name = "Murkwater"
-	description = "Known to humens as an annoyance to both Wintermare and Grenzelhoft, these half-orcs have managed to build a floating city in the waters east of those nations. They have developed a culture of guiding small boats through shallow water using long wooden poles. Rumour has it they take bribes to ferry soldiers behind enemy lines."
-
-/datum/culture/species/half_orc/shatterhorn
-	name = "Shatterhorn"
-	description = "Known to humens as one of the more civilised half-orc tribes, the Shatterhorn live in northern Vanderlin, at the foot of a twin peak mountain. The top of the mountain is cracked, but it still shelters the half-orcs from storms. Oddly enough, Shatterhorn half-orcs gravitate to mountains. They tend to be humble and act as guides to people traveling through the boggy outlands of the region."
-
-/datum/culture/species/half_orc/spiritcrusher
-	name = "Spiritcrusher"
-	description = "Known to humens (and elves) as a danger in the darkness throughout Wintermare. These half-orcs live below ground in Subterra, raiding settlements at night and capturing mages, extracting and devouring their lux before battle to temporarily gain their magics. Many a Wintermarian household tells cautionary tales to keep young students indoors with the doors latched, lest the half-orcs come steal their lux."
-
-/datum/culture/species/rakshari
-	abstract_type = /datum/culture/species/rakshari
-	species = list(
-		SPEC_ID_RAKSHARI,
-	)
+//nobility
+/datum/culture/species/sultanate/noble
+	name = "Qadirid Sunmen"
+	description = "The first unified grand noble houses in history were called the Sunmen- an ancient and once-disparate union between the Kingdoms taken by Maruhadar I. \
+	In modern time, their descendents enjoy lavish lives distant from the perpetual wars their peoples face. \
+	There is scarce opportunity to see them beyond the gilded palaces of Milhun, and those Sunmen who wander are generally a good indicator of trouble on the horizon. \
+	CAUTION! QADIRID NATIVES CAN NOT PRACTICE MAGIC OUTSIDE OF DIVINE MIRACLES. You will have to utilize Thaumatech if you plan to use magic!"
+	species = RACES_PLAYER_SULTANS//no monstrous races, the sultans are not exactly a welcoming culture
 	pre_append = "the "
 
-/datum/culture/species/rakshari/city
-	name = "City Tribes"
-	description = "Known by humens to be greedy, and descended from desert or oasis rakshari, for the most part, who decided to pause their nomadic lifestyle and settle down in a city. They're as much of a melting pot as Zaladin itself is. City rakshari can be found in any social level of Zaladin, from merchant-kings who gained their wealth through trading, to the average commoner, to a slave. Many cities have districts full of rakshari as they naturally tend to gather together. Of course living in cities often comes with the temptation of thievery, and more criminals are found among this subculture. "
-
-/datum/culture/species/rakshari/desert
-	name = "Desert Tribes"
-	description = "What humens think of as the 'baseline' rakshari. Desert rakshari are the most numerous, traveling from city to city through the sand. There's no singular tribe of desert rakshari, instead this is a grouping of multiple tribes of the same subculture. Customs can vary throughout individual tribes, due to their numbers."
-
-/datum/culture/species/rakshari/deep_desert
-	name = "Deep Desert Tribes"
-	description = "Barely known to humens as desert-maddened heretics. Deep desert tribes are isolated by choice, distrustful, or too arrogant to mingle with other species. Each tribe leans into a sort of folk mysticism. Handmade charms for luck or to ward off evil are common, tied onto rakshari clothing or beasts of burden. Some tribes take the rakshari not being chosen by any of the Ten to heart, and make their own religion, elaborate and secretive. Outsiders rarely see any of these tribesmen, and those that leave the isolation of the deep desert often have strong reasons to do so."
-
-/datum/culture/species/rakshari/mountain
-	name = "Mountain Tribes"
-	description = "Known to humens as surprisingly welcoming to trade. These are the furthest tribes from the desert's centre, living in mountain caverns for generations. They have more fur than most rakshari, resembling the lykoi breed of cat. Heavier clothing is common here, swapping the flowy, covering desert robes for thicker fabric, often woven from the fur of the gotes that roam the mountain. These rakshari are isolated by happenstance, not by choice, and welcome traders who make the long journey to the mountains. They have a strong culture of passing down history and folk tales, and uncanny balance on the mountainside, with stronger, thicker claws for keeping their footing."
-
-/datum/culture/species/rakshari/oasis
-	name = "Oasis Tribes"
-	description = "Known to humens to be rich and as status-focused as Wintermarians. These tribes settled down in places rich in natural resources, and as the settlements of Zaladin grew around the water, the oasis rakshari grew rich controlling access. In modern days, access to resources is controlled by the Merchant-King of the region, but many rakshari are among the upper classes, old money. Many others are throughout the other social classes. In any major Zaladin city, you will find mostly city and oasis rakshari. The distinction is whether the individual's family arrived first or joined the city after."
-
-/datum/culture/species/rakshari/oasis_shade
-	name = "Oasis Shade Tribes"
-	description = "Known to humens as even more rich and elitist than oasis rakshari. These are the elite among the oasis rakshari. They trace their lineages with pride, and are those most likely to know the history of the rakshari, at least among their local tribes. Some opt to tattoo their history on their skin in an ink that stands out, depending on the skin tone of the individual. They value status highly. These are the rakshari most likely to turn up their nose at unfavourable courtships and deals."
-
-/datum/culture/species/rakshari/quicksand
-	name = "Quicksand Tribes"
-	description = "Known to humens to be stern and quick to aggression. Quicksand rakshari are near the jungle at the edge of Zaladin. As inhospitable as the desert is, the jungle is just as dangerous, and these rakshari train all of their people in defending against it, as well as against any foreign soldiers, mostly from Grenzelhoft, who manage to navigate the jungle intact. They have a stronger warrior culture than the other rakshari tribes, valuing strength and discipline. They may be standoffish to foreigners, but a bit friendlier to Zaladin citizens. In either case, they come off as harsh at first. Don't ask their opinion of the Crescent Fang half-orcs."
-
-/datum/culture/species/kobold
-	abstract_type = /datum/culture/species/kobold
-	species = list(
-		SPEC_ID_KOBOLD
-	)
+/datum/culture/species/sultanate/djannam
+	name = "Djannam"
+	description = "Nomads and travelers who for whatever reason embark into and beyond the Djannam. \
+	Their goals are more often than not criminal in nature, or are the result of some form of exile. \
+	The exploration of the eastern deserts is nigh pointlessly dangerous, and so the mutations and Herteannean symbolism beyond is well known to the Sultanate. \
+	CAUTION! QADIRID NATIVES CAN NOT PRACTICE MAGIC OUTSIDE OF DIVINE MIRACLES. You will have to utilize Thaumatech if you plan to use magic!"
+	species = RACES_PLAYER_ALL//nobody really wants to go here so its not like anyones keeping track
 	pre_append = "the "
 
-/datum/culture/species/kobold/emberhide
-	name = "Emberhide tribes"
-	description = "Known by humens to be mainly found in Kruskros, serving the Great-Wyrm. Among kobold races, they're one of those more prone to burrowing, making the less-civilised ones among them a bit of a nuisance when they migrate out of their mountain home."
-
-/datum/culture/species/kobold/moonshade
-	name = "Moonshade tribes"
-	description = "Known by humens to originate in the Isle of Enigma, they were often underfoot in Heartfelt and Rockhill before the fall, digging around the great chasm that held Heartfelt's main automaton controller, and living in the massive brass cooling pipes of the machine. Many of them were caught in the fall of Heartfelt, and most of the survivors fled out of the island."
-
-/datum/culture/species/kobold/sandswept
-	name = "Sandswept tribes"
-	description = "Known to humens as pests in Kingsfield, with many of them aiming to eat the fossilized tree in the grand church, much to the displeasure of the local aasimar. The tree is what's given these kobolds their pale colour."
-
-/datum/culture/species/kobold/stonepaw
-	name = "Stonepaw tribes"
-	description = "Known to humens and dwarves as proficient burrowers from the mountains of the Dwarven Federations, and tend to be hard workers, getting along well with the dwarves, though it varies between groups of kobolds. They mine and burrow as fast as the dwarves, and this habit often carries over even when they leave the mountains. Some migrated to Grenzelhoft with the dwarven population there and promptly became a pest eating the stone foundations of cellars."
-
-/datum/culture/species/kobold/sunstreak
-	name = "Sunstreak tribes"
-	description = "Known to humens to be rare and surprisingly skilled, these kobolds evolved in volcanoes, adjusting to the heat and turning the same orange as the lava for camouflage. They are crafters, specialising in glass-blowing, one of the few crafts they beat the taller races at. The leader of any given Sunstreak tribe is the kobold who can make the largest unbroken glass globe. They lose their position if it breaks - or if a jealous rival smashes it."
-
-/datum/culture/species/kobold/icepack
-	name = "Icepack tribes"
-	description = "Known to humens as sneaky little bastards, these kobolds evolved in Subterra, learning to be quick and harsher among the difficult wildlife. The Zizo-led drow often use them as miners, when they manage to actually catch the lizards. They're a bit more eccentric and suspicious of strangers compared to the other kobold races, owing to the vigilance demanded of their home."
-
-/datum/culture/species/medicator
-	name = "Swamps of Enigma"
-	description = "Known to humens to be from the polluted swamps of the Isle of Enigma, particularly around Rockhill, where the land's pollution gave birth to the medicator species.\
-	At least, before they developed sapience."
-	species = list(
-		SPEC_ID_MEDICATOR
-	)
+//geramor
+//commoners
+/datum/culture/species/geramor
+	name = "Geramorean Undermen"
+	description = "Commonfolk who originate from the security of Gernhollow, distinct in their keen control of magic and stone. \
+	The majority of these people are dwarven, though other humanoids find a difficult life in the harsh sanctum carved out of the regolith here."
+	species = RACES_PLAYER_GERAMOR//dwarf, human, elf, aasimar
 	pre_append = "the "
 
-/datum/culture/species/triton
-	abstract_type = /datum/culture/species/triton
-	species = list(
-		SPEC_ID_TRITON
-	)
+//landschnekt gooner containment culture
+/datum/culture/species/geramor/sterkenstadt
+	name = "Tor Sterkenstadt"
+	description = "Tor Sterkenstadt is known the world over for the boisterous festivities that ever fill its streets in brazen defiance of the darkness that threatens to swallow it whole from all sides. \
+	It is an ostentatious beacon of flashy excess, with most of the world regarding it as the sole origin of the holiday seasons. \
+	The glamorous Feathercap Free Company originates from here and serves as a component of Angus the Fifth's own personal guard."
+
+//obligatory trench veterans
+/datum/culture/species/geramor/scars
+	name = "Scarred"
+	description = "Aptly honored with the title after any extended tenure within the Scars region, the Scarred are respected and often grievously wounded warriors from the wastes in southern Geramor. \
+	Survivors of the trenches are few and far between and the accolades they collect are usually seen in vain, but they are sought nonetheless for their potent magical capacity. \
+	With their service comes an unrelenting disdain for the Sultans and the product of their wars without reason."
 	pre_append = "the "
 
-/datum/culture/species/triton/reef
-	name = "Reef colonies"
-	description = "Known to humens to be fond of bright colours, these triton often collect shells and other trinkets to adorn themselves and impress their allies. They perform the most ritualistic traditions of the known triton cultures."
+//Nidhogg spawn
+/datum/culture/species/geramor/nidhogg
+	name = "Wormbloods"
+	description = "Loyal or formerly loyal dwarves to the demonic Nidhogg who festers still beneath Gernhollow. \
+	Those who shook free the blood of the vile Betrayer were still permanently altered, given monstrous and drained features. \
+	They are obviously difficult to be trusted, suffering exile at best for their malformed state. \
+	That is, assuming they aren't still loyal to the Worm all along..."
+	species = RACES_PLAYER_DWARVES_ONLY//Only dwarves
+	pre_append = "the "
 
-/datum/culture/species/triton/depths
-	name = "Deepwater colonies"
-	description = "Barely known to humens, these triton tend to be solitary hunters. Those who come to the surface are often paranoid, with light-sensitive eyes. This caution makes them excellent guards."
+//ocean people
+/datum/culture/species/aquatic
+	name = "Shallowfolk"
+	description = "Inhabitants of coastal, shallow waters which commonly exist in distant and wild places. \
+	Often Tritonians or adjacent beastfolk are the only ones who make true civilization in these areas."
+	pre_append = "the "
 
-/datum/culture/species/triton/abyssal
-	name = "Abyssal colonies"
-	description = "Nearly entirely unknown to humens. Those deepest in the darkest depths hear Mjallidhorn's demands for worship, and another voice whispering beneath."
+/datum/culture/species/aquatic/deep
+	name = "Deep Ones"
+	description = "Twisted, pale and solitary aquatic peoples live deep beyond the edge of easily-traversed waters. \
+	Beyond the continental shelves of the Goblet, the fearsome depths are found to be a Godless place. \
+	Few things survive here and nothing is known to survive beyond a certain point. \
+	One could surmise that only truly alien monsters dwell in these parts."
+	species = RACES_PLAYER_AQUATIC//generic options
+	pre_append = "the "
 
-/datum/culture/species/triton/shallows
-	name = "Shallow colonies"
-	description = "Known to humens as the most sociable of triton cultures, they tend to be much more open to trade, and often join ships on their journeys across the seas, saving the lives of many a sailor fallen overboard."
-
-/datum/culture/species/tiefling
-	abstract_type = /datum/culture/species/tiefling
-	species = list(
-		SPEC_ID_TIEFLING
-	)
-
-/datum/culture/species/tiefling/surprise
-	name = "humen-born origin"
-	description = "Known to humens to have been a cursed child from two non-tiefling parents. These tieflings grow up often rejected by their peers and family as bad omens. Noble families have been cast into shame for having the bad luck to birth a tiefling child."
-
-/datum/culture/species/tiefling/expected
-	name = "tiefling-born origin"
-	description = "Known to humens to have been born of tiefling parents. The resulting child is always a tiefling. They grow up often loved by their tiefling families and communities, and tend to be more well-adjusted emotionally as a result."
-
-/datum/culture/species/tiefling/misfortune
-	name = "the Host of Misfortune"
-	description = "Known to humens as deserters from the war with Zizo in Grenzelhoft. These tieflings may be former soldiers or tieflings from other nations who fled to the lands occupied by the Host. Grenzelhoftians sneer as they pass. Others may look up to them as people who took their futures into their own hands."
+/datum/culture/species/hellspawn
+	name = "Fiend-kin"
+	description = "Thauma-less, unnaturally formed life- usually the result of some meddling by daemons. \
+	These range from anything between monstrous greenskins to Tieflings, which can sometimes be indistinguishable from Humans. \
+	Fiends have no recollection or greater understanding of the workings of Hell beyond their own lacking of Thauma. \
+	Invariably, they are discriminated in all parts of the world, only seeing anything close to impartial on Domotan Island."
+	species = RACES_PLAYER_HERETICAL_RACE
+	pre_append = "the "
 
 /datum/culture/species/aasimar
+	name = "Divine origin"
+	description = "Genies, mortal divines and generally anything which has ethereal form are considered spirits. \
+	They are the most ancient and inscrutable forms of life which inhabit Gaia. \
+	The gravitas of their elder origins gives them a rather displaced spot in the modern world. \
+	In the times after the Big Burn, the memories of old have been lost with no clear way of continuing their eternal lineages."
 	abstract_type = /datum/culture/species/aasimar
 	species = list(
 		SPEC_ID_AASIMAR
 	)
 
-/datum/culture/species/aasimar/celestial
-	name = "Celestial origin"
-	description = "Known to humens to have appeared one dae, cast down from the heavens by the Ten. These aasimar are the most melancholy, often trying to redeem themselves in the eyes of their creator."
-
-/datum/culture/species/aasimar/grounded
-	name = "Grounded origin"
-	description = "Known to humens to be the most level-headed of aasimar, these were placed on Gaia to serve a purpose there, and may vary in whether they have accomplished it at all, or been discarded."
-
-/datum/culture/species/aasimar/seer
-	name = "Great Tree"
-	description = "Known by humens to originate from Kingsfield, falling from the crystal leaf buds of the great petrified tree. These aasimar have no memory of what they were doing within the tree, waking within craters from their fall."
-	pre_append = "the "
-
-/datum/culture/species/dwarf
-	abstract_type = /datum/culture/species/dwarf
-	species = list(
-		SPEC_ID_DWARF
-	)
-	pre_append = "the "
-
-/datum/culture/species/dwarf/federation
-	name = "Dwarven Federation"
-	description = "Known to humens to be from the great dwarven clans that span the entire continent of Faience."
-
-/datum/culture/species/dwarf/brass
-	name = "Brass clan"
-	description = "Known to humens to be clever inventors, these dwarves are mostly seen around the Isle of Enigma, Vanderlin, and the newly-discovered Hearthhill."
-
-/datum/culture/species/dwarf/iron
-	name = "Iron clan"
-	description = "Known to humens to be capable of incredibly skilled blacksmithing, these dwarves are mostly in the mountains of the Federation, but often travel to sell their wares and prove their skill."
-
-/datum/culture/species/dwarf/blackpowder
-	name = "Blackpowder clan"
-	description = "Known to humens as inventors of the modern firearm and explosive. They have strong ties with Grenzelhoft, especially after the rise of Zizo's hordes."
-
-/datum/culture/species/dwarf/malachite
-	name = "Malachite clan"
-	description = "Known to humens as the premier jewelers of Gaia, these dwarves are both the primary source of dwarven wedding gems, and the makers of crowns and royal rings."
-
-/datum/culture/species/dwarf/cerargyrite
-	name = "Cerargyrite clan"
-	description = "Known to humens for their unmatched skill in enchanting, these dwarves are among the most common to see outside the Federation."
-
-/datum/culture/species/dwarf/aurum
-	name = "Aurum clan"
-	description = "Known to humens for their faith in Goler Kanh and their endless toil in brewing alcohol. Prone to bar fights. Their beers are the best in the land."
-
-/datum/culture/species/dwarf/platinum
-	name = "Platinum clan"
-	description = "Known to humens for their peerless talent as clothiers. Many monarchs strive to adorn themselves in the textiles of the Platinum dwarves."
-
-//dark elf here

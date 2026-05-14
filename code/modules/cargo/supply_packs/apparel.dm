@@ -75,10 +75,10 @@
 	cost = 60
 	contains = /obj/item/clothing/head/mentorhat
 
-/datum/supply_pack/apparel/grenzelhat
-	name = "Grenzel Hat"
+/datum/supply_pack/apparel/sterkenstadtenhat
+	name = "Sterkenstadten Hat"
 	cost = 30
-	contains = /obj/item/clothing/head/helmet/skullcap/grenzelhoft
+	contains = /obj/item/clothing/head/helmet/skullcap/sterkenstadten
 
 /datum/supply_pack/apparel/duelhat
 	name = "Duel Hat"
@@ -350,10 +350,10 @@
 	cost = 10
 	contains = /obj/item/clothing/shirt/shortshirt/colored/random
 
-/datum/supply_pack/apparel/grenzel_shirt
-	name = "Grenzel Shirt"
+/datum/supply_pack/apparel/sterkenstadten_shirt
+	name = "Sterkenstadt Shirt"
 	cost = 35
-	contains = /obj/item/clothing/shirt/grenzelhoft
+	contains = /obj/item/clothing/shirt/sterkenstadten
 
 /datum/supply_pack/apparel/east1_shirt
 	name = "Eastern Robes"
@@ -396,10 +396,10 @@
 	cost = 5
 	contains = /obj/item/clothing/pants/skirt/colored/random
 
-/datum/supply_pack/apparel/grenzel_trousers
-	name = "Grenzel Trousers"
+/datum/supply_pack/apparel/sterkenstadten_trousers
+	name = "Sterkenstadten Trousers"
 	cost = 35
-	contains = /obj/item/clothing/pants/grenzelpants
+	contains = /obj/item/clothing/pants/sterkenstadten
 
 /datum/supply_pack/apparel/east1_trousers
 	name = "Eastern Pants"
@@ -510,10 +510,10 @@
 	cost = 10
 	contains = /obj/item/clothing/gloves/fingerless
 
-/datum/supply_pack/apparel/grenzel_gloves
-	name = "Grenzel Gloves"
+/datum/supply_pack/apparel/sterkenstadten_gloves
+	name = "Sterkenstadten Gloves"
 	cost = 25
-	contains = /obj/item/clothing/gloves/angle/grenzel
+	contains = /obj/item/clothing/gloves/angle/sterkenstadten
 
 /datum/supply_pack/apparel/fur_gloves
 	name = "Fur Gloves"
@@ -521,7 +521,7 @@
 	contains = /obj/item/clothing/gloves/angle/atgervi
 
 /datum/supply_pack/apparel/otavan_gloves
-	name = "Otavan Gloves"
+	name = "Aelondan Gloves"
 	cost = 25
 	contains = /obj/item/clothing/gloves/leather/otavan
 

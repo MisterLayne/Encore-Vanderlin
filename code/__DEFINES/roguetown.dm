@@ -663,3 +663,6 @@ BCLASS_TWIST)
 
 //Placeholder defines that will be used to spot descriptions in need of replacement during move to Encore setting
 #define PLACEHOLDER_PATRON_REBRANDING "This description is a placeholder. You should make a Github issue report. It was modified during a rebranding PR."
+#define PLACEHOLDER_FACTION_REBRANDING "This description is a placeholder. You should make a Github issue report. It was modified during a rebranding PR."
+#define PLACEHOLDER_SPECIES_REBRANDING "This description is a placeholder. You should make a Github issue report. It was modified during a rebranding PR."
+#define PLACEHOLDER_JOB_REBRANDING "This description is a placeholder. You should make a Github issue report. It was modified during a rebranding PR."

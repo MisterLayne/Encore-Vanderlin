@@ -13,23 +13,9 @@
 	name = "Rakshari"
 	id = SPEC_ID_RAKSHARI
 	changesource_flags = WABBAJACK
-	native_language = "Zalad"
+	native_language = "Qadirid"
 
-	desc = "Rakshari origins trace back to nomadic desert tribes, \
-	whose survival in the harsh sands cultivated a culture steeped in resilience, cunning, and adaptability. \
-	\n\n\
-	Over centuries, the Rakshari united under the banners of powerful Zalad merchant-kings and warlords,\
-	transforming their scattered clans into a dominant slaver force across the region. \
-	They would often raid weaker settlements and rival caravans, \
-	capturing slaves to fuel their expanding cities and economies. \
-	Practice of this was justified through religious doctrines, \
-	venerating strength and dominance as divine virtues. \
-	\n\n\
-	As they further attached themselves to Zaladin, however, \
-	their people would integrate more sophisticated forms of servitude, \
-	such as indentured contracts and debt bondage. \
-	\n\n\
-	THIS IS A DISCRIMINATED SPECIES. EXPECT A MORE DIFFICULT EXPERIENCE. PLAY AT YOUR OWN RISK."
+	desc = PLACEHOLDER_SPECIES_REBRANDING
 
 	use_skintones = TRUE
 	default_color = "FFFFFF"
@@ -112,10 +98,10 @@
 	..()
 	RegisterSignal(C, COMSIG_MOB_SAY, PROC_REF(handle_speech))
 	C.grant_language(/datum/language/common)
-	C.grant_language(/datum/language/zalad)
+	C.grant_language(/datum/language/qadirid)
 	add_verb(C, /mob/living/carbon/human/species/rakshari/verb/emote_meow)
 	add_verb(C, /mob/living/carbon/human/species/rakshari/verb/emote_purr)
-	to_chat(C, "<span class='info'>I can speak Zalad with ,z before my speech.</span>")
+	to_chat(C, "<span class='info'>I can speak Qadirid with ,z before my speech.</span>")
 
 /datum/species/rakshari/check_roundstart_eligible()
 	return TRUE
@@ -123,7 +109,7 @@
 /datum/species/rakshari/after_creation(mob/living/carbon/C)
 	..()
 	C.grant_language(/datum/language/common)
-	C.grant_language(/datum/language/zalad)
+	C.grant_language(/datum/language/qadirid)
 
 /datum/species/rakshari/spec_life(mob/living/carbon/human/H)
 	. = ..()

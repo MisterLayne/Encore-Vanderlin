@@ -32,7 +32,7 @@
 	desc = "A bottle with the hagwood bitters cork-seal."
 	list_reagents = list(/datum/reagent/consumable/ethanol/hagwoodbitter = 75)
 	auto_label_name = "hagwood bitters"
-	auto_label_desc = "Allegedly the least bitter thing to be exported from Grenzelhoft."
+	auto_label_desc = "Allegedly the least bitter thing to be exported from Geramor."
 
 /obj/item/reagent_containers/glass/bottle/beer/aurorian
 	desc = "A bottle with the aurorian brewhouse cork-seal."
@@ -67,7 +67,7 @@
 // WINES - Expensive, Nobleblooded
 /obj/item/reagent_containers/glass/bottle/wine
 	name = "bottle of wine"
-	desc = "A bottle that contains a generic red-wine, likely from Zaladin. It has a red-clay cork-seal."
+	desc = "A bottle that contains a generic red-wine, likely from Qadirid. It has a red-clay cork-seal."
 	list_reagents = list(/datum/reagent/consumable/ethanol/wine = 75)
 	fancy = TRUE
 	auto_label = TRUE
@@ -76,31 +76,31 @@
 	desc = "A bottle with a black ink cork-seal."
 	list_reagents = list(/datum/reagent/consumable/ethanol/sourwine = 75)
 	auto_label_name = "black eagle sour"
-	auto_label_desc = "A Grenzelhoft classic, extremely sour wine that is watered down with mineral water."
+	auto_label_desc = "A Geramorean classic, extremely sour wine that is watered down with mineral water."
 
 /obj/item/reagent_containers/glass/bottle/redwine
-	desc = "A bottle with the Valorian Merchant Guild cork-seal."
+	desc = "A bottle with the Aelondan Merchant Guild cork-seal."
 	list_reagents = list(/datum/reagent/consumable/ethanol/redwine = 75)
-	auto_label_name = "young valorian red"
-	auto_label_desc = "This one appears to be labelled as a relatively young red-wine from the Valorian city-states."
+	auto_label_name = "young aelondan red"
+	auto_label_desc = "This one appears to be labelled as a relatively young red-wine from the Aelondan city-states."
 
 /obj/item/reagent_containers/glass/bottle/whitewine
-	desc = "A bottle with the Valorian Merchant Guild cork-seal."
+	desc = "A bottle with the Aelondan Merchant Guild cork-seal."
 	list_reagents = list(/datum/reagent/consumable/ethanol/whitewine = 75)
-	auto_label_name = "sweet valorian white"
+	auto_label_name = "sweet aelondan white"
 	auto_label_desc = "This one appears to be labelled as a sweet wine from the colder northern regions."
 
 /obj/item/reagent_containers/glass/bottle/elfred
 	desc = "A bottle gilded with a silver cork-seal."
 	list_reagents = list(/datum/reagent/consumable/ethanol/elfred = 75)
-	auto_label_name = "valorian red"
-	auto_label_desc = "An Elvish red wine from Valoria. Likely worth more than what an entire village makes!"
+	auto_label_name = "aelondan red"
+	auto_label_desc = "An Elvish red wine from Aelonda. Likely worth more than what an entire village makes!"
 
 /obj/item/reagent_containers/glass/bottle/elfblue
 	desc = "A bottle gilded with a golden cork-seal."
 	list_reagents = list(/datum/reagent/consumable/ethanol/elfblue = 75)
 	auto_label_name = "valmora blue"
-	auto_label_desc = "This is the legendary Valmora Blue from the Vineyard of Valmora, headed by a sainted Dark-Elf swordsmaster. This bottle would swoon Gods over!"
+	auto_label_desc = "This is the legendary Valmora Blue from the Vineyard of Saint's Rest, headed by a sainted Dark-Elf swordsmaster. This bottle would swoon Gods over!"
 
 /obj/item/reagent_containers/glass/bottle/tiefling_wine
 	list_reagents = list(/datum/reagent/consumable/ethanol/tiefling/aged = 45)
@@ -111,31 +111,31 @@
 	desc = "A bottle with a Saigabuck cork-seal."
 	list_reagents = list(/datum/reagent/consumable/ethanol/jagdtrunk = 48)
 	auto_label_name = "jagdtrunk"
-	auto_label_desc = "This dark liquid is the strongest alcohol coming out of Grenzelhoft available. A herbal schnapps, sure to burn out any disease."
+	auto_label_desc = "This dark liquid is the strongest alcohol coming out of Saint's Rest available. A herbal schnapps, sure to burn out any disease."
 
 /obj/item/reagent_containers/glass/bottle/apfelweinheim
-	desc = "A bottle with an Apfelweinheim cork-seal."
+	desc = "A bottle with an Dors cork-seal."
 	list_reagents = list(/datum/reagent/consumable/ethanol/apfelweinheim = 48)
-	auto_label_name = "apfelweinheim crush cider"
-	auto_label_desc = "A cider from the Grenzelhoftian town of Apfelweinheim. Well received for its addition of pear, alongside crisp apples."
+	auto_label_name = "dors crush cider"
+	auto_label_desc = "A cider from the Geramorean city of Dors. Well received for its addition of pear, alongside crisp apples."
 
 /obj/item/reagent_containers/glass/bottle/rtoper
 	desc = "A bottle with a regenwald-crest cork-seal."
 	list_reagents = list(/datum/reagent/consumable/ethanol/rtoper = 48)
 	auto_label_name = "deshret cider"
-	auto_label_desc = "An especially tart cider from the Grenzelhoftian regenwald. Rumor has it the brewers let the barrels age in the bog, which results in that especially strong flavour."
+	auto_label_desc = "An especially tart cider from the Geramorean regenwald. Rumor has it the brewers let the barrels age in the bog, which results in that especially strong flavour."
 
 /obj/item/reagent_containers/glass/bottle/nred
 	desc = "A bottle with the Aurum Clan cork-seal."
 	list_reagents = list(/datum/reagent/consumable/ethanol/nred = 48)
 	auto_label_name = "molten gold"
-	auto_label_desc = "A red ale brewed to perfection in the lands of the aurum dwarves."
+	auto_label_desc = "A red ale brewed to perfection in the lands of the Amberbearded dwarves."
 
 /obj/item/reagent_containers/glass/bottle/gronnmead
 	desc = "A bottle with a Huntsmen Brewery cork-seal."
 	list_reagents = list(/datum/reagent/consumable/ethanol/gronnmead = 48)
-	auto_label_name = "ossland mead"
-	auto_label_desc = "A deep red honey-wine, refined with the red berries native to Ossland's highlands."
+	auto_label_name = "nortic mead"
+	auto_label_desc = "A deep red honey-wine, refined with the red berries native to Nortmidst's highlands."
 
 /obj/item/reagent_containers/glass/bottle/avarmead
 	desc = "A bottle with a simple cork-seal."
@@ -208,7 +208,7 @@
 	desc = "A bottle with a Possumtail Brewery mark."
 	list_reagents = list(/datum/reagent/consumable/ethanol/murkwine = 48)
 	auto_label_name = "murk wine"
-	auto_label_desc = "A special brew made from murky water and swampweed. A Heartfelt special, and a rare find now."
+	auto_label_desc = "A special brew made from murky water and swampweed. A Dunnish special, and a rare find now."
 
 /obj/item/reagent_containers/glass/bottle/black/nocshine
 	desc = "A bottle with a blue, Crescent moon mark."

@@ -49,12 +49,8 @@ GLOBAL_LIST_EMPTY(lord_titles)
 
 /datum/job/lord
 	title = JOB_MONARCH
-	var/ruler_title = "Monarch"
-	tutorial = "Elevated to your throne through a web of intrigue, political maneuvering, and divine sanction, you are the \
-	unquestioned authority of these lands. The Church has bestowed upon you the legitimacy of the gods themselves, and now \
-	you sit at the center of every plot, and every whisper of ambition. Every man, woman, and child may envy your power and \
-	would replace you in the blink of an eye. But remember, its not envy that keeps you in place, it is your will. Show them \
-	the error of their ways."
+	var/ruler_title = "Regent"
+	tutorial = "You were appointed your throne by King Malryck whose seat you occupy in their absence. You are the absolute authority of this island, and are at the center of every plot within it. Don't disappoint your mother, Queen Alyssandrine herself."
 	department_flag = NOBLEMEN
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_LORD

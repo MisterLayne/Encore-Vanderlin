@@ -75,7 +75,7 @@
 
 /obj/item/clothing/shirt/dress/stewarddress
 	name = "steward's dress"
-	desc = "A heartfeltian-styled black dress with shining bronze buttons."
+	desc = "A Banterfield-styled black dress with shining bronze buttons."
 	icon = 'icons/roguetown/clothing/special/steward.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/steward.dmi'
 	icon_state = "stewarddress"
@@ -141,7 +141,7 @@
 		/datum/component/equipment_stress/job_specific, \
 		/datum/stress_event/maiddress, \
 		list(TRAIT_VILLAIN = null, TRAIT_NOBLE_BLOOD = /datum/stress_event/maiddress/noble), \
-		immune_jobs = list(/datum/job/prince, /datum/job/squire, /datum/job/advclass/pilgrim/noble, /datum/job/advclass/pilgrim/rare/zaladin, /datum/job/advclass/pilgrim/rare/grenzelhoft, /datum/job/advclass/pilgrim/rare/merchant), \
+		immune_jobs = list(/datum/job/prince, /datum/job/squire, /datum/job/advclass/pilgrim/noble, /datum/job/advclass/pilgrim/rare/qadirid, /datum/job/advclass/pilgrim/rare/aelondan, /datum/job/advclass/pilgrim/rare/merchant), \
 		immune_departments = (NOBLEMEN | GARRISON | OUTSIDERS | COMPANY), \
 		department_exceptions = list(/datum/job/advclass/pilgrim, /datum/job/grabber), \
 		inverse = TRUE, \

@@ -29,8 +29,9 @@
 
 /datum/job/minor_noble
 	title = JOB_MINOR_NOBLE
-	tutorial = "The blood of a noble family runs through your veins. You are the living proof that the minor houses \
-	still exist in spite of the Monarch. You have many mammons to your name, but with wealth comes \
+	tutorial = "The blood of a noble family runs through your veins. \
+	You live under the protective shadow of the Shirleighs, for better or worse. \
+	You have many mammons to your name, but with wealth comes \
 	danger, so keep your wits and tread lightly..."
 	display_order = JDO_MINOR_NOBLE
 	department_flag = NOBLEMEN

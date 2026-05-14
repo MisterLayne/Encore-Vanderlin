@@ -1,6 +1,6 @@
 /datum/migrant_role/rockhill/mayor
 	name = "Mayor of Rockhill"
-	greet_text = "You are the mayor of Rockhill, you've come to Vanderlin to discuss important matters with their Monarch."
+	greet_text = "You are the mayor of Rockhill, you've come to Domotan to discuss important matters with their Monarch."
 	migrant_job = /datum/job/migrant/rockhill/mayor
 
 /datum/attribute_holder/sheet/job/migrant/mayor
@@ -27,7 +27,7 @@
 
 /datum/job/migrant/rockhill/mayor
 	title = "Mayor of Rockhill"
-	tutorial = "You are the mayor of Rockhill, you've come to Vanderlin to discuss important matters with their Monarch."
+	tutorial = "You are the mayor of Rockhill, you've come to Domotan to discuss important matters with their Monarch."
 	outfit = /datum/outfit/rockhill/mayor
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_PLAYER_NONDISCRIMINATED
@@ -167,7 +167,7 @@
 
 /datum/migrant_role/rockhill/sergeant_at_arms
 	name = "Rockhill Serjeant"
-	greet_text = "The Mayor of Rockhill has conscripted you and your mens to go see the rulers of Vanderlin."
+	greet_text = "The Mayor of Rockhill has conscripted you and your mens to go see the rulers of Domotan."
 	migrant_job = /datum/job/migrant/rockhill/serjeant_at_arms
 
 /datum/attribute_holder/sheet/job/migrant/rockhill_serjeant_at_arms
@@ -218,7 +218,7 @@
 
 /datum/job/migrant/rockhill/serjeant_at_arms
 	title = "Rockhill Serjeant"
-	tutorial = "The Mayor of Rockhill has conscripted you and your mens to go see the rulers of Vanderlin."
+	tutorial = "The Mayor of Rockhill has conscripted you and your mens to go see the rulers of Domotan."
 	outfit = /datum/outfit/rockhill/serjeant_at_arms
 	allowed_races = RACES_PLAYER_NONDISCRIMINATED
 	exp_types_granted  = list(EXP_TYPE_COMBAT)
@@ -253,17 +253,17 @@
 
 /datum/migrant_role/footman_guard
 	name = "Guardsmen of Rockhill"
-	greet_text = "Your Serjeant has been ordered by the mayor of Rockhill to guard them as they visit the rulers of Vanderlin. Ensure they live."
+	greet_text = "Your Serjeant has been ordered by the mayor of Rockhill to guard them as they visit the rulers of Domotan. Ensure they live."
 	migrant_job = /datum/job/migrant/footman_bannerman/rockhill
 
 /datum/job/migrant/footman_bannerman/rockhill
 	title = "Guardsmen of Rockhill"
-	tutorial = "Your Serjeant has been ordered by the mayor of Rockhill to guard them as they visit the rulers of Vanderlin. Ensure they live."
+	tutorial = "Your Serjeant has been ordered by the mayor of Rockhill to guard them as they visit the rulers of Domotan. Ensure they live."
 	is_foreigner = TRUE
 
 /datum/migrant_wave/rockhill_wave
 	name = "The Mayor's Visit"
-	shared_wave_type = list(/datum/migrant_wave/grenzelhoft_visit,/datum/migrant_wave/zalad_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/heartfelt)
+	shared_wave_type = list(/datum/migrant_wave/aelondan_visit,/datum/migrant_wave/qadirid_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/dunmoon)
 	downgrade_wave = /datum/migrant_wave/rockhill_wave_down
 	max_spawns = 1
 	weight = 30
@@ -273,11 +273,11 @@
 		/datum/migrant_role/rockhill/sergeant_at_arms = 1,
 		/datum/migrant_role/footman_guard = 4
 	)
-	greet_text = "The Mayor has it, something must be discussed with the rulers of Vanderlin which is why we're on our way over there."
+	greet_text = "The Mayor has it, something must be discussed with the rulers of Domotan which is why we're on our way over there."
 
 /datum/migrant_wave/rockhill_wave_down
 	name = "The Mayor's Visit"
-	shared_wave_type = list(/datum/migrant_wave/grenzelhoft_visit,/datum/migrant_wave/zalad_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/heartfelt)
+	shared_wave_type = list(/datum/migrant_wave/aelondan_visit,/datum/migrant_wave/qadirid_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/dunmoon)
 	downgrade_wave = /datum/migrant_wave/rockhill_wave_down_one
 	can_roll = FALSE
 	roles = list(
@@ -286,15 +286,15 @@
 		/datum/migrant_role/rockhill/sergeant_at_arms = 1,
 		/datum/migrant_role/footman_guard = 2
 	)
-	greet_text = "The Mayor has it, something must be discussed with the rulers of Vanderlin which is why we're on our way over there."
+	greet_text = "The Mayor has it, something must be discussed with the rulers of Domotan which is why we're on our way over there."
 
 /datum/migrant_wave/rockhill_wave_down_one
 	name = "The Mayor's visit"
-	shared_wave_type = list(/datum/migrant_wave/grenzelhoft_visit,/datum/migrant_wave/zalad_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/heartfelt)
+	shared_wave_type = list(/datum/migrant_wave/aelondan_visit,/datum/migrant_wave/qadirid_wave,/datum/migrant_wave/rockhill_wave,/datum/migrant_wave/dunmoon)
 	can_roll = FALSE
 	roles = list(
 		/datum/migrant_role/rockhill/mayor = 1,
 		/datum/migrant_role/rockhill_knight = 1,
 		/datum/migrant_role/footman_guard = 2
 	)
-	greet_text = "The Mayor has it, something must be discussed with the rulers of Vanderlin which is why we're on our way over there."
+	greet_text = "The Mayor has it, something must be discussed with the rulers of Domotan which is why we're on our way over there."

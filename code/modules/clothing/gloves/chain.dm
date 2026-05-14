@@ -26,7 +26,7 @@
 	material_category = ARMOR_MAT_CHAINMAIL
 
 /obj/item/clothing/gloves/chain/angros
-	name = "grenzelhoftian chain gauntlets"
+	name = "angrosian chain gauntlets"
 	icon_state = "psydongloveschain"
 	item_state = "psydongloveschains"
 	melting_material = /datum/material/silver
@@ -51,7 +51,7 @@
 	item_weight = 1.55 KILOGRAMS
 
 /obj/item/clothing/gloves/chain/gronn
-	name = "osslandic chain gloves"
+	name = "nortic chain gloves"
 	desc = "A pair of leather gloves with chain to protects the wrists and back of the hand."
 	icon_state = "gronnchaingloves"
 	icon = 'icons/roguetown/clothing/special/gronn.dmi'

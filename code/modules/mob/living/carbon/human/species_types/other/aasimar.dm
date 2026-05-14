@@ -22,19 +22,7 @@
 	name = "Aasimar"
 	id = SPEC_ID_AASIMAR
 	native_language = "Celestial"
-	desc = "Immortal offspring sculpted by the gods for use in servitude. \
-	\n\n\
-	Aasimar roaming alone on Gaia often are those abandoned after serving their purpose. \
-	This species is often revered due to their celestial origin, \
-	but face great solitude as not many of their kind exist. \
-	Many an aasimar will detest the reverence in which they are greeted with, \
-	for their greatest failure or unuse that lead to their discarding is not subject for celebration. \
-	\n\n\
-	An aasimar may be crafted with any number of materials. \
-	Many resemble sculptures of stone or are ceramic in skin, \
-	but their insides are just as mortal as any other. \
-	Most Aasimar were created to serve The Ten, and few if any Unsundered Aasimar remain to this day- \
-	decrepit husks of what were once great warriors. "
+	desc = PLACEHOLDER_SPECIES_REBRANDING
 
 	skin_tone_wording = "Craft"
 

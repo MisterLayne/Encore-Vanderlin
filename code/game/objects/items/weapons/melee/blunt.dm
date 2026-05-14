@@ -656,7 +656,7 @@
 
 /obj/item/weapon/mace/elvenclub/steel
 	name = "steel elven war club"
-	desc = "A sleek, one-handed war club, reforged from captured Grenzel steel. Its elegant bead designs channel elven grace, It is capable of delivering swift, painful blows"
+	desc = "A sleek, one-handed war club, reforged from Aelondan steel. Its elegant bead designs channel elven grace, It is capable of delivering swift, painful blows."
 	icon_state = "elvenclubsteel"
 	force = DAMAGE_MACE
 	force_wielded = DAMAGE_MACE_WIELD
@@ -672,7 +672,7 @@
 
 /obj/item/weapon/mace/elvenclub/bronze
 	name = "bronze elven war club"
-	desc = "A bronze one-handed war club with a sharp end. It's been long favoured by the Elves of Heartfelt, despite its foreign origins."
+	desc = "A bronze one-handed war club with a sharp end. It's been long favoured by the Dunnish, despite its foreign origins."
 	icon_state = "elvenclub_bronze"
 	melting_material = /datum/material/bronze
 	max_integrity = INTEGRITY_STANDARD
@@ -740,7 +740,7 @@
 /obj/item/weapon/mace/bronze
 	name = "bronze mace"
 	icon_state = "mace_bronze"
-	desc = "A spiked bronze mace. A weapon thats seen a revival in use amidst the cataclysm in Heartfelt."
+	desc = "A spiked bronze mace. A weapon thats seen a revival in use amidst the authorities of Dunmoon."
 	force = DAMAGE_MACE + 1
 	force_wielded = DAMAGE_MACE_WIELD + 1 //Spiked
 	max_integrity = INTEGRITY_STANDARD

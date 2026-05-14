@@ -28,7 +28,7 @@
 	title = JOB_FOREST_WARDEN
 	tutorial = "You were born in the forest. Alone, you've always felt home in the woods. \
 	In your tenure with the garrison, you've cleaved through the wildlife-- \
-	and for your service in the short-lived Goblin War, the king has granted you nobility. \
+	and for your service to the county of Etgard, the throne has granted you nobility. \
 	In turn, you've been entrusted to keep his lands clear of \
 	the foul creachers that taint his land. Alone, you will die in these woods."
 	department_flag = GARRISON

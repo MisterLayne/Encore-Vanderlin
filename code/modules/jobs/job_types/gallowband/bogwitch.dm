@@ -19,7 +19,7 @@
 
 /datum/job/bogwitch
 	title = JOB_BOGWITCH
-	tutorial = "Your ancestor came with the Gallowband as a healer. Eventually, they drifted apart to the fetid cauldron of life that is the Bog, drawn by the strange herbs and magics present in the mud. Even as you venerate the Great Hunt, you work in harmony with the land. Mender, potionmaker, miracle-worker, doomed to seclusion- but maybe your apprentice will carry on the old ways."
+	tutorial = "Your ancestor came with the Gallowband as a healer. Eventually, they drifted apart to the cauldron of life that is the Weeping Wood, drawn by the strange herbs and magics present in the mud. Even as you venerate the Great Hunt, you work in harmony with the land. Mender, potionmaker, miracle-worker, doomed to seclusion- but maybe your apprentice will carry on the old ways."
 	department_flag = OUTSIDERS
 	job_flags = (JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_BOGWITCH
@@ -57,7 +57,7 @@
 		TRAIT_STEELHEARTED
 	)
 	selection_color = "#a33096"
-	languages = list(/datum/language/gronnic)
+	languages = list(/datum/language/nortic)
 
 /datum/job/bogwitch/after_spawn(mob/living/carbon/human/spawned, client/player_client)
 	. = ..()

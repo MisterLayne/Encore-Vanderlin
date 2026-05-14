@@ -21,7 +21,7 @@
 
 /datum/job/bard
 	title = JOB_BARD
-	tutorial = "Bards make up one of the largest populations of registered adventurers in Vanderlin, \
+	tutorial = "Bards make up one of the largest populations of registered adventurers in Domotan, \
 	mostly because they are the last ones in a party to die. \
 	Their wish is to experience the greatest adventures of the age and write amazing songs \
 	about them. This is not your story, for you are the storyteller."

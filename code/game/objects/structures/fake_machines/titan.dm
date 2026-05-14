@@ -378,7 +378,7 @@ GLOBAL_LIST_EMPTY(roundstart_court_agents)
 
 	if(message in GLOB.outlawed_players)
 		GLOB.outlawed_players -= message
-		priority_announce("[message] is no longer an outlaw in Vanderlin lands.", "[user.real_name], The [user.get_role_title()] Decrees", 'sound/misc/alert.ogg', "Captain")
+		priority_announce("[message] is no longer an outlaw in Shirleigh lands.", "[user.real_name], The [user.get_role_title()] Decrees", 'sound/misc/alert.ogg', "Captain")
 		reset_mode()
 		return TRUE
 	else
@@ -403,7 +403,7 @@ GLOBAL_LIST_EMPTY(roundstart_court_agents)
 		newtax = CLAMP(newtax, 1, 99)
 		SStreasury.tax_value = newtax / 100
 		SStreasury.untaxed_deposits = list()
-		priority_announce("The new tax in Vanderlin shall be [newtax] percent.", "[user.real_name], The Generous [user.get_role_title()] Decrees", 'sound/misc/alert.ogg', "Captain")
+		priority_announce("The new tax on Domotan shall be [newtax] percent.", "[user.real_name], The Generous [user.get_role_title()] Decrees", 'sound/misc/alert.ogg', "Captain")
 	reset_mode()
 
 /// Changes the job of a nearby mob

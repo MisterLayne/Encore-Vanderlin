@@ -43,7 +43,7 @@
 
 /obj/item/clothing/face/spectacles/inqglasses
 	name = "crimson spectacles"
-	desc = "Spectacles evoking the stained glass of Grenzelhoftian cathedrals. See all evil."
+	desc = "Spectacles evoking the stained glass of Aelondan cathedrals. See all evil."
 	icon_state = "bglasses"
 
 /obj/item/clothing/face/spectacles/sglasses
@@ -54,7 +54,7 @@
 /obj/item/clothing/face/spectacles/inq
 	name = "inquisitorial spectacles"
 	icon_state = "bglasses"
-	desc = "Spectacles evoking the stained glass of Grenzelhoftian cathedrals. See all evil."
+	desc = "Spectacles evoking the stained glass of Aelondan cathedrals. See all evil."
 	attacked_sound = 'sound/combat/hits/onglass/glasshit.ogg'
 	max_integrity = 300
 	integrity_failure = 0.5
@@ -148,7 +148,7 @@
 
 /obj/item/clothing/face/facemask/steel/confessor
 	name = "strange mask"
-	desc = "It is said that the original version of this mask was used for obscure rituals in Grenzelhoft, and now it has been repurposed as a veil for the cunning hand of the Ordo Venatari. Others say it is a piece of heresy, a necessary evil, capable of keeping its user safe from vile magicks. You can taste copper whenever you draw breath."
+	desc = "It is said that the original version of this mask was used for obscure rituals in the deeps of Gernhollow, and now it has been repurposed as a veil for the cunning hand of the Katholikos. Others say it is a piece of heresy, a necessary evil, capable of keeping its user safe from vile magicks. You can taste copper whenever you draw breath."
 	icon_state = "confessormask"
 	max_integrity = 200
 	equip_sound = 'sound/items/confessormaskon.ogg'
@@ -193,7 +193,7 @@
 
 /obj/item/clothing/face/facemask/steel/confessor/lensed
 	name = "stranger mask"
-	desc = " It is said that the original version of this mask was used for obscure rituals in Grenzelhoft, and now it has been repurposed as a veil for the cunning hand of the Ordo Venatari. Others say it is a piece of heresy, a necessary evil, capable of keeping its user safe from vile magicks. You can taste copper whenever you draw breath."
+	desc = " It is said that the original version of this mask was used for obscure rituals in Gernhollow, and now it has been repurposed as a veil for the cunning hand of the Katholikos. Others say it is a piece of heresy, a necessary evil, capable of keeping its user safe from vile magicks. You can taste copper whenever you draw breath."
 	icon_state = "confessormask_lens"
 	var/lensmoved = TRUE
 

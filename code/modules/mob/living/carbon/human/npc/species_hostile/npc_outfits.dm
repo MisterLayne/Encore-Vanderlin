@@ -73,7 +73,7 @@
 			l_hand = /obj/item/weapon/knife/copper
 			r_hand = /obj/item/weapon/knife/copper
 		if(5)
-			// A valorian dueslist perished and got their stuff stolen
+			// A aelondan dueslist perished and got their stuff stolen
 			head = /obj/item/clothing/head/leather/duelhat
 			armor = /obj/item/clothing/armor/leather/jacket/leathercoat/duelcoat
 			l_hand = /obj/item/weapon/sword/rapier
@@ -323,7 +323,7 @@
 			if(prob(30))
 				armor = /obj/item/clothing/armor/plate/full
 			l_hand = /obj/item/weapon/shield/tower/metal
-			r_hand = /obj/item/weapon/sword/long/rider // Rest in peace for the Zaladian who died.
+			r_hand = /obj/item/weapon/sword/long/rider // Rest in peace for the Qadiridian who died.
 
 		if(5)
 			armor = /obj/item/clothing/armor/plate/full/iron

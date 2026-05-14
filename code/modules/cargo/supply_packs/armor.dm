@@ -162,14 +162,14 @@
 	contains = /obj/item/clothing/head/helmet/visored/hounskull
 
 /datum/supply_pack/armor/steel/zplatehelm
-	name = "Zalad Plate Helm"
+	name = "Qadirid Plate Helm"
 	cost = 90
-	contains = /obj/item/clothing/head/rare/zaladplate
+	contains = /obj/item/clothing/head/rare/qadiridplate
 
 /datum/supply_pack/armor/steel/zsallet
-	name = "Zalad Sallet"
+	name = "Qadirid Sallet"
 	cost = 60
-	contains = /obj/item/clothing/head/helmet/sallet/zalad
+	contains = /obj/item/clothing/head/helmet/sallet/qadirid
 
 /datum/supply_pack/armor/steel/nasalh
 	name = "Nasal Helmet"
@@ -241,9 +241,9 @@
 	contains = /obj/item/clothing/armor/medium/scale/steppe
 
 /datum/supply_pack/armor/steel/zplatearmor
-	name = "Zalad Plate"
+	name = "Qadirid Plate"
 	cost = 140
-	contains = /obj/item/clothing/armor/rare/zaladplate
+	contains = /obj/item/clothing/armor/rare/qadiridplate
 
 /datum/supply_pack/armor/steel/cuirass
 	name = "Steel Cuirass"
@@ -295,9 +295,9 @@
 	contains = /obj/item/clothing/wrists/bracers
 
 /datum/supply_pack/armor/steel/zplategloves
-	name = "Zalad Plate Gloves"
+	name = "Qadirid Plate Gloves"
 	cost = 55
-	contains = /obj/item/clothing/armor/rare/zaladplate
+	contains = /obj/item/clothing/armor/rare/qadiridplate
 
 /datum/supply_pack/armor/steel/plate_gloves
 	name = "Heavy Plate Gloves"
@@ -329,6 +329,6 @@
 	contains = /obj/item/clothing/shoes/boots/armor
 
 /datum/supply_pack/armor/steel/zplateboots
-	name = "Zalad Plate Boots"
+	name = "Qadirid Plate Boots"
 	cost = 55
-	contains = /obj/item/clothing/shoes/boots/rare/zaladplate
+	contains = /obj/item/clothing/shoes/boots/rare/qadiridplate

@@ -339,8 +339,8 @@
 				/obj/item/natural/silk = 1)
 	craftdiff = 4
 
-/datum/repeatable_crafting_recipe/sewing/weaving/heartfelt_suit
-	name = "heartfeltian suit"
+/datum/repeatable_crafting_recipe/sewing/weaving/dunmoon_suit
+	name = "dunnish suit"
 	output = /obj/item/clothing/shirt/undershirt/artificer
 	requirements = list(/obj/item/natural/cloth = 3,
 				/obj/item/natural/silk = 2)

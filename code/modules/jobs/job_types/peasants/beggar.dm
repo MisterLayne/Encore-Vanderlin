@@ -17,10 +17,7 @@
 
 /datum/job/vagrant
 	title = JOB_BEGGAR
-	tutorial = "The stench of your piss-laden clothes dont bug you anymore, \
-	the glances of disgust and loathing others give you is just a friendly greeting; \
-	the only reason you've not been killed already is because volfs are known to be repelled by decaying flesh. \
-	You're going to be a solemn reminder of what happens when something unwanted is born into this world."
+	tutorial = "You're homeless, broke and miserable. Make something or nothing of it."
 	department_flag = PEASANTS
 	display_order = JDO_VAGRANT
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)

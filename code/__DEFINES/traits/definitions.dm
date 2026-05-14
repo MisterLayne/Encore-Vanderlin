@@ -482,7 +482,7 @@ Remember to update _globalvars/traits.dm if you're adding/removing/renaming trai
 #define TRAIT_ATHEISM_CURSE "Curse of Atheism"
 #define TRAIT_ANGROS_CURSE "Angros's Curse"
 #define TRAIT_VISIRES_CURSE "Visires's Curse"
-#define TRAIT_NOC_CURSE "Akan's Curse"
+#define TRAIT_AKAN_CURSE "Akan's Curse"
 #define TRAIT_MORDSOL_CURSE "Mordsol's Curse"
 #define TRAIT_VALDALA_CURSE "Valdala's Curse"
 #define TRAIT_ILIOPE_CURSE "Iliope's Curse"
