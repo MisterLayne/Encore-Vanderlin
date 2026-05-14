@@ -40,7 +40,7 @@
 	. = ..()
 	log_directed_talk(owner, cast_on, message, LOG_SAY, name)
 	var/mob/living/L = owner
-	var/static/list/bannedwords = list("zizo", "archdevils", "deceivers", "hertannea", "inhumen", "heresy")
+	var/static/list/bannedwords = list("one envy", "archdevils", "deceivers", "hertannea", "sage", "heresy")
 	for(var/T in bannedwords)
 		if(findtext(message, T))
 			L.add_stress(/datum/stress_event/psycurselight)

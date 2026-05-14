@@ -1,5 +1,5 @@
 /mob/living/carbon/human/species/zizombie
-	name = "rotten zizombie"
+	name = "rotten zombie"
 
 	icon = 'icons/roguetown/mob/monster/zizombie.dmi'
 	icon_state = "zizombie"
@@ -29,7 +29,7 @@
 /mob/living/carbon/human/species/zizombie/ambush/after_creation()
 	..()
 	AddComponent(/datum/component/ai_aggro_system)
-	job = "Ambush zizombie"
+	job = "Ambush zombie"
 	AddComponent(/datum/component/combat_noise, list("rage" = 1, "scream" = 1))
 	ADD_TRAIT(src, TRAIT_NOMOOD, TRAIT_GENERIC)
 	ADD_TRAIT(src, TRAIT_NOHUNGER, TRAIT_GENERIC)
@@ -138,8 +138,8 @@
 	var/turf/turf = get_turf(src)
 	if(SSterrain_generation.get_island_at_location(turf))
 		faction |= "islander"
-	name = "zizombie"
-	real_name = "zizombie"
+	name = "zombie"
+	real_name = "zombie"
 	mob_biotypes |= MOB_UNDEAD
 	ADD_TRAIT(src, TRAIT_NOSTAMINA, TRAIT_GENERIC)
 	ADD_TRAIT(src, TRAIT_HEAVYARMOR, TRAIT_GENERIC)
@@ -154,7 +154,7 @@
 //			equipOutfit(O)
 
 /datum/species/zizombie
-	name = "zizombie"
+	name = "zombie"
 	id = SPEC_ID_ZIZOMBIE
 	species_traits = list()
 	inherent_traits = list(TRAIT_RESISTCOLD,TRAIT_RESISTHIGHPRESSURE,TRAIT_RESISTLOWPRESSURE,TRAIT_RADIMMUNE)
@@ -162,7 +162,7 @@
 	sexes = 1
 	damage_overlay_type = "human"
 	changesource_flags = WABBAJACK
-	var/raceicon = "zizombie"
+	var/raceicon = "zombie"
 	exotic_bloodtype = /datum/blood_type/human/corrupted/zizombie
 
 /datum/species/zizombie/update_damage_overlays(mob/living/carbon/human/H)

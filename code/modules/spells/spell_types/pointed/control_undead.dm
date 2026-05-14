@@ -54,6 +54,6 @@
 	cast_on.pet_passive = TRUE
 
 	owner.visible_message(
-		span_greentext("[owner] soothes \the [cast_on] with zizo's blessing."),
+		span_greentext("[owner] soothes \the [cast_on] with Hell's blessing."),
 		span_notice("The creacher now obeys me."),
 	)

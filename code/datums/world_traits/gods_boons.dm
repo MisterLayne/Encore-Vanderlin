@@ -18,7 +18,7 @@
 	name = "Valdala's Requiem"
 	desc = "New corpses won't become deadites."
 
-/datum/world_trait/zizo_defilement
+/datum/world_trait/envy_defilement
 	name = "One Envy's Defilement"
 	desc = "Deadites will rise in the town."
 

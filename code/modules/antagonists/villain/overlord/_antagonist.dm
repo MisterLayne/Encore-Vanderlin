@@ -120,7 +120,7 @@
 	L.grant_undead_eyes()
 	L.skeletonize(FALSE)
 	L.equipOutfit(/datum/outfit/overlord)
-	L.set_patron(/datum/patron/inhumen/zizo)
+	L.set_patron(/datum/patron/inhumen/archdevils)
 
 /datum/antagonist/overlord/proc/on_death(datum/source)
 	SIGNAL_HANDLER

@@ -183,8 +183,8 @@
 		if(HAS_TRAIT(src, TRAIT_THIEVESGUILD) && HAS_TRAIT(user, TRAIT_THIEVESGUILD))
 			. += span_smallgreen("A member of the Thieves' Guild.")
 		// Cabal
-		if(HAS_TRAIT(user, TRAIT_CABAL) && (istype(patron, /datum/patron/inhumen/zizo) || HAS_TRAIT(src, TRAIT_CABAL)))
-			. += span_purple("A fellow seeker of Her ascension.")
+		if(HAS_TRAIT(user, TRAIT_CABAL) && (istype(patron, /datum/patron/inhumen/envy) || HAS_TRAIT(src, TRAIT_CABAL)))
+			. += span_purple("A fellow sinner's soul.")
 		// Elementalist
 		if(HAS_TRAIT(user, TRAIT_DIVINE_SERVANT) && (HAS_TRAIT(src, TRAIT_DIVINE_CENTRIST) && !HAS_TRAIT(src, TRAIT_DIVINE_SERVANT)))
 			. += SPAN_GOD_VISIRES("An elementalist. A warrior of the balance itself...")

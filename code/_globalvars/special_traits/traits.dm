@@ -87,8 +87,8 @@
 	name = "Magic apprentice"
 	greet_text = span_notice("I have learned basic arcyne but my skills are far from good.")
 	weight = 25
-	req_text = "Have Akan or Zizo as your Patron"
-	allowed_patrons = list(/datum/patron/divine/akan, /datum/patron/inhumen/zizo)
+	req_text = "Have an Earth or Air pantheon member as your patron"
+	allowed_patrons = list(/datum/patron/divine/akan, /datum/patron/divine/gani, /datum/patron/divine/golerkanh, /datum/patron/divine/pomette, /datum/patron/divine/erdl)
 
 /datum/special_trait/latentmagic/on_apply(mob/living/carbon/human/character, silent)
 	character.attributes?.add_attribute_modifier(/datum/attribute_modifier/latentmagic, TRUE)
@@ -182,10 +182,10 @@
 
 /datum/special_trait/darkmagic
 	name = "Practitioner of forbidden magic"
-	greet_text = span_notice("Akan's path is weak, I have seen the light and practiced magic these fools call forbidden.")
+	greet_text = span_notice("The Elementals know not the nuance of Thauma's gift, but Hell certainly does.")
 	weight = 25
-	req_text = "Worship zizo and roll court magician or magician apprentice."
-	allowed_patrons = list(/datum/patron/inhumen/zizo)
+	req_text = "Worship the Archdevils and roll Court Magician or Magician Apprentice."
+	allowed_patrons = list(/datum/patron/inhumen/archdevils)
 	allowed_jobs = list(/datum/job/magician, /datum/job/mageapprentice)
 
 /datum/special_trait/darkmagic/on_apply(mob/living/carbon/human/character, silent)
@@ -829,12 +829,10 @@
 
 
 /datum/special_trait/thinker
-	name = "The Thinker"
-	greet_text = span_notice("Physique, Endurance, Constitution. \
-	The trinity of what builds a great leader and an even greater kingdom... \
-	or whatever those nimrods were yapping about! <b>I cast FIREBALL!!!</b>")
-	req_text = "Monarch, worship Akan or Zizo"
-	allowed_patrons = list(/datum/patron/divine/akan, /datum/patron/inhumen/zizo)
+	name = "Envy's Treasured"
+	greet_text = span_notice("Favored by the One Envy, your control over all magic borders supernatural.")
+	req_text = "Monarch"
+	allowed_patrons = list(/datum/patron/inhumen/envy)
 	allowed_jobs = list(/datum/job/lord)
 	weight = 25 //Should be fine.
 

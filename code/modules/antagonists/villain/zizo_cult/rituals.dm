@@ -1,6 +1,6 @@
-GLOBAL_LIST_INIT(ritualslist, build_zizo_rituals())
+GLOBAL_LIST_INIT(ritualslist, build_envy_rituals())
 
-/proc/build_zizo_rituals()
+/proc/build_envy_rituals()
 	. = list()
 	for(var/datum/ritual/ritual as anything in subtypesof(/datum/ritual))
 		if(IS_ABSTRACT(ritual))
@@ -41,17 +41,17 @@ GLOBAL_LIST_INIT(ritualslist, build_zizo_rituals())
 		return
 	if(target == user)
 		return
-	if(is_zizocultist(target.mind) || is_zizolackey(target.mind))
+	if(is_archdevilcultist(target.mind) || is_archdevillackey(target.mind))
 		return
 	if(!target.client)
 		return
-	if(is_antag_banned(target.ckey, ROLE_ZIZOIDCULTIST))
+	if(is_antag_banned(target.ckey, ROLE_ARCHDEVILCULTIST))
 		to_chat(span_danger("This one is unworthy of her aiding her ascension."))
 		return
 	if(istype(target.wear_neck, /obj/item/clothing/neck/psycross/silver) || istype(target.wear_wrists, /obj/item/clothing/neck/psycross/silver) )
 		to_chat(user, span_danger("They are wearing silver, it resists the dark magick!"))
 		return
-	var/datum/antagonist/zizocultist/PR = user.mind.has_antag_datum(/datum/antagonist/zizocultist)
+	var/datum/antagonist/archdevilcultist/PR = user.mind.has_antag_datum(/datum/antagonist/archdevilcultist)
 	var/alert = tgui_alert(target, "YOU WILL BE SHOWN THE TRUTH. DO YOU RESIST?", "???", list("Yield", "Resist"))
 	target.Immobilize(3 SECONDS)
 	if(alert == "Yield")
@@ -78,7 +78,7 @@ GLOBAL_LIST_INIT(ritualslist, build_zizo_rituals())
 		return
 	if(target == user)
 		return
-	if(is_zizocultist(target.mind))
+	if(is_archdevilcultist(target.mind))
 		to_chat(target, span_danger("I will not let my followers become mindless brutes."))
 		return
 
@@ -176,9 +176,9 @@ GLOBAL_LIST_INIT(ritualslist, build_zizo_rituals())
 	w_class =  WEIGHT_CLASS_SMALL
 
 /obj/item/corruptedheart/attack(mob/living/target, mob/living/user, list/modifiers)
-	if(!istype(user.patron, /datum/patron/inhumen/zizo))
+	if(!istype(user.patron, /datum/patron/inhumen/envy))
 		return
-	if(istype(target.patron, /datum/patron/inhumen/zizo))
+	if(istype(target.patron, /datum/patron/inhumen/envy))
 		target.blood_volume = BLOOD_VOLUME_NORMAL
 		to_chat(target, span_notice("My elixir of life is stagnant once again."))
 		qdel(src)
@@ -218,20 +218,20 @@ GLOBAL_LIST_INIT(ritualslist, build_zizo_rituals())
 			assassin_found = TRUE
 			var/obj/item/weapon/knife/dagger/steel/profane/dagger = locate() in HL.get_all_gear()
 			if(dagger)
-				to_chat(HL, "profane dagger whispers, <span class='danger'>\"The terrible Zizo has called for our aid. Hunt and strike down our common foe, [paper_name]!\"</span>")
+				to_chat(HL, "profane dagger whispers, <span class='danger'>\"The terrible Archdevils have called for our aid. Hunt and strike down our common foe, [paper_name]!\"</span>")
 	if(!target || !assassin_found)
-		to_chat(user, span_warning("There has been no answer to your call to the Dark Sun. It seems his servants are far from here..."))
+		to_chat(user, span_warning("There has been no answer to your call to the Archdevils. It seems his servants are far from here..."))
 		return
 	if(!target.get_quirk(/datum/quirk/vice/hunted))
 		target.add_quirk(/datum/quirk/vice/hunted)
 		var/datum/quirk/vice/hunted/quirk = target.get_quirk(/datum/quirk/vice/hunted)
 		quirk.desc = "You have been marked for death. You will be hunted and have assassination attempts made against you without any escalation."
-		quirk.customization_value = "Marked for death by the terrible Zizo."
-		to_chat(user, span_warning("Your target has been marked, your profane call answered by the Dark Sun. [target.real_name] will surely perish!"))
+		quirk.customization_value = "Marked for death by the Archdevils."
+		to_chat(user, span_warning("Your target has been marked, your profane call answered by the Archdevils. [target.real_name] will surely perish!"))
 		to_chat(target, span_warningbig("My hair stands on end. Has someone just said my name? I should watch my back."))
-		log_hunted("[key_name(target)] playing as [target] had the hunted flaw by Zizoid curse.")
+		log_hunted("[key_name(target)] playing as [target] had the hunted flaw by Hell's curse.")
 	else
-		to_chat(user, span_warning("Your target is already hunted by the Dark Sun's assassins."))
+		to_chat(user, span_warning("Your target is already hunted by the Archdevils' assassins."))
 	qdel(P)
 	target.playsound_local(target, 'sound/magic/marked.ogg', 100)
 
@@ -249,13 +249,13 @@ GLOBAL_LIST_INIT(ritualslist, build_zizo_rituals())
 	to_chat(user, span_notice("The All-seeing Eye. To see beyond sight."))
 
 /datum/ritual/transmutation/cross
-	name = "Summon Amulet of Zizo"
+	name = "Summon Amulet of Hell"
 	center_requirement = /obj/item/clothing/neck/psycross
 
 /datum/ritual/transmutation/cross/invoke(mob/living/user, turf/center)
 	. = ..()
-	new /obj/item/clothing/neck/psycross/zizo(center)
-	to_chat(user, span_notice("The psycross is transmuted into an amulet of Zizo."))
+	new /obj/item/clothing/neck/psycross/heretical(center)
+	to_chat(user, span_notice("The effigy is transmuted into an amulet of Hell."))
 
 /datum/ritual/transmutation/criminalstool
 	name = "Criminal's Tool"
@@ -316,7 +316,7 @@ GLOBAL_LIST_INIT(ritualslist, build_zizo_rituals())
 	if(!P)
 		return
 	var/info = strip_html_full(P.info, MAX_NAME_LEN)
-	var/input = browser_input_text(user, "To whom do we send this message?", "ZIZO")
+	var/input = browser_input_text(user, "To whom do we send this message?", "Tartarus")
 	if(!input)
 		return
 	for(var/mob/living/carbon/human/HL in GLOB.human_list)
@@ -380,15 +380,15 @@ GLOBAL_LIST_INIT(ritualslist, build_zizo_rituals())
 	S.set_up(1, 1, center)
 	S.start()
 
-	new /obj/item/clothing/armor/plate/full/zizo(center)
+	new /obj/item/clothing/armor/plate/full/archdevils(center)
 
-	new /obj/item/clothing/pants/platelegs/zizo(center)
+	new /obj/item/clothing/pants/platelegs/archdevils(center)
 
-	new /obj/item/clothing/shoes/boots/armor/zizo(center)
+	new /obj/item/clothing/shoes/boots/armor/archdevils(center)
 
-	new /obj/item/clothing/head/helmet/heavy/zizo(center)
+	new /obj/item/clothing/head/helmet/heavy/archdevils(center)
 
-	new /obj/item/clothing/gloves/plate/zizo(center)
+	new /obj/item/clothing/gloves/plate/archdevils(center)
 
 	playsound(center, pick('sound/items/bsmith1.ogg','sound/items/bsmith2.ogg','sound/items/bsmith3.ogg','sound/items/bsmith4.ogg'), 100, FALSE)
 
@@ -403,7 +403,7 @@ GLOBAL_LIST_INIT(ritualslist, build_zizo_rituals())
 	S.set_up(1, 1, center)
 	S.start()
 
-	new /obj/item/weapon/sword/long/greatsword/zizo(center)
+	new /obj/item/weapon/sword/long/greatsword/flamberge(center)
 
 	new /obj/item/weapon/sword/arming(center)
 
@@ -529,7 +529,7 @@ GLOBAL_LIST_INIT(ritualslist, build_zizo_rituals())
 	cultist.adjust_spell_points(18)
 	cultist.mana_pool.set_intrinsic_recharge(MANA_ALL_LEYLINES)
 	cultist.generate_random_attunements(rand(6, 8))
-	to_chat(cultist, span_notice("Stolen Arcane prowess floods my mind, ZIZO empowers me."))
+	to_chat(cultist, span_notice("Stolen Arcane prowess floods my mind, HELL empowers me."))
 
 /datum/ritual/fleshcrafting/curse
     name = "Hollow Curse"
@@ -630,7 +630,7 @@ GLOBAL_LIST_INIT(ritualslist, build_zizo_rituals())
 	ADD_TRAIT(user, TRAIT_ABOMINATION, TRAIT_GENERIC)
 	ADD_TRAIT(user, TRAIT_NOHARDCRIT, TRAIT_GENERIC)
 	ADD_TRAIT(user, TRAIT_NOSOFTCRIT, TRAIT_GENERIC)
-	to_chat(target, span_notice("ZIZO EMPOWERS ME!! SOMETHING HAS GONE WRONG, THE RITUAL FAILED BUT WHAT IT LEFT ME WITH IS STILL POWER!!"))
+	to_chat(target, span_notice("HELL EMPOWERS ME!! SOMETHING HAS GONE WRONG, THE RITUAL FAILED BUT WHAT IT LEFT ME WITH IS STILL POWER!!"))
 	target.adjust_stat_modifier(STATMOD_ABOM, list(
 		STAT_STRENGTH = -3,
 		STAT_SPEED = -4,
@@ -654,7 +654,7 @@ GLOBAL_LIST_INIT(ritualslist, build_zizo_rituals())
 	var/mob/living/carbon/human/target = locate() in center.contents
 	if(!target)
 		return
-	if(is_zizocultist(target.mind))
+	if(is_archdevilcultist(target.mind))
 		to_chat(target, span_danger("I'm not letting my strongest follower become a mindless brute."))
 		return
 	if(!target.mind)
@@ -723,7 +723,7 @@ GLOBAL_LIST_INIT(ritualslist, build_zizo_rituals())
 	var/mob/living/carbon/human/cultist = locate() in center.contents
 	if(!cultist || cultist != user)
 		return
-	if(!is_zizocultist(cultist.mind))
+	if(!is_archdevilcultist(cultist.mind))
 		return
 	var/mob/living/carbon/human/RULER = locate() in get_step(center, NORTH)
 	if(RULER != SSticker.rulermob && RULER.stat != DEAD)
@@ -735,7 +735,7 @@ GLOBAL_LIST_INIT(ritualslist, build_zizo_rituals())
 	RULER.gib()
 	SSmapping.retainer.cult_ascended = TRUE
 	addomen(OMEN_ASCEND)
-	to_chat(cultist, span_userdanger("I HAVE DONE IT! I HAVE REACHED A HIGHER FORM! ZIZO SMILES UPON ME WITH MALICE IN HER EYES TOWARD THE ONES WHO LACK KNOWLEDGE AND UNDERSTANDING!"))
+	to_chat(cultist, span_userdanger("I HAVE DONE IT! I HAVE REACHED A HIGHER FORM! HELL SMILES UPON ME WITH MALICE IN ITS LEGIONS TOWARD THE ONES WHO LACK KNOWLEDGE AND UNDERSTANDING!"))
 	var/mob/living/trl = new /mob/living/simple_animal/hostile/retaliate/blood/ascended(center)
 	cultist.mind?.transfer_to(trl)
 	cultist.gib()

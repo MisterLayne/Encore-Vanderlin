@@ -132,7 +132,7 @@
 	L.grant_undead_eyes()
 	L.skeletonize(FALSE)
 	L.equipOutfit(/datum/outfit/lich)
-	L.set_patron(/datum/patron/inhumen/zizo)
+	L.set_patron(/datum/patron/inhumen/archdevils)
 
 /datum/outfit/lich/pre_equip(mob/living/carbon/human/H)
 	..()
@@ -155,7 +155,7 @@
 	H.adjust_spell_points(17) //Same as CM - Until they receive their spellbook.
 	H.grant_language(/datum/language/undead)
 	if(H.dna?.species)
-		H.dna.species.native_language = "One Envy Chant"
+		H.dna.species.native_language = "Bonesong"
 		H.dna.species.accent_language = H.dna.species.get_accent(H.dna.species.native_language)
 	H.dna.species.soundpack_m = new /datum/voicepack/lich()
 	H.ambushable = FALSE

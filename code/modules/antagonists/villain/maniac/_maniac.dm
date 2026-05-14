@@ -118,7 +118,7 @@ GLOBAL_VAR_INIT(maniac_highlander, 0) // THERE CAN ONLY BE ONE!
 		if(ishuman(owner.current))
 			var/mob/living/carbon/human/dreamer = owner.current
 			var/datum/physiology/phy = dreamer.physiology
-			dreamer.set_patron(/datum/patron/inhumen/archdevils_zizo)
+			dreamer.set_patron(/datum/patron/inhumen/sages)
 			old_cm = dreamer.cmode_music
 			dreamer.cmode_music = 'sound/music/cmode/antag/combat_maniac.ogg'
 			phy.bleed_mod *= 0.5
@@ -133,7 +133,7 @@ GLOBAL_VAR_INIT(maniac_highlander, 0) // THERE CAN ONLY BE ONE!
 				heart.maniacs2wonder_ids = list()
 				heart.maniacs = list()
 			dreamer.remove_stress(/datum/stress_event/saw_wonder)
-			dreamer.remove_curse(/datum/curse/zizo)
+			dreamer.remove_curse(/datum/curse/envy)
 			dreamer.AddComponent(/datum/component/theme_music)
 		//	dreamer.remove_client_colour(/datum/client_colour/maniac_marked)
 		owner.current.refresh_looping_ambience()
@@ -155,7 +155,7 @@ GLOBAL_VAR_INIT(maniac_highlander, 0) // THERE CAN ONLY BE ONE!
 		if(ishuman(owner.current))
 			var/mob/living/carbon/human/dreamer = owner.current
 			var/datum/physiology/phy = dreamer.physiology
-			dreamer.set_patron(/datum/patron/inhumen/zizo)
+			dreamer.set_patron(/datum/patron/inhumen/archdevils)
 			dreamer.cmode_music = old_cm
 			dreamer.remove_stat_modifier("[type]")
 			var/datum/component/themesong = dreamer.GetComponent(/datum/component/theme_music)

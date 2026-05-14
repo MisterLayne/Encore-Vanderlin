@@ -102,7 +102,7 @@
 			atmosphere_message = SPAN_GOD_MORDSOL("A sudden rush of righteousness usurps your emotions, the clashing of blades, the symphony of steel on steel. But just abruptly, it fades into a harsh pain of faded glory. As if nostalgia had plunged it dagger into your chest. With a hoarse, mournful yet solemn tone, Justice speaks to you.")
 		if("Goler Kanh")
 			atmosphere_message = SPAN_GOD_GOLERKANH("Your perspective abruptly shifts on the world. Every wall, every gate, even the pavement you’d walk onto clicks to you. The whole world is a big puzzle, a feat of engineering to the inspired mind. Your mind races with ideas, striking you with plan after plan. A loud sizzle snaps you out of this trance, someone speaks to you in a tempered, detached voice, with few words. Direct, and to the point, as if preoccupied with something.")
-		if("Eora")
+		if("Pomette")
 			atmosphere_message = SPAN_GOD_POMETTE("All manner of troubles seem to evaporate. Everyone, everything around you appeals to have grown softer, more docile. A comfort akin to a mother tucking in her child, your worries are hushed away for now. Amidst this dreamy state, a soft-spoken, appeasing voice cradles your mind. Her tone is compassionate, as if she were right there with you.")
 		if("Iliope")
 			atmosphere_message = SPAN_GOD_ILIOPE("Life is so comical… the drama you will cause will be astronomical! Wouldn’t you just love a show, you should’ve been laughing five minutes ago! The air is light and witty, you begin to truly enjoy this city… Ambiguous is this voice… festive,whimsical, and carefree.. The peak of free choice!")
@@ -116,8 +116,8 @@
 			atmosphere_message = SPAN_GOD_HERTANNEA("You feel a sudden drain on your body, it is soothing… as if your troubles have been uplifted, replaced by an ever-sweet ecstasy. All the world seems colorful, vibrant, exciting. You must experience it all, you must live in the moment and relish all it has to offer you. A feminine, honey voice woman hums in your mind. She sounds silvery, and singsong, an addicting melody like a siren.")
 		if("Archdevils")
 			atmosphere_message = SPAN_GOD_ARCHDEVILS("Your heart begins to race. Blood rushes to your head. Your hands clench into a fist, a rhythmic thumping takes over your hearing. Your eyes narrow down on everything, everyone. You size them all up. There is some primal and feral urge to fight, to shout, to let loose. You can hardly keep your body from lurching forward. As you tremble with the sudden surge of adrenaline, a deep guttural laugh. He roars, a raucous, abrasive and brash voice follows.")
-		if("Zizo")
-			atmosphere_message = SPAN_GOD_ZIZO("A swirl of shadows overtake your senses, the sphere that is your mind is penetrated and swallowed whole. You are lost in the dark, engulfed and surrounded. As if entombed in a vast void of nothingness. A purple light flickers in your vision, profane, offering no comfort from the dark, however drawing your attention. The voice of a woman, sharp, conceitful, and ensnaring. Her voice is ephemeral, and ghastly. A coldness takes hold of you, bone-chilling and black as death. When she speaks, a shiver runs down your spine.")
+		if("One Envy")
+			atmosphere_message = SPAN_GOD_ENVY("A swirl of shadows overtake your senses, the sphere that is your mind is penetrated and swallowed whole. You are lost in the dark, engulfed and surrounded. As if entombed in a vast void of nothingness. A purple light flickers in your vision, profane, offering no comfort from the dark, however drawing your attention. The voice of a woman, sharp, conceitful, and ensnaring. Her voice is ephemeral, and ghastly. A coldness takes hold of you, bone-chilling and black as death. When she speaks, a shiver runs down your spine.")
 	return SPAN_PRAYER_WRAPPER(atmosphere_message)
 
 /client/proc/cmd_admin_mod_antag_rep(client/C in GLOB.clients, operation)
@@ -824,7 +824,7 @@ Traitors and the like can also be revived with the previous role mostly intact.
 			if(!ishuman(target))
 				to_chat(usr,"<span class='warning'>Target must be human!</span>")
 				return
-			ADD_TRAIT(target, TRAIT_ZIZOID_HUNTED, TRAIT_GENERIC) // Gives the victim a trait to track that they are wanted dead.
+			ADD_TRAIT(target, TRAIT_HELL_HUNTED, TRAIT_GENERIC) // Gives the victim a trait to track that they are wanted dead.
 			log_hunted("[key_name(target)] playing as [target] had been hunted by Admin punishment.")
 			for (var/mob/living/carbon in GLOB.carbon_list) // Admin smite, just tell all assassins whether they have their knife or not
 				if (HAS_TRAIT(carbon, TRAIT_ASSASSIN) && !(carbon.stat == DEAD)) //Check if they are an assassin and alive
@@ -908,7 +908,7 @@ Traitors and the like can also be revived with the previous role mostly intact.
 	target.emote("breathgasp", forced = TRUE)
 	shake_camera(target, 1, 3)
 	target.set_eye_blur_if_lower(80 SECONDS)
-	var/stuffy = list("ZIZO GRABS MY WEARY HEART!","ARGH! MY HEART BEATS NO MORE!","NO... MY HEART HAS BEAT IT'S LAST!","MY HEART HAS GIVEN UP!","MY HEART BETRAYS ME!","THE METRONOME OF MY LIFE STILLS!")
+	var/stuffy = list("ENVY GRABS MY WEARY HEART!","ARGH! MY HEART BEATS NO MORE!","NO... MY HEART HAS BEAT IT'S LAST!","MY HEART HAS GIVEN UP!","MY HEART BETRAYS ME!","THE METRONOME OF MY LIFE STILLS!")
 	if(custom_message)
 		to_chat(target, span_danger("[custom_message]"))
 	else

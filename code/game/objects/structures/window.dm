@@ -72,7 +72,7 @@
 /obj/structure/window/stained/silver/alt
 	icon_state = "stained-silver1"
 
-/obj/structure/window/stained/zizo
+/obj/structure/window/stained/envy
 	desc = "A stained-glass window filigreed in deep crimson."
 	icon_state = "stained-zizo"
 

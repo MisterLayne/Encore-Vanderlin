@@ -1,6 +1,6 @@
 /datum/language/undead
-	name = "Zizo Chant"
-	desc = ""
+	name = "Bonesong"
+	desc = "The language of the flesh, bar the soul. Said to be the most transparent and intimate methods of speech, even moreso than divine intrusion."
 	icon_state = "zizo"
 	spans = list(SPAN_UNDEAD)
 	speech_verb = "chants"
@@ -135,7 +135,7 @@
 		"ann",
 		"chu",
 		"ean",
-		"Zizo",
+		"akh",
 		"rai",
 		"tha",
 		"rea",

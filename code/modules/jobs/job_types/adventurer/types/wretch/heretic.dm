@@ -79,10 +79,10 @@
 			ADD_TRAIT(spawned, TRAIT_STRONGBITE, TRAIT_GENERIC)
 			spawned.cmode_music = 'sound/music/cmode/antag/combat_werewolf.ogg'
 			ADD_TRAIT(spawned, TRAIT_STRONGBITE, TRAIT_GENERIC)
-		if(/datum/patron/inhumen/archdevils_zizo)
+		if(/datum/patron/inhumen/sages)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/axesmaces, 40)
 			spawned.cmode_music = 'sound/music/cmode/antag/combat_werewolf.ogg'
-		if(/datum/patron/inhumen/zizo)
+		if(/datum/patron/inhumen/envy)
 			spawned.adjust_skill_level(/datum/attribute/skill/combat/swords, 40)
 			spawned.cmode_music = 'sound/music/cmode/antag/combat_cult.ogg'
 			spawned.grant_language(/datum/language/undead)
@@ -200,7 +200,7 @@
 			shoes = /obj/item/clothing/shoes/boots/armor/archdevils
 			cloak = /obj/item/clothing/cloak/archdevils
 			backr = /obj/item/weapon/greataxe/steel/doublehead/archdevils
-		if(/datum/patron/inhumen/archdevils_zizo)
+		if(/datum/patron/inhumen/sages)
 			head = /obj/item/clothing/head/helmet/heavy/archdevils
 			armor = /obj/item/clothing/armor/plate/full/archdevils
 			neck = /obj/item/clothing/neck/gorget
@@ -209,14 +209,14 @@
 			shoes = /obj/item/clothing/shoes/boots/armor/archdevils
 			cloak = /obj/item/clothing/cloak/archdevils
 			backr = /obj/item/weapon/greataxe/steel/doublehead/archdevils
-		if(/datum/patron/inhumen/zizo)
-			head = /obj/item/clothing/head/helmet/visored/zizo
-			armor = /obj/item/clothing/armor/plate/full/zizo
+		if(/datum/patron/inhumen/envy)
+			head = /obj/item/clothing/head/helmet/visored/envy
+			armor = /obj/item/clothing/armor/plate/full/envy
 			neck = /obj/item/clothing/neck/gorget
-			gloves = /obj/item/clothing/gloves/plate/zizo
-			pants = /obj/item/clothing/pants/platelegs/zizo
-			shoes = /obj/item/clothing/shoes/boots/armor/zizo
-			backr = /obj/item/weapon/sword/long/greatsword/zizo
+			gloves = /obj/item/clothing/gloves/plate/envy
+			pants = /obj/item/clothing/pants/platelegs/envy
+			shoes = /obj/item/clothing/shoes/boots/armor/envy
+			backr = /obj/item/weapon/sword/long/greatsword/envy
 		if(/datum/patron/inhumen/deceivers)
 			head = /obj/item/clothing/head/helmet/heavy/deceivers
 			armor = /obj/item/clothing/armor/plate/full/deceivers

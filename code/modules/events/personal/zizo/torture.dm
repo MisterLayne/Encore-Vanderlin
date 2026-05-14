@@ -1,19 +1,19 @@
-/datum/round_event_control/zizo_torture
+/datum/round_event_control/envy_torture
 	name = "Demand of Cruelty"
 	track = EVENT_TRACK_PERSONAL
-	typepath = /datum/round_event/zizo_torture
+	typepath = /datum/round_event/envy_torture
 	weight = 7
 	earliest_start = 10 MINUTES
 	max_occurrences = 1
 	min_players = 20
 
 	tags = list(
-		TAG_ZIZO,
+		TAG_ENVY,
 		TAG_BLOOD,
 		TAG_INSANITY,
 	)
 
-/datum/round_event_control/zizo_torture/canSpawnEvent(players_amt, gamemode, fake_check)
+/datum/round_event_control/envy_torture/canSpawnEvent(players_amt, gamemode, fake_check)
 	. = ..()
 	if(!.)
 		return FALSE
@@ -21,19 +21,19 @@
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(!istype(H) || H.stat == DEAD || !H.client)
 			continue
-		if(!H.patron || !istype(H.patron, /datum/patron/inhumen/zizo))
+		if(!H.patron || !istype(H.patron, /datum/patron/inhumen/envy))
 			continue
 		return TRUE
 
 	return FALSE
 
-/datum/round_event/zizo_torture/start()
+/datum/round_event/envy_torture/start()
 	var/list/valid_targets = list()
 
 	for(var/mob/living/carbon/human/human_mob in GLOB.player_list)
 		if(!istype(human_mob) || human_mob.stat == DEAD || !human_mob.client)
 			continue
-		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/inhumen/zizo))
+		if(!human_mob.patron || !istype(human_mob.patron, /datum/patron/inhumen/envy))
 			continue
 		valid_targets += human_mob
 
@@ -49,8 +49,8 @@
 	add_verb(chosen_one, /mob/living/carbon/human/proc/faith_test)
 
 	bordered_message(chosen_one, list(
-		span_userdanger("YOU ARE ZIZO'S CHOSEN!"),
-		span_biginfo("One Envy demands suffering! Extract information through pain to earn One Envy's favor!"),
+		span_userdanger("YOU ARE HER CHOSEN!"),
+		span_biginfo("The One Envy demands suffering! Extract information through pain to earn the One Envy's favor!"),
 	))
 	chosen_one.playsound_local(chosen_one, 'sound/misc/gods/zizo_omen.ogg', 100)
 

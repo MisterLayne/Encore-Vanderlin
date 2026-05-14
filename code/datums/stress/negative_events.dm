@@ -126,7 +126,7 @@
 /datum/stress_event/hatezizo
 	timer = 99999 MINUTES
 	stress_change = 10 // :)
-	desc = "<span class='red'>ZIZOZIZOZIZO</span>"
+	desc = "<span class='red'>BURNING EYES OF AMBER</span>"
 
 /datum/stress_event/burntmeal
 	timer = 2 MINUTES

@@ -9,7 +9,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	MJALLIDHORN = 'sound/items/bucket_transfer (2).ogg',
 	MORDSOL = 'sound/vo/male/knight/rage (6).ogg',
 	ERDL = 'sound/magic/cosmic_expansion.ogg',
-	ZIZO = 'sound/misc/gods/zizo_omen.ogg',
+	ENVY = 'sound/misc/gods/zizo_omen.ogg',
 	ARCHDEVILS = 'sound/misc/gods/graggar_omen.ogg',
 	HERTANNEA = 'sound/misc/gods/baotha_omen.ogg',
 	DECEIVERS = 'sound/misc/gods/matthios_omen.ogg'

@@ -1138,10 +1138,10 @@
 	craftdiff = 5
 
 /*
-/datum/anvil_recipe/armor/blacksteel/zizo_plate_chest
+/datum/anvil_recipe/armor/blacksteel/envy_plate_chest
 	name = "Darksteel Plate Armor (+Bar x3)"
 	additional_items = list(/obj/item/ingot/blacksteel, /obj/item/ingot/blacksteel, /obj/item/ingot/blacksteel)
-	created_item = /obj/item/clothing/armor/plate/full/zizo
+	created_item = /obj/item/clothing/armor/plate/full/envy
 	craftdiff = 5
 
 /datum/anvil_recipe/armor/blacksteel/elven_plate_chest
@@ -1164,7 +1164,7 @@
 	craftdiff = 5
 
 /*
-/datum/anvil_recipe/armor/blacksteel/zizo_plate_pants
+/datum/anvil_recipe/armor/blacksteel/envy_plate_pants
 	name = "Darksteel Plate Chausses (+Bar)"
 	additional_items = list(/obj/item/ingot/blacksteel)
 	created_item = /obj/item/clothing/pants/platelegs/zizo
@@ -1183,7 +1183,7 @@
 	craftdiff = 5
 
 /*
-/datum/anvil_recipe/armor/blacksteel/zizo_plate_gloves
+/datum/anvil_recipe/armor/blacksteel/envy_plate_gloves
 	name = "Darksteel Plate Gauntlets"
 	created_item = /obj/item/clothing/gloves/plate/zizo
 	craftdiff = 5
@@ -1215,18 +1215,18 @@
 	created_item = /obj/item/clothing/shoes/boots/rare/elfplate/welfplate
 	craftdiff = 5
 
-/datum/anvil_recipe/armor/blacksteel/zizo_plate_boots
+/datum/anvil_recipe/armor/blacksteel/envy_plate_boots
 	name = "Darksteel Plate Boots"
 	created_item = /obj/item/clothing/shoes/boots/armor/zizo
 	craftdiff = 5
 
-/datum/anvil_recipe/armor/blacksteel/zizo_helm_visor
+/datum/anvil_recipe/armor/blacksteel/envy_helm_visor
 	name = "Darksteel Barbute (+Bar)"
 	additional_items = list(/obj/item/ingot/blacksteel)
 	created_item = /obj/item/clothing/head/helmet/visored/zizo
 	craftdiff = 5
 
-/datum/anvil_recipe/armor/blacksteel/zizo_helm
+/datum/anvil_recipe/armor/blacksteel/envy_helm
 	name = "Darksteel Frog Helm (+Bar)"
 	additional_items = list(/obj/item/ingot/blacksteel)
 	created_item = /obj/item/clothing/head/helmet/heavy/zizo

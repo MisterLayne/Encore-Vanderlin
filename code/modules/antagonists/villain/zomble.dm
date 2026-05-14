@@ -110,7 +110,7 @@
 	zombie.remove_all_languages()
 	zombie.grant_language(/datum/language/undead)
 	if(zombie.dna?.species)
-		zombie.dna.species.native_language = "One Envy Chant"
+		zombie.dna.species.native_language = "Bonesong"
 		zombie.dna.species.accent_language = zombie.dna.species.get_accent(zombie.dna.species.native_language)
 
 	zombie.ai_controller = new /datum/ai_controller/zombie(zombie)
@@ -222,7 +222,7 @@
 			zombie_part.update_disabled()
 	zombie.update_body()
 	zombie.cmode_music = 'sound/music/cmode/combat_weird.ogg'
-	zombie.set_patron(/datum/patron/inhumen/zizo)
+	zombie.set_patron(/datum/patron/inhumen/archdevils)
 
 	for(var/datum/status_effect/effect in zombie.status_effects) //necessary to prevent exploits
 		zombie.remove_status_effect(effect)

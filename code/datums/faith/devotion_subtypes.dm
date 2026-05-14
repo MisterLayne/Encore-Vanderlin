@@ -171,7 +171,7 @@
 		/datum/action/cooldown/spell/healing/profane,
 	)
 
-/datum/devotion/inhumen/zizo
+/datum/devotion/inhumen/envy
 	miracles = list(
 		CLERIC_T0 = list(/datum/action/cooldown/spell/undirected/touch/orison, /datum/action/cooldown/spell/aoe/snuff),
 		CLERIC_T1 = /datum/action/cooldown/spell/projectile/profane,

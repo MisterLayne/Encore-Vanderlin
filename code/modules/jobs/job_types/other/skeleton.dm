@@ -120,10 +120,10 @@
 	. = ..()
 	spawned.mind?.special_role = "Cult Summon"
 	spawned.mind?.current.job = null
-	spawned.set_patron(/datum/patron/inhumen/zizo)
+	spawned.set_patron(/datum/patron/inhumen/archdevils)
 
 	if(spawned.dna?.species)
-		spawned.dna.species.native_language = "Zizo Chant"
+		spawned.dna.species.native_language = "Bonesong"
 		spawned.dna.species.accent_language = spawned.dna.species.get_accent(spawned.dna.species.native_language)
 
 	add_verb(spawned, /mob/living/carbon/human/proc/praise)

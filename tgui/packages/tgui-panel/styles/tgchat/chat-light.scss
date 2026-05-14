@@ -1546,14 +1546,14 @@ $border-width-px: $border-width * 1px;
 }
 /* ##### END ##### */
 
-/* ##### ZIZO ##### */
-.god_zizo {
+/* ##### ONE ENVY ##### */
+.god_envy {
   color: hsl(338.7, 59.2%, 29.8%);
   font-weight: bold;
-  animation: zizo_flicker 1s infinite;
+  animation: envy_flicker 1s infinite;
 }
 
-@keyframes zizo_flicker {
+@keyframes envy_flicker {
 	25% {
 		color: hsl(338.7, 59.2%, 29.8%);
 	}

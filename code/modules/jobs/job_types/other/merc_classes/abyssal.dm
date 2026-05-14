@@ -64,7 +64,7 @@
 		spawned.mana_pool?.set_intrinsic_recharge(MANA_ALL_LEYLINES)
 		spawned.attributes?.add_sheet(/datum/attribute_holder/sheet/job/abyssal/boy)
 
-		if(!istype(spawned.patron, /datum/patron/inhumen/zizo))
+		if(!istype(spawned.patron, /datum/patron/inhumen/envy))
 			spawned.set_patron(/datum/patron/divine/akan)
 	spawned.merctype = 10
 

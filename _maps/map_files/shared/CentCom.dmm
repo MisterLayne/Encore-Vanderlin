@@ -1247,7 +1247,7 @@
 /turf/open/floor/wood,
 /area/indoors)
 "eH" = (
-/obj/structure/fluff/psycross/zizocross,
+/obj/structure/fluff/psycross/archdevil_cross,
 /turf/open/floor/church,
 /area/indoors/lich)
 "eP" = (
@@ -1899,7 +1899,7 @@
 /turf/open/floor/cobble,
 /area/indoors)
 "ja" = (
-/obj/structure/window/stained/zizo,
+/obj/structure/window/stained/envy,
 /turf/open/floor/cobble,
 /area/indoors/lich)
 "je" = (
@@ -2425,7 +2425,7 @@
 /turf/open/water/swamp,
 /area/outdoors/woods_safe)
 "mR" = (
-/obj/structure/window/stained/zizo,
+/obj/structure/window/stained/envy,
 /turf/open/floor/church,
 /area/indoors/lich)
 "mS" = (
@@ -2859,7 +2859,7 @@
 /turf/open/floor/herringbone,
 /area/indoors/vampire_manor)
 "pD" = (
-/obj/structure/window/stained/zizo,
+/obj/structure/window/stained/envy,
 /turf/open/floor/naturalstone,
 /area/indoors/lich)
 "pE" = (
@@ -5001,7 +5001,7 @@
 /turf/open/floor/carpet,
 /area/indoors/lich)
 "DH" = (
-/obj/structure/window/stained/zizo,
+/obj/structure/window/stained/envy,
 /turf/open/floor/churchmarble,
 /area/indoors/lich)
 "DP" = (
@@ -5863,7 +5863,7 @@
 /turf/open/floor/metal/barograte,
 /area/indoors/vampire_manor)
 "Jt" = (
-/obj/structure/window/stained/zizo,
+/obj/structure/window/stained/envy,
 /obj/structure/fluff/walldeco/vinez,
 /turf/open/floor/cobble,
 /area/indoors/lich)
@@ -7191,7 +7191,7 @@
 /turf/open/floor/churchmarble,
 /area/indoors/lich)
 "SD" = (
-/obj/structure/window/stained/zizo,
+/obj/structure/window/stained/envy,
 /obj/structure/fluff/walldeco/vinez,
 /turf/open/floor/church,
 /area/indoors/lich)

@@ -104,7 +104,7 @@
 
 //............... One Envy Frog Helmet ............... //
 
-/obj/item/clothing/head/helmet/heavy/zizo
+/obj/item/clothing/head/helmet/heavy/envy
 	name = "darksteel frog helmet"
 	desc = PLACEHOLDER_PATRON_REBRANDING
 	adjustable = CAN_CADJUST

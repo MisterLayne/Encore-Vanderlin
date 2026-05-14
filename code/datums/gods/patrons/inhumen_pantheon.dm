@@ -18,8 +18,8 @@
 
 /* ----------------- */
 /// Encore edit- Zizo needs to become the One Envy. This involves over 500 file changes, so, lmao, see you soon
-/datum/patron/inhumen/zizo
-	name = ZIZO
+/datum/patron/inhumen/envy
+	name = ENVY
 	domain = PLACEHOLDER_PATRON_REBRANDING
 	desc = PLACEHOLDER_PATRON_REBRANDING
 	flaws = PLACEHOLDER_PATRON_REBRANDING
@@ -27,13 +27,13 @@
 	sins = PLACEHOLDER_PATRON_REBRANDING
 	boons = PLACEHOLDER_PATRON_REBRANDING
 	//added_traits = list(TRAIT_CABAL)	No need for this. They have fleshcrafting now.
-	devotion_holder = /datum/devotion/inhumen/zizo
+	devotion_holder = /datum/devotion/inhumen/envy
 	confess_lines = list(
 		PLACEHOLDER_PATRON_REBRANDING,
 		PLACEHOLDER_PATRON_REBRANDING,
 		PLACEHOLDER_PATRON_REBRANDING,
 	)
-	storyteller = /datum/storyteller/zizo
+	storyteller = /datum/storyteller/envy
 	added_verbs = list(
 		/mob/living/carbon/human/proc/draw_sigil,
 		/mob/living/carbon/human/proc/praise,
@@ -91,8 +91,8 @@
 	storyteller = /datum/storyteller/hertannea
 
 /// Encore edit for below- pending whatever the fuck we need to do to swap Zizo to the One Envy. I guess it works but it will definitely need some adjustment
-/// Maniac Patron - Their mind is broken by secrets of Zizo/Archdevils combined. They quite possibly know the reality of what happens outside the planet. They may think this is all a game. They are clearly insane.
-/datum/patron/inhumen/archdevils_zizo
+/// Maniac Patron - Their mind is broken by secrets of the world before. They quite possibly know the reality of what happens outside the planet. They may think this is all a game. They are clearly insane.
+/datum/patron/inhumen/sages
 	name = "The Seven Sages"
 	domain = PLACEHOLDER_PATRON_REBRANDING
 	desc = PLACEHOLDER_PATRON_REBRANDING
@@ -107,20 +107,20 @@
 		PLACEHOLDER_PATRON_REBRANDING,
 	)
 
-/datum/patron/inhumen/archdevils_zizo/preference_accessible(datum/preferences/prefs)
+/datum/patron/inhumen/sages/preference_accessible(datum/preferences/prefs)
 	return FALSE
 
-/datum/patron/inhumen/archdevils_zizo/can_pray(mob/living/follower)
+/datum/patron/inhumen/sages/can_pray(mob/living/follower)
 	var/datum/antagonist/maniac/dreamer = follower.mind.has_antag_datum(/datum/antagonist/maniac)
 	if(dreamer)
 		return TRUE
 	// if a non-maniac somehow gets this patron,
 	// something interesting should happen if they try to pray.
 	INVOKE_ASYNC(follower, GLOBAL_PROC_REF(cant_wake_up), follower)  //Something interesting happened.
-	message_admins("[ADMIN_LOOKUPFLW(follower)] has been gibbed due to praying as a non-maniac with their patron set to Graggazo. Whoops..")
+	message_admins("[ADMIN_LOOKUPFLW(follower)] has been gibbed due to praying as a non-maniac with their patron set to the Sages. Whoops..")
 	return FALSE
 
-/datum/patron/inhumen/archdevils_zizo/hear_prayer(mob/living/follower, message)
+/datum/patron/inhumen/sages/hear_prayer(mob/living/follower, message)
 	var/datum/antagonist/maniac/dreamer = follower.mind.has_antag_datum(/datum/antagonist/maniac)
 	if(!dreamer)
 		return FALSE

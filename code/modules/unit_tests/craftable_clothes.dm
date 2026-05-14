@@ -107,6 +107,7 @@ abstract types are automatically excluded.
 		"hertannea",
 		"deceivers",
 		"zizo",
+		"envy",
 		"archdevils",
 		"steam",
 		"royalknight",

@@ -500,7 +500,7 @@ GLOBAL_LIST_EMPTY(letters_sent)
 	for(var/datum/antagonist/antag in subject?.mind?.antag_datums)
 		switch(antag.type)
 			if(/datum/antagonist/bandit, /datum/antagonist/maniac, /datum/antagonist/assassin,
-			   /datum/antagonist/zizocultist, /datum/antagonist/zizocultist/leader,
+			   /datum/antagonist/archdevilcultist, /datum/antagonist/archdevilcultist/leader,
 			   /datum/antagonist/werewolf, /datum/antagonist/werewolf/lesser,
 			   /datum/antagonist/vampire, /datum/antagonist/vampire/lord, /datum/antagonist/vampire/lords_spawn, /datum/antagonist/vampire/lord/daewalker)
 				is_correct = TRUE
@@ -509,7 +509,7 @@ GLOBAL_LIST_EMPTY(letters_sent)
 	// Check patron types
 	if(subject?.patron)
 		switch(subject?.patron.type)
-			if(/datum/patron/inhumen/deceivers, /datum/patron/inhumen/zizo, /datum/patron/inhumen/archdevils,
+			if(/datum/patron/inhumen/deceivers, /datum/patron/inhumen/envy, /datum/patron/inhumen/archdevils,
 			   /datum/patron/inhumen/hertannea, /datum/patron/godless/godless, /datum/patron/godless/autotheist,
 			   /datum/patron/godless/defiant, /datum/patron/godless/dystheist)
 				is_correct = TRUE
@@ -806,7 +806,7 @@ GLOBAL_LIST_EMPTY(letters_sent)
 /obj/structure/fake_machine/mail/proc/display_marquette(mob/user)
 	var/contents
 	contents = "<center>  THE ORATORIUM'S RELIQUARY  <BR>"
-	contents += "ERADICATE HERESY, SO THAT ANGROSIA MAY ENDURE <BR>"
+	contents += "ERADICATE HERESY, SO THAT THE ELEMENTS MAY ENDURE <BR>"
 	if(HAS_TRAIT(user, TRAIT_PURITAN))
 		contents += "  <a href='?src=[REF(src)];locktoggle=1]'> PURITAN'S LOCK: [inqonly ? "YES":"NO"]</a>  <BR>"
 	else

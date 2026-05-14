@@ -1,13 +1,13 @@
-/datum/round_event_control/antagonist/solo/zizo_cult
-	name = "One Envy Cult"
+/datum/round_event_control/antagonist/solo/archdevil_cult
+	name = "Hellish Cult"
 	tags = list(
-		TAG_ZIZO,
+		TAG_ARCHDEVILS,
 		TAG_COMBAT,
 		TAG_VILLAIN,
 		TAG_MAGICAL
 	)
 	roundstart = TRUE
-	antag_flag = ROLE_ZIZOIDCULTIST
+	antag_flag = ROLE_ARCHDEVILCULTIST
 	shared_occurence_type = SHARED_HIGH_THREAT
 
 	base_antags = 1
@@ -20,8 +20,8 @@
 
 	earliest_start = 0 SECONDS
 
-	typepath = /datum/round_event/antagonist/solo/zizo_cultist
-	antag_datum = /datum/antagonist/zizocultist
+	typepath = /datum/round_event/antagonist/solo/archdevil_cultist
+	antag_datum = /datum/antagonist/archdevilcultist
 
 	restricted_roles = list(
 		/datum/job/lord,
@@ -45,12 +45,12 @@
 		/datum/job/bog_apprentice,
 	)
 
-/datum/round_event/antagonist/solo/zizo_cultist
+/datum/round_event/antagonist/solo/archdevil_cultist
 	var/leader = FALSE
 
-/datum/round_event/antagonist/solo/zizo_cultist/add_datum_to_mind(datum/mind/antag_mind)
+/datum/round_event/antagonist/solo/archdevil_cultist/add_datum_to_mind(datum/mind/antag_mind)
 	if(!leader)
-		antag_mind.add_antag_datum(/datum/antagonist/zizocultist/leader)
+		antag_mind.add_antag_datum(/datum/antagonist/archdevilcultist/leader)
 		leader = TRUE
 	else
 		antag_mind.add_antag_datum(antag_datum)

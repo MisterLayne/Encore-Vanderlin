@@ -29,16 +29,16 @@
 
 /datum/objective/personal/torture/complete_objective(mob/living/victim)
 	. = ..()
-	to_chat(owner.current, span_greentext("You have extracted the truth through pain, satisfying One Envy!"))
-	adjust_storyteller_influence(ZIZO, 20)
+	to_chat(owner.current, span_greentext("You have extracted the truth through pain, satisfying the One Envy!"))
+	adjust_storyteller_influence(ENVY, 20)
 	UnregisterSignal(owner.current, COMSIG_TORTURE_PERFORMED)
 
 /datum/objective/personal/torture/reward_owner()
 	. = ..()
-	owner.current.adjust_stat_modifier(STATMOD_ZIZO_BLESSING, list(
+	owner.current.adjust_stat_modifier(STATMOD_ENVY_BLESSING, list(
 		STAT_STRENGTH = 1,
 		STAT_ENDURANCE =1,
 	))
 
 /datum/objective/personal/torture/update_explanation_text()
-	explanation_text = "Torture someone until they beg for mercy to please One Envy!"
+	explanation_text = "Torture someone until they beg for mercy to please the One Envy!"

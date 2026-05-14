@@ -36,7 +36,7 @@
 /datum/stress_event/lovezizo
 	timer = 99999 MINUTES
 	stress_change = -666 // :)
-	desc = span_green("ZIZOZIZOZIZO")
+	desc = span_green("The firmament is broken! Rejoice!")
 
 /datum/stress_event/joke
 	timer = 1 MINUTES

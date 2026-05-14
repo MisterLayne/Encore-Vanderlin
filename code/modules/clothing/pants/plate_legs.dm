@@ -82,9 +82,9 @@
 
 //............... Evil Pants ............... //
 
-/obj/item/clothing/pants/platelegs/zizo
+/obj/item/clothing/pants/platelegs/envy
 	name = "darksteel garments"
-	desc = "Leg garments worn by true anointed of the Dame of Progress. In Her name."
+	desc = "Leg garments worn by true anointed of the One Envy. In Her name."
 	icon_state = "zizocloth"
 	icon = 'icons/roguetown/clothing/special/evilarmor.dmi'
 	mob_overlay_icon = 'icons/roguetown/clothing/special/onmob/evilarmor.dmi'

@@ -13,16 +13,16 @@
 		/datum/patron/divine/iliope = /datum/curse/iliope,
 		/datum/patron/divine/erdl = /datum/curse/erdl,
 		/datum/patron/divine/pomette = /datum/curse/pomette,
-		/datum/patron/inhumen/zizo = /datum/curse/zizo/minor,
+		/datum/patron/inhumen/envy = /datum/curse/envy/minor,
 		/datum/patron/inhumen/deceivers = /datum/curse/deceivers,
 		/datum/patron/inhumen/hertannea = /datum/curse/hertannea,
-		/datum/patron/inhumen/archdevils_zizo = /datum/curse/zizo/minor,
+		/datum/patron/inhumen/sages = /datum/curse/envy/minor,
 	)
 
 /datum/triumph_buy/random_curse/on_after_spawn(mob/living/carbon/human/H)
 	. = ..()
 
-	var/list/available_curses = (TEN_CURSES + INHUMEN_CURSES) - list(/datum/curse/akan, /datum/curse/archdevils, /datum/curse/zizo)
+	var/list/available_curses = (TEN_CURSES + INHUMEN_CURSES) - list(/datum/curse/akan, /datum/curse/archdevils, /datum/curse/envy)
 
 	if(H.patron && patron_curse_map[H.patron.type])
 		var/datum/curse/patron_curse = patron_curse_map[H.patron.type]

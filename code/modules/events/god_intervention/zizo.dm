@@ -1,22 +1,22 @@
-/datum/round_event_control/zizo_defilement
-	name = "One Envy's Defilement"
+/datum/round_event_control/envy_defilement
+	name = "The One Envy's Defilement"
 	track = EVENT_TRACK_INTERVENTION
-	typepath = /datum/round_event/zizo_defilement
+	typepath = /datum/round_event/envy_defilement
 	weight = 8
 	earliest_start = 15 MINUTES
 	max_occurrences = 2
 	min_players = 30
-	dedicated_storytellers = list(/datum/storyteller/zizo)
+	dedicated_storytellers = list(/datum/storyteller/envy)
 	allowed_storytellers = INHUMEN_STORYTELLERS
 
 	tags = list(
-		TAG_ZIZO,
+		TAG_ENVY,
 	)
 
-/datum/round_event/zizo_defilement/start()
-	SSmapping.add_world_trait(/datum/world_trait/zizo_defilement, 20 MINUTES)
+/datum/round_event/envy_defilement/start()
+	SSmapping.add_world_trait(/datum/world_trait/envy_defilement, 20 MINUTES)
 
-	if(is_ascendant(ZIZO))
+	if(is_ascendant(ENVY))
 		for(var/mob/living/carbon/human/potential_zombie as anything in GLOB.human_list)
 			if(potential_zombie.stat != DEAD)
 				continue
@@ -28,5 +28,5 @@
 			zombie_datum.wake_zombie()
 
 			bordered_message(potential_zombie, list(
-				span_danger("An overwhelming power of One Envy commands you! RISE AND RAVAGE!")
+				span_danger("An overwhelming power of the One Envy commands you! RISE AND RAVAGE!")
 			))

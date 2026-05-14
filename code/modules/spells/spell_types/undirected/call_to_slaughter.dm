@@ -21,12 +21,12 @@
 			target.apply_status_effect(/datum/status_effect/buff/call_to_slaughter)	//Buffs patrons in service to Hell
 			to_chat(target, span_danger("You feel the ancient roiling madness call to you from beneath the Firmament, briefly empowering you."))
 			return
-		if(istype(target.patron, /datum/patron/inhumen/zizo))
+		if(istype(target.patron, /datum/patron/inhumen/envy))
 			if((target.job == "Prince Regent") || (target.job == "Prince"))
 				to_chat(target, span_danger("You feel a wash of heat and the scent of iron rush past you - but the One Envy holds you apart from its path..."))	//Jealous God protects the Shirleighs
 				return
 			else if((target.job != "Prince Regent") || (target.job == "Prince"))
-				to_chat(target, span_danger("The Jealous God cares not to shield you from the maddened blood-call of the Hells.</font>"))	//But She doesn't give a shit otherwise
+				to_chat(target, span_danger("The Jealous God cares not to shield you from the maddened blood-call of Hell.</font>"))	//But She doesn't give a shit otherwise
 			continue
 		if(istype(target.patron, /datum/patron/inhumen/deceivers))
 			to_chat(target, span_danger("Your enigmatic patron recoils, caught unprepared by the vicious call of demonic hunger.</font>"))	//Deceiver Gods are caught unprepared

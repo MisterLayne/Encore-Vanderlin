@@ -77,7 +77,7 @@
 	. = ..()
 	if(!istype(examiner) || !istype(examined))
 		return
-	if(examined.has_quirk(/datum/quirk/vice/hunted) || HAS_TRAIT(src, TRAIT_ZIZOID_HUNTED))
+	if(examined.has_quirk(/datum/quirk/vice/hunted) || HAS_TRAIT(src, TRAIT_HELL_HUNTED))
 		for(var/obj/item/I in examiner.get_all_gear())
 			if(istype(I, /obj/item/weapon/knife/dagger/steel/profane))
 				LAZYADDASSOCLIST(examine_contents, EXAMINE_SECT_PREGEAR, "profane dagger whispers, [span_danger("\"That's [examined.real_name]! Strike their heart!\"")]")

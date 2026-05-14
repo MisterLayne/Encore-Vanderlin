@@ -39,7 +39,7 @@
 	spawned.name = "Death Knight"
 	spawned.real_name = "Death Knight"
 
-	spawned.set_patron(/datum/patron/inhumen/zizo)
+	spawned.set_patron(/datum/patron/inhumen/envy)
 
 /datum/outfit/deathknight
 	belt = /obj/item/storage/belt/leather

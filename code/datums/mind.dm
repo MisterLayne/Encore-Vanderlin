@@ -537,7 +537,7 @@ GLOBAL_LIST_EMPTY(personal_objective_minds)
 	else
 		output = "<B>[recipient.real_name]'s Hitlist:</B><br>"
 		for (var/mob/living/carbon in GLOB.mob_living_list)
-			if ((carbon.real_name != recipient.real_name) && ((carbon.has_quirk(/datum/quirk/vice/hunted) || HAS_TRAIT(carbon, TRAIT_ZIZOID_HUNTED)) && (!istype(carbon, /mob/living/carbon/human/dummy))))
+			if ((carbon.real_name != recipient.real_name) && ((carbon.has_quirk(/datum/quirk/vice/hunted) || HAS_TRAIT(carbon, TRAIT_HELL_HUNTED)) && (!istype(carbon, /mob/living/carbon/human/dummy))))
 				output += "<br><b>[carbon.real_name]</b>"
 				if (carbon.job)
 					output += " - [carbon.job]"

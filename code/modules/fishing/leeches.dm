@@ -153,8 +153,8 @@
 		"stupid" = 2,
 		"dumb" = 2,
 		"demonic" = 1,
-		"graggoid" = 1,
-		"zizoid" = 1,
+		"fiendish" = 1,
+		"envious" = 1,
 	)
 	var/static/list/all_descs = list(
 		"What a disgusting creature." = 10,
@@ -252,7 +252,7 @@
 	if(iscarbon(user))
 		var/mob/living/carbon/V = user
 		if(prob(5))
-			record_round_statistic(STATS_ZIZO_PRAISED)
+			record_round_statistic(STATS_ARCHDEVILS_PRAISED)
 			V.say(pick( \
 				"DEATH TO THE ELEMENTALS..."))
 		V.add_stress(/datum/stress_event/leechcult)
