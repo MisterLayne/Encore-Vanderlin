@@ -1,0 +1,329 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/structure/sign/property_sign/claim,
+/turf/closed/wall/mineral/wooddark,
+/area/indoors/town)
+"c" = (
+/obj/structure/curtain/bounty/dir,
+/turf/open/floor/wood,
+/area/indoors/town)
+"e" = (
+/obj/machinery/light/fueled/hearth,
+/obj/item/cooking/pan,
+/turf/open/floor/cobble,
+/area/indoors/town)
+"f" = (
+/obj/machinery/light/fueled/wallfire/candle,
+/turf/open/floor/wood,
+/area/indoors/town)
+"i" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/turf/open/floor/wood,
+/area/outdoors/town)
+"j" = (
+/obj/structure/closet/crate/crafted_closet,
+/obj/item/natural/cloth,
+/obj/item/natural/cloth,
+/obj/item/coin/copper/pile,
+/obj/item/candle/yellow,
+/obj/item/broom,
+/obj/item/reagent_containers/glass/bucket/pot{
+	pixel_y = 4
+	},
+/obj/item/key/houses/house2,
+/obj/machinery/light/fueled/wallfire/candle,
+/turf/open/floor/wood,
+/area/indoors/town)
+"k" = (
+/turf/closed/wall/mineral/stone,
+/area/indoors/town)
+"l" = (
+/obj/effect/decal/cobbleedge{
+	dir = 10;
+	icon_state = "cobbleedge-w"
+	},
+/turf/open/floor/wood,
+/area/indoors/town)
+"p" = (
+/obj/structure/window,
+/obj/structure/curtain/bounty/dir{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/indoors/town)
+"r" = (
+/obj/structure/fluff/railing/border,
+/obj/structure/closet/crate/chest/crafted,
+/obj/effect/decal/cobbleedge{
+	dir = 5
+	},
+/turf/open/floor/wood,
+/area/indoors/town)
+"s" = (
+/turf/closed/wall/mineral/wood,
+/area/indoors/town)
+"t" = (
+/obj/structure/closet/crate/crafted_closet,
+/obj/item/natural/cloth,
+/obj/item/natural/cloth,
+/obj/item/coin/copper/pile,
+/obj/item/candle/yellow,
+/obj/item/key/houses/house1,
+/turf/open/floor/wood,
+/area/indoors/town)
+"u" = (
+/turf/closed/wall/mineral/decowood,
+/area/indoors/town)
+"x" = (
+/obj/structure/window,
+/obj/structure/curtain/bounty/dir{
+	dir = 1
+	},
+/turf/open/floor/twig,
+/area/indoors/town)
+"y" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/turf/open/floor/wood,
+/area/outdoors/town)
+"z" = (
+/turf/open/floor/wood,
+/area/indoors/town)
+"B" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/structure/toilet,
+/turf/open/floor/wood,
+/area/indoors/town)
+"C" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/structure/table/wood/plain_alt,
+/turf/open/floor/wood,
+/area/outdoors/town)
+"D" = (
+/obj/structure/chair/wood/alt{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/indoors/town)
+"E" = (
+/obj/structure/door{
+	lockid = "house2";
+	name = "House II"
+	},
+/turf/open/floor/wood,
+/area/indoors/town)
+"F" = (
+/obj/structure/curtain/bounty{
+	color = "grey"
+	},
+/obj/structure/window/openclose{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/turned,
+/area/indoors/town)
+"G" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/structure/fluff/railing/wood,
+/turf/open/openspace,
+/area/indoors/town)
+"J" = (
+/obj/structure/closet/crate/drawer,
+/turf/open/floor/wood,
+/area/indoors/town)
+"L" = (
+/obj/structure/window/openclose{
+	dir = 8
+	},
+/obj/structure/curtain/bounty{
+	color = "grey"
+	},
+/turf/open/floor/ruinedwood/turned,
+/area/indoors/town)
+"M" = (
+/obj/structure/table/wood/plain_alt,
+/obj/item/reagent_containers/glass/carafe,
+/obj/item/storage/sack,
+/turf/open/floor/wood,
+/area/indoors/town)
+"N" = (
+/turf/closed/wall/mineral/decowood/vert,
+/area/indoors/town)
+"P" = (
+/turf/template_noop,
+/area/template_noop)
+"Q" = (
+/obj/structure/stairs{
+	dir = 1
+	},
+/turf/open/floor/twig,
+/area/indoors/town)
+"R" = (
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 10
+	},
+/turf/open/floor/wood,
+/area/indoors/town)
+"S" = (
+/obj/machinery/light/fueled/wallfire/candle/l,
+/turf/open/floor/wood,
+/area/indoors/town)
+"U" = (
+/obj/structure/bed/mediocre,
+/obj/item/bedsheet/cloth,
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/indoors/town)
+"V" = (
+/obj/structure/door/weak/bolt{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/indoors/town)
+"W" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/obj/structure/chair/stool,
+/turf/open/floor/wood,
+/area/outdoors/town)
+"X" = (
+/obj/structure/table/wood/plain_alt,
+/obj/item/candle/yellow,
+/turf/open/floor/wood,
+/area/indoors/town)
+"Y" = (
+/turf/closed/wall/mineral/wooddark,
+/area/indoors/town)
+"Z" = (
+/obj/structure/stairs{
+	dir = 1
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/indoors/town)
+
+(1,1,1) = {"
+C
+Y
+u
+u
+k
+k
+"}
+(2,1,1) = {"
+W
+s
+M
+r
+e
+k
+"}
+(3,1,1) = {"
+i
+c
+z
+R
+l
+x
+"}
+(4,1,1) = {"
+y
+Y
+j
+z
+z
+x
+"}
+(5,1,1) = {"
+P
+s
+Z
+z
+z
+u
+"}
+(6,1,1) = {"
+P
+Y
+p
+a
+E
+Y
+"}
+
+(1,1,2) = {"
+s
+F
+F
+s
+B
+s
+"}
+(2,1,2) = {"
+N
+t
+X
+s
+V
+N
+"}
+(3,1,2) = {"
+u
+z
+D
+S
+z
+u
+"}
+(4,1,2) = {"
+u
+f
+z
+z
+z
+u
+"}
+(5,1,2) = {"
+N
+Q
+G
+J
+U
+N
+"}
+(6,1,2) = {"
+s
+N
+L
+L
+N
+s
+"}

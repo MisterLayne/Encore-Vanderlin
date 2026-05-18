@@ -430,10 +430,10 @@ SUBSYSTEM_DEF(housing)
 
 // ===== PROPERTY SIGNS =====
 /obj/structure/sign/property_sign
-	name = "Property Sign"
-	desc = "A sign for property management."
-	icon = 'icons/roguetown/misc/structure.dmi'
-	icon_state = "questnoti"
+	name = "Instancer Crystal"
+	desc = "A uniquely Doman design for property management. It stores the contents of a vessel, usually a living space, and allows one to reconfigure its internals without harming the contents within. A unique feat of reality manipulation. It is powered by a very overt Earth shard on the front of the contraption."
+	icon = 'icons/roguetown/misc/domotan/structure.dmi'
+	icon_state = "instancer"
 
 	var/obj/effect/landmark/house_spot/linked_property
 
