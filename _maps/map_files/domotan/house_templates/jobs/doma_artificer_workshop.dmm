@@ -1,0 +1,499 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ah" = (
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/town/dwarfin)
+"ay" = (
+/obj/structure/sign/property_sign/claim,
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/town/dwarfin)
+"az" = (
+/obj/structure/stairs,
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood,
+/area/outdoors/town)
+"aK" = (
+/mob/living/simple_animal/pet/giraffe,
+/turf/open/floor/tile,
+/area/indoors/town/dwarfin)
+"de" = (
+/obj/machinery/light/fueled/torchholder/r,
+/turf/open/floor/tile,
+/area/indoors/town)
+"dW" = (
+/obj/machinery/light/fueled/torchholder/l,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/metal/alt,
+/area/indoors/town/dwarfin)
+"ek" = (
+/obj/structure/closet/crate/chest/neu,
+/obj/item/ingot/copper,
+/obj/item/ingot/copper,
+/obj/item/ingot/copper,
+/obj/item/ingot/copper,
+/obj/item/ore/coal,
+/obj/item/ore/coal,
+/obj/item/ore/coal,
+/obj/item/ore/coal,
+/obj/item/ore/coal,
+/obj/machinery/light/fueled/torchholder/c,
+/turf/open/floor/tile,
+/area/indoors/town/dwarfin)
+"eo" = (
+/obj/structure/stairs,
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/chevron,
+/area/outdoors/town/roofs)
+"eH" = (
+/obj/structure/door{
+	name = "Artificer's Quarters"
+	},
+/obj/effect/mapping_helpers/access/keyset/town/artificer,
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/ruinedwood,
+/area/indoors/town)
+"fb" = (
+/obj/structure/door{
+	name = "Artificer's Quarters"
+	},
+/obj/effect/mapping_helpers/access/keyset/town/artificer,
+/turf/open/floor/ruinedwood/chevron,
+/area/indoors/town)
+"fH" = (
+/obj/item/reagent_containers/glass/bucket/wooden,
+/turf/open/floor/tile,
+/area/indoors/town)
+"iJ" = (
+/obj/structure/stairs/stone,
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/cobble,
+/area/outdoors/town)
+"iK" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/tile,
+/area/indoors/town/dwarfin)
+"jc" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/openspace,
+/area/indoors/town)
+"jk" = (
+/turf/open/floor/cobble,
+/area/outdoors/town)
+"jV" = (
+/obj/structure/window/openclose{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood,
+/area/indoors/town)
+"lB" = (
+/turf/closed/wall/mineral/decostone{
+	name = "chimney"
+	},
+/area/indoors/town)
+"nm" = (
+/turf/closed/wall/mineral/wooddark,
+/area/indoors/town)
+"ny" = (
+/turf/open/floor/tile,
+/area/indoors/town/dwarfin)
+"nM" = (
+/obj/structure/closet/crate/chest{
+	base_icon_state = "woodchestalt";
+	icon_state = "woodchestalt"
+	},
+/obj/item/natural/bundle/cloth,
+/obj/item/natural/bundle/cloth{
+	pixel_x = 5
+	},
+/obj/item/natural/bundle/cloth{
+	pixel_x = -5
+	},
+/turf/open/floor/tile,
+/area/indoors/town)
+"on" = (
+/turf/closed/wall/mineral/decostone{
+	name = "chimney"
+	},
+/area/indoors/town/dwarfin)
+"oR" = (
+/obj/item/bin/water/gross,
+/turf/open/floor/tile,
+/area/indoors/town/dwarfin)
+"pf" = (
+/turf/open/floor/metal/alt,
+/area/indoors/town/dwarfin)
+"pl" = (
+/obj/effect/decal/cobbleedge{
+	dir = 10;
+	icon_state = "cobbleedge-n"
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 5
+	},
+/turf/open/floor/ruinedwood,
+/area/outdoors/town)
+"pJ" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/structure/fluff/railing/wood,
+/turf/open/openspace,
+/area/indoors/town)
+"pL" = (
+/obj/structure/ladder,
+/turf/open/floor/tile,
+/area/indoors/town)
+"rC" = (
+/turf/open/floor/tile,
+/area/indoors/town)
+"rY" = (
+/obj/item/flint,
+/obj/item/grown/log/tree/small,
+/obj/item/grown/log/tree/small,
+/obj/item/grown/log/tree/stick,
+/obj/item/grown/log/tree/stick,
+/obj/item/grown/log/tree/stick,
+/obj/item/grown/log/tree/stick,
+/obj/structure/table/wood{
+	dir = 1;
+	icon_state = "tablewood1"
+	},
+/obj/item/paper,
+/obj/item/natural/feather,
+/obj/item/candle/yellow/lit{
+	pixel_x = 8
+	},
+/obj/structure/fake_machine/scomm,
+/turf/open/floor/tile,
+/area/indoors/town/dwarfin)
+"sp" = (
+/obj/item/weapon/tongs{
+	pixel_x = 5;
+	pixel_y = 4
+	},
+/obj/structure/table/wood{
+	icon_state = "longtable"
+	},
+/obj/machinery/light/fueled/torchholder/r,
+/turf/open/floor/tile,
+/area/indoors/town/dwarfin)
+"tn" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood,
+/area/outdoors/town/roofs)
+"wx" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/template_noop,
+/area/outdoors/town)
+"zZ" = (
+/obj/machinery/light/fueled/smelter,
+/turf/open/floor/tile,
+/area/indoors/town/dwarfin)
+"Af" = (
+/obj/structure/closet/crate/chest{
+	base_icon_state = "woodchestalt";
+	icon_state = "woodchestalt"
+	},
+/obj/machinery/light/fueled/torchholder/l,
+/turf/open/floor/tile,
+/area/indoors/town)
+"AF" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/openspace,
+/area/indoors/town)
+"DD" = (
+/obj/machinery/light/fueled/torchholder/l,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/tile,
+/area/indoors/town/dwarfin)
+"ED" = (
+/obj/structure/chair/stool,
+/obj/structure/lever/wall{
+	pixel_x = 19;
+	redstone_id = "artificer_shutter";
+	pixel_y = 32
+	},
+/turf/open/floor/tile,
+/area/indoors/town/dwarfin)
+"HM" = (
+/obj/structure/table/wood{
+	dir = 1;
+	icon_state = "longtable"
+	},
+/turf/open/floor/tile,
+/area/indoors/town)
+"HZ" = (
+/turf/closed/wall/mineral/decowood/vert,
+/area/indoors/town)
+"JZ" = (
+/obj/structure/window,
+/turf/open/floor/cobble,
+/area/indoors/town/dwarfin)
+"Ki" = (
+/obj/effect/landmark/start/artificer,
+/turf/open/floor/tile,
+/area/indoors/town/dwarfin)
+"Ld" = (
+/obj/structure/rack,
+/obj/item/ingot/bronze{
+	pixel_x = -5;
+	pixel_y = 3
+	},
+/obj/item/ingot/bronze{
+	pixel_x = 3;
+	pixel_y = -4
+	},
+/obj/item/ingot/bronze,
+/obj/item/ingot/bronze{
+	pixel_x = 6;
+	pixel_y = -1
+	},
+/turf/open/floor/tile,
+/area/indoors/town)
+"LR" = (
+/obj/structure/door{
+	name = "Artificer's Quarters"
+	},
+/obj/effect/mapping_helpers/access/keyset/town/artificer,
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/ruinedwood,
+/area/indoors/town/dwarfin)
+"Nc" = (
+/obj/item/storage/bag,
+/obj/structure/fluff/wallclock{
+	dir = 3
+	},
+/obj/structure/closet/crate/chest/old_crate,
+/obj/item/natural/stone,
+/obj/item/natural/stone,
+/obj/item/natural/stone,
+/obj/item/natural/stone,
+/obj/item/natural/stone,
+/obj/item/natural/stone,
+/obj/item/natural/stone,
+/turf/open/floor/tile,
+/area/indoors/town/dwarfin)
+"Nl" = (
+/obj/item/reagent_containers/glass/bucket/wooden,
+/turf/open/floor/tile,
+/area/indoors/town/dwarfin)
+"Og" = (
+/obj/structure/door{
+	name = "Artificer's Quarters"
+	},
+/obj/effect/mapping_helpers/access/keyset/town/artificer,
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/tile,
+/area/indoors/town)
+"Pb" = (
+/obj/structure/water_pipe,
+/turf/closed/wall/mineral/pipe,
+/area/indoors/town)
+"Qh" = (
+/obj/structure/bars/passage/shutter{
+	redstone_id = "artificer_shutter"
+	},
+/obj/structure/table/wood{
+	icon_state = "longtable_mid"
+	},
+/turf/open/floor/tile,
+/area/indoors/town/dwarfin)
+"QB" = (
+/obj/structure/ladder,
+/turf/open/floor/tile,
+/area/indoors/town/dwarfin)
+"QW" = (
+/obj/machinery/light/fueled/forge,
+/turf/open/floor/tile,
+/area/indoors/town/dwarfin)
+"Rf" = (
+/obj/machinery/artificer_table,
+/turf/open/floor/tile,
+/area/indoors/town)
+"Ss" = (
+/obj/structure/fluff/railing/wood,
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/openspace,
+/area/indoors/town)
+"Tg" = (
+/obj/machinery/anvil,
+/turf/open/floor/tile,
+/area/indoors/town/dwarfin)
+"Tk" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/tile,
+/area/indoors/town)
+"Ts" = (
+/obj/structure/table/wood,
+/obj/item/needle,
+/turf/open/floor/tile,
+/area/indoors/town)
+"Wc" = (
+/obj/machinery/light/fueled/torchholder/r,
+/turf/open/openspace,
+/area/outdoors/town/roofs)
+"Yq" = (
+/obj/machinery/artificer_table,
+/turf/open/floor/metal/alt,
+/area/indoors/town/dwarfin)
+
+(1,1,1) = {"
+az
+ah
+wx
+wx
+iJ
+pl
+jk
+"}
+(2,1,1) = {"
+ah
+ah
+ah
+JZ
+ah
+JZ
+ah
+"}
+(3,1,1) = {"
+ah
+ay
+DD
+Yq
+dW
+pf
+LR
+"}
+(4,1,1) = {"
+ah
+zZ
+iK
+Ki
+iK
+QW
+on
+"}
+(5,1,1) = {"
+ah
+Nc
+aK
+Ki
+ny
+Tg
+ah
+"}
+(6,1,1) = {"
+ah
+rY
+iK
+iK
+Nl
+oR
+ah
+"}
+(7,1,1) = {"
+ah
+ek
+ED
+ny
+QB
+sp
+ah
+"}
+(8,1,1) = {"
+ah
+ah
+Qh
+Qh
+ah
+ah
+ah
+"}
+
+(1,1,2) = {"
+Wc
+eo
+tn
+Pb
+HZ
+HZ
+HZ
+"}
+(2,1,2) = {"
+nm
+HZ
+eH
+Pb
+Af
+nM
+HZ
+"}
+(3,1,2) = {"
+HZ
+HM
+Tk
+rC
+rC
+Ld
+jV
+"}
+(4,1,2) = {"
+HZ
+fH
+rC
+Tk
+Tk
+Ts
+lB
+"}
+(5,1,2) = {"
+HZ
+jc
+pJ
+rC
+Tk
+Tk
+Og
+"}
+(6,1,2) = {"
+HZ
+AF
+Ss
+rC
+rC
+rC
+HZ
+"}
+(7,1,2) = {"
+Og
+de
+rC
+rC
+pL
+Rf
+HZ
+"}
+(8,1,2) = {"
+Pb
+HZ
+fb
+HZ
+Pb
+Pb
+Pb
+"}
