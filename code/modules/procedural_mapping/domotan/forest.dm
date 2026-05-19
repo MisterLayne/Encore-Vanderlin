@@ -153,7 +153,7 @@
 
 /datum/mapGeneratorModule/domotanforestwater
 	clusterCheckFlags = CLUSTER_CHECK_NONE
-	allowed_turfs = list(/turf/open/water/cleanshallow,
+	allowed_turfs = list(/turf/open/water,
 							/turf/open/water/swamp,
 							/turf/open/water/swamp/deep)
 	excluded_turfs = list(/turf/open/water/river)

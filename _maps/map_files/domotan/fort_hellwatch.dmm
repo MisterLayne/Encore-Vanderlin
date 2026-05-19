@@ -1,8 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
 /obj/machinery/light/fueled/lanternpost,
-/turf/open/floor/naturalstone,
-/area/outdoors/woods/seculton)
+/turf/open/floor/naturalstone)
 "ac" = (
 /obj/structure/fluff/walldeco/church/line{
 	dir = 1
@@ -25,8 +24,7 @@
 /area/indoors/shelter/mountains)
 "aN" = (
 /obj/structure/flora/grass/bush/wall/tundra,
-/turf/open/floor/cobblerock,
-/area/outdoors/woods/seculton)
+/turf/open/floor/cobblerock)
 "bl" = (
 /obj/item/grown/log/tree/stick,
 /turf/open/floor/church/purple,
@@ -69,12 +67,10 @@
 /area/indoors/shelter/mountains)
 "cz" = (
 /obj/machinery/light/fueled/lanternpost,
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/yel)
 "dd" = (
 /obj/structure/flora/ausbushes/ppflowers,
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/yel)
 "de" = (
 /turf/closed/wall/mineral/craftstone,
 /area/indoors/shelter/mountains)
@@ -95,8 +91,7 @@
 /area/indoors/town)
 "dC" = (
 /obj/structure/rack,
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/yel)
 "dK" = (
 /obj/structure/lever/wall{
 	pixel_x = -25;
@@ -143,8 +138,7 @@
 /area/indoors/town)
 "eX" = (
 /obj/structure/flora/ausbushes/palebush,
-/turf/open/floor/grass/red,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/red)
 "fB" = (
 /obj/machinery/light/fueled/torchholder/r,
 /obj/structure/closet/crate/chest/old_crate,
@@ -235,8 +229,7 @@
 /area/indoors/town)
 "gC" = (
 /obj/machinery/light/fueled/torchholder/r,
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/yel)
 "gN" = (
 /obj/effect/decal/cobbleedge{
 	dir = 10
@@ -274,8 +267,7 @@
 /area/indoors/town)
 "hv" = (
 /obj/structure/flora/grass/bush/wall/tall,
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/yel)
 "hD" = (
 /obj/structure/rack,
 /turf/open/floor/cobble,
@@ -285,12 +277,10 @@
 /obj/machinery/light/fueled/lanternpost{
 	dir = 1
 	},
-/turf/open/floor/grass/red,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/red)
 "hU" = (
 /obj/machinery/light/fueled/lanternpost,
-/turf/open/floor/grass/red,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/red)
 "ic" = (
 /turf/open/floor/dirt/road,
 /area/indoors/shelter/mountains)
@@ -330,8 +320,7 @@
 /obj/machinery/light/fueled/lanternpost{
 	dir = 1
 	},
-/turf/open/floor/cobblerock,
-/area/outdoors/woods/seculton)
+/turf/open/floor/cobblerock)
 "iT" = (
 /obj/item/natural/rock/random,
 /turf/open/floor/naturalstone,
@@ -340,12 +329,10 @@
 /obj/machinery/light/fueled/lanternpost{
 	dir = 1
 	},
-/turf/open/floor/grass/red,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/red)
 "ji" = (
 /obj/machinery/light/fueled/torchholder/c,
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/yel)
 "jx" = (
 /obj/structure/table/wood{
 	dir = 1;
@@ -389,12 +376,10 @@
 /obj/structure/chair/bench/church/smallbench{
 	dir = 8
 	},
-/turf/open/floor/dirt/road,
-/area/outdoors/woods/seculton)
+/turf/open/floor/dirt/road)
 "ll" = (
 /obj/structure/flora/ausbushes/brflowers,
-/turf/open/floor/grass/red,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/red)
 "ly" = (
 /obj/machinery/light/fueled/torchholder/l,
 /obj/item/bin/water,
@@ -404,8 +389,7 @@
 /obj/structure/fluff/railing/wood{
 	dir = 8
 	},
-/turf/open/floor/ruinedwood/darker,
-/area/outdoors/woods/seculton)
+/turf/open/floor/ruinedwood/darker)
 "lG" = (
 /obj/machinery/light/fueled/torchholder/l,
 /turf/open/floor/cobble/alt,
@@ -441,12 +425,10 @@
 "mC" = (
 /obj/machinery/light/fueled/torchholder/r,
 /obj/structure/fake_machine/scomm/r,
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/yel)
 "mJ" = (
 /obj/machinery/light/fueled/lanternpost,
-/turf/open/floor/grass,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass)
 "mP" = (
 /obj/structure/bars,
 /turf/open/floor/cobble/alt,
@@ -454,8 +436,7 @@
 "ne" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/machinery/light/fueled/torchholder/r,
-/turf/open/floor/grass/red,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/red)
 "ni" = (
 /turf/open/floor/church,
 /area/indoors/town)
@@ -482,16 +463,13 @@
 /area/indoors/town)
 "oD" = (
 /obj/structure/fluff/railing/tall/palisade,
-/turf/open/floor/grass/red,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/red)
 "oH" = (
 /obj/structure/flora/grass,
-/turf/open/floor/dirt/road,
-/area/outdoors/woods/seculton)
+/turf/open/floor/dirt/road)
 "pe" = (
 /obj/structure/flora/ausbushes/palebush,
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/yel)
 "pm" = (
 /obj/structure/stairs/stone/church{
 	dir = 8
@@ -503,12 +481,10 @@
 /area/indoors/town)
 "pq" = (
 /obj/structure/flora/ausbushes/lavendergrass,
-/turf/open/floor/grass/red,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/red)
 "pD" = (
 /obj/structure/flora/grass,
-/turf/open/floor/grass,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass)
 "pH" = (
 /obj/structure/stairs/stone/church{
 	dir = 4
@@ -537,8 +513,7 @@
 /area/outdoors/town)
 "qw" = (
 /obj/structure/flora/ausbushes/ywflowers,
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/yel)
 "qx" = (
 /turf/closed/mineral/random,
 /area/under/cave)
@@ -560,8 +535,7 @@
 /area/indoors/town)
 "qP" = (
 /obj/structure/fluff/statue/tdummy,
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/yel)
 "qX" = (
 /obj/structure/fluff/walldeco/sparrowflag{
 	pixel_y = 32
@@ -570,8 +544,7 @@
 /area/indoors/town)
 "rb" = (
 /obj/machinery/light/fueled/torchholder/r,
-/turf/open/floor/grass/red,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/red)
 "rl" = (
 /obj/structure/fluff/railing/border{
 	dir = 5
@@ -583,8 +556,7 @@
 /area/indoors/shelter/mountains)
 "rP" = (
 /obj/machinery/light/fueled/torchholder/l,
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/yel)
 "sp" = (
 /obj/structure/stairs{
 	dir = 1
@@ -632,8 +604,7 @@
 /area/indoors/town)
 "tJ" = (
 /obj/machinery/light/fueled/campfire/longlived,
-/turf/open/floor/dirt/road,
-/area/outdoors/woods/seculton)
+/turf/open/floor/dirt/road)
 "tU" = (
 /obj/structure/fluff/traveltile{
 	aportalgoesto = "z2-southeast1-out";
@@ -659,8 +630,7 @@
 	aportalid = "z1-hellwatch1-out";
 	aallmig = "z1-hellwatch1"
 	},
-/turf/open/floor/cobblerock,
-/area/outdoors/woods/seculton)
+/turf/open/floor/cobblerock)
 "vo" = (
 /obj/structure/closet/crate/chest,
 /obj/item/reagent_containers/food/snacks/egg,
@@ -706,8 +676,7 @@
 /area/indoors/shelter/mountains)
 "wl" = (
 /obj/machinery/light/fueled/torchholder/l,
-/turf/open/floor/cobblerock,
-/area/outdoors/woods/seculton)
+/turf/open/floor/cobblerock)
 "wq" = (
 /obj/structure/fluff/walldeco/church/line{
 	dir = 4
@@ -755,8 +724,7 @@
 /area/indoors/town)
 "xC" = (
 /obj/structure/table/wood/treestump,
-/turf/open/floor/grass/red,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/red)
 "xD" = (
 /obj/structure/rack,
 /turf/open/floor/ruinedwood/darker,
@@ -768,20 +736,17 @@
 "xS" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/machinery/light/fueled/torchholder/l,
-/turf/open/floor/dirt/road,
-/area/outdoors/woods/seculton)
+/turf/open/floor/dirt/road)
 "xU" = (
 /obj/structure/flora/grass/bush/wall/tundra,
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/yel)
 "xW" = (
 /obj/effect/decal/carpet/square,
 /turf/open/floor/ruinedwood/darker,
 /area/indoors/town)
 "yn" = (
 /obj/structure/flora/ausbushes/brflowers,
-/turf/open/floor/grass,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass)
 "yv" = (
 /obj/structure/fake_machine/scomm/r,
 /turf/open/floor/ruinedwood,
@@ -806,8 +771,7 @@
 /obj/structure/fluff/railing/tall/palisade{
 	dir = 4
 	},
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/yel)
 "zr" = (
 /obj/structure/table/wood{
 	icon_state = "largetable";
@@ -837,8 +801,7 @@
 	dir = 8
 	},
 /obj/machinery/light/fueled/torchholder/r,
-/turf/open/floor/ruinedwood/darker,
-/area/outdoors/woods/seculton)
+/turf/open/floor/ruinedwood/darker)
 "zY" = (
 /obj/structure/fluff/walldeco/church/line{
 	dir = 4
@@ -857,8 +820,7 @@
 /turf/closed/wall/mineral/stone,
 /area/indoors/town)
 "Au" = (
-/turf/open/floor/dirt,
-/area/outdoors/woods/seculton)
+/turf/open/floor/dirt)
 "AN" = (
 /obj/structure/flora/grass/bush,
 /turf/open/floor/grass/yel,
@@ -880,8 +842,7 @@
 /area/indoors/shelter/mountains)
 "Bi" = (
 /obj/item/bin/water,
-/turf/open/floor/grass/red,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/red)
 "Bw" = (
 /obj/structure/flora/grass,
 /obj/item/reagent_containers/glass/bucket/wooden{
@@ -895,8 +856,7 @@
 /turf/open/floor/church/purple,
 /area/indoors/town)
 "BB" = (
-/turf/open/floor/naturalstone,
-/area/outdoors/woods/seculton)
+/turf/open/floor/naturalstone)
 "BL" = (
 /obj/item/natural/stone,
 /turf/open/floor/church/purple,
@@ -928,17 +888,14 @@
 /area/indoors/town)
 "CL" = (
 /obj/structure/chair/bench/church/smallbench,
-/turf/open/floor/dirt/road,
-/area/outdoors/woods/seculton)
+/turf/open/floor/dirt/road)
 "CY" = (
 /turf/open/floor/churchrough,
 /area/indoors/shelter/mountains)
 "De" = (
-/turf/open/water/marsh,
-/area/outdoors/woods/seculton)
+/turf/open/water/marsh)
 "Dm" = (
-/turf/open/floor/cobblerock,
-/area/outdoors/woods/seculton)
+/turf/open/floor/cobblerock)
 "DD" = (
 /turf/open/floor/cobble,
 /area/indoors/town)
@@ -948,8 +905,7 @@
 /turf/open/floor/cobble,
 /area/indoors/town)
 "DH" = (
-/turf/open/floor/grass,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass)
 "DS" = (
 /obj/structure/table/wood,
 /turf/open/floor/cobble/alt,
@@ -993,15 +949,13 @@
 /area/outdoors/town)
 "Ff" = (
 /obj/machinery/light/fueled/torchholder/c,
-/turf/open/floor/grass/red,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/red)
 "Fh" = (
 /obj/structure/table/wood,
 /turf/open/floor/dirt/road,
 /area/indoors/shelter/mountains)
 "Fo" = (
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/yel)
 "Fq" = (
 /obj/structure/closet/crate/chest/old_crate,
 /turf/open/floor/ruinedwood/turned/darker,
@@ -1012,8 +966,7 @@
 /area/indoors/shelter/mountains)
 "FA" = (
 /obj/structure/fake_machine/scomm/l,
-/turf/open/floor/grass/red,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/red)
 "FE" = (
 /obj/item/bin/water,
 /turf/open/floor/ruinedwood/darker,
@@ -1036,7 +989,7 @@
 /area/indoors/town)
 "Gj" = (
 /obj/structure/flora/grass,
-/turf/open/water/cleanshallow,
+/turf/open/water/clean,
 /area/outdoors/town)
 "Gq" = (
 /obj/structure/chair/bench{
@@ -1055,24 +1008,20 @@
 /area/indoors/shelter/mountains)
 "GK" = (
 /obj/structure/flora/ausbushes/lavendergrass,
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/yel)
 "GR" = (
 /obj/structure/closet/crate/coffin,
-/turf/open/floor/cobblerock,
-/area/outdoors/woods/seculton)
+/turf/open/floor/cobblerock)
 "GS" = (
 /obj/item/natural/stone,
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/yel)
 "GU" = (
 /obj/item/natural/rock,
 /turf/open/floor/church/purple,
 /area/indoors/town)
 "GW" = (
 /obj/machinery/light/fueled/lanternpost,
-/turf/open/floor/cobblerock,
-/area/outdoors/woods/seculton)
+/turf/open/floor/cobblerock)
 "Hd" = (
 /obj/item/natural/stone,
 /obj/effect/decal/cobbleedge{
@@ -1091,12 +1040,10 @@
 /area/indoors/town)
 "HB" = (
 /obj/machinery/light/fueled/torchholder/r,
-/turf/open/floor/cobblerock,
-/area/outdoors/woods/seculton)
+/turf/open/floor/cobblerock)
 "HC" = (
 /obj/structure/fluff/railing/tall/palisade,
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/yel)
 "HF" = (
 /obj/structure/fake_machine/scomm/l,
 /turf/open/floor/ruinedwood/chevron,
@@ -1125,8 +1072,7 @@
 /obj/structure/stairs/stone/church{
 	dir = 1
 	},
-/turf/open/floor/cobblerock,
-/area/outdoors/woods/seculton)
+/turf/open/floor/cobblerock)
 "IW" = (
 /obj/item/natural/stone,
 /obj/structure/rack,
@@ -1135,12 +1081,11 @@
 "Je" = (
 /obj/structure/flora/grass,
 /obj/machinery/light/fueled/torchholder/l,
-/turf/open/water/cleanshallow,
+/turf/open/water/clean,
 /area/outdoors/town)
 "Jj" = (
 /obj/structure/table/wood/treestump,
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/yel)
 "Jo" = (
 /obj/structure/fluff/traveltile{
 	aportalgoesto = "z2-southeast1-out";
@@ -1172,8 +1117,7 @@
 /area/indoors/town)
 "JT" = (
 /obj/structure/chair/bench/ancientlog,
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/yel)
 "JV" = (
 /obj/structure/lever/wall{
 	pixel_x = 32;
@@ -1181,8 +1125,7 @@
 	},
 /obj/structure/fluff/railing/tall/palisade,
 /obj/machinery/light/fueled/torchholder/r,
-/turf/open/floor/grass/red,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/red)
 "JX" = (
 /obj/structure/table/wood{
 	dir = 8;
@@ -1192,8 +1135,7 @@
 /area/indoors/town)
 "Ke" = (
 /obj/structure/flora/ausbushes/ppflowers,
-/turf/open/floor/cobblerock,
-/area/outdoors/woods/seculton)
+/turf/open/floor/cobblerock)
 "Kp" = (
 /obj/effect/mapping_helpers/access/keyset/garrison/general,
 /obj/effect/mapping_helpers/access/locker,
@@ -1202,8 +1144,7 @@
 /area/indoors/town)
 "Kt" = (
 /obj/structure/flora/newtree,
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/yel)
 "Ku" = (
 /obj/structure/table/wood{
 	icon_state = "longtable"
@@ -1227,8 +1168,7 @@
 /area/outdoors/town)
 "KN" = (
 /obj/structure/flora/newtree,
-/turf/open/floor/grass/red,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/red)
 "Lb" = (
 /obj/item/reagent_containers/glass/cup/wooden{
 	pixel_x = -9
@@ -1304,14 +1244,12 @@
 /obj/effect/decal/cobbleedge{
 	icon_state = "cobbleedge-n"
 	},
-/turf/open/floor/naturalstone,
-/area/outdoors/woods/seculton)
+/turf/open/floor/naturalstone)
 "Mq" = (
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town)
 "MB" = (
-/turf/open/floor/grass/red,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/red)
 "MD" = (
 /obj/structure/bars,
 /turf/open/floor/church/purple,
@@ -1326,16 +1264,14 @@
 /turf/closed/wall/mineral/craftstone,
 /area/indoors/town)
 "MN" = (
-/turf/open/water/cleanshallow,
+/turf/open/water/clean,
 /area/outdoors/town)
 "MO" = (
 /obj/structure/flora/ausbushes/fullgrass,
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/yel)
 "MU" = (
 /obj/structure/flora/ausbushes/fullgrass,
-/turf/open/floor/cobblerock,
-/area/outdoors/woods/seculton)
+/turf/open/floor/cobblerock)
 "Na" = (
 /obj/structure/fermentation_keg/random/water,
 /turf/open/floor/ruinedwood,
@@ -1350,14 +1286,12 @@
 /turf/open/floor/ruinedwood/turned/darker,
 /area/indoors/town)
 "Ng" = (
-/turf/closed/wall/mineral/craftstone,
-/area/outdoors/woods/seculton)
+/turf/closed/wall/mineral/craftstone)
 "Nn" = (
 /obj/structure/chair/bench{
 	pixel_y = 16
 	},
-/turf/open/floor/grass/red,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/red)
 "Nt" = (
 /obj/item/grown/log/tree/small,
 /obj/item/grown/log/tree/small{
@@ -1368,15 +1302,13 @@
 	pixel_y = 7
 	},
 /obj/structure/rack,
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/yel)
 "Nv" = (
 /obj/structure/rack,
 /turf/open/floor/ruinedwood/chevron,
 /area/indoors/town)
 "Nw" = (
-/turf/open/water/cleanshallow/dirt,
-/area/outdoors/woods/seculton)
+/turf/open/water/clean/dirt)
 "NP" = (
 /turf/open/floor/ruinedwood,
 /area/indoors/town)
@@ -1386,8 +1318,7 @@
 /area/indoors/town)
 "Oc" = (
 /obj/structure/table/wood/treestump/burnt,
-/turf/open/floor/grass,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass)
 "Oi" = (
 /turf/open/floor/hexstone,
 /area/indoors/shelter/mountains)
@@ -1425,8 +1356,7 @@
 /area/outdoors/town)
 "Pz" = (
 /obj/structure/flora/ausbushes/brflowers,
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/yel)
 "PA" = (
 /turf/open/floor/church/purple,
 /area/under/cave)
@@ -1464,12 +1394,10 @@
 	dir = 4
 	},
 /obj/structure/fluff/railing/tall/palisade,
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/yel)
 "Rw" = (
 /obj/structure/flora/grass,
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/yel)
 "Sd" = (
 /turf/open/water/swamp/deep,
 /area/indoors/shelter/mountains)
@@ -1522,8 +1450,7 @@
 /area/outdoors/town)
 "TO" = (
 /obj/structure/chair/bench/church/smallbench,
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/yel)
 "TR" = (
 /obj/structure/fluid_drain,
 /turf/open/floor/cobble/alt,
@@ -1545,14 +1472,12 @@
 "Ve" = (
 /obj/structure/flora/grass,
 /obj/structure/fluff/walldeco/wantedposter,
-/turf/open/floor/cobblerock,
-/area/outdoors/woods/seculton)
+/turf/open/floor/cobblerock)
 "Vj" = (
 /obj/machinery/light/fueled/lanternpost{
 	dir = 1
 	},
-/turf/open/floor/grass/yel,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/yel)
 "Vn" = (
 /obj/structure/roguetent/preopen,
 /turf/open/floor/dirt/road,
@@ -1592,8 +1517,7 @@
 /obj/machinery/light/fueled/lanternpost{
 	dir = 1
 	},
-/turf/open/floor/naturalstone,
-/area/outdoors/woods/seculton)
+/turf/open/floor/naturalstone)
 "Wy" = (
 /obj/structure/stairs{
 	dir = 1
@@ -1618,14 +1542,12 @@
 /area/indoors/town)
 "WI" = (
 /obj/structure/flora/grass,
-/turf/open/floor/cobblerock,
-/area/outdoors/woods/seculton)
+/turf/open/floor/cobblerock)
 "WJ" = (
 /obj/structure/chair/bench/church/smallbench{
 	dir = 8
 	},
-/turf/open/floor/cobblerock,
-/area/outdoors/woods/seculton)
+/turf/open/floor/cobblerock)
 "WM" = (
 /obj/structure/table/wood,
 /obj/item/candle/yellow{
@@ -1670,23 +1592,19 @@
 /area/indoors/town)
 "XA" = (
 /obj/structure/flora/grass,
-/turf/open/floor/grass/red,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/red)
 "XC" = (
 /obj/structure/flora/ausbushes/leafybush,
-/turf/open/floor/grass,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass)
 "XJ" = (
-/turf/open/floor/dirt/road,
-/area/outdoors/woods/seculton)
+/turf/open/floor/dirt/road)
 "Ya" = (
 /obj/machinery/light/fueled/torchholder/l,
 /turf/open/floor/cobble/alt,
 /area/outdoors/town)
 "Yk" = (
 /obj/structure/flora/ausbushes/leafybush,
-/turf/open/floor/dirt/road,
-/area/outdoors/woods/seculton)
+/turf/open/floor/dirt/road)
 "Yv" = (
 /obj/structure/bars/passage{
 	density = 0;
@@ -1708,12 +1626,10 @@
 /obj/structure/fluff/walldeco/customflag{
 	pixel_y = 25
 	},
-/turf/open/floor/cobblerock,
-/area/outdoors/woods/seculton)
+/turf/open/floor/cobblerock)
 "Zf" = (
 /obj/structure/flora/grass/bush/wall/tundra,
-/turf/open/floor/grass/red,
-/area/outdoors/woods/seculton)
+/turf/open/floor/grass/red)
 "Zn" = (
 /obj/structure/stairs{
 	dir = 1

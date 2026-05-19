@@ -9,14 +9,14 @@
 				/turf/open/floor/grass,
 				/turf/open/floor/sand,
 				/turf/open/water/ocean,
-				/turf/open/water/ocean/deep)
+				/turf/open/water/ocean/abyss)
 	ambush_mobs = list(
 				/mob/living/simple_animal/hostile/retaliate/bigrat = 20,
 				/mob/living/simple_animal/hostile/retaliate/spider = 80,
 				/mob/living/carbon/human/species/goblin/npc/ambush/sea = 50,
 				/mob/living/simple_animal/hostile/retaliate/troll/bog = 35)
 	first_time_text = "THE WEEPING WOOD"
-	threat_region = THREAT_REGION_OUTER_GROVE
+	threat_region = THREAT_REGION_NORTHERN_GROVE
 
 /area/outdoors/woods/west/thornbed
 	name = "thornbed"
