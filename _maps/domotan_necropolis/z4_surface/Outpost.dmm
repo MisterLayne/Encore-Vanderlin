@@ -310,11 +310,6 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/dirt/road,
 /area/indoors/cave)
-"XW" = (
-/obj/structure/chair/stool/crafted,
-/obj/structure/chair/stool/crafted,
-/turf/open/floor/dirt/road,
-/area/indoors/cave)
 "Yh" = (
 /obj/structure/roguetent,
 /turf/open/floor/dirt/road,
@@ -772,7 +767,7 @@ jE
 cw
 Fl
 be
-XW
+AO
 om
 Qd
 bM
