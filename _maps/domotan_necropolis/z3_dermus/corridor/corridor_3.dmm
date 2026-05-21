@@ -41,8 +41,8 @@
 /turf/open/floor/church/rust,
 /area/under/necropolis)
 "r" = (
-/obj/structure/door/weak,
-/turf/open/floor/church/gold,
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner,
+/turf/open/floor/church/rust,
 /area/under/necropolis)
 "s" = (
 /obj/item/natural/rock/random,
@@ -80,16 +80,8 @@
 	},
 /turf/open/floor/church/gold,
 /area/under/necropolis)
-"L" = (
-/obj/effect/spawner/map_spawner/necropolis/mob_spawner,
-/turf/open/floor/church/gold,
-/area/under/necropolis)
 "M" = (
 /turf/closed/wall/mineral/stone/moss/blue,
-/area/under/necropolis)
-"N" = (
-/obj/random/spider,
-/turf/open/floor/church/gold,
 /area/under/necropolis)
 "R" = (
 /obj/item/natural/rock/iron,
@@ -170,8 +162,8 @@ Y
 y
 a
 a
-M
-r
+U
+U
 E
 M
 y
@@ -186,7 +178,7 @@ g
 U
 U
 U
-N
+U
 H
 Z
 V
@@ -197,9 +189,9 @@ U
 y
 Y
 g
-M
+U
 V
-b
+U
 U
 H
 Y
@@ -214,7 +206,7 @@ a
 a
 b
 U
-L
+U
 a
 Y
 w
@@ -244,7 +236,7 @@ x
 m
 m
 m
-y
+r
 b
 b
 a
