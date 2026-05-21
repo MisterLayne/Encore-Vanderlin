@@ -1,0 +1,261 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"b" = (
+/obj/structure/door/weak/bolt{
+	dir = 8
+	},
+/turf/open/floor/church/pale,
+/area/under/necropolis)
+"g" = (
+/obj/structure/stairs/stone,
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"h" = (
+/turf/open/floor/church/pale,
+/area/under/necropolis)
+"j" = (
+/obj/structure/door/violet,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"l" = (
+/obj/structure/stairs/stone{
+	dir = 1
+	},
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"p" = (
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"q" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"r" = (
+/turf/closed/wall/mineral/stone/moss,
+/area/under/necropolis)
+"s" = (
+/obj/effect/waterfall,
+/turf/open/water/ocean,
+/area/under/necropolis)
+"t" = (
+/obj/structure/bars/pipe/left,
+/turf/open/water/ocean,
+/area/under/necropolis)
+"v" = (
+/obj/structure/door/weak,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"y" = (
+/obj/structure/bars,
+/turf/open/floor/metal/alt,
+/area/under/necropolis)
+"D" = (
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
+/turf/closed/wall/mineral/stone/moss/blue,
+/area/under/necropolis)
+"E" = (
+/obj/structure/door/iron/bars,
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"F" = (
+/turf/open/glass,
+/area/under/necropolis)
+"G" = (
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"L" = (
+/turf/closed/wall/mineral/pipe,
+/area/under/necropolis)
+"M" = (
+/turf/closed/wall/mineral/stone/moss/blue,
+/area/under/necropolis)
+"O" = (
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/necropolis)
+"R" = (
+/obj/structure/flora/grass/water/reeds,
+/turf/open/water/ocean,
+/area/under/necropolis)
+"T" = (
+/obj/structure/bars/pipe,
+/turf/open/water/ocean,
+/area/under/necropolis)
+"V" = (
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/necropolis)
+"W" = (
+/obj/structure/bars,
+/turf/open/floor/metal,
+/area/under/necropolis)
+
+(1,1,1) = {"
+r
+r
+r
+M
+M
+a
+a
+h
+r
+r
+r
+r
+"}
+(2,1,1) = {"
+r
+r
+s
+R
+r
+r
+v
+r
+r
+L
+L
+r
+"}
+(3,1,1) = {"
+r
+r
+s
+t
+y
+a
+a
+h
+h
+h
+L
+r
+"}
+(4,1,1) = {"
+r
+r
+W
+W
+r
+L
+L
+r
+F
+h
+r
+r
+"}
+(5,1,1) = {"
+r
+a
+h
+h
+r
+r
+M
+D
+F
+a
+r
+G
+"}
+(6,1,1) = {"
+r
+p
+p
+a
+g
+E
+G
+l
+a
+a
+j
+G
+"}
+(7,1,1) = {"
+v
+p
+p
+p
+g
+E
+G
+l
+p
+a
+j
+a
+"}
+(8,1,1) = {"
+r
+a
+q
+a
+r
+r
+r
+r
+F
+a
+r
+a
+"}
+(9,1,1) = {"
+r
+r
+W
+W
+r
+L
+L
+r
+F
+p
+V
+O
+"}
+(10,1,1) = {"
+r
+V
+s
+T
+y
+h
+h
+h
+a
+p
+L
+r
+"}
+(11,1,1) = {"
+r
+r
+s
+T
+M
+b
+r
+r
+r
+L
+L
+r
+"}
+(12,1,1) = {"
+r
+r
+r
+r
+M
+a
+a
+a
+r
+r
+r
+r
+"}

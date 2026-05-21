@@ -1,0 +1,279 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/wall/mineral/stone/moss,
+/area/under/necropolis)
+"b" = (
+/turf/closed/mineral,
+/area/under/necropolis)
+"c" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner,
+/turf/open/floor/church/pale,
+/area/under/necropolis)
+"e" = (
+/obj/structure/stairs/stone{
+	dir = 4
+	},
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"g" = (
+/obj/structure/stairs/stone,
+/obj/structure/door/weak,
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"j" = (
+/obj/structure/stairs/stone{
+	dir = 8
+	},
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"m" = (
+/turf/open/floor/church/pale,
+/area/under/necropolis)
+"n" = (
+/turf/closed/wall/mineral/pipe,
+/area/under/necropolis)
+"o" = (
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
+/turf/closed/wall/mineral/stone/moss,
+/area/under/necropolis)
+"q" = (
+/obj/structure/fluid_drain,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"r" = (
+/obj/structure/door/weak,
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"s" = (
+/obj/item/natural/rock/random,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"t" = (
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/necropolis)
+"u" = (
+/obj/effect/spawner/map_spawner/pit,
+/turf/open/floor/church/pale,
+/area/under/necropolis)
+"w" = (
+/obj/structure/door/weak,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"x" = (
+/obj/structure/door/weak,
+/turf/open/floor/church/pale,
+/area/under/necropolis)
+"y" = (
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"B" = (
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
+/turf/closed/wall/mineral/pipe,
+/area/under/necropolis)
+"E" = (
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
+/turf/closed/wall/mineral/stone/moss/blue,
+/area/under/necropolis)
+"H" = (
+/obj/structure/stairs/stone{
+	dir = 1
+	},
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"L" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner,
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"M" = (
+/turf/closed/wall/mineral/stone/moss/blue,
+/area/under/necropolis)
+"N" = (
+/obj/random/spider,
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"R" = (
+/obj/item/natural/rock/iron,
+/turf/open/floor/church/pale,
+/area/under/necropolis)
+"U" = (
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"V" = (
+/turf/closed/mineral/random,
+/area/under/necropolis)
+"Y" = (
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"Z" = (
+/obj/item/natural/rock/random,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+
+(1,1,1) = {"
+n
+n
+a
+M
+M
+y
+y
+m
+a
+a
+a
+o
+"}
+(2,1,1) = {"
+n
+b
+m
+m
+m
+Z
+y
+q
+a
+a
+a
+a
+"}
+(3,1,1) = {"
+a
+b
+c
+R
+m
+y
+y
+m
+m
+b
+a
+a
+"}
+(4,1,1) = {"
+a
+a
+a
+n
+e
+e
+n
+a
+a
+b
+b
+a
+"}
+(5,1,1) = {"
+Y
+y
+a
+a
+M
+r
+E
+M
+y
+V
+b
+U
+"}
+(6,1,1) = {"
+Y
+s
+g
+U
+U
+U
+N
+H
+Z
+V
+b
+U
+"}
+(7,1,1) = {"
+y
+Y
+g
+M
+V
+b
+U
+H
+Y
+M
+y
+y
+"}
+(8,1,1) = {"
+q
+y
+a
+a
+b
+U
+L
+a
+Y
+w
+Z
+y
+"}
+(9,1,1) = {"
+a
+a
+a
+B
+n
+j
+j
+a
+Y
+M
+b
+t
+"}
+(10,1,1) = {"
+a
+u
+m
+m
+x
+m
+m
+m
+y
+b
+b
+a
+"}
+(11,1,1) = {"
+a
+u
+u
+m
+M
+M
+x
+M
+a
+a
+a
+a
+"}
+(12,1,1) = {"
+a
+a
+a
+a
+M
+y
+y
+y
+a
+a
+a
+a
+"}
