@@ -1,0 +1,40 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/structure/bars/passage,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"h" = (
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"N" = (
+/turf/closed/wall/mineral/pipe,
+/area/under/necropolis)
+"T" = (
+/obj/structure/bars,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+
+(1,1,1) = {"
+N
+N
+T
+T
+"}
+(2,1,1) = {"
+a
+h
+h
+T
+"}
+(3,1,1) = {"
+T
+h
+h
+a
+"}
+(4,1,1) = {"
+T
+T
+N
+N
+"}

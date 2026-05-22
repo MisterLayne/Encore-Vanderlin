@@ -220,9 +220,7 @@
 	spawned = list(
 		/obj/item/reagent_containers/food/snacks/smallrat = 30,
 		/obj/item/reagent_containers/food/snacks/smallrat/dead = 10,
-		/obj/item/organ/guts = 5,
 		/obj/item/coin/copper = 5,
-		/obj/effect/gibspawner/generic = 5,
 		/obj/effect/decal/remains/bigrat = 5,
 		/mob/living/simple_animal/hostile/retaliate/bigrat = 1,
 		)
