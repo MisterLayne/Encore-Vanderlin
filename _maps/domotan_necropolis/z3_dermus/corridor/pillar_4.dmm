@@ -4,7 +4,6 @@
 /turf/open/floor/church/rust,
 /area/under/necropolis)
 "h" = (
-/obj/effect/spawner/map_spawner/pit,
 /turf/open/floor/church/rust,
 /area/under/necropolis)
 "N" = (

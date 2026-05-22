@@ -51,10 +51,6 @@
 "t" = (
 /turf/closed/wall/mineral/stone/moss/red,
 /area/under/necropolis)
-"u" = (
-/obj/effect/spawner/map_spawner/pit,
-/turf/open/floor/church/pale,
-/area/under/necropolis)
 "w" = (
 /obj/structure/door/weak,
 /turf/open/floor/church/rust,
@@ -229,7 +225,7 @@ t
 "}
 (10,1,1) = {"
 a
-u
+m
 m
 m
 x
@@ -243,8 +239,8 @@ a
 "}
 (11,1,1) = {"
 a
-u
-u
+m
+m
 m
 M
 M
