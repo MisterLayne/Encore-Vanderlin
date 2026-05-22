@@ -1,0 +1,217 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/structure/door/green{
+	name = "Smithy"
+	},
+/obj/effect/mapping_helpers/access/keyset/town/smith,
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/cobble/alt,
+/area/indoors/town/smithy)
+"f" = (
+/obj/structure/door/swing,
+/turf/open/floor/cobble/alt,
+/area/indoors/town/smithy)
+"g" = (
+/obj/structure/fake_machine/vendor/blacksmith,
+/obj/structure/table/wood/reinforced_alter,
+/obj/structure/bars{
+	icon_state = "barsbent";
+	layer = 2.81
+	},
+/turf/open/floor/cobble/alt,
+/area/indoors/town/smithy)
+"h" = (
+/obj/structure/table/wood/reinforced_alter,
+/obj/structure/bars{
+	icon_state = "barsbent";
+	layer = 2.81
+	},
+/turf/open/floor/cobble/alt,
+/area/indoors/town/smithy)
+"i" = (
+/obj/effect/decal/cobbleedge{
+	dir = 9
+	},
+/turf/open/floor/churchrough,
+/area/indoors/town/smithy)
+"k" = (
+/turf/open/floor/cobble/alt,
+/area/indoors/town/smithy)
+"l" = (
+/obj/effect/decal/cobbleedge{
+	icon_state = "cobbleedge-n"
+	},
+/turf/open/floor/churchrough,
+/area/indoors/town/smithy)
+"m" = (
+/obj/effect/decal/cobbleedge{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/churchrough,
+/area/indoors/town/smithy)
+"n" = (
+/obj/structure/door/green{
+	name = "Smithy"
+	},
+/obj/effect/mapping_helpers/access/keyset/town/smith,
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/concrete,
+/area/indoors/town/smithy)
+"r" = (
+/obj/effect/decal/cobbleedge{
+	dir = 10;
+	icon_state = "cobbleedge-w"
+	},
+/turf/open/floor/churchrough,
+/area/indoors/town/smithy)
+"s" = (
+/obj/structure/window,
+/turf/open/floor/cobble/alt,
+/area/indoors/town/smithy)
+"x" = (
+/obj/item/storage/bag,
+/obj/effect/decal/cobbleedge{
+	pixel_y = 1
+	},
+/turf/open/floor/churchrough,
+/area/indoors/town/smithy)
+"z" = (
+/turf/open/floor/cobble,
+/area/indoors/town/smithy)
+"C" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/cobble/alt,
+/area/indoors/town/smithy)
+"F" = (
+/obj/effect/decal/cobbleedge{
+	dir = 10;
+	icon_state = "cobbleedge-e"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/churchrough,
+/area/indoors/town/smithy)
+"G" = (
+/obj/machinery/anvil,
+/obj/item/weapon/hammer/iron,
+/obj/item/weapon/tongs,
+/turf/open/floor/cobble,
+/area/indoors/town/smithy)
+"J" = (
+/obj/structure/fluff/walldeco/sign/weaponsmithsign/left,
+/turf/closed/wall/mineral/craftstone,
+/area/indoors/town/smithy)
+"L" = (
+/obj/item/bin/water/gross,
+/obj/structure/fake_machine/scomm/l,
+/turf/open/floor/cobble,
+/area/indoors/town/smithy)
+"P" = (
+/obj/structure/grindwheel,
+/turf/open/floor/cobble/alt,
+/area/indoors/town/smithy)
+"R" = (
+/obj/structure/rack/shelf/biggest,
+/obj/item/storage/backpack/backpack,
+/turf/open/floor/blocks,
+/area/indoors/town/smithy)
+"S" = (
+/obj/machinery/light/fueled/torchholder/l,
+/turf/open/floor/cobble,
+/area/indoors/town/smithy)
+"T" = (
+/turf/closed/wall/mineral/craftstone,
+/area/indoors/town/smithy)
+"U" = (
+/obj/structure/rack/shelf/biggest,
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/natural/feather,
+/obj/structure/fake_machine/mail{
+	mailtag = "Armor Smith"
+	},
+/turf/open/floor/blocks,
+/area/indoors/town/smithy)
+"V" = (
+/obj/machinery/light/fueled/forge,
+/turf/open/floor/cobble,
+/area/indoors/town/smithy)
+"X" = (
+/obj/structure/sign/property_sign/claim,
+/turf/closed/wall/mineral/stone,
+/area/indoors/town/smithy)
+"Y" = (
+/turf/closed/wall/mineral/stone,
+/area/indoors/town/smithy)
+
+(1,1,1) = {"
+Y
+Y
+Y
+Y
+Y
+n
+T
+"}
+(2,1,1) = {"
+X
+S
+V
+G
+L
+k
+T
+"}
+(3,1,1) = {"
+f
+z
+m
+m
+r
+z
+a
+"}
+(4,1,1) = {"
+s
+R
+l
+l
+i
+z
+T
+"}
+(5,1,1) = {"
+Y
+U
+x
+x
+F
+C
+h
+"}
+(6,1,1) = {"
+T
+P
+z
+z
+z
+z
+h
+"}
+(7,1,1) = {"
+T
+T
+g
+h
+h
+T
+J
+"}

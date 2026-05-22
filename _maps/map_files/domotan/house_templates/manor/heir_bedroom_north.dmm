@@ -1,0 +1,124 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/town/keep/heir/heir2)
+"d" = (
+/turf/open/floor/carpet/royalblack,
+/area/indoors/town/keep/heir/heir2)
+"k" = (
+/obj/machinery/light/fueled/wallfire/candle/r,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town/keep/heir/heir2)
+"o" = (
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town/keep/heir/heir2)
+"q" = (
+/obj/structure/window/openclose{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood,
+/area/indoors/town/keep/heir/heir2)
+"u" = (
+/obj/machinery/light/fueled/wallfire/candle/l,
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/town/keep/heir/heir2)
+"y" = (
+/obj/machinery/light/fueled/wallfire{
+	pixel_y = 32
+	},
+/turf/open/floor/carpet/royalblack,
+/area/indoors/town/keep/heir/heir2)
+"B" = (
+/obj/item/scomstone,
+/obj/item/clothing/shoes/nobleboot,
+/obj/item/clothing/gloves/leather,
+/obj/item/clothing/gloves/leather/black,
+/obj/structure/closet/crate/crafted_closet/inn,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town/keep/heir/heir2)
+"C" = (
+/obj/structure/sign/property_sign/claim,
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/town/keep/heir/heir2)
+"F" = (
+/obj/structure/chair/wood{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town/keep/heir/heir2)
+"G" = (
+/obj/structure/bed/inn/double,
+/obj/item/bedsheet/fabric_double,
+/turf/open/floor/carpet/royalblack,
+/area/indoors/town/keep/heir/heir2)
+"J" = (
+/obj/structure/closet/crate/drawer/random,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town/keep/heir/heir2)
+"V" = (
+/obj/structure/door/violet{
+	name = "Heir's Chambers"
+	},
+/obj/effect/mapping_helpers/access/keyset/manor/general,
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town/keep/heir/heir2)
+"Y" = (
+/obj/structure/table/wood,
+/obj/item/candle/yellow/lit{
+	pixel_x = -6;
+	pixel_y = 12
+	},
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town/keep/heir/heir2)
+"Z" = (
+/obj/structure/door/violet{
+	name = "Heir's Chambers"
+	},
+/obj/effect/mapping_helpers/access/keyset/manor/general,
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/wood,
+/area/indoors/town/keep/heir/heir2)
+
+(1,1,1) = {"
+a
+a
+a
+a
+a
+"}
+(2,1,1) = {"
+u
+Y
+F
+B
+a
+"}
+(3,1,1) = {"
+a
+J
+o
+o
+Z
+"}
+(4,1,1) = {"
+a
+y
+o
+d
+C
+"}
+(5,1,1) = {"
+V
+o
+k
+G
+a
+"}
+(6,1,1) = {"
+a
+q
+a
+a
+a
+"}

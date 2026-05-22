@@ -119,7 +119,7 @@
 
 /obj/structure/fluff/railing/tall/retaining/Initialize()
 	. = ..()
-	layer = ABOVE_MOB_LAYER + 0.01//should cover the water edge effects
+	layer = ABOVE_MOB_LAYER + 0.015//should cover the water edge effects
 
 /obj/structure/fluff/railing/tall/retaining/stone
 	name = "stone retaining wall"

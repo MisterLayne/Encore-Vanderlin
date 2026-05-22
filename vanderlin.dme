@@ -9,6 +9,9 @@
 // BEGIN_INCLUDE
 #include "_odlint.dm"
 #include "_maps\_basemap.dm"
+#include "_maps\map_files\domotan\house_templates\house_templates.dm"
+#include "_maps\map_files\domotan\house_templates\jobs\workplace_templates.dm"
+#include "_maps\map_files\domotan\house_templates\manor\manor_templates.dm"
 #include "_maps\domotan_necropolis\mob_spawners.dm"
 #include "_maps\domotan_necropolis\generic\templates_base.dm"
 #include "_maps\domotan_necropolis\z1_mantle\templates_base.dm"
