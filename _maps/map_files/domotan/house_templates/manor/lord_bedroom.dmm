@@ -1,0 +1,133 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/floor/carpet/purple,
+/area/indoors/town/keep/lord_appt)
+"e" = (
+/turf/open/floor/wood,
+/area/indoors/town/keep/lord_appt)
+"f" = (
+/obj/structure/stairs{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town/keep/lord_appt)
+"h" = (
+/obj/structure/window/openclose/reinforced,
+/turf/open/floor/ruinedwood,
+/area/indoors/town/keep/lord_appt)
+"m" = (
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/carpet/purple,
+/area/indoors/town/keep/lord_appt)
+"n" = (
+/obj/structure/bookcase/random,
+/turf/open/floor/wood,
+/area/indoors/town/keep/lord_appt)
+"o" = (
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/town/keep/lord_appt)
+"p" = (
+/obj/structure/table/wood{
+	icon_state = "tablewood1"
+	},
+/obj/item/candle/yellow/lit{
+	pixel_x = -9;
+	pixel_y = 14
+	},
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town/keep/lord_appt)
+"u" = (
+/obj/structure/bed/inn/double,
+/obj/item/bedsheet/double_pelt,
+/turf/open/floor/carpet/purple,
+/area/indoors/town/keep/lord_appt)
+"y" = (
+/obj/structure/curtain/bounty{
+	color = "grey"
+	},
+/turf/open/floor/wood,
+/area/indoors/town/keep/lord_appt)
+"B" = (
+/obj/structure/sign/property_sign/claim,
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/town/keep/lord_appt)
+"G" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/carpet/purple,
+/area/indoors/town/keep/lord_appt)
+"H" = (
+/obj/structure/chair/wood,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town/keep/lord_appt)
+"N" = (
+/obj/structure/closet/crate/chest,
+/obj/item/weapon/sword/long/judgement,
+/obj/item/clothing/gloves/angle,
+/obj/item/clothing/wrists/bracers/leather,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town/keep/lord_appt)
+"T" = (
+/obj/item/scomstone,
+/obj/item/storage/belt/pouch/coins/mid,
+/obj/item/gem/diamond,
+/obj/item/scomstone,
+/obj/structure/closet/crate/drawer/random{
+	pixel_y = 0
+	},
+/obj/machinery/light/fueled/wallfire/candle/r,
+/obj/item/key/lord,
+/turf/open/floor/carpet/purple,
+/area/indoors/town/keep/lord_appt)
+"Y" = (
+/obj/machinery/light/fueled/wallfire/candle/l,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town/keep/lord_appt)
+
+(1,1,1) = {"
+o
+o
+o
+o
+y
+y
+o
+"}
+(2,1,1) = {"
+h
+p
+Y
+f
+e
+e
+B
+"}
+(3,1,1) = {"
+h
+H
+a
+a
+G
+e
+o
+"}
+(4,1,1) = {"
+h
+N
+T
+u
+m
+n
+o
+"}
+(5,1,1) = {"
+o
+o
+o
+o
+o
+o
+o
+"}

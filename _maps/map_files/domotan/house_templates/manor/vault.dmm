@@ -1,0 +1,177 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/structure/rack,
+/obj/item/reagent_containers/glass/bottle/healthpot,
+/obj/item/reagent_containers/glass/bottle/healthpot,
+/obj/item/reagent_containers/glass/bottle/healthpot,
+/obj/item/reagent_containers/glass/bottle/healthpot,
+/turf/open/floor/tile/bath,
+/area/indoors/town/keep)
+"c" = (
+/obj/effect/mapping_helpers/access/locker,
+/obj/effect/mapping_helpers/access/keyset/manor/vault,
+/obj/structure/door/viewport{
+	dir = 8;
+	name = "Materials Vault"
+	},
+/turf/open/floor/tile/checkeralt,
+/area/indoors/town/keep)
+"i" = (
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/town/keep)
+"t" = (
+/turf/open/floor/tile/bath,
+/area/indoors/town/keep)
+"u" = (
+/obj/structure/table/wood{
+	icon_state = "longtable_mid";
+	dir = 1
+	},
+/obj/item/flashlight/flare/torch/metal,
+/obj/item/flashlight/flare/torch/metal,
+/turf/open/floor/tile/bath,
+/area/indoors/town/keep)
+"x" = (
+/turf/closed/mineral,
+/area/indoors/town/keep)
+"y" = (
+/obj/structure/table/wood{
+	icon_state = "longtable_mid";
+	dir = 1
+	},
+/obj/item/weapon/sword/silver{
+	pixel_x = -12;
+	pixel_y = 13;
+	name = "Miserthorn"
+	},
+/obj/item/weapon/sword/long/exe/cloth{
+	pixel_x = -21;
+	pixel_y = -11
+	},
+/turf/open/floor/tile/bath,
+/area/indoors/town/keep)
+"F" = (
+/obj/structure/rack,
+/obj/machinery/light/fueledstreet/orange/wall{
+	dir = 8
+	},
+/turf/open/floor/tile/bath,
+/area/indoors/town/keep)
+"G" = (
+/obj/structure/rack,
+/obj/item/clothing/gloves/angle,
+/obj/item/clothing/gloves/angle{
+	pixel_y = 6
+	},
+/obj/item/clothing/wrists/bracers/leather,
+/obj/item/clothing/wrists/bracers/leather,
+/obj/item/clothing/shoes/nobleboot,
+/obj/item/clothing/shoes/nobleboot,
+/turf/open/floor/tile/bath,
+/area/indoors/town/keep)
+"J" = (
+/obj/structure/rack,
+/obj/structure/fluff/walldeco/mona,
+/turf/open/floor/tile/bath,
+/area/indoors/town/keep)
+"M" = (
+/obj/structure/table/wood{
+	icon_state = "longtable_mid";
+	dir = 1
+	},
+/obj/item/weapon/sword/rapier/dec{
+	pixel_y = -7;
+	pixel_x = -5;
+	name = "Sin Eater";
+	desc = "A royal heirloom of the Shirleighs, forged long ago and of a foreign steel far beyond the Goblet and its lands. Inscribed writing in Old Kui tells that it once belonged to someone named Rash Dequero, and that its implacable edge was driven through the Father of Sin. It gleams with a ferocious intent."
+	},
+/turf/open/floor/tile/bath,
+/area/indoors/town/keep)
+"O" = (
+/obj/structure/rack,
+/turf/open/floor/tile/bath,
+/area/indoors/town/keep)
+"Q" = (
+/obj/structure/sign/property_sign/claim,
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/town/keep)
+"R" = (
+/obj/machinery/light/fueledstreet/blue/wall{
+	dir = 4
+	},
+/turf/open/floor/tile/bath,
+/area/indoors/town/keep)
+"V" = (
+/obj/structure/table/wood{
+	icon_state = "longtable_mid";
+	dir = 1
+	},
+/obj/machinery/light/fueledstreet/orange/wall{
+	dir = 8
+	},
+/turf/open/floor/tile/bath,
+/area/indoors/town/keep)
+
+(1,1,1) = {"
+i
+i
+Q
+c
+i
+i
+i
+"}
+(2,1,1) = {"
+i
+M
+R
+t
+R
+O
+i
+"}
+(3,1,1) = {"
+i
+y
+t
+t
+t
+O
+i
+"}
+(4,1,1) = {"
+i
+u
+t
+t
+t
+a
+x
+"}
+(5,1,1) = {"
+i
+V
+t
+t
+t
+F
+i
+"}
+(6,1,1) = {"
+i
+i
+J
+G
+O
+i
+i
+"}
+(7,1,1) = {"
+i
+i
+i
+i
+i
+i
+i
+"}

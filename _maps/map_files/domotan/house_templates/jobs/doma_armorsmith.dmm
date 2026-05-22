@@ -1,0 +1,276 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/wall/mineral/decowood,
+/area/indoors/town/smithy)
+"b" = (
+/obj/structure/carpet/blue,
+/turf/open/floor/ruinedwood,
+/area/indoors/town/smithy)
+"d" = (
+/obj/machinery/light/fueled/torchholder/l,
+/obj/structure/pottery_lathe,
+/turf/open/floor/tile,
+/area/indoors/town/smithy)
+"e" = (
+/obj/structure/window,
+/obj/structure/curtain/bounty/dir{
+	dir = 8
+	},
+/turf/open/floor/tile,
+/area/indoors/town/smithy)
+"f" = (
+/obj/item/storage/bag{
+	pixel_y = 16;
+	pixel_x = -2
+	},
+/obj/structure/fake_machine/scomm/l,
+/obj/structure/rack,
+/obj/item/flint,
+/obj/item/weapon/pick,
+/turf/open/floor/tile,
+/area/indoors/town/smithy)
+"h" = (
+/obj/item/weapon/hammer,
+/obj/item/weapon/tongs,
+/obj/item/weapon/hammer,
+/obj/item/weapon/tongs,
+/obj/structure/lever/wall{
+	dir = 8;
+	pixel_x = -7;
+	redstone_id = "armourer_shutter";
+	pixel_y = -1
+	},
+/obj/machinery/light/fueled/torchholder/c,
+/obj/structure/table/wood/plain,
+/obj/item/candle/yellow/lit,
+/turf/open/floor/tile,
+/area/indoors/town/smithy)
+"j" = (
+/obj/structure/window,
+/obj/structure/curtain/bounty/dir{
+	dir = 4
+	},
+/turf/open/floor/tile,
+/area/indoors/town/smithy)
+"l" = (
+/turf/open/floor/ruinedwood,
+/area/indoors/town/smithy)
+"q" = (
+/obj/structure/table/wood/plain,
+/obj/machinery/light/fueled/torchholder/r,
+/obj/item/candle/yellow/lit,
+/turf/open/floor/carpet/royalblack,
+/area/indoors/town/smithy)
+"s" = (
+/obj/structure/fake_machine/vendor/blacksmith,
+/turf/closed/wall/mineral/decowood,
+/area/indoors/town/smithy)
+"u" = (
+/turf/open/floor/carpet/royalblack,
+/area/indoors/town/smithy)
+"v" = (
+/obj/structure/chair/wood/alt{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood,
+/area/indoors/town/smithy)
+"w" = (
+/obj/effect/mapping_helpers/access/keyset/town/smith,
+/obj/structure/door{
+	name = "Armorsmith"
+	},
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/ruinedwood,
+/area/indoors/town/smithy)
+"y" = (
+/obj/item/reagent_containers/glass/bucket/wooden,
+/turf/open/floor/tile,
+/area/indoors/town/smithy)
+"A" = (
+/turf/open/floor/tile,
+/area/indoors/town/smithy)
+"B" = (
+/obj/structure/window,
+/turf/open/floor/tile,
+/area/indoors/town/smithy)
+"F" = (
+/obj/structure/sign/property_sign/claim{
+	pixel_y = 30;
+	pixel_x = 30
+	},
+/turf/open/floor/tile,
+/area/indoors/town/smithy)
+"G" = (
+/obj/structure/table/wood{
+	dir = 1;
+	icon_state = "longtable_mid"
+	},
+/obj/structure/bars/bent,
+/obj/structure/bars/passage/shutter{
+	redstone_id = "armourer_shutter"
+	},
+/turf/open/floor/ruinedwood,
+/area/indoors/town/smithy)
+"J" = (
+/obj/machinery/anvil,
+/turf/open/floor/tile,
+/area/indoors/town/smithy)
+"L" = (
+/obj/structure/closet/crate/crafted_closet,
+/obj/item/natural/clay,
+/obj/item/natural/clay,
+/obj/item/natural/clay,
+/obj/item/natural/clay,
+/obj/item/natural/clay,
+/obj/item/natural/clay,
+/obj/item/natural/clay,
+/obj/item/natural/clay,
+/obj/item/natural/clay,
+/obj/item/natural/clay,
+/turf/open/floor/tile,
+/area/indoors/town/smithy)
+"N" = (
+/obj/structure/table/wood{
+	dir = 1;
+	icon_state = "longtable_mid"
+	},
+/obj/structure/bars/passage/shutter{
+	redstone_id = "armourer_shutter"
+	},
+/obj/structure/bars/bent,
+/turf/open/floor/tile,
+/area/indoors/town/smithy)
+"O" = (
+/obj/structure/closet/crate/chest/neu,
+/obj/item/ingot/steel,
+/obj/item/ingot/steel,
+/obj/item/ingot/steel,
+/obj/item/ingot/steel,
+/obj/item/ingot/iron,
+/obj/item/ingot/iron,
+/obj/item/ingot/iron,
+/obj/item/ingot/iron,
+/obj/machinery/light/fueled/torchholder/r,
+/turf/open/floor/tile,
+/area/indoors/town/smithy)
+"P" = (
+/turf/closed/wall/mineral/stonebrick,
+/area/indoors/town/smithy)
+"Q" = (
+/obj/structure/door/window{
+	name = "Armorsmith"
+	},
+/obj/effect/mapping_helpers/access/keyset/town/smith,
+/turf/open/floor/ruinedwood,
+/area/indoors/town/smithy)
+"R" = (
+/obj/item/bin/water,
+/obj/machinery/light/fueled/torchholder/r,
+/turf/open/floor/tile,
+/area/indoors/town/smithy)
+"S" = (
+/obj/effect/mapping_helpers/access/keyset/town/smith,
+/obj/structure/door/window{
+	name = "Armorsmith"
+	},
+/turf/open/floor/ruinedwood,
+/area/indoors/town/smithy)
+"T" = (
+/obj/structure/closet/crate/chest/old_crate,
+/obj/item/grown/log/tree/stick,
+/obj/item/grown/log/tree/small,
+/turf/open/floor/tile,
+/area/indoors/town/smithy)
+"U" = (
+/obj/machinery/light/fueled/forge,
+/turf/open/floor/tile,
+/area/indoors/town/smithy)
+"W" = (
+/obj/structure/fluff/walldeco/sign/armorsmithsign/left,
+/turf/closed/wall/mineral/decowood,
+/area/indoors/town/smithy)
+"X" = (
+/obj/structure/ladder,
+/turf/open/floor/tile,
+/area/indoors/town/smithy)
+"Y" = (
+/obj/structure/carpet/blue,
+/obj/structure/fake_machine/atm{
+	pixel_y = 0;
+	pixel_x = -32
+	},
+/turf/open/floor/ruinedwood,
+/area/indoors/town/smithy)
+
+(1,1,1) = {"
+P
+P
+P
+j
+j
+P
+P
+a
+B
+W
+"}
+(2,1,1) = {"
+P
+h
+f
+L
+T
+d
+G
+Y
+l
+Q
+"}
+(3,1,1) = {"
+N
+A
+y
+A
+A
+A
+G
+b
+l
+S
+"}
+(4,1,1) = {"
+N
+F
+A
+A
+A
+A
+w
+l
+v
+B
+"}
+(5,1,1) = {"
+P
+R
+J
+U
+X
+O
+s
+u
+q
+B
+"}
+(6,1,1) = {"
+P
+e
+P
+P
+P
+e
+P
+a
+B
+a
+"}
