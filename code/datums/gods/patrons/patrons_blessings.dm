@@ -347,6 +347,7 @@
             /datum/status_effect/buff/haste = "Mordsol barks: \"Swift feet carry righteous blades.\"",
             /datum/status_effect/buff/calm = "Mordsol sighs: \"The hearth is warm and the time for fighting has passed. Come and rest awhile, child.\"",
             /datum/status_effect/buff/barbrage = "Mordsol roars: \"BE FILLED WITH RIGHTEOUS ANGER!\""
+		),
 
 		/// Iliope
 		/datum/patron/divine/iliope = list(
