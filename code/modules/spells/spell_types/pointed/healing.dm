@@ -70,16 +70,10 @@
 				cast_on.visible_message(span_danger("[cast_on] recoils in pain!"), span_userdanger("Divine healing shuns me!"))
 				cast_on.cursed_freak_out()
 				return
-			/// The Ten won't provide greater healing to centrist worshippers, they do not approve.
-			/// This is ignored if they're already a divine servant, like a Templar, as undivded can only become church roles from round start.
-			if(HAS_TRAIT(cast_on, TRAIT_DIVINE_CENTRIST) && !HAS_TRAIT(cast_on, TRAIT_DIVINE_SERVANT) && patron_restrictive)
-				cast_on.visible_message(span_danger("[cast_on] recoils in shame!"), span_userdanger("The Ten reject my indecisiveness!"))
-				cast_on.cursed_freak_out()
-				return
 			if(((cast_on.real_name in GLOB.excommunicated_players) || (cast_on.real_name in GLOB.heretical_players)) && !HAS_TRAIT(cast_on, TRAIT_FANATICAL))
 				cast_on.visible_message(
-					span_warning("The angry Ten sear the flesh of [cast_on]! a foolish blasphemer and heretic!"),
-					span_notice("I am despised by the Ten, rejected, and they remind me just how unlovable I am with a wave of pain!"),
+					span_warning("The angry Gods sear the flesh of [cast_on]! A foolish blasphemer and heretic!"),
+					span_notice("I am despised by the Elementals, rejected, and they remind me just how unlovable I am with a wave of pain!"),
 				)
 				cast_on.emote("scream")
 				return

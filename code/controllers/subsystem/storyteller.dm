@@ -274,39 +274,39 @@ SUBSYSTEM_DEF(gamemode)
 			//Divine Pantheon
 
 			"Angros" = list(
-				PLACEHOLDER_PATRON_REBRANDING,
-				PLACEHOLDER_PATRON_REBRANDING,
-				PLACEHOLDER_PATRON_REBRANDING
+				"...a silhouette looms on the horizon... its head pierces the clouds, and its hands are outstretched to something above... the dream rejects you as the dark engulfs the view...",
+				"...a man toils upon his masterpiece in solitude... you feel compelled not to attract his gaze... the world would never be the same...",
+				"...you awaken, floating freely in the sky... Gaia rests beneath you, and you witness funnels of fire erupt from the world's body... the blaze devours you, and it ends..."
 			),
 
 			"Visires"= list(
-				PLACEHOLDER_PATRON_REBRANDING,
-				PLACEHOLDER_PATRON_REBRANDING,
-				PLACEHOLDER_PATRON_REBRANDING
+				"...your soul churns, hungering endlessly... it lashes out in tendrils of flame that strike down all you love... everything flashes into nothing in an instant...",
+				"...regret wells up within... it is not your own, but its weight is upon you for a fleeting moment... it crushes you...",
+				"...in the dark, a small idol shines... you are compelled to snatch it... your view sunders, and it all turns to ash..."
 			),
 
 			"Akan" = list(
-				PLACEHOLDER_PATRON_REBRANDING,
-				PLACEHOLDER_PATRON_REBRANDING,
-				PLACEHOLDER_PATRON_REBRANDING
+				"...the stars blink back at you, and you see faces you almost recognize in their midst...",
+				"...you are lighter than you've ever been... the clouds feel solid, now...",
+				"...the bottom of your feet feel strange... your body detests the very gravity that holds you down..."
 			),
 
 			"Valdala"= list(
-				PLACEHOLDER_PATRON_REBRANDING,
-				PLACEHOLDER_PATRON_REBRANDING,
-				PLACEHOLDER_PATRON_REBRANDING
+				"...the great work is carried on sorrowful wings... lightning cries 'neath her gale...",
+				"...the angels circle overhead, knowing something I ought not...",
+				"...a torrent follows the mist... in its roar, salvation in the war neverending..."
 			),
 
 			"Erdl"= list(
-				PLACEHOLDER_PATRON_REBRANDING,
-				PLACEHOLDER_PATRON_REBRANDING,
-				PLACEHOLDER_PATRON_REBRANDING,
+				"...sinew and bone reform and contort... we are but threads woven from the finest silk...",
+				"...measure twice... cut once... a soul's treasure shan't be one to squander...",
+				"...blood curdles as the snake reforms itself... life is a cycle, infinitesimal in its detail... "
 			),
 
 			"Mordsol"= list(
-				PLACEHOLDER_PATRON_REBRANDING,
-				PLACEHOLDER_PATRON_REBRANDING,
-				PLACEHOLDER_PATRON_REBRANDING
+				"...the fire is gone...",
+				"...our cinder endures, stalwart against the first sin...",
+				"...the war is distant still... it will call your name, soon..."
 			),
 
 			"Goler Kanh"= list(
@@ -316,15 +316,15 @@ SUBSYSTEM_DEF(gamemode)
 			),
 
 			"Gani"= list(
-				PLACEHOLDER_PATRON_REBRANDING,
-				PLACEHOLDER_PATRON_REBRANDING,
-				PLACEHOLDER_PATRON_REBRANDING
+				"...verdant greening blooms about your body... something impossibly old stirs within it...",
+				"...you can feel the firmament's heartbeat beneath you... its rhythm thumps out a soothing metronome...",
+				"...an old woman sits alongside you, her visage is likened to stone... for your kin, she never left..."
 			),
 
 			"Mjallidhorn"= list(
-				PLACEHOLDER_PATRON_REBRANDING,
-				PLACEHOLDER_PATRON_REBRANDING,
-				PLACEHOLDER_PATRON_REBRANDING
+				"...frost bites at your skin, its approach tireless and without remorse... you lose pieces of yourself as you claw it away...",
+				"...the clashing of shield and blade fills your ears... your comrades fight and die alongside you... you feel at home...",
+				"...foghorns roll in from the sea, calling respite you expected would never come..."
 			),
 
 
@@ -335,9 +335,9 @@ SUBSYSTEM_DEF(gamemode)
 			),
 
 			"Pomette"= list(
-				PLACEHOLDER_PATRON_REBRANDING,
-				PLACEHOLDER_PATRON_REBRANDING,
-				PLACEHOLDER_PATRON_REBRANDING
+				"...a fated dance neverending... bliss, in the ignorance it provides...",
+				"...a hand wraps upon your own, soothing a cold you never noticed you had...",
+				"...the presence of familiarity grasps you, coaxing you by the arm into the light..."
 			),
 
 			//heretics

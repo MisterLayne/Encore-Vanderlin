@@ -40,18 +40,19 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 /* ----------------- */
 /datum/patron/divine/centrist
 	name = DIVINE_CENTRIST
-	desc = PLACEHOLDER_PATRON_REBRANDING
-	domain = PLACEHOLDER_PATRON_REBRANDING
-	flaws = PLACEHOLDER_PATRON_REBRANDING
-	worshippers = PLACEHOLDER_PATRON_REBRANDING
-	sins = PLACEHOLDER_PATRON_REBRANDING
-	boons = PLACEHOLDER_PATRON_REBRANDING
+	desc = "The worship of the balance and order of things between the Four Elementals equally. This is usually the focus of the Katholikos, the largest sect within the Goblet which acts in favor of all Elementals."
+	domain = "Earth, Air, Fire and Frost"
+	flaws = "Indecisiveness"
+	worshippers = "The Katholikos, high clergy and obsessed zealots"
+	sins = "Seeking Divinity, Stifling the Soul"
+	boons = "None"
 	added_traits = list(TRAIT_DIVINE_CENTRIST)
 	devotion_holder = /datum/devotion/divine/centrist
 	confess_lines = list(
-		PLACEHOLDER_PATRON_REBRANDING,
-		PLACEHOLDER_PATRON_REBRANDING,
-		PLACEHOLDER_PATRON_REBRANDING,
+		"I SEE WHAT THE BLIND MAN SEES!",
+		"I SERVE THE STARS!",
+		"BY LEAF AND LIMB!",
+		"BLOOD IN THE FIRMAMENT! BLOOD IN ALL THINGS!",
 	)
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine
 
@@ -62,7 +63,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	desc = "The youngest of the Elemental Gods. A once-mortal given host to the Aspect of Fire and made divine. The worship of Visires represents the plea for passion, life and the will to live; just as much it does the destruction, the hunger and the chaos that it may impose."
 	flaws = "Tyrannical, Ill-Tempered, Uncompromising"
 	worshippers = "Conquerors, the wrathful, the pupils of the Sun's science"
-	sins = "Betrayal, Sloth, Witchcraft"
+	sins = "Betrayal, Sloth, Envy"
 	boons = "Your stamina regeneration delay is lowered during daytime."
 	added_traits = list(TRAIT_APRICITY)
 	devotion_holder = /datum/devotion/divine/visires
@@ -94,11 +95,11 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 
 /datum/patron/divine/gani
 	name = GANI
-	domain = "God of Nature and Beasts"
-	desc = "Crafted from the bones of Angros as the embodiment of the natural world. Driven mad with time."
-	flaws = "Madness, Rebelliousness, Disorderliness"
-	worshippers = "Druids, Beasts, Madmen"
-	sins = "Deforestation, Overhunting, Disrespecting Nature"
+	domain = "Mother Goddess of the Earth and Soil"
+	desc = "Gani, the Mother, embodies the fundamental element of earth. They are an ancient spirit made divine as they would personify the very essence of the stern, immovable and protective Aspect of Stone. Gani is the world beneath the feet of all. She is the only God of the Four whose omnipresence extends beyond her domain."
+	flaws = "Overprotecting, Rebelliousness, Disorderliness"
+	worshippers = "All Earthly things, the farms, the huntsmen and matriarchs"
+	sins = "Deforestation, Digging Too Deep, Disrespecting Nature"
 	boons = "You are immune to kneestingers."
 	added_traits = list(TRAIT_KNEESTINGER_IMMUNITY)
 	devotion_holder = /datum/devotion/divine/gani
@@ -112,10 +113,10 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 
 /datum/patron/divine/mjallidhorn
 	name = MJALLIDHORN
-	domain = "God of Seas and Storms"
-	desc = "Crafted from the blood of Angros as sovereign of the waters. Enraged by ignorance of Him from followers of The Ten."
+	domain = "The Warrior God of Ice"
+	desc = "Mjhallidhorn, the Warrior, embodies the fundamental element of ice. They are a once-mortal made divine as they would personify the very essence of the ruthless, brutal and materialistic Aspect of Frost. Mjallidhorn is an Elemental locked in battle in the far north against the hordes of Hell, perhaps forevermore."
+	worshippers = "Warriors, sellswords, justiciers and freedom fighters"
 	flaws= "Reckless, Stubborn, Destructive"
-	worshippers = "Sailors of the Sea and Sky, Horrid Sea-Creachers, Fog Islanders"
 	sins = "Fear, Hubris, Forgetfulness"
 	boons = "Leeches will drain very little of your blood."
 	added_traits = list(TRAIT_LEECHIMMUNE)
@@ -136,7 +137,7 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 	worshippers = PLACEHOLDER_PATRON_REBRANDING
 	sins = PLACEHOLDER_PATRON_REBRANDING
 	boons = PLACEHOLDER_PATRON_REBRANDING
-	added_traits = list(TRAIT_SOUL_EXAMINE)
+	added_traits = list(TRAIT_SOUL_EXAMINE, TRAIT_DEATHSIGHT)
 	devotion_holder = /datum/devotion/divine/valdala
 	confess_lines = list(
 		PLACEHOLDER_PATRON_REBRANDING,
@@ -166,28 +167,30 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 
 /datum/patron/divine/iliope
 	name = ILIOPE
-	desc = PLACEHOLDER_PATRON_REBRANDING
-	domain = PLACEHOLDER_PATRON_REBRANDING
-	flaws = PLACEHOLDER_PATRON_REBRANDING
-	worshippers = PLACEHOLDER_PATRON_REBRANDING
+	desc = "A demi-deity of Akan's court, both famous and infamous for their sway over the forces of luck. Iliope is known for the inspiration of many a bards lyric. Speaks through their gift to man; the Tarot deck."
+	domain = "Demigod of trickery, dreams and inspiration"
+	flaws = "Manipulative, Conniving, Deceitful"
+	worshippers = "Gamblers, bards, artists, and the silver-tongued"
 	sins = PLACEHOLDER_PATRON_REBRANDING
-	boons = PLACEHOLDER_PATRON_REBRANDING
+	boons = "Dice rolls and gambling machines generally favor your hand."
 	added_traits = list(TRAIT_BLACKLEG)
 	devotion_holder = /datum/devotion/divine/iliope
 	confess_lines = list(
-		PLACEHOLDER_PATRON_REBRANDING,
-		PLACEHOLDER_PATRON_REBRANDING,
-		PLACEHOLDER_PATRON_REBRANDING,
+		"VISIRES IS MY LIGHT!",
+		"AKAN FLIES FREE AND TOO FAR FROM ME!",
+		"GANI PROVIDES!",
+		"GOLER KANH IS MY MUSE!",
+		"MJALLIDHORN IS MY TERROR!",
 	)
 	storyteller = /datum/storyteller/iliope
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/iliope
 
 /datum/patron/divine/erdl
 	name = ERDL
-	desc = PLACEHOLDER_PATRON_REBRANDING
-	domain = PLACEHOLDER_PATRON_REBRANDING
-	flaws = PLACEHOLDER_PATRON_REBRANDING
-	worshippers = PLACEHOLDER_PATRON_REBRANDING
+	desc = "Known as the Bloodfather, Erdl is the practitioner of the most complex arts of medicine. Their place in the Pantheon is one of friction, as they detest the idea of death itself. His worshippers are forever at odds with the Frost Pantheon as a result. Nonetheless, Erdl's pursuit of physical sciences endures through their spirit; those with Their blessing are commonly seen as instruments of Erdl's very hand. Or, in their own terms, hosts for their God."
+	domain = "Demigod of medica, fleshcrafting and healing science"
+	flaws = "Apathy, Visceral Curiosity, Detachment"
+	worshippers = "Physicians, Great Scientists, Practitioners"
 	sins = PLACEHOLDER_PATRON_REBRANDING
 	boons = PLACEHOLDER_PATRON_REBRANDING
 	added_traits = list(TRAIT_ROT_EATER)
@@ -210,18 +213,18 @@ GLOBAL_LIST_INIT(patron_sound_themes, list(
 
 /datum/patron/divine/golerkanh
 	name = GOLERKANH
-	desc = PLACEHOLDER_PATRON_REBRANDING
-	domain = PLACEHOLDER_PATRON_REBRANDING
+	desc = "A servant deity to Gani. The creator of technology, and he who first harnessed land and rock to serve mortal will."
+	domain = "Demigod of the Hand, Purveyor of Stone"
 	flaws = PLACEHOLDER_PATRON_REBRANDING
-	worshippers = PLACEHOLDER_PATRON_REBRANDING
+	worshippers = "Smiths, engineers and tinkerers"
 	sins = PLACEHOLDER_PATRON_REBRANDING
 	boons = PLACEHOLDER_PATRON_REBRANDING
 	added_traits = list(TRAIT_BETTER_SLEEP)
 	devotion_holder = /datum/devotion/divine/golerkanh
 	confess_lines = list(
-		PLACEHOLDER_PATRON_REBRANDING,
-		PLACEHOLDER_PATRON_REBRANDING,
-		PLACEHOLDER_PATRON_REBRANDING,
+		"IN MY HAND IS ALL MORTAL POWER!",
+		"WITH GANI'S EDGE I STRIKE!",
+		"I AM AN INSTRUMENT OF CREATION!",
 	)
 	storyteller = /datum/storyteller/golerkanh
 	associated_psycross = /obj/item/clothing/neck/psycross/silver/divine/golerkanh

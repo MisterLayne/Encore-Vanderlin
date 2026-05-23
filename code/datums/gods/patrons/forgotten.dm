@@ -1,7 +1,7 @@
 /datum/patron/angros
 	name = "Angros"
 	display_name = "Absolutionist Angrosian"
-	desc = PLACEHOLDER_PATRON_REBRANDING
+	desc = "Believers in Angros who are entrusted by the church as stewards of the Worldflame. Those who voyage away from the flame tend to be martyrs, terminally ill or otherwise tasked with things of great importance. Their lives are spent in scrutiny by kin, as the world has not yet forgotten Angros' betrayal."
 	domain = PLACEHOLDER_PATRON_REBRANDING
 	flaws = PLACEHOLDER_PATRON_REBRANDING
 	worshippers = PLACEHOLDER_PATRON_REBRANDING
