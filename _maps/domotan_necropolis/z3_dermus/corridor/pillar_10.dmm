@@ -1,0 +1,22 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/effect/spawner/map_spawner/pit,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"q" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"O" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+
+(1,1,1) = {"
+q
+a
+"}
+(2,1,1) = {"
+O
+q
+"}

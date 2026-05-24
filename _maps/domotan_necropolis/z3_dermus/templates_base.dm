@@ -33,7 +33,6 @@
 	id = "z3_corridor_base"
 	mappath = "_maps/domotan_necropolis/z3_dermus/corridor/corridor_base.dmm"
 	rarity = 200
-	type_weight = 50
 
 //corridor quarters are 12 tile size here
 /datum/map_template/dungeon/z3_corridor_1
@@ -83,46 +82,63 @@
 	name = "Z3Pillar1"
 	id = "z3_pillar_1"
 	mappath = "_maps/domotan_necropolis/z3_dermus/corridor/pillar_1.dmm"
-	rarity = 3
 
 /datum/map_template/dungeon/z3_pillar_2
 	name = "Z3Pillar2"
 	id = "z3_pillar_2"
 	mappath = "_maps/domotan_necropolis/z3_dermus/corridor/pillar_2.dmm"
-	rarity = 3
 
 /datum/map_template/dungeon/z3_pillar_3
 	name = "Z3Pillar3"
 	id = "z3_pillar_3"
 	mappath = "_maps/domotan_necropolis/z3_dermus/corridor/pillar_3.dmm"
-	rarity = 3
 
 /datum/map_template/dungeon/z3_pillar_4
 	name = "Z3Pillar4"
 	id = "z3_pillar_4"
 	mappath = "_maps/domotan_necropolis/z3_dermus/corridor/pillar_4.dmm"
-	rarity = 3
 
 /datum/map_template/dungeon/z3_pillar_5
 	name = "Z3Pillar5"
 	id = "z3_pillar_5"
 	mappath = "_maps/domotan_necropolis/z3_dermus/corridor/pillar_5.dmm"
-	rarity = 3
 
 /datum/map_template/dungeon/z3_pillar_6
 	name = "Z3Pillar6"
 	id = "z3_pillar_6"
 	mappath = "_maps/domotan_necropolis/z3_dermus/corridor/pillar_6.dmm"
-	rarity = 3
 
 /datum/map_template/dungeon/z3_pillar_7
 	name = "Z3Pillar7"
 	id = "z3_pillar_7"
 	mappath = "_maps/domotan_necropolis/z3_dermus/corridor/pillar_7.dmm"
-	rarity = 3
 
 /datum/map_template/dungeon/z3_pillar_8
 	name = "Z3Pillar8"
 	id = "z3_pillar_8"
 	mappath = "_maps/domotan_necropolis/z3_dermus/corridor/pillar_8.dmm"
-	rarity = 3
+
+/datum/map_template/dungeon/z3_pillar_9
+	name = "Z3Pillar9"
+	id = "z3_pillar_9"
+	mappath = "_maps/domotan_necropolis/z3_dermus/corridor/pillar_9.dmm"
+
+/datum/map_template/dungeon/z3_pillar_10
+	name = "Z3Pillar10"
+	id = "z3_pillar_10"
+	mappath = "_maps/domotan_necropolis/z3_dermus/corridor/pillar_10.dmm"
+
+/datum/map_template/dungeon/z3_pillar_11
+	name = "Z3Pillar11"
+	id = "z3_pillar_11"
+	mappath = "_maps/domotan_necropolis/z3_dermus/corridor/pillar_11.dmm"
+
+/datum/map_template/dungeon/z3_pillar_12//empty 2 by 2
+	name = "Z3Pillar12"
+	id = "z3_pillar_12"
+	mappath = "_maps/domotan_necropolis/z3_dermus/corridor/pillar_12.dmm"
+
+/datum/map_template/dungeon/z3_pillar_13//empty 4 by 4
+	name = "Z3Pillar13"
+	id = "z3_pillar_13"
+	mappath = "_maps/domotan_necropolis/z3_dermus/corridor/pillar_13.dmm"
