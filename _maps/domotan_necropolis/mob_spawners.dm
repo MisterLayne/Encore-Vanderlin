@@ -1,4 +1,5 @@
 // Mob spawners specifically for the Necropolis
+// these differ from ambush spawns in the fact that they are guarunteed for shenanigans, preventing traversing the entire thing without any danger
 #define NECROPOLIS_MOBS_TRIVIAL list(/obj/item/reagent_containers/food/snacks/smallrat = 20, /mob/living/simple_animal/hostile/retaliate/bigrat = 15)
 #define NECROPOLIS_MOBS_EASY list(/mob/living/carbon/human/species/goblin/npc/cave = 30, /mob/living/simple_animal/hostile/retaliate/bogbug = 20, /mob/living/simple_animal/hostile/retaliate/spider = 15)
 #define NECROPOLIS_MOBS_ORCS list(/mob/living/simple_animal/hostile/orc/spear = 20, /mob/living/simple_animal/hostile/orc/ranged = 20, /mob/living/simple_animal/hostile/retaliate/lamia = 20, /mob/living/carbon/human/species/goblin/npc/cave = 15)

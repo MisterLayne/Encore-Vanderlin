@@ -8,6 +8,7 @@
 /area/under/necropolis)
 "j" = (
 /obj/structure/fluid_drain,
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
 /turf/open/floor/church/rust,
 /area/under/necropolis)
 "x" = (
@@ -18,6 +19,7 @@
 /turf/open/floor/church/rust,
 /area/under/necropolis)
 "K" = (
+/obj/effect/spawner/map_spawner/pit,
 /turf/open/floor/church/rust,
 /area/under/necropolis)
 "N" = (

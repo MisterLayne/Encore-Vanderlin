@@ -1,0 +1,61 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"e" = (
+/turf/open/floor/naturalstone,
+/area/under/necropolis)
+"l" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"E" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/naturalstone,
+/area/under/necropolis)
+"I" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/naturalstone,
+/area/under/necropolis)
+"J" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"O" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"Q" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+
+(1,1,1) = {"
+l
+a
+l
+O
+"}
+(2,1,1) = {"
+a
+a
+a
+E
+"}
+(3,1,1) = {"
+a
+Q
+I
+e
+"}
+(4,1,1) = {"
+O
+O
+J
+l
+"}

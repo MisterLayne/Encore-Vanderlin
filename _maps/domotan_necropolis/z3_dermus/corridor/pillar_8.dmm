@@ -1,0 +1,55 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"b" = (
+/turf/open/floor/church/pale,
+/area/under/necropolis)
+"g" = (
+/turf/closed/wall/mineral/stone/moss,
+/area/under/necropolis)
+"h" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"j" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/purple,
+/area/under/necropolis)
+"N" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"S" = (
+/turf/open/floor/church/gold,
+/area/under/necropolis)
+"V" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/pale,
+/area/under/necropolis)
+
+(1,1,1) = {"
+g
+S
+h
+g
+"}
+(2,1,1) = {"
+a
+S
+b
+h
+"}
+(3,1,1) = {"
+j
+V
+j
+a
+"}
+(4,1,1) = {"
+g
+j
+N
+g
+"}

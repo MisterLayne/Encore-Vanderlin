@@ -3,14 +3,12 @@
 /obj/effect/landmark/map_load_mark/necropolis/z3_corridors,
 /turf/closed/dungeon_void,
 /area/under/necropolis)
-"p" = (
-/turf/open/floor/church/rust,
-/area/under/necropolis)
 "r" = (
 /turf/closed/dungeon_void,
 /area/under/necropolis)
 "S" = (
-/turf/closed/wall/mineral/stone/moss,
+/obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
+/turf/open/floor/church/rust,
 /area/under/necropolis)
 
 (1,1,1) = {"
@@ -107,7 +105,7 @@ r
 r
 r
 r
-p
+S
 r
 r
 r
@@ -134,7 +132,7 @@ r
 r
 r
 r
-p
+S
 r
 r
 r
@@ -161,7 +159,7 @@ r
 r
 r
 r
-p
+S
 r
 r
 r
@@ -215,7 +213,7 @@ r
 r
 r
 r
-p
+S
 r
 r
 r
@@ -242,7 +240,7 @@ r
 r
 r
 r
-p
+S
 r
 r
 r
@@ -269,7 +267,7 @@ r
 r
 r
 r
-p
+S
 r
 r
 r
@@ -341,25 +339,25 @@ r
 S
 S
 S
-p
-p
-p
-S
-p
-p
-p
 S
 S
 S
 S
 S
-p
-p
-p
 S
-p
-p
-p
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
+S
 S
 S
 S
@@ -431,7 +429,7 @@ r
 r
 r
 r
-p
+S
 r
 r
 r
@@ -458,7 +456,7 @@ r
 r
 r
 r
-p
+S
 r
 r
 r
@@ -485,7 +483,7 @@ r
 r
 r
 r
-p
+S
 r
 r
 r
@@ -539,7 +537,7 @@ r
 r
 r
 r
-p
+S
 r
 r
 r
@@ -566,7 +564,7 @@ r
 r
 r
 r
-p
+S
 r
 r
 r
@@ -593,7 +591,7 @@ r
 r
 r
 r
-p
+S
 r
 r
 r

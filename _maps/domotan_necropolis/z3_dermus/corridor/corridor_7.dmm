@@ -1,0 +1,393 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/wall/mineral/stone/moss,
+/area/under/necropolis)
+"b" = (
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"c" = (
+/obj/effect/spawner/map_spawner/necropolis/tech_clutter,
+/turf/open/floor/metal/alt,
+/area/under/necropolis)
+"d" = (
+/obj/structure/bars/chainlink,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"e" = (
+/obj/structure/water_pipe,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"f" = (
+/obj/effect/decal/remains/human,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"g" = (
+/obj/effect/spawner/map_spawner/loot/common,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"h" = (
+/obj/structure/fluid_drain,
+/turf/open/floor/metal/alt,
+/area/under/necropolis)
+"i" = (
+/obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"j" = (
+/obj/structure/rotation_piece/cog/large{
+	dir = 1
+	},
+/turf/open/floor/church/pale,
+/area/under/necropolis)
+"k" = (
+/obj/structure/bars/pipe/left,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"l" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"m" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/pale,
+/area/under/necropolis)
+"n" = (
+/turf/closed/wall/mineral/pipe,
+/area/under/necropolis)
+"o" = (
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"p" = (
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"q" = (
+/obj/structure/fluff/walldeco/bath/wallpipes/innie,
+/obj/structure/fluff/walldeco/bath/wallpipes/innie{
+	pixel_y = -9
+	},
+/turf/open/floor/church/pale,
+/area/under/necropolis)
+"r" = (
+/obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"s" = (
+/obj/structure/rotation_piece/cog/large{
+	dir = 4
+	},
+/turf/open/floor/church/pale,
+/area/under/necropolis)
+"t" = (
+/obj/effect/spawner/map_spawner/loot/common,
+/turf/open/floor/metal/alt,
+/area/under/necropolis)
+"u" = (
+/obj/effect/spawner/map_spawner/loot/medium,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"v" = (
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
+/turf/closed/wall/mineral/pipe,
+/area/under/necropolis)
+"w" = (
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/church/pale,
+/area/under/necropolis)
+"x" = (
+/turf/open/floor/metal/alt,
+/area/under/necropolis)
+"y" = (
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"z" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"A" = (
+/obj/structure/bars,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"B" = (
+/obj/structure/fluff/railing/border{
+	dir = 5
+	},
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"C" = (
+/obj/structure/fluff/steamvent,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"D" = (
+/obj/effect/spawner/map_spawner/necropolis/water_clutter,
+/turf/open/water/ocean/abyss,
+/area/under/necropolis)
+"E" = (
+/obj/structure/water_pump,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"F" = (
+/obj/structure/bars/bent,
+/turf/open/floor/church/pale,
+/area/under/necropolis)
+"G" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/easy,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"H" = (
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"I" = (
+/obj/structure/bars/pipe,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"J" = (
+/obj/structure/bars/chainlink,
+/turf/open/floor/church/pale,
+/area/under/necropolis)
+"K" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/metal/alt,
+/area/under/necropolis)
+"L" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"M" = (
+/obj/structure/water_pipe,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"N" = (
+/obj/structure/bars/passage,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"O" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/church/pale,
+/area/under/necropolis)
+"P" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"Q" = (
+/obj/structure/fluff/railing/border{
+	dir = 1
+	},
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"R" = (
+/turf/open/water/ocean/abyss,
+/area/under/necropolis)
+"S" = (
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
+/turf/closed/wall/mineral/stone/moss,
+/area/under/necropolis)
+"T" = (
+/obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
+/turf/open/floor/church/pale,
+/area/under/necropolis)
+"U" = (
+/obj/effect/waterfall,
+/obj/effect/spawner/map_spawner/necropolis/water_clutter,
+/turf/open/water/ocean/abyss,
+/area/under/necropolis)
+"V" = (
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"W" = (
+/obj/structure/bars/grille,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"X" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"Y" = (
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"Z" = (
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+
+(1,1,1) = {"
+a
+a
+Z
+Z
+n
+a
+p
+w
+a
+n
+a
+S
+"}
+(2,1,1) = {"
+a
+c
+Z
+f
+K
+a
+V
+B
+Z
+Z
+h
+a
+"}
+(3,1,1) = {"
+a
+x
+Z
+Z
+K
+n
+U
+Q
+r
+g
+x
+a
+"}
+(4,1,1) = {"
+J
+T
+n
+n
+n
+n
+H
+n
+n
+a
+m
+d
+"}
+(5,1,1) = {"
+J
+L
+A
+b
+M
+M
+X
+G
+z
+N
+m
+J
+"}
+(6,1,1) = {"
+a
+y
+n
+u
+M
+e
+C
+z
+W
+n
+z
+d
+"}
+(7,1,1) = {"
+p
+p
+n
+n
+a
+a
+E
+n
+y
+F
+O
+n
+"}
+(8,1,1) = {"
+p
+z
+w
+q
+s
+I
+k
+n
+j
+n
+w
+Z
+"}
+(9,1,1) = {"
+o
+Y
+a
+v
+n
+n
+n
+n
+n
+a
+Z
+r
+"}
+(10,1,1) = {"
+a
+t
+P
+Z
+n
+R
+D
+d
+Z
+Z
+x
+a
+"}
+(11,1,1) = {"
+a
+h
+l
+o
+a
+D
+R
+d
+f
+L
+h
+a
+"}
+(12,1,1) = {"
+a
+a
+p
+p
+n
+n
+n
+n
+p
+i
+a
+a
+"}

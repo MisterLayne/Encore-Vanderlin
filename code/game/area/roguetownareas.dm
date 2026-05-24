@@ -99,7 +99,7 @@
 	background_track = 'sound/music/area/decap.ogg'
 	background_track_dusk = null
 	background_track_night = null
-	first_time_text = "GOLER KANHS ANVIL"
+	first_time_text = "MOUNT MIRACLE FOOTHILLS"
 	custom_area_sound = 'sound/misc/stings/MalumSting.ogg'
 	ambush_times = list(NIGHT,DAWN,DUSK,DAY)
 

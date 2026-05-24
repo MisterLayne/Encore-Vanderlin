@@ -11,7 +11,6 @@
 			/obj/item/clothing/armor/leather = 10,
 			/obj/item/clothing/gloves/chain/iron = 3,
 			/obj/item/clothing/neck/coif = 3,
-			/obj/item/natural/poo = 5,
 			/obj/item/statue/bronze/figurine = 3,
 			/obj/item/statue/bronze/vase = 2,
 			/obj/item/statue/bronze/totem = 1,
