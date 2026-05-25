@@ -1,0 +1,945 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aF" = (
+/obj/structure/closet/crate/chest/wicker,
+/obj/effect/spawner/map_spawner/loot/food,
+/obj/effect/spawner/map_spawner/loot/food,
+/obj/effect/spawner/map_spawner/loot/food,
+/obj/effect/spawner/map_spawner/loot/food,
+/obj/effect/spawner/map_spawner/loot/food,
+/obj/effect/spawner/map_spawner/loot/food,
+/obj/effect/spawner/map_spawner/loot/food,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"dL" = (
+/obj/structure/fermentation_keg/redwine,
+/obj/machinery/light/fueled/torchholder/c,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"fx" = (
+/obj/structure/chair/stool,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"fG" = (
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"gy" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/open/floor/grass/mixyel,
+/area/indoors/cave)
+"gD" = (
+/obj/structure/barricade/wooden/crude,
+/turf/closed/wall/mineral/wood/window,
+/area/indoors/cave)
+"gJ" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/open/floor/grass/mixyel,
+/area/indoors/cave)
+"ik" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/grass/bush,
+/turf/open/floor/grass/mixyel,
+/area/indoors/cave)
+"iP" = (
+/obj/structure/bed/inn,
+/obj/item/bedsheet/fabric,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"jd" = (
+/turf/open/floor/grass/mixyel,
+/area/indoors/cave)
+"jw" = (
+/obj/structure/table/wood/plain,
+/obj/item/dice_cup/wooden,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"lQ" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/open/floor/grass/cold,
+/area/indoors/cave)
+"mb" = (
+/obj/structure/flora/grass/bush,
+/turf/open/floor/grass/cold,
+/area/indoors/cave)
+"me" = (
+/obj/structure/table/wood/nice/decorated,
+/obj/machinery/light/fueled/torchholder/r,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"mT" = (
+/obj/machinery/light/fueled/torchholder/c,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"nk" = (
+/obj/machinery/light/fueled/torchholder/l,
+/obj/structure/chair/stool,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"nC" = (
+/obj/machinery/light/fueled/torchholder/r,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"oQ" = (
+/turf/open/openspace,
+/area/indoors/cave)
+"pN" = (
+/obj/structure/fermentation_keg/distiller,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"pY" = (
+/obj/structure/table/wood/counter/end{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"qc" = (
+/obj/structure/door/swing,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"qS" = (
+/obj/effect/decal/cleanable/debris/wood,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"rc" = (
+/obj/structure/table/wood/counter/end{
+	dir = 10
+	},
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"ry" = (
+/obj/structure/bed/inn,
+/obj/item/bedsheet/fabric,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"sA" = (
+/turf/closed/mineral,
+/area/indoors/cave)
+"sU" = (
+/obj/structure/chair/wood,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"tc" = (
+/obj/structure/fermentation_keg/beer,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"tt" = (
+/turf/closed/wall/mineral/wood,
+/area/indoors/cave)
+"vc" = (
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"vf" = (
+/obj/machinery/light/fueled/torchholder/c{
+	pixel_y = -1;
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"vK" = (
+/turf/closed/wall/mineral/wood/window,
+/area/indoors/cave)
+"zm" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/grass/bush,
+/turf/open/floor/grass/cold,
+/area/indoors/cave)
+"At" = (
+/obj/structure/table/wood/plain,
+/obj/item/reagent_containers/glass/cup/golden,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"Fb" = (
+/obj/structure/table/wood/counter{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"Fr" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/open/floor/grass/cold,
+/area/indoors/cave)
+"Gx" = (
+/obj/structure/closet/crate/crafted_closet/inn,
+/obj/item/clothing/armor/leather/hide,
+/obj/item/clothing/armor/leather/jacket/sea,
+/obj/item/clothing/armor/leather/vest/colored/butler,
+/obj/item/clothing/armor/leather/vest/colored/random,
+/obj/item/clothing/gloves/leather/masterwork,
+/obj/item/clothing/gloves/leather/masterwork,
+/obj/item/clothing/pants/tights/sailor,
+/obj/item/clothing/pants/trou,
+/obj/item/clothing/pants/trou,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"GX" = (
+/turf/open/floor/grass/cold,
+/area/indoors/cave)
+"Iv" = (
+/obj/machinery/light/fueled/torchholder/l,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"IB" = (
+/obj/structure/flora/grass/bush,
+/turf/open/floor/grass/mixyel,
+/area/indoors/cave)
+"IN" = (
+/obj/structure/chair/stool,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"Jm" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"JA" = (
+/obj/structure/table/wood/counter{
+	dir = 1
+	},
+/obj/item/dice_cup/wooden{
+	pixel_x = -3
+	},
+/obj/item/dice_cup/wooden{
+	pixel_x = 7
+	},
+/obj/item/dice_cup/wooden{
+	pixel_x = 17
+	},
+/obj/item/dice_cup/wooden{
+	pixel_x = -11
+	},
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"Lh" = (
+/obj/structure/door/window,
+/turf/open/floor/grass/cold,
+/area/indoors/cave)
+"Lm" = (
+/obj/machinery/light/fueled/torchholder/r,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"OR" = (
+/obj/machinery/light/fueled/torchholder/c{
+	dir = 1;
+	pixel_y = -1
+	},
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"PG" = (
+/obj/structure/door/red,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"Ro" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/open/floor/grass/mixyel,
+/area/indoors/cave)
+"Rp" = (
+/obj/structure/chair/wood/alt/chair3{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"RB" = (
+/obj/structure/chair/wood/alt/chair3{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"RQ" = (
+/obj/structure/table/wood/plain,
+/obj/item/toy/cards/deck,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"TH" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"Uw" = (
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+"Ys" = (
+/obj/structure/chair/wood/alt/chair3,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/cave)
+
+(1,1,1) = {"
+sA
+sA
+sA
+sA
+sA
+sA
+sA
+sA
+sA
+sA
+fG
+fG
+fG
+fG
+fG
+fG
+sA
+sA
+sA
+sA
+sA
+sA
+sA
+sA
+sA
+"}
+(2,1,1) = {"
+sA
+GX
+mb
+GX
+GX
+GX
+GX
+GX
+jd
+sA
+sA
+vc
+sA
+vc
+vc
+vc
+sA
+GX
+GX
+GX
+GX
+IB
+GX
+GX
+sA
+"}
+(3,1,1) = {"
+sA
+GX
+Fr
+Ro
+GX
+zm
+lQ
+Ro
+jd
+sA
+sA
+sA
+sA
+vc
+vc
+sA
+sA
+GX
+gJ
+lQ
+Ro
+Ro
+Fr
+GX
+sA
+"}
+(4,1,1) = {"
+sA
+Fr
+Ro
+Ro
+GX
+Fr
+Fr
+jd
+GX
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+GX
+IB
+GX
+gJ
+Fr
+gJ
+Fr
+sA
+"}
+(5,1,1) = {"
+sA
+Fr
+Fr
+jd
+Ro
+GX
+GX
+jd
+GX
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+GX
+jd
+jd
+lQ
+Fr
+Fr
+Fr
+sA
+"}
+(6,1,1) = {"
+sA
+GX
+mb
+GX
+Fr
+GX
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+GX
+GX
+GX
+jd
+Fr
+sA
+"}
+(7,1,1) = {"
+sA
+Fr
+GX
+jd
+mb
+GX
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+jd
+Fr
+sA
+"}
+(8,1,1) = {"
+sA
+Fr
+Ro
+Ro
+GX
+GX
+vc
+vc
+tt
+tt
+tt
+vK
+tt
+Lh
+tt
+vK
+tt
+tt
+jd
+vc
+vc
+vc
+jd
+Ro
+sA
+"}
+(9,1,1) = {"
+sA
+GX
+GX
+jd
+GX
+vc
+vc
+vc
+vK
+dL
+Uw
+JA
+nk
+Uw
+Iv
+Uw
+OR
+tt
+Ro
+jd
+vc
+vc
+Ro
+Fr
+sA
+"}
+(10,1,1) = {"
+sA
+sA
+jd
+GX
+vc
+vc
+vc
+GX
+gD
+tc
+TH
+Fb
+fx
+TH
+Uw
+TH
+Uw
+tt
+Fr
+GX
+vc
+vc
+jd
+jd
+sA
+"}
+(11,1,1) = {"
+fG
+sA
+sA
+vc
+vc
+vc
+vc
+jd
+tt
+pN
+sU
+Fb
+fx
+qS
+Rp
+Uw
+TH
+tt
+Fr
+jd
+vc
+vc
+sA
+sA
+sA
+"}
+(12,1,1) = {"
+fG
+vc
+vc
+vc
+vc
+vc
+vc
+jd
+tt
+aF
+TH
+Fb
+fx
+Uw
+RQ
+Uw
+Uw
+vK
+Ro
+Ro
+vc
+vc
+sA
+vc
+fG
+"}
+(13,1,1) = {"
+fG
+vc
+vc
+vc
+vc
+vc
+vc
+jd
+tt
+mT
+Uw
+Fb
+IN
+TH
+RB
+Uw
+vf
+vK
+mb
+Ro
+vc
+vc
+sA
+vc
+fG
+"}
+(14,1,1) = {"
+fG
+vc
+sA
+vc
+vc
+vc
+vc
+GX
+tt
+qc
+rc
+pY
+fx
+Uw
+Rp
+Uw
+qS
+vK
+GX
+lQ
+GX
+GX
+vc
+vc
+fG
+"}
+(15,1,1) = {"
+fG
+GX
+sA
+GX
+GX
+GX
+vc
+GX
+tt
+TH
+TH
+Uw
+TH
+Uw
+jw
+Uw
+Uw
+tt
+tt
+tt
+tt
+tt
+vc
+vc
+fG
+"}
+(16,1,1) = {"
+sA
+sA
+sA
+mb
+GX
+vc
+vc
+GX
+gD
+Uw
+Ys
+At
+Ys
+Uw
+RB
+Uw
+TH
+PG
+Uw
+Iv
+Gx
+tt
+sA
+vc
+fG
+"}
+(17,1,1) = {"
+sA
+Fr
+Fr
+GX
+oQ
+oQ
+vc
+GX
+vK
+mT
+Uw
+Uw
+nC
+Uw
+Lm
+TH
+OR
+tt
+TH
+Jm
+Uw
+tt
+vc
+vc
+fG
+"}
+(18,1,1) = {"
+sA
+GX
+GX
+GX
+GX
+oQ
+vc
+vc
+tt
+tt
+tt
+vK
+tt
+Lh
+tt
+vK
+tt
+tt
+ry
+me
+iP
+tt
+vc
+sA
+sA
+"}
+(19,1,1) = {"
+sA
+GX
+oQ
+oQ
+GX
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+jd
+gy
+Ro
+tt
+tt
+tt
+tt
+tt
+GX
+vc
+sA
+"}
+(20,1,1) = {"
+sA
+GX
+GX
+oQ
+oQ
+oQ
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+gJ
+lQ
+Fr
+Fr
+Ro
+gJ
+GX
+vc
+vc
+sA
+"}
+(21,1,1) = {"
+sA
+mb
+GX
+GX
+GX
+oQ
+vc
+oQ
+GX
+GX
+Fr
+GX
+GX
+vc
+vc
+jd
+mb
+vc
+vc
+vc
+Fr
+vc
+vc
+vc
+sA
+"}
+(22,1,1) = {"
+sA
+GX
+oQ
+oQ
+GX
+GX
+GX
+oQ
+GX
+Ro
+gJ
+lQ
+mb
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+vc
+sA
+"}
+(23,1,1) = {"
+sA
+Fr
+GX
+oQ
+oQ
+oQ
+GX
+GX
+GX
+gJ
+gJ
+Ro
+GX
+sA
+vc
+vc
+sA
+sA
+vc
+vc
+vc
+vc
+vc
+vc
+sA
+"}
+(24,1,1) = {"
+sA
+GX
+lQ
+GX
+GX
+GX
+GX
+GX
+mb
+GX
+GX
+sA
+sA
+sA
+sA
+vc
+sA
+sA
+ik
+lQ
+lQ
+jd
+jd
+GX
+sA
+"}
+(25,1,1) = {"
+sA
+sA
+sA
+sA
+sA
+sA
+sA
+sA
+sA
+sA
+sA
+sA
+fG
+fG
+fG
+fG
+fG
+sA
+sA
+sA
+sA
+sA
+sA
+sA
+sA
+"}

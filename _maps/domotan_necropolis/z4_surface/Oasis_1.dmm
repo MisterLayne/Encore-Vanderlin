@@ -1,0 +1,868 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/wall/mineral/decostone/moss/blue,
+/area/indoors/cave)
+"b" = (
+/turf/open/water,
+/area/indoors/cave)
+"c" = (
+/obj/machinery/light/fueled/hearth,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"d" = (
+/obj/structure/closet/crate/chest/wicker,
+/obj/item/ore/coal,
+/obj/item/ore/coal,
+/obj/item/ore/coal,
+/obj/item/ore/coal,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"f" = (
+/obj/structure/chair/hotspring_bench/left,
+/turf/open/floor/cobblerock,
+/area/indoors/cave)
+"g" = (
+/obj/structure/flora/ausbushes/ppflowers,
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/open/floor/grass/healthy,
+/area/indoors/cave)
+"i" = (
+/obj/machinery/light/fueled/campfire/longlived,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"l" = (
+/obj/machinery/light/fueled/torchholder/c,
+/turf/open/floor/cobblerock,
+/area/indoors/cave)
+"m" = (
+/turf/open/floor/cobblerock,
+/area/indoors/cave)
+"n" = (
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/flora/ausbushes/brflowers,
+/turf/open/floor/grass/healthy,
+/area/indoors/cave)
+"o" = (
+/obj/structure/bridge_stakes{
+	dir = 4
+	},
+/turf/open/floor/grass/healthy,
+/area/indoors/cave)
+"p" = (
+/turf/closed/mineral,
+/area/indoors/cave)
+"r" = (
+/obj/structure/bridge_stakes{
+	dir = 8
+	},
+/turf/open/floor/grass/healthy,
+/area/indoors/cave)
+"s" = (
+/obj/structure/chair/hotspring_bench/right,
+/turf/open/floor/cobblerock,
+/area/indoors/cave)
+"t" = (
+/obj/structure/flora/grass/pyroclasticflowers,
+/turf/open/floor/grass/healthy,
+/area/indoors/cave)
+"u" = (
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"v" = (
+/obj/structure/door/weak,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"w" = (
+/obj/machinery/light/fueled/torchholder/l{
+	pixel_x = -12
+	},
+/turf/open/floor/cobblerock,
+/area/indoors/cave)
+"x" = (
+/obj/structure/flora/ausbushes/ywflowers,
+/turf/open/floor/grass/healthy,
+/area/indoors/cave)
+"y" = (
+/obj/structure/chair/hotspring_bench/left{
+	dir = 1
+	},
+/turf/open/floor/cobblerock,
+/area/indoors/cave)
+"z" = (
+/obj/structure/chair/hotspring_bench/right{
+	dir = 1
+	},
+/turf/open/floor/cobblerock,
+/area/indoors/cave)
+"A" = (
+/turf/open/water/river{
+	dir = 8
+	},
+/area/indoors/cave)
+"B" = (
+/obj/structure/flora/pillar,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"D" = (
+/obj/machinery/light/fueled/torchholder/r{
+	pixel_x = 10
+	},
+/turf/open/floor/cobblerock,
+/area/indoors/cave)
+"E" = (
+/turf/open/floor/grass/healthy,
+/area/indoors/cave)
+"F" = (
+/obj/structure/flora/ausbushes/brflowers,
+/turf/open/floor/grass/healthy,
+/area/indoors/cave)
+"G" = (
+/obj/structure/lootable_structure/stockpile/grain_barrel,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"H" = (
+/obj/structure/bed/sleepingbag,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"I" = (
+/obj/structure/flora/pillar,
+/turf/open/floor/cobblerock,
+/area/indoors/cave)
+"J" = (
+/obj/structure/well/fountain,
+/turf/open/floor/cobblerock,
+/area/indoors/cave)
+"K" = (
+/obj/structure/bridge{
+	dir = 4
+	},
+/turf/open/water/river,
+/area/indoors/cave)
+"N" = (
+/turf/open/water/river,
+/area/indoors/cave)
+"R" = (
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"T" = (
+/obj/structure/bridge{
+	dir = 8
+	},
+/turf/open/water/river,
+/area/indoors/cave)
+"U" = (
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/open/floor/grass/healthy,
+/area/indoors/cave)
+"V" = (
+/obj/structure/bed/hay,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"W" = (
+/obj/structure/table/wood/counter{
+	dir = 4
+	},
+/obj/structure/fluff/millstone,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"X" = (
+/obj/structure/table/wood/counter{
+	dir = 4
+	},
+/obj/item/cooking/pan{
+	pixel_x = -7;
+	pixel_y = 1
+	},
+/obj/item/reagent_containers/glass/bucket/pot{
+	pixel_x = 12;
+	pixel_y = -5
+	},
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"Y" = (
+/obj/machinery/light/fueled/torchholder/c{
+	dir = 1;
+	pixel_y = -2
+	},
+/turf/open/floor/cobblerock,
+/area/indoors/cave)
+"Z" = (
+/obj/structure/lootable_structure/stockpile/fish_barrel,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+
+(1,1,1) = {"
+p
+p
+p
+p
+p
+p
+p
+p
+p
+p
+p
+R
+R
+E
+E
+E
+E
+R
+p
+p
+p
+p
+p
+p
+p
+"}
+(2,1,1) = {"
+p
+p
+W
+X
+p
+p
+p
+p
+p
+p
+p
+p
+p
+E
+E
+E
+p
+p
+p
+p
+p
+p
+p
+p
+p
+"}
+(3,1,1) = {"
+p
+d
+R
+R
+c
+p
+p
+E
+E
+E
+E
+E
+U
+U
+U
+E
+E
+b
+b
+b
+b
+b
+p
+p
+p
+"}
+(4,1,1) = {"
+p
+V
+R
+R
+R
+R
+v
+E
+E
+E
+u
+u
+E
+U
+U
+U
+E
+b
+b
+b
+b
+b
+p
+p
+p
+"}
+(5,1,1) = {"
+p
+V
+R
+R
+p
+R
+v
+E
+E
+E
+u
+u
+u
+E
+E
+E
+E
+E
+b
+b
+b
+b
+p
+p
+p
+"}
+(6,1,1) = {"
+p
+R
+G
+Z
+p
+p
+p
+b
+b
+b
+H
+i
+u
+u
+E
+E
+t
+E
+E
+b
+b
+b
+p
+p
+p
+"}
+(7,1,1) = {"
+p
+p
+p
+p
+p
+p
+p
+b
+b
+u
+u
+H
+u
+u
+u
+E
+E
+E
+N
+b
+b
+b
+p
+p
+p
+"}
+(8,1,1) = {"
+p
+p
+p
+R
+p
+p
+p
+b
+b
+u
+u
+u
+u
+u
+o
+o
+E
+E
+N
+N
+b
+b
+p
+p
+p
+"}
+(9,1,1) = {"
+p
+p
+p
+R
+R
+p
+p
+b
+N
+N
+N
+N
+N
+N
+K
+T
+N
+N
+N
+N
+b
+b
+p
+p
+p
+"}
+(10,1,1) = {"
+p
+p
+p
+p
+R
+E
+p
+b
+b
+A
+n
+F
+N
+N
+K
+T
+N
+N
+N
+N
+b
+b
+p
+p
+p
+"}
+(11,1,1) = {"
+R
+p
+p
+p
+R
+E
+p
+E
+E
+E
+F
+F
+F
+E
+r
+r
+E
+u
+u
+E
+b
+b
+p
+p
+R
+"}
+(12,1,1) = {"
+R
+R
+R
+R
+R
+R
+E
+E
+x
+E
+E
+u
+u
+u
+m
+u
+u
+m
+m
+E
+E
+E
+E
+p
+R
+"}
+(13,1,1) = {"
+R
+R
+R
+R
+R
+E
+F
+E
+x
+x
+E
+u
+a
+I
+m
+I
+m
+I
+a
+E
+E
+E
+E
+E
+E
+"}
+(14,1,1) = {"
+R
+R
+R
+R
+E
+F
+F
+E
+x
+x
+U
+E
+a
+l
+m
+w
+m
+Y
+a
+b
+E
+t
+p
+p
+E
+"}
+(15,1,1) = {"
+R
+p
+R
+E
+p
+p
+p
+E
+E
+E
+U
+E
+a
+s
+m
+J
+m
+y
+a
+b
+E
+E
+p
+p
+E
+"}
+(16,1,1) = {"
+p
+p
+E
+E
+p
+p
+p
+E
+b
+E
+U
+U
+a
+f
+m
+m
+m
+z
+a
+b
+b
+E
+p
+p
+R
+"}
+(17,1,1) = {"
+p
+p
+R
+R
+p
+p
+p
+b
+b
+b
+E
+E
+a
+l
+m
+D
+m
+Y
+a
+b
+E
+E
+p
+p
+R
+"}
+(18,1,1) = {"
+p
+p
+R
+R
+R
+p
+p
+b
+b
+b
+E
+E
+a
+B
+u
+I
+m
+I
+a
+E
+E
+E
+p
+p
+p
+"}
+(19,1,1) = {"
+p
+p
+p
+R
+R
+p
+p
+b
+b
+b
+F
+F
+u
+u
+u
+u
+m
+m
+u
+u
+U
+U
+p
+p
+p
+"}
+(20,1,1) = {"
+p
+p
+p
+p
+p
+p
+p
+b
+b
+b
+F
+E
+u
+u
+F
+F
+F
+F
+u
+E
+g
+U
+p
+p
+p
+"}
+(21,1,1) = {"
+p
+p
+p
+p
+p
+p
+p
+b
+b
+b
+F
+E
+F
+F
+F
+F
+n
+E
+E
+U
+U
+E
+p
+p
+p
+"}
+(22,1,1) = {"
+p
+p
+p
+p
+p
+p
+p
+b
+b
+b
+F
+E
+E
+E
+F
+F
+E
+E
+E
+E
+E
+E
+p
+p
+p
+"}
+(23,1,1) = {"
+p
+p
+p
+p
+p
+p
+p
+p
+p
+p
+p
+p
+E
+p
+p
+p
+p
+E
+p
+p
+p
+p
+p
+p
+p
+"}
+(24,1,1) = {"
+p
+p
+p
+p
+p
+p
+p
+p
+p
+p
+p
+p
+R
+p
+p
+R
+p
+E
+p
+p
+p
+p
+p
+p
+p
+"}
+(25,1,1) = {"
+p
+p
+p
+p
+p
+p
+p
+p
+p
+p
+p
+p
+R
+R
+R
+R
+R
+R
+p
+p
+p
+p
+p
+p
+p
+"}

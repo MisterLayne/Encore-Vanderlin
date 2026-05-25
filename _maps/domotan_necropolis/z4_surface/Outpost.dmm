@@ -1,0 +1,969 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/obj/effect/spawner/map_spawner/sewerencounter,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"bJ" = (
+/obj/structure/fluff/railing/tall/palisade,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"bM" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"cw" = (
+/obj/structure/chair/wood/alt/chair_noble/fancyplush,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"eB" = (
+/obj/effect/decal/cleanable/blood/puddle,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"gR" = (
+/obj/effect/decal/cleanable/blood,
+/obj/machinery/light/fueled/torchholder/r,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"jC" = (
+/obj/effect/decal/cleanable/blood/puddle,
+/obj/effect/decal/cleanable/blood/old,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"jE" = (
+/turf/closed/mineral,
+/area/indoors/cave)
+"jY" = (
+/obj/item/weapon/polearm/spear,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"kh" = (
+/turf/open/openspace,
+/area/indoors/cave)
+"ll" = (
+/obj/structure/bed/hay,
+/obj/machinery/light/fueled/torchholder/c,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"lB" = (
+/obj/effect/landmark/chest_or_mimic,
+/obj/effect/spawner/map_spawner/loot/medium,
+/obj/machinery/light/fueled/torchholder/c,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"lF" = (
+/obj/effect/decal/cleanable/blood/puddle,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"lH" = (
+/obj/effect/decal/cleanable/blood/puddle,
+/obj/effect/mob_spawn/human/corpse,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"lR" = (
+/obj/effect/decal/cleanable/blood/gibs/torso,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"nm" = (
+/obj/effect/decal/remains/human,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"om" = (
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"oV" = (
+/obj/structure/bed/hay,
+/obj/effect/mob_spawn/human/corpse/damaged,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"qs" = (
+/obj/effect/decal/cleanable/blood/tracks,
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"qu" = (
+/obj/structure/tent_wall,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"rU" = (
+/obj/effect/decal/cleanable/blood/gibs/core,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"tb" = (
+/obj/effect/decal/cleanable/blood/footprints,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"tF" = (
+/obj/effect/decal/cleanable/blood/puddle,
+/obj/effect/decal/cleanable/blood/puddle,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"tU" = (
+/obj/structure/bed/hay,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"uG" = (
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"uL" = (
+/obj/effect/mob_spawn/human/corpse/damaged,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"uW" = (
+/obj/item/bodypart/r_leg,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"vk" = (
+/obj/structure/tent_wall,
+/obj/structure/tent_wall,
+/obj/structure/tent_wall,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"vJ" = (
+/obj/structure/fluff/railing/tall/palisade,
+/obj/structure/fluff/railing/tall/palisade,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"vM" = (
+/obj/effect/mob_spawn/human/corpse,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"vR" = (
+/obj/item/restraints/legcuffs/beartrap/armed/camouflage,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"wc" = (
+/obj/structure/tent_wall,
+/obj/structure/tent_wall,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"yf" = (
+/obj/machinery/light/fueled/torchholder/l,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"yt" = (
+/obj/machinery/light/fueled/torchholder/c,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"yH" = (
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 10
+	},
+/obj/effect/spawner/map_spawner/sewerencounter,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"zP" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"AO" = (
+/obj/structure/chair/stool/crafted,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"El" = (
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 8
+	},
+/obj/machinery/light/fueled/firebowl,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"Eo" = (
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"Fl" = (
+/obj/item/weapon/knife/dagger/steel,
+/obj/structure/table/wood/crafted,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"Gh" = (
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"Gn" = (
+/obj/machinery/light/fueled/torchholder/r,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"GQ" = (
+/obj/effect/decal/cleanable/blood/old,
+/obj/machinery/light/fueled/torchholder/c,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"Hi" = (
+/obj/structure/bed/hay,
+/obj/effect/decal/cleanable/blood/puddle,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"HR" = (
+/obj/structure/fluff/railing/tall/palisade,
+/obj/structure/fluff/walldeco/customflag/regent,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"IC" = (
+/obj/item/bodypart/l_leg,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"JD" = (
+/obj/structure/rack/shelf/big,
+/obj/effect/spawner/map_spawner/loot/weapon,
+/obj/effect/spawner/map_spawner/loot/weapon,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"Le" = (
+/obj/effect/decal/cleanable/blood/old,
+/obj/structure/fluff/railing/tall/palisade,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"Ly" = (
+/obj/effect/decal/cleanable/blood/puddle,
+/obj/structure/fluff/railing/tall/palisade,
+/obj/structure/fluff/walldeco/customflag/regent,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"Ps" = (
+/obj/structure/rack/shelf/big,
+/obj/effect/spawner/map_spawner/loot/armor,
+/obj/effect/spawner/map_spawner/loot/armor,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"PE" = (
+/obj/effect/decal/cleanable/blood/puddle,
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 8
+	},
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"PQ" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"Qd" = (
+/obj/structure/tent_wall,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"Rv" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"RB" = (
+/obj/structure/roguetent,
+/obj/effect/decal/cleanable/blood/tracks,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"RW" = (
+/obj/structure/tent_wall,
+/obj/structure/fluff/walldeco/customflag/regent,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"TI" = (
+/obj/structure/table/wood/crafted,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"TX" = (
+/obj/machinery/light/fueled/torchholder/c,
+/obj/effect/spawner/map_spawner/sewerencounter,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"WB" = (
+/obj/effect/decal/cleanable/blood/puddle,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"WT" = (
+/obj/effect/decal/cleanable/blood/gibs/old,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"Yh" = (
+/obj/structure/roguetent,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+"Ys" = (
+/obj/structure/fluff/railing/tall/palisade,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"YU" = (
+/obj/effect/spawner/map_spawner/sewerencounter,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"Zn" = (
+/obj/effect/decal/cleanable/blood/tracks,
+/turf/open/floor/dirt/road,
+/area/indoors/cave)
+
+(1,1,1) = {"
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+Gh
+Gh
+Gh
+Gh
+om
+Gh
+Gh
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+"}
+(2,1,1) = {"
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+Gh
+jE
+om
+om
+om
+om
+Gh
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+"}
+(3,1,1) = {"
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+Gh
+Gh
+om
+om
+Gh
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+"}
+(4,1,1) = {"
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+om
+om
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+"}
+(5,1,1) = {"
+jE
+jE
+jE
+Gh
+Gh
+om
+Gh
+Gh
+Gh
+lF
+om
+om
+om
+Gh
+Gh
+Gh
+Gh
+Gh
+Gh
+Gh
+jE
+jE
+jE
+jE
+jE
+"}
+(6,1,1) = {"
+jE
+jE
+jE
+om
+om
+Gh
+Ys
+Gh
+Gh
+gR
+om
+zP
+Ys
+Gh
+om
+Gh
+Gh
+Gh
+Gh
+Gh
+jE
+jE
+jE
+jE
+jE
+"}
+(7,1,1) = {"
+jE
+jE
+jE
+Gh
+YU
+Gh
+Qd
+Qd
+Qd
+Qd
+wc
+Qd
+Qd
+yt
+lF
+rU
+om
+Gh
+Gh
+Gh
+jE
+jE
+jE
+jE
+jE
+"}
+(8,1,1) = {"
+jE
+jE
+jE
+Gh
+Gh
+Gh
+Qd
+Hi
+om
+JD
+Ps
+oV
+RW
+Gh
+lF
+Gh
+aa
+om
+om
+Gh
+jE
+jE
+jE
+jE
+jE
+"}
+(9,1,1) = {"
+jE
+Gh
+jE
+lF
+Gh
+lF
+Qd
+ll
+om
+eB
+om
+ll
+Qd
+Gh
+tb
+tb
+tb
+uL
+om
+Gh
+jE
+jE
+jE
+jE
+Gh
+"}
+(10,1,1) = {"
+jE
+Gh
+Gh
+Gh
+om
+Gh
+RW
+oV
+aa
+om
+eB
+tU
+wc
+Gh
+lF
+Gh
+Rv
+om
+om
+Gh
+jE
+jE
+jE
+jE
+Gh
+"}
+(11,1,1) = {"
+Gh
+Gh
+Gh
+om
+om
+Gh
+Qd
+Qd
+Qd
+Qd
+Yh
+Qd
+Qd
+GQ
+jC
+om
+om
+Gh
+Gh
+Gh
+jE
+Gh
+Gh
+Gh
+Gh
+"}
+(12,1,1) = {"
+om
+om
+om
+om
+Gh
+Gh
+bJ
+Gh
+Gh
+Gh
+Gh
+Gh
+uW
+Gh
+lH
+om
+om
+Ys
+om
+Gh
+jE
+Gh
+om
+Gh
+Gh
+"}
+(13,1,1) = {"
+om
+om
+zP
+Gh
+lF
+om
+Ly
+Gh
+vR
+Gh
+yH
+uG
+Gh
+WB
+Gh
+Gn
+Rv
+vJ
+Gh
+Gh
+jE
+om
+om
+Gh
+Gh
+"}
+(14,1,1) = {"
+om
+om
+Gh
+Gn
+tF
+om
+om
+Gh
+Gh
+nm
+El
+om
+Gh
+Qd
+Qd
+Qd
+Qd
+Qd
+Gh
+om
+jE
+om
+om
+om
+om
+"}
+(15,1,1) = {"
+om
+Gh
+jE
+Qd
+Qd
+Qd
+Qd
+Qd
+Qd
+GQ
+PE
+om
+Gh
+wc
+kh
+kh
+om
+wc
+Gh
+Gh
+Gh
+om
+om
+om
+om
+"}
+(16,1,1) = {"
+Gh
+Gh
+jE
+lB
+TI
+om
+AO
+aa
+RW
+Gh
+Eo
+jY
+Gh
+Qd
+om
+om
+kh
+Qd
+Gh
+Gh
+Gh
+om
+Gh
+om
+om
+"}
+(17,1,1) = {"
+Gh
+Gh
+jE
+cw
+Fl
+om
+AO
+om
+Qd
+bM
+lR
+vM
+Gh
+Yh
+kh
+kh
+kh
+Qd
+yt
+Gh
+Gh
+jE
+Gh
+Gh
+Gh
+"}
+(18,1,1) = {"
+Gh
+jE
+jE
+PQ
+TI
+om
+AO
+Zn
+RB
+qs
+WT
+Gh
+YU
+wc
+om
+kh
+kh
+Qd
+Gh
+Gh
+jE
+jE
+Gh
+jE
+Gh
+"}
+(19,1,1) = {"
+jE
+jE
+jE
+TX
+om
+Eo
+IC
+om
+Qd
+bM
+bM
+Eo
+Gh
+vk
+Qd
+Qd
+Qd
+Qd
+Gh
+om
+jE
+jE
+jE
+jE
+jE
+"}
+(20,1,1) = {"
+jE
+jE
+jE
+qu
+Qd
+Qd
+Qd
+Qd
+Qd
+yt
+Le
+om
+Gh
+Ys
+Gh
+yf
+Gh
+HR
+Gh
+om
+jE
+jE
+jE
+jE
+jE
+"}
+(21,1,1) = {"
+jE
+jE
+jE
+Gh
+Gh
+Gh
+bM
+uG
+Gh
+Gh
+Ys
+Gh
+Gh
+om
+om
+Gh
+Gh
+Gh
+om
+aa
+jE
+jE
+jE
+jE
+jE
+"}
+(22,1,1) = {"
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+Gh
+Gh
+om
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+"}
+(23,1,1) = {"
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+Gh
+Gh
+om
+om
+om
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+"}
+(24,1,1) = {"
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+om
+om
+om
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+"}
+(25,1,1) = {"
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+Gh
+Gh
+om
+om
+om
+Gh
+Gh
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+jE
+"}

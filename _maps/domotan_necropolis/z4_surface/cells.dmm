@@ -1,0 +1,963 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"df" = (
+/obj/effect/spawner/trap,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"fq" = (
+/obj/item/restraints/legcuffs/beartrap/armed,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"hj" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/water,
+/area/indoors/cave)
+"hC" = (
+/obj/effect/decal/cleanable/blood/gibs,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"hR" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"hY" = (
+/obj/structure/bed/sleepingbag,
+/obj/effect/decal/cleanable/dirt/cobweb,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"jo" = (
+/obj/effect/spawner/map_spawner/loot/armor,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"kv" = (
+/obj/structure/bed/sleepingbag,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"lQ" = (
+/obj/effect/spawner/map_spawner/loot/food,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"lR" = (
+/obj/structure/bed/sleepingbag,
+/obj/item/restraints/legcuffs/beartrap/armed,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"lX" = (
+/obj/structure/bed/sleepingbag,
+/obj/effect/decal/cleanable/dirt/cobweb/cobweb2,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"mA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/mineral,
+/area/indoors/cave)
+"mH" = (
+/obj/effect/decal/cleanable/blood/footprints,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"or" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/effect/spawner/map_spawner/loot,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"ov" = (
+/obj/effect/spawner/map_spawner/loot,
+/obj/effect/decal/cleanable/glitter,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"pI" = (
+/obj/effect/decal/cleanable/blood/footprints,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"pM" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/mineral,
+/area/indoors/cave)
+"pQ" = (
+/mob/living/carbon/human/species/skeleton/npc/easy,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"pV" = (
+/obj/structure/bars,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"qh" = (
+/obj/machinery/light/fueled/torchholder/l,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"qw" = (
+/obj/structure/bed/sleepingbag,
+/obj/effect/decal/cleanable/glitter,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"sh" = (
+/turf/closed/mineral,
+/area/indoors/cave)
+"sJ" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"td" = (
+/obj/structure/door/iron/bars/cell,
+/obj/effect/decal/cleanable/blood/footprints,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"tB" = (
+/turf/closed/wall/mineral/decostone/long,
+/area/indoors/cave)
+"tD" = (
+/obj/structure/bars,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"uC" = (
+/obj/effect/spawner/map_spawner/loot,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"vv" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt/cobweb,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"vy" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"wx" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"xe" = (
+/obj/random/spider,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"xh" = (
+/turf/closed/wall/mineral/decostone/end{
+	dir = 8
+	},
+/area/indoors/cave)
+"xt" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"yf" = (
+/obj/effect/decal/cleanable/blood/gibs/body,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"yP" = (
+/obj/structure/bed/sleepingbag,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"zG" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"zT" = (
+/obj/machinery/light/fueled/torchholder/l,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"AH" = (
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"BM" = (
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"Ck" = (
+/obj/machinery/light/fueled/torchholder/c,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"DJ" = (
+/turf/open/water,
+/area/indoors/cave)
+"Ed" = (
+/obj/structure/bed/sleepingbag,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"Ee" = (
+/obj/effect/decal/cleanable/blood,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"Ev" = (
+/obj/machinery/light/fueled/torchholder/c,
+/obj/item/restraints/legcuffs/beartrap/armed,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"Fn" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"Gf" = (
+/obj/structure/bars,
+/turf/open/water,
+/area/indoors/cave)
+"GQ" = (
+/obj/machinery/light/fueled/torchholder/c,
+/turf/open/openspace,
+/area/indoors/cave)
+"Hz" = (
+/obj/item/natural/rock,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"HW" = (
+/obj/effect/decal/cleanable/blood/gibs/core,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"Ia" = (
+/turf/open/openspace,
+/area/indoors/cave)
+"IV" = (
+/obj/effect/decal/cleanable/blood/footprints,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"Jv" = (
+/obj/machinery/light/fueled/torchholder/r,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"JD" = (
+/turf/closed/wall/mineral/decostone/end{
+	dir = 4
+	},
+/area/indoors/cave)
+"MM" = (
+/obj/effect/decal/cleanable/dirt/cobweb/cobweb2,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"No" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"Ph" = (
+/obj/machinery/light/fueled/torchholder/c,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"Pq" = (
+/obj/item/natural/rock,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"PD" = (
+/obj/effect/decal/cleanable/blood/gibs,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"PN" = (
+/obj/item/natural/rock,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"PT" = (
+/obj/effect/spawner/map_spawner/loot/coin/low,
+/obj/item/restraints/legcuffs/beartrap/armed,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"RT" = (
+/obj/effect/decal/cleanable/blood/gibs/body,
+/obj/effect/decal/cleanable/glitter,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"UF" = (
+/obj/effect/spawner/map_spawner/loot/coin/low,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"VI" = (
+/obj/effect/spawner/map_spawner/loot,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"Xq" = (
+/obj/effect/decal/cleanable/blood/gibs/down,
+/turf/open/floor/naturalstone,
+/area/indoors/cave)
+"Yq" = (
+/obj/machinery/light/fueled/torchholder/r,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+"YH" = (
+/obj/structure/door/iron/bars/cell,
+/turf/open/floor/hexstone,
+/area/indoors/cave)
+
+(1,1,1) = {"
+sh
+sh
+sh
+sh
+sh
+sh
+sh
+sh
+sh
+sh
+BM
+Fn
+Fn
+BM
+BM
+BM
+sh
+sh
+sh
+sh
+sh
+sh
+sh
+sh
+sh
+"}
+(2,1,1) = {"
+sh
+BM
+BM
+BM
+BM
+BM
+BM
+BM
+BM
+sh
+BM
+pM
+mA
+HW
+Fn
+pM
+sh
+Pq
+BM
+BM
+DJ
+DJ
+DJ
+DJ
+sh
+"}
+(3,1,1) = {"
+sh
+BM
+BM
+Ia
+BM
+BM
+BM
+BM
+Jv
+BM
+Fn
+BM
+BM
+BM
+Jv
+BM
+BM
+BM
+BM
+BM
+Jv
+BM
+DJ
+DJ
+sh
+"}
+(4,1,1) = {"
+sh
+BM
+Ia
+Ia
+BM
+BM
+tB
+tB
+tB
+tB
+Ph
+BM
+tB
+tB
+tB
+tB
+Ph
+BM
+tB
+tB
+tB
+tB
+Ph
+DJ
+sh
+"}
+(5,1,1) = {"
+sh
+BM
+Ia
+Ia
+BM
+BM
+xh
+hY
+UF
+tD
+BM
+df
+tD
+RT
+qw
+xh
+BM
+BM
+xh
+yP
+AH
+tD
+BM
+DJ
+sh
+"}
+(6,1,1) = {"
+sh
+BM
+Ia
+Ia
+BM
+BM
+YH
+lQ
+hC
+tD
+Fn
+BM
+tD
+ov
+pQ
+YH
+BM
+BM
+YH
+AH
+yf
+tD
+BM
+BM
+sh
+"}
+(7,1,1) = {"
+sh
+BM
+Ia
+BM
+BM
+BM
+JD
+yP
+AH
+tD
+Fn
+Fn
+tD
+MM
+qw
+JD
+BM
+Fn
+JD
+yP
+VI
+tD
+BM
+BM
+sh
+"}
+(8,1,1) = {"
+sh
+BM
+Ia
+BM
+BM
+BM
+tB
+tB
+tB
+tB
+Ck
+BM
+tB
+tB
+tB
+tB
+Ph
+BM
+tB
+tB
+tB
+tB
+Ph
+BM
+sh
+"}
+(9,1,1) = {"
+sh
+BM
+BM
+hR
+BM
+BM
+BM
+BM
+BM
+BM
+BM
+BM
+BM
+BM
+fq
+BM
+Fn
+BM
+Fn
+Fn
+BM
+BM
+BM
+sh
+sh
+"}
+(10,1,1) = {"
+sh
+sh
+sh
+BM
+BM
+Ee
+Fn
+BM
+Jv
+BM
+BM
+BM
+Fn
+Fn
+Yq
+PD
+Fn
+Fn
+BM
+BM
+Yq
+zG
+Fn
+Fn
+BM
+"}
+(11,1,1) = {"
+AH
+BM
+BM
+PN
+BM
+BM
+tB
+tB
+tB
+tB
+Ph
+BM
+tB
+tB
+tB
+tB
+Ph
+Fn
+tB
+tB
+tB
+tB
+Ph
+BM
+BM
+"}
+(12,1,1) = {"
+AH
+BM
+sh
+BM
+BM
+BM
+xh
+yP
+VI
+tD
+BM
+BM
+tD
+sJ
+yP
+xh
+BM
+Fn
+xh
+yP
+pQ
+tD
+BM
+sh
+BM
+"}
+(13,1,1) = {"
+AH
+BM
+IV
+pI
+IV
+IV
+td
+mH
+Xq
+tD
+BM
+BM
+tD
+or
+AH
+YH
+BM
+Fn
+YH
+VI
+xt
+tD
+BM
+PN
+BM
+"}
+(14,1,1) = {"
+AH
+BM
+BM
+BM
+BM
+BM
+JD
+yP
+xt
+tD
+BM
+BM
+tD
+AH
+lR
+JD
+BM
+Fn
+JD
+lX
+jo
+tD
+BM
+pM
+BM
+"}
+(15,1,1) = {"
+AH
+BM
+BM
+df
+Fn
+Fn
+tB
+tB
+tB
+tB
+Ph
+BM
+tB
+tB
+tB
+tB
+Ph
+Fn
+tB
+tB
+tB
+tB
+Ev
+pM
+BM
+"}
+(16,1,1) = {"
+AH
+BM
+sh
+BM
+Fn
+Hz
+Fn
+BM
+BM
+BM
+Ee
+BM
+BM
+Fn
+Fn
+Fn
+Fn
+BM
+Fn
+BM
+Fn
+Fn
+Fn
+pM
+BM
+"}
+(17,1,1) = {"
+sh
+sh
+sh
+BM
+BM
+Fn
+Fn
+Fn
+Yq
+BM
+BM
+BM
+BM
+BM
+Jv
+BM
+Fn
+Fn
+BM
+BM
+Yq
+Fn
+Fn
+Fn
+BM
+"}
+(18,1,1) = {"
+sh
+BM
+BM
+BM
+Ia
+BM
+tB
+tB
+tB
+tB
+GQ
+Fn
+tB
+tB
+tB
+tB
+Ph
+BM
+tB
+tB
+tB
+tB
+Ph
+BM
+sh
+"}
+(19,1,1) = {"
+sh
+BM
+Ia
+Ia
+Ia
+BM
+xh
+DJ
+uC
+pV
+BM
+BM
+tD
+vv
+yP
+xh
+BM
+Fn
+xh
+yP
+AH
+tD
+BM
+BM
+sh
+"}
+(20,1,1) = {"
+sh
+Ia
+Ia
+Ia
+BM
+BM
+YH
+DJ
+DJ
+Gf
+DJ
+hj
+tD
+No
+PT
+YH
+BM
+wx
+YH
+Ia
+Ia
+tD
+BM
+hR
+sh
+"}
+(21,1,1) = {"
+sh
+Ia
+Ia
+BM
+BM
+BM
+JD
+Ed
+DJ
+Gf
+DJ
+Fn
+tD
+No
+kv
+JD
+BM
+Fn
+JD
+Ia
+VI
+tD
+BM
+Fn
+sh
+"}
+(22,1,1) = {"
+sh
+BM
+Fn
+BM
+BM
+BM
+tB
+tB
+tB
+tB
+Ph
+Fn
+tB
+tB
+tB
+tB
+Ph
+Fn
+tB
+tB
+tB
+tB
+Ck
+BM
+sh
+"}
+(23,1,1) = {"
+sh
+xe
+Fn
+Hz
+Fn
+Fn
+Fn
+BM
+zT
+BM
+BM
+BM
+vy
+BM
+zT
+BM
+BM
+BM
+BM
+BM
+qh
+Fn
+wx
+BM
+sh
+"}
+(24,1,1) = {"
+sh
+BM
+BM
+BM
+BM
+BM
+BM
+Fn
+BM
+sh
+BM
+pM
+pM
+Fn
+pM
+sh
+sh
+BM
+PN
+BM
+Fn
+Fn
+Fn
+BM
+sh
+"}
+(25,1,1) = {"
+sh
+sh
+sh
+sh
+sh
+sh
+sh
+sh
+sh
+sh
+BM
+BM
+BM
+BM
+BM
+BM
+sh
+sh
+sh
+sh
+sh
+sh
+sh
+sh
+sh
+"}
