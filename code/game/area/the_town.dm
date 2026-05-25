@@ -25,6 +25,9 @@
 	icon_state = "shop"
 	background_track = 'sound/music/area/shop.ogg'
 
+/area/indoors/town/waterworks
+	first_time_text = "DOMAN WATERWORKS"
+
 /area/indoors/town/bath
 	name = "Baths"
 	icon_state = "bath"
@@ -108,12 +111,12 @@
 /area/indoors/town/church/chapel
 	name = "prayer hall"
 	icon_state = "chapel"
-	first_time_text = "THE HOUSE OF THE TEN"
+	first_time_text = "CHURCH OF THE ELEMENTS"
 
 /area/indoors/town/church/inquisition
 	name = "inquisition"
 	icon_state = "inquisition"
-	first_time_text = "INQUISITIONS LAIR"
+	first_time_text = "KATHOLIKON BASTION"
 
 /area/indoors/town/fire_chamber
 	name = "incinerator"
@@ -161,7 +164,7 @@
 	icon_state = "clinic_feld"
 
 /area/indoors/town/thieves_guild
-	name = "Theives' Guild"
+	name = "Thieves' Guild"
 	first_time_text = "Thieves' Guild"
 	icon_state = "thieves_guild"
 
@@ -230,10 +233,6 @@
 	background_track_night = 'sound/music/area/deliverer.ogg'
 	converted_type = /area/indoors/shelter/town
 	threat_region = THREAT_REGION_TOWN
-
-/area/outdoors/town/Initialize()
-	. = ..()
-	first_time_text = "[uppertext(SSmapping.config.map_name)]"
 
 /area/indoors/shelter/town
 	icon_state = "town"
@@ -332,3 +331,23 @@
 	background_track_dusk = 'sound/music/area/septimus.ogg'
 	background_track_night = 'sound/music/area/sleeping.ogg'
 	converted_type = /area/indoors/shelter/basin
+
+//distinct areas for domotan island
+/area/outdoors/town/docksmortimer
+	first_time_text = "DOCKS MORTIMER"
+
+/area/outdoors/town/plaza
+	first_time_text = "CENTRAL PLAZA"
+
+/area/outdoors/town/neighborhood
+	first_time_text = "DOMAN CENTRAL BOROUGH"
+	ambient_index = AMBIENCE_GENERIC
+	background_track = 'sound/music/area/field.ogg'
+	converted_type = /area/indoors/shelter/town
+
+/area/outdoors/town/neighborhood/east
+	first_time_text = "EASTERN DOMAN BOROUGH"
+
+/area/outdoors/town/neighborhood/west
+	first_time_text = "WESTERN DOMAN BOROUGH"
+

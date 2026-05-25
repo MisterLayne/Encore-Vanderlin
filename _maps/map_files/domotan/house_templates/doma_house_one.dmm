@@ -67,6 +67,10 @@
 	},
 /turf/open/floor/wood,
 /area/indoors/town)
+"C" = (
+/obj/structure/fake_machine/scomm/r,
+/turf/open/floor/twig,
+/area/indoors/town)
 "D" = (
 /obj/machinery/light/fueled/torchholder{
 	dir = 4
@@ -170,7 +174,7 @@ v
 b
 i
 i
-i
+C
 i
 G
 "}
