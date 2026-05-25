@@ -1,14 +1,6 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "aa" = (
-/mob/living/carbon/human/species/goblin/npc/ambush/cave,
-/turf/open/floor/dirt/road,
-/area/indoors/cave)
-"aP" = (
-/mob/living/carbon/human/species/goblin/npc/ambush/cave,
-/turf/open/floor/naturalstone,
-/area/indoors/cave)
-"be" = (
-/obj/structure/table/map/enigma,
+/obj/effect/spawner/map_spawner/sewerencounter,
 /turf/open/floor/dirt/road,
 /area/indoors/cave)
 "bJ" = (
@@ -71,18 +63,11 @@
 "lR" = (
 /obj/effect/decal/cleanable/blood/gibs/torso,
 /obj/effect/decal/cleanable/blood/old,
-/mob/living/carbon/human/species/goblin/npc/ambush/cave,
 /turf/open/floor/naturalstone,
 /area/indoors/cave)
 "nm" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
-"nQ" = (
-/obj/structure/table/map/enigma{
-	dir = 6
-	},
-/turf/open/floor/dirt/road,
 /area/indoors/cave)
 "om" = (
 /turf/open/floor/dirt/road,
@@ -139,7 +124,6 @@
 "vJ" = (
 /obj/structure/fluff/railing/tall/palisade,
 /obj/structure/fluff/railing/tall/palisade,
-/obj/structure/fluff/walldeco/customflag,
 /turf/open/floor/naturalstone,
 /area/indoors/cave)
 "vM" = (
@@ -167,6 +151,7 @@
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 10
 	},
+/obj/effect/spawner/map_spawner/sewerencounter,
 /turf/open/floor/naturalstone,
 /area/indoors/cave)
 "zP" = (
@@ -189,10 +174,8 @@
 /turf/open/floor/dirt/road,
 /area/indoors/cave)
 "Fl" = (
-/obj/structure/table/map/enigma{
-	dir = 1
-	},
 /obj/item/weapon/knife/dagger/steel,
+/obj/structure/table/wood/crafted,
 /turf/open/floor/dirt/road,
 /area/indoors/cave)
 "Gh" = (
@@ -213,10 +196,9 @@
 /turf/open/floor/dirt/road,
 /area/indoors/cave)
 "HR" = (
-/obj/structure/table/map/enigma{
-	dir = 10
-	},
-/turf/open/floor/dirt/road,
+/obj/structure/fluff/railing/tall/palisade,
+/obj/structure/fluff/walldeco/customflag/regent,
+/turf/open/floor/naturalstone,
 /area/indoors/cave)
 "IC" = (
 /obj/item/bodypart/l_leg,
@@ -228,37 +210,21 @@
 /obj/effect/spawner/map_spawner/loot/weapon,
 /turf/open/floor/dirt/road,
 /area/indoors/cave)
-"Ke" = (
-/obj/structure/table/map/enigma{
-	dir = 5
-	},
-/turf/open/floor/dirt/road,
-/area/indoors/cave)
 "Le" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/structure/fluff/railing/tall/palisade,
-/obj/structure/fluff/walldeco/customflag,
 /turf/open/floor/dirt/road,
 /area/indoors/cave)
 "Ly" = (
 /obj/effect/decal/cleanable/blood/puddle,
 /obj/structure/fluff/railing/tall/palisade,
-/obj/structure/fluff/walldeco/customflag,
+/obj/structure/fluff/walldeco/customflag/regent,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
-"On" = (
-/obj/structure/fluff/walldeco/customflag,
-/turf/closed/mineral,
 /area/indoors/cave)
 "Ps" = (
 /obj/structure/rack/shelf/big,
 /obj/effect/spawner/map_spawner/loot/armor,
 /obj/effect/spawner/map_spawner/loot/armor,
-/turf/open/floor/dirt/road,
-/area/indoors/cave)
-"PC" = (
-/obj/effect/decal/cleanable/blood/old,
-/mob/living/carbon/human/species/goblin/npc/ambush/cave,
 /turf/open/floor/dirt/road,
 /area/indoors/cave)
 "PE" = (
@@ -287,17 +253,16 @@
 /area/indoors/cave)
 "RW" = (
 /obj/structure/tent_wall,
-/obj/structure/fluff/walldeco/customflag,
+/obj/structure/fluff/walldeco/customflag/regent,
 /turf/open/floor/naturalstone,
 /area/indoors/cave)
 "TI" = (
-/obj/structure/table/map/enigma{
-	dir = 9
-	},
+/obj/structure/table/wood/crafted,
 /turf/open/floor/dirt/road,
 /area/indoors/cave)
 "TX" = (
 /obj/machinery/light/fueled/torchholder/c,
+/obj/effect/spawner/map_spawner/sewerencounter,
 /turf/open/floor/dirt/road,
 /area/indoors/cave)
 "WB" = (
@@ -319,9 +284,8 @@
 /turf/open/floor/naturalstone,
 /area/indoors/cave)
 "YU" = (
-/obj/effect/decal/cleanable/blood/puddle,
-/mob/living/carbon/human/species/goblin/npc/ambush/cave,
-/turf/open/floor/dirt/road,
+/obj/effect/spawner/map_spawner/sewerencounter,
+/turf/open/floor/naturalstone,
 /area/indoors/cave)
 "Zn" = (
 /obj/effect/decal/cleanable/blood/tracks,
@@ -495,7 +459,7 @@ jE
 jE
 jE
 Gh
-Gh
+YU
 Gh
 Qd
 Qd
@@ -524,17 +488,17 @@ jE
 Gh
 Gh
 Gh
-RW
+Qd
 Hi
 om
 JD
 Ps
 oV
-Qd
+RW
 Gh
 lF
 Gh
-om
+aa
 om
 om
 Gh
@@ -554,10 +518,10 @@ lF
 Qd
 ll
 om
-YU
+eB
 om
 ll
-RW
+Qd
 Gh
 tb
 tb
@@ -578,9 +542,9 @@ Gh
 Gh
 om
 Gh
-Qd
+RW
 oV
-om
+aa
 om
 eB
 tU
@@ -635,13 +599,13 @@ Gh
 bJ
 Gh
 Gh
-aP
+Gh
 Gh
 Gh
 uW
 Gh
 lH
-aa
+om
 om
 Ys
 om
@@ -660,7 +624,7 @@ Gh
 lF
 om
 Ly
-aP
+Gh
 vR
 Gh
 yH
@@ -692,7 +656,7 @@ Gh
 nm
 El
 om
-aP
+Gh
 Qd
 Qd
 Qd
@@ -739,10 +703,10 @@ Gh
 jE
 lB
 TI
-HR
+om
 AO
 aa
-Qd
+RW
 Gh
 Eo
 jY
@@ -766,7 +730,7 @@ Gh
 jE
 cw
 Fl
-be
+om
 AO
 om
 Qd
@@ -790,17 +754,17 @@ Gh
 (18,1,1) = {"
 Gh
 jE
-On
+jE
 PQ
-Ke
-nQ
+TI
+om
 AO
 Zn
 RB
 qs
 WT
 Gh
-Gh
+YU
 wc
 om
 kh
@@ -820,7 +784,7 @@ jE
 jE
 TX
 om
-PC
+Eo
 IC
 om
 Qd
@@ -859,7 +823,7 @@ Ys
 Gh
 yf
 Gh
-Ys
+HR
 Gh
 om
 jE
@@ -888,7 +852,7 @@ Gh
 Gh
 Gh
 om
-om
+aa
 jE
 jE
 jE

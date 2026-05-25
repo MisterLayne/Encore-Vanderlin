@@ -1,40 +1,40 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/closed/mineral,
-/area/empty_space)
+/area/indoors/cave)
 "b" = (
 /obj/effect/decal/cleanable/dirt/cobweb,
 /turf/open/floor/naturalstone,
-/area/empty_space)
+/area/indoors/cave)
 "e" = (
 /mob/living/simple_animal/hostile/retaliate/spider,
 /turf/open/floor/naturalstone,
-/area/empty_space)
+/area/indoors/cave)
 "o" = (
 /obj/structure/spider/stickyweb,
 /mob/living/simple_animal/hostile/retaliate/spider,
 /turf/open/floor/naturalstone,
-/area/empty_space)
+/area/indoors/cave)
 "q" = (
 /turf/open/floor/naturalstone,
-/area/empty_space)
+/area/indoors/cave)
 "r" = (
 /obj/structure/spider/stickyweb,
 /obj/effect/spawner/map_spawner/loot,
 /turf/open/floor/naturalstone,
-/area/empty_space)
+/area/indoors/cave)
 "t" = (
 /obj/structure/spider/stickyweb,
 /turf/open/floor/naturalstone,
-/area/empty_space)
+/area/indoors/cave)
 "J" = (
 /obj/effect/decal/cleanable/dirt/cobweb/cobweb2,
 /turf/open/floor/naturalstone,
-/area/empty_space)
+/area/indoors/cave)
 "Q" = (
 /obj/effect/spawner/map_spawner/loot,
 /turf/open/floor/naturalstone,
-/area/empty_space)
+/area/indoors/cave)
 
 (1,1,1) = {"
 a
