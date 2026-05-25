@@ -1,40 +1,61 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/closed/mineral,
-/area/indoors/cave)
+/area/under/cave)
 "b" = (
 /obj/effect/decal/cleanable/dirt/cobweb,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
+"c" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
+/turf/open/floor/naturalstone,
+/area/under/cave)
 "e" = (
 /mob/living/simple_animal/hostile/retaliate/spider,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "o" = (
 /obj/structure/spider/stickyweb,
 /mob/living/simple_animal/hostile/retaliate/spider,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "q" = (
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "r" = (
 /obj/structure/spider/stickyweb,
 /obj/effect/spawner/map_spawner/loot,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "t" = (
 /obj/structure/spider/stickyweb,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
+"u" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/naturalstone,
+/area/under/cave)
+"C" = (
+/obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
+/turf/open/floor/naturalstone,
+/area/under/cave)
+"E" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/naturalstone,
+/area/under/cave)
 "J" = (
 /obj/effect/decal/cleanable/dirt/cobweb/cobweb2,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "Q" = (
 /obj/effect/spawner/map_spawner/loot,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
+"Z" = (
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/naturalstone,
+/area/under/cave)
 
 (1,1,1) = {"
 a
@@ -48,11 +69,11 @@ a
 a
 q
 q
+C
 q
 q
 q
-q
-q
+C
 a
 a
 a
@@ -133,8 +154,8 @@ a
 a
 a
 a
-q
-q
+u
+E
 a
 a
 a
@@ -235,7 +256,7 @@ t
 a
 a
 q
-q
+C
 e
 q
 q
@@ -247,7 +268,7 @@ t
 a
 a
 q
-q
+E
 a
 a
 a
@@ -316,7 +337,7 @@ q
 q
 a
 q
-q
+u
 q
 a
 a
@@ -366,7 +387,7 @@ a
 a
 a
 a
-q
+E
 q
 q
 t
@@ -410,12 +431,12 @@ a
 a
 q
 q
-q
-q
-q
+C
+c
+Z
 "}
 (15,1,1) = {"
-q
+C
 a
 q
 a
@@ -426,26 +447,26 @@ a
 a
 q
 q
-q
-q
-q
-a
+Z
+Z
 q
 a
-a
+q
 a
 a
 a
-q
-q
-q
-q
+a
+a
+u
+C
+Z
+Z
 "}
 (16,1,1) = {"
 q
+Z
+Z
 q
-q
-q
 a
 a
 a
@@ -455,7 +476,7 @@ a
 a
 a
 q
-q
+Z
 a
 t
 t
@@ -465,12 +486,12 @@ a
 a
 q
 a
-q
-q
+Z
+Z
 "}
 (17,1,1) = {"
 a
-q
+Z
 q
 e
 a
@@ -481,7 +502,7 @@ a
 Q
 t
 t
-q
+u
 q
 a
 t
@@ -586,9 +607,9 @@ q
 t
 t
 q
-q
-q
-q
+Z
+Z
+Z
 q
 t
 a
@@ -616,9 +637,9 @@ t
 t
 t
 t
-q
-q
-q
+Z
+Z
+Z
 a
 t
 q

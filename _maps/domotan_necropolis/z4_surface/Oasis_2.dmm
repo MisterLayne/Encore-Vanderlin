@@ -2,24 +2,24 @@
 "a" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
 "b" = (
 /obj/machinery/light/fueled/hearth,
 /turf/open/floor/grass/cold,
-/area/indoors/cave)
+/area/under/cave)
 "c" = (
 /obj/machinery/anvil,
 /turf/open/floor/grass/yel,
-/area/indoors/cave)
+/area/under/cave)
 "d" = (
 /obj/structure/composter/full,
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
 "e" = (
 /obj/structure/bed/hay,
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "f" = (
 /obj/structure/closet/crate/chest/crate,
 /obj/item/neuFarm/seed/onion,
@@ -43,7 +43,7 @@
 /obj/item/neuFarm/seed/tamto,
 /obj/item/neuFarm/seed/tamto,
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
 "g" = (
 /obj/structure/closet/crate/chest/old_crate,
 /obj/item/reagent_containers/food/snacks/butter,
@@ -58,15 +58,22 @@
 /obj/effect/spawner/map_spawner/loot/food,
 /obj/effect/spawner/map_spawner/loot/food,
 /turf/open/floor/grass/cold,
-/area/indoors/cave)
+/area/under/cave)
+"h" = (
+/turf/open/water/ocean,
+/area/under/cave)
 "i" = (
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
+"j" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/dirt/road,
+/area/under/cave)
 "k" = (
 /obj/structure/rack,
 /obj/effect/spawner/map_spawner/loot/armor,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "l" = (
 /obj/structure/closet/crate/chest/old_crate,
 /obj/item/reagent_containers/food/snacks/produce/vegetable/onion,
@@ -83,112 +90,125 @@
 /obj/effect/spawner/map_spawner/loot/food,
 /obj/effect/spawner/map_spawner/loot/food,
 /turf/open/floor/grass/cold,
-/area/indoors/cave)
+/area/under/cave)
 "m" = (
 /turf/open/floor/grass/cold,
-/area/indoors/cave)
+/area/under/cave)
 "n" = (
 /obj/structure/flora/grass/bush_meagre,
-/turf/open/floor/grass/eora,
-/area/indoors/cave)
+/turf/open/floor/grass/red,
+/area/under/cave)
 "o" = (
 /obj/structure/table/wood/counter{
 	dir = 1
 	},
 /obj/item/reagent_containers/glass/bucket/pot,
 /turf/open/floor/grass/cold,
-/area/indoors/cave)
+/area/under/cave)
 "p" = (
 /obj/structure/flora/ausbushes/leafybush,
 /turf/open/floor/grass/yel,
-/area/indoors/cave)
+/area/under/cave)
 "q" = (
 /obj/structure/flora/grass/bush,
-/turf/open/floor/grass/eora,
-/area/indoors/cave)
+/turf/open/floor/grass/red,
+/area/under/cave)
 "s" = (
 /obj/structure/flora/tree/dead_bush,
-/turf/open/floor/grass/eora,
-/area/indoors/cave)
+/turf/open/floor/grass/red,
+/area/under/cave)
 "t" = (
 /obj/structure/table/wood/counter{
 	dir = 1
 	},
 /obj/item/cooking/pan,
 /turf/open/floor/grass/cold,
-/area/indoors/cave)
+/area/under/cave)
+"u" = (
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/open/floor/dirt/road,
+/area/under/cave)
 "v" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/grass/cold,
-/area/indoors/cave)
+/area/under/cave)
 "w" = (
-/turf/open/floor/grass/eora,
-/area/indoors/cave)
+/turf/open/floor/grass/red,
+/area/under/cave)
 "x" = (
 /obj/structure/rack,
 /obj/effect/spawner/map_spawner/loot/weapon,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "y" = (
 /obj/structure/chair/stool,
 /turf/open/floor/grass/yel,
-/area/indoors/cave)
+/area/under/cave)
 "z" = (
 /obj/structure/flora/ausbushes/pointybush,
 /turf/open/floor/grass/yel,
-/area/indoors/cave)
+/area/under/cave)
 "B" = (
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
 "C" = (
 /obj/machinery/light/fueled/forge,
 /turf/open/floor/grass/yel,
-/area/indoors/cave)
+/area/under/cave)
 "D" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
+"F" = (
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/open/floor/naturalstone,
+/area/under/cave)
+"G" = (
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
+/turf/open/floor/naturalstone,
+/area/under/cave)
 "H" = (
 /obj/structure/bed/hay,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "I" = (
 /turf/closed/mineral,
-/area/indoors/cave)
+/area/under/cave)
 "J" = (
 /obj/structure/tent_wall,
 /turf/open/floor/grass/cold,
-/area/indoors/cave)
+/area/under/cave)
 "K" = (
 /turf/open/floor/grass/yel,
-/area/indoors/cave)
+/area/under/cave)
 "L" = (
 /obj/structure/roguetent,
 /turf/open/floor/grass/cold,
-/area/indoors/cave)
+/area/under/cave)
 "M" = (
 /obj/structure/chair/wood{
 	dir = 4
 	},
 /turf/open/floor/grass/cold,
-/area/indoors/cave)
+/area/under/cave)
 "N" = (
 /obj/structure/fermentation_keg/water,
 /turf/open/floor/grass/yel,
-/area/indoors/cave)
+/area/under/cave)
 "O" = (
-/turf/open/water,
-/area/indoors/cave)
+/obj/effect/spawner/map_spawner/necropolis/water_clutter,
+/turf/open/water/ocean,
+/area/under/cave)
 "P" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/grass/cold,
-/area/indoors/cave)
+/area/under/cave)
 "Q" = (
 /obj/machinery/light/fueled/campfire/densefire,
 /turf/open/floor/grass/yel,
-/area/indoors/cave)
+/area/under/cave)
 "R" = (
 /obj/structure/closet/crate/chest/crate,
 /obj/item/weapon/hoe,
@@ -198,14 +218,22 @@
 /obj/item/reagent_containers/glass/bucket,
 /obj/item/reagent_containers/glass/bucket,
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
+"S" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/naturalstone,
+/area/under/cave)
+"T" = (
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
+/turf/open/floor/grass/yel,
+/area/under/cave)
 "U" = (
 /obj/structure/flora/ausbushes/grassybush,
 /turf/open/floor/grass/yel,
-/area/indoors/cave)
+/area/under/cave)
 "V" = (
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "W" = (
 /obj/structure/closet/crate/chest/wicker,
 /obj/item/ore/coal,
@@ -223,15 +251,19 @@
 /obj/item/ore/coal,
 /obj/item/ore/coal,
 /turf/open/floor/grass/cold,
-/area/indoors/cave)
+/area/under/cave)
+"X" = (
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
+/turf/open/floor/dirt/road,
+/area/under/cave)
 "Y" = (
 /obj/structure/grindwheel,
 /turf/open/floor/grass/yel,
-/area/indoors/cave)
+/area/under/cave)
 "Z" = (
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/grass/cold,
-/area/indoors/cave)
+/area/under/cave)
 
 (1,1,1) = {"
 I
@@ -274,8 +306,8 @@ I
 I
 I
 i
-i
-i
+S
+G
 I
 I
 I
@@ -357,7 +389,7 @@ m
 m
 V
 V
-V
+j
 w
 q
 q
@@ -383,7 +415,7 @@ m
 P
 P
 m
-V
+u
 V
 w
 w
@@ -430,7 +462,7 @@ m
 m
 m
 V
-V
+u
 V
 V
 m
@@ -439,7 +471,7 @@ m
 m
 m
 V
-V
+u
 w
 n
 w
@@ -457,12 +489,12 @@ m
 V
 V
 V
+u
 V
 V
 V
-V
-O
-O
+h
+h
 m
 m
 V
@@ -481,18 +513,18 @@ i
 I
 P
 m
-V
+u
 V
 K
 K
 V
+u
 V
+h
+h
+h
 V
-O
-O
-O
-V
-V
+u
 V
 w
 q
@@ -509,15 +541,15 @@ I
 P
 P
 V
-V
+j
 K
 K
 V
 V
+h
 O
-O
-O
-O
+h
+h
 V
 V
 w
@@ -528,24 +560,24 @@ w
 w
 w
 I
-i
+G
 "}
 (12,1,1) = {"
 i
 I
 m
-V
+X
 V
 V
 p
 K
 V
-O
-O
-O
-O
-O
-O
+h
+V
+V
+V
+X
+h
 V
 w
 w
@@ -567,13 +599,13 @@ K
 K
 K
 V
-O
-O
-O
-O
-O
-O
-O
+h
+V
+V
+V
+V
+h
+h
 w
 n
 w
@@ -587,27 +619,27 @@ i
 (14,1,1) = {"
 i
 i
-V
+j
 K
 K
 p
 K
+h
 O
-O
-O
-O
-O
-O
-O
-O
-O
-O
+h
+V
+V
+V
+V
+h
+h
+h
 w
 w
 w
 V
 V
-V
+j
 I
 i
 "}
@@ -618,21 +650,21 @@ V
 K
 K
 K
-O
-O
-O
-O
-O
-O
-O
-O
-O
-O
-O
+h
+h
+h
+h
+V
+V
+V
+V
+h
+h
+h
 w
 V
 V
-V
+u
 V
 V
 i
@@ -648,14 +680,14 @@ U
 K
 K
 V
+h
 O
+h
+h
+h
 O
-O
-O
-O
-O
-O
-O
+h
+h
 w
 V
 V
@@ -678,19 +710,19 @@ V
 V
 V
 V
+h
 O
-O
-O
+h
 V
 V
 V
-V
+j
 B
 a
 a
 B
 I
-i
+F
 "}
 (18,1,1) = {"
 I
@@ -701,15 +733,15 @@ K
 z
 K
 V
-V
-V
+u
+j
 V
 B
+h
 O
-O
-O
+h
 V
-V
+u
 V
 B
 B
@@ -734,7 +766,7 @@ V
 V
 a
 B
-O
+h
 B
 B
 B
@@ -758,7 +790,7 @@ K
 K
 U
 V
-V
+u
 V
 B
 B
@@ -786,7 +818,7 @@ K
 K
 K
 K
-V
+j
 V
 B
 a
@@ -804,7 +836,7 @@ I
 I
 I
 K
-K
+T
 K
 K
 K
@@ -894,7 +926,7 @@ I
 I
 I
 i
-i
+F
 i
 i
 i

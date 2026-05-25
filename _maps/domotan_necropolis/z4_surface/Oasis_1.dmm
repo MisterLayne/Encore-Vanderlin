@@ -1,14 +1,15 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/closed/wall/mineral/decostone/moss/blue,
-/area/indoors/cave)
+/area/under/cave)
 "b" = (
+/obj/effect/spawner/map_spawner/necropolis/water_clutter,
 /turf/open/water,
-/area/indoors/cave)
+/area/under/cave)
 "c" = (
 /obj/machinery/light/fueled/hearth,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "d" = (
 /obj/structure/closet/crate/chest/wicker,
 /obj/item/ore/coal,
@@ -16,155 +17,182 @@
 /obj/item/ore/coal,
 /obj/item/ore/coal,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "f" = (
 /obj/structure/chair/hotspring_bench/left,
 /turf/open/floor/cobblerock,
-/area/indoors/cave)
+/area/under/cave)
 "g" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/grass/healthy,
-/area/indoors/cave)
+/area/under/cave)
 "i" = (
 /obj/machinery/light/fueled/campfire/longlived,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
+"j" = (
+/obj/effect/spawner/map_spawner/necropolis/water_clutter,
+/turf/open/water/river,
+/area/under/cave)
 "l" = (
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/cobblerock,
-/area/indoors/cave)
+/area/under/cave)
 "m" = (
 /turf/open/floor/cobblerock,
-/area/indoors/cave)
+/area/under/cave)
 "n" = (
 /obj/structure/flora/ausbushes/brflowers,
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/grass/healthy,
-/area/indoors/cave)
+/area/under/cave)
 "o" = (
 /obj/structure/bridge_stakes{
 	dir = 4
 	},
 /turf/open/floor/grass/healthy,
-/area/indoors/cave)
+/area/under/cave)
 "p" = (
 /turf/closed/mineral,
-/area/indoors/cave)
+/area/under/cave)
+"q" = (
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/open/floor/naturalstone,
+/area/under/cave)
 "r" = (
 /obj/structure/bridge_stakes{
 	dir = 8
 	},
 /turf/open/floor/grass/healthy,
-/area/indoors/cave)
+/area/under/cave)
 "s" = (
 /obj/structure/chair/hotspring_bench/right,
 /turf/open/floor/cobblerock,
-/area/indoors/cave)
+/area/under/cave)
 "t" = (
 /obj/structure/flora/grass/pyroclasticflowers,
 /turf/open/floor/grass/healthy,
-/area/indoors/cave)
+/area/under/cave)
 "u" = (
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "v" = (
 /obj/structure/door/weak,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "w" = (
 /obj/machinery/light/fueled/torchholder/l{
 	pixel_x = -12
 	},
 /turf/open/floor/cobblerock,
-/area/indoors/cave)
+/area/under/cave)
 "x" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/open/floor/grass/healthy,
-/area/indoors/cave)
+/area/under/cave)
 "y" = (
 /obj/structure/chair/hotspring_bench/left{
 	dir = 1
 	},
 /turf/open/floor/cobblerock,
-/area/indoors/cave)
+/area/under/cave)
 "z" = (
 /obj/structure/chair/hotspring_bench/right{
 	dir = 1
 	},
 /turf/open/floor/cobblerock,
-/area/indoors/cave)
+/area/under/cave)
 "A" = (
 /turf/open/water/river{
 	dir = 8
 	},
-/area/indoors/cave)
+/area/under/cave)
 "B" = (
 /obj/structure/flora/pillar,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "D" = (
 /obj/machinery/light/fueled/torchholder/r{
 	pixel_x = 10
 	},
 /turf/open/floor/cobblerock,
-/area/indoors/cave)
+/area/under/cave)
 "E" = (
 /turf/open/floor/grass/healthy,
-/area/indoors/cave)
+/area/under/cave)
 "F" = (
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/grass/healthy,
-/area/indoors/cave)
+/area/under/cave)
 "G" = (
 /obj/structure/lootable_structure/stockpile/grain_barrel,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "H" = (
 /obj/structure/bed/sleepingbag,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "I" = (
 /obj/structure/flora/pillar,
 /turf/open/floor/cobblerock,
-/area/indoors/cave)
+/area/under/cave)
 "J" = (
 /obj/structure/well/fountain,
 /turf/open/floor/cobblerock,
-/area/indoors/cave)
+/area/under/cave)
 "K" = (
 /obj/structure/bridge{
 	dir = 4
 	},
 /turf/open/water/river,
-/area/indoors/cave)
+/area/under/cave)
+"M" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/naturalstone,
+/area/under/cave)
 "N" = (
 /turf/open/water/river,
-/area/indoors/cave)
+/area/under/cave)
+"O" = (
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
+/turf/open/floor/naturalstone,
+/area/under/cave)
+"P" = (
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
+/turf/closed/mineral,
+/area/under/cave)
+"Q" = (
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/open/floor/dirt/road,
+/area/under/cave)
 "R" = (
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
+"S" = (
+/turf/open/water,
+/area/under/cave)
 "T" = (
 /obj/structure/bridge{
 	dir = 8
 	},
 /turf/open/water/river,
-/area/indoors/cave)
+/area/under/cave)
 "U" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/grass/healthy,
-/area/indoors/cave)
+/area/under/cave)
 "V" = (
 /obj/structure/bed/hay,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "W" = (
 /obj/structure/table/wood/counter{
 	dir = 4
 	},
 /obj/structure/fluff/millstone,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "X" = (
 /obj/structure/table/wood/counter{
 	dir = 4
@@ -178,18 +206,18 @@
 	pixel_y = -5
 	},
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "Y" = (
 /obj/machinery/light/fueled/torchholder/c{
 	dir = 1;
 	pixel_y = -2
 	},
 /turf/open/floor/cobblerock,
-/area/indoors/cave)
+/area/under/cave)
 "Z" = (
 /obj/structure/lootable_structure/stockpile/fish_barrel,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 
 (1,1,1) = {"
 p
@@ -204,19 +232,19 @@ p
 p
 p
 R
-R
+q
 E
 E
 E
 E
-R
+q
 p
 p
 p
 p
 p
 p
-p
+P
 "}
 (2,1,1) = {"
 p
@@ -263,11 +291,11 @@ U
 U
 E
 E
-b
-b
-b
-b
-b
+S
+S
+S
+S
+S
 p
 p
 p
@@ -283,17 +311,17 @@ v
 E
 E
 E
-u
+Q
 u
 E
 U
 U
 U
 E
+S
+S
 b
-b
-b
-b
+S
 b
 p
 p
@@ -318,25 +346,25 @@ E
 E
 E
 E
+S
 b
-b
-b
-b
+S
+S
 p
 p
 p
 "}
 (6,1,1) = {"
 p
-R
+M
 G
 Z
 p
 p
 p
-b
-b
-b
+S
+S
+S
 H
 i
 u
@@ -346,9 +374,9 @@ E
 t
 E
 E
-b
-b
-b
+S
+S
+S
 p
 p
 p
@@ -362,7 +390,7 @@ p
 p
 p
 b
-b
+S
 u
 u
 H
@@ -373,8 +401,8 @@ E
 E
 E
 N
-b
-b
+S
+S
 b
 p
 p
@@ -384,12 +412,12 @@ p
 p
 p
 p
-R
+O
 p
 p
 p
-b
-b
+S
+S
 u
 u
 u
@@ -402,7 +430,7 @@ E
 N
 N
 b
-b
+S
 p
 p
 p
@@ -411,11 +439,11 @@ p
 p
 p
 p
-R
+M
 R
 p
 p
-b
+S
 N
 N
 N
@@ -425,10 +453,10 @@ N
 K
 T
 N
+j
 N
 N
-N
-b
+S
 b
 p
 p
@@ -439,15 +467,15 @@ p
 p
 p
 p
-R
+M
 E
 p
-b
-b
+S
+S
 A
 n
 F
-N
+j
 N
 K
 T
@@ -455,8 +483,8 @@ N
 N
 N
 N
-b
-b
+S
+S
 p
 p
 p
@@ -482,8 +510,8 @@ E
 u
 u
 E
-b
-b
+S
+S
 p
 p
 R
@@ -517,7 +545,7 @@ R
 "}
 (13,1,1) = {"
 R
-R
+q
 R
 R
 R
@@ -545,7 +573,7 @@ E
 (14,1,1) = {"
 R
 R
-R
+q
 R
 E
 F
@@ -562,7 +590,7 @@ w
 m
 Y
 a
-b
+S
 E
 t
 p
@@ -605,7 +633,7 @@ p
 p
 p
 E
-b
+S
 E
 U
 U
@@ -616,8 +644,8 @@ m
 m
 z
 a
-b
-b
+S
+S
 E
 p
 p
@@ -626,14 +654,14 @@ R
 (17,1,1) = {"
 p
 p
+q
 R
-R
 p
 p
 p
-b
-b
-b
+S
+S
+S
 E
 E
 a
@@ -643,24 +671,24 @@ D
 m
 Y
 a
-b
+S
 E
 E
 p
 p
-R
+q
 "}
 (18,1,1) = {"
 p
 p
-R
-R
+M
+q
 R
 p
 p
+S
 b
-b
-b
+S
 E
 E
 a
@@ -685,8 +713,8 @@ R
 R
 p
 p
-b
-b
+S
+S
 b
 F
 F
@@ -712,9 +740,9 @@ p
 p
 p
 p
-b
-b
-b
+S
+S
+S
 F
 E
 u
@@ -740,8 +768,8 @@ p
 p
 p
 b
-b
-b
+S
+S
 F
 E
 F
@@ -762,12 +790,12 @@ p
 p
 p
 p
+P
 p
 p
 p
-p
-b
-b
+S
+S
 b
 F
 E
@@ -783,7 +811,7 @@ E
 E
 p
 p
-p
+P
 "}
 (23,1,1) = {"
 p
@@ -828,7 +856,7 @@ p
 R
 p
 p
-R
+q
 p
 E
 p
@@ -852,7 +880,7 @@ p
 p
 p
 p
-R
+q
 R
 R
 R

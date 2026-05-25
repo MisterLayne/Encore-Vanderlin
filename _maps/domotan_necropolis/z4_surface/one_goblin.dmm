@@ -1,135 +1,174 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "c" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
+"d" = (
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 4
+	},
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/naturalstone,
+/area/under/cave)
 "e" = (
 /obj/effect/decal/cleanable/blood/footprints,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "f" = (
-/turf/open/openspace,
-/area/indoors/cave)
+/turf/open/floor/dirt,
+/area/under/cave)
 "g" = (
 /mob/living/carbon/human/species/goblin/npc/ambush/cave{
 	name = "Sophie"
 	},
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "h" = (
 /obj/effect/decal/cleanable/blood/gibs/down,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "k" = (
 /obj/effect/decal/cleanable/blood/gibs/torso,
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
+"l" = (
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
+/turf/open/floor/naturalstone,
+/area/under/cave)
 "m" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/effect/decal/cleanable/blood/tracks,
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "n" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/decal/cleanable/blood/gibs/up,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
+"q" = (
+/obj/effect/decal/cleanable/blood/puddle,
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/naturalstone,
+/area/under/cave)
+"r" = (
+/obj/effect/decal/cleanable/blood/old,
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/naturalstone,
+/area/under/cave)
 "s" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "t" = (
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 1
 	},
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "u" = (
 /turf/closed/mineral,
-/area/indoors/cave)
+/area/under/cave)
 "v" = (
 /obj/effect/decal/cleanable/blood/footprints{
 	dir = 8
 	},
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "w" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "x" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "y" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/effect/decal/cleanable/blood/footprints,
 /obj/effect/decal/cleanable/blood,
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "z" = (
 /obj/effect/decal/cleanable/blood/footprints,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "A" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 10
 	},
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
+"B" = (
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/naturalstone,
+/area/under/cave)
 "C" = (
 /obj/effect/decal/cleanable/blood/gibs/old,
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "D" = (
 /obj/machinery/light/fueled/firebowl,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "F" = (
 /obj/effect/decal/cleanable/blood/gibs/up,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
+"G" = (
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/dirt,
+/area/under/cave)
 "I" = (
 /obj/effect/decal/cleanable/blood/puddle,
 /obj/effect/decal/cleanable/blood/old,
 /obj/effect/decal/cleanable/blood/old,
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "J" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
+"K" = (
+/obj/effect/decal/cleanable/blood/gibs/torso,
+/turf/open/floor/naturalstone,
+/area/under/cave)
 "M" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
 	},
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "N" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /obj/effect/decal/cleanable/blood/old,
 /obj/effect/decal/cleanable/blood/gibs,
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "O" = (
 /obj/effect/decal/cleanable/blood/gibs/old,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "P" = (
 /obj/effect/decal/cleanable/blood/gibs,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "Q" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/effect/decal/cleanable/blood,
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "R" = (
 /obj/effect/decal/cleanable/blood/footprints,
 /obj/effect/decal/cleanable/blood/footprints{
@@ -137,28 +176,39 @@
 	},
 /obj/machinery/light/fueled/firebowl,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "S" = (
 /obj/effect/decal/cleanable/blood/puddle,
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "T" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 5
 	},
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
+"U" = (
+/obj/effect/decal/cleanable/blood/tracks,
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/naturalstone,
+/area/under/cave)
 "V" = (
 /obj/effect/decal/cleanable/blood/puddle,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
+"X" = (
+/obj/effect/decal/cleanable/blood/gibs/up,
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/naturalstone,
+/area/under/cave)
 "Y" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 8
 	},
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 
 (1,1,1) = {"
 u
@@ -177,7 +227,7 @@ a
 a
 a
 a
-a
+l
 u
 u
 u
@@ -247,10 +297,10 @@ u
 a
 a
 a
+l
 a
 a
-a
-a
+B
 a
 a
 a
@@ -302,20 +352,20 @@ a
 f
 a
 M
-a
-a
+B
+B
 a
 x
 a
 a
 f
-a
+B
 y
-w
+U
 w
 w
 m
-a
+B
 a
 a
 x
@@ -327,23 +377,23 @@ u
 u
 f
 f
-a
-M
-a
-a
-a
+B
+d
+B
+B
+B
 a
 f
 f
 a
+B
+B
+B
 a
+B
 a
-a
-a
-a
-a
-a
-a
+B
+B
 a
 a
 a
@@ -358,19 +408,19 @@ c
 a
 a
 c
-c
+r
+B
 a
 a
+B
+r
 a
 a
-c
-a
-a
-a
+B
 k
 a
 a
-a
+B
 a
 f
 f
@@ -393,7 +443,7 @@ P
 c
 c
 a
-a
+B
 a
 a
 F
@@ -507,7 +557,7 @@ F
 a
 a
 a
-k
+K
 D
 a
 "}
@@ -550,14 +600,14 @@ a
 a
 a
 a
-a
+B
 a
 V
 a
 a
 a
 a
-a
+B
 a
 a
 a
@@ -570,21 +620,21 @@ u
 u
 a
 a
-a
-a
-a
+B
+B
+B
+G
 f
-f
-f
-a
-a
+G
+B
+B
 a
 a
 a
 x
 C
 a
-a
+B
 a
 Y
 a
@@ -597,11 +647,11 @@ u
 u
 a
 f
-a
-a
-a
-a
-V
+B
+B
+B
+B
+q
 N
 a
 a
@@ -611,8 +661,8 @@ c
 a
 a
 a
-a
-a
+B
+B
 Y
 a
 c
@@ -628,7 +678,7 @@ a
 T
 I
 a
-F
+X
 F
 a
 x
@@ -639,7 +689,7 @@ a
 a
 c
 a
-a
+B
 Y
 a
 a
@@ -655,7 +705,7 @@ a
 a
 a
 a
-a
+B
 a
 x
 a
@@ -666,7 +716,7 @@ F
 x
 a
 a
-a
+B
 M
 a
 a
@@ -682,9 +732,9 @@ h
 a
 a
 h
-a
-c
-a
+B
+r
+B
 c
 a
 a
@@ -696,7 +746,7 @@ a
 a
 M
 a
-a
+l
 f
 u
 "}
@@ -744,7 +794,7 @@ a
 a
 D
 a
-a
+l
 c
 a
 a

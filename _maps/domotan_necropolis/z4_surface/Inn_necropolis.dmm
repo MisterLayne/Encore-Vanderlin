@@ -9,129 +9,135 @@
 /obj/effect/spawner/map_spawner/loot/food,
 /obj/effect/spawner/map_spawner/loot/food,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "dL" = (
 /obj/structure/fermentation_keg/redwine,
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "fx" = (
 /obj/structure/chair/stool,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "fG" = (
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "gy" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
 "gD" = (
 /obj/structure/barricade/wooden/crude,
 /turf/closed/wall/mineral/wood/window,
-/area/indoors/cave)
+/area/under/cave)
 "gJ" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
 "ik" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/grass/bush,
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
 "iP" = (
 /obj/structure/bed/inn,
 /obj/item/bedsheet/fabric,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "jd" = (
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
 "jw" = (
 /obj/structure/table/wood/plain,
 /obj/item/dice_cup/wooden,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "lQ" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass/cold,
-/area/indoors/cave)
+/area/under/cave)
 "mb" = (
 /obj/structure/flora/grass/bush,
 /turf/open/floor/grass/cold,
-/area/indoors/cave)
+/area/under/cave)
 "me" = (
 /obj/structure/table/wood/nice/decorated,
 /obj/machinery/light/fueled/torchholder/r,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "mT" = (
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "nk" = (
 /obj/machinery/light/fueled/torchholder/l,
 /obj/structure/chair/stool,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "nC" = (
 /obj/machinery/light/fueled/torchholder/r,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "oQ" = (
-/turf/open/openspace,
-/area/indoors/cave)
+/turf/open/floor/dirt/road,
+/area/under/cave)
 "pN" = (
 /obj/structure/fermentation_keg/distiller,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "pY" = (
 /obj/structure/table/wood/counter/end{
 	dir = 1
 	},
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "qc" = (
 /obj/structure/door/swing,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "qS" = (
 /obj/effect/decal/cleanable/debris/wood,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "rc" = (
 /obj/structure/table/wood/counter/end{
 	dir = 10
 	},
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
+"rj" = (
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
+/turf/closed/mineral,
+/area/under/cave)
 "ry" = (
 /obj/structure/bed/inn,
 /obj/item/bedsheet/fabric,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "sA" = (
 /turf/closed/mineral,
-/area/indoors/cave)
+/area/under/cave)
 "sU" = (
 /obj/structure/chair/wood,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "tc" = (
 /obj/structure/fermentation_keg/beer,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "tt" = (
 /turf/closed/wall/mineral/wood,
-/area/indoors/cave)
-"vc" = (
-/turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
+"uA" = (
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
+/turf/open/floor/ruinedwood/two,
+/area/under/cave)
 "vf" = (
 /obj/machinery/light/fueled/torchholder/c{
 	pixel_y = -1;
@@ -139,30 +145,38 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "vK" = (
 /turf/closed/wall/mineral/wood/window,
-/area/indoors/cave)
+/area/under/cave)
+"ye" = (
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
+/turf/open/floor/grass/mixyel,
+/area/under/cave)
 "zm" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/grass/bush,
 /turf/open/floor/grass/cold,
-/area/indoors/cave)
+/area/under/cave)
+"zW" = (
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
+/turf/open/floor/naturalstone,
+/area/under/cave)
 "At" = (
 /obj/structure/table/wood/plain,
 /obj/item/reagent_containers/glass/cup/golden,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "Fb" = (
 /obj/structure/table/wood/counter{
 	dir = 1
 	},
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "Fr" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass/cold,
-/area/indoors/cave)
+/area/under/cave)
 "Gx" = (
 /obj/structure/closet/crate/crafted_closet/inn,
 /obj/item/clothing/armor/leather/hide,
@@ -175,28 +189,28 @@
 /obj/item/clothing/pants/trou,
 /obj/item/clothing/pants/trou,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "GX" = (
 /turf/open/floor/grass/cold,
-/area/indoors/cave)
+/area/under/cave)
 "Iv" = (
 /obj/machinery/light/fueled/torchholder/l,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "IB" = (
 /obj/structure/flora/grass/bush,
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
 "IN" = (
 /obj/structure/chair/stool,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "Jm" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "JA" = (
 /obj/structure/table/wood/counter{
 	dir = 1
@@ -214,65 +228,73 @@
 	pixel_x = -11
 	},
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "Lh" = (
 /obj/structure/door/window,
 /turf/open/floor/grass/cold,
-/area/indoors/cave)
+/area/under/cave)
 "Lm" = (
 /obj/machinery/light/fueled/torchholder/r,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "OR" = (
 /obj/machinery/light/fueled/torchholder/c{
 	dir = 1;
 	pixel_y = -1
 	},
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "PG" = (
 /obj/structure/door/red,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
+"QR" = (
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
+/turf/open/floor/dirt/road,
+/area/under/cave)
 "Ro" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
 "Rp" = (
 /obj/structure/chair/wood/alt/chair3{
 	dir = 4
 	},
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
+"Rw" = (
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
+/turf/closed/wall/mineral/wood,
+/area/under/cave)
 "RB" = (
 /obj/structure/chair/wood/alt/chair3{
 	dir = 8
 	},
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "RQ" = (
 /obj/structure/table/wood/plain,
 /obj/item/toy/cards/deck,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "TH" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "Uw" = (
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 "Ys" = (
 /obj/structure/chair/wood/alt/chair3,
 /turf/open/floor/ruinedwood/two,
-/area/indoors/cave)
+/area/under/cave)
 
 (1,1,1) = {"
 sA
 sA
 sA
-sA
+rj
 sA
 sA
 sA
@@ -281,10 +303,10 @@ sA
 sA
 fG
 fG
+zW
 fG
 fG
 fG
-fG
 sA
 sA
 sA
@@ -293,7 +315,7 @@ sA
 sA
 sA
 sA
-sA
+rj
 "}
 (2,1,1) = {"
 sA
@@ -307,11 +329,11 @@ GX
 jd
 sA
 sA
-vc
+oQ
 sA
-vc
-vc
-vc
+oQ
+oQ
+oQ
 sA
 GX
 GX
@@ -336,8 +358,8 @@ sA
 sA
 sA
 sA
-vc
-vc
+oQ
+oQ
 sA
 sA
 GX
@@ -359,14 +381,14 @@ Fr
 Fr
 jd
 GX
-vc
-vc
-vc
-vc
-vc
-vc
-vc
-vc
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
 GX
 IB
 GX
@@ -386,14 +408,14 @@ GX
 GX
 jd
 GX
-vc
-vc
-vc
-vc
-vc
-vc
-vc
-vc
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
 GX
 jd
 jd
@@ -410,19 +432,19 @@ mb
 GX
 Fr
 GX
-vc
-vc
-vc
-vc
-vc
-vc
-vc
-vc
-vc
-vc
-vc
-vc
-vc
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
 GX
 GX
 GX
@@ -437,22 +459,22 @@ GX
 jd
 mb
 GX
-vc
-vc
-vc
-vc
-vc
-vc
-vc
-vc
-vc
-vc
-vc
-vc
-vc
-vc
-vc
-vc
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
 jd
 Fr
 sA
@@ -464,8 +486,8 @@ Ro
 Ro
 GX
 GX
-vc
-vc
+oQ
+oQ
 tt
 tt
 tt
@@ -475,11 +497,11 @@ Lh
 tt
 vK
 tt
-tt
+Rw
 jd
-vc
-vc
-vc
+oQ
+oQ
+oQ
 jd
 Ro
 sA
@@ -490,9 +512,9 @@ GX
 GX
 jd
 GX
-vc
-vc
-vc
+oQ
+oQ
+oQ
 vK
 dL
 Uw
@@ -505,8 +527,8 @@ OR
 tt
 Ro
 jd
-vc
-vc
+oQ
+oQ
 Ro
 Fr
 sA
@@ -516,9 +538,9 @@ sA
 sA
 jd
 GX
-vc
-vc
-vc
+oQ
+oQ
+oQ
 GX
 gD
 tc
@@ -532,8 +554,8 @@ Uw
 tt
 Fr
 GX
-vc
-vc
+oQ
+oQ
 jd
 jd
 sA
@@ -542,10 +564,10 @@ sA
 fG
 sA
 sA
-vc
-vc
-vc
-vc
+oQ
+oQ
+oQ
+oQ
 jd
 tt
 pN
@@ -559,21 +581,21 @@ TH
 tt
 Fr
 jd
-vc
-vc
+oQ
+oQ
 sA
 sA
 sA
 "}
 (12,1,1) = {"
 fG
-vc
-vc
-vc
-vc
-vc
-vc
-jd
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+ye
 tt
 aF
 TH
@@ -586,20 +608,20 @@ Uw
 vK
 Ro
 Ro
-vc
-vc
+oQ
+oQ
 sA
-vc
+oQ
 fG
 "}
 (13,1,1) = {"
 fG
-vc
-vc
-vc
-vc
-vc
-vc
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
 jd
 tt
 mT
@@ -613,20 +635,20 @@ vf
 vK
 mb
 Ro
-vc
-vc
+oQ
+oQ
 sA
-vc
+oQ
 fG
 "}
 (14,1,1) = {"
 fG
-vc
+oQ
 sA
-vc
-vc
-vc
-vc
+oQ
+oQ
+oQ
+oQ
 GX
 tt
 qc
@@ -642,8 +664,8 @@ GX
 lQ
 GX
 GX
-vc
-vc
+oQ
+oQ
 fG
 "}
 (15,1,1) = {"
@@ -653,12 +675,12 @@ sA
 GX
 GX
 GX
-vc
+oQ
 GX
 tt
 TH
 TH
-Uw
+uA
 TH
 Uw
 jw
@@ -669,8 +691,8 @@ tt
 tt
 tt
 tt
-vc
-vc
+oQ
+oQ
 fG
 "}
 (16,1,1) = {"
@@ -679,8 +701,8 @@ sA
 sA
 mb
 GX
-vc
-vc
+oQ
+oQ
 GX
 gD
 Uw
@@ -697,7 +719,7 @@ Iv
 Gx
 tt
 sA
-vc
+oQ
 fG
 "}
 (17,1,1) = {"
@@ -707,7 +729,7 @@ Fr
 GX
 oQ
 oQ
-vc
+oQ
 GX
 vK
 mT
@@ -723,8 +745,8 @@ TH
 Jm
 Uw
 tt
-vc
-vc
+oQ
+oQ
 fG
 "}
 (18,1,1) = {"
@@ -734,8 +756,8 @@ GX
 GX
 GX
 oQ
-vc
-vc
+oQ
+oQ
 tt
 tt
 tt
@@ -750,7 +772,7 @@ ry
 me
 iP
 tt
-vc
+oQ
 sA
 sA
 "}
@@ -760,15 +782,15 @@ GX
 oQ
 oQ
 GX
-vc
-vc
-vc
-vc
-vc
-vc
-vc
-vc
-vc
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
 jd
 gy
 Ro
@@ -778,7 +800,7 @@ tt
 tt
 tt
 GX
-vc
+oQ
 sA
 "}
 (20,1,1) = {"
@@ -788,15 +810,15 @@ GX
 oQ
 oQ
 oQ
-vc
-vc
-vc
-vc
-vc
-vc
-vc
-vc
-vc
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
 gJ
 lQ
 Fr
@@ -804,8 +826,8 @@ Fr
 Ro
 gJ
 GX
-vc
-vc
+oQ
+oQ
 sA
 "}
 (21,1,1) = {"
@@ -815,52 +837,52 @@ GX
 GX
 GX
 oQ
-vc
+oQ
 oQ
 GX
 GX
 Fr
 GX
 GX
-vc
-vc
+oQ
+oQ
 jd
 mb
-vc
-vc
-vc
+oQ
+oQ
+oQ
 Fr
-vc
-vc
-vc
+oQ
+oQ
+oQ
 sA
 "}
 (22,1,1) = {"
 sA
 GX
 oQ
+QR
+GX
+GX
 oQ
-GX
-GX
-GX
 oQ
 GX
 Ro
 gJ
 lQ
 mb
-vc
-vc
-vc
-vc
-vc
-vc
-vc
-vc
-vc
-vc
-vc
-sA
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
+rj
 "}
 (23,1,1) = {"
 sA
@@ -877,16 +899,16 @@ gJ
 Ro
 GX
 sA
-vc
-vc
+oQ
+oQ
 sA
 sA
-vc
-vc
-vc
-vc
-vc
-vc
+oQ
+oQ
+oQ
+oQ
+oQ
+oQ
 sA
 "}
 (24,1,1) = {"
@@ -905,7 +927,7 @@ sA
 sA
 sA
 sA
-vc
+oQ
 sA
 sA
 ik
