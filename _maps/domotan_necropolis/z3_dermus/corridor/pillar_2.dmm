@@ -9,27 +9,41 @@
 "i" = (
 /turf/open/floor/naturalstone,
 /area/under/necropolis)
-"H" = (
+"r" = (
+/obj/effect/spawner/map_spawner/pit,
 /turf/open/floor/church/rust,
 /area/under/necropolis)
+"v" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"H" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"N" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/naturalstone,
+/area/under/necropolis)
 "T" = (
+/obj/effect/spawner/map_spawner/necropolis,
 /turf/open/floor/cobble/alt,
 /area/under/necropolis)
 
 (1,1,1) = {"
 a
 a
-H
+r
 i
 "}
 (2,1,1) = {"
 H
 a
 a
-H
+v
 "}
 (3,1,1) = {"
-i
+N
 a
 h
 i
@@ -38,5 +52,5 @@ i
 T
 i
 H
-i
+N
 "}
