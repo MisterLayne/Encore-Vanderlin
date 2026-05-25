@@ -150,8 +150,6 @@
 
 /// Returns the immersive flavor text based on both the target's patron and the specific blessing applied
 /// Falls back to generic patron text or a default generic divine message
-/// Returns the immersive flavor text based on both the target's patron and the specific blessing applied
-/// Fully extended for Mjallidhorn, Visires, Hertannea, Gani, Pomette, Archdevil, Goler Kanh, Deceivers, Valdala, Akan, Erdl, Mordsol, Iliope, One Envy
 /proc/get_patron_blessing_text(mob/living/carbon/human/M, blessing_path)
 	var/patron_type = M.patron?.type
 	if(!patron_type)
@@ -161,19 +159,19 @@
 	var/static/list/blessing_flavor = list(
 		/// Mjallidhorn
 		/datum/patron/divine/mjallidhorn = list(
-			/datum/status_effect/buff/beastsense = "Mjallidhorn whispers: \"The sea calls yer senses forth. Smell tha salt, taste tha fear.\"",
-			/datum/status_effect/buff/trollshape = "Mjallidhorn groans: \"The abyss grants form... and hungers fer more.\"",
-			/datum/status_effect/buff/divine_beauty = "Mjallidhorn rumbles: \"Even beauty drowns. But fer now, ye rise.\"",
-			/datum/status_effect/buff/call_to_arms = "Mjallidhorn intones: \"The currents surge. Ya follow, or ya sink like a fockin' hog.\"",
-			/datum/status_effect/buff/craft_buff = "Mjallidhorn echoes: \"Stone crumbles, but tha deep remembers yer craft.\"",
-			/datum/status_effect/buff/foodbuff = "Mjallidhorn bubbles: \"Eat... but know tha sea waits to feast in turn.\"",
-			/datum/status_effect/buff/clean_plus = "Mjallidhorn sighs: \"Saltwater cleanses shite from tha deck. Have a good wash.\"",
-			/datum/status_effect/buff/featherfall = "Mjallidhorn murmurs: \"Float like a driftin' log.\"",
-			/datum/status_effect/buff/darkvision = "Mjallidhorn growls: \"See through thickest of storms, lil'un.\"",
-			/datum/status_effect/buff/haste = "Mjallidhorn growls: \"Flee if ya must... the sea is patient.\"",
-			/datum/status_effect/buff/calm = "Mjallidhorn whispers: \"Still yerself. Think of shiftin' waves.\"",
-			/datum/status_effect/buff/barbrage = "Mjallidhorn bellows: \"Like the fockin' storm tide, break 'em'! Break tha bastards! Makin' mah blood boil!\""
-		),
+			/datum/status_effect/buff/beastsense = "Mjallidhorn inhales: \"Your senses sharpen and you know that no prey will escape you now.\"",
+            /datum/status_effect/buff/trollshape = "Mjallidhorn grits his teeth: \"Your muscles tighten as the Storm Father gifts you a thimble of his strength.\"",
+            /datum/status_effect/buff/divine_beauty = "Mjallidhorn narrows his eyes: \"A divine radiance shines upon you.\"",
+            /datum/status_effect/buff/call_to_arms = "Mjallidhorn blows his warhorn: \"You hear the warcall and prepare for righteous battle!\"",
+            /datum/status_effect/buff/craft_buff = "Mjallidhorn cracks his knuckles: \"You feel pride and accomplishment as your understanding for the crafts deepens.\"",
+            /datum/status_effect/buff/foodbuff = "Mjallidhorn rumbles: \"Your hunger is satiated and your thirst quenched.\"",
+            /datum/status_effect/buff/clean_plus = "Mjallidhorn’s waves engulf you: \"You feel fresh cleansing saltwater coat your skin.\"",
+            /datum/status_effect/buff/featherfall = "Mjallidhorn exhales: \"Dark storm clouds pool around your feet to soften any fall.\"",
+            /datum/status_effect/buff/darkvision = "Mjallidhorn blinks: \"You blink in unison and suddenly the dark is no longer so daunting.\"",
+            /datum/status_effect/buff/haste = "Mjallidhorn snaps his fingers: \"The harsh frost nips at your heels and urges you to press on.\"",
+            /datum/status_effect/buff/calm = "Mjallidhorn shifts his gaze: \"The battle rages on elsewhere. You are allowed a moment of reprieve.\"",
+            /datum/status_effect/buff/barbrage = "Mjallidhorn roars: \"You hear His thunderous battlecry and feel the storm rage within you!\""
+        ),
 
 		/// Visires
 		/datum/patron/divine/visires = list(
@@ -289,19 +287,19 @@
 
 		/// Valdala
 		/datum/patron/divine/valdala = list(
-			/datum/status_effect/buff/beastsense = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/trollshape = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/divine_beauty = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/call_to_arms = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/craft_buff = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/foodbuff = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/clean_plus = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/featherfall = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/darkvision = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/haste = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/calm = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/barbrage = PLACEHOLDER_PATRON_REBRANDING
-		),
+            /datum/status_effect/buff/beastsense = "Valdala murmurs: \"The grave knows your scent... and waits.\"",
+            /datum/status_effect/buff/trollshape = "Valdala hums: \"Mass returns to earth. Let the soil remember you.\"",
+            /datum/status_effect/buff/divine_beauty = "Valdala whispers: \"Even beauty rots. But for now... wear it.\"",
+            /datum/status_effect/buff/call_to_arms = "Valdala states: \"Raise thy blade. All paths end the same.\"",
+            /datum/status_effect/buff/craft_buff = "Valdala sighs: \"All things break. Make them, even so.\"",
+            /datum/status_effect/buff/foodbuff = "Valdala croons: \"Feast whilst thou breathe. The hunger ends soon.\"",
+            /datum/status_effect/buff/clean_plus = "Valdala sighs: \"Thou mayest wash flesh... but not its fate.\"",
+            /datum/status_effect/buff/featherfall = "Valdala hums: \"Fall gently. The earth shall catch thee.\"",
+            /datum/status_effect/buff/darkvision = "Valdala whispers: \"The dark is not empty. It welcomes.\"",
+            /datum/status_effect/buff/haste = "Valdala murmurs: \"Quickly now. Time thins beneath thy feet.\"",
+            /datum/status_effect/buff/calm = "Valdala soothes: \"Rest... the silence shall come for all.\"",
+            /datum/status_effect/buff/barbrage = "Valdala intones: \"Rage, if thy must. The dead are silent, but not still.\""
+        ),
 
 		/// Akan
 		/datum/patron/divine/akan = list(
@@ -336,19 +334,19 @@
 		),
 
 		/// Mordsol
-		/datum/patron/divine/mordsol = list(
-			/datum/status_effect/buff/beastsense = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/trollshape = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/divine_beauty = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/call_to_arms = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/craft_buff = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/foodbuff = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/clean_plus = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/featherfall = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/darkvision = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/haste = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/calm = PLACEHOLDER_PATRON_REBRANDING,
-			/datum/status_effect/buff/barbrage = PLACEHOLDER_PATRON_REBRANDING
+		/datum/patron/divine/mordsol  = list(
+            /datum/status_effect/buff/beastsense = "Mordsol growls: \"A good warrior needs keen senses to protect his home. Let no evil escape you.\"",
+            /datum/status_effect/buff/trollshape = "Mordsol offers: \"A strong arm is needed to lift the shield. Let me share thy burden.\"",
+            /datum/status_effect/buff/divine_beauty = "Mordsol declares: \"Be proud child of Frost and wear your glory like a crown.\"",
+            /datum/status_effect/buff/call_to_arms = "Mordsol bellows: \"Duty calls and victory is sure to follow!\"",
+            /datum/status_effect/buff/craft_buff = "Mordsol praises: \"You know your craft like the back of your hand, child of storm.\"",
+            /datum/status_effect/buff/foodbuff = "Mordsol grunts: \"A warrior can’t be strong on an empty stomach, eat up.\"",
+            /datum/status_effect/buff/clean_plus = "Mordsol chuckles: \"Wash up, child! A warrior should look respectable.\"",
+            /datum/status_effect/buff/featherfall = "Mordsol comments: \"Even the bold must fall with grace.\"",
+            /datum/status_effect/buff/darkvision = "Mordsol declares: \"The soul of the brave shines brighter than any darkness.\"",
+            /datum/status_effect/buff/haste = "Mordsol barks: \"Swift feet carry righteous blades.\"",
+            /datum/status_effect/buff/calm = "Mordsol sighs: \"The hearth is warm and the time for fighting has passed. Come and rest awhile, child.\"",
+            /datum/status_effect/buff/barbrage = "Mordsol roars: \"BE FILLED WITH RIGHTEOUS ANGER!\""
 		),
 
 		/// Iliope

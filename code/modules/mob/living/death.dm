@@ -152,9 +152,9 @@ GLOBAL_LIST_EMPTY(last_words)
 		if ("coast", "coastforest", "river")
 			locale = "somewhere betwixt Mjallidhorn's realm and Gani's bounty"
 		if ("indoors", "shop", "physician", "outdoors", "roofs", "manor", "wizard's tower", "garrison","village garrison", "dungeon cell", "baths", "tavern", "basement")
-			locale = "the city of [SSmapping.config.map_name] and all its bustling souls"
+			locale = "the town of [SSmapping.config.map_name] and all its bustling souls"
 		if ("sewers")
-			locale = "somwhere under the city of [SSmapping.config.map_name] and all its bustling souls"
+			locale = "somwhere under the town of [SSmapping.config.map_name] and all its bustling souls"
 		if ("church")
 			locale = "a hallowed place, sworn to the Aspects" // special bit for the church since it's sacred ground
 

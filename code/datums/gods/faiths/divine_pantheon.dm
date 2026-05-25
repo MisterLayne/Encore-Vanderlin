@@ -1,5 +1,4 @@
 /datum/faith/divine_pantheon
-	name = "\improper Divine Pantheon"
-	desc = "The most accepted religion around Faience. \
-		May Valdala and her children protect us from the four!"
-	godhead = /datum/patron/divine/visires
+	name = "\improper Elemental Pantheon"
+	desc = "The world's primary source of worship, revolving around the Four Elemental Gods. Akan, Gani, Mjallidhorn and Visires. Worship of anything short of these Elemental's domain is heresy."
+	godhead = /datum/patron/divine/gani

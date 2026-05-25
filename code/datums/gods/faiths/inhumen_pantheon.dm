@@ -1,7 +1,4 @@
 /datum/faith/inhumen_pantheon
-	name = "\improper Inhumen Pantheon"
-	desc = "The Ten are FALSE GODS.\n\
-		They keep us trapped and choke out our divine light, \
-		but only through FULL BELIEF in the divinity of men and women can we escape and reach true enlightenment\n\
-		The inhumen gods smile upon us as we defile the Ten and become the divinities we were always meant to be."
+	name = "\improper Heretical Beliefs"
+	desc = "Beliefs which are heretical, as in any belief which does not align with the interests of the Elemental Pantheon. These are typically seen as extremely dangerous and seek to disrupt the strenuous balance of the world, dooming it to cataclysm."
 	godhead = /datum/patron/inhumen/archdevils

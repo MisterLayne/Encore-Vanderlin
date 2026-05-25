@@ -85,8 +85,8 @@
 /mob/living/proc/set_bloodpool(newblood)
 	bloodpool = CLAMP(newblood, 0, maxbloodpool)
 	if(HAS_TRAIT(src, TRAIT_SILVER_BLESSED))
-		hud_used?.bloodpool?.name = "Angros' Grace: [bloodpool]"
-		hud_used?.bloodpool?.desc = "Angros' Grace: [bloodpool]/[maxbloodpool]"
+		hud_used?.bloodpool?.name = "Elemental's Grace: [bloodpool]"
+		hud_used?.bloodpool?.desc = "Elemental's Grace: [bloodpool]/[maxbloodpool]"
 	else
 		hud_used?.bloodpool?.name = "Bloodpool: [bloodpool]"
 		hud_used?.bloodpool?.desc = "Bloodpool: [bloodpool]/[maxbloodpool]"
@@ -95,8 +95,8 @@
 /mob/living/proc/adjust_bloodpool(adjust)
 	bloodpool = CLAMP(bloodpool + adjust, 0, maxbloodpool)
 	if(HAS_TRAIT(src, TRAIT_SILVER_BLESSED))
-		hud_used?.bloodpool?.name = "Angros' Grace: [bloodpool]"
-		hud_used?.bloodpool?.desc = "Angros' Grace: [bloodpool]/[maxbloodpool]"
+		hud_used?.bloodpool?.name = "Elemental's Grace: [bloodpool]"
+		hud_used?.bloodpool?.desc = "Elemental's Grace: [bloodpool]/[maxbloodpool]"
 	else
 		hud_used?.bloodpool?.name = "Bloodpool: [bloodpool]"
 		hud_used?.bloodpool?.desc = "Bloodpool: [bloodpool]/[maxbloodpool]"

@@ -188,6 +188,47 @@
 		// Elementalist
 		if(HAS_TRAIT(user, TRAIT_DIVINE_SERVANT) && (HAS_TRAIT(src, TRAIT_DIVINE_CENTRIST) && !HAS_TRAIT(src, TRAIT_DIVINE_SERVANT)))
 			. += SPAN_GOD_VISIRES("An elementalist. A warrior of the balance itself...")
+			if((HAS_TRAIT(src, TRAIT_CABAL) && HAS_TRAIT(user, TRAIT_CABAL)))
+				. += span_purple("Another possessed of the blood of the One Envy.")
+
+			if((HAS_TRAIT(src, TRAIT_CABAL_CHUD) && HAS_TRAIT(user, TRAIT_CABAL)))
+				. += span_purple("An unenlightened fool who professes to follow the One Envy.")
+
+			if((HAS_TRAIT(src, TRAIT_CABAL_CHUD) && HAS_TRAIT(user, TRAIT_CABAL_CHUD)))
+				. += span_purple("A fellow follower of the Jealous God.")
+
+			if((HAS_TRAIT(src, TRAIT_CABAL) && HAS_TRAIT(user, TRAIT_CABAL_CHUD)))
+				. += span_purple("A Shirleigh, one of Her annointed!")
+
+			if((HAS_TRAIT(src, TRAIT_ARCHDEVILS) && HAS_TRAIT(user, TRAIT_ARCHDEVILS)))
+				. += span_red("Another soul enlightened to the power of the Archdevils.")
+
+			if((HAS_TRAIT(src, TRAIT_HERTANNEA) && HAS_TRAIT(user, TRAIT_HERTANNEA)))
+				. += span_purple("The scent of perfume and hedonism lingers on this one. A kindred devoted of Hertannea.")
+
+			if((HAS_TRAIT(src, TRAIT_ABSOLUTIONIST) && HAS_TRAIT(user, TRAIT_ABSOLUTIONIST)))
+				. += span_red("The determined fury in their eye is familiar. They, too, seek the return of the Mad God.")
+
+			if((HAS_TRAIT(src, TRAIT_SALVATIONIST) && HAS_TRAIT(user, TRAIT_ABSOLUTIONIST)))
+				. += span_red("BETRAYER! COWARD! SALVATIONIST SCUM! Their prayers keep the Mad God impotent and weak!")
+
+			if((HAS_TRAIT(src, TRAIT_CORRUPTED) && HAS_TRAIT(user, TRAIT_CORRUPTED)))
+				. += span_red("I see it in them, the same taint within my own veins. They worship a patron touched by Hell. But which one...")
+
+			if((HAS_TRAIT(src, TRAIT_ARCHDEVILS) && HAS_TRAIT(user, TRAIT_ARCHDEVILS)))
+				. += span_red("Another soul enlightened to the power of the Archdevils.")
+
+			if((HAS_TRAIT(src, TRAIT_HERTANNEA) && HAS_TRAIT(user, TRAIT_HERTANNEA)))
+				. += span_purple("The scent of perfume and hedonism lingers on this one. A kindred devoted of Hertannea.")
+
+			if((HAS_TRAIT(src, TRAIT_ABSOLUTIONIST) && HAS_TRAIT(user, TRAIT_ABSOLUTIONIST)))
+				. += span_red("The determined fury in their eye is familiar. They, too, seek the return of the Mad God.")
+
+			if((HAS_TRAIT(src, TRAIT_SALVATIONIST) && HAS_TRAIT(user, TRAIT_ABSOLUTIONIST)))
+				. += span_red("BETRAYER! COWARD! SALVATIONIST SCUM! Their prayers keep the Mad God impotent and weak!")
+
+			if((HAS_TRAIT(src, TRAIT_CORRUPTED) && HAS_TRAIT(user, TRAIT_CORRUPTED)))
+				. += span_red("I see it in them, the same taint within my own veins. They worship a patron touched by Hell. But which one...")
 
 		// The disgusing inquistion section
 		if(HAS_MIND_TRAIT(user, TRAIT_INQUISITION) && (real_name in GLOB.inquis_suspect_players))
