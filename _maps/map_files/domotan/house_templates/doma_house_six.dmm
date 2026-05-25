@@ -1,0 +1,571 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"bO" = (
+/turf/open/water/bath,
+/area/indoors/town)
+"bZ" = (
+/obj/structure/fluff/railing/border{
+	dir = 6
+	},
+/obj/structure/stairs{
+	dir = 8
+	},
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 10
+	},
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town)
+"dE" = (
+/obj/structure/chair/stool,
+/turf/open/floor/tile,
+/area/indoors/town)
+"eU" = (
+/turf/open/openspace,
+/area/indoors/town)
+"fD" = (
+/turf/open/floor/carpet/royalblack,
+/area/indoors/town)
+"iP" = (
+/obj/structure/door{
+	name = "House VI";
+	lockid = "house6"
+	},
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/wood,
+/area/indoors/town)
+"ka" = (
+/obj/structure/window,
+/obj/structure/curtain/bounty/dir{
+	dir = 1
+	},
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town)
+"mV" = (
+/obj/structure/table/wood/plain_alt,
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/natural/feather,
+/obj/item/natural/fibers,
+/obj/item/natural/cloth,
+/obj/machinery/light/fueled/wallfire/candle{
+	pixel_y = -32
+	},
+/obj/item/statue/bronze/vase,
+/turf/open/floor/tile,
+/area/indoors/town)
+"ne" = (
+/obj/structure/closet/crate/crafted_closet,
+/obj/item/natural/cloth,
+/obj/item/natural/cloth,
+/obj/item/coin/copper/pile,
+/obj/item/candle/yellow,
+/obj/item/key/houses/house1,
+/obj/machinery/light/fueled/wallfire/candle/l,
+/turf/open/floor/wood,
+/area/indoors/town)
+"nU" = (
+/obj/item/natural/stone,
+/obj/structure/barricade/wooden,
+/turf/open/floor/naturalstone,
+/area/indoors/town)
+"oC" = (
+/obj/structure/window,
+/obj/structure/curtain/bounty/dir{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/indoors/town)
+"pH" = (
+/turf/closed/wall/mineral/stone/moss,
+/area/indoors/town)
+"qq" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town)
+"qA" = (
+/obj/structure/window,
+/obj/structure/curtain/bounty/dir{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/indoors/town)
+"ro" = (
+/obj/structure/window,
+/obj/structure/curtain/bounty/dir,
+/turf/open/floor/tile,
+/area/indoors/town)
+"rN" = (
+/obj/machinery/light/fueled/oven/west,
+/obj/machinery/light/fueled/hearth,
+/obj/item/reagent_containers/glass/bucket/pot{
+	pixel_y = 4
+	},
+/turf/open/floor/tile,
+/area/indoors/town)
+"rR" = (
+/obj/item/bin/water,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town)
+"rZ" = (
+/turf/open/floor/wood,
+/area/indoors/town)
+"sR" = (
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/tile/bath,
+/area/indoors/town)
+"uM" = (
+/obj/structure/window,
+/obj/structure/curtain/bounty/dir{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town)
+"vy" = (
+/obj/machinery/light/fueled/wallfire/candle/r,
+/turf/open/openspace,
+/area/indoors/town)
+"xM" = (
+/turf/open/floor/tile/bath,
+/area/indoors/town)
+"zc" = (
+/obj/machinery/light/fueled/wallfire/candle/l,
+/turf/open/floor/wood,
+/area/indoors/town)
+"Ad" = (
+/obj/structure/door{
+	name = "House VI";
+	lockid = "house6"
+	},
+/obj/effect/mapping_helpers/access/locker,
+/turf/open/floor/tile,
+/area/indoors/town)
+"Ae" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 4
+	},
+/turf/open/water/bath,
+/area/indoors/town)
+"An" = (
+/obj/structure/window,
+/obj/structure/curtain/bounty/dir{
+	dir = 4
+	},
+/turf/open/floor/tile,
+/area/indoors/town)
+"BR" = (
+/obj/structure/fluff/walldeco/bath/random,
+/turf/open/floor/tile/bath,
+/area/indoors/town)
+"CF" = (
+/turf/closed/wall/mineral/stone,
+/area/indoors/town)
+"CH" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 8
+	},
+/turf/open/water/bath,
+/area/indoors/town)
+"CZ" = (
+/turf/open/floor/rooftop,
+/area/outdoors/town/roofs)
+"Dp" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/obj/structure/table/wood,
+/turf/open/floor/carpet/royalblack,
+/area/indoors/town)
+"DY" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 1
+	},
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 8
+	},
+/turf/open/water/bath,
+/area/indoors/town)
+"Fy" = (
+/obj/machinery/light/fueled/wallfire/candle/l,
+/obj/structure/fluff/railing/wood,
+/turf/open/floor/tile/bath,
+/area/indoors/town)
+"FN" = (
+/obj/structure/chair/stool/crafted,
+/turf/open/floor/carpet/royalblack,
+/area/indoors/town)
+"GT" = (
+/obj/structure/rack/shelf/biggest,
+/obj/item/clothing/pants/tights,
+/obj/item/clothing/pants/tights,
+/obj/item/natural/cloth,
+/obj/item/natural/cloth,
+/turf/open/floor/tile/bath,
+/area/indoors/town)
+"Kg" = (
+/obj/machinery/light/fueled/wallfire/candle/r,
+/obj/structure/chair/wood/alt{
+	dir = 8
+	},
+/turf/open/floor/tile/bath,
+/area/indoors/town)
+"KF" = (
+/obj/structure/stairs{
+	dir = 8
+	},
+/turf/open/floor/twig,
+/area/indoors/town)
+"KL" = (
+/turf/closed/wall/mineral/wood,
+/area/indoors/town)
+"KM" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/obj/structure/closet/crate/crafted_closet/inn,
+/turf/open/floor/carpet/royalblack,
+/area/indoors/town)
+"KU" = (
+/obj/machinery/light/fueled/wallfire/candle/r,
+/obj/structure/fluff/railing/border,
+/turf/open/openspace,
+/area/indoors/town)
+"MT" = (
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town)
+"Nq" = (
+/obj/effect/decal/carpet/square{
+	pixel_y = -9
+	},
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town)
+"OR" = (
+/obj/structure/chair/wood/alt/fancy{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/indoors/town)
+"Pe" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 1
+	},
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 4
+	},
+/turf/open/water/bath,
+/area/indoors/town)
+"Pp" = (
+/obj/structure/stairs/stone{
+	dir = 1
+	},
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 4
+	},
+/turf/open/floor/tile/bath,
+/area/indoors/town)
+"Px" = (
+/obj/structure/window,
+/obj/structure/curtain/bounty/dir{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town)
+"PN" = (
+/obj/structure/door/weak/bolt{
+	dir = 1;
+	name = "Toilet"
+	},
+/obj/structure/fluff/walldeco/bath/wallrope,
+/turf/open/floor/church/pale,
+/area/indoors/town)
+"PW" = (
+/obj/structure/rack/shelf/biggest,
+/obj/item/broom,
+/obj/item/reagent_containers/glass/bowl,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town)
+"Qb" = (
+/obj/structure/stairs{
+	dir = 8
+	},
+/turf/open/floor/tile/bath,
+/area/indoors/town)
+"Ss" = (
+/obj/structure/bookcase/random,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town)
+"Tv" = (
+/obj/structure/bars,
+/turf/open/floor/naturalstone,
+/area/indoors/town)
+"TN" = (
+/obj/structure/chair/stool,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/tile,
+/area/indoors/town)
+"Wy" = (
+/obj/structure/toilet,
+/obj/machinery/light/fueled/wallfire/candle/l,
+/obj/item/natural/cloth,
+/turf/open/floor/church,
+/area/indoors/town)
+"Xw" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/wood/plain_alt,
+/obj/item/reagent_containers/glass/carafe/silver,
+/obj/item/cooking/pan,
+/obj/item/storage/sack,
+/turf/open/floor/twig,
+/area/indoors/town)
+"XK" = (
+/obj/structure/window,
+/obj/structure/curtain/bounty/dir,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town)
+"Ym" = (
+/obj/structure/sign/property_sign/claim,
+/turf/closed/wall/mineral/stone/moss,
+/area/indoors/town)
+"Ys" = (
+/turf/open/floor/tile,
+/area/indoors/town)
+"YX" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/obj/structure/bed/wool/double,
+/obj/item/bedsheet/double_pelt,
+/turf/open/floor/carpet/royalblack,
+/area/indoors/town)
+
+(1,1,1) = {"
+pH
+pH
+CF
+CF
+CF
+CF
+"}
+(2,1,1) = {"
+Wy
+PN
+Fy
+DY
+CH
+CF
+"}
+(3,1,1) = {"
+pH
+pH
+sR
+Pe
+bO
+CF
+"}
+(4,1,1) = {"
+nU
+xM
+xM
+Pp
+Ae
+CF
+"}
+(5,1,1) = {"
+pH
+pH
+BR
+xM
+xM
+Tv
+"}
+(6,1,1) = {"
+pH
+Qb
+xM
+Kg
+GT
+Tv
+"}
+(7,1,1) = {"
+pH
+pH
+CF
+pH
+pH
+pH
+"}
+
+(1,1,2) = {"
+pH
+pH
+Ad
+Px
+pH
+pH
+"}
+(2,1,2) = {"
+XK
+Xw
+Ys
+Ys
+dE
+pH
+"}
+(3,1,2) = {"
+pH
+rN
+Ys
+TN
+mV
+pH
+"}
+(4,1,2) = {"
+pH
+pH
+Nq
+MT
+Ss
+ka
+"}
+(5,1,2) = {"
+pH
+bZ
+qq
+MT
+rR
+ka
+"}
+(6,1,2) = {"
+pH
+KU
+PW
+MT
+qq
+iP
+"}
+(7,1,2) = {"
+pH
+pH
+uM
+uM
+pH
+Ym
+"}
+
+(1,1,3) = {"
+KL
+KL
+An
+An
+KL
+KL
+"}
+(2,1,3) = {"
+KL
+zc
+rZ
+OR
+ne
+KL
+"}
+(3,1,3) = {"
+ro
+rZ
+fD
+fD
+FN
+oC
+"}
+(4,1,3) = {"
+ro
+KF
+KM
+YX
+Dp
+oC
+"}
+(5,1,3) = {"
+ro
+eU
+eU
+eU
+eU
+oC
+"}
+(6,1,3) = {"
+KL
+vy
+eU
+eU
+vy
+KL
+"}
+(7,1,3) = {"
+KL
+KL
+qA
+qA
+KL
+KL
+"}
+
+(1,1,4) = {"
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+"}
+(2,1,4) = {"
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+"}
+(3,1,4) = {"
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+"}
+(4,1,4) = {"
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+"}
+(5,1,4) = {"
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+"}
+(6,1,4) = {"
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+"}
+(7,1,4) = {"
+CZ
+CZ
+CZ
+CZ
+CZ
+CZ
+"}

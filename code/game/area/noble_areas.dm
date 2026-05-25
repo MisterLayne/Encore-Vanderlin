@@ -183,6 +183,10 @@
 	background_track_night = null
 	converted_type = /area/outdoors/exposed/magiciantower
 
+/area/indoors/town/keep/magician/basement
+	name = "Etgard Thaumatic Wellspring"
+	first_time_text = "ETGARD THAUMATIC WELLSPRING"
+
 /area/outdoors/exposed/magiciantower
 	icon_state = "magiciantower"
 	background_track = 'sound/music/area/magiciantower.ogg'
