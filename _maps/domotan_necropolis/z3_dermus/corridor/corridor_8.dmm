@@ -1,0 +1,472 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"bt" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/metal,
+/area/under/necropolis)
+"bC" = (
+/obj/structure/bars/pipe{
+	dir = 8
+	},
+/turf/open/lava/acid,
+/area/under/necropolis)
+"bY" = (
+/obj/structure/fluff/statue/knightalt{
+	pixel_y = 27
+	},
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"ce" = (
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 8
+	},
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"cv" = (
+/obj/structure/chair/wood/alt/chair3{
+	dir = 8
+	},
+/turf/open/floor/metal/barograte,
+/area/under/necropolis)
+"dT" = (
+/turf/closed/wall/mineral/stone/moss,
+/area/under/necropolis)
+"gw" = (
+/obj/effect/decal/cleanable/blood/splatter,
+/obj/structure/chair/stool,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"gN" = (
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"gS" = (
+/turf/closed/wall/mineral/pipe,
+/area/under/necropolis)
+"ib" = (
+/obj/structure/bars/pipe,
+/turf/open/lava/acid,
+/area/under/necropolis)
+"is" = (
+/turf/open/floor/metal/barograte,
+/area/under/necropolis)
+"iu" = (
+/turf/closed/mineral,
+/area/under/necropolis)
+"jn" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/church/pale,
+/area/under/necropolis)
+"kV" = (
+/obj/structure/bars/pipe{
+	dir = 10
+	},
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"lf" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/metal/alt,
+/area/under/necropolis)
+"lW" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"nd" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"ny" = (
+/obj/structure/fluid_drain,
+/turf/open/floor/metal/alt,
+/area/under/necropolis)
+"nZ" = (
+/obj/item/natural/bundle/cloth{
+	pixel_x = 5
+	},
+/turf/open/floor/blocks,
+/area/under/necropolis)
+"oM" = (
+/obj/structure/bars/chainlink,
+/turf/open/floor/metal/alt,
+/area/under/necropolis)
+"pd" = (
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/turf/open/floor/church/pale,
+/area/under/necropolis)
+"qh" = (
+/turf/open/floor/metal/alt,
+/area/under/necropolis)
+"qJ" = (
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/necropolis)
+"sn" = (
+/obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"sB" = (
+/obj/structure/bars/pipe{
+	dir = 10
+	},
+/turf/open/lava/acid,
+/area/under/necropolis)
+"vi" = (
+/obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
+/turf/open/floor/metal/alt,
+/area/under/necropolis)
+"vG" = (
+/obj/structure/table/vtable,
+/turf/open/floor/metal/barograte,
+/area/under/necropolis)
+"wt" = (
+/obj/structure/fluff/steamvent,
+/turf/open/floor/metal/alt,
+/area/under/necropolis)
+"xd" = (
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/open/floor/metal/alt,
+/area/under/necropolis)
+"yJ" = (
+/obj/structure/fluff/walldeco/chains{
+	pixel_x = 6
+	},
+/turf/open/lava/acid,
+/area/under/necropolis)
+"yK" = (
+/obj/effect/decal/cleanable/blood/tracks,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"zC" = (
+/obj/item/book_crafting_kit,
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/turf/open/floor/metal,
+/area/under/necropolis)
+"AK" = (
+/obj/effect/spawner/map_spawner/necropolis/tech_clutter,
+/turf/open/floor/metal,
+/area/under/necropolis)
+"By" = (
+/turf/closed/wall/mineral/stone/moss/blue,
+/area/under/necropolis)
+"BM" = (
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/open/floor/metal,
+/area/under/necropolis)
+"Di" = (
+/turf/open/floor/metal,
+/area/under/necropolis)
+"Eq" = (
+/obj/item/rope,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"EP" = (
+/obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"Fg" = (
+/turf/open/lava/acid,
+/area/under/necropolis)
+"FQ" = (
+/obj/structure/bars/pipe{
+	dir = 6
+	},
+/obj/structure/bars/pipe{
+	dir = 8
+	},
+/turf/open/floor/concrete,
+/area/under/necropolis)
+"Ga" = (
+/obj/structure/fluff/steamvent,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"Gm" = (
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/pale,
+/area/under/necropolis)
+"Gt" = (
+/obj/item/rope/chain,
+/turf/open/floor/metal,
+/area/under/necropolis)
+"HV" = (
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/open/floor/metal/barograte,
+/area/under/necropolis)
+"IS" = (
+/obj/structure/bars/chainlink,
+/turf/open/floor/metal,
+/area/under/necropolis)
+"LS" = (
+/obj/structure/fluff/walldeco/chains{
+	pixel_x = 6
+	},
+/obj/effect/wisp{
+	color = "#ff1a00";
+	pixel_x = 1;
+	layer = 4.27;
+	name = "loveless one";
+	desc = "Remnants of once was the soul, congealed Thauma oozing about and only barely left to linger in the air. Some time long ago, this was a person. A person with dreams, aspirations, hopes and love; in the end, something else had different plans. Some day, in the far future, what is left of them will be dust again, and only then will they see peace."
+	},
+/turf/open/lava/acid,
+/area/under/necropolis)
+"MH" = (
+/obj/item/flashlight/flare/torch/lantern/bronzelamptern,
+/obj/item/flashlight/flare/torch/lantern/bronzelamptern,
+/obj/item/natural/bowstring,
+/turf/open/floor/metal,
+/area/under/necropolis)
+"Nd" = (
+/obj/structure/table/vtable/v2,
+/turf/open/floor/metal/barograte,
+/area/under/necropolis)
+"OC" = (
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"OL" = (
+/obj/structure/bars/pipe{
+	dir = 4
+	},
+/obj/structure/bars/pipe{
+	dir = 8
+	},
+/turf/open/floor/concrete,
+/area/under/necropolis)
+"Pa" = (
+/obj/item/natural/wood/plank,
+/turf/open/floor/metal/barograte,
+/area/under/necropolis)
+"PJ" = (
+/obj/effect/decal/cleanable/blood/old,
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"PX" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"Qp" = (
+/obj/item/chair/chair3,
+/turf/open/floor/metal/barograte,
+/area/under/necropolis)
+"Rc" = (
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"RU" = (
+/obj/structure/bars/pipe{
+	dir = 10
+	},
+/obj/structure/bars/pipe,
+/turf/open/floor/concrete,
+/area/under/necropolis)
+"SE" = (
+/obj/structure/chair/bench/church/smallbench{
+	dir = 4
+	},
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"TH" = (
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"Ug" = (
+/obj/structure/table/wood/large/corner_new,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"Vk" = (
+/obj/structure/bars/pipe,
+/turf/open/floor/concrete,
+/area/under/necropolis)
+"YJ" = (
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
+/turf/closed/wall/mineral/stone/moss,
+/area/under/necropolis)
+"Za" = (
+/obj/effect/decal/cleanable/blood/tracks{
+	dir = 5
+	},
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"Zo" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/metal/alt,
+/area/under/necropolis)
+
+(1,1,1) = {"
+dT
+dT
+dT
+By
+OC
+OC
+sn
+YJ
+dT
+dT
+iu
+iu
+"}
+(2,1,1) = {"
+dT
+Pa
+Qp
+qh
+AK
+Rc
+nd
+IS
+xd
+wt
+ny
+iu
+"}
+(3,1,1) = {"
+dT
+vG
+is
+Zo
+Di
+jn
+lW
+IS
+vi
+qh
+Zo
+dT
+"}
+(4,1,1) = {"
+dT
+Nd
+HV
+qh
+dT
+Gm
+Gm
+gS
+kV
+gS
+gS
+dT
+"}
+(5,1,1) = {"
+dT
+cv
+Qp
+bt
+dT
+bC
+bC
+gS
+FQ
+gS
+Vk
+YJ
+"}
+(6,1,1) = {"
+dT
+dT
+Ug
+gN
+SE
+pd
+pd
+gS
+LS
+ib
+ib
+dT
+"}
+(7,1,1) = {"
+sn
+OC
+gN
+gN
+Ga
+ce
+Gt
+gS
+Fg
+ib
+ib
+dT
+"}
+(8,1,1) = {"
+dT
+bY
+gN
+EP
+Eq
+Za
+yK
+gS
+OL
+gS
+RU
+dT
+"}
+(9,1,1) = {"
+dT
+BM
+zC
+gS
+PJ
+gw
+Rc
+gS
+TH
+gS
+gS
+qJ
+"}
+(10,1,1) = {"
+dT
+yJ
+Fg
+gS
+Rc
+nZ
+MH
+IS
+lf
+vi
+vi
+oM
+"}
+(11,1,1) = {"
+dT
+sB
+Fg
+gS
+EP
+Zo
+xd
+IS
+Zo
+wt
+ny
+oM
+"}
+(12,1,1) = {"
+dT
+dT
+dT
+dT
+sn
+OC
+PX
+dT
+dT
+dT
+dT
+dT
+"}

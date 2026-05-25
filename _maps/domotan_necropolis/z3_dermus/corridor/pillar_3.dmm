@@ -2,6 +2,10 @@
 "a" = (
 /turf/closed/mineral,
 /area/under/necropolis)
+"e" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/churchrough,
+/area/under/necropolis)
 "h" = (
 /turf/open/floor/churchrough,
 /area/under/necropolis)
@@ -26,18 +30,22 @@
 "T" = (
 /turf/closed/wall/mineral/stone/moss,
 /area/under/necropolis)
+"Y" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/churchrough,
+/area/under/necropolis)
 
 (1,1,1) = {"
 T
-h
+e
 h
 T
 "}
 (2,1,1) = {"
 N
-h
-h
-h
+Y
+Y
+e
 "}
 (3,1,1) = {"
 i
@@ -48,6 +56,6 @@ a
 (4,1,1) = {"
 T
 a
-h
+Y
 T
 "}

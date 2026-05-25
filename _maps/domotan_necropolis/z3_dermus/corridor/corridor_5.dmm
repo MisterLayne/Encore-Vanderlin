@@ -1,0 +1,381 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/wall/mineral/stone/moss,
+/area/under/necropolis)
+"b" = (
+/obj/structure/fluid_drain,
+/turf/open/floor/metal/alt,
+/area/under/necropolis)
+"c" = (
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"d" = (
+/obj/structure/fluff/railing/border,
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"e" = (
+/turf/open/water/ocean,
+/area/under/necropolis)
+"g" = (
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"i" = (
+/obj/structure/fluff/railing/border{
+	dir = 1
+	},
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"j" = (
+/obj/effect/spawner/map_spawner/loot/common,
+/turf/open/floor/metal/alt,
+/area/under/necropolis)
+"l" = (
+/obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"m" = (
+/turf/open/floor/church/pale,
+/area/under/necropolis)
+"n" = (
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/turf/open/floor/church/pale,
+/area/under/necropolis)
+"o" = (
+/obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"q" = (
+/obj/structure/fluff/railing/border,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"r" = (
+/obj/structure/fluff/railing/border{
+	dir = 10
+	},
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"s" = (
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"t" = (
+/turf/open/floor/metal/alt,
+/area/under/necropolis)
+"u" = (
+/obj/structure/fluff/railing/border{
+	dir = 6
+	},
+/turf/open/floor/church/pale,
+/area/under/necropolis)
+"v" = (
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"w" = (
+/obj/structure/fluff/railing/border{
+	dir = 1
+	},
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"x" = (
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"y" = (
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"z" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"A" = (
+/obj/structure/fluff/railing/border{
+	dir = 5
+	},
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"D" = (
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"E" = (
+/obj/structure/fluff/railing/border{
+	dir = 1
+	},
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"F" = (
+/obj/structure/fluff/railing/border,
+/obj/effect/spawner/map_spawner/necropolis,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"G" = (
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
+/turf/open/water/ocean,
+/area/under/necropolis)
+"H" = (
+/obj/structure/fluff/railing/border{
+	dir = 9
+	},
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"I" = (
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
+/turf/open/water/ocean/abyss,
+/area/under/necropolis)
+"K" = (
+/obj/effect/spawner/map_spawner/necropolis/water_clutter,
+/turf/open/water/ocean/abyss,
+/area/under/necropolis)
+"L" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"M" = (
+/obj/effect/spawner/map_spawner/necropolis/water_clutter,
+/turf/open/water/ocean,
+/area/under/necropolis)
+"N" = (
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"P" = (
+/obj/structure/fluff/railing/border,
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"Q" = (
+/obj/structure/fluff/railing/border{
+	dir = 1
+	},
+/turf/open/floor/church/green,
+/area/under/necropolis)
+"R" = (
+/turf/open/water/ocean/abyss,
+/area/under/necropolis)
+"S" = (
+/obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"T" = (
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"U" = (
+/obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
+/turf/open/floor/metal/alt,
+/area/under/necropolis)
+"V" = (
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"W" = (
+/obj/structure/fluff/railing/border{
+	dir = 1
+	},
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"X" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/turf/open/floor/church/rust,
+/area/under/necropolis)
+"Y" = (
+/turf/open/floor/church/green,
+/area/under/necropolis)
+
+(1,1,1) = {"
+a
+a
+o
+o
+l
+l
+l
+m
+Y
+Y
+a
+a
+"}
+(2,1,1) = {"
+a
+b
+o
+y
+a
+l
+y
+y
+a
+L
+b
+a
+"}
+(3,1,1) = {"
+a
+j
+u
+v
+T
+T
+c
+g
+g
+A
+U
+a
+"}
+(4,1,1) = {"
+Y
+Y
+q
+e
+e
+e
+M
+e
+e
+i
+L
+Y
+"}
+(5,1,1) = {"
+Y
+S
+P
+e
+R
+R
+R
+I
+e
+E
+X
+x
+"}
+(6,1,1) = {"
+z
+y
+q
+M
+R
+K
+R
+R
+e
+Q
+y
+Y
+"}
+(7,1,1) = {"
+y
+X
+F
+e
+R
+R
+R
+R
+M
+w
+l
+o
+"}
+(8,1,1) = {"
+l
+X
+d
+e
+R
+R
+K
+R
+e
+Q
+z
+o
+"}
+(9,1,1) = {"
+o
+o
+P
+G
+e
+e
+e
+M
+e
+W
+Y
+Y
+"}
+(10,1,1) = {"
+a
+t
+r
+s
+n
+V
+V
+N
+N
+H
+j
+a
+"}
+(11,1,1) = {"
+a
+b
+X
+y
+a
+l
+l
+D
+a
+Y
+b
+a
+"}
+(12,1,1) = {"
+a
+a
+y
+l
+l
+l
+o
+Y
+y
+y
+a
+a
+"}

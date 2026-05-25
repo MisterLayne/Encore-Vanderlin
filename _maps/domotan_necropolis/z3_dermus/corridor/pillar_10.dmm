@@ -1,45 +1,22 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
-/obj/structure/bars/passage,
+/obj/effect/spawner/map_spawner/pit,
 /turf/open/floor/church/rust,
 /area/under/necropolis)
-"h" = (
+"q" = (
 /obj/effect/spawner/map_spawner/necropolis/random_dirty,
 /turf/open/floor/church/rust,
 /area/under/necropolis)
-"N" = (
-/turf/closed/wall/mineral/pipe,
-/area/under/necropolis)
-"T" = (
-/obj/structure/bars,
-/turf/open/floor/church/rust,
-/area/under/necropolis)
-"X" = (
+"O" = (
 /obj/effect/spawner/map_spawner/necropolis,
 /turf/open/floor/church/rust,
 /area/under/necropolis)
 
 (1,1,1) = {"
-N
-N
-T
-T
+q
+a
 "}
 (2,1,1) = {"
-a
-h
-h
-T
-"}
-(3,1,1) = {"
-T
-X
-h
-a
-"}
-(4,1,1) = {"
-T
-T
-N
-N
+O
+q
 "}

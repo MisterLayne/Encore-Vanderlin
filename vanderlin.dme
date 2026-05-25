@@ -9,6 +9,7 @@
 // BEGIN_INCLUDE
 #include "_odlint.dm"
 #include "_maps\_basemap.dm"
+#include "_maps\domotan_necropolis\clutter_spawners.dm"
 #include "_maps\domotan_necropolis\mob_spawners.dm"
 #include "_maps\domotan_necropolis\generic\templates_base.dm"
 #include "_maps\domotan_necropolis\z1_mantle\templates_base.dm"
@@ -3588,6 +3589,7 @@
 #include "code\modules\procedural_mapping\domotan\cave.dm"
 #include "code\modules\procedural_mapping\domotan\field.dm"
 #include "code\modules\procedural_mapping\domotan\forest.dm"
+#include "code\modules\procedural_mapping\domotan\necropolis.dm"
 #include "code\modules\procedural_mapping\mapGeneratorModules\ambushmarkers.dm"
 #include "code\modules\procedural_mapping\mapGeneratorModules\beach.dm"
 #include "code\modules\procedural_mapping\mapGeneratorModules\bog.dm"
