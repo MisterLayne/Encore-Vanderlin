@@ -146,6 +146,14 @@
 	)
 	traits = list(TRAIT_DIVINE_SERVANT)
 
+/datum/devotion/divine/angros
+	miracles = list(
+		CLERIC_T0 = /datum/action/cooldown/spell/healing,
+		CLERIC_T1 = /datum/action/cooldown/spell/sacred_flame,
+		CLERIC_T2 = /datum/action/cooldown/spell/healing/greater,
+		CLERIC_T3 = /datum/action/cooldown/spell/revive,
+	)
+
 // Inhumen
 /datum/devotion/inhumen/make_cleric()
 	. = ..()
@@ -211,6 +219,14 @@
 	)
 	viable_tasks = list(
 		/datum/devotion_task/hertannea_indulge,
+	)
+
+/datum/devotion/inhumen/angros
+	miracles = list(
+		CLERIC_T0 = /datum/action/cooldown/spell/find_flaw,
+		CLERIC_T1 = /datum/action/cooldown/spell/hertanneablessings,
+		CLERIC_T2 = /datum/action/cooldown/spell/projectile/blowingdust,
+		CLERIC_T3 = /datum/action/cooldown/spell/painkiller,
 	)
 
 // Alternate faiths
