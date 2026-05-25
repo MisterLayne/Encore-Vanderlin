@@ -13,7 +13,7 @@
 
 /datum/mapGeneratorModule/decapdirt
 	clusterCheckFlags = CLUSTER_CHECK_DIFFERENT_ATOMS
-	allowed_turfs = list(/turf/open/floor/naturalstone, /turf/open/floor/dirt, /turf/open/floor/grass, /turf/open/floor/grass/cold, /turf/open/floor/grass/yellow, /turf/open/floor/grass/red, /turf/open/floor/snow, /turf/open/floor/snow/rough)
+	allowed_turfs = list(/turf/open/floor/naturalstone, /turf/open/floor/dirt, /turf/open/floor/grass, /turf/open/floor/grass/cold, /turf/open/floor/grass/yel, /turf/open/floor/grass/red, /turf/open/floor/snow, /turf/open/floor/snow/rough)
 	excluded_turfs = list(/turf/open/floor/dirt/road)
 	spawnableAtoms = list(/obj/structure/flora/tree/burnt = 30,
 							/obj/structure/flora/grass/bush_meagre = 25,
