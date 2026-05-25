@@ -30,3 +30,16 @@
 	mappath = "_maps/map_files/domotan/house_templates/doma_house_five.dmm"
 	width = 7
 	height = 5
+
+//noble manors
+/datum/map_template/doma_noble_manor_blue
+	name = "Old Doma Blue Noble Manor"
+	mappath = "_maps/map_files/domotan/house_templates/doma_noble_manor_blue.dmm"
+	width = 10
+	height = 10
+
+/datum/map_template/doma_noble_manor_yellow
+	name = "Old Doma Yellow Noble Manor"
+	mappath = "_maps/map_files/domotan/house_templates/doma_noble_manor_yellow.dmm"
+	width = 10
+	height = 10
