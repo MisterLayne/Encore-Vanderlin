@@ -1465,7 +1465,7 @@
 /obj/structure/fluff/railing/tall/palisade{
 	dir = 8
 	},
-/turf/open/floor/cobble,
+/turf/open/floor/naturalstone,
 /area/under/necropolis)
 "rg" = (
 /obj/structure/fluff/railing/border{
@@ -3731,7 +3731,7 @@
 /area/indoors/hellwatch)
 "Va" = (
 /obj/structure/barricade/wooden,
-/turf/open/floor/cobble,
+/turf/open/floor/naturalstone,
 /area/under/necropolis)
 "Vd" = (
 /obj/item/natural/rock,
@@ -167697,7 +167697,7 @@ iL
 iL
 XF
 iL
-dt
+pt
 dt
 lc
 Wx
@@ -167954,7 +167954,7 @@ iL
 iL
 XF
 iL
-dt
+pt
 dt
 dt
 Uj
@@ -167978,7 +167978,7 @@ Uj
 pt
 pt
 Uj
-Uj
+pt
 iL
 XF
 iL
@@ -168211,7 +168211,7 @@ iL
 iL
 XF
 iL
-dt
+pt
 dt
 dt
 dt
