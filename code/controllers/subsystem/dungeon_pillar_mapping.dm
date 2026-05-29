@@ -1,4 +1,4 @@
-SUBSYSTEM_DEF(minor_mapping)
+SUBSYSTEM_DEF(dungeon_pillar_mapping)
 	name = "Dungeon Pillar Mapping"
 	init_order = INIT_ORDER_DUNGEON_PILLAR_MAPPING
 	flags = SS_NO_FIRE
