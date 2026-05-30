@@ -712,6 +712,7 @@ GLOBAL_PROTECT(admin_verbs_hideable)
 
 	var/roll_result = roll(picked["dice"])
 
+
 	if(roll_result >= dice["crit_success"])
 		message = "CRITICAL SUCCESS! The Dice of Fate have landed upon [roll_result]!"
 		sound_file = 'sound/misc/inspiration.ogg'
