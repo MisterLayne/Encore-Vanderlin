@@ -102,12 +102,13 @@
 
 /datum/mapGeneratorModule/domotanforestgrassgreen
 	clusterCheckFlags = CLUSTER_CHECK_NONE
-	allowed_turfs = list(/turf/open/floor/grass)
+	allowed_turfs = list(/turf/open/floor/grass,
+						/turf/open/floor/grass/yel)
 	excluded_turfs = list(/turf/open/floor/grass/cold)
 	spawnableAtoms = list(/obj/structure/flora/grass/bush = 3,
 							/obj/structure/flora/grass/bush_meagre = 14,
 							/obj/structure/flora/grass/bush/wall/tall = 0.25,
-							/obj/structure/flora/grass = 80,
+							/obj/structure/flora/grass = 30,
 							/obj/structure/essence_node = 0.1,
 							/obj/structure/flora/grass/herb/random = 1,
 							/obj/structure/flora/grass/pyroclasticflowers = 1,
@@ -116,7 +117,11 @@
 							/obj/item/grown/log/tree/stick = 8)
 	allowed_areas = list(/area/outdoors/woods,
 							/area/outdoors/woods_safe,
-							/area/outdoors/basin/safe)
+							/area/outdoors/basin/safe,
+							/area/outdoors/woods/crossroads,
+							/area/outdoors/woods/heavenscoast,
+							/area/outdoors/woods/whisperen,
+							/area/outdoors/bog)
 
 /datum/mapGeneratorModule/domotanforestdirt
 	clusterCheckFlags = CLUSTER_CHECK_SAME_ATOMS
@@ -124,8 +129,8 @@
 	clusterMin = 1
 	allowed_turfs = list(/turf/open/floor/dirt)
 	excluded_turfs = list(/turf/open/floor/dirt/road)
-	spawnableAtoms = list(/obj/structure/flora/grass/bush/tundra = 3,
-							/obj/structure/flora/grass/bush_meagre/tundra = 14,
+	spawnableAtoms = list(/obj/structure/flora/grass/bush = 3,
+							/obj/structure/flora/grass/bush_meagre = 14,
 							/obj/structure/flora/grass/bush/wall/tall/tundra = 0.25,
 							/obj/structure/flora/grass/herb/random = 1,
 							/obj/structure/flora/grass/pyroclasticflowers = 1,
@@ -136,7 +141,11 @@
 							/obj/item/restraints/legcuffs/beartrap/armed/camouflage=0.5)
 	allowed_areas = list(/area/outdoors/woods,
 							/area/outdoors/woods_safe,
-							/area/outdoors/basin/safe)
+							/area/outdoors/basin/safe,
+							/area/outdoors/woods/crossroads,
+							/area/outdoors/woods/heavenscoast,
+							/area/outdoors/woods/whisperen,
+							/area/outdoors/bog)
 
 /datum/mapGeneratorModule/domotanforestdirt/grass
 	clusterCheckFlags = CLUSTER_CHECK_NONE
@@ -155,13 +164,19 @@
 	clusterCheckFlags = CLUSTER_CHECK_NONE
 	allowed_turfs = list(/turf/open/water,
 							/turf/open/water/swamp,
-							/turf/open/water/swamp/deep)
+							/turf/open/water/swamp/deep,
+							/turf/open/water/marsh,
+							/turf/open/water/marsh/deep)
 	excluded_turfs = list(/turf/open/water/river)
 	spawnableAtoms = list(/obj/structure/flora/grass/water = 20,
 		                    /obj/structure/flora/grass/water/reeds = 30,
-	                        /obj/structure/kneestingers = 20,
+	                        /obj/structure/kneestingers = 2,
 							/obj/structure/roguerock = 5)
 	allowed_areas = list(/area/outdoors/woods,
 							/area/outdoors/woods_safe,
 							/area/under/cave,
-							/area/outdoors/basin/safe)
+							/area/outdoors/basin/safe,
+							/area/outdoors/woods/crossroads,
+							/area/outdoors/woods/heavenscoast,
+							/area/outdoors/woods/whisperen,
+							/area/outdoors/bog)
