@@ -174,6 +174,7 @@
 	SPEC_ID_HALF_ELF,\
 	SPEC_ID_DROW,\
 	SPEC_ID_HALF_DROW,\
+	SPEC_ID_TIEFLING,\ //brother we're evil
 )
 
 /// Elves and Half-Elves
@@ -251,10 +252,13 @@
 	SPEC_ID_HUMEN,\
 	SPEC_ID_ELF,\
 	SPEC_ID_HALF_ELF,\
+	SPEC_ID_DROW,\
+	SPEC_ID_HALF_DROW,\
 	SPEC_ID_DWARF,\
 	SPEC_ID_AASIMAR,\
 	SPEC_ID_TRITON,\
 	SPEC_ID_HOLLOWKIN,\
+	SPEC_ID_HALF_ORC,\
 )
 
 /// Foreigner Nobility Species - No Tiefling (you know why) or hollow-kin or medicators (too young to have nobles mayhaps)
@@ -282,7 +286,8 @@
 /// Species who are heretical to the church.
 #define RACES_PLAYER_HERETICAL_RACE list(\
 	SPEC_ID_TIEFLING,\
-	SPEC_ID_HALF_ORC,\
+	SPEC_ID_ORC,\
+	SPEC_ID_ZIZOMBIE,\
 )
 
 /// Species that use the base human body, adjusted or otherwise
