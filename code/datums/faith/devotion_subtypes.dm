@@ -56,10 +56,10 @@
 
 /datum/devotion/divine/mjallidhorn
 	miracles = list(
-		CLERIC_T0 = list(/datum/action/cooldown/spell/healing, /datum/action/cooldown/spell/undirected/conjure_item/summon_leech),
-		CLERIC_T1 = /datum/action/cooldown/spell/projectile/swordfish,
-		CLERIC_T2 = /datum/action/cooldown/spell/undirected/conjure_item/summon_trident/miracle,
-		CLERIC_T3 = /datum/action/cooldown/spell/ocean_embrace,
+		CLERIC_T0 = /datum/action/cooldown/spell/healing,
+		CLERIC_T1 = /datum/action/cooldown/spell/undirected/call_to_arms,
+		CLERIC_T2 = /datum/action/cooldown/spell/undirected/divine_strike,
+		CLERIC_T3 = /datum/action/cooldown/spell/persistence,
 	)
 	viable_tasks = list(
 		/datum/devotion_task/mjallidhorn_sail,
@@ -83,9 +83,9 @@
 /datum/devotion/divine/mordsol
 	miracles = list(
 		CLERIC_T0 = /datum/action/cooldown/spell/healing,
-		CLERIC_T1 = /datum/action/cooldown/spell/undirected/call_to_arms,
-		CLERIC_T2 = /datum/action/cooldown/spell/undirected/divine_strike,
-		CLERIC_T3 = /datum/action/cooldown/spell/persistence,
+		CLERIC_T1 = /datum/action/cooldown/spell/projectile/swordfish,
+		CLERIC_T2 = /datum/action/cooldown/spell/undirected/conjure_item/summon_trident/miracle,
+		CLERIC_T3 = /datum/action/cooldown/spell/ocean_embrace,
 	)
 	traits = list(TRAIT_DIVINE_SERVANT)
 

@@ -174,7 +174,7 @@
 	SPEC_ID_HALF_ELF,\
 	SPEC_ID_DROW,\
 	SPEC_ID_HALF_DROW,\
-	SPEC_ID_TIEFLING,\ //brother we're evil
+	SPEC_ID_TIEFLING,\
 )
 
 /// Elves and Half-Elves
