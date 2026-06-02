@@ -2483,13 +2483,6 @@
 	},
 /turf/open/floor/ruinedwood/turned,
 /area/outdoors/hellwatch)
-"Gs" = (
-/obj/structure/bars/pipe{
-	pixel_y = 8
-	},
-/obj/structure/bars/grille,
-/turf/open/water/ocean/abyss,
-/area/under/necropolis)
 "Gv" = (
 /obj/structure/fluff/walldeco/church/line,
 /turf/open/floor/churchrough,
@@ -3148,12 +3141,6 @@
 /obj/structure/closet/crate/coffin,
 /turf/open/floor/ruinedwood/turned/darker,
 /area/indoors/hellwatch)
-"Ox" = (
-/obj/structure/bars/pipe{
-	pixel_y = 8
-	},
-/turf/open/water/ocean/abyss,
-/area/under/necropolis)
 "Oz" = (
 /obj/effect/landmark/map_load_mark/necropolis/z1,
 /turf/closed/mineral/bedrock,
@@ -170277,7 +170264,7 @@ Lu
 Sb
 Sb
 aJ
-Gs
+OC
 sk
 uk
 HC
@@ -170534,14 +170521,14 @@ Lu
 Sb
 aJ
 aJ
-Gs
+OC
 YT
 uk
 Sb
 pt
 pt
 Sb
-Gs
+OC
 Sb
 Sb
 Sb
@@ -170791,14 +170778,14 @@ Lu
 Sb
 Sb
 Sb
-Ox
+Sb
 YT
 uk
 Sb
 pt
 pt
 HC
-Gs
+OC
 Sb
 Sb
 Sb
