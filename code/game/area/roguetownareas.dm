@@ -297,7 +297,7 @@
 /area/under/cavelava
 	name = "cavelava"
 	icon_state = "cavelava"
-	first_time_text = "GOLERKANH'S ARTERY"
+	first_time_text = "MOUNT MIRACLE TUNNELS"
 	droning_index = DRONING_CAVE_LAVA
 	ambient_index = AMBIENCE_CAVE
 	ambush_times = list(NIGHT,DAWN,DUSK,DAY)

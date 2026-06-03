@@ -3324,10 +3324,6 @@
 	},
 /obj/structure/bars,
 /obj/structure/fluff/steamvent,
-/obj/structure/bars/pipe{
-	dir = 4;
-	pixel_x = -10
-	},
 /turf/open/floor/metal,
 /area/latejoin_area)
 "SE" = (

@@ -2,40 +2,53 @@
 "a" = (
 /obj/structure/flora/grass/bush/wall/tall,
 /turf/open/floor/grass/yel,
-/area/indoors/cave)
+/area/under/cave)
+"b" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/goblin,
+/turf/open/floor/grass/yel,
+/area/under/cave)
 "c" = (
 /obj/structure/innocent_bush,
 /turf/open/floor/grass/yel,
-/area/indoors/cave)
+/area/under/cave)
 "e" = (
 /turf/closed/mineral,
-/area/indoors/cave)
+/area/under/cave)
+"h" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/grass/yel,
+/area/under/cave)
 "i" = (
 /obj/structure/flora/grass/bush/wall/tall,
 /obj/structure/flora/grass/bush/wall/tall,
 /obj/structure/flora/grass/bush/wall/tall,
 /turf/open/floor/grass/yel,
-/area/indoors/cave)
+/area/under/cave)
 "r" = (
 /obj/structure/flora/grass/bush/wall/tall,
 /obj/structure/flora/grass/bush/wall/tall,
 /turf/open/floor/grass/yel,
-/area/indoors/cave)
+/area/under/cave)
+"u" = (
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/grass/yel,
+/area/under/cave)
 "A" = (
 /obj/structure/flora/grass/swampweed,
 /turf/open/floor/grass/yel,
-/area/indoors/cave)
+/area/under/cave)
 "C" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass/yel,
-/area/indoors/cave)
+/area/under/cave)
 "M" = (
 /turf/open/floor/grass/yel,
-/area/indoors/cave)
+/area/under/cave)
 "S" = (
 /obj/structure/flora/grass,
 /turf/open/floor/grass/yel,
-/area/indoors/cave)
+/area/under/cave)
 
 (1,1,1) = {"
 e
@@ -191,12 +204,12 @@ M
 C
 M
 M
-M
+b
 a
 a
 M
 a
-M
+u
 e
 "}
 (7,1,1) = {"
@@ -204,9 +217,9 @@ e
 M
 a
 S
-M
-M
-C
+u
+u
+h
 M
 M
 a
@@ -223,7 +236,7 @@ a
 a
 M
 a
-M
+u
 e
 "}
 (8,1,1) = {"
@@ -235,9 +248,9 @@ a
 a
 M
 a
-M
-M
-C
+u
+u
+h
 C
 M
 a
@@ -258,7 +271,7 @@ e
 M
 a
 S
-M
+b
 M
 M
 a
@@ -292,7 +305,7 @@ a
 r
 C
 M
-M
+b
 M
 M
 M
@@ -344,7 +357,7 @@ a
 M
 a
 c
-M
+u
 a
 a
 M
@@ -355,7 +368,7 @@ M
 a
 M
 C
-M
+b
 C
 M
 M
@@ -371,7 +384,7 @@ M
 M
 a
 a
-M
+u
 a
 a
 a
@@ -398,7 +411,7 @@ a
 a
 a
 r
-M
+u
 a
 M
 M
@@ -432,7 +445,7 @@ a
 a
 a
 a
-M
+u
 a
 M
 M
@@ -459,7 +472,7 @@ a
 M
 a
 a
-M
+u
 a
 M
 a
@@ -493,7 +506,7 @@ a
 a
 a
 a
-M
+u
 e
 "}
 (18,1,1) = {"
@@ -506,10 +519,10 @@ M
 a
 M
 M
-M
-M
-M
-M
+u
+u
+u
+u
 M
 C
 r
@@ -520,7 +533,7 @@ a
 M
 a
 a
-M
+u
 e
 "}
 (19,1,1) = {"
@@ -542,12 +555,12 @@ M
 a
 M
 a
-M
+b
 a
 M
 a
 a
-M
+u
 e
 "}
 (20,1,1) = {"
@@ -558,10 +571,10 @@ M
 M
 M
 i
-M
+b
 a
 M
-M
+b
 M
 M
 a

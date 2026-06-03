@@ -1,162 +1,166 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/open/floor/grass/healthy,
-/area/indoors/cave)
+/area/under/cave)
 "b" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /mob/living/simple_animal/hostile/retaliate/bat,
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
 "c" = (
 /obj/structure/flora/tree,
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
 "e" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/grass/healthy,
-/area/indoors/cave)
+/area/under/cave)
 "f" = (
 /obj/structure/flora/tree/dead_bush,
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass/healthy,
-/area/indoors/cave)
+/area/under/cave)
 "h" = (
 /obj/structure/flora/tree/dead_bush,
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
 "j" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/grass/healthy,
-/area/indoors/cave)
+/area/under/cave)
 "k" = (
 /turf/closed/mineral,
-/area/indoors/cave)
+/area/under/cave)
 "l" = (
 /obj/structure/flora/tree/dead_bush,
 /turf/open/floor/grass/healthy,
-/area/indoors/cave)
+/area/under/cave)
 "m" = (
 /obj/structure/flora/ausbushes/palebush,
 /turf/open/floor/grass/healthy,
-/area/indoors/cave)
+/area/under/cave)
 "n" = (
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
 "o" = (
 /obj/structure/flora/grass/bush,
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass/healthy,
-/area/indoors/cave)
+/area/under/cave)
 "q" = (
 /obj/machinery/light/fueled/firebowl/stump,
 /turf/open/floor/grass/healthy,
-/area/indoors/cave)
+/area/under/cave)
 "r" = (
 /obj/structure/flora/tree/dead_bush,
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/grass/healthy,
-/area/indoors/cave)
+/area/under/cave)
 "s" = (
 /obj/structure/flora/tree/dead_bush,
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/grass/healthy,
-/area/indoors/cave)
+/area/under/cave)
 "u" = (
 /obj/structure/flora/grass/bush,
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/grass/healthy,
-/area/indoors/cave)
+/area/under/cave)
 "w" = (
 /obj/machinery/light/fueled/firebowl/stump,
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
 "x" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
 "y" = (
 /obj/structure/flora/tree/dead_bush,
 /obj/structure/flora/ausbushes/sparsegrass,
 /mob/living/simple_animal/hostile/retaliate/bat,
 /turf/open/floor/grass/healthy,
-/area/indoors/cave)
+/area/under/cave)
 "z" = (
 /obj/structure/flora/grass/bush,
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
 "A" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/closed/mineral,
-/area/indoors/cave)
+/area/under/cave)
 "B" = (
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
+"E" = (
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
+/turf/open/floor/grass/mixyel,
+/area/under/cave)
 "F" = (
 /obj/structure/flora/ausbushes/palebush,
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
 "H" = (
 /obj/structure/flora/grass/bush_meagre,
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
 "I" = (
 /obj/structure/flora/grass/bush,
 /turf/open/floor/grass/healthy,
-/area/indoors/cave)
+/area/under/cave)
 "K" = (
 /obj/structure/flora/grass/bush,
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
 "M" = (
 /mob/living/simple_animal/hostile/retaliate/bat,
 /turf/open/floor/grass/healthy,
-/area/indoors/cave)
+/area/under/cave)
 "N" = (
 /obj/structure/flora/grass/bush_meagre,
 /turf/open/floor/grass/healthy,
-/area/indoors/cave)
+/area/under/cave)
 "P" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /mob/living/simple_animal/hostile/retaliate/bat,
 /turf/open/floor/grass/healthy,
-/area/indoors/cave)
+/area/under/cave)
 "Q" = (
 /obj/structure/flora/tree/dead_bush,
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
 "R" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass/healthy,
-/area/indoors/cave)
+/area/under/cave)
 "S" = (
 /mob/living/simple_animal/hostile/retaliate/bat,
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
 "U" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
 "V" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass/healthy,
-/area/indoors/cave)
+/area/under/cave)
 "W" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
 "X" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
 "Y" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/grass/mixyel,
-/area/indoors/cave)
+/area/under/cave)
 
 (1,1,1) = {"
 k
@@ -677,7 +681,7 @@ n
 n
 K
 n
-n
+E
 n
 n
 X
