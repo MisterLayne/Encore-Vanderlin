@@ -1,0 +1,4 @@
+author: "MisterLayne"
+delete-after: True
+changes:
+  - rscadd: "Added new verb for admins to roll dice"
