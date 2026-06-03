@@ -313,6 +313,21 @@ INITIALIZE_IMMEDIATE(/atom/movable/screen/lobby)
 
 	hud.mymob.client?.view_actors_manifest()
 
+/atom/movable/screen/lobby/button/observe
+	name = "Observe"
+	screen_loc = "WEST:20,TOP:-200"
+	icon = 'icons/hud/lobby/observe.dmi'
+	icon_state = "observe"
+	base_icon_state = "observe"
+
+/atom/movable/screen/lobby/button/observe/Click(location, control, params)
+	. = ..()
+	if(!.)
+		return
+
+	var/mob/dead/new_player/NP = usr
+	NP.make_me_an_observer()
+
 /atom/movable/screen/lobby/button/collapse
 	name = "Collapse Lobby Menu"
 	icon = 'icons/hud/lobby/collapse_expand.dmi'
