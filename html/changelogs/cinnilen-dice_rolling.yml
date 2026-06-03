@@ -1,0 +1,6 @@
+author: "cinnilen"
+
+delete-after: True
+
+changes:
+  - rscadd: "Adds a verb for admins to globally or locally roll dice in GameMaster tab."
