@@ -4,10 +4,9 @@
 /turf/open/floor/metal,
 /area/under/necropolis)
 "bC" = (
-/obj/structure/bars/pipe{
-	dir = 8
-	},
-/turf/open/lava/acid,
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/metal/alt,
 /area/under/necropolis)
 "bY" = (
 /obj/structure/fluff/statue/knightalt{
@@ -43,10 +42,6 @@
 "gS" = (
 /turf/closed/wall/mineral/pipe,
 /area/under/necropolis)
-"ib" = (
-/obj/structure/bars/pipe,
-/turf/open/lava/acid,
-/area/under/necropolis)
 "is" = (
 /turf/open/floor/metal/barograte,
 /area/under/necropolis)
@@ -56,12 +51,6 @@
 "jn" = (
 /obj/effect/spawner/map_spawner/necropolis,
 /turf/open/floor/church/pale,
-/area/under/necropolis)
-"kV" = (
-/obj/structure/bars/pipe{
-	dir = 10
-	},
-/turf/open/floor/church/green,
 /area/under/necropolis)
 "lf" = (
 /obj/effect/spawner/map_spawner/necropolis,
@@ -106,10 +95,8 @@
 /turf/open/floor/church/rust,
 /area/under/necropolis)
 "sB" = (
-/obj/structure/bars/pipe{
-	dir = 10
-	},
-/turf/open/lava/acid,
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/metal/barograte,
 /area/under/necropolis)
 "vi" = (
 /obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
@@ -131,7 +118,8 @@
 /obj/structure/fluff/walldeco/chains{
 	pixel_x = 6
 	},
-/turf/open/lava/acid,
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/metal/barograte,
 /area/under/necropolis)
 "yK" = (
 /obj/effect/decal/cleanable/blood/tracks,
@@ -141,6 +129,9 @@
 /obj/item/book_crafting_kit,
 /obj/structure/fluff/railing/border{
 	dir = 4
+	},
+/obj/structure/fluff/walldeco/bath/wallpipes/innie{
+	dir = 8
 	},
 /turf/open/floor/metal,
 /area/under/necropolis)
@@ -156,6 +147,9 @@
 	dir = 4
 	},
 /obj/effect/spawner/map_spawner/necropolis/shroom_clutter,
+/obj/structure/fluff/walldeco/bath/wallpipes/innie{
+	dir = 8
+	},
 /turf/open/floor/metal,
 /area/under/necropolis)
 "Di" = (
@@ -168,18 +162,6 @@
 "EP" = (
 /obj/effect/spawner/map_spawner/necropolis/random_rock_wall,
 /turf/open/floor/church/green,
-/area/under/necropolis)
-"Fg" = (
-/turf/open/lava/acid,
-/area/under/necropolis)
-"FQ" = (
-/obj/structure/bars/pipe{
-	dir = 6
-	},
-/obj/structure/bars/pipe{
-	dir = 8
-	},
-/turf/open/floor/concrete,
 /area/under/necropolis)
 "Ga" = (
 /obj/structure/fluff/steamvent,
@@ -215,7 +197,8 @@
 	name = "loveless one";
 	desc = "Remnants of once was the soul, congealed Thauma oozing about and only barely left to linger in the air. Some time long ago, this was a person. A person with dreams, aspirations, hopes and love; in the end, something else had different plans. Some day, in the far future, what is left of them will be dust again, and only then will they see peace."
 	},
-/turf/open/lava/acid,
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/metal/barograte,
 /area/under/necropolis)
 "MH" = (
 /obj/item/flashlight/flare/torch/lantern/bronzelamptern,
@@ -232,10 +215,13 @@
 /turf/open/floor/church/rust,
 /area/under/necropolis)
 "OL" = (
-/obj/structure/bars/pipe{
+/obj/structure/fluff/walldeco/bath/wallpipes/innie{
+	dir = 8
+	},
+/obj/structure/fluff/walldeco/bath/wallpipes/innie{
 	dir = 4
 	},
-/obj/structure/bars/pipe{
+/obj/structure/fluff/railing/border{
 	dir = 8
 	},
 /turf/open/floor/concrete,
@@ -261,15 +247,21 @@
 /turf/open/floor/church/green,
 /area/under/necropolis)
 "RU" = (
-/obj/structure/bars/pipe{
-	dir = 10
+/obj/structure/fluff/walldeco/bath/wallpipes/innie{
+	dir = 4
 	},
-/obj/structure/bars/pipe,
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
 /turf/open/floor/concrete,
 /area/under/necropolis)
 "SE" = (
 /obj/structure/chair/bench/church/smallbench{
 	dir = 4
+	},
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 10
 	},
 /turf/open/floor/church/green,
 /area/under/necropolis)
@@ -284,7 +276,12 @@
 /turf/open/floor/church/rust,
 /area/under/necropolis)
 "Vk" = (
-/obj/structure/bars/pipe,
+/obj/structure/fluff/walldeco/bath/wallpipes/innie{
+	dir = 4
+	},
+/obj/structure/fluff/railing/border{
+	dir = 4
+	},
 /turf/open/floor/concrete,
 /area/under/necropolis)
 "YJ" = (
@@ -353,7 +350,7 @@ dT
 Gm
 Gm
 gS
-kV
+Rc
 gS
 gS
 dT
@@ -364,10 +361,10 @@ cv
 Qp
 bt
 dT
-bC
-bC
+is
+is
 gS
-FQ
+OL
 gS
 Vk
 YJ
@@ -382,8 +379,8 @@ pd
 pd
 gS
 LS
-ib
-ib
+sB
+sB
 dT
 "}
 (7,1,1) = {"
@@ -395,9 +392,9 @@ Ga
 ce
 Gt
 gS
-Fg
-ib
-ib
+sB
+sB
+sB
 dT
 "}
 (8,1,1) = {"
@@ -431,7 +428,7 @@ qJ
 (10,1,1) = {"
 dT
 yJ
-Fg
+sB
 gS
 Rc
 nZ
@@ -445,13 +442,13 @@ oM
 (11,1,1) = {"
 dT
 sB
-Fg
+sB
 gS
 EP
 Zo
 xd
 IS
-Zo
+bC
 wt
 ny
 oM

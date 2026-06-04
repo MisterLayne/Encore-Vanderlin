@@ -2,295 +2,317 @@
 "aa" = (
 /obj/effect/spawner/map_spawner/sewerencounter,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "bJ" = (
 /obj/structure/fluff/railing/tall/palisade,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "bM" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "cw" = (
 /obj/structure/chair/wood/alt/chair_noble/fancyplush,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "eB" = (
 /obj/effect/decal/cleanable/blood/puddle,
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/goblin,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
+"eC" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/orcs,
+/turf/open/floor/dirt/road,
+/area/under/cave)
 "gR" = (
 /obj/effect/decal/cleanable/blood,
 /obj/machinery/light/fueled/torchholder/r,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "jC" = (
 /obj/effect/decal/cleanable/blood/puddle,
 /obj/effect/decal/cleanable/blood/old,
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "jE" = (
 /turf/closed/mineral,
-/area/indoors/cave)
+/area/under/cave)
 "jY" = (
 /obj/item/weapon/polearm/spear,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "kh" = (
-/turf/open/openspace,
-/area/indoors/cave)
+/turf/open/floor/dirt,
+/area/under/cave)
 "ll" = (
 /obj/structure/bed/hay,
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "lB" = (
 /obj/effect/landmark/chest_or_mimic,
 /obj/effect/spawner/map_spawner/loot/medium,
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "lF" = (
 /obj/effect/decal/cleanable/blood/puddle,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "lH" = (
 /obj/effect/decal/cleanable/blood/puddle,
 /obj/effect/mob_spawn/human/corpse,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "lR" = (
 /obj/effect/decal/cleanable/blood/gibs/torso,
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "nm" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "om" = (
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "oV" = (
 /obj/structure/bed/hay,
 /obj/effect/mob_spawn/human/corpse/damaged,
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/goblin,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
+"ps" = (
+/obj/structure/bed/hay,
+/obj/effect/mob_spawn/human/corpse/damaged,
+/turf/open/floor/dirt/road,
+/area/under/cave)
 "qs" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "qu" = (
 /obj/structure/tent_wall,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "rU" = (
 /obj/effect/decal/cleanable/blood/gibs/core,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
+"sl" = (
+/obj/effect/landmark/map_load_mark/necropolis/z3_pillars,
+/turf/closed/mineral,
+/area/under/cave)
 "tb" = (
 /obj/effect/decal/cleanable/blood/footprints,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "tF" = (
 /obj/effect/decal/cleanable/blood/puddle,
 /obj/effect/decal/cleanable/blood/puddle,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "tU" = (
 /obj/structure/bed/hay,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "uG" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "uL" = (
 /obj/effect/mob_spawn/human/corpse/damaged,
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "uW" = (
 /obj/item/bodypart/r_leg,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "vk" = (
 /obj/structure/tent_wall,
 /obj/structure/tent_wall,
 /obj/structure/tent_wall,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "vJ" = (
 /obj/structure/fluff/railing/tall/palisade,
 /obj/structure/fluff/railing/tall/palisade,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "vM" = (
 /obj/effect/mob_spawn/human/corpse,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "vR" = (
 /obj/item/restraints/legcuffs/beartrap/armed/camouflage,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "wc" = (
 /obj/structure/tent_wall,
 /obj/structure/tent_wall,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "yf" = (
 /obj/machinery/light/fueled/torchholder/l,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "yt" = (
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "yH" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 10
 	},
 /obj/effect/spawner/map_spawner/sewerencounter,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "zP" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "AO" = (
 /obj/structure/chair/stool/crafted,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
+"BI" = (
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/goblin,
+/turf/open/floor/dirt,
+/area/under/cave)
 "El" = (
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 8
 	},
 /obj/machinery/light/fueled/firebowl,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "Eo" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "Fl" = (
 /obj/item/weapon/knife/dagger/steel,
 /obj/structure/table/wood/crafted,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "Gh" = (
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "Gn" = (
 /obj/machinery/light/fueled/torchholder/r,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "GQ" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "Hi" = (
 /obj/structure/bed/hay,
 /obj/effect/decal/cleanable/blood/puddle,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "HR" = (
 /obj/structure/fluff/railing/tall/palisade,
-/obj/structure/fluff/walldeco/customflag/regent,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "IC" = (
 /obj/item/bodypart/l_leg,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "JD" = (
 /obj/structure/rack/shelf/big,
 /obj/effect/spawner/map_spawner/loot/weapon,
 /obj/effect/spawner/map_spawner/loot/weapon,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "Le" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/structure/fluff/railing/tall/palisade,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "Ly" = (
 /obj/effect/decal/cleanable/blood/puddle,
 /obj/structure/fluff/railing/tall/palisade,
-/obj/structure/fluff/walldeco/customflag/regent,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "Ps" = (
 /obj/structure/rack/shelf/big,
 /obj/effect/spawner/map_spawner/loot/armor,
 /obj/effect/spawner/map_spawner/loot/armor,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "PE" = (
 /obj/effect/decal/cleanable/blood/puddle,
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 8
 	},
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "PQ" = (
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
+"Qc" = (
+/obj/structure/chair/stool/crafted,
+/obj/effect/spawner/map_spawner/necropolis/mob_spawner/orcs,
+/turf/open/floor/dirt/road,
+/area/under/cave)
 "Qd" = (
 /obj/structure/tent_wall,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "Rv" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "RB" = (
 /obj/structure/roguetent,
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "RW" = (
-/obj/structure/tent_wall,
-/obj/structure/fluff/walldeco/customflag/regent,
-/turf/open/floor/naturalstone,
-/area/indoors/cave)
+/obj/effect/spawner/map_spawner/necropolis/water_tiles,
+/turf/open/floor/dirt/road,
+/area/under/cave)
 "TI" = (
 /obj/structure/table/wood/crafted,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "TX" = (
 /obj/machinery/light/fueled/torchholder/c,
 /obj/effect/spawner/map_spawner/sewerencounter,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "WB" = (
 /obj/effect/decal/cleanable/blood/puddle,
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "WT" = (
 /obj/effect/decal/cleanable/blood/gibs/old,
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "Yh" = (
 /obj/structure/roguetent,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 "Ys" = (
-/obj/structure/fluff/railing/tall/palisade,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "YU" = (
 /obj/effect/spawner/map_spawner/sewerencounter,
 /turf/open/floor/naturalstone,
-/area/indoors/cave)
+/area/under/cave)
 "Zn" = (
 /obj/effect/decal/cleanable/blood/tracks,
 /turf/open/floor/dirt/road,
-/area/indoors/cave)
+/area/under/cave)
 
 (1,1,1) = {"
 jE
@@ -301,10 +323,10 @@ jE
 jE
 jE
 jE
-Gh
-Gh
-Gh
-Gh
+Ys
+Ys
+Ys
+Ys
 om
 Gh
 Gh
@@ -328,13 +350,13 @@ jE
 jE
 jE
 jE
-Gh
+Ys
 jE
 om
 om
-om
-om
-Gh
+RW
+RW
+Ys
 jE
 jE
 jE
@@ -352,14 +374,14 @@ jE
 jE
 jE
 jE
+sl
 jE
 jE
-jE
-Gh
-Gh
+Ys
+Ys
 om
 om
-Gh
+Ys
 jE
 jE
 jE
@@ -394,7 +416,7 @@ jE
 jE
 jE
 jE
-jE
+sl
 jE
 jE
 jE
@@ -404,23 +426,23 @@ jE
 jE
 jE
 jE
-Gh
-Gh
+Ys
+Ys
 om
-Gh
-Gh
-Gh
+Ys
+Ys
+Ys
 lF
 om
 om
 om
-Gh
-Gh
-Gh
-Gh
-Gh
-Gh
-Gh
+Ys
+Ys
+Ys
+Ys
+jE
+jE
+jE
 jE
 jE
 jE
@@ -433,21 +455,21 @@ jE
 jE
 om
 om
-Gh
 Ys
-Gh
-Gh
+HR
+Ys
+Ys
 gR
 om
 zP
+HR
+Ys
+om
 Ys
 Gh
-om
 Gh
-Gh
-Gh
-Gh
-Gh
+jE
+jE
 jE
 jE
 jE
@@ -458,9 +480,9 @@ jE
 jE
 jE
 jE
-Gh
+Ys
 YU
-Gh
+Ys
 Qd
 Qd
 Qd
@@ -474,7 +496,7 @@ rU
 om
 Gh
 Gh
-Gh
+jE
 jE
 jE
 jE
@@ -485,23 +507,23 @@ jE
 jE
 jE
 jE
-Gh
-Gh
-Gh
+Ys
+Ys
+Ys
 Qd
 Hi
 om
 JD
 Ps
-oV
-RW
-Gh
+ps
+Qd
+Ys
 lF
-Gh
+Ys
 aa
+RW
 om
-om
-Gh
+jE
 jE
 jE
 jE
@@ -510,10 +532,10 @@ jE
 "}
 (9,1,1) = {"
 jE
-Gh
+Ys
 jE
 lF
-Gh
+Ys
 lF
 Qd
 ll
@@ -522,53 +544,53 @@ eB
 om
 ll
 Qd
-Gh
+Ys
 tb
 tb
 tb
 uL
-om
-Gh
+RW
+Ys
 jE
 jE
 jE
 jE
-Gh
+Ys
 "}
 (10,1,1) = {"
 jE
-Gh
-Gh
-Gh
+Ys
+Ys
+Ys
 om
-Gh
-RW
+Ys
+Qd
 oV
 aa
 om
 eB
 tU
 wc
-Gh
+Ys
 lF
-Gh
+Ys
 Rv
-om
-om
-Gh
+RW
+RW
 jE
 jE
 jE
 jE
-Gh
+jE
+Ys
 "}
 (11,1,1) = {"
+Ys
 Gh
-Gh
-Gh
+Ys
 om
 om
-Gh
+Ys
 Qd
 Qd
 Qd
@@ -580,89 +602,89 @@ GQ
 jC
 om
 om
-Gh
-Gh
-Gh
+Ys
+Ys
 jE
-Gh
-Gh
-Gh
+jE
+Ys
+Ys
+Ys
 Gh
 "}
 (12,1,1) = {"
-om
-om
-om
-om
-Gh
-Gh
-bJ
-Gh
-Gh
-Gh
-Gh
-Gh
-uW
-Gh
-lH
+RW
+RW
 om
 om
 Ys
+Ys
+bJ
+Ys
+Ys
+Ys
+Ys
+Ys
+uW
+Ys
+lH
 om
-Gh
+om
+HR
+om
+jE
 jE
 Gh
-om
+RW
 Gh
 Gh
 "}
 (13,1,1) = {"
-om
+RW
 om
 zP
-Gh
+Ys
 lF
 om
 Ly
-Gh
+Ys
 vR
-Gh
+Ys
 yH
 uG
-Gh
+Ys
 WB
-Gh
+Ys
 Gn
 Rv
 vJ
-Gh
-Gh
+Ys
 jE
-om
-om
+jE
+RW
+RW
 Gh
-Gh
+Ys
 "}
 (14,1,1) = {"
+RW
 om
-om
-Gh
+Ys
 Gn
 tF
 om
 om
-Gh
-Gh
+Ys
+Ys
 nm
 El
 om
-Gh
+Ys
 Qd
 Qd
 Qd
 Qd
 Qd
-Gh
+Ys
 om
 jE
 om
@@ -672,7 +694,7 @@ om
 "}
 (15,1,1) = {"
 om
-Gh
+Ys
 jE
 Qd
 Qd
@@ -683,50 +705,50 @@ Qd
 GQ
 PE
 om
-Gh
+Ys
 wc
 kh
 kh
 om
 wc
-Gh
-Gh
-Gh
+Ys
+Ys
+Ys
 om
 om
 om
 om
 "}
 (16,1,1) = {"
-Gh
-Gh
+Ys
+Ys
 jE
 lB
 TI
 om
-AO
+Qc
 aa
-RW
-Gh
+Qd
+Ys
 Eo
 jY
-Gh
+Ys
 Qd
 om
-om
+BI
 kh
 Qd
-Gh
-Gh
-Gh
+Ys
+Ys
+Ys
 om
-Gh
+Ys
 om
 om
 "}
 (17,1,1) = {"
-Gh
-Gh
+Ys
+Ys
 jE
 cw
 Fl
@@ -737,46 +759,46 @@ Qd
 bM
 lR
 vM
-Gh
+Ys
 Yh
 kh
 kh
-kh
+BI
 Qd
 yt
-Gh
-Gh
+Ys
+Ys
 jE
-Gh
-Gh
-Gh
+Ys
+Ys
+Ys
 "}
 (18,1,1) = {"
-Gh
+Ys
 jE
 jE
 PQ
 TI
-om
+eC
 AO
 Zn
 RB
 qs
 WT
-Gh
+Ys
 YU
 wc
+kh
 om
 kh
-kh
 Qd
-Gh
-Gh
+Ys
+Ys
 jE
 jE
-Gh
+Ys
 jE
-Gh
+Ys
 "}
 (19,1,1) = {"
 jE
@@ -791,13 +813,13 @@ Qd
 bM
 bM
 Eo
-Gh
+Ys
 vk
 Qd
 Qd
 Qd
 Qd
-Gh
+Ys
 om
 jE
 jE
@@ -818,39 +840,39 @@ Qd
 yt
 Le
 om
-Gh
 Ys
-Gh
-yf
-Gh
 HR
-Gh
+Ys
+yf
+Ys
+HR
+Ys
 om
 jE
 jE
 jE
-jE
+sl
 jE
 "}
 (21,1,1) = {"
 jE
 jE
 jE
-Gh
-Gh
-Gh
+Ys
+Ys
+Ys
 bM
 uG
-Gh
-Gh
 Ys
-Gh
-Gh
+Ys
+HR
+Ys
+Ys
 om
 om
-Gh
-Gh
-Gh
+Ys
+Ys
+Ys
 om
 aa
 jE
@@ -863,6 +885,7 @@ jE
 jE
 jE
 jE
+sl
 jE
 jE
 jE
@@ -870,9 +893,8 @@ jE
 jE
 jE
 jE
-jE
-Gh
-Gh
+Ys
+Ys
 om
 jE
 jE
@@ -896,11 +918,11 @@ jE
 jE
 jE
 jE
-Gh
-Gh
+Ys
+Ys
 om
 om
-om
+jE
 jE
 jE
 jE
@@ -926,7 +948,7 @@ jE
 jE
 jE
 om
-om
+RW
 om
 jE
 jE
@@ -950,11 +972,11 @@ jE
 jE
 jE
 jE
-Gh
-Gh
-om
-om
-om
+Ys
+Ys
+RW
+RW
+RW
 Gh
 Gh
 jE

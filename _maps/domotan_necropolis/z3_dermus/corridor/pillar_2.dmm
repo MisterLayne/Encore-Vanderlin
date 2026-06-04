@@ -3,8 +3,9 @@
 /turf/closed/mineral,
 /area/under/necropolis)
 "h" = (
+/obj/effect/spawner/map_spawner/necropolis/random_dirty,
 /obj/effect/spawner/map_spawner/necropolis/mob_spawner,
-/turf/open/floor/cobble/alt,
+/turf/open/floor/naturalstone,
 /area/under/necropolis)
 "i" = (
 /turf/open/floor/naturalstone,
@@ -27,7 +28,7 @@
 /area/under/necropolis)
 "T" = (
 /obj/effect/spawner/map_spawner/necropolis,
-/turf/open/floor/cobble/alt,
+/turf/open/floor/naturalstone,
 /area/under/necropolis)
 
 (1,1,1) = {"
@@ -45,12 +46,12 @@ v
 (3,1,1) = {"
 N
 a
-h
+i
 i
 "}
 (4,1,1) = {"
 T
 i
 H
-N
+h
 "}

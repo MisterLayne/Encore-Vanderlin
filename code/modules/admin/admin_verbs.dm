@@ -157,6 +157,7 @@ GLOBAL_LIST_INIT(admin_verbs_fun, list(
 	/client/proc/show_tip,
 	/client/proc/smite,
 	/client/proc/heart_attack,
+	/client/proc/roll_admin_dice,
 	))
 GLOBAL_PROTECT(admin_verbs_fun)
 GLOBAL_LIST_INIT(admin_verbs_spawn, list(/datum/admins/proc/spawn_atom, /datum/admins/proc/podspawn_atom, /client/proc/respawn_character, /datum/admins/proc/beaker_panel))
@@ -292,7 +293,8 @@ GLOBAL_LIST_INIT(admin_verbs_hideable, list(
 	/client/proc/panicbunker,
 	/client/proc/cmd_display_del_log,
 	/client/proc/toggle_combo_hud,
-	/client/proc/debug_huds
+	/client/proc/debug_huds,
+	/client/proc/roll_admin_dice,
 	))
 GLOBAL_PROTECT(admin_verbs_hideable)
 
@@ -665,6 +667,78 @@ GLOBAL_PROTECT(admin_verbs_hideable)
 	GLOB.DYN_EX_SCALE = ex_scale
 	log_admin("[key_name(usr)] has modified Dynamic Explosion Scale: [ex_scale]")
 	message_admins("[key_name_admin(usr)] has  modified Dynamic Explosion Scale: [ex_scale]")
+
+/client/proc/roll_admin_dice()
+	set category = "GameMaster.Fun"
+	set name = "Roll Admin Dice"
+	set desc = ""
+
+	var/message
+	var/sound_file
+
+	var/list/dice = list(
+		"Roll D6" = list(
+			dice = "1d6",
+			crit_success = 6,
+			crit_failure = 1
+		),
+		"Roll D20" = list(
+			dice = "1d20",
+			crit_success = 20,
+			crit_failure = 1
+		),
+		"Roll D100" = list(
+			dice = "1d100",
+			crit_success = 96,
+			crit_failure = 5
+		)
+	)
+
+	var/which = tgui_alert(usr, "", "", list("Global", "Local"))
+	if(!which)
+		return
+
+	var/reason = input(usr, "Give your reasoning, if any, for rolling THE DICE of FATE. Detail conditional modifiers here.", "Offer Nuance", "") as message|null
+	if(!reason)
+		return
+
+	var/confirm = tgui_alert(usr, "Pick your dice size", "DICE of FATE", list("Roll D6", "Roll D20", "Roll D100"))
+	if(!confirm)
+		return
+
+	var/list/picked = dice[confirm]
+	if(!picked)
+		return
+
+	var/roll_result = roll(picked["dice"])
+
+
+	if(roll_result >= dice["crit_success"])
+		message = "CRITICAL SUCCESS! The Dice of Fate have landed upon [roll_result]!"
+		sound_file = 'sound/misc/inspiration.ogg'
+
+	else if(roll_result <= dice["crit_failure"])
+		message = "CRITICAL FAILURE! The Dice of Fate have landed upon [roll_result]!"
+		sound_file = 'sound/misc/stinger.ogg'
+
+	else
+		message = "The Dice of Fate have landed upon [roll_result]!"
+		sound_file = 'sound/misc/fate_dice.ogg'
+
+	switch(which)
+		if("Global")
+			var/sound/dice_alert = new(sound_file)
+			for(var/mob/M in GLOB.player_list)
+				SEND_SOUND(M, dice_alert)
+
+			priority_announce(message, reason, 'sound/misc/fate_dice.ogg')
+
+		if("Local")
+			var/sound/dice_alert = new(sound_file)
+			for(var/mob/M in view(usr))
+				SEND_SOUND(M, dice_alert)
+				to_chat(M, reason + "\n" + message)
+
 
 /client/proc/give_spell(mob/spell_recipient in GLOB.mob_list)
 	set category = "GameMaster.Fun"

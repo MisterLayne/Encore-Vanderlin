@@ -5,11 +5,11 @@
 "b" = (
 /obj/structure/closet/crate/chest/crate,
 /obj/effect/spawner/map_spawner/loot/food,
-/turf/open/floor/cobble,
+/turf/open/floor/cobblerock,
 /area/under/cave)
 "d" = (
 /obj/structure/closet/crate/chest/crate,
-/turf/open/floor/cobble,
+/turf/open/floor/cobblerock,
 /area/under/cave)
 "e" = (
 /obj/structure/flora/driftwood,
@@ -76,7 +76,7 @@
 /area/under/cave)
 "v" = (
 /obj/structure/fluff/railing/wood,
-/turf/open/floor/cobble,
+/turf/open/floor/cobblerock,
 /area/under/cave)
 "w" = (
 /obj/structure/fluff/railing/wood,
@@ -150,9 +150,6 @@
 /area/under/cave)
 "P" = (
 /turf/open/floor/cobblerock,
-/area/under/cave)
-"Q" = (
-/turf/open/floor/cobble,
 /area/under/cave)
 "R" = (
 /obj/structure/fluff/railing/wood{
@@ -584,7 +581,7 @@ a
 L
 L
 t
-Q
+P
 W
 W
 W

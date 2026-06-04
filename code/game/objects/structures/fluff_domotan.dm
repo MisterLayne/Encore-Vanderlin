@@ -126,3 +126,30 @@
 	desc = "A strong ledge of aged, downtrodden stones."
 	icon_state = "wallstone"
 	max_integrity = 800
+
+/obj/structure/fluff/road_sign
+	name = "road sign"
+	desc = "A tall fixture upon a pole with writing that depicts where and what the road leads to. This one only goes one direction."
+	icon = 'icons/roguetown/misc/road_signs.dmi'
+	icon_state = "sign_1d"
+	max_integrity = 150
+	layer = 9
+	deconstructible = FALSE
+	density = TRUE
+	blade_dulling = DULLING_BASH
+
+/obj/structure/fluff/road_sign/two_directions
+	desc = "A tall fixture upon a pole with writing that depicts where and what the road leads to. This one goes two directions."
+	icon_state = "sign_2d"
+
+/obj/structure/fluff/road_sign/three_directions
+	desc = "A tall fixture upon a pole with writing that depicts where and what the road leads to. This one goes three directions."
+	icon_state = "sign_3d"
+
+/obj/structure/fluff/road_sign/four_directions
+	desc = "A tall fixture upon a pole with writing that depicts where and what the road leads to. This one goes four directions."
+	icon_state = "sign_4d"
+
+/obj/structure/fluff/road_sign/corner
+	desc = "A tall fixture upon a pole with writing that depicts where and what the road leads to. This one goes two directions and indicates a corner."
+	icon_state = "sign_corner"
