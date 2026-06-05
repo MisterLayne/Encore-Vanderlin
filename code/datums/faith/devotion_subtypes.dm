@@ -148,11 +148,12 @@
 
 /datum/devotion/divine/angros
 	miracles = list(
-		CLERIC_T0 = /datum/action/cooldown/spell/healing,
-		CLERIC_T1 = /datum/action/cooldown/spell/sacred_flame,
-		CLERIC_T2 = /datum/action/cooldown/spell/healing/greater,
-		CLERIC_T3 = /datum/action/cooldown/spell/revive,
+		CLERIC_T0 = list(/datum/action/cooldown/spell/sacred_flame, /datum/action/cooldown/spell/undirected/angrosrespite),
+		CLERIC_T1 = /datum/action/cooldown/spell/angrosendure,
+		CLERIC_T2 = /datum/action/cooldown/spell/angroslux_tamper,
+		CLERIC_T3 = /datum/action/cooldown/spell/angrosabsolve,
 	)
+	traits = list(TRAIT_DIVINE_SERVANT)
 
 // Inhumen
 /datum/devotion/inhumen/make_cleric()

@@ -9,8 +9,8 @@
 	display_order = JDO_SHEPHERD
 	selection_color = JCOLOR_INQUISITION
 	faction = FACTION_TOWN
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 99
+	spawn_positions = 99
 	bypass_lastclass = TRUE
 
 	allowed_patrons = /datum/patron/divine/centrist

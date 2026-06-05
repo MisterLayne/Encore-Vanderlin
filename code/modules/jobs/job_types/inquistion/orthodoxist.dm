@@ -2,8 +2,8 @@
 	title = JOB_SACRESTANTS
 	department_flag = INQUISITION
 	faction = "Station"
-	total_positions = 2 // TWO GOONS!!
-	spawn_positions = 2
+	total_positions = 99
+	spawn_positions = 99
 	allowed_races = list(SPEC_ID_HUMEN, SPEC_ID_DWARF)
 	bypass_lastclass = TRUE
 	cmode_music = 'sound/music/cmode/church/CombatInquisitor2.ogg'
@@ -11,7 +11,7 @@
 		/datum/patron/divine/centrist
 	)
 
-	tutorial = "A student of the Oratorium in training to become a full Inquisitor. You’ve come here under the stern gaze of the Herr Präfekt to prove your wits and skill. This is your week. You’re going to take your place among the blades of Angros."
+	tutorial = "A fervent believer in the cause of the Inquisition. Recruited by the Inquisitor to further the Katholikos' goal in the locale."
 	selection_color = JCOLOR_INQUISITION
 
 	outfit = null
