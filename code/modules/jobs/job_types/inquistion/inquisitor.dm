@@ -1,16 +1,13 @@
 /datum/job/inquisitor
 	title = JOB_PRAFEKT
-	f_title = "Frau Prefect"
+	f_title = "Inquisitrix"
 	department_flag = INQUISITION
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	allowed_sexes = list(MALE, FEMALE)
-	allowed_races = list(\
-		SPEC_ID_HUMEN,\
-		SPEC_ID_DWARF,\
-	)
+	allowed_races = RACES_TEMPLAR
 	honorary = "Inquisitor"
 	honorary_f = "Inquisitrix"
 	//You MUST have a Elementalist character to start. Just so people don't get japed into Oops Suddenly Elementalist!
@@ -372,7 +369,7 @@
 						held_confession.bad_type = "A BEARER OF ERDL'S CURSE"
 						held_confession.antag = initial(antag_type:name)
 					if(/datum/antagonist/vampire)
-						held_confession.bad_type = "A SCION OF KAINE"
+						held_confession.bad_type = "A SERVANT TO THE THIRST"
 						held_confession.antag = initial(antag_type:name)
 					if(/datum/antagonist/vampire/lord)
 						held_confession.bad_type = "THE BLOOD-LORD OF THE WILD PLACES"

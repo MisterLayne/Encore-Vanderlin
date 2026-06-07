@@ -19,7 +19,7 @@
 
 /datum/job/gmtemplar
 	title = JOB_GRANDMASTER_TEMPLAR
-	tutorial = "Sent from the Worldflame Island, a faithful of Angros, an ashen Templar; you are a Martyr. You do not lead the Templar, that task falls to the Bishop. Nae; your task is to safeguard the Church and its people therein, sacrificing your very life for them if need be. Embody your dying god, and burn yourself up for the sake of others 'til naught but ash remains."
+	tutorial = "Sent from the Worldflame Island, a faithful of Angros, an ashen Templar; you are a Martyr. You do not lead the Templars, that task falls to the Bishop. Nae; your task is to safeguard the Church and its people therein, sacrificing your very life for them if need be. Embody your dying god, and burn yourself up for the sake of others 'til naught but ash remains."
 	department_flag = CHURCHMEN
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_GMTEMPLAR
@@ -29,7 +29,7 @@
 	bypass_lastclass = TRUE
 	cmode_music = 'sound/music/cmode/church/CombatRavox.ogg'
 
-	allowed_races = RACES_PLAYER_NONDISCRIMINATED
+	allowed_races = RACES_TEMPLAR
 	allowed_patrons = list(/datum/patron/angros)
 
 	outfit = /datum/outfit/gmtemplar
