@@ -176,7 +176,8 @@
 	devotion_class = DEVOTION_CLASS_TEMPLAR
 
 /datum/devotion/proc/make_absolver()
-	devotion = 100
+	devotion = 200
+	max_devotion = 500 //Angros is dead/dying, so your connection to the divine is tenuous. A little more devotion than the Martyr though because you're a cleric.
 	max_devotion = CLERIC_REQ_3
 	progression = CLERIC_REQ_3
 	max_progression = CLERIC_REQ_3
