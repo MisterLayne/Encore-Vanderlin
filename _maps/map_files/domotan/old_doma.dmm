@@ -4690,7 +4690,6 @@
 /turf/open/floor/ruinedwood,
 /area/outdoors/town)
 "dsk" = (
-/obj/structure/chair/stool,
 /obj/effect/decal/cobbleedge{
 	dir = 10;
 	icon_state = "cobbleedge-w"
@@ -4699,6 +4698,7 @@
 	pixel_x = -6;
 	pixel_y = 15
 	},
+/obj/structure/chair/stool/bar,
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/tavern)
 "dsB" = (
@@ -5137,13 +5137,13 @@
 /turf/open/floor/blocks/green,
 /area/indoors/town)
 "dGi" = (
-/obj/structure/chair/stool,
 /obj/effect/decal/cobbleedge{
 	icon_state = "cobbleedge-n"
 	},
 /obj/effect/landmark/start/woodsman{
 	dir = 1
 	},
+/obj/structure/chair/stool/bar,
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/tavern)
 "dGm" = (
@@ -10269,6 +10269,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 8
 	},
+/obj/structure/chair/wood/alt/chair3,
 /turf/open/floor/cobble,
 /area/indoors/town/tavern)
 "hmf" = (
@@ -10512,6 +10513,7 @@
 	},
 /obj/item/dmusicbox,
 /obj/structure/fluff/walldeco/wantedposter,
+/obj/structure/fake_machine/contractledger,
 /turf/open/floor/cobble,
 /area/indoors/town/tavern)
 "hsg" = (
@@ -12347,6 +12349,7 @@
 	dir = 9;
 	icon_state = "largetable"
 	},
+/obj/item/toy/cards/deck/syndicate,
 /turf/open/floor/carpet/red,
 /area/indoors/town/tavern)
 "iDH" = (
@@ -14478,41 +14481,7 @@
 /turf/open/floor/blocks/green,
 /area/indoors/town)
 "kbn" = (
-/obj/structure/table/wood{
-	icon_state = "largetable";
-	dir = 4
-	},
-/obj/item/reagent_containers/glass/bowl{
-	pixel_x = -8
-	},
-/obj/item/reagent_containers/glass/bowl{
-	pixel_x = 6
-	},
-/obj/item/reagent_containers/glass/bowl{
-	pixel_x = -8;
-	pixel_y = 3
-	},
-/obj/item/reagent_containers/glass/bowl{
-	pixel_x = 6;
-	pixel_y = 3
-	},
-/obj/item/reagent_containers/glass/bowl{
-	pixel_x = 6
-	},
-/obj/item/reagent_containers/glass/bowl{
-	pixel_x = 6
-	},
-/obj/item/reagent_containers/glass/bowl{
-	pixel_x = -8
-	},
-/obj/item/reagent_containers/glass/bowl{
-	pixel_x = -8;
-	pixel_y = 3
-	},
-/obj/item/reagent_containers/glass/bowl{
-	pixel_x = 6;
-	pixel_y = 3
-	},
+/obj/structure/fake_machine/contractledger,
 /turf/open/floor/cobble,
 /area/indoors/town/tavern)
 "kbr" = (
@@ -20619,20 +20588,8 @@
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/shelter/town)
 "oih" = (
-/obj/item/key/manor,
-/obj/item/key/walls,
-/obj/item/key/blacksmith,
-/obj/item/key/steward,
-/obj/item/key/church,
-/obj/item/key/dungeon,
-/obj/item/key/graveyard,
-/obj/item/key/garrison,
-/obj/item/key/mercenary,
-/obj/item/key/tavern,
-/obj/item/key/merchant,
-/obj/item/key/artificer,
-/obj/item/key/tailor,
 /obj/structure/closet/crate/chest/crate,
+/obj/effect/spawner/guaranteed_map_spawner/listed/steward_keys,
 /turf/open/floor/carpet/royalblack,
 /area/indoors/town/steward)
 "oit" = (
@@ -22392,7 +22349,7 @@
 	dir = 10;
 	icon_state = "cobbleedge-e"
 	},
-/obj/structure/chair/stool,
+/obj/structure/chair/stool/bar,
 /turf/open/floor/ruinedwood/platform,
 /area/indoors/town/tavern)
 "psQ" = (
@@ -23587,21 +23544,8 @@
 /turf/open/floor/dirt/road,
 /area/outdoors/town/neighborhood/east)
 "qkb" = (
-/obj/item/key/roomhunt,
-/obj/item/key/roomi{
-	desc = "The key to the bell room.";
-	lockid = "smallroomi";
-	name = "bell room key"
-	},
 /obj/structure/closet/crate/chest/neu_iron,
-/obj/item/key/medroomi,
-/obj/item/key/medroomii,
-/obj/item/key/medroomiii,
-/obj/item/key/medroomiv,
-/obj/item/key/luxroomi,
-/obj/item/key/luxroomii,
-/obj/item/key/luxroomiii,
-/obj/item/key/luxroomiv,
+/obj/effect/spawner/guaranteed_map_spawner/listed/inn_keys/full,
 /turf/open/floor/herringbone,
 /area/indoors/town/tavern)
 "qkf" = (
@@ -25170,6 +25114,7 @@
 /obj/item/reagent_containers/glass/bowl,
 /obj/item/reagent_containers/glass/bowl,
 /obj/item/reagent_containers/glass/bowl,
+/obj/effect/spawner/guaranteed_map_spawner/listed/cups,
 /turf/open/floor/tile,
 /area/indoors/town/tavern)
 "rrx" = (
@@ -28483,41 +28428,8 @@
 /turf/open/floor/cobblerock,
 /area/under/town/sewer)
 "tLv" = (
-/obj/structure/table/wood{
-	icon_state = "largetable";
-	dir = 4
-	},
 /obj/machinery/light/fueled/torchholder/l,
-/obj/item/reagent_containers/glass/cup/wooden{
-	pixel_y = 18;
-	pixel_x = -9
-	},
-/obj/item/reagent_containers/glass/cup/wooden{
-	pixel_y = 18
-	},
-/obj/item/reagent_containers/glass/cup/wooden{
-	pixel_y = 18;
-	pixel_x = 8
-	},
-/obj/item/reagent_containers/glass/cup/wooden{
-	pixel_y = 18
-	},
-/obj/item/reagent_containers/glass/cup/wooden{
-	pixel_y = 18;
-	pixel_x = 8
-	},
-/obj/item/reagent_containers/glass/cup/wooden{
-	pixel_y = 18;
-	pixel_x = -9
-	},
-/obj/item/reagent_containers/glass/cup/wooden{
-	pixel_y = 18
-	},
-/obj/item/reagent_containers/glass/cup/wooden{
-	pixel_y = 18;
-	pixel_x = 8
-	},
-/obj/item/toy/cards/deck/syndicate,
+/obj/structure/chair/stool,
 /turf/open/floor/cobble,
 /area/indoors/town/tavern)
 "tLz" = (
@@ -29177,6 +29089,7 @@
 	amount = 10
 	},
 /obj/item/kitchen/rollingpin,
+/obj/effect/spawner/guaranteed_map_spawner/listed/cutlery,
 /turf/open/floor/tile,
 /area/indoors/town/tavern)
 "umC" = (
@@ -34435,7 +34348,7 @@
 /turf/open/floor/ruinedwood/platform,
 /area/indoors/town/tavern)
 "xMy" = (
-/obj/structure/chair/stool,
+/obj/structure/chair/stool/bar,
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/tavern)
 "xMB" = (
@@ -35114,11 +35027,11 @@
 /turf/closed/wall/mineral/craftstone,
 /area/indoors/town/keep/magician/basement)
 "ykb" = (
-/obj/structure/chair/stool,
 /obj/effect/decal/cobbleedge{
 	dir = 10;
 	icon_state = "cobbleedge-w"
 	},
+/obj/structure/chair/stool/bar,
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/tavern)
 "ykg" = (
@@ -73767,7 +73680,7 @@ hmc
 lQD
 qsB
 ebm
-dKp
+xfN
 qLL
 lkZ
 lkZ
@@ -74163,7 +74076,7 @@ dsk
 ykb
 ykb
 ykb
-xMy
+hhL
 hhL
 hhL
 cqP
