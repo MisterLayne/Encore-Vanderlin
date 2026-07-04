@@ -7353,10 +7353,6 @@
 	},
 /turf/open/floor/ruinedwood/turned,
 /area/outdoors/town)
-"feS" = (
-/obj/effect/landmark/backup_join,
-/turf/open/floor/ruinedwood/spiralfade,
-/area/indoors/town)
 "ffp" = (
 /obj/effect/decal/cobbleedge{
 	dir = 4
@@ -52931,9 +52927,9 @@ daq
 daq
 daq
 daq
-feS
 jox
-feS
+jox
+jox
 jox
 nig
 kBi

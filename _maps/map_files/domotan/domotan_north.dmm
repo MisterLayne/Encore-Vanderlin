@@ -598,6 +598,10 @@
 	},
 /turf/open/floor/snow,
 /area/outdoors/woods/etgard)
+"fM" = (
+/obj/effect/landmark/backup_join,
+/turf/open/floor/churchmarble/violet,
+/area/latejoin_area)
 "fT" = (
 /turf/closed/wall/mineral/wooddark,
 /area/outdoors/town)
@@ -2591,6 +2595,7 @@
 "Gk" = (
 /obj/effect/landmark/latejoin,
 /obj/effect/landmark/start/late,
+/obj/effect/landmark/start/adventurer,
 /turf/open/floor/metal/barograte,
 /area/latejoin_area)
 "Gl" = (
@@ -10966,7 +10971,7 @@ VT
 Xq
 GZ
 TV
-TV
+fM
 TV
 gz
 Nt
