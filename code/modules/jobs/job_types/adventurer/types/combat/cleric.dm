@@ -48,7 +48,7 @@
 	allowed_races = RACES_PLAYER_NONHERETICAL
 	outfit = /datum/outfit/adventurer/cleric
 	category_tags = list(CTAG_ADVENTURER)
-	total_positions = 4
+	total_positions = 99
 	allowed_patrons = ALL_CLERIC_PATRONS
 
 	exp_types_granted = list(EXP_TYPE_ADVENTURER, EXP_TYPE_COMBAT, EXP_TYPE_CLERIC)
