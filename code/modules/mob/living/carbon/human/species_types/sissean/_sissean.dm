@@ -1,25 +1,24 @@
 	/*==============*
 	*				*
-	*	 Drakian	*
+	*	 Sissean	*
 	*				*
 	*===============*/
 
-/mob/living/carbon/human/species/dracon
-	race = /datum/species/dracon
+/mob/living/carbon/human/species/sissean
+	race = /datum/species/sissean
 
-/datum/attribute_holder/sheet/job/species/dracon
+/datum/attribute_holder/sheet/job/species/sissean
 	raw_attribute_list = list(
-		STAT_STRENGTH = 1,
-		STAT_ENDURANCE = -1,
+		STAT_CONSTITUTION = 1,
 	)
 
-/datum/species/dracon
-	name = "Drakian"
-	id = SPEC_ID_DRACON
+/datum/species/sissean
+	name = "Sissean"
+	id = SPEC_ID_SISSEAN
 	multiple_accents = list(
 		"No Accent" = ACCENT_NONE,
 	)
-	desc = "Mighty scaled individuals who claim to be descendant from the dragons of yore."
+	desc = "Sisseans are semi-aquatic reptilian humanoids. Their skin is covered in scales and varied in color from dark green through to shades of brown and gray. Sisseans have non-prehensile muscular tails that grow to three or four feet in length, and these are used for balance. They also have sharp claws and teeth. Most of these originate from the humid tropics of the Delve north of the Qadirid or scattered disparate island nations."
 
 	default_color = "FFFFFF"
 	species_traits = list(EYECOLOR, LIPS, STUBBLE)
@@ -70,8 +69,8 @@
 		OFFSET_UNDIES = list(0,-1),\
 	)
 
-	statsheet_male = /datum/attribute_holder/sheet/job/species/dracon
-	statsheet_female = /datum/attribute_holder/sheet/job/species/dracon
+	statsheet_male = /datum/attribute_holder/sheet/job/species/sissean
+	statsheet_female = /datum/attribute_holder/sheet/job/species/sissean
 
 	enflamed_icon = "widefire"
 
@@ -134,25 +133,25 @@
 		/datum/descriptor_choice/prominent_four,
 	)
 
-/datum/species/dracon/check_roundstart_eligible()
+/datum/species/sissean/check_roundstart_eligible()
 	return TRUE
 
-/datum/species/dracon/qualifies_for_rank(rank, list/features)
+/datum/species/sissean/qualifies_for_rank(rank, list/features)
 	return TRUE
 
-/datum/species/dracon/on_species_gain(mob/living/carbon/C, datum/species/old_species)
+/datum/species/sissean/on_species_gain(mob/living/carbon/C, datum/species/old_species)
 	..()
 	RegisterSignal(C, COMSIG_MOB_SAY, PROC_REF(handle_speech))
 	C.grant_language(/datum/language/common)
 	C.grant_language(/datum/language/draconic)
 
-/datum/species/dracon/after_creation(mob/living/carbon/C)
+/datum/species/sissean/after_creation(mob/living/carbon/C)
 	..()
 	C.dna.species.accent_language = C.dna.species.get_accent(native_language, 1)
 	C.grant_language(/datum/language/draconic)
 	to_chat(C, "<span class='info'>I can speak Draconic with -- before my speech.</span>")
 
-/datum/species/dracon/on_species_loss(mob/living/carbon/C)
+/datum/species/sissean/on_species_loss(mob/living/carbon/C)
 	. = ..()
 	UnregisterSignal(C, COMSIG_MOB_SAY)
 	C.remove_language(/datum/language/draconic)

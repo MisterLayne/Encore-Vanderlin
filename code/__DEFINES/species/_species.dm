@@ -20,6 +20,7 @@
 #define SPEC_ID_AUTOMATON "automaton"
 #define SPEC_ID_LUPIAN "lupian"
 #define SPEC_ID_DRACON "drakian"
+#define SPEC_ID_SISSEAN "sissean"
 
 #define SPEC_ID_ORC	"orc"
 #define SPEC_ID_GOBLIN	"goblin"
