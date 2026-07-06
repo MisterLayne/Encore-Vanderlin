@@ -18,6 +18,7 @@
 #define SPEC_ID_MEDICATOR "medicator"
 #define SPEC_ID_HALFLING "halfling"
 #define SPEC_ID_AUTOMATON "automaton"
+#define SPEC_ID_LUPIAN "lupian"
 
 #define SPEC_ID_ORC	"orc"
 #define SPEC_ID_GOBLIN	"goblin"
@@ -50,6 +51,7 @@
 	SPEC_ID_HUMAN_SPACE,\
 	SPEC_ID_HALFLING,\
 	SPEC_ID_AUTOMATON, \
+	SPEC_ID_LUPIAN, \
 )
 
 /// Species where females get underwear, no underwear for kobold, rakshari, medicator and triton, dwarves handled seperately
@@ -67,6 +69,7 @@
 	SPEC_ID_ORC,\
 	SPEC_ID_ZIZOMBIE,\
 	SPEC_ID_HUMAN_SPACE,\
+	SPEC_ID_LUPIAN, \
 )
 
 /// Species where males get underwear, identical to above, elves handled seperately
@@ -82,6 +85,7 @@
 	SPEC_ID_ORC,\
 	SPEC_ID_ZIZOMBIE,\
 	SPEC_ID_HUMAN_SPACE,\
+	SPEC_ID_LUPIAN, \
 )
 
 // ============ USING NAME
@@ -103,6 +107,7 @@
 	SPEC_ID_KOBOLD_FORMIKRAG,\
 	SPEC_ID_HOLLOWKIN,\
 	SPEC_ID_HALF_ORC,\
+	SPEC_ID_LUPIAN, \
 )
 
 /// Species not considered discriminated against as nobility in MOST of the Goblet. Used for nobility, etc.
@@ -244,6 +249,7 @@
 	SPEC_ID_AASIMAR,\
 	SPEC_ID_HARPY,\
 	SPEC_ID_TRITON,\
+	SPEC_ID_LUPIAN, \
 )
 
 /// The tennite temple's paladins - Hallowed species excluding Harpies due to their inability to wear plate
@@ -303,6 +309,7 @@
 	SPEC_ID_HOLLOWKIN,\
 	SPEC_ID_HALF_ORC,\
 	SPEC_ID_ZIZOMBIE,\
+	SPEC_ID_LUPIAN, \
 )
 
 
