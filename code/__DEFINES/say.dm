@@ -76,6 +76,7 @@
 #define SPAN_DEEPSPEAK "deepspeak"
 #define SPAN_UNDEAD "undead"
 #define SPAN_LUPIAN "lupian"
+#define SPAN_DRACONIC "reptile"
 
 //bitflag #defines for return value of the radio() proc.
 #define ITALICS 1

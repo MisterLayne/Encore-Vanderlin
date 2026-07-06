@@ -19,6 +19,7 @@
 #define SPEC_ID_HALFLING "halfling"
 #define SPEC_ID_AUTOMATON "automaton"
 #define SPEC_ID_LUPIAN "lupian"
+#define SPEC_ID_DRACON "drakian"
 
 #define SPEC_ID_ORC	"orc"
 #define SPEC_ID_GOBLIN	"goblin"
@@ -52,6 +53,7 @@
 	SPEC_ID_HALFLING,\
 	SPEC_ID_AUTOMATON, \
 	SPEC_ID_LUPIAN, \
+	SPEC_ID_DRACON, \
 )
 
 /// Species where females get underwear, no underwear for kobold, rakshari, medicator and triton, dwarves handled seperately
@@ -70,6 +72,7 @@
 	SPEC_ID_ZIZOMBIE,\
 	SPEC_ID_HUMAN_SPACE,\
 	SPEC_ID_LUPIAN, \
+	SPEC_ID_DRACON, \
 )
 
 /// Species where males get underwear, identical to above, elves handled seperately
@@ -86,6 +89,7 @@
 	SPEC_ID_ZIZOMBIE,\
 	SPEC_ID_HUMAN_SPACE,\
 	SPEC_ID_LUPIAN, \
+	SPEC_ID_DRACON, \
 )
 
 // ============ USING NAME
@@ -108,6 +112,7 @@
 	SPEC_ID_HOLLOWKIN,\
 	SPEC_ID_HALF_ORC,\
 	SPEC_ID_LUPIAN, \
+	SPEC_ID_DRACON, \
 )
 
 /// Species not considered discriminated against as nobility in MOST of the Goblet. Used for nobility, etc.

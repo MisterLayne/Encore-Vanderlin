@@ -22,7 +22,6 @@
 
 	default_color = "FFFFFF"
 	species_traits = list(EYECOLOR, HAIR, FACEHAIR, LIPS, STUBBLE, OLDGREY)
-	inherent_traits = list(TRAIT_NOMOBSWAP)
 	use_skintones = TRUE
 
 	possible_ages = NORMAL_AGES_LIST
@@ -71,6 +70,7 @@
 	)
 
 	statsheet_male = /datum/attribute_holder/sheet/job/species/lupian
+	statsheet_female = /datum/attribute_holder/sheet/job/species/lupian
 
 	enflamed_icon = "widefire"
 
@@ -92,6 +92,8 @@
 /datum/species/lupian/check_roundstart_eligible()
 	return TRUE
 
+/datum/species/lupian/qualifies_for_rank(rank, list/features)
+	return TRUE
 
 /datum/species/lupian/get_skin_list()
 	return list(
@@ -116,16 +118,13 @@
 	C.grant_language(/datum/language/common)
 	C.grant_language(/datum/language/canilunzt)
 
-/datum/species/elf/after_creation(mob/living/carbon/C)
+/datum/species/lupian/after_creation(mob/living/carbon/C)
 	..()
 	C.dna.species.accent_language = C.dna.species.get_accent(native_language, 1)
 	C.grant_language(/datum/language/canilunzt)
 	to_chat(C, "<span class='info'>I can speak Canilunzt with -- before my speech.</span>")
 
-/datum/species/elf/on_species_loss(mob/living/carbon/C)
+/datum/species/lupian/on_species_loss(mob/living/carbon/C)
 	. = ..()
 	UnregisterSignal(C, COMSIG_MOB_SAY)
 	C.remove_language(/datum/language/canilunzt)
-
-/datum/species/elf/qualifies_for_rank(rank, list/features)
-	return TRUE

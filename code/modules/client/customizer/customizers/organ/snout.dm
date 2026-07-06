@@ -79,3 +79,24 @@
 		/datum/sprite_accessory/snout/stubbyalt,
 	)
 
+
+/datum/customizer/organ/snout/lizard
+	customizer_choices = list(/datum/customizer_choice/organ/snout/lizard)
+
+/datum/customizer_choice/organ/snout/lizard
+	name = "Lizard Snout"
+	organ_type = /obj/item/organ/snout/lizard
+	generic_random_pick = TRUE
+	sprite_accessories = list(
+		/datum/sprite_accessory/snout/sharp,
+		/datum/sprite_accessory/snout/round,
+		/datum/sprite_accessory/snout/sharplight,
+		/datum/sprite_accessory/snout/roundlight,
+		/datum/sprite_accessory/snout/front/sharp,
+		/datum/sprite_accessory/snout/front/round,
+		/datum/sprite_accessory/snout/front/sharplight,
+		/datum/sprite_accessory/snout/front/roundlight,
+		/datum/sprite_accessory/snout/stubby,
+		/datum/sprite_accessory/snout/stubbyalt,
+	)
+

@@ -26,3 +26,15 @@
 	sprite_accessories = list(
 		/datum/sprite_accessory/wings/large/harpyswept,
 	)
+
+/datum/customizer/organ/wings/dracon
+	customizer_choices = list(/datum/customizer_choice/organ/wings/dracon)
+	allows_disabling = FALSE
+	default_disabled = FALSE
+
+/datum/customizer_choice/organ/wings/dracon
+	name = "Drake Wings"
+	organ_type = /obj/item/organ/wings/dracon
+	sprite_accessories = list(
+		/datum/sprite_accessory/wings/large/gargoyle
+	)

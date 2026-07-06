@@ -11,3 +11,6 @@
 
 /obj/item/organ/snout/lupian
 	name = "lupian snout"
+
+/obj/item/organ/snout/lizard
+	name = "sissean snout"

@@ -26,6 +26,8 @@
 		/datum/language/undead,
 		/datum/language/halfling,
 		/datum/language/nortic,
+		/datum/language/canilunzt,
+		/datum/language/draconic,
 	))
 
 /obj/item/organ/tongue/Initialize(mapload)

@@ -151,3 +151,17 @@
 		/datum/sprite_accessory/tail/fox2,
 		/datum/sprite_accessory/tail/husky
 	)
+
+/datum/customizer/organ/tail/lizard
+	customizer_choices = list(/datum/customizer_choice/organ/tail/lizard)
+
+/datum/customizer_choice/organ/tail/lizard
+	name = "Sissean Tail"
+	organ_type = /obj/item/organ/tail/lizard
+	generic_random_pick = TRUE
+	sprite_accessories = list(
+		/datum/sprite_accessory/tail/lizard/smooth,
+		/datum/sprite_accessory/tail/lizard/dtiger,
+		/datum/sprite_accessory/tail/lizard/ltiger,
+		/datum/sprite_accessory/tail/lizard/spikes,
+	)
