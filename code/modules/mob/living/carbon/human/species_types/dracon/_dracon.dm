@@ -75,6 +75,23 @@
 
 	enflamed_icon = "widefire"
 
+	organs = list(
+		ORGAN_SLOT_BRAIN = /obj/item/organ/brain,
+		ORGAN_SLOT_HEART = /obj/item/organ/heart,
+		ORGAN_SLOT_LUNGS = /obj/item/organ/lungs,
+		ORGAN_SLOT_EYES = /obj/item/organ/eyes,
+		ORGAN_SLOT_EARS = /obj/item/organ/ears,
+		ORGAN_SLOT_TONGUE = /obj/item/organ/tongue/lizard,
+		ORGAN_SLOT_LIVER = /obj/item/organ/liver,
+		ORGAN_SLOT_STOMACH = /obj/item/organ/stomach,
+		ORGAN_SLOT_APPENDIX = /obj/item/organ/appendix,
+		ORGAN_SLOT_TAIL = /obj/item/organ/tail/lizard,
+		ORGAN_SLOT_SNOUT = /obj/item/organ/snout/lizard,
+		ORGAN_SLOT_TAIL_FEATURE = /obj/item/organ/tail_feature/lizard_spines,
+		ORGAN_SLOT_FRILLS = /obj/item/organ/frills/lizard,
+		ORGAN_SLOT_HORNS = /obj/item/organ/horns
+	)
+
 	customizers = list(
 		/datum/customizer/organ/eyes/humanoid,
 		/datum/customizer/bodypart_feature/hair/head/humanoid,
@@ -83,7 +100,9 @@
 		/datum/customizer/bodypart_feature/face_detail,
 		/datum/customizer/organ/wings/dracon,
 		/datum/customizer/organ/tail/lizard,
+		/datum/customizer/organ/tail_feature/lizard_spines,
 		/datum/customizer/organ/snout/lizard,
+		/datum/customizer/organ/frills/lizard,
 		/datum/customizer/organ/horns/humanoid,
 		/datum/customizer/organ/ears/anthro,
 	)
@@ -150,7 +169,7 @@
 	..()
 	C.dna.species.accent_language = C.dna.species.get_accent(native_language, 1)
 	C.grant_language(/datum/language/draconic)
-	to_chat(C, "<span class='info'>I can speak Draconic with -- before my speech.</span>")
+	to_chat(C, "<span class='info'>I can speak Draconic with ,s before my speech.</span>")
 
 /datum/species/dracon/on_species_loss(mob/living/carbon/C)
 	. = ..()

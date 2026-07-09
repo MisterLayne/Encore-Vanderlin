@@ -55,6 +55,7 @@
 	SPEC_ID_AUTOMATON, \
 	SPEC_ID_LUPIAN, \
 	SPEC_ID_DRACON, \
+	SPEC_ID_SISSEAN, \
 )
 
 /// Species where females get underwear, no underwear for kobold, rakshari, medicator and triton, dwarves handled seperately
@@ -74,6 +75,7 @@
 	SPEC_ID_HUMAN_SPACE,\
 	SPEC_ID_LUPIAN, \
 	SPEC_ID_DRACON, \
+	SPEC_ID_SISSEAN, \
 )
 
 /// Species where males get underwear, identical to above, elves handled seperately
@@ -91,6 +93,7 @@
 	SPEC_ID_HUMAN_SPACE,\
 	SPEC_ID_LUPIAN, \
 	SPEC_ID_DRACON, \
+	SPEC_ID_SISSEAN, \
 )
 
 // ============ USING NAME
@@ -114,6 +117,7 @@
 	SPEC_ID_HALF_ORC,\
 	SPEC_ID_LUPIAN, \
 	SPEC_ID_DRACON, \
+	SPEC_ID_SISSEAN, \
 )
 
 /// Species not considered discriminated against as nobility in MOST of the Goblet. Used for nobility, etc.
@@ -125,6 +129,9 @@
 	SPEC_ID_HALF_ELF,\
 	SPEC_ID_HALFLING,\
 	SPEC_ID_HARPY,\
+	SPEC_ID_LUPIAN, \
+	SPEC_ID_DRACON, \
+	SPEC_ID_SISSEAN, \
 )
 
 /// Species who are nonheretical to the church.
@@ -137,6 +144,9 @@
 	SPEC_ID_HALFLING,\
 	SPEC_ID_HARPY,\
 	SPEC_ID_TRITON,\
+	SPEC_ID_LUPIAN, \
+	SPEC_ID_DRACON, \
+	SPEC_ID_SISSEAN, \
 )
 
 /// Species who are non-exotic. These are species from foreign lands with no local pull or uncommon species. Used in miscellaneous cases, when they would not be that role.
@@ -154,6 +164,9 @@
 	SPEC_ID_TRITON,\
 	SPEC_ID_HOLLOWKIN,\
 	SPEC_ID_HALF_ORC,\
+	SPEC_ID_LUPIAN, \
+	SPEC_ID_DRACON, \
+	SPEC_ID_SISSEAN, \
 )
 
 /// Species that lack lux. Any who have no ties to divinity anymore, whether it be their creation story or otherwise.
@@ -175,6 +188,9 @@
 	SPEC_ID_ELF,\
 	SPEC_ID_HALF_ELF,\
 	SPEC_ID_AASIMAR,\
+	SPEC_ID_LUPIAN, \
+	SPEC_ID_DRACON, \
+	SPEC_ID_SISSEAN, \
 )
 
 /// Species who are affiliated with the Sultanate
@@ -227,12 +243,16 @@
 	SPEC_ID_TRITON,\
 	SPEC_ID_HOLLOWKIN,\
 	SPEC_ID_HALF_ORC,\
+	SPEC_ID_LUPIAN, \
+	SPEC_ID_DRACON, \
+	SPEC_ID_SISSEAN, \
 )
 
 //races that can be aquatic
 #define RACES_PLAYER_AQUATIC list(\
 	SPEC_ID_TRITON,\
 	SPEC_ID_HOLLOWKIN,\
+	SPEC_ID_SISSEAN, \
 )
 
 /// Etgard royalty
@@ -256,6 +276,8 @@
 	SPEC_ID_HARPY,\
 	SPEC_ID_TRITON,\
 	SPEC_ID_LUPIAN, \
+	SPEC_ID_DRACON, \
+	SPEC_ID_SISSEAN, \
 )
 
 /// The tennite temple's paladins - Hallowed species excluding Harpies due to their inability to wear plate
@@ -267,6 +289,9 @@
 	SPEC_ID_AASIMAR,\
 	SPEC_ID_TRITON,\
 	SPEC_ID_HOLLOWKIN,\
+	SPEC_ID_LUPIAN, \
+	SPEC_ID_DRACON, \
+	SPEC_ID_SISSEAN, \
 )
 
 /// Foreigner Nobility Species - No Tiefling (you know why) or hollow-kin or medicators (too young to have nobles mayhaps)
@@ -283,6 +308,9 @@
 	SPEC_ID_HARPY,\
 	SPEC_ID_TRITON,\
 	SPEC_ID_KOBOLD,\
+	SPEC_ID_LUPIAN, \
+	SPEC_ID_DRACON, \
+	SPEC_ID_SISSEAN, \
 )
 
 /// Nonnative species - Anything not native to Gaia.
@@ -316,6 +344,8 @@
 	SPEC_ID_HALF_ORC,\
 	SPEC_ID_ZIZOMBIE,\
 	SPEC_ID_LUPIAN, \
+	SPEC_ID_DRACON, \
+	SPEC_ID_SISSEAN, \
 )
 
 
@@ -337,6 +367,9 @@
 	SPEC_ID_ZIZOMBIE,\
 	SPEC_ID_HUMAN_SPACE,\
 	SPEC_ID_HALFLING,\
+	SPEC_ID_LUPIAN, \
+	SPEC_ID_DRACON, \
+	SPEC_ID_SISSEAN, \
 )
 
 #define SPECIES_CANNIBALISM_KOBOLD list(\
