@@ -72,6 +72,7 @@
 /area/indoors/town/tavern)
 "abw" = (
 /obj/structure/fluff/steamvent,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/metal,
 /area/under/town/sewer)
 "abO" = (
@@ -146,8 +147,11 @@
 /turf/open/floor/cobblerock,
 /area/outdoors/exposed)
 "adA" = (
-/turf/open/water/ocean/under,
-/area/under/town/basement/smugglers_den)
+/obj/effect/mapping_helpers/secret_door_creator/thieves_guild{
+	redstone_id = "slitherway12"
+	},
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "adD" = (
 /obj/effect/decal/cobbleedge{
 	dir = 4
@@ -339,6 +343,10 @@
 "ajK" = (
 /turf/closed/wall/mineral/stone,
 /area/outdoors/beach)
+"ajM" = (
+/obj/structure/bars,
+/turf/open/water/ocean,
+/area/under/cavewet)
 "ajX" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/church,
@@ -1256,6 +1264,18 @@
 /obj/effect/landmark/start/clinicapprentice,
 /turf/open/floor/ruinedwood,
 /area/indoors/town/clinic_large)
+"aQQ" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/obj/structure/chair/bench{
+	pixel_y = 16
+	},
+/obj/effect/decal/cleanable/dirt/cobweb,
+/turf/open/floor/ruinedwood,
+/area/under/town/sewer)
 "aRr" = (
 /obj/structure/window,
 /obj/structure/curtain/bounty/dir,
@@ -1292,6 +1312,12 @@
 "aTl" = (
 /turf/open/floor/woodturned,
 /area/outdoors/exposed)
+"aTq" = (
+/obj/effect/mapping_helpers/secret_door_creator/thieves_guild{
+	redstone_id = "slitherway5"
+	},
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "aTD" = (
 /obj/structure/fluff/railing/border{
 	dir = 4
@@ -1388,6 +1414,15 @@
 "aWZ" = (
 /turf/open/water/clean,
 /area/indoors/town/cell)
+"aXo" = (
+/obj/structure/fluff/steamvent,
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/turf/open/floor/metal,
+/area/under/town/sewer)
 "aXA" = (
 /obj/structure/fluff/railing/wood{
 	dir = 4
@@ -1560,7 +1595,7 @@
 /area/indoors/town/keep/magician/basement)
 "bcJ" = (
 /obj/structure/bars,
-/turf/open/floor/dirt,
+/turf/open/water/ocean,
 /area/under/town/basement/smugglers_tunnels)
 "bds" = (
 /obj/effect/decal/cobbleedge{
@@ -1672,6 +1707,12 @@
 /obj/item/coin/gold/pile,
 /turf/open/floor/tile/checkeralt,
 /area/indoors/town/vault)
+"bgO" = (
+/obj/structure/lever/hidden/thieves_guild{
+	redstone_id = "slitherway3"
+	},
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "bgX" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -1964,6 +2005,12 @@
 "btV" = (
 /turf/open/floor/dirt/road,
 /area/outdoors/town/noble_manor/yellow)
+"buh" = (
+/obj/structure/lever/hidden/thieves_guild{
+	redstone_id = "slitherway14"
+	},
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "bun" = (
 /obj/structure/fluff/railing/border,
 /turf/open/floor/ruinedwood,
@@ -2378,6 +2425,17 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/outdoors/exposed)
+"bIC" = (
+/obj/structure/fluff/railing/tall/retaining/stone{
+	dir = 1
+	},
+/obj/structure/flora/ausbushes/reedbush,
+/turf/open/water/ocean,
+/area/under/cavewet)
+"bIJ" = (
+/obj/structure/fluff/walldeco/smugglerflag,
+/turf/closed/wall/mineral/stone/moss,
+/area/under/town/basement/smugglers_den)
 "bIO" = (
 /obj/structure/chair/wood/alt{
 	dir = 8
@@ -3454,6 +3512,10 @@
 /obj/structure/wild_plant/nospread/manabloom,
 /turf/open/floor/grass/yel,
 /area/outdoors/exposed)
+"cvH" = (
+/obj/structure/fluff/walldeco/smugglersigil,
+/turf/closed/wall/mineral/stone,
+/area/under/cavewet)
 "cws" = (
 /obj/effect/decal/cobbleedge{
 	dir = 10;
@@ -3591,6 +3653,7 @@
 /turf/open/floor/churchrough,
 /area/indoors/town/church/chapel)
 "cBv" = (
+/obj/structure/fluff/walldeco/smugglerflag,
 /turf/closed/wall/mineral/wooddark/vertical,
 /area/under/town/basement/smugglers_den)
 "cBM" = (
@@ -3632,6 +3695,10 @@
 /obj/machinery/light/fueledstreet/blue/wall,
 /turf/open/floor/blocks/stonered,
 /area/indoors/town/waterworks)
+"cDs" = (
+/obj/structure/fluff/railing/wood,
+/turf/open/water/ocean,
+/area/under/town/basement/smugglers_tunnels)
 "cDC" = (
 /obj/structure/chair/stool,
 /obj/effect/decal/cleanable/dirt/cobweb{
@@ -3934,6 +4001,10 @@
 	},
 /turf/open/water/blood,
 /area/indoors/town/vault)
+"cKk" = (
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/twig,
+/area/under/town/basement/smugglers_den)
 "cKv" = (
 /obj/structure/plough,
 /turf/open/floor/dirt/road,
@@ -4568,6 +4639,12 @@
 	},
 /turf/open/floor/blocks/stonered/tiny,
 /area/indoors/town/waterworks)
+"dmP" = (
+/obj/structure/lever/hidden/thieves_guild{
+	redstone_id = "slitherway7"
+	},
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "dmT" = (
 /obj/structure/flora/grass/bush/tundra,
 /turf/open/floor/snow,
@@ -5363,6 +5440,10 @@
 /obj/effect/lily_petal/two,
 /turf/open/floor/dirt,
 /area/outdoors/town)
+"dNJ" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/twig,
+/area/under/town/basement/smugglers_den)
 "dNK" = (
 /obj/structure/fluff/railing/tall/retaining/stone,
 /turf/open/floor/blocks/stonered/tiny,
@@ -5592,6 +5673,11 @@
 /obj/structure/flora/hotspring_rocks/small/five,
 /turf/open/floor/dirt,
 /area/outdoors/town)
+"dWt" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/ruinedwood,
+/area/under/town/basement/smugglers_den)
 "dWF" = (
 /obj/structure/chair/wood/alt/chair3{
 	dir = 4
@@ -6025,10 +6111,20 @@
 /obj/item/key/roomvi,
 /turf/open/floor/wood,
 /area/indoors/town/tavern)
+"env" = (
+/obj/structure/lever/hidden/thieves_guild{
+	redstone_id = "slitherway13"
+	},
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "enL" = (
 /obj/structure/fermentation_keg/random/beer,
 /turf/open/floor/blocks,
 /area/under/town/sewer)
+"enW" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/ruinedwood,
+/area/under/town/basement/smugglers_den)
 "eox" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/ruinedwood,
@@ -6347,6 +6443,11 @@
 	},
 /turf/open/floor/church/purple,
 /area/indoors/town/keep/magician/basement)
+"eyi" = (
+/obj/structure/fluff/railing/tall/stone,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/blocks/stonered/tiny,
+/area/under/town/sewer)
 "eyw" = (
 /obj/machinery/light/fueled/torchholder/l,
 /turf/open/floor/blocks/stonered,
@@ -6724,6 +6825,12 @@
 /obj/structure/flora/grass/swampweed,
 /turf/open/floor/grass/yel,
 /area/indoors/shelter/town)
+"eLI" = (
+/obj/effect/waterfall{
+	pixel_y = 22
+	},
+/turf/open/water/ocean/abyss/under,
+/area/under/cavewet)
 "eLY" = (
 /obj/structure/window/openclose,
 /turf/open/floor/blocks,
@@ -6821,6 +6928,7 @@
 	layer = 2.7;
 	pixel_y = 7
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/twig,
 /area/under/town/sewer)
 "eOT" = (
@@ -6944,6 +7052,12 @@
 /obj/structure/chair/wood/alt,
 /turf/open/floor/ruinedwood/darker,
 /area/outdoors/town)
+"eSM" = (
+/obj/effect/mapping_helpers/secret_door_creator/thieves_guild{
+	redstone_id = "slitherway8"
+	},
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "eTo" = (
 /obj/structure/closet/crate/chest,
 /obj/item/clothing/cloak/apron/waist,
@@ -7024,6 +7138,11 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/indoors/town)
+"eVB" = (
+/obj/structure/fluff/railing/tall/stone,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/blocks/stonered,
+/area/under/town/sewer)
 "eVC" = (
 /obj/structure/window,
 /turf/open/floor/ruinedwood/darker,
@@ -7286,6 +7405,7 @@
 /obj/structure/table/wood/large,
 /obj/effect/decal/carpet/square,
 /obj/item/kitchen/spoon,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/ruinedwood,
 /area/under/town/basement/smugglers_den)
 "fcU" = (
@@ -7828,6 +7948,12 @@
 /obj/structure/flora/grass/water,
 /turf/open/water/ocean,
 /area/outdoors/town/neighborhood)
+"fyr" = (
+/obj/effect/mapping_helpers/secret_door_creator/thieves_guild{
+	redstone_id = "slitherway3"
+	},
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "fys" = (
 /turf/open/floor/ruinedwood,
 /area/indoors/town/tavern)
@@ -8006,6 +8132,14 @@
 	},
 /turf/open/floor/tile,
 /area/indoors/town/keep)
+"fEM" = (
+/obj/structure/fluff/traveltile{
+	name = "Visitation";
+	aportalid = "bandit_to_smugden";
+	dir = 8
+	},
+/turf/open/floor/blocks/stonered/tiny,
+/area/under/town/basement/smugglers_tunnels)
 "fET" = (
 /obj/structure/stairs/stone{
 	dir = 8
@@ -8117,6 +8251,10 @@
 /obj/structure/chair/stool,
 /turf/open/floor/cobblerock,
 /area/under/town/sewer)
+"fHX" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/ruinedwood,
+/area/under/town/basement/smugglers_tunnels)
 "fHY" = (
 /obj/effect/decal/cobbleedge{
 	icon_state = "cobbleedge-n"
@@ -8126,6 +8264,10 @@
 "fIa" = (
 /turf/closed/wall/mineral/stonebrick,
 /area/indoors/town/garrison)
+"fIp" = (
+/obj/structure/bars,
+/turf/open/floor/twig,
+/area/under/cavewet)
 "fIK" = (
 /turf/open/water/ocean/under,
 /area/under/underwater)
@@ -8269,6 +8411,7 @@
 /obj/item/candle/yellow,
 /obj/structure/closet/crate/chest/crate,
 /obj/machinery/light/fueled/torchholder/c,
+/obj/effect/decal/cleanable/dirt/cobweb/cobweb2,
 /turf/open/floor/ruinedwood,
 /area/under/town/basement/smugglers_den)
 "fMK" = (
@@ -8516,6 +8659,12 @@
 /obj/structure/chair/stool,
 /turf/open/floor/wood,
 /area/indoors/town/tavern)
+"fXK" = (
+/obj/effect/mapping_helpers/secret_door_creator/thieves_guild{
+	redstone_id = "slitherway10"
+	},
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "fXN" = (
 /obj/machinery/light/fueled/torchholder/r,
 /obj/structure/fluff/railing/tall{
@@ -9174,6 +9323,12 @@
 "guX" = (
 /turf/open/floor/cobble,
 /area/indoors/town/church)
+"gvg" = (
+/obj/structure/lever/hidden/thieves_guild{
+	redstone_id = "slitherway12"
+	},
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "gvL" = (
 /obj/structure/hotspring,
 /obj/effect/lily_petal/three,
@@ -9424,6 +9579,10 @@
 "gGa" = (
 /turf/open/floor/carpet/red,
 /area/indoors/town/clinic_large)
+"gGE" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/blocks/green,
+/area/under/town/sewer)
 "gGL" = (
 /obj/structure/stairs,
 /turf/open/floor/ruinedwood/alt,
@@ -9776,6 +9935,9 @@
 /obj/machinery/light/fueledstreet/orange/wall,
 /turf/open/floor/ruinedwood/turned,
 /area/outdoors/town/roofs)
+"gVN" = (
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "gVO" = (
 /obj/structure/door/iron/bars,
 /obj/effect/mapping_helpers/access/keyset/manor/Noble1,
@@ -10691,6 +10853,12 @@
 /obj/structure/fluff/railing/wood,
 /turf/open/floor/sand/sandstone,
 /area/under/town/basement)
+"hxn" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/metal,
+/area/under/town/sewer)
 "hxq" = (
 /obj/item/clothing/shoes/sandals,
 /obj/item/clothing/shoes/sandals,
@@ -11043,6 +11211,10 @@
 	},
 /turf/open/floor/dirt/road,
 /area/outdoors/town/neighborhood/west)
+"hIC" = (
+/obj/structure/spider/stickyweb,
+/turf/open/floor/metal/barograte,
+/area/under/town/sewer)
 "hIR" = (
 /obj/structure/hotspring/border/thirteen,
 /turf/open/floor/dirt,
@@ -11700,6 +11872,12 @@
 /obj/structure/flora/grass/bush/wall,
 /turf/open/floor/grass/yel,
 /area/indoors/shelter/town)
+"ify" = (
+/obj/structure/lever/hidden/thieves_guild{
+	redstone_id = "slitherway9"
+	},
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "igo" = (
 /obj/structure/stairs,
 /obj/structure/fluff/railing/wood{
@@ -12792,6 +12970,12 @@
 	},
 /turf/open/floor/churchrough,
 /area/under/town/sewer)
+"iRE" = (
+/obj/effect/mapping_helpers/secret_door_creator/thieves_guild{
+	redstone_id = "slitherway1"
+	},
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "iRK" = (
 /obj/effect/decal/cobbleedge{
 	dir = 10;
@@ -13127,6 +13311,10 @@
 /obj/machinery/light/fueled/wallfire/candle/blue,
 /turf/open/floor/blocks/stonered/tiny,
 /area/indoors/town/clinic_large)
+"jdr" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/blocks/stonered,
+/area/under/town/sewer)
 "jdz" = (
 /turf/closed/mineral,
 /area/under/cavewet)
@@ -14165,6 +14353,10 @@
 	},
 /turf/open/floor/tile/checkeralt,
 /area/indoors/town/vault)
+"jPm" = (
+/obj/structure/flora/ausbushes/reedbush,
+/turf/open/water/ocean,
+/area/under/cavewet)
 "jPF" = (
 /obj/structure/bookcase/random,
 /obj/machinery/light/fueledstreet/orange/wall{
@@ -15133,6 +15325,7 @@
 /area/indoors/town)
 "ktd" = (
 /obj/structure/fluff/railing/border,
+/obj/structure/flora/grass/herb/random,
 /turf/open/floor/blocks,
 /area/under/town/sewer)
 "ktj" = (
@@ -15168,6 +15361,12 @@
 /obj/structure/wild_plant/nospread/manabloom,
 /turf/open/floor/dirt/road,
 /area/indoors/town/keep/magician)
+"kvn" = (
+/obj/effect/mapping_helpers/secret_door_creator/thieves_guild{
+	redstone_id = "slitherway14"
+	},
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "kvr" = (
 /obj/structure/door/red,
 /obj/effect/mapping_helpers/access/keyset/manor/general,
@@ -15343,7 +15542,8 @@
 /area/outdoors/exposed)
 "kAY" = (
 /obj/structure/door/weak/bolt{
-	dir = 8
+	dir = 8;
+	name = "The Missing Canary"
 	},
 /turf/open/floor/naturalstone,
 /area/under/town/basement/smugglers_den)
@@ -16289,6 +16489,12 @@
 	dir = 8
 	},
 /area/indoors/town)
+"lri" = (
+/obj/structure/lever/hidden/thieves_guild{
+	redstone_id = "slitherway8"
+	},
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "lrA" = (
 /obj/structure/bed/mediocre,
 /obj/machinery/light/fueled/wallfire/candle/l,
@@ -16417,6 +16623,10 @@
 	},
 /turf/open/floor/grass/yel,
 /area/outdoors/town)
+"lwl" = (
+/obj/structure/bed/hay,
+/turf/open/floor/dirt/road,
+/area/under/town/sewer)
 "lwu" = (
 /turf/open/floor/ruinedwood/turned/darker,
 /area/indoors/town/keep/magician)
@@ -17608,6 +17818,10 @@
 /obj/machinery/light/fueled/wallfire/candle/l,
 /turf/open/floor/herringbone,
 /area/indoors/town/tavern)
+"mgP" = (
+/obj/structure/fluff/walldeco/smugglersigil,
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "mgV" = (
 /obj/structure/fluff/wallclock{
 	pixel_x = -32;
@@ -17633,6 +17847,10 @@
 /obj/structure/fluff/railing/wood,
 /turf/open/floor/ruinedwood/alt,
 /area/outdoors/town/plaza)
+"mhV" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/ruinedwood,
+/area/under/town/sewer)
 "mhX" = (
 /obj/effect/decal/cobbleedge{
 	dir = 10;
@@ -18011,6 +18229,10 @@
 	},
 /turf/open/floor/cobblerock,
 /area/outdoors/exposed)
+"msd" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/metal/barograte,
+/area/under/town/sewer)
 "mse" = (
 /obj/structure/closet/crate/chest/old_crate,
 /obj/item/needle/thorn,
@@ -18943,6 +19165,12 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/indoors/town/keep/archivist)
+"mXy" = (
+/obj/structure/lever/hidden/thieves_guild{
+	redstone_id = "slitherway11"
+	},
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "mXR" = (
 /obj/structure/door/green{
 	name = "Garrison"
@@ -19153,6 +19381,12 @@
 /obj/structure/fluff/statue/tdummy,
 /turf/open/floor/dirt/road,
 /area/outdoors/exposed)
+"neU" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1
+	},
+/turf/open/floor/twig,
+/area/under/town/basement/smugglers_tunnels)
 "nfC" = (
 /obj/structure/fluff/railing/wood,
 /obj/effect/decal/cobbleedge{
@@ -21558,6 +21792,12 @@
 "oOc" = (
 /turf/closed/wall/mineral/stone,
 /area/indoors/town/clinic_large)
+"oOg" = (
+/obj/structure/lever/hidden/thieves_guild{
+	redstone_id = "slitherway10"
+	},
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "oOw" = (
 /obj/structure/flora/newleaf,
 /obj/structure/flora/ausbushes/brflowers,
@@ -21675,6 +21915,12 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/cobblerock,
 /area/outdoors/exposed)
+"oUJ" = (
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/metal,
+/area/under/town/sewer)
 "oUS" = (
 /obj/structure/door/fancy,
 /obj/effect/mapping_helpers/access/keyset/manor/general,
@@ -21828,6 +22074,10 @@
 	},
 /turf/open/floor/ruinedwood/turned/darker,
 /area/indoors/soilsons)
+"oZs" = (
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/ruinedwood,
+/area/under/town/sewer)
 "oZI" = (
 /obj/machinery/light/fueledstreet/orange,
 /turf/open/floor/blocks/newstone/alt,
@@ -22084,9 +22334,7 @@
 /turf/open/floor/rooftop,
 /area/outdoors/town/roofs)
 "pli" = (
-/obj/structure/door/weak/bolt{
-	dir = 4
-	},
+/obj/structure/door/weak,
 /turf/open/floor/twig,
 /area/under/town/basement/smugglers_den)
 "plp" = (
@@ -22115,6 +22363,10 @@
 "plV" = (
 /turf/open/floor/carpet/royalblack,
 /area/indoors/town/keep)
+"pmq" = (
+/obj/structure/fluff/walldeco/vinez,
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/sewer)
 "pms" = (
 /obj/structure/lever{
 	redstone_id = "merchroofshutt"
@@ -22142,6 +22394,17 @@
 	},
 /turf/open/floor/cobblerock,
 /area/outdoors/town)
+"pmG" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood,
+/area/under/town/sewer)
 "pnz" = (
 /obj/structure/fluff/railing/wood{
 	dir = 4
@@ -22292,6 +22555,14 @@
 /obj/machinery/light/fueled/torchholder/r,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/tavern)
+"prz" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/turf/open/floor/metal,
+/area/under/town/sewer)
 "prQ" = (
 /turf/closed/wall/mineral/wood,
 /area/indoors/town/shop)
@@ -22406,6 +22677,12 @@
 	},
 /turf/open/openspace,
 /area/indoors/town/smithy)
+"pvv" = (
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/twig,
+/area/under/town/basement/smugglers_tunnels)
 "pvB" = (
 /obj/structure/fluff/railing/border{
 	dir = 4
@@ -22692,6 +22969,12 @@
 "pFR" = (
 /obj/machinery/light/fueled/wallfire/candle,
 /obj/structure/table/wood,
+/obj/item/clothing/face/shepherd/clothmask,
+/obj/item/clothing/face/shepherd/clothmask,
+/obj/item/weapon/knife/stone{
+	pixel_x = 3;
+	pixel_y = -5
+	},
 /turf/open/floor/twig,
 /area/under/town/basement/smugglers_den)
 "pFS" = (
@@ -23248,6 +23531,10 @@
 /obj/structure/roguetent/preopen,
 /turf/open/floor/twig,
 /area/under/cavewet)
+"pYN" = (
+/obj/structure/bars,
+/turf/open/water/ocean/abyss,
+/area/under/cavewet)
 "pZf" = (
 /obj/structure/table/wood{
 	icon_state = "largetable";
@@ -23367,6 +23654,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/blocks/stonered,
 /area/under/town/basement)
+"qco" = (
+/obj/structure/bars,
+/turf/open/floor/twig,
+/area/under/town/basement/smugglers_tunnels)
 "qdd" = (
 /turf/closed/wall/mineral/craftstone,
 /area/under/town/basement)
@@ -24180,6 +24471,12 @@
 	},
 /turf/open/floor/wood,
 /area/indoors/town/keep)
+"qDm" = (
+/obj/effect/mapping_helpers/secret_door_creator/thieves_guild{
+	redstone_id = "slitherway6"
+	},
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "qEb" = (
 /obj/structure/stairs/stone{
 	dir = 1
@@ -24469,6 +24766,7 @@
 "qPy" = (
 /obj/structure/fluff/walldeco/bath/random,
 /obj/structure/fluff/railing/tall/stone,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/blocks/stonered,
 /area/under/town/sewer)
 "qPY" = (
@@ -24512,6 +24810,10 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/indoors/town/waterworks)
+"qRT" = (
+/obj/structure/fluff/statue/tdummy,
+/turf/open/floor/dirt,
+/area/under/town/basement/smugglers_tunnels)
 "qRU" = (
 /turf/open/openspace,
 /area/indoors/town/dwarfin)
@@ -24527,6 +24829,12 @@
 	},
 /turf/open/floor/snow,
 /area/outdoors/exposed)
+"qTI" = (
+/obj/structure/lever/hidden/thieves_guild{
+	redstone_id = "slitherway5"
+	},
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "qTZ" = (
 /obj/structure/fluff/railing/border{
 	dir = 6
@@ -24635,6 +24943,12 @@
 	},
 /turf/open/floor/cobble,
 /area/indoors/town/garrison)
+"qXZ" = (
+/obj/structure/lever/hidden/thieves_guild{
+	redstone_id = "slitherway4"
+	},
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "qYF" = (
 /obj/effect/decal/borderfall{
 	dir = 1
@@ -24798,6 +25112,7 @@
 	icon_state = "border";
 	dir = 8
 	},
+/obj/structure/spider/stickyweb,
 /turf/open/floor/blocks/stonered/tiny,
 /area/under/town/sewer)
 "ref" = (
@@ -24857,6 +25172,12 @@
 /obj/effect/mapping_helpers/access/keyset/manor/steward,
 /turf/open/floor/metal,
 /area/indoors/town/steward)
+"rgn" = (
+/obj/effect/mapping_helpers/secret_door_creator/thieves_guild{
+	redstone_id = "slitherway4"
+	},
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "rgy" = (
 /obj/effect/decal/cleanable/food/flour,
 /turf/open/floor/ruinedwood/turned,
@@ -25486,6 +25807,12 @@
 	},
 /turf/open/floor/church,
 /area/indoors/town/keep/magician/basement)
+"rFD" = (
+/obj/effect/mapping_helpers/secret_door_creator/thieves_guild{
+	redstone_id = "slitherway11"
+	},
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "rFM" = (
 /obj/structure/closet/crate/crafted_closet,
 /obj/item/clothing/shirt/undershirt/lowcut,
@@ -25503,6 +25830,11 @@
 /obj/machinery/light/fueled/torchholder/l,
 /turf/open/openspace,
 /area/outdoors/town)
+"rGp" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/ruinedwood,
+/area/under/town/basement/smugglers_tunnels)
 "rGw" = (
 /obj/structure/closet/crate/chest/neu_iron,
 /turf/open/floor/ruinedwood,
@@ -25591,6 +25923,12 @@
 /obj/machinery/tanningrack,
 /turf/open/floor/churchrough/purple,
 /area/indoors/town/church)
+"rKg" = (
+/obj/effect/mapping_helpers/secret_door_creator/thieves_guild{
+	redstone_id = "slitherway7"
+	},
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "rKi" = (
 /turf/open/water/ocean,
 /area/outdoors/town/noble_manor/blue)
@@ -26052,8 +26390,8 @@
 /obj/structure/fluff/railing/tall/retaining/stone{
 	dir = 5
 	},
-/turf/open/water/ocean/under,
-/area/under/town/basement/smugglers_den)
+/turf/open/water/ocean/abyss,
+/area/under/cavewet)
 "sep" = (
 /obj/machinery/light/fueled/wallfire/candle/blue/r,
 /turf/open/floor/ruinedwood,
@@ -26451,6 +26789,12 @@
 "spM" = (
 /turf/open/water/ocean,
 /area/indoors/town/waterworks)
+"spP" = (
+/obj/structure/lever/hidden/thieves_guild{
+	redstone_id = "slitherway2"
+	},
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "sqi" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/blocks,
@@ -26831,6 +27175,10 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/outdoors/town)
+"sDn" = (
+/obj/structure/bars,
+/turf/open/floor/ruinedwood/darker,
+/area/under/town/basement/smugglers_tunnels)
 "sDp" = (
 /obj/effect/decal/borderfall{
 	dir = 1;
@@ -26988,6 +27336,12 @@
 	},
 /turf/open/floor/grass/yel,
 /area/outdoors/town/neighborhood/west)
+"sIM" = (
+/obj/effect/mapping_helpers/secret_door_creator/thieves_guild{
+	redstone_id = "slitherway13"
+	},
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "sIN" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/snow,
@@ -27136,6 +27490,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/cobblerock,
 /area/outdoors/town)
+"sNg" = (
+/obj/effect/decal/cleanable/generic,
+/turf/open/floor/ruinedwood,
+/area/under/town/basement/smugglers_tunnels)
 "sNo" = (
 /obj/machinery/light/fueled/torchholder/r,
 /turf/open/floor/ruinedwood/platform,
@@ -27435,6 +27793,9 @@
 /obj/item/soap/bath,
 /turf/open/floor/blocks/stonered,
 /area/indoors/town/clinic_large)
+"tbR" = (
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town)
 "tcg" = (
 /obj/machinery/light/fueled/firebowl/stump,
 /turf/open/floor/snow,
@@ -28364,6 +28725,10 @@
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/ruinedwood/alt,
 /area/indoors/town/keep/magician)
+"tJX" = (
+/obj/structure/fluff/walldeco/smugglersigil,
+/turf/closed/wall/mineral/stone,
+/area/under/town/basement/smugglers_tunnels)
 "tKd" = (
 /obj/machinery/light/fueled/wallfire/candle,
 /turf/open/floor/ruinedwood/two,
@@ -28399,8 +28764,8 @@
 /obj/structure/fluff/railing/tall/retaining/stone{
 	dir = 9
 	},
-/turf/open/water/ocean/under,
-/area/under/town/basement/smugglers_den)
+/turf/open/water/ocean/abyss,
+/area/under/cavewet)
 "tLc" = (
 /turf/closed/wall/mineral/stone/window,
 /area/indoors/town/keep/magician)
@@ -29022,6 +29387,20 @@
 /obj/structure/rousman_hole,
 /turf/open/floor/naturalstone,
 /area/under/cavewet)
+"ule" = (
+/obj/structure/fluff/railing/wood{
+	dir = 1;
+	layer = 2.7;
+	pixel_y = 7
+	},
+/obj/structure/chair/bench{
+	pixel_y = 16
+	},
+/obj/structure/fluff/railing/wood{
+	dir = 4
+	},
+/turf/open/floor/twig,
+/area/under/town/sewer)
 "uli" = (
 /obj/machinery/light/fueled/torchholder/l,
 /obj/structure/stairs/stone,
@@ -29767,6 +30146,10 @@
 	},
 /turf/open/floor/cobble,
 /area/outdoors/town)
+"uJR" = (
+/obj/item/natural/stone,
+/turf/open/floor/sand/sandstone,
+/area/indoors/town/keep/magician/basement)
 "uKB" = (
 /obj/structure/door/viewport{
 	name = "Steward"
@@ -31657,16 +32040,8 @@
 /turf/open/floor/blocks/stonered/tiny,
 /area/outdoors/town/neighborhood)
 "vXP" = (
-/obj/structure/fluff/railing/wood{
-	dir = 1;
-	layer = 2.7;
-	pixel_y = 7
-	},
-/obj/structure/chair/bench{
-	pixel_y = 16
-	},
-/turf/open/floor/ruinedwood,
-/area/under/town/sewer)
+/turf/open/water/ocean/abyss/under,
+/area/under/cavewet)
 "vYo" = (
 /obj/machinery/light/fueled/wallfire/candle/blue/r,
 /turf/open/floor/ruinedwood/turned/darker,
@@ -31729,6 +32104,10 @@
 	},
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/keep)
+"waW" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/twig,
+/area/under/town/basement/smugglers_tunnels)
 "waX" = (
 /obj/item/candle/skull/lit,
 /obj/structure/table/wood/reinforced_alter,
@@ -31964,6 +32343,13 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/outdoors/town)
+"wkw" = (
+/obj/effect/mapping_helpers/secret_door_creator/thieves_guild{
+	redstone_id = "slitherway2"
+	},
+/obj/structure/fluff/walldeco/smugglersigil,
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "wkA" = (
 /obj/structure/chair/wood/alt{
 	dir = 4
@@ -32067,6 +32453,9 @@
 /obj/structure/hotspring,
 /turf/open/floor/dirt,
 /area/outdoors/town)
+"wmp" = (
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/cavewet)
 "wms" = (
 /obj/structure/stairs{
 	dir = 8
@@ -32142,6 +32531,12 @@
 	},
 /turf/open/floor/church,
 /area/indoors/town/church)
+"woR" = (
+/obj/structure/lever/hidden/thieves_guild{
+	redstone_id = "slitherway1"
+	},
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "wpb" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8
@@ -32872,6 +33267,12 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/indoors/town/garrison)
+"wNW" = (
+/obj/effect/mapping_helpers/secret_door_creator/thieves_guild{
+	redstone_id = "slitherway9"
+	},
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "wNY" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8;
@@ -34595,6 +34996,12 @@
 /obj/item/weapon/pick/stone,
 /turf/open/floor/naturalstone,
 /area/under/cavewet)
+"xWT" = (
+/obj/structure/lever/hidden/thieves_guild{
+	redstone_id = "slitherway6"
+	},
+/turf/closed/wall/mineral/stone/moss/red,
+/area/under/town/basement/smugglers_tunnels)
 "xXh" = (
 /turf/closed/mineral/bedrock,
 /area/under/underwater)
@@ -34881,6 +35288,11 @@
 /obj/structure/fluff/railing/wood,
 /turf/open/floor/blocks/green,
 /area/indoors/town)
+"yfy" = (
+/obj/item/clothing/face/shepherd/clothmask,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/ruinedwood,
+/area/under/town/basement/smugglers_tunnels)
 "ygb" = (
 /obj/structure/fluff/railing/wood{
 	dir = 4;
@@ -36439,9 +36851,9 @@ wyv
 jdz
 jdz
 jdz
-qDj
-qss
-lVq
+wYG
+wYG
+wYG
 wyv
 fIK
 fIK
@@ -36569,7 +36981,7 @@ dwC
 jdz
 jdz
 mrh
-mrh
+qss
 mrh
 qss
 mrh
@@ -36704,7 +37116,7 @@ mrh
 wXA
 qss
 qss
-mrh
+qss
 jdz
 wyv
 fIK
@@ -36836,7 +37248,7 @@ mrh
 qDj
 qDj
 qss
-mrh
+qss
 jdz
 wyv
 fIK
@@ -36964,7 +37376,7 @@ mrh
 mrh
 acJ
 lVq
-mrh
+gVN
 qss
 qss
 qDj
@@ -37096,16 +37508,16 @@ mrh
 mrh
 lVq
 lVq
-mrh
-mrh
-qDj
-acJ
-mrh
+gVN
+qXZ
+rgn
+mgP
+gVN
 jdz
 jdz
 acJ
-qss
-qss
+wYG
+wYG
 wyv
 wyv
 fIK
@@ -37236,7 +37648,7 @@ qDj
 qDj
 jdz
 acJ
-qss
+wYG
 eAi
 wyv
 wyv
@@ -37497,7 +37909,7 @@ mrh
 mrh
 acJ
 acJ
-acJ
+lGU
 qss
 acJ
 qss
@@ -37629,7 +38041,7 @@ qss
 qDj
 qDj
 qDj
-acJ
+tJX
 qss
 qss
 qss
@@ -37761,7 +38173,7 @@ acJ
 acJ
 acJ
 qDj
-acJ
+lGU
 qss
 qss
 acJ
@@ -37839,7 +38251,7 @@ fIK
 fIK
 fIK
 wyv
-jdz
+aaI
 qss
 cBm
 qss
@@ -37897,8 +38309,8 @@ qDj
 qDj
 acJ
 mrh
-mrh
-qDj
+bgO
+sNg
 wvf
 vZH
 eAi
@@ -37971,7 +38383,7 @@ fIK
 fIK
 fIK
 wyv
-jdz
+cvH
 qss
 cBm
 qss
@@ -38029,13 +38441,13 @@ qss
 qss
 qss
 qss
+fyr
 qss
-qss
-qss
-qDj
-qDj
-mqe
-eAi
+waW
+fHX
+yfy
+qRT
+wyv
 fIK
 fIK
 fIK
@@ -38103,7 +38515,7 @@ fIK
 fIK
 fIK
 wyv
-jdz
+aaI
 qss
 qss
 cBm
@@ -38161,13 +38573,13 @@ qss
 qss
 mqe
 qDj
-jdz
-jdz
-jdz
-qss
-qss
-qDj
-eAi
+acJ
+wYG
+pvv
+waW
+waW
+rGp
+wyv
 wyv
 fIK
 fIK
@@ -38293,12 +38705,12 @@ hRL
 jdz
 mqe
 mqe
-jdz
-jdz
-jdz
-jdz
-qss
-qDj
+acJ
+wYG
+cDs
+fEM
+neU
+fHX
 bcJ
 wyv
 fIK
@@ -38394,7 +38806,7 @@ qss
 cBm
 qss
 jdz
-jdz
+fIp
 jhU
 jhU
 jhU
@@ -38403,7 +38815,7 @@ jhU
 jhU
 cBm
 cBm
-cBm
+qss
 jdz
 jdz
 jdz
@@ -38425,11 +38837,11 @@ jdz
 fxN
 fxN
 fxN
-jdz
-cLk
-cLk
-jdz
 acJ
+acJ
+eAi
+eAi
+eAi
 qDj
 bcJ
 wyv
@@ -38533,9 +38945,9 @@ jhU
 bwz
 jhU
 jhU
+qss
 cBm
-cBm
-cBm
+qss
 jdz
 jdz
 jdz
@@ -38563,7 +38975,7 @@ tNU
 lKy
 lKy
 pli
-lKy
+bIJ
 lKy
 lKy
 lKy
@@ -38694,7 +39106,7 @@ tNU
 sKV
 gZG
 uEX
-cXb
+dNJ
 nOF
 lKy
 wIv
@@ -38819,14 +39231,14 @@ qDj
 acJ
 fxN
 tKR
-adA
+hRL
 lKy
 hUT
 gZG
 gZG
 lKy
 snn
-gZG
+enW
 eTA
 tNU
 wIv
@@ -38939,8 +39351,8 @@ jdz
 mqe
 mqe
 jdz
-wYG
-wYG
+bcJ
+bcJ
 jdz
 jdz
 qss
@@ -38951,11 +39363,11 @@ qDj
 acJ
 fxN
 sed
-adA
+hRL
 pIx
 xoD
-gZG
-cXb
+enW
+cKk
 lKy
 pFR
 gZG
@@ -39030,7 +39442,7 @@ cBm
 cBm
 cBm
 jdz
-cBm
+qss
 cBm
 jdz
 jdz
@@ -39050,7 +39462,7 @@ cBm
 cBm
 cBm
 cBm
-jdz
+aaI
 cBm
 jdz
 ggp
@@ -39070,7 +39482,7 @@ jdz
 jdz
 jdz
 jdz
-dwC
+ajM
 wYG
 acJ
 fxN
@@ -39087,10 +39499,10 @@ hRL
 pIx
 kEh
 gZG
-gZG
-cXb
-cXb
-cXb
+enW
+dNJ
+dNJ
+dNJ
 gZG
 lKy
 lKy
@@ -39162,9 +39574,9 @@ cBm
 qss
 cBm
 jdz
-cBm
-cBm
 qss
+cBm
+mXy
 qss
 qss
 lVq
@@ -39182,7 +39594,7 @@ jdz
 jdz
 jdz
 cBm
-jdz
+cvH
 cBm
 jdz
 ukG
@@ -39196,7 +39608,7 @@ aSt
 jhU
 jdz
 cBm
-lGU
+tJX
 lGU
 acJ
 acJ
@@ -39205,14 +39617,14 @@ acJ
 aaI
 mqe
 qss
+qco
 qss
 qss
 qss
 qss
 qss
 qss
-qss
-lVq
+gVN
 gFG
 hqt
 dwC
@@ -39222,8 +39634,8 @@ gZG
 cXb
 lKy
 kGZ
-gZG
-gZG
+dWt
+enW
 jCJ
 lKy
 lKy
@@ -39296,7 +39708,7 @@ jdz
 jdz
 qss
 cBm
-cBm
+rFD
 qss
 cBm
 qss
@@ -39314,7 +39726,7 @@ jdz
 jdz
 jdz
 cBm
-jdz
+aaI
 cBm
 jdz
 ggp
@@ -39337,16 +39749,16 @@ lGU
 lGU
 lVq
 qss
-qss
+qco
 qDj
 qDj
 qss
 qss
 acJ
 lVq
-lVq
+spP
 qan
-hqt
+bIC
 dwC
 lKy
 xRm
@@ -39428,8 +39840,8 @@ cBm
 cBm
 cBm
 cBm
-jdz
-jdz
+aaI
+cvH
 qss
 cBm
 jdz
@@ -39458,9 +39870,9 @@ bCn
 nzk
 mzx
 jhU
+qDj
 cBm
-jdz
-acJ
+gVN
 wFL
 wFL
 acJ
@@ -39474,16 +39886,16 @@ jdz
 jdz
 fxN
 fxN
-jdz
-acJ
-acJ
-vZO
+wmp
+lVq
+wkw
+eyi
 hqt
 dwC
-vXP
+aQQ
 non
 hWk
-hWk
+hIC
 pIx
 gau
 fcR
@@ -39590,9 +40002,9 @@ aJY
 fTZ
 hEe
 jhU
+qDj
 cBm
-cBm
-acJ
+sDn
 wFL
 wFL
 wFL
@@ -39606,19 +40018,19 @@ bBv
 jdz
 jdz
 jdz
-jdz
-jdz
-tDV
+wmp
+wmp
+pmq
 vZO
 hqt
 dwC
 hFv
 abw
 hWk
-hWk
+msd
 vKC
 vFR
-gZG
+enW
 cXb
 cXb
 lKy
@@ -39722,9 +40134,9 @@ nRO
 lRX
 oCv
 jhU
-jdz
-cBm
 acJ
+cBm
+gVN
 wFL
 wFL
 wFL
@@ -39741,17 +40153,17 @@ aaI
 gNa
 tDV
 aTD
-tpG
+eVB
 xYm
 dwC
-eOQ
-fiL
+ule
+hxn
 hWk
-hWk
+msd
 kuB
 qyM
 gZG
-gZG
+enW
 gZG
 lKy
 aEW
@@ -39853,10 +40265,10 @@ jhU
 jhU
 qCr
 jhU
-uCL
-jdz
-cBm
-acJ
+tbR
+qTI
+aTq
+gVN
 acJ
 acJ
 wFL
@@ -39873,12 +40285,12 @@ jdz
 gNa
 fhv
 bZS
-tpG
-hqt
-dwC
+jdr
+fxN
+eLI
 vXP
-abw
-iMB
+vXP
+aXo
 hWk
 kuB
 fMF
@@ -39974,8 +40386,8 @@ jdz
 jdz
 jdz
 cBm
-jdz
-jdz
+wmp
+wmp
 jdz
 jdz
 ggp
@@ -40005,13 +40417,13 @@ jdz
 gNa
 cPa
 ktd
-tpG
-hqt
-xCr
-hFv
-fiL
-hWk
-iMB
+jdr
+fxN
+eLI
+vXP
+vXP
+prz
+mhV
 lKy
 wiN
 wiN
@@ -40086,7 +40498,7 @@ cBm
 jdz
 jdz
 jdz
-cBm
+qss
 cBm
 jdz
 jdz
@@ -40106,8 +40518,8 @@ jdz
 jdz
 jdz
 qss
-jdz
-jdz
+wmp
+wmp
 jdz
 jdz
 ggp
@@ -40137,13 +40549,13 @@ jdz
 gNa
 tDV
 rdI
-tpG
+eVB
 hqt
-dwC
-hFv
-gNa
-iMB
-pAr
+jPm
+pmG
+oUJ
+oZs
+tKo
 uoT
 uMd
 uMd
@@ -40239,17 +40651,17 @@ qss
 qss
 qss
 lVq
-jdz
-jdz
-ggp
-ggp
-ggp
-bBv
-bBv
-bBv
+woR
 bBv
 ggp
+dwC
+ggp
 bBv
+bBv
+bBv
+bBv
+dwC
+dwC
 bBv
 bBv
 lGU
@@ -40273,10 +40685,10 @@ tpG
 hqt
 dwC
 eOQ
-gNa
-gNa
-gNa
-gNa
+fiL
+fiL
+vdZ
+xhI
 uMd
 pAr
 xYT
@@ -40350,7 +40762,7 @@ cBm
 jdz
 jdz
 jdz
-cBm
+qss
 cBm
 jdz
 jdz
@@ -40371,17 +40783,17 @@ qss
 cBm
 cBm
 cBm
-cBm
+iRE
 bBv
 bBv
 bBv
+dwC
 bBv
-bBv
-bBv
+dwC
 bBv
 ggp
-ggp
-ggp
+dwC
+dwC
 bBv
 bBv
 bBv
@@ -40405,10 +40817,10 @@ qPy
 qfk
 gOl
 eOQ
-gNa
-osQ
-rvl
-uMd
+fiL
+lfY
+xYT
+lwl
 pAr
 pAr
 xYT
@@ -40499,19 +40911,19 @@ qss
 jdz
 jdz
 jdz
-jdz
-jdz
-jdz
-jdz
-jdz
+wmp
+wmp
+wmp
+wmp
+wmp
 jdz
 jdz
 ggp
+dwC
+dwC
 ggp
-ggp
-ggp
-ggp
-kwf
+dwC
+dwC
 bBv
 bBv
 ggp
@@ -40537,9 +40949,9 @@ iMB
 iMB
 iMB
 fLs
+fiL
 gNa
 xzO
-lPI
 smB
 pAr
 kvQ
@@ -40639,11 +41051,11 @@ jdz
 jdz
 jdz
 jdz
-jdz
+dwC
+dwC
 bBv
-bBv
-kwf
-kwf
+dwC
+dwC
 kwf
 bBv
 bBv
@@ -40672,8 +41084,8 @@ tKo
 lfY
 gNa
 lPI
-lPI
-rvl
+osQ
+pAr
 xYT
 xYT
 jdz
@@ -40732,7 +41144,7 @@ xXh
 wyv
 cBm
 qss
-jdz
+aaI
 qss
 qss
 qss
@@ -40761,8 +41173,9 @@ jdz
 qss
 jdz
 jdz
-jdz
-jdz
+dwC
+dwC
+dwC
 bBv
 bBv
 bBv
@@ -40770,11 +41183,10 @@ bBv
 bBv
 bBv
 bBv
-bBv
-bBv
+dwC
 kwf
 bBv
-bBv
+dwC
 bBv
 bBv
 jdz
@@ -40800,7 +41212,7 @@ iMB
 weK
 tLn
 ouw
-tKo
+mhV
 vdZ
 gNa
 lPI
@@ -40864,7 +41276,7 @@ xXh
 wyv
 cBm
 qss
-jdz
+cvH
 cBm
 qss
 cBm
@@ -40893,7 +41305,7 @@ jdz
 qss
 jdz
 jdz
-jdz
+dwC
 jdz
 jdz
 bBv
@@ -40934,7 +41346,7 @@ xdc
 tjf
 tKo
 xYT
-pAr
+rvl
 pAr
 pAr
 iMB
@@ -40996,7 +41408,7 @@ xXh
 wyv
 cBm
 qss
-jdz
+aaI
 qss
 cBm
 cBm
@@ -41024,8 +41436,8 @@ qss
 qss
 qss
 jdz
-jdz
-jdz
+dwC
+dwC
 jdz
 bBv
 bBv
@@ -41157,8 +41569,8 @@ qss
 qss
 jdz
 jdz
-jdz
-bBv
+dwC
+dwC
 bBv
 jdz
 jdz
@@ -41329,7 +41741,7 @@ xYT
 iMB
 iMB
 iMB
-fAx
+gGE
 xhI
 xhI
 jdz
@@ -41404,8 +41816,8 @@ jdz
 qss
 jdz
 jdz
-jdz
-jdz
+wmp
+wmp
 jdz
 jdz
 jdz
@@ -41457,11 +41869,11 @@ pAr
 xhI
 xYT
 xYT
-fAx
+gGE
 iMB
 iMB
 fAx
-fAx
+gGE
 fAx
 xhI
 xhI
@@ -41537,6 +41949,7 @@ qss
 qss
 qss
 cBm
+wmp
 jdz
 jdz
 jdz
@@ -41551,9 +41964,8 @@ jdz
 jdz
 jdz
 jdz
-jdz
-bBv
-bBv
+dwC
+dwC
 bBv
 bBv
 ggp
@@ -41594,7 +42006,7 @@ fAx
 dsG
 dsG
 fAx
-fAx
+gGE
 pAr
 pAr
 fAx
@@ -41666,10 +42078,10 @@ cBm
 qss
 qss
 cBm
-cBm
-qss
-cBm
-jdz
+gVN
+xWT
+qDm
+wmp
 aaI
 aaI
 jdz
@@ -41683,8 +42095,8 @@ jdz
 jdz
 jdz
 jdz
-bBv
-bBv
+dwC
+dwC
 bBv
 bBv
 bBv
@@ -41798,24 +42210,24 @@ jdz
 jdz
 jdz
 jdz
-aaI
+wmp
 ggp
 ggp
 ggp
-ukG
 ggp
-ggp
-ggp
-jdz
-aaI
-aaI
 ggp
 ggp
 ggp
 jdz
-bBv
-bBv
-bBv
+aaI
+aaI
+ggp
+ggp
+ggp
+jdz
+dwC
+dwC
+dwC
 bBv
 bBv
 bBv
@@ -41930,11 +42342,11 @@ jdz
 jdz
 jdz
 jdz
-aaI
-aaI
+wmp
+wmp
 jdz
-aaI
-ggp
+cvH
+ukG
 ggp
 ggp
 ggp
@@ -42076,9 +42488,9 @@ aaI
 aaI
 aaI
 jdz
-ggp
-ggp
-ggp
+dwC
+dwC
+dwC
 ggp
 ukG
 ggp
@@ -42207,12 +42619,12 @@ jdz
 jdz
 jdz
 jdz
+ajM
+ajM
 jdz
 jdz
-jdz
-jdz
-ggp
-ggp
+dwC
+dwC
 ggp
 iMB
 cPa
@@ -42848,7 +43260,7 @@ jdz
 qss
 cBm
 cBm
-jdz
+aaI
 jdz
 eXz
 xZO
@@ -42980,7 +43392,7 @@ jdz
 qss
 cBm
 cBm
-jdz
+cvH
 jdz
 eXz
 xhW
@@ -43112,7 +43524,7 @@ jdz
 qss
 qss
 cBm
-jdz
+aaI
 jdz
 jdz
 xhW
@@ -44189,7 +44601,7 @@ xhW
 jdz
 jdz
 qss
-jdz
+aaI
 xYT
 xYT
 gNa
@@ -44321,7 +44733,7 @@ xhW
 jdz
 jdz
 qss
-jdz
+cvH
 jdz
 jdz
 gNa
@@ -44453,12 +44865,12 @@ jdz
 jdz
 qss
 cBm
-jdz
+aaI
 jdz
 jdz
 dwC
 dwC
-dwC
+nCL
 dwC
 cPa
 cPa
@@ -44502,7 +44914,7 @@ oHW
 pCL
 coZ
 xhI
-kwf
+ggp
 fAx
 bxh
 uNI
@@ -44588,13 +45000,13 @@ qss
 jdz
 jdz
 mSQ
-hRL
+xLu
 dwC
 dwC
 dwC
 dwC
-dwC
-dwC
+nCL
+nCL
 jdz
 jdz
 jdz
@@ -44634,8 +45046,8 @@ xhI
 xil
 fLs
 jVD
-kwf
-kwf
+ggp
+ggp
 cLk
 cLk
 cLk
@@ -44721,13 +45133,13 @@ jdz
 jdz
 jdz
 jdz
+xLu
 hRL
 hRL
 hRL
 hRL
 hRL
 hRL
-mSQ
 jdz
 jdz
 jdz
@@ -44766,7 +45178,7 @@ xhI
 uNe
 pCL
 pCL
-kwf
+ggp
 ggp
 ggp
 jdz
@@ -44828,8 +45240,8 @@ fIK
 wyv
 jdz
 qss
-jdz
-jdz
+oOg
+cBm
 qss
 qss
 cBm
@@ -44857,9 +45269,9 @@ jdz
 hRL
 hRL
 hRL
-jdz
-mSQ
-jdz
+wmp
+wmp
+wmp
 jdz
 jdz
 jdz
@@ -44898,7 +45310,7 @@ xhI
 xhI
 xhI
 xhI
-kwf
+ggp
 ggp
 qSL
 cLk
@@ -44960,12 +45372,12 @@ xXh
 wyv
 jdz
 qss
-cBm
-cBm
-qss
+fXK
 cBm
 qss
 cBm
+qss
+cBm
 cBm
 cBm
 cBm
@@ -44987,11 +45399,11 @@ jdz
 jdz
 jdz
 jdz
-mSQ
-mSQ
-jdz
-jdz
+pYN
+pYN
+wmp
 qss
+dmP
 qss
 qss
 hpa
@@ -45027,12 +45439,12 @@ xhI
 bxh
 bxh
 suS
-kwf
-kwf
-kwf
-kwf
 ggp
-kwf
+ggp
+ggp
+ggp
+ggp
+ggp
 cLk
 jdz
 jdz
@@ -45121,9 +45533,9 @@ qss
 qss
 cBm
 qss
-jdz
 qss
 qss
+rKg
 qss
 jdz
 ggp
@@ -45159,15 +45571,15 @@ xYT
 bxh
 bxh
 suS
-kwf
+ggp
 jdz
 cLk
 ggp
+ggp
+ggp
+ggp
+gvg
 cBm
-jdz
-cLk
-jdz
-jdz
 cBm
 cBm
 mrh
@@ -45253,9 +45665,9 @@ qss
 cBm
 qss
 qss
-qss
-qss
-ggp
+dlV
+dlV
+wmp
 jdz
 jdz
 jdz
@@ -45295,10 +45707,10 @@ acJ
 acJ
 alE
 jdz
-cBm
-cBm
-cBm
-cBm
+ggp
+ggp
+ggp
+adA
 cBm
 cBm
 cBm
@@ -45369,14 +45781,14 @@ jdz
 qss
 qss
 cBm
+ify
+wmp
+wmp
+wmp
 jdz
-jdz
-jdz
-jdz
-jdz
-jdz
-jdz
-jdz
+wmp
+wmp
+wmp
 cBm
 jdz
 jdz
@@ -45385,9 +45797,9 @@ qss
 qss
 jdz
 jdz
-jdz
-ggp
-wpy
+aaI
+pZM
+uJR
 jdz
 jdz
 jdz
@@ -45501,23 +45913,23 @@ jdz
 qss
 qss
 cBm
-qss
-qss
-jdz
-jdz
-qss
-qss
-qss
-jdz
+wNW
 qss
 jdz
 jdz
+qss
+qss
+qss
+wmp
+qss
 jdz
 jdz
 jdz
 jdz
 jdz
 jdz
+jdz
+cvH
 tyx
 xEr
 yjK
@@ -45633,14 +46045,14 @@ qss
 qss
 qss
 cBm
-jdz
+wmp
 qss
 qss
 qss
 qss
 cBm
 qss
-jdz
+wmp
 cBm
 jdz
 jdz
@@ -45649,7 +46061,7 @@ jdz
 jdz
 jdz
 jdz
-jdz
+aaI
 pZM
 wWx
 wWx
@@ -45753,7 +46165,7 @@ jdz
 jdz
 jdz
 jdz
-jdz
+aaI
 qss
 jdz
 jdz
@@ -45762,17 +46174,17 @@ qss
 jdz
 jdz
 jdz
-jdz
-jdz
-jdz
-jdz
+wmp
+wmp
+wmp
+wmp
 wyv
 wyv
 jdz
 qss
 cBm
 qss
-jdz
+wmp
 cBm
 jdz
 jdz
@@ -45885,7 +46297,7 @@ jdz
 jdz
 jdz
 jdz
-jdz
+cvH
 qss
 jdz
 jdz
@@ -45904,7 +46316,7 @@ wyv
 qss
 qss
 qss
-jdz
+wmp
 qss
 jdz
 yjK
@@ -46017,7 +46429,7 @@ jdz
 jdz
 jdz
 jdz
-jdz
+aaI
 qss
 jdz
 jdz
@@ -46036,7 +46448,7 @@ wyv
 wyv
 qss
 jdz
-jdz
+wmp
 cBm
 jdz
 yjK
@@ -46168,7 +46580,7 @@ fIK
 wyv
 qss
 qss
-jdz
+lri
 cBm
 jdz
 sBU
@@ -46300,7 +46712,7 @@ fIK
 wyv
 qss
 qss
-qss
+eSM
 qss
 jdz
 saK
@@ -46432,7 +46844,7 @@ fIK
 wyv
 cBm
 qss
-jdz
+wmp
 cBm
 jdz
 saK
@@ -46465,7 +46877,7 @@ wWx
 cXf
 ggp
 jdz
-jdz
+aaI
 cBm
 cBm
 jdz
@@ -46564,7 +46976,7 @@ fIK
 wyv
 cBm
 qss
-jdz
+wmp
 cBm
 jdz
 yjK
@@ -46597,7 +47009,7 @@ wWx
 oHq
 jdz
 jdz
-jdz
+cvH
 cBm
 qss
 jdz
@@ -46622,7 +47034,7 @@ gAe
 cBm
 cBm
 cBm
-fxN
+wmp
 jdz
 jdz
 jdz
@@ -46696,7 +47108,7 @@ fIK
 wyv
 qss
 qss
-jdz
+wmp
 cBm
 ggp
 ggp
@@ -46729,7 +47141,7 @@ cGn
 yjK
 jdz
 jdz
-jdz
+aaI
 qss
 cBm
 jdz
@@ -46754,7 +47166,7 @@ mrh
 mrh
 cBm
 cBm
-fxN
+wmp
 fxN
 cBm
 cBm
@@ -46828,8 +47240,8 @@ fIK
 wyv
 jdz
 qss
-jdz
-jdz
+wmp
+wmp
 ggp
 fJu
 afs
@@ -46872,7 +47284,7 @@ jdz
 jdz
 jdz
 jdz
-jdz
+aaI
 jdz
 jdz
 jdz
@@ -46961,7 +47373,7 @@ wyv
 jdz
 qss
 jdz
-jdz
+wmp
 fJu
 wpy
 hRL
@@ -47004,7 +47416,7 @@ jdz
 jdz
 jdz
 jdz
-jdz
+cvH
 lVq
 lVq
 lVq
@@ -47093,7 +47505,7 @@ wyv
 jdz
 qss
 jdz
-jdz
+wmp
 ggp
 afs
 hRL
@@ -47136,7 +47548,7 @@ lVq
 jdz
 jdz
 jdz
-jdz
+aaI
 jdz
 jdz
 jdz
@@ -47153,8 +47565,8 @@ bhu
 fxN
 fxN
 fxN
-cBm
-cBm
+gVN
+gVN
 jdz
 jdz
 jdz
@@ -47266,7 +47678,7 @@ qss
 qss
 cBm
 cBm
-cBm
+env
 cBm
 cBm
 cBm
@@ -47398,7 +47810,7 @@ qss
 cBm
 qss
 qss
-qss
+sIM
 cBm
 cBm
 qss
@@ -47416,7 +47828,7 @@ qss
 cBm
 cBm
 qss
-qss
+buh
 cBm
 cBm
 lVq
@@ -47548,7 +47960,7 @@ cBm
 qss
 qss
 qss
-qss
+kvn
 qss
 lVq
 qss
@@ -47676,7 +48088,7 @@ jdz
 jdz
 qss
 qss
-jdz
+aaI
 jdz
 jdz
 jdz
@@ -47808,7 +48220,7 @@ jdz
 jdz
 qss
 qss
-jdz
+cvH
 jdz
 jdz
 jdz
@@ -47940,7 +48352,7 @@ jdz
 jdz
 cBm
 qss
-jdz
+aaI
 jdz
 jdz
 jdz
@@ -48709,7 +49121,7 @@ kci
 kci
 qss
 cBm
-jdz
+aaI
 cBm
 gAe
 cBm
@@ -48841,7 +49253,7 @@ kci
 kci
 qss
 cBm
-jdz
+cvH
 jdz
 acJ
 cBm
@@ -48973,7 +49385,7 @@ kci
 lVq
 cBm
 qss
-jdz
+aaI
 jdz
 cBm
 cBm
@@ -49114,7 +49526,7 @@ jdz
 jdz
 acJ
 olL
-jdz
+aaI
 jdz
 jdz
 jdz
@@ -49246,7 +49658,7 @@ jdz
 jdz
 qss
 cBm
-jdz
+cvH
 jdz
 jdz
 jdz
@@ -49378,7 +49790,7 @@ jdz
 jdz
 qss
 cBm
-jdz
+aaI
 jdz
 jdz
 jdz
