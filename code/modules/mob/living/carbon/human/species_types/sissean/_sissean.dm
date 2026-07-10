@@ -24,7 +24,7 @@
 	species_traits = list(EYECOLOR, LIPS, STUBBLE)
 	use_skintones = TRUE
 
-	possible_ages = ALL_AGES_LIST
+	possible_ages = NORMAL_AGES_LIST
 
 	changesource_flags = WABBAJACK
 
@@ -100,7 +100,7 @@
 		/datum/customizer/organ/snout/lizard,
 		/datum/customizer/organ/frills/lizard,
 		/datum/customizer/organ/horns/humanoid/sissean
-		)
+	)
 
 	body_marking_sets = list(
 		/datum/body_marking_set/none,

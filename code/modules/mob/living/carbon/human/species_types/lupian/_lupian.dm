@@ -9,7 +9,7 @@
 
 /datum/attribute_holder/sheet/job/species/lupian
 	raw_attribute_list = list(
-		STAT_INTELLIGENCE = 1,
+		STAT_PERCEPTION = 1,
 	)
 
 /datum/species/lupian
