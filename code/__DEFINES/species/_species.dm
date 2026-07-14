@@ -131,9 +131,51 @@
 	SPEC_ID_HALF_DROW,\
 	SPEC_ID_HALFLING,\
 	SPEC_ID_HARPY,\
+	SPEC_ID_TRITON,\
+	SPEC_ID_HOLLOWKIN,\
 	SPEC_ID_LUPIAN, \
 	SPEC_ID_DRACON, \
 	SPEC_ID_SISSEAN, \
+)
+
+/// Includes races that are discriminated against, but not reviled like tieflings are.
+#define RACES_LESS_DISCRIMINATED list(\
+	SPEC_ID_HUMEN,\
+	SPEC_ID_DWARF,\
+	SPEC_ID_AASIMAR,\
+	SPEC_ID_ELF,\
+	SPEC_ID_HALF_ELF,\
+	SPEC_ID_HALFLING,\
+	SPEC_ID_DROW,\
+	SPEC_ID_HALF_DROW,\
+	SPEC_ID_HARPY,\
+	SPEC_ID_TRITON,\
+	SPEC_ID_HOLLOWKIN,\
+	SPEC_ID_LUPIAN, \
+	SPEC_ID_DRACON, \
+	SPEC_ID_SISSEAN, \
+	SPEC_ID_HALF_ORC,\
+	SPEC_ID_KOBOLD,\
+)
+
+/// Races that can be Towners basically, excludes Wormblood Dwarves and Hobknoblits specifically because they're evil.
+#define RACES_NON_ANTAG list(\
+	SPEC_ID_HUMEN,\
+	SPEC_ID_DWARF,\
+	SPEC_ID_AASIMAR,\
+	SPEC_ID_ELF,\
+	SPEC_ID_HALF_ELF,\
+	SPEC_ID_HALFLING,\
+	SPEC_ID_DROW,\
+	SPEC_ID_HALF_DROW,\
+	SPEC_ID_HARPY,\
+	SPEC_ID_TRITON,\
+	SPEC_ID_HOLLOWKIN,\
+	SPEC_ID_LUPIAN, \
+	SPEC_ID_DRACON, \
+	SPEC_ID_SISSEAN, \
+	SPEC_ID_HALF_ORC,\
+	SPEC_ID_TIEFLING,\
 )
 
 /// Species who are nonheretical to the church.
@@ -143,9 +185,12 @@
 	SPEC_ID_AASIMAR,\
 	SPEC_ID_ELF,\
 	SPEC_ID_HALF_ELF,\
+	SPEC_ID_DROW,\
+	SPEC_ID_HALF_DROW,\
 	SPEC_ID_HALFLING,\
 	SPEC_ID_HARPY,\
 	SPEC_ID_TRITON,\
+	SPEC_ID_HOLLOWKIN,\
 	SPEC_ID_LUPIAN, \
 	SPEC_ID_DRACON, \
 	SPEC_ID_SISSEAN, \

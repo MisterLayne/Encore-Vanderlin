@@ -35,7 +35,7 @@
 	total_positions = 2
 	spawn_positions = 2
 
-	allowed_races = RACES_PLAYER_ALL
+	allowed_races = RACES_NON_ANTAG
 	allowed_ages = list(AGE_ADULT)
 	allowed_sexes = list(MALE, FEMALE)
 	cmode_music = "sound/music/cmode/adventurer/CombatSorcerer.ogg"

@@ -58,7 +58,7 @@
 	can_have_apprentices = FALSE
 
 	allowed_ages = ALL_AGES_LIST
-	allowed_races = RACES_PLAYER_ALL
+	allowed_races = RACES_NON_ANTAG
 
 	outfit = /datum/outfit/servant
 	attribute_sheet = /datum/attribute_holder/sheet/job/servant

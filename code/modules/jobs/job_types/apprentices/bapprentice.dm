@@ -31,7 +31,7 @@
 	cmode_music = 'sound/music/cmode/towner/CombatTowner2.ogg'
 	job_bitflag = BITFLAG_CONSTRUCTOR
 
-	allowed_races = RACES_PLAYER_ALL
+	allowed_races = RACES_NON_ANTAG
 	allowed_ages = list(AGE_ADULT)
 
 	outfit = /datum/outfit/bapprentice

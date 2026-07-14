@@ -46,7 +46,7 @@
 	//think of it how IRL age doesn't matter that much when it comes to attending university
 	//you can have 20 year olds in the same group as 60 year olds
 	allowed_ages = ALL_AGES_LIST
-	allowed_races = RACES_PLAYER_ALL
+	allowed_races = RACES_NON_ANTAG
 	cmode_music = 'sound/music/cmode/towner/CombatTowner2.ogg'
 	outfit = /datum/outfit/clinicapprentice
 	job_bitflag = BITFLAG_CONSTRUCTOR
