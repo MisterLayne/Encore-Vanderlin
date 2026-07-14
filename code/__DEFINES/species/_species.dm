@@ -127,6 +127,8 @@
 	SPEC_ID_AASIMAR,\
 	SPEC_ID_ELF,\
 	SPEC_ID_HALF_ELF,\
+	SPEC_ID_DROW,\
+	SPEC_ID_HALF_DROW,\
 	SPEC_ID_HALFLING,\
 	SPEC_ID_HARPY,\
 	SPEC_ID_LUPIAN, \
@@ -172,9 +174,7 @@
 /// Species that lack lux. Any who have no ties to divinity anymore, whether it be their creation story or otherwise.
 // Encore edit- still need to hit Lux with the change to Thauma
 #define RACES_PLAYER_LUXLESS list(\
-	SPEC_ID_KOBOLD,\
 	SPEC_ID_KOBOLD_FORMIKRAG,\
-	SPEC_ID_HOLLOWKIN,\
 	SPEC_ID_HUMAN_SPACE,\
 	SPEC_ID_ROUSMAN,\
 	SPEC_ID_GOBLIN,\
@@ -187,6 +187,9 @@
 	SPEC_ID_DWARF,\
 	SPEC_ID_ELF,\
 	SPEC_ID_HALF_ELF,\
+	SPEC_ID_HALFLING,\
+	SPEC_ID_DROW,\
+	SPEC_ID_HALF_DROW,\
 	SPEC_ID_AASIMAR,\
 	SPEC_ID_LUPIAN, \
 	SPEC_ID_DRACON, \
@@ -260,6 +263,7 @@
 #define RACES_PLAYER_ROYALTY list(\
 	SPEC_ID_ELF,\
 	SPEC_ID_HALF_ELF,\
+	SPEC_ID_HUMEN,\
 )
 
 /// The butler
@@ -308,10 +312,9 @@
 	SPEC_ID_HALFLING,\
 	SPEC_ID_DROW,\
 	SPEC_ID_HALF_DROW,\
-	SPEC_ID_HALF_ORC,\
 	SPEC_ID_HARPY,\
 	SPEC_ID_TRITON,\
-	SPEC_ID_KOBOLD,\
+	SPEC_ID_HOLLOWKIN,\
 	SPEC_ID_LUPIAN, \
 	SPEC_ID_DRACON, \
 	SPEC_ID_SISSEAN, \

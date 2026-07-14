@@ -8,6 +8,7 @@
 		CLERIC_T1 = /datum/action/cooldown/spell/avert/templar,
 		CLERIC_T2 = /datum/action/cooldown/spell/enchantment/holy_flame,
 		CLERIC_T3 = /datum/action/cooldown/spell/status/divine_shield,
+	)
 
 /datum/devotion/divine/visires
 	miracles = list(
@@ -24,9 +25,9 @@
 /datum/devotion/divine/akan
 	miracles = list(
 		CLERIC_T0 = /datum/action/cooldown/spell/healing,
-		CLERIC_T1 = /datum/action/cooldown/spell/status/invisibility,
-		CLERIC_T2 = list(/datum/action/cooldown/spell/blindness/miracle, /datum/action/cooldown/spell/aoe/abrogation),
-		CLERIC_T3 = /datum/action/cooldown/spell/projectile/moonlit_dagger,
+		CLERIC_T1 = /datum/action/cooldown/spell/status/guidance,
+		CLERIC_T2 = list(/datum/action/cooldown/spell/blindness/miracle, /datum/action/cooldown/spell/projectile/moonlit_dagger, /datum/action/cooldown/spell/aoe/abrogation),
+		CLERIC_T3 = /datum/action/cooldown/spell/status/invisibility,
 	)
 	viable_tasks = list(
 		/datum/devotion_task/akan_teach,
@@ -40,7 +41,7 @@
 		CLERIC_T0 = /datum/action/cooldown/spell/healing,
 		CLERIC_T1 = /datum/action/cooldown/spell/undirected/bless_crops,
 		CLERIC_T2 = list(/datum/action/cooldown/spell/undirected/beast_sense, /datum/action/cooldown/spell/healing/greater, /datum/action/cooldown/spell/aoe/abrogation),
-		CLERIC_T3 = /datum/action/cooldown/spell/beast_tame,
+		CLERIC_T3 = list(/datum/action/cooldown/spell/beast_tame, /datum/action/cooldown/spell/undirected/troll_shape),
 
 	)
 	viable_tasks = list(
@@ -54,7 +55,7 @@
 	miracles = list(
 		CLERIC_T0 = /datum/action/cooldown/spell/healing,
 		CLERIC_T1 = /datum/action/cooldown/spell/undirected/call_to_arms,
-		CLERIC_T2 = list(/datum/action/cooldown/spell/undirected/divine_strike, /datum/action/cooldown/spell/aoe/abrogation),
+		CLERIC_T2 = list(/datum/action/cooldown/spell/undirected/divine_strike, /datum/action/cooldown/spell/undirected/blade_ward, /datum/action/cooldown/spell/aoe/abrogation),
 		CLERIC_T3 = /datum/action/cooldown/spell/persistence,
 	)
 	viable_tasks = list(
@@ -80,7 +81,7 @@
 	miracles = list(
 		CLERIC_T0 = /datum/action/cooldown/spell/healing,
 		CLERIC_T1 = /datum/action/cooldown/spell/projectile/swordfish,
-		CLERIC_T2 = list(/datum/action/cooldown/spell/undirected/conjure_item/summon_trident/miracle, /datum/action/cooldown/spell/aoe/abrogation),
+		CLERIC_T2 = list(/datum/action/cooldown/spell/undirected/conjure_item/summon_trident/miracle, /datum/action/cooldown/spell/undirected/blade_ward, /datum/action/cooldown/spell/aoe/abrogation),
 		CLERIC_T3 = /datum/action/cooldown/spell/ocean_embrace,
 	)
 	traits = list(TRAIT_DIVINE_SERVANT)
@@ -89,8 +90,8 @@
 	miracles = list(
 		CLERIC_T0 = /datum/action/cooldown/spell/healing,
 		CLERIC_T1 = /datum/action/cooldown/spell/undirected/list_target/vicious_mimicry,
-		CLERIC_T2 = list(/datum/action/cooldown/spell/status/wheel, /datum/action/cooldown/spell/aoe/abrogation),
-		CLERIC_T3 = /datum/action/cooldown/spell/undirected/jaunt/illusory_prop,
+		CLERIC_T2 = list(/datum/action/cooldown/spell/status/wheel, /datum/action/cooldown/spell/vicious_mockery, /datum/action/cooldown/spell/aoe/abrogation),
+		CLERIC_T3 = list(/datum/action/cooldown/spell/undirected/jaunt/illusory_prop, /datum/action/cooldown/spell/undirected/jaunt/ethereal_jaunt),
 	)
 	viable_tasks = list(
 		/datum/devotion_task/iliope_gamble,
@@ -102,7 +103,7 @@
 	miracles = list(
 		CLERIC_T0 = list(/datum/action/cooldown/spell/healing, /datum/action/cooldown/spell/undirected/conjure_item/summon_leech/erdl),
 		CLERIC_T1 = /datum/action/cooldown/spell/diagnose/holy,
-		CLERIC_T2 = list(/datum/action/cooldown/spell/attach_bodypart, /datum/action/cooldown/spell/aoe/abrogation),
+		CLERIC_T2 = list(/datum/action/cooldown/spell/attach_bodypart, /datum/action/cooldown/spell/healing/greater, /datum/action/cooldown/spell/aoe/abrogation),
 		CLERIC_T3 = /datum/action/cooldown/spell/cure_rot,
 	)
 	viable_tasks = list(
