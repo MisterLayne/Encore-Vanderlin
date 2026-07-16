@@ -36,7 +36,7 @@
 	spawn_positions = 2
 
 	allowed_races = RACES_NON_ANTAG
-	allowed_ages = list(AGE_ADULT)
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	allowed_sexes = list(MALE, FEMALE)
 	cmode_music = "sound/music/cmode/adventurer/CombatSorcerer.ogg"
 	outfit = /datum/outfit/mageapprentice
@@ -49,9 +49,8 @@
 	can_be_apprentice = TRUE
 
 	allowed_races = RACES_PLAYER_ALL
-	allowed_ages = list(AGE_ADULT)
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	allowed_sexes = list(MALE, FEMALE)
-	allowed_patrons = ALL_TEMPLE_PATRONS
 
 	outfit = /datum/outfit/mageapprentice
 

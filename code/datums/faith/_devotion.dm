@@ -166,6 +166,9 @@
 	max_devotion = 350 //Angros is dead/dying, so your connection to the divine is tenuous
 	progression = CLERIC_REQ_1
 	max_progression = CLERIC_REQ_2
+	miracles_extra += list(
+		/datum/action/cooldown/spell/undirected/touch/orison,
+	)
 	devotion_class = DEVOTION_CLASS_GRANDMASTER
 
 /datum/devotion/proc/make_templar()
@@ -173,6 +176,9 @@
 	max_devotion = CLERIC_REQ_3
 	progression = CLERIC_REQ_1
 	max_progression = CLERIC_REQ_2
+	miracles_extra += list(
+		/datum/action/cooldown/spell/undirected/touch/orison,
+	)
 	devotion_class = DEVOTION_CLASS_TEMPLAR
 
 /datum/devotion/proc/make_absolver()
@@ -181,10 +187,16 @@
 	max_devotion = CLERIC_REQ_3
 	progression = CLERIC_REQ_3
 	max_progression = CLERIC_REQ_3
+	miracles_extra += list(
+		/datum/action/cooldown/spell/undirected/touch/orison,
+	)
 	devotion_class = DEVOTION_CLASS_ABSOLVER
 
 /datum/devotion/proc/make_acolyte()
 	progression = CLERIC_REQ_1
+	miracles_extra += list(
+		/datum/action/cooldown/spell/undirected/touch/orison,
+	)
 	devotion_class = DEVOTION_CLASS_ACOLYTE
 
 /datum/devotion/proc/make_cleric()
@@ -192,12 +204,18 @@
 	max_devotion = CLERIC_REQ_3
 	progression = CLERIC_REQ_1
 	max_progression = CLERIC_REQ_3
+	miracles_extra += list(
+		/datum/action/cooldown/spell/undirected/touch/orison,
+	)
 
 /datum/devotion/proc/make_shaman()
 	devotion = 80
 	max_devotion = CLERIC_REQ_1
 	progression = CLERIC_REQ_1
 	max_progression = CLERIC_REQ_1
+	miracles_extra += list(
+		/datum/action/cooldown/spell/undirected/touch/orison/lesser,
+	)
 
 /datum/devotion/proc/make_churchling()
 	max_devotion = CLERIC_REQ_1

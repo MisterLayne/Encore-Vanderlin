@@ -102,7 +102,7 @@
 	spawn_positions = 99
 	bypass_lastclass = TRUE
 
-	allowed_races = RACES_PLAYER_NONHERETICAL
+	allowed_races = RACES_LESS_DISCRIMINATED
 	allowed_patrons = ALL_TEMPLE_PATRONS
 
 	outfit = /datum/outfit/monk

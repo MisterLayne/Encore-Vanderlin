@@ -57,7 +57,7 @@
 	cmode_music = 'sound/music/cmode/towner/CombatPrisoner.ogg'
 	can_have_apprentices = FALSE
 
-	allowed_ages = ALL_AGES_LIST
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	allowed_races = RACES_NON_ANTAG
 
 	outfit = /datum/outfit/servant

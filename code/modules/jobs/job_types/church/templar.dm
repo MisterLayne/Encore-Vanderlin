@@ -95,7 +95,7 @@
 	spawn_positions = 99
 	bypass_lastclass = TRUE
 
-	allowed_races = RACES_TEMPLAR
+	allowed_races = RACES_LESS_DISCRIMINATED
 	allowed_patrons = ALL_TEMPLAR_PATRONS
 
 	outfit = /datum/outfit/templar
@@ -200,7 +200,7 @@
 	name = JOB_TEMPLAR
 	head = /obj/item/clothing/head/helmet/heavy/necked
 	cloak = /obj/item/clothing/cloak/tabard/crusader/tief
-	armor = /obj/item/clothing/armor/brigandine
+	armor = /obj/item/clothing/armor/plate
 	shirt = /obj/item/clothing/armor/chainmail
 	pants = /obj/item/clothing/pants/chainlegs
 	shoes = /obj/item/clothing/shoes/boots/armor/light

@@ -24,8 +24,8 @@
 	total_positions = 0
 	spawn_positions = 0
 	bypass_lastclass = TRUE
-	allowed_races = RACES_PLAYER_ALL
-	allowed_ages = list(AGE_ADULT)
+	allowed_races = RACES_NON_ANTAG
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	allowed_sexes = list(MALE, FEMALE)
 	outfit = /datum/outfit/bog_apprentice
 	is_foreigner = TRUE

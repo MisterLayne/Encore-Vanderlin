@@ -32,7 +32,7 @@
 	job_bitflag = BITFLAG_CONSTRUCTOR
 
 	allowed_races = RACES_NON_ANTAG
-	allowed_ages = list(AGE_ADULT)
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 
 	outfit = /datum/outfit/bapprentice
 	can_be_apprentice = TRUE

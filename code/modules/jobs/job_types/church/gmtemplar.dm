@@ -29,7 +29,7 @@
 	bypass_lastclass = TRUE
 	cmode_music = 'sound/music/cmode/church/CombatRavox.ogg'
 
-	allowed_races = RACES_TEMPLAR
+	allowed_races = RACES_LESS_DISCRIMINATED
 	allowed_patrons = list(/datum/patron/angros)
 
 	outfit = /datum/outfit/gmtemplar

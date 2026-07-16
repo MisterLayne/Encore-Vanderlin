@@ -11,7 +11,7 @@
 	spawn_positions = 99
 	bypass_lastclass = TRUE
 
-	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_IMMORTAL)
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	allowed_races = RACES_LESS_DISCRIMINATED
 
 	outfit = /datum/outfit/guardsman
