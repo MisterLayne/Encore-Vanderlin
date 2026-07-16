@@ -4,7 +4,7 @@
 	faction = "Station"
 	total_positions = 99
 	spawn_positions = 99
-	allowed_races = list(SPEC_ID_HUMEN, SPEC_ID_DWARF)
+	allowed_races = RACES_LESS_DISCRIMINATED
 	bypass_lastclass = TRUE
 	cmode_music = 'sound/music/cmode/church/CombatInquisitor2.ogg'
 	allowed_patrons = list(

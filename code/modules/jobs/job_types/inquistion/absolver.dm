@@ -23,7 +23,7 @@
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	total_positions = 1 // THE ONE.
 	spawn_positions = 1
-	allowed_races = list(SPEC_ID_HUMEN)
+	allowed_races = RACES_LESS_DISCRIMINATED
 	allowed_patrons = list(/datum/patron/divine/centrist)
 	tutorial = "The Inquisitor's right hand, you serve as the orthidoxy's cleric, providing miracles to bolster "
 	selection_color = JCOLOR_INQUISITION

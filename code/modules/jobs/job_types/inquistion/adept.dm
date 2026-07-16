@@ -14,7 +14,7 @@
 	bypass_lastclass = TRUE
 
 	allowed_patrons = /datum/patron/divine/centrist
-	allowed_races = RACES_PLAYER_ALL
+	allowed_races = RACES_LESS_DISCRIMINATED
 
 	outfit = /datum/outfit/adept
 	advclass_cat_rolls = list(CTAG_ADEPT = 20)
