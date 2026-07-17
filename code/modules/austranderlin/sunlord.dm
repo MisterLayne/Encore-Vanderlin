@@ -55,8 +55,7 @@
 
 	spells = list(
 		/datum/action/cooldown/spell/projectile/fireball/greater/sunlord,
-		/datum/action/cooldown/spell/undirected/list_target/convert_role/sundweller,
-		/datum/action/cooldown/spell/undirected/fart
+		/datum/action/cooldown/spell/undirected/list_target/convert_role/sundweller
 	)
 
 	traits = list(
