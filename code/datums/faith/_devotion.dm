@@ -165,7 +165,7 @@
 /datum/devotion/proc/make_gmtemplar()
 	devotion = 150
 	max_devotion = 350 //Angros is dead/dying, so your connection to the divine is tenuous
-	progression = CLERIC_REQ_1
+	progression = CLERIC_REQ_2
 	max_progression = CLERIC_REQ_2
 	passive_devotion_gain = 0.2
 	miracles_extra += list(
@@ -175,8 +175,8 @@
 
 /datum/devotion/proc/make_templar()
 	devotion = 50
-	max_devotion = CLERIC_REQ_3
-	progression = CLERIC_REQ_1
+	max_devotion = 600
+	progression = CLERIC_REQ_2
 	max_progression = CLERIC_REQ_2
 	passive_devotion_gain = 0.5
 	miracles_extra += list(
