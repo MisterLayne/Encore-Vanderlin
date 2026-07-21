@@ -51,7 +51,8 @@
 	cmode_music = 'sound/music/cmode/church/CombatDendor.ogg'
 	allowed_patrons = list(/datum/patron/divine/gani)
 
-	total_positions = 4
+	total_positions = -1
+	spawn_positions = -1
 	exp_types_granted = list(EXP_TYPE_CLERIC)
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/pilgrim/briar

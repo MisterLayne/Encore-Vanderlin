@@ -21,8 +21,8 @@
 	department_flag = INQUISITION
 	faction = "Station"
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
-	total_positions = 1 // THE ONE.
-	spawn_positions = 1
+	total_positions = -1
+	spawn_positions = -1
 	allowed_races = list(SPEC_ID_HUMEN)
 	//You MUST have a Angrosian character to start. Just so people don't get japed into Oops Suddenly Angros!
 	allowed_patrons = list(/datum/patron/angros)

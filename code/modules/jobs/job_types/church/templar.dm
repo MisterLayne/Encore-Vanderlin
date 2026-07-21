@@ -91,8 +91,8 @@
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_TEMPLAR
 	faction = FACTION_TOWN
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = -1
+	spawn_positions = -1
 	bypass_lastclass = TRUE
 
 	allowed_races = RACES_TEMPLAR

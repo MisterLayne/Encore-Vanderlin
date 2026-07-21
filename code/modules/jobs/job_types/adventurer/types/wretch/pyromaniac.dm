@@ -26,7 +26,8 @@
 	allowed_sexes = list(MALE, FEMALE)
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/wretch/pyromaniac
-	total_positions = 2
+	total_positions = -1
+	spawn_positions = -1
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/pyromaniac
 

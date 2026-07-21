@@ -33,7 +33,8 @@
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/wretch/hedgemage
 	cmode_music = 'sound/music/cmode/antag/CombatRogueMage.ogg'
-	total_positions = 2
+	total_positions = -1
+	spawn_positions = -1
 
 	allowed_patrons = list(/datum/patron/divine/akan, /datum/patron/inhumen/envy)
 	blacklisted_species = list(SPEC_ID_HALFLING)

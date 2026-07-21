@@ -23,7 +23,8 @@
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/wretch/rouschild
 	cmode_music = 'sound/music/cmode/adventurer/CombatOutlander2.ogg'
-	total_positions = 2
+	total_positions = -1
+	spawn_positions = -1
 	faction = FACTION_RATS
 
 	attribute_sheet = /datum/attribute_holder/sheet/job/rouschild

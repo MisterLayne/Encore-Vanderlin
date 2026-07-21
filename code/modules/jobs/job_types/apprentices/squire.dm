@@ -8,8 +8,8 @@
 	department_flag = APPRENTICES
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	faction = FACTION_TOWN
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = -1
+	spawn_positions = -1
 	display_order = JDO_SQUIRE
 	give_bank_account = TRUE
 	bypass_lastclass = TRUE

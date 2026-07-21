@@ -2,8 +2,8 @@
 	title = JOB_SACRESTANTS
 	department_flag = INQUISITION
 	faction = "Station"
-	total_positions = 2 // TWO GOONS!!
-	spawn_positions = 2
+	total_positions = -1
+	spawn_positions = -1
 	allowed_races = list(SPEC_ID_HUMEN, SPEC_ID_DWARF)
 	bypass_lastclass = TRUE
 	cmode_music = 'sound/music/cmode/church/CombatInquisitor2.ogg'

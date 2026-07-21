@@ -41,7 +41,8 @@
 		SPEC_ID_TIEFLING,\
 	)
 	allowed_ages = list(AGE_ADULT)
-	total_positions = 1
+	total_positions = -1
+	spawn_positions = -1
 	cmode_music = 'sound/music/cmode/nobility/combat_noble.ogg'
 	outfit = /datum/outfit/wretch/reject
 

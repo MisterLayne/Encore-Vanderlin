@@ -57,7 +57,8 @@
 	allowed_races = RACES_PLAYER_FOREIGNNOBLE
 	outfit = /datum/outfit/mercenary/sellmage
 	category_tags = list(CTAG_MERCENARY)
-	total_positions = 2 //balance slop
+	total_positions = -1
+	spawn_positions = -1
 	allowed_ages = list(AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)//they were a mage, or learnt magic, before becoming a mercenary
 	blacklisted_species = list(SPEC_ID_HALFLING)
 	cmode_music = 'sound/music/cmode/adventurer/CombatSorcerer.ogg'

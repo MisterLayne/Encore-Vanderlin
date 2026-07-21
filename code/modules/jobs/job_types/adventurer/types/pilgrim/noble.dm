@@ -23,7 +23,8 @@
 	allowed_races = RACES_PLAYER_FOREIGNNOBLE
 	outfit = /datum/outfit/pilgrim/noble
 	category_tags = list(CTAG_PILGRIM)
-	total_positions = 2
+	total_positions = -1
+	spawn_positions = -1
 	apprentice_name = JOB_SERVANT
 	cmode_music = 'sound/music/cmode/nobility/combat_noble.ogg'
 	spells = list(
