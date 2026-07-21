@@ -37,8 +37,8 @@
 	total_positions = -1
 	spawn_positions = -1
 
-	allowed_races = RACES_PLAYER_NO_KOBOLD
-	allowed_ages = list(AGE_OLD, AGE_IMMORTAL)
+	allowed_races = RACES_NON_ANTAG
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	blacklisted_species = list(SPEC_ID_HALFLING)
 
 	tutorial = "Eat. Train. Sleep. Eat. Train. Sleep.\n\n\

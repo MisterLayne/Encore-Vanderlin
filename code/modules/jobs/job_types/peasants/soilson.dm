@@ -35,8 +35,8 @@
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_SOILSON
 	faction = FACTION_TOWN
-	total_positions = -1
-	spawn_positions = -1
+	total_positions = 12
+	spawn_positions = 12
 	bypass_lastclass = TRUE
 	selection_color = "#553e01"
 
@@ -123,9 +123,9 @@
 	job_flags = (JOB_ANNOUNCE_ARRIVAL | JOB_SHOW_IN_CREDITS | JOB_EQUIP_RANK | JOB_NEW_PLAYER_JOINABLE)
 	display_order = JDO_SOILCHILD
 	faction = FACTION_TOWN
-	total_positions = 0//No children on Encore
-	spawn_positions = 0
-	allowed_ages = list(AGE_CHILD)
+	total_positions = 6
+	spawn_positions = 6
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	bypass_lastclass = TRUE
 	selection_color = "#553e01"
 	allowed_races = RACES_PLAYER_ALL

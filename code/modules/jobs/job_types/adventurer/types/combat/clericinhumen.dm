@@ -41,8 +41,7 @@
 	allowed_races = RACES_PLAYER_ALL
 	outfit = /datum/outfit/adventurer/inhumencleric
 	category_tags = list(CTAG_ADVENTURER)
-	total_positions = -1
-	spawn_positions = -1
+	total_positions = 99
 	allowed_patrons = ALL_PROFANE_PATRONS
 
 	exp_types_granted = list(EXP_TYPE_ADVENTURER, EXP_TYPE_COMBAT, EXP_TYPE_CLERIC)

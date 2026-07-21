@@ -21,7 +21,7 @@
 	exp_types_granted = list(EXP_TYPE_GARRISON)
 
 	allowed_races = RACES_PLAYER_NONDISCRIMINATED
-	allowed_ages = list(AGE_ADULT)
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 
 	outfit = /datum/outfit/squire
 
@@ -37,7 +37,7 @@
 	beltl = /obj/item/storage/keyring/manorguard
 
 /datum/job/advclass/squire
-	allowed_ages = list(AGE_ADULT)
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
 	allowed_races = RACES_PLAYER_NONDISCRIMINATED
 	exp_type = list(EXP_TYPE_GARRISON)
 	exp_types_granted = list(EXP_TYPE_GARRISON)

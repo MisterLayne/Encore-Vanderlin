@@ -1623,6 +1623,18 @@
 /obj/structure/table/wood/treestump,
 /turf/open/floor/grass/cold,
 /area/outdoors/town)
+"bdR" = (
+/obj/structure/rack,
+/obj/item/weapon/scabbard/sword,
+/obj/item/weapon/scabbard/sword,
+/obj/item/weapon/scabbard/sword,
+/obj/item/weapon/scabbard/sword,
+/obj/item/weapon/sword/long/broadsword,
+/obj/item/weapon/sword/long/broadsword,
+/obj/item/weapon/sword/long/broadsword,
+/obj/item/weapon/sword/long/broadsword,
+/turf/open/floor/churchmarble,
+/area/indoors/town/church)
 "bdY" = (
 /obj/structure/rack/shelf/biggest,
 /obj/item/reagent_containers/food/snacks/produce/dry_westleach,
@@ -2576,6 +2588,12 @@
 /obj/item/reagent_containers/food/snacks/meat/steak,
 /obj/item/reagent_containers/food/snacks/meat/steak,
 /obj/item/reagent_containers/food/snacks/meat/steak,
+/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
+/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
+/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
+/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
+/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
+/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/church)
 "bOU" = (
@@ -11672,6 +11690,53 @@
 /obj/structure/closet/crate/chest/neu_iron{
 	name = "Frost chest"
 	},
+/obj/item/clothing/neck/psycross/silver/divine/mjallidhorn,
+/obj/item/clothing/neck/psycross/silver/divine/mjallidhorn,
+/obj/item/clothing/neck/psycross/silver/divine/mordsol,
+/obj/item/clothing/neck/psycross/silver/divine/mordsol,
+/obj/item/clothing/neck/psycross/silver/divine/valdala,
+/obj/item/clothing/neck/psycross/silver/divine/valdala,
+/obj/item/clothing/cloak/stabard/templar/mordsol{
+	name = "mordsol tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/mordsol{
+	name = "mordsol tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/valdala{
+	name = "valdala tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/valdala{
+	name = "valdala tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/mjallidhorn/alt{
+	name = "mjallidhorn tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/mjallidhorn/alt{
+	name = "mjallidhorn tabard"
+	},
+/obj/item/clothing/cloak/templar/valdalan{
+	name = "frost tabard"
+	},
+/obj/item/clothing/cloak/templar/valdalan{
+	name = "frost tabard"
+	},
+/obj/item/clothing/cloak/templar/valdalan{
+	name = "frost tabard"
+	},
+/obj/item/clothing/head/helmet/heavy/necked/valdala,
+/obj/item/clothing/head/helmet/heavy/necked/valdala,
+/obj/item/clothing/head/helmet/heavy/necked/mordsol,
+/obj/item/clothing/head/helmet/heavy/necked/mordsol,
+/obj/item/clothing/head/helmet/heavy/necked/mjallidhorn,
+/obj/item/clothing/head/helmet/heavy/necked/mjallidhorn,
+/obj/item/clothing/head/helmet/heavy/mordsolhelm,
+/obj/item/clothing/head/helmet/heavy/mordsolhelm,
+/obj/item/clothing/head/helmet/heavy/valdalahelm{
+	name = "frost helmet"
+	},
+/obj/item/clothing/head/helmet/heavy/valdalahelm{
+	name = "frost helmet"
+	},
 /turf/open/floor/churchmarble,
 /area/indoors/town/church)
 "hXL" = (
@@ -15736,6 +15801,14 @@
 /area/under/town)
 "kKG" = (
 /obj/structure/rack,
+/obj/item/clothing/armor/plate,
+/obj/item/clothing/armor/plate,
+/obj/item/clothing/armor/plate,
+/obj/item/clothing/armor/plate,
+/obj/item/clothing/armor/brigandine,
+/obj/item/clothing/armor/brigandine,
+/obj/item/clothing/armor/brigandine,
+/obj/item/clothing/armor/brigandine,
 /turf/open/floor/churchmarble,
 /area/indoors/town/church)
 "kKV" = (
@@ -19829,6 +19902,14 @@
 "nwr" = (
 /obj/structure/rack,
 /obj/machinery/light/fueled/torchholder/l,
+/obj/item/clothing/armor/gambeson/heavy,
+/obj/item/clothing/armor/gambeson/heavy,
+/obj/item/clothing/armor/gambeson/heavy,
+/obj/item/clothing/armor/gambeson/heavy,
+/obj/item/clothing/neck/chaincoif,
+/obj/item/clothing/neck/chaincoif,
+/obj/item/clothing/neck/chaincoif,
+/obj/item/clothing/neck/chaincoif,
 /turf/open/floor/churchmarble,
 /area/indoors/town/church)
 "nwS" = (
@@ -20014,7 +20095,14 @@
 /area/under/cavewet)
 "nCO" = (
 /obj/structure/rack,
-/obj/item/gun/ballistic/bow/cross,
+/obj/item/clothing/pants/chainlegs,
+/obj/item/clothing/pants/chainlegs,
+/obj/item/clothing/pants/chainlegs,
+/obj/item/clothing/pants/chainlegs,
+/obj/item/clothing/shoes/boots/leather/advanced,
+/obj/item/clothing/shoes/boots/leather/advanced,
+/obj/item/clothing/shoes/boots/leather/advanced,
+/obj/item/clothing/shoes/boots/leather/advanced,
 /turf/open/floor/churchmarble,
 /area/indoors/town/church)
 "nDj" = (
@@ -22734,12 +22822,20 @@
 /turf/open/water/ocean,
 /area/indoors/town/waterworks)
 "pxq" = (
-/obj/structure/closet/crate/chest,
-/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
-/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
-/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
-/obj/item/reagent_containers/food/snacks/produce/grain/wheat,
-/turf/open/floor/ruinedwood/turned,
+/obj/structure/rack,
+/obj/item/clothing/armor/chainmail/hauberk/gronn,
+/obj/item/clothing/armor/chainmail/hauberk/gronn,
+/obj/item/clothing/armor/chainmail/hauberk/gronn,
+/obj/item/clothing/armor/chainmail/hauberk/gronn,
+/obj/item/clothing/armor/chainmail/hauberk/fluted,
+/obj/item/clothing/armor/chainmail/hauberk/fluted,
+/obj/item/clothing/armor/chainmail/hauberk/fluted,
+/obj/item/clothing/armor/chainmail/hauberk/fluted,
+/obj/item/clothing/armor/chainmail/hauberk,
+/obj/item/clothing/armor/chainmail/hauberk,
+/obj/item/clothing/armor/chainmail/hauberk,
+/obj/item/clothing/armor/chainmail/hauberk,
+/turf/open/floor/churchmarble,
 /area/indoors/town/church)
 "pxt" = (
 /obj/structure/fluff/railing/wood{
@@ -28081,6 +28177,38 @@
 /obj/structure/closet/crate/chest/neu_iron{
 	name = "Air chest"
 	},
+/obj/item/clothing/neck/psycross/silver/divine/akan,
+/obj/item/clothing/neck/psycross/silver/divine/akan,
+/obj/item/clothing/neck/psycross/silver/divine/erdl,
+/obj/item/clothing/neck/psycross/silver/divine/erdl,
+/obj/item/clothing/neck/psycross/silver/divine/iliope,
+/obj/item/clothing/neck/psycross/silver/divine/iliope,
+/obj/item/clothing/cloak/stabard/templar/iliope{
+	name = "iliope tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/iliope{
+	name = "iliope tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/erdl{
+	name = "erdl tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/erdl{
+	name = "erdl tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/akan{
+	name = "akan tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/akan{
+	name = "akan tabard"
+	},
+/obj/item/clothing/cloak/templar/erdite,
+/obj/item/clothing/cloak/templar/erdite,
+/obj/item/clothing/head/helmet/heavy/necked/erdlhelm,
+/obj/item/clothing/head/helmet/heavy/necked/erdlhelm,
+/obj/item/clothing/head/helmet/heavy/necked/iliope,
+/obj/item/clothing/head/helmet/heavy/necked/iliope,
+/obj/item/clothing/head/helmet/heavy/necked/akan,
+/obj/item/clothing/head/helmet/heavy/necked/akan,
 /turf/open/floor/churchmarble,
 /area/indoors/town/church)
 "tjC" = (
@@ -29320,6 +29448,27 @@
 /obj/structure/closet/crate/chest/neu_iron{
 	name = "Fire chest"
 	},
+/obj/item/clothing/neck/psycross/silver/divine/visires,
+/obj/item/clothing/neck/psycross/silver/divine/visires,
+/obj/item/clothing/neck/psycross/silver,
+/obj/item/clothing/neck/psycross/silver,
+/obj/item/clothing/cloak/stabard/templar/visires{
+	name = "visires tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/visires{
+	name = "visires tabard"
+	},
+/obj/item/clothing/cloak/templar/visires{
+	name = "fire tabard"
+	},
+/obj/item/clothing/cloak/templar/visires{
+	name = "fire tabard"
+	},
+/obj/item/clothing/cloak/templar/visires{
+	name = "fire tabard"
+	},
+/obj/item/clothing/head/helmet/heavy/necked/visires,
+/obj/item/clothing/head/helmet/heavy/necked/visires,
 /turf/open/floor/churchmarble,
 /area/indoors/town/church)
 "uhG" = (
@@ -30603,6 +30752,49 @@
 /obj/structure/closet/crate/chest/neu_iron{
 	name = "Earth chest"
 	},
+/obj/item/clothing/neck/psycross/silver/divine/gani,
+/obj/item/clothing/neck/psycross/silver/divine/gani,
+/obj/item/clothing/neck/psycross/silver/divine/golerkanh,
+/obj/item/clothing/neck/psycross/silver/divine/golerkanh,
+/obj/item/clothing/neck/psycross/silver/divine/pomette,
+/obj/item/clothing/neck/psycross/silver/divine/pomette,
+/obj/item/clothing/cloak/stabard/templar/golerkanh{
+	name = "goler kanh tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/golerkanh{
+	name = "goler kanh tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/pomette{
+	name = "pomette tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/pomette{
+	name = "pomette tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/gani{
+	name = "gani tabard"
+	},
+/obj/item/clothing/cloak/stabard/templar/gani{
+	name = "gani tabard"
+	},
+/obj/item/clothing/cloak/templar/golerkanh{
+	name = "earth tabard"
+	},
+/obj/item/clothing/cloak/templar/golerkanh{
+	name = "earth tabard"
+	},
+/obj/item/clothing/cloak/templar/golerkanh{
+	name = "earth tabard"
+	},
+/obj/item/clothing/head/helmet/heavy/decorated/bucket{
+	name = "pomette helm"
+	},
+/obj/item/clothing/head/helmet/heavy/decorated/bucket{
+	name = "pomette helm"
+	},
+/obj/item/clothing/head/helmet/heavy/necked/golerkanhhelm,
+/obj/item/clothing/head/helmet/heavy/necked/golerkanhhelm,
+/obj/item/clothing/head/helmet/heavy/necked/ganihelm,
+/obj/item/clothing/head/helmet/heavy/necked/ganihelm,
 /turf/open/floor/churchmarble,
 /area/indoors/town/church)
 "uYM" = (
@@ -31942,8 +32134,8 @@
 /turf/open/openspace,
 /area/outdoors/town/docksmortimer)
 "vVJ" = (
-/obj/item/bin/water,
 /obj/machinery/light/fueled/torchholder/r,
+/obj/item/bin/water,
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/church)
 "vVK" = (
@@ -62089,7 +62281,7 @@ cQC
 cQC
 voj
 sPT
-guX
+sPT
 dRD
 eXt
 eXt
@@ -62485,7 +62677,7 @@ oXW
 bOT
 cQC
 aJI
-pxq
+aJI
 hye
 jdz
 dxI
@@ -62609,7 +62801,7 @@ hye
 kWC
 sSS
 hye
-kKG
+pxq
 oqw
 oqw
 hye
@@ -62876,7 +63068,7 @@ hye
 nCO
 oqw
 oqw
-kKG
+bdR
 hye
 apK
 wLm

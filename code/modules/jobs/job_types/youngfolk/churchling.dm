@@ -26,8 +26,8 @@
 	spawn_positions = -1
 	bypass_lastclass = TRUE
 
-	allowed_ages = list(AGE_CHILD)
-	allowed_races = RACES_PLAYER_ALL
+	allowed_ages = list(AGE_ADULT, AGE_MIDDLEAGED, AGE_OLD, AGE_IMMORTAL)
+	allowed_races = RACES_LESS_DISCRIMINATED
 	allowed_patrons = UNDIVIDED_TEMPLE_PATRONS
 
 	outfit = /datum/outfit/churchling
