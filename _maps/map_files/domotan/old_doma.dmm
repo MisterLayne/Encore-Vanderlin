@@ -6429,6 +6429,10 @@
 	},
 /turf/open/floor/ruinedwood,
 /area/outdoors/town/roofs)
+"ewe" = (
+/obj/structure/closet/crate/drawer,
+/turf/open/floor/wood,
+/area/indoors/town/tavern)
 "ewn" = (
 /obj/machinery/light/fueled/wallfire{
 	pixel_y = 32
@@ -14717,7 +14721,7 @@
 /turf/open/floor/church,
 /area/indoors/town/church/chapel)
 "kaB" = (
-/obj/structure/stairs/stone{
+/obj/structure/stairs{
 	dir = 4
 	},
 /turf/open/floor/cobble,
@@ -18573,10 +18577,6 @@
 /turf/open/floor/twig,
 /area/under/town)
 "mzz" = (
-/obj/structure/closet/crate/drawer/inn{
-	density = 0;
-	anchored = 1
-	},
 /obj/effect/decal/cobbleedge{
 	icon_state = "cobbleedge-n"
 	},
@@ -22969,10 +22969,10 @@
 /turf/open/floor/ruinedwood,
 /area/indoors/town/keep/archivist)
 "pAq" = (
-/obj/structure/stairs/stone{
+/obj/structure/fluff/railing/wood,
+/obj/structure/stairs{
 	dir = 4
 	},
-/obj/structure/fluff/railing/wood,
 /turf/open/floor/churchmarble,
 /area/outdoors/town)
 "pAr" = (
@@ -24308,7 +24308,7 @@
 /turf/open/floor/ruinedwood/alt,
 /area/indoors/town/clinic_large)
 "qva" = (
-/obj/structure/stairs/stone{
+/obj/structure/stairs{
 	dir = 4
 	},
 /turf/open/floor/churchmarble,
@@ -31606,10 +31606,10 @@
 /turf/open/floor/cobble,
 /area/under/town/basement/smugglers_tunnels)
 "vFY" = (
-/obj/structure/stairs/stone{
+/obj/structure/fluff/railing/wood,
+/obj/structure/stairs{
 	dir = 4
 	},
-/obj/structure/fluff/railing/wood,
 /turf/open/floor/cobble,
 /area/indoors/town/church)
 "vGg" = (
@@ -57609,7 +57609,7 @@ awb
 kqx
 eup
 mzz
-xnA
+ewe
 emH
 eup
 tnb
