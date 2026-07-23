@@ -18,9 +18,9 @@
 
 /datum/devotion/divine/visires
 	miracles = list(
-		CLERIC_T0 = /datum/action/cooldown/spell/projectile/fire_flare,
+		CLERIC_T0 = /datum/action/cooldown/spell/healing,
 		CLERIC_T1 = /datum/action/cooldown/spell/sacred_flame,
-		CLERIC_T2 = list(/datum/action/cooldown/spell/projectile/fireball, /datum/action/cooldown/spell/heat_metal, /datum/action/cooldown/spell/aoe/abrogation),
+		CLERIC_T2 = list(/datum/action/cooldown/spell/projectile/fire_flare, /datum/action/cooldown/spell/projectile/fireball, /datum/action/cooldown/spell/aoe/abrogation),
 		CLERIC_T3 = /datum/action/cooldown/spell/projectile/fireball/greater,
 	)
 	viable_tasks = list(
@@ -97,7 +97,7 @@
 		CLERIC_T0 = /datum/action/cooldown/spell/healing,
 		CLERIC_T1 = /datum/action/cooldown/spell/undirected/list_target/vicious_mimicry,
 		CLERIC_T2 = list(/datum/action/cooldown/spell/status/wheel, /datum/action/cooldown/spell/vicious_mockery, /datum/action/cooldown/spell/aoe/abrogation),
-		CLERIC_T3 = list(/datum/action/cooldown/spell/undirected/jaunt/illusory_prop, /datum/action/cooldown/spell/undirected/jaunt/ethereal_jaunt),
+		CLERIC_T3 = list(/datum/action/cooldown/spell/undirected/jaunt/illusory_prop, /datum/action/cooldown/spell/undirected/jaunt/ethereal_jaunt/miracle),
 	)
 	viable_tasks = list(
 		/datum/devotion_task/iliope_gamble,
