@@ -297,3 +297,10 @@
 	var/atom/movable/looking_holder/looking_holder
 	///The NAME (not the reference) of the mob's summoner and probable master.
 	var/summoner = null
+
+	// is this mob a boss / will they have a health bar
+	var/is_boss = FALSE
+	// name on health bar / defaults to mob name
+	var/boss_name
+	// how far the bar registers to mobs
+	var/boss_bar_range = 18
