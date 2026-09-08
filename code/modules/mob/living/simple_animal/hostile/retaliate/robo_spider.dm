@@ -23,4 +23,5 @@
 
 /mob/living/simple_animal/hostile/retaliate/spider/robotic/Initialize(mapload, ...)
 	. = ..()
+	ADD_TRAIT(src, TRAIT_BLOODLOSS_IMMUNE, INNATE_TRAIT)
 	gender = NEUTER

@@ -1,6 +1,6 @@
 /datum/action/cooldown/spell/essence/phase_step
 	name = "Phase Step"
-	desc = "Allows brief passage through solid objects."
+	desc = "Allows brief passage through solid objects. Requires a spellbook to be cast, due to the complexity of the spell."
 	button_icon_state = "deathdoor"
 	cast_range = 0
 	essences = list(/datum/thaumaturgical_essence/motion)
@@ -44,3 +44,4 @@
 
 	required_form = FORM_ARCANE
 	required_technique = TECHNIQUE_ILLUSION
+	required_items = list(/obj/item/spellbook)

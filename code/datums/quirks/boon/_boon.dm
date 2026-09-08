@@ -285,3 +285,45 @@
 	desc = "You are remarkably attractive, improving social interactions."
 	point_value = -4
 	traits_to_add = list(TRAIT_BEAUTIFUL)
+
+/datum/quirk/peculiarity/localnobility
+	name = "Local Nobility"
+	desc = "The blood of a noble family native to Domotan Island flows through your veins. Though you have no blood relation to the royal house of Shirleigh, you or one of your ancestors have at least been granted a title by them, if not property... somewhere. Whether you call a modest estate within Old Doma your home, claim a long-lost ruin somewhere in the wilderness is your ancient birthrite, or you've just been freshly elevated to the nobility in title alone with only the clothes on your back; you're someone who will be recognised at a glance by the commonfolk of the Island. Behave in a way befitting of your station, lest the Shirleighs decide to reconsider your place in the pecking order. Do not take this trait if you are playing a job explicitly part of the peasantry."
+	point_value = -5
+	traits_to_add = list(TRAIT_NOBLE_BLOOD, TRAIT_NOBLE_POWER, TRAIT_NOBLE_LOCAL)
+	blocked_species = list(
+		/datum/species/kobold,
+		/datum/species/kobold/formikrag,
+		/datum/species/dwarf/mountain/subterra,
+		/datum/species/tieberian,
+		/datum/species/halforc,
+		/datum/species/medicator,
+	)
+
+/datum/quirk/peculiarity/nobility
+	name = "Foreign Nobility"
+	desc = "The blood of a noble family foreign to Domotan Island flows through your veins. Though your house are unlikely to be recognised at a glance upon the island, the hallmark traits of nobility are still your own, and people will almost assuredly recognise you as such. Do not take this trait if you are playing a job explicitly part of the peasantry."
+	point_value = -4
+	traits_to_add = list(TRAIT_NOBLE_BLOOD, TRAIT_NOBLE_POWER, TRAIT_NOBLE_FOREIGN)
+	blocked_species = list(
+		/datum/species/kobold,
+		/datum/species/kobold/formikrag,
+		/datum/species/dwarf/mountain/subterra,
+		/datum/species/tieberian,
+		/datum/species/halforc,
+		/datum/species/medicator,
+	)
+
+//mimics behavior of /datum/special_trait/curseofcain
+/datum/quirk/boon/curseofcain
+	name = "Flawed Immortality"
+	desc = "Your body lacks the motive forces of life, and your Thauma seems tainted. Your heart does not beat, and you hunger no more. Those who see you can tell you are lifeless."
+	point_value = -8
+	traits_to_add = list(TRAIT_NOHUNGER, TRAIT_NOBREATH)
+
+//mimics behavior of /datum/special_trait/deadened
+/datum/quirk/peculiarity/deadened
+	name = "Deadened"
+	desc = "You are numb, inside and out. Your sense of smell and emotions are muted, deadened through abominable means. Those who see you can tell you are hollowed."
+	point_value = -6
+	traits_to_add = list(TRAIT_NOMOOD, TRAIT_DEADNOSE)

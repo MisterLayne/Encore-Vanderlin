@@ -31,3 +31,7 @@
 	gani_taming_chance = GANI_TAME_PROB_NONE
 
 	ai_controller = /datum/ai_controller/summon
+
+/mob/living/simple_animal/hostile/retaliate/wolf/familiar/Initialize()
+	. = ..()
+	ADD_TRAIT(src, TRAIT_BLOODLOSS_IMMUNE, INNATE_TRAIT)

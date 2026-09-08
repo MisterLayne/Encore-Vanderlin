@@ -47,3 +47,14 @@
 	droning_index = DRONING_MOUNT_DAY
 	droning_index_night = DRONING_MOUNT_NIGHT
 	ambient_index = AMBIENCE_GENERIC
+	ambush_mobs = list(
+				new /datum/ambush_config/pair_of_direbear = 15,
+				new /datum/ambush_config/trio_of_highwaymen = 10,
+				new /datum/ambush_config/singular_minotaur = 10,
+				new /datum/ambush_config/duo_minotaur = 5,
+				new /datum/ambush_config/solo_treasure_hunter = 15,
+				new /datum/ambush_config/duo_treasure_hunter = 5,
+				new /datum/ambush_config/medium_skeleton_party = 10,
+				new /datum/ambush_config/heavy_skeleton_party = 5,
+				/mob/living/simple_animal/hostile/retaliate/voiddragon = 10,
+				)

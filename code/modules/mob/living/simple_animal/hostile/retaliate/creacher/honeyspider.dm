@@ -88,6 +88,7 @@
 /mob/living/simple_animal/hostile/retaliate/spider/Initialize()
 	AddComponent(/datum/component/obeys_commands, pet_commands) // here due to signal overridings from pet commands
 	. = ..()
+	ADD_TRAIT(src, TRAIT_BLOODLOSS_IMMUNE, INNATE_TRAIT)
 	gender = MALE
 	if(prob(33))
 		gender = FEMALE

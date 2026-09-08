@@ -141,6 +141,7 @@
 	AddComponent(/datum/component/obeys_commands, pet_commands) // here due to signal overridings from pet commands, apparently?
 	. = ..()
 	AddComponent(/datum/component/ai_aggro_system)
+	ADD_TRAIT(src, TRAIT_BLOODLOSS_IMMUNE, INNATE_TRAIT)
 
 /mob/living/simple_animal/hostile/retaliate/direbear/tamed(mob/user)
 	. = ..()

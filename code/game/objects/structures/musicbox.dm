@@ -208,7 +208,6 @@
 /obj/structure/fake_machine/musicbox/tavern
 	lock = /datum/lock/key/inn
 	curvol = 30
-	playuponspawn = TRUE
 	init_curfile = list(\
 		'sound/music/jukeboxes/_misc/Andrei_Kabak-Pathologic.ogg',\
 		'sound/music/jukeboxes/_misc/Twyrine-Pathologic2.ogg',\

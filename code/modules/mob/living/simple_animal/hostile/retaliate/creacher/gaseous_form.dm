@@ -34,6 +34,7 @@
 
 /mob/living/simple_animal/hostile/retaliate/gaseousform/Initialize()
 	. = ..()
+	ADD_TRAIT(src, TRAIT_BLOODLOSS_IMMUNE, INNATE_TRAIT)
 	set_light(1, 1, 2)
 	addtimer(CALLBACK(src, TYPE_PROC_REF(/mob/living/simple_animal/hostile/retaliate/gaseousform, revert), "VAMPIRE LORD"), 10 SECONDS)
 

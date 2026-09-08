@@ -226,6 +226,7 @@
 	. = ..()
 	ADD_TRAIT(src, TRAIT_NOPAINSTUN, TRAIT_GENERIC)
 	ADD_TRAIT(src, TRAIT_KNEESTINGER_IMMUNITY, INNATE_TRAIT)
+	ADD_TRAIT(src, TRAIT_BLOODLOSS_IMMUNE, INNATE_TRAIT)
 	AddComponent(/datum/component/ai_aggro_system)
 	// I'll replace this with something better later. Stopgap for now to make killing them more than just a nuisance.
 

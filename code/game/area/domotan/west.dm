@@ -11,30 +11,35 @@
 				/turf/open/water/ocean,
 				/turf/open/water/ocean/abyss)
 	ambush_mobs = list(
+				/mob/living/simple_animal/hostile/retaliate/fox = 35,
 				/mob/living/simple_animal/hostile/retaliate/bigrat = 20,
-				/mob/living/simple_animal/hostile/retaliate/spider = 80,
-				/mob/living/carbon/human/species/goblin/npc/ambush/sea = 50,
-				/mob/living/simple_animal/hostile/retaliate/troll/bog = 35)
+				/mob/living/simple_animal/hostile/retaliate/spider = 55,
+				/mob/living/carbon/human/species/goblin/npc/ambush/sea = 45)
 	first_time_text = "THE WEEPING WOOD"
 	threat_region = THREAT_REGION_NORTHERN_GROVE
 
 /area/outdoors/woods/west/thornbed
 	name = "thornbed"
 	ambush_mobs = list(
-				/mob/living/simple_animal/hostile/retaliate/troll/bog = 45)
+				/mob/living/simple_animal/hostile/retaliate/troll/bog = 65,
+				/mob/living/simple_animal/hostile/retaliate/troll/axe = 55,
+				/mob/living/simple_animal/hostile/retaliate/troll/cave = 45)
 	first_time_text = "THORNBED"
 	threat_region = THREAT_REGION_TERRORBOG
 
 /area/outdoors/woods/west/crescent
 	name = "crescent"
 	ambush_mobs = list(
-				/mob/living/carbon/human/species/goblin/npc/ambush/sea = 35)
+				/mob/living/simple_animal/hostile/retaliate/fae/sprite = 45,
+				/mob/living/simple_animal/hostile/retaliate/fae/glimmerwing = 35,
+				/mob/living/simple_animal/hostile/retaliate/fae/dryad = 15,
+				/mob/living/simple_animal/hostile/retaliate/fae/sylph = 5)
 	first_time_text = "CRESCENT OF REBIRTH"
 
 /area/outdoors/woods/west/crags
 	name = "crags"
 	ambush_mobs = list(
-				/mob/living/carbon/human/species/goblin/npc/ambush/sea = 95)
+				/mob/living/carbon/human/species/goblin/npc/ambush/sea = 100)
 	first_time_text = "GOBLIN CRAGS"//No one would suspect an ambush here, right?
 
 //swampweed and booze here, not much danger

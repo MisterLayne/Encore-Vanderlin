@@ -261,12 +261,6 @@
 	},
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/keep/magician)
-"aiN" = (
-/obj/structure/fluff/railing/border{
-	dir = 9
-	},
-/turf/open/floor/cobble,
-/area/indoors/town/keep/gate)
 "aiU" = (
 /obj/structure/flora/grass/bush/tundra,
 /turf/open/floor/dirt/road,
@@ -347,8 +341,8 @@
 /turf/open/water/clean,
 /area/outdoors/exposed)
 "anG" = (
-/turf/open/floor/blocks/stonered/tiny,
-/area/outdoors/beach)
+/turf/open/floor/snow,
+/area/outdoors/town/neighborhood)
 "aod" = (
 /obj/structure/flora/grass/water,
 /obj/structure/fluff/railing/tall/retaining{
@@ -942,6 +936,14 @@
 	},
 /turf/open/openspace,
 /area/indoors/town/keep/magician)
+"aKq" = (
+/obj/effect/decal/cobbleedge{
+	dir = 10;
+	icon_state = "cobbleedge-n"
+	},
+/obj/structure/fluff/walldeco/sign/wynceslar_tavern/left,
+/turf/open/floor/ruinedwood,
+/area/outdoors/town)
 "aKt" = (
 /obj/machinery/light/fueled/wallfire/candle/r,
 /obj/structure/curtain/bounty,
@@ -1027,7 +1029,7 @@
 	dir = 4
 	},
 /turf/open/floor/snow,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "aNs" = (
 /obj/structure/flora/ausbushes/fullgrass,
 /turf/open/floor/dirt,
@@ -1948,7 +1950,8 @@
 /area/indoors/town/keep/magician)
 "bvE" = (
 /obj/machinery/light/fueledstreet/blue/wall,
-/turf/open/floor/blocks/stonered,
+/obj/structure/flora/newtree/snow,
+/turf/open/floor/grass/cold,
 /area/outdoors/town/plaza)
 "bvQ" = (
 /turf/closed/wall/mineral/stone,
@@ -2282,8 +2285,9 @@
 /turf/closed/wall/mineral/stone/moss,
 /area/under/town/basement/smugglers_den)
 "bIO" = (
-/turf/open/floor/blocks/stonered,
-/area/outdoors/beach)
+/obj/structure/flora/driftwood,
+/turf/open/floor/sand/sandstone,
+/area/outdoors/town)
 "bIV" = (
 /obj/structure/fluff/railing/border{
 	dir = 9
@@ -2492,7 +2496,7 @@
 "bRP" = (
 /obj/structure/flora/hotspring_rocks/small,
 /turf/open/floor/dirt,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "bSc" = (
 /turf/open/floor/grass/yel,
 /area/outdoors/town/neighborhood/east)
@@ -2539,9 +2543,6 @@
 /obj/effect/decal/cobbleedge{
 	dir = 10;
 	icon_state = "cobbleedge-w"
-	},
-/obj/structure/fluff/railing/border{
-	dir = 10
 	},
 /obj/structure/fluff/fibermat/square,
 /turf/open/floor/blocks,
@@ -3190,7 +3191,8 @@
 /area/indoors/town/keep/hand)
 "cqP" = (
 /obj/structure/chair/wood,
-/turf/open/floor/carpet/red,
+/obj/structure/carpet/green,
+/turf/open/floor/ruinedwood/two,
 /area/indoors/town/tavern/saiga)
 "crc" = (
 /obj/structure/closet/crate/chest/crafted,
@@ -3317,6 +3319,7 @@
 	pixel_y = 5
 	},
 /obj/machinery/light/fueled/torchholder/l,
+/obj/item/cooking/skewer,
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/tavern/saiga)
 "cwz" = (
@@ -3507,7 +3510,7 @@
 	dir = 4
 	},
 /turf/open/floor/naturalstone,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "cEb" = (
 /obj/structure/fake_machine/scomm/l,
 /turf/open/floor/wood,
@@ -3567,6 +3570,8 @@
 "cFA" = (
 /obj/structure/door/window,
 /obj/effect/mapping_helpers/access/keyset/town/inn,
+/obj/effect/mapping_helpers/access/locker,
+/obj/structure/carpet,
 /turf/open/floor/cobble,
 /area/indoors/town/tavern/saiga)
 "cFC" = (
@@ -3852,7 +3857,7 @@
 	dir = 8
 	},
 /turf/open/floor/sand/sandstone,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "cMS" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8
@@ -4604,6 +4609,9 @@
 	pixel_y = 15
 	},
 /obj/structure/chair/stool/bar,
+/obj/structure/fake_machine/hailerboard{
+	desc = "A notice board that shows all the notices the Adventurer's Guild has put up. Want to post your own? Look for the HAILER in the town square!"
+	},
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/tavern/saiga)
 "dsB" = (
@@ -4708,7 +4716,7 @@
 	dir = 5
 	},
 /turf/open/floor/dirt/road,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "dwM" = (
 /obj/structure/rack/shelf/biggest,
 /turf/open/floor/church,
@@ -4829,7 +4837,7 @@
 	},
 /obj/structure/fluff/railing/tall/retaining/stone,
 /turf/open/floor/grass/yel,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "dCi" = (
 /obj/machinery/light/fueled/wallfire/candle/l,
 /turf/open/floor/ruinedwood,
@@ -5018,7 +5026,8 @@
 /obj/item/candle/yellow{
 	pixel_x = 6
 	},
-/turf/open/floor/carpet/red,
+/obj/structure/carpet/green,
+/turf/open/floor/ruinedwood/two,
 /area/indoors/town/tavern/saiga)
 "dJi" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -5091,8 +5100,10 @@
 /turf/open/floor/tile,
 /area/indoors/town/keep/kitchen)
 "dKp" = (
-/turf/closed/wall/mineral/wooddark,
-/area/indoors/town/tavern)
+/obj/structure/window,
+/obj/structure/curtain/browncurtain/dir,
+/turf/open/floor/cobble,
+/area/indoors/town/tavern/saiga)
 "dKE" = (
 /obj/effect/decal/cobbleedge{
 	dir = 10;
@@ -5466,7 +5477,7 @@
 	dir = 10
 	},
 /turf/open/floor/sand/sandstone,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "dYL" = (
 /obj/machinery/light/fueledstreet/orange/wall{
 	dir = 4
@@ -5513,10 +5524,6 @@
 	},
 /turf/open/floor/tile,
 /area/indoors/town/clinic_large)
-"ebm" = (
-/obj/structure/fermentation_keg/random/water,
-/turf/open/floor/ruinedwood/platform,
-/area/indoors/town/tavern/saiga)
 "ebT" = (
 /obj/structure/chair/bench{
 	dir = 8
@@ -5736,7 +5743,7 @@
 	dir = 4
 	},
 /turf/open/floor/sand/sandstone,
-/area/outdoors/beach)
+/area/outdoors/town)
 "ejj" = (
 /obj/structure/mirror/fancy,
 /obj/structure/closet/crate/drawer/random{
@@ -6514,7 +6521,7 @@
 	dir = 4
 	},
 /turf/open/floor/dirt,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "eJF" = (
 /obj/structure/window,
 /obj/structure/curtain/bounty/dir{
@@ -6799,6 +6806,9 @@
 	icon_state = "longtable"
 	},
 /obj/item/instrument/lute,
+/obj/structure/bars/passage/shutter{
+	redstone_id = "tavern_interior"
+	},
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town/tavern/saiga)
 "eUN" = (
@@ -6975,7 +6985,7 @@
 	},
 /obj/structure/flora/grass/tundra,
 /turf/open/floor/grass/cold,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "fbq" = (
 /turf/open/floor/cobble,
 /area/outdoors/town/neighborhood)
@@ -7274,13 +7284,6 @@
 	},
 /turf/open/floor/ruinedwood/two,
 /area/outdoors/town/roofs)
-"fjs" = (
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-w"
-	},
-/turf/open/floor/blocks/stonered/tiny,
-/area/outdoors/beach)
 "fjt" = (
 /turf/open/floor/church/rust,
 /area/under/town/basement)
@@ -7331,6 +7334,7 @@
 /obj/effect/landmark/quest_dropoff/counter{
 	board_id = "guild_1"
 	},
+/obj/structure/bars/bent,
 /turf/open/floor/ruinedwood/platform,
 /area/indoors/town/tavern/saiga)
 "flC" = (
@@ -7556,7 +7560,7 @@
 	pixel_y = 7
 	},
 /turf/open/floor/dirt,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "ftm" = (
 /obj/machinery/light/fueled/torchholder{
 	dir = 4
@@ -7679,9 +7683,6 @@
 /obj/item/fishing/line/bobber,
 /turf/open/floor/wood,
 /area/outdoors/beach/boat)
-"fxZ" = (
-/turf/open/floor/cobble,
-/area/outdoors/beach)
 "fyr" = (
 /obj/effect/mapping_helpers/secret_door_creator/thieves_guild{
 	redstone_id = "slitherway3"
@@ -7750,10 +7751,6 @@
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/keep/magician)
 "fAL" = (
-/obj/structure/bars/passage/shutter/open{
-	name = "Etgard Lockdown Shutter";
-	redstone_id = "keep_lockdown"
-	},
 /obj/structure/stairs/stone,
 /turf/open/floor/cobblerock,
 /area/indoors/town/keep/gate)
@@ -7851,7 +7848,7 @@
 	dir = 4
 	},
 /turf/open/floor/snow,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "fDx" = (
 /obj/effect/landmark/events/haunts,
 /turf/open/floor/grass/cold,
@@ -7987,6 +7984,9 @@
 /obj/structure/window/openclose{
 	dir = 8
 	},
+/obj/structure/curtain/browncurtain/dir{
+	dir = 8
+	},
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town/tavern/saiga)
 "fIW" = (
@@ -8016,7 +8016,7 @@
 	},
 /turf/open/openspace,
 /area/outdoors/beach/boat)
-"fKl" = (
+"fKE" = (
 /turf/open/floor/blocks/stonered,
 /area/outdoors/town/neighborhood/west)
 "fKY" = (
@@ -8529,7 +8529,7 @@
 "gdK" = (
 /obj/structure/closet/crate/chest/wicker,
 /turf/open/floor/snow,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "gdW" = (
 /obj/structure/fermentation_keg/redwine,
 /turf/open/floor/hexstone,
@@ -8853,6 +8853,10 @@
 "gte" = (
 /obj/effect/decal/cobbleedge{
 	dir = 6
+	},
+/obj/structure/gate/bars/preopen{
+	redstone_id = "keep_lockdown";
+	name = "Etgard Lockdown Gate"
 	},
 /turf/open/floor/cobblerock,
 /area/outdoors/exposed)
@@ -9543,13 +9547,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/cobble,
 /area/outdoors/exposed)
-"gQC" = (
-/obj/structure/winch{
-	name = "winch (north)";
-	redstone_id = "keepgatenorth"
-	},
-/turf/open/floor/cobble,
-/area/indoors/town/keep/gate)
 "gQK" = (
 /obj/effect/decal/carpet{
 	dir = 4
@@ -9714,7 +9711,7 @@
 	name = "To the County of Etgard"
 	},
 /turf/open/floor/dirt/road,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "gWD" = (
 /obj/machinery/light/fueled/torchholder/l,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -9811,7 +9808,7 @@
 	dir = 4
 	},
 /turf/open/floor/grass/yel,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "haa" = (
 /obj/structure/window/solid,
 /obj/structure/bars/grille,
@@ -9994,7 +9991,7 @@
 	pixel_y = 7
 	},
 /turf/open/floor/grass/cold,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "hew" = (
 /obj/effect/decal/cobbleedge{
 	dir = 8;
@@ -10062,6 +10059,10 @@
 /obj/structure/fluff/flag,
 /turf/open/floor/rooftop,
 /area/outdoors/town/roofs)
+"hhC" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/cobble,
+/area/indoors/town/tavern/saiga)
 "hhL" = (
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/tavern/saiga)
@@ -10177,7 +10178,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 8
 	},
-/obj/structure/chair/wood/alt/chair3,
+/obj/structure/fermentation_keg/random/water,
 /turf/open/floor/cobble,
 /area/indoors/town/tavern/saiga)
 "hmf" = (
@@ -10368,6 +10369,9 @@
 	},
 /obj/item/dmusicbox,
 /obj/structure/fluff/walldeco/wantedposter,
+/obj/structure/bars/passage/shutter{
+	redstone_id = "tavern_interior"
+	},
 /turf/open/floor/cobble,
 /area/indoors/town/tavern/saiga)
 "hsh" = (
@@ -10424,7 +10428,7 @@
 	dir = 8
 	},
 /turf/open/floor/ruinedwood/turned,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "htU" = (
 /obj/structure/bars,
 /turf/open/floor/cobble,
@@ -10833,9 +10837,8 @@
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town)
 "hHf" = (
-/obj/structure/flora/grass,
-/turf/open/floor/grass/yel,
-/area/outdoors/beach)
+/turf/open/floor/sand/sandstone,
+/area/outdoors/town/neighborhood/west)
 "hHp" = (
 /obj/machinery/light/fueledstreet/orange/wall{
 	dir = 4
@@ -10981,7 +10984,7 @@
 "hLu" = (
 /obj/structure/flora/hotspring_rocks,
 /turf/open/floor/grass/yel,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "hLK" = (
 /obj/structure/fermentation_keg/random/beer,
 /turf/open/floor/blocks,
@@ -12070,7 +12073,7 @@
 /obj/effect/decal/cobbleedge{
 	dir = 6
 	},
-/obj/structure/fluff/walldeco/sign/saiga/left,
+/obj/structure/fluff/walldeco/sign/wynceslar_tavern/left,
 /turf/open/floor/grass/cold,
 /area/outdoors/town)
 "ivh" = (
@@ -12332,7 +12335,8 @@
 	icon_state = "largetable"
 	},
 /obj/item/toy/cards/deck/syndicate,
-/turf/open/floor/carpet/red,
+/obj/structure/carpet/green,
+/turf/open/floor/ruinedwood/two,
 /area/indoors/town/tavern/saiga)
 "iDH" = (
 /obj/structure/fluff/railing/border{
@@ -12590,7 +12594,7 @@
 	},
 /obj/structure/fluff/railing/tall/retaining/stone,
 /turf/open/floor/snow,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "iKS" = (
 /obj/structure/carpet/green,
 /obj/structure/chair/stool,
@@ -13041,7 +13045,8 @@
 	icon_state = "largetable"
 	},
 /obj/item/dice/d6,
-/turf/open/floor/carpet/red,
+/obj/structure/carpet/green,
+/turf/open/floor/ruinedwood/two,
 /area/indoors/town/tavern/saiga)
 "iYE" = (
 /obj/structure/closet/crate/chest/wicker,
@@ -13085,7 +13090,7 @@
 	icon_state = "cobbleedge-n"
 	},
 /turf/open/floor/blocks/stonered/tiny,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood)
 "iZP" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/cobble,
@@ -13629,8 +13634,8 @@
 /area/outdoors/town)
 "jta" = (
 /obj/structure/winch{
-	name = "winch (south)";
-	redstone_id = "keepgatesouth"
+	name = "winch (floor trap)";
+	redstone_id = "keepgatekybraxor"
 	},
 /turf/open/floor/cobble,
 /area/indoors/town/keep/gate)
@@ -13934,21 +13939,12 @@
 	},
 /turf/open/floor/blocks,
 /area/indoors/town/church/crypt)
-"jEf" = (
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-w"
-	},
-/obj/structure/fluff/railing/border{
-	dir = 8
-	},
-/turf/open/floor/blocks,
-/area/indoors/town/keep/gate)
 "jEG" = (
 /obj/structure/chair/wood{
 	dir = 1
 	},
-/turf/open/floor/carpet/red,
+/obj/structure/carpet/green,
+/turf/open/floor/ruinedwood/two,
 /area/indoors/town/tavern/saiga)
 "jFb" = (
 /turf/open/floor/blocks/stonered,
@@ -14269,6 +14265,9 @@
 	},
 /obj/item/reagent_containers/glass/cup/wooden{
 	pixel_x = 10
+	},
+/obj/structure/bars/passage/shutter{
+	redstone_id = "tavern_interior"
 	},
 /turf/open/floor/cobble,
 /area/indoors/town/tavern/saiga)
@@ -14671,7 +14670,7 @@
 /turf/open/openspace,
 /area/indoors/town/tavern/saiga)
 "kcW" = (
-/obj/structure/lever/hidden/thieves_guild{
+/obj/structure/lever/hidden/keep{
 	redstone_id = "divine_gourd"
 	},
 /turf/closed/wall/mineral/stonebrick/reddish,
@@ -15213,7 +15212,7 @@
 "kvH" = (
 /obj/structure/fluff/walldeco/vinez,
 /turf/open/floor/blocks/stonered,
-/area/outdoors/beach)
+/area/outdoors/town)
 "kvK" = (
 /turf/closed/wall/mineral/stonebrick,
 /area/indoors/town/keep/library)
@@ -15256,7 +15255,7 @@
 	dir = 1
 	},
 /turf/open/floor/ruinedwood/turned,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "kxu" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/ruinedwood,
@@ -15842,7 +15841,7 @@
 	icon_state = "tablewood1"
 	},
 /turf/open/floor/ruinedwood/turned,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "kUu" = (
 /obj/structure/table/wood{
 	dir = 1;
@@ -15935,7 +15934,7 @@
 "law" = (
 /obj/machinery/light/fueled/lanternpost/fixed,
 /turf/open/floor/sand/sandstone,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood)
 "laR" = (
 /obj/effect/decal/cobbleedge{
 	dir = 10
@@ -16384,17 +16383,6 @@
 /obj/machinery/light/fueledstreet/orange/wall,
 /turf/open/floor/cobble,
 /area/outdoors/exposed)
-"lui" = (
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-w"
-	},
-/obj/structure/table/wood{
-	icon_state = "tablewood1"
-	},
-/obj/item/signal_horn,
-/turf/open/floor/blocks,
-/area/indoors/town/keep/gate)
 "luA" = (
 /obj/structure/table/wood/plain_alt,
 /obj/item/paint_palette{
@@ -16474,6 +16462,7 @@
 	name = "Inn Basement"
 	},
 /obj/effect/mapping_helpers/access/keyset/town/inn,
+/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/blocks/stonered,
 /area/indoors/town/tavern)
 "lxc" = (
@@ -16543,6 +16532,10 @@
 /obj/item/cooking/skewer,
 /obj/item/cooking/skewer,
 /obj/item/cooking/skewer,
+/obj/structure/lever{
+	pixel_y = 21;
+	redstone_id = "tavern_interior"
+	},
 /turf/open/floor/cobble,
 /area/indoors/town/tavern/saiga)
 "lzO" = (
@@ -16676,6 +16669,9 @@
 	icon_state = "longtable_mid"
 	},
 /obj/effect/spawner/map_spawner/loot/coin/low,
+/obj/structure/bars/passage/shutter{
+	redstone_id = "tavern_interior"
+	},
 /turf/open/floor/cobble,
 /area/indoors/town/tavern/saiga)
 "lDY" = (
@@ -17390,7 +17386,7 @@
 "lYS" = (
 /obj/effect/landmark/events/haunts,
 /turf/open/floor/blocks/stonered,
-/area/outdoors/beach)
+/area/outdoors/town)
 "lYX" = (
 /obj/structure/bars/grille,
 /turf/open/floor/blocks,
@@ -17630,7 +17626,7 @@
 /obj/item/weapon/hoe,
 /obj/item/weapon/thresher,
 /turf/open/floor/grass/yel,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "mfC" = (
 /obj/effect/decal/cobbleedge{
 	dir = 10;
@@ -17872,12 +17868,12 @@
 /turf/open/floor/blocks/stonered/tiny,
 /area/indoors/town/waterworks)
 "mlU" = (
-/obj/machinery/light/fueled/torchholder/l,
-/obj/structure/chair/wood/alt/chair3{
+/obj/structure/window,
+/obj/structure/curtain/browncurtain/dir{
 	dir = 4
 	},
-/turf/open/floor/ruinedwood/darker,
-/area/outdoors/town)
+/turf/open/floor/cobble,
+/area/indoors/town/tavern/saiga)
 "mmb" = (
 /obj/structure/fluff/walldeco/bath/wallpipes/outie{
 	dir = 6
@@ -18032,8 +18028,13 @@
 /turf/closed/wall/mineral/stone/moss,
 /area/under/town/basement/smugglers_tunnels)
 "mrn" = (
-/obj/structure/fluff/walldeco/sign/saiga/left,
-/turf/closed/wall/mineral/wooddark,
+/obj/structure/table/wood/plain,
+/obj/effect/landmark/quest_dropoff/counter{
+	board_id = "guild_1"
+	},
+/obj/structure/bars/bent,
+/obj/structure/fake_machine/merchantvend/public/tavern,
+/turf/open/floor/ruinedwood/platform,
 /area/indoors/town/tavern/saiga)
 "mrr" = (
 /obj/structure/door/viewport{
@@ -18477,7 +18478,8 @@
 /obj/structure/table/wood{
 	icon_state = "largetable"
 	},
-/turf/open/floor/carpet/red,
+/obj/structure/carpet/green,
+/turf/open/floor/ruinedwood/two,
 /area/indoors/town/tavern/saiga)
 "mGj" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -18610,6 +18612,15 @@
 	},
 /turf/open/openspace,
 /area/outdoors/town/roofs)
+"mJD" = (
+/obj/structure/window/openclose{
+	dir = 8
+	},
+/obj/structure/curtain/browncurtain/dir{
+	dir = 8
+	},
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town/tavern/saiga)
 "mJF" = (
 /turf/open/floor/church/pale,
 /area/under/town/basement)
@@ -18939,7 +18950,7 @@
 	dir = 8
 	},
 /turf/open/floor/naturalstone,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "mUp" = (
 /obj/structure/chair/bench{
 	dir = 8
@@ -19744,7 +19755,7 @@
 	dir = 1
 	},
 /turf/open/floor/blocks/stonered,
-/area/outdoors/beach)
+/area/outdoors/town)
 "nyR" = (
 /obj/structure/bars/passage/shutter{
 	redstone_id = "warehouse_shutter";
@@ -19903,6 +19914,10 @@
 	},
 /turf/open/water/ocean,
 /area/indoors/town/waterworks)
+"nEy" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/indoors/town/tavern/saiga)
 "nEQ" = (
 /obj/item/bedsheet/cloth,
 /obj/effect/decal/cobbleedge{
@@ -20260,7 +20275,7 @@
 	dir = 4
 	},
 /turf/open/floor/sand/sandstone,
-/area/outdoors/beach)
+/area/outdoors/town)
 "nRo" = (
 /obj/item/bin/water,
 /turf/open/floor/tile,
@@ -20411,7 +20426,7 @@
 /obj/structure/flora/ausbushes/ywflowers,
 /obj/structure/fluff/railing/tall/retaining,
 /turf/open/floor/dirt/road,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "nYe" = (
 /obj/machinery/light/fueled/torchholder/l,
 /turf/open/floor/ruinedwood,
@@ -20446,7 +20461,7 @@
 "nZz" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/open/floor/grass/yel,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "nZI" = (
 /obj/structure/fermentation_keg/whitewine,
 /turf/open/floor/blocks/green,
@@ -20621,7 +20636,7 @@
 	dir = 4
 	},
 /turf/open/floor/ruinedwood/turned,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "ofW" = (
 /turf/open/floor/carpet/royalblack,
 /area/indoors/town/church)
@@ -21219,8 +21234,9 @@
 /turf/open/water/river,
 /area/under/cavewet)
 "oBD" = (
-/turf/open/floor/ruinedwood/turned,
-/area/outdoors/beach)
+/obj/structure/flora/ausbushes/reedbush,
+/turf/open/floor/sand/sandstone,
+/area/outdoors/town)
 "oBN" = (
 /obj/structure/fluff/walldeco/church/line{
 	dir = 8
@@ -21415,6 +21431,10 @@
 	},
 /turf/open/floor/church/pale,
 /area/indoors/town/steward)
+"oGR" = (
+/obj/structure/carpet,
+/turf/open/floor/ruinedwood/platform,
+/area/indoors/town/tavern/saiga)
 "oHe" = (
 /obj/structure/fluff/railing/border,
 /obj/structure/fluff/railing/border{
@@ -21843,7 +21863,7 @@
 	dir = 8
 	},
 /turf/open/floor/ruinedwood/turned,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "oYY" = (
 /obj/structure/fluff/traveltile{
 	aallmig = "z1-graveyard";
@@ -22285,6 +22305,11 @@
 	},
 /turf/open/floor/ruinedwood/spiral,
 /area/indoors/town/clinic_large)
+"pmQ" = (
+/obj/structure/window/openclose,
+/obj/structure/curtain/browncurtain/dir,
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town/tavern/saiga)
 "pop" = (
 /obj/structure/fluff/railing/wood{
 	dir = 4;
@@ -22894,7 +22919,7 @@
 "pJd" = (
 /obj/structure/flora/hotspring_rocks/small,
 /turf/open/floor/dirt/road,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "pJI" = (
 /obj/machinery/light/fueled/torchholder/l,
 /obj/structure/stairs/stone,
@@ -23345,7 +23370,7 @@
 "pZg" = (
 /obj/structure/flora/grass/bush/tundra,
 /turf/open/floor/sand/sandstone,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood)
 "pZy" = (
 /turf/open/floor/blocks/stonered,
 /area/indoors/town/waterworks)
@@ -23734,6 +23759,7 @@
 "qkF" = (
 /obj/structure/door/window,
 /obj/effect/mapping_helpers/access/keyset/town/inn,
+/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/ruinedwood/platform,
 /area/indoors/town/tavern/saiga)
 "qkL" = (
@@ -23987,10 +24013,6 @@
 /obj/structure/carpet/blue,
 /turf/open/floor/cobble,
 /area/indoors/town/clinic_large)
-"qsV" = (
-/obj/effect/landmark/events/animal_migration_point,
-/turf/open/floor/dirt/road,
-/area/outdoors/beach)
 "qte" = (
 /turf/open/floor/carpet/royalblack,
 /area/indoors/town/keep/magician)
@@ -24059,7 +24081,8 @@
 	pixel_x = -14;
 	pixel_y = -10
 	},
-/turf/open/floor/carpet/red,
+/obj/structure/carpet/green,
+/turf/open/floor/ruinedwood/two,
 /area/indoors/town/tavern/saiga)
 "qun" = (
 /obj/structure/fluff/walldeco/painting/queen{
@@ -24560,7 +24583,7 @@
 "qKj" = (
 /obj/structure/flora/ausbushes/sparsegrass,
 /turf/open/floor/sand/sandstone,
-/area/outdoors/beach)
+/area/outdoors/town)
 "qKl" = (
 /obj/structure/chair/bench/couchablack/r,
 /turf/open/floor/carpet/royalblack,
@@ -24899,7 +24922,7 @@
 "qZA" = (
 /obj/structure/flora/hotspring_rocks/small,
 /turf/open/floor/snow,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "qZX" = (
 /obj/machinery/light/fueled/firebowl/stump,
 /obj/structure/fluff/railing/tall{
@@ -25688,7 +25711,7 @@
 /obj/effect/decal/cobbleedge{
 	icon_state = "cobbleedge-n"
 	},
-/obj/structure/fluff/walldeco/sign/saiga/left,
+/obj/structure/fluff/walldeco/sign/wynceslar_tavern/left,
 /turf/open/floor/snow,
 /area/outdoors/town/plaza)
 "rGo" = (
@@ -26135,12 +26158,6 @@
 	},
 /turf/open/floor/ruinedwood/turned/alt,
 /area/indoors/town/keep/magician)
-"rZG" = (
-/obj/structure/fluff/railing/tall/retaining/stone{
-	dir = 4
-	},
-/turf/open/floor/blocks/stonered/tiny,
-/area/outdoors/beach)
 "sah" = (
 /obj/effect/decal/cobbleedge{
 	icon_state = "cobbleedge-n"
@@ -26631,6 +26648,9 @@
 /obj/structure/table/wood{
 	icon_state = "longtable_mid"
 	},
+/obj/structure/bars/passage/shutter{
+	redstone_id = "tavern_interior"
+	},
 /turf/open/floor/cobble,
 /area/indoors/town/tavern/saiga)
 "stf" = (
@@ -27016,7 +27036,7 @@
 	dir = 4
 	},
 /turf/open/floor/snow,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "sGP" = (
 /obj/structure/fluff/wallclock{
 	pixel_x = 32;
@@ -27079,7 +27099,7 @@
 	dir = 6
 	},
 /turf/open/floor/grass/yel,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "sIM" = (
 /obj/effect/mapping_helpers/secret_door_creator/thieves_guild{
 	redstone_id = "slitherway13"
@@ -28311,20 +28331,6 @@
 /obj/machinery/light/fueled/wallfire/candle/l,
 /turf/open/floor/carpet/red,
 /area/indoors/town/tavern/saiga)
-"tCB" = (
-/obj/effect/decal/cobbleedge{
-	dir = 10;
-	icon_state = "cobbleedge-e"
-	},
-/obj/structure/lever/wall{
-	dir = 4;
-	name = "floor trap lever";
-	redstone_id = "keepgatekybraxor";
-	pixel_y = -10;
-	pulltime = 160
-	},
-/turf/open/floor/blocks,
-/area/indoors/town/keep/gate)
 "tCH" = (
 /obj/structure/flora/newtree/snow,
 /turf/open/floor/snow/rough,
@@ -28658,6 +28664,7 @@
 "tLv" = (
 /obj/machinery/light/fueled/torchholder/l,
 /obj/structure/chair/stool,
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/cobble,
 /area/indoors/town/tavern/saiga)
 "tLz" = (
@@ -28823,6 +28830,12 @@
 /obj/item/reagent_containers/glass/bucket/wooden,
 /turf/open/floor/dirt,
 /area/outdoors/town/neighborhood/east)
+"tRG" = (
+/obj/effect/decal/carpet{
+	dir = 4
+	},
+/turf/open/floor/ruinedwood/two,
+/area/indoors/town/tavern/saiga)
 "tRW" = (
 /turf/closed/wall/mineral/craftstone,
 /area/indoors/town/church/crypt)
@@ -28881,7 +28894,8 @@
 	pixel_x = 6;
 	pixel_y = -2
 	},
-/turf/open/floor/carpet/red,
+/obj/structure/carpet/green,
+/turf/open/floor/ruinedwood/two,
 /area/indoors/town/tavern/saiga)
 "tTP" = (
 /obj/structure/chair/wood,
@@ -29162,7 +29176,7 @@
 "udX" = (
 /obj/structure/well,
 /turf/open/floor/cobble,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "uel" = (
 /obj/structure/stairs{
 	dir = 4
@@ -29304,7 +29318,10 @@
 /area/under/town/sewer)
 "uli" = (
 /obj/machinery/light/fueled/torchholder/l,
-/obj/structure/stairs/stone,
+/obj/structure/table/wood{
+	icon_state = "tablewood1"
+	},
+/obj/item/signal_horn,
 /turf/open/floor/cobble,
 /area/indoors/town/keep/gate)
 "uly" = (
@@ -29827,7 +29844,7 @@
 "uEB" = (
 /obj/machinery/light/fueled/torchholder/r,
 /turf/open/floor/blocks/stonered,
-/area/outdoors/beach)
+/area/outdoors/town)
 "uEF" = (
 /obj/effect/decal/cobbleedge{
 	dir = 10;
@@ -30122,6 +30139,7 @@
 "uPw" = (
 /obj/structure/door/window,
 /obj/effect/mapping_helpers/access/keyset/town/inn,
+/obj/effect/mapping_helpers/access/locker,
 /turf/open/floor/tile,
 /area/indoors/town/tavern/saiga)
 "uPI" = (
@@ -30168,7 +30186,7 @@
 "uRh" = (
 /obj/structure/flora/hotspring_rocks/small,
 /turf/open/floor/sand/sandstone,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "uRk" = (
 /obj/effect/decal/cobbleedge{
 	dir = 9
@@ -30349,7 +30367,7 @@
 "uXK" = (
 /obj/effect/landmark/events/haunts,
 /turf/open/floor/dirt,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "uYi" = (
 /obj/structure/fluff/railing/wood{
 	dir = 4
@@ -30438,6 +30456,11 @@
 	},
 /turf/open/floor/blocks/stonered/tiny,
 /area/indoors/town/waterworks)
+"uZu" = (
+/obj/machinery/light/fueled/wallfire/candle/l,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/indoors/town/tavern/saiga)
 "uZw" = (
 /obj/machinery/light/fueled/torchholder/r,
 /turf/open/floor/twig,
@@ -30625,7 +30648,7 @@
 	},
 /obj/structure/chair/hotspring_bench/left,
 /turf/open/floor/ruinedwood/turned,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "vgh" = (
 /obj/structure/stairs,
 /turf/open/floor/dirt,
@@ -30904,6 +30927,9 @@
 	icon_state = "longtable_mid"
 	},
 /obj/item/reagent_containers/glass/rag,
+/obj/structure/bars/passage/shutter{
+	redstone_id = "tavern_interior"
+	},
 /turf/open/floor/cobble,
 /area/indoors/town/tavern/saiga)
 "vqr" = (
@@ -30933,7 +30959,7 @@
 "vrq" = (
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/dirt/road,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "vrG" = (
 /obj/machinery/light/fueledstreet/blue/wall{
 	dir = 8
@@ -31376,7 +31402,7 @@
 "vHZ" = (
 /obj/structure/flora/grass,
 /turf/open/floor/dirt/road,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood)
 "vIp" = (
 /obj/structure/fluff/fibermat/round,
 /turf/open/floor/ruinedwood/chevron,
@@ -32102,9 +32128,9 @@
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/keep/servant)
 "wiM" = (
-/obj/structure/flora/shells,
+/obj/structure/flora/grass,
 /turf/open/floor/sand/sandstone,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood)
 "wiN" = (
 /obj/structure/fluff/walldeco/vinez,
 /turf/closed/wall/mineral/stone/moss,
@@ -32138,7 +32164,7 @@
 "wkq" = (
 /obj/structure/flora/ausbushes/ywflowers,
 /turf/open/floor/dirt/road,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "wkw" = (
 /obj/effect/mapping_helpers/secret_door_creator/thieves_guild{
 	redstone_id = "slitherway2"
@@ -32504,7 +32530,7 @@
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/garrison)
 "wtF" = (
-/obj/structure/lever/hidden/thieves_guild{
+/obj/structure/lever/hidden/keep{
 	redstone_id = "divine_gourd"
 	},
 /turf/closed/wall/mineral/pipe,
@@ -32734,7 +32760,7 @@
 "wFR" = (
 /obj/structure/ladder,
 /turf/open/floor/blocks/stonered,
-/area/outdoors/beach)
+/area/outdoors/town)
 "wGr" = (
 /obj/machinery/light/fueled/torchholder/c,
 /turf/open/floor/blocks/green,
@@ -33329,7 +33355,7 @@
 "wYE" = (
 /obj/structure/flora/hotspring_rocks/grassy,
 /turf/open/floor/snow,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "wYG" = (
 /turf/open/water/ocean,
 /area/under/town/basement/smugglers_tunnels)
@@ -33649,10 +33675,10 @@
 /turf/open/floor/ruinedwood/turned,
 /area/indoors/town/merc_guild)
 "xkI" = (
-/obj/structure/fake_machine/hailerboard{
-	desc = "A notice board that shows all the notices the Adventurer's Guild has put up. Want to post your own? Look for the HAILER in the town square!"
+/obj/structure/window/openclose{
+	dir = 8
 	},
-/obj/effect/decal/carpet,
+/obj/structure/fluff/walldeco/sign/wynceslar_tavern/left,
 /turf/open/floor/ruinedwood/two,
 /area/indoors/town/tavern/saiga)
 "xkJ" = (
@@ -34279,6 +34305,10 @@
 	},
 /turf/open/floor/cobblerock,
 /area/outdoors/town)
+"xHW" = (
+/obj/structure/carpet,
+/turf/open/floor/cobble,
+/area/indoors/town/tavern/saiga)
 "xIj" = (
 /obj/structure/fluff/hanging_banners,
 /obj/effect/decal/cobbleedge{
@@ -34636,14 +34666,14 @@
 	dir = 6
 	},
 /turf/open/floor/sand/sandstone,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "xWI" = (
 /obj/item/reagent_containers/glass/bucket/wooden{
 	pixel_x = -6;
 	pixel_y = 15
 	},
 /turf/open/floor/cobble,
-/area/outdoors/beach)
+/area/outdoors/town/neighborhood/west)
 "xWJ" = (
 /obj/item/weapon/pick/stone,
 /turf/open/floor/naturalstone,
@@ -51196,7 +51226,7 @@ xYj
 xYj
 xYj
 xYj
-diq
+hHf
 tkC
 tkC
 pXD
@@ -51328,7 +51358,7 @@ xYj
 xYj
 xYj
 xYj
-diq
+hHf
 tkC
 tkC
 pXD
@@ -51590,9 +51620,9 @@ xYj
 xYj
 xYj
 xYj
-diq
-diq
-diq
+hHf
+hHf
+hHf
 tkC
 tkC
 pXD
@@ -51674,7 +51704,7 @@ xYj
 xYj
 xYj
 xYj
-bCA
+bIO
 qKj
 xYj
 xYj
@@ -51721,10 +51751,10 @@ xYj
 xYj
 xYj
 xYj
-diq
+hHf
 uRh
-diq
-gNd
+hHf
+uuS
 tkC
 tkC
 pXD
@@ -51805,9 +51835,9 @@ xYj
 xYj
 xYj
 xYj
-diq
-diq
-diq
+wLm
+wLm
+wLm
 xYj
 xYj
 xYj
@@ -51852,11 +51882,11 @@ xYj
 xYj
 xYj
 xYj
-diq
-diq
-gNd
+hHf
+hHf
+uuS
 qZA
-iyf
+sVh
 gdK
 tkC
 pXD
@@ -51942,7 +51972,7 @@ rJc
 xYj
 xYj
 xYj
-diq
+wLm
 mJh
 xYj
 xYj
@@ -51983,12 +52013,12 @@ xYj
 xYj
 xYj
 xYj
-diq
-diq
-gNd
-gNd
-iyf
-pcG
+hHf
+hHf
+uuS
+uuS
+sVh
+xmk
 gdK
 euW
 euW
@@ -52073,8 +52103,8 @@ ean
 ean
 ean
 daq
-xVL
-diq
+oBD
+wLm
 xYj
 xYj
 xYj
@@ -52114,14 +52144,14 @@ xYj
 xYj
 xYj
 xYj
-diq
-diq
-gNd
-gNd
-pcG
-iyf
-pcG
-iyf
+hHf
+hHf
+uuS
+uuS
+xmk
+sVh
+xmk
+sVh
 gWA
 euW
 "}
@@ -52205,10 +52235,10 @@ ean
 ean
 ean
 ean
-diq
-diq
+wLm
+wLm
 qKj
-diq
+wLm
 qKj
 xYj
 xYj
@@ -52246,14 +52276,14 @@ xYj
 xYj
 xYj
 xYj
-diq
-urD
-pcG
+hHf
+sks
+xmk
 pJd
-gNd
+uuS
 mfA
-pcG
-gNd
+xmk
+uuS
 gWA
 euW
 "}
@@ -52339,8 +52369,8 @@ ean
 ean
 xYj
 xYj
-xVL
-diq
+oBD
+wLm
 xYj
 xYj
 xYj
@@ -52378,13 +52408,13 @@ xYj
 xYj
 xYj
 xYj
-diq
-urD
-pcG
-gNd
+hHf
+sks
+xmk
+uuS
 hLu
 nZz
-gNd
+uuS
 vrq
 gWA
 euW
@@ -52472,7 +52502,7 @@ ean
 rJc
 mJh
 xYj
-bCA
+bIO
 xYj
 xYj
 rJc
@@ -52510,14 +52540,14 @@ mJh
 xYj
 xYj
 xYj
-wiM
+doE
 bRP
 nZz
-fxZ
-qsV
-gNd
-gNd
-ykT
+bqK
+qPc
+uuS
+uuS
+kkz
 gWA
 euW
 "}
@@ -52644,12 +52674,12 @@ xYj
 htS
 oYL
 fsY
-fxZ
+bqK
 udX
 xWI
-gNd
-pcG
-pcG
+uuS
+xmk
+xmk
 euW
 euW
 "}
@@ -52740,8 +52770,8 @@ vdE
 vdE
 kpJ
 wFR
-bIO
-bIO
+niG
+niG
 dFs
 vdE
 kBC
@@ -52774,15 +52804,15 @@ xYj
 mJh
 mJh
 vfA
-oBD
+fNl
 heo
-iyf
-fxZ
-gNd
-gNd
-pcG
+sVh
+bqK
+uuS
+uuS
+xmk
 nZz
-pcG
+xmk
 pXD
 "}
 (35,1,2) = {"
@@ -52859,7 +52889,7 @@ gnq
 lpK
 lpK
 cIC
-diq
+wLm
 mJh
 blN
 xYj
@@ -52867,15 +52897,15 @@ pei
 xYj
 kfC
 nyO
-bIO
-anG
-anG
-bIO
-bIO
+niG
+euP
+euP
+niG
+niG
 lYS
 uEB
 kvH
-anG
+euP
 kNE
 kNE
 kNE
@@ -52906,12 +52936,12 @@ xYj
 xYj
 xYj
 kUt
-oBD
+fNl
 fbk
-iyf
+sVh
 wYE
-gNd
-hHf
+uuS
+rLu
 sIA
 gZK
 gZK
@@ -53148,15 +53178,15 @@ nue
 nue
 nue
 kNE
-gNd
+uuS
 xYj
 pei
 mJh
-urD
+sks
 xYj
 xYj
 xYj
-diq
+hHf
 dYA
 mUl
 dBW
@@ -53281,14 +53311,14 @@ nue
 nue
 kNE
 vrq
-vHZ
-urD
-urD
+jbv
+sks
+sks
 uXK
-urD
+sks
 xWn
 cMy
-rZG
+pVf
 cDY
 fDr
 iKM
@@ -54470,7 +54500,7 @@ bZh
 jij
 mgy
 bZh
-fKl
+fKE
 lpy
 wbR
 ioA
@@ -58543,12 +58573,12 @@ cQC
 hye
 uNe
 fbq
-fxZ
-bIO
-fxZ
-fxZ
-diq
-diq
+fbq
+twU
+fbq
+fbq
+jjx
+jjx
 vDN
 gDF
 gDF
@@ -58673,15 +58703,15 @@ cfe
 hye
 iIg
 lsg
-iyf
-fxZ
-fjs
-diq
-diq
-diq
+anG
+fbq
+oQC
+jjx
+jjx
+jjx
 pZg
-diq
-diq
+jjx
+jjx
 gDF
 bSc
 bSc
@@ -58804,16 +58834,16 @@ vVJ
 nGD
 hye
 law
-diq
-fxZ
+jjx
+fbq
 iZt
-diq
+jjx
 pZg
 xYj
 xYj
-diq
-diq
-pcG
+jjx
+jjx
+eXt
 bSc
 bSc
 bSc
@@ -58935,16 +58965,16 @@ hye
 pkS
 nGD
 hye
-diq
-diq
-diq
-diq
-diq
+jjx
+jjx
+jjx
+jjx
+jjx
 xYj
 xYj
 xYj
-diq
-diq
+jjx
+jjx
 bay
 bay
 bay
@@ -59067,16 +59097,16 @@ hye
 cuZ
 hUd
 hye
-diq
-diq
-diq
+jjx
+jjx
+jjx
 xYj
 xYj
 xYj
 xYj
-diq
-diq
-pcG
+jjx
+jjx
+eXt
 bay
 bay
 bay
@@ -59200,15 +59230,15 @@ hye
 hye
 hye
 xYj
-diq
+jjx
 xYj
 xYj
 xYj
 xYj
 xYj
-diq
-bCA
-pcG
+jjx
+vDN
+eXt
 bay
 bay
 bay
@@ -59339,8 +59369,8 @@ xYj
 xYj
 xYj
 xYj
-diq
-pcG
+jjx
+eXt
 bay
 bay
 bay
@@ -59470,9 +59500,9 @@ xYj
 xYj
 xYj
 xYj
-diq
-pcG
-pcG
+jjx
+eXt
+eXt
 bay
 bay
 bay
@@ -59602,9 +59632,9 @@ xYj
 xYj
 xYj
 xYj
-diq
-pcG
-pcG
+jjx
+eXt
+eXt
 bay
 bay
 bay
@@ -59734,9 +59764,9 @@ xYj
 xYj
 xYj
 xYj
-diq
-pcG
-pcG
+jjx
+eXt
+eXt
 bay
 bay
 bay
@@ -59865,10 +59895,10 @@ xYj
 xYj
 xYj
 xYj
-diq
-diq
-pcG
-pcG
+jjx
+jjx
+eXt
+eXt
 bay
 bay
 bay
@@ -59997,10 +60027,10 @@ xYj
 xYj
 xYj
 xYj
-diq
-diq
-pcG
-pcG
+jjx
+jjx
+eXt
+eXt
 bay
 bay
 bay
@@ -60129,10 +60159,10 @@ xYj
 xYj
 xYj
 xYj
-diq
-diq
-pcG
-pcG
+jjx
+jjx
+eXt
+eXt
 bay
 bay
 bay
@@ -60262,10 +60292,10 @@ xYj
 xYj
 xYj
 xYj
-diq
-diq
-pcG
-gNd
+jjx
+jjx
+eXt
+fiy
 vHZ
 lMS
 wet
@@ -60394,11 +60424,11 @@ xYj
 xYj
 xYj
 xYj
-diq
-diq
-diq
-pcG
-gNd
+jjx
+jjx
+jjx
+eXt
+fiy
 eyz
 ygT
 btV
@@ -60527,10 +60557,10 @@ xYj
 xYj
 xYj
 xYj
-diq
-diq
-diq
-iFF
+jjx
+jjx
+jjx
+wiM
 lMS
 wet
 npd
@@ -60660,9 +60690,9 @@ xYj
 xYj
 xYj
 xYj
-diq
-diq
-diq
+jjx
+jjx
+jjx
 lMS
 wet
 uQf
@@ -60793,8 +60823,8 @@ xYj
 xYj
 xYj
 xYj
-diq
-diq
+jjx
+jjx
 rMJ
 sQj
 wet
@@ -60925,8 +60955,8 @@ xYj
 xYj
 xYj
 xYj
-diq
-diq
+jjx
+jjx
 rMJ
 sQj
 wet
@@ -61057,8 +61087,8 @@ xYj
 xYj
 xYj
 xYj
-diq
-diq
+jjx
+jjx
 rMJ
 sQj
 wet
@@ -66076,7 +66106,7 @@ suG
 iAs
 suG
 suG
-pbG
+aKq
 rzU
 jgF
 jzj
@@ -66194,12 +66224,12 @@ hUO
 mTr
 aJX
 suG
-iAs
-iAs
-iAs
+mlU
+mlU
+mlU
 qkF
 suG
-iAs
+mlU
 suG
 suG
 pMc
@@ -66595,7 +66625,7 @@ eDB
 qsB
 lUp
 rgk
-gqk
+oGR
 hCE
 suG
 rqP
@@ -66728,7 +66758,7 @@ qsB
 nnP
 iAs
 cFA
-suG
+mrn
 rQy
 ump
 tyz
@@ -66853,13 +66883,13 @@ nyd
 rcS
 siD
 deK
-iAs
+dKp
 owq
 hCW
 pPs
 imN
 wFf
-eZf
+xHW
 tLv
 pBH
 suG
@@ -66985,13 +67015,13 @@ qla
 uHu
 rcS
 mTr
-iAs
+dKp
 vNu
 xYt
 qsB
 gqk
 flA
-eZf
+hhC
 eZf
 aHG
 vNu
@@ -67121,7 +67151,7 @@ rQy
 hmc
 lQD
 qsB
-ebm
+gqk
 lHd
 qLL
 lkZ
@@ -67621,7 +67651,7 @@ xGh
 osy
 xqA
 cAv
-gQC
+gVW
 jta
 gVW
 uli
@@ -67648,7 +67678,7 @@ vgD
 cVR
 hhL
 hhL
-gwC
+tRG
 hhL
 hhL
 sch
@@ -67756,8 +67786,8 @@ hah
 hah
 aFS
 bUt
-jEf
-aiN
+aFS
+gVW
 lSl
 xyQ
 bKC
@@ -67777,20 +67807,20 @@ qla
 qla
 rcS
 hfO
-bRD
-mrn
-fIP
-bRD
-xkI
+pmQ
+hhL
+hhL
+gwC
+hhL
 hhL
 xfN
 xfN
 xfN
-gTg
-gTg
+mJD
+mJD
 bRD
 fIP
-gTg
+mJD
 bRD
 ivg
 hfO
@@ -67887,9 +67917,9 @@ xqA
 tgr
 aME
 rUi
-tCB
+hah
 sjB
-lui
+aFS
 nHu
 xyj
 bKC
@@ -67909,10 +67939,10 @@ nyd
 nyd
 mZO
 xci
-mlU
-bKC
-aJX
-dKp
+xfN
+xkI
+gTg
+bRD
 dcX
 hhL
 ccC
@@ -68042,11 +68072,11 @@ aJX
 aJX
 sYW
 wIT
-bKC
 aJX
-dKp
-gTg
-gTg
+aJX
+bRD
+mJD
+mJD
 bRD
 rFM
 sDG
@@ -79669,7 +79699,7 @@ lzi
 fXt
 xfN
 gch
-xnA
+nEy
 xnA
 kXH
 xfN
@@ -79801,8 +79831,8 @@ xnA
 hPc
 xfN
 gch
-xnA
-xnA
+nEy
+nEy
 xnA
 mfG
 dvc
@@ -80060,7 +80090,7 @@ fVZ
 kIP
 xnA
 xnA
-mgH
+uZu
 xnA
 mgH
 xnA
@@ -80713,7 +80743,7 @@ oDp
 iPp
 vAx
 aBt
-fNx
+cSx
 pdl
 ksX
 ksX
@@ -80725,7 +80755,7 @@ ifj
 iux
 xqC
 xqC
-xqC
+fKE
 xqC
 xqC
 eMr
@@ -81110,9 +81140,9 @@ dPe
 uJR
 phF
 cSx
-jpZ
-fNx
-fNx
+ydu
+dvc
+dvc
 dvc
 dvc
 dvc

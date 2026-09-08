@@ -49,9 +49,7 @@
 	background_track = 'sound/music/area/Fulminate.ogg'
 
 /area/indoors/town/tavern/saiga
-	first_time_text = "Maribelle's Whinny"
-	background_track = 'sound/music/area/Folia1490.ogg'
-	background_track_night = 'sound/music/area/LeTourdion.ogg'
+	first_time_text = "Wynceslar's Pride"
 	converted_type = /area/outdoors/exposed/tavern/saiga
 
 /area/outdoors/exposed/tavern/saiga

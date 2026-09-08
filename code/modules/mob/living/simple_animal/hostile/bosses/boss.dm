@@ -27,6 +27,7 @@
 		boss_abilities += AB
 
 	atb.assign_abilities(boss_abilities)
+	ADD_TRAIT(src, TRAIT_BLOODLOSS_IMMUNE, INNATE_TRAIT)
 
 
 /mob/living/simple_animal/hostile/boss/Destroy()

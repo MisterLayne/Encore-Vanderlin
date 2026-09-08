@@ -26,7 +26,7 @@
 	. = ..()
 	AddComponent(/datum/component/ai_aggro_system)
 	AddElement(/datum/element/ai_flee_while_injured, 0.75, retreat_health)
-	add_traits(list(TRAIT_NODROWN, TRAIT_SWIMMER), INNATE_TRAIT)
+	add_traits(list(TRAIT_NODROWN, TRAIT_SWIMMER, TRAIT_BLOODLOSS_IMMUNE), INNATE_TRAIT)
 
 /mob/living/simple_animal/hostile/retaliate/shark/simple_limb_hit(zone)
 	if(!zone)

@@ -51,6 +51,7 @@
 	. = ..()
 	AddComponent(/datum/component/ai_aggro_system)
 	AddElement(/datum/element/ai_flee_while_injured, 0.2, retreat_health)
+	ADD_TRAIT(src, TRAIT_BLOODLOSS_IMMUNE, INNATE_TRAIT)
 	if(prob(20))
 		gender = MALE
 		icon_state = "lamia"

@@ -82,6 +82,7 @@
 	ADD_TRAIT(src, TRAIT_NOPAIN, INNATE_TRAIT)
 	ADD_TRAIT(src, TRAIT_NOPAINSTUN, INNATE_TRAIT)
 	ADD_TRAIT(src, TRAIT_NOBREATH, INNATE_TRAIT)
+	ADD_TRAIT(src, TRAIT_BLOODLOSS_IMMUNE, INNATE_TRAIT)
 
 /mob/living/simple_animal/hostile/retaliate/blood/ascended/get_sound(input)
 	switch(input)

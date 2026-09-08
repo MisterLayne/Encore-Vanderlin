@@ -582,7 +582,7 @@
 	desc = "A tool favored by the wood-elves, easy to make, useful for skinning the flesh of beast and man alike."
 	icon_state = "stone_knife"
 	wdefense = TERRIBLE_PARRY
-	possible_item_intents = list(DAGGER_CUT, DAGGER_CHOP)
+	possible_item_intents = list(DAGGER_CUT, DAGGER_CHOP, DAGGER_THRUST)
 	resistance_flags = FLAMMABLE // Weapon made mostly of wood
 	max_integrity = INTEGRITY_WORST - 70
 	max_blade_int = 50

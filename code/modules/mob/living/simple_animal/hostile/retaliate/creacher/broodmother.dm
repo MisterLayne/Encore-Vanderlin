@@ -50,6 +50,7 @@
 
 	grant_language(/datum/language/common)
 	grant_language(/datum/language/orcish)
+	ADD_TRAIT(src, TRAIT_BLOODLOSS_IMMUNE, INNATE_TRAIT)
 
 /mob/living/simple_animal/hostile/retaliate/troll/broodmother/proc/help_blurb()
 	to_chat(

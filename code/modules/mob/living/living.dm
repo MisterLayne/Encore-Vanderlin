@@ -29,6 +29,8 @@
 	recalculate_stats()
 	if(turf)
 		update_z(turf.z)
+	if(is_boss)
+		sync_boss_healthbar()
 
 /mob/living/Destroy()
 	update_z(null)
@@ -3238,3 +3240,18 @@
 /// Check a mobs item slots for a type or types, returns the first item found that matches or null
 /mob/living/proc/check_slots_for_types(list/slots, list/types)
 	return
+
+/mob/living/proc/set_boss(new_value)
+	new_value = !!new_value
+	if(is_boss == new_value)
+		return
+	is_boss = new_value
+	sync_boss_healthbar()
+
+/mob/living/proc/sync_boss_healthbar()
+	var/datum/component/boss_healthbar/current = GetComponent(/datum/component/boss_healthbar)
+	if(is_boss)
+		if(!current && stat != DEAD)
+			AddComponent(/datum/component/boss_healthbar)
+	else if(current)
+		qdel(current)

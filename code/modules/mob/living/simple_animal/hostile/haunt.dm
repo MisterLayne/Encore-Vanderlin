@@ -61,6 +61,7 @@
 /mob/living/simple_animal/hostile/haunt/Initialize()
 	. = ..()
 	AddComponent(/datum/component/ai_aggro_system)
+	ADD_TRAIT(src, TRAIT_BLOODLOSS_IMMUNE, INNATE_TRAIT)
 
 /mob/living/simple_animal/hostile/haunt/electrocute_act(shock_damage, source, siemens_coeff = 1, flags = NONE)
 	return FALSE

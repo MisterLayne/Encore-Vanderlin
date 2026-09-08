@@ -226,6 +226,13 @@
 
 			grant_selected_spellbooks(spawned, selectable_books, 2)
 
+			form_points = 4
+			technique_points = 4
+
+			spells = list(
+			/datum/action/cooldown/spell/undirected/touch/prestidigitation,
+			)
+
 /datum/outfit/monk
 	name = JOB_ACOLYTE
 	belt = /obj/item/storage/belt/leather/rope

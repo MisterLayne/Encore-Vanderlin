@@ -258,9 +258,22 @@ GLOBAL_LIST_INIT(oocpronouns_required, list(
 #endif
 
 /mob/dead/new_player/verb/togglobb()
-	set name = "SilenceLobbyMusic"
+	set name = "Toggle Lobby Music"
 	set category = "Preferences.Sound"
-	stop_sound_channel(CHANNEL_LOBBYMUSIC)
+	set desc = "Enable or disable lobby music. This is saved and persists between logins."
+
+	if(!client?.prefs)
+		return
+
+	client.prefs.preference_toggle_flag(/datum/preference/bitwise/toggles, SOUND_LOBBY)
+	client.prefs.save_preferences()
+
+	if(client.prefs.preference_has_flag(/datum/preference/bitwise/toggles, SOUND_LOBBY))
+		to_chat(src, span_notice("You will now hear music in the lobby."))
+		client.playtitlemusic()
+	else
+		to_chat(src, span_notice("You will no longer hear music in the lobby."))
+		stop_sound_channel(CHANNEL_LOBBYMUSIC)
 
 /proc/CheckJoinDate(ckey)
 	var/list/http = world.Export("http://byond.com/members/[ckey]?format=text")

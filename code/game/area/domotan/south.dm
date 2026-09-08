@@ -12,10 +12,14 @@
 	soundenv = 15
 	ambush_times = list("night")
 	ambush_types = list(
-				/turf/open/floor/grass)
+				/turf/open/floor/grass,
+				/turf/open/floor/sand)
 	ambush_mobs = list(
-				/mob/living/simple_animal/hostile/retaliate/wolf = 60,
-				/mob/living/carbon/human/species/goblin/npc/ambush = 45)
+				/mob/living/carbon/human/species/goblin/npc/ambush/sea = 15,
+				/mob/living/simple_animal/hostile/retaliate/lamia = 15,
+				/mob/living/simple_animal/hostile/deepone/arm = 25,
+				/mob/living/simple_animal/hostile/deepone/spit = 25,
+				/mob/living/simple_animal/hostile/deepone/wiz = 15,)
 	first_time_text = "Heavenscoast"
 	custom_area_sound = 'sound/misc/stings/RosewoodSting.ogg'
 	converted_type = /area/indoors/shelter/woods
@@ -36,8 +40,9 @@
 	ambush_types = list(
 				/turf/open/floor/grass)
 	ambush_mobs = list(
-				/mob/living/simple_animal/hostile/retaliate/wolf = 60,
-				/mob/living/carbon/human/species/goblin/npc/ambush = 45)
+				/mob/living/simple_animal/hostile/retaliate/wolf = 15,
+				/mob/living/carbon/human/species/goblin/npc/ambush = 15,
+				/mob/living/simple_animal/hostile/retaliate/mole = 15)
 	first_time_text = "Crossroads"
 	custom_area_sound = 'sound/misc/stings/generic.ogg'
 	threat_region = THREAT_REGION_BASIN
@@ -55,7 +60,12 @@
 	soundenv = 15
 	ambush_times = list("night")
 	ambush_types = list(
-				/turf/open/floor/grass)
+				/turf/open/floor/grass,
+				/turf/open/floor/dirt)
+	ambush_mobs = list(
+				/mob/living/simple_animal/hostile/retaliate/spider = 15,
+				/mob/living/carbon/human/species/goblin/npc/ambush = 15,
+				/mob/living/simple_animal/hostile/retaliate/mole = 15)
 	ambush_mobs = null
 	first_time_text = "Wey Whisperen Hamlet"
 	custom_area_sound = 'sound/misc/stings/RosewoodSting.ogg'

@@ -333,6 +333,12 @@
 		"Medicine",
 	)
 
+/obj/structure/fake_machine/merchantvend/public/tavern
+	name = "Innkeeper's SILVERFACE"
+	lockids = list(ACCESS_INN)
+	unlocked_cats = list(
+		"Food",
+	)
 
 //	This is how we're going to change the cost of shit - just copy the entire proc!
 /obj/structure/fake_machine/merchantvend/public/attack_hand(mob/living/user)

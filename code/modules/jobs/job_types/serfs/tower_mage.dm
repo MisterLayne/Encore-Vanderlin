@@ -59,7 +59,7 @@
 	max_apprentices = 1
 	book_type = /obj/item/recipe_book/arcyne
 
-	form_points = 6
+	form_points = 8
 	technique_points = 8
 
 	spells = list(

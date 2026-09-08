@@ -48,6 +48,7 @@
 
 /mob/living/simple_animal/hostile/retaliate/mimic/Initialize(mapload)
 	. = ..()
+	ADD_TRAIT(src, TRAIT_BLOODLOSS_IMMUNE, INNATE_TRAIT)
 	if(mapload)//load objects into chest.
 		for(var/obj/item/I in loc)
 			I.forceMove(src)

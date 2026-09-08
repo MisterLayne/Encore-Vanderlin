@@ -42,7 +42,7 @@
 
 /mob/living/simple_animal/hostile/deepone/Initialize()
 	. = ..()
-	add_traits(list(TRAIT_NODROWN, TRAIT_SWIMMER), INNATE_TRAIT)
+	add_traits(list(TRAIT_NODROWN, TRAIT_SWIMMER, TRAIT_BLOODLOSS_IMMUNE), INNATE_TRAIT)
 
 /mob/living/simple_animal/hostile/deepone/arm
 	name = "Deep One"

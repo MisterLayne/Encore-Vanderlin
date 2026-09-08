@@ -104,7 +104,7 @@
 
 /mob/living/simple_animal/pet/cat/cabbit
 	name = "cabbit"
-	desc = "A cabbit, a particular favorite of Enigma's fauna, as pets and meals. It has been exported to Vanderlin." // Do NOT eat the cabbit!!!!!!
+	desc = "A cabbit, a particular favorite of Eastern fauna, as pets and meals. It probably snuck here in a ship somehow." // Do NOT eat the cabbit!!!!!!
 	icon = 'icons/roguetown/mob/cabbit.dmi'
 	icon_state = "cabbit"
 	icon_living = "cabbit"
@@ -125,7 +125,7 @@
 
 /mob/living/simple_animal/pet/cat/black
 	name = "black cat"
-	desc = "Possessed of lamplike eyes and a meow that sounds like the rattle of bones. Black cats are sacred to Valdala, said to bring wandering spirits to the Carriageman."
+	desc = "Possessed of lamplike eyes and a meow that sounds like the rattle of bones. Black cats are sacred to Valdala, said to bring wandering spirits to the gates of the Forever War."
 	gender = FEMALE
 	icon = 'icons/roguetown/topadd/takyon/Cat.dmi'
 	icon_state = "cat"

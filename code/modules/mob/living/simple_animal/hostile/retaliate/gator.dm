@@ -72,7 +72,7 @@
 	if(prob(33))
 		gender = FEMALE
 	update_appearance(UPDATE_OVERLAYS)
-	add_traits(list(TRAIT_NODROWN, TRAIT_SWIMMER), INNATE_TRAIT)
+	add_traits(list(TRAIT_NODROWN, TRAIT_SWIMMER, TRAIT_BLOODLOSS_IMMUNE), INNATE_TRAIT)
 
 /mob/living/simple_animal/hostile/retaliate/gator/tamed(mob/user)
 	. = ..()

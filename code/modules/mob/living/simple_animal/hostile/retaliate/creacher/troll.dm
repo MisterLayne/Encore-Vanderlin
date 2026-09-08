@@ -89,6 +89,7 @@
 	. = ..()
 	AddComponent(/datum/component/ai_aggro_system, 10 , range)
 	ADD_TRAIT(src, TRAIT_ACID_IMMUNE, TRAIT_GENERIC)
+	ADD_TRAIT(src, TRAIT_BLOODLOSS_IMMUNE, INNATE_TRAIT)
 
 /mob/living/simple_animal/hostile/retaliate/troll/get_sound(input)
 	switch(input)

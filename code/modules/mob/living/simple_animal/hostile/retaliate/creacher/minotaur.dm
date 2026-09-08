@@ -47,6 +47,7 @@
 
 /mob/living/simple_animal/hostile/retaliate/minotaur/Initialize()
 	. = ..()
+	ADD_TRAIT(src, TRAIT_BLOODLOSS_IMMUNE, INNATE_TRAIT)
 	AddComponent(/datum/component/ai_aggro_system)
 
 /mob/living/simple_animal/hostile/retaliate/minotaur/female

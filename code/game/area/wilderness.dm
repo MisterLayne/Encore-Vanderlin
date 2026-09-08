@@ -26,7 +26,7 @@
 		new /datum/ambush_config/highwayman_gang = 6,
 		new /datum/ambush_config/mixed_wildlife = 15,
 	)
-	first_time_text = "THE MURDERWOOD"
+	first_time_text = "THE WILDS"
 	custom_area_sound = 'sound/misc/stings/ForestSting.ogg'
 	converted_type = /area/indoors/shelter/woods
 	threat_region = THREAT_REGION_WOODS

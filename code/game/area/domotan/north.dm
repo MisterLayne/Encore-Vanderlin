@@ -35,8 +35,9 @@
 	soundenv = 15
 	ambush_times = list("night")
 	ambush_mobs = list(
-				/mob/living/simple_animal/hostile/retaliate/wolf = 10,
-				/mob/living/carbon/human/species/goblin/npc/ambush = 10)
+				/mob/living/simple_animal/hostile/retaliate/bobcat = 10,
+				/mob/living/simple_animal/hostile/retaliate/raccoon = 10,
+				/mob/living/simple_animal/hostile/retaliate/bigrat = 10)
 	first_time_text = "County of Etgard"
 	threat_region = THREAT_REGION_BASIN
 
@@ -47,8 +48,9 @@
 	soundenv = 15
 	ambush_times = list("night")
 	ambush_mobs = list(
-				/mob/living/simple_animal/hostile/retaliate/wolf = 10,
-				/mob/living/carbon/human/species/rousman/ambush = 10)
+				/mob/living/simple_animal/hostile/retaliate/bobcat = 10,
+				/mob/living/simple_animal/hostile/retaliate/raccoon = 10,
+				/mob/living/simple_animal/hostile/retaliate/bigrat = 10)
 	first_time_text = "Hamlet of Lakeside"
 	threat_region = THREAT_REGION_BASIN
 

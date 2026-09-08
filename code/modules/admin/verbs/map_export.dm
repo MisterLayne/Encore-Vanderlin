@@ -278,6 +278,10 @@ GLOBAL_LIST_EMPTY(save_whitelist)
 	list += typesof(/obj/item/paint_palette)
 	list += typesof(/obj/item/melee)
 	list += typesof(/obj/item/gem_device)
+	list += typesof(/obj/item/carvedgem)
+	list += typesof(/obj/item/paper)
+	list += typesof(/obj/item/dice)
+	list += typesof(/obj/item/toy)
 
 	return list
 

@@ -1,6 +1,6 @@
 /datum/action/cooldown/spell/undirected/jaunt/ethereal_jaunt
 	name = "Ethereal Jaunt"
-	desc = "This spell turns your form ethereal, temporarily making you invisible and able to pass through walls."
+	desc = "This spell turns your form ethereal, temporarily making you invisible and able to pass through walls. Requires a spellbook to be cast, due to the complexity of the spell."
 	button_icon_state = "jaunt"
 	sound = 'sound/magic/ethereal_enter.ogg'
 
@@ -31,7 +31,8 @@
 	cooldown_time = 95 SECONDS
 	required_form = FORM_ARCANE
 	required_technique = TECHNIQUE_ALTERATION
-	required_level = 12 //lol
+	required_items = list(/obj/item/spellbook)
+	required_level = 8 //lol
 	initial_charges = 3
 
 /datum/action/cooldown/spell/undirected/jaunt/ethereal_jaunt/enter_jaunt(mob/living/jaunter, turf/loc_override)

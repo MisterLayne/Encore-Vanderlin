@@ -65,6 +65,7 @@
 	. = ..()
 	AddComponent(/datum/component/ai_aggro_system)
 	gender = MALE
+	ADD_TRAIT(src, TRAIT_BLOODLOSS_IMMUNE, INNATE_TRAIT)
 
 /mob/living/simple_animal/hostile/retaliate/bogbug/get_sound(input)
 	switch(input)

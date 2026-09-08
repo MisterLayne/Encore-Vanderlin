@@ -357,6 +357,17 @@
 /obj/structure/fluff/walldeco/sign/saiga/left
 	icon_state = "shopsign_inn_saiga_left"
 
+/*	..................   Wynceslar's Pride   ................... */
+/obj/structure/fluff/walldeco/sign/wynceslar_tavern
+	name = "Wynceslar's Pride"//This was made by a regent canonically on 9/7/2026
+	desc = "The coat of arms of Wynceslar Shirleigh, a prince of Etgard. Atop it is emblazoned the title of this quaint little tavern, emboldened by his vibrance."
+	icon = 'icons/roguetown/misc/domotan/decoration.dmi'
+	icon_state = "shopsign_inn_wynceslar_right"
+	SET_BASE_PIXEL(3, 16)
+
+/obj/structure/fluff/walldeco/sign/wynceslar_tavern/left
+	icon_state = "shopsign_inn_wynceslar_left"
+
 /obj/structure/fluff/walldeco/sign/trophy
 	name = "saiga trophy"
 	icon_state = "saiga_trophy"

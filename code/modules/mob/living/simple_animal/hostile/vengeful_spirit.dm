@@ -50,3 +50,4 @@
 	. = ..()
 	AddComponent(/datum/component/ai_aggro_system)
 	addtimer(CALLBACK(src, TYPE_PROC_REF(/mob/living/simple_animal, death), TRUE), 30 SECONDS)
+	ADD_TRAIT(src, TRAIT_BLOODLOSS_IMMUNE, INNATE_TRAIT)

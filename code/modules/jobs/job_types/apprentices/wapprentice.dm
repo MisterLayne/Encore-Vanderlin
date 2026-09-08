@@ -69,10 +69,8 @@
 	skill_multipliers = list(/datum/attribute/skill/magic/arcane = 1.25)
 	book_type = /obj/item/recipe_book/arcyne
 
-/datum/job/mageapprentice/after_spawn(mob/living/carbon/human/spawned, client/player_client)
-	. = ..()
-	if(spawned.age == AGE_ADULT)
-		spawned.adjust_form_mastery_points(3)
+	form_points = 4
+	technique_points = 4
 
 /datum/job/mageapprentice/on_roundstart(mob/living/spawned, client/player_client)
 	. = ..()

@@ -121,7 +121,7 @@
 		/obj/item/frumentarii = 1
 	)
 	armor = /obj/item/clothing/armor/leather/jacket/handjacket
-	pants = /obj/item/clothing/pants/tights/colored/black
+	pants = /obj/item/clothing/pants/trou/formal
 	belt = /obj/item/storage/belt/leather/steel
 	beltl = /obj/item/weapon/sword/rapier/dec
 	scabbards = list(/obj/item/weapon/scabbard/sword/royal)
@@ -250,7 +250,7 @@
 	shirt = /obj/item/clothing/shirt/undershirt/fancy
 	backr = /obj/item/storage/backpack/satchel/black
 	armor = /obj/item/clothing/armor/gambeson/hand
-	pants = /obj/item/clothing/pants/tights/colored/black
+	pants = /obj/item/clothing/pants/trou/formal
 	shoes = /obj/item/clothing/shoes/boots/darkboots
 	backpack_contents = list(
 		/obj/item/weapon/knife/dagger/steel/special = 1,
@@ -454,8 +454,12 @@
 	honorary = "Magister"
 	honorary_f = "Magistrix"
 
-	form_points = 6
-	technique_points = 8
+	form_points = 10
+	technique_points = 10
+
+	spells = list(
+		/datum/action/cooldown/spell/undirected/touch/prestidigitation,
+	)
 
 	traits = list(
 		TRAIT_NOBLE_BLOOD,
@@ -504,7 +508,7 @@
 	)
 	armor = /obj/item/clothing/armor/gambeson/hand
 	cloak = /obj/item/clothing/cloak/half
-	pants = /obj/item/clothing/pants/tights/colored/black
+	pants = /obj/item/clothing/pants/trou/formal
 	shoes = /obj/item/clothing/shoes/boots
 	beltl = /obj/item/storage/magebag/apprentice
 

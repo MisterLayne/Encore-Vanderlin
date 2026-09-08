@@ -1,13 +1,14 @@
 
 /datum/action/cooldown/spell/aoe/knock
 	name = "Knock"
-	desc = "This spell opens nearby doors and closets."
+	desc = "This spell opens nearby doors and closets. Requires a spellbook to be cast, due to the complexity of the spell."
 	button_icon_state = "knock"
 	click_to_activate = FALSE
 
 	required_form = FORM_AIR
 	required_technique = TECHNIQUE_ILLUSION
 	required_level = 6
+	required_items = list(/obj/item/spellbook)
 
 	charge_time = 2 SECONDS
 	cooldown_time = 20 SECONDS

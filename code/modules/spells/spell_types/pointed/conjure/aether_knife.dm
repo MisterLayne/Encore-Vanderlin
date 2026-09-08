@@ -59,5 +59,5 @@
 	wdefense = 3
 	w_class = WEIGHT_CLASS_TINY
 	slot_flags = ITEM_SLOT_MOUTH
-	possible_item_intents = list(/datum/intent/dagger/thrust, /datum/intent/sword/thrust/short)
+	possible_item_intents = list(/datum/intent/dagger/thrust, /datum/intent/sword/thrust/short, /datum/intent/dagger/cut, /datum/intent/dagger/chop)
 	sellprice = 0
