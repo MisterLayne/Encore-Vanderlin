@@ -125,12 +125,6 @@
 			retract_all()
 		wearer = null
 
-/obj/item/thaumarig/dropped(mob/living/user)
-	if(deployed)
-		retract_all(instant = TRUE)
-	wearer = null
-	return ..()
-
 /obj/item/thaumarig/attack_self(mob/user)
 	. = ..()
 	toggle_rig(user)
