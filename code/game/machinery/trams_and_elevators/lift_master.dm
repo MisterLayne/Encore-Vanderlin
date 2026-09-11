@@ -878,7 +878,10 @@ GLOBAL_LIST_EMPTY(active_lifts_by_type)
 				continue
 			if(istype(listed_atom, /obj/item/coin))
 				continue
-
+			if(isitem(listed_atom))
+				var/obj/item/sold_item = listed_atom
+				if(sold_item.persisted)
+					continue
 			var/bounty_status = SSmerchant.active_faction.handle_selling(listed_atom)
 			if(bounty_status == TRUE)
 				// Clean up nested contents and delete
@@ -931,6 +934,10 @@ GLOBAL_LIST_EMPTY(active_lifts_by_type)
 					continue
 				if(istype(inside, /obj/item/coin))
 					continue
+				if(isitem(inside))
+					var/obj/item/I = inside
+					if(I.persisted)
+						continue
 				var/bounty_status_inside = SSmerchant.active_faction.handle_selling(inside)
 				if(bounty_status_inside == TRUE)
 					qdel(inside)

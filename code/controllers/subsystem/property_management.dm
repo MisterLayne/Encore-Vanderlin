@@ -143,6 +143,11 @@ SUBSYSTEM_DEF(housing)
 						if(door.lock)
 							QDEL_NULL(door.lock)
 						door.lock = new /datum/lock/key(door, lock_list)
+				for(var/obj/item/I in T.get_all_contents())
+					I.persisted = TRUE
+
+			for(var/obj/item/I in extra_armor_on_turfs(turfs))
+				qdel(I)
 
 			return TRUE
 	return load_default_template(property, TRUE)
@@ -162,8 +167,20 @@ SUBSYSTEM_DEF(housing)
 	var/maxy = miny + property.template_y - 1
 	var/maxz = minz + property.template_z - 1
 
+	var/list/yanked = list()
+	for(var/obj/item/I in extra_armor_on_turfs(get_property_turfs(property)))
+		yanked[I] = I.loc
+		I.forceMove(null)
+
 	var/save_flags = SAVE_OBJECTS | SAVE_TURFS | SAVE_AREAS | SAVE_OBJECT_PROPERTIES | SAVE_UUID_STASIS | SAVE_WHITELIST | SAVE_ITEMS
 	var/map_data = write_map(minx, miny, minz, maxx, maxy, maxz, save_flags, SAVE_SHUTTLEAREA_DONTCARE, property_noop = property.save_id)
+
+	for(var/obj/item/I in yanked)
+		if(QDELETED(I))
+			continue
+		var/atom/old_loc = yanked[I]
+		if(old_loc && !QDELETED(old_loc))
+			I.forceMove(old_loc)
 
 	if(!map_data)
 		log_admin("Housing: Failed to generate map data for [ckey]'s property [property.property_id] slot [slot]")
@@ -529,6 +546,7 @@ SUBSYSTEM_DEF(housing)
 		name = "Claimed Property (Slot [selected_slot])"
 		desc = "Click to save your current design to slot [selected_slot]."
 		to_chat(user, span_notice("Property claimed with design slot [selected_slot]! Click again to save changes. Items which are inside of containers will not be saved!"))
+		to_chat(user, span_notice("Only one armor set can be saved at a time. Saved house items cannot be resold after a round reset."))
 	else
 		to_chat(user, span_warning("Failed to claim property!"))
 
@@ -541,12 +559,13 @@ SUBSYSTEM_DEF(housing)
 		to_chat(user, span_warning("No slot assigned to this property!"))
 		return
 
-	var/confirm = tgui_alert(user, "Save the current state to design slot [slot]?", "Save Property", list("Yes", "No"))
+	var/confirm = tgui_alert(user, "Save the current state to design slot [slot]?\n\nOnly one armor set can be saved (one piece per armor slot). Extra armor stays this round but will not persist.\nItems inside containers will not be saved.\nSaved items cannot be resold after the next round reset.", "Save Property", list("Yes", "No"))
 	if(confirm != "Yes")
 		return
 
 	if(SShousing.save_property(linked_property, user.ckey, slot))
 		to_chat(user, span_notice("Property saved successfully to slot [slot]!"))
+		to_chat(user, span_notice("Only one armor set was stored. Extra armor was left here and was not saved."))
 	else
 		to_chat(user, span_warning("Failed to save property!"))
 
@@ -616,3 +635,55 @@ SUBSYSTEM_DEF(housing)
 		qdel(src)
 	else
 		to_chat(user, span_warning("Purchase failed!"))
+
+/datum/controller/subsystem/housing/proc/get_property_turfs(obj/effect/landmark/house_spot/property)
+	var/turf/T = get_turf(property)
+	if(!T || !property.template_x || !property.template_y)
+		return list()
+	return block(T, locate(T.x + property.template_x - 1, T.y + property.template_y - 1, T.z + property.template_z - 1))
+
+/datum/controller/subsystem/housing/proc/item_functions_as_armor(obj/item/I)
+	if(!istype(I, /obj/item/clothing))
+		return FALSE
+	var/datum/armor/A = I.get_armor()
+	if(!A)
+		return FALSE
+	for(var/damage_key in ARMOR_LIST_DAMAGE)
+		if(A.get_rating(damage_key) > 0)
+			return TRUE
+	return FALSE
+
+/datum/controller/subsystem/housing/proc/armor_slot(obj/item/I)
+	var/static/list/armor_slots = list(
+		ITEM_SLOT_ARMOR,
+		ITEM_SLOT_HEAD,
+		ITEM_SLOT_GLOVES,
+		ITEM_SLOT_PANTS,
+		ITEM_SLOT_SHOES,
+	)
+	for(var/slot in armor_slots)
+		if(I.slot_flags & slot)
+			return slot
+	return "misc"
+
+/datum/controller/subsystem/housing/proc/extra_armor_on_turfs(list/turfs)
+	var/list/kept = list()
+	. = list()
+	for(var/turf/T in turfs)
+		if(!T)
+			continue
+		for(var/obj/item/I in T.get_all_contents())
+			if(!istype(I, /obj/item/clothing))
+				continue
+			if(!item_functions_as_armor(I))
+				continue
+			var/slot = "[armor_slot(I)]"
+			var/obj/item/existing = kept[slot]
+			if(!existing)
+				kept[slot] = I
+				continue
+			if(I.sellprice > existing.sellprice)
+				. += existing
+				kept[slot] = I
+			else
+				. += I

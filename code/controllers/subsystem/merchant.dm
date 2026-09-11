@@ -231,6 +231,12 @@ SUBSYSTEM_DEF(merchant)
  *   The base value, or 0 if not found
  */
 /datum/controller/subsystem/merchant/proc/get_item_base_value(item_type)
+	/// Make sure the item was not persistent in housing.
+	if(isitem(item_type))
+		var/obj/item/instance = item_type
+		if(instance.persisted)
+			return 0
+
 	// Check if it's a craftable item with recipe cost
 	if(item_type in recipe_base_values)
 		return recipe_base_values[item_type]

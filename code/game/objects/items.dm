@@ -307,6 +307,9 @@ GLOBAL_DATUM_INIT(fire_overlay, /mutable_appearance, mutable_appearance('icons/e
 	///if this is set we add the spell modifier component with these stats
 	var/datum/spellcraft_contribution/item/spell_modifier
 
+	/// Is set to TRUE if an item was persisted in housing.
+	var/persisted = FALSE
+
 /obj/item/Initialize(mapload)
 	if (attack_verb)
 		attack_verb = typelist("attack_verb", attack_verb)

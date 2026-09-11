@@ -277,6 +277,10 @@ Can accept both a type path, and an instance of a datum. Type path has priority.
 /datum/component/trader/proc/sell_item(mob/customer, obj/item/selling)
 	if(isnull(selling))
 		return FALSE
+	if(selling.persisted)
+		var/mob/living/trader = parent
+		trader.say("I won't buy items that have persisted in housing.")
+		return FALSE
 	var/list/product_info
 	//Keep track of the typepath; rather mundane but it's required for correctly modifying the wanted_items
 	//should a product be sellable because even if it doesn't have a entry because it's a child of a parent that is present on the list

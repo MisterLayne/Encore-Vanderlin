@@ -88,6 +88,10 @@
 	popup.open()
 
 /obj/structure/fake_machine/stockpile/proc/attemptsell(obj/item/I, mob/H, message = TRUE, sound = TRUE)
+	if(I.persisted)
+		if(message)
+			say("I won't buy items that have persisted in housing.")
+		return 0
 	for(var/datum/stock/R in SStreasury.stockpile_datums)
 		if(istype(I, /obj/item/natural/bundle))
 			var/obj/item/natural/bundle/B = I
